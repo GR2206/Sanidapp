@@ -1,0 +1,57 @@
+{
+  "id": "mor-001",
+  "name": "Morfina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Dolor agudo y crónico, moderado o severo. Tratamiento sintomático de disnea. Crisis de disnea y cianosis. Opiáceo fuerte.",
+  "indications": "## Indicaciones principales\n\nDolor agudo y crónico, moderado o severo. Tratamiento sintomático de disnea. Crisis de disnea y cianosis. Opiáceo fuerte.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 10 mg/mL.",
+      "dose": "2–5 mg IV cada 5–15 min PRN; PCA o infusión según prescripción.",
+      "administration": "IV lenta."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas: 10 mg/ml; Jarabe (preparado magistral): 0,1% (1 mg/ml), 0,3% (3 mg/ml), 1% (10 mg/ml) Ver formulación",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%, Ringer.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "En bolo 5 min. 15 a 30 min. con BIC.",
+      "dose": "V.O.: Dosis inicial 0,1 mg/kg cada 4 hs; E.V.; S.C.; I.M.: &lt; 50 kg: 0,05 mg/kg cada 4 hs; Infusión continua: 0,05 mg/kg/hora; &gt;50 kg: Dosis inicial V.O.: 10 mg cada 4 hs (no tiene dosis tope); E.V.: 5 mg cada 4 hs, Infusión continua: 2 mg/hora. Aumentar la dosis 50% cada vez hasta alcanzar dosis efectiva.",
+      "notes": "Es recomendable asociar un AINE. Recordar que el dolor neuropático responde parcialmente a los opiáceos (asociar adyuvantes). Equivalencia analgésica: 1 mg de morfina E.V. = 2 mg de morfina V.O.; 1 mg de morfina E.V. = 10 µg de fentanilo. Ver Guía práctica para manejo analgosedación y su descenso en salas de cuidados intermedios y moderados. Para la presentación de 1% (10 mg/ml), debe venir la receta refrendada al dorso."
+    },
+    "neonatal": {
+      "dose": "0,01–0,05 mg/kg/dosis según escala de dolor NNU.",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## General\n\n- Usar dilución en turno.\n\n## Cartilla pediátrica\n\n- No especificado en cartilla.",
+  "adverseEffects": "## Efectos adversos\n\nVer apartado analgésicos opiáceos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Morfina Clorhidrato (cód. 0144, ATC N02AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

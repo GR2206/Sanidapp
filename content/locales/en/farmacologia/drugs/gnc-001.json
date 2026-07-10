@@ -1,0 +1,47 @@
+{
+  "id": "gnc-001",
+  "name": "Ganciclovir",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Antiviral for cytomegalovirus in transplant recipients and immunocompromised patients; myelotoxicity.",
+  "indications": "## Indications\n\n- Invasive CMV disease in transplant recipients.\n- CMV prophylaxis in high-risk regimens.\n\n## Precautions\n\n- Neutropenia and thrombocytopenia. Teratogenic. Adjust in chronic kidney disease.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 500 mg (Ganciclovir Richet, Cymevene).",
+      "reconstitution": "10 mL sterile water. Conc: 50 mg/mL.",
+      "diluent": "500 mg in 50–100 mL of 0.9% NaCl or 5% Dextrose.",
+      "finalConcentration": "5–10 mg/mL.",
+      "administration": "Intermittent IV: Yes. Dilute in 100 mL of 0.9% NaCl or 5% Dextrose and administer in no less than 60 min."
+    },
+    "pediatrico": {
+      "dose": "5 mg/kg IV every 12 h per transplant protocol.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "6 mg/kg/dose every 12 h in congenital CMV (specialized protocol).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 12 h at room temperature. Do not refrigerate.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature. Do not refrigerate.",
+  "adverseEffects": "## Effects\n\n- Neutropenia, thrombocytopenia, nephrotoxicity.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases, Infection Prevention and Control Service. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    }
+  ]
+}

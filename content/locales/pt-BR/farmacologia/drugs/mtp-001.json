@@ -1,0 +1,59 @@
+{
+  "id": "mtp-001",
+  "name": "Metoclopramida",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antiemético, antinauseoso.",
+  "indications": "## Indicações principais\n\nAntiemético, antinauseoso.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 10 mg/2 mL.",
+      "dose": "10 mg E.V. lenta a cada 6–8 h PRN.",
+      "administration": "E.V. lenta."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 10 mg; Gotas crianças: 2 mg/ml (0,1 mg/gota); Gotas adultos: 5 mg/ml; Ampolas por 2 ml: 5 mg/ml",
+      "administration": "V.O.; E.V.; I.M.",
+      "diluent": "Sol. Cl Na 0,9%.",
+      "finalConcentration": "0,2 a 5 mg/mL.",
+      "infusionRate": "Não menor que 15 min.",
+      "dose": "Crianças: 0,4 - 0,8 mg/kg/dia a cada 6 h; adultos: 10 - 15 mg/dose a cada 6 h. Por quimioterapia: E.V. - V.O.: 1 - 2 mg/kg/dose, a cada 2 - 4 h por 2 a 5 doses, se continuarem as náuseas e/ou vômitos: 0,5 mg/kg ou 30 mg; a cada 4 - 6 h por 5 dias. Pós-operatório: crianças: 0,1 - 0,2 mg/kg/dose a cada 6 - 8 h; > 14 anos e adultos: 10 mg a cada 6 - 8 h. A dose máxima é a anterior àquela que produz efeitos extrapiramidais.",
+      "compatibility": "Incompatível com cefalotina e bicarbonato de sódio.",
+      "notes": "Usar com precaução e reduzir a dose em insuficiência renal, hipertensão ou depressão. Os antimuscarínicos e analgésicos opiáceos antagonizam o efeito da metoclopramida sobre o trato gastrointestinal, os antipsicóticos aumentam o risco dos efeitos extrapiramidais. A metoclopramida aumenta os efeitos do paracetamol e aspirina."
+    },
+    "neonatal": {
+      "dose": "Uso restrito; 0,1 mg/kg conforme protocolo da UCIN.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Geral\n\n- Usar após extração.\n\n## Guia pediátrica\n\n- Descartar o sobrante uma vez aberta.",
+  "adverseEffects": "## Efeitos adversos\n\nSintomas extrapiramidais (mais comuns em crianças e adultos jovens, especialmente após doses altas por via E.V.), convulsões, síndrome neuroléptica maligna. Ocasionalmente: sonolência, inquietação, depressão, diarreia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — MetoCLOPRAMIDA (cód. 0138, ATC A03FA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

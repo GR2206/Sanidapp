@@ -1,0 +1,53 @@
+{
+  "id": "den-001",
+  "name": "Disenteria",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "body": "A **disenteria** é uma síndrome diarreica caracterizada por **fezes com sangue e/ou muco**, febre, dor abdominal e **tenesmo**, habitualmente produzida por enteropatógenos invasivos. Na pediatria e em contextos de saúde pública destacam-se *Shigella*, *Campylobacter jejuni*, *Salmonella* não tifoide e *Entamoeba histolytica* (disenteria amebiana). Deve distinguir-se da diarreia aquosa não invasiva e da hemorragia digestiva alta; a gravidade relaciona-se com desidratação, sepse, prostração e complicações (megacólon tóxico, bacteremia, síndrome hemolítico-urêmica).\n\nO diagnóstico é clínico-epidemiológico no primeiro contato, complementado por **coprocultura**, pesquisa de parasitas nas fezes e, conforme disponibilidade, painéis moleculares ou antígenos fecais. Diante de febre alta, letargia, sinais de choque ou diarreia profusa com sangue em lactentes, considerar internação e antibioticoterapia empírica conforme diretriz local e resistências regionais. Na **infecção por E. coli enterohemorrágica (EHEC)** desaconselha-se o uso rotineiro de antibióticos pelo risco de síndrome hemolítico-urêmica.\n\nO **tratamento** prioriza a **reidratação** (plano A, B ou C da OMS conforme grau de desidratação) e a nutrição precoce. A antibioticoterapia reserva-se para disenteria bacilar confirmada ou suspeita com critérios de gravidade: em muitos esquemas pediátricos e de infectologia empregam-se **azitromicina**, **ciprofloxacino** ou **ceftriaxona** conforme idade, patógeno e mapa de resistência; *Shigella* multirresistente exige ajuste conforme antibiograma. Na disenteria amebiana sintomática indica-se **metronidazol** e posterior agente luminal conforme protocolo.\n\n**Enfermagem**: isolamento de contato conforme normativa institucional; registrar frequência e características das evacuações, temperatura, estado de hidratação e diurese; colher amostra fecal antes do antibiótico quando possível sem atrasar tratamento em quadros graves; administrar SRO ou fluidos IV conforme plano de reidratação; vigiar sinais de alarme (letargia, oligúria, sangramento maciço, distensão abdominal); educar a família sobre higiene das mãos, manejo seguro das fezes e retorno à alimentação habitual após estabilização.",
+  "clinicalBox": {
+    "title": "Disenteria — critérios de gravidade e antibiótico",
+    "content": "Avaliar **antibioticoterapia** e/ou internação diante de:\n**Desidratação** moderada ou severa · **Febre** ≥ 38,5 °C persistente · **Sangue abundante** nas fezes · **Tenesmo** incapacitante · **Prostração**, letargia ou irritabilidade marcada\n**Lactente** < 3 meses · **Imunossupressão** · **Sinais de sepse** ou abdome agudo\n\n**Precaução:** na suspeita de **EHEC** (diarreia sanguinolenta sem febre alta, surtos, evolução com anemia/oligúria) evitar antibióticos até definir etiologia.\n**Amostra:** coprocultura e parasitas nas fezes o mais precocemente possível."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "azi-001",
+      "label": "Azitromicina"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacina"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazol"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimetoprima/sulfametoxazol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Organização Mundial da Saúde (OMS). The treatment of diarrhoea: a manual for physicians and other senior health workers.",
+      "url": "https://www.who.int/health-topics/diarrhoea"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes de doenças infecciosas e resistência antimicrobiana.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estratégias e guias de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Red Book — enteric infections and dysentery.",
+      "url": "https://publications.aap.org/redbook"
+    }
+  ]
+}

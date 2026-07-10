@@ -1,0 +1,31 @@
+{
+  "id": "dpp-p001",
+  "title": "Pediatric peritoneal dialysis: exchanges and care",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Perform pediatric peritoneal dialysis exchanges using an aseptic technique, with volumes adjusted to body surface area, caregiver education, and monitoring for peritonitis in accordance with pediatric ISPD guidelines.",
+  "body": "## Steps to perform\n\n1. Verify patient identification, current weight, and prescription (volume per exchange, dwell time, concentration, CAPD/APD modality).\n2. Involve a trained caregiver; explain the steps to the child in an age-appropriate manner.\n3. Perform hand hygiene; prepare single-use sterile supplies.\n4. Reduce air drafts; wear a mask if required by institutional protocol.\n5. Disinfect the catheter cap and connections (using circular friction for \u2265 15 seconds); allow to dry.\n6. **Drainage:** connect the tubing set; drain completely; record the volume and appearance of the effluent.\n7. **Infusion:** connect the dialysate bag, purge any air; infuse the prescribed volume based on weight/body surface area.\n8. Close clamps; disconnect using an aseptic technique; place a sterile cap on the catheter.\n9. Discard used supplies; record the time, volumes, concentration, and any incidents.\n10. Weigh the child; monitor for abdominal pain, fever, nausea, or cloudy effluent.\n11. In case of cloudy effluent: do not re-infuse; notify immediately; draw an effluent sample for culture and cell count.\n\n## Scientific rationale\n\n### Pediatric volumes\n\n| Parameter | Guidance |\n| --- | --- |\n| Fill volume | 800\u20131100 ml/m\u00b2 of body surface area (adjust to tolerance) |\n| Initial volume in infants | Lower volume; progressive increments according to nephrology guidance |\n| Dwell time | According to prescription; frequently longer dwell times in infants |\n\nRecalculate volumes with every significant change in weight or height.\n\n### Evidence and recommendations\n\n> **ISPD Pediatric Guidelines (2020):** Pediatric PD preserves growth and quality of life; an aseptic technique and caregiver education are essential (Schaefer et al., 2020).\n\n> **Pediatric peritonitis:** Presentation may be atypical in infants (irritability, low-grade fever); cloudy effluent is the cardinal sign (Li et al., 2016).\n\n### Caregiver education\n\n- Step-by-step connection/disconnection technique.\n- Proper dialysate storage and maintaining a clean environment.\n- Warning signs: cloudiness, fever, pain, fluid leakage.\n- 24-hour contact availability with the pediatric nephrology team.\n\n### Pediatric monitoring\n\n- Weight and height measurement at every follow-up check (growth percentiles).\n- Blood pressure monitoring adjusted for age.\n- Nutritional status and serum protein levels.\n- School attendance and adapted physical activity.\n\n### Complications \u2014 notify immediately\n\n- Peritonitis (cloudy effluent \u00b1 fever/pain).\n- Dialysate leak or hernia.\n- Catheter obstruction.\n- Dehydration or fluid overload.\n- Exit-site infection.",
+  "bibliography": [
+    {
+      "citation": "Schaefer F, et al. ISPD Guidelines for Peritoneal Dialysis in Children. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316759/"
+    },
+    {
+      "citation": "Li PK, et al. ISPD Peritonitis Recommendations 2016. Perit Dial Int. 2016.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27649941/"
+    },
+    {
+      "citation": "Warady MA, et al. IPNA clinical practice recommendations for children with CKD. Pediatr Nephrol. 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30830470/"
+    },
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "International Society for Peritoneal Dialysis — pediatric guidelines.",
+      "url": "https://www.ispd.org/guidelines"
+    }
+  ]
+}

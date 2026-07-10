@@ -1,0 +1,38 @@
+id,name,category,clinical_box,status
+abd-001,Abdomen agudo,cirugía,no,publicado
+acv-001,Accidente cerebrovascular (ACV),neurología,sí,publicado
+ana-001,Anafilaxia,alergia,sí,publicado
+ang-001,Angina inestable e IAMSEST,cardiovascular,no,publicado
+asm-001,Asma — crisis aguda,respiratorio,no,publicado
+cel-001,Celulitis e infección de piel y partes blandas,infectología,no,publicado
+cad-001,Cetoacidosis diabética (CAD),endocrinología,no,publicado
+cho-001,Colangitis aguda,gastroenterología,sí,publicado
+cov-001,COVID-19 — enfermedad aguda,respiratorio,no,publicado
+cvu-001,Crisis convulsiva y status epilepticus,neurología,no,publicado
+del-001,Delirium agudo,geriatría,no,publicado
+dia-001,Diabetes mellitus,endocrinología,no,publicado
+ecl-001,Eclampsia y preeclampsia severa,obstetricia,no,publicado
+end-001,Endocarditis infecciosa,infectología,sí,publicado
+epoc-001,EPOC — exacerbación aguda,respiratorio,no,publicado
+fa-001,Fibrilación auricular (FA),cardiovascular,sí,publicado
+hda-001,Hemorragia digestiva alta (HDA),gastroenterología,sí,publicado
+hta-001,Hipertensión arterial (HTA),cardiovascular,no,publicado
+hip-001,Hipoglucemia severa,endocrinología,sí,publicado
+iam-001,Infarto agudo de miocardio (IAM),cardiovascular,sí,publicado
+itu-001,Infección urinaria complicada y pielonefritis,infectología,no,publicado
+icc-001,Insuficiencia cardíaca (ICC),cardiovascular,no,publicado
+ira-001,Insuficiencia renal aguda (IRA),nefrología,no,publicado
+int-001,Intoxicación aguda,toxicología,no,publicado
+men-001,Meningitis y meningoencefalitis,infectología,no,publicado
+pna-001,Neumonía adquirida en la comunidad,respiratorio,sí,publicado
+pnc-001,Pancreatitis aguda,gastroenterología,no,publicado
+per-001,Pericarditis aguda,cardiovascular,no,publicado
+tra-001,Politraumatismo,trauma,sí,publicado
+rhd-001,Rabdomiólisis,nefrología,sí,publicado
+sep-001,Sepsis y shock séptico,infectología,sí,publicado
+sin-001,Síncope,cardiovascular,no,publicado
+tsv-001,Taquicardia supraventricular (TSV),cardiovascular,no,publicado
+tdm-001,Trastornos del medio interno,metabolismo,no,publicado
+tep-001,Tromboembolismo pulmonar (TEP),cardiovascular,sí,publicado
+dlp-001,Dislipemia,metabolismo,no,publicado
+den-001,Disentería,gastroenterología,sí,publicado

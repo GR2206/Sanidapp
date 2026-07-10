@@ -1,0 +1,1300 @@
+{
+  "branch": "atencion-sanitaria",
+  "drugs": [
+    {
+      "id": "aci-001",
+      "name": "Aciclovir",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ade-001",
+      "name": "Adenosina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "adr-001",
+      "name": "Adrenalina (epinefrina)",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "alb-001",
+      "name": "Albúmina humana",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ami-001",
+      "name": "Amikacina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "teo-001",
+      "name": "Aminofilina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amd-001",
+      "name": "Amiodarona",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "aml-001",
+      "name": "Amlodipino",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amo-001",
+      "name": "Amoxicilina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amo-002",
+      "name": "Amoxicilina/ácido clavulánico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.3",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amp-001",
+      "name": "Ampicilina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amp-002",
+      "name": "Ampicilina-sulbactam",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.5",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amf-003",
+      "name": "Anfotericina B complejo lipídico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amf-001",
+      "name": "Anfotericina B desoxicolato",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "amf-002",
+      "name": "Anfotericina B liposomal",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ani-001",
+      "name": "Anidulafungina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ate-001",
+      "name": "Atenolol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "atr-002",
+      "name": "Atracurio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "atr-001",
+      "name": "Atropina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "azi-001",
+      "name": "Azitromicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.5",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "azt-001",
+      "name": "Aztreonam",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "azt-002",
+      "name": "Aztreonam-avibactam",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "bic-001",
+      "name": "Bicarbonato de sodio",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "bis-001",
+      "name": "Bisoprolol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "ipr-001",
+      "name": "Bromuro de ipratropio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "bum-001",
+      "name": "Bumetanida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "bup-001",
+      "name": "Bupivacaína",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cap-001",
+      "name": "Captopril",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "car-001",
+      "name": "Carbamazepina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cvd-001",
+      "name": "Carvedilol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cas-001",
+      "name": "Caspofungina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-001",
+      "name": "Cefalexina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-009",
+      "name": "Cefalotina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-002",
+      "name": "Cefazolina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "cef-008",
+      "name": "Cefepime",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-006",
+      "name": "Cefotaxima",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-004",
+      "name": "Cefoxitina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "cef-010",
+      "name": "Ceftarolina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-007",
+      "name": "Ceftazidima",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-011",
+      "name": "Ceftazidima-avibactam",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-012",
+      "name": "Ceftolozano-tazobactam",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-005",
+      "name": "Ceftriaxona",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cef-003",
+      "name": "Cefuroxima",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cip-001",
+      "name": "Ciprofloxacina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cst-001",
+      "name": "Cisatracurio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "caf-001",
+      "name": "Citrato de cafeína",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cla-001",
+      "name": "Claritromicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cli-001",
+      "name": "Clindamicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "clo-001",
+      "name": "Clonidina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "clp-001",
+      "name": "Clorpromacina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cac-001",
+      "name": "Cloruro de calcio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "kcl-001",
+      "name": "Cloruro de potasio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "nsh-001",
+      "name": "Cloruro de sodio hipertónico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "col-001",
+      "name": "Colistina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dap-001",
+      "name": "Daptomicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "des-001",
+      "name": "Desmopresina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dxt-001",
+      "name": "Dexametasona",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "dex-001",
+      "name": "Dexmedetomidina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "glu-001",
+      "name": "Dextrosa (glucosa)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "dia-001",
+      "name": "Diazepam",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dic-001",
+      "name": "Diclofenac",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "dif-001",
+      "name": "Difenhidramina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dig-001",
+      "name": "Digoxina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dlt-001",
+      "name": "Diltiazem",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "dip-001",
+      "name": "Dipirona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dob-001",
+      "name": "Dobutamina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dop-001",
+      "name": "Dopamina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dox-001",
+      "name": "Doxiciclina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "efe-001",
+      "name": "Efedrina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "enp-001",
+      "name": "Enalapril",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "eno-001",
+      "name": "Enoxaparina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "eri-001",
+      "name": "Eritromicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ert-001",
+      "name": "Ertapenem",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "esm-001",
+      "name": "Esmolol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "esp-001",
+      "name": "Espironolactona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "est-001",
+      "name": "Estreptomicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "fen-001",
+      "name": "Fenilefrina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "fny-001",
+      "name": "Fenitoína",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "phb-001",
+      "name": "Fenobarbital",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "fnt-001",
+      "name": "Fentanilo",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "vit-001",
+      "name": "Fitomenadiona (vitamina K)",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "flc-001",
+      "name": "Flecainida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "flu-001",
+      "name": "Fluconazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "flm-001",
+      "name": "Flumazenil",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "fon-001",
+      "name": "Fondaparinux",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "fsc-001",
+      "name": "Foscarnet",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "pho-001",
+      "name": "Fosfato de potasio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "fos-001",
+      "name": "Fosfomicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "fur-001",
+      "name": "Furosemida",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "gnc-001",
+      "name": "Ganciclovir",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "gen-001",
+      "name": "Gentamicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "glc-001",
+      "name": "Glucagón",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "cag-001",
+      "name": "Gluconato de calcio",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "hal-001",
+      "name": "Haloperidol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "hef-001",
+      "name": "Heparina sódica",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "hdr-001",
+      "name": "Hidralazina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "hct-001",
+      "name": "Hidroclorotiazida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "hdc-001",
+      "name": "Hidrocortisona",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "fer-001",
+      "name": "Hierro sacarosa IV",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "hio-001",
+      "name": "Hioscina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "imp-001",
+      "name": "Imipenem+cilastatina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "imu-001",
+      "name": "Inmunoglobulina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "inp-001",
+      "name": "Insulina NPH",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "ins-001",
+      "name": "Insulina regular",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "isa-001",
+      "name": "Isavuconazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "iso-001",
+      "name": "Isosorbida mononitrato",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "ivb-001",
+      "name": "Ivabradina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ket-001",
+      "name": "Ketamina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ktr-001",
+      "name": "Ketorolac",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lab-001",
+      "name": "Labetalol",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lvt-001",
+      "name": "Levetiracetam",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lev-001",
+      "name": "Levofloxacino",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "ltx-001",
+      "name": "Levotiroxina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lid-001",
+      "name": "Lidocaína",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lin-001",
+      "name": "Linezolid",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lis-001",
+      "name": "Lisinopril",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "lor-001",
+      "name": "Lorazepam",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "los-001",
+      "name": "Losartán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "man-001",
+      "name": "Manitol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mer-001",
+      "name": "Meropenem",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mep-001",
+      "name": "Metilprednisolona",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mtp-001",
+      "name": "Metoclopramida",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mop-001",
+      "name": "Metoprolol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "met-001",
+      "name": "Metronidazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mic-001",
+      "name": "Micafungina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "mid-001",
+      "name": "Midazolam",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mil-001",
+      "name": "Milrinona",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "min-001",
+      "name": "Minociclina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mor-001",
+      "name": "Morfina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mox-001",
+      "name": "Moxifloxacino",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "nal-001",
+      "name": "Naloxona",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "nif-001",
+      "name": "Nifedipino",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "nit-001",
+      "name": "Nitrofurantoína",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ngl-001",
+      "name": "Nitroglicerina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "nip-001",
+      "name": "Nitroprusiato sódico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "nor-001",
+      "name": "Noradrenalina (norepinefrina)",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "oct-001",
+      "name": "Octreotida",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "olm-001",
+      "name": "Olmesartán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "ome-001",
+      "name": "Omeprazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ond-001",
+      "name": "Ondansetrón",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ose-001",
+      "name": "Oseltamivir",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "oxa-001",
+      "name": "Oxacilina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "pnc-001",
+      "name": "Pancuronio",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "pan-001",
+      "name": "Pantoprazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "pen-002",
+      "name": "Penicilina G benzatínica",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.2",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "pen-001",
+      "name": "Penicilina G sódica",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "pip-001",
+      "name": "Piperacilina+tazobactam",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "pol-001",
+      "name": "Polimixina B",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "pos-001",
+      "name": "Posaconazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ppf-001",
+      "name": "Propafenona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "pro-001",
+      "name": "Propofol",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "prp-001",
+      "name": "Propranolol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "prt-001",
+      "name": "Protamina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ram-001",
+      "name": "Ramipril",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "ran-001",
+      "name": "Ranitidina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "rem-001",
+      "name": "Remifentanilo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "rif-001",
+      "name": "Rifampicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "roc-001",
+      "name": "Rocuronio",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "sav-001",
+      "name": "Sacubitril/valsartán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "sal-001",
+      "name": "Salbutamol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "sil-001",
+      "name": "Sildenafil",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "suc-001",
+      "name": "Succinilcolina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "suf-001",
+      "name": "Sufentanilo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "sug-001",
+      "name": "Sugammadex",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "sul-001",
+      "name": "Sulbactam",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "mag-001",
+      "name": "Sulfato de magnesio",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "srf-001",
+      "name": "Surfactante pulmonar",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "tei-001",
+      "name": "Teicoplanina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "tel-001",
+      "name": "Telmisartán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "tia-001",
+      "name": "Tiamina (vitamina B1)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tic-001",
+      "name": "Ticarcilina/ácido clavulánico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tig-001",
+      "name": "Tigeciclina",
+      "branch": "atencion-sanitaria",
+      "version": "1.1",
+      "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "tob-001",
+      "name": "Tobramicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tor-001",
+      "name": "Torasemida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "trm-001",
+      "name": "Tramadol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "tri-001",
+      "name": "Trimetoprima+sulfametoxazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.2.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "val-001",
+      "name": "Valproato",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "vls-001",
+      "name": "Valsartán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "van-001",
+      "name": "Vancomicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.3",
+      "updatedAt": "2026-07-09"
+    },
+    {
+      "id": "vas-001",
+      "name": "Vasopresina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "vec-001",
+      "name": "Vecuronio",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "vrp-001",
+      "name": "Verapamilo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "vor-001",
+      "name": "Voriconazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.1.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "war-001",
+      "name": "Warfarina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "zid-001",
+      "name": "Zidovudina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
+    }
+  ]
+}

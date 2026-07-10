@@ -1,0 +1,58 @@
+{
+  "id": "amp-002",
+  "name": "Ampicillin-sulbactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.5",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Broad-spectrum antibiotic.",
+  "indications": "## Main indications\n\nBroad-spectrum antibiotic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 1 g ampicillin + 0,5 g sulbactam (PharmaVial, Drawer, Klonal, Norgreen, Northia**, Richmond).",
+      "reconstitution": "5 mL SWFI. Conc: 300 mg/mL.",
+      "diluent": "1,5 g in 100 mL 0.9% NaCl.",
+      "finalConcentration": "Conc. AMS: 15 mg/mL.",
+      "administration": "Direct IV: Yes. Reconstitute 1,5 g in 3 mL SWFI and administer over 3–5 min. Intermittent IV: Yes. Administer 1,5 g in 100 mL 0.9% NaCl over 15–30 min.",
+      "notes": "5% dextrose accelerates ampicillin hydrolysis (use immediately). Prefer dilution with 0.9% NaCl."
+    },
+    "pediatrico": {
+      "presentation": "Powder vial: 1,5 g (ampicillin: 1 g + sulbactam: 0,5 g)",
+      "reconstitution": "RECONSTITUTE WITH SWFI.",
+      "administration": "IV",
+      "diluent": "0.9% NaCl, 5% dextrose, Ringer.",
+      "finalConcentration": "Between 2 and 30 mg/mL.",
+      "infusionRate": "Between 15 and 30 min with continuous infusion pump.",
+      "dose": "Mild, moderate infections and prophylaxis: Children: 150 mg (ampicillin + sulbactam)/kg/day every 6 h, Adults: 1500 mg/dose every 6 h; maximum dose: 6 g/day (ampicillin + sulbactam). Severe infections (meningitis, bacteremia, complicated intra-abdominal infections, osteomyelitis): Children: 300 mg (ampicillin + sulbactam)/kg/day every 6 h; Adults: 3000 mg/dose every 6 h. Maximum dose: 12 g/day (ampicillin + sulbactam).",
+      "notes": "In patients with sodium restriction, note that 1500 mg of sultamicillin contains 5 mEq of sodium. Interacts with allopurinol (may increase frequency of ampicillin rash)."
+    },
+    "neonatal": {
+      "dose": "Dose according to postmenstrual age and weight (NICU protocol).",
+      "administration": "IV via syringe pump."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 1 h at room temperature and 4 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 3 h at room temperature and 24 h refrigerated.\n\n## Pediatric guide\n\n- 8 h at room temperature (25°C). 48 h refrigerated (4°C). Store at room temperature protected from light.",
+  "adverseEffects": "## Adverse effects\n\nInjection-site pain and phlebitis, diarrhea, rash, nausea, headache, erythema. Mild elevation of hepatic enzymes. Rare: hematologic abnormalities.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ampicilina + SULBACTAM (code 0903, ATC J01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

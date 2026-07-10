@@ -1,0 +1,27 @@
+{
+  "id": "sep-p001",
+  "title": "Sepse pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Reconhecer sepse com critérios Phoenix (disfunção orgânica ≥ 2 pontos), iniciar antibiótico precoce e reanimação guiada por perfusão nos primeiros 60 minutos.",
+  "body": "## Passos a realizar\n\n1. **Ativar protocolo de sepse** e comunicar à equipe médica imediatamente diante de suspeita clínica.\n2. Instalar **monitorização contínua** e assegurar via aérea conforme gravidade do paciente.\n3. Administrar **oxigenoterapia** para manter SpO₂ na faixa objetivo.\n4. Canalizar **acesso vascular**; coletar **hemoculturas** antes do antibiótico se não retardar seu início.\n5. Administrar **antibiótico empírico** de amplo espectro de forma precoce (primeira hora).\n6. Iniciar **reanimação com cristaloides** em bolus guiados pela resposta (10–20 ml/kg); reavaliar após cada bolus e repetir se indicado.\n7. Solicitar **lactato sérico** e realizar **controle de glicemia**.\n8. Calcular e administrar bolus com **precisão conforme peso**; vigiar sinais de sobrecarga hídrica ou deterioração respiratória.\n9. Preparar **drogas vasoativas em bomba** se o médico indicar.\n10. **Registrar horários** críticos: reconhecimento, culturas, antibiótico, fluidos.\n11. Manter **comunicação estreita com a família** e coordenar encaminhamento à UTI se proceder.\n\n## Fundamentação científica\n\n### Definição (Phoenix Sepsis Score)\n\n- **Sepse pediátrica:** infecção suspeita ou confirmada com disfunção orgânica potencialmente fatal (**Phoenix ≥ 2 pontos**).\n- **Choque séptico:** sepse com componente cardiovascular alterado (hipotensão, lactato elevado ou necessidade de vasoativos).\n\nSistemas avaliados: respiratório, cardiovascular, coagulação, neurológico.\n\n### Reconhecimento em enfermagem\n\n- Febre ou hipotermia com alteração do estado mental ou perfusão.\n- Taquicardia ou bradicardia fora da faixa etária.\n- Taquipneia, necessidade de oxigênio ou ventilação.\n- Má perfusão: tempo de enchimento capilar prolongado, pulsos fracos, pele mosqueada.\n- Oligúria.\n\n> Ativar protocolo de sepse e equipe médica imediatamente.\n\n### Papel da enfermagem\n\n- Cálculo e administração precisa de bolus por peso.\n- Vigilância de sinais de sobrecarga hídrica ou deterioração respiratória.\n- Preparação de drogas vasoativas em bomba se indicadas.\n- Comunicação estreita com família.\n\n### Critérios de encaminhamento à UTI pediátrica\n\n- Necessidade de vasoativos ou ventilação mecânica.\n- Disfunção orgânica múltipla.\n- Choque refratário a fluidos.",
+  "bibliography": [
+    {
+      "citation": "Weiss SL, Peters MJ, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "Schlapbach LJ, Watson RS, et al. International Consensus Criteria for Pediatric Sepsis and Septic Shock (Phoenix Sepsis Score). JAMA. 2024.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900966/"
+    },
+    {
+      "citation": "SLACIP / ILAS — Consenso Latinoamericano de manejo de sepse em crianças (documento SATI).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/10-Consenso-LATAM-SLACIP-Sepsis-Espanol-Acta-Ped-Mex-Marzo-2022.pdf"
+    },
+    {
+      "citation": "SATI — Pediatria.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

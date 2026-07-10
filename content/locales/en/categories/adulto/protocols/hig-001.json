@@ -1,0 +1,27 @@
+{
+  "id": "hig-001",
+  "title": "Hand hygiene and prevention of HAIs",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Apply the WHO 5 Moments for Hand Hygiene and the SATI multimodal bundle to prevent healthcare-associated infections.",
+  "body": "## Steps to perform\n\n1. Perform hand hygiene during the **WHO 5 Moments**: before touching a patient, before an aseptic task, after body fluid exposure risk, after touching a patient, and after touching the patient's surroundings.\n2. Use alcohol-based hand rub with friction for 20–30 seconds until dry when hands are not visibly soiled.\n3. Wash with soap and water when there is visible soil, spores (*C. difficile*), or an outbreak of enteric viruses.\n4. Implement isolation measures according to the transmission route (contact, droplet, airborne).\n5. Care for vascular lines and urinary devices according to institutional protocol.\n6. Perform cleaning and disinfection of the patient's surroundings.\n7. Report outbreaks or multidrug-resistant colonizations.\n8. Document compliance in direct observations and device-associated events (peripheral IV, urinary catheter, mechanical ventilation).\n\n## Scientific rationale\n\n### Indications\n\nReduce healthcare-associated infections (HAIs) through hand hygiene and standardized barrier measures.\n\n### Five moments for hand hygiene (WHO)\n\n1. Before touching a patient.\n2. Before performing an aseptic task.\n3. After body fluid exposure risk.\n4. After touching a patient.\n5. After touching the patient's surroundings.\n\n### Evidence and recommendations\n\n> **WHO 2009:** Hand hygiene is the most effective intervention to prevent HAIs. Alcohol-based hand rub is the preferred method unless contraindicated.\n\n> **SATI — Critical Care Infectious Diseases Committee:** Multimodal bundle including isolation, device care, environmental cleaning, and antimicrobial stewardship.\n\n### Multimodal bundle (SATI — Critical Care Infectious Diseases)\n\n- Isolation measures according to the transmission route (contact, droplet, airborne).\n- Care for vascular lines and urinary devices according to protocol.\n- Cleaning and disinfection of the patient's surroundings.\n- Rational use of antimicrobials (stewardship program).\n\n### Nursing indicators\n\n- Hand hygiene compliance in direct observations.\n- Documentation of device-associated events (peripheral IV, urinary catheter, mechanical ventilation).\n- Communication of outbreaks or multidrug-resistant colonizations.\n\n### Complications\n\n- Transmission of multidrug-resistant microorganisms.\n- Device-associated infections (CLABSI, CAUTI, VAP).\n- Nosocomial outbreaks.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. WHO Guidelines on Hand Hygiene in Health Care. WHO, 2009.",
+      "url": "https://www.who.int/publications/i/item/9789241597906"
+    },
+    {
+      "citation": "SATI — Multisociety consensus: multimodal strategy for prevention of device-associated infections.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "SATI — General clinical guidelines and consensus statements.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    }
+  ]
+}

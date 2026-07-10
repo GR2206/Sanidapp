@@ -1,0 +1,27 @@
+{
+  "id": "pad-001",
+  "title": "Pain, agitation, and delirium in critically ill adults (PADIS)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Systematically assess pain, minimize sedation, prevent delirium, and promote early mobilization and restful sleep.",
+  "body": "## Steps to perform\n\n1. Assess pain every shift using VAS, ESCID, or BPS depending on the level of consciousness.\n2. Evaluate sedation with the RASS scale and delirium with CAM-ICU or ICDSC.\n3. Administer multimodal analgesia; avoid using sedation as monotherapy for pain.\n4. Maintain a target RASS of 0 to −1 for the majority of patients; perform daily sedation interruption if indicated.\n5. Apply non-pharmacological interventions for delirium: reorientation, family presence, light–dark cycles, and minimizing nighttime noise.\n6. Assist the patient to sit up and mobilize according to tolerance and prescription.\n7. Cluster care activities and reduce unnecessary alarms during nighttime hours.\n8. Review deliriogenic medications: anticholinergics, benzodiazepines, and opioids.\n9. Document scales, interventions, and patient responses during each shift.\n\n## Scientific rationale\n\n### Indications\n\nSet of recommendations for **P**ain, **A**gitation/Sedation, **D**elirium, **I**mmobility, and **S**leep disruption in adult critically ill patients (PADIS framework).\n\n### Assessment tools\n\n| Domain | Suggested tool |\n| --- | --- |\n| Pain | VAS / ESCID / BPS depending on level of consciousness |\n| Sedation | RASS (Richmond Agitation-Sedation Scale) |\n| Delirium | CAM-ICU or ICDSC |\n\n### Evidence and recommendations\n\n> **PADIS Guidelines (Devlin et al. 2018):** Systematic evaluation of pain, sedation, and delirium; minimize the use of benzodiazepines; promote early mobilization.\n\n> **SATI:** Institutional guidance based on the PADIS framework for bedside use in the ICU.\n\n### Complications\n\n- Prolonged delirium and cognitive impairment.\n- Over-sedation leading to prolonged mechanical ventilation.\n- Untreated pain causing agitation and hemodynamic complications.\n- Immobility resulting in ICU-acquired weakness.",
+  "bibliography": [
+    {
+      "citation": "Devlin JW, Skrobik Y, Gélinas C, et al. Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU (PADIS). Crit Care Med. 2018;46(9):e825-e873.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30113379/"
+    },
+    {
+      "citation": "SATI — Clinical practice guidelines for the prevention and management of pain, agitation/sedation, and delirium.",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — PADIS Guidelines.",
+      "url": "https://www.sccm.org/clinical-resources/guidelines"
+    },
+    {
+      "citation": "SATI — General clinical guidelines and consensus statements.",
+      "url": "https://www.sati.org.ar/guias/"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ivb-001",
+  "name": "Ivabradine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Heart failure with persistent tachycardia despite beta-blocker use. Exclusively reduces heart rate by selective and specific inhibition of the If current of the cardiac pacemaker that controls spontaneous diastolic depolarization in the sinus node and regulates heart rate.",
+  "indications": "## Main indications\n\nHeart failure with persistent tachycardia despite beta-blocker use. Exclusively reduces heart rate by selective and specific inhibition of the If current of the cardiac pacemaker that controls spontaneous diastolic depolarization in the sinus node and regulates heart rate.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 5 and 7.5 mg.",
+      "dose": "Start 5 mg PO every 12 h; titrate to 7.5 mg every 12 h according to HR and tolerance.",
+      "administration": "PO with meals."
+    },
+    "pediatrico": {
+      "dose": "≥ 6 months and < 40 kg: initial 0.05 mg/kg/dose every 12 h, titrate dose according to response after 2 weeks by 0.05 mg/kg until achieving at least a 20% reduction in heart rate. Maximum dose 6 months to 1 year: 0.2 mg/kg/dose every 12 h, > 1 year: 0.3 mg/kg/dose every 12 h (up to 7.5 mg/dose every 12 h). ≥ 6 months and > 40 kg: initial 2.5 mg/dose every 12 h, titrate dose according to response after 2 weeks by 2.5 mg until achieving at least a 20% reduction in heart rate. Maximum dose 7.5 mg/dose every 12 h. If bradycardia occurs consider reducing the dose to the previous dose received or 0.02 mg/kg/dose every 12 h if on the initial dose.",
+      "administration": "PO",
+      "presentation": "Tablets: 5 mg",
+      "notes": "Administer with breakfast and dinner, avoid grapefruit juice. Caution in patients with decompensated acute heart failure, sustained hypotension, sinus node disease, symptomatic bradycardia, severe hepatic failure. Interactions: avoid concomitant use with medications that prolong the QT interval (amiodarone, pentamidine, etc.) as QT prolongation may be exacerbated with the decrease in heart rate. Rifampicin, phenytoin reduce its activity. Potent CYP3A4 inhibitors such as azole antifungals (itraconazole, etc.), macrolide antibiotics (clarithromycin, erythromycin, etc.), HIV protease inhibitors (nelfinavir, ritonavir, etc.) increase plasma concentrations of ivabradine. With potassium-wasting diuretics, risk of serious arrhythmias."
+    }
+  },
+  "stability": "## Stability\n\n- Store per prescribing information.",
+  "adverseEffects": "## Adverse effects\n\nHeadaches (during the 1st month), dizziness possibly related to bradycardia, luminous phenomena, blurred vision, bradycardia, 1st-degree AV block, extrasystole, atrial fibrillation, uncontrolled blood pressure. ",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ivaBRADine* (code 2031, ATC C01EB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart failure guidelines.",
+      "url": "https://www.escardio.org/"
+    }
+  ]
+}

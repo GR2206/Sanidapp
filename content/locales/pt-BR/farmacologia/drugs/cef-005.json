@@ -1,0 +1,61 @@
+{
+  "id": "cef-005",
+  "name": "Ceftriaxona",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalosporina de terceira geração. Tratamento de sepse, meningite, infecções do trato respiratório inferior, pele e tecidos moles, ósseas, por bactérias gram-negativas aeróbias e algumas gram-positivas. Profilaxia para IST (Neisseria gonorrhoeae).",
+  "indications": "## Indicações principais\n\nCefalosporina de terceira geração. Tratamento de sepse, meningite, infecções do trato respiratório inferior, pele e tecidos moles, ósseas, por bactérias gram-negativas aeróbias e algumas gram-positivas. Profilaxia para IST (Neisseria gonorrhoeae).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 1 g (Drawer, FABRA, Pharmavial, Acantex, Ceftriaz, Exemple, Norgreen, Bioteral).",
+      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
+      "diluent": "1 g em 100 mL de SF ou SG 5%. Passar em 30–60 min.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "I.M.: Sim. E.V. direta: Sim. Reconst. 1 g em 9,6 mL de AD e passar em 2–4 min (exceto marca Norgreen: NÃO). E.V. intermitente: Sim.",
+      "notes": "Não injetar mais de 1 g por via I.M. Sem lidocaína esta via é dolorosa. É incompatível e não deve ser misturada com vancomicina, fluconazol e aminoglicosídeos."
+    },
+    "pediatrico": {
+      "presentation": "F.A. Liof.: 1000 mg",
+      "administration": "E.V.; I.M.",
+      "diluent": "AD, SF 0,9%, SG 5%.",
+      "finalConcentration": "Entre 10 mg/mL e 40 mg/mL.",
+      "infusionRate": "Não menor que 30 min.",
+      "dose": "Crianças: Infecções leves e moderadas: 50–75 mg/kg/dia, a cada 24 h. Infecções graves, sepse, meningite, neutropenia: 100 mg/kg/dia, a cada 24 h. Dose máxima: 2 g (SNC: 4 g em 2 doses). Adultos: 1–2 g a cada 24 h. Dose pré-operatória adultos: 1 g. Profilaxia para IST: Crianças: I.M. 250 mg dose única; adolescentes e adultos: I.M.: 500 mg/dose, dose única.",
+      "notes": "Eliminação renal e biliar. Ajustar dose com clearance de creatinina < 10 mL/min. Não se aconselha seu uso em neonatos por deslocar a bilirrubina de sua ligação com a albumina. Em R.N. contraindicada a administração simultânea de soluções que contenham cálcio (aguardar 48 h desde a última dose de cefTRIAXona). Precipita em pulmões e rins de R.N. prematuros e a termo, casos de reações fatais."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dose a cada 24 h (meningite: esquemas específicos UCIN).",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 6 h em temperatura ambiente e 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente e 72 h refrigerado.\n\n## Guia pediátrica\n\n- 3 dias em temperatura ambiente e 10 dias na geladeira a 4 °C.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, leucopenia, trombocitopenia transitória, anemia hemolítica, urticária, rash, dor no local da injeção, barro biliar, febre, cefaleia, tontura, vertigem.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — CefTRIAXona (cód. 0040, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

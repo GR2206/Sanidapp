@@ -1,0 +1,45 @@
+{
+  "id": "trm-001",
+  "name": "Tramadol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Analgesic.",
+  "indications": "## Main indications\n\nAnalgesic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Calmador(R) capsules: 50 mg, drops: 1 mL=20 drops=50 mg, 1 mL ampoules: 50 mg/mL; Lixidol: tablets 50 mg, drops: 1 mL=24 drops=100 mg; Nobligán(R) capsules: 50 mg, drops: 1 mL=40 drops=100 mg, 2 mL ampoules: 50 mg/mL",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl solution, 5% dextrose.",
+      "finalConcentration": "25 mg/mL.",
+      "infusionRate": "20 min with syringe pump.",
+      "dose": "1-2 mg/kg/dose every 8 h, maximum dose: 3 - 6 mg/kg/day. Adults: 50-100 mg every 4-6 h, maximum dose: 400 mg/day. When switching to controlled-release capsules give every 12 h. Adjust dose in hepatic insufficiency.",
+      "notes": "Drug under evaluation in pediatrics; use in older children and adolescents. Interacts with carbamazepine and tricyclic antidepressants. See alert"
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nSee opioid analgesics section.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — TraMADol Hydrochloride * (code 0477, ATC N02AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

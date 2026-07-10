@@ -1,0 +1,27 @@
+{
+  "id": "dol-p001",
+  "title": "Pain and sedation in pediatrics",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Evaluate pain using age-validated scales (FLACC, VAS, pediatric CPOT), treat using a multimodal approach, and minimize unnecessary sedation.",
+  "body": "## Steps to perform\n\n1. Assess pain systematically at the beginning of each shift and both before and after procedures.\n2. Select a validated scale according to age and clinical situation: FLACC (0\u20137 years), VAS (> 6\u20137 years), COMFORT-B/CPOT (ICU/intubated), NIPS/PIPP (neonates).\n3. Record the pain/sedation score in the medical record along with the time and clinical context.\n4. Apply non-pharmacological measures: therapeutic containment involving a family member, breastfeeding or oral sucrose in infants, distraction, a quiet environment, and clustering care activities.\n5. Administer pharmacological analgesia according to prescription and severity (paracetamol/ibuprofen for mild pain; titrated opioids for moderate-to-severe pain).\n6. Administer analgesia prior to painful procedures when indicated (do not wait for peak pain intensity).\n7. In the ICU, reevaluate sedation using an adapted scale (RASS); prioritize analgesia over sedation alone (PADIS).\n8. Monitor for adverse effects: hypotension, bradypnea, respiratory depression associated with opioids/benzodiazepines, and nausea.\n9. Involve the family in pain management and explain the analgesia plan.\n10. Notify immediately in case of bradypnea, hypotension, oversedation, or uncontrolled pain despite treatment.\n\n## Scientific rationale\n\n### Principles\n\n- Pain is frequently undertreated in pediatrics.\n- Systematically evaluate pain every shift and before/after procedures.\n- Combine pharmacological and non-pharmacological interventions.\n\n### Assessment scales\n\n| Age / situation | Scale |\n| --- | --- |\n| 0\u20137 years (preverbal) | FLACC (Face, Legs, Activity, Cry, Consolability) |\n| > 6\u20137 years (cooperative) | VAS (Visual Analog Scale 0\u201310) |\n| ICU / Intubated | COMFORT-B / adapted CPOT |\n| Neonate | NIPS / PIPP |\n\n### Non-pharmacological interventions\n\n- Therapeutic containment involving a family member.\n- Breastfeeding or oral sucrose in infants for mild procedural pain.\n- Distraction, music, and play.\n- Maintaining a quiet environment and clustering care activities.\n\n### Pharmacological analgesia (according to prescription)\n\n| Situation | Common options |\n| --- | --- |\n| Mild pain | Paracetamol, oral/IV ibuprofen |\n| Moderate-to-severe pain | Titrated opioids (morphine, fentanyl) |\n| Brief procedure | Sedation with ketamine, propofol, or midazolam according to protocol |\n\n### Sedation in the ICU\n\n- Goal: a calm but assessable patient (avoid oversedation).\n- Reevaluate sedation using a dedicated scale (adapted RASS).\n- Monitor closely for respiratory depression associated with opioids and benzodiazepines.\n- PADIS (pediatric adaptation of SCCM guidelines): prioritize analgesia over sedation alone.\n\n### Nursing role\n\n- Record the pain/sedation scale score during each shift.\n- Administer analgesia prior to painful procedures when indicated.\n- Monitor for adverse effects: hypotension, bradypnea, and nausea.\n- Involve the family in pediatric pain management.",
+  "bibliography": [
+    {
+      "citation": "Devlin JW, et al. PADIS Guidelines — adaptación a población pediatric en UTI.",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Prevention and Management of Procedural Pain in the Newborn. Pediatrics. 2016.",
+      "url": "https://publications.aap.org/pediatrics/article/137/2/e20154271/81496"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — PADIS Guidelines.",
+      "url": "https://www.sccm.org/clinical-resources/guidelines"
+    },
+    {
+      "citation": "SATI — Guías de práctica clínica para prevención y manejo del dolor (traducción oficial español).",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    }
+  ]
+}

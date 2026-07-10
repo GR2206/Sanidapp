@@ -1,0 +1,27 @@
+{
+  "id": "son-001",
+  "title": "Colocação de sonda vesical",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Colocar sonda vesical somente com indicação justificada, com técnica estéril, calibre adequado, fixação segura e circuito fechado para prevenir ITU associada à sonda.",
+  "body": "## Passos a realizar\n\n1. Verificar indicação e contraindicações; confirmar identidade do paciente e prescrição (tipo, calibre, duração prevista).\n2. Realizar higienização das mãos e preparar kit estéril em superfície limpa.\n3. Posicionar o paciente: decúbito dorsal, joelhos semiflexionados; em mulher separar lábios; em homem elevar pênis a 90°.\n4. Desinfetar meato uretral com antisséptico em movimento circular do centro para a periferia; aguardar secagem se o protocolo indicar.\n5. Colocar sonda com técnica estéril: lubrificar, introduzir suavemente sem forçar até retorno de urina clara.\n6. Inflar balão com volume indicado (usualmente 10 ml água estéril, seguir fabricante).\n7. Conectar a bolsa de drenagem em **circuito fechado**; evitar desconexões desnecessárias.\n8. Fixar sonda sem tensão (coxa em mulher, abdome suprapúbico em homem).\n9. Posicionar bolsa abaixo do nível da bexiga; não apoiar no chão.\n10. Registrar hora, calibre, volume do balão, aspecto da urina inicial e responsável.\n11. Reavaliar indicação da sonda a cada turno; retirar no primeiro momento clinicamente possível.\n\n## Fundamentação científica\n\n### Indicações\n\n- Retenção urinária aguda com dor ou risco de dano renal.\n- Monitorização estrita de diurese em paciente crítico.\n- Manejo de incontinência em úlcera por pressão ou cuidados terminais (conforme protocolo institucional).\n- Cirurgia urológica ou pélvica conforme prescrição.\n\n### Contraindicações relativas\n\n- Trauma uretral suspeito ou confirmado.\n- Estenose uretral não resolvida.\n- Procedimento em curso pela urologia (coordenar).\n\n### Material\n\n- Kit de sondagem vesical estéril (número conforme prescrição).\n- Gel lubrificante hidrossolúvel estéril.\n- Antisséptico (clorexidina alcoólica ou povidona iodada conforme protocolo).\n- Campo estéril, luvas estéreis.\n- Sistema de drenagem fechado e fixador não compressivo.\n\n### Evidência e recomendações\n\n> **SATI/SADI 2024 (Cornistein et al.):** Não colocar sonda de rotina. Reavaliar necessidade diariamente e retirar no primeiro momento clinicamente possível para prevenir ITU-SV.\n\n> **SHEA/IDSA 2022 (Lo et al.):** Bundle de prevenção de ITU associada a cateter urinário.\n\n### Cuidados posteriores\n\n- Manter higiene perineal diária com água e sabão; não usar antissépticos de rotina no meato.\n- Vigiar obstrução, vazamentos, hematúria, dor suprapúbica ou febre.\n- Não trocar sonda nem bolsa de forma rotineira; somente conforme obstrução, desconexão ou protocolo institucional.\n\n### Complicações — interromper e comunicar\n\n- Impossibilidade de passar a sonda ou sangramento uretral abundante.\n- Urina turva purulenta com febre (suspeita ITU-SV).\n- Ausência de diurese com dor abdominal (obstrução ou erro de colocação).",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a sonda vesical. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Guias e consensos (ITU-SV, prevenção de IRAS).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    }
+  ]
+}

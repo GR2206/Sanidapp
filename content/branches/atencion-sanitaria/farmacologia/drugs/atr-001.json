@@ -1,0 +1,53 @@
+{
+  "id": "atr-001",
+  "name": "Atropina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Bradicardia. Para reducir secreciones de vía aérea superior y salivación. Oftalmología: midriático y cicloplégico.",
+  "indications": "## Indicaciones principales\n\nBradicardia. Para reducir secreciones de vía aérea superior y salivación. Oftalmología: midriático y cicloplégico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 1 mg/mL.",
+      "dose": "Bradicardia: 1 mg IV cada 3–5 min (máx. 3 mg).",
+      "administration": "IV bolus rápido."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas: 1 mg/ml (1000 µg/ml); Gotas: 1%",
+      "administration": "E.V. I.M. S.C. Intratraqueal",
+      "diluent": "Salina 0,9% o Dext. 5%.",
+      "finalConcentration": "0,1 mg/mL.",
+      "infusionRate": "PARO CARDIACO sin diluir (Push).",
+      "dose": "20 µg/kg/dosis (dosis mínima: 100 µg); se puede repetir en intervalos de 5 minutos hasta una dosis máxima total: niños: 1 mg; adolescentes: 2 mg Toxicología: E.V. 20 µg/kg",
+      "notes": "No administrar I.M. en neonatos. Administrar sin diluir por vía E.V. Contraindicado en obstrucción del tracto urinario y glaucoma. Para la administración intratraqueal diluir con solución fisiológica, en un volumen total de 1-2 ml."
+    },
+    "neonatal": {
+      "dose": "0,02 mg/kg IV (protocolo NRP/PALS neonatal).",
+      "administration": "IV/IO."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Descartar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nMidriasis, boca seca, cicloplegía, fotofobia, bradicardia seguida de taquicardia, palpitaciones, arritmias, retención urinaria, confusión, alucinaciones.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — ATROPina Sulfato (cód. 0023, ATC A03BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

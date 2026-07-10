@@ -1,0 +1,48 @@
+{
+  "id": "cef-012",
+  "name": "Ceftolozano-tazobactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": " Infecciones intraabdominales complicadas, pielonefritis aguda, infecciones del tracto urinario complicadas y neumonía adquirida en el Hospital (NAH), incluida neumonía asociada a la ventilación mecánica.",
+  "indications": "## Indicaciones principales\n\nInfecciones intraabdominales complicadas, pielonefritis aguda, infecciones del tracto urinario complicadas y neumonía adquirida en el Hospital (NAH), incluida neumonía asociada a la ventilación mecánica.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA conteniendo 1 g de ceftolozano + 0,5 g de tazobactam (Zerbaxa).",
+      "reconstitution": "10 mL de AD o SF. Conc: 100 mg/mL de ceftolozano y 50 mg/mL de tazobactam.",
+      "diluent": "1,5 g en 100 mL de SF o DX 5%.",
+      "finalConcentration": "Conc: 10 mg/mL de ceftolozano y 5 mg/mL de tazobactam.",
+      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 100 mL de SF o DX 5% y administrar en 60 min."
+    },
+    "pediatrico": {
+      "dose": "Niños: 30 mg/kg/dosis (ceftolozano + Tazobactam) c/ 8 hs; máximo 1500 mg cada 8 hs. Infecciones severas: 45 mg/kg/dosis c/ 8hs. Adultos: 1500 mg cada 8 hs; Neumonía asociada a ventilación mecánica: 3000 mg c/ 8hs.",
+      "administration": "E.V.",
+      "presentation": "F.A. polvo: 1.500 mg (1.000 mg ceftolozano + 500 mg tazobactam sódico)",
+      "notes": "Infusión E.V. (tiempo de perfusión: 1 h para todas las dosis). Monitorizar pacientes con I.R. al inicio ante cualquier cambio en la función renal durante el tratamiento y ajustar dosis si necesario. Cada vial contiene 230 mg de Sodio."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 1 h a T° amb.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb o 7 días refrigerado.",
+  "adverseEffects": "## Efectos adversos\n\nColitis por Clostridioides difficile, trombocitosis, hipocaliemia, insomnio, ansiedad, cefalea, mareo, hipotensión, náuseas, diarrea, estreñimiento, vómitos, dolor abdominal, erupción, pirexia, reacciones en la zona de infusión, ALT y AST elevadas, transaminasa elevada, prueba de función hepática anormal, fosfatasa alcalina en sangre aumentada, GGT elevada.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — cefTOLOZANO + tazobactam sódico* (cód. 2041, ATC J01CG).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

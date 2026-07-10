@@ -1,0 +1,48 @@
+{
+  "id": "cov-001",
+  "name": "COVID-19 — enfermedad aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **enfermedad por SARS-CoV-2 (COVID-19)** es una infección respiratoria que en formas graves causa neumonía, síndrome de distrés respiratorio y disfunción multiorgánica. En guardia se estratifica con oximetría, frecuencia respiratoria, imagen pulmonar y marcadores (PCR, ferritina, D-dímero según protocolo). Factores de riesgo de gravedad: edad avanzada, obesidad, diabetes, EPOC, inmunosupresión y vacunación incompleta.\n\nEl manejo de **enfermedad moderada-grave con requerimiento de oxígeno** incluye **dexametasona** sistémica (beneficio en hipoxemia), posición prono en insuficiencia respiratoria, anticoagulación profiláctica o terapéutica según riesgo trombótico, y antibiótico solo si sobreinfección bacteriana sospechada. Valorar antivirales de acción directa según disponibilidad y ventana temporal institucional. Escalar a VNI o VM según criterios de UTI.\n\n**Enfermería**: SpO₂ continua, registro de FR y trabajo respiratorio, oxigenoterapia titulada, aislamiento por gotas y contacto, vigilancia de trombosis venosa, monitorizar glucemia en corticoterapia y apoyar vacunación y aislamiento domiciliario al alta según normativa vigente.",
+  "relatedDrugs": [
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "ose-001",
+      "label": "Oseltamivir"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Clinical management of COVID-19 — living guideline.",
+      "url": "https://www.who.int/publications/guidelines"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Protocolo COVID-19.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institutes of Health (NIH). COVID-19 Treatment Guidelines.",
+      "url": "https://www.covid19treatmentguidelines.nih.gov/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America. Guidelines on the treatment and management of COVID-19.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

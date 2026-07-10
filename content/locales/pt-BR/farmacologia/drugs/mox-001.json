@@ -1,0 +1,47 @@
+{
+  "id": "mox-001",
+  "name": "Moxifloxacino",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibacteriano para tratamento de tuberculose resistente a drogas.",
+  "indications": "## Indicações principais\n\nAntibacteriano para tratamento de tuberculose resistente a drogas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 400 mg; E.V. 400 mg.",
+      "dose": "400 mg V.O./E.V. a cada 24 h.",
+      "administration": "V.O. ou E.V."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 400 mg",
+      "administration": "V.O. Ocular",
+      "dose": "Lactentes e menores de 15 anos: 10 mg/kg/dia a cada 24 h, dose máxima: 400 mg; adolescentes e maiores de 15 anos: 400 mg a cada 24 h.",
+      "notes": "Precauções: vigilar sinais de tendinite ou ruptura de tendão, o risco de ruptura aumenta com o uso concomitante de corticoides. Utilizar com precaução em pacientes com distúrbios do S.N.C. porque as quinolonas podem provocar convulsões. Precaução com fármacos redutores do nível de K (p. ex. diuréticos de alça e tipo tiazida, laxantes, corticosteroides, anfotericina B) ou associados com bradicardia clinicamente significativa. Interações: efeito aditivo na prolongação do intervalo QT ao administrar simultaneamente com medicamentos que possam atuar sobre o QT. Espaçar 6 h de antiácidos com Mg e Al, sucralfato, didanosina, e agentes com Fe e Zn. Aumenta ação de anticoagulantes orais, maior monitorização de INR. Ver guia de tratamento de tuberculose."
+    }
+  },
+  "stability": "## Estabilidade\n\n- E.V.: usar conforme bula de bolsa ou diluição.",
+  "adverseEffects": "## Efeitos adversos\n\nSuperinfecções devidas a bactérias resistentes ou fungos, como candidíase oral e vaginal; cefaleia, tontura, insônia, confusão, agitação, alucinações; prolongamento de QT em pacientes com hipocalemia; náuseas, vômitos, dor abdominal e diarreia; aumento de transaminases.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — MOXIfloxacina* (cód. 1765, ATC J01MA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

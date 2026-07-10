@@ -1,0 +1,40 @@
+{
+  "id": "ram-001",
+  "name": "Ramipril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "executiveSummary": "IECA lipofílico de acción prolongada para HTA, IC y prevención cardiovascular.",
+  "indications": "## Indicaciones\n\n- Hipertensión arterial.\n- Insuficiencia cardíaca con disfunción ventricular.\n- Prevención cardiovascular en alto riesgo y post-infarto.\n- Nefropatía diabética con microalbuminuria.\n\n## Precauciones\n\n- Contraindicado en embarazo. Precaución en estenosis bilateral de arteria renal.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 2,5, 5 y 10 mg.",
+      "dose": "HTA: 2,5–10 mg/día VO. IC: iniciar 1,25–2,5 mg/día y titular.",
+      "administration": "VO en 1–2 tomas."
+    },
+    "pediatrico": {
+      "dose": "0,05–0,1 mg/kg/día VO (uso especializado).",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos\n\n- Tos, hipotensión, hiperpotasemia, cefalea, mareos.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

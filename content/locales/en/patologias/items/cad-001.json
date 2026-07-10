@@ -1,0 +1,49 @@
+{
+  "id": "cad-001",
+  "name": "Diabetic ketoacidosis (DKA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Diabetic ketoacidosis** is a metabolic emergency defined by hyperglycemia, high anion gap metabolic acidosis, and ketonemia/ketonuria. It occurs predominantly in **type 1 diabetes**, but can present in type 2 diabetes under severe stress. Common triggering factors are intercurrent infection, insulin omission, AMI, and drugs (corticosteroids). The clinical presentation includes polyuria, polydipsia, nausea, vomiting, abdominal pain, Kussmaul respiration, and altered sensorium.\n\nTreatment follows the institutional algorithm: **volume resuscitation** with crystalloids, **continuous IV regular insulin infusion** following an initial dose, **potassium correction** (do not initiate insulin if K⁺ < 3.3 mEq/L), and investigation of the precipitating factor. Bicarbonate is only considered in severe acidosis with a pH < 6.9 according to guidelines. Monitor hourly blood glucose, blood gas analysis, electrolytes, and neurological status. Transition to subcutaneous insulin when ketonemia resolves and the patient tolerates oral intake.\n\n**Nursing:** strict fluid balance, recording of vomiting and urine output, serial capillary blood glucose monitoring, insulin pump management with dual verification of infusion rate, and education on prevention (intercurrent illness, dose adjustment, avoiding discontinuation of basal insulin).",
+  "relatedDrugs": [
+    {
+      "drugId": "ins-001",
+      "label": "Regular insulin"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "NPH insulin"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Potassium chloride"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Sodium bicarbonate"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glucose)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care — hyperglycemic crises.",
+      "url": "https://diabetesjournals.org/care/"
+    },
+    {
+      "citation": "Sociedad Argentina de Diabetes (SAD). Consenso de CAD.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Joint British Diabetes Societies. DKA management guideline.",
+      "url": "https://www.diabetes.org.uk/"
+    }
+  ]
+}

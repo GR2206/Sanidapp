@@ -1,0 +1,11 @@
+{
+  "id": "bannerMEDIO",
+  "label": "Pacientes",
+  "enabled": true,
+  "title": "Adulto · Pediátrico · Neonatología",
+  "subtitle": "El contenido se adapta al tipo de paciente que estás atendiendo",
+  "imageUrl": null,
+  "linkUrl": null,
+  "appRoute": null,
+  "version": "1.1"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "cef-006",
+  "name": "Cefotaxime",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Third-generation cephalosporin. Treatment of lower respiratory tract, skin and soft tissue, bone, joint, intra-abdominal, genitourinary, and central nervous system infections caused by susceptible gram-negative bacteria.",
+  "indications": "## Main indications\n\nThird-generation cephalosporin. Treatment of lower respiratory tract, skin and soft tissue, bone, joint, intra-abdominal, genitourinary, and central nervous system infections caused by susceptible gram-negative bacteria.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial-ampoule 1 g.",
+      "dose": "1–2 g IV every 6–8 h.",
+      "infusionRate": "Infusion 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "presentation": "Powder vial: 500-1000 mg",
+      "reconstitution": "Reconstitute with SWFI. Dilute in 0.9% saline or 5% dextrose.",
+      "administration": "IV; IM",
+      "finalConcentration": "20 to 60 mg/mL (may be bolus 100 mg/mL over 3 to 5 min).",
+      "infusionRate": "15 to 30 min with infusion pump.",
+      "dose": "< 12 years: 100-150 mg/kg/day every 6-8 h. > 12 years and adults: 1-2 g every 6-8 h, maximum dose: 12 g. Meningitis: 300 mg/kg/day every 6 h. Cystic fibrosis: 150-200 mg/kg/day every 6 h, maximum dose: 12 g. Adult preoperative dose: 1 g.",
+      "notes": "Caution in patients with renal insufficiency. Increased risk of pseudomembranous colitis due to C. difficile."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dose every 12 h; meningitis: every 8 h (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- 24 h at room temperature and 10 days refrigerated (2 to 8°C).",
+  "adverseEffects": "## Adverse effects\n\nNeutropenia, hemolytic anemia, headache, pseudomembranous colitis, phlebitis at injection site, rash, anal pruritus.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefOTAxime (code 0037, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "est-001",
+  "name": "Estreptomicina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico. Antituberculoso.",
+  "indications": "## Indicações principais\n\nAntibiótico. Antituberculoso.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 1 g (Estreptomicina Richet).",
+      "reconstitution": "4,5 mL de AD ou SF (100 mg/mL).",
+      "administration": "I.M.: Sim. Reconst. 1 g com 4,5 mL de AD ou SF e aplicar I.M. profunda."
+    },
+    "pediatrico": {
+      "dose": "Neonatos: reservado somente para pacientes que apresentam resistência a outros aminoglicosídeos. Crianças: 15 - 20 mg/kg/dia, dose máxima: 1 g/dia",
+      "administration": "I.M.; E.V. (casos especiais)",
+      "presentation": "F.A.: 1 g",
+      "notes": "Ajustar dose em insuficiência renal. Para a administração E.V. (somente para pacientes que não toleram a injeção I.M. e com autorização de Infectologia) a dose se dilui em 100 ml de solução fisiológica e infundir em 30-60 minutos através de uma via periférica ou central. Ver guia de tratamento de tuberculose. Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Não se aplica.",
+  "adverseEffects": "## Efeitos adversos\n\nOtotoxicidade, nefrotoxicidade, parestesia peribucal. Por injeção I.M. reações de hipersensibilidade.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Estreptomicina (cód. 0086, ATC J01GA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

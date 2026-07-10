@@ -1,0 +1,48 @@
+{
+  "id": "men-001",
+  "name": "Meningitis y meningoencefalitis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **meningitis bacteriana aguda** es una emergencia infecciosa con inflamación de las meninges; la **meningoencefalitis** añade compromiso del parénquima cerebral (frecuente en etiología viral, por ejemplo HSV). El cuadro clásico incluye fiebre, cefalea intensa, rigidez de nuca, fotofobia y alteración del estado mental; en ancianos e inmunodeprimidos puede ser **subclínica**. El signo de **Kernig** y **Brudzinski** apoyan el diagnóstico pero no lo excluyen si están ausentes.\n\nAnte sospecha, no retrasar antibiótico: hemocultivos y **punción lumbar** (o neuroimagen previa solo si hay focalidad neurológica, papiledema, inmunosupresión o crisis convulsiva reciente, según protocolo). Esquema empírico adulto habitual: **ceftriaxona** ± **vancomicina** (cobertura de neumococo resistente) ± **ampicilina** si > 50 años o inmunosupresión (Listeria). En sospecha de HSV: **aciclovir** IV. **Dexametasona** antes o con la primera dosis de antibiótico en meningitis neumocócica según guía institucional.\n\n**Enfermería**: aislamiento por gotas según protocolo, monitorizar GCS y signos de hipertensión endocraneana, control estricto de temperatura, registrar hora de primera dosis antibiótica, vigilar convulsiones y preparar material para PL en entorno estéril.",
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    },
+    {
+      "drugId": "amp-001",
+      "label": "Ampicilina"
+    },
+    {
+      "drugId": "aci-001",
+      "label": "Aciclovir"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. Practice guidelines for bacterial meningitis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Meningitis bacteriana.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "European Society of Clinical Microbiology and Infectious Diseases. Meningitis guidelines.",
+      "url": "https://www.escmid.org/"
+    }
+  ]
+}

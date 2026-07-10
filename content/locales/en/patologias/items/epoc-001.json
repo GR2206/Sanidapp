@@ -1,0 +1,49 @@
+{
+  "id": "epoc-001",
+  "name": "COPD — acute exacerbation",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Chronic obstructive pulmonary disease (COPD)** is characterized by chronic airflow limitation. An **acute exacerbation** is a worsening of dyspnea, cough, or sputum production that exceeds the patient's baseline variation and is usually caused by respiratory infection, environmental pollution, or therapeutic non-compliance. The initial assessment records respiratory rate, accessory muscle use, skin coloration, level of consciousness, and **blood gas analysis** if signs of respiratory failure are present.\n\nManagement includes short-acting **bronchodilators** (salbutamol ± ipratropium) administered via nebulization or metered-dose inhaler with a spacer chamber, systemic **corticosteroids** (oral prednisone or IV methylprednisolone depending on severity), antibiotics if there is increased sputum purulence or a need for mechanical ventilation, and **titrated oxygen therapy** (target SpO₂ 88–92% in known COPD patients to avoid iatrogenic hypercapnia). Assess the need for NIV in respiratory acidosis with pH 7.25–7.35 and high work of breathing.\n\n**Nursing:** monitor continuous SpO₂, administer nebulizations, assist with inhaler technique, quantify urine output, and monitor for somnolence due to hypercapnia. Maintain a semi-seated position, ensure hydration if not contraindicated, and provide education on smoking cessation and an action plan for future exacerbations.",
+  "relatedDrugs": [
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    },
+    {
+      "drugId": "ipr-001",
+      "label": "Ipratropium"
+    },
+    {
+      "drugId": "mep-001",
+      "label": "Methylprednisolone"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexamethasone"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy Report.",
+      "url": "https://goldcopd.org/"
+    },
+    {
+      "citation": "Asociación Argentina de Medicina Respiratoria (AAMR). Guías nacionales.",
+      "url": "https://www.aamr.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence (NICE). COPD guideline.",
+      "url": "https://www.nice.org.uk/guidance/ng115"
+    }
+  ]
+}

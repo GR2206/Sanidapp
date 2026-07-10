@@ -1,0 +1,47 @@
+{
+  "id": "enp-001",
+  "name": "Enalapril",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Vasodilatador venoso e arterial. Inibidor da enzima conversora da angiotensina.",
+  "indications": "## Indicações principais\n\nVasodilatador venoso e arterial. Inibidor da enzima conversora da angiotensina.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5, 10 e 20 mg. Ampola 1,25 mg/mL (uso IV limitado).",
+      "dose": "HA: 5–20 mg/dia V.O. em 1–2 tomadas. IC: iniciar 2,5 mg V.O. 1–2 vezes/dia e titular.",
+      "administration": "V.O. com ou sem alimentos."
+    },
+    "pediatrico": {
+      "dose": "V.O.: Crianças: inicial: 0,08 mg/kg/dia a cada 24 h, dose máxima: < 12 anos: 0,6 mg/kg/dia; > 12 anos: 40 mg/dia; adolescentes e adultos: 2,5-5 mg/dia, dose usual para hipertensão: 10-40 mg/dia. E.V. (enalaprilato): Crianças: 5-10 µg/kg/dose a cada 8-24 h; adolescentes e adultos: 0,625-1,25 mg/dose a cada 6 h.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 5 - 10mg; Solução V.O. (preparado magistral): 2 mg/ml (0,1 mg/gota) Ver formulação",
+      "notes": "Com diuréticos poupadores de potássio pode produzir hipercalemia. Precaução em pacientes depletados de sódio. É dialisável. Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Comprimidos: conservar conforme bula em temperatura ambiente.\n- Solução IV: usar imediatamente após preparação.",
+  "adverseEffects": "## Efeitos adversos\n\nReações cutâneas, distúrbios do paladar, vertigem, cefaleia, neutropenia, hipotensão ortostática, tosse. Teratogênico.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Enalapril Maleato (cód. 0082, ATC C09AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Diretrizes de hipertensão e insuficiência cardíaca.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

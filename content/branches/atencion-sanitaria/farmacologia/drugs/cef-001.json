@@ -1,0 +1,50 @@
+{
+  "id": "cef-001",
+  "name": "Cefalexina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalexina de 1era generación. Infecciones por bacterias sensibles de vías urinarias, piel, partes blandas y hueso.",
+  "indications": "## Indicaciones principales\n\nCefalexina de 1era generación. Infecciones por bacterias sensibles de vías urinarias, piel, partes blandas y hueso.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 500 mg; suspensión.",
+      "dose": "250–500 mg VO cada 6 h.",
+      "administration": "VO."
+    },
+    "pediatrico": {
+      "dose": "Niños: 25-50 mg/kg/día cada 6 hs, infecciones severas: 50-100 mg/kg/día cada 6 hs, dosis máxima: 3 g/día. Adultos: 250-1000 mg cada 6 hs, dosis máxima: 4 g/día. Profilaxis de infección urinaria en neonatos de hasta 2 meses: 30 mg/kg/día cada 24 hs, por la noche. Profilaxis de endocarditis bacteriana: 2 g, 1 hora antes del procedimiento.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 500 mg; Jarabe: 100 mg/ml",
+      "notes": "Administrar con el estómago vacío. No debería utilizarse para la profilaxis de infección urinaria en niños mayores a 2 meses para evitar la emergencia de cepas resistentes."
+    },
+    "neonatal": {
+      "dose": "25 mg/kg/dosis VO cada 12 h según protocolo.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Suspensión refrigerada según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, diarrea leve, reacciones alérgicas, prurito, cefaleas, neutropenia, sobreinfecciones micóticas. Nefrotoxicidad (2%).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — CefaLEXINA (cód. 0034, ATC Jo1DB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

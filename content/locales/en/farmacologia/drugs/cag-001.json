@@ -1,0 +1,58 @@
+{
+  "id": "cag-001",
+  "name": "Calcium gluconate",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of hyperkalemia. Hypocalcemic states.",
+  "indications": "## Main indications\n\nTreatment of hyperkalemia. Hypocalcemic states.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10% (0.465 mEq Ca/mL).",
+      "dose": "1–2 ampoules (10–20 mL) slow IV; repeat per protocol.",
+      "administration": "Slow IV 10–20 min."
+    },
+    "pediatrico": {
+      "presentation": "10 mL ampoules: 100 mg of calcium gluconate/mL (0.46 mEq Ca/mL = 9 mg ionic Ca/mL)",
+      "administration": "IV",
+      "diluent": "0.9% NaCl, 5% and 10% dextrose.",
+      "finalConcentration": "Up to 50 mg/mL.",
+      "infusionRate": "1 to 2 mL/min.",
+      "dose": "Symptomatic hypocalcemia: 1-2 mL/kg/dose (0.46-0.92 mEq/kg/dose) over 5-10 min, may be repeated at 6 h or continued with an infusion of 5 mL/kg/day (2.3 mEq/kg/day). Adults: 10-30 mL (4.6-13.8 mEq) until response. Asymptomatic hypocalcemia with PO contraindicated: infants and children: 2-5 mL/kg/day as continuous infusion or every 6 h; adults: 20-150 mL/day as continuous infusion or in divided doses. Hyperkalemia: 0.5 - 1 mL/kg (maximum: 10 mL). See CIME Electrolytes Bulletin.",
+      "notes": "IV push: 0.5-1 mL/minute IV infusion: dilute to 50 mg of calcium gluconate per mL (0.5 mL/mL) and infuse over 1 hour. Monitor heart rate while infusing. Correct hypokalemia first. Compatible solvents: 5% dextrose and SWFI. Do not mix with solutions containing bicarbonate or phosphate. 1 mEq Ca = 20 mg Ca++"
+    },
+    "neonatal": {
+      "dose": "1–2 mL/kg 10% gluconate slow IV under monitoring.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## General\n\n- Use dedicated line if possible.\n\n## Pediatric guide\n\n- Discard once opened.",
+  "adverseEffects": "## Adverse effects\n\nTissue necrosis from extravasation. Monitor heart rate. If bradycardia occurs, stop the infusion.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — calcium GLUCONATE (code 0270, ATC A12AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

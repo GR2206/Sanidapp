@@ -1,0 +1,49 @@
+{
+  "id": "vor-001",
+  "name": "Voriconazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of invasive aspergillosis. Candidemia. Esophageal candidiasis.",
+  "indications": "## Main indications\n\nTreatment of invasive aspergillosis. Candidemia. Esophageal candidiasis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 200 mg (VFend, Richet, Sandoz).",
+      "reconstitution": "19 mL SWFI. Conc: 10 mg/mL.",
+      "diluent": "200 mg in 100 mL NS, 5% dextrose.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL NS or 5% dextrose and administer over 60-120 min."
+    },
+    "pediatrico": {
+      "dose": "IV: 2 to 12 years: initial loading dose 9 mg/kg/dose every 12 h for 2 doses, maintenance dose 8 mg/kg every 12 h, maximum dose 350 mg every 12 h; > 12 years and adults: loading dose: 6 mg/kg/dose every 12 h for 2 doses, maintenance dose: 4 mg/kg/dose every 12 h. PO: 2 to 12 years: 9 mg/kg/dose every 12 h; > 12 years < 40 kg: 200 mg/dose every 12 h, for 1 day then 100 mg/dose every 12 h; > 40 kg: 400 mg every 12 h for 1 day, then 200 - 300 mg every 12 h. Dose adjustment in renal insufficiency: with Cl < 50 ml/min there may be accumulation of the injectable vehicle (sulfobutylether beta-cyclodextrin sodium), administer PO or assess risk-benefit. Dose adjustment in mild to moderate hepatic insufficiency: reduce maintenance dose by 50%. See dose adjustment table in hepatic insufficiency.",
+      "administration": "IV; PO",
+      "presentation": "Coated tablets: 50 - 200 mg; Powder vial: 200 mg; Suspension (compounded preparation): 40 mg/mL",
+      "notes": "PO: administer 1 h before or 1 h after meals; IV: infuse over 1-2 h (max. rate 3 mg/kg/hour). Monitor hepatic, renal, and visual function. Interactions: voriconazole may increase serum concentration of: cisapride, pimozide, rifabutin (contraindicated), cyclosporine (reduce cyclosporine dose 50%), sirolimus (contraindicated), tacrolimus (reduce tacrolimus dose by 66%), efavirenz, delavirdine, benzodiazepines, calcium channel blockers, methylprednisolone, omeprazole (for omeprazole doses > 40 mg/day, reduce omeprazole dose by 50%). Rifampicin, phenytoin decrease voriconazole serum levels (adjust dose). See preliminary guide for prevention of teratogenesis caused by medications."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nVisual disturbances (photophobia, blurred vision, etc), tachycardia, hypertension, vasodilation, peripheral edema, fever, headache, hallucinations, hypokalemia, hypomagnesemia, nausea, vomiting, QT interval prolongation.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Voriconazole* (code 1601, ATC J02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

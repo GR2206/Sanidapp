@@ -1,0 +1,52 @@
+{
+  "id": "cho-001",
+  "name": "Colangitis aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **colangitis aguda** es infección del árbol biliar, casi siempre por obstrucción (coledocolitiasis, estenosis, tumor). La **tríada de Charcot** clásica integra fiebre, ictericia y dolor en hipocondrio derecho; la **pentada de Reynolds** añade hipotensión y alteración del estado mental y define colangitis grave. En guardia debe sospecharse en todo paciente ictérico con fiebre o escalofríos, especialmente con antecedente de colelitiasis o manipulación biliar previa.\n\nEl manejo combina **antibiótico de amplio espectro** (cobertura de Gram negativos entéricos y anaerobios según guía local) y **drenaje biliar urgente** en formas moderadas-graves (CPRE, drenaje percutáneo o quirúrgico según recursos). Reanimación con cristaloides si shock séptico. No retrasar antibiótico por esperar imagen si la sospecha es alta. Escalar a UTI en Reynolds o disfunción orgánica.\n\n**Enfermería**: monitorizar TA, FC, temperatura y nivel de conciencia, control de ictericia y coluria, NPO hasta definición, preparación para CPRE (consentimiento, coagulación, acceso venoso) y registro horario de antibióticos y diuresis.",
+  "clinicalBox": {
+    "title": "Gravedad — Tokyo Guidelines (resumen)",
+    "content": "**Leve (Grado I):** responde a fluidos y antibiótico; sin disfunción orgánica.\n**Moderada (Grado II):** leucocitosis/leucopenia, fiebre alta, edad > 75, hiperbilirrubinemia marcada o ITU asociada.\n**Grave (Grado III):** disfunción cardiovascular, neurológica, respiratoria, renal, hepática o hematológica.\n\n**Tríada de Charcot:** fiebre + ictericia + dolor HCD · **Reynolds:** Charcot + hipotensión + alteración mental → drenaje urgente."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazol"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacino"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Tokyo Guidelines. Management of acute cholangitis and cholecystitis.",
+      "url": "https://www.jshbps.jp/en/guideline/"
+    },
+    {
+      "citation": "Sociedad Argentina de Gastroenterología (SAGE). Vía biliar y colangitis.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Society for Gastrointestinal Endoscopy. Role of ERCP in biliary disease.",
+      "url": "https://www.asge.org/"
+    }
+  ]
+}

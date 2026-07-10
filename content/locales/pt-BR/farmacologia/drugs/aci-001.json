@@ -1,0 +1,57 @@
+{
+  "id": "aci-001",
+  "name": "Aciclovir",
+  "version": "1.2.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Herpes disseminado. Herpes-zóster e varicela em hospedeiro imunocomprometido (HIC). Encefalite herpética. Varicela em recém-nascido.",
+  "indications": "## Indicações principais\n\nHerpes disseminado. Herpes-zóster e varicela em hospedeiro imunocomprometido (HIC). Encefalite herpética. Varicela em recém-nascido.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 500 mg (Lazar, LAFEDAR, LIA, Pharma Vial).",
+      "reconstitution": "10 mL de AD. Conc.: 50 mg/mL.",
+      "diluent": "500 mg em 100 mL de SF. Se a dose for maior que 500 mg, diluir em 250 mL de SF.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Agitar o frasco suavemente até obter solução clara. Administrar por infusão lenta durante mais de uma hora.",
+      "notes": "A refrigeração da solução reconstituída (no frasco) pode provocar precipitado que se redissolverá em temperatura ambiente. USAR SOMENTE ÁGUA DESTILADA (outras podem precipitar o aciclovir)."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 400–800 mg; F.A. liof.: 500 mg; Suspensão: 80 mg/mL; Creme/Unguento dermatológico: 5%; Pomada oftálmica: 3%",
+      "administration": "E.V.; V.O.; Tópica",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "7 mg/mL ou menos.",
+      "infusionRate": "NÃO MENOR que 1 hora.",
+      "dose": "E.V.: Varicela, herpes-zóster: 30 mg/kg/dia a cada 8 h. Encefalite herpética: < 12 anos: 60 mg/kg/dia a cada 8 h; > 12 anos: 30 mg/kg/dia a cada 8 h. Herpes genital, herpes mucocutâneo em HIC, gingivoestomatite herpética: < 12 anos: 30 mg/kg/dia a cada 8 h; > 12 anos: 15 mg/kg/dia a cada 8 h. V.O.: 80 mg/kg/dia a cada 6 h (dose máxima: 3,2 g), adultos: 200–800 mg a cada 6–8 h. A dose em pacientes obesos deve ser calculada com base no peso corporal ideal. Profilaxia de transplante de medula óssea: Herpes simples, paciente com sorologia positiva (receptor e/ou doador): 10 mg/kg/dose a cada 8 h ou 250 mg/m²/dose a cada 8 h (desde 24 h antes do acondicionamento até o dia +30; suspender se iniciar ganciclovir). Receptores de transplante alogênico não relacionado para profilaxia de CMV: 500 mg/m²/dose a cada 8 h. Terapia dermatológica: Infecção por herpesvírus: aplicar 5 vezes ao dia, durante 1 semana. Oftalmologia: Pomada oftálmica 3% a cada 3 h.",
+      "notes": "Risco de flebite ou inflamação no local da injeção em altas concentrações (muito alcalino). Infundir em pelo menos 1 hora a uma concentração final < 7 mg/mL. Para prevenir a precipitação do aciclovir nos túbulos renais é necessária hidratação adequada. Não refrigerar o antibiótico reconstituído."
+    },
+    "neonatal": {
+      "dose": "20 mg/kg/dose a cada 8 h em encefalite neonatal.",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 12 h em temperatura ambiente.\n\n## Solução diluída (a administrar)\n\n- 12 h em temperatura ambiente.\n\n## Guia pediátrica\n\n- Dil. com DX 5%: 24 h em temperatura ambiente.\n- Dil. com AD: 12 h em temperatura ambiente.\n- Não refrigerar.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, sinais encefalopáticos, hipotensão, rash, prurido, náuseas, vômitos, diarreia, hematúria, artralgia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ACIclovir (cód. 0002, ATC J05AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

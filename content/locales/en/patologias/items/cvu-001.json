@@ -1,0 +1,53 @@
+{
+  "id": "cvu-001",
+  "name": "Seizure and Status Epilepticus",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **seizure** is a paroxysmal event caused by abnormal cerebral electrical discharge. In the emergency department, a **provoked seizure** (hypoglycemia, hyponatremia, alcohol, drugs, TBI, stroke) must be differentiated from epilepsy. **Status epilepticus** is defined as a seizure lasting ≥ 5 min or two or more seizures without complete recovery of consciousness between them; it is a neurological emergency.\n\nThe standard institutional algorithm: first-line benzodiazepine (diazepam or midazolam IV/rectal/IM depending on available access). If it persists, administer a second dose of benzodiazepine followed by an IV antiepileptic drug (levetiracetam, phenytoin, or valproate according to protocol). Simultaneously correct glucose, electrolytes, and any reversible cause. Protect the airway, administer oxygen, establish venous access, and initiate cardiac monitoring (phenytoin carries a risk of hypotension and arrhythmias with rapid infusion).\n\n**Nursing:** time the duration of the seizure, place the patient in a lateral decubitus position, do not insert any objects into the mouth, record exact medication and time of administration, monitor the postictal state (confusion, somnolence), and check for fall-related injuries. Request immediate capillary blood glucose.",
+  "relatedDrugs": [
+    {
+      "drugId": "dia-001",
+      "label": "Diazepam"
+    },
+    {
+      "drugId": "mid-001",
+      "label": "Midazolam"
+    },
+    {
+      "drugId": "lor-001",
+      "label": "Lorazepam"
+    },
+    {
+      "drugId": "lvt-001",
+      "label": "Levetiracetam"
+    },
+    {
+      "drugId": "fny-001",
+      "label": "Phenytoin"
+    },
+    {
+      "drugId": "phb-001",
+      "label": "Phenobarbital"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "International League Against Epilepsy (ILAE). Status epilepticus treatment guidelines.",
+      "url": "https://www.ilae.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Neurología (SAN). Consensos de epilepsia.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Epilepsy Society. Treatment of convulsive status epilepticus.",
+      "url": "https://www.aesnet.org/"
+    }
+  ]
+}

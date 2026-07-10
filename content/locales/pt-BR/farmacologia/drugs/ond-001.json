@@ -1,0 +1,59 @@
+{
+  "id": "ond-001",
+  "name": "Ondansetrona",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Êmese refratária. Êmese por quimioterapia (indicação conforme norma vigente). Náuseas e vômitos pós-operatórios.",
+  "indications": "## Indicações principais\n\nÊmese refratária. Êmese por quimioterapia (indicação conforme norma vigente). Náuseas e vômitos pós-operatórios.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 4–8 mg; comprimidos ODT.",
+      "dose": "4–8 mg E.V. lenta ou V.O. a cada 8 h.",
+      "administration": "E.V. lenta ou V.O."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 8 mg; Ampolas: 8 mg",
+      "administration": "V.O.; E.V.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "Bolus de 2 a 5 minutos.",
+      "dose": "Profilaxia de náuseas e vômitos induzidos por quimioterapia: Lactentes, crianças e adolescentes E.V./V.O.: 0,15 mg/kg/dose (5 mg/m²/dose); dose máxima 8 mg/dose a cada 8 h. Administrar a primeira dose 30 minutos antes de iniciar a infusão do citostático. Profilaxia de náuseas e vômitos pós-operatórios: E.V.: 1 mês a 12 anos e < 40 kg: 0,1 mg/kg/dose, > 40 kg e adultos: 4 mg/dose. Ajustar a dose em insuficiência hepática (apenas uma dose por dia). Gastroenterite aguda: > 6 meses 8 kg a 15 kg: 2 mg; 15 kg a 30 kg: 4 mg; > 30 kg: 8 mg. A dose pode ser repetida somente se ocorrer vômito nos primeiros 15 minutos após a administração.",
+      "compatibility": "Incompatível com aciclovir, ampicilina, aminofilina, furosemida, ganciclovir, lorazepam, metilprednisolona e piperacilina.",
+      "notes": "Proteger da luz; não administrar na mesma seringa ou infusão com outro medicamento. Administrar em push 2–5 min ou por infusão diluída em SG 5% ou SF em 15 minutos. Metabolizado pelo citocromo P-450. Verificar a normalidade do ECG antes do tratamento pelo aumento do intervalo QT em doses altas e evitar o uso concomitante com fármacos cardiotóxicos."
+    },
+    "neonatal": {
+      "dose": "0,1 mg/kg E.V. a cada 8 h conforme protocolo.",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Geral\n\n- E.V. compatível em SF e SG.\n\n## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, constipação, fadiga, reações de hipersensibilidade imediata (urticária, angioedema, hipotensão, broncoespasmo, dispneia, anafilaxia), prolongamento do intervalo QTc, tontura, febre.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Ondansetrón (cód. 0502, ATC A04AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

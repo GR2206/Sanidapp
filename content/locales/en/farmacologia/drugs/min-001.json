@@ -1,0 +1,47 @@
+{
+  "id": "min-001",
+  "name": "Minocycline",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Tetracycline antibiotic used to treat bacterial infections including pneumonia and other respiratory tract infections, certain skin and soft tissue infections, eye infections, lymphatic system infections, digestive tract infections, reproductive system infections, and urinary tract infections.",
+  "indications": "## Main indications\n\nTetracycline antibiotic used to treat bacterial infections including pneumonia and other respiratory tract infections, certain skin and soft tissue infections, eye infections, lymphatic system infections, digestive tract infections, reproductive system infections, and urinary tract infections.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Capsules 100 mg.",
+      "dose": "100 mg PO every 12 h.",
+      "administration": "PO with plenty of water."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 50 - 100 mg",
+      "administration": "PO",
+      "dose": "Skin and soft tissue infections: > 8 years: loading: 4 mg/kg, then 2 mg/kg/dose every 12 h; maximum: 200 mg/day, in case of infections due to multidrug-resistant organisms (Acinetobacter sp, S maltophilia, Nocardia) maximum daily dose 400 mg; adults: loading: 200 mg, then 100 mg/dose every 12 h, in case of infections due to multidrug-resistant organisms (Acinetobacter sp, S maltophilia, Nocardia) 200 mg/dose every 12 h.",
+      "notes": "May be taken with or without food; drink a glass of water with each dose. With prolonged therapy perform hematologic, renal and hepatic monitoring. Interactions: antacids with iron, aluminum, calcium and magnesium decrease absorption. Reduce anticoagulant dose because it increases their effect."
+    }
+  },
+  "stability": "## Stability\n\n- Store per package insert; protect from light.",
+  "adverseEffects": "## Adverse effects\n\nPermanent tooth discoloration and inhibition of bone development in children, anorexia, nausea, vomiting, diarrhea, urticaria, rash, dermatitis, superinfection, hemolytic anemia, thrombocytopenia, eosinophilia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — minoCICLina clorhidrato (code 1359, ATC J01AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

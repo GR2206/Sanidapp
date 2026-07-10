@@ -1,0 +1,47 @@
+{
+  "id": "esm-001",
+  "name": "Esmolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Selective beta-blocking agent. Post-coarctation repair hypertension, dyspnea and cyanosis crises, ectopic atrial tachyarrhythmia.",
+  "indications": "## Main indications\n\nSelective beta-blocking agent. Post-coarctation repair hypertension, dyspnea and cyanosis crises, ectopic atrial tachyarrhythmia.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "2500 mg/10 mL ampoule.",
+      "dose": "Loading 0.5 mg/kg over 1 min, then 50–300 mcg/kg/min.",
+      "administration": "IV infusion pump."
+    },
+    "pediatrico": {
+      "dose": "Loading: 0.5–0.6 mg/kg over 2–4 min, followed by infusion 0.1–0.2 mg/kg/min",
+      "administration": "IV",
+      "presentation": "10 mL ampoules: 250 mg/mL",
+      "notes": "Elimination half-life: 9 min. Esmolol may increase serum digoxin and theophylline concentrations. Morphine may increase serum esmolol concentration. The 250 mg/mL ampoule must not be given undiluted; dilute to a final concentration of 10 mg/mL in NS or 5% dextrose."
+    }
+  },
+  "stability": "## Stability\n\n- Use within 24 h after preparation.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, dizziness, fatigue, headache.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Esmolol* (code 1362, ATC C07AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

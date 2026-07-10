@@ -1,0 +1,50 @@
+{
+  "id": "fos-001",
+  "name": "Fosfomycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antibacterial.",
+  "indications": "## Main indications\n\nAntibacterial.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 1 g (Fosfomicina Luar, Fosfomicyn).",
+      "reconstitution": "10 mL SWFI. Conc: 100 mg/mL.",
+      "diluent": "1-4 g in 100-250 mL 5% dextrose.",
+      "finalConcentration": "4-40 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute at 4 mL SWFI or 5% dextrose per each mL of reconstituted solution and infuse at 1 g/h. Clarification: 4 g (40 mL) in 160 mL 5% dextrose. Infuse at 40 mL/h.",
+      "notes": "When fosfomycin dissolves an exothermic reaction occurs, causing the vial to warm slightly without altering the antibiotic. High sodium content (each gram of antibiotic contains 14.5 mEq)."
+    },
+    "pediatrico": {
+      "dose": "Children: 200 - 400 mg/kg/day every 6-8 h. Adults: 1 g - 5 g/day every 6-8 h; maximum dose: 16 g, in special cases: 8 g every 8 h (consult specialist).",
+      "administration": "IV PO",
+      "presentation": "Lyophilized powder vial (as sterile disodium salt): 1000 mg (each gram of Fosfomycin contains 14.5 mEq of sodium) Oral solution sachet (as fosfomycin trometamol): 3 g",
+      "notes": "Fosfomycin trometamol: metoclopramide, antacids, or calcium salts reduce fosfomycin absorption."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not specified.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nCommon: diarrhea (9%-10%), nausea (4%-5%), headache (4%-10%), pharyngitis (2.5%), rhinitis (4.5%). Serious: aplastic anemia, cholestasis, hepatic necrosis, toxic megacolon, angioedema.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Fosfomycin* (code 1950, ATC J01XX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

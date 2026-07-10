@@ -1,0 +1,49 @@
+{
+  "id": "itu-001",
+  "name": "Complicated Urinary Tract Infection and Pyelonephritis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Complicated urinary tract infection (UTI)** occurs in the presence of structural or functional abnormalities, recent instrumentation, pregnancy, diabetes, or immunosuppression. **Acute pyelonephritis** is an infection of the renal parenchyma, presenting with fever, flank pain, nausea, and occasionally lower urinary tract symptoms. In young men, any UTI is considered complicated; in older adults, it may present solely as an alteration in general health status.\n\nDiagnosis combines clinical presentation, urine culture, and, if there is persistent fever or poor response, imaging (ultrasound or CT scan) to rule out obstruction or abscess. **Empirical antibiotic therapy** is based on local guidelines (ceftriaxone, fluoroquinolone if resistance rates are low, or piperacillin/tazobactam in severe or hospitalized cases). The usual duration of treatment is 7–14 days depending on severity. Hospitalization is indicated in cases of vomiting, septicemia, pregnancy, renal failure, or inability to tolerate oral intake.\n\n**Nursing:** record temperature and flank pain, encourage oral hydration if tolerated, monitor urine output, obtain cultures before initiating antibiotics when possible without delaying the dose in severe cases, and provide patient education regarding hygiene and treatment adherence.",
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacin"
+    },
+    {
+      "drugId": "lev-001",
+      "label": "Levofloxacin"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacillin/tazobactam"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimethoprim/sulfamethoxazole"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). UTI guidelines.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "European Association of Urology. Urological Infections guidelines.",
+      "url": "https://uroweb.org/guidelines/"
+    }
+  ]
+}

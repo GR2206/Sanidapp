@@ -1,0 +1,59 @@
+{
+  "id": "met-001",
+  "name": "Metronidazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.3",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Nitroimidazole antibiotic and antiparasitic agent. Active against anaerobes and protozoa.",
+  "indications": "## Main indications\n\nNitroimidazole antibiotic and antiparasitic agent. Active against anaerobes and protozoa.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "500 mg in 100 mL bag (Metronidazol Norgreen, Rivero, Ugar).",
+      "reconstitution": "No prior reconstitution required. Conc.: 5 mg/mL.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Infuse over 60 min."
+    },
+    "pediatrico": {
+      "presentation": "Tablets, oral suspension, IV ampoules.",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "60 min.",
+      "dose": "Anaerobic infections (PO; IV): 30 mg/kg/day every 8 h, maximum PO: 2 g; IV: 4 g. Amebiasis: 35 mg/kg/day every 8 h for 10 days.",
+      "notes": "Avoid alcoholic beverages during treatment and for 48 h afterward. Use caution with warfarin."
+    },
+    "neonatal": {
+      "dose": "7.5 mg/kg/dose every 12 h (NICU).",
+      "administration": "IV/PO."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- Not specified.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, metallic taste, peripheral neuropathy with prolonged courses, hypersensitivity reactions.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — metroNIDAZOL (ATC J01XD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

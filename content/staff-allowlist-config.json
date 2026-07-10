@@ -1,0 +1,70 @@
+{
+  "sanatorios": {
+    "sanatorio-de-la-mujer": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-sdm.csv",
+      "institutionToken": "SDM-2026-2491"
+    },
+    "sanatorio-britanico": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-britanico.csv",
+      "institutionToken": "BRIT-2026-0040"
+    },
+    "sanatorio-parque": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-parque.csv",
+      "institutionToken": "PARQ-2026-0860"
+    },
+    "sanatorio-delta": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-delta.csv",
+      "institutionToken": "DELTA-2026-1560"
+    },
+    "sanatorio-alliare": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-alliare.csv",
+      "institutionToken": "ALLIARE-2026-1428"
+    },
+    "hospital-privado-rosario": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-hpr.csv",
+      "institutionToken": "HPR-2026-2440"
+    },
+    "hospital-italiano-rosario": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-italiano.csv",
+      "institutionToken": "ITAL-2026-1249"
+    },
+    "hospital-espanol": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-espanol.csv",
+      "institutionToken": "ESP-2026-3151"
+    },
+    "sanatorio-mapaci": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-mapaci.csv",
+      "institutionToken": "MAPA-2026-2240"
+    },
+    "sanatorio-centro": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-centro.csv",
+      "institutionToken": "CENT-2026-0975"
+    },
+    "maternidad-orono": {
+      "user": "GR2206",
+      "gistId": "7cab5ab69213029ff5b51063e7834406",
+      "filename": "sanidapp-personal-orono.csv",
+      "institutionToken": "ORON-2026-2274"
+    }
+  }
+}

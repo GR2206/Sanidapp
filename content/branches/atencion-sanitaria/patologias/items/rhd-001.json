@@ -1,0 +1,52 @@
+{
+  "id": "rhd-001",
+  "name": "Rabdomiólisis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **rabdomiólisis** es necrosis muscular con liberación de mioglobina, CK y electrolitos al plasma. Causas frecuentes en guardia: **trauma**, caída prolongada, ejercicio extremo, convulsiones, fármacos (**estatinas**, cocaína), hipertermia maligna e infecciones. La tríada clásica es mialgia, debilidad y orina oscura; puede cursar sin dolor muscular. Complicaciones: **IRA por mioglobina**, hiperkalemia, hipocalcemia, coagulación intravascular.\n\nEl tratamiento prioritario es **reposición volémica agresiva** con cristaloides (metas de diuresis según protocolo, p. ej. 200–300 mL/h si tolera) para diluir mioglobina y prevenir necrosis tubular. Corregir **hiperkalemia** y acidosis según algoritmos. Suspender fármacos sospechosos. Indicaciones de diálisis: hiperkalemia refractaria, acidosis grave, sobrecarga hídrica o uremia. Monitorizar CK seriada (pico a 24–72 h).\n\n**Enfermería**: balance hídrico estricto, diuresis horaria, ECG si hiperkalemia, evitar nefrotóxicos (AINE, contrastes), reposo relativo y registro de orina (color, volumen). Valorar compartimental en miembros tensos.",
+  "clinicalBox": {
+    "title": "CK y alarmas en rabdomiólisis",
+    "content": "**CK** > 5× límite superior normal confirma daño muscular (valores muy altos son frecuentes).\n\n**Vigilar de inmediato:**\n· Diuresis **< 0,5 mL/kg/h** pese a fluidos\n· **K⁺** elevado · **pH** bajo · **Creatinina** en ascenso\n· Orina oscura / mioglobinuria positiva\n\nMeta habitual de reanimación: diuresis **200–300 mL/h** (ajustar a protocolo y comorbilidades cardíacas)."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemida"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sodio"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloruro de potasio"
+    },
+    {
+      "drugId": "nsh-001",
+      "label": "Cloruro de sodio hipertónico"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Manitol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Acute kidney injury and rhabdomyolysis.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Sociedad Argentina de Nefrología (SAN). Injuria renal aguda.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Emergency Physicians. Rhabdomyolysis clinical policy.",
+      "url": "https://www.acep.org/"
+    }
+  ]
+}

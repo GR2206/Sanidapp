@@ -1,0 +1,59 @@
+{
+  "id": "roc-001",
+  "name": "Rocurônio",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Indução rápida para politraumatizados sem jejum prévio.",
+  "indications": "## Indicações principais\n\nIndução rápida para politraumatizados sem jejum prévio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 10 mg/mL.",
+      "dose": "IOT de sequência rápida: 0,6–1,2 mg/kg E.V. Manutenção: 0,1–0,2 mg/kg/h.",
+      "administration": "E.V. em bolus ou infusão."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas de 5 mL: 10 mg/mL",
+      "administration": "E.V.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "0,5 a 1 mg/mL. Pode ser administrado sem diluir.",
+      "infusionRate": "Push ou infusão com BIC.",
+      "dose": "0,45–0,6 mg/kg/dose",
+      "compatibility": "Incompatível com tiopental, anfotericina, amoxicilina, dexametasona, diazepam, furosemida, insulina, metilprednisolona, vancomicina.",
+      "notes": "USO EXCLUSIVO DO ESPECIALISTA. Pode ser administrado sem diluir. Para infusão contínua diluir com solução fisiológica ou dextrose 5% com concentração de 0,5 a 1 mg/mL; não misturar com soluções alcalinas."
+    },
+    "neonatal": {
+      "dose": "0,45–1 mg/kg conforme protocolo UCIN.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Geral\n\n- Frasco aberto conforme bula.\n\n## Guia pediátrica\n\n- 30 dias refrigerado após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nApneia, vagólise, hipotensão transitória, hipertensão, taquicardia relacionada dose-apneia, arritmias, edema no local da injeção, soluço, prurido, náuseas, sibilância, fraqueza muscular residual.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Rocuronio* (cód. 9151, ATC M03AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

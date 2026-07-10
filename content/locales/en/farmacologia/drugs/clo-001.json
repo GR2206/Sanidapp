@@ -1,0 +1,46 @@
+{
+  "id": "clo-001",
+  "name": "Clonidine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antihypertensive, alpha-2 adrenergic agonist. For sedation, pain, prevention of opioid withdrawal syndrome.",
+  "indications": "## Main indications\n\nAntihypertensive, alpha-2 adrenergic agonist. For sedation, pain, prevention of opioid withdrawal syndrome.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "1 mL ampoules: 0.150 mg/mL; Solution (compounded preparation): 10 µg/mL",
+      "reconstitution": "Once reconstituted, 1 amp. up to 24 mL.",
+      "administration": "IV; PO",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "Per dilution for infusion pump (1 amp. up to 24 mL).",
+      "infusionRate": "Per medical indication, with infusion pump.",
+      "dose": "Severe hypertension: 2 to 18 years: IV: 2-6 µg/kg single daily dose, maximum 300 µg; PO: initial 0.5-1 µg/kg every 8 h and increase if needed up to maximum 25 µg/kg/day in divided doses (do not exceed 1.2 mg/day); Sedation, pain, prevention of opioid withdrawal syndrome: IV: initial: 0.25 µg/kg/h, increase by 0.1 µg/kg/h until adequate sedation (in most children effect should be seen with 1 - 3 µg/kg/h); PO: 1-3 µg/kg every 8 h, maximum dose 5 µg/kg every 8 h. Adjust dose with glomerular filtration < 10 mL/min.",
+      "notes": "Blood pressure and pulse must be monitored. Do not discontinue abruptly if administered for more than 2 weeks; reduce daily over 5 days to 1 µg/kg/dose every 8 h then discontinue (hypertensive crisis). See practical guide for analgosedation management and weaning in intermediate and moderate care units."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- 24 h. Once reconstituted 1 amp. up to 24 mL.",
+  "adverseEffects": "## Adverse effects\n\nContact dermatitis, erythema, pruritus, constipation, nausea, xerostomia, dizziness, fatigue, somnolence, sedation, depression, fluid retention, bradycardia, Raynaud syndrome, headache.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cloNIDine Hydrochloride (code 0490, ATC C02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

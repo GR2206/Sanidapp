@@ -1,0 +1,58 @@
+{
+  "id": "dia-001",
+  "name": "Diazepam",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Benzodiazepine anticonvulsant. Muscle relaxant. Anxiolytic.",
+  "indications": "## Main indications\n\nBenzodiazepine anticonvulsant. Muscle relaxant. Anxiolytic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 5–10 mg.",
+      "dose": "5–10 mg slow IV repeatable per protocol.",
+      "administration": "Very slow IV; IM/rectal per presentation."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 2-5-10 mg; 2 mL ampoules: 5 mg/mL; Solution (compounded preparation): 2 mg/mL",
+      "administration": "PO; IV; Rectal",
+      "diluent": "0.9% NaCl, 5% and 10% dextrose.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "1 to 2 mg/min.",
+      "dose": "Status epilepticus IV attack: > 30 days and children: 0.1-0.3 mg/kg/dose every 5-10 min. Maximum dose: < 5 years: 5 mg, > 5 years: 10 mg; Adults: 5-10 mg, may be repeated every 10-15 min up to a maximum of 30 mg. IV infusion: 0.1-0.2 mg/kg/hour. Seizures (immediate treatment): 2 to 5 years: 0.5 mg/kg; 6 to 11 years: 0.3 mg/kg; > 12 years and adults: 0.2 mg/kg. Moderate sedation for procedures: PO: 0.2-0.3 mg/kg (maximum dose: 10 mg) 45 to 60 min before procedure. Sedation, muscle relaxation, or anxiety: PO: 0.12-0.8 mg/kg/day every 6-8 h; IV: 0.04-0.3 mg/kg/dose every 2-4 h up to a maximum of 0.6 mg/kg over 8 h; adults: 2-10 mg/dose every 6-8 h. Patients on mechanical ventilation (IV): 0.2-0.4 mg/kg every 6 h.",
+      "notes": "Administration: IV: push: undiluted and do not exceed 5 mg/min, continuous infusion: 0.2 mg/mL in normal saline; PO: administer with food. See preliminary guide for prevention of teratogenesis caused by medications. See practical guide for analgosedation management and weaning in intermediate and moderate care units."
+    },
+    "neonatal": {
+      "dose": "0.1–0.3 mg/kg per seizure protocol.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## General\n\n- Precipitates with some diluents; follow IV formulation prescribing information.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, ataxia, dysarthria, irritability. IV: respiratory depression, thrombophlebitis. Paradoxical effect.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — diazePAM (code 0070, ATC N05BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

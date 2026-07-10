@@ -1,0 +1,48 @@
+{
+  "id": "asm-001",
+  "name": "Asma — crisis aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **crisis asmática aguda** es el empeoramiento rápido de síntomas respiratorios con obstrucción reversible de la vía aérea. En guardia se estratifica la gravedad por frecuencia respiratoria, uso de musculatura accesoria, capacidad de hablar en frases completas, sibilancias, SpO₂ y pico de flujo espiratorio si el paciente puede cooperar. La **asma casi fatal** cursa con silencio auscultatorio, bradicardia, cianosis o alteración del sensorio.\n\nEl tratamiento de primera línea es **salbutamol** de acción corta (nebulización o inhalador con espaciador, dosis repetidas cada 20 min en crisis moderada-grave) más **bromuro de ipratropio** en episodios graves. **Corticoides sistémicos** (prednisona oral o metilprednisolona / dexametasona IV) se indican precozmente. Oxígeno para mantener SpO₂ ≥ 94 %. Valorar sulfato de magnesio IV en crisis refractaria y consulta a UTI si no hay respuesta o hay acidosis respiratoria.\n\n**Enfermería**: posición semisentada, monitorizar SpO₂ y FR continuamente, registrar hora y respuesta a cada nebulización, preparar acceso venoso en crisis moderada-grave y vigilar efectos adversos de beta-2 (temblor, taquicardia). Revisar técnica inhalatoria y plan de acción escrito al alta.",
+  "relatedDrugs": [
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    },
+    {
+      "drugId": "ipr-001",
+      "label": "Ipratropio"
+    },
+    {
+      "drugId": "mep-001",
+      "label": "Metilprednisolona"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "mag-001",
+      "label": "Sulfato de magnesio"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "Asociación Argentina de Medicina Respiratoria (AAMR). Guías de asma.",
+      "url": "https://www.aamr.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Asthma Education and Prevention Program (NAEPP). Expert Panel Report.",
+      "url": "https://www.nhlbi.nih.gov/health-topics/asthma"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "lev-001",
+  "name": "Levofloxacino",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cervicite, uretrite por Cl. trachomatis e gonococo. Infecções graves por germes multirresistentes. Infecções por micobactérias.",
+  "indications": "## Indicações principais\n\nCervicite, uretrite por Cl. trachomatis e gonococo. Infecções graves por germes multirresistentes. Infecções por micobactérias.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 500 mg, 750 mg; E.V. 500 mg.",
+      "dose": "500–750 mg V.O./E.V. a cada 24 h.",
+      "administration": "V.O. ou E.V."
+    },
+    "pediatrico": {
+      "dose": "Crianças: é muito limitada a informação, alguns centros recomendam: 6 meses a 5 anos: 10 mg/kg/dose a cada 12 h, dose máxima: 500 mg/dia; maiores de 5 anos: 10 mg/kg/dose a cada 24 h, dose máxima: 1 g/dia. Adultos: 500 mg a cada 24 h; infecções graves: 750 mg a cada 24 h; tratamento para tuberculose: 15–20 mg/kg/dia a cada 24 h; diarreia do viajante: 500 mg a cada 24 h durante 3 dias.",
+      "administration": "V.O.; E.V.",
+      "presentation": "Comprimidos: 500 mg; F.A. de 20 ml: 25 mg/ml; Suspensão (preparação magistral): 50 mg/ml",
+      "notes": "Os antiácidos à base de alumínio e magnésio devem ser ingeridos pelo menos 2 h antes ou depois da levofloxacina. Pode prolongar a meia-vida da teofilina. Efeitos aditivos com medicamentos que prolongam o intervalo QT. Ver guia de tratamento de tuberculose."
+    }
+  },
+  "stability": "## Estabilidade\n\n- E.V. diluída conforme bula; proteger da luz.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, vaginite, rash, insônia, toxicidade hepática. Hiperglicemia, hipoglicemia. Rupturas tendinosas (mais frequentemente no tendão de Aquiles) a partir das 48 h de tratamento.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — levoFLOXacina* (cód. 1360, ATC J01MA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ran-001",
+  "name": "Ranitidina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antagonsta del receptor H2, antiulceroso, prevención de úlcera de stress.",
+  "indications": "## Indicaciones principales\n\nAntagonsta del receptor H2, antiulceroso, prevención de úlcera de stress.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampollas de 5 ml: 10 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "2,5 mg/mL.",
+      "infusionRate": "15 a 30 min. con BIC.",
+      "dose": "Prematuros y lactantes a término &lt; 2 semanas: E.V.: dosis de carga: 1,5 mg/kg, mantenimiento: 1,5 mg/kg/día c/12 hs. Niños: E.V.: 2-4 mg/kg/día c/6-8 hs. Adultos: E.V.: 50 mg/dosis c/6-8 hs, dosis máxima: 400 mg/día.",
+      "notes": "Para su administración E.V. diluir en Dx 5% o Sol. F. a una concentración de 0,5 mg/ml (máximo: 2,5 mg/ml) e infundir en 15-30 minutos. Precaución en pacientes con insuficiencia hepática."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- 48 hs a T° ambiente.",
+  "adverseEffects": "## Efectos adversos\n\nMareos, insomnio, agitación, rash cutáneo, constipación, náuseas, diarrea, vómitos, cefalea. Bradicardia en infusión rápida. Raros: Aumento de transaminasas, leucopenia, trombocitopenia, broncoespasmo.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Ranitidina Clorhidrato (cód. 0175, ATC A02BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

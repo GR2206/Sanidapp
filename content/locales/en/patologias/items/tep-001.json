@@ -1,0 +1,49 @@
+{
+  "id": "tep-001",
+  "name": "Pulmonary embolism (PE)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Pulmonary embolism** is the obstruction of the pulmonary artery or its branches by a thrombus, which in most cases originates from the deep venous system. The classic triad (pleuritic chest pain, hemoptysis, dyspnea) has low sensitivity; it should be suspected in cases of **unexplained acute dyspnea**, tachycardia, syncope, hypotension, or signs of DVT in the lower extremities. Risk factors include immobilization, recent surgery, cancer, pregnancy, oral contraceptives, and thrombophilias.\n\nStratification using clinical prediction rules (**Wells**, **GENEVA**) and D-dimer testing (high negative predictive value in low-probability cases) guides the diagnostic approach. **CT pulmonary angiography** is the gold standard in many centers; echocardiography is used to assess for right ventricular strain. Treatment includes **immediate anticoagulation** (unfractionated heparin or enoxaparin) and evaluation for thrombolysis or embolectomy in high-risk PE (shock or hypotension).\n\n**Nursing:** administer oxygen therapy, perform hemodynamic monitoring, check for signs of bleeding following anticoagulation, apply compression stockings if not contraindicated, and provide patient education regarding treatment duration and signs of recurrence.",
+  "clinicalBox": {
+    "title": "Wells score — probability of PE",
+    "content": "Clinical scoring (simplified version):\nClinical signs and symptoms of **DVT** — 3 pts\n**PE** as the most likely diagnosis — 3 pts\n**HR** > 100/min — 1.5 pts\nImmobilization or recent surgery — 1.5 pts\nPrevious **PE or DVT** — 1.5 pts\n**Hemoptysis** — 1 pt\nActive **cancer** — 1 pt\n\n**≤ 4:** low probability (perform D-dimer if applicable) · **> 4:** high probability → urgent pulmonary imaging."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "hef-001",
+      "label": "Heparin sodium"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparin"
+    },
+    {
+      "drugId": "war-001",
+      "label": "Warfarin"
+    },
+    {
+      "drugId": "nor-001",
+      "label": "Norepinephrine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Pulmonary Embolism Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Consenso de enfermedad tromboembólica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Chest Physicians. Antithrombotic Therapy guidelines.",
+      "url": "https://www.chestnet.org/"
+    }
+  ]
+}

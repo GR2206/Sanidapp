@@ -1,0 +1,53 @@
+{
+  "id": "end-001",
+  "name": "Infective endocarditis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Infective endocarditis** is an infection of the endocardium, heart valves, or intracardiac prosthetic material, carrying high morbidity and mortality if left untreated. It should be suspected in cases of **prolonged fever** of unknown origin, a new or changing murmur, embolic phenomena (petechiae, Janeway lesions, Osler's nodes, infarctions), a history of valvular heart disease, prosthetic valves, IV drug use, or recent dental procedures in at-risk patients.\n\nBefore initiating antibiotics: obtain **three sets of blood cultures** from different sites and at different times (do not delay initiation if the patient is unstable). Empirical regimen according to clinical context: **vancomycin** + **ceftriaxone** or **gentamicin** (native valve); adjust therapy once the antibiogram is available. TEE (transesophageal echocardiogram) confirms vegetations and complications. Surgical indications include: refractory heart failure, abscess, fistula, early prosthetic valve infection, or recurrent embolism.\n\n**Nursing:** serial blood cultures, temperature monitoring, surveillance for embolic events (neurological, splenic, renal), patient education on prolonged antibiotic adherence, and prophylaxis for future dental procedures.",
+  "clinicalBox": {
+    "title": "Modified Duke Criteria — simplified version",
+    "content": "Definite diagnosis with **2 major** criteria, OR **1 major + 3 minor** criteria, OR **5 minor** criteria.\n\n**Major:** typical positive blood cultures · echocardiographic evidence (vegetation, abscess, prosthetic dehiscence)\n\n**Minor:** predisposition (valvular heart disease, IVDA) · fever >38 °C · vascular phenomena (embolism, Janeway lesions, hemorrhages) · immunological phenomena (Osler's nodes, Roth's spots, rheumatoid factor) · atypical positive blood culture · minor echocardiographic finding\n\nRecord the exact time of culture extraction and the administration of the first antibiotic dose."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "van-001",
+      "label": "Vancomycin"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "gen-001",
+      "label": "Gentamicin"
+    },
+    {
+      "drugId": "amp-001",
+      "label": "Ampicillin"
+    },
+    {
+      "drugId": "ami-001",
+      "label": "Amikacin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Infective Endocarditis Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Endocarditis infecciosa.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Infective endocarditis guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "rhd-001",
+  "name": "Rhabdomyolysis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Rhabdomyolysis** is muscle necrosis characterized by the release of myoglobin, CK, and electrolytes into the plasma. Frequent causes in the emergency department include **trauma**, prolonged immobility following a fall, extreme exercise, seizures, drugs (**statins**, cocaine), malignant hyperthermia, and infections. The classic triad consists of myalgia, weakness, and dark urine; however, it can present without muscle pain. Complications include **AKI induced by myoglobin**, hyperkalemia, hypocalcemia, and intravascular coagulation.\n\nThe priority treatment is **aggressive volume resuscitation** with crystalloids (urine output targets according to protocol, e.g., 200–300 mL/h if tolerated) to dilute myoglobin and prevent tubular necrosis. Correct **hyperkalemia** and acidosis according to algorithms. Discontinue suspect medications. Indications for dialysis include refractory hyperkalemia, severe acidosis, fluid overload, or uremia. Monitor serial CK levels (peaking at 24–72 hours).\n\n**Nursing:** strict fluid balance, hourly urine output monitoring, ECG if hyperkalemia is present, avoidance of nephrotoxic agents (NSAIDs, contrast media), relative rest, and recording of urine characteristics (color, volume). Assess for compartment syndrome in tense limbs.",
+  "clinicalBox": {
+    "title": "CK and warning signs in rhabdomyolysis",
+    "content": "**CK** > 5× the upper limit of normal confirms muscle damage (markedly elevated values are common).\n\n**Monitor immediately for:**\n· Urine output **< 0.5 mL/kg/h** despite fluid administration\n· Elevated **K⁺** · Low **pH** · Rising **creatinine**\n· Dark urine / positive myoglobinuria\n\n**Standard resuscitation target:** urine output of **200–300 mL/h** (adjust according to protocol and cardiac comorbidities)."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemide"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Sodium bicarbonate"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Potassium chloride"
+    },
+    {
+      "drugId": "nsh-001",
+      "label": "Hypertonic sodium chloride"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Mannitol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Acute kidney injury and rhabdomyolysis.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Sociedad Argentina de Nefrología (SAN). Injuria renal aguda.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Emergency Physicians. Rhabdomyolysis clinical policy.",
+      "url": "https://www.acep.org/"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "imp-001",
+  "name": "Imipenem + cilastatina",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções respiratórias baixas, urinárias, intra-abdominais, ginecológicas, ósseas e articulares, septicemia, endocardite, de pele e partes moles por bactérias multirresistentes gram-negativas.",
+  "indications": "## Indicações principais\n\nTratamento de infecções respiratórias baixas, urinárias, intra-abdominais, ginecológicas, ósseas e articulares, septicemia, endocardite, de pele e partes moles por bactérias multirresistentes gram-negativas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 500 mg de imipenem + 500 mg de cilastatina (Imipenem Drawer, Dixabiox, Imistatin, Zienam, Pharmavial, Imipecil, Richet).",
+      "reconstitution": "10 mL de SF ou SG 5%. Conc: 50 mg/mL.",
+      "diluent": "500 mg em 100 mL de SF ou SG 5%.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "E.V. intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e agitar. Administrar em 20–30 min. Doses > 500 mg devem ser infundidas em 40–60 min.",
+      "notes": "500 mg de imipenem + cilastatina contêm 37,5 mg de sódio (1,6 mEq). Se aparecerem náuseas e vômitos, diminuir velocidade de infusão. É possível a administração I.M."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 500 mg",
+      "administration": "E.V.; I.M.",
+      "diluent": "SF 0,9%, SG 5% e 10%.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "≤ 500 mg: 15 a 30 min. > 500 mg: 40 a 60 min.",
+      "dose": "Crianças: 60–100 mg/kg/dia a cada 6–8 h, dose máxima: 4 g. Adultos: 500 mg a cada 6 h; Pseudomonas: 1000 mg a cada 6 h. Fibrose cística: 90 mg/kg/dia a cada 6 h, dose máxima: 4 g/dia.",
+      "compatibility": "Não administrar concomitantemente com ganciclovir.",
+      "notes": "Administrar em 30 a 60 minutos. Precaução em pacientes com lesão renal e comprometimento neurológico. Não se aconselha seu uso em recém-nascidos. Com ganciclovir aumenta risco de convulsões."
+    },
+    "neonatal": {
+      "dose": "Dose conforme idade pós-menstrual (UCIN); uso especializado.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Com SF: 4 h em temperatura ambiente e 48 h refrigerada. SG 5%: 4 h em temperatura ambiente e 24 h refrigerada.\n\n## Guia pediátrica\n\n- SF temperatura ambiente 10 h, 48 h na geladeira. SG 5% temperatura ambiente 4 h, 24 h na geladeira.",
+  "adverseEffects": "## Efeitos adversos\n\nFlebite, reações alérgicas, náuseas, vômitos, diarreia, colite pseudomembranosa, convulsões. Raro: leucopenia, hepatotoxicidade e nefrotoxicidade.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — IMIpenem + Cilastatina* (cód. 0382, ATC J01DH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

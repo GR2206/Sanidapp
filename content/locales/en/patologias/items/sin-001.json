@@ -1,0 +1,41 @@
+{
+  "id": "sin-001",
+  "name": "Syncope",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Syncope** is defined as a transient loss of consciousness due to global cerebral hypoperfusion, characterized by rapid onset, short duration, and spontaneous, complete recovery. In the emergency department, it is classified into **reflex (vasovagal)**, **orthostatic**, and **cardiac** (arrhythmias, structural heart disease) syncope. Cardiac syncope carries a higher risk of sudden cardiac death and requires urgent evaluation. The history should detail the clinical context (orthostatism, exertion, pain, micturition), prodromal symptoms, duration, and witness accounts (seizure vs. syncope).\n\nThe clinical examination includes blood pressure measurement in both supine and standing positions, cardiac auscultation, a mandatory **ECG** (assessing for bradyarrhythmias, long QT syndrome, conduction blocks, ischemia), and capillary blood glucose monitoring. In cases of suspected cardiac origin or syncope without prodromal symptoms occurring during exertion: continuous monitoring, troponin levels if chest pain is associated, and a cardiology consultation are required. Reflex syncope in a young patient with no history of heart disease and a normal ECG is typically classified as low-risk.\n\n**Nursing:** ensure a safe position during the episode, perform serial pulse oximetry and blood pressure monitoring, obtain an ECG upon admission, initiate oral hydration if orthostatic, and provide patient education on physical counterpressure maneuvers and avoiding dehydration. Record any current medications (such as antihypertensives or diuretics) that may induce hypotension.",
+  "relatedDrugs": [
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glucose)"
+    },
+    {
+      "drugId": "ade-001",
+      "label": "Adenosine"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Syncope guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Consenso de síncope.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Cardiology / AHA. Syncope evaluation.",
+      "url": "https://www.acc.org/"
+    }
+  ]
+}

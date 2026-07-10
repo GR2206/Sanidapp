@@ -1,0 +1,41 @@
+{
+  "id": "tel-001",
+  "name": "Telmisartan",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Long-acting ARB for HTN and reduction of cardiovascular risk.",
+  "indications": "## Indications\n\n- Essential arterial hypertension.\n- Reduction of cardiovascular events in high-risk patients (according to registered indication).\n\n## Precautions\n\n- Contraindicated in pregnancy.\n- Exercise caution with potassium-sparing diuretics.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "40 and 80 mg tablets.",
+      "dose": "40–80 mg/day PO in a single dose.",
+      "administration": "PO with or without food."
+    },
+    "pediatrico": {
+      "dose": "1–2 mg/kg/day PO (limited use, cardiology protocol).",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Store according to package insert.",
+  "adverseEffects": "## Adverse effects\n\n- Hypotension, hyperkalemia, dizziness, back pain (rare).",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

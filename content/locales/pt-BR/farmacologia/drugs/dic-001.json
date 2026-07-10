@@ -1,0 +1,41 @@
+{
+  "id": "dic-001",
+  "name": "Diclofenaco",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "AINE não narcótico com ação analgésica, antipirética e anti-inflamatória; uso IV conforme prescrição institucional.",
+  "indications": "## Indicações\n\n- Dor aguda moderada a grave.\n- Inflamação em contextos selecionados.\n\n## Precauções\n\n- Risco de efeitos gastrointestinais e renais. Uso restrito em pediatria conforme protocolo.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampola 75 mg/3 mL.",
+      "administration": "IV ou IM.",
+      "diluent": "SF, SG 5%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "De 30 min a 2 h com bomba de infusão.",
+      "dose": "150 mg/dia.",
+      "notes": "Analgésico, antipirético, anti-inflamatório não esteroide (AINE), não narcótico. Pode causar tontura, cefaleia, rash, dor abdominal, diarreia."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Descartar o remanescente após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\n- Tontura, cefaleia, rash, dor abdominal, diarreia, elevação de transaminases.",
+  "bibliography": [
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

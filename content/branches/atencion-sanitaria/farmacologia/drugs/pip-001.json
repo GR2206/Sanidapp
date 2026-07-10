@@ -1,0 +1,61 @@
+{
+  "id": "pip-001",
+  "name": "Piperacilina+tazobactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamiento de infecciones mixtas aerobios-anaerobios. No aumenta la actividad antipseudomonas, sí frente a gérmenes productores de beta-lactamasas. ",
+  "indications": "## Indicaciones principales\n\nTratamiento de infecciones mixtas aerobios-anaerobios. No aumenta la actividad antipseudomonas, sí frente a gérmenes productores de beta-lactamasas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 4 g de piperacilina (PIP) + 0,5 g de tazobactam (Bagótaz, Drawer, FADA, Pharmavial, Piperac Compuesto, Norgreen, Northia, Vredian, Petezam, Richet, Tazonam EDTA).",
+      "reconstitution": "20 mL de AD. Conc PIP: 200 mg/mL.",
+      "diluent": "4,5 g en 100 mL de SF o DX 5%.",
+      "finalConcentration": "Conc PIP: 40 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Agitar suavemente hasta disolución. Diluir en 50-150 mL de SF y admin. en 30 min.",
+      "notes": "Es posible la administración IV en infusión continua. En ese caso, se diluyen 13,5 g (3 FA) en 250 mL de SF a pasar en 24 h."
+    },
+    "pediatrico": {
+      "presentation": "F.A. de 4,5 g: (piperacilina: 4 g + tazobactam: 0,5 g)",
+      "reconstitution": "Reconstituir con 17 mL para volumen final de 20 mL.",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9% o Dext. 5%, agua destilada para reconstitución.",
+      "finalConcentration": "20 mg/mL. En restricción hídrica: 200 mg/mL.",
+      "infusionRate": "30 minutos con BIC.",
+      "dose": "Infecciones leves, moderadas y tratamiento empírico: Niños: 300 mg (piperacilina + tazobactam)/kg/día cada 8 hs, Adultos: 4,5 g (piperacilina + tazobactam) cada 8 hs. Infecciones severas (bacteriemias, infecciones intraabdominales complicadas): Niños: 300 - 450 mg (piperacilina + tazobactam)/kg/día c/ 6 hs, Adultos: 4,5 g (piperacilina + tazobactam) cada 6 hs. Dosis máxima: 18 g/día (piperacilina + tazobactam). Fibrosis quística: 450 mg (piperacilina + tazobactam)/kg/día cada 6 hs.",
+      "notes": "Administrar en 30 minutos. Administrar 30-60 minutos separado de los aminoglucósidos. Con vecuronio puede prolongar el bloqueo neuromuscular."
+    },
+    "neonatal": {
+      "dose": "Dosis y intervalo según edad postmenstrual, peso y foco infeccioso (prescripción de infectología/neonatología).",
+      "administration": "IV preferentemente central."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb y 48 hs refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb y 7 días refrigerado.\n\n## Cartilla pediátrica\n\n- 24 hs a T° ambiente, 48 hs en heladera.",
+  "adverseEffects": "## Efectos adversos\n\nInsomnio, cefalea, confusión, convulsiones, rash, prurito, edema, diarrea, constipación, náuseas, vómitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — PIPERACILINA + tazobactam (cód. 1361, ATC J01CR).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy — Piperacillin-tazobactam.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos — Piperacilina y tazobactam.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías de manejo antimicrobiano.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

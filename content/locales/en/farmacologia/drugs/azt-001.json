@@ -1,0 +1,50 @@
+{
+  "id": "azt-001",
+  "name": "Aztreonam",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of severe Gram (-) infections in patients allergic to penicillins.",
+  "indications": "## Main indications\n\nTreatment of severe Gram (-) infections in patients allergic to penicillins.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 1 g (Richet, Norgreen).",
+      "reconstitution": "10 mL SWFI. Conc: 100 mg/mL.",
+      "diluent": "1 g in 100 mL NS.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "Intermittent IV: Yes. Dilute 1 g in 100 mL NS or 5% dextrose and administer over 20-60 min.",
+      "notes": "Do not administer with other medications. If simultaneous administration is required, suspend aztreonam administration."
+    },
+    "pediatrico": {
+      "dose": "90-120 mg/kg/day every 6-8 h, maximum dose: 8 g/day. Adults: 1-2 g every 8 h. Cystic fibrosis: 150 mg/kg/day every 8 h.",
+      "administration": "IV",
+      "presentation": "Powder vial: 1 g",
+      "notes": "Administer by IV infusion over 20-60 minutes. Each gram of aztreonam contains 780 mg of arginine."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 7 days refrigerated.\n\n## Diluted solution (for administration)\n\n- Not specified.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, rash, seizures, nausea, vomiting, anorexia, abdominal pain, pseudomembranous colitis, eosinophilia, leukopenia, neutropenia, thrombocytopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Aztreonam* (code 1445, ATC J01DF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

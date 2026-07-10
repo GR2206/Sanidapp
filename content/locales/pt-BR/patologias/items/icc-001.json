@@ -1,0 +1,49 @@
+{
+  "id": "icc-001",
+  "name": "Insuficiência cardíaca (IC)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **insuficiência cardíaca** é uma síndrome clínica na qual o coração não bombeia sangue de forma eficaz para as necessidades metabólicas, ou o faz apenas com pressões de enchimento elevadas. Na emergência predominam as **descompensações agudas**: edema agudo de pulmão, IC com congestão sistêmica, perfil úmido-frio (baixo débito) ou crises hipertensivas associadas. A anamnese explora dispneia paroxística noturna, ortopneia, ganho ponderal, adesão a diuréticos e fatores desencadeantes (infecção, arritmia, IAM, anemia).\n\nO exame avalia crepitantes, ingurgitamento jugular, refluxo hepatojugular, edemas, ritmo e sopros. O **ECG**, radiografia de tórax, BNP/NT-proBNP, ionograma e função renal orientam gravidade e plano terapêutico. O tratamento agudo combina **diuréticos de alça** (furosemida IV), vasodilatadores (nitroglicerina) no perfil hipertenso, oxigênio ou VNI conforme hipoxemia, e manejo da causa desencadeante. No choque cardiogênico requerem-se inotrópicos e cuidados intensivos.\n\n**Enfermagem**: peso diário, balanço hídrico rigoroso, monitorização da diurese pós-furosemida, controle de eletrólitos (K⁺, Mg²⁺), posição semisentada e restrição de sódio e líquidos conforme prescrição médica. Detectar precocemente hipotensão, oligúria e alteração do estado mental.",
+  "bibliography": [
+    {
+      "citation": "Sociedade Argentina de Cardiologia (SAC). Consensos de insuficiência cardíaca.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart Failure Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Heart Failure guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemida"
+    },
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "dob-001",
+      "label": "Dobutamina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "esp-001",
+      "label": "Espironolactona"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "vip-p001",
+  "title": "Pediatric peripheral IV insertion",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Insert a pediatric peripheral IV catheter using an aseptic non-touch technique, selecting the gauge by weight, ensuring appropriate analgesia and safe therapeutic restraint, and monitoring closely for infiltration and extravasation.",
+  "body": "## Steps to perform\n\n1. Identify the patient (two identifiers), check allergies, and verify the prescription; select the catheter gauge and anatomical site based on weight.\n2. Explain the procedure to the family and the child; provide topical or systemic analgesia and arrange safe therapeutic restraint (minimum two people).\n3. Perform hand hygiene (WHO Moment 2) and prepare sterile materials.\n4. Position the extremity; apply a gentle tourniquet 5–10 cm proximal to the site; palpate and select the vein.\n5. Disinfect the skin with an antiseptic using circular friction; allow to dry completely; do not re-touch the disinfected area.\n6. Perform venipuncture using an aseptic non-touch technique (10–30° angle); advance until blood flashback is seen in the chamber.\n7. Remove the tourniquet; advance the catheter into the vein, withdraw the needle, and connect a closed needleless system without unnecessary disconnections.\n8. Verify blood return and patency by infusing fluid without resistance; secure with a transparent dressing without causing compression.\n9. Document date, time, site, gauge, number of attempts, and operator; perform hand hygiene upon completion.\n10. If unsuccessful: allow a maximum of two attempts per operator, then escalate to an experienced colleague or consider alternative access (intraosseous, central).\n11. Assess the site every shift for erythema, pain, edema, and extravasation; disinfect the hub before every access; remove the device when treatment is completed or if a complication arises.\n\n## Scientific rationale\n\n### Indications\n\n- Administration of IV medications or fluids.\n- Fluid resuscitation with boluses (dehydration, sepsis, shock).\n- Blood sampling when alternative access is unavailable.\n- Contrast media administration or procedures per medical order.\n\n### Evidence and recommendations\n\n> **Prevention bundle (WHO 2024 / SATI):** Hand hygiene, aseptic technique, skin antisepsis, a maximum of two attempts per operator, adequate securement, and early removal when access is no longer essential (Gorski et al., 2024; CDC/HICPAC, 2011).\n\n### Site and gauge selection\n\n| Approximate weight | Suggested gauge | Preferred site |\n| --- | --- | --- |\n| Newborn / small infant | 24 G | Dorsum of hand or foot; forearm if vein is visible |\n| 1–10 kg | 24 G | Forearm, dorsum of hand |\n| 10–20 kg | 22–24 G | Forearm |\n| > 20 kg | 22–20 G | Forearm (first choice) |\n\n| Preference | Site |\n| --- | --- |\n| First choice | Forearm (basilic, cephalic, or median cubital veins) |\n| Alternative | Dorsum of the hand or foot (infants; higher extravasation risk) |\n| Last resort | Scalp (newborns/infants only, per institutional protocol) |\n| Avoid | Extremities with infection, lymphedema, fistula, or prior failed punctures in the same area |\n\nRotate extremities; do not repeat a puncture in the same site during the same session.\n\n### Preparing the child\n\n- Topical analgesia when time permits (EMLA 60 minutes, topical lidocaine, J-tip per AAP protocol).\n- Therapeutic restraint: one person stabilizes the child without compressing the chest or airway; another operator performs cannulation.\n- Antiseptic: use alcoholic chlorhexidine in children \u22652 months of age; in premature newborns or infants <2 months, follow institutional protocols.\n\n### Criteria for immediate removal\n\n- Phlebitis, infiltration, or extravasation (activate the specific protocol if a vesicant drug is involved).\n- Suspicion of local site infection or catheter-related bloodstream infection.\n- Malfunction or unresolved obstruction.\n- Catheter is no longer essential.\n\n### Complications — notify immediately\n\n- Extravasation of vesicant, hyperosmolar, or vasoactive medications.\n- Extensive hematoma, persistent bleeding, or loss of distal pulse.\n- Cyanosis or pallor of the cannulated extremity.\n- Severe pain, inconsolable crying, or refusal to use the extremity.\n- Fever or progressive erythema at the insertion site.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections and other infections associated with the use of intravascular catheters — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "OMS — Noticias: nuevas orientaciones para reducir septicemias por catéteres (2024).",
+      "url": "https://www.who.int/es/news-room/09-05-2024-new-guidance-aims-to-reduce-bloodstream-infections-from-catheter-use"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011. CDC / HICPAC.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Pediatric Pain Management and sedation for procedures.",
+      "url": "https://www.aap.org/en/patient-care/sedation-and-analgesia/"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Prevención de IAAS y accesos vasculares.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

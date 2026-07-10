@@ -1,0 +1,61 @@
+{
+  "id": "lin-001",
+  "name": "Linezolid",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "En infecciones por gérmenes resistentes a vancomicina. Antibacteriano del grupo oxazolidinona.",
+  "indications": "## Indicaciones principales\n\nEn infecciones por gérmenes resistentes a vancomicina. Antibacteriano del grupo oxazolidinona.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Sachet conteniendo 600 mg de linezolid en 300 mL (Zyvox, Litrocan, Richet).",
+      "reconstitution": "No requiere reconst. previa. Conc: 2 mg/mL.",
+      "diluent": "600 mg en 300 mL.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Lista para usar. Admin. en 30-120 min.",
+      "notes": "Irritante. Puede provocar flebitis y dolor en el sitio de inyección. Puede presentar una coloración ligeramente amarillenta que puede intensificarse con el tiempo sin afectar su potencia."
+    },
+    "pediatrico": {
+      "presentation": "Solución inyectable E.V. 2 mg/ml: bolsas con solución para infusión conteniendo 600 mg/300 ml; Comprimidos recubiertos: 600 mg",
+      "administration": "E.V. V.O.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%, Ringer.",
+      "finalConcentration": "2 mg/mL.",
+      "infusionRate": "Entre 30 y 120 minutos con BIC.",
+      "dose": "Neonatos pretérminos menores de 7 días: 10 mg/kg/dosis c/12 hs; Recién nacidos a 11 años: 10 mg/kg/dosis c/ 8 hs; &gt; de 11 años a 18 años: 10 mg/kg/dosis c/ 12 hs, máximo 1200 mg/día; Adultos: 600 mg/dosis cada 12 hs, dosis máxima: 1200 mg/día. Tratamiento para la tuberculosis: &lt; 15 kg: 15 mg/kg/día cada 24 hs; &gt; 15 kg: 10 - 12 mg/kg/día cada 24 hs, dosis máxima: 600 mg.",
+      "compatibility": "Incompatible con anfotericina B, diazepam, fenitoína, TMS (trimetoprima/sulfametoxazol) y ceftriaxona.",
+      "notes": "Pacientes en diálisis administrarlo después del procedimiento. Evitar consumir alimentos o bebidas ricos en tiramina. Precaución cuando se administra junto con agentes adrenérgicos o serotoninérgicos. E.V. administrar en 30 a 120 minutos. Ver Guía de tratamiento de tuberculosis."
+    },
+    "neonatal": {
+      "dose": "10 mg/kg/dosis cada 8–12 h (NNU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- No aplica.\n\n## Solución diluida (a administrar)\n\n- No especificado.\n\n## Cartilla pediátrica\n\n- 4 hs a T° ambiente una vez abierto. Mantener en envase original.",
+  "adverseEffects": "## Efectos adversos\n\nHipertensión, cefalea, diarrea, náuseas, trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Linezolide* (cód. 1518, ATC J01XX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

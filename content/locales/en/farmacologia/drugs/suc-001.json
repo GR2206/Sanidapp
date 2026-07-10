@@ -1,0 +1,53 @@
+{
+  "id": "suc-001",
+  "name": "Succinylcholine",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Ultra-rapid-acting depolarizing relaxant for intubation; contraindications in hyperkalemia and burn patients.",
+  "indications": "## Indications\n\n- Rapid sequence intubation (RSI) when there is no contraindication.\n- Electroconvulsive therapy (regimens).\n\n## Precautions\n\n- Hyperkalemia, rhabdomyolysis, extensive burns, periodic paralysis, muscular dystrophies.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "100–500 mg lyophilized vial.",
+      "dose": "1–1.5 mg/kg IV bolus for RSI.",
+      "administration": "Rapid IV bolus."
+    },
+    "pediatrico": {
+      "presentation": "500 mg/10 mL ampoule.",
+      "diluent": "0.9% NaCl solution, 5% dextrose.",
+      "dose": "1 mg/kg/dose. Then 0.3 to 0.6 mg/kg until the desired effect is achieved.",
+      "infusionRate": "Push.",
+      "administration": "IV.",
+      "notes": "Neuromuscular blocker, requires ventilatory support during administration, does not alter consciousness. May cause hypertension and hypotension, cardiac arrest, malignant hyperthermia, rash, sialorrhea, respiratory depression."
+    },
+    "neonatal": {
+      "dose": "3 mg/kg IV in RSI according to protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Reconstitute and use immediately.\n\n## Pediatric guide\n\n- Store in the refrigerator. Stability according to the manufacturer.",
+  "adverseEffects": "## Adverse effects\n\n- Severe hyperkalemia, fasciculations, myalgia, bradycardia in children.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

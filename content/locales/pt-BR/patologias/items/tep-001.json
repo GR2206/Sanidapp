@@ -1,0 +1,49 @@
+{
+  "id": "tep-001",
+  "name": "Tromboembolismo pulmonar (TEP)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "O **tromboembolismo pulmonar** é a obstrução da artéria pulmonar ou de seus ramos por um trombo, na maioria dos casos proveniente do sistema venoso profundo. A tríade clássica (dor torácica pleurítica, hemoptise, dispneia) é pouco sensível; deve-se suspeitar diante de **dispneia aguda inexplicada**, taquicardia, síncope, hipotensão ou sinais de TVP em membros inferiores. Fatores de risco: imobilização, cirurgia recente, câncer, gestação, anticoncepcionais e trombofilias.\n\nA estratificação com escalas (**Wells**, **GENEVA**) e D-dímero (alto valor preditivo negativo em baixa probabilidade) orienta a investigação. A **angio-TC pulmonar** é o padrão-ouro em muitos centros; ecocardiograma busca sobrecarga direita. O tratamento inclui **anticoagulação** imediata (heparina não fracionada ou enoxaparina) e avaliação de trombólise ou embolectomia no TEP de alto risco (choque ou hipotensão).\n\n**Enfermagem**: oxigenoterapia, monitorização hemodinâmica, controle de sinais de sangramento após anticoagulação, meias de compressão se não contraindicadas e orientação sobre duração do tratamento e sinais de recorrência.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Pulmonary Embolism Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Consenso de doença tromboembólica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Chest Physicians. Antithrombotic Therapy guidelines.",
+      "url": "https://www.chestnet.org/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "Escala de Wells — probabilidade de TEP",
+    "content": "Pontuação clínica (versão simplificada):\nSinais clínicos de **TVP** — 3 pts\n**TEP** como diagnóstico mais provável — 3 pts\nFC **> 100**/min — 1,5 pts\nImobilização ou cirurgia recente — 1,5 pts\n**TEP ou TVP** prévios — 1,5 pts\n**Hemoptise** — 1 pt\n**Câncer** ativo — 1 pt\n\n**≤ 4:** probabilidade baixa (D-dímero se aplicável) · **> 4:** probabilidade alta → imagem pulmonar urgente."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "war-001",
+      "label": "Warfarina"
+    },
+    {
+      "drugId": "nor-001",
+      "label": "Noradrenalina"
+    }
+  ]
+}

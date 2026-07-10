@@ -1,0 +1,53 @@
+{
+  "id": "tdm-001",
+  "name": "Distúrbios do meio interno",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "Os **distúrbios do meio interno (DMI)** agrupam alterações hidroeletrolíticas e ácido-base frequentes na emergência: hiponatremia, hipercalemia, hipocalemia, hipoglicemia, hipocalcemia e distúrbios do equilíbrio ácido-base. Costumam ser **consequência** de outra patologia (vômitos, diarreia, diuréticos, IRA, sepse, insulina em excesso) e sua correção inadequada pode ser iatrogênica.\n\nA **desidratação** hipovolêmica cursa com sede, mucosas secas, hipotensão ortostática, oligúria e hemoconcentração; o tratamento é reposição com cristaloides conforme gravidade e causa. A **hiponatremia** sintomática (convulsões, coma) requer correção controlada com salina hipertônica conforme protocolo; evitar correção rápida para prevenir mielinólise. A **hipercalemia** grave demanda estabilização de membrana (cálcio IV), shift intracelular (insulina-dextrose, beta-2) e eliminação conforme recursos.\n\n**Enfermagem**: monitorizar sinais vitais, diurese, glicemia capilar se indicado, administrar eletrólitos e soluções com bomba de infusão quando indicado, e repetir laboratório conforme prescrição médica. Documentar volume administrado e resposta clínica.",
+  "bibliography": [
+    {
+      "citation": "European Renal Association. Clinical practice guideline on management of hyponatraemia.",
+      "url": "https://www.era-online.org/"
+    },
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Electrolyte disorders.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Society of Nephrology. Core curriculum in electrolyte disorders.",
+      "url": "https://www.asn-online.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "nsh-001",
+      "label": "Cloreto de sódio hipertônico"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloreto de potássio"
+    },
+    {
+      "drugId": "cag-001",
+      "label": "Gluconato de cálcio"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sódio"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glicose)"
+    }
+  ]
+}

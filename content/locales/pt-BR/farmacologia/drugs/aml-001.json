@@ -1,0 +1,47 @@
+{
+  "id": "aml-001",
+  "name": "Amlodipino",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Hipertensão. Bloqueador dos canais de cálcio.",
+  "indications": "## Indicações principais\n\nHipertensão. Bloqueador dos canais de cálcio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5 e 10 mg.",
+      "dose": "5–10 mg/dia V.O. em dose única matutina.",
+      "administration": "V.O."
+    },
+    "pediatrico": {
+      "dose": "Crianças: inicial: 0,06 mg/kg/dia (até 5 mg/dia), uma vez ao dia; dose máxima: 0,6 mg/kg/dia (até 10 mg/dia). Adultos: inicial: 5 mg uma vez ao dia, manutenção: 5–10 mg uma vez ao dia.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 5–10 mg; Suspensão (preparado magistral): 1 mg/ml",
+      "notes": "Não descontinuar abruptamente o fármaco."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula, proteger da luz.",
+  "adverseEffects": "## Efeitos adversos\n\nPalpitações, edema periférico, cefaleia, tontura, fadiga, angina, arritmia cardíaca (raro).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — AMLOdipina Besilato (cód. 1509, ATC C08CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Diretrizes de hipertensão.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

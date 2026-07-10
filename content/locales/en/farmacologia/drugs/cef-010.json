@@ -1,0 +1,49 @@
+{
+  "id": "cef-010",
+  "name": "Ceftaroline",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.3",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "For persistent MRSA bacteremia with respiratory focus/ARDS. Complicated skin and soft tissue infections and community-acquired pneumonia. Specialist-only indication.",
+  "indications": "## Main indications\n\nFor persistent MRSA bacteremia with respiratory focus/ARDS.\nComplicated skin and soft tissue infections and community-acquired pneumonia.\nSpecialist-only indication.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 600 mg (Zinforo).",
+      "reconstitution": "20 mL SWFI. Conc: 30 mg/mL.",
+      "diluent": "600 mg in 250 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "2,4 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Reconstitute 600 mg with 250 mL SWFI, 0.9% NaCl or 5% dextrose and administer over 60 min."
+    },
+    "pediatrico": {
+      "dose": "Complicated skin and soft tissue infections and community-acquired pneumonia: Neonates up to 2 months: 6 mg/kg/dose every 8 h, > 2 months to < 2 years: 8 mg/kg/dose every 8 h, > 2 years to < 12 years: 12 mg/kg/dose (maximum 400 mg) every 8 h, adolescents 12 to < 18 years weighing < 33 kg: 12 mg/kg/dose (maximum 400 mg) every 8 h, adolescents 12 to < 18 years weighing > 33 kg: 600 mg/dose every 12 h, adults: 600 mg/dose every 12 h. Renal insufficiency: adults and adolescents > 12 to 18 years and weight > 33 kg: Clcr 30–50 mL/min: 400 mg/dose every 12 h; Clcr 15–30 mL/min: 300 mg/dose every 12 h; renal disease (including hemodialysis): 200 mg every 12 h. 12–18 years and weight < 33 kg and children 2–12 years: Clcr 30–50 mL/min: 8 mg/kg/dose every 8 h (maximum: 300 mg every 8 h); Clcr 15–30 mL/min: 6 mg/kg/dose every 8 h (maximum 200 mg every 12 h).",
+      "administration": "IV",
+      "presentation": "Powder vial: 600 mg",
+      "notes": "Administer by IV infusion over 120 min."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Dilute and use immediately.\n\n## Diluted solution (for administration)\n\n- 6 h at room temperature and 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nRash, pruritus, headache, dizziness, phlebitis, nausea, vomiting, abdominal pain, elevated transaminases, pyrexia, infusion-site reactions (erythema, phlebitis, pain), positive Coombs test.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — CeftaROLINA Fosamil* (code 2037, ATC J01DI).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

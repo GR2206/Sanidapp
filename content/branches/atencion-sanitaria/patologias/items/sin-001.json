@@ -1,0 +1,40 @@
+{
+  "id": "sin-001",
+  "name": "Síncope",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **síncope** es la pérdida transitoria de conciencia por hipoperfusión cerebral global, con recuperación espontánea completa. En guardia se clasifica en **reflejo (vasovagal)**, **ortostático** y **cardíaco** (arritmias, cardiopatía estructural). El síncope cardíaco tiene mayor riesgo de muerte súbita y exige estudio urgente. La anamnesis detalla contexto (ortostatismo, esfuerzo, dolor, micción), prodromos, duración y testigos (convulsión vs síncope).\n\nEl examen incluye PA en decúbito y ortostatismo, auscultación cardíaca, ECG obligatorio (buscar bradiarritmias, QT largo, bloqueos, isquemia) y glucemia capilar. En sospecha cardíaca o síncope sin prodromos en esfuerzo: monitorización, troponinas si dolor asociado y consulta cardiología. El síncope reflejo en paciente joven sin cardiopatía suele ser de bajo riesgo tras ECG normal.\n\n**Enfermería**: posición segura durante el episodio, oxímetro y TA seriados, ECG al ingreso, hidratación oral si ortostático y educación sobre maniobras de contrapresión y evitar deshidratación. Registrar medicación (antihipertensivos, diuréticos) que favorezcan hipotensión.",
+  "relatedDrugs": [
+    {
+      "drugId": "glu-001",
+      "label": "Dextrosa (glucosa)"
+    },
+    {
+      "drugId": "ade-001",
+      "label": "Adenosina"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Syncope guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Consenso de síncope.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Cardiology / AHA. Syncope evaluation.",
+      "url": "https://www.acc.org/"
+    }
+  ]
+}

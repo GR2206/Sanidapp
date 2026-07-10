@@ -1,0 +1,44 @@
+{
+  "id": "isa-001",
+  "name": "Isavuconazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "IV triazole (Cresemba) for invasive aspergillosis and mucormycosis; requires an in-line filter.",
+  "indications": "## Indications\n\n- Invasive aspergillosis.\n- Mucormycosis according to prescription.\n\n## Precautions\n\n- Requires a 0.2–1.2 μm in-line filter.\n- Interactions with CYP3A4 inhibitors/inducers.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial with lyophilized powder containing 200 mg of isavuconazonium sulfate (equiv. to 186 mg of isavuconazole) (Cresemba).",
+      "reconstitution": "5 mL of sterile water (SW). Concentration: 40 mg/mL of isavuconazonium sulfate. Shake gently.",
+      "diluent": "200 mg in 250 mL of normal saline (NS) or 5% dextrose (D5W).",
+      "finalConcentration": "0.8 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 250 mL of NS or D5W and infuse over 60 min via an in-line filter (0.2–1.2 μm). Do not use a syringe.",
+      "notes": "Requires a 0.2–1.2 μm in-line filter during infusion. Do not administer as a bolus. Loading dose: 200 mg every 8 h × 6 doses (48 h); maintenance: 200 mg/day. Indicated for invasive aspergillosis and mucormycosis. Interactions with CYP3A4 inhibitors/inducers."
+    },
+    "pediatrico": {
+      "dose": "Regimens under pediatric infectious disease supervision.",
+      "administration": "Intermittent IV according to protocol."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted (in vial): 1 h at room temperature.\n- Diluted solution (to be administered): 6 h at room temperature, 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\n- Nausea, diarrhea, elevated transaminases, QT prolongation.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

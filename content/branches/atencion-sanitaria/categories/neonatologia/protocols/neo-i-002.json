@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-002",
+  "title": "Catéter venoso umbilical (UVC)",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Canalizar catéter venoso umbilical en neonato de 500 g a 2500 g (día 0–30) con técnica estéril, profundidad según peso, confirmación radiológica de punta infra diafragmática y bundle OMS para prevenir infección.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación médica, identificación del neonato (dos identificadores), peso actual y coagulación si procedimiento electivo; contraindicación relativa: omphalitis, malformación umbilical o sospecha de NEC.\n2. Posicionar bajo radiante con monitorización cardiorrespiratoria; mantener termorregulación (axilar 36,5–37,5 °C).\n3. Realizar higiene de manos (momento 2 OMS); vestir gorro, mascarilla, bata estéril y guantes estériles.\n4. Preparar kit UVC (catéter 3,5–5 Fr según peso, jeringa, suero, sutura 3-0, antiséptico, campos estériles).\n5. Fijar el cordón con ligadura distal; seccionar cordón a 45° con bisturí estéril; identificar vena umbilical (estructura más grande, sangre oscura no pulsátil).\n6. Dilatar ostio venoso con pinzas; introducir catéter suavemente sin fuerza; avanzar hasta profundidad estimada según peso (ver tabla).\n7. Aspirar sangre con reflujo libre; conectar equipo cerrado; infundir solución de prueba (SF 0,5–1 ml) sin resistencia.\n8. Suturar catéter al cordón con punto de anclaje; cubrir con apósito estéril transparente; etiquetar fecha, hora, profundidad insertada y operador.\n9. Solicitar radiografía de tórax/abdomen de inmediato: punta debe estar en vena cava inferior **infra diafragmática** (aprox. T6–T9); retirar o reintroducir si está en aurícula derecha, hepática o portal.\n10. Registrar posición final en cm desde base del cordón; iniciar infusión continua de SF o solución glucosada según prescripción; no usar UVC para fármacos vesicantes sin confirmación de posición.\n11. Desinfectar hub con antiséptico antes de cada acceso; no desconectar líneas innecesariamente.\n12. Revisar cada turno: eritema periumbilical, edema abdominal, sangrado, mal funcionamiento; retirar según criterios institucionales (usualmente día 7–14 o antes si complicación).\n\n## Fundamentación científica\n\n### Población y alcance\n\nExclusivo para **neonatos día 0–30**, **500 g–2500 g**. El UVC es el acceso central de elección en las primeras horas/días de vida en UCI Neonatal.\n\n### Indicaciones\n\n- Reanimación neonatal con necesidad de fármacos o volumen.\n- Infusión de nutrición parenteral, fármacos vasoactivos o antibióticos de administración central.\n- Monitorización de PVC en shock o insuficiencia cardíaca.\n- Intercambio transfusional (catéter de doble luz o protocolo específico).\n\n### Evidencia y recomendaciones\n\n> **OMS (2024):** bundle de inserción: higiene de manos, barrera máxima, antiséptico clorhexidina alcohólica en cordón (≥ 2% según protocolo local en RN), técnica estéril y revisión diaria del sitio (WHO, 2024).\n\n> **VON:** la malposición de UVC en aurícula derecha incrementa riesgo de arritmias y trombosis; confirmación radiológica obligatoria (Vermont Oxford Network).\n\n### Selección de calibre y profundidad\n\n| Peso al nacimiento | Calibre UVC | Profundidad estimada (cm desde base cordón) |\n| --- | --- | --- |\n| 500–750 g | 3,5 Fr | 4–6 cm |\n| 750–1000 g | 3,5–5 Fr | 6–8 cm |\n| 1000–1500 g | 5 Fr | 8–10 cm |\n| 1500–2500 g | 5 Fr | 10–12 cm |\n\nAjustar según longitud del muñón umbilical y confirmación radiológica.\n\n### Posición de la punta\n\n| Hallazgo radiológico | Acción |\n| --- | --- |\n| VCI infra diafragmática (T6–T9) | Posición correcta |\n| Aurícula derecha / unión atriocava | Retirar 0,5–1 cm |\n| Vena porta / hepática | Retirar 1–2 cm |\n| < 3 cm insertado | Riesgo de extravasación; recanalizar |\n\n### Cuidados y retiro\n\n- No usar UVC > 14 días si hay alternativa (PICC o periférica); riesgo de infección y trombosis aumenta.\n- Limpiar secreciones periumbilicales con suero; no aplicar polvos ni unguentos no prescritos.\n- Retirar si: omphalitis, sospecha de CLABSI, mal funcionamiento, NEC, o finalizada indicación.\n\n### Complicaciones — avisar de inmediato\n\n- Extravasación (edema abdominal, eritema periumbilical, ascitis).\n- Arritmias (extrasístoles, taquicardia/bradicardia al avanzar catéter).\n- Trombosis de vena cava o hepática.\n- Infección del sitio o bacteriemia asociada al catéter.\n- Perforación vascular o hemorragia del cordón no controlada.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with intravascular catheters — Part 2: Central catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Vermont Oxford Network. Quality improvement in umbilical catheter placement and NICU care.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — vascular access and umbilical catheters.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "O'Grady NP, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 — updated guidance.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales — consenso SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ivb-001",
+  "name": "Ivabradina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Insuficiencia cardíaca con taquicardia persistente pese al uso de betabloqueantes. Reduce de manera exclusiva la frecuencia cardíaca, actuando mediante la inhibición selectiva y específica de la corriente If del marcapasos cardíaco que controla la despolarización diastólica espon",
+  "indications": "## Indicaciones principales\n\nInsuficiencia cardíaca con taquicardia persistente pese al uso de betabloqueantes. Reduce de manera exclusiva la frecuencia cardíaca, actuando mediante la inhibición selectiva y específica de la corriente If del marcapasos cardíaco que controla la despolarización diastólica espontánea en el nodo sinusal y regula la frecuencia cardíaca.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5 y 7,5 mg.",
+      "dose": "Iniciar 5 mg VO cada 12 h; titular a 7,5 mg cada 12 h según FC y tolerancia.",
+      "administration": "VO con las comidas."
+    },
+    "pediatrico": {
+      "dose": "&ge; 6 meses y &lt; 40 kg: inicial 0,05 mg/kg/dosis cada 12 hs, titular dosis según respuesta luego de 2 semanas de a 0,05 mg/kg hasta alcanzar una reducción de la frecuencia cardíaca de al menos 20%. Dosis máxima 6 meses a 1 año: 0,2 mg/kg/dosis cada 12 hs, &gt; 1 año: 0,3 mg/kg/dosis cada 12 hs (hasta 7,5 mg/dosis cada 12 hs). &gt; 6 meses y &gt; 40 kg: inicial 2,5 mg/dosis cada 12 hs, titular dosis según respuesta luego de 2 semanas de 2,5 mg hasta alcanzar una reducción de la frecuencia cardíaca de al menos 20%. Dosis máxima 7,5 mg/dosis cada 12 hs. Si produce bradicardia considerar reducir la dosis a la dosis previa recibida ó 0,02 mg/kg/dosis cada 12 hs si es con la dosis inicial.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 5 mg",
+      "notes": "Administrar con el desayuno y cena, evitar jugo de pomelo. Precaución en pacientes con insuficiencia cardíaca aguda descompensada, hipotensión sostenida, enfermedad del nódulo sinusal, bradiacrdia sintomática, fallo hepático severo. Interacciones: evitar el uso concomitante con medicamentos que prolongan el intervalo QT (amiodarona, pentamidina, etc.) ya que el alargamiento del intervalo QT podría exacerbarse con el descenso de la frecuencia cardíaca. Rifampicina, fenitoína reducen su actividad. Inhibidores potentes del CYP3A4 tales como antifúngicos azólicos (itraconazol, etc.), antibióticos macrólidos (claritomicina, eritromicina, etc.), inhibidores de la proteasa de VIH (nelfinavir, ritonavir, etc.) aumentan las concentraciones plasmáticas de la ivabradina. Con diuréticos no ahorradores de potasio, riesgo de arritmias graves."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nCefaleas (durante el 1er mes), mareos posiblemente relacionados con la bradicardia, fenómenos luminosos, visión borrosa, bradicardia, bloqueo A-V de 1er grado, extrasístole, fibrilación auricular, presión arterial no controlada. ",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — ivaBRADina* (cód. 2031, ATC C01EB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart failure guidelines.",
+      "url": "https://www.escardio.org/"
+    }
+  ]
+}

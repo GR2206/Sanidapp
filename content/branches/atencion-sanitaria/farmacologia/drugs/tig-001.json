@@ -1,0 +1,39 @@
+{
+  "id": "tig-001",
+  "name": "Tigeciclina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Glicilciclina IV de reserva para polimicrobianos intraabdominales y de piel complicados.",
+  "indications": "## Indicaciones\n\n- Infecciones intraabdominales y de piel complicadas cuando alternativas no son adecuadas.\n\n## Precauciones\n\n- Mayor mortalidad en bacteriemia en algunos estudios; no primera línea en sepsis. Náuseas frecuentes.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 50 mg (Tigeciclina Richet, Tygacil).",
+      "reconstitution": "5 mL de SF o DX 5%. Conc: 10 mg/mL.",
+      "diluent": "50 mg en 100 mL de SF o DX 5%.",
+      "finalConcentration": "0,5 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 100 mL de SF o DX 5% y admin. en 30-60 min.",
+      "notes": "No administrar en forma simultánea con anfotericina B, anfotericina B complejo lipídico ni diazepam. Cuando la dosis de carga es de 200 mg, diluir en 200 mL de SF o DX 5%."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb.\n\n## Solución diluida (a administrar)\n\n- 48 hs a T° amb.",
+  "adverseEffects": "## Efectos\n\n- Náuseas, vómitos, hiperbilirrubinemia, pancreatitis (raro).",
+  "bibliography": [
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

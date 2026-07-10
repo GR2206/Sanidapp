@@ -1,0 +1,62 @@
+{
+  "id": "col-001",
+  "name": "Colistin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Multidrug-resistant organisms, cystic fibrosis.",
+  "indications": "## Main indications\n\nMultidrug-resistant organisms, cystic fibrosis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial containing 100 mg colistin base (Permalec*, Fabra*, Colistina Richet*, Techsphere*, Alfacolin*, Alficetin, Nolisin, Cotrelan*, Colislym, Espirotech*).",
+      "reconstitution": "2 mL sterile water for injection. Conc: 50 mg/mL.",
+      "diluent": "100 mg in 50-100 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "Direct IV: Yes. Reconstitute in 3-5 mL sterile water for injection and administer over 3-5 min. Intermittent IV: Yes. Dilute in 50 mL 0.9% NaCl or 5% dextrose and infuse over 10-15 min.",
+      "notes": "100 mg colistin base is approximately equivalent to 240 mg colistin methanesulfonate and 3.000.000 IU potency. IM or inhalation administration is possible."
+    },
+    "pediatrico": {
+      "presentation": "Vial: 100 mg colistin base (3.000.000 U.I.)",
+      "administration": "IV; Intrathecal; Inhalation",
+      "diluent": "0.9% NaCl, 5% dextrose, sterile water for injection, Ringer solution.",
+      "finalConcentration": "According to patient fluid requirements.",
+      "infusionRate": "Bolus over 3 to 5 min.",
+      "dose": "IV: 2,5 colistin base/kg/dose every 12 h. Severe infections, critically ill patients, and cystic fibrosis: 7 mg colistin base/kg/day every 8 h. Maximum dose: 100 mg/dose. Adults loading dose: 5 mg colistin base/kg/dose (maximum dose 300 mg); then 12 h post loading: 100 mg/dose every 8 h. Equivalence: 1 mg sodium colistimethate = 12.500 U sodium colistimethate = 0,4 mg colistin base.",
+      "compatibility": "Precipitates concomitantly with erythromycin, cephalothin, tetracycline.",
+      "notes": "Increases risk of ototoxicity and nephrotoxicity with aminoglycosides, cyclosporine, amphotericin, and cisplatin."
+    },
+    "neonatal": {
+      "dose": "Dose per NICU protocol and weight; strict renal monitoring.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature, 48 h refrigerated.\n\n## Diluted solution (for administration)\n\n- Use immediately once diluted. (24 h at room temperature).\n\n## Pediatric guide\n\n- 8 h at room temperature, 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nMuscle weakness, facial paresthesia, visual disturbances, nephrotoxic. May cause bronchospasm when nebulized (treat with β-agonists).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Colistin Methanesulfonate (Sodium colistimethate) (code 1202, ATC J01XB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

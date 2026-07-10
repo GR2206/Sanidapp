@@ -1,0 +1,58 @@
+{
+  "id": "mag-001",
+  "name": "Magnesium sulfate",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of magnesium deficiency. Hypocalcemia. Adjunct in severe acute asthma.",
+  "indications": "## Main indications\n\nTreatment of magnesium deficiency. Hypocalcemia. Adjunct in severe acute asthma.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10% (1 g = 10 mL).",
+      "dose": "Torsades: 1–2 g IV over 15 min. Eclampsia: 4–6 g loading dose per protocol.",
+      "administration": "Slow IV."
+    },
+    "pediatrico": {
+      "presentation": "25% ampoules: 250 mg magnesium sulfate/ml = 2 mEq magnesium/ml; 25% solution (compounded): 250 mg magnesium sulfate/ml = 2 mEq magnesium/ml 1 mEq Mg = 12 mg Mg",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "200 mg/mL.",
+      "infusionRate": "15 to 20 min in medical emergency; otherwise 2 to 4 hours.",
+      "dose": "Dose expressed as elemental magnesium Daily requirement 0-6 months: 50 mg; 6 months- 1 year: 70 mg; 1-3 years: 150 mg; 4-6 years: 200 mg; > 6 years: 250 mg. Symptomatic hypomagnesemia IV-IM: 0,8-1,6 mEq/kg/dose every 4-6 h, maximum dose: 16 mEq/dose. Asymptomatic hypomagnesemia IV: 0,2-0,5 mEq/kg/day, maximum dose: 8-16 mEq/day; PO: 0,8-1,6 mEq/kg/dose every 6 h. Intestinal absorption deficit PO: 20-60 mEq/day; adults 60-100 mEq/day. Adjunct in severe acute asthma: 25 - 50 mg magnesium sulfate/kg/dose, maximum dose: 2000 mg magnesium sulfate/dose. See CIME Electrolytes Bulletin.",
+      "notes": "IV administration: Incompatible with calcium, bicarbonate, and phosphate."
+    },
+    "neonatal": {
+      "dose": "25–50 mg/kg slow IV per NICU protocol.",
+      "administration": "IV over 20 min."
+    }
+  },
+  "stability": "## General\n\n- Compatible in 0.9% NaCl and 5% dextrose.\n\n## Pediatric guide\n\n- Discard once opened.",
+  "adverseEffects": "## Adverse effects\n\nHyporeflexia, flaccid paralysis, hypotension, heart block, CNS depression.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — magnesium SULFATE (code 0133, ATC A12CC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

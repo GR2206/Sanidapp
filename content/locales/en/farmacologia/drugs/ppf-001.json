@@ -1,0 +1,41 @@
+{
+  "id": "ppf-001",
+  "name": "Propafenone",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Class IC antiarrhythmic with beta-blocking activity for AF and SVT.",
+  "indications": "## Indications\n\n- Paroxysmal atrial fibrillation (pharmacological cardioversion or maintenance).\n- Supraventricular tachycardia.\n- Ventricular arrhythmias in selected contexts.\n\n## Precautions\n\n- Contraindicated in heart failure (HF), bronchospasm, AV block, and Brugada syndrome.\n- Interactions with digoxin and warfarin.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "150 and 300 mg tablets. 35 mg/20 mL ampoule.",
+      "dose": "AF: 450–600 mg/day PO divided doses. IV: 2 mg/kg over 10 min (hospital use).",
+      "administration": "PO or IV under cardiac monitoring."
+    },
+    "pediatrico": {
+      "dose": "8–10 mg/kg/day PO divided doses (specialized use).",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Administer IV according to protocol after dilution.",
+  "adverseEffects": "## Adverse effects\n\n- Dizziness, metallic taste, proarrhythmia, bradycardia, nausea.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Atrial fibrillation guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

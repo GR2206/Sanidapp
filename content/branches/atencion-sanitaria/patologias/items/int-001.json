@@ -1,0 +1,48 @@
+{
+  "id": "int-001",
+  "name": "Intoxicación aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **intoxicación aguda** es la exposición a una sustancia en dosis tóxica, por vía oral, inhalatoria, cutánea o parenteral. En guardia argentina son frecuentes **sobredosis medicamentosa** (benzodiacepinas, opioides, paracetamol, antidepresivos), **alcohol etílico**, monóxido de carbono, organofosforados y drogas de abuso. La prioridad es **ABCDE**: vía aérea, ventilación, circulación, glucemia capilar y temperatura.\n\nIdentificar toxídromes: **opioide** (miosis, depresión respiratoria → naloxona), **anticolinérgico** (piel seca, midriasis, retención), **colinérgico** (sialorrea, broncorrea, miosis → atropina), **sedante-hipnótico** (depresión SNC). En sobredosis de **paracetamol**, calcular nomograma de Rumack-Matthew y N-acetilcisteína si está indicada. Carvón activado solo en ingestas recientes (< 1–2 h) y vía aérea protegida. Contactar centro toxicológico institucional o nacional.\n\n**Enfermería**: preservar muestras (vómito, envases), no inducir vómito, monitorizar nivel de conciencia y FR, preparar antídotos según protocolo (naloxona, flumazenil con cautela, glucosa) y vigilancia de agitación o convulsiones en abstinencia.",
+  "relatedDrugs": [
+    {
+      "drugId": "nal-001",
+      "label": "Naloxona"
+    },
+    {
+      "drugId": "flm-001",
+      "label": "Flumazenil"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropina"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sodio"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrosa (glucosa)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American College of Medical Toxicology. ACMT practice guidelines.",
+      "url": "https://www.acmt.net/"
+    },
+    {
+      "citation": "Centro de Información Toxicológica — Argentina (CITBA / hospitales de referencia).",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Poison Control / WHO. Guidelines for poison control.",
+      "url": "https://www.who.int/health-topics/poisoning"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "pho-001",
+  "name": "Fosfato de potássio",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Reposição de fósforo IV em hipofosfatemia grave de UTI e realimentação.",
+  "indications": "## Indicações\n\n- Hipofosfatemia < 1 mg/dL ou sintomática em UTI.\n- Síndrome de realimentação.\n\n## Precauções\n\n- Hipocalcemia secundária. Não administrar em bolus rápido. Monitorar Ca2+ e K+.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola fosfato potássico/sódico conforme formulação.",
+      "dose": "0,2–0,5 mmol/kg IV em 6–8 h (protocolo).",
+      "infusionRate": "Perfusão lenta.",
+      "administration": "IV diluído."
+    },
+    "pediatrico": {
+      "dose": "0,2–0,3 mmol/kg IV em 4–6 h.",
+      "administration": "IV em bomba de infusão."
+    },
+    "neonatal": {
+      "dose": "Reposição conforme níveis na UCIN.",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Verificar compatibilidade com nutrição parenteral.",
+  "adverseEffects": "## Efeitos adversos\n\n- Hipocalcemia, hipercalemia, flebite.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

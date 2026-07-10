@@ -1,0 +1,50 @@
+{
+  "id": "pos-001",
+  "name": "Posaconazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of invasive fungal infections (IFI) when other first-line drugs cannot be used or have proven ineffective (aspergillosis, fusariosis, chromoblastomycosis, mycetoma, coccidioidomycosis) and as first-line treatment in selected patients",
+  "indications": "## Main indications\n\nTreatment of invasive fungal infections (IFI) when other first-line drugs cannot be used or have proven ineffective (aspergillosis, fusariosis, chromoblastomycosis, mycetoma, coccidioidomycosis) and as first-line treatment in selected patients with oropharyngeal candidiasis.\nProphylaxis of IFI in immunocompromised patients (patients with acute myeloid leukemia, or myelodysplastic syndrome under chemotherapy or hematopoietic stem cell transplant under immunosuppressive treatment).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Solution for concentrate for solution for infusion containing 300 mg in 16,7 mL (18 mg/mL) (Noxafil IV).",
+      "reconstitution": "No prior reconstitution required. Conc: 18 mg/mL.",
+      "diluent": "300 mg in 150-250 mL of 0.9% NaCl, 5% dextrose or Ringer lactate.",
+      "finalConcentration": "1-2 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 150-250 mL of 0.9% NaCl, 5% dextrose or Ringer lactate and administer over 90 min via in-line filter (0,22 µm). Prefer central line.",
+      "notes": "Requires 0,22 µm in-line filter. Prefer central line (irritant via peripheral route). Loading dose: 300 mg every 12 h on day 1; maintenance: 300 mg/day. Indicated for prophylaxis and treatment of aspergillosis and other invasive mycoses. Multiple interactions via CYP3A4 inhibition."
+    },
+    "pediatrico": {
+      "dose": "Immediate-release suspension: Prophylaxis: 4 - 6 mg/kg/dose every 8 h, maximum: 400 mg/dose; Treatment: 4 - 6 mg/kg/dose every 6 h Extended-release tablets: ≥ 3 years and adolescents ≤ 17 years: loading dose (x 24 h): 5 - 7 mg/kg/dose every 12 h, maximum: 300 mg/dose), maintenance: 5 - 7 mg/kg/dose every 24 h, maximum 300 mg/dose. Adjust dose by therapeutic drug monitoring (desired range prophylaxis: ≥ 700 ng/mL, treatment: 1000 - 1250 ng/mL)",
+      "administration": "PO",
+      "presentation": "Modified-release tablets: 100 mg; Oral suspension 105 ml: 40 mg/ml",
+      "notes": "Tablet and oral suspension should not be used interchangeably due to dosing differences between formulations. Modified-release tablets may be administered with or without meals; oral suspension should be administered with a meal or nutritional supplement in patients who cannot tolerate a meal to improve absorption. Tablets cannot be split. Concentration increased by verapamil, cyclosporine, clarithromycin, erythromycin. Increases concentration of vincristine, vinblastine (neurotoxicity risk), cyclosporine, tacrolimus, sirolimus (reduce dose when starting posaconazole and monitor blood levels); atazanavir, protease inhibitors (monitor adverse effects), digoxin (monitor levels when starting treatment). Concentration decreased by fosamprenavir, H2 antagonists and proton pump inhibitors."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- 12 h at room temperature, 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nNeutropenia, electrolyte imbalance, anorexia, decreased appetite, hypokalemia, hypomagnesemia, paresthesia, dizziness, somnolence, headache, dysgeusia, hypertension, nausea, vomiting, abdominal pain, diarrhea, dyspepsia, dry mouth, flatulence, constipation, anorectal discomfort, rash, pruritus, fever, asthenia, fatigue.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Posaconazol* (code 1742, ATC J02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

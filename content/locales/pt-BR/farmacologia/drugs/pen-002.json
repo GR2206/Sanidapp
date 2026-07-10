@@ -1,0 +1,50 @@
+{
+  "id": "pen-002",
+  "name": "Penicilina G benzatínica",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções leves e moderadas causadas por microorganismos gram-positivos sensíveis ou para profilaxia de infecções ocasionadas por esses microorganismos. Sífilis.",
+  "indications": "## Indicações principais\n\nTratamento de infecções leves e moderadas causadas por microorganismos gram-positivos sensíveis ou para profilaxia de infecções ocasionadas por esses microorganismos. Sífilis.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 1,2 e 2,4 MUI (Galtamicina, Klonal, Fabra, Richet, Pen Di Ben).",
+      "reconstitution": "5 mL AD (1,2 MUI); 10 mL AD (2,4 MUI). Conc: 0,24–0,12 MUI/mL.",
+      "diluent": "1,2 MUI em 5 mL de AD ou 2,4 MUI em 10 mL de AD.",
+      "finalConcentration": "0,24 MUI/mL.",
+      "administration": "I.M. profunda: Sim. Agitar suavemente para permitir a umectação do pó, depois agitar vigorosamente até a completa dissolução. E.V. direta: Não. E.V. intermitente: Não.",
+      "notes": "Não deve ser administrada sob nenhuma circunstância por via E.V. pelo risco de produzir isquemia fatal."
+    },
+    "pediatrico": {
+      "dose": "Sífilis: 50.000 U.I./kg/dose, 1 a 3 doses conforme tempo de evolução; dose máxima: 2.400.000 U.I./dose. Prevenção secundária de febre reumática: ≤ 27 kg: I.M.: 600.000 U.I. a cada 3 a 4 semanas; > 27 kg: I.M.: 1.200.000 U.I. a cada 3 a 4 semanas.",
+      "administration": "I.M.",
+      "presentation": "F.A.: 1.200.000 U.I.–2.400.000 U.I. (liofilizado ou suspensão)",
+      "notes": "Indicar com precaução em menores de 2 anos. A administração da penicilina G benzatínica é semanal."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Utilizar imediatamente. Descartar o remanescente se houver.\n\n## Solução diluída (a administrar)\n\n- Não se aplica.",
+  "adverseEffects": "## Efeitos adversos\n\nReações alérgicas, sobretudo cutâneas. Anemia hemolítica, leucopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — penicilina  BENZATÍNICA (cód. 0162, ATC J01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

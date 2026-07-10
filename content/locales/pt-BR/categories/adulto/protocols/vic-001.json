@@ -1,0 +1,27 @@
+{
+  "id": "vic-001",
+  "title": "Colocação de via central",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Inserir cateter venoso central com barreira de esterilidade máxima, preparação cutânea com clorexidina, guia ecográfica quando disponível e bundle de prevenção de bacteremia associada ao cateter (BAC).",
+  "body": "## Passos a realizar\n\n1. Verificar consentimento, alergias e exames de coagulação conforme protocolo.\n2. Preparar carro de parada e material de barreira estéril completa.\n3. Posicionar paciente (Trendelenburg leve se jugular/subclávia conforme indicação).\n4. Realizar higienização das mãos e usar touca, máscara, avental estéril e luvas estéreis (barreira máxima).\n5. Preparar pele com clorexidina alcoólica 0,5–2% em fricção, ampliando área ≥ 20 cm; **deixar secar**.\n6. Auxiliar em técnica estéril; apoiar ultrassonografia em tempo real se o serviço a utilizar.\n7. Conectar linhas em sistema fechado; purgar e fechar vias não usadas.\n8. Fixar cateter com sutura ou dispositivo de sujeição; aplicar curativo transparente ou com clorexidina conforme protocolo.\n9. Comprovar retorno venoso e fixação; solicitar radiografia ou ultrassonografia para confirmar ponta se o protocolo exigir.\n10. Registrar sítio, calibre, vias, operador, complicações imediatas e hora; etiquetar datas de inserção.\n11. Desinfetar hub com clorexidina alcoólica antes de cada acesso (fricção ≥ 15 s).\n12. Reavaliar necessidade do cateter diariamente; retirar ao finalizar indicação ou diante de infecção/suspeita.\n\n## Fundamentação científica\n\n### Indicações\n\n- Administração de fármacos vasoativos ou soluções hiperosmolares.\n- Nutrição parenteral total.\n- Hemodinâmica invasiva (PVC, VVC) em paciente crítico.\n- Acesso venoso de longa duração quando não é possível ou adequado o acesso periférico.\n- Diálise ou procedimentos de substituição renal (cateter específico).\n\n### Seleção do sítio (adulto UTI)\n\n| Sítio | Considerações |\n| --- | --- |\n| **Subclávia** | Menor risco infeccioso na UTI; maior risco mecânico (pneumotórax) |\n| **Jugular interna** | Acesso ecoguiado preferido; vigilância de infecção e posição |\n| **Femoral** | Evitar na UTI se houver alternativa (maior risco infeccioso e trombótico) |\n\nA decisão final é **médica**, considerando anatomia, coagulação, urgência e experiência do operador.\n\n### Evidência e recomendações\n\n> **SATI/SADI 2025 (Cornistein et al.):** Colocar somente se indicado. Bundle de inserção e reavaliação diária da necessidade do cateter.\n\n> **OMS 2024:** Barreira de esterilidade máxima e clorexidina alcoólica na pele para prevenção de BAC/CLABSI.\n\n### Bundle de inserção (resumo)\n\n1. Higienização das mãos.\n2. Barreira de esterilidade máxima.\n3. Antisséptico na pele (clorexidina alcoólica).\n4. Seleção ótima do sítio.\n5. Revisão diária da necessidade do cateter.\n\n### Complicações — comunicar imediatamente\n\n- Pneumotórax, hemotórax ou dificuldade respiratória aguda.\n- Hemorragia local não controlada ou hematoma em expansão.\n- Arritmias durante inserção.\n- Febre ou sinais de infecção do sítio / suspeita de BAC.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Guias e consensos (BAC, prevenção de IRAS).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    }
+  ]
+}

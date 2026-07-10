@@ -1,0 +1,54 @@
+{
+  "id": "acv-001",
+  "name": "Accidente cerebrovascular (ACV)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **accidente cerebrovascular** es un síndrome neurológico focal de inicio brusco por alteración de la circulación cerebral (isquemia o hemorragia). En la guardia debe distinguirse de los **mimics** (crisis convulsiva, hipoglucemia, síncope, migraña con aura prolongada). La anamnesis orienta el tiempo de evolución, anticoagulación previa y foco cardíaco o carotídeo. El examen neurológico documenta **NIHSS** o escala institucional, **Glasgow**, pupilas y signos de hipertensión endocraneana.\n\nEn el **ACV isquémico agudo** la prioridad es la reperfusión dentro de la ventana terapéutica (trombólisis IV y/o trombectomía según protocolo local). La presión arterial se maneja según criterio de trombólisis: evitar descensos bruscos salvo emergencia hipertensiva. En **hemorragia intracraneal** se revierte anticoagulación si corresponde, se controla PA y se deriva a neurocirugía cuando hay indicación.\n\nEn la **recepción del ACV agudo** se **activa el protocolo STROKE**, que consiste en colocar **dos vías periféricas** y solicitar **RMI (resonancia magnética)** para obtener las imágenes dentro del **período ventana**. La **enfermería** asegura vía aérea, oxigenoterapia si SpO₂ < 94 %, monitorización continua y registro horario del nivel de conciencia y NIHSS; glucemia capilar, ionograma y coagulación según protocolo. Mantener NPO hasta definir disfagia. Elevar cabecera 30° si no hay contraindicación. Coordinar código ACV / teleictus institucional. Educar a la familia sobre signos de alarma y continuidad de rehabilitación.",
+  "clinicalBoxes": [
+    {
+      "title": "Escala de Coma de Glasgow (GCS)",
+      "content": "**Apertura ocular (E)**\n4 Espontánea · 3 A la voz · 2 Al dolor · 1 Ninguna\n\n**Respuesta verbal (V)**\n5 Orientada · 4 Confusa · 3 Palabras inapropiadas · 2 Sonidos incomprensibles · 1 Ninguna\n\n**Respuesta motora (M)**\n6 Obedece órdenes · 5 Localiza dolor · 4 Retirada al dolor · 3 Flexión anormal · 2 Extensión · 1 Ninguna\n\n**Total E + V + M: 3–15.** GCS ≤ 8: valorar protección de vía aérea. Registrar serie, pupilas y lateralidad neurológica."
+    },
+    {
+      "title": "NIHSS — puntos clave (resumen)",
+      "content": "Escala 0–42 para cuantificar déficit neurológico en ACV agudo. Registrar al ingreso y seriado según protocolo.\n\n**Dominios principales:** nivel de conciencia · mirada conjugada · campos visuales · parálisis facial · motricidad de brazos y piernas · ataxia de miembros · sensibilidad · lenguaje · disartria · extinción/negligencia.\n\n**Referencia orientativa:** 0 = sin síntomas · 1–4 = ACV leve · 5–15 = moderado · 16–20 = moderado-grave · > 20 = grave. Documentar hora de inicio de síntomas y puntaje para decisión de reperfusión."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Manitol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Heart Association / American Stroke Association. Guidelines for the Early Management of Acute Ischemic Stroke.",
+      "url": "https://www.ahajournals.org/stroke"
+    },
+    {
+      "citation": "Sociedad Argentina de Neurología Vascular (SANV). Recomendaciones nacionales.",
+      "url": "https://www.sanv.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Stroke Organization. Global stroke guidelines.",
+      "url": "https://www.world-stroke.org/"
+    }
+  ]
+}

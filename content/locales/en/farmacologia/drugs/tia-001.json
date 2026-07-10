@@ -1,0 +1,51 @@
+{
+  "id": "tia-001",
+  "name": "Thiamine (vitamin B1)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Deficiency diseases: beriberi (polyneuritis, heart failure, edema). PDH deficiency (pyruvate dehydrogenase). Thiamine deficiency syndrome: type B lactic acidosis (without hypoperfusion/hypoxemia, with or without hyperglycemia, Wernicke encephalopathy (ataxia, confusion, ophthalmoplegia)).",
+  "indications": "## Main indications\n\nDeficiency diseases: beriberi (polyneuritis, heart failure, edema). PDH deficiency (pyruvate dehydrogenase).\nThiamine deficiency syndrome: type B lactic acidosis (without hypoperfusion/hypoxemia, with or without hyperglycemia, Wernicke encephalopathy (ataxia, confusion, ophthalmoplegia)).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 100 mg/mL.",
+      "dose": "100–500 mg slow IV before glucose; then 100 mg TID x 3–5 days.",
+      "administration": "Slow IV."
+    },
+    "pediatrico": {
+      "dose": "RDA: 0-6 months: 0.2 mg; 7-12 months: 0.3 mg; 1-3 years: 0.5 mg; 4-8 years: 0.6 mg; 9-13 years: 0.9 mg; 14-18 years: 1.2 mg; adults: 1.1 to 1.4 mg. Normal levels: 1.6 to 4 mg/dl. Beriberi, Wernicke encephalopathy, type B lactic acidosis: children: IV: 25 mg once daily, maximum 1 week, then switch to PO: 5 to 10 mg/day for one month; Adolescents and adults: IV 100 mg/day, maximum 1 week, then PO: 10 mg/day for 1 month. Refeeding syndrome prevention: PO: 2 mg/kg/day, maximum: 100 mg every 24 h for 2 weeks, then 1 mg/kg/day (maximum 10 mg) for 1 month. Congenital lactic acidosis: PO: 100-300 mg/day. PDH deficiency: 300 mg/day Encephalopathy during or after ifosfamide administration: 100 mg every 4 h until resolution of symptoms, administer over 30 minutes.",
+      "administration": "PO IV",
+      "presentation": "Tablets: 300 mg; Syrup (compounded preparation): 10 mg/mL; 1 mL ampoules: 100 mg/mL",
+      "notes": "Associated deficiencies of several B-complex factors are frequently found; it is advisable to use the full complex. Patients on hemodialysis, peritoneal dialysis or malabsorption syndrome have higher daily requirements. See multivitamin table. For refeeding syndrome prevention start thiamine before initiating nutritional intake (including parenteral hydration plan with dextrose), after 2 weeks intake may be provided with B-complex. In oncology patients do not use B-complex, as vitamin B12 administration is not recommended. For IV administration dilute 100 mg in 50 mL normal saline (preferably) or 5% dextrose, infuse over 30 minutes. Must be done under strict monitoring. To avoid acute symptoms of thiamine deficiency, administer before parenteral carbohydrate solutions. PO may be administered with or without food."
+    },
+    "neonatal": {
+      "dose": "10 mg IV/day in parenteral nutrition.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Protect from light.",
+  "adverseEffects": "## Adverse effects\n\nContact dermatitis, cyanosis, pulmonary edema, pharyngeal edema, anaphylactic reactions with respiratory distress, pruritus, shock and abdominal pain, paresthesias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Vitamin B1 (Thiamine) (code 0457, ATC A11DA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

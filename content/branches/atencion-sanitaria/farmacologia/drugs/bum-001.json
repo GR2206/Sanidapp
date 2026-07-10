@@ -1,0 +1,44 @@
+{
+  "id": "bum-001",
+  "name": "Bumetanida",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "executiveSummary": "Diurético de asa más potente que furosemida mg a mg; útil en resistencia a furosemida.",
+  "indications": "## Indicaciones\n\n- Edema en ICC, cirrosis, IRC cuando se requiere diuresis potente.\n\n## Precauciones\n\n- Hipokalemia y hipovolemia. Ajustar en hepatopatía severa.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 0,25 mg/mL.",
+      "dose": "0,5–1 mg IV/IM; repetir según respuesta (1 mg ≈ 40 mg furosemida).",
+      "administration": "IV/IM."
+    },
+    "pediatrico": {
+      "dose": "0,015–0,05 mg/kg/dosis cada 6–12 h.",
+      "administration": "IV/IM."
+    },
+    "neonatal": {
+      "dose": "0,01–0,05 mg/kg/dosis según protocolo.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Usar tras extracción sin dilución habitual.",
+  "adverseEffects": "## Efectos\n\n- Hipokalemia, hipotensión, calambres musculares.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

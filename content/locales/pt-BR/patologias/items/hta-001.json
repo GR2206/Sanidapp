@@ -1,0 +1,45 @@
+{
+  "id": "hta-001",
+  "name": "Hipertensão arterial (HAS)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **hipertensão arterial** é uma elevação persistente da pressão arterial (PA) que incrementa o risco cardiovascular, renal e cerebrovascular. Na emergência costuma apresentar-se como **crise hipertensiva** (PA muito elevada com ou sem lesão de órgão-alvo) ou como comorbidade de outra patologia aguda. É fundamental medir PA em ambos os braços com técnica correta, confirmar com repetição e buscar sinais de **emergência hipertensiva** (encefalopatia, edema agudo de pulmão, síndrome coronariana aguda, dissecção aórtica, eclâmpsia, IRA aguda).\n\nO **tratamento oportuno** depende do contexto: na emergência hipertensiva inicia-se anti-hipertensivo IV com meta gradual (evitar queda > 25 % da PA média na primeira hora salvo exceções como dissecção aórtica). Na **urgência hipertensiva** (PA elevada sem lesão aguda de órgão) prefere-se reinstaurar ou ajustar tratamento oral e observação. Fármacos frequentes na emergência: labetalol, hidralazina, nitroglicerina ou nitroprussiato conforme cenário e disponibilidade institucional.\n\nEm **enfermagem**: monitorar PA seriada, frequência cardíaca, diurese e nível de consciência; registrar hora de cada dose IV; vigiar hipotensão ortostática ao iniciar ou intensificar tratamento. Orientar sobre adesão, restrição de sódio, acompanhamento ambulatorial e sinais de alerta (cefaleia intensa, visão turva, dor torácica, dispneia).",
+  "bibliography": [
+    {
+      "citation": "Sociedade Argentina de Hipertensão Arterial (SAHA). Diretrizes e consensos.",
+      "url": "https://www.saha.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology / ESH. Guidelines for the management of arterial hypertension.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Hypertension clinical guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "hdr-001",
+      "label": "Hidralazina"
+    },
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "nip-001",
+      "label": "Nitroprussiato"
+    }
+  ]
+}

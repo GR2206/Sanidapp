@@ -1,0 +1,35 @@
+{
+  "id": "pam-p001",
+  "title": "Colocación de línea arterial pediátrica (PAM)",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Canalizar catéter arterial pediátrico para monitorización invasiva de presión arterial media (PAM), con valoración de circulación colateral, técnica de Seldinger estéril y sistema transductor calibrado al eje flebostático.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación; identificar al paciente, peso y prescripción; verificar coagulación si aplica; obtener consentimiento.\n2. Valorar circulación colateral antes de radial (Allen modificado o Barbeau con oximetría/Doppler en lactantes).\n3. Administrar sedación y analgesia según protocolo; en RN garantizar control térmico y monitorización.\n4. Realizar higiene de manos y vestir barrera estéril; preparar kit arterial pediátrico y sistema de transducción.\n5. Posicionar al niño (muñeca extendida para radial; pierna en extensión neutra para femoral); palpar pulso (Doppler si necesario).\n6. Desinfectar piel con antiséptico en fricción; dejar secar.\n7. Puncionar arteria a 10–30° hasta reflujo pulsátil; introducir guía; avanzar catéter con técnica de Seldinger.\n8. Retirar guía; conectar a sistema pre-purgado sin burbujas; fijar catéter sin compresión excesiva.\n9. Conectar transductor; verificar onda arterial en monitor; vigilar perfusión distal de inmediato.\n10. Colocar transductor a nivel del eje flebostático; realizar cero; confirmar PAM coherente con clínica y edad.\n11. Ajustar presurizador a 300 mmHg (flujo 1–3 ml/h según peso); registrar sitio, calibre, hora y operador.\n12. Vigilar cada turno punto de inserción, perfusión distal y lecturas; realizar cero al inicio de turno o tras movilización; retirar al finalizar indicación o ante isquemia.\n\n## Fundamentación científica\n\n### Definición e indicaciones\n\nLa **PAI** registra presión sistólica, diastólica y **media (PAM)** de forma continua y facilita gasometrías seriadas en UTI pediátrica, neonatología o perioperatorio crítico.\n\nIndicada en inestabilidad hemodinámica, fármacos vasoactivos, gasometrías frecuentes y titulación de PAM objetivo según edad.\n\n### Evidencia y recomendaciones\n\n> **SSC Pediátrico (2026):** usar metas de PAM ajustadas a edad y percentiles; no aplicar automáticamente el umbral adulto ≥ 65 mmHg (Weiss et al., 2026).\n\n### Selección del sitio\n\n| Orden | Sitio | Notas pediátricas |\n| --- | --- | --- |\n| 1ª | Radial | Preferida si pulso palpable |\n| 2ª | Pedia dorsal | Alternativa en lactante |\n| Urgencia | Femoral | Retirar precoz cuando sea posible |\n| RN | Umbilical | Solo neonatología, protocolo específico |\n| Evitar | Braquial/cubital | Circulación colateral limitada |\n\n### Calibre orientativo\n\n| Peso / edad | Calibre |\n| --- | --- |\n| RN / < 5 kg | 24 G |\n| 5–20 kg | 22–24 G |\n| > 20 kg | 20–22 G |\n\n### Objetivos de PAM por edad\n\n| Grupo | Orientación |\n| --- | --- |\n| RN / lactante | Tablas de PAM por edad; percentiles en shock |\n| Niño | PAM adecuada para edad |\n| Adolescente | Puede aproximarse a criterios de adulto |\n\n### Cuidados y recanalización\n\n- Desinfectar hub antes de gasometría; volumen mínimo de sangre desechada según peso.\n- Si inserción de urgencia sin asepsia óptima: recanalizar en 48 h según protocolo (Scheer et al., 2002; OMS, 2024).\n\n### Complicaciones — avisar de inmediato\n\n- Isquemia distal: palidez, cianosis, ausencia de pulso.\n- Sangrado activo o hematoma en expansión.\n- Onda amortiguada (burbujas, coágulos, malposición).\n- Fiebre o eritema en sitio (sospecha infección).\n- Trombosis arterial o extracción accidental del catéter.",
+  "bibliography": [
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026 — objetivos hemodinámicos y monitorización.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with intravascular catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Complications and risk factors of peripheral arterial catheters. Crit Care. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — acceso vascular y monitorización.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

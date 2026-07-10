@@ -1,0 +1,55 @@
+{
+  "id": "acv-001",
+  "name": "Stroke (CVA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **stroke** is a focal neurological syndrome of abrupt onset caused by an alteration in cerebral circulation (ischemia or hemorrhage). In the emergency department, it must be differentiated from stroke mimics (seizures, hypoglycemia, syncope, migraine with prolonged aura). The history should determine the time of onset, prior anticoagulation therapy, and potential cardiac or carotid sources. The neurological examination documents the **NIHSS** score or institutional scale, **Glasgow Coma Scale (GCS)**, pupils, and signs of increased intracranial pressure.\n\nIn **acute ischemic stroke**, the priority is reperfusion within the therapeutic window (IV thrombolysis and/or thrombectomy according to local protocol). Blood pressure is managed based on thrombolysis eligibility: avoid sudden decreases unless a hypertensive emergency is present. In **intracranial hemorrhage**, anticoagulation is reversed if applicable, blood pressure is controlled, and the patient is referred to neurosurgery when indicated.\n\nUpon admission of an acute stroke patient, the **STROKE protocol** is activated, which consists of establishing two peripheral IV lines and ordering **MRI** to obtain images within the window period. **Nursing:** ensure airway patency, oxygen therapy if SpO₂ < 94%, continuous monitoring, and hourly logs of consciousness level and NIHSS score; check capillary blood glucose, ionogram, and coagulation panel according to protocol. Maintain NPO status until dysphagia screening is completed. Elevate the head of the bed to 30° if there is no contraindication. Coordinate the institutional stroke code / telestroke. Educate the family regarding red flags and the continuity of rehabilitation.",
+  "clinicalBoxes": [
+    {
+      "title": "Glasgow Coma Scale (GCS)",
+      "content": "**Eye Opening (E):** 4 Spontaneous · 3 To speech · 2 To pain · 1 None\n\n**Verbal Response (V):** 5 Oriented · 4 Confused · 3 Inappropriate words · 2 Incomprehensible sounds · 1 None\n\n**Motor Response (M):** 6 Obeys commands · 5 Localizes pain · 4 Withdrawal to pain · 3 Abnormal flexion · 2 Extension · 1 None\n\n**Total E + V + M: 3–15.** GCS ≤ 8: assess the need for airway protection. Record serial measurements, pupils, and neurological laterality."
+    },
+    {
+      "title": "NIHSS Key Points (Summary)",
+      "content": "A 0–42 scale used to quantify neurological deficits in acute stroke. Record at admission and serially according to protocol.\n\n**Main Domains:** Level of consciousness · conjugate gaze · visual fields · facial palsy · motor function of arms and legs · limb ataxia · sensation · language · dysarthria · extinction/inattention (neglect).\n\n**Orientation Reference:** 0 = no symptoms · 1–4 = mild stroke · 5–15 = moderate · 16–20 = moderate-severe · > 20 = severe. Document the time of symptom onset and the score to guide reperfusion decision-making."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "hef-001",
+      "label": "Heparin sodium"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparin"
+    },
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Mannitol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Heart Association / American Stroke Association. Guidelines for the Early Management of Acute Ischemic Stroke.",
+      "url": "https://www.ahajournals.org/stroke"
+    },
+    {
+      "citation": "Sociedad Argentina de Neurología Vascular (SANV). Recomendaciones nacionales.",
+      "url": "https://www.sanv.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Stroke Organization. Global stroke guidelines.",
+      "url": "https://www.world-stroke.org/"
+    }
+  ]
+}

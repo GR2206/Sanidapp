@@ -1,0 +1,51 @@
+{
+  "id": "pol-001",
+  "name": "Polimixina B",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Decolonización prequirúrgica en pacientes con intestino corto, asociada con metronidazol V.O.",
+  "indications": "## Indicaciones principales\n\nDecolonización prequirúrgica en pacientes con intestino corto, asociada con metronidazol V.O.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampolla 500.000 UI o 1 millón UI.",
+      "dose": "1,5–2,5 mg/kg/día IV dividido cada 12 h (convertir UI a mg según prospecto).",
+      "infusionRate": "Perfusión lenta.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "10 - 20 mg/kg/día cada 6 - 8 hs durante 5 días.",
+      "administration": "V.O.",
+      "presentation": "Preparación magistral: sellos",
+      "notes": "Contraindicada en pacientes con reacciones de hipersensibilidad a polimixinas."
+    },
+    "neonatal": {
+      "dose": "Dosis según protocolo NNU; uso de reserva.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Usar tras dilución según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nIrritabilidad, ataxia, parestesia perioral, nefrotoxicidad.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Polimixina B Sulfato (cód. 0486, ATC J01XB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

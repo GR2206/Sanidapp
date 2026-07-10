@@ -1,0 +1,49 @@
+{
+  "id": "ana-001",
+  "name": "Anafilaxia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **anafilaxia** é uma reação sistêmica grave de hipersensibilidade, potencialmente fatal, com início rápido após exposição a um alérgeno (alimentos, medicamentos, venenos de himenópteros, látex). O diagnóstico é clínico: comprometimento cutâneo-mucoso (urticária, angioedema) mais acometimento respiratório (estridor, sibilos, dispneia), cardiovascular (hipotensão, síncope) ou gastrointestinal grave, após exposição provável.\n\nO tratamento imediato é **adrenalina intramuscular** (face anterolateral da coxa, dose conforme peso; repetir a cada 5–15 min se persistir o quadro). Colocar em decúbito dorsal com membros elevados salvo dispneia grave (semisentado). Oxigênio, expansão com cristaloides se hipotensão, e **anti-histamínico H1 + H2** e corticoide como coadjuvantes (não substituem adrenalina). Retirar o desencadeante se for medicamento IV. Observação mínima 4–6 h (risco de reação bifásica); alta com autoinjetor de adrenalina se corresponder.\n\n**Enfermagem**: identificar e retirar alérgeno, acionar ajuda, registrar hora exata da adrenalina, monitorar PA, FC e SpO₂, preparar segunda dose e via aérea avançada. Documentar alérgeno e alerta no prontuário.",
+  "bibliography": [
+    {
+      "citation": "World Allergy Organization. Anaphylaxis guidelines.",
+      "url": "https://www.worldallergy.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Alergia e Imunologia (SAAI). Consenso de anafilaxia.",
+      "url": "https://www.saai.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Allergy and Infectious Diseases. Anaphylaxis guidelines.",
+      "url": "https://www.niaid.nih.gov/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "Adrenalina IM — dose orientativa",
+    "content": "Via **intramuscular** (coxa anterolateral), concentração 1:1000 (1 mg/mL):\n**Adulto:** 0,3–0,5 mg IM (0,3–0,5 mL)\n**Criança:** 0,01 mg/kg IM (máx. 0,3 mg)\n\nRepetir a cada **5–15 min** se não houver melhora clínica. Em parada cardiorrespiratória: adrenalina IV conforme ACLS / protocolo pediátrico institucional."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "adr-001",
+      "label": "Adrenalina (epinefrina)"
+    },
+    {
+      "drugId": "hdc-001",
+      "label": "Hidrocortisona"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    }
+  ]
+}

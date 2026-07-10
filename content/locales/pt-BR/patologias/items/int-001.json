@@ -1,0 +1,49 @@
+{
+  "id": "int-001",
+  "name": "Intoxicação aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **intoxicação aguda** é a exposição a uma substância em dose tóxica, por via oral, inalatória, cutânea ou parenteral. Na emergência argentina são frequentes **superdose medicamentosa** (benzodiazepínicos, opioides, paracetamol, antidepressivos), **álcool etílico**, monóxido de carbono, organofosforados e drogas de abuso. A prioridade é **ABCDE**: via aérea, ventilação, circulação, glicemia capilar e temperatura.\n\nIdentificar toxíndromes: **opioide** (miose, depressão respiratória → naloxona), **anticolinérgico** (pele seca, midríase, retenção), **colinérgico** (sialorreia, broncorreia, miose → atropina), **sedante-hipnótico** (depressão do SNC). Na superdose de **paracetamol**, calcular nomograma de Rumack-Matthew e N-acetilcisteína se indicada. Carvão ativado somente em ingestões recentes (< 1–2 h) e via aérea protegida. Contatar centro toxicológico institucional ou nacional.\n\n**Enfermagem**: preservar amostras (vômito, embalagens), não induzir vômito, monitorar nível de consciência e FR, preparar antídotos conforme protocolo (naloxona, flumazenil com cautela, glicose) e vigilância de agitação ou convulsões na abstinência.",
+  "bibliography": [
+    {
+      "citation": "American College of Medical Toxicology. ACMT practice guidelines.",
+      "url": "https://www.acmt.net/"
+    },
+    {
+      "citation": "Centro de Informação Toxicológica — Argentina (CITBA / hospitais de referência).",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Poison Control / WHO. Guidelines for poison control.",
+      "url": "https://www.who.int/health-topics/poisoning"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "nal-001",
+      "label": "Naloxona"
+    },
+    {
+      "drugId": "flm-001",
+      "label": "Flumazenil"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropina"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sódio"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glicose)"
+    }
+  ]
+}

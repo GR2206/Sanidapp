@@ -1,0 +1,45 @@
+{
+  "id": "tsv-001",
+  "name": "Supraventricular tachycardia (SVT)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Supraventricular tachycardia (SVT)** is a fast, regular rhythm originating in the atria or the AV junction, typically with a rate of 150–250 bpm. The patient reports **palpitations** with sudden onset and termination, dizziness, chest tightness, or dyspnea. On the ECG: narrow and regular QRS complexes (except in cases of aberrancy). It must be differentiated from atrial flutter, atrial fibrillation with rapid ventricular response, and sinus tachycardia.\n\nIn an **unstable** patient (hypotension, acute pulmonary edema, ischemic chest pain, altered mental status): **immediate synchronized electrical cardioversion** is indicated. If the patient is stable: perform vagal maneuvers and administer **IV adenosine** in rapid boluses (with a monitor and defibrillator readily available). If adenosine fails: administer IV beta-blockers, verapamil, or amiodarone, depending on protocol and comorbidities. Treat any underlying triggering cause (fever, anemia, hypovolemia).\n\n**Nursing:** continuous cardiac monitoring, establish venous access, prepare adenosine and cardioversion equipment, record the onset time and response to vagal maneuvers, and monitor for bradycardia following adenosine administration.",
+  "relatedDrugs": [
+    {
+      "drugId": "ade-001",
+      "label": "Adenosine"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "amd-001",
+      "label": "Amiodarone"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Supraventricular tachycardia guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Arritmias supraventriculares.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Tachycardia algorithm (ACLS).",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

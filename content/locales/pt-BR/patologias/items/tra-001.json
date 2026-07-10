@@ -1,0 +1,57 @@
+{
+  "id": "tra-001",
+  "name": "Politraumatismo",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "O **politraumatismo** é a lesão simultânea de múltiplas regiões anatômicas, com risco de choque hemorrágico, TCE, lesão torácica, abdominal e de coluna. Na emergência aplica-se a abordagem **ATLS / ABCDE**: via aérea com proteção cervical, ventilação, circulação e controle de hemorragia, avaliação neurológica (GCS, pupilas) e exposição com prevenção de hipotermia. A **reanimação com damage control** prioriza interromper sangramento e restaurar perfusão.\n\nAções imediatas: dois acessos venosos calibrosos, **cristaloides** e ativação do banco de sangue; **ácido tranexâmico** se indicado por protocolo (< 3 h); torniquetes ou compressão em hemorragia externa; FAST ecográfico ou TC **pan-scan** conforme estabilidade. Analgesia adequada (opioides titulados, cetamina em contexto hemodinâmico instável conforme diretriz). Antibiótico profilático em feridas abertas e fraturas expostas. Contato precoce com cirurgia e UTI.\n\n**Enfermagem**: monitorização contínua, registro seriado de GCS, controle de sangramento e débitos, manter colar cervical até descartar lesão cervical, evitar hipotermia (mantas térmicas), balanço hídrico rigoroso e acompanhamento do paciente nos exames de imagem.",
+  "bibliography": [
+    {
+      "citation": "American College of Surgeons. ATLS — Advanced Trauma Life Support.",
+      "url": "https://www.facs.org/quality-programs/trauma/atls/"
+    },
+    {
+      "citation": "Sociedade Argentina de Trauma e Emergências (SATE). Consensos nacionais.",
+      "url": "https://www.sate.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Emergency care of severe trauma.",
+      "url": "https://www.who.int/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "ABCDE — avaliação inicial",
+    "content": "**A** — Via aérea + proteção cervical\n**B** — Ventilação e oxigenação (SpO₂, FR, ausculta)\n**C** — Circulação: hemorragia, FC, PA, acessos, reanimação\n**D** — Deterioração neurológica: GCS, pupilas, glicose\n**E** — Exposição completa com prevenção de hipotermia\n\nReavaliar a cada intervenção. Registrar hora de admissão, mecanismo e achados seriados."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "adr-001",
+      "label": "Adrenalina (epinefrina)"
+    },
+    {
+      "drugId": "nor-001",
+      "label": "Noradrenalina"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "ket-001",
+      "label": "Cetamina"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Manitol"
+    },
+    {
+      "drugId": "cef-002",
+      "label": "Cefazolina"
+    }
+  ]
+}

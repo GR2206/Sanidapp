@@ -1,0 +1,50 @@
+{
+  "id": "eri-001",
+  "name": "Eritromicina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Macrólido. Infecciones por bacterias sensibles; profilaxis ocular neonatal; estimulación de motilidad gástrica en casos seleccionados.",
+  "indications": "## Indicaciones\n\n- Infecciones por bacterias sensibles (respiratorio, piel, otitis).\n- Profilaxis de oftalmía neonatal (pomada ocular).\n- Estimulación de motilidad gástrica según protocolo.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos; frasco IV 1 g.",
+      "dose": "250–500 mg VO cada 6 h o 500 mg–1 g IV cada 6 h.",
+      "administration": "VO o IV."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos; suspensión; frasco IV 1 g.",
+      "administration": "VO; IV.",
+      "dose": "30–50 mg/kg/día dividido cada 6 h.",
+      "notes": "Ajustar en hepatopatía. Interacciones con cisaprida, terfenadina y otros substratos de CYP3A4."
+    },
+    "neonatal": {
+      "dose": "Profilaxis ocular: pomada 0,5% según protocolo. IV/VO según indicación NNU.",
+      "administration": "Tópica ocular o VO/IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV inestable; usar pronto tras reconstitución.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, diarrea, prolongación del QT, hepatotoxicidad, reacciones de hipersensibilidad.",
+  "bibliography": [
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

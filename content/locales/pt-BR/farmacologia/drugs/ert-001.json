@@ -1,0 +1,50 @@
+{
+  "id": "ert-001",
+  "name": "Ertapenem",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento sequencial de internação ambulatorial para infecções intra-abdominais e infecções urinárias complicadas.",
+  "indications": "## Indicações principais\n\nTratamento sequencial de internação ambulatorial para infecções intra-abdominais e infecções urinárias complicadas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 1 g (Invanz, Ertapenem Richet).",
+      "reconstitution": "10 mL de AD ou SF. Conc: 100 mg/mL.",
+      "diluent": "1 g em 50–100 mL de SF.",
+      "finalConcentration": "10–20 mg/mL.",
+      "administration": "I.M.: Sim. Reconst. com 3,2 mL de solvente indolor e aplicar I.M. profundo. E.V. intermitente: Sim. Reconst. com 10 mL de AD ou SF, diluir com 50–100 mL de SF e infundir em 30–60 min.",
+      "notes": "Não devem passar mais de 6 h entre a reconstituição e o fim da administração. Não se recomenda a diluição em DX 5% por sua instabilidade."
+    },
+    "pediatrico": {
+      "dose": "Infecções intra-abdominais e infecções urinárias complicadas: 3 meses a 12 anos: 15 mg/kg/dose a cada 12 h durante 5 a 14 dias, máximo 1 g/dia; > 13 anos e adultos: 1 g durante 14 dias.",
+      "administration": "E.V. I.M.",
+      "presentation": "F.A.: 1 g",
+      "notes": "Administrar com precaução em pacientes com lesões cerebrais ou história de convulsões. I.M.: Reconstituir o frasco de 1 g com 3,2 ml de lidocaína a 1% ou a 2%, agitar bem antes de usar (administrar I.M. profundo em um músculo de grande massa muscular dentro da hora de preparado). E.V.: Agitar bem após reconstituído e diluir em solução fisiológica a uma concentração final de 20 mg/ml, infundir em 30 minutos; a solução diluída é estável 6 h em temperatura ambiente e 24 h refrigerada. O probenecid diminui o clearance renal do ertapenem. Contém 137 mg de sódio (aprox. 6 mEq)/g de ertapenem."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 1 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 6 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nDor abdominal, constipação, indigestão, náuseas, vômitos, cefaleia, vaginite, convulsões, dor no local da injeção.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ERTApenem* (cód. 1703, ATC J01DH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

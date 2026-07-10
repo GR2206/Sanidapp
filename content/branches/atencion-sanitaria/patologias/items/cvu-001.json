@@ -1,0 +1,52 @@
+{
+  "id": "cvu-001",
+  "name": "Crisis convulsiva y status epilepticus",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **crisis convulsiva** es un evento paroxístico por descarga eléctrica cerebral anormal. En guardia debe distinguirse **crisis provocada** (hipoglucemia, hiponatremia, alcohol, fármacos, TCE, ACV) de **epilepsia**. El **status epilepticus** es convulsión ≥ 5 min o dos o más crisis sin recuperación completa del nivel de conciencia entre ellas; es emergencia neurológica.\n\nEl algoritmo institucional habitual: **benzodiacepina** de primera línea (diazepam o midazolam IV/rectal/IM según vía disponible). Si persiste, segunda dosis de benzodiacepina y luego **antiepiléptico IV** (levetiracetam, fenitoína o valproato según protocolo). Corregir simultáneamente glucosa, electrolitos y causa reversible. Proteger vía aérea, oxígeno, acceso venoso y monitor cardíaco (fenitoína: riesgo de hipotensión y arritmias con infusión rápida).\n\n**Enfermería**: cronometrar duración de la crisis, lateralizar al paciente, no introducir objetos en la boca, registrar medicación y hora exacta, vigilar postictal (confusión, somnolencia) y observar lesiones por caída. Solicitar glucemia capilar inmediata.",
+  "relatedDrugs": [
+    {
+      "drugId": "dia-001",
+      "label": "Diazepam"
+    },
+    {
+      "drugId": "mid-001",
+      "label": "Midazolam"
+    },
+    {
+      "drugId": "lor-001",
+      "label": "Lorazepam"
+    },
+    {
+      "drugId": "lvt-001",
+      "label": "Levetiracetam"
+    },
+    {
+      "drugId": "fny-001",
+      "label": "Fenitoína"
+    },
+    {
+      "drugId": "phb-001",
+      "label": "Fenobarbital"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "International League Against Epilepsy (ILAE). Status epilepticus treatment guidelines.",
+      "url": "https://www.ilae.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Neurología (SAN). Consensos de epilepsia.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Epilepsy Society. Treatment of convulsive status epilepticus.",
+      "url": "https://www.aesnet.org/"
+    }
+  ]
+}

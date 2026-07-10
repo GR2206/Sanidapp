@@ -1,0 +1,41 @@
+{
+  "id": "mop-001",
+  "name": "Metoprolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Beta-1 blocker for heart rate control in acute coronary syndrome and supraventricular arrhythmias.",
+  "indications": "## Indications\n\n- Supraventricular tachycardia, heart rate control in ACS without contraindications.\n- Hypertension and arrhythmias in selected contexts.\n\n## Precautions\n\n- Do not use in bradycardia, AV block, or decompensated cardiogenic shock.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 1 mg/mL.",
+      "dose": "5 mg IV every 5 min up to 15 mg depending on tolerance.",
+      "administration": "Slow IV."
+    },
+    "pediatrico": {
+      "dose": "0.1 mg/kg IV every 5 min (max. per cardiology protocol).",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use undiluted or according to IV package insert.",
+  "adverseEffects": "## Effects\n\n- Bradycardia, hypotension, bronchospasm, fatigue.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

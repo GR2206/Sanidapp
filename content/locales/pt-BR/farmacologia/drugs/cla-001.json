@@ -1,0 +1,50 @@
+{
+  "id": "cla-001",
+  "name": "Claritromicina",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Macrolídeo. Tratamento de infecções do trato respiratório alto e baixo, otite média aguda por *Mycoplasma*, *Chlamydia*. Profilaxia e tratamento de infecções por *Mycobacterium avium*.",
+  "indications": "## Indicações principais\n\nMacrolídeo. Tratamento de infecções do trato respiratório alto e baixo, otite média aguda por *Mycoplasma*, *Chlamydia*. Profilaxia e tratamento de infecções por *Mycobacterium avium*.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 500 mg (Claritromicina Northia, Pharmavial, Richet, Kiaricid).",
+      "reconstitution": "10 mL de AD. Conc.: 50 mg/mL.",
+      "diluent": "500 mg em 250 mL de SF ou SG 5%.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Reconst. 500 mg com 10 mL de AD, e diluir em 250 mL de SF, SG 5% e admin. em 60 min.",
+      "notes": "Usar unicamente AD para sua reconstituição, já que outros diluentes podem produzir precipitação. Não fazê-lo com SF. Irritante (pode provocar flebite)."
+    },
+    "pediatrico": {
+      "dose": "Crianças: 15 mg/kg/dia a cada 12 h, adolescentes e adultos (V.O.): 500 mg a cada 12 h. Tuberculostático: 30 mg/kg/dia a cada 12 h, dose máxima: 1 g/dia.",
+      "administration": "V.O.; E.V.",
+      "presentation": "Comprimidos: 250 mg; Suspensão: 25 mg/mL; F.A.: 500 mg",
+      "notes": "Contraindicada sua associação com terfenadina em pacientes com patologia cardíaca. Interações: carbamazepina, cisaprida, rifabutina. Não refrigerar a suspensão reconstituída."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente e 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 6 h em temperatura ambiente e 48 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, gosto anormal, dispepsia, dor abdominal, cefaleias, hipersensibilidade. Ver alerta.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Claritromicina (cód. 0451, ATC J01FA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

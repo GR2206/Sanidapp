@@ -1,0 +1,48 @@
+{
+  "id": "mic-001",
+  "name": "Micafungina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Equinocandina IV para candidíase e profilaxia em transplante; uma dose diária.",
+  "indications": "## Indicações principais\n\n- Candidíase esofágica e candidemia.\n- Profilaxia de candidíase em transplante e UTI de alto risco.\n\n## Precauções\n\n- Ajustar em insuficiência hepática grave. Hemólise (raro).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampola com pó liofilizado contendo 50 mg ou 100 mg (Mycamine).",
+      "reconstitution": "5 mL de SF. Conc: 10 mg/mL (50 mg) ou 20 mg/mL (100 mg). Agitar suavemente; não agitar vigorosamente.",
+      "diluent": "50–100 mg em 100 mL de SF.",
+      "finalConcentration": "0,5–1 mg/mL.",
+      "administration": "IV direta: Não. IV intermitente: Sim. Diluir em 100 mL de SF e administrar em 60 min. Proteger da luz.",
+      "notes": "Não agitar vigorosamente (gera espuma). Proteger da luz durante toda a preparação e infusão. Não usar SG 5% para reconstituição. Dose habitual candidíase invasora: 100 mg/dia; profilaxia em transplante: 50 mg/dia. Equinocandina sem ajuste de dose em IR ou IH leve-moderada."
+    },
+    "pediatrico": {
+      "dose": "2–3 mg/kg/dia IV (máx. 100 mg/dia).",
+      "administration": "IV 1 h."
+    },
+    "neonatal": {
+      "dose": "2–4 mg/kg/dia IV conforme protocolo da UCIN.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituído (no frasco-ampola)\n\n- 24 h em temperatura ambiente protegido da luz.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente protegido da luz.",
+  "adverseEffects": "## Efeitos adversos\n\n- Flebite, elevação de fosfatase alcalina, rash, náuseas.",
+  "bibliography": [
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

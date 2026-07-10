@@ -1,0 +1,51 @@
+{
+  "id": "cef-008",
+  "name": "Cefepime",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalosporina de 4ta generación. Efectivo frente a bacilos gram negativos (incluidos los no fermentadores: P. Aeruginosa), cocos gram positivos (S. pneumoniae, S. aureus meticilino resistente) y cocos gram negativos (N. meningitidis).",
+  "indications": "## Indicaciones principales\n\nCefalosporina de 4ta generación. Efectivo frente a bacilos gram negativos (incluidos los no fermentadores: P. Aeruginosa), cocos gram positivos (S. pneumoniae, S. aureus meticilino resistente) y cocos gram negativos (N. meningitidis).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampolla 1 g o 2 g.",
+      "dose": "1–2 g IV cada 8–12 h.",
+      "infusionRate": "Perfusión 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "Infecciones leves y moderadas: 50 mg/kg/dosis cada 12 hs; Infecciones graves (endocarditis, neutropenia febril) 50 mg/kg/dosis cada 8 hs, Fibrosis Quística: 50 mg/kg/dosis cada 6 hs, dosis máxima pediátrica: : 2 g/dosis. Adultos: 2 g cada 8-12 hs.",
+      "administration": "E.V.; I.M.",
+      "presentation": "F.A.: 1-2 g",
+      "notes": "E.V.: Infundir en 20-30 minutos."
+    },
+    "neonatal": {
+      "dose": "30 mg/kg/dosis cada 12 h (protocolo NNU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- 24 h refrigerada tras dilución.",
+  "adverseEffects": "## Efectos adversos\n\nDiarrea, náuseas, vómitos, cefalea, rash (2%).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — CefEPIME* (cód. 1502, ATC J01DE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

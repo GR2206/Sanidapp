@@ -1,0 +1,48 @@
+{
+  "id": "abd-001",
+  "name": "Abdomen agudo",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **abdomen agudo** es un síndrome de dolor abdominal de inicio reciente que puede requerir intervención quirúrgica o tratamiento urgente. Las causas frecuentes en guardia incluyen apendicitis, colecistitis, pancreatitis, obstrucción intestinal, diverticulitis, isquemia mesentérica, perforación de víscera hueca y patología ginecológica (embarazo ectópico, torsión anexial). La anamnesis explora inicio, localización, irradiación, fiebre, vómitos, ritmo intestinal y antecedentes quirúrgicos.\n\nEl examen valora defensa, rebote, peritonismo, signo de Murphy, masa palpable y hernias. Estudios según sospecha: laboratorio (hemograma, amilasa/lipasa, β-hCG en mujer en edad fértil), ecografía abdominal y TC con contraste cuando está indicada. Manejo inicial: NPO, acceso venoso, analgesia (no retrasar el diagnóstico), antieméticos y antibiótico si peritonitis o infección. Consulta quirúrgica precoz ante peritonismo, inestabilidad hemodinámica o sospecha de isquemia.\n\n**Enfermería**: registrar evolución del dolor en escala EVA seriada, control de signos vitales, preparar al paciente para estudios imagenológicos y cirugía, mantener NPO, sonda nasogástrica solo si indicada, y vigilancia de distensión abdominal y deposiciones.",
+  "relatedDrugs": [
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "ond-001",
+      "label": "Ondansetrón"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazol"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Society of Emergency Surgery. WSES guidelines for acute abdomen.",
+      "url": "https://www.wses.org.uk/"
+    },
+    {
+      "citation": "Sociedad Argentina de Cirugía (SAC). Consensos de abdomen agudo.",
+      "url": "https://www.cirugia.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Surgeons. Acute care surgery resources.",
+      "url": "https://www.facs.org/"
+    }
+  ]
+}

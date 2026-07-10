@@ -1,0 +1,43 @@
+{
+  "id": "tic-001",
+  "name": "Ticarcilina/ácido clavulânico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Antipseudomonas histórico em associação; uso conforme antibiograma e disponibilidade institucional.",
+  "indications": "## Indicações principais\n\n- Infecções por Gram-negativos, incluindo *Pseudomonas*, em esquemas combinados.\n- Alternativa conforme sensibilidade local quando disponível no formulário.\n\n## Precauções\n\n- Alergia a penicilinas.\n- Ajuste na DRC. Uso restrito pela disponibilidade de alternativas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampola 3,1 g (3 g ticarcilina + 0,1 g ácido clavulânico).",
+      "reconstitution": "Reconstituir com 13 mL de diluente conforme bula.",
+      "dose": "3,1 g IV a cada 4–6 h.",
+      "infusionRate": "Infusão em 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "200–400 mg/kg/dia de ticarcilina divididos a cada 4–6 h (máx. conforme protocolo).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Utilizar a diluição em 6–24 h conforme diluente e bula.",
+  "adverseEffects": "## Frequentes\n\n- Diarreia, flebite, hipocalemia com doses elevadas.\n\n## Graves\n\n- Anafilaxia, colite por *C. difficile*.",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

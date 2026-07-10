@@ -1,0 +1,27 @@
+{
+  "id": "oxi-p001",
+  "title": "Pediatric oxygen therapy",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Titrate oxygen according to age and disease, monitoring SpO₂ and signs of respiratory fatigue; escalate the device if there is insufficient response.",
+  "body": "## Steps to perform\n\n1. Verify the medical prescription and the SpO₂ target according to age, disease, and comorbidities.\n2. Choose the appropriate device based on severity (nasal cannula, simple facemask, non-rebreather mask, HFNC, NIV/MV).\n3. Apply the device ensuring mucosal humidification when appropriate; secure it without compressing skin or cartilage.\n4. Set the flow rate according to the device and weight (low-flow nasal cannula: 0.5–2 L/min in infants; 1–4 L/min in children).\n5. Establish continuous monitoring of SpO₂ along with RR and work of breathing (accessory muscle use, retractions, grunting).\n6. Reassess response every 30–60 minutes (or continuously in ICU); document the device, flow, and achieved SpO₂.\n7. Escalate respiratory support if SpO₂ remains below target despite maximal oxygen delivery with the current device; notify immediately.\n8. Notify immediately if there is increasing work of breathing, apnea, cyanosis, new-onset agitation or lethargy, bradycardia, or hypotension.\n9. Document the device, flow, approximate FiO₂, and clinical response every shift.\n\n## Scientific rationale\n\n### Indications\n\n- Hypoxemia (SpO₂ below age-appropriate target).\n- Moderate-to-severe respiratory distress.\n- Shock with hypoperfusion.\n- Sepsis, bronchiolitis, pneumonia, or severe asthma.\n\n### Target SpO₂ (general reference)\n\n| Situation | Target SpO₂ |\n| --- | --- |\n| Infant/child without congenital heart disease | 94–98% |\n| Premature infant / bronchopulmonary dysplasia | Per neonatal protocol (e.g., 90–95%) |\n| Resolving asthma exacerbation | ≥ 94% |\n\nAdjust targets according to prescription and comorbidities.\n\n### Devices (typical guidance)\n\n| Device | Guide flow rate | Approximate FiO₂ |\n| --- | --- | --- |\n| Low-flow nasal cannula | 0.5–2 L/min (infant) / 1–4 L/min (child) | 24–40% |\n| Simple facemask | 5–10 L/min | 40–60% |\n| Non-rebreather (reservoir) mask | 10–15 L/min | 60–90% |\n| HFNC | Per weight and ICU protocol | Titrated |\n| NIV / MV | Per prescription | — |\n\n> **Source:** World Health Organization. Oxygen therapy for children — WHO guidelines.\n\n### Red flags\n\n- Increasing work of breathing, apnea, or cyanosis.\n- New agitation or lethargy.\n- SpO₂ persistently below target despite maximal oxygen with current device.\n- Bradycardia or hypotension.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Bronchiolitis Clinical Practice Guideline. Pediatrics. 2014 (actualizaciones AAP).",
+      "url": "https://publications.aap.org/pediatrics/article/134/5/e1474/74393"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "SATI — Comité de Neumonología Crítica. Soporte respiratorio.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "World Health Organization. Oxygen therapy for children — WHO guidelines.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/child-health/paediatric-hospital-care"
+    }
+  ]
+}

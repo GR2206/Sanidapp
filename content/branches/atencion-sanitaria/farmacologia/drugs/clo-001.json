@@ -1,0 +1,45 @@
+{
+  "id": "clo-001",
+  "name": "Clonidina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antihipertensivo, agonista alfa 2-adrenérgico. Para sedación, dolor, prevención de síndrome de abstinencia de opiáceos.",
+  "indications": "## Indicaciones principales\n\nAntihipertensivo, agonista alfa 2-adrenérgico. Para sedación, dolor, prevención de síndrome de abstinencia de opiáceos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampollas de 1 ml: 0,150 mg/ml; Solución (preparado magistral): 10 µg/ml",
+      "reconstitution": "Una vez reconstituida, 1 amp. hasta 24 mL.",
+      "administration": "E.V.; V.O.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "Según dilución para BIC (1 amp. hasta 24 mL).",
+      "infusionRate": "Según indicación médica, con BIC.",
+      "dose": "Hipertensión grave: 2 a 18 años: E.V.: 2-6 µg/kg dosis única día, máximo 300 µg; V.O.: inicial 0,5-1 µg/kg cada 8 hs e ir aumentando si fuese necesario hasta un máximo 25 µg/kg/día en dosis divididas (no exceder 1,2 mg/día); Sedación, dolor, prevención de síndrome de abstinencia de opiáceos: E.V.: inicial: 0,25 µg/kg/hora, aumentar de a 0,1 µg/kg/hora hasta lograr una adecuada sedación (en la mayoría de los niños debería observarse el efecto con 1 - 3 µg/kg/hora); V.O.: 1-3 µg/kg cada 8 hs, dosis máxima 5 µg/kg cada 8 hs. Ajustar la dosis con filtrado glomerular &lt; 10 ml/min.",
+      "notes": "Debe monitorearse la presión sanguínea y el pulso. No suspender abruptamente si fue administrada por más de 2 semanas, reducir diariamente en el término de 5 días hasta 1 µg/kg/dosis, cada 8 hs y luego suspender (crisis hipertensiva). Ver Guía práctica para manejo analgosedación y su descenso en salas de cuidados intermedios y moderados."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- 24 hs. Una vez reconstituida 1 amp. hasta 24 mL.",
+  "adverseEffects": "## Efectos adversos\n\nDermatitis de contacto, eritema, prurito, constipación, náuseas, xerostomía, mareos, fatiga, somnolencia, sedación, depresión, retención de líquido, bradicardia, síndrome de Raynaud, cefalea.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — cloNIDina clorhidrato (cód. 0490, ATC C02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

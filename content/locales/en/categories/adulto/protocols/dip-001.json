@@ -1,0 +1,31 @@
+{
+  "id": "dip-001",
+  "title": "Peritoneal dialysis catheter insertion",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Assist in the insertion of a Tenckhoff catheter using sterile technique, infraumbilical approach, and immediate postoperative care according to ISPD/KDOQI.",
+  "body": "## Steps to perform\n\n1. Verify patient identification, prescription, informed consent, and fasting status according to the surgical protocol.\n2. Confirm administration of prophylactic antibiotics if indicated.\n3. Prepare sterile materials: PD catheter (Tenckhoff), sterile drape, gloves, antiseptic, and an occlusive dressing.\n4. Perform hand hygiene and don sterile barriers according to the assigned role (circulating or scrub nurse).\n5. Position the patient in a supine position; disinfect the abdomen with alcoholic chlorhexidine over a wide area; allow to dry completely.\n6. Assist with the insertion: infraumbilical incision, dissection to the peritoneum, catheter introduction, and verification of dialysate fluid flow.\n7. Verify that the catheter drains and aspirates correctly; secure with sutures according to technique.\n8. Dress the wound with a sterile dressing; leave the catheter oriented caudally and secured without tension.\n9. Document the type of catheter, site, operator, time, and flow test.\n10. Transfer the patient to the unit with postoperative care instructions: monitor for pain, bleeding, peritonism, and catheter function.\n11. Instruct the patient: do not wet the wound according to protocol; avoid initial abdominal strain; administer laxatives if indicated.\n\n## Scientific rationale\n\n### Indications\n\n- Initiation of renal replacement therapy with **peritoneal dialysis (PD)** as a chronic modality or bridge.\n- Stage 5 chronic kidney disease when PD is the chosen modality (KDOQI 2019).\n- Temporary bridge to hemodialysis in selected situations.\n\n### Catheter type\n\n| Feature | Recommendation |\n| --- | --- |\n| Model | Tenckhoff with two cuffs (superficial and deep) |\n| Exit site | Infraumbilical, lateral to the midline |\n| Orientation | Distal toward the pelvis (prevent kinking) |\n| Tunnel | Downward trajectory configuration (reduces infection) |\n\n### Evidence and recommendations\n\n> **ISPD Guidelines on Peritoneal Access (2020):** Placement by a trained team is preferred; perioperative antibiotic prophylaxis; avoid catheter exit site placement in skin folds or pressure areas (Brown et al., 2020).\n\n> **KDOQI Vascular Access 2019:** Plan access in advance in advanced CKD; PD is a valid modality when the patient is informed and trained (Lok et al., 2020).\n\n### Nursing role\n\n- Preoperative preparation and safety checklist.\n- Assistance within the sterile field and documentation of events.\n- Immediate postoperative care and initial education.\n- Coordination with nephrology for the first exchange according to protocol.\n\n### Postoperative care (first 48–72 h)\n\n- Monitor vital signs, pain, wound bleeding, and signs of peritonism.\n- Maintain a dry dressing; perform wound care according to protocol after the initial period.\n- Avoid unnecessary manipulation of the catheter.\n- Do not initiate exchanges until a medical order is received and flow is confirmed.\n\n### Complications — notify immediately\n\n- Active bleeding or expanding abdominal hematoma.\n- Severe abdominal pain, fever, or abdominal guarding (suspected perforation or peritonitis).\n- Absence of flow or fluid leakage around the drain site.\n- Erythema or purulent discharge at the catheter exit site.",
+  "bibliography": [
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020;40(4):297-310.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "Lok CE, Huber TS, Lee T, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update. Am J Kidney Dis. 2020.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "Li PK, et al. ISPD Guidelines for Peritoneal Dialysis. Perit Dial Int. 2022 updates.",
+      "url": "https://www.ispd.org/guidelines"
+    },
+    {
+      "citation": "SATI — Comité de Nefrología. Recomendaciones en terapia de reemplazo renal.",
+      "url": "https://www.sati.org.ar/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for surgical site infection prevention. WHO, 2018.",
+      "url": "https://www.who.int/publications/i/item/9789241550475"
+    }
+  ]
+}

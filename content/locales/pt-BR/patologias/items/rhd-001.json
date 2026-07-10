@@ -1,0 +1,53 @@
+{
+  "id": "rhd-001",
+  "name": "Rabdomiólise",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **rabdomiólise** é necrose muscular com liberação de mioglobina, CK e eletrólitos ao plasma. Causas frequentes na emergência: **trauma**, queda prolongada, exercício extremo, convulsões, fármacos (**estatinas**, cocaína), hipertermia maligna e infecções. A tríade clássica é mialgia, fraqueza e urina escura; pode cursar sem dor muscular. Complicações: **IRA por mioglobina**, hipercalemia, hipocalcemia, coagulação intravascular.\n\nO tratamento prioritário é **reposição volêmica agressiva** com cristaloides (metas de diurese conforme protocolo, p. ex. 200–300 mL/h se tolera) para diluir mioglobina e prevenir necrose tubular. Corrigir **hipercalemia** e acidose conforme algoritmos. Suspender fármacos suspeitos. Indicações de diálise: hipercalemia refratária, acidose grave, sobrecarga hídrica ou uremia. Monitorar CK seriada (pico a 24–72 h).\n\n**Enfermagem**: balanço hídrico rigoroso, diurese horária, ECG se hipercalemia, evitar nefrotóxicos (AINE, contrastes), repouso relativo e registro de urina (cor, volume). Avaliar síndrome compartimental em membros tensos.",
+  "bibliography": [
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Acute kidney injury and rhabdomyolysis.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Sociedade Argentina de Nefrologia (SAN). Injúria renal aguda.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Emergency Physicians. Rhabdomyolysis clinical policy.",
+      "url": "https://www.acep.org/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "CK e alarmes na rabdomiólise",
+    "content": "**CK** > 5× limite superior normal confirma dano muscular (valores muito altos são frequentes).\n\n**Vigiar de imediato:**\n· Diurese **< 0,5 mL/kg/h** apesar de fluidos\n· **K⁺** elevado · **pH** baixo · **Creatinina** em ascensão\n· Urina escura / mioglobinúria positiva\n\nMeta habitual de reanimação: diurese **200–300 mL/h** (ajustar ao protocolo e comorbidades cardíacas)."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemida"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sódio"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloreto de potássio"
+    },
+    {
+      "drugId": "nsh-001",
+      "label": "Cloreto de sódio hipertônico"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Manitol"
+    }
+  ]
+}

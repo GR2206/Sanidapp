@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "slots": [
+    "bannerTOP",
+    "bannerMEDIO",
+    "bannerBOT"
+  ]
+}

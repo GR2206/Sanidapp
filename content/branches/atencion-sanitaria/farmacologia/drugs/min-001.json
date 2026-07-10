@@ -1,0 +1,46 @@
+{
+  "id": "min-001",
+  "name": "Minociclina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Es un antibiótico que pertenece al grupo de las tetraciclinas que se utilizan para tratar infecciones producidas por bacterias incluidas la neumonía y otras infecciones del tracto respiratorio, determinadas infecciones de la piel y partes blandas, de los ojos, del sistema linfáti",
+  "indications": "## Indicaciones principales\n\nEs un antibiótico que pertenece al grupo de las tetraciclinas que se utilizan para tratar infecciones producidas por bacterias incluidas la neumonía y otras infecciones del tracto respiratorio, determinadas infecciones de la piel y partes blandas, de los ojos, del sistema linfático, del aparato digestivo, del aparato reproductor y del sistema urinario.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 100 mg.",
+      "dose": "100 mg VO cada 12 h.",
+      "administration": "VO con abundante agua."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 50 - 100 mg",
+      "administration": "V.O.",
+      "dose": "Infecciones de la piel y tejidos blandos: &gt; 8 años: carga: 4 mg/kg, luego 2 mg/kg/dosis cada 12 hs; máximo: 200 mg/día, en caso de infecciones por gérmenes multirresistentes (acinetobacter sp, S maltophilia, Nocardia) dosis máxima diaria 400 mg; adultos: carga: 200 mg, luego 100 mg/dosis cada 12 hs, en caso de infecciones por gérmenes multirresistentes (acinetobacter sp, S maltophilia, Nocardia) 200 mg/dosis cada 12 hs .",
+      "notes": "Se puede tomar con o sin alimentos, beber un vaso de agua con cada dosis. En terapia prolongada realizar control hematológico, renal y hepático. Interacciones: antiácidos con hierro, aluminio, calcio y magnesio disminuyen su absorción. Disminuir dosis de anticoagulantes porque aumenta su acción."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto; proteger de luz.",
+  "adverseEffects": "## Efectos adversos\n\nColoración permanente en dientes e inhibición de desarrollo óseo en niños, anorexia, náusea, vómito, diarrea, urticaria, erupción, dermatitis, sobreinfección, anemia hemolítica, trombocitopenia, eosinofilia. ",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — minoCICLina clorhidrato (cód. 1359, ATC J01AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

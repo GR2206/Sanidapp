@@ -1,0 +1,27 @@
+{
+  "id": "oxi-001",
+  "title": "Oxigenoterapia en adulto hospitalizado",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Titular oxígeno para alcanzar saturación objetivo, reevaluar necesidad cada 24 h y vigilar retención de CO₂ en pacientes con EPOC.",
+  "body": "## Pasos a realizar\n\n1. Verificar prescripción y objetivo de SpO₂ según perfil del paciente.\n2. Seleccionar dispositivo adecuado (gafas nasales, mascarilla simple, reservorio, VMNI o VM según indicación).\n3. Ajustar flujo y confirmar saturación dentro del rango objetivo.\n4. Hidratar mucosas y revisar integridad cutánea por dispositivo.\n5. Monitorizar SpO₂, FR, trabajo respiratorio y nivel de conciencia.\n6. Reevaluar necesidad de oxígeno al menos cada 24 h.\n7. Registrar dispositivo, flujo y respuesta en historia clínica.\n8. Suspender oxígeno si el paciente alcanza saturación objetivo en aire ambiente.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Hipoxemia documentada (SpO₂ por debajo del objetivo o PaO₂ < 60 mmHg).\n- Insuficiencia respiratoria aguda o en contexto de sepsis, NAC, edema pulmonar, etc.\n\n### Objetivos de saturación\n\n| Perfil del paciente | SpO₂ objetivo |\n| --- | --- |\n| Adulto sin riesgo de hipercapnia | 92–96% |\n| EPOC / riesgo de hipercapnia | 88–92% (ajustar según gasometría) |\n| Embarazo | ≥ 95% |\n\n### Dispositivos\n\n- **Gafas nasales:** 1–6 L/min (FiO₂ aproximada 24–44%).\n- **Mascarilla simple:** 6–10 L/min.\n- **Mascarilla con reservorio:** alto flujo; requiere vigilancia estrecha.\n- **VMNI / VM:** según prescripción médica.\n\n### Evidencia y recomendaciones\n\n> **BTS 2017 (O'Driscoll et al.):** Titular oxígeno para alcanzar saturación objetivo; evitar oxigenoterapia de mantenimiento sin indicación.\n\n> **Surviving Sepsis Campaign 2021:** Mantener SpO₂ ≥ 92% en sepsis, ajustando según comorbilidades.\n\n### Complicaciones\n\n- Retención de CO₂ en pacientes con EPOC o riesgo de hipercapnia.\n- Lesión por presión del dispositivo.\n- Hipoxemia por flujo insuficiente o dispositivo mal colocado.",
+  "bibliography": [
+    {
+      "citation": "O'Driscoll BR, Howard LS, Earis J, et al. BTS Guideline for Oxygen Use in Adults in Healthcare and Emergency Settings. Thorax. 2017;72(Suppl 1):ii1-ii90.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28507176/"
+    },
+    {
+      "citation": "SATI — Comité de Neumonología Crítica. Recomendaciones en paciente crítico ventilado y soporte respiratorio.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — recomendaciones sobre oxigenación y ventilación.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    },
+    {
+      "citation": "World Health Organization. Oxygen therapy for acute and chronic conditions.",
+      "url": "https://www.who.int/health-topics/oxygen"
+    }
+  ]
+}

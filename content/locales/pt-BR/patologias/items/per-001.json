@@ -1,0 +1,37 @@
+{
+  "id": "per-001",
+  "name": "Pericardite aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **pericardite aguda** é inflamação do pericárdio, frequentemente viral ou pós-viral. A dor é **pleurítica**, retroesternal, que **melhora sentado e inclinado para frente** e piora em decúbito e com inspiração profunda. Pode haver fricção pericárdica à ausculta. O ECG mostra tipicamente **elevação difusa do ST** com **depressão do PR** em múltiplas derivações (diferente do IAM, que é territorial e recíproco).\n\nO diagnóstico é clínico com apoio de ECG, ecocardiograma (derrame pericárdico) e troponina (pode elevar-se em miopericardite). Tratamento: **AINE** (ibuprofeno ou AAS em doses anti-inflamatórias) e **colchicina** para reduzir recorrências, conforme diretriz. Evitar anticoagulação se houver risco de hemopericárdio. Internar se febre alta, derrame importante, imunossupressão ou suspeita de pericardite purulenta.\n\n**Enfermagem**: posição semisentada, controle da dor, vigilância de sinais de tamponamento (hipotensão, ingurgitamento jugular, pulsos paradoxais) e orientação sobre repouso relativo e acompanhamento.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Pericardial diseases guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia (SAC). Pericardite.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Cardiology. Pericarditis clinical guidance.",
+      "url": "https://www.acc.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    }
+  ]
+}

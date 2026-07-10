@@ -1,0 +1,27 @@
+{
+  "id": "dol-p001",
+  "title": "Dolor y sedación en pediatría",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Evaluar dolor con escalas validadas por edad (FLACC, EVA, CPOT-ped), tratar de forma multimodal y minimizar sedación innecesaria.",
+  "body": "## Pasos a realizar\n\n1. **Evaluar dolor sistemáticamente** al inicio de cada turno y antes/después de procedimientos.\n2. **Seleccionar escala validada** según edad y situación: FLACC (0–7 años), EVA (> 6–7 años), COMFORT-B/CPOT (UTI/intubado), NIPS/PIPP (neonato).\n3. **Registrar puntuación** de dolor/sedación en historia clínica con hora y contexto.\n4. Aplicar **medidas no farmacológicas**: contención terapéutica con familiar, lactancia o sucrosa en lactantes, distracción, ambiente tranquilo y agrupar cuidados.\n5. Administrar **analgesia farmacológica** según prescripción y gravedad (paracetamol/ibuprofeno leve; opioides titulados moderado-severo).\n6. Administrar **analgesia antes del procedimiento** doloroso cuando esté indicado (no esperar al dolor máximo).\n7. En UTI, **reevaluar sedación** con escala adaptada (RASS); priorizar analgesia sobre sedación sola (PADIS).\n8. **Vigilar efectos adversos**: hipotensión, bradipnea, depresión respiratoria con opioides/benzodiacepinas, náuseas.\n9. **Involucrar a la familia** en el cuidado del dolor y explicar plan de analgesia.\n10. **Avisar de inmediato** si bradipnea, hipotensión, sobresedación o dolor no controlado pese a tratamiento.\n\n## Fundamentación científica\n\n### Principios\n\n- El dolor es frecuentemente infratratado en pediatría.\n- Evaluar dolor de forma **sistemática cada turno** y antes/después de procedimientos.\n- Combinar farmacológico y no farmacológico.\n\n### Escalas de evaluación\n\n| Edad / situación | Escala |\n| --- | --- |\n| 0–7 años (preverbal) | **FLACC** (Face, Legs, Activity, Cry, Consolability) |\n| > 6–7 años cooperador | **EVA** (escala visual analógica 0–10) |\n| UTI / intubado | **COMFORT-B** o **CPOT** adaptada |\n| Neonato | **NIPS** o **PIPP** |\n\n### Intervenciones no farmacológicas\n\n- Contención terapéutica con familiar.\n- Lactancia o sucrosa oral en lactantes para dolor procedural leve.\n- Distraction, música, juego.\n- Ambiente tranquilo; agrupar cuidados.\n\n### Analgesia farmacológica (según prescripción)\n\n| Situación | Opciones frecuentes |\n| --- | --- |\n| Dolor leve | Paracetamol, ibuprofeno oral/IV |\n| Dolor moderado-severo | Opioides titulados (morfina, fentanilo) |\n| Procedimiento breve | Sedación con ketamina, propofol o midazolam según protocolo |\n\n### Sedación en UTI\n\n- Objetivo: paciente tranquilo pero evaluable (evitar sobresedación).\n- Reevaluar sedación con escala (RASS adaptada).\n- Vigilar depresión respiratoria con opioides y benzodiacepinas.\n- **PADIS** (adaptación pediátrica de guías SCCM): priorizar analgesia sobre sedación sola.\n\n### Rol de enfermería\n\n- Registrar escala de dolor/sedación en cada turno.\n- Administrar analgesia **antes** de procedimientos dolorosos cuando esté indicado.\n- Vigilar efectos adversos: hipotensión, bradipnea, náuseas.\n- Involucrar a la familia en el cuidado del dolor.",
+  "bibliography": [
+    {
+      "citation": "Devlin JW, et al. PADIS Guidelines — adaptación a población pediátrica en UTI.",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Prevention and Management of Procedural Pain in the Newborn. Pediatrics. 2016.",
+      "url": "https://publications.aap.org/pediatrics/article/137/2/e20154271/81496"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — PADIS Guidelines.",
+      "url": "https://www.sccm.org/clinical-resources/guidelines"
+    },
+    {
+      "citation": "SATI — Guías de práctica clínica para prevención y manejo del dolor (traducción oficial español).",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    }
+  ]
+}

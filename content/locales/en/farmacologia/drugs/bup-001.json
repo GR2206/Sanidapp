@@ -1,0 +1,47 @@
+{
+  "id": "bup-001",
+  "name": "Bupivacaine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Amide-group local anesthetic.",
+  "indications": "## Main indications\n\nAmide-group local anesthetic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "20 mL ampoules: 5 mg/mL; Hyperbaric 4 mL ampoules: 5 mg/mL.",
+      "dose": "Up to 0.5 mg/kg/dose depending on regional block.",
+      "administration": "Local and regional."
+    },
+    "pediatrico": {
+      "presentation": "20 mL ampoules: 5 mg/mL; Hyperbaric 4 mL ampoules: 5 mg/mL",
+      "administration": "Local and regional",
+      "dose": "Up to 0.5 mg/kg/dose",
+      "notes": "SPECIALIST USE ONLY. Do not administer intravenously. Prolonged duration of action. Repeated doses by any route cause accumulation and systemic effects."
+    }
+  },
+  "stability": "## General\n\n- Follow manufacturer storage conditions.",
+  "adverseEffects": "## Adverse effects\n\nArrhythmias, cardiac arrest. Cardiovascular effects are more severe than with lidocaine.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — BUPIvacaine Hydrochloride* (code 0028, ATC N01BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

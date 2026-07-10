@@ -1,0 +1,48 @@
+{
+  "id": "cef-002",
+  "name": "Cefazolin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "First-generation IV cephalosporin; surgical prophylaxis and MSSA.",
+  "indications": "## Indications\n\n- Surgical prophylaxis of skin and soft tissues.\n- Infections caused by MSSA and susceptible streptococcus.\n\n## Precautions\n\n- Adjust in CKD. Beta-lactam allergy.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial with lyophilized powder containing 1 g (Cefazolin Drawer, Fabra, Klonal, Northia, Richet, Pharmavial).",
+      "reconstitution": "10 mL of DW or NS. Conc: 100 mg/mL.",
+      "diluent": "1 g in 100 mL of NS or D5W.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "IM: Yes. Reconstitute with 4 mL of DW and administer deep IM. Direct IV: Yes. Reconstitute with 10 mL of DW or NS and administer over 3–5 min. Intermittent IV: Yes. Dilute in 50–100 mL of NS or D5W and administer over 30–60 min.",
+      "notes": "Compatible with NS and D5W. May cause phlebitis via direct IV route. IM administration is possible. First choice for surgical prophylaxis."
+    },
+    "pediatrico": {
+      "dose": "25–100 mg/kg/day every 6–8 h.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "25 mg/kg/dose every 12 h (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in the vial)\n\n- 24 h at room temperature, 10 days refrigerated.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature, 10 days refrigerated.",
+  "adverseEffects": "## Effects\n\n- Phlebitis, rash, diarrhea. Anaphylaxis.",
+  "bibliography": [
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "dob-001",
+  "name": "Dobutamine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Synthetic catecholamine with inotropic activity. Selective action on β1 receptors.",
+  "indications": "## Main indications\n\nSynthetic catecholamine with inotropic activity. Selective action on β1 receptors.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "2.5–20 mcg/kg/min titrated.",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+    },
+    "pediatrico": {
+      "presentation": "20 mL ampoules: 12.5 mg/mL",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "2-20 µg/kg/min, Maximum dose in adults: 40 µg/kg/min",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "IV",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "For IV administration dilute in normal saline or 5% dextrose with a maximum concentration of 5 mg/mL. Dilution is stable 24 h. Incompatible with alkaline solutions. Compatible with: dopamine, epinephrine, vecuronium, isoproterenol, and lidocaine. Do not administer to patients with dynamic left ventricular outflow obstruction. Pink coloration indicates mild oxidation but no loss of potency"
+    },
+    "neonatal": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "2–10 mcg/kg/min in NICU under specialized prescription.",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+    }
+  },
+  "stability": "## Stability\n\n- Use within 24 h; protect from light per guide.",
+  "adverseEffects": "## Adverse effects\n\nAnxiety, confusion, weakness, nausea, vomiting, reflex bradycardia. Arrhythmias and tachycardia with high doses.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — DOBUTamine Hydrochloride (code 0078, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

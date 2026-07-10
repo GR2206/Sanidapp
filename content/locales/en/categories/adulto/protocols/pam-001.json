@@ -1,0 +1,27 @@
+{
+  "id": "pam-001",
+  "title": "Arterial line insertion (MAP)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Cannulate an arterial catheter for invasive mean arterial pressure (MAP) monitoring, ensuring a favorable Allen's test, using a sterile Seldinger technique, and calibrating the transducer system to the phlebostatic axis.",
+  "body": "## Steps to perform\n\n1. Identify the patient and verify coagulation status if applicable; confirm a favorable **Allen's test** before cannulating the radial artery.\n2. Perform hand hygiene and don sterile barriers; position the wrist extended over a support and palpate the arterial pulse.\n3. Disinfect the skin with alcoholic chlorhexidine; **allow to dry** completely.\n4. Puncture at a 30–45° angle until pulsatile backflow is observed; insert the guidewire, remove the needle, and advance the catheter over the wire (Seldinger technique).\n5. Remove the guidewire; connect to a pre-flushed, bubble-free system.\n6. Secure the catheter with sutures or an adhesive device; apply a transparent dressing.\n7. Connect the transducer; position it at the level of the **phlebostatic axis** (4th intercostal space, midaxillary line).\n8. **Zero** the transducer with the patient in a standard position.\n9. Confirm the arterial waveform on the monitor and ensure the MAP reading is clinically coherent.\n10. Adjust the pressure infuser bag to **300 mmHg** for continuous flow (3 ml/h according to protocol).\n11. Monitor the insertion site, distal perfusion (color, temperature, pulse), and dressing at every shift change.\n12. Zero the system at the beginning of each shift, after patient mobilization, or in case of doubtful readings; remove the catheter upon termination of indication or in the presence of ischemia/infection.\n\n## Scientific rationale\n\n### Indications\n\n- Hemodynamic instability or shock (septic, hemorrhagic, etc.).\n- Use of vasoactive drugs that require close titration.\n- Need for frequent arterial blood gas sampling.\n- Monitoring of target MAP in the ICU or critical perioperative setting.\n\n**Invasive arterial pressure monitoring (IPM)** allows continuous recording of systolic, diastolic, and **mean arterial pressure (MAP)**, in addition to facilitating serial arterial blood gas sampling.\n\n### Site selection\n\n| Order | Site | Notes |\n| --- | --- | --- |\n| 1st choice | **Radial artery** | Accessible; requires a favorable Allen's test |\n| 2nd choice | Dorsalis pedis artery | Alternative option with collateral circulation |\n| Emergency / shock | **Femoral artery** | Higher infectious risk; evaluate for early removal |\n| Avoid if possible | Brachial / ulnar artery | Limited collateral circulation |\n\n### Allen's test (prior to radial access)\n\n1. Compress both the radial and ulnar arteries simultaneously.\n2. Have the patient open and close the hand until paleness occurs.\n3. Release the ulnar artery: the hand should reperfuse in **< 10 seconds**.\n4. If abnormal, select another anatomical site or request a medical evaluation.\n\n### Evidence and recommendations\n\n> **Surviving Sepsis Campaign 2021:** In septic shock, MAP is a primary perfusion target (usually ≥ 65 mmHg).\n\n> **Scheer et al. 2002:** Complications of peripheral arterial catheters; close monitoring of distal perfusion is essential.\n\n### Equipment\n\n- Arterial catheter kit (typically 20 G for radial access).\n- Seldinger technique components: needle, guidewire, dilator, catheter.\n- Alcoholic chlorhexidine 0.5–2%.\n- Closed system: transducer, pressure infuser bag (300 mmHg), continuous crystalloid flush solution.\n\n> If insertion was performed in an emergency without optimal asepsis, recannulate at a different site within **48 h** according to institutional protocol.\n\n### Complications — notify immediately\n\n- Pallor, pain, or distal paresthesias (ischemia).\n- Active bleeding or an expanding hematoma.\n- Overdamped waveform or damping (due to bubbles, clots, or malposition).\n- Fever or erythema at the insertion site (suspected infection).",
+  "bibliography": [
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — hemodynamic targets and monitoring in sepsis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with intravascular catheters — Part 2 (CVC/aseptic actions applicable). WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización SATI/SADI 2025 (prevention principles for intravascular devices).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Clinical review: Complications and risk factors of peripheral arterial catheters used for hemodynamic monitoring in anesthesia and intensive care medicine. Crit Care. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "den-001",
+  "name": "Dysentery",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "body": "**Dysentery** is a diarrheal syndrome characterized by **bloody and/or mucoid stools**, fever, abdominal pain, and **tenesmus**, usually caused by invasive enteropathogens. In pediatrics and public health settings, *Shigella*, *Campylobacter jejuni*, non-typhoidal *Salmonella*, and *Entamoeba histolytica* (amebic dysentery) are prominent. It must be distinguished from non-invasive watery diarrhea and upper gastrointestinal bleeding; severity relates to dehydration, sepsis, prostration, and complications (toxic megacolon, bacteremia, hemolytic uremic syndrome).\n\nDiagnosis is clinical-epidemiological at first contact, supplemented by **stool culture**, parasite examination, and, when available, molecular panels or fecal antigens. In high fever, lethargy, signs of shock, or profuse bloody diarrhea in infants, consider admission and empiric antibiotic therapy per local guidelines and regional resistance patterns. In **enterohemorrhagic E. coli (EHEC)** infection, routine antibiotic use is discouraged because of hemolytic uremic syndrome risk.\n\n**Treatment** prioritizes **rehydration** (WHO plan A, B, or C according to dehydration grade) and early nutrition. Antibiotics are reserved for confirmed or suspected bacillary dysentery with severity criteria: in many pediatric and infectious disease protocols, **azithromycin**, **ciprofloxacin**, or **ceftriaxone** are used according to age, pathogen, and resistance map; multidrug-resistant *Shigella* requires adjustment per antibiogram. In symptomatic amebic dysentery, **metronidazole** is indicated, followed by a luminal agent per protocol.\n\n**Nursing:** contact isolation per institutional policy; record stool frequency and characteristics, temperature, hydration status, and urine output; obtain stool sample before antibiotics when possible without delaying treatment in severe cases; administer ORS or IV fluids per rehydration plan; monitor for red flags (lethargy, oliguria, massive bleeding, abdominal distension); educate the family on hand hygiene, safe stool handling, and return to usual feeding after stabilization.",
+  "clinicalBox": {
+    "title": "Dysentery — severity criteria and antibiotics",
+    "content": "Consider **antibiotics** and/or admission for:\n**Moderate or severe dehydration** · Persistent **fever** ≥ 38.5 °C · **Abundant blood** in stools · Incapacitating **tenesmus** · Marked **prostration**, lethargy, or irritability\n**Infant** < 3 months · **Immunosuppression** · **Signs of sepsis** or acute abdomen\n\n**Caution:** in suspected **EHEC** (bloody diarrhea without high fever, outbreaks, course with anemia/oliguria) avoid antibiotics until etiology is defined.\n**Sample:** stool culture and parasites as early as possible."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "azi-001",
+      "label": "Azithromycin"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacin"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazole"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimethoprim/sulfamethoxazole"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Health Organization (WHO). The treatment of diarrhoea: a manual for physicians and other senior health workers.",
+      "url": "https://www.who.int/health-topics/diarrhoea"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Infectious disease and antimicrobial resistance guidelines.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Red Book — enteric infections and dysentery.",
+      "url": "https://publications.aap.org/redbook"
+    }
+  ]
+}

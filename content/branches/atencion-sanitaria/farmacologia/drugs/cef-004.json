@@ -1,0 +1,41 @@
+{
+  "id": "cef-004",
+  "name": "Cefoxitina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "executiveSummary": "Cefamicina con cobertura de anaerobios; profilaxis quirúrgica colorrectal y ginecológica.",
+  "indications": "## Indicaciones\n\n- Infecciones intraabdominales polimicrobianas.\n- Profilaxis quirúrgica con riesgo anaerobio.\n\n## Precauciones\n\n- Ajustar en IRC.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampolla 1 g o 2 g.",
+      "dose": "1–2 g IV cada 6–8 h.",
+      "infusionRate": "Perfusión 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "80–160 mg/kg/día cada 6–8 h.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Usar en 6–24 h según diluyente.",
+  "adverseEffects": "## Efectos\n\n- Diarrea, flebitis, colitis por *C. difficile*.",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

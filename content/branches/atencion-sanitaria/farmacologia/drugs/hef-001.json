@@ -1,0 +1,50 @@
+{
+  "id": "hef-001",
+  "name": "Heparina sódica",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anticoagulante.",
+  "indications": "## Indicaciones principales\n\nAnticoagulante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 5000 UI/mL.",
+      "dose": "Bolus 60–80 UI/kg en SCA; perfusión 12–15 UI/kg/h titulada a TTPa.",
+      "administration": "IV en bomba."
+    },
+    "pediatrico": {
+      "dose": "Dosis ataque: 75-100 U/kg en bolo (10 minutos). Dosis inicial: &lt; 1 año: 28 U/kg/hora, &gt; 1 año: 20 U/kg/hora, adolescentes: 18 U/kg/hora. Se adecua de acuerdo a nomogramas.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 5000 U.I./ml",
+      "notes": "Contraindicada en: insuficiencia hepática y renal grave, endocarditis lenta, gastritis hemorrágica, úlcera gastroduodenal. Drogas que afectan la función plaquetaria (aspirina, antiinflamatorios no esteroides, dipiridamol) pueden potenciar el riesgo de hemorragias; digoxina, antihistamínicos y nitroglicerina pueden disminuir el efecto anticoagulante de la heparina."
+    },
+    "neonatal": {
+      "dose": "28 UI/kg/h infusión habitual en NNU (protocolo).",
+      "administration": "IV en bomba."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Perfusión preparada según cartilla; no agitar.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragias, trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Heparina Sódica (cód. 0111, ATC B01AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

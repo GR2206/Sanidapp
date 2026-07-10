@@ -1,0 +1,35 @@
+{
+  "id": "ret-p001",
+  "title": "Coleta de retrocultura de cateter pediátrico",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Obter hemocultura pareada (periférica + retrocultura por cada via) de forma simultânea, com igual volume conforme peso e desinfecção estrita do hub, para diagnosticar bacteremia associada ao cateter (BAC) sem retirá-lo.",
+  "body": "## Passos a realizar\n\n1. Confirmar suspeita de BAC; identificar paciente, cateter, tipo e via(s) a amostrar.\n2. Preparar frascos pediátricos idênticos e etiquetas (**PERIFÉRICO** / **CVC via 1**, etc.) antes de desconectar.\n3. Explicar à família; organizar contenção e analgesia se requerer punção periférica.\n4. Realizar higienização das mãos (momento 2 OMS).\n5. Coletar hemocultura periférica em extremidade distinta ao cateter (técnica de `hem-p001`).\n6. **Simultaneamente ou sem demora:** desinfetar hub com clorexidina alcoólica ≥ 15 s; deixar secar; não repassar.\n7. Conectar seringa estéril; coletar sangue da via; inocular frasco com **o mesmo volume** que o periférico.\n8. Repetir passos 6–7 para cada via se o cateter for multilúmen.\n9. Introduzir todos os frascos no equipamento de hemocultura **ao mesmo tempo**.\n10. Registrar hora exata, peso, volume por frasco, sítio periférico, via(s), dias de cateter e antibióticos em curso.\n11. Realizar higienização das mãos ao finalizar; transportar imediatamente ao laboratório.\n\n## Fundamentação científica\n\n### Indicação\n\nSuspeita de **bacteremia associada ao cateter (BAC)** em criança portadora de CVC, PICC, cateter umbilical ou diálise, com febre ou deterioração sem foco claro, quando se necessita conservar o cateter ou avaliar origem antes de retirá-lo.\n\nComplementa `hem-p001`. A retrocultura deve ser coletada **ao mesmo tempo** que a hemocultura periférica (Cornistein et al., 2025; SATI, 2007).\n\n### Quando NÃO realizar\n\n- Cateter < 48 h instalado (salvo falha asséptica na inserção).\n- Baixa suspeita clínica (aumenta falsos positivos por flora cutânea).\n- Sem hemocultura periférica pareada simultânea.\n- Cateter umbilical: seguir protocolo neonatológico específico.\n\n### Princípio diagnóstico\n\n| Método | Critério sugestivo de BAC |\n| --- | --- |\n| Tempo diferencial | Retrocultura positiva ≥ 2 h antes que periférica (mesmo germe) |\n| Quantitativo | Relação retrocultura/periférica ≥ 3:1 |\n| Cultura da ponta | Mesmo germe (Maki ≥ 15 UFC) e hemocultura periférica |\n\n### Volume pareado conforme peso\n\n| Peso | Volume por frasco (periférico = retrocultura) |\n| --- | --- |\n| < 1 kg | 0,5–1 ml |\n| 1–5 kg | 1–3 ml |\n| 5–10 kg | 3–5 ml |\n| 10–20 kg | 5–10 ml |\n| > 20 kg | 10–15 ml |\n\nVolume desigual invalida o tempo diferencial.\n\n### Conduta posterior\n\n- BAC confirmada: avaliar retirada do cateter conforme gravidade, microorganismo e necessidade do acesso.\n- Não interpretar flora cutânea (SCN) sem correlação clínica e tempo diferencial.\n- Na sepse grave: não retardar antibiótico (SSC Pediátrico 2026).\n\n### Erros frequentes\n\n- Desinfecção insuficiente do hub → falso positivo.\n- Demora na incubação → enviesa resultados.\n- Extração excessiva em RN → anemia iatrogênica.",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Revista Medicina Intensiva. Diagnóstico de bacteriemia asociada a catéter: tiempo diferencial de positividad.",
+      "url": "https://revista.sati.org.ar/index.php/MI/article/view/661"
+    },
+    {
+      "citation": "SATI — Coleta de amostras microbiológicas em UTI (hemoculturas e suspeita de infecção de cateter).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026 — culturas e manejo de BAC.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "Guia de prática clínica de enfermagem sobre hemoculturas — volumes pediátricos pareados.",
+      "url": "https://www.consejogeneralenfermeria.org/profesion/guias-clinicas/send/160-guias-clinicas/3122-guia-de-practica-clinica-enfermera-sobre-hemocultivos-actualizacion"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Guias e consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

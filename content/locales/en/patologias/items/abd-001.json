@@ -1,0 +1,49 @@
+{
+  "id": "abd-001",
+  "name": "Acute Abdomen",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Acute abdomen** is an abdominal pain syndrome of recent onset that may require urgent medical treatment or surgical intervention. Frequent causes in the emergency department include appendicitis, cholecystitis, pancreatitis, intestinal obstruction, diverticulitis, mesenteric ischemia, hollow viscus perforation, and gynecological pathology (ectopic pregnancy, adnexal torsion). The history should explore onset, location, radiation, fever, vomiting, bowel habits, and surgical history.\n\nThe physical examination assesses guarding, rebound tenderness, peritonism, Murphy's sign, palpable mass, and hernias. Studies according to clinical suspicion include laboratory testing (complete blood count, amylase/lipase, β-hCG in women of childbearing age), abdominal ultrasound, and contrast-enhanced CT when indicated. Initial management: NPO (nil per os), venous access, analgesia (do not delay diagnosis), antiemetics, and antibiotics if peritonitis or infection is present. Early surgical consultation is mandatory in the presence of peritonism, hemodynamic instability, or suspected ischemia.\n\n**Nursing:** record pain progression using serial VAS scales, monitor vital signs, prepare the patient for imaging studies and surgery, maintain NPO status, place a nasogastric tube only if indicated, and monitor for abdominal distension and bowel movements.",
+  "relatedDrugs": [
+    {
+      "drugId": "mor-001",
+      "label": "Morphine"
+    },
+    {
+      "drugId": "ond-001",
+      "label": "Ondansetron"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazole"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacillin/tazobactam"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Society of Emergency Surgery. WSES guidelines for acute abdomen.",
+      "url": "https://www.wses.org.uk/"
+    },
+    {
+      "citation": "Sociedad Argentina de Cirugía (SAC). Consensos de abdomen agudo.",
+      "url": "https://www.cirugia.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Surgeons. Acute care surgery resources.",
+      "url": "https://www.facs.org/"
+    }
+  ]
+}

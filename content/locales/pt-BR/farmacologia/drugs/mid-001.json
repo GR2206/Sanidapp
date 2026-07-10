@@ -1,0 +1,59 @@
+{
+  "id": "mid-001",
+  "name": "Midazolam",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Indutor do sono e da anestesia geral. Em estado de mal epiléptico pode ser alternativa a outras benzodiazepinas.",
+  "indications": "## Indicações principais\n\nIndutor do sono e da anestesia geral. Em estado de mal epiléptico pode ser alternativa a outras benzodiazepinas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 5 mg/mL.",
+      "dose": "Bolus 1–2 mg E.V.; sedação contínua 0,02–0,1 mg/kg/h.",
+      "infusionRate": "Perfusão titulada em bomba.",
+      "administration": "E.V. lenta ou infusão contínua."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 7,5–15 mg; Ampolas 3 mL: 5 mg/mL",
+      "administration": "V.O.; E.V.; I.M.; Retal; I.N.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "5 mg/mL (pode administrar-se puro).",
+      "infusionRate": "Infusão contínua conforme indicação. Bolo E.V. em 2–5 min. I.N. em 15 s.",
+      "dose": "Sedação consciente: 0,05–0,2 mg/kg/dose. Sedação para procedimento V.O.: 0,1–0,2 mg/kg/dose 30–45 min antes do procedimento, dose máxima: 15 mg. Estado de mal epiléptico, intubação endotraqueal, ventilação mecânica (E.V.–I.M.–Retal): 0,1–0,3 mg/kg/dose; (infusão contínua): <50 kg: 0,05 mg/kg/h, ≥50 kg: 2 mg/h.",
+      "notes": "Ver guia preliminar para prevenção de teratogênese por medicamentos. Ver guia prática para manejo de analgosedação e seu desmame em unidades de cuidados intermediários e moderados."
+    },
+    "neonatal": {
+      "dose": "Sedação UCIN: 0,03–0,06 mg/kg/h (protocolo).",
+      "administration": "E.V. em bomba."
+    }
+  },
+  "stability": "## Geral\n\n- Diluição 24 h conforme bula.\n\n## Guia pediátrica\n\n- 24 h após diluído.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, tontura, depressão cardiorrespiratória, dor no local da injeção.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — MIDAzolam (cód. 0142, ATC N05CD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

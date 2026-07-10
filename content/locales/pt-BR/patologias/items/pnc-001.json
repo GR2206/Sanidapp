@@ -1,0 +1,45 @@
+{
+  "id": "pnc-001",
+  "name": "Pancreatite aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **pancreatite aguda** é inflamação do pâncreas com elevação de amilase e/ou lipase (> 3 vezes o limite superior normal) e dor abdominal característica. As causas principais são **litíase biliar** e **álcool**; outras: hipertrigliceridemia, fármacos, CPRE, hipercalcemia. Estratifica-se a gravidade com escalas (Ranson, BISAP, APACHE) e marcadores de necrose ou falha orgânica.\n\nO tratamento é de **suporte**: reposição volêmica agressiva com cristaloides, analgesia adequada (opioides se necessário), jejum oral inicial e reinício da dieta conforme tolerância e protocolo. Não há indicação rotineira de antibiótico profilático. Avaliar colecistectomia na pancreatite biliar leve após resolução, e CPRE urgente se colangite associada. Complicações: necrose infectada, pseudocisto, falha orgânica — encaminhamento à UTI.\n\n**Enfermagem**: monitorar FC, PA, diurese (meta ≥ 0,5 mL/kg/h), balanço hídrico, dor e distensão abdominal. Glicemia seriada (risco de hiperglicemia). Vigiar sinais de sepse na necrose e preparar exames de imagem de controle.",
+  "bibliography": [
+    {
+      "citation": "American Gastroenterological Association. Acute Pancreatitis Clinical Guidelines.",
+      "url": "https://gastro.org/clinical-guidance"
+    },
+    {
+      "citation": "Sociedade Argentina de Gastroenterologia (SAGE). Consenso de pancreatite.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Association of Pancreatology / American Pancreatic Association.",
+      "url": "https://www.iap-online.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "ond-001",
+      "label": "Ondansetrona"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    }
+  ]
+}

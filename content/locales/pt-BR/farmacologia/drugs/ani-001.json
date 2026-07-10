@@ -1,0 +1,50 @@
+{
+  "id": "ani-001",
+  "name": "Anidulafungina",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Profilaxia e tratamento de infecções por *Candida* spp. e *Aspergillus* spp. Restrito a: substituição parcial em profilaxia e tratamento de infecções fúngicas em pacientes transplantados de órgãos sólidos; profilaxia em pacientes com transplante de células hematopoiéticas; tratamento combinado em pacientes com infecções fúngicas refratárias; tratamento em pacientes hemato-oncológicos neutropênicos.",
+  "indications": "## Indicações principais\n\nProfilaxia e tratamento de infecções por *Candida* spp. e *Aspergillus* spp. Restrito a: substituição parcial em profilaxia e tratamento de infecções fúngicas em pacientes transplantados de órgãos sólidos; profilaxia em pacientes com transplante de células hematopoiéticas; tratamento combinado em pacientes com infecções fúngicas refratárias; tratamento em pacientes hemato-oncológicos neutropênicos.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 100 mg (Ecalta).",
+      "reconstitution": "30 mL de AD. Conc.: 3,33 mg/mL.",
+      "diluent": "100 mg em 100 mL de SF ou DX 5%.",
+      "finalConcentration": "0,77 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Administrar a velocidade de 100 mg em 90 min.",
+      "notes": "A dose de carga (200 mg) deve ser administrada em 3 horas."
+    },
+    "pediatrico": {
+      "dose": "Crianças: Dose de carga: 3 mg/kg/dia a cada 24 h, manutenção: 1,5 mg/kg/dia a cada 24 h; Adultos: dose de carga: 200 mg/dia, manutenção: 100 mg/dia",
+      "administration": "E.V.",
+      "presentation": "F.A. (pó liofilizado): 100 mg",
+      "notes": "Velocidade de infusão: < 1,1 mg/minuto (não administrar em bolus)."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 1 h refrigerado. Diluir imediatamente.\n\n## Solução diluída (a administrar)\n\n- 48 h em temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\nAssociadas à infusão: exantema, urticária, rubor, prurido, broncoespasmo, dispneia, hipotensão. Outras: hipocalemia, diarreia, aumento de ALT, enzimas hepáticas, fosfatase alcalina sérica e bilirrubina sérica.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Anidulafungina* (cód. 1927, ATC J02AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

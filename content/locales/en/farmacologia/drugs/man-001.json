@@ -1,0 +1,52 @@
+{
+  "id": "man-001",
+  "name": "Mannitol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Osmotic diuresis, toxin elimination, intracranial hypertension.",
+  "indications": "## Main indications\n\nOsmotic diuresis, toxin elimination, intracranial hypertension.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "500 mL sachet or bag 15%.",
+      "dose": "0.25–1 g/kg IV over 15–30 min; repeat per osmolarity.",
+      "infusionRate": "IV over 15–30 min.",
+      "administration": "IV with filter."
+    },
+    "pediatrico": {
+      "dose": "0.25-1 g/kg over 15-30 minutes.",
+      "administration": "IV",
+      "presentation": "Solution: 150 mg/mL",
+      "notes": "Mannitol potentiates the ototoxic effect of aminoglycosides, may reduce the effect of anticoagulant drugs, increases risk of digoxin toxicity (by causing hypokalemia). Reduces renal toxicity of cisplatin. Do not add electrolytes to mannitol solution as precipitation may occur."
+    },
+    "neonatal": {
+      "dose": "0.25–0.5 g/kg per neuro-NICU protocol.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Stability\n\n- Crystallizes when cold; warm and shake before use.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, confusion, circulatory overload, blurred vision, rhinitis, vomiting, nausea, thirst, urinary retention. Extravasation may cause edema, inflammation, and skin necrosis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Mannitol (code 0387, ATC B05BC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

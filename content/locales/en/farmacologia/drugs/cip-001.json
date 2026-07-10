@@ -1,0 +1,56 @@
+{
+  "id": "cip-001",
+  "name": "Ciprofloxacin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Fluoroquinolone. Treatment of respiratory tract, middle ear, urinary tract, skin and soft tissue infections caused by susceptible bacteria: aerobic gram-negative, Mycobacterium tuberculosis, and some gram-positive.",
+  "indications": "## Main indications\n\nFluoroquinolone. Treatment of respiratory tract, middle ear, urinary tract, skin and soft tissue infections caused by susceptible bacteria: aerobic gram-negative, Mycobacterium tuberculosis, and some gram-positive.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Sachet containing 200 mg (Norgreen, Rivero).",
+      "reconstitution": "No prior reconstitution required. Conc: 200 mg / 100 mL.",
+      "finalConcentration": "200 mg / 100 mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. 200 mg over 30 min, 400 mg over 60 min.",
+      "notes": "Do not remove protective cover (black plastic bag) until time of use."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 250-500 mg; Solution (compounded preparation): 30 mg/mL; Powder vial: 200 mg; Ophthalmic drops: 0.3% Ophthalmic ointment: 0.3%",
+      "administration": "PO IV Topical",
+      "diluent": "0.9% NaCl, 5% and 10% dextrose.",
+      "finalConcentration": "2 mg/mL.",
+      "infusionRate": "60 min.",
+      "dose": "Mild and moderate infections: 20 mg/kg/day every 12 h, maximum dose: PO: 500 mg/dose; IV: 400 mg/dose. Severe infections, pyelonephritis and cystic fibrosis PO/IV: 30 mg/kg/day, PO: every 12 h, maximum dose: 1.5 g/day; IV: every 8 h, maximum dose: 1.2 g/day. Meningococcal prophylaxis (contact): PO: 20 mg/kg single dose, maximum: 500 mg/dose. Ophthalmic drops: every 2 - 3 h",
+      "notes": "Use in pediatrics is advised only in special situations. Administer away from meals. Antacids (containing calcium, magnesium, or aluminum) and sucralfate decrease ciprofloxacin absorption if administered concomitantly. Increases risk of nephrotoxicity with cyclosporine."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- Not specified.\n\n## Pediatric guide\n\n- Once opened, 14 days at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nArthralgia, nausea, vomiting, headache, dizziness, rash, crystalluria. Tendon ruptures (most frequently Achilles tendon) from 48 h of treatment.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — CIPROfloxacin (code 0281, ATC J01MA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

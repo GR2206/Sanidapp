@@ -1,0 +1,35 @@
+{
+  "id": "pam-p001",
+  "title": "Pediatric arterial line insertion (MAP)",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Insert a pediatric arterial catheter for invasive mean arterial pressure (MAP) monitoring, ensuring collateral circulation assessment, a sterile Seldinger technique, and a transducer system leveled and zeroed at the phlebostatic axis.",
+  "body": "## Steps to perform\n\n1. Confirm the indication; identify the patient, check weight and the order; verify coagulation status if applicable; obtain informed consent.\n2. Assess collateral circulation before using the radial artery (modified Allen test or Barbeau test using pulse oximetry/Doppler in infants).\n3. Administer sedation and analgesia per protocol; in newborns, ensure thermal regulation and continuous monitoring.\n4. Perform hand hygiene and don sterile barriers; prepare the pediatric arterial kit and the transducer system.\n5. Position the child (wrist extended for radial artery; leg in neutral extension for femoral artery); palpate the pulse (use Doppler if necessary).\n6. Disinfect the skin with an antiseptic using friction; allow to dry completely.\n7. Puncture the artery at a 10–30° angle until pulsatile blood flashback is observed; insert the guidewire; advance the catheter using the sterile Seldinger technique.\n8. Remove the guidewire; connect to a pre-flushed system completely free of bubbles; secure the catheter without excessive compression.\n9. Connect the transducer; verify the arterial waveform on the monitor and immediately assess distal perfusion.\n10. Level the transducer at the phlebostatic axis; perform a zero calibration; confirm a MAP reading consistent with the child’s clinical status and age.\n11. Set the pressure bag to 300 mmHg (continuous flush 1–3 ml/h based on weight); document the site, gauge, time, and operator.\n12. Monitor the insertion site, distal perfusion, and readings every shift; re-zero at the start of each shift or after repositioning; remove the device when the indication is completed or if ischemia is detected.\n\n## Scientific rationale\n\n### Definition and indications\n\nInvasive arterial pressure monitoring continuously records systolic, diastolic, and **mean arterial pressure (MAP)** and facilitates serial blood gas sampling in the pediatric ICU, neonatology, or critical perioperative settings.\n\nIt is indicated for hemodynamic instability, vasoactive drug administration, frequent blood gas sampling, and titration of target MAP according to age.\n\n### Evidence and recommendations\n\n> **Pediatric SSC (2026):** Use MAP targets adjusted for age and percentiles; do not automatically apply the adult threshold of \u226565 mmHg (Weiss et al., 2026).\n\n### Site selection\n\n| Order | Site | Pediatric notes |\n| --- | --- | --- |\n| 1st choice | Radial | Preferred if a pulse is palpable |\n| 2nd choice | Dorsalis pedis | Alternative option in infants |\n| Emergency | Femoral | Remove early as soon as possible |\n| Newborn | Umbilical | Neonatology only, following a specific protocol |\n| Avoid | Brachial/Ulnar | Limited collateral circulation |\n\n### Guiding gauge selection\n\n| Weight / age | Gauge |\n| --- | --- |\n| Newborn / < 5 kg | 24 G |\n| 5–20 kg | 22–24 G |\n| > 20 kg | 20–22 G |\n\n### MAP targets by age\n\n| Group | Guidance |\n| --- | --- |\n| Newborn / infant | Use age-specific MAP charts; percentiles in shock |\n| Child | Adequate MAP for age |\n| Adolescent | May approach adult criteria |\n\n### Maintenance and line replacement\n\n- Disinfect the hub prior to drawing blood gas samples; minimize the discard blood volume according to weight.\n- If an emergency insertion was performed without optimal asepsis: replace the line within 48 hours per protocol (Scheer et al., 2002; WHO, 2024).\n\n### Complications — notify immediately\n\n- Distal ischemia: pallor, cyanosis, absence of pulse.\n- Active bleeding or an expanding hematoma.\n- Damped waveform (bubbles, clots, malposition).\n- Fever or erythema at the site (suspected infection).\n- Arterial thrombosis or accidental catheter dislodgement.",
+  "bibliography": [
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026 — objetivos hemodinámicos y monitorización.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with intravascular catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Central venous catheter-associated infections. Actualización SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Complications and risk factors of peripheral arterial catheters. Crit Care. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — acceso vascular y monitorización.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

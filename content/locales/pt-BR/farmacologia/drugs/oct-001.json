@@ -1,0 +1,54 @@
+{
+  "id": "oct-001",
+  "name": "Octreotida",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Análogo de somatostatina para sangramento varicoso, fístulas e síndromes neuroendócrinos.",
+  "indications": "## Indicações\n\n- Hemorragia por varizes esofágicas (coadjuvante).\n- Fístulas pancreáticas e entéricas de alto débito.\n- Tumores neuroendócrinos.\n\n## Precauções\n\n- Colelitíase com uso prolongado. Hiperglicemia/hipoglicemia.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 50–100 mcg/mL.",
+      "dose": "Bolus 50 mcg IV depois infusão 50 mcg/h em sangramento varicoso (protocolo).",
+      "administration": "IV em bomba de infusão."
+    },
+    "pediatrico": {
+      "presentation": "Ampola 0,1 mg/1 mL.",
+      "administration": "IV, SC, IM.",
+      "diluent": "SF, SG 5%.",
+      "finalConcentration": "Em bolus sem diluir; intermitente em 50–200 mL.",
+      "infusionRate": "Bolus de 3 minutos em emergências médicas; caso contrário 15 a 30 minutos com bomba de infusão.",
+      "dose": "Para hemorragia digestiva (HDB): bolus inicial 1 mcg/kg, seguido de infusão contínua de 1 mcg/kg/h.",
+      "notes": "Antissecretor, antidiarreico. Pode causar hiper e hipotensão, hiper e hipoglicemia, cefaleias, arritmias, náusea, vômito, diarreia. Conservar na geladeira."
+    },
+    "neonatal": {
+      "dose": "Esquemas UCIN para coleções linfáticas/fístulas.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Geral\n\n- Perfusão 24 h conforme diluição.\n\n## Guia pediátrica\n\n- 4 dias em temperatura ambiente após diluído. Conservar na geladeira.",
+  "adverseEffects": "## Efeitos adversos\n\n- Náuseas, dor abdominal, bradicardia, alteração da glicemia.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

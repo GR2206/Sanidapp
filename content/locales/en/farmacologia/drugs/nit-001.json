@@ -1,0 +1,47 @@
+{
+  "id": "nit-001",
+  "name": "Nitrofurantoin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Prophylaxis and treatment of urinary tract infections caused by susceptible gram-negative and gram-positive bacteria, including Escherichia coli, Klebsiella, Enterobacteriaceae, Enterococci, and Pseudomonas.",
+  "indications": "## Main indications\n\nProphylaxis and treatment of urinary tract infections caused by susceptible gram-negative and gram-positive bacteria, including Escherichia coli, Klebsiella, Enterobacteriaceae, Enterococci, and Pseudomonas.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "50 mg, 100 mg capsules; suspension.",
+      "dose": "100 mg PO every 12 h x 5–7 days (cystitis). Prophylaxis: 50–100 mg PO at night.",
+      "administration": "PO with food."
+    },
+    "pediatrico": {
+      "dose": "Children: Treatment: 5-7 mg/kg/day every 6 h. Prophylaxis: 2.5 mg/kg/day once daily. Maximum dose: 400 mg. Adults: Prophylaxis: 50 mg-100 mg/day at night; Treatment: 50 mg-100 mg every 6 h for 7 days.",
+      "administration": "PO",
+      "presentation": "Tablets: 100 mg; Suspension: 5 mg/mL",
+      "notes": "Contraindicated in patients with impaired renal function. Caution in patients with asthma."
+    }
+  },
+  "stability": "## Stability\n\n- Store protected from light.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, anorexia, headache, dizziness, nystagmus, myalgia, peripheral neuropathy, rash, urticaria, fever. Hemolytic anemia in patients with glucose-6-phosphate dehydrogenase (G6PD) deficiency. With prolonged treatment: pulmonary fibrosis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — NitroFURANTOIN (code 0319, ATC J01XE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

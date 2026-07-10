@@ -1,0 +1,45 @@
+{
+  "id": "hta-001",
+  "name": "Hypertension (HTN)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Arterial hypertension** is a persistent elevation of blood pressure (BP) that increases cardiovascular, renal, and cerebrovascular risk. In the emergency department, it usually presents as a **hypertensive crisis** (severely elevated BP with or without target-organ damage) or as a comorbidity of another acute pathology. It is fundamental to measure BP in both arms using the correct technique, confirm with repeated measurements, and assess for signs of a **hypertensive emergency** (encephalopathy, acute pulmonary edema, acute coronary syndrome, aortic dissection, eclampsia, acute kidney injury).\n\nTimely treatment depends on the clinical context: in a hypertensive emergency, intravenous antihypertensive therapy is initiated with a gradual target reduction (avoiding a decrease >25% in mean arterial pressure within the first hour, with exceptions such as aortic dissection). In a **hypertensive urgency** (elevated BP without acute organ damage), reinstating or adjusting oral treatment and placing the patient under observation is preferred. Frequently used drugs in the emergency setting include labetalol, hydralazine, nitroglycerin, or nitroprusside, depending on the scenario and institutional availability.\n\n**Nursing:** monitor serial BP, heart rate, urine output, and level of consciousness; record the exact time of each IV dose; and watch for orthostatic hypotension when initiating or intensifying treatment. Educate the patient on adherence, sodium restriction, outpatient monitoring, and red flags (severe headache, blurred vision, chest pain, dyspnea).",
+  "relatedDrugs": [
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "hdr-001",
+      "label": "Hydralazine"
+    },
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglycerin"
+    },
+    {
+      "drugId": "nip-001",
+      "label": "Nitroprusside"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Sociedad Argentina de Hipertensión Arterial (SAHA). Guías y consensos.",
+      "url": "https://www.saha.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology / ESH. Guidelines for the management of arterial hypertension.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Hypertension clinical guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

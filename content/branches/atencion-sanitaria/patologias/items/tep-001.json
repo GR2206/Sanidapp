@@ -1,0 +1,48 @@
+{
+  "id": "tep-001",
+  "name": "Tromboembolismo pulmonar (TEP)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **tromboembolismo pulmonar** es la obstrucción de la arteria pulmonar o sus ramas por un trombo, en la mayoría de los casos procedente del sistema venoso profundo. La tríada clásica (dolor torácico pleurítico, hemoptisis, disnea) es poco sensible; debe sospecharse ante **disnea aguda inexplicada**, taquicardia, sincope, hipotensión o signos de TVP en miembros inferiores. Factores de riesgo: inmovilización, cirugía reciente, cáncer, embarazo, anticonceptivos y trombofilias.\n\nLa estratificación con escalas (**Wells**, **GENEVA**) y D-dímero (alto valor predictivo negativo en baja probabilidad) orientan el estudio. La **angio-TC pulmonar** es el gold standard en muchos centros; ecocardiograma busca sobrecarga derecha. El tratamiento incluye **anticoagulación** inmediata (heparina no fraccionada o enoxaparina) y valoración de trombólisis o embolectomía en TEP de alto riesgo (shock o hipotensión).\n\n**Enfermería**: oxigenoterapia, monitorización hemodinámica, control de signos de sangrado tras anticoagulación, medias de compresión si no contraindicadas y educación sobre duración del tratamiento y signos de recurrencia.",
+  "clinicalBox": {
+    "title": "Escala de Wells — probabilidad de TEP",
+    "content": "Puntaje clínico (versión simplificada):\nSignos clínicos de **TVP** — 3 pts\n**TEP** como diagnóstico más probable — 3 pts\nFC **> 100**/min — 1,5 pts\nInmovilización o cirugía reciente — 1,5 pts\n**TEP o TVP** previos — 1,5 pts\n**Hemoptisis** — 1 pt\n**Cáncer** activo — 1 pt\n\n**≤ 4:** probabilidad baja (D-dímero si aplica) · **> 4:** probabilidad alta → imagen pulmonar urgente."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "war-001",
+      "label": "Warfarina"
+    },
+    {
+      "drugId": "nor-001",
+      "label": "Noradrenalina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Pulmonary Embolism Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Consenso de enfermedad tromboembólica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Chest Physicians. Antithrombotic Therapy guidelines.",
+      "url": "https://www.chestnet.org/"
+    }
+  ]
+}

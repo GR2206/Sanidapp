@@ -1,0 +1,46 @@
+{
+  "id": "esm-001",
+  "name": "Esmolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Agente beta Bloqueante selectivo. Hipertensión arterial post reparación de coartación, crisis de disnea y cianosis, taquiarritmia auricular ectópica.",
+  "indications": "## Indicaciones principales\n\nAgente beta Bloqueante selectivo. Hipertensión arterial post reparación de coartación, crisis de disnea y cianosis, taquiarritmia auricular ectópica.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 2500 mg/10 mL.",
+      "dose": "Carga 0,5 mg/kg en 1 min, luego 50–300 mcg/kg/min.",
+      "administration": "IV en bomba."
+    },
+    "pediatrico": {
+      "dose": "Ataque: 0,5-0,6 mg/kg en 2-4 minutos, seguido de infusión a 0,1-0,2 mg/kg/minuto",
+      "administration": "E.V.",
+      "presentation": "Ampollas de 10 ml: 250 mg/ml",
+      "notes": "Vida 1/2 de eliminación: 9 minutos. El esmolol puede aumentar la concentración sérica de digoxina y teofilina. La morfina puede aumentar la concentración sérica del esmolol. La ampolla de 250 mg/ml no se puede administrar en forma directa, debe ser diluida a una concentración final de 10 mg/ml en Sol. F. o Dx 5%."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Usar dentro de 24 h tras preparación.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión, mareos, decaimiento, cefaleas.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Esmolol* (cód. 1362, ATC C07AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

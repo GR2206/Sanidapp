@@ -1,0 +1,45 @@
+{
+  "id": "del-001",
+  "name": "Acute delirium",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Delirium** is an acute neurocognitive disorder characterized by an alteration in attention and consciousness, a fluctuating course, and onset within hours or days. It is highly frequent in the emergency department and during hospitalization of older adults, and is associated with increased mortality, prolonged hospital stay, and functional decline. **Precipitants** include infection, hypoxemia, dehydration, urinary retention, drugs (benzodiazepines, anticholinergics, opioids), untreated pain, sensory deprivation, and environmental changes.\n\nThe diagnosis is clinical (using the **CAM** or 4AT scales). First-line treatment consists of **correcting the underlying cause** and implementing non-pharmacological measures: temporal and spatial orientation, use of eyeglasses and hearing aids, early mobilization, nighttime sleep preservation, presence of a caregiver, and avoiding restraints. Medication (low-dose haloperidol or atypical antipsychotics) is reserved for agitation that poses a risk to the patient or the healthcare team, always for a limited duration.\n\n**Nursing:** serial assessment of mental status, fall prevention, an environment with natural light, frequent reorientation, and communication with the family. Review the medication list and discontinue deliriogenic drugs whenever possible.",
+  "relatedDrugs": [
+    {
+      "drugId": "hal-001",
+      "label": "Haloperidol"
+    },
+    {
+      "drugId": "lor-001",
+      "label": "Lorazepam"
+    },
+    {
+      "drugId": "mid-001",
+      "label": "Midazolam"
+    },
+    {
+      "drugId": "dex-001",
+      "label": "Dexmedetomidine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management.",
+      "url": "https://www.nice.org.uk/guidance/cg103"
+    },
+    {
+      "citation": "Sociedad Argentina de Geriatría y Gerontología (SAGG). Consensos sobre delirium.",
+      "url": "https://www.sagg.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Geriatrics Society. Clinical Practice Guideline for Postoperative Delirium.",
+      "url": "https://www.americangeriatrics.org/"
+    }
+  ]
+}

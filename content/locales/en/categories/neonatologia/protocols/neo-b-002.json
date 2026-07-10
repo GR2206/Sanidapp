@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-002",
+  "title": "Enteral feeding in the clinically stable newborn",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "baja-complejidad",
+  "version": "1.0",
+  "executiveSummary": "Initiate and advance enteral feeding in clinically stable newborns weighing 500 g to 2500 g (days 0–30), prioritizing maternal milk, utilizing a progressive volume based on weight and tolerance, and maintaining surveillance for signs of NEC or aspiration.",
+  "body": "## Steps to perform\n\n1. Confirm clinical stability: no mechanical ventilation, no vasoactive drugs, soft abdomen, present peristalsis, and meconium passage completed or in progress.\n2. Assess the feeding route: direct breastfeeding if GA ≥ 34 weeks with established suction-swallowing-respiration coordination; orogastric tube (preferred) or nasogastric tube if preterm or presenting with weak suction.\n3. Prioritize the mother's own milk; if unavailable, use donor milk from a certified milk bank; infant formula should only be used if there is a contraindication to breast milk, as prescribed.\n4. Initiate feeding based on weight and GA (see table); use a syringe pump or slow gavage (≥ 10–15 min) in newborns < 1500 g.\n5. Position the newborn in right lateral recumbency or semi-Fowler at 30° during gavage feeding; do not infuse while the newborn is flat supine.\n6. Verify gastric residual volume before each feeding in newborns < 1500 g or those at high risk: aspirate gently; if it is < 50% of the feeding volume and non-bilious, return it and proceed with feeding; if it is bilious, voluminous, or accompanied by abdominal distension, hold the feed and notify.\n7. Advance volume by 10–20 ml/kg/day if tolerance is adequate: absence of vomiting, distension, bloody stools, or feeding-related apneas.\n8. Record every feeding: volume, route, type of milk, gastric residual volume, vomiting, stools, and daily weight.\n9. Promote breastfeeding: expression every 2–3 hours, skin-to-skin contact, and family support; human milk fortifier should only be added if indicated by the neonatologist.\n10. Supplement with vitamin D (400 IU/day from the first days of life if exclusively breastfed) and iron (2–4 mg/kg/day starting at week 4 in preterm infants) according to protocol.\n11. In case of feeding intolerance: maintain minimum trophic feeding (10–20 ml/kg/day) if possible; evaluate for NEC, sepsis, or intestinal obstruction.\n12. Transition to exclusive breastfeeding or bottle-feeding once effective suction is achieved and weight gain is ≥ 15–20 g/day.\n\n## Scientific rationale\n\n### Population and scope\n\n**Newborns day 0–30**, **500 g–2500 g**, **clinically stable** without enteral contraindications. Newborns with severe distress, NEC, intestinal obstruction, or hemodynamic instability require parenteral nutrition and an intensive care protocol.\n\n### Indications\n\n- Stable newborn with a mature or progressively maturing gastrointestinal tract.\n- Transition from parenteral to enteral nutrition in intermediate/conventional care units.\n- Nutritional maintenance during rooming-in.\n\n### Contraindications\n\n- Confirmed or suspected NEC (abdominal distension, blood in stools, pneumatosis).\n- Intestinal obstruction or uncorrected atresia.\n- Shock or hemodynamic instability.\n- Recurrent apneas/bradycardias triggered by feeding.\n\n### Evidence and recommendations\n\n> **Source:** WHO — Exclusive breastfeeding is recommended for the first 6 months; initiation within the first hour of life reduces neonatal mortality (WHO, 2024).\n\n> **Source:** VON — Early trophic feeding in stable VLBW infants improves intestinal maturation without increasing the incidence of NEC, provided advancement is careful (Vermont Oxford Network).\n\n### Initial volume and advancement\n\n| Weight / GA | Initial volume | Advancement | Frequency |\n| --- | --- | --- | --- |\n| 500–749 g | 10–20 ml/kg/day (trophic) | 10–15 ml/kg/day | Every 3 hours |\n| 750–999 g | 20–40 ml/kg/day | 15–20 ml/kg/day | Every 3 hours |\n| 1000–1499 g | 40–60 ml/kg/day | 20 ml/kg/day | Every 3 hours |\n| 1500–2500 g | 60–80 ml/kg/day | 20 ml/kg/day | Every 3 hours or ad libitum breastfeeding |\n\n**Target:** 150–180 ml/kg/day by days 7–14, depending on tolerance.\n\n### Tube selection\n\n| Preference | Rationale |\n| --- | --- |\n| Orogastric | Lower risk of aspiration and nasal injury in preterm infants |\n| Nasogastric | Only if OG is not viable; secure and verify position |\n\nVerify position before every gavage feed: aspiration of gastric contents or air auscultation (less reliable).\n\n### Criteria for feeding intolerance — hold feed and notify\n\n- Gastric residual volume > 50% of the feeding volume on two consecutive occasions.\n- Bilious or bloody vomiting.\n- Abdominal distension, periumbilical erythema, or bloody stools.\n- Apnea/bradycardia during or after feeding.\n\n### Expected weight gain\n\n- Term newborn: 15–30 g/day following physiological weight loss (days 3–5).\n- Preterm infant: 10–20 g/day/kg once full feeds are established.\n\n### Complications — notify immediately\n\n- Suspected NEC (abdominal distension, blood in stools, lethargy, thrombocytopenia).\n- Aspiration (coughing, cyanosis, desaturation during gavage feeding).\n- Dehydration or hypoglycemia due to prolonged fasting.\n- Failure to gain weight for > 3 days despite full enteral feeding.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Infant and young child feeding — early initiation of breastfeeding.",
+      "url": "https://www.who.int/teams/nutrition-and-food-safety/food-and-nutrition-actions-in-health-systems/infant-and-young-child-feeding"
+    },
+    {
+      "citation": "Vermont Oxford Network. Nutrition and feeding protocols for very low birth weight infants.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Breastfeeding and the use of human milk — policy statement.",
+      "url": "https://publications.aap.org/pediatrics"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on optimal feeding of low birth weight infants in low- and middle-income countries.",
+      "url": "https://www.who.int/publications/i/item/9789241505097"
+    },
+    {
+      "citation": "SATI — Consensus on neonatal nutrition.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

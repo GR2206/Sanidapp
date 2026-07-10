@@ -1,0 +1,41 @@
+{
+  "id": "lis-001",
+  "name": "Lisinopril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Long-acting, non-sulfhydryl-containing ACE inhibitor for hypertension, heart failure, and post-myocardial infarction protection.",
+  "indications": "## Indications\n\n- Arterial hypertension.\n- Heart failure with systolic dysfunction.\n- Acute myocardial infarction in the acute and chronic phase.\n- Diabetic nephropathy.\n\n## Precautions\n\n- Contraindicated in pregnancy and in patients with a history of angioedema related to ACE inhibitors.\n- Adjust in renal impairment; monitor potassium and creatinine.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 5, 10, and 20 mg.",
+      "dose": "Hypertension: 10–40 mg/day PO. Heart failure: initiate 2.5–5 mg/day and titrate.",
+      "administration": "PO as a single daily dose."
+    },
+    "pediatrico": {
+      "dose": "0.07–0.6 mg/kg/day PO (max. 40 mg/day) in 1–2 doses.",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Store according to the package insert at room temperature.",
+  "adverseEffects": "## Effects\n\n- Dry cough, hypotension, hyperkalemia, elevated creatinine, angioedema.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

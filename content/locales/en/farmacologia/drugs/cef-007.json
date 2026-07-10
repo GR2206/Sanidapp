@@ -1,0 +1,56 @@
+{
+  "id": "cef-007",
+  "name": "Ceftazidime",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Third-generation cephalosporin. Treatment of lower respiratory tract, skin and soft tissue, bone, joint, intra-abdominal, genitourinary, and central nervous system infections caused by susceptible gram-negative bacteria including Pseudomonas.",
+  "indications": "## Main indications\n\nThird-generation cephalosporin. Treatment of lower respiratory tract, skin and soft tissue, bone, joint, intra-abdominal, genitourinary, and central nervous system infections caused by susceptible gram-negative bacteria including Pseudomonas.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 1 g (Ceftazidime Northia).",
+      "reconstitution": "10 mL SWFI. Conc: 100 mg/mL.",
+      "diluent": "Reconst. 1 g with 10 mL SWFI, dilute in 50-100 mL and administer over 15-30 min.",
+      "administration": "Direct IV: Yes. Reconst. 1 g in 10 mL SWFI and administer over 3-5 min. Intermittent IV: Yes.",
+      "notes": "Irritant. Caution during reconstitution because CO₂ is released (remove bubbles before administration). Risk of phlebitis with direct IV route. IM administration is possible."
+    },
+    "pediatrico": {
+      "presentation": "Powder vial: 500-1000 mg",
+      "reconstitution": "Sterile water for reconstitution.",
+      "administration": "IV",
+      "finalConcentration": "40 mg/mL (may be bolus 180 mg/mL).",
+      "infusionRate": "15 to 30 min with infusion pump.",
+      "dose": "Newborn: according to age and weight. Children: 100-150 mg/kg/day every 8 h, maximum dose: 6 g. Adults: 1-2 g every 8 h. Cystic fibrosis: 150-200 mg/kg/day every 6 h, maximum dose: 9 g. Uncomplicated urinary infection adults: 250 mg every 12 h; complicated: 500 mg every 12 h.",
+      "notes": "In renal insufficiency adjust dose and monitor; risk of nephrotoxicity with concomitant nephrotoxic drugs. With prolonged treatment, risk of superinfection by non-susceptible organisms; risk of pseudomembranous colitis."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dose every 12 h (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h at room temperature and 24 h refrigerated.\n\n## Pediatric guide\n\n- Stable 24 h at room temperature protected from light; 10 days refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nLocal intolerance, hypersensitivity, gastrointestinal disorders.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefTAZidime (code 0039, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

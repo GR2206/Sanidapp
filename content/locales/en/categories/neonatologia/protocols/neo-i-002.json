@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-002",
+  "title": "Umbilical venous catheter (UVC)",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Cannulate an umbilical venous catheter in newborns weighing 500 g to 2500 g (days 0–30) utilizing a sterile technique, with insertion depth adjusted to weight, radiological confirmation of an infradiaphragmatic tip position, and adherence to the WHO bundle to prevent infection.",
+  "body": "## Steps to perform\n\n1. Confirm the medical indication, newborn identification (using two identifiers), current weight, and coagulation profile if it is an elective procedure; relative contraindications include omphalitis, umbilical malformation, or suspected NEC.\n2. Position the infant under a radiant warmer with continuous cardiorespiratory monitoring; maintain strict thermoregulation (axillary temperature 36.5–37.5 °C).\n3. Perform hand hygiene (WHO Moment 2); don a cap, mask, sterile gown, and sterile gloves.\n4. Prepare the UVC kit (3.5–5 Fr catheter depending on weight, syringe, saline solution, 3-0 suture, antiseptic, sterile drapes).\n5. Secure the umbilical cord with a distal ligature; transect the cord at a 45° angle using a sterile scalpel; identify the umbilical vein (the largest structure, presenting dark, non-pulsatile blood).\n6. Dilate the venous ostium using forceps; insert the catheter gently without forcing; advance to the estimated depth based on weight (see table).\n7. Aspirate blood to ensure free flashback; connect to a closed system; infuse a test solution (0.5–1 ml of normal saline) ensuring zero resistance.\n8. Suture the catheter to the cord stump using a secure anchoring knot; cover with a sterile transparent dressing; label with the date, time, insertion depth, and operator.\n9. Request an immediate chest/abdominal X-ray: the tip must be located in the infradiaphragmatic inferior vena cava (approximately T6–T9); withdraw or reposition the catheter if it is placed within the right atrium, hepatic vein, or portal system.\n10. Record the final position in cm from the base of the cord stump; initiate a continuous infusion of normal saline or dextrose solution as prescribed; do not use the UVC for vesicant drugs until tip position is radiologically confirmed.\n11. Disinfect the hub with an antiseptic prior to each access; avoid disconnecting lines unnecessarily.\n12. Monitor during every shift for periumbilical erythema, abdominal edema, bleeding, or malfunction; remove the catheter according to institutional criteria (usually within 7–14 days, or earlier if complications arise).\n\n## Scientific rationale\n\n### Population and scope\n\nStrictly for newborns from day 0 to day 30, weighing 500 g to 2500 g. The UVC is the central venous access of choice during the first hours/days of life in the Neonatal ICU.\n\n### Indications\n\n- Neonatal resuscitation requiring emergency medication or volume expansion.\n- Infusion of parenteral nutrition, vasoactive drugs, or centrally administered antibiotics.\n- Central venous pressure (CVP) monitoring in cases of shock or heart failure.\n- Exchange transfusion (utilizing a double-lumen catheter or a specific protocol).\n\n### Evidence and recommendations\n\n> **Source:** WHO (2024) — Insertion bundle components: hand hygiene, maximum barrier precautions, chlorhexidine-alcohol antiseptic on the cord (≥ 2% depending on local neonatal protocols), sterile technique, and daily site assessment (WHO, 2024).\n\n> **Source:** VON — UVC malposition in the right atrium increases the risk of arrhythmias and thrombosis; radiological confirmation is mandatory (Vermont Oxford Network).\n\n### Gauge and depth selection\n\n| Birth weight | UVC gauge | Estimated depth (cm from cord base) |\n| --- | --- | --- |\n| 500–750 g | 3.5 Fr | 4–6 cm |\n| 750–1000 g | 3.5–5 Fr | 6–8 cm |\n| 1000–1500 g | 5 Fr | 8–10 cm |\n| 1500–2500 g | 5 Fr | 10–12 cm |\n\nAdjust measurements according to the length of the umbilical cord stump and radiological confirmation.\n\n### Tip position management\n\n| Radiological finding | Action |\n| --- | --- |\n| Infradiaphragmatic IVC (T6–T9) | Correct position |\n| Right atrium / atriocaval junction | Withdraw 0.5–1 cm |\n| Portal / hepatic vein | Withdraw 1–2 cm |\n| < 3 cm inserted | Risk of extravasation; replace/re-cannulate |\n\n### Maintenance and removal\n\n- Do not use a UVC for > 14 days if an alternative exists (PICC or peripheral access), as the risk of infection and thrombosis increases.\n- Clean periumbilical secretions exclusively with saline solution; do not apply unprescribed powders or ointments.\n- Remove the catheter in case of: omphalitis, suspected CLABSI, device malfunction, NEC, or when the clinical indication resolves.\n\n### Complications — notify immediately\n\n- Extravasation (abdominal edema, periumbilical erythema, ascites).\n- Arrhythmias (extrasystoles, tachycardia/bradycardia during catheter advancement).\n- Inferior vena cava or hepatic vein thrombosis.\n- Site infection or catheter-associated bloodstream infection.\n- Vascular perforation or uncontrolled hemorrhage from the umbilical cord.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with intravascular catheters — Part 2: Central catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Vermont Oxford Network. Quality improvement in umbilical catheter placement and NICU care.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — vascular access and umbilical catheters.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "O'Grady NP, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 — updated guidance.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales — consenso SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    }
+  ]
+}

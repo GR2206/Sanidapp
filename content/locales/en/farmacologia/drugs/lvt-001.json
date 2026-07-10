@@ -1,0 +1,58 @@
+{
+  "id": "lvt-001",
+  "name": "Levetiracetam",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Anticonvulsant.",
+  "indications": "## Main indications\n\nAnticonvulsant.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial 500 mg/5 mL IV; tablets PO.",
+      "dose": "Loading 60 mg/kg IV (max. 4500 mg); maintenance 500–1500 mg every 12 h PO.",
+      "administration": "IV over 15 min or PO."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 500 - 1000 mg; Oral solution: 100 mg/ml; Powder vial 5 ml: 100 mg/ml",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl, 5% dextrose, Ringer.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "15 min with continuous infusion pump.",
+      "dose": "4 to 16 years: initial: 10 - 20 mg/kg/day every 12 h, increase 10 - 20 mg/kg/day every 2 weeks up to a maximum of 60 mg/kg/day every 12 h. Adults: initial: 500 mg every 12 h, increase 1000 mg/day every 2 weeks up to a maximum of 3000 mg/day. Adjust dose in renal insufficiency and hemodialysis. See levetiracetam dose adjustment in patients with altered renal function.",
+      "notes": "IV administration: Dilute dose in 100 ml of normal saline or 5% dextrose and administer over 15 min (neonates: 5 mg/ml). Taper drug gradually to minimize increased seizure frequency."
+    },
+    "neonatal": {
+      "dose": "Loading 40–60 mg/kg; maintenance per NICU protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- IV dilution stable 4 h at room temperature per package insert.\n\n## Pediatric guide\n\n- Discard remainder once opened. Dilution stable 24 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nAsthenia, depression, nervousness, somnolence, infection, ataxia, dizziness, vertigo, seizures.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — levETIRAcetam* (code 1536, ATC N03AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

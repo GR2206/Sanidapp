@@ -1,0 +1,45 @@
+{
+  "id": "fsc-001",
+  "name": "Foscarnet",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções do grupo herpes resistentes às terapias convencionais.",
+  "indications": "## Indicações principais\n\nTratamento de infecções do grupo herpes resistentes às terapias convencionais.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Frasco de 500 ml: 24 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "12 mg/mL.",
+      "infusionRate": "Entre 1 e 2 h com BIC.",
+      "dose": "Retinite por CMV: Indução: 90 mg/kg/dose a cada 12 h ou 60 mg/kg/dose a cada 8 h por 14–21 dias; manutenção: 90–120 mg/kg/dose a cada 24 h. Herpes simples mucocutâneo resistente ao aciclovir: 40 mg/kg/dose a cada 8–12 h.",
+      "notes": "Utilizar com cuidado em pacientes com função renal deteriorada e quando se usam outros agentes nefrotóxicos como anfotericina B, aminoglicosídeos, cisplatina, ciclosporina. Interage com pentamidina (aumenta a hipocalcemia), ciprofloxacina (aumenta o risco de convulsões). Para diminuir a toxicidade renal o paciente deve ter uma hidratação adequada. Por cateter central infunde-se sem diluir. Por veia periférica a solução deve ser diluída a uma concentração final máxima de 12 mg/ml. A velocidade de infusão não deve exceder 60 mg/kg/hora. Cada grama de foscarnet sódico contém 10 mmol de sódio e 3,3 mmol de fosfato."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Não refrigerar.",
+  "adverseEffects": "## Efeitos adversos\n\nInsuficiência renal, hipercalcemia, hiper ou hipofosfatemia, alterações metabólicas. Alterações do magnésio.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Foscarnet * (cód. 1128, ATC J05AD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

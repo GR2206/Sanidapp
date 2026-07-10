@@ -1,0 +1,41 @@
+{
+  "id": "dlt-001",
+  "name": "Diltiazem",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Non-dihydropyridine calcium channel blocker for AF/flutter, angina, and hypertension.",
+  "indications": "## Indications\n\n- Rate control in atrial fibrillation/flutter.\n- Angina pectoris and vasospastic angina.\n- Arterial hypertension.\n\n## Precautions\n\n- Contraindicated in high-degree AV block, decompensated heart failure, and in conjunction with IV beta-blockers without supervision.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 60 and 120 mg. Ampoule 25 mg/5 mL.",
+      "dose": "Acute AF: 0.25 mg/kg IV (max. 20 mg), repeat 0.35 mg/kg if needed. PO: 120–360 mg/day.",
+      "administration": "Slow IV or PO."
+    },
+    "pediatrico": {
+      "dose": "0.1–0.3 mg/kg/dose IV every 6–8 h (specialized use).",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Stability\n\n- IV solution: limited stability; prepare and administer according to protocol.",
+  "adverseEffects": "## Effects\n\n- Bradycardia, AV block, hypotension, edema, constipation.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / arrhythmia guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

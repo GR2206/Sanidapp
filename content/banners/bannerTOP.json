@@ -1,0 +1,11 @@
+{
+  "id": "bannerTOP",
+  "label": "Protocolos",
+  "enabled": true,
+  "title": "Protocolos al instante",
+  "subtitle": "Guías clínicas actualizadas y códigos QR para tu servicio",
+  "imageUrl": null,
+  "linkUrl": null,
+  "appRoute": "/category/adulto",
+  "version": "1.1"
+}

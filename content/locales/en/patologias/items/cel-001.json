@@ -1,0 +1,53 @@
+{
+  "id": "cel-001",
+  "name": "Cellulitis and Skin and Soft Tissue Infection",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Cellulitis** is an acute infection of the dermis and subcutaneous tissue, usually caused by *Streptococcus pyogenes* and *Staphylococcus aureus* (including MRSA depending on the clinical context). It presents with erythema, warmth, pain, edema with poorly defined borders, and, occasionally, fever and lymphangitis. It must be differentiated from **necrotizing fasciitis** (disproportionate pain, crepitus, hypotension, hemorrhagic bullae), which demands urgent surgical intervention.\n\nEmpirical treatment in an immunocompetent adult without risk factors for MRSA consists of an oral or IV cephalosporin or amoxicillin-clavulanate, depending on severity. If risk factors for MRSA are present (prior antibiotic use, abscess, IV drug use, recent hospitalization), use clindamycin, vancomycin, or trimethoprim-sulfamethoxazole according to local guidelines. Demarcate the borders of the erythema to monitor clinical progression. Hospitalize the patient in cases of facial/periorbital cellulitis, hemodynamic instability, neutropenia, or poor response after 48–72 hours.\n\n**Nursing:** elevate the affected limb, monitor temperature and the extension of the lesion, administer analgesia, perform local hygiene without rubbing, document via photography or tracing of the borders every shift, and educate the patient and family on signs of worsening (increasing pain, vesicles, hypotension).",
+  "relatedDrugs": [
+    {
+      "drugId": "oxa-001",
+      "label": "Oxacillin"
+    },
+    {
+      "drugId": "cef-002",
+      "label": "Cefazolin"
+    },
+    {
+      "drugId": "amo-002",
+      "label": "Amoxicillin/clavulanate"
+    },
+    {
+      "drugId": "cli-001",
+      "label": "Clindamycin"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomycin"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimethoprim/sulfamethoxazole"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. Practice guidelines for skin and soft tissue infections.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Infecciones de piel y tejidos blandos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Skin and soft tissue infections — primary care.",
+      "url": "https://www.who.int/"
+    }
+  ]
+}

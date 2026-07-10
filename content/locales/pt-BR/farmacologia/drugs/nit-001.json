@@ -1,0 +1,47 @@
+{
+  "id": "nit-001",
+  "name": "Nitrofurantoína",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Profilaxia e tratamento de infecções do trato urinário por bactérias gram-negativas e gram-positivas sensíveis, inclusive Escherichia coli, Klebsiella, Enterobacteriaceae, Enterococos e Pseudomonas.",
+  "indications": "## Indicações principais\n\nProfilaxia e tratamento de infecções do trato urinário por bactérias gram-negativas e gram-positivas sensíveis, inclusive Escherichia coli, Klebsiella, Enterobacteriaceae, Enterococos e Pseudomonas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 50 mg, 100 mg; suspensão.",
+      "dose": "100 mg V.O. a cada 12 h x 5–7 dias (cistite). Profilaxia: 50–100 mg V.O. à noite.",
+      "administration": "V.O. com alimentos."
+    },
+    "pediatrico": {
+      "dose": "Crianças: Tratamento: 5–7 mg/kg/dia a cada 6 h. Profilaxia: 2,5 mg/kg/dia uma vez ao dia. Dose máxima: 400 mg. Adultos: Profilaxia: 50–100 mg/dia, à noite; Tratamento: 50–100 mg a cada 6 h, por 7 dias.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 100 mg; Suspensão: 5 mg/mL",
+      "notes": "Contraindicada em pacientes com função renal alterada. Precaução em pacientes com asma."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar protegido da luz.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, anorexia, cefaleia, tontura, nistagmo, mialgia, neuropatia periférica, rash, urticária, febre. Anemia hemolítica em pacientes com deficiência de glicose-6-fosfato desidrogenase (G6PD). Em tratamentos prolongados: fibrose pulmonar.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NitroFURANTOÍNA (cód. 0319, ATC J01XE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

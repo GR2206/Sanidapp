@@ -1,0 +1,51 @@
+{
+  "id": "prt-001",
+  "name": "Protamine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Heparin antagonist; forms insoluble salts inactivating it.",
+  "indications": "## Main indications\n\nHeparin antagonist; forms insoluble salts inactivating it.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10 mg/mL.",
+      "dose": "1 mg protamine per 100 IU remaining heparin; slow IV over 10 min (max. 50 mg/dose).",
+      "administration": "Very slow IV."
+    },
+    "pediatrico": {
+      "dose": "1 mL (10 mg) of protamine neutralizes 1000 units of heparin (U.H.) USP. Dose depends on time since heparin discontinuation: < 30 minutes: 1 mg per 100 units of heparin (U.H.) received; 30 min - 60 min: 0.5 - 0.75 mg per 100 U.H. received; 60 min - 120 min: 0.375 - 0.5 mg per 100 U.H. received; > 120 min: 0.25 - 0.375 mg per 100 U.H. received",
+      "administration": "Slow IV",
+      "presentation": "5 mL ampoules: 10 mg/mL",
+      "notes": "Administer over 10-minute periods. Do not administer more than 50 mg/dose. Excess acts as a weak anticoagulant. Caution in patients with fish allergy."
+    },
+    "neonatal": {
+      "dose": "Same mg:IU rule according to heparin administered.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use immediately after dilution.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, pulmonary hypertension, bradycardia and other cardiovascular effects. Dyspnea, nausea, vomiting, lassitude, anaphylactoid reactions.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Protamine Sulfate (code 8911, ATC V03AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

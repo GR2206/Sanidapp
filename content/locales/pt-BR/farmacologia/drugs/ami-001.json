@@ -1,0 +1,58 @@
+{
+  "id": "ami-001",
+  "name": "Amicacina",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico aminoglicosídeo, utilizado no tratamento de infecções por bactérias Gram-negativas resistentes à gentamicina e infecções por micobactérias suscetíveis.",
+  "indications": "## Indicações principais\n\nAntibiótico aminoglicosídeo, utilizado no tratamento de infecções por bactérias Gram-negativas resistentes à gentamicina e infecções por micobactérias suscetíveis.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola contendo 500 mg em 2 mL de solução (Duncan, FABRA, Klonal, Larjan, Richet, Rivero).",
+      "reconstitution": "Não requer reconstituição prévia. Conc.: 250 mg/mL.",
+      "diluent": "500 mg em 200 mL de SF.",
+      "finalConcentration": "2,5 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Administrar a dose em 30–60 min.",
+      "notes": "Pode sofrer alteração de coloração sem perda de atividade. Descartar soluções escuras."
+    },
+    "pediatrico": {
+      "presentation": "Ampola de 2 mL: 250 mg/mL",
+      "administration": "E.V.; I.M.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "Até 10 mg/mL.",
+      "infusionRate": "Entre 30 e 60 min com BIC.",
+      "dose": "15 mg/kg/dia a cada 12–24 h, dose máxima: 1500 mg/dia. Fibrose cística: 30 mg/kg/dia a cada 24 h. Mycobacterium avium: 7,5–15 mg/kg/dia a cada 12–24 h. Infecção por Mycobacterium tuberculosis em pacientes HIV positivos sensíveis à amicacina como fármaco antituberculoso de segunda linha: 15–20 mg/kg/dia a cada 12–24 h, dose máxima: 1000 mg/dia. Tratamento para infecção por micobactérias não tuberculosas: 15–30 mg/kg/dia divididos a cada 12–24 h como parte de um regime com múltiplos fármacos. Dose máxima: 1,5 g/dia. A dosagem subsequente deve ser feita de acordo com parâmetros farmacocinéticos. Neonatos: ver tabela de dosagem em neonatos (> 1000 g e > 7 dias: 10 mg/kg/dose a cada 12 h; > 2 meses: 15 mg/kg/dose a cada 24 h). Ver tabela de ajuste de dose de antibióticos em I.R. Ver Guia de tratamento de tuberculose.",
+      "compatibility": "NÃO DEVE SER ADMINISTRADO COM OUTROS FÁRMACOS. Os ATB beta-lactâmicos reduzem sua eficácia.",
+      "notes": "Administrar por infusão lenta (mais de 30 minutos). Farmacocinética: Dose única diária: pico: 56 a 64 µg/mL, vale: < 1 µg/mL. Múltiplas doses diárias: pico: 20 a 32 µg/mL, vale: 2 a 8 µg/mL. O acompanhamento será feito medindo pico e vale. Pico entre 30 e 60 minutos após finalizada a infusão de uma hora; vale: imediatamente antes da próxima dose. Requer monitorização plasmática em: tratamentos > 5 dias, pacientes com função renal diminuída, pacientes com resposta terapêutica limitada, obesidade, aumento do volume extracelular, pacientes que requerem aumento de dose, fibrocísticos, queimados, pacientes submetidos a diálise, sinais de ototoxicidade e nefrotoxicidade e uso de outros agentes nefrotóxicos. Interage com numerosos fármacos em solução de infusão; administrar separadamente. Ver guia preliminar para prevenção de teratogênese causada por medicamentos."
+    },
+    "neonatal": {
+      "dose": "15 mg/kg/dose a cada 24–48 h conforme idade pós-menstrual.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente.\n\n## Guia pediátrica\n\n- Conservar ampola fechada em local escuro. Descartar o sobrante após aberta.",
+  "adverseEffects": "## Efeitos adversos\n\nOtotoxicidade, nefrotoxicidade, bloqueio neuromuscular.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — amiKACina (cód. 0011, ATC J01GB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

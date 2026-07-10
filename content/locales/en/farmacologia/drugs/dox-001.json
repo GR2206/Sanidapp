@@ -1,0 +1,41 @@
+{
+  "id": "dox-001",
+  "name": "Doxycycline",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Long-half-life tetracycline; indicated for atypical pathogens, rickettsiae, and malaria prophylaxis.",
+  "indications": "## Indications\n\n- Atypical pneumonia, rickettsiosis, borreliosis, brucellosis.\n- Malaria prophylaxis (regimens).\n\n## Precautions\n\n- Avoid in children < 8 years old (dental staining) unless vital indication. Photosensitivity.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Capsules 100 mg; IV vial.",
+      "dose": "100 mg PO every 12 h or 200 mg loading dose on day 1.",
+      "administration": "PO with water, in an upright position."
+    },
+    "pediatrico": {
+      "dose": "> 8 years old: 2–4 mg/kg/day every 12 h.",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- IV: protect from light; use promptly.",
+  "adverseEffects": "## Effects\n\n- Nausea, photosensitivity, esophagitis if not swallowed with water.",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

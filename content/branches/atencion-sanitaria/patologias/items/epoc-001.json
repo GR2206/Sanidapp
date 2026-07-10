@@ -1,0 +1,48 @@
+{
+  "id": "epoc-001",
+  "name": "EPOC — exacerbación aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **enfermedad pulmonar obstructiva crónica (EPOC)** se caracteriza por limitación crónica al flujo aéreo. La **exacerbación aguda** es un empeoramiento de la disnea, tos o expectoración que supera la variación basal del paciente y suele deberse a infección respiratoria, contaminación ambiental o incumplimiento terapéutico. En la valoración inicial se registra frecuencia respiratoria, uso de musculatura accesoria, coloración, nivel de conciencia y **gasometría** si hay signos de insuficiencia respiratoria.\n\nEl manejo incluye **broncodilatadores** de acción corta (salbutamol ± ipratropio) nebulizados o con inhalador de dosis medida con cámara espaciadora, **corticoides sistémicos** (prednisona oral o metilprednisolona IV según gravedad), antibiótico si hay aumento de purulencia de esputo o necesidad de ventilación mecánica, y **oxígeno titulado** (meta SpO₂ 88–92 % en EPOC conocido para evitar hipoxemia iatrogénica). Valorar VNI en acidosis respiratoria con pH 7,25–7,35 y trabajo respiratorio alto.\n\nLa **enfermería** monitoriza SpO₂ continua, administra nebulizaciones, ayuda con técnica inhalatoria, cuantifica diuresis y vigila somnolencia por hipercapnia. Posición semisentada, hidratación si no hay contraindicación y educación sobre abandono del tabaco y plan de acción ante nuevas exacerbaciones.",
+  "relatedDrugs": [
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    },
+    {
+      "drugId": "ipr-001",
+      "label": "Ipratropio"
+    },
+    {
+      "drugId": "mep-001",
+      "label": "Metilprednisolona"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy Report.",
+      "url": "https://goldcopd.org/"
+    },
+    {
+      "citation": "Asociación Argentina de Medicina Respiratoria (AAMR). Guías nacionales.",
+      "url": "https://www.aamr.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence (NICE). COPD guideline.",
+      "url": "https://www.nice.org.uk/guidance/ng115"
+    }
+  ]
+}

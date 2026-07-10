@@ -1,0 +1,31 @@
+{
+  "id": "dip-p001",
+  "title": "Colocação de cateter de diálise peritoneal pediátrico",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Auxiliar na colocação de cateter de DP pediátrico com técnica estéril, calibre conforme idade e cuidados pós-operatórios coordenados com nefrologia pediátrica.",
+  "body": "## Passos a realizar\n\n1. Verificar identificação, peso, prescrição e consentimento familiar; confirmar jejum conforme protocolo.\n2. Administrar antibiótico profilático se indicado; preparar sedação/analgesia conforme idade.\n3. Preparar cateter pediátrico de DP (calibre/comprimento conforme prescrição), material estéril e curativo.\n4. Realizar higienização das mãos e barreira estéril; em lactente garantir controle térmico.\n5. Posicionar em decúbito dorsal; desinfetar abdome com antisséptico; deixar secar.\n6. Auxiliar na inserção: incisão infraumbilical, introdução do cateter e comprovação de fluxo do dialisador.\n7. Verificar drenagem e infusão de teste; fixar cateter sem tensão; suturar conforme técnica.\n8. Aplicar curativo estéril; orientar cateter caudalmente; registrar tipo, calibre, operador e hora.\n9. Transferir para unidade pediátrica; vigiar dor, sangramento, peritonismo e função do cateter.\n10. Orientar família: cuidado da ferida, sinais de alarme e restrições iniciais de atividade.\n\n## Fundamentação científica\n\n### Indicações pediátricas\n\n- Insuficiência renal crônica terminal em criança quando DP é modalidade elegida.\n- Doença renal crônica avançada em espera de transplante.\n- Algumas situações de IRA em centros com experiência em DP pediátrica (coordenar com nefrologia).\n\n### Seleção de cateter pediátrico\n\n| Idade / tamanho | Orientação |\n| --- | --- |\n| Lactente | Cateter pediátrico de menor calibre; considerar colocação por cirurgião pediátrico experiente |\n| Criança | Comprimento ajustado ao tamanho corporal; cuffs bem posicionados |\n| Adolescente | Pode usar cateter de adulto conforme antropometria |\n\n### Evidência e recomendações\n\n> **ISPD Pediatric PD Guidelines (2020):** a DP é modalidade de eleição em muitos centros pediátricos; a colocação deve ser realizada por equipe com experiência em acesso peritoneal pediátrico (Schaefer et al., 2020).\n\n> **IPNA (International Pediatric Nephrology Association):** planejamento antecipado do acesso; educação familiar fundamental desde o início.\n\n### Cuidados pós-operatórios pediátricos\n\n- Analgesia adequada; vigilância de náuseas e distensão abdominal.\n- Evitar manipulação do cateter pela criança; fixação segura.\n- Em lactentes: vigiar alimentação e sinais de complicação abdominal.\n- Primeira troca conforme protocolo de nefrologia pediátrica (usualmente após período de cicatrização).\n\n### Complicações — comunicar imediatamente\n\n- Febre, dor abdominal intensa ou defesa.\n- Sangramento ativo na ferida.\n- Ausência de fluxo ou vazamento de líquido.\n- Infecção do sítio de saída com exsudato purulento.",
+  "bibliography": [
+    {
+      "citation": "Schaefer F, et al. ISPD Guidelines for Peritoneal Dialysis in Children. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316759/"
+    },
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "Warady MA, et al. IPNA clinical practice recommendations for the diagnosis and management of children with CKD. Pediatr Nephrol. 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30830470/"
+    },
+    {
+      "citation": "Lok CE, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "International Society for Peritoneal Dialysis — pediatric resources.",
+      "url": "https://www.ispd.org/"
+    }
+  ]
+}

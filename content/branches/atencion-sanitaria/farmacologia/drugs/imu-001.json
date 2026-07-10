@@ -1,0 +1,44 @@
+{
+  "id": "imu-001",
+  "name": "Inmunoglobulina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Enfermedad de Kawasaki, púrpura trombocitopénica idiopática, síndrome de inmunodeficiencia adquirida. Terapéutica de reemplazo según indicación de Inmunología. Prevención de varicela en R.N. y H.I.C..",
+  "indications": "## Indicaciones principales\n\nEnfermedad de Kawasaki, púrpura trombocitopénica idiopática, síndrome de inmunodeficiencia adquirida. Terapéutica de reemplazo según indicación de Inmunología. Prevención de varicela en R.N. y H.I.C..\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "F.A.: 2.500 - 5.000 - 10.000 mg (concentración: 50 mg/ml)",
+      "administration": "E.V.",
+      "diluent": "No debe mezclarse con otras soluciones intravenosas.",
+      "finalConcentration": "5%.",
+      "infusionRate": "0,3 a 0,5 mL/kg/h en aumento hasta 4 mL/kg/h.",
+      "dose": "Inmunodeficiencias: iniciar 0,4 - 0,8 g/kg, cada 3 a 4 semanas. Síndrome de Guillain Barré severo y discapacidad significativa: 2 g/kg (dividido en 2 a 5 días) antes de las 2 semanas de evolución. Polineuropatía desmielinizante inflamatoria crónica: dosis de ataque 2 g/kg en 2 a 5 días, seguida de dosis de mantenimiento 1 g/kg cada 3 - 4 semanas. Encefalitis autoinmunes: 2 g/kg en 2 - 5 días. Neuropatía motora multifocal: 2 g/kg, dividido en 2 a 5 días. Miastenia gravis: 1 g/kg, única dosis. Púrpura trombocitopénica idiopática: 0,8 - 1 g/kg, única dosis; según criterio del especialista se podría repetir a las 48 hs. Enfermedad de Kawasaki: 2 g/kg, dosis única. Síndrome inflamatorio multisistémico pediátrico (PIMS) relacionado a COVID-19: 2 g/kg en una sola dosis, máximo 100 g. Ver Terapéutica del síndrome inflamatorio multistémico pediátrico relacionado a COVID-19.",
+      "notes": "Administración: Salas de Internación: Ver PLantillas de infusión GG E.V. \"Universidad Nacional de Córdoba\" Hospital de Día: Ver Plantilla de infusión de GG E.V. distintas marcas Ver \"Uso de Gammaglobulina en Pediatría\" Ver formulario de \"Solicitud de Gammaglobulina Endovenosa\""
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierta. Conservar entre 2 y 30°.",
+  "adverseEffects": "## Efectos adversos\n\nAnafilaxia, dolor torácico, disnea, shock, cefalea, fiebre, escalofríos, náuseas, vómitos, mialgias, artralgias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Gammaglobulina Humana Endovenosa * (cód. 0102, ATC J06BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

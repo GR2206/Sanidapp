@@ -1,0 +1,42 @@
+{
+  "id": "cef-004",
+  "name": "Cefoxitin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Cephamycin with anaerobic coverage; colorectal and gynecological surgical prophylaxis.",
+  "indications": "## Indications\n\n- Polymicrobial intra-abdominal infections.\n- Surgical prophylaxis with anaerobic risk.\n\n## Precautions\n\n- Adjust in CKD.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "1 g or 2 g vial.",
+      "dose": "1–2 g IV every 6–8 h.",
+      "infusionRate": "Infusion over 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "80–160 mg/kg/day every 6–8 h.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use within 6–24 h depending on diluent.",
+  "adverseEffects": "## Effects\n\n- Diarrhea, phlebitis, *C. difficile* colitis.",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

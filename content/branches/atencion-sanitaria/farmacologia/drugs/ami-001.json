@@ -1,0 +1,57 @@
+{
+  "id": "ami-001",
+  "name": "Amikacina",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico aminoglucósido, utilizado en el tratamiento de infecciones por bacterias Gram negativas resistentes a gentamicina e infecciones por micobacterias susceptibles.",
+  "indications": "## Indicaciones principales\n\nAntibiótico aminoglucósido, utilizado en el tratamiento de infecciones por bacterias Gram negativas resistentes a gentamicina e infecciones por micobacterias susceptibles.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Amp conteniendo 500 mg en 2 mL de solución (Duncan, FABRA, Klonal, Larjan, Richet, Rivero).",
+      "reconstitution": "No requiere reconstitución previa. Conc: 250 mg/mL.",
+      "diluent": "500 mg en 200 mL de SF.",
+      "finalConcentration": "2,5 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Administrar la dosis en 30-60 min.",
+      "notes": "Puede sufrir un cambio de coloración sin pérdida de actividad. Desechar las soluciones oscuras."
+    },
+    "pediatrico": {
+      "presentation": "Ampolla de 2 ml: 250 mg/ml",
+      "administration": "E.V.; I.M.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "Hasta 10 mg/mL.",
+      "infusionRate": "Entre 30 y 60 min con BIC.",
+      "dose": "15 mg/kg/día cada 12-24 hs, dosis máxima: 1500 mg/día. Fibrosis quística: 30 mg/kg/día cada 24 hs. Mycobacterium avium: 7,5-15 mg/kg/día c/12-24 hs. Infección producida por Mycobacterium tuberculosis en pacientes VIH positivos sensibles a amicacina como fármaco antituberculoso de segunda línea: 15-20 mg/kg/día cada 12-24 hs, dosis máxima: 1000 mg/día. Tratamiento para infección por micobacterias no tuberculosas: 15-30 mg/kg/día divididos cada 12-24 hs como parte de un régimen con múltiples fármacos. Dosis máxima: 1,5 g/día. La dosificación posterior debe hacerse de acuerdo a parámetros farmacocinéticos. Neonatos: ver tabla de dosificación en neonatos (&gt; 1000 g y &gt; 7 días: 10 mg/kg/dosis cada 12 hs; &gt; 2 meses: 15 mg/kg/dosis cada 24 hs). Ver tabla de ajuste de dosis de antibióticos en I.R. Ver Guía de tratamiento de tuberculosis.",
+      "compatibility": "NO DEBE ADMINISTRARSE CON OTRAS DROGAS. Los ATB betalactámicos reducen su efectividad.",
+      "notes": "Administrar por infusión en forma lenta (más de 30 minutos). Farmacocinética: Dosis única diaria: pico: 56 a 64 µg/ml, valle: &lt; 1 µg/ml. Múltiples dosis diarias: pico: 20 a 32 µg/ml, valle: 2 a 8 µg/ml. El seguimiento se hará tomando pico y valle. Pico entre 30 y 60 minutos después de finalizada la infusión de una hora; valle: inmediatamente antes de una próxima dosis. Se requiere monitoreo plasmático en: tratamientos &gt; de 5 días, pacientes con función renal disminuida, pacientes con limitada respuesta terapéutica, obesidad, aumento del volumen extracelular, pacientes que requieren aumento de dosis, fibroquísticos, quemados, pacientes sometidos a diálisis, signos de ototoxicidad y nefrotoxicidad y uso de otros agentes nefrotóxicos. Interacciona con numerosas drogas en solución de infusión, dar separadamente. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+    },
+    "neonatal": {
+      "dose": "15 mg/kg/dosis cada 24–48 h según edad postmenstrual.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Solución diluida (a administrar)\n\n- 24 hs a T° amb.\n\n## Cartilla pediátrica\n\n- Conservar amp. cerrada en lugar oscuro. Se desecha el sobrante una vez abierta.",
+  "adverseEffects": "## Efectos adversos\n\nOtotoxicidad, nefrotoxicidad, bloqueo neuromuscular.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — amiKACina (cód. 0011, ATC J01GB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

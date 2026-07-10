@@ -1,0 +1,44 @@
+{
+  "id": "pnc-001",
+  "name": "Pancreatitis aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **pancreatitis aguda** es inflamación del páncreas con elevación de amilasa y/o lipasa (> 3 veces el límite superior normal) y dolor abdominal característico. Las causas principales son **litiasis biliar** y **alcohol**; otras: hipertrigliceridemia, fármacos, ERCP, hipercalcemia. Se estratifica gravedad con escalas (Ranson, BISAP, APACHE) y marcadores de necrosis o falla orgánica.\n\nEl tratamiento es de **soporte**: reposición volémica agresiva con cristaloides, analgesia adecuada (opioides si precisa), NPO inicial y reinicio de dieta según tolerancia y protocolo. No hay indicación rutinaria de antibiótico profiláctico. Valorar colecistectomía en pancreatitis biliar leve tras resolución, y CPRE urgente si colangitis asociada. Complicaciones: necrosis infectada, pseudoquiste, falla orgánica — derivación a UTI.\n\n**Enfermería**: monitorizar FC, TA, diuresis (meta ≥ 0,5 mL/kg/h), balance hídrico, dolor y distensión abdominal. Glucemia seriada (riesgo de hiperglucemia). Vigilar signos de sepsis en necrosis y preparar estudios imagenológicos de control.",
+  "relatedDrugs": [
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "ond-001",
+      "label": "Ondansetrón"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Gastroenterological Association. Acute Pancreatitis Clinical Guidelines.",
+      "url": "https://gastro.org/clinical-guidance"
+    },
+    {
+      "citation": "Sociedad Argentina de Gastroenterología (SAGE). Consenso de pancreatitis.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Association of Pancreatology / American Pancreatic Association.",
+      "url": "https://www.iap-online.org/"
+    }
+  ]
+}

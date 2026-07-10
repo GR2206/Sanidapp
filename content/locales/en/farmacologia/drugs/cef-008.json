@@ -1,0 +1,52 @@
+{
+  "id": "cef-008",
+  "name": "Cefepime",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Fourth-generation cephalosporin. Effective against gram-negative bacilli (including non-fermenters: P. aeruginosa), gram-positive cocci (S. pneumoniae, methicillin-resistant S. aureus), and gram-negative cocci (N. meningitidis).",
+  "indications": "## Main indications\n\nFourth-generation cephalosporin. Effective against gram-negative bacilli (including non-fermenters: P. aeruginosa), gram-positive cocci (S. pneumoniae, methicillin-resistant S. aureus), and gram-negative cocci (N. meningitidis).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial 1 g or 2 g.",
+      "dose": "1–2 g IV every 8–12 h.",
+      "infusionRate": "Infusion over 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "Mild and moderate infections: 50 mg/kg/dose every 12 h; severe infections (endocarditis, febrile neutropenia) 50 mg/kg/dose every 8 h, cystic fibrosis: 50 mg/kg/dose every 6 h, maximum pediatric dose: 2 g/dose. Adults: 2 g every 8–12 h.",
+      "administration": "IV; IM.",
+      "presentation": "Powder vial: 1–2 g",
+      "notes": "IV: Infuse over 20–30 minutes."
+    },
+    "neonatal": {
+      "dose": "30 mg/kg/dose every 12 h (NICU protocol).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- 24 h refrigerated after dilution.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, vomiting, headache, rash (2%).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — CefEPIME* (code 1502, ATC J01DE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

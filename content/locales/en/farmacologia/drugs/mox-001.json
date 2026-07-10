@@ -1,0 +1,47 @@
+{
+  "id": "mox-001",
+  "name": "Moxifloxacin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antibacterial for treatment of drug-resistant tuberculosis.",
+  "indications": "## Main indications\n\nAntibacterial for treatment of drug-resistant tuberculosis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 400 mg; IV 400 mg.",
+      "dose": "400 mg PO/IV every 24 h.",
+      "administration": "PO or IV."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 400 mg",
+      "administration": "PO; Ophthalmic",
+      "dose": "Infants and children < 15 years: 10 mg/kg/day every 24 h, maximum dose: 400 mg; adolescents and > 15 years: 400 mg every 24 h.",
+      "notes": "Precautions: monitor for signs of tendinitis or tendon rupture; rupture risk increases with concomitant corticosteroid use. Use with caution in patients with CNS disorders because quinolones may cause seizures. Caution with drugs that lower K levels (e.g. loop and thiazide diuretics, laxatives, corticosteroids, amphotericin B) or associated with clinically significant bradycardia. Interactions: additive effect on QT prolongation when administered simultaneously with drugs that may affect QT. Space 6 h from antacids with Mg and Al, sucralfate, didanosine, and agents with Fe and Zn. Increases effect of oral anticoagulants; increased INR monitoring. See tuberculosis treatment guide."
+    }
+  },
+  "stability": "## Stability\n\n- IV: use per bag or dilution package insert.",
+  "adverseEffects": "## Adverse effects\n\nSuperinfections due to resistant bacteria or fungi, such as oral and vaginal candidiasis; headache, dizziness, insomnia, confusion, agitation, hallucinations; QT prolongation in patients with hypokalemia; nausea, vomiting, abdominal pain and diarrhea; increased transaminases.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — MOXIfloxacina* (code 1765, ATC J01MA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

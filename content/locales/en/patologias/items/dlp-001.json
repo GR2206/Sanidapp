@@ -1,0 +1,41 @@
+{
+  "id": "dlp-001",
+  "name": "Dyslipidemia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "body": "**Dyslipidemia** is a quantitative or qualitative alteration of plasma lipid metabolism. In clinical practice it is classified according to the predominant profile: **hypercholesterolemia** (elevated total cholesterol and/or LDL-C), **hypertriglyceridemia** (elevated triglycerides), or **mixed dyslipidemia**. Its relevance lies in increased **atherosclerotic cardiovascular risk** and, in severe hypertriglyceridemia, the risk of **acute pancreatitis**.\n\nEvaluation requires a fasting lipid profile (or interpretation according to current guidelines), family history, comorbidities (diabetes, hypothyroidism, nephrotic syndrome, obesity, alcohol use), and estimation of global risk (smoking, hypertension, age, sex). **LDL-C** is the main therapeutic target in primary and secondary prevention; target values depend on risk stratum. In the emergency department or inpatient setting, dyslipidemia usually presents as uncontrolled comorbidity, drug interaction (corticosteroids, immunosuppressants, antiretrovirals), or, exceptionally, as **severe hypertriglyceridemia** (> 500–1000 mg/dL) with epigastric pain suggestive of pancreatitis.\n\n**Treatment** combines lifestyle modifications (Mediterranean or low saturated-fat diet, physical activity, smoking cessation) and pharmacotherapy per guideline: high-intensity statins in secondary cardiovascular prevention; fibrates or omega-3 in severe hypertriglyceridemia; and control of secondary causes. In the hospital setting, prioritize reinstating or continuing lipid-lowering therapy when not contraindicated, avoid discontinuing statins in acute coronary syndrome unless expressly indicated, and coordinate with nutrition and the treating medical team.\n\n**Nursing:** record lipid profile and blood glucose on admission when clinically appropriate; identify prior adherence to statins or fibrates; monitor hepatic enzymes and CK if treatment is initiated or intensified; educate on diet, exercise, and signs of severe myalgia or jaundice; in severe hypertriglyceridemia, monitor abdominal pain, nausea, and amylase/lipase per protocol.",
+  "relatedDrugs": [
+    {
+      "drugId": "ltx-001",
+      "label": "Levothyroxine"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Regular insulin"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "NPH insulin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology / European Atherosclerosis Society. Guidelines for the management of dyslipidaemias.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Cardiovascular prevention and risk factor management.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association / American College of Cardiology. Guideline on the management of blood cholesterol.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

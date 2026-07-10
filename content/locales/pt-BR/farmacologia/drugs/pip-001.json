@@ -1,0 +1,62 @@
+{
+  "id": "pip-001",
+  "name": "Piperacilina+tazobactam",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções mistas aeróbias-anaeróbias. Não aumenta a atividade antipseudomonas, sim frente a germes produtores de beta-lactamases.",
+  "indications": "## Indicações principais\n\nTratamento de infecções mistas aeróbias-anaeróbias. Não aumenta a atividade antipseudomonas, sim frente a germes produtores de beta-lactamases.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 4 g de piperacilina (PIP) + 0,5 g de tazobactam (Bagótaz, Drawer, FADA, Pharmavial, Piperac Compuesto, Norgreen, Northia, Vredian, Petezam, Richet, Tazonam EDTA).",
+      "reconstitution": "20 mL de AD. Conc. PIP: 200 mg/mL.",
+      "diluent": "4,5 g em 100 mL de SF ou SG 5%.",
+      "finalConcentration": "Conc. PIP: 40 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Agitar suavemente até dissolução. Diluir em 50–150 mL de SF e administrar em 30 min.",
+      "notes": "É possível a administração E.V. em infusão contínua. Nesse caso, diluir 13,5 g (3 F.A.) em 250 mL de SF a passar em 24 h."
+    },
+    "pediatrico": {
+      "presentation": "F.A. de 4,5 g: (piperacilina: 4 g + tazobactam: 0,5 g)",
+      "reconstitution": "Reconstituir com 17 mL para volume final de 20 mL.",
+      "administration": "E.V.",
+      "diluent": "SF 0,9% ou SG 5%, água destilada para reconstituição.",
+      "finalConcentration": "20 mg/mL. Em restrição hídrica: 200 mg/mL.",
+      "infusionRate": "30 minutos com BIC.",
+      "dose": "Infecções leves, moderadas e tratamento empírico: Crianças: 300 mg (piperacilina + tazobactam)/kg/dia a cada 8 h, Adultos: 4,5 g (piperacilina + tazobactam) a cada 8 h. Infecções graves (bacteriemias, infecções intra-abdominais complicadas): Crianças: 300–450 mg (piperacilina + tazobactam)/kg/dia a cada 6 h, Adultos: 4,5 g (piperacilina + tazobactam) a cada 6 h. Dose máxima: 18 g/dia (piperacilina + tazobactam). Fibrose cística: 450 mg (piperacilina + tazobactam)/kg/dia a cada 6 h.",
+      "notes": "Administrar em 30 minutos. Administrar 30–60 minutos separado dos aminoglicosídeos. Com vecurônio pode prolongar o bloqueio neuromuscular."
+    },
+    "neonatal": {
+      "dose": "Dose e intervalo conforme idade pós-menstrual, peso e foco infeccioso (prescrição de infectologia/neonatologia).",
+      "administration": "E.V. preferencialmente central."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente e 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente e 7 dias refrigerado.\n\n## Guia pediátrica\n\n- 24 h em temperatura ambiente, 48 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nInsônia, cefaleia, confusão, convulsões, rash, prurido, edema, diarreia, constipação, náuseas, vômitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — PIPERACILINA + tazobactam (cód. 1361, ATC J01CR).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy — Piperacillin-tazobactam.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

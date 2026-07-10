@@ -1,0 +1,378 @@
+import farmacologiaIndex from '../../../content/branches/atencion-sanitaria/farmacologia/index.json';
+import aci_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/aci-001.json';
+import ade_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ade-001.json';
+import adr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/adr-001.json';
+import alb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/alb-001.json';
+import amd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amd-001.json';
+import amf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amf-001.json';
+import amf_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amf-002.json';
+import amf_003 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amf-003.json';
+import ami_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ami-001.json';
+import aml_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/aml-001.json';
+import amo_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amo-001.json';
+import amo_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amo-002.json';
+import amp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amp-001.json';
+import amp_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amp-002.json';
+import ani_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ani-001.json';
+import ate_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ate-001.json';
+import atr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/atr-001.json';
+import atr_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/atr-002.json';
+import azi_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/azi-001.json';
+import azt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/azt-001.json';
+import azt_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/azt-002.json';
+import bic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bic-001.json';
+import bis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bis-001.json';
+import bum_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bum-001.json';
+import bup_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bup-001.json';
+import cac_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cac-001.json';
+import caf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/caf-001.json';
+import cag_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cag-001.json';
+import cap_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cap-001.json';
+import car_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/car-001.json';
+import cas_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cas-001.json';
+import cef_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-001.json';
+import cef_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-002.json';
+import cef_003 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-003.json';
+import cef_004 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-004.json';
+import cef_005 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-005.json';
+import cef_006 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-006.json';
+import cef_007 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-007.json';
+import cef_008 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-008.json';
+import cef_009 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-009.json';
+import cef_010 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-010.json';
+import cef_011 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-011.json';
+import cef_012 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cef-012.json';
+import cip_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cip-001.json';
+import cla_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cla-001.json';
+import cli_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cli-001.json';
+import clo_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/clo-001.json';
+import clp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/clp-001.json';
+import col_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/col-001.json';
+import cst_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cst-001.json';
+import cvd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cvd-001.json';
+import dap_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dap-001.json';
+import des_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/des-001.json';
+import dex_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dex-001.json';
+import dia_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dia-001.json';
+import dic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dic-001.json';
+import dif_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dif-001.json';
+import dig_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dig-001.json';
+import dip_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dip-001.json';
+import dlt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dlt-001.json';
+import dob_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dob-001.json';
+import dop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dop-001.json';
+import dox_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dox-001.json';
+import dxt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dxt-001.json';
+import efe_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/efe-001.json';
+import eno_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/eno-001.json';
+import enp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/enp-001.json';
+import eri_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/eri-001.json';
+import ert_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ert-001.json';
+import esm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/esm-001.json';
+import esp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/esp-001.json';
+import est_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/est-001.json';
+import fen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fen-001.json';
+import fer_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fer-001.json';
+import flc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/flc-001.json';
+import flm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/flm-001.json';
+import flu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/flu-001.json';
+import fnt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fnt-001.json';
+import fny_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fny-001.json';
+import fon_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fon-001.json';
+import fos_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fos-001.json';
+import fsc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fsc-001.json';
+import fur_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fur-001.json';
+import gen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/gen-001.json';
+import glc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glc-001.json';
+import glu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glu-001.json';
+import gnc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/gnc-001.json';
+import hal_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hal-001.json';
+import hct_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hct-001.json';
+import hdc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hdc-001.json';
+import hdr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hdr-001.json';
+import hef_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hef-001.json';
+import hio_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hio-001.json';
+import imp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/imp-001.json';
+import imu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/imu-001.json';
+import inp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/inp-001.json';
+import ins_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ins-001.json';
+import ipr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ipr-001.json';
+import isa_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/isa-001.json';
+import iso_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/iso-001.json';
+import ivb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ivb-001.json';
+import kcl_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/kcl-001.json';
+import ket_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ket-001.json';
+import ktr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ktr-001.json';
+import lab_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lab-001.json';
+import lev_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lev-001.json';
+import lid_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lid-001.json';
+import lin_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lin-001.json';
+import lis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lis-001.json';
+import lor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lor-001.json';
+import los_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/los-001.json';
+import ltx_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ltx-001.json';
+import lvt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lvt-001.json';
+import mag_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mag-001.json';
+import man_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/man-001.json';
+import mep_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mep-001.json';
+import mer_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mer-001.json';
+import met_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/met-001.json';
+import mic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mic-001.json';
+import mid_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mid-001.json';
+import mil_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mil-001.json';
+import min_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/min-001.json';
+import mop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mop-001.json';
+import mor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mor-001.json';
+import mox_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mox-001.json';
+import mtp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mtp-001.json';
+import nal_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nal-001.json';
+import ngl_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ngl-001.json';
+import nif_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nif-001.json';
+import nip_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nip-001.json';
+import nit_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nit-001.json';
+import nor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nor-001.json';
+import nsh_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nsh-001.json';
+import oct_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/oct-001.json';
+import olm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/olm-001.json';
+import ome_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ome-001.json';
+import ond_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ond-001.json';
+import ose_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ose-001.json';
+import oxa_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/oxa-001.json';
+import pan_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pan-001.json';
+import pen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pen-001.json';
+import pen_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pen-002.json';
+import phb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/phb-001.json';
+import pho_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pho-001.json';
+import pip_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pip-001.json';
+import pnc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pnc-001.json';
+import pol_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pol-001.json';
+import pos_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pos-001.json';
+import ppf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ppf-001.json';
+import pro_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pro-001.json';
+import prp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/prp-001.json';
+import prt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/prt-001.json';
+import ram_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ram-001.json';
+import ran_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ran-001.json';
+import rem_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/rem-001.json';
+import rif_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/rif-001.json';
+import roc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/roc-001.json';
+import sal_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sal-001.json';
+import sav_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sav-001.json';
+import sil_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sil-001.json';
+import srf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/srf-001.json';
+import suc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/suc-001.json';
+import suf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/suf-001.json';
+import sug_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sug-001.json';
+import sul_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sul-001.json';
+import tei_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tei-001.json';
+import tel_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tel-001.json';
+import teo_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/teo-001.json';
+import tia_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tia-001.json';
+import tic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tic-001.json';
+import tig_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tig-001.json';
+import tob_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tob-001.json';
+import tor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tor-001.json';
+import tri_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/tri-001.json';
+import trm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/trm-001.json';
+import val_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/val-001.json';
+import van_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/van-001.json';
+import vas_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/vas-001.json';
+import vec_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/vec-001.json';
+import vit_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/vit-001.json';
+import vls_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/vls-001.json';
+import vor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/vor-001.json';
+import vrp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/vrp-001.json';
+import war_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/war-001.json';
+import zid_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/zid-001.json';
+import type { Drug, DrugIndex } from '@/types/drug';
+
+export const LOCAL_DRUG_INDEX = farmacologiaIndex as DrugIndex;
+
+/** Generado por scripts/sync-drugs.mjs — no editar a mano. Ejecutar: npm run sync-drugs */
+export const LOCAL_DRUGS: Record<string, Drug> = {
+  'aci-001': aci_001 as Drug,
+  'ade-001': ade_001 as Drug,
+  'adr-001': adr_001 as Drug,
+  'alb-001': alb_001 as Drug,
+  'amd-001': amd_001 as Drug,
+  'amf-001': amf_001 as Drug,
+  'amf-002': amf_002 as Drug,
+  'amf-003': amf_003 as Drug,
+  'ami-001': ami_001 as Drug,
+  'aml-001': aml_001 as Drug,
+  'amo-001': amo_001 as Drug,
+  'amo-002': amo_002 as Drug,
+  'amp-001': amp_001 as Drug,
+  'amp-002': amp_002 as Drug,
+  'ani-001': ani_001 as Drug,
+  'ate-001': ate_001 as Drug,
+  'atr-001': atr_001 as Drug,
+  'atr-002': atr_002 as Drug,
+  'azi-001': azi_001 as Drug,
+  'azt-001': azt_001 as Drug,
+  'azt-002': azt_002 as Drug,
+  'bic-001': bic_001 as Drug,
+  'bis-001': bis_001 as Drug,
+  'bum-001': bum_001 as Drug,
+  'bup-001': bup_001 as Drug,
+  'cac-001': cac_001 as Drug,
+  'caf-001': caf_001 as Drug,
+  'cag-001': cag_001 as Drug,
+  'cap-001': cap_001 as Drug,
+  'car-001': car_001 as Drug,
+  'cas-001': cas_001 as Drug,
+  'cef-001': cef_001 as Drug,
+  'cef-002': cef_002 as Drug,
+  'cef-003': cef_003 as Drug,
+  'cef-004': cef_004 as Drug,
+  'cef-005': cef_005 as Drug,
+  'cef-006': cef_006 as Drug,
+  'cef-007': cef_007 as Drug,
+  'cef-008': cef_008 as Drug,
+  'cef-009': cef_009 as Drug,
+  'cef-010': cef_010 as Drug,
+  'cef-011': cef_011 as Drug,
+  'cef-012': cef_012 as Drug,
+  'cip-001': cip_001 as Drug,
+  'cla-001': cla_001 as Drug,
+  'cli-001': cli_001 as Drug,
+  'clo-001': clo_001 as Drug,
+  'clp-001': clp_001 as Drug,
+  'col-001': col_001 as Drug,
+  'cst-001': cst_001 as Drug,
+  'cvd-001': cvd_001 as Drug,
+  'dap-001': dap_001 as Drug,
+  'des-001': des_001 as Drug,
+  'dex-001': dex_001 as Drug,
+  'dia-001': dia_001 as Drug,
+  'dic-001': dic_001 as Drug,
+  'dif-001': dif_001 as Drug,
+  'dig-001': dig_001 as Drug,
+  'dip-001': dip_001 as Drug,
+  'dlt-001': dlt_001 as Drug,
+  'dob-001': dob_001 as Drug,
+  'dop-001': dop_001 as Drug,
+  'dox-001': dox_001 as Drug,
+  'dxt-001': dxt_001 as Drug,
+  'efe-001': efe_001 as Drug,
+  'eno-001': eno_001 as Drug,
+  'enp-001': enp_001 as Drug,
+  'eri-001': eri_001 as Drug,
+  'ert-001': ert_001 as Drug,
+  'esm-001': esm_001 as Drug,
+  'esp-001': esp_001 as Drug,
+  'est-001': est_001 as Drug,
+  'fen-001': fen_001 as Drug,
+  'fer-001': fer_001 as Drug,
+  'flc-001': flc_001 as Drug,
+  'flm-001': flm_001 as Drug,
+  'flu-001': flu_001 as Drug,
+  'fnt-001': fnt_001 as Drug,
+  'fny-001': fny_001 as Drug,
+  'fon-001': fon_001 as Drug,
+  'fos-001': fos_001 as Drug,
+  'fsc-001': fsc_001 as Drug,
+  'fur-001': fur_001 as Drug,
+  'gen-001': gen_001 as Drug,
+  'glc-001': glc_001 as Drug,
+  'glu-001': glu_001 as Drug,
+  'gnc-001': gnc_001 as Drug,
+  'hal-001': hal_001 as Drug,
+  'hct-001': hct_001 as Drug,
+  'hdc-001': hdc_001 as Drug,
+  'hdr-001': hdr_001 as Drug,
+  'hef-001': hef_001 as Drug,
+  'hio-001': hio_001 as Drug,
+  'imp-001': imp_001 as Drug,
+  'imu-001': imu_001 as Drug,
+  'inp-001': inp_001 as Drug,
+  'ins-001': ins_001 as Drug,
+  'ipr-001': ipr_001 as Drug,
+  'isa-001': isa_001 as Drug,
+  'iso-001': iso_001 as Drug,
+  'ivb-001': ivb_001 as Drug,
+  'kcl-001': kcl_001 as Drug,
+  'ket-001': ket_001 as Drug,
+  'ktr-001': ktr_001 as Drug,
+  'lab-001': lab_001 as Drug,
+  'lev-001': lev_001 as Drug,
+  'lid-001': lid_001 as Drug,
+  'lin-001': lin_001 as Drug,
+  'lis-001': lis_001 as Drug,
+  'lor-001': lor_001 as Drug,
+  'los-001': los_001 as Drug,
+  'ltx-001': ltx_001 as Drug,
+  'lvt-001': lvt_001 as Drug,
+  'mag-001': mag_001 as Drug,
+  'man-001': man_001 as Drug,
+  'mep-001': mep_001 as Drug,
+  'mer-001': mer_001 as Drug,
+  'met-001': met_001 as Drug,
+  'mic-001': mic_001 as Drug,
+  'mid-001': mid_001 as Drug,
+  'mil-001': mil_001 as Drug,
+  'min-001': min_001 as Drug,
+  'mop-001': mop_001 as Drug,
+  'mor-001': mor_001 as Drug,
+  'mox-001': mox_001 as Drug,
+  'mtp-001': mtp_001 as Drug,
+  'nal-001': nal_001 as Drug,
+  'ngl-001': ngl_001 as Drug,
+  'nif-001': nif_001 as Drug,
+  'nip-001': nip_001 as Drug,
+  'nit-001': nit_001 as Drug,
+  'nor-001': nor_001 as Drug,
+  'nsh-001': nsh_001 as Drug,
+  'oct-001': oct_001 as Drug,
+  'olm-001': olm_001 as Drug,
+  'ome-001': ome_001 as Drug,
+  'ond-001': ond_001 as Drug,
+  'ose-001': ose_001 as Drug,
+  'oxa-001': oxa_001 as Drug,
+  'pan-001': pan_001 as Drug,
+  'pen-001': pen_001 as Drug,
+  'pen-002': pen_002 as Drug,
+  'phb-001': phb_001 as Drug,
+  'pho-001': pho_001 as Drug,
+  'pip-001': pip_001 as Drug,
+  'pnc-001': pnc_001 as Drug,
+  'pol-001': pol_001 as Drug,
+  'pos-001': pos_001 as Drug,
+  'ppf-001': ppf_001 as Drug,
+  'pro-001': pro_001 as Drug,
+  'prp-001': prp_001 as Drug,
+  'prt-001': prt_001 as Drug,
+  'ram-001': ram_001 as Drug,
+  'ran-001': ran_001 as Drug,
+  'rem-001': rem_001 as Drug,
+  'rif-001': rif_001 as Drug,
+  'roc-001': roc_001 as Drug,
+  'sal-001': sal_001 as Drug,
+  'sav-001': sav_001 as Drug,
+  'sil-001': sil_001 as Drug,
+  'srf-001': srf_001 as Drug,
+  'suc-001': suc_001 as Drug,
+  'suf-001': suf_001 as Drug,
+  'sug-001': sug_001 as Drug,
+  'sul-001': sul_001 as Drug,
+  'tei-001': tei_001 as Drug,
+  'tel-001': tel_001 as Drug,
+  'teo-001': teo_001 as Drug,
+  'tia-001': tia_001 as Drug,
+  'tic-001': tic_001 as Drug,
+  'tig-001': tig_001 as Drug,
+  'tob-001': tob_001 as Drug,
+  'tor-001': tor_001 as Drug,
+  'tri-001': tri_001 as Drug,
+  'trm-001': trm_001 as Drug,
+  'val-001': val_001 as Drug,
+  'van-001': van_001 as Drug,
+  'vas-001': vas_001 as Drug,
+  'vec-001': vec_001 as Drug,
+  'vit-001': vit_001 as Drug,
+  'vls-001': vls_001 as Drug,
+  'vor-001': vor_001 as Drug,
+  'vrp-001': vrp_001 as Drug,
+  'war-001': war_001 as Drug,
+  'zid-001': zid_001 as Drug,
+};

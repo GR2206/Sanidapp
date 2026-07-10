@@ -1,0 +1,56 @@
+{
+  "id": "cef-007",
+  "name": "Ceftazidima",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalosporina de terceira geração. Tratamento de infecções do trato respiratório inferior, pele e partes moles, ósseas, articulares, intra-abdominais, geniturinárias e sistema nervoso central por bactérias gram-negativas suscetíveis, incluindo Pseudomonas.",
+  "indications": "## Indicações principais\n\nCefalosporina de terceira geração. Tratamento de infecções do trato respiratório inferior, pele e partes moles, ósseas, articulares, intra-abdominais, geniturinárias e sistema nervoso central por bactérias gram-negativas suscetíveis, incluindo Pseudomonas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 1 g (Ceftazidima Northia).",
+      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
+      "diluent": "Reconst. 1 g com 10 mL de AD, diluir em 50–100 mL e administrar em 15–30 min.",
+      "administration": "E.V. direta: Sim. Reconst. 1 g em 10 mL de AD e administrar em 3–5 min. E.V. intermitente: Sim.",
+      "notes": "Irritante. Atenção na reconstituição porque se desprende CO₂ (eliminar as bolhas antes da administração). Existe risco de flebite ao usar a via E.V. direta. É possível a administração I.M."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 500–1000 mg",
+      "reconstitution": "Água destilada para reconstituição.",
+      "administration": "E.V.",
+      "finalConcentration": "40 mg/mL (pode ser bolo 180 mg/mL).",
+      "infusionRate": "15 a 30 min com BIC.",
+      "dose": "Recém-nascido: conforme idade e peso. Crianças: 100–150 mg/kg/dia a cada 8 h, dose máxima: 6 g. Adultos: 1–2 g a cada 8 h. Fibrose cística: 150–200 mg/kg/dia a cada 6 h, dose máxima: 9 g. Infecção urinária não complicada adultos: 250 mg a cada 12 h; as complicadas: 500 mg a cada 12 h.",
+      "notes": "Em I.R. ajustar dose e monitorizar, risco de nefrotoxicidade em concomitância com fármacos nefrotóxicos. Em tratamento prolongado risco de superinfecção por organismo não suscetível; risco de colite pseudomembranosa."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dose a cada 12 h (UCIN).",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 6 h em temperatura ambiente e 24 h refrigerado.\n\n## Guia pediátrica\n\n- Estável 24 h em temperatura ambiente protegido da luz; 10 dias na geladeira.",
+  "adverseEffects": "## Efeitos adversos\n\nIntolerância local, hipersensibilidade, distúrbios gastrointestinais.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefTAZidima (cód. 0039, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

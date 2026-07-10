@@ -1,0 +1,57 @@
+{
+  "id": "dia-001",
+  "name": "Diazepam",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anticonvulsivante benzodiazepínico. Relajante muscular. Ansiolítico.",
+  "indications": "## Indicaciones principales\n\nAnticonvulsivante benzodiazepínico. Relajante muscular. Ansiolítico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 5–10 mg.",
+      "dose": "5–10 mg IV lento repetible según protocolo.",
+      "administration": "IV muy lenta; IM/rectal según presentación."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 2-5-10 mg; Ampollas de 2 ml: 5 mg/ml; Solución (preparado magistral): 2 mg/ml",
+      "administration": "V.O.; E.V.; Intrarrectal",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5% y Dext. 10%.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "1 a 2 mg/min.",
+      "dose": "Status epliléptico ataque E.V.: &gt; 30 días y niños: 0,1-0,3 mg/kg/dosis cada 5-10 min. Dosis máxima: &lt; 5 años: 5 mg, &gt; 5 años: 10 mg; Adultos: 5-10 mg, puede repetirse cada 10-15 min hasta un máximo de 30 mg. Infusión E.V.: 0,1-0,2 mg/kg/hora. Convulsiones (tratamiento inmediato): 2 a 5 años: 0,5 mg/kg; 6 a 11 años: 0,3 mg/kg; &gt; 12 años y adultos: 0,2 mg/kg. Sedación moderada para procedimientos: V.O.: 0,2-0,3 mg/kg (dosis máxima: 10 mg) 45 a 60 min antes del procedimiento. Sedación, relajación muscular o ansiedad: V.O.: 0,12-0,8 mg/kg/día cada 6-8 hs; E.V.: 0,04-0,3 mg/kg/dosis cada 2-4 hs hasta un máximo de 0,6 mg/kg en el transcurso de 8 hs; adultos: 2-10 mg/dosis cada 6-8 hs. Pacientes en A.R.M.(E.V.): 0,2-0,4 mg/kg cada 6 hs.",
+      "notes": "Administración: E.V.: push: sin diluir y no exceder 5 mg/min, infusión continua: 0,2 mg/ml en solución fisiológica; V.O.: administrar con los alimentos. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos. Ver Guía práctica para manejo analgosedación y su descenso en salas de cuidados intermedios y moderados."
+    },
+    "neonatal": {
+      "dose": "0,1–0,3 mg/kg según protocolo convulsiones.",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## General\n\n- Precipita con algunos diluyentes; seguir prospecto de formulación IV.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, ataxia, disartria, irritabilidad. E.V.: depresión respiratoria, tromboflebitis. Efecto paradojal.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — diazePAM (cód. 0070, ATC N05BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

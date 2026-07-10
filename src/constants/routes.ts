@@ -1,0 +1,17 @@
+export const ROUTES = {
+  splash: '/',
+  login: '/(auth)/login',
+  register: '/(auth)/register',
+  home: '/(drawer)',
+  qrPrint: '/(drawer)/qr-print',
+  farmacologia: '/(drawer)/farmacologia',
+  patologias: '/(drawer)/patologias',
+  foro: '/(drawer)/foro',
+  category: (categoryId: string) => `/category/${categoryId}` as const,
+  scanner: '/scanner',
+  protocol: (protocolId: string) => `/protocol/${protocolId}` as const,
+  drug: (drugId: string) => `/drug/${drugId}` as const,
+  pathology: (pathologyId: string) => `/pathology/${pathologyId}` as const,
+  upgrade: '/upgrade' as const,
+  calculations: '/calculations' as const,
+} as const;

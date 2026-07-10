@@ -1,0 +1,27 @@
+{
+  "id": "oxi-p001",
+  "title": "Oxigenoterapia pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Titular oxigênio conforme idade e patologia, vigiando SpO₂ e sinais de fadiga respiratória; escalar dispositivo se não houver resposta.",
+  "body": "## Passos a realizar\n\n1. **Verificar prescrição médica** e objetivo de SpO₂ conforme idade, patologia e comorbidades.\n2. **Selecionar dispositivo** adequado (cateter nasal, máscara simples, reservatório, CNAF, VNI/VM) conforme gravidade.\n3. **Colocar dispositivo** com hidratação de mucosas; fixar sem comprimir pele nem cartilagens.\n4. **Ajustar fluxo** conforme dispositivo e peso (cateter nasal: 0,5–2 L/min lactente, 1–4 L/min criança).\n5. Instalar **monitorização contínua de SpO₂** junto com FR, tiragem, retrações e gemido.\n6. **Reavaliar resposta** a cada 30–60 min (ou contínuo na UTI); registrar dispositivo, fluxo e SpO₂ atingida.\n7. **Escalar suporte respiratório** se SpO₂ persistir abaixo do objetivo apesar de oxigênio máximo com dispositivo atual; comunicar imediatamente.\n8. **Comunicar imediatamente** diante de aumento de tiragem, apneia, cianose, agitação ou letargia nova, bradicardia ou hipotensão.\n9. **Documentar** dispositivo, fluxo, FiO₂ aproximada e resposta clínica a cada turno.\n\n## Fundamentação científica\n\n### Indicações\n\n- Hipoxemia (SpO₂ abaixo do objetivo etário).\n- Desconforto respiratório moderado a grave.\n- Choque com hipoperfusão.\n- Contexto de sepse, bronquiolite, pneumonia ou asma grave.\n\n### Objetivos de SpO₂ (referência geral)\n\n| Situação | SpO₂ objetivo |\n| --- | --- |\n| Lactente / criança sem cardiopatia | 94–98% |\n| Prematuro / displasia broncopulmonar | Conforme protocolo neonatal (ex.: 90–95%) |\n| Crise asmática em resolução | ≥ 94% |\n\nAjustar conforme prescrição médica e comorbidades.\n\n### Dispositivos\n\n| Dispositivo | Fluxo orientativo | FiO₂ aproximada |\n| --- | --- | --- |\n| Cateter nasal de baixo fluxo | 0,5–2 L/min (lactente) / 1–4 L/min (criança) | 24–40% |\n| Máscara simples | 5–10 L/min | 40–60% |\n| Máscara com reservatório | 10–15 L/min | 60–90% |\n| CNAF (alto fluxo) | Conforme peso e protocolo UTI | Titulável |\n| VNI / VM | Conforme prescrição | |\n\n### Sinais de alarme\n\n- Aumento de tiragem, apneia ou cianose.\n- Agitação ou letargia nova.\n- SpO₂ persistentemente abaixo do objetivo apesar de oxigênio máximo com dispositivo atual.\n- Bradicardia ou hipotensão.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Bronchiolitis Clinical Practice Guideline. Pediatrics. 2014 (atualizações AAP).",
+      "url": "https://publications.aap.org/pediatrics/article/134/5/e1474/74393"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "SATI — Comitê de Pneumologia Crítica. Suporte respiratório.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "World Health Organization. Oxygen therapy for children — WHO guidelines.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/child-health/paediatric-hospital-care"
+    }
+  ]
+}

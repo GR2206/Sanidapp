@@ -1,0 +1,53 @@
+{
+  "id": "cel-001",
+  "name": "Celulite e infecção de pele e partes moles",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **celulite** é infecção aguda da derme e tecido subcutâneo, habitualmente por **Streptococcus pyogenes** e **Staphylococcus aureus** (incluído MRSA conforme contexto). Apresenta-se com eritema, calor, dor, edema com bordas mal definidas e, às vezes, febre e linfangite. Diferenciar de **fasciíte necrosante** (dor desproporcional, crepitação, hipotensão, bolhas hemorrágicas) que exige cirurgia urgente.\n\nO tratamento empírico em adulto imunocompetente sem risco de MRSA: **cefalosporina** ou **amoxicilina-clavulanato** oral ou IV conforme gravidade. Se fatores de MRSA (uso prévio de antibióticos, abscesso, drogas IV, internação recente): **clindamicina**, **vancomicina** ou **trimetoprima-sulfametoxazol** conforme diretriz local. Marcar bordas do eritema para seguir evolução. Internar se celulite facial/periorbitária, instabilidade hemodinâmica, neutropenia ou má resposta a 48–72 h.\n\n**Enfermagem**: elevar o membro afetado, controle de temperatura e extensão da lesão, analgesia, higiene local sem friccionar, documentar fotografia ou traçado de bordas a cada turno e orientar sobre sinais de piora (dor crescente, vesículas, hipotensão).",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. Practice guidelines for skin and soft tissue infections.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Infecções de pele e tecidos moles.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Skin and soft tissue infections — primary care.",
+      "url": "https://www.who.int/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "oxa-001",
+      "label": "Oxacilina"
+    },
+    {
+      "drugId": "cef-002",
+      "label": "Cefazolina"
+    },
+    {
+      "drugId": "amo-002",
+      "label": "Amoxicilina/clavulanato"
+    },
+    {
+      "drugId": "cli-001",
+      "label": "Clindamicina"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimetoprima/sulfametoxazol"
+    }
+  ]
+}

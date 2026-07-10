@@ -1,0 +1,44 @@
+{
+  "id": "del-001",
+  "name": "Delirium agudo",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **delirium** es un trastorno neurocognitivo agudo con alteración de la atención y conciencia, curso fluctuante e inicio en horas o días. Es muy frecuente en guardia y hospitalización de adultos mayores, y se asocia a mayor mortalidad, estancia prolongada y deterioro funcional. Los **precipitantes** incluyen infección, hipoxemia, deshidratación, retención urinaria, fármacos (benzodiacepinas, anticolinérgicos, opioides), dolor no tratado, privación sensorial y cambio de entorno.\n\nEl diagnóstico es clínico (escalas **CAM** o 4AT). El tratamiento de primera línea es **corregir la causa** y aplicar medidas no farmacológicas: orientación temporal y espacial, lentes y audífonos, movilización precoz, sueño nocturno, acompañante y evitar sujeción. La medicación (haloperidol o atípicos en dosis bajas) se reserva para agitación que pone en riesgo al paciente o al equipo, siempre por tiempo limitado.\n\n**Enfermería**: valoración seriada del estado mental, prevención de caídas, ambiente con luz natural, reorientación frecuente y comunicación con la familia. Revisar lista de medicación y retirar fármacos delirantes cuando sea posible.",
+  "relatedDrugs": [
+    {
+      "drugId": "hal-001",
+      "label": "Haloperidol"
+    },
+    {
+      "drugId": "lor-001",
+      "label": "Lorazepam"
+    },
+    {
+      "drugId": "mid-001",
+      "label": "Midazolam"
+    },
+    {
+      "drugId": "dex-001",
+      "label": "Dexmedetomidina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "National Institute for Health and Care Excellence. Delirium: prevention, diagnosis and management.",
+      "url": "https://www.nice.org.uk/guidance/cg103"
+    },
+    {
+      "citation": "Sociedad Argentina de Geriatría y Gerontología (SAGG). Consensos sobre delirium.",
+      "url": "https://www.sagg.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Geriatrics Society. Clinical Practice Guideline for Postoperative Delirium.",
+      "url": "https://www.americangeriatrics.org/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "tic-001",
+  "name": "Ticarcillin/clavulanic acid",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Historical antipseudomonal in combination; use according to antibiogram and institutional availability.",
+  "indications": "## Indications\n\n- Gram-negative infections, including *Pseudomonas*, in combination regimens.\n- Alternative according to local susceptibility when included in the formulary.\n\n## Precautions\n\n- Penicillin allergy.\n- Adjust for chronic kidney disease (CKD).\n- Use restricted due to the availability of alternatives.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "3.1 g vial (3 g ticarcillin + 0.1 g clavulanate).",
+      "reconstitution": "Reconstitute with 13 mL of diluent according to package insert.",
+      "dose": "3.1 g IV every 4–6 h.",
+      "infusionRate": "Infuse over 30 min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "200–400 mg/kg/day of ticarcillin divided every 4–6 h (max. per protocol).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use dilution within 6–24 h depending on diluent and package insert.",
+  "adverseEffects": "## Adverse effects\n\n### Frequent\n\n- Diarrhea, phlebitis, hypokalemia with high doses.\n\n### Serious\n\n- Anaphylaxis, *C. difficile* colitis.",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

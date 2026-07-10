@@ -1,0 +1,60 @@
+{
+  "id": "pen-001",
+  "name": "Penicillin G sodium",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of lower respiratory tract, nervous system, and heart infections caused by susceptible gram-positive microorganisms and some gram-negative such as Neisseria gonorrhoeae or Neisseria meningitidis.",
+  "indications": "## Main indications\n\nTreatment of lower respiratory tract, nervous system, and heart infections caused by susceptible gram-positive microorganisms and some gram-negative such as Neisseria gonorrhoeae or Neisseria meningitidis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 3 MIU (Benzyl penicillin sodium Fabra, Drawer, Northia, Klonal).",
+      "reconstitution": "5 mL SWFI. Conc: 0.6 MIU/mL.",
+      "diluent": "3 MIU in 100 mL NS.",
+      "finalConcentration": "0.03 MIU/mL administer over 15-60 min.",
+      "administration": "Direct IV: No. Yes, 5 mL SWFI, administer over 3-5 min. Intermittent IV: Yes."
+    },
+    "pediatrico": {
+      "presentation": "Powder vial: 1-3-5 million IU",
+      "administration": "IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "100,000 to 500,000 IU/mL. Infants: 50,000 IU/mL.",
+      "infusionRate": "15 to 60 min with infusion pump.",
+      "dose": "Mild and moderate infections: 100,000 - 150,000 IU/kg/day every 6 h, maximum dose: 8,000,000 IU/day. Severe infections: 200,000 - 300,000 IU/kg/day every 4 h, maximum dose: 24,000,000 IU/day; Meningitis: 300,000 - 400,000 IU/kg/day every 4 h; Group B Streptococcus meningitis Children: 450,000 - 500,000 IU/kg/day every 6 h; Congenital syphilis: < 7 days: 50,000 IU/kg/dose every 12 h; 8 days to 30 days: 50,000 IU/kg/dose every 8 h; infants > 1 month and children: 50,000 IU/kg/dose every 4 - 6 h. Neurosyphilis: maximum dose 18,000,000 IU - 24,000,000 IU.",
+      "notes": "Antibiotics such as tetracyclines, chloramphenicol, and erythromycin may antagonize penicillin activity."
+    },
+    "neonatal": {
+      "dose": "50,000 IU/kg/dose every 12 h in newborns; meningitis: more frequent regimens (NICU protocol).",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 48 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 48 h refrigerated.\n\n## Pediatric guide\n\n- 7 days refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nSkin rash, urticaria, fever, pain, eosinophilia, hemolytic anemia, leukopenia. In uremia or high doses: seizures.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Penicillin G. SODIUM (code 163, ATC J01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

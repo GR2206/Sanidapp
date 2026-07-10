@@ -1,0 +1,53 @@
+{
+  "id": "dxt-001",
+  "name": "Dexametasona",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Corticoide potente IV/VO para edema cerebral, croup, COVID grave y profilaxis náuseas.",
+  "indications": "## Indicaciones\n\n- Edema cerebral, croup (nebulización/IM según protocolo).\n- Profilaxis náuseas por quimioterapia y postoperatoria.\n- Maduración pulmonar fetal (esquema obstétrico).\n\n## Precauciones\n\n- Hiperglucemia, inmunosupresión. Taper si uso prolongado.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 4–8 mg/mL; comprimidos.",
+      "dose": "4–10 mg IV/IM según indicación; croup ped: 0,6 mg/kg dosis única.",
+      "administration": "IV/IM/VO/nebulización según protocolo."
+    },
+    "pediatrico": {
+      "presentation": "amp. 8 mg/2 mL.",
+      "administration": "EV o IM.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "4 mg/mL.",
+      "infusionRate": "15 min. con BIC.",
+      "dose": "0,5 a 2 mg/kg/día en 4 dosis diarias. Antiinflamatorio: 0,08 a 0,3 mg/kg/día 2 a 4 veces al día.",
+      "notes": "Antiinflamatorio esteroideo. Puede dar edema, hipertensión, cefalea, náusea, vómito."
+    },
+    "neonatal": {
+      "dose": "Maduración pulmonar fetal: esquema obstétrico. Evitar uso prolongado en RN.",
+      "administration": "IM materno / IV RN según protocolo."
+    }
+  },
+  "stability": "## General\n\n- IV estable según dilución.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos\n\n- Hiperglucemia, insomnio, supresión adrenal, infecciones.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

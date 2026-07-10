@@ -1,0 +1,50 @@
+{
+  "id": "dig-001",
+  "name": "Digoxina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Glucósido cardíaco. Insuficiencia cardíaca (efecto inotrópico positivo y cronotrópico negativo).",
+  "indications": "## Indicaciones principales\n\nGlucósido cardíaco. Insuficiencia cardíaca (efecto inotrópico positivo y cronotrópico negativo).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 0,25 mg. Ampolla 0,25 mg/mL.",
+      "dose": "Carga IV: 0,25–0,5 mg; mantenimiento VO 0,125–0,25 mg/día según función renal.",
+      "administration": "VO o IV lenta (diluida según protocolo)."
+    },
+    "pediatrico": {
+      "dose": "Digitalización rápida (E.V.): R.N. término: 0,02-0,04 mg/kg/día; R.N. pretérmino: 0,015-0,025 mg/kg/día; 1 mes a 2 años: 0,025-0,05 mg/kg/día; &gt; 2 años: 0,03-0,04 mg/kg/día; adolescentes: 0,01-0,015 mg/kg/día. Dosis máxima: 1 mg. (V.O.): aumentar la dosis un 20%. La dosis se administra: 50% al inicio, 25% a las 6-8 hs, 25% restante a las 12-16 hs del inicio. En pacientes previamente digitalizados usar la mitad de la dosis. Mantenimiento (V.O.): R.N. término: 0,01 mg/kg/día (1/2 gota/kg/día de Lanicor); 1 mes- 2 años: 0,01-0,015 mg/kg/día (3/4 gota/kg/día de Lanicor); &gt; 2 años: 0,01 mg/kg/día (1/2 gota/kg/día de Lanicor); adolescentes: 0,005 mg/kg/día (dosis máxima: 0,25 mg/día). Ver tabla de ajuste de dosis en I.R. (Boletín CIME)",
+      "administration": "V.O. E.V.",
+      "presentation": "Comprimidos: 0,25 mg; Gotas: 750 mcg/ml (según la marca, consultar gamas/gota); Ampollas de 1 ml: 0,25 mg/ml",
+      "notes": "Con diuréticos depletores de potasio aumenta el riesgo de intoxicación digitálica. Los niveles de digoxina pueden aumentar por: amiodarona (reducir la dosis de digoxina aproximadamente el 50% y monitorear niveles de digoxina), flecainida, propafenona, espironolactona, eritromicina, verapamilo. Con corticoides aumenta riesgo de hipokalemia. Rango terapéutico: 0,8 a 2 ng/ml. Niveles &gt; a 2 ng/ml están asociados a toxicidad. Reducir la dosis en insuficiencia renal. Administración E.V.: sin diluir o diluir 4 veces en dextrosa 5% o solución fisiológica y administrar en más de 5 minutos. Contraindicada en miocardiopatía hipertrófica obstructiva. Precaución porque diferentes marcas comerciales presentan distinta cantidad de droga por gota. Cerrar el frasco herméticamente."
+    },
+    "neonatal": {
+      "dose": "Dosis neonatales según protocolo cardiológico y niveles séricos.",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Ampollas: usar tras dilución según protocolo institucional.",
+  "adverseEffects": "## Efectos adversos\n\nVómitos, mareos, diarrea, visión borrosa, aumento de la diuresis, sudores fríos, convulsiones, bloqueo A-V, arritmias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — diGOXina (cód. 0073, ATC C01AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

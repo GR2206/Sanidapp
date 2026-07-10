@@ -1,0 +1,49 @@
+{
+  "id": "icc-001",
+  "name": "Heart Failure (CHF)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Heart failure** is a clinical syndrome in which the heart is unable to pump blood efficiently to meet metabolic demands, or can do so only at elevated filling pressures. In the emergency department, **acute decompensations** predominate: acute pulmonary edema, CHF with systemic congestion, a \"wet-and-cold\" profile (low cardiac output), or associated hypertensive crises. The anamnesis explores paroxysmal nocturnal dyspnea, orthopnea, weight gain, adherence to diuretics, and triggering factors (infection, arrhythmia, AMI, anemia).\n\nThe physical examination assesses crackles, jugular venous distension, hepatojugular reflux, edema, rhythm, and murmurs. The **ECG**, chest X-ray, BNP/NT-proBNP, ionogram, and renal function guide the assessment of severity and the therapeutic plan. Acute treatment combines **loop diuretics** (IV furosemide), vasodilators (nitroglycerin) in hypertensive profiles, oxygen therapy or NIV depending on hypoxemia, and management of the underlying triggering cause. In cardiogenic shock, inotropes and intensive care are required.\n\n**Nursing:** daily weight, strict fluid balance, monitoring of urine output post-furosemide, monitoring of electrolytes (K⁺, Mg²⁺), semi-seated position, and sodium and fluid restriction according to medical orders. Detect hypotension, oliguria, and altered mental status early.",
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemide"
+    },
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglycerin"
+    },
+    {
+      "drugId": "dob-001",
+      "label": "Dobutamine"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "esp-001",
+      "label": "Spironolactone"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Argentine Society of Cardiology (SAC). Heart failure consensus statements.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart Failure Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Heart Failure guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

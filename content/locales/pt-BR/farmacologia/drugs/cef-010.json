@@ -1,0 +1,49 @@
+{
+  "id": "cef-010",
+  "name": "Ceftarolina",
+  "version": "1.0.3",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Para bacteriemias persistentes por SAMR com foco respiratório/SDRA. Infecções complicadas de pele e tecidos moles e pneumonia adquirida na comunidade. Indicação exclusiva do especialista.",
+  "indications": "## Indicações principais\n\nPara bacteriemias persistentes por SAMR com foco respiratório/SDRA.\nInfecções complicadas de pele e tecidos moles e pneumonia adquirida na comunidade.\nIndicação exclusiva do especialista.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 600 mg (Zinforo).",
+      "reconstitution": "20 mL de AD. Conc.: 30 mg/mL.",
+      "diluent": "600 mg em 250 mL de SF ou SG 5%.",
+      "finalConcentration": "2,4 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Reconst. 600 mg com 250 mL de AD, SF ou SG 5% e admin. em 60 min."
+    },
+    "pediatrico": {
+      "dose": "Infecções complicadas da pele e tecidos moles e Pneumonia adquirida na comunidade: Neonatos até 2 meses: 6 mg/kg/dose a cada 8 h, > 2 meses a < 2 anos: 8 mg/kg/dose a cada 8 h, > 2 anos a < 12 anos: 12 mg/kg/dose (máximo 400 mg) a cada 8 h, adolescentes entre 12 a < 18 anos com peso < 33 kg: 12 mg/kg/dose (máximo 400 mg) a cada 8 h, adolescentes entre 12 a < 18 anos com peso > 33 kg: 600 mg/dose a cada 12 h, adultos: 600 mg/dose a cada 12 h. I.R.: adultos e adolescentes > 12 a 18 anos e Peso > 33 kg: Clcr 30–50 ml/min: 400 mg/dose a cada 12 h; Clcr 15–30 ml/min: 300 mg/dose a cada 12 h; Doença renal (incluindo hemodiálise): 200 mg/a cada 12 h. 12–18 anos e Peso < 33 kg e crianças 2–12 anos: Clcr 30–50 ml/min: 8 mg/kg/dose a cada 8 h (máximo: 300 mg a cada 8 h); Clcr 15–30 ml/min: 6 mg/kg/dose a cada 8 h (máximo 200 mg/a cada 8 h).",
+      "administration": "E.V.",
+      "presentation": "F.A. pó: 600 mg",
+      "notes": "Administrar mediante infusão E.V. durante 120 min."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Diluir e utilizar imediatamente.\n\n## Solução diluída (a administrar)\n\n- 6 h em temperatura ambiente e 24 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nRash, prurido, cefaleia, tontura, flebite, náuseas, vômitos, dor abdominal, transaminases aumentadas, pirexia, reações no local da infusão (eritema, flebite, dor), teste de Coombs positivo.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — CeftaROLINA Fosamil* (cód. 2037, ATC J01DI).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

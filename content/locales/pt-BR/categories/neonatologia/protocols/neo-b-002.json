@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-002",
+  "title": "Alimentação enteral em neonato clinicamente estável",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Iniciar e progredir alimentação enteral em neonato clinicamente estável de 500 g a 2500 g (dia 0–30) com preferência por leite materno, volume progressivo conforme peso e tolerância, e vigilância de sinais de NEC ou aspiração.",
+  "body": "## Passos a realizar\n\n1. Confirmar estabilidade clínica: sem VM, sem fármacos vasoativos, abdome flácido, peristalse presente, fezes meconiais evacuadas ou em progressão.\n2. Avaliar via de alimentação: seio materno direto se RN ≥ 34 sem e coordenação sucção-deglutição-respiração; sonda orogástrica (preferida) ou nasogástrica se prematuro ou sucção fraca.\n3. Preferir leite materno próprio; se indisponível, leite doado de banco certificado; fórmula apenas se contraindicação de LM conforme prescrição.\n4. Iniciar alimentação conforme peso e IG (ver tabela); usar bomba de seringa ou gavagem lenta (≥ 10–15 min) em RN < 1500 g.\n5. Posicionar em decúbito lateral direito ou semisentado 30° durante gavagem; não infundir com RN em decúbito dorsal plano.\n6. Verificar resíduo gástrico antes de cada mamada em RN < 1500 g ou com risco: aspirar suavemente; se < 50% do volume da mamada e não bilioso → devolver e alimentar; se bilioso, volumoso ou com distensão → interromper e avisar.\n7. Progredir volume 10–20 ml/kg/dia se tolerância adequada: sem vômitos, distensão, fezes sanguinolentas ou apneias relacionadas.\n8. Registrar cada mamada: volume, via, tipo de leite, resíduo gástrico, vômitos, fezes e peso diário.\n9. Fomentar aleitamento materno: extração a cada 2–3 h, pele a pele, apoio à família; fortificante humano de leite apenas se indicado pelo neonatologista.\n10. Suplementar vitamina D (400 UI/dia desde os primeiros dias se LM exclusiva) e ferro (2–4 mg/kg/dia desde a semana 4 em prematuros) conforme protocolo.\n11. Diante de intolerância: manter mínimo trófico (10–20 ml/kg/dia) se possível; avaliar NEC, sepse, obstrução.\n12. Transição para seio exclusivo ou mamadeira quando sucção efetiva e ganho ponderal ≥ 15–20 g/dia.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**, **clinicamente estáveis** sem contraindicação enteral. RN com desconforto grave, NEC, obstrução intestinal ou instabilidade hemodinâmica necessitam NP e protocolo intensivo.\n\n### Indicações\n\n- RN estável com trato gastrointestinal maduro ou em maturação progressiva.\n- Transição de nutrição parenteral para enteral em UCIN intermediária/convencional.\n- Manutenção nutricional em alojamento conjunto.\n\n### Contraindicações\n\n- NEC confirmada ou suspeita (distensão, sangue nas fezes, pneumatose).\n- Obstrução intestinal, atresia não corrigida.\n- Choque ou instabilidade hemodinâmica.\n- Apneias/bradicardias recorrentes desencadeadas pela alimentação.\n\n### Evidência e recomendações\n\n> **OMS:** aleitamento materno exclusivo nos primeiros 6 meses; início na primeira hora de vida reduz mortalidade neonatal (WHO, 2024).\n\n> **VON:** alimentação trófica precoce em VLBW estáveis melhora maturação intestinal sem aumentar NEC se progressão cuidadosa (Vermont Oxford Network).\n\n### Volume inicial e progressão\n\n| Peso / IG | Volume inicial | Progressão | Frequência |\n| --- | --- | --- | --- |\n| 500–749 g | 10–20 ml/kg/dia trófico | 10–15 ml/kg/dia | A cada 3 h |\n| 750–999 g | 20–40 ml/kg/dia | 15–20 ml/kg/dia | A cada 3 h |\n| 1000–1499 g | 40–60 ml/kg/dia | 20 ml/kg/dia | A cada 3 h |\n| 1500–2500 g | 60–80 ml/kg/dia | 20 ml/kg/dia | A cada 3 h ou seio livre |\n\nMeta: 150–180 ml/kg/dia no dia 7–14 conforme tolerância.\n\n### Seleção de sonda\n\n| Preferência | Motivo |\n| --- | --- |\n| Orogástrica | Menor risco de broncoaspiração e lesão nasal em prematuros |\n| Nasogástrica | Apenas se OG inviável; fixar e verificar posição |\n\nVerificar posição antes de cada gavagem: aspiração de conteúdo gástrico ou ausculta com ar (menos confiável).\n\n### Critérios de intolerância — interromper e avisar\n\n- Resíduo gástrico > 50% do volume da mamada em duas ocasiões consecutivas.\n- Vômito bilioso ou hemático.\n- Distensão abdominal, eritema periumbilical ou fezes sanguinolentas.\n- Apneia/bradicardia durante ou pós-alimentação.\n\n### Ganho ponderal esperado\n\n- RN a termo: 15–30 g/dia após perda fisiológica (dias 3–5).\n- Prematuro: 10–20 g/dia/kg quando alimentação plena.\n\n### Complicações — avisar imediatamente\n\n- Suspeita de NEC (distensão, sangue nas fezes, letargia, plaquetopenia).\n- Broncoaspiração (tosse, cianose, dessaturação com gavagem).\n- Desidratação ou hipoglicemia por jejum prolongado.\n- Ganho ponderal nulo > 3 dias com alimentação plena.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Infant and young child feeding — early initiation of breastfeeding.",
+      "url": "https://www.who.int/teams/nutrition-and-food-safety/food-and-nutrition-actions-in-health-systems/infant-and-young-child-feeding"
+    },
+    {
+      "citation": "Vermont Oxford Network. Nutrition and feeding protocols for very low birth weight infants.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Breastfeeding and the use of human milk — policy statement.",
+      "url": "https://publications.aap.org/pediatrics"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on optimal feeding of low birth weight infants in low- and middle-income countries.",
+      "url": "https://www.who.int/publications/i/item/9789241505097"
+    },
+    {
+      "citation": "SATI — Consensos em nutrição neonatal.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ],
+  "division": "baja-complejidad"
+}

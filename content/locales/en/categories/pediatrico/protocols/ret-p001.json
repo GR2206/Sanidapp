@@ -1,0 +1,35 @@
+{
+  "id": "ret-p001",
+  "title": "Pediatric catheter back-culture collection",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Obtain paired blood cultures (peripheral + back-culture from each lumen) simultaneously, using identical weight-based volumes and strict hub disinfection, to diagnose catheter-related bloodstream infection (CRBSI) without removing the device.",
+  "body": "## Steps to perform\n\n1. Confirm suspected CRBSI; identify the patient, catheter type, and the lumen(s) to be sampled.\n2. Prepare identical pediatric bottles and labels (**PERIPHERAL** / **CVC lumen 1**, etc.) before disconnecting anything.\n3. Explain the procedure to the family; arrange for restraint and analgesia if peripheral venipuncture is required.\n4. Perform hand hygiene (WHO Moment 2).\n5. Draw a peripheral blood culture from an extremity other than the catheter site (following the `hem-p001` technique).\n6. **Simultaneously or without delay:** disinfect the hub with alcoholic chlorhexidine for \u226515 seconds; allow to dry; do not re-touch.\n7. Connect a sterile syringe; draw blood from the lumen; inoculate the bottle with **the same volume** as the peripheral culture.\n8. Repeat steps 6–7 for each lumen if the catheter is a multi-lumen device.\n9. Place all bottles into the blood culture incubator **at the same time**.\n10. Document the exact time, weight, volume per bottle, peripheral site, lumen(s), catheter dwell days, and current antibiotics.\n11. Perform hand hygiene upon completion; transport to the laboratory immediately.\n\n## Scientific rationale\n\n### Indication\n\nSuspected **catheter-related bloodstream infection (CRBSI)** in a child with a CVC, PICC, umbilical catheter, or dialysis catheter who presents with fever or clinical deterioration without a clear source, when catheter salvage is desired or the origin must be clarified before removal.\n\nThis protocol complements `hem-p001`. Back-culture must be drawn **at the same time** as the peripheral blood culture (Cornistein et al., 2025; SATI, 2007).\n\n### When NOT to perform\n\n- Catheter in place for <48 hours (unless an aseptic failure occurred during insertion).\n- Low clinical suspicion (increases false positives due to skin flora).\n- Without a simultaneous paired peripheral blood culture.\n- Umbilical catheter: follow the specific neonatology protocol.\n\n### Diagnostic principles\n\n| Method | Criteria suggestive of CRBSI |\n| --- | --- |\n| Differential time to positivity | Back-culture turns positive \u22652 hours before the peripheral culture (same microorganism) |\n| Quantitative | Back-culture/peripheral ratio \u22653:1 |\n| Tip culture | Same microorganism (Maki \u226515 CFU) and peripheral blood culture |\n\n### Paired volume according to weight\n\n| Child’s weight | Volume per bottle (peripheral = back-culture) |\n| --- | --- |\n| < 1 kg | 0.5–1 ml |\n| 1–5 kg | 1–3 ml |\n| 5–10 kg | 3–5 ml |\n| 10–20 kg | 5–10 ml |\n| > 20 kg | 10–15 ml |\n\nUnequal volumes invalidate differential time to positivity.\n\n### Subsequent management\n\n- Confirmed CRBSI: assess catheter removal based on severity, microorganism, and necessity of the access.\n- Do not interpret skin flora (CoNS) without clinical correlation and differential time to positivity.\n- In severe sepsis: do not delay antibiotics (Pediatric SSC 2026).\n\n### Frequent errors\n\n- Insufficient disinfection of the hub \u2192 false positive.\n- Delayed incubation \u2192 skews results.\n- Excessive blood draw in newborns \u2192 iatrogenic anemia.",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, et al. Central venous catheter-associated infections. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Revista Medicina Intensiva. Diagnóstico de bacteriemia asociada a catéter: tiempo diferencial de positividad.",
+      "url": "https://revista.sati.org.ar/index.php/MI/article/view/661"
+    },
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (hemocultivos y sospecha de infección de catéter).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026 — cultivos y manejo de BAC.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "Guía de práctica clínica enfermera sobre hemocultivos — volúmenes pediatrics pareados.",
+      "url": "https://www.consejogeneralenfermeria.org/profesion/guias-clinicas/send/160-guias-clinicas/3122-guia-de-practica-clinica-enfermera-sobre-hemocultivos-actualizacion"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

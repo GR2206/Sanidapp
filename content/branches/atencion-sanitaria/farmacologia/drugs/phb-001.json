@@ -1,0 +1,57 @@
+{
+  "id": "phb-001",
+  "name": "Fenobarbital",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anticonvulsivante, hipnótico.",
+  "indications": "## Indicaciones principales\n\nAnticonvulsivante, hipnótico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 200 mg/mL.",
+      "dose": "Carga 15–20 mg/kg IV lenta; mantenimiento 1–3 mg/kg/día.",
+      "administration": "IV muy lenta."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 15-100 mg; Ampollas de 2 ml: 50 mg/ml; Solución (preparado magistral): 20 mg/ml Ver Formulación",
+      "administration": "V.O.; E.V.: I.M.",
+      "diluent": "Sol. Cl Na 0,9%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "30 mg/min con BIC.",
+      "dose": "Ataque (E.V.; I.M.): 20 mg/kg/dosis, dosis máxima: 1 g. Mantenimiento (V.O.; E.V.): 3-5 mg/kg/día cada 12-24 hs. Adultos: 100 mg cada 12 hs, dosis máxima: 600 mg. I.R. con filtrado glomerular &lt; a 10 ml/min/1,73 m&sup2;: reducir la dosis al 50% y administrar cada 24 hs; hemodiálisis intermitente (se dializa 20-50%): puede ser necesario administrar una dosis extra, administrar una dosis durante y después; diálisis peritoneal (se dializa entre 40-50%, dependiendo del número de ciclos); terapia de reemplazo continua: monitorear los niveles séricos, en algunos casos puede ser necesario dosis más altas y más frecuentes. Insuficiencia hepática: aunque se recomienda disminuir la dosis, no existe un ajuste de dosis específico.",
+      "notes": "Tanto en insuficiencia hepática como renal se recomienda monitoreo frecuente de niveles séricos, en algunos casos puede ser necesario dosis más altas y más frecuentes. Inductor enzimático, reduce concentración plasmática de: carBAMazepina, clonazePAM, lamoTRIgina, valproato. Los efectos anticonvulsivantes son antagonizados por antidepresivos y antipsicóticos. Administrar sin diluir o diluir con igual volumen de Sol. F. Máxima velocidad de infusión: niños: 30 mg/min, adultos o &gt; de 60 kg: 60 mg/min.Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+    },
+    "neonatal": {
+      "dose": "Carga 15–20 mg/kg; mantenimiento 3–4 mg/kg/día (NNU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- No mezclar con otros fármacos en Y.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, irritabilidad e hiperactividad, ataxia, erupción cutánea, depresión cardio-respiratoria.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — FENobarbital (cód. 0092, ATC N03AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

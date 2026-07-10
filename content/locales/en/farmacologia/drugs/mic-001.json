@@ -1,0 +1,48 @@
+{
+  "id": "mic-001",
+  "name": "Micafungin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "IV echinocandin for candidiasis and prophylaxis in transplant patients; one daily dose.",
+  "indications": "## Primary indications\n\n- Esophageal candidiasis and candidemia.\n- Candidiasis prophylaxis in transplant and high-risk ICU patients.\n\n## Precautions\n\n- Adjust in severe hepatic impairment. Hemolysis (rare).\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 50 mg or 100 mg (Mycamine).",
+      "reconstitution": "5 mL of NS. Conc: 10 mg/mL (50 mg) or 20 mg/mL (100 mg). Gently swirl; do not shake vigorously.",
+      "diluent": "50–100 mg in 100 mL of NS.",
+      "finalConcentration": "0.5–1 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL of NS and administer over 60 min. Protect from light.",
+      "notes": "Do not shake vigorously (generates foam). Protect from light throughout preparation and infusion. Do not use D5W for reconstitution. Usual dose for invasive candidiasis: 100 mg/day; prophylaxis in transplant: 50 mg/day. Echinocandin with no dose adjustment required in renal impairment or mild-to-moderate hepatic impairment."
+    },
+    "pediatrico": {
+      "dose": "2–3 mg/kg/day IV (max. 100 mg/day).",
+      "administration": "IV over 1 h."
+    },
+    "neonatal": {
+      "dose": "2–4 mg/kg/day IV per NICU protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature, protected from light.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature, protected from light.",
+  "adverseEffects": "## Effects\n\n- Phlebitis, elevation of alkaline phosphatase, rash, nausea.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

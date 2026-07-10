@@ -1,0 +1,49 @@
+{
+  "id": "ang-001",
+  "name": "Unstable Angina and NSTEMI",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Unstable angina** and **non-ST-elevation myocardial infarction (NSTEMI)** comprise the spectrum of non-ST-elevation acute coronary syndrome. They are characterized by chest pain occurring at rest or prolonged rest, crescendo angina, new-onset angina, or troponin elevation with an ECG that does not meet STEMI criteria. Risk is stratified using scoring systems (HEART, GRACE, TIMI) to determine the need for observation, admission to the coronary care unit, or an early invasive strategy.\n\nManagement includes dual antiplatelet therapy (ASA + P2Y12 inhibitor according to protocol), anticoagulation, beta-blockers, high-intensity statins, and nitrates for symptom control. Coronary angiography is indicated for high-risk patients or those with hemodynamic instability. Differentiate from other causes of chest pain (aortic dissection, pulmonary embolism, pericarditis) before initiating broad anticoagulation.\n\n**Nursing:** serial ECGs and troponin levels according to protocol, continuous monitoring, pain and blood pressure control, logging of anginal episodes, and patient education on red flags upon discharge.",
+  "relatedDrugs": [
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglycerin"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparin sodium"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparin"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morphine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Non-ST-elevation acute coronary syndromes.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). SCA sin elevación del ST.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. NSTE-ACS guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

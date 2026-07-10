@@ -1,0 +1,50 @@
+{
+  "id": "cef-011",
+  "name": "Ceftazidime-avibactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Restricted to cases with multidrug-resistant microorganisms, carbapenemase producers with high risk of horizontal dissemination in the critical care area and associated high morbidity and mortality.",
+  "indications": "## Main indications\n\nRestricted to cases with multidrug-resistant microorganisms, carbapenemase producers with high risk of horizontal dissemination in the critical care area and associated high morbidity and mortality.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 2 g ceftazidime + 0,5 g avibactam (Zavicefta).",
+      "reconstitution": "10 mL SWFI. Conc: 200 mg/mL ceftazidime and 50 mg/mL avibactam.",
+      "diluent": "2,5 g in 100 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "Ceftazidime conc: 20 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL 0.9% NaCl or 5% dextrose and administer over 120 min.",
+      "notes": "Once the infusion is prepared, do not delay more than half an hour before starting it (time between reconstitution and completion of intravenous preparation must not exceed 30 minutes)."
+    },
+    "pediatrico": {
+      "dose": "3 to 6 months: 50 mg (ceftazidime + avibactam)/kg/dose every 8 h; > 6 months to 2 years: 62,5 mg (ceftazidime + avibactam)/kg/dose every 8 h; > 2 years to 18 years: 62,5 mg (ceftazidime + avibactam)/kg/dose every 8 h; maximum 2.500 mg (ceftazidime + avibactam) every 8 h",
+      "administration": "IV",
+      "presentation": "Lyophilized powder vial: 2.500 mg (ceftazidime 2.000 mg + avibactam 500 mg)",
+      "notes": "Not recommended with: probenecid; high doses of cephalosporins and nephrotoxic drugs such as aminoglycosides or potent diuretics (e.g., furosemide). Dosing on hemodialysis (HD) days should be performed after HD is completed. Administer over at least 2 h. Each vial contains 148 mg sodium."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Dilute and use immediately.\n\n## Diluted solution (for administration)\n\n- 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nCandidiasis (including vulvovaginal and oral candidiasis); direct Coombs test positive, eosinophilia, thrombocytosis, thrombocytopenia; headache, dizziness; diarrhea, abdominal pain, nausea, vomiting; elevation of ALT, AST, blood alkaline phosphatase, GGT and blood LDH; maculopapular rash, urticaria, pruritus; thrombosis and phlebitis at infusion site, fever.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefTAZidima + AVIBACTAM* (code 2042, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

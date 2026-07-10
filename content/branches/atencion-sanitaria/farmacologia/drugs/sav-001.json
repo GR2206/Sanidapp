@@ -1,0 +1,46 @@
+{
+  "id": "sav-001",
+  "name": "Sacubitril/valsartán",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.3",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Insuficiencia cardíaca crónica sintomática con disfunción sistólica del ventrículo izquierdo. El Sacubitrilo actúa bloqueando los efectos de la neprilisina y el Valsartán el receptor de la angiotensina II. ",
+  "indications": "## Indicaciones principales\n\nInsuficiencia cardíaca crónica sintomática con disfunción sistólica del ventrículo izquierdo. \nEl Sacubitrilo actúa bloqueando los efectos de la neprilisina y el Valsartán el receptor de la angiotensina II.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 24/26, 49/51 y 97/103 mg (sacubitril/valsartán).",
+      "dose": "Iniciar 49/51 mg VO cada 12 h; titular a 97/103 mg cada 12 h según tolerancia.",
+      "administration": "VO cada 12 h."
+    },
+    "pediatrico": {
+      "dose": "Es progresiva. Para la dosis se considera la sumatoria de ambas drogas. Niños &lt; 40 kg: inicial 1,6 mg/kg/dosis cada 12 hs, pudiendo aumentar la dosis luego de 2 - 4 semanas según tolerancia a 2,3 mg/kg/dosis cada 12 hs con un máximo de 3,1 mg/kg/dosis cada 12 hs.. &gt; de 40 kg a 50 kg: inicial 50 mg/dosis cada 12 hs, pudiendo aumentar la dosis luego de 2 - 4 semanas según tolerancia a 100 mg/dosis cada 12 hs con un máximo de 150 mg/dosis cada 12 hs. &gt; 50 kg: 100 mg/dosis cada 12 hs, pudiendo aumentar la dosis luego de 2 - 4 semanas según tolerancia a 150 mg/dosis cada 12 hs con un máximo de 200 mg/dosis cada 12 hs.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 50 mg (Sacubitrilo 24 mg + Valsartán 26 mg); 100 mg (Sacubitrilo 49 mg + Valsartán 51 mg); 200 mg (Sacubitrilo 97 mg + Valsartán 103 mg)",
+      "notes": "Aumenta la exposición sistémica de estatinas.Con inhibidores sintéticos de la fosfodiesterasa tipo 5 incluyendo sildenafilo riesgo de hipotensión.Riesgo de aumento del potasio sérico y aumentos de creatinina sérica con diuréticos ahorradores de potasio (amilorida), antagonistas mineralocorticoides (p.ej.: espironolactona) suplementos de potasio, sustitutos de la sal que contienen potasio u otros como la heparina.Exposición sistémica aumentada con: inhibidores de OATP1B1, OATP1B3, OAT3 (ej.: rifampicina, ciclosporina), OAT1 (ej. tenofovir, cidofovir) o de MRP2 (ej.: ritonavir). Reduce la concentración máxima y el AUC de metformina. Iniciar con la mitad de la dosis recomendada en pacientes que no venían en tratamiento con IECA /ARA II o que hayan estado tomando dosis bajas de estos medicamentos (&le; 0,2 mg/kg/día de enalapril o equivalente). La terapia concomitante junto con inhibidores de la enzima convertidora de angiotensina II (ej.: losartán) está contraindicada debido al riesgo potencial de angioedema. Si se planea el cambio de medicación, suspender el IECA / ARA II y luego de 36 hs comenzar con el sacubitrilo - valsartán. No iniciar el tratamiento en pacientes con niveles de potasio sérico 5,3 mmol/L o con presión arterial sistólica (PAS) < percentil 5 para la edad del paciente."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto en envase original.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión, alteraciones en la función renal, hiperpotasemia, angioedema, mareo, cefalea, vértigo, tos, fatiga, astenia, anemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Sacubitrilo + Valsartan* (cód. 2090, ATC C09DX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart failure guidelines.",
+      "url": "https://www.escardio.org/"
+    }
+  ]
+}

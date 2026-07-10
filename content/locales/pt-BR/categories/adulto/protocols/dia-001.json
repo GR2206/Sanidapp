@@ -1,0 +1,27 @@
+{
+  "id": "dia-001",
+  "title": "Colocação de cateter de diálise",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Colocar cateter de hemodiálise com técnica estéril, sítio de jugular interna preferido, ultrassonografia quando disponível e plano de retirada ou conversão para fístula conforme KDOQI e prevenção de infecção (SATI/SADI).",
+  "body": "## Passos a realizar\n\n1. Identificar o paciente, verificar prescrição e consentimento; revisar plaquetas/INR conforme protocolo.\n2. Posicionar em Trendelenburg leve (15°) se jugular.\n3. Realizar higienização das mãos e barreira estéril máxima (touca, máscara, campo amplo, luvas estéreis).\n4. Preparar a pele com clorexidina alcoólica em área ampla; **deixar secar**.\n5. Auxiliar na inserção ecoguiada; manter campo estéril.\n6. Verificar fluxo e refluxo em **ambas as vias**; eliminar ar.\n7. Suturar e fixar; aplicar curativo estéril.\n8. Conectar linhas conforme marcação arterial/venosa (não inverter).\n9. Registrar sítio, calibre, tipo (tunelizado/não tunelizado), operador e hora.\n10. Vedar as vias com solução anticoagulante conforme protocolo (heparina ou citrato).\n11. Antes de cada sessão de HD: desinfetar o hub com clorexidina alcoólica (fricção ≥ 15 s); conectar o circuito sem contaminar as vias.\n12. Ao finalizar a sessão, lavar e vedar as vias conforme protocolo da unidade de diálise.\n\n## Fundamentação científica\n\n### Indicações\n\n- Necessidade de hemodiálise imediata sem fístula ou enxerto funcionante.\n- Acesso vascular ponte enquanto amadurece acesso autólogo.\n- Terapia de substituição renal em UTI (IRA grave) conforme critério médico.\n\n### Tipos de cateter\n\n| Tipo | Uso |\n| --- | --- |\n| **Não tunelizado** (temporário) | Urgência, IRA, ponte até fístula ou cateter tunelizado |\n| **Tunelizado com cuff** | Hemodiálise crônica sem acesso autólogo disponível |\n\nAmbos são cateteres venosos centrais de **dupla via** (arterial/venoso para circuito de HD).\n\n### Seleção do sítio\n\n| Sítio | Recomendação |\n| --- | --- |\n| **Jugular interna direita** | Primeira opção (menor risco de estenose central vs subclávia) |\n| **Jugular interna esquerda** | Alternativa |\n| **Femoral** | Somente temporário e de curta duração; maior risco infeccioso |\n| **Subclávia** | **Evitar** se possível (alto risco de estenose venosa central) |\n\n### Evidência e recomendações\n\n> **KDOQI 2019 (Lok et al.):** O cateter deve ser a **última opção** na DRC estágio 5. Planejar acesso autólogo e retirar o cateter quando não for mais necessário.\n\n> **SATI/SADI 2025:** Prevenção de infecção de cateter com técnica asséptica estrita e cuidado das vias.\n\n### Contraindicações relativas\n\n- Infecção no sítio de punção.\n- Trombose venosa central ipsilateral conhecida.\n- Coagulopatia grave não corrigida (avaliar risco/benefício).\n\n### Complicações — comunicar imediatamente\n\n- Sangramento ativo, hematoma em expansão ou comprometimento de via aérea.\n- Pneumotórax ou dispneia aguda pós-inserção.\n- Febre, calafrios ou secreção purulenta no sítio (suspeita de infecção de cateter / bacteremia).\n- Obstrução de ambas as vias ou recirculação excessiva na diálise.",
+  "bibliography": [
+    {
+      "citation": "Lok CE, Huber TS, Lee T, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update. Am J Kidney Dis. 2020;75(4 Suppl 2):S1-S164.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "Lok CE, Huber TS, Lee T. KDOQI 2019 Vascular Access Guidelines: What Is New. Am J Kidney Dis. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35210726/"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización intersociedades SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    }
+  ]
+}

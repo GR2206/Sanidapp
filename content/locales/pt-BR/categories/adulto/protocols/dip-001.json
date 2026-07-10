@@ -1,0 +1,31 @@
+{
+  "id": "dip-001",
+  "title": "Colocação de cateter de diálise peritoneal",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Auxiliar na colocação de cateter de Tenckhoff com técnica estéril, sítio infraumbilical e cuidados pós-operatórios imediatos conforme ISPD/KDOQI.",
+  "body": "## Passos a realizar\n\n1. Verificar identificação do paciente, prescrição, consentimento e jejum conforme protocolo cirúrgico.\n2. Confirmar antibiótico profilático administrado se indicado.\n3. Preparar material estéril: cateter de DP (Tenckhoff), campo, luvas, antisséptico e curativo oclusivo.\n4. Realizar higienização das mãos e vestir barreira estéril conforme função (circulante ou instrumentador).\n5. Posicionar o paciente em decúbito dorsal; desinfetar o abdome com clorexidina alcoólica em área ampla; deixar secar.\n6. Auxiliar na inserção: incisão infraumbilical, dissecção até o peritônio, introdução do cateter e comprovação de fluxo do líquido dialisador.\n7. Verificar se o cateter drena e aspira corretamente; fixar com pontos de sutura conforme técnica.\n8. Realizar curativo da ferida com curativo estéril; deixar o cateter orientado caudalmente e fixado sem tensão.\n9. Registrar tipo de cateter, sítio, operador, hora e teste de fluxo.\n10. Transferir para unidade com cuidados pós-operatórios: vigiar dor, sangramento, peritonismo e função do cateter.\n11. Orientar o paciente: não molhar a ferida conforme protocolo; evitar esforço abdominal inicial; laxante se indicado.\n\n## Fundamentação científica\n\n### Indicações\n\n- Início de terapia de substituição renal com **diálise peritoneal (DP)** como modalidade crônica ou ponte.\n- Doença renal crônica estágio 5 quando a DP é modalidade elegida (KDOQI 2019).\n- Ponte temporária para hemodiálise em situações selecionadas.\n\n### Tipo de cateter\n\n| Característica | Recomendação |\n| --- | --- |\n| Modelo | Tenckhoff com dois cuffs (superficial e profundo) |\n| Sítio de saída | Infraumbilical, lateral à linha média |\n| Orientação | Distal em direção à pelve (evitar kinking) |\n| Túnel | Configuração com trajetória descendente (reduz infecção) |\n\n### Evidência e recomendações\n\n> **ISPD Guidelines on Peritoneal Access (2020):** preferir colocação por equipe treinada; profilaxia antibiótica perioperatória; evitar saída do cateter em prega cutânea ou zona de pressão (Brown et al., 2020).\n\n> **KDOQI Vascular Access 2019:** planejar acesso com antecedência na DRC avançada; DP é modalidade válida quando o paciente está informado e capacitado (Lok et al., 2020).\n\n### Papel da enfermagem\n\n- Preparação pré-operatória e checklist de segurança.\n- Assistência em campo estéril e registro de eventos.\n- Cuidados pós-operatórios imediatos e educação inicial.\n- Coordenação com nefrologia para primeira troca conforme protocolo.\n\n### Cuidados pós-operatórios (primeiras 48–72 h)\n\n- Vigiar sinais vitais, dor, sangramento na ferida e peritonismo.\n- Manter curativo seco; curativo conforme protocolo após período inicial.\n- Evitar manipulação desnecessária do cateter.\n- Não iniciar trocas até ordem médica e fluxo confirmado.\n\n### Complicações — comunicar imediatamente\n\n- Sangramento ativo ou hematoma abdominal em expansão.\n- Dor abdominal intensa, febre ou defesa (suspeita de perfuração ou peritonite).\n- Ausência de fluxo ou vazamento de líquido peridrenagem.\n- Eritema ou exsudato purulento no sítio de saída do cateter.",
+  "bibliography": [
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020;40(4):297-310.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "Lok CE, Huber TS, Lee T, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update. Am J Kidney Dis. 2020.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "Li PK, et al. ISPD Guidelines for Peritoneal Dialysis. Perit Dial Int. 2022 updates.",
+      "url": "https://www.ispd.org/guidelines"
+    },
+    {
+      "citation": "SATI — Comitê de Nefrologia. Recomendações em terapia de substituição renal.",
+      "url": "https://www.sati.org.ar/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for surgical site infection prevention. WHO, 2018.",
+      "url": "https://www.who.int/publications/i/item/9789241550475"
+    }
+  ]
+}

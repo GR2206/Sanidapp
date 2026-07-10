@@ -1,0 +1,41 @@
+{
+  "id": "dic-001",
+  "name": "Diclofenac",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Non-narcotic NSAID with analgesic, antipyretic, and anti-inflammatory action; IV use according to institutional prescription.",
+  "indications": "## Indications\n\n- Moderate to severe acute pain.\n- Inflammation in selected contexts.\n\n## Precautions\n\n- Risk of gastrointestinal and renal effects. Restricted use in pediatrics according to protocol.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampoule 75 mg/3 mL.",
+      "administration": "IV or IM.",
+      "diluent": "0.9% NaCl solution, 5% Dextrose.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "From 30 min to 2 h via syringe pump.",
+      "dose": "150 mg/day.",
+      "notes": "Analgesic, antipyretic, non-steroidal anti-inflammatory drug (NSAID), non-narcotic. May cause dizziness, headache, rash, abdominal pain, diarrhea."
+    }
+  },
+  "stability": "## Pediatric chart\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Effects\n\n- Dizziness, headache, rash, abdominal pain, diarrhea, elevated transaminases.",
+  "bibliography": [
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

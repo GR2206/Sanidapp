@@ -1,0 +1,47 @@
+{
+  "id": "sil-001",
+  "name": "Sildenafila",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Vasodilatador pulmonar para hipertensão pulmonar.",
+  "indications": "## Indicações principais\n\nVasodilatador pulmonar para hipertensão pulmonar.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 50 mg; solução magistral 2 mg/mL.",
+      "dose": "Esquemas conforme protocolo de hipertensão pulmonar.",
+      "administration": "V.O."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 50 mg; Solução (magistral): 2 mg/mL; Ampolas 12,5 mL: 0,8 mg/mL (medicamento importado)",
+      "administration": "V.O.; E.V.",
+      "dose": "Crianças e adolescentes: inicial: 0,5–1 mg/kg/dose a cada 6–8 h, dose máxima: 4 mg/kg/dia até 20 mg/dose a cada 8 h; manutenção: 0,25–1 mg/kg/dose a cada 6–8 h, dose máxima: 4 mg/kg/dia até 20 mg/dose a cada 8 h. Não requer ajuste de dose em insuficiência hepática ou renal",
+      "notes": "Indicação restrita — uso exclusivo do especialista. Não é dialisável. Ver alerta de sildenafila."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula em embalagem original.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, dispepsia, rash, tontura, cefaleia, visão anormal, congestão nasal.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Sildenafil* (cód. 1530, ATC G04BE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Heart Association. Pulmonary hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "European Society of Cardiology. Pulmonary hypertension guidelines.",
+      "url": "https://www.escardio.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

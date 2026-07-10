@@ -1,0 +1,27 @@
+{
+  "id": "son-001",
+  "title": "Urinary catheter insertion",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Insert a urinary catheter only with a justified indication, using sterile technique, appropriate gauge, secure fixation, and a closed system to prevent catheter-associated urinary tract infection (CAUTI).",
+  "body": "## Steps to perform\n\n1. Verify indication and contraindications; confirm patient identity and prescription (type, gauge, expected duration).\n2. Perform hand hygiene and prepare the sterile kit on a clean surface.\n3. Position the patient: supine, knees semi-flexed; separate the labia in females; elevate the penis to 90° in males.\n4. Disinfect the urethral meatus with antiseptic in a circular motion from center to periphery; allow to dry if indicated by protocol.\n5. Insert the catheter using sterile technique: lubricate and gently introduce without forcing until clear urine return is observed.\n6. Inflate the balloon with the indicated volume (usually 10 mL of sterile water; follow manufacturer instructions).\n7. Connect to a drainage bag in a **closed system**; avoid unnecessary disconnections.\n8. Secure the catheter without tension (thigh for females, suprapubic abdomen for males).\n9. Position the drainage bag below the level of the bladder; do not rest it on the floor.\n10. Document the time, gauge, balloon volume, initial urine appearance, and person responsible.\n11. Re-evaluate the catheter indication every shift; remove at the first clinically possible moment.\n\n## Scientific rationale\n\n### Indications\n\n- Acute urinary retention with pain or risk of kidney damage.\n- Strict monitoring of urine output in critically ill patients.\n- Management of incontinence in pressure ulcers or terminal care (according to institutional protocol).\n- Urological or pelvic surgery according to prescription.\n\n### Relative contraindications\n\n- Suspected or confirmed urethral trauma.\n- Unresolved urethral stricture.\n- Ongoing procedure by urology (coordinate).\n\n### Material\n\n- Sterile urinary catheter kit (gauge according to prescription).\n- Sterile water-soluble lubricating gel.\n- Antiseptic (alcoholic chlorhexidine or povidone-iodine according to protocol).\n- Sterile drape, sterile gloves.\n- Closed drainage system and non-compressive securing device.\n\n### Evidence and recommendations\n\n> **SATI/SADI 2024 (Cornistein et al.):** Do not routinely place a catheter. Re-evaluate necessity daily and remove at the first clinically possible moment to prevent CAUTI.\n\n> **SHEA/IDSA 2022 (Lo et al.):** Prevention bundle for catheter-associated urinary tract infections.\n\n### Aftercare\n\n- Maintain daily perineal hygiene with water and soap; do not routinely use antiseptics on the meatus.\n- Monitor for obstruction, leaks, hematuria, suprapubic pain, or fever.\n- Do not change the catheter or bag routinely; only in case of obstruction, disconnection, or institutional protocol.\n\n### Complications — stop and notify\n\n- Inability to pass the catheter or abundant urethral bleeding.\n- Cloudy, purulent urine accompanied by fever (suspected CAUTI).\n- Absence of urine output with abdominal pain (obstruction or malposition).",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a sonda vesical. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "SATI — Critical Infectious Diseases Committee. Guidelines and consensus (CAUTI, HAI prevention).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    }
+  ]
+}

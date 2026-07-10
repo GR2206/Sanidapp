@@ -1,0 +1,31 @@
+{
+  "id": "dip-p001",
+  "title": "Pediatric peritoneal dialysis catheter insertion",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Assist in the insertion of a pediatric peritoneal dialysis (PD) catheter using a sterile technique, selecting the appropriate gauge according to age, and coordinating postoperative care with pediatric nephrology.",
+  "body": "## Steps to perform\n\n1. Verify patient identification, weight, prescription, and family informed consent; confirm fasting status according to protocol.\n2. Administer prophylactic antibiotics if indicated; prepare sedation/analgesia appropriate for age.\n3. Prepare the pediatric PD catheter (gauge/length according to prescription), sterile supplies, and dressing.\n4. Perform hand hygiene and don sterile barriers; ensure thermal regulation in infants.\n5. Position the patient in a supine position; disinfect the abdomen with an antiseptic and allow it to dry completely.\n6. Assist in the insertion: infraumbilical incision, catheter deployment, and verification of dialysate flow.\n7. Verify dialysate drainage and perform a test infusion; secure the catheter without tension and suture according to surgical technique.\n8. Apply a sterile dressing; orient the catheter caudally; document the catheter type, gauge, operator, and time.\n9. Transfer the patient to the pediatric unit; monitor for pain, bleeding, signs of peritonitis, and catheter function.\n10. Educate the family regarding wound care, warning signs, and initial activity restrictions.\n\n## Scientific rationale\n\n### Pediatric indications\n\n- End-stage renal disease (ESRD) in children when PD is the chosen modality.\n- Advanced chronic kidney disease (CKD) while awaiting transplantation.\n- Selected cases of acute kidney injury (AKI) in centers with extensive experience in pediatric PD (coordinate with nephrology).\n\n### Pediatric catheter selection\n\n| Age / size | Guidance |\n| --- | --- |\n| Infant | Smaller gauge pediatric catheter; consider placement by an experienced pediatric surgeon |\n| Child | Length adjusted to body size, with properly positioned cuffs |\n| Adolescent | May utilize an adult catheter based on anthropometrics |\n\n### Evidence and recommendations\n\n> **ISPD Pediatric PD Guidelines (2020):** Peritoneal dialysis is the modality of choice in many pediatric centers; catheter insertion should be performed by a team experienced in pediatric peritoneal access (Schaefer et al., 2020).\n\n> **IPNA (International Pediatric Nephrology Association):** Anticipated planning of vascular/peritoneal access and structured family education from the beginning are fundamental.\n\n### Pediatric postoperative care\n\n- Provision of adequate analgesia; close monitoring for nausea and abdominal distension.\n- Avoid catheter manipulation by the child; ensure secure external fixation.\n- In infants: monitor feeding tolerance and signs of abdominal complications.\n- Perform the first exchange according to the pediatric nephrology protocol (usually after an initial healing period).\n\n### Complications \u2014 notify immediately\n\n- Fever, severe abdominal pain, or abdominal guarding/defensive rigidity.\n- Active bleeding from the wound site.\n- Absence of dialysate flow or fluid leakage.\n- Exit-site infection accompanied by purulent exudate.",
+  "bibliography": [
+    {
+      "citation": "Schaefer F, et al. ISPD Guidelines for Peritoneal Dialysis in Children. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316759/"
+    },
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "Warady MA, et al. IPNA clinical practice recommendations for the diagnosis and management of children with CKD. Pediatr Nephrol. 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30830470/"
+    },
+    {
+      "citation": "Lok CE, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "International Society for Peritoneal Dialysis — pediatric resources.",
+      "url": "https://www.ispd.org/"
+    }
+  ]
+}

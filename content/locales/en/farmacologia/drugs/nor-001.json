@@ -1,0 +1,71 @@
+{
+  "id": "nor-001",
+  "name": "Norepinephrine (noradrenaline)",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Sympathomimetic. Cardiogenic or septic shock with refractory hypotension and low peripheral resistance.",
+  "indications": "## Main indications\n\nSympathomimetic. Cardiogenic or septic shock with refractory hypotension and low peripheral resistance.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "Usual starting dose 0.05–0.1 mcg/kg/min; titrate to target MAP (prescription).",
+      "infusionRate": "Continuous infusion pump.",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+    },
+    "pediatrico": {
+      "presentation": "4 mL ampoules: 1 mg/ml",
+      "administration": "IV",
+      "diluent": "ONLY 5% dextrose.",
+      "finalConcentration": "Usual 4 mcg/mL. With fluid restriction, 16 mcg/mL.",
+      "infusionRate": "Infusion pump only.",
+      "dose": "0.05-1 µg/kg/minute, maximum dose: 2 µg/kg/min Adults: start 4 µg/minute, Infusion: 8-12 µg/minute",
+      "notes": "Oxidizes rapidly, do not use if brown discoloration is present. Dilution in normal saline is not recommended. Effects of norepinephrine may be increased in the presence of tricyclic antidepressants, antihistamines, and beta blockers."
+    },
+    "neonatal": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "0.05–1 mcg/kg/min per NICU protocol and weight.",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+    }
+  },
+  "stability": "## General\n\n- Protect from light. Change solution per service policy (usually 24 h).\n\n## Pediatric guide\n\n- Discard remainder once opened. Dilution stable 24 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nHypertension, necrosis, bradycardia. Prolonged use: decreased cardiac output, plasma volume depletion, severe peripheral and visceral vasoconstriction. Additionally, stress cardiomyopathy.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — NORadrenaline (code 1401, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

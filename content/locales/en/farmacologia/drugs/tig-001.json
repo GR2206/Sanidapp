@@ -1,0 +1,40 @@
+{
+  "id": "tig-001",
+  "name": "Tigecycline",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "IV glycylcycline reserved for complicated intra-abdominal and skin polymicrobial infections.",
+  "indications": "## Indications\n\n- Complicated intra-abdominal and skin infections when alternatives are not suitable.\n\n## Precautions\n\n- Higher mortality in bacteremia in some studies; not first-line in sepsis.\n- Frequent nausea.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial with lyophilized powder containing 50 mg (Tigeciclina Richet, Tygacil).",
+      "reconstitution": "5 mL normal saline (NS) or 5% dextrose (D5W). Concentration: 10 mg/mL.",
+      "diluent": "50 mg in 100 mL of NS or D5W.",
+      "finalConcentration": "0.5 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL NS or D5W and infuse over 30–60 min.",
+      "notes": "Do not administer simultaneously with amphotericin B, amphotericin B lipid complex, or diazepam. If the loading dose is 200 mg, dilute in 200 mL of NS or D5W."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted (in vial): 24 h at room temperature.\n- Diluted solution (to be administered): 48 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\n- Nausea, vomiting, hyperbilirubinemia, pancreatitis (rare).",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "tdm-001",
+  "name": "Internal environment disorders",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Internal environment disorders** group together fluid, electrolyte, and acid-base disturbances frequently encountered in the emergency department: hyponatremia, hyperkalemia, hypokalemia, hypoglycemia, hypocalcemia, and acid-base balance disorders. They are usually the **consequence** of another underlying pathology (vomiting, diarrhea, diuretics, AKI, sepsis, excessive insulin), and inappropriate correction can be iatrogenic.\n\n**Hypovolemic dehydration** presents with thirst, dry mucous membranes, orthostatic hypotension, oliguria, and hemoconcentration; treatment consists of fluid resuscitation with crystalloids according to severity and cause. **Symptomatic hyponatremia** (seizures, coma) requires controlled correction with hypertonic saline according to protocol; rapid correction must be avoided to prevent myelinolysis. **Severe hyperkalemia** demands membrane stabilization (IV calcium), intracellular shift (insulin-dextrose, beta-2 agonists), and elimination depending on available resources.\n\n**Nursing:** monitor vital signs, urine output, and capillary blood glucose if applicable; administer electrolytes and intravenous fluids using an infusion pump when appropriate; and repeat laboratory tests according to medical orders. Document the volume administered and the clinical response.",
+  "relatedDrugs": [
+    {
+      "drugId": "nsh-001",
+      "label": "Hypertonic sodium chloride"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Potassium chloride"
+    },
+    {
+      "drugId": "cag-001",
+      "label": "Calcium gluconate"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Sodium bicarbonate"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Regular insulin"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glucose)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Renal Association. Clinical practice guideline on management of hyponatraemia.",
+      "url": "https://www.era-online.org/"
+    },
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Electrolyte disorders.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Society of Nephrology. Core curriculum in electrolyte disorders.",
+      "url": "https://www.asn-online.org/"
+    }
+  ]
+}

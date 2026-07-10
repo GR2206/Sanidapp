@@ -1,0 +1,61 @@
+{
+  "id": "flu-001",
+  "name": "Fluconazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Urinary candidiasis. Superficial mycoses and deep infections in the non-neutropenic patient.",
+  "indications": "## Main indications\n\nUrinary candidiasis. Superficial mycoses and deep infections in the non-neutropenic patient.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Sachet containing 200 mg (Fluconazol Norgreen, Rivero, Fluconovag, Braun).",
+      "reconstitution": "No prior reconstitution required. Conc: 2 mg/mL.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Administer sachet contents over 60 min.",
+      "notes": "Keep at room temperature and protected from light. Do not remove protective cover (black plastic bag) until time of use."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 100-200 mg; Suspension: 10 mg/mL; 100 mL ready-to-use solution: 2 mg/mL",
+      "administration": "PO; IV",
+      "diluent": "Already diluted.",
+      "finalConcentration": "Do not dilute.",
+      "infusionRate": "2 h with infusion pump.",
+      "dose": "Children: PO, IV: Esophageal and oropharyngeal candidiasis: 3-6 mg/kg/day, maximum dose: 200 mg/day; Systemic candidiasis and cryptococcal meningitis: 6-12 mg/kg/day every 24 h, maximum dose 400 mg; Adults: 200-800 mg/day according to severity of infection.",
+      "compatibility": "Do not administer concomitantly with ampicillin, calcium gluconate, ceftazidime, cefotaxime, cefuroxime, ceftriaxone, clindamycin, furosemide, imipenem, and piperacillin.",
+      "notes": "Fluconazole may increase serum levels of: cyclosporine, phenytoin, tacrolimus, midazolam, zidovudine, warfarin, cisapride. Rifampin decreases serum fluconazole concentration. IV administration: doses ≥ 6 mg/kg infuse over at least 2 h. Good CSF penetration. Elimination: 60% renal; adjust dose in renal insufficiency. See preliminary guide for prevention of medication-related teratogenesis."
+    },
+    "neonatal": {
+      "dose": "Prophylaxis/treatment per NICU protocol (e.g. 6 mg/kg/dose every 72 h in preterm infants).",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- Not specified.\n\n## Pediatric guide\n\n- Discard once opened.",
+  "adverseEffects": "## Adverse effects\n\nNausea, abdominal pain, diarrhea, reversible alopecia, nephrotoxicity, hypokalemia, rash (monitor), pruritus, anorexia, hepatotoxicity (rare), eosinophilia, leukopenia, thrombocytopenia, neutropenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Fluconazole (code 0409, ATC J02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

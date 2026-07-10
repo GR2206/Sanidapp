@@ -1,0 +1,50 @@
+{
+  "id": "azt-002",
+  "name": "Aztreonam-avibactam",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções graves por Gram (−) em pacientes com alergia às penicilinas.",
+  "indications": "## Indicações principais\n\nTratamento de infecções graves por Gram (−) em pacientes com alergia às penicilinas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 1,5 g de aztreonam + 0,5 g de avibactam (em dois frascos separados) (Emblaveo).",
+      "reconstitution": "Reconstituir cada frasco individualmente com 10 mL de AD ou SF. Conc final combinada: aztreonam 100 mg/mL + avibactam 33,3 mg/mL. Misturar ambos os frascos reconstituídos antes de diluir.",
+      "diluent": "1 dose em 100–250 mL de SF ou SG 5%.",
+      "finalConcentration": "Conc aztreonam: ≤ 27 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Infusão em 3 horas (infusão prolongada). Dose habitual: aztreonam 6 g + avibactam 2 g/dia em 3 doses.",
+      "notes": "Indicado para infecções por enterobactérias MBL (incluído NDM). Não misturar com outros medicamentos. Proteger da luz."
+    },
+    "pediatrico": {
+      "dose": "90–120 mg/kg/dia a cada 6–8 h, dose máxima: 8 g/dia. Adultos: 1–2 g a cada 8 h. Fibrose cística: 150 mg/kg/dia a cada 8 h.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 1 g",
+      "notes": "Administrar por infusão E.V. em 20–60 minutos. Cada gramo de aztreonam contém 780 mg de arginina."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Usar imediatamente. Se não for possível, máx. 1 h em temperatura ambiente ou 24 h refrigerado (sem diluir).\n\n## Solução diluída (a administrar)\n\n- 12 h em temperatura ambiente ou 24 h refrigerado uma vez diluído.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, rash, convulsões, náuseas, vômitos, anorexia, dor abdominal, colite pseudomembranosa, eosinofilia, leucopenia, neutropenia, trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Aztreonam* (cód. 1445, ATC J01DF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

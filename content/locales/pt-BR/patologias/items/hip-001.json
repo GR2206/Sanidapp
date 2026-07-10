@@ -1,0 +1,45 @@
+{
+  "id": "hip-001",
+  "name": "Hipoglicemia grave",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **hipoglicemia** é glicemia < 70 mg/dL (3,9 mmol/L); é **grave** quando requer ajuda de terceiros para seu tratamento ou apresenta alteração do nível de consciência ou convulsões. Na emergência é frequente em diabéticos com excesso de insulina ou hipoglicemiantes orais, jejum prolongado, álcool, sepse ou insuficiência renal. Também pode simular AVC ou crise convulsiva.\n\nO tratamento imediato em paciente consciente: **15–20 g de glicose oral** (sachês, suco, mel) e repetir glicemia aos 15 min (regra do 15-15). Se não tolera via oral ou está inconsciente: **glicose IV** (dextrose 10 % ou 25–50 % conforme protocolo) ou **glucagon IM/SC** se não houver acesso venoso. Após recuperação, refeição com carboidratos complexos e revisão do esquema insulínico. Investigar causa (dose, refeição omitida, doença intercorrente).\n\n**Enfermagem**: glicemia capilar na admissão em todo paciente com alteração do sensorium, dupla verificação de dose de dextrose IV, monitorização pós-tratamento (rebote ou hipoglicemia recorrente) e orientação sobre prevenção e portar identificação de diabetes.",
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care — hypoglycemia.",
+      "url": "https://diabetesjournals.org/care/"
+    },
+    {
+      "citation": "Sociedade Argentina de Diabetes (SAD). Manejo de hipoglicemia.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Hypoglycaemia Study Group. Definitions and reporting.",
+      "url": "https://ihsgonline.com/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "Regra do 15-15",
+    "content": "Se o paciente está **consciente e pode deglutir**:\n1. Administrar **15–20 g de glicose** oral (ex.: 4 sachês de glicose ou 150 mL de suco).\n2. Repetir glicemia aos **15 minutos**.\n3. Se persistir < 70 mg/dL, repetir o ciclo.\n4. Após normalizar, oferecer **lanche** com carboidrato complexo.\n\nSe está **inconsciente**: glicose IV ou glucagon IM — não administrar nada por via oral."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glicose)"
+    },
+    {
+      "drugId": "glc-001",
+      "label": "Glucagon"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    }
+  ]
+}

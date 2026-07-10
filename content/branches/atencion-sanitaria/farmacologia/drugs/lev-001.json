@@ -1,0 +1,46 @@
+{
+  "id": "lev-001",
+  "name": "Levofloxacino",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cervicitis, uretritis por Cl. trachomatis y gonococo. Infecciones graves por gérmenes multirresistentes. Infecciones por micobacterias.",
+  "indications": "## Indicaciones principales\n\nCervicitis, uretritis por Cl. trachomatis y gonococo. Infecciones graves por gérmenes multirresistentes. Infecciones por micobacterias.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 500 mg, 750 mg; IV 500 mg.",
+      "dose": "500–750 mg VO/IV cada 24 h.",
+      "administration": "VO o IV."
+    },
+    "pediatrico": {
+      "dose": "Niños: es muy limitada la información, algunos centros recomiendan: 6 meses a 5 años: 10 mg/kg/dosis cada 12 hs, dosis máxima: 500 mg/día; mayores de 5 años: 10 mg/kg/dosis cada 24 hs, dosis máxima: 1 g/día. Adultos: 500 mg cada 24 hs; infecciones graves: 750 mg cada 24 hs; tratamiento para tuberculosis : 15 - 20 mg/kg/día cada 24 hs; diarrea del viajero: 500 mg cada 24 hs durante 3 días.",
+      "administration": "V.O.; E.V.",
+      "presentation": "Comprimidos: 500 mg; F.A. de 20 ml: 25 mg/ml; Suspensión (preparación magistral): 50 mg/ml",
+      "notes": "Los antiácidos a base de aluminio y magnesio deben ser ingeridos al menos 2 hs antes o después de la levofloxacina. Puede prolongar la vida media de la teofilina. Efectos aditivos con medicamentos que prolongan el intervalo QT.Ver guía de tratamiento de tuberculosis"
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV diluida según prospecto; proteger de luz.",
+  "adverseEffects": "## Efectos adversos\n\nDiarrea, náuseas, vaginitis, rash, insomnio, toxicidad hepática. Hiperglucemia, hipoglucemia. Rupturas tendinosas (más frecuentemente en tendón de Aquiles) a partir de las 48 hs de tratamiento.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — levoFLOXacina* (cód. 1360, ATC J01MA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

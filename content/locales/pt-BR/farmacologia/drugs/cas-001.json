@@ -1,0 +1,54 @@
+{
+  "id": "cas-001",
+  "name": "Caspofungina",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Para pacientes intolerantes ou sem resposta a outros antifúngicos, com insuficiência renal e candidíase documentada, ou com insuficiência hepática quando o fluconazol não puder ser usado. Tratamento empírico em neutropenia febril.",
+  "indications": "## Indicações principais\n\nPara pacientes intolerantes ou sem resposta a outros antifúngicos, pacientes com insuficiência renal que tenham infecção documentada por cândida, pacientes com insuficiência hepática em que não se possa utilizar fluconazol.\nTratamento empírico em neutropenia febril sem foco no 5º ou 7º dia de persistência de febre e neutropenia.\nProfilaxia em pacientes transplantados de medula óssea e em leucemias e, em alguns casos, como tratamento de infecções documentadas por fungos sensíveis a equinocandinas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 50 mg ou 70 mg (Cancidas).",
+      "reconstitution": "10,5 mL de AD, SF ou água bacteriostática. Conc: 5 mg/mL (50 mg) ou 7 mg/mL (70 mg). Agitar suavemente até obter solução clara.",
+      "diluent": "50–70 mg em 250 mL de SF ou Ringer lactato.",
+      "finalConcentration": "0,2–0,28 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Retirar o volume necessário e diluir em 250 mL de SF ou Ringer lactato. Administrar em 60 min.",
+      "notes": "Não utilizar Dx 5% como diluente (incompatível). Dose de carga: 70 mg no dia 1; manutenção: 50 mg/dia. Em pacientes com insuficiência hepática moderada, aumentar para 70 mg/dia. Equinocandina de primeira linha para candidíase invasora."
+    },
+    "pediatrico": {
+      "dose": "Neonatos: 2 mg/kg/dia (com autorização de Infectologia); Crianças > 3 meses: dose de carga 70 mg/m² e continuar com 50 mg/m²; quando coadministrada com rifampicina, nevirapina, efavirenz, carbamazepina, dexametasona, fenitoína, aumentar para 70 mg/m² a cada 24 h, dose máxima 70 mg/dose. Adultos: inicial 70 mg/dose e depois 50 mg/dose a cada 24 h; quando coadministrada com rifampicina, nevirapina, efavirenz, carbamazepina, dexametasona, fenitoína, deve aumentar-se para 70 mg/dose uma vez por dia. Não necessita ajuste por insuficiência renal.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 50 e 70 mg",
+      "notes": "Administrar lentamente, em 1 hora. Não diluir em dextrose. Estável 48 h refrigerado uma vez diluído. Interações: com ciclosporina pode aumentar a concentração da caspofungina (observou-se aumento das transaminases), evitar; com tacrolimus pode diminuir a concentração sérica do tacrolimus."
+    },
+    "neonatal": {
+      "dose": "25 mg/m²/dia E.V. conforme protocolo NNU (uso especializado).",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente, 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente, 48 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, rash, diarreia, cefaleia, aumento de transaminases e fosfatase alcalina.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Caspofungín* (cód. 1594, ATC J02AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

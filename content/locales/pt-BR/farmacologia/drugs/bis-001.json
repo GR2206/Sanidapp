@@ -1,0 +1,41 @@
+{
+  "id": "bis-001",
+  "name": "Bisoprolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Betabloqueador beta-1 cardioseletivo de ação prolongada para IC e HAS.",
+  "indications": "## Indicações\n\n- Insuficiência cardíaca crônica estável com disfunção sistólica.\n- Hipertensão arterial.\n- Angina pectoris.\n\n## Precauções\n\n- Titulação gradual. Não suspender bruscamente. Contraindicado em asma grave e bloqueio AV avançado.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 2,5, 5 e 10 mg.",
+      "dose": "IC: iniciar 1,25 mg/dia VO e titular até 10 mg/dia. HAS: 5–10 mg/dia.",
+      "administration": "VO em dose única matinal."
+    },
+    "pediatrico": {
+      "dose": "0,1–0,2 mg/kg/dia VO (uso especializado).",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n- Bradicardia, hipotensão, fadiga, tontura, broncoespasmo.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Heart failure and hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

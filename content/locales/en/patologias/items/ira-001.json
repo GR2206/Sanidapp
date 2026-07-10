@@ -1,0 +1,45 @@
+{
+  "id": "ira-001",
+  "name": "Acute Kidney Injury (AKI)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Acute kidney injury** (acute renal failure) is a rapid decline in renal function, characterized by the accumulation of nitrogenous waste products and disturbances in fluid, electrolyte, and acid-base balance. It is classified into **prerenal** (hypoperfusion), **renal** (nephrotoxins, ATN), and **postrenal** (obstruction). In the emergency department, it is frequently caused by dehydration, sepsis, nephrotoxic agents (NSAIDs, contrast media, aminoglycosides), and prostatic obstruction in older men.\n\nEvaluation includes serial creatinine and urea levels, an ionogram, blood gas analysis, urinary sediment, renal ultrasound if obstruction is suspected, and a review of medications. Initial management focuses on **treating the underlying cause**, discontinuing nephrotoxic agents, adjusting drug dosages according to clearance, and optimizing volume: crystalloids in prerenal cases with an expected response, while avoiding fluid overload in oliguria. Indications for **urgent dialysis** include refractory hyperkalemia, severe acidosis, fluid overload with hypoxemia, or symptomatic uremia.\n\n**Nursing:** strict fluid balance, daily weight, precise recording of hourly urine output, monitoring of K⁺ levels and ECG if hyperkalemia is present, and prevention of further renal insults. Coordinate with pharmacy for the dosage adjustment of antibiotics and anticoagulants.",
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemide"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Sodium bicarbonate"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Potassium chloride"
+    },
+    {
+      "drugId": "nsh-001",
+      "label": "Hypertonic sodium chloride"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Acute Kidney Injury guideline.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Argentine Society of Nephrology (SAN). National consensus statements.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Acute kidney injury guideline.",
+      "url": "https://www.nice.org.uk/guidance/ng148"
+    }
+  ]
+}

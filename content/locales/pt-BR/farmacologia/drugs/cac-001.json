@@ -1,0 +1,51 @@
+{
+  "id": "cac-001",
+  "name": "Cloreto de cálcio",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento da hipocalcemia e da hiperpotassemia.",
+  "indications": "## Indicações principais\n\nTratamento da hipocalcemia e da hiperpotassemia.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 10% cloreto de cálcio (13,6 mEq Ca/10 mL).",
+      "dose": "PCR: 1 g (10 mL) E.V./I.O. Hipocalcemia: 0,5–1 g E.V. lento.",
+      "administration": "E.V./I.O. lento."
+    },
+    "pediatrico": {
+      "dose": "Hipocalcemia sintomática: 0,1–0,2 ml/kg/dose (0,14–0,28 mEq de Ca++/kg/dose) a cada 4–6 h. Adultos: 5–10 ml/dose (7–14 mEq/dose) a cada 6 h. Hiperpotassemia: 0,3 ml/kg (máximo: 3 ml). Ver Boletim CIME Eletrólitos.",
+      "administration": "E.V.",
+      "presentation": "Ampolas de 10 ml: 100 mg de cloreto de cálcio/ml (1,4 mEq de Ca++/ml = 27,3 mg de Ca++/ml)",
+      "notes": "A administração E.V. deve ser realizada de forma lenta (< de 0,5–1 ml/min). Para infusão E.V. diluir até 20 mg de cloreto de cálcio por ml (0,2 ml/ml) e infundir em 1 hora. Solventes compatíveis: D 5% e Sol. F. Incompatível com bicarbonato, fosfato e sulfato."
+    },
+    "neonatal": {
+      "dose": "20 mg/kg E.V. lento em PCR/hipocalcemia NNU.",
+      "administration": "E.V. central."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Incompatível com bicarbonato em linha.",
+  "adverseEffects": "## Efeitos adversos\n\nNecrose tecidual por extravasamento. Monitorar a frequência cardíaca. Se ocorrer bradicardia, interromper a infusão.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cálcio CLORETO (ATC A12AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

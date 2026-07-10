@@ -1,0 +1,45 @@
+{
+  "id": "trm-001",
+  "name": "Tramadol",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Analgésico.",
+  "indications": "## Indicações principais\n\nAnalgésico.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Calmador(R) cápsulas: 50 mg, gotas: 1 ml=20 gotas=50 mg, ampolas de 1 ml: 50 mg/ml; Lixidol®: comprimidos 50 mg, gotas: 1 ml=24 gotas=100 mg; Nobligán(R) cápsulas: 50 mg, gotas: 1 ml=40 gotas=100 mg, ampolas de 2 ml: 50 mg/ml",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "25 mg/mL.",
+      "infusionRate": "20 min. com BIC.",
+      "dose": "1–2 mg/kg/dose a cada 8 h, dose máxima: 3–6 mg/kg/dia. Adultos: 50–100 mg a cada 4–6 h, dose máxima: 400 mg/dia. Ao passar a cápsulas de liberação controlada dar a cada 12 h. Ajustar a dose em insuficiência hepática.",
+      "notes": "Droga em avaliação em pediatria, utilizar em crianças maiores e adolescentes. Interage com carbamazepina e antidepressivos tricíclicos. Ver alerta"
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nVer apartado analgésicos opiáceos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — TraMADol Cloridrato * (cód. 0477, ATC N02AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

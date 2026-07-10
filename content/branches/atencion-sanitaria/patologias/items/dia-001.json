@@ -1,0 +1,44 @@
+{
+  "id": "dia-001",
+  "name": "Diabetes mellitus",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La diabetes mellitus es una enfermedad metabólica definida por hiperglucemia crónica. En la **diabetes tipo 1** hay destrucción de las células beta pancreáticas y déficit absoluto de insulina, con inicio frecuente en la infancia o adolescencia. La **diabetes tipo 2** combina resistencia a la insulina y secreción insuficiente; se asocia a edad avanzada, sobrepeso, sedentarismo y antecedentes familiares. La **diabetes gestacional** aparece durante el embarazo y exige control estricto por el riesgo materno y fetal.\n\nEntre las afecciones agudas destacan la **cetoacidosis diabética** (más habitual en tipo 1), el **estado hiperglucémico hiperosmolar** (más frecuente en tipo 2) y la **hipoglucemia**, que puede deberse a exceso de insulina, ayuno prolongado o actividad física no compensada. Las complicaciones crónicas incluyen retinopatía, nefropatía, neuropatía periférica, pie diabético e incremento del riesgo cardiovascular. En la valoración de enfermería conviene registrar poliuria, polidipsia, pérdida de peso, heridas que cicatrizan mal y cambios en el nivel de conciencia.\n\nEl **tratamiento oportuno** combina educación, plan alimentario y actividad física. El tipo 1 requiere insulina desde el diagnóstico. En el tipo 2 se inicia habitualmente con metformina y otros fármacos según meta glucémica; la insulina se indica cuando no se alcanza el control. En hospitalización: monitorizar glucemia capilar, administrar insulina basal y de corrección según protocolo institucional, e iniciar de inmediato el algoritmo de **CAD** o **EHH** cuando corresponda. Ante hipoglucemia sintomática, aplicar la regla del 15-15 (glucosa oral) o glucagón / dextrosa IV según gravedad y protocolo del servicio.",
+  "relatedDrugs": [
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "Insulina NPH"
+    },
+    {
+      "drugId": "glc-001",
+      "label": "Glucagón"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrosa (glucosa)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care in Diabetes.",
+      "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"
+    },
+    {
+      "citation": "Sociedad Argentina de Diabetes (SAD). Guías y consensos nacionales.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Diabetes Federation. IDF Diabetes Atlas.",
+      "url": "https://diabetesatlas.org/"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "hio-001",
+  "name": "Hioscina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Espasmolítico, para inibir produção de secreções.",
+  "indications": "## Indicações principais\n\nEspasmolítico, para inibir produção de secreções.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Comprimidos: 10 mg; Ampolas: 20 mg/ml.",
+      "administration": "V.O.; E.V.; I.M.; S.L.; S.C.",
+      "diluent": "A. dest., Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "Bolo 5 min.",
+      "dose": "Antissecretório (coadjuvante): E.V.–S.C.–I.M.: Lactentes e < 6 anos: 0,3–0,6 mg/kg/dose, dose máxima: 1,5 mg/kg/dia; 6 a 12 anos: 5–10 mg/dose até 3 vezes por dia, > 12 anos: 20 mg/dose até 4 vezes por dia, adultos dose máxima: 100 mg/dia. V.O.: 6 a 12 anos: 10 mg/dose a cada 8 h, > 12 anos: 20 mg a cada 6 h.",
+      "notes": "Contraindicada em pacientes com miastenia gravis, megacólon e glaucoma. A hioscina aumenta os efeitos anticolinérgicos de: antidepressivos anticolinérgicos, anti-histamínicos, amantadina, fenotiazinas. O uso concomitante com metoclopramida pode diminuir o efeito sobre o trato gastrointestinal de ambas as drogas. A ampola pode ser administrada por V.O. Ver alerta."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nSecura da boca, taquicardia, distúrbios na visão, constipação, retenção urinária. Reações alérgicas.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Hioscina N-Butilbromuro (cód. 0840, ATC A03BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

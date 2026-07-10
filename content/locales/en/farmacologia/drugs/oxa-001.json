@@ -1,0 +1,47 @@
+{
+  "id": "oxa-001",
+  "name": "Oxacillin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Penicillinase-resistant penicillin for MSSA; not active against MRSA.",
+  "indications": "## Main indications\n\n- Infections caused by oxacillin-susceptible *Staphylococcus aureus* (MSSA).\n- Cellulitis, osteomyelitis, staphylococcal endocarditis (regimens).\n\n## Precautions\n\n- Do not use if MRSA is suspected.\n- Penicillin allergy.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "1 g or 2 g vial.",
+      "reconstitution": "Reconstitute 1 g with 10 mL of water for injection or 0.9% NaCl.",
+      "dose": "1–2 g IV every 4–6 h.",
+      "infusionRate": "Infusion over 30–60 min.",
+      "administration": "IV or IM."
+    },
+    "pediatrico": {
+      "dose": "100–200 mg/kg/day divided every 4–6 h.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "25–50 mg/kg/dose every 12 h (NICU protocol).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted solution: 4 h at room temperature / 24 h refrigerated (verify package insert).",
+  "adverseEffects": "## Common\n\n- Phlebitis, rash.\n\n## Severe\n\n- Anaphylaxis, interstitial nephritis (rare).",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

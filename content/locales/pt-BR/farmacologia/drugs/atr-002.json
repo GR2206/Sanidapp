@@ -1,0 +1,51 @@
+{
+  "id": "atr-002",
+  "name": "Atracúrio",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Relaxante muscular de ação periférica (bloqueador neuromuscular). Indicado em insuficiência hepática e renal grave.",
+  "indications": "## Indicações principais\n\nRelaxante muscular de ação periférica (bloqueador neuromuscular). Indicado em insuficiência hepática e renal grave.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 10 mg/mL.",
+      "dose": "0,4–0,5 mg/kg em bolus; 5–10 mcg/kg/min.",
+      "administration": "E.V."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas de 5 mL: 10 mg/mL",
+      "administration": "E.V.",
+      "dose": "0,5 mg/kg. Infusão contínua: 0,3 mg/kg/hora.",
+      "notes": "Uso exclusivo do especialista."
+    },
+    "neonatal": {
+      "dose": "0,5 mg/kg em bolus conforme protocolo.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Usar em 24 h.",
+  "adverseEffects": "## Efeitos adversos\n\nLiberador de histamina.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Atracurium Besilato* (cód. 0022, ATC M03AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sep-001",
+  "title": "Sepsis en adulto",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Identificar precozmente la sepsis, iniciar antibiótico en la primera hora, medir lactato y monitorizar perfusión y función respiratoria.",
+  "body": "## Pasos a realizar\n\n1. Ante sospecha clínica, activar el protocolo institucional de sepsis y avisar al equipo médico de inmediato.\n2. Iniciar monitorización continua: FC, TA, FR, SpO₂, temperatura y diuresis.\n3. Administrar oxigenoterapia para mantener SpO₂ ≥ 92% (ajustar según comorbilidades).\n4. Canalizar acceso vascular periférico y, si precisa, central.\n5. Tomar cultivos **antes** del antibiótico solo si no retrasa su inicio.\n6. Administrar antibiótico de amplio espectro empírico en la **primera hora** desde el reconocimiento.\n7. Solicitar lactato sérico; repetir si el valor inicial es > 2 mmol/L.\n8. Infundir cristaloides guiados por respuesta hemodinámica si hay hipoperfusión.\n9. Reevaluar al paciente cada 30–60 minutos: perfusión, balance hídrico y respuesta al tratamiento.\n10. Registrar tiempos críticos (reconocimiento, cultivos, antibiótico, fluidos) y comunicar deterioro de forma inmediata.\n\n## Fundamentación científica\n\n### Indicaciones\n\nSíndrome de disfunción orgánica potencialmente mortal causada por una respuesta desregulada del huésped a la infección (definición Sepsis-3).\n\n### Criterios de sospecha (enfermería / primer contacto)\n\n- Alteración del estado mental, fiebre o hipotermia.\n- Taquicardia, taquipnea o hipotensión.\n- Oliguria, mala perfusión periférica o lactato elevado.\n- Foco infeccioso probable (respiratorio, urinario, abdominal, piel, dispositivos).\n\n### Evidencia y recomendaciones\n\n> **Surviving Sepsis Campaign 2021 (Evans et al.):** Ante sospecha de sepsis, no demorar antibiótico ni reanimación por estudios complementarios. Obtener cultivos antes del antibiótico si no retrasa su inicio más de 45 minutos.\n\n> **SATI — Comité de Infectología Crítica:** La detección temprana y el cumplimiento del bundle de sepsis (cultivos, antibiótico, lactato, fluidos) son responsabilidad transversal del equipo, con rol central de enfermería en vigilancia y registro.\n\n### Rol de enfermería\n\n- Detección temprana y registro sistemático de signos de alarma.\n- Cumplimiento de bundles de sepsis (cultivos, antibiótico, lactato, fluidos).\n- Vigilancia de perfusión, balance hídrico y respuesta al tratamiento.\n- Comunicación inmediata al equipo médico ante deterioro.\n\n### Complicaciones\n\n- Shock séptico refractario.\n- Insuficiencia respiratoria aguda.\n- Lesión renal aguda y disfunción multiorgánica.\n- Retraso en antibiótico o reanimación volumétrica inadecuada.",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "Surviving Sepsis Campaign — Guías y recursos oficiales.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Terapia Intensiva (SATI). Comité de Infectología Crítica — Guías y consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Rhodes A, Evans LE, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensive Care Med. 2017;43(3):304-377.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28101605/"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+import patologiasIndex from '../../../content/branches/atencion-sanitaria/patologias/index.json';
+import abd_001 from '../../../content/branches/atencion-sanitaria/patologias/items/abd-001.json';
+import acv_001 from '../../../content/branches/atencion-sanitaria/patologias/items/acv-001.json';
+import ana_001 from '../../../content/branches/atencion-sanitaria/patologias/items/ana-001.json';
+import ang_001 from '../../../content/branches/atencion-sanitaria/patologias/items/ang-001.json';
+import asm_001 from '../../../content/branches/atencion-sanitaria/patologias/items/asm-001.json';
+import cad_001 from '../../../content/branches/atencion-sanitaria/patologias/items/cad-001.json';
+import cel_001 from '../../../content/branches/atencion-sanitaria/patologias/items/cel-001.json';
+import cho_001 from '../../../content/branches/atencion-sanitaria/patologias/items/cho-001.json';
+import cov_001 from '../../../content/branches/atencion-sanitaria/patologias/items/cov-001.json';
+import cvu_001 from '../../../content/branches/atencion-sanitaria/patologias/items/cvu-001.json';
+import del_001 from '../../../content/branches/atencion-sanitaria/patologias/items/del-001.json';
+import den_001 from '../../../content/branches/atencion-sanitaria/patologias/items/den-001.json';
+import dia_001 from '../../../content/branches/atencion-sanitaria/patologias/items/dia-001.json';
+import dlp_001 from '../../../content/branches/atencion-sanitaria/patologias/items/dlp-001.json';
+import ecl_001 from '../../../content/branches/atencion-sanitaria/patologias/items/ecl-001.json';
+import end_001 from '../../../content/branches/atencion-sanitaria/patologias/items/end-001.json';
+import epoc_001 from '../../../content/branches/atencion-sanitaria/patologias/items/epoc-001.json';
+import fa_001 from '../../../content/branches/atencion-sanitaria/patologias/items/fa-001.json';
+import hda_001 from '../../../content/branches/atencion-sanitaria/patologias/items/hda-001.json';
+import hip_001 from '../../../content/branches/atencion-sanitaria/patologias/items/hip-001.json';
+import hta_001 from '../../../content/branches/atencion-sanitaria/patologias/items/hta-001.json';
+import iam_001 from '../../../content/branches/atencion-sanitaria/patologias/items/iam-001.json';
+import icc_001 from '../../../content/branches/atencion-sanitaria/patologias/items/icc-001.json';
+import int_001 from '../../../content/branches/atencion-sanitaria/patologias/items/int-001.json';
+import ira_001 from '../../../content/branches/atencion-sanitaria/patologias/items/ira-001.json';
+import itu_001 from '../../../content/branches/atencion-sanitaria/patologias/items/itu-001.json';
+import men_001 from '../../../content/branches/atencion-sanitaria/patologias/items/men-001.json';
+import per_001 from '../../../content/branches/atencion-sanitaria/patologias/items/per-001.json';
+import pna_001 from '../../../content/branches/atencion-sanitaria/patologias/items/pna-001.json';
+import pnc_001 from '../../../content/branches/atencion-sanitaria/patologias/items/pnc-001.json';
+import rhd_001 from '../../../content/branches/atencion-sanitaria/patologias/items/rhd-001.json';
+import sep_001 from '../../../content/branches/atencion-sanitaria/patologias/items/sep-001.json';
+import sin_001 from '../../../content/branches/atencion-sanitaria/patologias/items/sin-001.json';
+import tdm_001 from '../../../content/branches/atencion-sanitaria/patologias/items/tdm-001.json';
+import tep_001 from '../../../content/branches/atencion-sanitaria/patologias/items/tep-001.json';
+import tra_001 from '../../../content/branches/atencion-sanitaria/patologias/items/tra-001.json';
+import tsv_001 from '../../../content/branches/atencion-sanitaria/patologias/items/tsv-001.json';
+import type { Pathology, PathologyIndex } from '@/types/pathology';
+
+export const LOCAL_PATHOLOGY_INDEX = patologiasIndex as PathologyIndex;
+
+/** Generado por scripts/sync-pathologies.mjs */
+export const LOCAL_PATHOLOGIES: Record<string, Pathology> = {
+  'abd-001': abd_001 as Pathology,
+  'acv-001': acv_001 as Pathology,
+  'ana-001': ana_001 as Pathology,
+  'ang-001': ang_001 as Pathology,
+  'asm-001': asm_001 as Pathology,
+  'cad-001': cad_001 as Pathology,
+  'cel-001': cel_001 as Pathology,
+  'cho-001': cho_001 as Pathology,
+  'cov-001': cov_001 as Pathology,
+  'cvu-001': cvu_001 as Pathology,
+  'del-001': del_001 as Pathology,
+  'den-001': den_001 as Pathology,
+  'dia-001': dia_001 as Pathology,
+  'dlp-001': dlp_001 as Pathology,
+  'ecl-001': ecl_001 as Pathology,
+  'end-001': end_001 as Pathology,
+  'epoc-001': epoc_001 as Pathology,
+  'fa-001': fa_001 as Pathology,
+  'hda-001': hda_001 as Pathology,
+  'hip-001': hip_001 as Pathology,
+  'hta-001': hta_001 as Pathology,
+  'iam-001': iam_001 as Pathology,
+  'icc-001': icc_001 as Pathology,
+  'int-001': int_001 as Pathology,
+  'ira-001': ira_001 as Pathology,
+  'itu-001': itu_001 as Pathology,
+  'men-001': men_001 as Pathology,
+  'per-001': per_001 as Pathology,
+  'pna-001': pna_001 as Pathology,
+  'pnc-001': pnc_001 as Pathology,
+  'rhd-001': rhd_001 as Pathology,
+  'sep-001': sep_001 as Pathology,
+  'sin-001': sin_001 as Pathology,
+  'tdm-001': tdm_001 as Pathology,
+  'tep-001': tep_001 as Pathology,
+  'tra-001': tra_001 as Pathology,
+  'tsv-001': tsv_001 as Pathology,
+};

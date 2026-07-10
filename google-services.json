@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617324349863",
+    "project_id": "sanidapp-b67d7",
+    "storage_bucket": "sanidapp-b67d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617324349863:android:074b523b2e9f4e49b64e82",
+        "android_client_info": {
+          "package_name": "com.gr2206.sanidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617324349863-o3gnmdujlaq9uahskjv9cno8fstfmm9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW1hmhN30HMAtZ6qZjjmq3XWCkCELnBnI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617324349863-o3gnmdujlaq9uahskjv9cno8fstfmm9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

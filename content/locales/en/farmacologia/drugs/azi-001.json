@@ -1,0 +1,51 @@
+{
+  "id": "azi-001",
+  "name": "Azithromycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.5",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Macrolide. Disseminated Mycobacterium avium intracellulare group infection, chronic Pseudomonas aeruginosa infections in cystic fibrosis patients. STI prophylaxis (Chlamydia trachomatis).",
+  "indications": "## Main indications\n\nMacrolide. Disseminated Mycobacterium avium intracellulare group infection, chronic Pseudomonas aeruginosa infections in cystic fibrosis patients. STI prophylaxis (Chlamydia trachomatis).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 500 mg; suspension; IV vial 500 mg.",
+      "dose": "500 mg PO day 1, then 250 mg/day x 4 days; or 500 mg IV every 24 h.",
+      "administration": "PO or IV."
+    },
+    "pediatrico": {
+      "dose": "< 6 months: 10 mg/kg/day every 24 h for 5 days; > 6 months day 1: 10 mg/kg/day (maximum: 500 mg), then 5 mg/kg/day (maximum: 250 mg), to complete 5 days; Adolescents and adults: day 1: 500 mg, then 250 mg to complete 5 days. Pharyngitis: 12 mg/kg/day for 5 days. Atypical mycobacteria prophylaxis: 20–30 mg/kg weekly, maximum dose: 1200 mg/week. STI prophylaxis: Children: PO: 20 mg/kg/dose, single dose; Adolescents: PO: 1 g/dose, single dose.",
+      "administration": "PO",
+      "presentation": "Tablets: 500 mg; Oral suspension powder: 40 mg/mL",
+      "notes": "Do not administer with food or antacids. Interactions: carbamazepine and digoxin."
+    },
+    "neonatal": {
+      "dose": "Restricted use per NICU protocol (e.g., Chagas).",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted IV per package insert.",
+  "adverseEffects": "## Adverse effects\n\nPseudomembranous colitis, allergies, gastrointestinal symptoms, headaches, dizziness, vertigo, somnolence. Rare: elevated transaminases.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — azITROMICina (code 0934, ATC J01FA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

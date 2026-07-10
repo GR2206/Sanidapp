@@ -1,0 +1,47 @@
+{
+  "id": "ome-001",
+  "name": "Omeprazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Severe gastrointestinal bleeding. Gastro-duodenal ulcer. Gastroesophageal reflux. Hypersecretory conditions. Proton pump inhibitor.",
+  "indications": "## Main indications\n\nSevere gastrointestinal bleeding. Gastro-duodenal ulcer. Gastroesophageal reflux. Hypersecretory conditions. Proton pump inhibitor.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Capsules/tablets: 10-20-40 mg; MUPS tablets: 10-20 mg; Powder vial: 40 mg (reconstitute only with the solvent supplied with the vial); Oral suspension: Bottle with powder for reconstitution in 70 ml: 2 mg/ml, also contains 168 mg of sodium bicarbonate/ml.",
+      "reconstitution": "Reconstitute only with the solvent supplied by the manufacturer.",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl or 5% dextrose for dilution.",
+      "finalConcentration": "0.4 mg/mL.",
+      "infusionRate": "Between 20 and 30 minutes with infusion pump.",
+      "dose": "PO: Esophagitis: Children: 0.5 mg/kg/dose, every 24 h, maximum dose: 20 mg/day; Adults: 20 mg/dose, every 24 h. Duodenal ulcer: Children: 1 mg/kg/day; every 12 h, maximum dose 20 mg/day; Adults: 20 mg/dose, every 24 h. Gastroesophageal reflux: Children > 1 month: 0.5-1 mg/kg/dose, every 24 h, maximum dose: 20 mg/day, Adults: 20 mg/dose, every 24 h. Hypersecretory conditions: 60 mg/day. Zollinger-Ellison syndrome: 60 mg/dose every 8 h, followed by maintenance PO therapy of 90 mg/dose every 12 h and then every 24 h. IV: Children 1 month-12 years: 0.5-2 mg/kg/dose, every 24 h. > 12 years: 40 mg/dose, every 24 h. Switch to oral route as soon as the patient tolerates. Gastrointestinal bleeding administer every 8 h, for 3 to 5 days according to evolution and then every 12-24 h.",
+      "compatibility": "Do not administer concomitantly with rifampicin, phenytoin, and carbamazepine.",
+      "notes": "Once reconstituted with the manufacturer solvent, the injectable lasts 4 h, infuse slowly, undiluted (maximum rate: 4 ml/min). For IV infusion: reconstitute powder with 10 ml of normal saline (stability 12 h), take indicated dose and dilute with the same solvent to a concentration of 0.4 mg/ml; administer over 30 min. Same with 5% dextrose (stability 6 h). Capsule: do not chew or crush granules, capsule may be opened and contents administered with yogurt or orange juice. MUPS tablet: swallow whole with half a glass of liquid and must not be crushed or chewed, may also be disintegrated in half a glass of still water or fruit juice (shake until tablet disintegrates and drink liquid with pellets immediately or within 30 minutes). For NG tube administration dissolve 20 mg capsule in 10 ml of sodium bicarbonate or dissolve MUPS tablet presentation in water. Omeprazole may delay excretion of: diazepam, phenytoin. Decreases iron concentration. Alters concentration of cyclosporine, itraconazole, ketoconazole, voriconazole, clarithromycin, digoxin. Contraindicated with atazanavir. See alert."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- 4 hours at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, constipation, abdominal pain, vomiting, headache, dizziness. Interstitial nephritis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Omeprazole (code 0714, ATC A02BC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

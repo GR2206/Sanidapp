@@ -1,0 +1,51 @@
+{
+  "id": "atr-002",
+  "name": "Atracurium",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Peripheral-acting muscle relaxant (neuromuscular blocker). Indicated in severe hepatic and renal insufficiency.",
+  "indications": "## Main indications\n\nPeripheral-acting muscle relaxant (neuromuscular blocker). Indicated in severe hepatic and renal insufficiency.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10 mg/mL.",
+      "dose": "0,4–0,5 mg/kg bolus; 5–10 mcg/kg/min.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "0,5 mg/kg. Continuous infusion: 0,3 mg/kg/hour",
+      "administration": "IV",
+      "presentation": "5 mL ampoules: 10 mg/ml",
+      "notes": "For specialist use only."
+    },
+    "neonatal": {
+      "dose": "0,5 mg/kg bolus per protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use within 24 h.",
+  "adverseEffects": "## Adverse effects\n\nHistamine releaser.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Atracurium Besylate* (code 0022, ATC M03AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

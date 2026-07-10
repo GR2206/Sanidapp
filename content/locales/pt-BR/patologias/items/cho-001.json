@@ -1,0 +1,53 @@
+{
+  "id": "cho-001",
+  "name": "Colangite aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **colangite aguda** é infecção da árvore biliar, quase sempre por obstrução (coledocolitíase, estenose, tumor). A **tríade de Charcot** clássica integra febre, icterícia e dor em hipocôndrio direito; a **pêntade de Reynolds** acrescenta hipotensão e alteração do estado mental e define colangite grave. Na emergência deve suspeitar-se em todo paciente ictérico com febre ou calafrios, especialmente com antecedente de colelitíase ou manipulação biliar prévia.\n\nO manejo combina **antibiótico de amplo espectro** (cobertura de Gram-negativos entéricos e anaeróbios conforme diretriz local) e **drenagem biliar urgente** em formas moderadas-graves (CPRE, drenagem percutânea ou cirúrgica conforme recursos). Reanimação com cristaloides se choque séptico. Não retardar antibiótico por aguardar imagem se a suspeita é alta. Escalar à UTI em Reynolds ou disfunção orgânica.\n\n**Enfermagem**: monitorar PA, FC, temperatura e nível de consciência, controle de icterícia e colúria, jejum oral até definição, preparação para CPRE (consentimento, coagulação, acesso venoso) e registro horário de antibióticos e diurese.",
+  "bibliography": [
+    {
+      "citation": "Tokyo Guidelines. Management of acute cholangitis and cholecystitis.",
+      "url": "https://www.jshbps.jp/en/guideline/"
+    },
+    {
+      "citation": "Sociedade Argentina de Gastroenterologia (SAGE). Via biliar e colangite.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Society for Gastrointestinal Endoscopy. Role of ERCP in biliary disease.",
+      "url": "https://www.asge.org/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "Gravidade — Tokyo Guidelines (resumo)",
+    "content": "**Leve (Grau I):** responde a fluidos e antibiótico; sem disfunção orgânica.\n**Moderada (Grau II):** leucocitose/leucopenia, febre alta, idade > 75, hiperbilirrubinemia marcada ou ITU associada.\n**Grave (Grau III):** disfunção cardiovascular, neurológica, respiratória, renal, hepática ou hematológica.\n\n**Tríada de Charcot:** febre + icterícia + dor HCD · **Reynolds:** Charcot + hipotensão + alteração mental → drenagem urgente."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazol"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacino"
+    }
+  ]
+}

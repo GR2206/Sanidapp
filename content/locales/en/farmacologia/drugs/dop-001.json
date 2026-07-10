@@ -1,0 +1,71 @@
+{
+  "id": "dop-001",
+  "name": "Dopamine",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Positive inotropic effect. Increases renal, coronary, and cerebral flow. Increases diuresis, dose-dependent.",
+  "indications": "## Main indications\n\nPositive inotropic effect. Increases renal, coronary, and cerebral flow. Increases diuresis, dose-dependent.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "2–20 mcg/kg/min titrated according to hemodynamic response.",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+    },
+    "pediatrico": {
+      "presentation": "5 mL ampoules: 40 mg/mL",
+      "administration": "IV",
+      "diluent": "0.9% NaCl, Ringer or 5% dextrose.",
+      "finalConcentration": "3.2 mg/mL (up to 6 mg/mL in case of fluid restriction).",
+      "infusionRate": "Per medical indication, with infusion pump.",
+      "dose": "2-20 µg/kg/min by continuous infusion. Maximum dose: 50 µg/kg/min.",
+      "notes": "Dilute with normal saline or 5% dextrose for administration. Incompatible with alkaline solutions. Cardiac effects of dopamine are antagonized by beta-blockers and peripheral vasoconstriction caused by high doses of dopamine is antagonized by alpha-adrenergic blockers. IV administration of phenytoin in patients receiving dopamine causes hypotension and bradycardia."
+    },
+    "neonatal": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "2–10 mcg/kg/min in NICU; close monitoring.",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+    }
+  },
+  "stability": "## General\n\n- Protect from light; stability 24 h per institutional dilution.\n\n## Pediatric guide\n\n- 24 h once diluted.",
+  "adverseEffects": "## Adverse effects\n\nTachycardia, palpitations, hypotension, vasoconstriction, headache, anxiety, confusion, weakness, nausea, vomiting, dyspnea, mydriasis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — DOPamine Hydrochloride (code 0080, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

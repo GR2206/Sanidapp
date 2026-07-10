@@ -1,0 +1,60 @@
+{
+  "id": "pen-001",
+  "name": "Penicilina G sódica",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções do trato respiratório inferior, sistema nervoso e coração causadas por microorganismos gram-positivos sensíveis e alguns gram-negativos como Neisseria gonorrhoeae ou Neisseria meningitidis.",
+  "indications": "## Indicações principais\n\nTratamento de infecções do trato respiratório inferior, sistema nervoso e coração causadas por microorganismos gram-positivos sensíveis e alguns gram-negativos como Neisseria gonorrhoeae ou Neisseria meningitidis.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 3 MUI (Bencilpenicilina sódica Fabra, Drawer, Northia, Klonal).",
+      "reconstitution": "5 mL de AD. Conc: 0,6 MUI/mL.",
+      "diluent": "3 MUI em 100 mL de SF.",
+      "finalConcentration": "0,03 MUI/mL administrar entre 15–60 min.",
+      "administration": "E.V. direta: Não. Sim, 5 mL de AD, passar em 3–5 min. E.V. intermitente: Sim."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 1–3–5 milhões U.I.",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "100.000 a 500.000 UI/mL. Lactentes: 50.000 UI/mL.",
+      "infusionRate": "15 a 60 minutos com BIC.",
+      "dose": "Infecções leves e moderadas: 100.000–150.000 U.I./kg/dia a cada 6 h, dose máxima: 8.000.000 U.I./dia. Infecções graves: 200.000–300.000 U.I./kg/dia a cada 4 h, dose máxima: 24.000.000 U.I./dia; Meningite: 300.000–400.000 U.I./kg/dia a cada 4 h; Meningite por Estreptococos grupo B Crianças: 450.000–500.000 U.I./kg/dia a cada 6 h; Sífilis congênita: < 7 dias: 50.000 U.I./kg/dose a cada 12 h; 8 dias a 30 dias: 50.000 U.I./kg/dose a cada 8 h; lactentes > 1 mês e crianças: 50.000 U.I./kg/dose a cada 4–6 h. Neurosífilis: dose máxima 18.000.000 U.I.–24.000.000 U.I..",
+      "notes": "Antibióticos como tetraciclinas, cloranfenicol e eritromicina podem antagonizar a atividade da penicilina."
+    },
+    "neonatal": {
+      "dose": "50.000 UI/kg/dose a cada 12 h em R.N.; meningite: esquemas mais frequentes (protocolo UCIN).",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 48 h refrigerado.\n\n## Guia pediátrica\n\n- 7 dias na geladeira.",
+  "adverseEffects": "## Efeitos adversos\n\nRash dérmico, urticária, febre, dor, eosinofilia, anemia hemolítica, leucopenia. Em uremia ou altas doses: convulsões.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — penicilina G. SÓDICA (cód. 163, ATC J01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ang-001",
+  "name": "Angina inestable e IAMSEST",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **angina inestable** y el **IAM sin elevación del ST (IAMSEST)** forman el polo del síndrome coronario agudo sin elevación del ST. Se caracterizan por dolor torácico en reposo o en reposo prolongado, angina creciente o nuevo, o elevación de **troponina** con ECG sin criterios de IAMCEST. El riesgo se estratifica con escalas (HEART, GRACE, TIMI) para decidir observación, ingreso en unidad coronaria o estrategia invasiva precoz.\n\nEl tratamiento incluye **antiagregación dual** (AAS + inhibidor P2Y12 según protocolo), **anticoagulación**, betabloqueador, estatina de alta intensidad y nitratos para síntomas. La **coronariografía** se indica en pacientes de alto riesgo o con inestabilidad hemodinámica. Diferenciar de otras causas de dolor torácico (disección aórtica, TEP, pericarditis) antes de anticoagular ampliamente.\n\n**Enfermería**: ECG y troponina seriados según protocolo, monitorización continua, control de dolor y PA, registro de episodios anginosos y educación sobre señales de alarma al alta.",
+  "relatedDrugs": [
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Non-ST-elevation acute coronary syndromes.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). SCA sin elevación del ST.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. NSTE-ACS guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

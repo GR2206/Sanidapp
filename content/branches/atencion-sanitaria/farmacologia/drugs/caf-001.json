@@ -1,0 +1,53 @@
+{
+  "id": "caf-001",
+  "name": "Citrato de cafeína",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Estimulante del centro respiratorio. Profilaxis y tratamiento de la apnea del recién nacido. Psicoestimulante.",
+  "indications": "## Indicaciones principales\n\nEstimulante del centro respiratorio. Profilaxis y tratamiento de la apnea del recién nacido. Psicoestimulante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Principalmente neonatal.",
+      "dose": "No uso habitual en adultos.",
+      "administration": "N/A."
+    },
+    "pediatrico": {
+      "presentation": "Solución (preparado magistral): 5 mg de cafeína base/ml; Ampollas de 1 ml: 250 mg de cafeína base/ml",
+      "administration": "V.O. E.V.",
+      "diluent": "Salina 0,9% o Dext. 5%.",
+      "finalConcentration": "10 mg/mL.",
+      "infusionRate": "30 min con BIC.",
+      "dose": "V.O./E.V. : Dosis ataque: 10 mg de cafeína base/kg en una dosis; dosis mantenimiento: 2,5 mg de cafeína base/kg/día en una dosis.",
+      "notes": "Ante falta de respuesta hacer dosaje, concentración sanguínea recomendada: 5 - 25 µg/ml, concentraciones &gt; de 40 - 50 µg/ml son tóxicas. La formulación es cafeína base (preparado magistral y comercial). Ver guía para la administración de drogas endovenosas."
+    },
+    "neonatal": {
+      "dose": "Carga 10–20 mg/kg IV en 30 min; mantenimiento 5 mg/kg/día.",
+      "administration": "IV/VO."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- 24 h a T° ambiente.",
+  "adverseEffects": "## Efectos adversos\n\nTaquicardia, agitación, vómitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Cafeína (cód. 0029, ATC N06BC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

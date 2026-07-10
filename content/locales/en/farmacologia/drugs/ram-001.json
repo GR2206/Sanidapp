@@ -1,0 +1,41 @@
+{
+  "id": "ram-001",
+  "name": "Ramipril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Long-acting lipophilic ACE inhibitor for HTN, heart failure (HF), and cardiovascular prevention.",
+  "indications": "## Indications\n\n- Arterial hypertension.\n- Heart failure with ventricular dysfunction.\n- Cardiovascular prevention in high-risk patients and post-myocardial infarction.\n- Diabetic nephropathy with microalbuminuria.\n\n## Precautions\n\n- Contraindicated in pregnancy.\n- Use with caution in bilateral renal artery stenosis.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "2.5, 5, and 10 mg tablets.",
+      "dose": "HTN: 2.5–10 mg/day PO. HF: start with 1.25–2.5 mg/day and titrate.",
+      "administration": "PO in 1–2 doses."
+    },
+    "pediatrico": {
+      "dose": "0.05–0.1 mg/kg/day PO (specialized use).",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Store according to package insert.",
+  "adverseEffects": "## Adverse effects\n\n- Cough, hypotension, hyperkalemia, headache, dizziness.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

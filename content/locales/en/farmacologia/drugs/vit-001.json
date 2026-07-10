@@ -1,0 +1,57 @@
+{
+  "id": "vit-001",
+  "name": "Phytonadione (vitamin K)",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Hemostatic agent in toxicity from dicumarol derivatives, warfarin, etc. Deficiency of coagulation factors II, VII, IX, and X. Hemorrhagic manifestations.",
+  "indications": "## Main indications\n\nHemostatic agent in toxicity from dicumarol derivatives, warfarin, etc. Deficiency of coagulation factors II, VII, IX, and X. Hemorrhagic manifestations.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "10 mg/mL ampoule.",
+      "dose": "Warfarin bleeding: 5–10 mg slow IV.",
+      "administration": "Slow IV, IM, or PO."
+    },
+    "pediatrico": {
+      "presentation": "Ampoules: 1 mg/0.5 mL – 10 mg/mL; Tablets: 10 mg",
+      "administration": "PO; IM; IV",
+      "diluent": "0.9% NaCl or 5% dextrose. Dilute in 5 or 10 mL.",
+      "infusionRate": "Do not administer as bolus.",
+      "dose": "Healthy newborn: 0–1 year: 5–10 µg; 1–10 years: 15–30 µg; >11 years: 45–80 µg. Intoxications: 1 mg/kg/day every 8 h, maximum 10 mg. Prothrombin deficiency: infants: 2 mg; older children: 5–10 mg. Drug-induced vitamin K deficiency: PO: 2.5–5 mg/day.",
+      "notes": "IV push must not exceed 1 mg/min. Oral absorption depends on bile salts. Contraindicated in G6PD deficiency. In hepatic injury do not exceed therapeutic levels. Monitor effectiveness with prothrombin time. Konakion(R) ampoules may be given PO (required volume extracted with supplied dispenser, needle removed, contents placed directly in child's mouth). See multivitamin table."
+    },
+    "neonatal": {
+      "dose": "1 mg IM at birth (standard prophylaxis).",
+      "administration": "Deep IM."
+    }
+  },
+  "stability": "## General\n\n- Protect from light.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, dizziness, convulsive movements, nausea, vomiting, erythema, urticaria, rash, eruptions, dysgeusia, jaundice. Hemolysis in the newborn, Heinz bodies.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Vitamin K (Phytonadione) (code 0225, ATC B02BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

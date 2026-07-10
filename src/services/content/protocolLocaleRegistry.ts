@@ -1,0 +1,182 @@
+import type { Protocol } from '@/types/protocol';
+
+import bro_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/bro-p001.json';
+import cur_001_en from '../../../content/locales/en/categories/adulto/protocols/cur-001.json';
+import dia_001_en from '../../../content/locales/en/categories/adulto/protocols/dia-001.json';
+import dip_001_en from '../../../content/locales/en/categories/adulto/protocols/dip-001.json';
+import dip_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/dip-p001.json';
+import dol_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/dol-p001.json';
+import dpp_001_en from '../../../content/locales/en/categories/adulto/protocols/dpp-001.json';
+import dpp_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/dpp-p001.json';
+import feb_001_en from '../../../content/locales/en/categories/pediatrico/protocols/feb-001.json';
+import hem_001_en from '../../../content/locales/en/categories/adulto/protocols/hem-001.json';
+import hem_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/hem-p001.json';
+import hig_001_en from '../../../content/locales/en/categories/adulto/protocols/hig-001.json';
+import med_001_en from '../../../content/locales/en/categories/adulto/protocols/med-001.json';
+import med_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/med-p001.json';
+import nac_001_en from '../../../content/locales/en/categories/adulto/protocols/nac-001.json';
+import nav_001_en from '../../../content/locales/en/categories/adulto/protocols/nav-001.json';
+import neo_b_001_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-b-001.json';
+import neo_b_002_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-b-002.json';
+import neo_b_003_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-b-003.json';
+import neo_i_001_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-001.json';
+import neo_i_002_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-002.json';
+import neo_i_003_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-003.json';
+import neo_i_004_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-004.json';
+import neo_i_005_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-005.json';
+import neo_i_006_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-006.json';
+import neo_i_007_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-007.json';
+import oxi_001_en from '../../../content/locales/en/categories/adulto/protocols/oxi-001.json';
+import oxi_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/oxi-p001.json';
+import pad_001_en from '../../../content/locales/en/categories/adulto/protocols/pad-001.json';
+import pam_001_en from '../../../content/locales/en/categories/adulto/protocols/pam-001.json';
+import pam_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/pam-p001.json';
+import reh_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/reh-p001.json';
+import ret_001_en from '../../../content/locales/en/categories/adulto/protocols/ret-001.json';
+import ret_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/ret-p001.json';
+import sep_001_en from '../../../content/locales/en/categories/adulto/protocols/sep-001.json';
+import sep_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/sep-p001.json';
+import sho_001_en from '../../../content/locales/en/categories/adulto/protocols/sho-001.json';
+import son_001_en from '../../../content/locales/en/categories/adulto/protocols/son-001.json';
+import son_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/son-p001.json';
+import vic_001_en from '../../../content/locales/en/categories/adulto/protocols/vic-001.json';
+import vic_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/vic-p001.json';
+import vip_001_en from '../../../content/locales/en/categories/adulto/protocols/vip-001.json';
+import vip_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/vip-p001.json';
+import bro_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/bro-p001.json';
+import cur_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/cur-001.json';
+import dia_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/dia-001.json';
+import dip_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/dip-001.json';
+import dip_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/dip-p001.json';
+import dol_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/dol-p001.json';
+import dpp_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/dpp-001.json';
+import dpp_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/dpp-p001.json';
+import feb_001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/feb-001.json';
+import hem_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/hem-001.json';
+import hem_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/hem-p001.json';
+import hig_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/hig-001.json';
+import med_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/med-001.json';
+import med_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/med-p001.json';
+import nac_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/nac-001.json';
+import nav_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/nav-001.json';
+import neo_b_001_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-b-001.json';
+import neo_b_002_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-b-002.json';
+import neo_b_003_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-b-003.json';
+import neo_i_001_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-001.json';
+import neo_i_002_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-002.json';
+import neo_i_003_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-003.json';
+import neo_i_004_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-004.json';
+import neo_i_005_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-005.json';
+import neo_i_006_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-006.json';
+import neo_i_007_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-007.json';
+import oxi_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/oxi-001.json';
+import oxi_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/oxi-p001.json';
+import pad_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/pad-001.json';
+import pam_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/pam-001.json';
+import pam_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/pam-p001.json';
+import reh_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/reh-p001.json';
+import ret_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/ret-001.json';
+import ret_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/ret-p001.json';
+import sep_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/sep-001.json';
+import sep_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/sep-p001.json';
+import sho_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/sho-001.json';
+import son_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/son-001.json';
+import son_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/son-p001.json';
+import vic_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/vic-001.json';
+import vic_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/vic-p001.json';
+import vip_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/vip-001.json';
+import vip_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/vip-p001.json';
+
+/** Generado por scripts/sync-protocol-locales.mjs — no editar a mano */
+export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = {
+  'en': {
+    'bro-p001': bro_p001_en as Protocol,
+    'cur-001': cur_001_en as Protocol,
+    'dia-001': dia_001_en as Protocol,
+    'dip-001': dip_001_en as Protocol,
+    'dip-p001': dip_p001_en as Protocol,
+    'dol-p001': dol_p001_en as Protocol,
+    'dpp-001': dpp_001_en as Protocol,
+    'dpp-p001': dpp_p001_en as Protocol,
+    'feb-001': feb_001_en as Protocol,
+    'hem-001': hem_001_en as Protocol,
+    'hem-p001': hem_p001_en as Protocol,
+    'hig-001': hig_001_en as Protocol,
+    'med-001': med_001_en as Protocol,
+    'med-p001': med_p001_en as Protocol,
+    'nac-001': nac_001_en as Protocol,
+    'nav-001': nav_001_en as Protocol,
+    'neo-b-001': neo_b_001_en as Protocol,
+    'neo-b-002': neo_b_002_en as Protocol,
+    'neo-b-003': neo_b_003_en as Protocol,
+    'neo-i-001': neo_i_001_en as Protocol,
+    'neo-i-002': neo_i_002_en as Protocol,
+    'neo-i-003': neo_i_003_en as Protocol,
+    'neo-i-004': neo_i_004_en as Protocol,
+    'neo-i-005': neo_i_005_en as Protocol,
+    'neo-i-006': neo_i_006_en as Protocol,
+    'neo-i-007': neo_i_007_en as Protocol,
+    'oxi-001': oxi_001_en as Protocol,
+    'oxi-p001': oxi_p001_en as Protocol,
+    'pad-001': pad_001_en as Protocol,
+    'pam-001': pam_001_en as Protocol,
+    'pam-p001': pam_p001_en as Protocol,
+    'reh-p001': reh_p001_en as Protocol,
+    'ret-001': ret_001_en as Protocol,
+    'ret-p001': ret_p001_en as Protocol,
+    'sep-001': sep_001_en as Protocol,
+    'sep-p001': sep_p001_en as Protocol,
+    'sho-001': sho_001_en as Protocol,
+    'son-001': son_001_en as Protocol,
+    'son-p001': son_p001_en as Protocol,
+    'vic-001': vic_001_en as Protocol,
+    'vic-p001': vic_p001_en as Protocol,
+    'vip-001': vip_001_en as Protocol,
+    'vip-p001': vip_p001_en as Protocol,
+  },
+  'pt-BR': {
+    'bro-p001': bro_p001_ptBR as Protocol,
+    'cur-001': cur_001_ptBR as Protocol,
+    'dia-001': dia_001_ptBR as Protocol,
+    'dip-001': dip_001_ptBR as Protocol,
+    'dip-p001': dip_p001_ptBR as Protocol,
+    'dol-p001': dol_p001_ptBR as Protocol,
+    'dpp-001': dpp_001_ptBR as Protocol,
+    'dpp-p001': dpp_p001_ptBR as Protocol,
+    'feb-001': feb_001_ptBR as Protocol,
+    'hem-001': hem_001_ptBR as Protocol,
+    'hem-p001': hem_p001_ptBR as Protocol,
+    'hig-001': hig_001_ptBR as Protocol,
+    'med-001': med_001_ptBR as Protocol,
+    'med-p001': med_p001_ptBR as Protocol,
+    'nac-001': nac_001_ptBR as Protocol,
+    'nav-001': nav_001_ptBR as Protocol,
+    'neo-b-001': neo_b_001_ptBR as Protocol,
+    'neo-b-002': neo_b_002_ptBR as Protocol,
+    'neo-b-003': neo_b_003_ptBR as Protocol,
+    'neo-i-001': neo_i_001_ptBR as Protocol,
+    'neo-i-002': neo_i_002_ptBR as Protocol,
+    'neo-i-003': neo_i_003_ptBR as Protocol,
+    'neo-i-004': neo_i_004_ptBR as Protocol,
+    'neo-i-005': neo_i_005_ptBR as Protocol,
+    'neo-i-006': neo_i_006_ptBR as Protocol,
+    'neo-i-007': neo_i_007_ptBR as Protocol,
+    'oxi-001': oxi_001_ptBR as Protocol,
+    'oxi-p001': oxi_p001_ptBR as Protocol,
+    'pad-001': pad_001_ptBR as Protocol,
+    'pam-001': pam_001_ptBR as Protocol,
+    'pam-p001': pam_p001_ptBR as Protocol,
+    'reh-p001': reh_p001_ptBR as Protocol,
+    'ret-001': ret_001_ptBR as Protocol,
+    'ret-p001': ret_p001_ptBR as Protocol,
+    'sep-001': sep_001_ptBR as Protocol,
+    'sep-p001': sep_p001_ptBR as Protocol,
+    'sho-001': sho_001_ptBR as Protocol,
+    'son-001': son_001_ptBR as Protocol,
+    'son-p001': son_p001_ptBR as Protocol,
+    'vic-001': vic_001_ptBR as Protocol,
+    'vic-p001': vic_p001_ptBR as Protocol,
+    'vip-001': vip_001_ptBR as Protocol,
+    'vip-p001': vip_p001_ptBR as Protocol,
+  },
+};

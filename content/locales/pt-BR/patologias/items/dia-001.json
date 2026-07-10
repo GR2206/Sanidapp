@@ -1,0 +1,45 @@
+{
+  "id": "dia-001",
+  "name": "Diabetes mellitus",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A diabetes mellitus é uma doença metabólica definida por hiperglicemia crônica. Na **diabetes tipo 1** há destruição das células beta pancreáticas e déficit absoluto de insulina, com início frequente na infância ou adolescência. A **diabetes tipo 2** combina resistência à insulina e secreção insuficiente; associa-se a idade avançada, sobrepeso, sedentarismo e antecedentes familiares. A **diabetes gestacional** surge durante a gestação e exige controle rigoroso pelo risco materno e fetal.\n\nEntre as afecções agudas destacam-se a **cetoacidose diabética** (mais habitual no tipo 1), o **estado hiperglicêmico hiperosmolar** (mais frequente no tipo 2) e a **hipoglicemia**, que pode dever-se a excesso de insulina, jejum prolongado ou atividade física não compensada. As complicações crônicas incluem retinopatia, nefropatia, neuropatia periférica, pé diabético e incremento do risco cardiovascular. Na avaliação de enfermagem convém registrar poliúria, polidipsia, perda de peso, feridas que cicatrizam mal e mudanças no nível de consciência.\n\nO **tratamento oportuno** combina educação, plano alimentar e atividade física. O tipo 1 requer insulina desde o diagnóstico. No tipo 2 inicia-se habitualmente com metformina e outros fármacos conforme meta glicêmica; a insulina indica-se quando não se alcança o controle. Na internação: monitorar glicemia capilar, administrar insulina basal e de correção conforme protocolo institucional, e iniciar de imediato o algoritmo de **CAD** ou **EHH** quando corresponder. Ante hipoglicemia sintomática, aplicar a regra do 15-15 (glicose oral) ou glucagon / dextrose IV conforme gravidade e protocolo do serviço.",
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care in Diabetes.",
+      "url": "https://diabetesjournals.org/care/issue/47/Supplement_1"
+    },
+    {
+      "citation": "Sociedade Argentina de Diabetes (SAD). Diretrizes e consensos nacionais.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Diabetes Federation. IDF Diabetes Atlas.",
+      "url": "https://diabetesatlas.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "Insulina NPH"
+    },
+    {
+      "drugId": "glc-001",
+      "label": "Glucagon"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glicose)"
+    }
+  ]
+}

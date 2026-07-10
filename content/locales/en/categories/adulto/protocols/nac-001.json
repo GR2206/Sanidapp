@@ -1,0 +1,27 @@
+{
+  "id": "nac-001",
+  "title": "Community-acquired pneumonia (adult)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Assess disease severity, provide oxygen therapy as needed, obtain cultures when indicated, and initiate early empiric antibiotic therapy according to the clinical scenario.",
+  "body": "## Steps to perform\n\n1. Record complete vital signs: respiratory rate (RR), SpO₂, blood pressure (BP), heart rate (HR), temperature, and mental status.\n2. Apply the institutional severity assessment tool (CURB-65, PSI, or local clinical criteria).\n3. Confirm compatible imaging findings (chest X-ray or other appropriate imaging).\n4. Obtain blood cultures if the disease is moderate to severe or hospitalization is required.\n5. Order pneumococcal and Legionella urinary antigen tests according to local protocol.\n6. Administer titrated oxygen therapy (target SpO₂ 92–96% in most adults).\n7. Manage hydration and fever according to medical orders.\n8. Monitor respiratory effort and prepare advanced respiratory support if clinical deterioration occurs.\n9. Apply appropriate respiratory isolation precautions based on the suspected pathogen (tuberculosis, influenza, COVID-19, etc.).\n10. Educate the patient regarding antibiotic adherence and warning signs.\n\n## Scientific rationale\n\n### Indications\n\nAcute infection of the lung parenchyma acquired outside the hospital or within the first 48 hours of hospitalization in patients without recent exposure to multidrug-resistant risk factors.\n\n### Initial assessment\n\n- Vital signs, respiratory rate, SpO₂, mental status, and fluid balance.\n- Institutional severity assessment (CURB-65, PSI, or local clinical criteria).\n- Chest X-ray or other compatible imaging.\n- Blood cultures in patients with moderate to severe disease or those requiring hospitalization.\n- Pneumococcal and Legionella urinary antigen testing according to local protocol.\n\n### Evidence and recommendations\n\n> **ATS/IDSA 2019 (Metlay et al.):** Clinical and radiographic diagnosis with severity stratification to determine outpatient management versus hospitalization. Early empiric antibiotic therapy should be initiated according to the clinical scenario.\n\n> **SATI — Critical Pulmonology Committee:** Specific management recommendations for hospitalized adults with community-acquired pneumonia.\n\n### ICU referral criteria\n\n- Requirement for invasive mechanical ventilation or non-invasive ventilation with hemodynamic instability.\n- Septic shock or persistent hypotension.\n- Severe alteration of mental status.\n- Refractory hypoxemia (PaO₂/FiO₂ < 250 despite supplemental oxygen).\n\n### Complications\n\n- Acute respiratory failure.\n- Sepsis / septic shock.\n- Complicated pleural effusion or empyema.\n- Delayed antibiotic administration or inadequate oxygen therapy.",
+  "bibliography": [
+    {
+      "citation": "SATI — Critical Pulmonology Committee. Community-acquired pneumonia.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-e67.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31573350/"
+    },
+    {
+      "citation": "SATI — General clinical guidelines and consensus statements.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — management of respiratory sepsis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    }
+  ]
+}

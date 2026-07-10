@@ -1,0 +1,49 @@
+{
+  "id": "cov-001",
+  "name": "COVID-19 — doença aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **doença por SARS-CoV-2 (COVID-19)** é uma infecção respiratória que em formas graves causa pneumonia, síndrome do desconforto respiratório agudo e disfunção multiorgânica. Na emergência estratifica-se com oximetria, frequência respiratória, imagem pulmonar e marcadores (PCR, ferritina, D-dímero conforme protocolo). Fatores de risco de gravidade: idade avançada, obesidade, diabetes, DPOC, imunossupressão e vacinação incompleta.\n\nO manejo de **doença moderada-grave com necessidade de oxigênio** inclui **dexametasona** sistêmica (benefício na hipoxemia), posição prona na insuficiência respiratória, anticoagulação profilática ou terapêutica conforme risco trombótico, e antibiótico somente se suspeita de sobreinfecção bacteriana. Avaliar antivirais de ação direta conforme disponibilidade e janela temporal institucional. Escalar para VNI ou ventilação mecânica conforme critérios de UTI.\n\n**Enfermagem**: SpO₂ contínua, registro de FR e trabalho respiratório, oxigenoterapia titulada, isolamento por gotículas e contato, vigilância de trombose venosa, monitorar glicemia em corticoterapia e apoiar vacinação e isolamento domiciliar na alta conforme normativa vigente.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Clinical management of COVID-19 — living guideline.",
+      "url": "https://www.who.int/publications/guidelines"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Protocolo COVID-19.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institutes of Health (NIH). COVID-19 Treatment Guidelines.",
+      "url": "https://www.covid19treatmentguidelines.nih.gov/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America. Guidelines on the treatment and management of COVID-19.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "ose-001",
+      "label": "Oseltamivir"
+    }
+  ]
+}

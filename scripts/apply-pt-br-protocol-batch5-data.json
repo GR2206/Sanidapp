@@ -1,0 +1,312 @@
+[
+  {
+    "id": "neo-b-001",
+    "category": "neonatologia",
+    "division": "baja-complejidad",
+    "title": "Cuidados do recém-nascido em unidade convencional (termorregulação, rastreamento)",
+    "version": "1.0",
+    "executiveSummary": "Prestar cuidados básicos ao neonato clinicamente estável de 500 g a 2500 g (dia 0–30) em unidade convencional com termorregulação rigorosa, rastreamentos neonatais, alojamento conjunto e vigilância de sinais de alarme.",
+    "body": "## Passos a realizar\n\n1. Receber o neonato com identificação verificada (pulseira mãe-RN, dois identificadores); revisar boletim de nascimento, IG, peso, Apgar e fatores de risco.\n2. Avaliar estabilidade: FC 100–160 lpm, FR 30–60/min, SatO₂ ≥ 92% em ar ambiente (ajustar por IG), temperatura axilar 36,5–37,5 °C, bom tônus e sucção.\n3. Termorregulação: pele a pele imediata se estável; se < 1500 g ou instável usar incubadora com servocontrole; gorro, meias; evitar correntes de ar e exposição.\n4. Medir temperatura axilar na admissão, às 2 h e a cada 4–6 h conforme protocolo; registrar na ficha neonatal.\n5. Rastreamento metabólico: solicitar/verificar triagem neonatal ampliada conforme normativa local (fenilcetonúria, hipotireoidismo congênito, fibrose cística, hemoglobinopatias etc.) na janela 24–72 h ou conforme peso mínimo.\n6. Rastreamento auditivo: emissões otoacústicas antes da alta ou conforme protocolo (< 34 sem na alta; repetir rastreamento se falhar).\n7. Rastreamento cardiovascular: oximetria de pulso pré e pós-ductal às 24–48 h de vida (diferença < 3% e SatO₂ ≥ 95% em ambas); encaminhar se positivo.\n8. Rastreamento ocular: exame com oftalmoscópio em prematuros < 32 sem ou < 1500 g conforme calendário ROP; encaminhar à oftalmologia.\n9. Higiene: banho diferido ≥ 24 h; apenas água morna na pele; não friccionar o vernix em prematuros; troca de fralda a cada 3 h ou se sujo.\n10. Alojamento conjunto: promover aleitamento materno na primeira hora; observar pega e sucção efetiva; registrar diurese (≥ 1 fralda molhada/24 h no dia 1), evacuações e peso diário.\n11. Orientar a família: sinais de alarme (letargia, recusa alimentar, cianose, febre > 38 °C, hipotermia < 36 °C, icterícia extensa, vômitos biliosos).\n12. Documentar todos os rastreamentos, vacinas (HBV 0 se indicada), profilaxia ocular e vitamina K; planejar alta com consultas de seguimento.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**, **clinicamente estáveis** em unidade de cuidados convencionais ou alojamento conjunto. RN que necessitem de UCIN (VM, vasoativos, NP) **não** se aplicam a este protocolo — encaminhar à divisão intensiva.\n\n### Critérios de inclusão em unidade convencional\n\n- SatO₂ ≥ 92% sem oxigênio suplementar (≥ 91% se prematuro 28–34 sem conforme prescrição).\n- Temperatura estável na faixa sem berço aquecido contínuo.\n- Alimentação enteral tolerada ou em via de início.\n- Sem sinais de sepse, desconforto respiratório moderado-grave ou convulsões.\n\n### Evidência e recomendações\n\n> **OMS — Cuidados essenciais do recém-nascido:** contato pele a pele, aleitamento materno precoce e termorregulação reduzem morbimortalidade neonatal (WHO, 2024).\n\n> **AAP:** rastreamento de cardiopatias congênitas com oximetria de pulso é padrão antes da alta hospitalar (American Academy of Pediatrics).\n\n### Termorregulação neonatal\n\n| Método | Indicação |\n| --- | --- |\n| Pele a pele | RN ≥ 1500 g estável, com mãe supervisionada |\n| Berço aquecido | RN a termo em ambiente climatizado 22–24 °C |\n| Incubadora com servocontrole | RN < 1500 g ou dificuldade de termorregulação |\n\nMeta axilar: **36,5–37,5 °C**. Hipotermia (< 36 °C) aumenta risco de hipoglicemia, acidose e sepse.\n\n### Calendário de rastreamentos (orientativo)\n\n| Rastreamento | Momento | Ação se anormal |\n| --- | --- | --- |\n| Triagem metabólica | 24–72 h (≥ peso mínimo) | Repetir / confirmar |\n| Oximetria CCC | 24–48 h | Ecocardiograma urgente se positivo |\n| Emissões otoacústicas | Antes da alta | Repetir rastreamento ou PEAT |\n| ROP | Semanas pós-natais conforme IG | Oftalmologia |\n| Bilirrubina | Antes da alta / conforme risco | Curva conforme nomograma de Bhutani |\n\n### Profilaxia de rotina\n\n- Vitamina K 1 mg IM ao nascimento (0,5 mg se < 1000 g conforme protocolo).\n- Profilaxia ocular (eritromicina/povidona) nas primeiras 2 h.\n- Vacina HBV 0 em RN de mãe HBsAg+ ou conforme calendário nacional.\n\n### Complicações — avisar imediatamente\n\n- Hipotermia ou hipertermia persistente.\n- Hipoglicemia (< 25 mg/dl) ou letargia.\n- Cianose ou SatO₂ < 90%.\n- Recusa alimentar total ou vômitos biliosos.\n- Icterícia nas primeiras 24 h ou zona III de Kramer.\n- Resultado positivo no rastreamento cardiovascular.",
+    "bibliography": [
+      {
+        "citation": "World Health Organization. WHO recommendations on postnatal care of the mother and newborn.",
+        "url": "https://www.who.int/publications/i/item/9789240045989"
+      },
+      {
+        "citation": "World Health Organization. Thermal protection of the newborn — practical guide.",
+        "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Newborn screening and critical congenital heart disease screening.",
+        "url": "https://www.aap.org/en/patient-care/"
+      },
+      {
+        "citation": "Vermont Oxford Network. Family-centered care and newborn nursery quality standards.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "SATI — Recomendações em cuidados neonatais de baixa complexidade.",
+        "url": "https://www.sati.org.ar/"
+      }
+    ]
+  },
+  {
+    "id": "neo-b-002",
+    "category": "neonatologia",
+    "division": "baja-complejidad",
+    "title": "Alimentação enteral em neonato clinicamente estável",
+    "version": "1.0",
+    "executiveSummary": "Iniciar e progredir alimentação enteral em neonato clinicamente estável de 500 g a 2500 g (dia 0–30) com preferência por leite materno, volume progressivo conforme peso e tolerância, e vigilância de sinais de NEC ou aspiração.",
+    "body": "## Passos a realizar\n\n1. Confirmar estabilidade clínica: sem VM, sem fármacos vasoativos, abdome flácido, peristalse presente, fezes meconiais evacuadas ou em progressão.\n2. Avaliar via de alimentação: seio materno direto se RN ≥ 34 sem e coordenação sucção-deglutição-respiração; sonda orogástrica (preferida) ou nasogástrica se prematuro ou sucção fraca.\n3. Preferir leite materno próprio; se indisponível, leite doado de banco certificado; fórmula apenas se contraindicação de LM conforme prescrição.\n4. Iniciar alimentação conforme peso e IG (ver tabela); usar bomba de seringa ou gavagem lenta (≥ 10–15 min) em RN < 1500 g.\n5. Posicionar em decúbito lateral direito ou semisentado 30° durante gavagem; não infundir com RN em decúbito dorsal plano.\n6. Verificar resíduo gástrico antes de cada mamada em RN < 1500 g ou com risco: aspirar suavemente; se < 50% do volume da mamada e não bilioso → devolver e alimentar; se bilioso, volumoso ou com distensão → interromper e avisar.\n7. Progredir volume 10–20 ml/kg/dia se tolerância adequada: sem vômitos, distensão, fezes sanguinolentas ou apneias relacionadas.\n8. Registrar cada mamada: volume, via, tipo de leite, resíduo gástrico, vômitos, fezes e peso diário.\n9. Fomentar aleitamento materno: extração a cada 2–3 h, pele a pele, apoio à família; fortificante humano de leite apenas se indicado pelo neonatologista.\n10. Suplementar vitamina D (400 UI/dia desde os primeiros dias se LM exclusiva) e ferro (2–4 mg/kg/dia desde a semana 4 em prematuros) conforme protocolo.\n11. Diante de intolerância: manter mínimo trófico (10–20 ml/kg/dia) se possível; avaliar NEC, sepse, obstrução.\n12. Transição para seio exclusivo ou mamadeira quando sucção efetiva e ganho ponderal ≥ 15–20 g/dia.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**, **clinicamente estáveis** sem contraindicação enteral. RN com desconforto grave, NEC, obstrução intestinal ou instabilidade hemodinâmica necessitam NP e protocolo intensivo.\n\n### Indicações\n\n- RN estável com trato gastrointestinal maduro ou em maturação progressiva.\n- Transição de nutrição parenteral para enteral em UCIN intermediária/convencional.\n- Manutenção nutricional em alojamento conjunto.\n\n### Contraindicações\n\n- NEC confirmada ou suspeita (distensão, sangue nas fezes, pneumatose).\n- Obstrução intestinal, atresia não corrigida.\n- Choque ou instabilidade hemodinâmica.\n- Apneias/bradicardias recorrentes desencadeadas pela alimentação.\n\n### Evidência e recomendações\n\n> **OMS:** aleitamento materno exclusivo nos primeiros 6 meses; início na primeira hora de vida reduz mortalidade neonatal (WHO, 2024).\n\n> **VON:** alimentação trófica precoce em VLBW estáveis melhora maturação intestinal sem aumentar NEC se progressão cuidadosa (Vermont Oxford Network).\n\n### Volume inicial e progressão\n\n| Peso / IG | Volume inicial | Progressão | Frequência |\n| --- | --- | --- | --- |\n| 500–749 g | 10–20 ml/kg/dia trófico | 10–15 ml/kg/dia | A cada 3 h |\n| 750–999 g | 20–40 ml/kg/dia | 15–20 ml/kg/dia | A cada 3 h |\n| 1000–1499 g | 40–60 ml/kg/dia | 20 ml/kg/dia | A cada 3 h |\n| 1500–2500 g | 60–80 ml/kg/dia | 20 ml/kg/dia | A cada 3 h ou seio livre |\n\nMeta: 150–180 ml/kg/dia no dia 7–14 conforme tolerância.\n\n### Seleção de sonda\n\n| Preferência | Motivo |\n| --- | --- |\n| Orogástrica | Menor risco de broncoaspiração e lesão nasal em prematuros |\n| Nasogástrica | Apenas se OG inviável; fixar e verificar posição |\n\nVerificar posição antes de cada gavagem: aspiração de conteúdo gástrico ou ausculta com ar (menos confiável).\n\n### Critérios de intolerância — interromper e avisar\n\n- Resíduo gástrico > 50% do volume da mamada em duas ocasiões consecutivas.\n- Vômito bilioso ou hemático.\n- Distensão abdominal, eritema periumbilical ou fezes sanguinolentas.\n- Apneia/bradicardia durante ou pós-alimentação.\n\n### Ganho ponderal esperado\n\n- RN a termo: 15–30 g/dia após perda fisiológica (dias 3–5).\n- Prematuro: 10–20 g/dia/kg quando alimentação plena.\n\n### Complicações — avisar imediatamente\n\n- Suspeita de NEC (distensão, sangue nas fezes, letargia, plaquetopenia).\n- Broncoaspiração (tosse, cianose, dessaturação com gavagem).\n- Desidratação ou hipoglicemia por jejum prolongado.\n- Ganho ponderal nulo > 3 dias com alimentação plena.",
+    "bibliography": [
+      {
+        "citation": "World Health Organization. Infant and young child feeding — early initiation of breastfeeding.",
+        "url": "https://www.who.int/teams/nutrition-and-food-safety/food-and-nutrition-actions-in-health-systems/infant-and-young-child-feeding"
+      },
+      {
+        "citation": "Vermont Oxford Network. Nutrition and feeding protocols for very low birth weight infants.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Breastfeeding and the use of human milk — policy statement.",
+        "url": "https://publications.aap.org/pediatrics"
+      },
+      {
+        "citation": "World Health Organization. Guidelines on optimal feeding of low birth weight infants in low- and middle-income countries.",
+        "url": "https://www.who.int/publications/i/item/9789241505097"
+      },
+      {
+        "citation": "SATI — Consensos em nutrição neonatal.",
+        "url": "https://www.sati.org.ar/"
+      }
+    ]
+  },
+  {
+    "id": "neo-b-003",
+    "category": "neonatologia",
+    "division": "baja-complejidad",
+    "title": "Cuidado do coto umbilical",
+    "version": "1.0",
+    "executiveSummary": "Cuidar do coto umbilical em neonato de 500 g a 2500 g (dia 0–30) com técnica seca ou antisséptica conforme protocolo institucional, vigilância de onfalite e não aplicar substâncias não recomendadas.",
+    "body": "## Passos a realizar\n\n1. Ao nascimento: secar o cordão com gaze estéril; colocar pinça umbilical a 2–3 cm da base (ou conforme dispositivo institucional); manter coto exposto ao ar se método seco.\n2. Orientar a família: não cobrir com fralda (dobrar fralda abaixo do coto); não puxar nem manipular o coto; lavar as mãos antes e depois do cuidado.\n3. Realizar higiene das mãos (momento 1 OMS) antes de inspecionar o cordão.\n4. Inspecionar a cada troca de fralda e pelo menos a cada turno: base seca ou úmida limpa, sem eritema, sem odor fétido, sem secreção purulenta.\n5. Se protocolo institucional indicar método seco (OMS recomendado): não aplicar álcool, povidona nem pomadas; retirar pinça quando coto estiver seco (usualmente 3–7 dias).\n6. Se protocolo indicar antisséptico: aplicar clorexidina 4% ou 7,1% digluconato uma vez ao dia na base do cordão com cotonete; fricção suave; deixar secar ao ar.\n7. Manter área limpa e seca; se contaminação com urina ou fezes, limpar com água morna e sabão neutro; secar completamente.\n8. Registrar aspecto do cordão na ficha neonatal: úmido/seco, eritema, secreção, dia de queda do coto.\n9. Não submergir o RN em banho até queda do coto e cicatrização completa (banho de esponja até então).\n10. Diante de sinais de infecção: medir temperatura axilar, hemograma e cultura conforme prescrição; não retirar pinça em onfalite ativa sem avaliação.\n11. Se sangramento do coto: comprimir base 5–10 min com gaze estéril; se persistir, ligadura por profissional capacitado.\n12. Documentar dia de queda do cordão; continuar vigilância da cicatriz umbilical 48 h pós-queda.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. O cuidado do coto umbilical é preventivo; a onfalite pode progredir para sepse neonatal em horas, especialmente em prematuros e em ambientes com recursos limitados.\n\n### Objetivo\n\n- Promover secagem e descolamento seguro do coto (3–14 dias).\n- Prevenir onfalite e sepse neonatal.\n- Orientar cuidadores primários.\n\n### Evidência e recomendações\n\n> **OMS:** o cuidado do coto umbilical seco e limpo é recomendado em ambientes com baixa taxa de infecção; a clorexidina a 7,1% reduz onfalite e mortalidade em ambientes de alto risco (WHO, 2024).\n\n> **AAP / ACOG:** não aplicar substâncias não estéreis (talco, pós, ervas); manter cordão visível e seco (American Academy of Pediatrics).\n\n### Métodos de cuidado comparados\n\n| Método | Indicação | Ação |\n| --- | --- | --- |\n| Seco e limpo | Unidades com baixa taxa de infecção | Sem antisséptico; ar livre |\n| Clorexidina 4–7,1% | Alto risco de onfalite / prematuros | Aplicação diária na base |\n| Álcool 70% | Alternativa institucional | 1–2 vezes/dia se protocolo indicar |\n\nNão misturar métodos sem indicação; seguir protocolo institucional uniforme.\n\n### Pinçamento do cordão\n\n| Situação | Tempo de pinçamento |\n| --- | --- |\n| RN vigoroso a termo | ≥ 30–60 s ou até cessação das pulsações |\n| < 34 sem sem reanimação | Pinçamento tardio 30–60 s se estável |\n| Reanimação ativa | Pinçamento imediato se necessário para acesso |\n\n### Sinais de onfalite — avisar imediatamente\n\n| Grau | Achados | Ação |\n| --- | --- | --- |\n| Leve | Eritema < 2 cm na base | Vigilância estreita; cultura se febre |\n| Moderada | Eritema > 2 cm, exsudato, odor | Antibiótico IV; hemocultura |\n| Grave | Celulite periumbilical, necrose | Sepse; UCIN; cirurgia se necrose |\n\n### Tempo de descolamento normal\n\n| Peso / IG | Dias até queda |\n| --- | --- |\n| Prematuro < 1000 g | 10–14 dias |\n| 1000–2500 g | 7–10 dias |\n| A termo | 5–7 dias |\n\nAtraso > 14 dias ou granuloma umbilical: avaliar pelo neonatologista.\n\n### Complicações — avisar imediatamente\n\n- Onfalite (eritema, calor, exsudato purulento, odor).\n- Sangramento ativo do coto não controlado com compressão.\n- Febre ou hipotermia associada a alterações no cordão.\n- Granuloma umbilical com sangramento persistente.\n- Hérnia umbilical encarcerada (raro em RN; avaliar se protrusão dolorosa).",
+    "bibliography": [
+      {
+        "citation": "World Health Organization. Care of the umbilical cord — recommendations on newborn health.",
+        "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+      },
+      {
+        "citation": "World Health Organization. WHO recommendations on umbilical cord care for newborns.",
+        "url": "https://www.who.int/publications/i/item/9789241548554"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Umbilical cord care in the newborn.",
+        "url": "https://www.aap.org/en/patient-care/"
+      },
+      {
+        "citation": "Vermont Oxford Network. Infection prevention bundles in the NICU and newborn nursery.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "SATI — Prevenção de infecções neonatais e cuidados do cordão.",
+        "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-001",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Reanimação neonatal em sala de parto (NRP/AAP)",
+    "version": "1.0",
+    "executiveSummary": "Reanimar o recém-nascido de 500 g a 2500 g (dia 0–30) em sala de parto seguindo o algoritmo NRP/AAP com avaliação inicial, ventilação com pressão positiva, compressões se FC < 60 bpm e acesso vascular umbilical sem atrasar ventilação efetiva.",
+    "body": "## Passos a realizar\n\n1. Antes do parto: confirmar idade gestacional estimada, risco perinatal e equipamento NRP completo (berço aquecido, monitor de FC, oxímetro de pulso, máscara T-piece ou bolsa autoinflável com válvula PEEP, laringoscópio 0/00, tubos 2,5–3,0, guias, UVC/UAC, termômetro).\n2. Ao nascimento: secar vigorosamente, retirar manta úmida, colocar sob berço aquecido; posicionar pescoço em leve extensão; aspirar boca e narinas apenas se secreções obstruem ou há mecônio não vigoroso (não aspiração rotineira profunda).\n3. Pinçar e cortar cordão ≥ 30–60 s se o RN respira ou chora e o cordão está rosado; em < 34 sem ou que necessitam reanimação imediata, avaliar pinçamento tardio conforme protocolo institucional.\n4. Avaliar respiração e FC aos 30 s: se respira/chora e FC ≥ 100 bpm → pele a pele com a mãe, termorregulação e observação; se não → iniciar ventilação com pressão positiva (VPP) em ≤ 30 s.\n5. Colocar oxímetro de pulso na mão direita pré-ductal; ajustar FiO₂ conforme metas NRP por minuto de vida (iniciar 21–30% em ≥ 35 sem; 21–30% em 28–34 sem; considerar oxigênio titulado em < 28 sem).\n6. VPP: máscara bem vedada, frequência 40–60/min, pressão inicial 20–25 cmH₂O (ajustar para movimento torácico visível); usar PEEP 5 cmH₂O se equipamento permitir.\n7. Reavaliar a cada 30 s: se FC ≥ 100 e respiração espontânea → suspender VPP e continuar suporte térmico e oxigênio titulado; se FC < 100 ou não respira → continuar VPP; se não melhora → considerar cânula de Guedel, troca de dispositivo (T-piece preferido) ou IOT com tubo 2,5–3,0 mm.\n8. Se FC persiste < 60 bpm após VPP efetiva ≥ 30 s → iniciar compressões torácicas 3:1 (90 compressões + 30 ventilações/min com dois reanimadores) ou 15:2 se IOT e dois reanimadores treinados.\n9. Após 60 s de compressões: se FC ≥ 60 → interromper compressões e otimizar ventilação; se FC < 60 → administrar adrenalina 0,01–0,03 mg/kg IV/IO/UVC (0,1–0,3 ml/kg de 1:10.000) a cada 3–5 min; considerar volume 10 ml/kg se suspeita de hipovolemia.\n10. Canalizar UVC de emergência se não houver acesso; não interromper VPP > 10 s para procedimentos; registrar tempos, FiO₂, SatO₂, fármacos e resposta.\n11. Ao estabilizar: manter temperatura axilar 36,5–37,5 °C, monitorização contínua, gasometria e transferência para UCIN documentada.\n12. Debriefing imediato da equipe e registro na história clínica neonatal.\n\n## Fundamentação científica\n\n### População e alcance\n\nProtocolo **estritamente neonatal**: recém-nascidos de **dia 0 a dia 30 de vida**, peso **500 g a 2500 g**, em sala de parto ou área de reanimação perinatal. Não extrapolar algoritmos pediátricos ou adultos.\n\n### Indicações\n\n- Depressão respiratória ou FC < 100 bpm ao nascimento.\n- RN < 34 semanas que necessitam suporte térmico e avaliação estreita.\n- Mecônio com RN não vigoroso.\n- Antecedente de sofrimento fetal, cesárea de urgência ou malformações conhecidas.\n\n### Evidência e recomendações\n\n> **NRP/AAP (8.ª ed.):** a causa mais frequente de bradicardia neonatal é a hipóxia; a **ventilação efetiva** é a intervenção mais importante. As compressões apenas se FC < 60 bpm apesar de VPP adequada ≥ 30 s (American Academy of Pediatrics, 2021).\n\n> **VON:** reduzir hipotermia e atraso na VPP melhora desfechos em prematuros < 1500 g (Vermont Oxford Network, 2024).\n\n### Metas de SatO₂ pré-ductal (NRP)\n\n| Minuto de vida | SatO₂ objetivo aproximada |\n| --- | --- |\n| 1 | 60–65% |\n| 2 | 65–70% |\n| 3 | 70–75% |\n| 4 | 75–80% |\n| 5 | 80–85% |\n| 10 | 85–95% |\n\n### Parâmetros de ventilação inicial\n\n| Peso / IG | Tubo IOT (mm) | Profundidade IOT (cm) | Pressão VPP inicial |\n| --- | --- | --- | --- |\n| < 1000 g / < 28 sem | 2,5 | 6–7 | 20–25 cmH₂O |\n| 1000–2000 g | 2,5–3,0 | 7–8 | 20–25 cmH₂O |\n| 2000–2500 g | 3,0 | 8–9 | 25–30 cmH₂O |\n\n### Fármacos de reanimação\n\n| Fármaco | Dose | Via | Notas |\n| --- | --- | --- | --- |\n| Adrenalina | 0,01–0,03 mg/kg | IV/UVC/IO | Repetir a cada 3–5 min |\n| Volume (SF) | 10 ml/kg | IV lento | Se hipovolemia provável |\n| Glicose 10% | 2 ml/kg | IV lento | Se glicemia < 25 mg/dl confirmada |\n\n### Critérios de suspensão de reanimação\n\nConforme protocolo institucional, idade gestacional, peso ao nascimento e expectativas familiares; requer decisão médica sênior documentada.\n\n### Complicações — avisar imediatamente\n\n- Impossibilidade de ventilar (obstrução, malformação de via aérea).\n- FC persistente < 60 bpm apesar de VPP, compressões e adrenalina.\n- Hipotermia (< 36 °C) ou hipertermia (> 37,5 °C) após reanimação.\n- Pneumotórax, sangramento pulmonar ou enfisema subcutâneo.\n- Necessidade de ECMO ou transferência para centro terciário.",
+    "bibliography": [
+      {
+        "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program (NRP) — 8th Edition Provider Manual and Algorithm.",
+        "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+      },
+      {
+        "citation": "Vermont Oxford Network. Evidence-based quality improvement for newborn care in NICUs.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "World Health Organization. Guidelines on basic newborn resuscitation and immediate newborn care.",
+        "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+      },
+      {
+        "citation": "Wyckoff MH, et al. Part 13: Neonatal Resuscitation — 2020 American Heart Association Guidelines. Circulation. 2020.",
+        "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000902"
+      },
+      {
+        "citation": "Sociedade Argentina de Terapia Intensiva (SATI). Consensos em neonatologia e cuidados críticos perinatais.",
+        "url": "https://www.sati.org.ar/"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-002",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Cateter venoso umbilical (UVC)",
+    "version": "1.0",
+    "executiveSummary": "Canalizar cateter venoso umbilical em neonato de 500 g a 2500 g (dia 0–30) com técnica estéril, profundidade conforme peso, confirmação radiológica de ponta infra diafragmática e bundle OMS para prevenir infecção.",
+    "body": "## Passos a realizar\n\n1. Confirmar indicação médica, identificação do neonato (dois identificadores), peso atual e coagulação se procedimento eletivo; contraindicação relativa: onfalite, malformação umbilical ou suspeita de NEC.\n2. Posicionar sob berço aquecido com monitorização cardiorrespiratória; manter termorregulação (axilar 36,5–37,5 °C).\n3. Realizar higiene das mãos (momento 2 OMS); vestir gorro, máscara, avental estéril e luvas estéreis.\n4. Preparar kit UVC (cateter 3,5–5 Fr conforme peso, seringa, soro, sutura 3-0, antisséptico, campos estéreis).\n5. Fixar o cordão com ligadura distal; seccionar cordão a 45° com bisturi estéril; identificar veia umbilical (estrutura maior, sangue escuro não pulsátil).\n6. Dilatar óstio venoso com pinças; introduzir cateter suavemente sem força; avançar até profundidade estimada conforme peso (ver tabela).\n7. Aspirar sangue com refluxo livre; conectar equipamento fechado; infundir solução de teste (SF 0,5–1 ml) sem resistência.\n8. Suturar cateter ao cordão com ponto de ancoragem; cobrir com curativo estéril transparente; etiquetar data, hora, profundidade inserida e operador.\n9. Solicitar radiografia de tórax/abdome imediatamente: ponta deve estar na veia cava inferior **infra diafragmática** (aprox. T6–T9); retirar ou reintroduzir se estiver em átrio direito, hepática ou portal.\n10. Registrar posição final em cm desde base do cordão; iniciar infusão contínua de SF ou solução glicosada conforme prescrição; não usar UVC para fármacos vesicantes sem confirmação de posição.\n11. Desinfetar hub com antisséptico antes de cada acesso; não desconectar linhas desnecessariamente.\n12. Revisar a cada turno: eritema periumbilical, edema abdominal, sangramento, mau funcionamento; retirar conforme critérios institucionais (usualmente dia 7–14 ou antes se complicação).\n\n## Fundamentação científica\n\n### População e alcance\n\nExclusivo para **neonatos dia 0–30**, **500 g–2500 g**. O UVC é o acesso central de escolha nas primeiras horas/dias de vida na UCIN.\n\n### Indicações\n\n- Reanimação neonatal com necessidade de fármacos ou volume.\n- Infusão de nutrição parenteral, fármacos vasoativos ou antibióticos de administração central.\n- Monitorização de PVC em choque ou insuficiência cardíaca.\n- Intercâmbio transfusional (cateter de dupla luz ou protocolo específico).\n\n### Evidência e recomendações\n\n> **OMS (2024):** bundle de inserção: higiene das mãos, barreira máxima, antisséptico clorexidina alcoólica no cordão (≥ 2% conforme protocolo local em RN), técnica estéril e revisão diária do sítio (WHO, 2024).\n\n> **VON:** a má posição do UVC no átrio direito incrementa risco de arritmias e trombose; confirmação radiológica obrigatória (Vermont Oxford Network).\n\n### Seleção de calibre e profundidade\n\n| Peso ao nascimento | Calibre UVC | Profundidade estimada (cm desde base do cordão) |\n| --- | --- | --- |\n| 500–750 g | 3,5 Fr | 4–6 cm |\n| 750–1000 g | 3,5–5 Fr | 6–8 cm |\n| 1000–1500 g | 5 Fr | 8–10 cm |\n| 1500–2500 g | 5 Fr | 10–12 cm |\n\nAjustar conforme comprimento do coto umbilical e confirmação radiológica.\n\n### Posição da ponta\n\n| Achado radiológico | Ação |\n| --- | --- |\n| VCI infra diafragmática (T6–T9) | Posição correta |\n| Átrio direito / junção atriocava | Retirar 0,5–1 cm |\n| Veia porta / hepática | Retirar 1–2 cm |\n| < 3 cm inserido | Risco de extravasamento; recanalizar |\n\n### Cuidados e retirada\n\n- Não usar UVC > 14 dias se houver alternativa (PICC ou periférico); risco de infecção e trombose aumenta.\n- Limpar secreções periumbilicais com soro; não aplicar pós nem pomadas não prescritos.\n- Retirar se: onfalite, suspeita de CLABSI, mau funcionamento, NEC, ou indicação finalizada.\n\n### Complicações — avisar imediatamente\n\n- Extravasamento (edema abdominal, eritema periumbilical, ascite).\n- Arritmias (extrassístoles, taquicardia/bradicardia ao avançar cateter).\n- Trombose de veia cava ou hepática.\n- Infecção do sítio ou bacteriemia associada ao cateter.\n- Perfuração vascular ou hemorragia do cordão não controlada.",
+    "bibliography": [
+      {
+        "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with intravascular catheters — Part 2: Central catheters. WHO, 2024.",
+        "url": "https://www.who.int/publications/i/item/9789240121805"
+      },
+      {
+        "citation": "Vermont Oxford Network. Quality improvement in umbilical catheter placement and NICU care.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — vascular access and umbilical catheters.",
+        "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+      },
+      {
+        "citation": "O'Grady NP, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 — updated guidance.",
+        "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+      },
+      {
+        "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales — consenso SATI/SADI 2025.",
+        "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-003",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Cateter arterial umbilical (UAC) e PAM",
+    "version": "1.0",
+    "executiveSummary": "Canalizar cateter arterial umbilical em neonato de 500 g a 2500 g (dia 0–30) para monitorização invasiva de PAM e gasometrias, com profundidade conforme peso, confirmação radiológica e sistema transdutor calibrado ao eixo flebostático.",
+    "body": "## Passos a realizar\n\n1. Confirmar indicação (instabilidade hemodinâmica, ventilação mecânica, fármacos vasoativos, gasometrias seriadas); verificar peso, coagulação e ausência de onfalite.\n2. Posicionar sob berço aquecido com monitorização contínua; manter temperatura axilar 36,5–37,5 °C.\n3. Realizar higiene das mãos; vestir barreira estéril completa; preparar kit UAC (cateter 3,5–5 Fr), sistema de transdução pré-purgado e heparina diluída (1 U/ml conforme protocolo).\n4. Fixar cordão; seccionar; identificar artéria umbilical (estrutura menor, sangue vermelho pulsátil); dilatar óstio com pinças.\n5. Introduzir cateter com técnica suave; avançar até profundidade conforme peso (ver tabela); conectar e verificar traçado arterial pulsátil no monitor.\n6. Suturar e fixar cateter; cobrir com curativo estéril; conectar a transdutor sem bolhas de ar.\n7. Solicitar radiografia: ponta na aorta entre T6 e L3 conforme peso; **nunca** na origem das artérias mesentéricas ou renais.\n8. Colocar transdutor ao nível do eixo flebostático (linha axilar média); realizar zero; confirmar PAM coerente com clínica.\n9. Configurar infusão contínua de heparina 1 U/ml a 0,5–1 ml/h (conforme peso e protocolo) para manter permeabilidade; não administrar bolus por UAC salvo intercâmbio/emergência.\n10. Registrar sítio, profundidade, calibre, hora, operador e valores iniciais de PAM, PA e gasometria.\n11. Realizar zero no início do turno e após mudanças de posição; desinfetar hub antes de cada amostragem.\n12. Retirar UAC o mais precocemente possível (ideal < 5 dias); vigiar perfusão de extremidades inferiores e sinais de isquemia mesentérica ou renal.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. O UAC é o acesso arterial padrão na UCIN durante os primeiros dias de vida; não aplicar critérios de PAM de adulto ou criança maior.\n\n### Indicações\n\n- Monitorização invasiva de pressão arterial em RN instável.\n- Gasometrias arteriais seriadas.\n- Titulação de fármacos vasoativos (dopamina, dobutamina, adrenalina).\n- Avaliação de hipoxemia refratária ou hipertensão pulmonar.\n\n### Evidência e recomendações\n\n> **VON / neonatologia:** a profundidade incorreta do UAC associa-se a isquemia mesentérica, renal e de extremidades; a radiografia pós-inserção é obrigatória (Vermont Oxford Network).\n\n> **OMS (2024):** minimizar duração do cateter arterial; técnica estéril e retirada precoce reduzem infecção e trombose (WHO, 2024).\n\n### Profundidade conforme peso (ponta na aorta descendente)\n\n| Peso | Calibre UAC | Profundidade (cm desde base do cordão) | Nível vertebral objetivo |\n| --- | --- | --- | --- |\n| 500–750 g | 3,5 Fr | 6–8 cm | T6–T8 (alta) |\n| 750–1000 g | 3,5 Fr | 8–10 cm | T8–T10 |\n| 1000–1500 g | 5 Fr | 10–12 cm | T9–L2 (média) |\n| 1500–2500 g | 5 Fr | 12–15 cm | T10–L3 (baixa) |\n\nPosição **alta** (T6–T10): menor risco de oclusão mesentérica. Posição **baixa** (L3–L4): útil para cateteres longos; maior risco de oclusão de ramos viscerais.\n\n### Objetivos de PAM em neonato\n\n| Idade pós-natal | PAM orientativa (mmHg) |\n| --- | --- |\n| Dia 0–1 | 30–40 (ajustar a peso e IG) |\n| Dia 2–7 | 35–45 |\n| Semana 2–4 | 40–50 |\n\nUsar tabelas de percentis por idade pós-natal e peso; em choque tratar PAM baixa com volume e vasoativos conforme prescrição.\n\n### Amostragem de gasometria\n\n- Descartar volume mínimo (0,5–1 ml em RN < 1000 g; 1–2 ml em > 1000 g) antes de extrair amostra.\n- Desinfetar hub 15 s; não introduzir ar no sistema.\n- Fechar sistema e purgar bolhas após cada amostragem.\n\n### Critérios de retirada\n\n- Estabilidade hemodinâmica com monitorização não invasiva disponível.\n- UAC > 5 dias (risco trombótico e infeccioso).\n- Suspeita de isquemia mesentérica, renal ou de membros inferiores.\n- Mau funcionamento ou infecção.\n\n### Complicações — avisar imediatamente\n\n- Isquemia de extremidades inferiores (palidez, cianose, pulsos ausentes).\n- NEC ou sangramento digestivo (suspeita oclusão mesentérica).\n- Oligúria/anúria (oclusão renal).\n- Trombose aórtica.\n- Hemorragia do cordão ou do sítio de inserção.\n- Embolização aérea ao amostrar.",
+    "bibliography": [
+      {
+        "citation": "Vermont Oxford Network. NICU quality improvement — umbilical artery catheter placement.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "World Health Organization. Guidelines for prevention of bloodstream infections associated with intravascular catheters. WHO, 2024.",
+        "url": "https://www.who.int/publications/i/item/9789240121805"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — umbilical vascular access.",
+        "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+      },
+      {
+        "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Complications and risk factors of peripheral arterial catheters. Crit Care. 2002.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+      },
+      {
+        "citation": "SATI — Comitê de Infectologia Crítica. Prevenção de IAAS na UCIN.",
+        "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-004",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Via periférica em neonato",
+    "version": "1.0",
+    "executiveSummary": "Canalizar cateter venoso periférico em neonato de 500 g a 2500 g (dia 0–30) com técnica asséptica não tátil, calibre 24–26 G, máximo dois tentativas por operador e vigilância rigorosa de extravasamento.",
+    "body": "## Passos a realizar\n\n1. Confirmar indicação, identificação (dois identificadores), peso exato e prescrição; avaliar se o acesso pode ser UVC/PICC antes de periférico em RN < 1000 g com tratamento prolongado.\n2. Selecionar sítio conforme peso: dorso da mão/pé, antebraço ou tornozelo; evitar couro cabeludo salvo indicação institucional específica; não usar extremidade com UAC ipsilateral se protocolo contraindicar.\n3. Manter termorregulação sob berço aquecido ou incubadora; monitorizar FC e SatO₂ durante o procedimento.\n4. Realizar higiene das mãos (momento 2 OMS); preparar material estéril; segundo operador para contenção suave sem comprimir tórax.\n5. Aplicar torniquete suave com gaze ou torniquete neonatal 5–10 cm proximal; palpar veia com transiluminador ou visualização direta se disponível.\n6. Desinfetar pele com antisséptico conforme protocolo institucional (< 2 meses: clorexidina aquosa 0,5% ou povidona iodada conforme guia local; ≥ 2 meses: clorexidina alcoólica se autorizada); fricção circular; secar ≥ 30 s.\n7. Puncionar com ângulo 10–20°; avançar cateter 24–26 G até refluxo de sangue; retirar torniquete; fixar com curativo transparente sem comprimir.\n8. Conectar equipamento microgotejamento ou bomba de seringa; verificar infusão sem resistência e ausência de edema peripunção.\n9. Registrar data, hora, sítio, calibre, número de tentativas, operador e solução infundida.\n10. Se falhar: máximo dois tentativas por operador; escalar para colega experiente ou acesso central (UVC/PICC/intraósseo em emergência).\n11. Revisar a cada hora em RN < 1500 g e a cada turno em > 1500 g: cor, temperatura, edema, eritema e funcionamento.\n12. Retirar ao finalizar tratamento, diante de extravasamento ou se cateter > 72–96 h sem necessidade clínica.\n\n## Fundamentação científica\n\n### População e alcance\n\nExclusivo **neonatos dia 0–30**, **500 g–2500 g**. A via periférica em prematuros tem alto risco de extravasamento e duração limitada; não equiparar com acesso pediátrico em > 30 dias.\n\n### Indicações\n\n- Administração de medicação ou fluidos IV de curta duração.\n- Coleta de amostras sanguíneas quando UVC/UAC indisponível.\n- Ponte temporária enquanto se canaliza acesso central.\n\n### Contraindicações relativas\n\n- RN < 750 g com nutrição parenteral prolongada prevista (preferir UVC/PICC).\n- Fármacos vesicantes, osmóticos ou vasoativos concentrados (requerem acesso central).\n- Infecção cutânea, linfedema ou punções prévias falhas na mesma extremidade.\n\n### Evidência e recomendações\n\n> **OMS (2024):** bundle periférico: higiene das mãos, antisséptico na pele, máximo dois tentativas por operador, fixação e retirada precoce (WHO, 2024).\n\n> **VON:** em prematuros < 1500 g a extravasamento de soluções hiperosmolares é causa frequente de lesão tissular; preferir acesso central para NP (Vermont Oxford Network).\n\n### Seleção de calibre e sítio\n\n| Peso | Calibre | Sítio preferido |\n| --- | --- | --- |\n| 500–1000 g | 26–24 G | Dorso mão/pé, tornozelo |\n| 1000–1500 g | 24 G | Dorso mão/pé, antebraço |\n| 1500–2500 g | 24 G | Antebraço, dorso mão |\n\n| Evitar | Motivo |\n| --- | --- |\n| Couro cabeludo | Risco hemorrágico e embolia aérea (apenas protocolo específico) |\n| Prega antecubital | Flexão e oclusão |\n| Mesma extremidade de UAC | Comprometimento vascular |\n\n### Critérios de retirada imediata\n\n- Extravasamento (edema, branqueamento, endurecimento cutâneo).\n- Flebite ou eritema progressivo.\n- Mau funcionamento ou oclusão.\n- Indicação IV finalizada.\n\n### Protocolo de extravasamento neonatal\n\n1. Interromper infusão; não retirar agulha até avaliar.\n2. Aspirar residual se possível; retirar cateter.\n3. Elevar extremidade; aplicar compressa fria (soluções irritantes) ou quente (fármacos vasoconstritores) conforme protocolo do fármaco.\n4. Antídoto específico se existir (p. ex. hialuronidase conforme protocolo institucional).\n5. Documentar e escalar ao neonatologista; avaliar imagem se extensa.\n\n### Complicações — avisar imediatamente\n\n- Extravasamento de nutrição parenteral, cálcio ou fármacos vasoativos.\n- Necrose cutânea ou síndrome compartimental.\n- Infecção do sítio ou bacteriemia.\n- Hematoma extenso ou comprometimento vascular distal.",
+    "bibliography": [
+      {
+        "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections — Part 1: Peripheral catheters. WHO, 2024.",
+        "url": "https://www.who.int/publications/i/item/9789240080189"
+      },
+      {
+        "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+      },
+      {
+        "citation": "Vermont Oxford Network. Prevention of extravasation injury in very low birth weight infants.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "O'Grady NP, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+        "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+      },
+      {
+        "citation": "SATI — Comitê de Infectologia Crítica. Prevenção de IAAS e acessos vasculares na UTI.",
+        "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-005",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Administração segura de medicação IV neonatal",
+    "version": "1.0",
+    "executiveSummary": "Administrar medicação IV em neonato de 500 g a 2500 g (dia 0–30) com dupla verificação de dose por peso, diluição e velocidade conforme prescrição, compatibilidade e via adequada (central vs periférica).",
+    "body": "## Passos a realizar\n\n1. Confirmar identificação do neonato (dois identificadores), peso atual (< 24 h), alergias e prescrição médica completa (fármaco, dose mg/kg, diluição, velocidade ml/h, via).\n2. Calcular dose estritamente em mg/kg ou mcg/kg/min conforme peso em gramas; usar calculadora institucional; **dupla verificação** obrigatória por segundo profissional.\n3. Verificar compatibilidade e via: fármacos vesicantes/osmóticos/vasoativos apenas por UVC/PICC; periférica apenas para fármacos compatíveis e de curta duração.\n4. Preparar medicação em área limpa com técnica asséptica; etiquetar seringa/bolsa com nome do RN, fármaco, concentração, dose total, data/hora e validade.\n5. Realizar higiene das mãos (momento 2 OMS); desinfetar hub do cateter 15 s com antisséptico; não desconectar linhas desnecessariamente.\n6. Administrar em bomba de seringa ou infusão com precisão ± 0,1 ml/h; purgar linha no cateter sem bolus não prescritos.\n7. Vigiar durante carga inicial (vasoativos): FC, TA/PAM, SatO₂, perfusão periférica e sinais de extravasamento.\n8. Registrar na história: fármaco, dose mg/kg, volume, velocidade, via, hora início/fim, operador e verificador.\n9. Não misturar fármacos na mesma linha sem consultar tabela de compatibilidade neonatal; usar linhas dedicadas para nutrição parenteral.\n10. Diante de erro de medicação ou reação adversa: interromper infusão, avisar imediatamente, documentar evento e ativar protocolo de farmacovigilância.\n11. Na troca de turno: verificar bombas ativas, concentrações e sítios de infusão com colega entrante.\n12. Descartar material conforme normativa; nunca reutilizar seringas ou equipos de infusão.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. Os erros de dosagem em neonatos têm alta morbimortalidade por estreita margem terapêutica e variabilidade farmacocinética por idade gestacional e função renal/hepática imatura.\n\n### Princípios de segurança\n\n- **Peso:** usar peso ao nascimento nas primeiras 24 h; depois peso atual diário.\n- **Dupla verificação:** obrigatória para fármacos de alto risco (vasoativos, sedação, antibióticos aminoglicosídeos, anticonvulsivantes, heparina).\n- **Unidades:** mg/kg, mcg/kg/min; nunca confundir mg com mcg.\n- **Volume:** minimizar carga de líquidos em RN < 1000 g (microgotejamento/bomba de seringa).\n\n### Evidência e recomendações\n\n> **OMS / OMS Patient Safety:** as concentrações padronizadas e a dupla verificação reduzem erros de medicação em UTI pediátrica e neonatal (WHO, 2024).\n\n> **VON:** erros de infusão de insulina, heparina e vasoativos são eventos sentinela na UCIN; bombas com limites programados e protocolos de preparação centralizada (Vermont Oxford Network).\n\n### Fármacos de alto risco — via e diluição\n\n| Fármaco | Via preferida | Precaução neonatal |\n| --- | --- | --- |\n| Dopamina / dobutamina | UVC/PICC | Extravasamento → necrose; titular por PAM |\n| Adrenalina | UVC/PICC/IO | Arritmias; diluição 1:10.000 |\n| Gentamicina / amicacina | UVC/PICC | Ajustar intervalo por IG e função renal |\n| Fentanil / midazolam | UVC/PICC | Depressão respiratória; infusão contínua |\n| Heparina | UVC/PICC | Risco hemorragia intraventricular em prematuros |\n| Nutrição parenteral | UVC/PICC exclusivo | Nunca periférica; osmolaridade > 900 mOsm/L |\n\n### Compatibilidade e linhas\n\n- Linha dedicada para NP; não coadministrar com fármacos em Y sem compatibilidade confirmada.\n- Flush com SF 0,5–1 ml (conforme peso) após antibióticos em bolus; heparina conforme protocolo de manutenção de cateter.\n\n### Cálculo orientativo de velocidade (vasoativos)\n\nDose desejada (mcg/kg/min) × peso (kg) × 60 / concentração (mcg/ml) = ml/h\n\nExemplo: dopamina 5 mcg/kg/min em RN 1000 g (1 kg), solução 1600 mcg/ml → 5 × 1 × 60 / 1600 = 0,19 ml/h.\n\n### Complicações — avisar imediatamente\n\n- Extravasamento de fármaco vesicante ou vasoativo.\n- Bradicardia, hipotensão ou arritmia após administração.\n- Depressão respiratória (opioides, benzodiazepínicos).\n- Erro de medicação identificado (dose 10× ou mais).\n- Reação alérgica ou anafilaxia.",
+    "bibliography": [
+      {
+        "citation": "World Health Organization. Patient safety and medication without harm — high-risk situations.",
+        "url": "https://www.who.int/teams/integrated-health-services/patient-safety"
+      },
+      {
+        "citation": "Vermont Oxford Network. Medication safety and infusion practices in the NICU.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Standardization of concentrations for neonatal and pediatric medication infusions.",
+        "url": "https://www.aap.org/en/patient-care/"
+      },
+      {
+        "citation": "Institute for Safe Medication Practices (ISMP). High-alert medications in acute care.",
+        "url": "https://www.ismp.org/recommendations/high-alert-medications-acute-list"
+      },
+      {
+        "citation": "SATI — Consensos em terapia intensiva neonatal e pediátrica.",
+        "url": "https://www.sati.org.ar/"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-006",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Coleta de hemocultura neonatal",
+    "version": "1.0",
+    "executiveSummary": "Extrair hemocultura em neonato de 500 g a 2500 g (dia 0–30) antes do antibiótico se não atrasar seu início, com volume ajustado ao peso, técnica asséptica rigorosa e frascos pediátricos.",
+    "body": "## Passos a realizar\n\n1. Confirmar indicação clínica (suspeita de sepse, instabilidade térmica, desconforto respiratório, NEC, infecção de cateter); identificar RN (dois identificadores), pesar e registrar hora.\n2. Explicar à família; manter termorregulação durante o procedimento.\n3. Preparar frascos pediátricos (aeróbico ± anaeróbico conforme protocolo); desinfetar tampas com álcool 70% ≥ 15 s; deixar secar.\n4. Realizar higiene das mãos (momento 2 OMS); vestir luvas estéreis se punção sobre cateter.\n5. Selecionar sítio: punção venosa periférica preferida; UVC/UAC apenas com protocolo de retrocultura diferenciado; não misturar sangue de cateter e periférico no mesmo set sem indicação.\n6. Desinfetar pele ou hub do cateter com antisséptico em fricção ≥ 30 s; ampliar área 2–3 cm; não repassar zona desinfetada.\n7. Extrair volume conforme peso (ver tabela); usar seringa de precisão; não sobre-encher frascos pediátricos.\n8. Inocular frascos na ordem do sistema: vácuo (aeróbico primeiro); seringa (anaeróbico primeiro se aplicável); misturar por inversão suave.\n9. Etiquetar em mesa limpa: nome, peso, data, hora, sítio de punção, número de set e antibióticos prévios.\n10. Em sepse grave: **não atrasar antibiótico** por dificuldade de punção; coletar culturas em paralelo e administrar empírico conforme prescrição.\n11. Transportar ao laboratório imediatamente; registrar hora de início de antibiótico empírico.\n12. Comunicar resultado positivo, contaminação provável (Corynebacterium, Bacillus, Micrococcus) ou deterioração clínica.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. A sepse neonatal precoce (< 72 h) e tardia (> 72 h) requer hemocultura antes de antibióticos quando clinicamente seguro; em choque séptico o antibiótico não se atrasa.\n\n### Indicações\n\n- Suspeita clínica de sepse neonatal (instabilidade térmica, letargia, apneia, acidose metabólica).\n- Febre ou hipotermia em RN com fatores de risco materno (corioamnionite, RPM > 18 h).\n- Suspeita de infecção associada a cateter (CLABSI).\n- NEC suspeita ou confirmada.\n- Má evolução clínica em RN de risco sem foco.\n\n### Evidência e recomendações\n\n> **SATI / consenso infectologia crítica:** em neonatos a contaminação de hemocultura tem alto impacto; técnica asséptica rigorosa e volume adequado melhoram rendimento (SATI, 2007; atualização 2025).\n\n> **VON:** a sepse é principal causa de morbimortalidade em VLBW; hemocultura antes de antibiótico aumenta sensibilidade sem atrasar tratamento em casos graves (Vermont Oxford Network).\n\n### Volume conforme peso neonatal\n\n| Peso | Volume por frasco | Número de sets |\n| --- | --- | --- |\n| 500–749 g | 0,5–1 ml | 1–2 (conforme gravidade) |\n| 750–999 g | 1 ml | 1–2 |\n| 1000–1499 g | 1–2 ml | 2 em sepse grave |\n| 1500–2500 g | 2–3 ml | 2 em sepse grave |\n\nRespeitar volume máximo do frasco pediátrico do fabricante.\n\n### Momento e sítio\n\n- Ideal: antes do primeiro antibiótico; não requer coincidir com pico febril.\n- Sepse grave: 2 sets de sítios distintos (periférico + cateter com retrocultura se aplicável).\n- Endocardite neonatal: 3 sets de sítios distintos.\n\n### Hemocultura de cateter vs periférico\n\n| Situação | Ação |\n| --- | --- |\n| Suspeita CLABSI | 1 periférico + 1 retrocultura de cateter (mesmo volume) |\n| Cateter recente (< 48 h) | Preferir periférico |\n| Sem acesso periférico | UVC com técnica asséptica; documentar origem |\n\n### Prevenção de contaminação\n\n- Não tocar tampa do frasco após desinfecção.\n- Não usar compressas de álcool na pele e no frasco simultaneamente (contaminação cruzada).\n- Em prematuros extremos: considerar pausa respiratória breve coordenada para evitar movimento durante punção.\n\n### Complicações — avisar imediatamente\n\n- Impossibilidade de obter amostra com deterioração clínica (escalar acesso UVC/intraósseo).\n- Hemorragia ou hematoma extenso no sítio de punção.\n- Embolização aérea ao amostrar por cateter.\n- Resultado positivo com deterioração clínica (ajustar antibiótico imediatamente).",
+    "bibliography": [
+      {
+        "citation": "SATI — Toma de muestras microbiológicas en UTI (Comité de Infectología Crítica). Revisión 2007.",
+        "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+      },
+      {
+        "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales — consenso SATI/SADI 2025.",
+        "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+      },
+      {
+        "citation": "Vermont Oxford Network. Sepsis prevention and early recognition in the NICU.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "World Health Organization. Guidelines on prevention of healthcare-associated infections in neonatal units.",
+        "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Management of neonatal sepsis and febrile neonates.",
+        "url": "https://www.aap.org/en/patient-care/"
+      }
+    ]
+  },
+  {
+    "id": "neo-i-007",
+    "category": "neonatologia",
+    "division": "intensiva",
+    "title": "Oxigenoterapia, CPAP e vigilância respiratória neonatal",
+    "version": "1.0",
+    "executiveSummary": "Administrar oxigenoterapia titulada, CPAP nasal e vigilância respiratória contínua em neonato de 500 g a 2500 g (dia 0–30) com metas de SatO₂ conforme idade pós-natal, prevenção de DAP e registro rigoroso de FiO₂.",
+    "body": "## Passos a realizar\n\n1. Avaliar trabalho respiratório (tiragem, gemido, batimento de asa nasal, retrações, apneia); monitorizar FC, FR, SatO₂ pré-ductal (mão direita) e pós-ductal se indicado; temperatura axilar 36,5–37,5 °C.\n2. Selecionar dispositivo conforme gravidade: cânulas nasais de baixo fluxo (LFNC), CPAP nasal, VNI ou ventilação mecânica conforme prescrição neonatológica.\n3. Iniciar oxigenoterapia titulada: FiO₂ mínima para alcançar SatO₂ objetivo conforme idade pós-natal e IG (ver tabela); preferir ar ambiente + oxigênio misturado, não oxigênio puro sustentado.\n4. Colocar CPAP nasal: prong/cânula adequada ao peso; pressão inicial 5–6 cmH₂O (ajustar 4–8 cmH₂O conforme resposta); fixar sem pressão excessiva na nariz.\n5. Verificar circuito: umidificação ativa 37 °C, pressão medida em Y-piece, ausência de vazamentos massivos; alarmes de pressão e FiO₂ ativos.\n6. Registrar a cada turno e após mudanças: FiO₂, PEEP/CPAP, FR, SatO₂, pH/PaCO₂ se gasometria, e achados clínicos.\n7. Posicionar em decúbito prono ou lateral alternado conforme protocolo; elevar cabeceira mínima se tolerado; evitar flexão cervical que obstrua via aérea.\n8. Aspirar secreções apenas se obstruem via aérea; técnica asséptica com pressão ≤ 80–100 mmHg em RN < 1500 g.\n9. Vigiar sinais de sobrecarga de CPAP: enfisema subcutâneo, pneumotórax, distensão abdominal, eritema nasal; reduzir pressão ou escalar conforme prescrição.\n10. Weaning: reduzir FiO₂ antes do CPAP; critérios de retirada conforme estabilidade clínica, SatO₂ em ar ambiente e ausência de apneias significativas.\n11. Em RN < 32 sem ou < 1500 g: rastreamento de retinopatia e seguimento de DAP (ducto arterioso persistente) conforme protocolo; limitar SatO₂ 91–95% em prematuros (evitar > 95% sustentado).\n12. Diante de deterioração súbita (SatO₂ ↓, cianose, apneia): aumentar FiO₂ temporariamente, ventilar com bolsa e máscara se apneia, avisar imediatamente e preparar intubação.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. A oxigenoterapia neonatal requer titulação rigorosa; a hipoxemia e a **hiperóxia** (especialmente em prematuros) causam morbidade (DAP, ROP, lesão pulmonar).\n\n### Indicações\n\n- Taquipneia, tiragem ou gemido expiratório.\n- SatO₂ abaixo do objetivo para idade pós-natal/IG.\n- Apneia da prematuridade ou bradicardia relacionada.\n- Síndrome do desconforto respiratório (SDR), TTRN, pneumonia neonatal.\n- Pós-extubação ou weaning de ventilação mecânica.\n\n### Evidência e recomendações\n\n> **VON / Neonatal Oxygenation Prospective Meta-analysis:** em prematuros < 28 sem objetivo SatO₂ **91–95%** reduz mortalidade vs faixas mais amplas; evitar > 95% sustentado (Vermont Oxford Network, 2023).\n\n> **AAP / NRP:** titular FiO₂ desde o nascimento; metas pré-ductais por minuto de vida na reanimação (American Academy of Pediatrics, 2021).\n\n### Metas de SatO₂ conforme idade gestacional\n\n| Grupo | SatO₂ objetivo |\n| --- | --- |\n| ≥ 35 sem (a termo/quase a termo) | 92–97% |\n| 28–34 sem | 91–95% |\n| < 28 sem / < 1000 g | 91–95% (estrito) |\n\nAjustar conforme prescrição neonatológica e gasometria (PaO₂ 50–80 mmHg orientativo em prematuros).\n\n### Seleção de suporte respiratório\n\n| Nível | Indicação | Parâmetros iniciais |\n| --- | --- | --- |\n| LFNC | Hipoxemia leve, pós-CPAP | 0,5–2 L/min (fluxo real limitado em RN pequenos) |\n| CPAP nasal | SDR leve-moderado, TTRN, pós-extubação | 5–6 cmH₂O; FiO₂ titulada |\n| VNI (NIPPV) | Apneia persistente, atelectasia | CPAP + pressão de suporte conforme ventilador |\n| VM invasiva | Falha de CPAP, PaCO₂ > 60 com acidose | Conforme protocolo de ventilação neonatal |\n\n### CPAP — cuidados da interface\n\n| Peso | Tamanho prong orientativo |\n| --- | --- |\n| 500–1000 g | Prematuro pequeno |\n| 1000–1500 g | Prematuro médio |\n| 1500–2500 g | Prematuro grande / a termo |\n\n- Rotacionar prongs a cada 6–12 h; proteger pele nasal com curativo hidrocolóide.\n- Umidificar a 100%; temperatura do gás 37 °C.\n\n### Vigilância respiratória contínua\n\n- Alarmes: bradicardia < 80 bpm, apneia > 20 s, SatO₂ < objetivo − 5% por > 30 s.\n- Registro de eventos de apneia/bradicardia no monitor.\n- Gasometria se FiO₂ > 40%, CPAP > 7 cmH₂O ou deterioração clínica.\n\n### Complicações — avisar imediatamente\n\n- Pneumotórax (assimetria torácica, ↓ murmúrio, desvio traqueal).\n- Enfisema subcutâneo cervical/facial.\n- DAP em prematuro (saturações > 95% com FiO₂ baixa).\n- Apneias frequentes com bradicardia (< 60 bpm) ou cianose.\n- Lesão nasal grave ou perfuração septal por CPAP mal fixado.",
+    "bibliography": [
+      {
+        "citation": "Vermont Oxford Network. Oxygen targeting and respiratory care in the NICU.",
+        "url": "https://www.vtoxford.org/"
+      },
+      {
+        "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — oxygen titration and CPAP.",
+        "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+      },
+      {
+        "citation": "World Health Organization. WHO recommendations on newborn health — thermal care and respiratory support.",
+        "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+      },
+      {
+        "citation": "Askie LM, et al. Neonatal Oxygenation Prospective Meta-analysis (NeOProM) — target ranges for SpO2. Cochrane and related trials.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24378724/"
+      },
+      {
+        "citation": "SATI — Consensos em ventilação e suporte respiratório neonatal.",
+        "url": "https://www.sati.org.ar/"
+      }
+    ]
+  }
+]

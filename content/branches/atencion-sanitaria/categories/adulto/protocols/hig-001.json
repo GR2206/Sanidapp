@@ -1,0 +1,27 @@
+{
+  "id": "hig-001",
+  "title": "Higiene de manos y prevención de IAAS",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Aplicar los 5 momentos de higiene de manos de la OMS y el bundle multimodal SATI para prevenir infecciones asociadas a la atención en salud.",
+  "body": "## Pasos a realizar\n\n1. Realizar higiene de manos en los **5 momentos OMS**: antes de tocar al paciente, antes de tarea asséptica, después de riesgo de fluidos corporales, después de tocar al paciente, después de tocar el entorno.\n2. Usar solución alcoholada con fricción 20–30 segundos hasta seco cuando las manos no están visiblemente sucias.\n3. Lavar con jabón y agua cuando hay suciedad visible, esporas (C. difficile) o brote de virus entéricos.\n4. Aplicar medidas de aislamiento según vía de transmisión (contacto, gotas, aéreo).\n5. Cuidar vías vasculares y dispositivos urinarios según protocolo institucional.\n6. Realizar limpieza y desinfección del entorno del paciente.\n7. Comunicar brotes o colonizaciones multirresistentes.\n8. Registrar cumplimiento en observaciones directas y eventos asociados a dispositivos (CVP, SV, VM).\n\n## Fundamentación científica\n\n### Indicaciones\n\nReducir infecciones asociadas a la atención en salud (IAAS) mediante higiene de manos y medidas de barrera estandarizadas.\n\n### Cinco momentos de higiene de manos (OMS)\n\n1. Antes de tocar al paciente.\n2. Antes de realizar una tarea asséptica.\n3. Después del riesgo de exposición a fluidos corporales.\n4. Después de tocar al paciente.\n5. Después de tocar el entorno del paciente.\n\n### Evidencia y recomendaciones\n\n> **OMS 2009:** La higiene de manos es la intervención más efectiva para prevenir IAAS. Solución alcoholada como método preferente salvo contraindicaciones.\n\n> **SATI — Infectología Crítica:** Bundle multimodal que incluye aislamiento, cuidado de dispositivos, limpieza ambiental y stewardship antimicrobiano.\n\n### Bundle multimodal (SATI — Infectología Crítica)\n\n- Medidas de aislamiento según vía de transmisión (contacto, gotas, aéreo).\n- Cuidado de vías vasculares y dispositivos urinarios según protocolo.\n- Limpieza y desinfección del entorno del paciente.\n- Uso racional de antimicrobianos (programa de stewardship).\n\n### Indicadores de enfermería\n\n- Cumplimiento de higiene de manos en observaciones directas.\n- Registro de eventos asociados a dispositivos (CVP, SV, VM).\n- Comunicación de brotes o colonizaciones multirresistentes.\n\n### Complicaciones\n\n- Transmisión de microorganismos multirresistentes.\n- Infecciones asociadas a dispositivos (BAC, ITU-SV, NAVM).\n- Brotes nosocomiales.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. WHO Guidelines on Hand Hygiene in Health Care. WHO, 2009.",
+      "url": "https://www.who.int/publications/i/item/9789241597906"
+    },
+    {
+      "citation": "SATI — Consenso interinstitucional: estrategia multimodal de prevención de infecciones asociadas a dispositivos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "SATI — Guías y consensos.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    }
+  ]
+}

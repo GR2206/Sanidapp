@@ -1,0 +1,53 @@
+{
+  "id": "cas-001",
+  "name": "Caspofungina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Para pacientes que no toleren o no respondan a la terapia con otros antifúngicos, pacientes con fallo renal que tengan infección documentada por cándida, pacientes con insuficiencia hepática en los que no se pueda utilizar Fluconazol. Tratamiento empírico en neutropenia febril si",
+  "indications": "## Indicaciones principales\n\nPara pacientes que no toleren o no respondan a la terapia con otros antifúngicos, pacientes con fallo renal que tengan infección documentada por cándida, pacientes con insuficiencia hepática en los que no se pueda utilizar Fluconazol.\nTratamiento empírico en neutropenia febril sin foco al 5to o 7mo día de persistencia de fiebre y neutropenia.\nProfilaxis en pacientes trasplantados de médula ósea y en leucemias y en algunos casos como tratamiento de infecciones documentadas por hongos sensibles a equinocandinas\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 50 mg o 70 mg (Cancidas).",
+      "reconstitution": "10,5 mL de AD, SF o agua bacteriostática. Conc: 5 mg/mL (50 mg) o 7 mg/mL (70 mg). Agitar suavemente hasta obtener solución clara.",
+      "diluent": "50-70 mg en 250 mL de SF o Ringer lactato.",
+      "finalConcentration": "0,2-0,28 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Extraer el volumen necesario y diluir en 250 mL de SF o Ringer lactato. Admin. en 60 min.",
+      "notes": "No utilizar DX 5% como diluyente (incompatible). Dosis de carga: 70 mg el día 1; mantenimiento: 50 mg/día. En pacientes con insuficiencia hepática moderada aumentar a 70 mg/día. Equinocandina de primera línea para candidiasis invasora."
+    },
+    "pediatrico": {
+      "dose": "Neonatos: 2 mg/kg/día (con autorización de Infectología); Niños &gt; 3 meses: dosis de carga 70 mg/m&sup2; y continuar con 50 mg/m&sup2;, cuando se coadministra con Rifampicina, Nevirapina, Efavirenz, Carbamacepina, dexametasona, fenitoína aumentar a 70 mg/m&sup2; cada 24 hs, dosis máxima 70 mg/dosis. Adultos: Inicial 70 mg/dosis y luego 50 mg/dosis cada 24 hs, cuando se coadministra con Rifampicina, Nevirapina, Efavirenz, Carbamacepina, dexametasona, fenitoína, debe aumentarse a 70 mg/dosis una vez por día. No necesita ajuste por insuficiencia renal.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 50 y 70 mg",
+      "notes": "Administrar lentamente, en 1 hora. No diluir en Dextrosa. Es estable 48 hs en heladera una vez que está diluído. Interacciones: con ciclosporina puede aumentar la concentración del caspofungín (se ha observado aumento de las transaminasas), evitar; con tacrólimus puede disminuir la concentración sérica del tacrólimus."
+    },
+    "neonatal": {
+      "dose": "25 mg/m²/día IV según protocolo NNU (uso especializado).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 1 h a T° amb, 24 h refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb, 48 hs refrigerado.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión, rash, diarrea, cefalea, aumento de transaminasas y fosfatasa alcalina.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Caspofungín* (cód. 1594, ATC J02AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

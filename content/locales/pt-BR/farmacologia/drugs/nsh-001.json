@@ -1,0 +1,51 @@
+{
+  "id": "nsh-001",
+  "name": "Cloreto de sódio hipertônico",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Hiponatremia.",
+  "indications": "## Indicações principais\n\nHiponatremia.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola/bolsa NaCl 3% ou 23,4%.",
+      "dose": "3%: 100–150 mL bolus em edema cerebral. Hiponatremia: conforme cálculo de déficit.",
+      "administration": "E.V. central para 23,4%."
+    },
+    "pediatrico": {
+      "dose": "Requerimentos: 2 mEq/kg/dia. Tratamento hiponatremia: primeiro tratamento etiológico. Hiponatremia aguda, sintomática com Na <130: (Na teórico - Na real) x 0,6 x peso (kg) = mEq Na a administrar como ClNa a 3% em 1- 4 h. Ver Boletim CIME Eletrólitos.",
+      "administration": "V.O. E.V.",
+      "presentation": "Ampolas: 200 mg/ml (3,4 mEq de Na/ml); Solução V.O. (preparado magistral): 233 mg/ml (4 mEq de Na/ml)",
+      "notes": "Não corrigir a natremia mais de 10 mEq/litro por vez. Não administrar a 20% E.V. sem diluir. Precaução em pacientes com insuficiência cardíaca congestiva, severa insuficiência renal, retenção de sódio com edema, neonatos com hiperbilirrubinemia. Pseudohiponatremia: a cada aumento de 62 mg% na glicemia, produz-se uma diminuição de 1 mEq na concentração de Na."
+    },
+    "neonatal": {
+      "dose": "Bolus hipertônico conforme protocolo neuro-UCIN.",
+      "administration": "E.V. central."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Solução pronta; verificar duplamente a concentração.",
+  "adverseEffects": "## Efeitos adversos\n\nEdema, náuseas, vômitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Sódio CLORURO (cód. 0313, ATC A12CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

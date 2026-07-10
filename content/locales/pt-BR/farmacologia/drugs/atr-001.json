@@ -1,0 +1,54 @@
+{
+  "id": "atr-001",
+  "name": "Atropina",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Bradicardia. Para reduzir secreções de via aérea superior e salivação. Oftalmologia: midriático e cicloplégico.",
+  "indications": "## Indicações principais\n\nBradicardia. Para reduzir secreções de via aérea superior e salivação. Oftalmologia: midriático e cicloplégico.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 1 mg/mL.",
+      "dose": "Bradicardia: 1 mg E.V. a cada 3–5 min (máx. 3 mg).",
+      "administration": "E.V. em bolus rápido."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas: 1 mg/mL (1000 µg/mL); Gotas: 1%",
+      "administration": "E.V.; I.M.; S.C.; Intratraqueal",
+      "diluent": "SF 0,9% ou SG 5%.",
+      "finalConcentration": "0,1 mg/mL.",
+      "infusionRate": "PARADA CARDÍACA sem diluir (push).",
+      "dose": "20 µg/kg/dose (dose mínima: 100 µg); pode repetir em intervalos de 5 minutos até dose máxima total: crianças: 1 mg; adolescentes: 2 mg. Toxicologia: E.V. 20 µg/kg.",
+      "notes": "Não administrar I.M. em neonatos. Administrar sem diluir por via E.V. Contraindicado em obstrução do trato urinário e glaucoma. Para administração intratraqueal, diluir com solução fisiológica em volume total de 1–2 mL."
+    },
+    "neonatal": {
+      "dose": "0,02 mg/kg E.V. (protocolo NRP/PALS neonatal).",
+      "administration": "E.V./I.O."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nMidríase, boca seca, cicloplegia, fotofobia, bradicardia seguida de taquicardia, palpitações, arritmias, retenção urinária, confusão, alucinações.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ATROPina Sulfato (cód. 0023, ATC A03BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

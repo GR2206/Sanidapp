@@ -1,0 +1,45 @@
+{
+  "id": "hio-001",
+  "name": "Hyoscine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Spasmolytic, to inhibit secretion production.",
+  "indications": "## Main indications\n\nSpasmolytic, to inhibit secretion production.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Tablets: 10 mg; Ampoules: 20 mg/mL.",
+      "administration": "PO; IV; IM; SL; SC",
+      "diluent": "SWFI, 0.9% NaCl solution, 5% dextrose.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "Bolus 5 min.",
+      "dose": "Antisecretory (adjunct): IV-SC-IM: Infants and < 6 years: 0.3-0.6 mg/kg/dose, maximum dose: 1.5 mg/kg/day; 6 to 12 years: 5 - 10 mg/dose up to 3 times per day, > 12 years: 20 mg/dose up to 4 times per day, adults maximum dose: 100 mg/day. PO: 6 to 12 years: 10 mg/dose every 8 h, > 12 years: 20 mg every 6 h.",
+      "notes": "Contraindicated in patients with myasthenia gravis, megacolon, and glaucoma. Hyoscine increases the anticholinergic effects of: anticholinergic antidepressants, antihistamines, amantadine, phenothiazines. Concomitant use with metoclopramide may decrease the gastrointestinal effect of both drugs. The ampoule may be administered PO. See alert"
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nDry mouth, tachycardia, visual disturbances, constipation, urinary retention. Allergic reactions.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Hyoscine N-Butylbromide (code 0840, ATC A03BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "dpp-p001",
+  "title": "Diálise peritoneal pediátrica: trocas e cuidados",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Realizar trocas de DP pediátrica com técnica asséptica, volumes conforme superfície corporal, educação familiar e vigilância de peritonite conforme ISPD pediátrico.",
+  "body": "## Passos a realizar\n\n1. Verificar identificação, peso atual e prescrição (volume por troca, tempo de permanência, concentração, modalidade CAPD/APD).\n2. Envolver cuidador capacitado; explicar passos à criança conforme idade.\n3. Realizar higienização das mãos; preparar material estéril de uso único.\n4. Reduzir correntes de ar; máscara se o protocolo indicar.\n5. Desinfetar tampa do cateter e conexões (fricção ≥ 15 s); deixar secar.\n6. **Drenagem:** conectar o conjunto de infusão; drenar completamente; registrar volume e aspecto do efluente.\n7. **Infusão:** conectar bolsa de dialisador; eliminar ar; infundir volume prescrito conforme peso/SC.\n8. Fechar pinças; desconectar com técnica asséptica; tampa estéril no cateter.\n9. Descartar material; registrar hora, volumes, concentração e intercorrências.\n10. Pesar a criança; vigiar dor abdominal, febre, náuseas ou efluente turvo.\n11. Diante de efluente turvo: não reinfundir; comunicar imediatamente; coletar amostra de efluente para cultivo e celularidade.\n\n## Fundamentação científica\n\n### Volumes em pediatria\n\n| Parâmetro | Orientação |\n| --- | --- |\n| Volume de enchimento | 800–1100 ml/m² de superfície corporal (ajustar à tolerância) |\n| Volume inicial em lactente | Menor volume; incremento progressivo conforme nefrologia |\n| Permanência | Conforme prescrição; maior tempo em lactentes frequentemente |\n\nRecalcular volumes a cada mudança significativa de peso ou estatura.\n\n### Evidência e recomendações\n\n> **ISPD Pediatric Guidelines (2020):** a DP pediátrica preserva crescimento e qualidade de vida; a técnica asséptica e educação do cuidador são essenciais (Schaefer et al., 2020).\n\n> **Peritonite pediátrica:** apresentação pode ser atípica em lactentes (irritabilidade, febre baixa); efluente turvo é sinal cardinal (Li et al., 2016).\n\n### Educação do cuidador\n\n- Técnica de conexão/desconexão passo a passo.\n- Armazenamento de dialisador e ambiente limpo.\n- Sinais de alarme: turvação, febre, dor, vazamento.\n- Contato com equipe de nefrologia pediátrica 24 h.\n\n### Monitorização pediátrica\n\n- Peso e estatura em cada controle (percentis de crescimento).\n- Pressão arterial conforme idade.\n- Estado nutricional e proteínas séricas.\n- Adesão escolar e atividade física adaptada.\n\n### Complicações — comunicar imediatamente\n\n- Peritonite (efluente turvo ± febre/dor).\n- Vazamento de dialisador ou hérnia.\n- Obstrução do cateter.\n- Desidratação ou sobrecarga hídrica.\n- Infecção do sítio de saída.",
+  "bibliography": [
+    {
+      "citation": "Schaefer F, et al. ISPD Guidelines for Peritoneal Dialysis in Children. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316759/"
+    },
+    {
+      "citation": "Li PK, et al. ISPD Peritonitis Recommendations 2016. Perit Dial Int. 2016.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27649941/"
+    },
+    {
+      "citation": "Warady MA, et al. IPNA clinical practice recommendations for children with CKD. Pediatr Nephrol. 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30830470/"
+    },
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "International Society for Peritoneal Dialysis — pediatric guidelines.",
+      "url": "https://www.ispd.org/guidelines"
+    }
+  ]
+}

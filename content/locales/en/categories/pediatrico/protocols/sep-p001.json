@@ -1,0 +1,27 @@
+{
+  "id": "sep-p001",
+  "title": "Pediatric sepsis",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Recognize sepsis using the Phoenix criteria (organ dysfunction score ≥ 2), start early antibiotics, and begin perfusion-guided resuscitation within the first 60 minutes.",
+  "body": "## Steps to perform\n\n1. Activate the sepsis protocol and immediately notify the medical team upon clinical suspicion.\n2. Establish continuous monitoring and secure the airway according to severity.\n3. Administer oxygen therapy to maintain SpO₂ within the target range.\n4. Establish vascular access and draw blood cultures before antibiotics, provided it does not delay their initiation.\n5. Administer early empiric broad-spectrum antibiotics (within the first hour).\n6. Initiate fluid resuscitation with crystalloid boluses guided by response (10–20 ml/kg); reassess after each bolus and repeat if indicated.\n7. Order serum lactate and monitor blood glucose.\n8. Calculate and administer weight-based boluses precisely; monitor for fluid overload or respiratory deterioration.\n9. Prepare vasoactive drugs on an infusion pump if ordered.\n10. Record critical times: recognition, cultures, antibiotics, and fluids.\n11. Maintain close communication with the family and coordinate transfer to the PICU when appropriate.\n\n## Scientific rationale\n\n### Definition (Phoenix Sepsis Score)\n\n- **Pediatric sepsis:** suspected or confirmed infection with life-threatening organ dysfunction (Phoenix score ≥ 2 points).\n- **Septic shock:** sepsis with cardiovascular dysfunction (hypotension, elevated lactate, or need for vasoactive drugs).\n\nEvaluated systems: respiratory, cardiovascular, coagulation, and neurological.\n\n> **Source:** Schlapbach LJ, Watson RS, et al. International Consensus Criteria for Pediatric Sepsis and Septic Shock (Phoenix Sepsis Score). JAMA. 2024.\n\n### Nursing recognition\n\n- Fever or hypothermia with altered mental status or perfusion.\n- Tachycardia or bradycardia outside age-appropriate ranges.\n- Tachypnea, oxygen requirement, or need for ventilation.\n- Poor perfusion (prolonged capillary refill, weak pulses, mottled skin).\n- Oliguria.\n\n### Nursing role\n\n- Precise calculation and administration of weight-based fluid boluses.\n- Monitoring for fluid overload and respiratory deterioration.\n- Preparation of vasoactive infusions when indicated.\n- Family communication and coordination of escalation of care.\n\n### PICU transfer criteria\n\n- Need for vasoactive drugs and/or mechanical ventilation.\n- Multiple organ dysfunction.\n- Fluid-refractory shock.\n\n### Evidence and recommendations\n\n> **Source:** Weiss SL, Peters MJ, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+  "bibliography": [
+    {
+      "citation": "Weiss SL, Peters MJ, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "Schlapbach LJ, Watson RS, et al. International Consensus Criteria for Pediatric Sepsis and Septic Shock (Phoenix Sepsis Score). JAMA. 2024.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900966/"
+    },
+    {
+      "citation": "SLACIP / ILAS — Consenso Latinoamericano de manejo de sepsis en niños (documento SATI).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/10-Consenso-LATAM-SLACIP-Sepsis-Espanol-Acta-Ped-Mex-Marzo-2022.pdf"
+    },
+    {
+      "citation": "SATI — Pediatría.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

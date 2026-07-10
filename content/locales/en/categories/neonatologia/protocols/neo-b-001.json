@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-001",
+  "title": "Care of the newborn in a conventional care unit (thermoregulation, screening)",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "baja-complejidad",
+  "version": "1.0",
+  "executiveSummary": "Provide basic neonatal care to clinically stable newborns weighing 500 g to 2500 g (days 0–30) in a conventional care unit, ensuring strict thermoregulation, neonatal screenings, rooming-in, and monitoring for clinical red flags.",
+  "body": "## Steps to perform\n\n1. Receive the newborn with verified identification (mother-newborn matching bands, two identifiers); review the birth report, GA, weight, Apgar scores, and risk factors.\n2. Assess stability: HR 100–160 bpm, RR 30–60/min, SpO₂ ≥ 92% in room air (adjust by GA), axillary temperature 36.5–37.5 °C, good muscle tone, and vigorous sucking.\n3. Thermoregulation: initiate immediate skin-to-skin contact if stable; if < 1500 g or unstable, use a servo-controlled incubator; provide a cap and socks; avoid air drafts and exposure.\n4. Measure axillary temperature upon admission, at 2 hours, and every 4–6 hours according to institutional protocol; log values on the neonatal chart.\n5. Metabolic screening: request/verify expanded neonatal screening according to local regulations (phenylketonuria, congenital hypothyroidism, cystic fibrosis, hemoglobinopathies, etc.) within the 24–72 hour window or upon reaching minimum required weight.\n6. Hearing screening: perform otoacoustic emissions (OAE) prior to discharge or per protocol (< 34 weeks at discharge, re-screen if failed).\n7. Cardiovascular screening: perform pre- and postductal pulse oximetry between 24–48 hours of life (acceptable difference < 3% and SpO₂ ≥ 95% in both); refer immediately if positive.\n8. Ocular screening: perform an ophthalmoscopic examination in preterm infants < 32 weeks or < 1500 g according to the ROP calendar; refer to ophthalmology.\n9. Hygiene: delay bathing for ≥ 24 hours; use only warm water on the skin; do not rub or remove the vernix in preterm infants; change diapers every 3 hours or whenever soiled.\n10. Rooming-in: promote breastfeeding within the first hour of life; observe for proper latch and effective sucking; record fluid balance (≥ 1 wet diaper per 24 hours on day 1), stool output, and daily weight.\n11. Educate the family: instruct on clinical red flags (lethargy, refusal to feed, cyanosis, fever > 38 °C, hypothermia < 36 °C, extensive jaundice, bilious vomiting).\n12. Document all screenings, vaccinations (HBV birth dose if indicated), ocular prophylaxis, and vitamin K administration; plan discharge with scheduled follow-up controls.\n\n## Scientific rationale\n\n### Population and scope\n\n**Newborns day 0–30**, **500 g–2500 g**, **clinically stable** in a conventional care unit or rooming-in setting. Newborns requiring intensive care (mechanical ventilation, vasoactive agents, parenteral nutrition) are excluded from this protocol and must be transferred to the intensive care division.\n\n### Inclusion criteria for conventional care unit\n\n- SpO₂ ≥ 92% without supplemental oxygen (≥ 91% for preterm infants 28–34 weeks, as prescribed).\n- Stable temperature maintained within normal range without the continuous use of a radiant warmer.\n- Enteral nutrition tolerated or in the process of initiation.\n- Absence of signs of sepsis, moderate-to-severe respiratory distress, or seizures.\n\n### Evidence and recommendations\n\n> **Source:** WHO — Essential Newborn Care — Early skin-to-skin contact, early initiation of breastfeeding, and proper thermoregulation significantly reduce neonatal morbidity and mortality (WHO, 2024).\n\n> **Source:** AAP — Screening for critical congenital heart disease (CCHD) utilizing pulse oximetry is a standard requirement prior to hospital discharge (American Academy of Pediatrics).\n\n### Neonatal thermoregulation\n\n| Method | Clinical indication |\n| --- | --- |\n| Skin-to-skin | Stable newborn ≥ 1500 g, under a supervised mother |\n| Thermal bassinet | Term newborn in a climate-controlled room at 22–24 °C |\n| Servo-controlled incubator | Newborn < 1500 g or presenting with thermoregulation difficulties |\n\nTarget axillary temperature: **36.5–37.5 °C**. Hypothermia (< 36 °C) increases the risk of hypoglycemia, metabolic acidosis, and neonatal sepsis.\n\n### Screening schedule guide\n\n| Screening | Timeline | Action if abnormal |\n| --- | --- | --- |\n| Metabolic screening | 24–72 h (or at minimum weight) | Repeat / confirmatory testing |\n| CCHD oximetry | 24–48 h | Urgent echocardiogram if positive |\n| Otoacoustic emissions | Prior to discharge | Re-screening or AABR testing |\n| ROP | Postnatal weeks adjusted by GA | Referral to ophthalmology |\n| Bilirubin | Prior to discharge / by risk level | Plot curve using the Bhutani nomogram |\n\n### Routine prophylaxis\n\n- Vitamin K 1 mg IM at birth (0.5 mg if < 1000 g according to protocol).\n- Ocular prophylaxis (erythromycin or povidone-iodine) within the first 2 hours.\n- Hepatitis B vaccine (HBV birth dose) in newborns of HBsAg+ mothers or per national immunization schedule.\n\n### Complications — notify immediately\n\n- Persistent hypothermia or hyperthermia.\n- Hypoglycemia (< 25 mg/dl) or lethargy.\n- Cyanosis or SpO₂ < 90%.\n- Total food refusal or bilious vomiting.\n- Jaundice within the first 24 hours or reaching Kramer Zone III.\n- Positive results on the critical congenital heart disease screening.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. WHO recommendations on postnatal care of the mother and newborn.",
+      "url": "https://www.who.int/publications/i/item/9789240045989"
+    },
+    {
+      "citation": "World Health Organization. Thermal protection of the newborn — practical guide.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Newborn screening and critical congenital heart disease screening.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Family-centered care and newborn nursery quality standards.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "SATI — Recommendations for low-complexity neonatal care.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

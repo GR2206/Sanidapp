@@ -1,0 +1,56 @@
+{
+  "id": "iam-001",
+  "name": "Infarto agudo do miocárdio (IAM)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "O **infarto agudo do miocárdio (IAM)** é necrose miocárdica por isquemia prolongada, dentro do espectro da síndrome coronariana aguda. Classifica-se em **IAM com supra de ST** (elevação do ST no ECG) e **IAM sem supra de ST**. A dor típica é opressiva retroesternal > 20 minutos, com diaforese, náuseas, irradiação para braço esquerdo ou mandíbula; em diabéticos, idosos e mulheres pode ser **atípica** (dispneia, astenia, síncope).\n\nA prioridade na emergência é **ECG em menos de 10 minutos**. Ante **IAM com supra de ST** ou equivalentes (bloqueio de ramo esquerdo novo, imagem de onda hiperaguda): ativar via de **reperfusão urgente** (angioplastia primária ou trombólise conforme tempos e recursos). Tratamento inicial: **ácido acetilsalicílico**, anticoagulação, nitroglicerina se PA permitir, analgesia e betabloqueador conforme protocolo. Monitorar arritmias ventriculares nas primeiras 24 h.\n\n**Enfermagem**: monitor cardíaco contínuo, acesso venoso, oxigênio somente se hipoxemia, registro seriado de dor (EVA) e preparação para cateterismo. Documentar hora de início dos sintomas e hora do primeiro ECG. Jejum oral até definição.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Acute Coronary Syndromes Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia (SAC). Guia de SCA.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Acute Myocardial Infarction guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "clinicalBoxes": [
+    {
+      "title": "Eletrocardiograma — comparação visual",
+      "illustration": "ecg-sinus-vs-stemi",
+      "content": "**Critério geral de IAM com supra de ST:** elevação do ponto J ≥ **1 mm** em pelo menos **2 derivações contíguas** (critérios específicos em V2-V3 conforme sexo). Comparar sempre com um traçado prévio se existir.\n\nAnte achado compatível: ativar código IAM, AAS e anticoagulação conforme protocolo, e não retardar reperfusão."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    }
+  ]
+}

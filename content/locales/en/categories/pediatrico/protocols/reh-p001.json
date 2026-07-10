@@ -1,0 +1,27 @@
+{
+  "id": "reh-p001",
+  "title": "Rehydration in acute gastroenteritis",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Assess dehydration severity, prioritize oral rehydration with ORS, and reserve IV therapy for moderate-to-severe dehydration or oral intolerance.",
+  "body": "## Steps to perform\n\n1. Weigh the child on arrival to calculate weight-based rehydration volumes.\n2. Assess dehydration severity using clinical signs (general status, eyes, mucous membranes, tears, fontanelle, urine output, capillary refill time).\n3. Classify into Plan A, B, or C according to dehydration severity and decide management with the medical team.\n4. Plan A (no dehydration): increase oral fluids (ORS, milk, water), continue normal feeding, and provide red-flag education.\n5. Plan B (moderate dehydration): give ORS 50–100 ml/kg over 4 hours using a spoon or small syringe, frequently and slowly; reassess every 1–2 hours.\n6. If vomiting occurs during Plan B: pause briefly and restart with small volumes; escalate to Plan C if the plan fails.\n7. Plan C (severe dehydration or shock): establish urgent vascular access and give IV crystalloids 20 ml/kg in boluses; reassess and repeat based on response.\n8. Record intake and output: vomiting, diarrhea, urine output, and administered fluids.\n9. Monitor vital signs and watch for hypoglycemia in infants.\n10. Once oral intake is tolerated, transition progressively from IV fluids to ORS.\n11. Apply contact isolation if an infectious etiology is suspected.\n\n## Scientific rationale\n\n### Assessment of dehydration severity\n\n| Sign | None / mild | Moderate | Severe |\n| --- | --- | --- | --- |\n| General status | Well | Irritable, restless | Lethargic, hypotonic |\n| Eyes | Normal | Sunken | Deeply sunken |\n| Mucous membranes | Moist | Dry | Very dry |\n| Tears | Present | Decreased | Absent |\n| Fontanelle | Normal | Sunken | Deeply sunken |\n| Urine output | Normal | Decreased | Oliguria/anuria |\n| Capillary refill time | < 2 s | 2–3 s | > 3 s |\n\n### Plan-based approach\n\n- Plan A: home-based supportive oral fluids and continued feeding.\n- Plan B: supervised ORS therapy in the facility with frequent reassessment.\n- Plan C: rapid IV resuscitation in severe dehydration/shock, with transition back to ORS as soon as tolerated.\n\n> **Source:** World Health Organization. The treatment of diarrhoea: a manual for physicians and other senior health workers — Plan A, B, C.\n\n### Nursing role\n\n- Accurate weight on arrival to calculate volumes.\n- Strict intake/output recording.\n- Patient, frequent ORS administration with caregiver involvement.\n- Monitoring for hypoglycemia in infants.\n\n### Not routinely indicated\n\n- Antidiarrheal drugs (e.g., loperamide).\n- Antibiotics unless dysentery with blood or another specific indication.\n- Prolonged restrictive diets; early reintroduction of normal feeds is preferred.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. The treatment of diarrhoea: a manual for physicians and other senior health workers — Plan A, B, C.",
+      "url": "https://www.who.int/publications/i/item/9789241593183"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Clinical Practice Guideline: Maintenance Intravenous Fluids in Children. Pediatrics. 2018.",
+      "url": "https://publications.aap.org/pediatrics/article/142/6/e20183083/38604"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines — reanimación con fluidos.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "SATI — Pediatría.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "nal-001",
+  "name": "Naloxona",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antagonista de los opioides y derivados.",
+  "indications": "## Indicaciones principales\n\nAntagonista de los opioides y derivados.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 0,4 mg/mL.",
+      "dose": "0,04–0,4 mg IV cada 2–3 min hasta respuesta (máx. protocolo).",
+      "administration": "IV/IM/intranasal según protocolo."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas: 0,4 mg/ml",
+      "administration": "E.V.; I.M.; S.L.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "Sin diluir.",
+      "infusionRate": "Bolo, 30 seg.",
+      "dose": "Reversión parcial: Recién nacidos: 0,01 mg/kg (dosis máxima: 0,1 mg) cada 2-3 minutos hasta obtener respuesta; niños mayores: 0,01 mg/kg (dosis máxima: 0,2 mg), Adultos: 0,4-2 mg cada 2-3 minutos si es necesario. Infusión continua: 2,5-160 µg/kg/hora. Reversión total: 0,1 mg/kg, en caso de no responder se puede repetir cada 2-3 min. si es vía E.V. o cada 1o min. si es vía I.M., dosis máxima: 2 mg Toxicología: E.V. 0,01 mg/kg, dosis máxima: 0,1 mg/kg; infusión continua: 0,4 mg/hora.",
+      "notes": "Debe ser utilizado por médicos entrenados en su uso. No produce depresión respiratoria, farmacodependencia ni síndrome de abstinencia."
+    },
+    "neonatal": {
+      "dose": "0,1 mg/kg IV/IO si depresión por opioides maternos.",
+      "administration": "IV lento."
+    }
+  },
+  "stability": "## General\n\n- Listo para uso.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierta.",
+  "adverseEffects": "## Efectos adversos\n\nEn sobredosis: náuseas y vómitos (raramente).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Naloxona (cód. 0976, ATC V03AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

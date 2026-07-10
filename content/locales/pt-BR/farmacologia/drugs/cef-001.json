@@ -1,0 +1,51 @@
+{
+  "id": "cef-001",
+  "name": "Cefalexina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalexina de 1ª geração. Infecções por bactérias sensíveis de vias urinárias, pele, partes moles e osso.",
+  "indications": "## Indicações principais\n\nCefalexina de 1ª geração. Infecções por bactérias sensíveis de vias urinárias, pele, partes moles e osso.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 500 mg; suspensão.",
+      "dose": "250–500 mg V.O. a cada 6 h.",
+      "administration": "V.O."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 500 mg; Xarope: 100 mg/mL",
+      "administration": "V.O.",
+      "dose": "Crianças: 25–50 mg/kg/dia a cada 6 h; infecções graves: 50–100 mg/kg/dia a cada 6 h, dose máxima: 3 g/dia. Adultos: 250–1000 mg a cada 6 h, dose máxima: 4 g/dia. Profilaxia de infecção urinária em neonatos até 2 meses: 30 mg/kg/dia a cada 24 h, à noite. Profilaxia de endocardite bacteriana: 2 g, 1 hora antes do procedimento.",
+      "notes": "Administrar com estômago vazio. Não deve ser utilizada para profilaxia de infecção urinária em crianças maiores de 2 meses, para evitar a emergência de cepas resistentes."
+    },
+    "neonatal": {
+      "dose": "25 mg/kg/dose V.O. a cada 12 h conforme protocolo.",
+      "administration": "V.O."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Suspensão refrigerada conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia leve, reações alérgicas, prurido, cefaleia, neutropenia, sobreinfecções micóticas. Nefrotoxicidade (2%).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — CefaLEXINA (cód. 0034, ATC Jo1DB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-003",
+  "title": "Umbilical cord care",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "baja-complejidad",
+  "version": "1.0",
+  "executiveSummary": "Care for the umbilical stump in newborns weighing 500 g to 2500 g (days 0–30) using a dry or antiseptic technique according to institutional protocol, maintaining surveillance for omphalitis, and avoiding the application of non-recommended substances.",
+  "body": "## Steps to perform\n\n1. At birth: dry the cord with sterile gauze; place the umbilical clamp 2–3 cm from the base (or according to institutional devices); keep the stump exposed to air if utilizing the dry method.\n2. Educate the family: do not cover the stump with the diaper (fold the diaper below the stump); do not pull or manipulate the stump; wash hands before and after care.\n3. Perform hand hygiene (WHO Moment 1) before inspecting the cord.\n4. Inspect at every diaper change and at least once per shift: look for a clean dry or moist base, without erythema, foul odor, or purulent secretion.\n5. If institutional protocol indicates the dry method (WHO recommended): do not apply alcohol, povidone-iodine, or ointments; allow the clamp to fall off when the stump is dry (usually 3–7 days).\n6. If protocol indicates an antiseptic method: apply chlorhexidine 4% or 7.1% digluconate once a day to the base of the cord using a swab; apply gentle friction; allow to air dry.\n7. Keep the area clean and dry; if contaminated with urine or feces, clean with warm water and neutral soap; dry completely.\n8. Record the appearance of the cord on the neonatal chart: moist/dry, erythema, secretion, and day of stump separation.\n9. Do not submerge the newborn in a bath until the stump falls off and healing is complete (use a sponge bath until then).\n10. In case of signs of infection: check axillary temperature, and obtain a complete blood count (CBC) and culture as prescribed; do not remove the clamp during active omphalitis without formal evaluation.\n11. If stump bleeding occurs: compress the base for 5–10 minutes with sterile gauze; if it persists, active ligation must be performed by trained personnel.\n12. Document the day of cord separation; continue surveillance of the umbilical scar for 48 hours post-separation.\n\n## Scientific rationale\n\n### Population and scope\n\n**Newborns day 0–30**, **500 g–2500 g**. Umbilical cord care is a preventive measure; omphalitis can progress to neonatal sepsis within hours, especially in preterm infants and resource-limited settings.\n\n### Objective\n\n- Promote safe drying and detachment of the stump (3–14 days).\n- Prevent omphalitis and neonatal sepsis.\n- Educate primary caregivers.\n\n### Evidence and recommendations\n\n> **Source:** WHO — Dry and clean umbilical cord care is recommended in settings with low infection rates; 7.1% chlorhexidine reduces omphalitis and mortality in high-risk settings (WHO, 2024).\n\n> **Source:** AAP/ACOG — Do not apply non-sterile substances (talcum powder, powders, herbs); keep the cord visible and dry (American Academy of Pediatrics).\n\n### Comparison of care methods\n\n| Method | Clinical indication | Action |\n| --- | --- | --- |\n| Dry and clean | Units with low infection rates | No antiseptic; open to air |\n| Chlorhexidine 4–7.1% | High risk of omphalitis / preterm infants | Daily application to the base |\n| Alcohol 70% | Institutional alternative | 1–2 times/day if protocol indicates |\n\nDo not mix methods without a direct indication; follow a uniform institutional protocol.\n\n### Cord clamping\n\n| Clinical situation | Clamping time |\n| --- | --- |\n| Vigorous term newborn | ≥ 30–60 s or until cessation of pulsations |\n| < 34 weeks without resuscitation | Delayed clamping for 30–60 s if stable |\n| Active resuscitation | Immediate clamping if necessary for access |\n\n### Signs of omphalitis — notify immediately\n\n| Grade | Findings | Action |\n| --- | --- | --- |\n| Mild | Erythema ≤ 2 cm at the base | Close surveillance; culture if fever occurs |\n| Moderate | Erythema > 2 cm, exudate, odor | IV antibiotics; blood culture |\n| Severe | Periumbilical cellulitis, necrosis | Sepsis management; ICU; surgery if necrosis |\n\n### Normal detachment time\n\n| Weight / GA | Days until separation |\n| --- | --- |\n| Preterm < 1000 g | 10–14 days |\n| 1000–2500 g | 7–10 days |\n| Term | 5–7 days |\n\nA delay > 14 days or the presence of an umbilical granuloma requires evaluation by a neonatologist.\n\n### Complications — notify immediately\n\n- Omphalitis (erythema, warmth, purulent exudate, odor).\n- Active bleeding from the stump not controlled by compression.\n- Fever or hypothermia associated with cord changes.\n- Persistent bleeding from an umbilical granuloma.\n- Incarcerated umbilical hernia (rare in newborns; evaluate if a painful protrusion is present).",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Care of the umbilical cord — recommendations on newborn health.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "World Health Organization. WHO recommendations on umbilical cord care for newborns.",
+      "url": "https://www.who.int/publications/i/item/9789241548554"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Umbilical cord care in the newborn.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Infection prevention bundles in the NICU and newborn nursery.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "SATI — Prevention of neonatal infections and umbilical cord care.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

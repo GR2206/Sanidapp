@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-007",
+  "title": "Oxygen therapy, CPAP, and neonatal respiratory surveillance",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Administer titrated oxygen therapy, nasal CPAP, and continuous respiratory surveillance in newborns weighing 500 g to 2500 g (days 0–30) with SpO₂ targets adjusted by postnatal age, prevention of oxygen-induced lung injury/retinopathy, and strict logging of FiO₂.",
+  "body": "## Steps to perform\n\n1. Evaluate work of breathing (retractions, grunting, nasal flaring, recessions, apnea); monitor HR, RR, preductal SpO₂ (right hand), and postductal SpO₂ if indicated; maintain axillary temperature at 36.5–37.5 °C.\n2. Select the device according to severity: low-flow nasal cannulae (LFNC), nasal CPAP, NIV, or mechanical ventilation as prescribed by the neonatologist.\n3. Initiate titrated oxygen therapy: use the minimum FiO₂ required to achieve target SpO₂ based on postnatal age and GA (see table); prefer blended room air + oxygen, avoiding sustained pure oxygen.\n4. Place nasal CPAP: select a prong/cannula appropriate for weight; set initial pressure at 5–6 cmH₂O (adjust between 4–8 cmH₂O based on response); secure without excessive pressure on the nose.\n5. Verify the circuit: active humidification at 37 °C, pressure measured at the Y-piece, absence of massive leaks; ensure pressure and FiO₂ alarms are active.\n6. Record every shift and after any changes: FiO₂, PEEP/CPAP, RR, SpO₂, pH/PaCO₂ if blood gas analysis is performed, and clinical findings.\n7. Position the patient in alternating prone or lateral recumbency according to protocol; elevate the head of the bed slightly if tolerated; avoid cervical flexion that may obstruct the airway.\n8. Aspirate secretions only if they obstruct the airway; use an aseptic technique with suction pressure ≤ 80–100 mmHg in newborns < 1500 g.\n9. Monitor for signs of CPAP overload: subcutaneous emphysema, pneumothorax, abdominal distension, nasal erythema; reduce pressure or escalate according to prescription.\n10. Weaning: reduce FiO₂ before weaning CPAP; criteria for discontinuation are based on clinical stability, SpO₂ in room air, and the absence of significant apneas.\n11. In newborns < 32 weeks or < 1500 g: perform retinopathy screening and follow-up according to protocol; limit SpO₂ to 91–95% in preterm infants (avoid sustained > 95%).\n12. In case of sudden deterioration (SpO₂ drop, cyanosis, apnea): temporarily increase FiO₂, ventilate with bag and mask if apnea occurs, notify immediately, and prepare for intubation.\n\n## Scientific rationale\n\n### Population and scope\n\n**Newborns day 0–30**, **500 g–2500 g**. Neonatal oxygen therapy requires strict titration; both hypoxemia and hyperoxia (especially in preterm infants) cause morbidity (oxygen-induced lung/retina injury, ROP, lung injury).\n\n### Indications\n\n- Tachypnea, retractions, or expiratory grunting.\n- SpO₂ below the target range for postnatal age/GA.\n- Apnea of prematurity or related bradycardia.\n- Respiratory distress syndrome (RDS), TTN, or neonatal pneumonia.\n- Post-extubation or weaning from mechanical ventilation.\n\n### Evidence and recommendations\n\n> **Source:** VON / Neonatal Oxygenation Prospective Meta-analysis — In preterm infants < 28 weeks, a target SpO₂ of 91–95% reduces mortality compared to wider ranges; avoid sustained > 95% (Vermont Oxford Network, 2023).\n\n> **Source:** AAP/NRP — Titrate FiO₂ from birth; follow preductal targets per minute of life during resuscitation (American Academy of Pediatrics, 2021).\n\n### Target SpO₂ according to gestational age\n\n| Group | Target SpO₂ |\n| --- | --- |\n| ≥ 35 weeks (term/near-term) | 92–97% |\n| 28–34 weeks | 91–95% |\n| < 28 weeks / < 1000 g | 91–95% (strict) |\n\nAdjust according to neonatologist prescription and blood gas values (PaO₂ 50–80 mmHg as a rough guide in preterm infants).\n\n### Respiratory support selection\n\n| Level | Indication | Initial parameters |\n| --- | --- | --- |\n| LFNC | Mild hypoxemia, post-CPAP | 0.5–2 L/min (actual flow limited in small newborns) |\n| Nasal CPAP | Mild-to-moderate RDS, TTN, post-extubation | 5–6 cmH₂O; titrated FiO₂ |\n| NIV (NIPPV) | Persistent apnea, atelectasis | CPAP + pressure support according to ventilator settings |\n| Invasive MV | CPAP failure, PaCO₂ > 60 with acidosis | According to neonatal ventilation protocol |\n\n### CPAP interface care\n\n| Weight | Guideline prong size |\n| --- | --- |\n| 500–1000 g | Small preterm |\n| 1000–1500 g | Medium preterm |\n| 1500–2500 g | Large preterm / term |\n\nRotate prongs every 6–12 hours; protect nasal skin with a hydrocolloid dressing. Humidify to 100%; gas temperature at 37 °C.\n\n### Continuous respiratory surveillance\n\n- **Alarms:** Bradycardia < 80 bpm, apnea > 20 s, SpO₂ < target − 5% for > 30 s.\n- Record apnea/bradycardia events on the monitor logs.\n- Perform blood gas analysis if FiO₂ > 40%, CPAP > 7 cmH₂O, or if clinical deterioration occurs.\n\n### Complications — notify immediately\n\n- Pneumothorax (thoracic asymmetry, decreased breath sounds, tracheal deviation).\n- Cervical/facial subcutaneous emphysema.\n- Oxygen-induced lung injury in preterm infants (saturations > 95% with low FiO₂).\n- Frequent apneas accompanied by bradycardia (< 60 bpm) or cyanosis.\n- Severe nasal injury or septal perforation due to poorly secured CPAP.",
+  "bibliography": [
+    {
+      "citation": "Vermont Oxford Network. Oxygen targeting and respiratory care in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — oxygen titration and CPAP.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "World Health Organization. WHO recommendations on newborn health — thermal care and respiratory support.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "Askie LM, et al. Neonatal Oxygenation Prospective Meta-analysis (NeOProM) — target ranges for SpO2. Cochrane and related trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24378724/"
+    },
+    {
+      "citation": "SATI — Consensus on neonatal ventilation and respiratory support.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

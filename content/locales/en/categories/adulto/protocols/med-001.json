@@ -1,0 +1,27 @@
+{
+  "id": "med-001",
+  "title": "Safe IV medication administration",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Verify the 9 rights, compatibility, and infusion rate; use an infusion pump for vasoactive drugs and critical antibiotics.",
+  "body": "## Steps to perform\n\n1. Perform hand hygiene and prepare medication in a clean area.\n2. Verify the **9 rights**: patient, medication, dose, route, time, documentation, reason, response, and dosage form.\n3. Confirm prescription, allergies, and renal/hepatic function if applicable.\n4. Prepare medication according to the institutional dilution protocol.\n5. Disinfect the connection port and use aseptic technique.\n6. Administer via infusion pump when indicated (vasopressors, potassium, critical antibiotics).\n7. Monitor for adverse reactions during and after the infusion.\n8. Document the time, dose, route, and patient response in the medical record.\n9. Immediately report extravasation, phlebitis, allergic reaction, or medication error.\n\n## Scientific rationale\n\n### Indications\n\nSafe administration of intravenous medication in hospitalized adults, including high-alert medications.\n\n### The 9 rights\n\n1. Right patient.\n2. Right medication.\n3. Right dose.\n4. Right route.\n5. Right time.\n6. Right documentation.\n7. Right reason.\n8. Right response (monitor effects).\n9. Right dosage form.\n\n### Special precautions\n\n| Drug type | Precaution |\n| --- | --- |\n| Vasopressors | Preferred central line; dedicated pump |\n| IV potassium | Never as a bolus; maximum rate according to protocol |\n| Critical antibiotics | Respect infusion times (e.g., prolonged beta-lactams) |\n| Photosensitive drugs | Protect from light |\n\n### Evidence and recommendations\n\n> **ISMP:** Guidelines for safe practice of adult IV push medications.\n\n> **WHO — Medication Without Harm:** Systematic verification and documentation as pillars of patient safety.\n\n### Events to report immediately\n\n- Extravasation or phlebitis.\n- Allergic reaction or anaphylaxis.\n- Medication error or doubts regarding the prescription.\n\n### Complications\n\n- Extravasation of vesicant drugs.\n- Chemical or infectious phlebitis.\n- Anaphylaxis.\n- Medication error resulting in patient harm.",
+  "bibliography": [
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines for Safe Practice of Adult IV Push Medications.",
+      "url": "https://www.ismp.org/guidelines/iv-push"
+    },
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "SATI — General recommendations for sedation-analgesia and infusion management in the ICU.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "ppf-001",
+  "name": "Propafenona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Antiarrítmico classe IC com atividade betabloqueadora para FA e TSV.",
+  "indications": "## Indicações\n\n- Fibrilação atrial paroxística (cardioversão farmacológica ou manutenção).\n- Taquicardia supraventricular.\n- Arritmias ventriculares em contextos selecionados.\n\n## Precauções\n\n- Contraindicado em IC, broncoespasmo, bloqueio AV e síndrome de Brugada.\n- Interações com digoxina e varfarina.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 150 e 300 mg. Ampola 35 mg/20 mL.",
+      "dose": "FA: 450–600 mg/dia VO fracionado. IV: 2 mg/kg em 10 min (uso hospitalar).",
+      "administration": "VO ou IV sob monitor cardíaco."
+    },
+    "pediatrico": {
+      "dose": "8–10 mg/kg/dia VO dividido (uso especializado).",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- IV administrar conforme protocolo após diluição.",
+  "adverseEffects": "## Efeitos adversos\n\n- Tontura, sabor metálico, proarritmia, bradicardia, náuseas.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Atrial fibrillation guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

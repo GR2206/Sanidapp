@@ -1,0 +1,35 @@
+{
+  "id": "hem-p001",
+  "title": "Toma de hemocultivo pediátrico",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Extraer hemocultivo antes del antibiótico si es posible, ajustando volumen al peso del niño, con técnica asséptica estricta y sin demorar antibiótico en sepsis grave.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación clínica; identificar al paciente (dos identificadores), pesar y registrar hora, sitio y motivo del cultivo.\n2. Explicar a la familia; organizar contención terapéutica y analgesia (sucrosa 24% en lactantes, lidocaína tópica si hay tiempo).\n3. Preparar frascos pediátricos (aeróbico ± anaeróbico); desinfectar tapas con alcohol 70% y dejar secar.\n4. Realizar higiene de manos (momento 2 OMS).\n5. Desinfectar piel con antiséptico en fricción; ampliar área; dejar secar ≥ 30 s; no repasar zona desinfectada.\n6. Realizar venopunción periférica con técnica asséptica; extraer volumen según peso (ver tabla en fundamentación).\n7. Inocular frascos en orden según sistema: vacío (aeróbico primero); jeringa (anaeróbico primero si aplica).\n8. Mezclar por inversión suave; etiquetar en mesa limpia con nombre, fecha, hora, sitio y peso.\n9. Realizar higiene de manos al finalizar; transportar al laboratorio de inmediato.\n10. Registrar número de sets, volumen por frasco, antibióticos previos y hora de inicio de antibiótico empírico.\n11. Comunicar resultado positivo patógeno, sospecha de contaminación o deterioro clínico.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Sospecha de sepsis o shock séptico.\n- Fiebre en lactante de alto riesgo (estrategia AAP).\n- Fiebre sin foco con inestabilidad o inmunocompromiso.\n- Sospecha de endocarditis o bacteriemia asociada a catéter.\n\n### Evidencia y recomendaciones\n\n> **SSC Pediátrico (2026):** obtener cultivos antes del antibiótico empírico si no retrasa su inicio. En shock séptico: **no demorar antibiótico** por dificultad de punción; tomar cultivos en paralelo (Weiss et al., 2026).\n\n### Momento y número de sets\n\n- Ideal: antes de antibióticos; no es obligatorio coincidir con pico febril.\n- Sepsis grave: 2 sets mínimo de extremidades distintas, simultáneos.\n- Endocarditis: 3 sets de sitios distintos.\n\n### Volumen según peso\n\n| Peso del niño | Volumen por frasco |\n| --- | --- |\n| < 1 kg | 0,5–1 ml |\n| 1–5 kg | 1–3 ml |\n| 5–10 kg | 3–5 ml |\n| 10–20 kg | 5–10 ml |\n| > 20 kg | 10–15 ml |\n\nNo sobrellenar frascos pediátricos; respetar máximo del fabricante.\n\n### Sitio de punción\n\n- Preferir venopunción periférica en sitios distintos.\n- Sangre de catéter central: solo con protocolo de retrocultivo (`ret-p001`).\n- No desechar sangre de rutina previa a hemocultivo periférico.\n\n### Prevención de contaminación\n\n- No tocar tapa del frasco tras desinfección.\n- En lactantes: técnica asséptica estricta por mayor impacto de falsos positivos (SATI, 2007; CGEE, 2024).\n\n### Escalada\n\n- Si imposible obtener muestra en sepsis grave: escalar acceso (intraóseo, central) sin demorar antibiótico.",
+  "bibliography": [
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign International Guidelines for the Management of Septic Shock and Sepsis-Associated Organ Dysfunction in Children (2026).",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Clinical Practice Guideline: Febrile Infants 2021.",
+      "url": "https://publications.aap.org/pediatrics/article/148/2/e2021052228/179775"
+    },
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (Comité de Infectología Crítica).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Guía de práctica clínica enfermera sobre hemocultivos — volúmenes pediátricos (Consejo General de Enfermería de España).",
+      "url": "https://www.consejogeneralenfermeria.org/profesion/guias-clinicas/send/160-guias-clinicas/3122-guia-de-practica-clinica-enfermera-sobre-hemocultivos-actualizacion"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización intersociedades SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

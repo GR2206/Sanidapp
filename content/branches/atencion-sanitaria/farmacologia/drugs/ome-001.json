@@ -1,0 +1,46 @@
+{
+  "id": "ome-001",
+  "name": "Omeprazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Hemorragia digestiva severa. &Uacute;lcera gastro-duodenal. Reflujo gastro-esofágico. Condiciones hipersecretorias. Inhibidor de la bomba de protones.",
+  "indications": "## Indicaciones principales\n\nHemorragia digestiva severa. &Uacute;lcera gastro-duodenal. Reflujo gastro-esofágico. Condiciones hipersecretorias. Inhibidor de la bomba de protones.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Cápsulas/comprimidos: 10-20-40 mg; Comprimidos 'mups': 10-20 mg; F.A.: 40 mg (reconstituir sólo con el solvente que trae el F.A.); Suspensión V.O.: Frasco con polvo para reconstituir en 70 ml: 2 mg/ml, contiene además 168 mg de bicarbonato de sodio/ml.",
+      "reconstitution": "Reconstituir solo con el solvente suministrado por el fabricante.",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9% o Dext. 5% para dilución.",
+      "finalConcentration": "0,4 mg/mL.",
+      "infusionRate": "Entre 20 y 30 minutos con BIC.",
+      "dose": "V.O.: Esofagitis: Niños: 0,5 mg/kg/dosis, cada 24 hs, dosis máxima: 20 mg/día; Adultos: 20 mg/dosis, cada 24 hs. &Uacute;lcera duodenal: Niños: 1 mg/kg/día; cada 12 hs, dosis máxima 20 mg/día; Adultos: 20 mg/dosis, cada 24 hs. Reflujo gastro-esofágico: Niños &gt; de 1 mes: 0,5-1 mg/kg/dosis, cada 24 hs, dosis máxima: 20 mg/día, Adultos: 20 mg/dosis, cada 24 hs. Condiciones hipersecretorias: 60 mg/día. Síndrome de Zollinger-Ellison: 60 mg/dosis cada 8 hs, seguido de una terapia de mantenimiento V.O. de 90 mg/dosis cada 12 hs y luego cada 24 hs. E.V.: Niños de 1 mes-12años: 0,5-2 mg/kg/dosis, cada 24 hs. &gt; de 12 años: 40 mg/dosis, cada 24 hs. Pasar a la vía oral tan rápido como el paciente tenga tolerancia. Hemorragias digestivas administrar cada 8 hs, de 3 a 5 días según evolución y luego cada 12-24 hs.",
+      "compatibility": "No administrar concomitante a rifampicina, fenitoína y carbamazepina.",
+      "notes": "El inyectable una vez reconstituído con el solvente del fabricante dura 4 hs, infundir lentamente, sin diluir (velocidad máxima: 4 ml/min). Para infusión EV: reconstituir el polvo con 10 ml de sol. fisiol.(estabilidad 12 hs), tomar la dosis indicada y diluir con el mismo solvente a una concentración de 0,4 mg/ml; administrar en 30 min. Idem con Dext. 5% (estabilidad 6 hs). Cápsula: no masticar ni aplastar los gránulos, se puede abrir la cápsula y administrar el contenido con yogur o jugo de naranjas. Comprimido 'mups': tragar entero con medio vaso de líquido y no debe ser pulverizado ni masticado, también puede ser desintegrado en medio vaso de agua sin gas o jugo de frutas (se agita hasta que el comprimido se desintegre y se bebe el líquido con los pellets inmediatamente o dentro de los 30 minutos). Para administrar por S.N.G. disolver la cápsula de 20 mg en 10 ml de bicarbonato de sodio o disolver la presentación comprimidos mups en agua. El omeprazol puede demorar la excreción de: DIAzepam, difeniHIDANTO&Iacute;NA. Disminuye la concentración de hierro. Altera la concentración de ciclosporina, itraconazol, ketoconazol, voriconazol, claritromicina, digoxina. Contraindicado con atazanavir. Ver alerta"
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- 4 horas a T° ambiente.",
+  "adverseEffects": "## Efectos adversos\n\nDiarrea, náuseas, constipación, dolor abdominal, vómitos, cefalea, mareos. Nefritis intersticial.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Omeprazol (cód. 0714, ATC A02BC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

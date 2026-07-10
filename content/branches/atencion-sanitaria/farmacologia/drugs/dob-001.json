@@ -1,0 +1,68 @@
+{
+  "id": "dob-001",
+  "name": "Dobutamina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Catecolamina sintética con actividad inotrópica. Acción selectiva sobre receptores &szlig; 1.",
+  "indications": "## Indicaciones principales\n\nCatecolamina sintética con actividad inotrópica. Acción selectiva sobre receptores &szlig; 1.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
+      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
+      "diluent": "SG 5% o NaCl 0,9%.",
+      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
+      "dose": "2,5–20 mcg/kg/min titulado.",
+      "infusionRate": "Titular según TA y perfusión",
+      "administration": "IV continua en bomba; vía central preferida.",
+      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
+      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 20 ml: 12,5 mg/ml",
+      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
+      "diluent": "SG 5% o NaCl 0,9%.",
+      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
+      "dose": "2-20 µg/kg/minuto, Dosis máxima en adultos: 40 µg/kg/minuto",
+      "infusionRate": "Titular según TA y perfusión",
+      "administration": "E.V.",
+      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
+      "notes": "Para la administración E.V. diluir en solución fisiológica o dextrosa 5% con una concentración máxima de 5 mg/ml. La dilución es estable 24 hs. Incompatible con soluciones alcalinas. Compatible con: dopamina, adrenalina, vecuronio, isoproterenol y lidocaína. No administrar a pacientes con obstrucción dinámica de salida de ventrículo izquierdo. La coloración rosácea indica leve oxidación pero no pérdida de potencia"
+    },
+    "neonatal": {
+      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
+      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
+      "diluent": "SG 5% o NaCl 0,9%.",
+      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
+      "dose": "2–10 mcg/kg/min en NNU bajo prescripción especializada.",
+      "infusionRate": "Titular según TA y perfusión",
+      "administration": "IV continua en bomba; vía central preferida.",
+      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
+      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Usar en 24 h; proteger de la luz según cartilla.",
+  "adverseEffects": "## Efectos adversos\n\nAnsiedad, confusión, debilidad, náuseas, vómitos, bradicardia refleja. Arritmias y taquicardia con altas dosis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — DOBUTamina clorhidrato (cód. 0078, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

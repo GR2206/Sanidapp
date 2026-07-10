@@ -1,0 +1,45 @@
+{
+  "id": "ecl-001",
+  "name": "Eclâmpsia e pré-eclâmpsia grave",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **pré-eclâmpsia** é hipertensão arterial (≥ 140/90) com proteinúria ou disfunção de órgão-alvo após as 20 semanas de gestação. A **pré-eclâmpsia grave** inclui PA ≥ 160/110, trombocitopenia, alteração hepática, insuficiência renal, edema pulmonar, sintomas cerebrais ou visuais. A **eclâmpsia** é o surgimento de convulsões tônico-clônicas em contexto de pré-eclâmpsia e constitui emergência obstétrica.\n\nO manejo combina **sulfato de magnésio** IV (profilaxia e tratamento de convulsões), controle de PA com **labetalol, hidralazina ou nifedipino** conforme protocolo obstétrico, e **resolução da gestação** quando a mãe ou o feto estão em risco (timing conforme idade gestacional e critérios de obstetrícia). Monitorar reflexos patelares, diurese e frequência respiratória durante magnésio (risco de toxicidade). Na eclâmpsia ativa: estabilizar, proteger via aérea e encaminhamento imediato à maternidade / UTI.\n\n**Enfermagem**: PA a cada 15 min até controle, balanço hídrico rigoroso, monitorização fetal contínua se corresponder, preparar sulfato de magnésio com bomba de infusão e antídoto (gluconato de cálcio) disponível. Registrar convulsões, hora da última refeição e medicação anti-hipertensiva. Coordenar com obstetrícia e neonatologia.",
+  "bibliography": [
+    {
+      "citation": "American College of Obstetricians and Gynecologists. Gestational Hypertension and Preeclampsia.",
+      "url": "https://www.acog.org/clinical"
+    },
+    {
+      "citation": "Sociedade Argentina de Ginecologia e Obstetrícia (SAGO). Diretrizes de hipertensão na gestação.",
+      "url": "https://www.sago.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Society for the Study of Hypertension in Pregnancy. ISSHP guidelines.",
+      "url": "https://www.glowm.com/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "mag-001",
+      "label": "Sulfato de magnésio"
+    },
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "hdr-001",
+      "label": "Hidralazina"
+    },
+    {
+      "drugId": "cag-001",
+      "label": "Gluconato de cálcio"
+    }
+  ]
+}

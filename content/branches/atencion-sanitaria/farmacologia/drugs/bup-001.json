@@ -1,0 +1,46 @@
+{
+  "id": "bup-001",
+  "name": "Bupivacaína",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestésico local del grupo amida.",
+  "indications": "## Indicaciones principales\n\nAnestésico local del grupo amida.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampollas por 20 ml: 5 mg/ml; Ampollas hiperbáricas por 4 ml: 5 mg/ml.",
+      "dose": "Hasta 0,5 mg/kg/dosis según bloqueo regional.",
+      "administration": "Local y regional."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas por 20 ml: 5 mg/ml; Ampollas hiperbáricas por 4 ml: 5 mg/ml",
+      "administration": "Local y regional",
+      "dose": "Hasta 0,5 mg/kg/dosis",
+      "notes": "USO EXCLUSIVO DEL ESPECIALISTA. No administrar por vía endovenosa. Posee prolongado tiempo de acción. El uso de dosis repetidas por cualquier vía, produce acumulación y efectos sistémicos."
+    }
+  },
+  "stability": "## General\n\n- Seguir condiciones de almacenamiento del fabricante.",
+  "adverseEffects": "## Efectos adversos\n\nArritmias, paro cardíaco. Los efectos cardiovasculares son más severos que los de la lidocaína.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — BUPIvacaína Clorhidrato* (cód. 0028, ATC N01BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "bro-p001",
+  "title": "Bronquiolite aguda em lactente",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Manejo de suporte: oxigênio se hipoxemia, hidratação e aspiração de secreções; sem rotina de broncodilatadores, corticoides nem antibióticos.",
+  "body": "## Passos a realizar\n\n1. **Avaliar sinais vitais**: SpO₂, FR, tiragem, retrações, alimentação e diurese.\n2. Aplicar **escala de gravidade** institucional (ex.: Wood-Downes, RDAI) e registrar fatores de risco.\n3. Iniciar **oxigenoterapia** se SpO₂ < 90–92% (objetivo conforme protocolo local, usualmente ≥ 90%).\n4. Manter **hidratação**: via oral se tolera; IV ou sonda se ingesta < 50–75% ou houver desidratação.\n5. Realizar **aspiração de secreções nasais** com solução fisiológica antes de cada alimentação.\n6. Colocar o lactente em **posição semisentada**; minimizar manipulação que aumente irritabilidade.\n7. Aplicar **isolamento de contato** (VSR altamente contagioso).\n8. **Monitorizar** sinais de fadiga respiratória: gemido, apneia, cianose.\n9. **Não administrar de rotina** broncodilatadores, corticoides, antibióticos nem fisioterapia respiratória sem indicação médica.\n10. **Orientar a família** sobre lavagem das mãos, evitar tabaco e sinais de piora para reconsulta urgente.\n11. **Encaminhar para internação ou UTI** se SpO₂ persistentemente baixa, apneias, desidratação grave ou desconforto respiratório intenso.\n\n## Fundamentação científica\n\n### Definição\n\nInfecção viral do trato respiratório inferior, principalmente por **VSR**, em crianças < 2 anos, com sibilâncias e desconforto respiratório.\n\n### Avaliação inicial\n\n- SpO₂, FR, tiragem, retrações, alimentação, diurese.\n- Escala de gravidade institucional (ex.: Wood-Downes, RDAI).\n- Fatores de risco: prematuridade, cardiopatia, displasia broncopulmonar, < 3 meses.\n\n### O que NÃO é rotina (AAP)\n\n- Broncodilatadores nebulizados sistemáticos.\n- Corticoides sistêmicos.\n- Antibióticos sem sobreinfecção bacteriana documentada.\n- Fisioterapia respiratória de rotina.\n\n### Critérios de internação / UTI\n\n- SpO₂ persistentemente < 90% com oxigênio.\n- Apneias, letargia ou hipoperfusão.\n- Ingesta oral muito reduzida com desidratação.\n- FR > 70/min ou desconforto respiratório grave.\n\n### Orientação à família\n\n- Lavagem das mãos e evitar tabaco.\n- Sinais de piora para reconsulta urgente.",
+  "bibliography": [
+    {
+      "citation": "Ralston SL, Lieberthal AS, Meissner HC, et al. Clinical Practice Guideline: Bronchiolitis. AAP. Pediatrics. 2014.",
+      "url": "https://publications.aap.org/pediatrics/article/134/5/e1474/74393"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Updated Guidance: Use of Palivizumab to Prevent RSV. 2022.",
+      "url": "https://publications.aap.org/aapnews/news/20880"
+    },
+    {
+      "citation": "SATI — Comitê de Pneumologia Crítica.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "SATI — Pediatria.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

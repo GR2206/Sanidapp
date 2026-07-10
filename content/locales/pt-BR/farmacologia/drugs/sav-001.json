@@ -1,0 +1,47 @@
+{
+  "id": "sav-001",
+  "name": "Sacubitril/valsartana",
+  "version": "1.0.3",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Insuficiência cardíaca crônica sintomática com disfunção sistólica do ventrículo esquerdo. O Sacubitril atua bloqueando os efeitos da neprilisina e o Valsartana o receptor da angiotensina II.",
+  "indications": "## Indicações principais\n\nInsuficiência cardíaca crônica sintomática com disfunção sistólica do ventrículo esquerdo.\nO Sacubitril atua bloqueando os efeitos da neprilisina e o Valsartana o receptor da angiotensina II.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 24/26, 49/51 e 97/103 mg (sacubitril/valsartana).",
+      "dose": "Iniciar 49/51 mg V.O. a cada 12 h; titular a 97/103 mg a cada 12 h conforme tolerância.",
+      "administration": "V.O. a cada 12 h."
+    },
+    "pediatrico": {
+      "dose": "É progressiva. Para a dose considera-se a somatória de ambas as drogas. Crianças < 40 kg: inicial 1,6 mg/kg/dose a cada 12 h, podendo aumentar a dose após 2–4 semanas conforme tolerância a 2,3 mg/kg/dose a cada 12 h com um máximo de 3,1 mg/kg/dose a cada 12 h. > de 40 kg a 50 kg: inicial 50 mg/dose a cada 12 h, podendo aumentar a dose após 2–4 semanas conforme tolerância a 100 mg/dose a cada 12 h com um máximo de 150 mg/dose a cada 12 h. > 50 kg: 100 mg/dose a cada 12 h, podendo aumentar a dose após 2–4 semanas conforme tolerância a 150 mg/dose a cada 12 h com um máximo de 200 mg/dose a cada 12 h.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 50 mg (Sacubitril 24 mg + Valsartana 26 mg); 100 mg (Sacubitril 49 mg + Valsartana 51 mg); 200 mg (Sacubitril 97 mg + Valsartana 103 mg)",
+      "notes": "Aumenta a exposição sistêmica de estatinas. Com inibidores sintéticos da fosfodiesterase tipo 5 incluindo sildenafila risco de hipotensão. Risco de aumento do potássio sérico e aumentos de creatinina sérica com diuréticos poupadores de potássio (amilorida), antagonistas mineralocorticoides (p.ex.: espironolactona) suplementos de potássio, substitutos do sal que contêm potássio ou outros como a heparina. Exposição sistêmica aumentada com: inibidores de OATP1B1, OATP1B3, OAT3 (ex.: rifampicina, ciclosporina), OAT1 (ex. tenofovir, cidofovir) ou de MRP2 (ex.: ritonavir). Reduz a concentração máxima e o AUC da metformina. Iniciar com a metade da dose recomendada em pacientes que não vinham em tratamento com IECA/ARA II ou que estavam tomando doses baixas destes medicamentos (≤ 0,2 mg/kg/dia de enalapril ou equivalente). A terapia concomitante junto com inibidores da enzima conversora de angiotensina II (ex.: losartana) está contraindicada devido ao risco potencial de angioedema. Se se planeja a troca de medicação, suspender o IECA/ARA II e depois de 36 h começar com sacubitril-valsartana. Não iniciar o tratamento em pacientes com níveis de potássio sérico de 5,3 mmol/L ou com pressão arterial sistólica (PAS) < percentil 5 para a idade do paciente."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula no envase original.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, alterações na função renal, hiperpotassemia, angioedema, tontura, cefaleia, vertigem, tosse, fadiga, astenia, anemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Sacubitrilo + Valsartan* (cód. 2090, ATC C09DX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Diretrizes de insuficiência cardíaca.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Diretrizes de insuficiência cardíaca.",
+      "url": "https://www.escardio.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

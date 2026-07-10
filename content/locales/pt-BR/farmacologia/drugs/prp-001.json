@@ -1,0 +1,51 @@
+{
+  "id": "prp-001",
+  "name": "Propranolol",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Beta-bloqueante não cardioseletivo indicado para tratar taquiarritmias, hipertensão, tirotoxicose neonatal. Profilaxia da enxaqueca. Tratamento paliativo da tetralogia de Fallot e cardiomiopatia hipertrófica obstrutiva. Hipertensão portal. Tratamento de hemangiomas infantis graves.",
+  "indications": "## Indicações principais\n\nBeta-bloqueante não cardioseletivo indicado para tratar taquiarritmias, hipertensão, tirotoxicose neonatal. Profilaxia da enxaqueca. Tratamento paliativo da tetralogia de Fallot e cardiomiopatia hipertrófica obstrutiva. Hipertensão portal. Tratamento de hemangiomas infantis graves.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 40 e 80 mg. Ampola 1 mg/mL.",
+      "dose": "HAS/angina: 40–160 mg/dia V.O. fracionado. E.V.: 1–3 mg lento, repetir conforme protocolo.",
+      "administration": "V.O. ou E.V. lenta."
+    },
+    "pediatrico": {
+      "dose": "Arritmias e hipertensão: Neonatos: V.O.: inicial: 0,25 mg/kg/dose a cada 6–8 h, aumentar lentamente até um máximo de 5 mg/kg/dia. Pode requerer-se doses maiores (consultar com especialista). Crianças: V.O.: inicial: 1 mg/kg/dia a cada 6 h, aumentar gradualmente a cada 3–5 dias, manutenção: 1–5 mg/kg/dia, dose máxima: arritmias: 16 mg/kg/dia ou 60 mg/dia; hipertensão: 8 mg/kg/dia. Profilaxia enxaqueca: V.O.: crianças: 0,6–1,5 mg/kg/dia a cada 8 h, máximo: 4 mg/kg/dia; adultos: inicial: 80 mg/dia a cada 6–8 h, máximo: 160–240 mg/dia. Tirotoxicose neonatal: V.O.: 2 mg/kg/dia (1–3 mg/kg/dia) a cada 6–12 h. Pode requerer-se doses maiores (consultar o especialista); adultos: V.O.: 10–40 mg a cada 6 h. Hemangiomas infantis: V.O.: inicial: 1 mg/kg/dia a cada 8–12 h; incrementar de forma gradual semanalmente até 2 mg/kg/dia (0,5–3 mg/kg/dia) a cada 8–12 h. Continuar com a dose objetivo até o final da fase de proliferação e resolução completa.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 10 - 40 mg; Suspensão (preparado magistral): 4 mg/ml",
+      "notes": "Regular a dose conforme efeito clínico e beta-bloqueante. Usar com precaução em pacientes com diabetes mellitus e asma brônquica. Evitar a via E.V. em pacientes que estão recebendo bloqueadores do canal de cálcio. Os antiácidos que contêm alumínio podem diminuir sua absorção. Com adrenalina, aumento da pressão sanguínea e bradicardia severa. Flecainida, hidralazina, verapamil podem aumentar os efeitos adversos cardiovasculares. Administrar com alimentos a fim de evitar o risco de hipoglicemia. Não descontinuar abruptamente. Diminuir a dose em insuficiência hepática. No tratamento dos hemangiomas infantis o propranolol está contraindicado em pacientes recém-nascidos pré-termo e recém-nascidos menores de 14 dias de vida, cardiopatia congênita com contraindicação para o tratamento com beta-bloqueantes, lactentes com episódios de bronquite obstrutiva, distúrbios do SNC e função renal alterada."
+    },
+    "neonatal": {
+      "dose": "0,01–0,2 mg/kg/dose E.V. conforme protocolo cardiológico neonatal.",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Estabilidade\n\n- V.O. conforme bula. E.V. usar imediatamente.",
+  "adverseEffects": "## Efeitos adversos\n\nFadiga, letargia, bradicardia, hipotensão, rash, náuseas, vômitos, hipoglicemia, apneias, broncoespasmo, aumento de enzimas hepáticas, convulsões, extremidades frias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Propranolol Cloridrato* (cód. 0171, ATC C07AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Diretrizes de hipertensão e arritmia.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

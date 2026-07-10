@@ -1,0 +1,49 @@
+{
+  "id": "fos-001",
+  "name": "Fosfomicina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibacteriano.",
+  "indications": "## Indicaciones principales\n\nAntibacteriano.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 1 g (Fosfomicina Luar, Fosfomicyn).",
+      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
+      "diluent": "1-4 g en 100-250 mL de DX 5%.",
+      "finalConcentration": "4-40 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Diluir a razón de 4 mL de AD o DX 5% por cada mL de solución reconstituida e infundir a razón de 1 g/h. Aclaración: 4 g (40 mL) en 160 mL de DX 5%. Se pasan 40 mL/h.",
+      "notes": "Al disolverse la fosfomicina se produce una reacción exotérmica, lo que hace que el vial se caliente ligeramente sin que se altere el antibiótico. Gran contenido de sodio (cada gramo de ATB contiene 14,5 mEq)."
+    },
+    "pediatrico": {
+      "dose": "Niños: 200 - 400 mg/kg/día cada 6-8hs. Adultos: 1 g - 5 g/día cada 6-8 hs; dosis máxima: 16 g, en casos especiales: 8 g cada 8 hs (consultar con el especialista).",
+      "administration": "E.V. V.O.",
+      "presentation": "F.A.Liof. (como sal disódica estéril) : 1000 mg (cada gramo de Fosfomicina contiene 14,5 mEq de sodio) Sobre granulado para solución oral (como fosfomicina trometamol): 3 g",
+      "notes": "Fosfomicina trometamol: con metoclopramida, antiácidos o sales de calcio reduce la absorción de la fosfomicina."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- No especificado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb.",
+  "adverseEffects": "## Efectos adversos\n\nComunes: diarrea (9%-10%), náuseas (4%-5%), cefalea (4%-10%), faringitis (2,5%), rinitis (4,5%). Serios: anemia aplásica, colestasis, necrosis hepática, megacolon tóxico, angioedema.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Fosfomicina* (cód. 1950, ATC J01XX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

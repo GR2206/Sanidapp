@@ -1,0 +1,71 @@
+{
+  "id": "nor-001",
+  "name": "Noradrenalina (norepinefrina)",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Simpaticomimético. Choque cardiogênico ou séptico com hipotensão refratária com baixa resistência periférica.",
+  "indications": "## Indicações principais\n\nSimpaticomimético. Choque cardiogênico ou séptico com hipotensão refratária com baixa resistência periférica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
+      "diluent": "SG 5% ou NaCl 0,9%.",
+      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
+      "dose": "Início habitual 0,05–0,1 mcg/kg/min; titular até PAM objetivo (prescrição).",
+      "infusionRate": "Infusão contínua em bomba.",
+      "administration": "E.V. contínua em bomba; via central preferida.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas de 4 ml: 1 mg/ml",
+      "administration": "E.V.",
+      "diluent": "SOMENTE Dext. 5%.",
+      "finalConcentration": "Usual 4 mcg/mL. Em restrição hídrica, 16 mcg/mL.",
+      "infusionRate": "Somente por BIC.",
+      "dose": "0,05–1 µg/kg/minuto, dose máxima: 2 µg/kg/min Adultos: iniciar 4 µg/minuto, Infusão: 8–12 µg/minuto",
+      "notes": "Oxida-se rapidamente, não utilizar se apresentar coloração marrom. Não se recomenda diluir em solução fisiológica. Os efeitos da noradrenalina podem ser aumentados na presença de antidepressivos tricíclicos, anti-histamínico e beta-bloqueantes."
+    },
+    "neonatal": {
+      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
+      "diluent": "SG 5% ou NaCl 0,9%.",
+      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
+      "dose": "0,05–1 mcg/kg/min conforme protocolo UCIN e peso.",
+      "infusionRate": "Titular conforme PA e perfusão",
+      "administration": "E.V. contínua em bomba; via central preferida.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+    }
+  },
+  "stability": "## Geral\n\n- Proteger da luz. Trocar solução conforme política do serviço (habitualmente 24 h).\n\n## Guia pediátrica\n\n- Descartar o sobrante uma vez aberta. Diluição estável 24 h em temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\nHipertensão, necrose, bradicardia. Uso prolongado: diminuição do débito cardíaco, depleção do volume plasmático, vasoconstrição periférica e visceral severa. Além disso, cardiopatia por estresse.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NORadrenalina (cód. 1401, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

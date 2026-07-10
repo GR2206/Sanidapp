@@ -1,0 +1,264 @@
+{
+  "branch": "atencion-sanitaria",
+  "pathologies": [
+    {
+      "id": "abd-001",
+      "name": "Abdomen agudo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "acv-001",
+      "name": "Accidente cerebrovascular (ACV)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "ana-001",
+      "name": "Anafilaxia",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "ang-001",
+      "name": "Angina inestable e IAMSEST",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "asm-001",
+      "name": "Asma — crisis aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "cel-001",
+      "name": "Celulitis e infección de piel y partes blandas",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "cad-001",
+      "name": "Cetoacidosis diabética (CAD)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "cho-001",
+      "name": "Colangitis aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "cov-001",
+      "name": "COVID-19 — enfermedad aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "cvu-001",
+      "name": "Crisis convulsiva y status epilepticus",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "del-001",
+      "name": "Delirium agudo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "dia-001",
+      "name": "Diabetes mellitus",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "den-001",
+      "name": "Disentería",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dlp-001",
+      "name": "Dislipemia",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ecl-001",
+      "name": "Eclampsia y preeclampsia severa",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "end-001",
+      "name": "Endocarditis infecciosa",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "epoc-001",
+      "name": "EPOC — exacerbación aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "fa-001",
+      "name": "Fibrilación auricular (FA)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "hda-001",
+      "name": "Hemorragia digestiva alta (HDA)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "hta-001",
+      "name": "Hipertensión arterial (HTA)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "hip-001",
+      "name": "Hipoglucemia severa",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "iam-001",
+      "name": "Infarto agudo de miocardio (IAM)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "itu-001",
+      "name": "Infección urinaria complicada y pielonefritis",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "icc-001",
+      "name": "Insuficiencia cardíaca (ICC)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "ira-001",
+      "name": "Insuficiencia renal aguda (IRA)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "int-001",
+      "name": "Intoxicación aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "men-001",
+      "name": "Meningitis y meningoencefalitis",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "pna-001",
+      "name": "Neumonía adquirida en la comunidad",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "pnc-001",
+      "name": "Pancreatitis aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "per-001",
+      "name": "Pericarditis aguda",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tra-001",
+      "name": "Politraumatismo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "rhd-001",
+      "name": "Rabdomiólisis",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "sep-001",
+      "name": "Sepsis y shock séptico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "sin-001",
+      "name": "Síncope",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tsv-001",
+      "name": "Taquicardia supraventricular (TSV)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tdm-001",
+      "name": "Trastornos del medio interno",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "tep-001",
+      "name": "Tromboembolismo pulmonar (TEP)",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-06-25"
+    }
+  ]
+}

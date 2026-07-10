@@ -1,0 +1,61 @@
+{
+  "id": "rif-001",
+  "name": "Rifampin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antibiotic. Antituberculous agent.",
+  "indications": "## Main indications\n\nAntibiotic. Antituberculous agent.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 600 mg (Rifampicina Kilab, Richet).",
+      "reconstitution": "10 mL sterile water for injection. Conc: 60 mg/mL.",
+      "diluent": "600 mg in 500 mL 5% dextrose.",
+      "finalConcentration": "1.2 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Shake gently until complete dissolution. Dilute in 100-500 mL 5% dextrose and administer over maximum 3 h.",
+      "notes": "After 4 h of prepared dilution, antibiotic precipitation may occur. Preferably use 5% dextrose, as stability is reduced in NS."
+    },
+    "pediatrico": {
+      "presentation": "Capsules: 300 mg; Tablets: 300 mg; Syrup: 20 mg/mL; Vial: 600 mg",
+      "administration": "IV; PO",
+      "diluent": "Preferably 5% dextrose. Otherwise NS.",
+      "finalConcentration": "6 mg/mL.",
+      "infusionRate": "30 min to 3 hours with infusion pump.",
+      "dose": "Under 1 month: 10 mg/kg/day. Over 1 month: 10-20 mg/kg/day every 24 h, maximum dose: 600 mg/day. Tuberculosis treatment: infants and children: 10-20 mg/kg/day, maximum dose: 600 mg/day. H. influenzae prophylaxis: neonates < 1 month: 10 mg/kg/day every 24 h for 4 days; children: 20 mg/kg/day every 24 h for 4 days; Adults: 600 mg every 24 h for 4 days. Meningococcal prophylaxis: < 1 month: 10 mg/kg/day every 12 h for 2 days; children: 20 mg/kg/day every 12 h for 2 days; Adults: 600 mg every 12 h for 2 days. Synergism: children: 10-20 mg/kg/day every 12-24 h, maximum dose: 600 mg/day; adults: IV; PO: 300 mg every 12 h. See anti-infective dose table in hospitalization.",
+      "notes": "Contraindicated in patients with hypersensitivity. Caution in patients with hepatic disease. Perform liver panel at treatment start; repeat only if symptoms occur. Strong CYP-450 inducer. Interactions: digoxin, phenytoin, diazepam, cyclosporine, trimethoprim/sulfamethoxazole, ketoconazole, theophylline, anticoagulants, protease inhibitors. Rifampin interferes with oral contraceptives, reducing contraceptive efficacy. Other contraceptive methods are recommended (barrier methods—condom—intrauterine devices). May impart an orange color to body fluids. Soft contact lenses may be permanently stained. See tuberculosis treatment guide."
+    },
+    "neonatal": {
+      "dose": "Neonatal TB regimens per national/NICU protocol.",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature.\n\n## Diluted solution (for administration)\n\n- 4 h at room temperature.\n\n## Pediatric guide\n\n- 24 h at room temperature reconstituted and 4 hours diluted.",
+  "adverseEffects": "## Adverse effects\n\nGastrointestinal disturbances, jaundice, hepatitis, influenza-like febrile reactions, dermatologic reactions, neurotoxicity. Hematologic: neutropenia, leukopenia, thrombocytopenia (uncommon).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — rifAMPicin (code 1054, ATC J04AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

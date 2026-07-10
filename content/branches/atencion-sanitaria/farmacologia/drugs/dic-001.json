@@ -1,0 +1,40 @@
+{
+  "id": "dic-001",
+  "name": "Diclofenac",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "AINE no narcótico con acción analgésica, antipirética y antiinflamatoria; uso IV según prescripción institucional.",
+  "indications": "## Indicaciones\n\n- Dolor agudo moderado a severo.\n- Inflamación en contextos seleccionados.\n\n## Precauciones\n\n- Riesgo de efectos gastrointestinales y renal. Uso restringido en pediatría según protocolo.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "amp. 75 mg/3 mL.",
+      "administration": "EV o IM.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "De 30 min a 2 hs con BIC.",
+      "dose": "150 mg/día.",
+      "notes": "Analgésico, antipirético, antiinflamatorio no esteroideo (AINE), no narcótico. Puede dar mareo, cefalea, rash, dolor abdominal, diarrea."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos\n\n- Mareo, cefalea, rash, dolor abdominal, diarrea, elevación de transaminasas.",
+  "bibliography": [
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

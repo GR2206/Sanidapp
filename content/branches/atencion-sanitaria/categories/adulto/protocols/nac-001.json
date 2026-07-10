@@ -1,0 +1,27 @@
+{
+  "id": "nac-001",
+  "title": "Neumonía adquirida en la comunidad (adulto)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Valorar gravedad, oxigenar según necesidad, obtener cultivos si corresponde e iniciar antibiótico empírico precoz según escenario clínico.",
+  "body": "## Pasos a realizar\n\n1. Registrar signos vitales completos: FR, SpO₂, TA, FC, temperatura y estado mental.\n2. Aplicar escala de gravedad institucional (CURB-65, PSI o criterio médico local).\n3. Confirmar imagen compatible (radiografía de tórax u otra indicada).\n4. Obtener hemocultivos si la enfermedad es moderada-grave o requiere ingreso.\n5. Solicitar antígeno urinario de neumococo y Legionella según protocolo local.\n6. Administrar oxigenoterapia titulada (objetivo SpO₂ 92–96% en la mayoría de adultos).\n7. Controlar hidratación y fiebre según prescripción.\n8. Monitorizar trabajo respiratorio; preparar soporte avanzado si hay deterioro.\n9. Aplicar aislamiento respiratorio según sospecha (TBC, gripe, COVID-19, etc.).\n10. Educar al paciente sobre adherencia antibiótica y signos de alarma.\n\n## Fundamentación científica\n\n### Indicaciones\n\nInfección aguda del parénquima pulmonar adquirida fuera del hospital o dentro de las primeras 48 h de internación, en paciente no expuesto recientemente a factores de riesgo de multirresistencia.\n\n### Evaluación inicial\n\n- Signos vitales, FR, SpO₂, estado mental, balance hídrico.\n- Escala de gravedad institucional (CURB-65, PSI o criterio médico local).\n- Radiografía de tórax o imagen compatible.\n- Hemocultivos si moderada-grave o ingreso.\n- Antígeno urinario neumococo / Legionella según protocolo local.\n\n### Evidencia y recomendaciones\n\n> **ATS/IDSA 2019 (Metlay et al.):** Diagnóstico clínico-radiológico con estratificación de gravedad para decidir ambulatorio vs hospitalización. Antibiótico empírico precoz según escenario clínico.\n\n> **SATI — Comité de Neumonología Crítica:** Recomendaciones específicas para neumonía adquirida en la comunidad en pacientes adultos hospitalizados.\n\n### Criterios de derivación a UTI\n\n- Necesidad de ventilación mecánica o VMNI con inestabilidad.\n- Shock séptico o hipotensión persistente.\n- Alteración severa del estado de conciencia.\n- Hipoxemia refractaria (PaO₂/FiO₂ < 250 con oxígeno suplementario).\n\n### Complicaciones\n\n- Insuficiencia respiratoria aguda.\n- Sepsis / shock séptico.\n- Derrame pleural complicado o empiema.\n- Retraso en antibiótico o oxigenoterapia inadecuada.",
+  "bibliography": [
+    {
+      "citation": "SATI — Comité de Neumonología Crítica. Neumonía adquirida en la comunidad.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-e67.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31573350/"
+    },
+    {
+      "citation": "SATI — Guías y consensos generales.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — manejo de sepsis de origen respiratorio.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cap-001",
+  "name": "Captopril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "executiveSummary": "IECA de acción corta; útil en crisis hipertensiva sublingual y manejo de IC e HTA en guardia.",
+  "indications": "## Indicaciones\n\n- Hipertensión arterial y crisis hipertensiva (sublingual según protocolo).\n- Insuficiencia cardíaca.\n- Nefropatía diabética.\n\n## Precauciones\n\n- Contraindicado en embarazo y angioedema previo.\n- Monitorear PA, función renal y potasio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 25 y 50 mg.",
+      "dose": "HTA crónica: 12,5–50 mg VO 2–3 veces/día. Crisis: 25 mg sublingual, repetir según protocolo.",
+      "administration": "VO o sublingual (crisis hipertensiva)."
+    },
+    "pediatrico": {
+      "dose": "0,3–0,5 mg/kg/dosis VO cada 8–24 h (máx. protocolo).",
+      "administration": "VO."
+    },
+    "neonatal": {
+      "dose": "0,01–0,05 mg/kg/dosis VO cada 8–24 h según cardiólogo.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Comprimidos según prospecto. Proteger de la humedad.",
+  "adverseEffects": "## Efectos\n\n- Hipotensión, tos, hiperpotasemia, rash, angioedema, alteración del gusto.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

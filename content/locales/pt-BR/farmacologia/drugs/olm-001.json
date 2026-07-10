@@ -1,0 +1,41 @@
+{
+  "id": "olm-001",
+  "name": "Olmesartana",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "BRA para hipertensão arterial e combinações com diurético ou bloqueador de cálcio.",
+  "indications": "## Indicações\n\n- Hipertensão arterial essencial.\n- Esquemas combinados institucionais (olmesartana + HCTZ ou anlodipino).\n\n## Precauções\n\n- Contraindicado na gestação. Enteropatia por olmesartana (rara, crônica).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 20 e 40 mg.",
+      "dose": "20–40 mg/dia VO em dose única.",
+      "administration": "VO com ou sem alimentos."
+    },
+    "pediatrico": {
+      "dose": "0,3–1 mg/kg/dia VO (6–16 anos, conforme protocolo).",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n- Tontura, hipotensão, hipercalemia, diarreia crônica (raro).",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "tei-001",
+  "name": "Teicoplanina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamiento de infecciones del tracto respiratorio bajo, hueso, piel y partes blandas e infecciones de las vías urinarias por microorganismos gram positivos sensibles a vancomicina en caso de pérdida de acceso venoso, dado que puede administrarse por vía I.M..",
+  "indications": "## Indicaciones principales\n\nTratamiento de infecciones del tracto respiratorio bajo, hueso, piel y partes blandas e infecciones de las vías urinarias por microorganismos gram positivos sensibles a vancomicina en caso de pérdida de acceso venoso, dado que puede administrarse por vía I.M..\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampolla 200 mg o 400 mg.",
+      "reconstitution": "Reconstituir con agua para inyección; espuma normal, dejar reposar.",
+      "dose": "Carga: 6 mg/kg cada 12 h x 3 dosis. Mantenimiento: 6 mg/kg cada 24 h.",
+      "infusionRate": "Perfusión IV lenta 30 min.",
+      "administration": "IV o IM."
+    },
+    "pediatrico": {
+      "dose": "R.N.: 1er día: 16 mg/kg/día, luego 8 mg/kg/día (en infusión); &gt; 2 meses infecciones leves, las primeras 3 dosis E.V./I.M.: 10 mg/kg/dosis cada 12 hs, luego: 10 mg/kg/día cada 24 hs; dosis máxima: 400 mg/día. Neutropénicos Trasplante de Médula &Oacute;sea infecciones severas: 15 - 20 mg/kg/día, mantener concentración valle: &gt; 10 mg/L. Adultos: 400 mg cada 12 hs por 3 dosis, luego infecciones leves: 400 mg cada 24 hs, infecciones severas: dosis máxima 800 mg cada 24 hs.",
+      "administration": "E.V.; I.M.",
+      "presentation": "F.A.: 400 mg",
+      "notes": "Su vida media prolongada, permite el uso cada 24 hs. Infusión E.V. en 30 minutos. Ajuste de dosis en fallo renal."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Solución reconstituida 24 h refrigerada.",
+  "adverseEffects": "## Efectos adversos\n\nDolor en sitio de inyección, fiebre, náuseas, vómitos, reacción anafiláctica. Raro: trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Teicoplanina (cód. 521, ATC J01XA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

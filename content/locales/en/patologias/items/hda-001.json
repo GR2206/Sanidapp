@@ -1,0 +1,53 @@
+{
+  "id": "hda-001",
+  "name": "Upper gastrointestinal bleeding (UGIB)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Upper gastrointestinal bleeding** is bleeding proximal to the ligament of Treitz, usually caused by **peptic ulcer disease**, esophagogastric varices, erosive gastropathy, Mallory-Weiss tears, or malignancy. It manifests as hematemesis, melena, or, in cases of massive bleeding, hematochezia. Severity is estimated using scales such as **Glasgow-Blatchford** or Rockall; signs of instability (hypotension, tachycardia, syncope, Hb <7 g/dL) demand aggressive resuscitation.\n\nInitial management: two large-bore intravenous lines, crystalloids and packed red blood cells according to transfusion protocol, IV **proton pump inhibitor** (pantoprazole), and, if variceal bleeding is suspected: splanchnic vasoconstrictor (octreotide) plus prophylactic antibiotics and urgent consultation with endoscopy. Avoid ASA/NSAIDs; reconsider anticoagulants based on the risk-benefit balance. Intubate for airway protection if active hematemesis is present with an altered level of consciousness.\n\n**Nursing:** NPO status, nasogastric tube insertion only if indicated by protocol, continuous monitoring, type and crossmatch, recording of hemorrhagic episodes, and surveillance for rebleeding. Prepare the patient and family members for urgent endoscopy.",
+  "clinicalBox": {
+    "title": "Glasgow-Blatchford — risk assessment in UGIB",
+    "content": "Score 0–23 (higher score = greater risk of intervention). Main items:\n**Urea** >6.5 mmol/L (19 mg/dL) · **Low Hb** (according to sex) · **Systolic BP** <90–110 mmHg · **HR** ≥100 bpm\n**Melena** · **Syncope** · **Liver disease** · **CHF** · **Known esophageal varices**\n\n**Score 0:** low risk — assess for early discharge after observation · **Score ≥1:** admission and endoscopy according to protocol · **High scores:** transfusion and ICU admission."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "pan-001",
+      "label": "Pantoprazole"
+    },
+    {
+      "drugId": "oct-001",
+      "label": "Octreotide"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "vit-001",
+      "label": "Vitamin K"
+    },
+    {
+      "drugId": "prt-001",
+      "label": "Protamine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "International consensus on management of patients with nonvariceal upper gastrointestinal bleeding.",
+      "url": "https://www.bsg.org.uk/"
+    },
+    {
+      "citation": "Sociedad Argentina de Gastroenterología (SAGE). Guías de HDA.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Gastroenterology. Upper GI bleeding guideline.",
+      "url": "https://gi.org/guideline/"
+    }
+  ]
+}

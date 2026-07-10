@@ -1,0 +1,49 @@
+{
+  "id": "cov-001",
+  "name": "COVID-19 — Acute Disease",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**SARS-CoV-2 disease (COVID-19)** is a respiratory infection that, in severe forms, causes pneumonia, acute respiratory distress syndrome, and multiorgan dysfunction. In the emergency department, severity is stratified using pulse oximetry, respiratory rate, lung imaging, and biomarkers (CRP, ferritin, D-dimer according to protocol). Risk factors for severe disease include advanced age, obesity, diabetes, COPD, immunosuppression, and incomplete vaccination status.\n\nManagement of moderate-to-severe disease with oxygen requirement includes systemic **dexamethasone** (beneficial in hypoxemia), prone positioning in respiratory failure, prophylactic or therapeutic anticoagulation based on thrombotic risk, and antibiotics only if secondary bacterial infection is suspected. Assess the use of direct-acting antivirals depending on availability and the institutional time window. Escalate to NIV (non-invasive ventilation) or MV (mechanical ventilation) according to ICU criteria.\n\n**Nursing:** continuous SpO₂ monitoring, recording of respiratory rate and work of breathing, titrated oxygen therapy, droplet and contact isolation, surveillance for venous thrombosis, blood glucose monitoring during corticosteroid therapy, and support for vaccination and home isolation upon discharge according to current regulations.",
+  "relatedDrugs": [
+    {
+      "drugId": "dxt-001",
+      "label": "Dexamethasone"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparin"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparin sodium"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "ose-001",
+      "label": "Oseltamivir"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Clinical management of COVID-19 — living guideline.",
+      "url": "https://www.who.int/publications/guidelines"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Protocolo COVID-19.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institutes of Health (NIH). COVID-19 Treatment Guidelines.",
+      "url": "https://www.covid19treatmentguidelines.nih.gov/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America. Guidelines on the treatment and management of COVID-19.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "glc-001",
+  "name": "Glucagon",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment and diagnostic use in hypoglycemia. Hyperglycemic agent that mobilizes hepatic glycogen released into the bloodstream as glucose.",
+  "indications": "## Main indications\n\nTreatment and diagnostic use in hypoglycemia. Hyperglycemic agent that mobilizes hepatic glycogen released into the bloodstream as glucose.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "1 mg vial.",
+      "dose": "1 mg IM/SC/slow IV; repeat in 15 min if persistent.",
+      "administration": "IM/SC/IV."
+    },
+    "pediatrico": {
+      "dose": "<1 month: 20 µg/kg; 1 month to 2 years: 500 µg; >2 years: <20 kg: 500 µg, ≥20 kg: 1 mg",
+      "administration": "SC; IM; IV",
+      "presentation": "Vial: 1 mg (1 IU)",
+      "notes": "Do not use with anticholinergics. Caution in insulinoma or glucagonoma. Interactions: antagonizes insulin; increases warfarin anticoagulant effect; effect decreased by indomethacin; transient increase in pulse and blood pressure with beta-blockers."
+    },
+    "neonatal": {
+      "dose": "0.03–0.1 mg/kg IM/SC/IV per protocol.",
+      "administration": "IM/SC/IV."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstitute at time of use.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, diarrhea, hypokalemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Glucagon Hydrochloride (code 0108, ATC H04AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

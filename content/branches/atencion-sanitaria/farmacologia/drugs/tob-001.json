@@ -1,0 +1,44 @@
+{
+  "id": "tob-001",
+  "name": "Tobramicina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "executiveSummary": "Aminoglucósido con mayor actividad antipseudomonal; uso IV, IM o inhalada en fibrosis quística.",
+  "indications": "## Indicaciones\n\n- Infecciones por *Pseudomonas* en combinación.\n- Inhalada en exacerbaciones de fibrosis quística (presentación específica).\n\n## Precauciones\n\n- Monitorizar niveles y función renal.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 40 mg/mL IV; solución para nebulización.",
+      "dose": "5–7 mg/kg/día IV dividido cada 8 h. Inhalada: según protocolo de fibrosis quística.",
+      "administration": "IV o inhalada."
+    },
+    "pediatrico": {
+      "dose": "5–7 mg/kg/día IV cada 8 h.",
+      "administration": "IV/inhalada según indicación."
+    },
+    "neonatal": {
+      "dose": "4–5 mg/kg/dosis cada 24–48 h (NNU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV diluida 24 h refrigerada. Nebulización: usar inmediatamente.",
+  "adverseEffects": "## Efectos\n\n- Nefrotoxicidad, ototoxicidad, broncoespasmo (inhalada).",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

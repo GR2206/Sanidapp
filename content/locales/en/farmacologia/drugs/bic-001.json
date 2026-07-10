@@ -1,0 +1,54 @@
+{
+  "id": "bic-001",
+  "name": "Sodium bicarbonate",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Correction of metabolic acidosis.",
+  "indications": "## Main indications\n\nCorrection of metabolic acidosis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 1 mEq/mL (8.4%).",
+      "dose": "1–2 mEq/kg IV diluted in selected situations (prescription).",
+      "administration": "Slow diluted IV."
+    },
+    "pediatrico": {
+      "presentation": "Capsules: 1000 mg; Oral solution 10% (compounded preparation): 100 mg of sodium bicarbonate/mL (1.2 mEq of bicarbonate/mL and 1.2 mEq of sodium/mL); IV solution 1 Molar: 1 mEq of bicarbonate/mL See formulation",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "ABG correction in HP.",
+      "infusionRate": "Continuous infusion over 4 to 8 hours with infusion pump.",
+      "dose": "Severe acute metabolic acidosis (IV): mEq required = (desired serum bicarbonate - current bicarbonate) x 0.3 x weight in kg. Chronic metabolic acidosis (PO): mEq required = (desired serum bicarbonate - current bicarbonate) x 0.6 x weight in kg. See CIME Electrolytes Bulletin.",
+      "notes": "Always treat the cause of acidosis. Correct hypokalemia first. PO administration: administer 1-3 hours after meals; 1 g sodium bicarbonate capsules contain 12 mEq of bicarbonate and 12 mEq of sodium. IV administration: peripheral route: dilute to 1/6; central route: IV push: slow up to 1 mEq/mL, IV infusion: dilute to 0.5 mEq/mL in 5% dextrose and infuse over more than 2 h. Incompatible with calcium, magnesium, and atropine"
+    },
+    "neonatal": {
+      "dose": "1–2 mEq/kg in cardiac arrest with acidosis per NRP.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Keep at room temperature. Discard remainder.\n\n## General\n\n- Do not mix with calcium in the same line.",
+  "adverseEffects": "## Adverse effects\n\nPO: gastric distension and flatulence. IV: tissue necrosis (avoid extravasation), hyponatremia, metabolic alkalosis, hypocalcemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — sodium BICARBONATE (code 0267, ATC B05CB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

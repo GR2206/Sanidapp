@@ -1,0 +1,59 @@
+{
+  "id": "mil-001",
+  "name": "Milrinona",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Agente inotrópico positivo, mejora la función diastólica. Inhibidor de la fosfodiesterasa.",
+  "indications": "## Indicaciones principales\n\nAgente inotrópico positivo, mejora la función diastólica. Inhibidor de la fosfodiesterasa.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
+      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
+      "diluent": "SG 5% o NaCl 0,9%.",
+      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
+      "dose": "Carga 50 mcg/kg en 10 min (opcional), luego 0,375–0,75 mcg/kg/min.",
+      "infusionRate": "Bolus lento si se usa carga.",
+      "administration": "IV continua en bomba; vía central preferida.",
+      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
+      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+    },
+    "pediatrico": {
+      "presentation": "F.A. de 10 ml: 1 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "≤ 0,5 mg/mL para infusión continua.",
+      "infusionRate": "Según indicación médica.",
+      "dose": "Dosis carga: 50 ug/kg en 15 minutos, mantenimiento: 0,25 - 0,75 ug/kg/minuto, dosis máxima en adultos: 1,13 mg/kg/día . Puede ser necesario disminuir la velocidad de infusión en pacientes con insuficiencia renal. Ajustar la dosis en recién nacidos.",
+      "notes": "Requiere monitoreo clínico. Incompatible con fursemida. Infusión continua: diluir en dextrosa 5% o solución fisiológica, concentración usual &lt; 200 µg/ml. No administrar por más de 48 hs."
+    }
+  },
+  "stability": "## General\n\n- Dilución 24 h refrigerada según prospecto.\n\n## Cartilla pediátrica\n\n- 24 hs una vez diluido.",
+  "adverseEffects": "## Efectos adversos\n\nArritmias ventriculares, hipotensión, cefalea, hipokalemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — MILRinona (cód. 1452, ATC C01CE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

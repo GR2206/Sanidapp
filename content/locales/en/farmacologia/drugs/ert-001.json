@@ -1,0 +1,50 @@
+{
+  "id": "ert-001",
+  "name": "Ertapenem",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Sequential outpatient hospitalization treatment for intra-abdominal infections and complicated urinary tract infections.",
+  "indications": "## Main indications\n\nSequential outpatient hospitalization treatment for intra-abdominal infections and complicated urinary tract infections.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 1 g (Invanz, Ertapenem Richet).",
+      "reconstitution": "10 mL SWFI or NS. Conc: 100 mg/mL.",
+      "diluent": "1 g in 50-100 mL NS.",
+      "finalConcentration": "10-20 mg/mL.",
+      "administration": "IM: Yes. Reconst. with 3.2 mL painless solvent and administer deep IM. Intermittent IV: Yes. Reconst. with 10 mL SWFI or NS, dilute with 50-100 mL NS and infuse over 30-60 min.",
+      "notes": "No more than 6 h should pass between reconstitution and end of administration. Dilution in 5% dextrose is not recommended due to instability."
+    },
+    "pediatrico": {
+      "dose": "Intra-abdominal infections and complicated urinary tract infections: 3 months to 12 years: 15 mg/kg/dose every 12 h for 5 to 14 days, maximum 1 g/day; > 13 years and adults: 1 g for 14 days.",
+      "administration": "IV IM",
+      "presentation": "Powder vial: 1 g",
+      "notes": "Administer with caution in patients with brain lesions or history of seizures. IM: Reconstitute 1 g vial with 3.2 ml of 1% or 2% lidocaine, shake well before use (administer deep IM in a large muscle mass within one hour of preparation). IV: Shake well after reconstitution and dilute in normal saline to a final concentration of 20 mg/ml, infuse over 30 minutes; diluted solution is stable 6 h at room temperature and 24 h refrigerated. Probenecid decreases renal clearance of ertapenem. Contains 137 mg of sodium (approx. 6 mEq)/g of ertapenem."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 1 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nAbdominal pain, constipation, indigestion, nausea, vomiting, headache, vaginitis, seizures, injection-site pain.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ERTApenem* (code 1703, ATC J01DH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

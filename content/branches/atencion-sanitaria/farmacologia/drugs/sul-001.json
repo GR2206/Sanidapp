@@ -1,0 +1,43 @@
+{
+  "id": "sul-001",
+  "name": "Sulbactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Inhibidor de betalactamasas como monoterapia en infecciones por Acinetobacter baumannii según cartilla institucional.",
+  "indications": "## Indicaciones principales\n\n- Monoterapia en infecciones por *Acinetobacter baumannii* (actividad intrínseca sobre OXA-23 y similares).\n- Puede combinarse con colistina o meropenem según sensibilidad.\n\n## Precauciones\n\n- No confundir con ampicilina-sulbactam.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 1 g de sulbactam sódico (Sulbactam Richet, Northia, otros).",
+      "reconstitution": "10 mL de AD o SF. Conc: 100 mg/mL.",
+      "diluent": "1 g en 100 mL de SF o DX 5%.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "IV directa: Sí. Reconst. en 10 mL de AD y admin. lento en 3-5 min. IV intermitente: Sí. Diluir en 50-100 mL de SF o DX 5% y admin. en 15-30 min.",
+      "notes": "Dosis habitual: 3-4 g/día en 3-4 dosis o infusión prolongada (1 g c/6 h en 3 h). Puede combinarse con colistina o meropenem según sensibilidad. No confundir con ampicilina-sulbactam."
+    },
+    "pediatrico": {
+      "dose": "Esquemas según protocolo de infectología pediátrica.",
+      "administration": "IV según indicación."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 8 hs a T° amb, 48 h refrigerado.\n\n## Solución diluida (a administrar)\n\n- 8 h a T° amb, 48 h refrigerado.",
+  "adverseEffects": "## Efectos\n\n- Diarrea, rash, flebitis.",
+  "bibliography": [
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

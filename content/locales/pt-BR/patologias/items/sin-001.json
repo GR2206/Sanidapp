@@ -1,0 +1,41 @@
+{
+  "id": "sin-001",
+  "name": "Síncope",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "O **síncope** é a perda transitória de consciência por hipoperfusão cerebral global, com recuperação espontânea completa. Na emergência classifica-se em **reflexo (vasovagal)**, **ortostático** e **cardíaco** (arritmias, cardiopatia estrutural). O síncope cardíaco tem maior risco de morte súbita e exige investigação urgente. A anamnese detalha contexto (ortostatismo, esforço, dor, micção), pródromos, duração e testemunhas (convulsão vs síncope).\n\nO exame inclui PA em decúbito e ortostatismo, ausculta cardíaca, ECG obrigatório (buscar bradiarritmias, QT longo, bloqueios, isquemia) e glicemia capilar. Na suspeita cardíaca ou síncope sem pródromos ao esforço: monitorização, troponinas se dor associada e consulta à cardiologia. O síncope reflexo em paciente jovem sem cardiopatia costuma ser de baixo risco após ECG normal.\n\n**Enfermagem**: posição segura durante o episódio, oxímetro e PA seriados, ECG na admissão, hidratação oral se ortostático e orientação sobre manobras de contrapressão e evitar desidratação. Registrar medicação (anti-hipertensivos, diuréticos) que favoreçam hipotensão.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Syncope guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Consenso de síncope.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Cardiology / AHA. Syncope evaluation.",
+      "url": "https://www.acc.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glicose)"
+    },
+    {
+      "drugId": "ade-001",
+      "label": "Adenosina"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropina"
+    }
+  ]
+}

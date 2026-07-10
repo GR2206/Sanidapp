@@ -1,0 +1,27 @@
+{
+  "id": "vic-001",
+  "title": "Central venous catheter insertion",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Insert central venous catheters using maximal sterile barrier precautions, skin preparation with chlorhexidine, ultrasound guidance when available, and a prevention bundle for catheter-associated bloodstream infections (CLABSI).",
+  "body": "## Steps to perform\n\n1. Verify consent, allergies, and coagulation studies according to protocol.\n2. Prepare the crash cart and complete sterile barrier materials.\n3. Position the patient (slight Trendelenburg if jugular/subclavian as indicated).\n4. Perform hand hygiene and wear a cap, mask, sterile gown, and sterile gloves (maximal barrier).\n5. Prepare the skin with 0.5–2% alcoholic chlorhexidine using friction, extending over an area ≥ 20 cm; **allow to dry**.\n6. Assist with sterile technique; support real-time ultrasound guidance if utilized by the department.\n7. Connect lines in a closed system; flush and lock unused lumens.\n8. Secure the catheter with sutures or a securement device; apply a transparent or chlorhexidine-impregnated dressing according to protocol.\n9. Verify venous return and securement; request a chest X-ray or ultrasound to confirm tip position if required by protocol.\n10. Document the site, gauge, lumens, operator, immediate complications, and time; label insertion dates.\n11. Disinfect the hub with alcoholic chlorhexidine before every access (friction ≥ 15 s).\n12. Re-evaluate catheter necessity daily; remove upon completion of indication or if infection is suspected/confirmed.\n\n## Scientific rationale\n\n### Indications\n\n- Administration of vasoactive drugs or hyperosmolar solutions.\n- Total parenteral nutrition.\n- Invasive hemodynamic monitoring (CVP, ScvO2) in critically ill patients.\n- Long-term venous access when peripheral access is not feasible or appropriate.\n- Dialysis or renal replacement procedures (specific catheter).\n\n### Site selection (ICU adult)\n\n| Site | Considerations |\n| --- | --- |\n| **Subclavian** | Lower infectious risk in the ICU; higher mechanical risk (pneumothorax) |\n| **Internal jugular** | Preferred ultrasound-guided access; monitoring for infection and positioning |\n| **Femoral** | Avoid in the ICU if an alternative exists (higher infectious and thrombotic risk) |\n\nThe final decision is **medical**, considering anatomy, coagulation, urgency, and operator experience.\n\n### Evidence and recommendations\n\n> **SATI/SADI 2025 (Cornistein et al.):** Place only if indicated. Insertion bundle and daily re-evaluation of catheter necessity.\n\n> **WHO 2024:** Maximal sterile barrier precautions and alcoholic chlorhexidine on the skin for CLABSI prevention.\n\n### Insertion bundle (summary)\n\n1. Hand hygiene.\n2. Maximal sterile barrier precautions.\n3. Skin antiseptic (alcoholic chlorhexidine).\n4. Optimal site selection.\n5. Daily review of catheter necessity.\n\n### Complications — notify immediately\n\n- Pneumothorax, hemothorax, or acute respiratory distress.\n- Uncontrolled local hemorrhage or expanding hematoma.\n- Arrhythmias during insertion.\n- Fever or signs of site infection / suspected CLABSI.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos (BAC, prevención de IAAS).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    }
+  ]
+}

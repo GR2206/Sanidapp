@@ -1,0 +1,41 @@
+{
+  "id": "bis-001",
+  "name": "Bisoprolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Long-acting cardioselective beta-1 blocker for heart failure (HF) and hypertension (HTN).",
+  "indications": "## Indications\n\n- Stable chronic heart failure with systolic dysfunction.\n- Hypertension.\n- Angina pectoris.\n\n## Precautions\n\n- Gradual titration. Do not discontinue abruptly. Contraindicated in severe asthma and advanced AV block.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "2.5, 5, and 10 mg tablets.",
+      "dose": "HF: initiate at 1.25 mg/day PO and titrate to 10 mg/day. HTN: 5–10 mg/day.",
+      "administration": "PO as a single morning dose."
+    },
+    "pediatrico": {
+      "dose": "0.1–0.2 mg/kg/day PO (specialized use).",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Store according to package insert.",
+  "adverseEffects": "## Effects\n\n- Bradycardia, hypotension, fatigue, dizziness, bronchospasm.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Heart failure and hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

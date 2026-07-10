@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-004",
+  "title": "Peripheral line in the newborn",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Cannulate a peripheral venous catheter in newborns weighing 500 g to 2500 g (days 0–30) utilizing an aseptic non-touch technique, a 24–26 G gauge, a maximum of two attempts per operator, and strict monitoring for extravasation.",
+  "body": "## Steps to perform\n\n1. Confirm indication, identification (using two identifiers), exact weight, and prescription; evaluate if the access route could be a UVC/PICC before selecting a peripheral line in newborns < 1000 g requiring prolonged treatment.\n2. Select the site based on weight: dorsum of the hand/foot, forearm, or ankle; avoid the scalp unless there is a specific institutional indication; do not use an extremity with an ipsilateral UAC if contraindicated by protocol.\n3. Maintain thermoregulation under a radiant warmer or inside an incubator; monitor HR and SpO₂ during the procedure.\n4. Perform hand hygiene (WHO Moment 2); prepare sterile supplies; utilize a second operator for gentle containment without compressing the chest.\n5. Apply a gentle tourniquet using gauze or a neonatal tourniquet 5–10 cm proximally; palpate the vein using a transilluminator or direct visualization if available.\n6. Disinfect the skin with an antiseptic according to institutional protocol (< 2 months: 0.5% aqueous chlorhexidine or povidone-iodine according to local guidelines; ≥ 2 months: alcoholic chlorhexidine if authorized); use circular friction and allow to dry for ≥ 30 s.\n7. Puncture at a 10–20° angle; advance the 24–26 G catheter until blood flashback is observed; remove the tourniquet; secure with a transparent dressing without causing compression.\n8. Connect the micro-drip set or syringe pump; verify infusion without resistance and the absence of peri-puncture edema.\n9. Record the date, time, site, gauge, number of attempts, operator, and the solution infused.\n10. If unsuccessful: a maximum of two attempts per operator is allowed; escalate to an experienced colleague or a central access route (UVC/PICC/intraosseous in case of emergency).\n11. Check every hour in newborns < 1500 g and every shift in newborns > 1500 g: color, temperature, edema, erythema, and device function.\n12. Remove the catheter upon completion of treatment, if extravasation occurs, or if the catheter has been in place for > 72–96 h without clinical necessity.\n\n## Scientific rationale\n\n### Population and scope\n\nStrictly for newborns from day 0 to day 30, weighing 500 g to 2500 g. Peripheral access in preterm infants carries a high risk of extravasation and has a limited lifespan; do not equate this with pediatric access in patients > 30 days old.\n\n### Indications\n\n- Administration of short-term IV medication or fluids.\n- Blood sampling when a UVC/UAC is unavailable.\n- Temporary bridge while central access is being cannulated.\n\n### Relative contraindications\n\n- Newborns < 750 g with anticipated long-term parenteral nutrition (UVC/PICC preferred).\n- Concentrated vesicant, osmotic, or vasoactive drugs (which require central access).\n- Skin infection, lymphedema, or prior failed punctures in the same extremity.\n\n### Evidence and recommendations\n\n> **Source:** WHO (2024) — Peripheral bundle components: hand hygiene, skin antiseptic, a maximum of two attempts per operator, secure fixation, and early removal (WHO, 2024).\n\n> **Source:** VON — In preterm infants < 1500 g, the extravasation of hyperosmolar solutions is a frequent cause of tissue injury; central access is preferred for parenteral nutrition (Vermont Oxford Network).\n\n### Gauge and site selection\n\n| Weight | Gauge | Preferred site |\n| --- | --- | --- |\n| 500–1000 g | 26–24 G | Dorsum of hand/foot, ankle |\n| 1000–1500 g | 24 G | Dorsum of hand/foot, forearm |\n| 1500–2500 g | 24 G | Forearm, dorsum of hand |\n\n| Avoid | Reason |\n| --- | --- |\n| Scalp | Risk of hemorrhage and air embolism (only under specific protocol) |\n| Antecubital fossa | Flexion and occlusion risks |\n| Same extremity as a UAC | Vascular compromise |\n\n### Immediate removal criteria\n\n- Extravasation (edema, blanching, skin induration/hardening).\n- Phlebitis or progressive erythema.\n- Device malfunction or occlusion.\n- Completion of the IV indication.\n\n### Neonatal extravasation protocol\n\n1. Stop the infusion; do not remove the needle until assessment is completed.\n2. Aspirate residual fluid if possible; remove the catheter.\n3. Elevate the extremity; apply a cold compress (for irritating solutions) or a warm compress (for vasoconstrictive drugs) according to the specific drug protocol.\n4. Administer a specific antidote if available (e.g., hyaluronidase according to institutional protocol).\n5. Document the event and escalate to the neonatologist; consider imaging if the injury is extensive.\n\n### Complications — notify immediately\n\n- Extravasation of parenteral nutrition, calcium, or vasoactive drugs.\n- Skin necrosis or compartment syndrome.\n- Site infection or bacteremia.\n- Extensive hematoma or distal vascular compromise.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Prevention of extravasation injury in very low birth weight infants.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "O'Grady NP, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Prevención de IAAS y accesos vasculares en UCI.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

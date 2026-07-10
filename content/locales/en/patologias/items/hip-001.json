@@ -1,0 +1,45 @@
+{
+  "id": "hip-001",
+  "name": "Severe hypoglycemia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Hypoglycemia** is defined as a blood glucose level <70 mg/dL (3.9 mmol/L); it is **severe** when it requires third-party assistance for its management or presents with altered level of consciousness or seizures. In the emergency department, it is frequently encountered in diabetic patients due to an excess of insulin or oral hypoglycemic agents, prolonged fasting, alcohol intake, sepsis, or renal failure. It can also mimic a stroke or a seizure.\n\nImmediate treatment in a conscious patient consists of **15–20 g of oral glucose** (sachets, juice, honey) and rechecking blood glucose in 15 minutes (the 15-15 rule). If the patient cannot tolerate oral intake or is unconscious: administer **IV glucose** (10% or 25–50% dextrose according to protocol) or **IM/SC glucagon** if intravenous access is unavailable. Following recovery, provide a meal with complex carbohydrates and review the insulin regimen. Investigate the underlying cause (dosage error, skipped meal, intercurrent illness).\n\n**Nursing:** perform capillary blood glucose measurement upon admission for any patient with altered sensorium, perform double-verification of IV dextrose doses, monitor post-treatment (rebound or recurrent hypoglycemia), and provide education on prevention and carrying diabetes identification.",
+  "clinicalBox": {
+    "title": "The 15-15 rule",
+    "content": "If the patient is **conscious and able to swallow**:\n1. Administer **15–20 g of oral glucose** (e.g., 4 glucose sachets or 150 mL of juice).\n2. Recheck blood glucose in **15 minutes**.\n3. If it remains <70 mg/dL, repeat the cycle.\n4. Once normalized, offer a **snack** containing complex carbohydrates.\n\nIf the patient is **unconscious**: administer IV glucose or IM glucagon — do not administer anything by mouth."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glucose)"
+    },
+    {
+      "drugId": "glc-001",
+      "label": "Glucagon"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Regular insulin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care — hypoglycemia.",
+      "url": "https://diabetesjournals.org/care/"
+    },
+    {
+      "citation": "Sociedad Argentina de Diabetes (SAD). Manejo de hipoglucemia.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Hypoglycaemia Study Group. Definitions and reporting.",
+      "url": "https://ihsgonline.com/"
+    }
+  ]
+}

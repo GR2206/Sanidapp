@@ -1,0 +1,58 @@
+{
+  "id": "dap-001",
+  "name": "Daptomycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antibacterial. Severe infections by methicillin-resistant Staphylococcus aureus intolerant or refractory to conventional treatment with vancomycin.",
+  "indications": "## Main indications\n\nAntibacterial. Severe infections by methicillin-resistant Staphylococcus aureus intolerant or refractory to conventional treatment with vancomycin.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 500 mg (Cubicin RT).",
+      "reconstitution": "10 mL SWFI. Conc: 50 mg/mL.",
+      "diluent": "500 mg in 50 mL NS.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "Direct IV: Yes, adults only. Administer over 2 min. Intermittent IV: Yes. Dilute in 50 mL NS and administer over 30 min.",
+      "notes": "Not compatible with 5% dextrose."
+    },
+    "pediatrico": {
+      "presentation": "Powder vial: 500 mg",
+      "reconstitution": "Reconstitute and let stand 10 min. Mix with gentle rotations. Do not shake vigorously.",
+      "administration": "IV",
+      "diluent": "0.9% NaCl. NOT 5% dextrose.",
+      "finalConcentration": "20 mg/mL.",
+      "infusionRate": "30 min with infusion pump.",
+      "dose": "Children 2-6 years: 8 - 10 mg/kg/day every 24 h; 6-12 years: 7 mg/kg/day every 24 h; > 12 years: 4 - 6 mg/kg/day every 24 h. Bacteremia, right-sided endocarditis, osteomyelitis, septic arthritis: 8 - 10 mg/kg/day Adults: Severe skin and soft tissue infections: 4 mg/kg/day every 24 h; bacteremia, right-sided endocarditis: 6 mg/kg/day.",
+      "notes": "Infusion rate: 60 minutes. Monitor signs and symptoms of: myopathies and peripheral neuropathy, weekly CPK monitoring."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature, 48 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 48 h refrigerated.\n\n## Pediatric guide\n\n- 12 h at room temperature, 48 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nChest pain, peripheral edema, headaches, dizziness, insomnia, abdominal pain, anemia, eosinophilia, increased serum transaminases, renal failure.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Daptomycin* (code 1831, ATC J01XX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

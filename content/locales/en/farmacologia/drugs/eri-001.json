@@ -1,0 +1,51 @@
+{
+  "id": "eri-001",
+  "name": "Erythromycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Macrolide. Infections caused by susceptible bacteria; neonatal ophthalmic prophylaxis; gastric motility stimulation in selected cases.",
+  "indications": "## Indications\n\n- Infections caused by susceptible bacteria (respiratory, skin, otitis).\n- Prophylaxis of neonatal ophthalmia (ophthalmic ointment).\n- Gastric motility stimulation per protocol.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets; IV vial 1 g.",
+      "dose": "250–500 mg PO every 6 h or 500 mg–1 g IV every 6 h.",
+      "administration": "PO or IV."
+    },
+    "pediatrico": {
+      "presentation": "Tablets; suspension; IV vial 1 g.",
+      "administration": "PO; IV.",
+      "dose": "30–50 mg/kg/day divided every 6 h.",
+      "notes": "Adjust in hepatopathy. Interactions with cisapride, terfenadine and other CYP3A4 substrates."
+    },
+    "neonatal": {
+      "dose": "Ocular prophylaxis: 0,5% ointment per protocol. IV/PO per NICU indication.",
+      "administration": "Ophthalmic topical or PO/IV."
+    }
+  },
+  "stability": "## Stability\n\n- IV unstable; use promptly after reconstitution.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, diarrhea, QT prolongation, hepatotoxicity, hypersensitivity reactions.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

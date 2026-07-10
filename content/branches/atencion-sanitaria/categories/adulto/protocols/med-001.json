@@ -1,0 +1,27 @@
+{
+  "id": "med-001",
+  "title": "Administración segura de medicación IV",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Verificar las 9 correctas, compatibilidad y velocidad de infusión; usar bomba de infusión en drogas vasoactivas y antibióticos críticos.",
+  "body": "## Pasos a realizar\n\n1. Realizar higiene de manos y preparar medicación en área limpia.\n2. Verificar las **9 correctas**: paciente, medicamento, dosis, vía, hora, registro, razón, respuesta y forma de administración.\n3. Confirmar prescripción, alergias y función renal/hepática si aplica.\n4. Preparar medicación según protocolo de dilución institucional.\n5. Desinfectar conexión y usar técnica asséptica.\n6. Administrar con bomba de infusión cuando esté indicado (vasopresores, potasio, antibióticos críticos).\n7. Vigilar reacciones adversas durante y después de la infusión.\n8. Documentar hora, dosis, vía y respuesta en historia clínica.\n9. Reportar de inmediato extravasación, flebitis, reacción alérgica o error de medicación.\n\n## Fundamentación científica\n\n### Indicaciones\n\nAdministración segura de medicación intravenosa en adulto hospitalizado, incluyendo fármacos de alto riesgo.\n\n### Las 9 correctas\n\n1. Paciente correcto.\n2. Medicamento correcto.\n3. Dosis correcta.\n4. Vía correcta.\n5. Hora correcta.\n6. Registro correcto.\n7. Razón correcta.\n8. Respuesta correcta (vigilar efectos).\n9. Forma correcta de administración.\n\n### Precauciones especiales\n\n| Tipo de fármaco | Precaución |\n| --- | --- |\n| Vasopresores | Vía central preferente; bomba dedicada |\n| Potasio IV | Nunca en bolo; velocidad máxima según protocolo |\n| Antibióticos críticos | Respetar tiempo de infusión (ej. betalactámicos prolongados) |\n| Fármacos fotosensibles | Proteger de la luz |\n\n### Evidencia y recomendaciones\n\n> **ISMP:** Guías para práctica segura de medicación IV push en adultos.\n\n> **OMS — Medication Without Harm:** Verificación sistemática y registro como pilares de seguridad del paciente.\n\n### Eventos a reportar de inmediato\n\n- Extravasación o flebitis.\n- Reacción alérgica o anafilaxia.\n- Error de medicación o duda en la prescripción.\n\n### Complicaciones\n\n- Extravasación de fármacos vesicantes.\n- Flebitis química o infecciosa.\n- Anafilaxia.\n- Error de medicación con daño al paciente.",
+  "bibliography": [
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines for Safe Practice of Adult IV Push Medications.",
+      "url": "https://www.ismp.org/guidelines/iv-push"
+    },
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "SATI — Recomendaciones generales para sedoanalgesia y manejo de infusiones en UTI.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    }
+  ]
+}

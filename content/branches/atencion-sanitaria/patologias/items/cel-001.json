@@ -1,0 +1,52 @@
+{
+  "id": "cel-001",
+  "name": "Celulitis e infección de piel y partes blandas",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **celulitis** es infección aguda de la dermis y tejido subcutáneo, habitualmente por **Streptococcus pyogenes** y **Staphylococcus aureus** (incluido MRSA según contexto). Se presenta con eritema, calor, dolor, edema con bordes mal definidos y, a veces, fiebre y linfangitis. Diferenciar de **fascitis necrotizante** (dolor desproporcionado, crepitación, hipotensión, bullas hemorrágicas) que exige cirugía urgente.\n\nEl tratamiento empírico en adulto inmunocompetente sin riesgo de MRSA: **cefalosporina** o **amoxicilina-clavulánico** oral o IV según gravedad. Si factores de MRSA (uso previo de antibióticos, absceso, drogas IV, internación reciente): **clindamicina**, **vancomicina** o **trimethoprim-sulfametoxazol** según guía local. Marcar bordes del eritema para seguir evolución. Hospitalizar si celulitis facial/periorbitaria, inestabilidad hemodinámica, neutropenia o mala respuesta a 48–72 h.\n\n**Enfermería**: elevar el miembro afectado, control de temperatura y extensión de lesión, analgesia, higiene local sin frotar, documentar fotografía o trazado de bordes cada turno y educar sobre signos de empeoramiento (dolor creciente, vesículas, hipotensión).",
+  "relatedDrugs": [
+    {
+      "drugId": "oxa-001",
+      "label": "Oxacilina"
+    },
+    {
+      "drugId": "cef-002",
+      "label": "Cefazolina"
+    },
+    {
+      "drugId": "amo-002",
+      "label": "Amoxicilina/clavulánico"
+    },
+    {
+      "drugId": "cli-001",
+      "label": "Clindamicina"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimetoprima/sulfametoxazol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. Practice guidelines for skin and soft tissue infections.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Infecciones de piel y tejidos blandos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Skin and soft tissue infections — primary care.",
+      "url": "https://www.who.int/"
+    }
+  ]
+}

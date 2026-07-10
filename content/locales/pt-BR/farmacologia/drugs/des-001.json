@@ -1,0 +1,51 @@
+{
+  "id": "des-001",
+  "name": "Desmopressina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Diabetes insípida (antidiurético). Hemofilia. Doença de von Willebrand. Enurese noturna.",
+  "indications": "## Indicações principais\n\nDiabetes insípida (antidiurético). Hemofilia. Doença de von Willebrand. Enurese noturna.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola E.V. 4 mcg/mL; nasal/V.O. conforme apresentação.",
+      "dose": "DI: 1–2 mcg E.V./S.C. ou dose intranasal conforme protocolo.",
+      "administration": "E.V. lenta, S.C. ou intranasal."
+    },
+    "pediatrico": {
+      "dose": "Diabetes insípida: E.V.–S.C.: 2–4 µg/dia a cada 12 h; intranasal: 0,05–0,1 ml/dose 2 vezes por dia; V.O. < 12 anos: iniciar com 0,05 mg/dose a cada 12 h até resposta (faixa 0,1–0,8 mg/dia); > 12 anos e adultos: 0,05 mg/dose a cada 12 h até resposta (faixa: 0,1–1,2 mg/dia a cada 8–12 h). Hemofilia, doença de von Willebrand: E.V.: > 3 meses e adultos: 0,3 µg/kg, 30 min antes do procedimento. Enurese noturna: intranasal: > 6 anos: inicial 20 µg, faixa: 10–40 µg, ao deitar; V.O.: > 12 anos: 0,2–0,4 mg ao deitar. Maior absorção na região anterior da fossa nasal.",
+      "administration": "V.O.; E.V.; S.C.; Intranasal",
+      "presentation": "Solução nasal (com cânula calibrada de 0,2 ml): 0,1 mg/ml; Spray nasal: 0,1 mg/ml; Ampolas: 4 µg/ml; Comprimidos: 0,1–0,2 mg",
+      "notes": "Deve ser indicada por especialistas. Absorve-se na região nasal anterior. A dose é ajustada à resposta clínica individual. Conservar as ampolas e a solução nasal refrigeradas a 2–6 °C. A desmopressina é potenciada por antidepressivos tricíclicos, carbamazepina, clorpromazina, indometacina. Infusão intermitente: diluição usual 0,1 µg/ml, infundir em 15–30 min; infusão contínua: diluição usual 0,1 µg/ml. Pode diluir em solução fisiológica ou dextrose 5%. S.C.: administrar lentamente em 10–20 segundos."
+    },
+    "neonatal": {
+      "dose": "0,1–0,3 mcg/kg conforme indicação NNU.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Refrigerar conforme apresentação.",
+  "adverseEffects": "## Efeitos adversos\n\nIntoxicação hídrica. Cefaleia, dor estomacal, náuseas, hiponatremia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Desmopressina Acetato (cód. 0556, ATC H01BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

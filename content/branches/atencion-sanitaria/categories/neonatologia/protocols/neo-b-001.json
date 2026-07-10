@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-001",
+  "title": "Cuidados del recién nacido en unidad convencional (termorregulación, cribado)",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "baja-complejidad",
+  "version": "1.0",
+  "executiveSummary": "Brindar cuidados básicos al neonato clínicamente estable de 500 g a 2500 g (día 0–30) en unidad convencional con termorregulación estricta, cribados neonatales, alojamiento conjunto y vigilancia de signos de alarma.",
+  "body": "## Pasos a realizar\n\n1. Recibir al neonato con identificación verificada (pulsera madre-RN, dos identificadores); revisar parte de nacimiento, EG, peso, Apgar y factores de riesgo.\n2. Valorar estabilidad: FC 100–160 lpm, FR 30–60/min, SatO₂ ≥ 92% en aire ambiente (ajustar por EG), temperatura axilar 36,5–37,5 °C, buen tono y succión.\n3. Termorregulación: piel con piel inmediata si estable; si < 1500 g o inestable usar incubadora servocontrolada; gorro, calcetines; evitar corrientes de aire y exposición.\n4. Medir temperatura axilar al ingreso, a las 2 h y cada 4–6 h según protocolo; registrar en gráfica neonatal.\n5. Cribado metabólico: solicitar/verificar tamizaje neonatal ampliado según normativa local (fenilcetonuria, hipotiroidismo congénito, fibrosis quística, hemoglobinopatías, etc.) en ventana 24–72 h o según peso mínimo.\n6. Cribado auditivo: otoemisiones acústicas antes del alta o según protocolo (< 34 sem al alta; re-cribado si falla).\n7. Cribado cardiovascular: oximetría de pulso pre y postductal a las 24–48 h de vida (diferencia < 3% y SatO₂ ≥ 95% en ambas); derivar si positivo.\n8. Cribado ocular: examen con oftalmoscopio en prematuros < 32 sem o < 1500 g según calendario ROP; derivar a oftalmología.\n9. Higiene: baño diferido ≥ 24 h; solo agua tibia en piel; no frotar vernix en prematuros; cambio de pañal cada 3 h o si sucio.\n10. Alojamiento conjunto: promover lactancia materna en la primera hora; observar agarre y succión efectiva; registrar diuresis (≥ 1 pañal húmedo/24 h al día 1), deposiciones y peso diario.\n11. Educar a la familia: signos de alarma (letargia, rechazo alimentario, cianosis, fiebre > 38 °C, hipotermia < 36 °C, ictericia extensa, vómitos biliosos).\n12. Documentar todos los cribados, vacunas (HBV 0 si indicada), profilaxis ocular y vitamina K; planificar alta con controles.\n\n## Fundamentación científica\n\n### Población y alcance\n\n**Neonatos día 0–30**, **500 g–2500 g**, **clínicamente estables** en unidad de cuidados convencionales o alojamiento conjunto. RN que requieran UCI (VM, vasoactivores, NP) **no** aplican este protocolo — derivar a división intensiva.\n\n### Criterios de inclusión en unidad convencional\n\n- SatO₂ ≥ 92% sin oxígeno suplementario (≥ 91% si prematuro 28–34 sem según prescripción).\n- Temperatura estable en rango sin radiante continuo.\n- Alimentación enteral tolerada o en vía de iniciar.\n- Sin signos de sepsis, distress respiratorio moderado-grave o convulsiones.\n\n### Evidencia y recomendaciones\n\n> **OMS — Cuidados esenciales del recién nacido:** contacto piel con piel, lactancia materna temprana y termorregulación reducen morbimortalidad neonatal (WHO, 2024).\n\n> **AAP:** cribado de cardiopatías congénitas con oximetría de pulso es estándar antes del alta hospitalaria (American Academy of Pediatrics).\n\n### Termorregulación neonatal\n\n| Método | Indicación |\n| --- | --- |\n| Piel con piel | RN ≥ 1500 g estable, con madre vigilada |\n| Cuna térmica | RN término en habitación climatizada 22–24 °C |\n| Incubadora servocontrol | RN < 1500 g o dificultad termorregulación |\n\nMeta axilar: **36,5–37,5 °C**. Hipotermia (< 36 °C) aumenta riesgo de hipoglucemia, acidosis y sepsis.\n\n### Calendario de cribados (orientativo)\n\n| Cribado | Momento | Acción si anormal |\n| --- | --- | --- |\n| Tamizaje metabólico | 24–72 h (≥ peso mínimo) | Repetir / confirmar |\n| Oximetría CCC | 24–48 h | Ecocardiograma urgente si positivo |\n| Otoemisiones | Antes del alta | Re-cribado o PEAT |\n| ROP | Semanas postnatales según EG | Oftalmología |\n| Bilirrubina | Antes del alta / según riesgo | Curva según nomograma Bhutani |\n\n### Profilaxis rutinaria\n\n- Vitamina K 1 mg IM al nacimiento (0,5 mg si < 1000 g según protocolo).\n- Profilaxis ocular (eritromicina/povidona) en las primeras 2 h.\n- Vacuna HBV 0 en RN de madre HBsAg+ o según calendario nacional.\n\n### Complicaciones — avisar de inmediato\n\n- Hipotermia o hipertermia persistente.\n- Hipoglucemia (< 25 mg/dl) o letargia.\n- Cianosis o SatO₂ < 90%.\n- Rechazo alimentario total o vómitos biliosos.\n- Ictericia en las primeras 24 h o zona III de Kramer.\n- Resultado positivo en cribado cardiovascular.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. WHO recommendations on postnatal care of the mother and newborn.",
+      "url": "https://www.who.int/publications/i/item/9789240045989"
+    },
+    {
+      "citation": "World Health Organization. Thermal protection of the newborn — practical guide.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Newborn screening and critical congenital heart disease screening.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Family-centered care and newborn nursery quality standards.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "SATI — Recomendaciones en cuidados neonatales de baja complejidad.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

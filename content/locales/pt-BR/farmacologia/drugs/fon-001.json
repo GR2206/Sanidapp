@@ -1,0 +1,45 @@
+{
+  "id": "fon-001",
+  "name": "Fondaparinux",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Anticoagulante sintético anti-Xa; profilaxia ortopédica e TEP em alergia a heparina sem HIT.",
+  "indications": "## Indicações\n\n- Tromboprofilaxia em cirurgia ortopédica maior.\n- TEP/TVP em esquemas selecionados.\n\n## Precauções\n\n- Contraindicado em DRC grave (ClCr < 30). Sem antídoto específico.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Seringa pré-carregada 2,5–10 mg.",
+      "dose": "Profilaxia: 2,5 mg SC a cada 24 h. TEP: 5–10 mg SC conforme peso.",
+      "administration": "SC profunda."
+    },
+    "pediatrico": {
+      "dose": "Uso limitado sob hematologia pediátrica.",
+      "administration": "SC."
+    },
+    "neonatal": {
+      "dose": "Não recomendado rotineiramente.",
+      "administration": "SC."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Não refrigerar seringas pré-carregadas conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n- Sangramento, anemia, trombocitopenia (raro).",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

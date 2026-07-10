@@ -1,0 +1,59 @@
+{
+  "id": "fny-001",
+  "name": "Phenytoin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Anticonvulsant.",
+  "indications": "## Main indications\n\nAnticonvulsant.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 50 mg/mL.",
+      "dose": "Loading 15–20 mg/kg IV (max. 1500 mg) at ≤ 50 mg/min.",
+      "infusionRate": "Do not exceed 50 mg/min.",
+      "administration": "IV in 0.9% NaCl (not 5% dextrose)."
+    },
+    "pediatrico": {
+      "presentation": "Phenytoin sodium: Capsules: 100 mg; Suspension: 25 mg/mL; 2 mL ampoules: 50 mg/mL; Phenytoin calcium: Tablets: 100 mg",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl or Ringer. NOT dextrose.",
+      "finalConcentration": "1 to 10 mg/mL.",
+      "infusionRate": "50 mg/min with continuous infusion pump.",
+      "dose": "IV loading dose: 15–20 mg/kg, maximum dose: 1500 mg. IV – PO maintenance: 5–8 mg/kg/day every 12 h. Adults: 300 mg/day every 8–12 h",
+      "notes": "Monitor CBC, Ca, P, alkaline phosphatase every 6 months. PO: administer away from dairy products. IV push: infusion rate neonates: 0,5 mg/kg/minute; children and adults: 1–3 mg/kg/minute (maximum: 50 mg/min). Intermittent infusion (not recommended): dilute in 0.9% NaCl at concentration < 6 mg/mL. Separate administration by 2 h from antacids and enteral nutrition. Numerous drug interactions (metabolism induction or inhibition). Isoniazid increases risk of phenytoin toxicity: ataxia, hyperreflexia, nystagmus, tremor. Adjust phenytoin dose with serum level. See preliminary guide for prevention of medication-related teratogenesis."
+    },
+    "neonatal": {
+      "dose": "15–20 mg/kg loading; maintenance per NICU levels.",
+      "administration": "Very slow IV."
+    }
+  },
+  "stability": "## General\n\n- Precipitates with 5% dextrose; use 0.9% NaCl.\n\n## Pediatric guide\n\n- Administer within 4 h after dilution.",
+  "adverseEffects": "## Adverse effects\n\nHirsutism, gingival hyperplasia, ataxia, nystagmus, nausea, vomiting, hematologic abnormalities, calcium metabolism disturbance. With rapid administration: arrhythmias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — DifenilhiDANTOÍNA sódica (Fenitoína) (code 0072, ATC N03AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

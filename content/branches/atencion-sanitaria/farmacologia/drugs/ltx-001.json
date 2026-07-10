@@ -1,0 +1,50 @@
+{
+  "id": "ltx-001",
+  "name": "Levotiroxina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Hipotiroidismo.",
+  "indications": "## Indicaciones principales\n\nHipotiroidismo.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos; ampolla IV 200 mcg.",
+      "dose": "Mixedema: 200–400 mcg IV carga; mantenimiento VO.",
+      "administration": "IV lenta o VO en ayunas."
+    },
+    "pediatrico": {
+      "dose": "0 - 3 meses: 10-15 µg/kg; 3 - 6 meses: 25-50 µg; 6-12 meses: 50-75 µg; 1-5 años: 75-100 µg; 6-12 años: 100-150 µg; &gt; 12 años: 150 µg.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 25 mcg - 50 mcg - 100 mcg",
+      "notes": "Debe ser indicado por especialistas. Sales de hierro, hidróxido de aluminio, sucralfato disminuyen su absorción. La levotiroxina aumenta el efecto de los anticoagulantes orales. La fenitoína puede disminuir los niveles de levotiroxina. Administrar con el estómago vacío, 1 - 1,5 hs previo al desayuno. No administrar por sonda nasogástrica."
+    },
+    "neonatal": {
+      "dose": "10–15 mcg/kg/día VO en hipotiroidismo congénito.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV usar inmediatamente tras preparación.",
+  "adverseEffects": "## Efectos adversos\n\nTaquicardia, cefaleas, arritmias cardíacas, nerviosismo, insomnio, alopecia, aumento del apetito.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — levoTIROXina (cód. 0343, ATC H03AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

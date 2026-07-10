@@ -1,0 +1,50 @@
+{
+  "id": "amo-001",
+  "name": "Amoxicilina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico betalactámico utilizado en el tratamiento de infecciones respiratorias bajas, otitis media, sinusitis, piel y partes blandas. Infecciones tracto-urinarias causadas por microorganismos productores de betalactámicos.",
+  "indications": "## Indicaciones principales\n\nAntibiótico betalactámico utilizado en el tratamiento de infecciones respiratorias bajas, otitis media, sinusitis, piel y partes blandas. Infecciones tracto-urinarias causadas por microorganismos productores de betalactámicos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 500 mg, 875 mg; suspensión; ampolla IV si disponible.",
+      "dose": "VO: 500 mg–1 g cada 8 h. IV según protocolo hospitalario.",
+      "administration": "VO con o sin alimentos; IV en perfusión."
+    },
+    "pediatrico": {
+      "dose": "20-40 mg/kg/día de amoxicilina cada 8 hs. Otitis media en pacientes de alto riesgo, otitis recurrente o persistente aguda por S. Pneumoniae, H. Influenzae, M. Catarrahalis: 80-90 mg/kg/día de amoxicilina; dosis máxima: 1500 mg/día de amoxicilina, infecciones severas hasta 3 g de amoxicilina/día. Adultos: 250 mg de amoxicilina cada 8 hs. Infecciones más severas y del tracto respiratorio: 500 mg cada 8 hs. Procinético en pseudoobstrucción intestinal: 20 mg/kg/día cada 12 hs, dosis máxima: 1500 mg/día.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: amoxicilina 500 mg + ácido clavulánico 125 mg; Suspensión: amoxicilina 50 mg/ml + ácido clavulánico 12,5 mg/ml. Presentación Dúo: Comprimidos: amoxicilina 875 mg + ácido clavulánico 125 mg; Suspensión extemporánea reconstituida: amoxicilina 80 mg/ml + ácido clavulánico 11.4 mg/ml",
+      "notes": "La presentación Dúo debe administrarse cad 12 hs, la amoxicilina como trihidrato y el ácido clavulánico como sal potásica."
+    },
+    "neonatal": {
+      "dose": "25–30 mg/kg/dosis VO cada 12 h o IV según protocolo NNU.",
+      "administration": "VO o IV según tolerancia y gravedad."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Suspensión reconstituida: refrigerar según prospecto (habitualmente 7–14 días).",
+  "adverseEffects": "## Efectos adversos\n\nDisturbios gastrointestinales, diarrea, elevación de transaminasas y bilirrubina, nefritis intersticial, reacciones de hipersensibilidad. Raros: leucopenia, neutropenia, eosinofilia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — amoxicilina + Ácido CLAVULÁNICO (cód. 1068, ATC J01CR).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

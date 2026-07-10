@@ -1,0 +1,51 @@
+{
+  "id": "vrp-001",
+  "name": "Verapamil",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Arritmias supraventriculares, bloqueante seletivo de cálcio.",
+  "indications": "## Indicações principais\n\nArritmias supraventriculares, bloqueante seletivo de cálcio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 80 e 120 mg. Ampola 5 mg/2 mL.",
+      "dose": "TSV: 5–10 mg E.V. em 2 min. Manutenção V.O.: 120–480 mg/dia fracionado.",
+      "administration": "E.V. lenta sob monitorização ou V.O."
+    },
+    "pediatrico": {
+      "dose": "V.O.: 2–8 mg/kg/dia a cada 8 h. Adultos: 240–480 mg/dia a cada 6–8 h (para comprimidos retard a cada 12–24 h). Cirrose: reduzir dose a 50%.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos revestidos: 80 mg",
+      "notes": "Monitorar frequência cardíaca, pressão arterial e E.C.G. Contraindicado: menores de 2 anos, pacientes que recebem beta-bloqueantes, doença do nó sinusal, pacientes que apresentam hipotensão arterial ou hipocalcemia. Aumenta níveis séricos de ciclosporina, carbamazepina, teofilina e digoxina. Fenitoína e fenobarbital reduzem o efeito do verapamil. A combinação com flecainida pode resultar em uma depressão cardíaca profunda e com amiodarona, cardiotoxicidade com bradicardia."
+    },
+    "neonatal": {
+      "dose": "0,1–0,2 mg/kg E.V. conforme protocolo cardiológico neonatal.",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Ampolas: administrar E.V. sem diluição ou conforme protocolo.",
+  "adverseEffects": "## Efeitos adversos\n\nBloqueio atrioventricular, constipação, hipotensão, vertigem, edema, cefaleia, náuseas, vômitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Verapamilo Cloridrato* (cód. 0136, ATC C08DA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

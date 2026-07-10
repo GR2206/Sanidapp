@@ -1,0 +1,46 @@
+{
+  "id": "oxa-001",
+  "name": "Oxacilina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "executiveSummary": "Penicilina resistente a penicilinasa para MSSA; no activa frente a MRSA.",
+  "indications": "## Indicaciones principales\n\n- Infecciones por *Staphylococcus aureus* sensible a oxacilina (MSSA).\n- Celulitis, osteomielitis, endocarditis estafilocócica (esquemas).\n\n## Precauciones\n\n- No usar si se sospecha MRSA.\n- Alergia a penicilinas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampolla 1 g o 2 g.",
+      "reconstitution": "Reconstituir 1 g con 10 mL agua para inyección o NaCl 0,9%.",
+      "dose": "1–2 g IV cada 4–6 h.",
+      "infusionRate": "Perfusión 30–60 min.",
+      "administration": "IV o IM."
+    },
+    "pediatrico": {
+      "dose": "100–200 mg/kg/día dividido cada 4–6 h.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "25–50 mg/kg/dosis cada 12 h (protocolo NNU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Solución reconstituida: 4 h ambiente / 24 h refrigerada (verificar prospecto).",
+  "adverseEffects": "## Frecuentes\n\n- Flebitis, rash.\n\n## Graves\n\n- Anafilaxia, nefritis intersticial (raro).",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

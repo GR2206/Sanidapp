@@ -1,0 +1,50 @@
+{
+  "id": "ose-001",
+  "name": "Oseltamivir",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamiento de la influenza (A o B) en adultos y mayores de 1 año dentro de los 2 primeros días de haber comenzado los síntomas. Profilaxis contra la influenza en mayores de 13 años. Inhibidor de la neuraminidasa.",
+  "indications": "## Indicaciones principales\n\nTratamiento de la influenza (A o B) en adultos y mayores de 1 año dentro de los 2 primeros días de haber comenzado los síntomas. Profilaxis contra la influenza en mayores de 13 años. Inhibidor de la neuraminidasa.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 75 mg; suspensión.",
+      "dose": "75 mg VO cada 12 h x 5 días (tratamiento).",
+      "administration": "VO con o sin alimentos."
+    },
+    "pediatrico": {
+      "dose": "Tratamiento (duración del tratamiento: 5 días): Recién nacido a término (RNT) &lt; 15 días: 3 mg/kg/dosis c/24 hs; RNT &gt; 15 días: 3 mg/kg/dosis cada 12 hs; Recién nacidos pretérmino (RPT) EG corregida &lt; 38 sem: 1 mg/kg/dosis cada 12 hs; RPT EG corregida 38 - 40 sem: 1,5 mg/kg/dosis c/12 hs. Dosis máxima neonatos: 12 mg totales c/12 hs, inicio dentro de las 48 hs del comienzo del cuadro. 3 meses a 1 año: 3 mg/kg/dosis cada 12 hs; &gt; 1 a 12 años: &lt;15 kg: 30 mg cada 12 hs; 15 a 23 kg: 45 mg cada 12 hs; 23 a 40 kg: 60 mg cada 12 hs; &gt; 40 kg y adultos: 75 mg cada 12 hs. Profilaxis: Neonatos no se recomienda; adolescentes y adultos: 75 mg/día durante 10 días. Ajuste de dosis en insuficiencia renal: Cl Cr 10-30 ml/min reducir la frecuencia de la dosis: tratamiento: cada 24 hs, profilaxis: cada 48 hs.",
+      "administration": "V.O.",
+      "presentation": "Cápsulas: 75 mg; Suspensión: 12 mg/ml; Jarabe (preparado magistral): 15 mg/ml",
+      "notes": "El tratamiento debe comenzar dentro de las 48 hs del inicio de los síntomas. Profilaxis comenzar dentro de los 2 días del contacto. No administrar con vacuna de virus vivo de influenza y con ningún medicamento que contenga salicilatos (aspirina) por riesgo de síndrome de Reyé, para descender la fiebre se recomienda paracetamol u otros AINEs. Se recomienda utilización de ranitidina a dosis profiláctica ya que puede producir hemorragia digestiva y control de enzimas hepáticas."
+    },
+    "neonatal": {
+      "dose": "1–3 mg/kg/dosis VO cada 12 h según protocolo influenza NNU.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Suspensión refrigerada según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nInsomnio, vértigo, náuseas, vómitos, dolor abdominal, conjuntivitis, epistaxis, desórdenes en el oído. Trastornos de conducta. Delirio, ideación suicida.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Oseltamivir Fosfato* (cód. 1611, ATC J05AH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "amf-001",
+  "name": "Anfotericina B desoxicolato",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Neutropênico febril no 7º dia. Infiltrado pulmonar durante a neutropenia. Micoses sistêmicas documentadas.",
+  "indications": "## Indicações principais\n\nNeutropênico febril no 7º dia. Infiltrado pulmonar durante a neutropenia. Micoses sistêmicas documentadas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 50 mg (Anfotericina LIA, Richet, Northia**).",
+      "reconstitution": "10 mL de AD. Conc.: 5 mg/mL. Agitar o frasco até que a solução coloidal fique clara.",
+      "diluent": "50 mg em 500 mL de DX 5%.",
+      "finalConcentration": "0,1 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir o reconstituído em 500 mL de DX 5% e administrar em 6 h.",
+      "notes": "Não utilizar SF (pode precipitar). Em nenhuma hipótese deve-se ultrapassar a dose de 1,5 mg/kg/dia. A sobredose pode provocar parada cardiorrespiratória."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 50 mg",
+      "reconstitution": "Reconstituir com AD. Diluir com dextrosa (NÃO salina).",
+      "administration": "E.V.",
+      "finalConcentration": "0,1 mg/mL.",
+      "infusionRate": "Entre 2 e 4 horas, com BIC.",
+      "dose": "Iniciar 0,5 mg/kg/dia, aumentar 0,2 mg/kg/dia a cada 24 h, até 1 mg/kg/dia, dose máxima: 50 mg/dia. Forma rápida de administração: iniciar 0,25 mg/kg e ir aumentando com intervalos de 6 h até 1 mg/kg/dia. Não exceder 1,5 mg/kg/dia.",
+      "notes": "Infundir em 4–6 h a uma concentração de 0,1 mg/ml em dextrosa 5% por via periférica e até 0,5 mg/ml por via central. Premedicar para diminuir reações adversas com hidrocortisona, paracetamol, difenidramina 30 min. antes da infusão. Não administrar com soluções que contenham eletrólitos. Corrigir hipocalemia antes da administração."
+    },
+    "neonatal": {
+      "dose": "0,5–1 mg/kg/dose a cada 24–48 h conforme protocolo da UTI neonatal.",
+      "administration": "E.V. central com hidratação e controle iônico."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente na escuridão e 7 dias refrigerado.\n\n## Solução diluída (a administrar)\n\n- A solução diluída não é estável. Se sobrar, descartar o remanescente. Usar equipo fotossensível.\n\n## Guia pediátrica — Reconstituído\n\n- Uma vez reconstituído: 24 h em temperatura ambiente, 7 dias em geladeira (2–8°C).",
+  "adverseEffects": "## Efeitos adversos\n\nFebre, calafrios, vômitos (relacionados à infusão), hipocalemia (25%), hipomagnesemia. Nefrotoxicidade: pode ser prevenida com infusão salina prévia. Anemia (75%). Raros: leucopenia, trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Anfotericina B (DEOXICOLATO) (cód. 0020, ATC J02AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

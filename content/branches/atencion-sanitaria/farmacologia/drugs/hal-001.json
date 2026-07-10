@@ -1,0 +1,50 @@
+{
+  "id": "hal-001",
+  "name": "Haloperidol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antipsicótico. Antiemético. De primera línea en corea infantil.",
+  "indications": "## Indicaciones principales\n\nAntipsicótico. Antiemético. De primera línea en corea infantil.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 5 mg/mL.",
+      "dose": "0,5–5 mg IV/IM cada 30–60 min PRN agitación.",
+      "administration": "IV lento o IM."
+    },
+    "pediatrico": {
+      "dose": "Niños: Inicial: 0,025 - 0,05 mg/kg/día cada 8-12 hs, ir aumentando hasta que los síntomas sean controlados o los efectos adversos intolerables. Mantenimiento: desórdenes psicóticos: 0,05-0,15 mg/kg/día cada 8-12 hs, desórdenes no psicóticos:0,05-0,075 mg/kg/día cada 8-12 hs, agitación- hiperquinesia-antiemético: 0,01-0,03 mg/kg/día en una sola dosis. Adultos: 5-10 mg/dosis cada 8-12 hs.",
+      "administration": "V.O. E.V. I.M.",
+      "presentation": "Comprimidos: 1-5 -10 mg; Gotas: 2 mg/ml (0,1 mg/gota); Ampollas por 1 ml: 5 mg/ml; Ampollas de Haloperidol decanoato por 3 ml: 50 mg/ml",
+      "notes": "Los depresores del S.N.C pueden aumentar los efectos adversos del haloperidol. Con adrenalina puede causar hipotensión. Carbamacepina y fenobarbital pueden aumentar el metabolismo del haloperidol y disminuir su efectividad. El haloperidol decanoato es de depósito y sólo puede darse por vía I.M.. No se recomienda usar en niños menores de 3 años."
+    },
+    "neonatal": {
+      "dose": "No recomendado salvo indicación psiquiátrica especializada.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV usar sin dilución o según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nReacciones extrapiramidales e hipotalámicas severas, distonía. Tiene menos efectos muscarínicos e hipotensores y más efectos extrapiramidales que la clorpromazina.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — haloPERIDol (cód. 0109, ATC N05AD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

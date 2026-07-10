@@ -1,0 +1,52 @@
+{
+  "id": "suc-001",
+  "name": "Succinilcolina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Relajante despolarizante de acción ultrarrápida para intubación; contraindicaciones en hiperkalemia y quemados.",
+  "indications": "## Indicaciones\n\n- Intubación rápida secuencia (RSI) cuando no hay contraindicación.\n- Electroconvulsoterapia (esquemas).\n\n## Precauciones\n\n- Hiperkalemia, rabdomiólisis, quemaduras extensas, parálisis periódica, distrofias musculares.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco liofilizado 100–500 mg.",
+      "dose": "1–1,5 mg/kg IV bolus para RSI.",
+      "administration": "IV bolus rápido."
+    },
+    "pediatrico": {
+      "presentation": "amp. 500 mg/10 mL.",
+      "administration": "EV.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "infusionRate": "Push.",
+      "dose": "1 mg/kg/dosis. Luego 0,3 a 0,6 mg/kg hasta lograr el efecto deseado.",
+      "notes": "Bloqueador neuromuscular, requiere soporte ventilatorio durante la administración, no altera el estado de conciencia. Puede dar hiper e hipotensión, paro cardíaco, hipertermia maligna, exantema, sialorrea, depresión respiratoria."
+    },
+    "neonatal": {
+      "dose": "3 mg/kg IV en RSI según protocolo.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Reconstituir y usar de inmediato.\n\n## Cartilla pediátrica\n\n- Conservar en heladera. Estabilidad según laboratorio productor.",
+  "adverseEffects": "## Efectos\n\n- Hiperkalemia grave, fasciculaciones, mialgia, bradicardia en niños.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

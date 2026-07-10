@@ -1,0 +1,50 @@
+{
+  "id": "srf-001",
+  "name": "Surfactante pulmonar",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamiento de síndrome de distréss respiratorio en recién nacidos &lt; de 1250 g o con evidencia de déficit de surfactante.",
+  "indications": "## Indicaciones principales\n\nTratamiento de síndrome de distréss respiratorio en recién nacidos &lt; de 1250 g o con evidencia de déficit de surfactante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "No indicado en adultos rutinariamente.",
+      "dose": "N/A uso habitual adulto.",
+      "administration": "N/A."
+    },
+    "pediatrico": {
+      "dose": "Tratamiento de rescate: fosfolípidos : 4 ml/kg/dosis. Segunda dosis según parámetros de gases en sangre. Máximo 4 dosis.",
+      "administration": "Instilación intratraqueal.",
+      "presentation": "F.A. de 4-8 ml: 25 mg/ml de fosfolípidos totales.",
+      "notes": "Uso exclusivo del especialista en Neonatología. Es una dispersión salina de lípidos naturales y proteínas derivadas de pulmones bovinos. Se ha observado reflujo sanguíneo del tubo endotraqueal. Conservar en heladera."
+    },
+    "neonatal": {
+      "dose": "100–200 mg/kg vía endotraqueal; repetir según protocolo NNU.",
+      "administration": "Intratraqueal con VM."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Refrigerar; calentar a temperatura ambiente antes de instilar.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia pulmonar, bradicardia transitoria, disminución de la saturación de oxígeno, hipotensión, hipertensión, taquicardia, intolerancia a la alimentación, insuficiencia renal, hematuria, trombocitopenia, convulsiones.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Surfactante Pulmonar Natural* (cód. 1034, ATC R07AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

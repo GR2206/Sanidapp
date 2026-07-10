@@ -1,0 +1,50 @@
+{
+  "id": "azt-002",
+  "name": "Aztreonam-avibactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of severe Gram (-) infections in patients allergic to penicillins.",
+  "indications": "## Main indications\n\nTreatment of severe Gram (-) infections in patients allergic to penicillins.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 1.5 g aztreonam + 0.5 g avibactam (in two separate vials) (Emblaveo).",
+      "reconstitution": "Reconstitute each vial individually with 10 mL SWFI or NS. Combined final conc: aztreonam 100 mg/mL + avibactam 33.3 mg/mL. Mix both reconstituted vials before diluting.",
+      "diluent": "1 dose in 100-250 mL NS or 5% dextrose.",
+      "finalConcentration": "Aztreonam conc: ≤ 27 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Infusion over 3 hours (extended infusion). Usual dose: aztreonam 6 g + avibactam 2 g/day in 3 doses.",
+      "notes": "Indicated for MBL-producing Enterobacterales infections (including NDM). Do not mix with other medications. Protect from light."
+    },
+    "pediatrico": {
+      "dose": "90-120 mg/kg/day every 6-8 h, maximum dose: 8 g/day. Adults: 1-2 g every 8 h. Cystic fibrosis: 150 mg/kg/day every 8 h.",
+      "administration": "IV",
+      "presentation": "Powder vial: 1 g",
+      "notes": "Administer by IV infusion over 20-60 minutes. Each gram of aztreonam contains 780 mg of arginine."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Use immediately. If not possible, max. 1 h at room temperature or 24 h refrigerated (undiluted).\n\n## Diluted solution (for administration)\n\n- 12 h at room temperature or 24 h refrigerated once diluted.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, rash, seizures, nausea, vomiting, anorexia, abdominal pain, pseudomembranous colitis, eosinophilia, leukopenia, neutropenia, thrombocytopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Aztreonam* (code 1445, ATC J01DF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

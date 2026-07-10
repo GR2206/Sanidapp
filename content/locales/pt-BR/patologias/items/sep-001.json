@@ -1,0 +1,57 @@
+{
+  "id": "sep-001",
+  "name": "Sepse e choque séptico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **sepse** é uma disfunção orgânica potencialmente fatal causada por uma resposta desregulada do hospedeiro à infecção. O **choque séptico** define-se por hipotensão persistente que requer vasopressores para manter PAM ≥ 65 mmHg e lactato > 2 mmol/L apesar de reanimação volêmica adequada. Na emergência deve suspeitar-se ante febre ou hipotermia, taquicardia, taquipneia, alteração do estado mental, oligúria ou hipotensão, especialmente em idosos, imunodeprimidos ou com dispositivos invasivos.\n\nO manejo inicial segue a abordagem **hora zero**: hemoculturas antes dos antibióticos se não retardar mais de 45 minutos, antibiótico de amplo espectro precoce conforme foco provável, reanimação com cristaloides 30 mL/kg na hipotensão ou lactato elevado, e vasopressores (noradrenalina de primeira linha) se persistir hipotensão. Identificar e controlar o foco (drenagem de abscesso, retirada de cateter infectado). Lactato seriado e SOFA/qSOFA conforme protocolo institucional.\n\n**Enfermagem**: monitorização contínua, duas vias periféricas ou acesso central, registro rigoroso de balanço hídrico, temperatura e escalas de sedação se intubado. Administrar antibióticos no tempo acordado, preparar culturas e documentar hora de início de cada intervenção do bundle séptico.",
+  "bibliography": [
+    {
+      "citation": "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock.",
+      "url": "https://www.sccm.org/survivingsepsiscampaign"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes de antimicrobianos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Sepsis technical package.",
+      "url": "https://www.who.int/health-topics/sepsis"
+    }
+  ],
+  "clinicalBox": {
+    "title": "qSOFA — triagem rápida de sepse",
+    "content": "Um ponto por cada critério (avaliar fora da UTI):\n**Q** — Frequência respiratória ≥ 22/min\n**S** — Alteração do estado mental (GCS < 15)\n**O** — PA sistólica ≤ 100 mmHg\n\n**≥ 2 pontos:** alto risco de evolução tórpida; ativar protocolo séptico, lactato e avaliação de disfunção orgânica (SOFA). Não substitui o julgamento clínico nem o diagnóstico de infecção."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "nor-001",
+      "label": "Noradrenalina"
+    },
+    {
+      "drugId": "adr-001",
+      "label": "Adrenalina"
+    },
+    {
+      "drugId": "vas-001",
+      "label": "Vasopressina"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    }
+  ]
+}

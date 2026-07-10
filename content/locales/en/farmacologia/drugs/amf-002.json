@@ -1,0 +1,54 @@
+{
+  "id": "amf-002",
+  "name": "Liposomal amphotericin B",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Patients with documented systemic mycosis refractory to amphotericin B treatment. Transplant recipients with documented systemic mycosis. Severe renal failure during amphotericin B treatment.",
+  "indications": "## Main indications\n\nPatients with documented systemic mycosis refractory to amphotericin B treatment. Transplant recipients with documented systemic mycosis. Severe renal failure during amphotericin B treatment.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial containing 50 mg (Ambisome).",
+      "reconstitution": "10 mL SWFI. Conc: 5 mg/mL.",
+      "diluent": "50 mg in 100 mL 5% dextrose. Do not use 0.9% NaCl.",
+      "finalConcentration": "0,5 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Withdraw required dose with syringe. Place filter on syringe and add vial dose to 100 mL 5% dextrose and administer over 60–120 min."
+    },
+    "pediatrico": {
+      "dose": "3–5 mg/kg/day, maximum dose: 250 mg/day. If indication is empirical or in certain infections such as candidemia: 3 mg/kg/day. Mucormycosis: 5 to 10 mg/kg/day, depending on involved foci; with central nervous system involvement doses range from 7,5 to 10 mg/kg/day.",
+      "infusionRate": "Infusion 2–3 h.",
+      "administration": "IV",
+      "presentation": "Powder vial: 50 mg",
+      "notes": "Concomitant hydrocortisone or diphenhydramine not required. First dose 1 mg/kg. Infusion rate: 2 h. Dilution: 0,2–2 mg/mL. Do not administer with solutions containing electrolytes. Start infusion within 6 h of drug dilution."
+    },
+    "neonatal": {
+      "dose": "Dose per NICU protocol (usually 3–5 mg/kg/day).",
+      "administration": "Central IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature and 7 days refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature. Use light-protected infusion set.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, arrhythmias, fever, chills. Less hepatotoxicity and nephrotoxicity than amphotericin B deoxycholate.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anfotericina B LIPOSOMAL* (code 1154, ATC J02AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

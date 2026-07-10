@@ -1,0 +1,49 @@
+{
+  "id": "epoc-001",
+  "name": "DPOC — exacerbação aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **doença pulmonar obstrutiva crônica (DPOC)** caracteriza-se por limitação crônica ao fluxo aéreo. A **exacerbação aguda** é uma piora da dispneia, tosse ou expectoração que supera a variação basal do paciente e costuma dever-se a infecção respiratória, contaminação ambiental ou não adesão terapêutica. Na avaliação inicial registra-se frequência respiratória, uso de musculatura acessória, coloração, nível de consciência e **gasometria** se houver sinais de insuficiência respiratória.\n\nO manejo inclui **broncodilatadores** de ação curta (salbutamol ± ipratrópio) nebulizados ou com inalador de dose medida com espaçador, **corticoides sistêmicos** (prednisona oral ou metilprednisolona IV conforme gravidade), antibiótico se houver aumento da purulência do escarro ou necessidade de ventilação mecânica, e **oxigênio titulado** (meta SpO₂ 88–92 % em DPOC conhecida para evitar hipoxemia iatrogênica). Avaliar VNI em acidose respiratória com pH 7,25–7,35 e trabalho respiratório elevado.\n\nA **enfermagem** monitoriza SpO₂ contínua, administra nebulizações, auxilia com técnica inalatória, quantifica diurese e vigia sonolência por hipercapnia. Posição semisentada, hidratação se não houver contraindicação e orientação sobre cessação do tabagismo e plano de ação ante novas exacerbações.",
+  "bibliography": [
+    {
+      "citation": "Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global Strategy Report.",
+      "url": "https://goldcopd.org/"
+    },
+    {
+      "citation": "Associação Argentina de Medicina Respiratória (AAMR). Diretrizes nacionais.",
+      "url": "https://www.aamr.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence (NICE). COPD guideline.",
+      "url": "https://www.nice.org.uk/guidance/ng115"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    },
+    {
+      "drugId": "ipr-001",
+      "label": "Ipratrópio"
+    },
+    {
+      "drugId": "mep-001",
+      "label": "Metilprednisolona"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    }
+  ]
+}

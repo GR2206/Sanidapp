@@ -1,0 +1,51 @@
+{
+  "id": "eri-001",
+  "name": "Eritromicina",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Macrolídeo. Infecções por bactérias sensíveis; profilaxia ocular neonatal; estimulação da motilidade gástrica em casos selecionados.",
+  "indications": "## Indicações\n\n- Infecções por bactérias sensíveis (respiratório, pele, otite).\n- Profilaxia de oftalmia neonatal (pomada ocular).\n- Estimulação da motilidade gástrica conforme protocolo.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos; frasco IV 1 g.",
+      "dose": "250–500 mg V.O. a cada 6 h ou 500 mg–1 g IV a cada 6 h.",
+      "administration": "V.O. ou IV."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos; suspensão; frasco IV 1 g.",
+      "administration": "V.O.; IV.",
+      "dose": "30–50 mg/kg/dia dividido a cada 6 h.",
+      "notes": "Ajustar em hepatopatia. Interações com cisaprida, terfenadina e outros substratos de CYP3A4."
+    },
+    "neonatal": {
+      "dose": "Profilaxia ocular: pomada 0,5% conforme protocolo. IV/V.O. conforme indicação da UTI neonatal.",
+      "administration": "Tópica ocular ou V.O./IV."
+    }
+  },
+  "stability": "## Estabilidade\n\n- IV instável; usar logo após reconstituição.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, prolongamento do QT, hepatotoxicidade, reações de hipersensibilidade.",
+  "bibliography": [
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

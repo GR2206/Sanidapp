@@ -1,0 +1,41 @@
+{
+  "id": "iso-001",
+  "name": "Isosorbide mononitrate",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Long-acting nitrate for chronic angina and heart failure.",
+  "indications": "## Indications\n\n- Chronic stable angina pectoris.\n- Heart failure (adjunctive in institutional regimens).\n- Prophylaxis of effort-induced angina.\n\n## Precautions\n\n- Hypotension, frequent headache at the start of treatment.\n- Contraindicated with PDE-5 inhibitors (sildenafil, etc.).\n- Nitrate-free interval required if used multiple times daily (to prevent tolerance).\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Extended-release tablets 30, 60, and 120 mg.",
+      "dose": "30–120 mg/day PO in 1–2 doses (extended-release formulation preferred).",
+      "administration": "PO. Do not crush extended-release tablets."
+    },
+    "pediatrico": {
+      "dose": "Limited pediatric use; follow cardiological protocol.",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Store according to package insert; protect from moisture.",
+  "adverseEffects": "## Effects\n\n- Headache, hypotension, dizziness, facial flushing, reflex tachycardia.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Angina and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

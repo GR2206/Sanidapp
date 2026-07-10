@@ -1,0 +1,245 @@
+{
+  "region": "rosario",
+  "sanatorios": [
+    {
+      "id": "sanatorio-de-la-mujer",
+      "name": "Sanatorio de la Mujer",
+      "shortName": "SdM",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#E31E24",
+        "secondary": "#FFFFFF",
+        "accent": "#004B87",
+        "background": "#FFFFFF",
+        "logoUrl": null,
+        "fontFamily": "Inter",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "circleLogoFit": "contain",
+        "circleLogoInset": 0.86,
+        "neutralChrome": true,
+        "transparentMenu": true,
+        "alternateButtonColors": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "sanatorio-britanico",
+      "name": "Sanatorio Británico",
+      "shortName": "Británico",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#1E7E34",
+        "secondary": "#D8EBDC",
+        "accent": "#1A1A1A",
+        "background": "#F4FAF6",
+        "logoUrl": null,
+        "fontFamily": "PlayfairDisplay",
+        "logoAspectRatio": 0.52,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "dashboardHeaderLogoInset": 0.86,
+        "dashboardWatermarkLogoInset": 0.84,
+        "dashboardWatermarkCircle": true,
+        "dashboardLogoBlendBackground": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "sanatorio-parque",
+      "name": "Sanatorio Parque",
+      "shortName": "Parque",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#138B96",
+        "secondary": "#E3E5EA",
+        "accent": "#8E8F96",
+        "background": "#F4F5F8",
+        "logoUrl": null,
+        "fontFamily": "PlayfairDisplay",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "boldAccentText": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "sanatorio-delta",
+      "name": "Sanatorio Delta",
+      "shortName": "Delta",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#2AB09C",
+        "secondary": "#E8ECEE",
+        "accent": "#6B6B6B",
+        "background": "#F2F9F7",
+        "logoUrl": null,
+        "fontFamily": "Nunito",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "boldAccentText": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "sanatorio-alliare",
+      "name": "Sanatorio Alliare",
+      "shortName": "Alliare",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#1CB5B5",
+        "secondary": "#D6EEF5",
+        "accent": "#1A56A8",
+        "background": "#F3F8FC",
+        "logoUrl": null,
+        "fontFamily": "Nunito",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "circleLogoFit": "contain",
+        "circleLogoInset": 0.86
+      },
+      "status": "ready"
+    },
+    {
+      "id": "hospital-privado-rosario",
+      "name": "Hospital Privado de Rosario",
+      "shortName": "HPR",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#006837",
+        "secondary": "#D4E8DC",
+        "accent": "#1A1A1A",
+        "background": "#F2F9F5",
+        "logoUrl": null,
+        "fontFamily": "Nunito",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "dashboardHeaderLogoInset": 0.86,
+        "dashboardWatermarkLogoInset": 0.84,
+        "dashboardWatermarkCircle": true,
+        "dashboardLogoBlendBackground": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "hospital-italiano-rosario",
+      "name": "Hospital Italiano de Rosario",
+      "shortName": "Italiano",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#008655",
+        "secondary": "#E6EBE8",
+        "accent": "#E31E24",
+        "background": "#F6F8F7",
+        "logoUrl": null,
+        "fontFamily": "Montserrat",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle"
+      },
+      "status": "ready"
+    },
+    {
+      "id": "hospital-espanol",
+      "name": "Hospital Español",
+      "shortName": "Español",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#004A8D",
+        "secondary": "#E6EEF5",
+        "accent": "#1A1A1A",
+        "background": "#F5F7FA",
+        "logoUrl": null,
+        "fontFamily": "Montserrat",
+        "logoAspectRatio": 0.92,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "circleLogoFit": "contain",
+        "circleLogoInset": 0.88,
+        "dashboardHeaderLogoInset": 0.88,
+        "dashboardWatermarkLogoInset": 0.84,
+        "dashboardWatermarkCircle": true,
+        "neutralChrome": true,
+        "transparentMenu": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "sanatorio-mapaci",
+      "name": "Sanatorio Mapaci",
+      "shortName": "Mapaci",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#39507F",
+        "secondary": "#E8F2FA",
+        "accent": "#488CC3",
+        "background": "#F5F9FC",
+        "logoUrl": null,
+        "fontFamily": "Montserrat",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "circleLogoFit": "contain",
+        "circleLogoInset": 0.88,
+        "dashboardHeaderLogoInset": 0.88,
+        "dashboardWatermarkLogoInset": 0.84,
+        "dashboardWatermarkCircle": true,
+        "neutralChrome": true,
+        "transparentMenu": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "sanatorio-centro",
+      "name": "Sanatorio Centro",
+      "shortName": "Centro",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#0A6A3D",
+        "secondary": "#E8F5EC",
+        "accent": "#5BB056",
+        "background": "#F5FAF6",
+        "logoUrl": null,
+        "fontFamily": "Montserrat",
+        "logoAspectRatio": 1,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "circleLogoFit": "contain",
+        "circleLogoInset": 0.88,
+        "dashboardHeaderLogoInset": 0.88,
+        "dashboardWatermarkLogoInset": 0.84,
+        "dashboardWatermarkCircle": true,
+        "neutralChrome": true,
+        "transparentMenu": true
+      },
+      "status": "ready"
+    },
+    {
+      "id": "maternidad-orono",
+      "name": "Maternidad Oroño",
+      "shortName": "Oroño",
+      "city": "Rosario",
+      "branding": {
+        "primary": "#00406B",
+        "secondary": "#DCE8F0",
+        "accent": "#00406B",
+        "background": "#F4F7FA",
+        "logoUrl": null,
+        "fontFamily": "Montserrat",
+        "logoAspectRatio": 0.48,
+        "homeLogoScale": 0.78,
+        "logoShape": "circle",
+        "circleLogoFit": "contain",
+        "circleLogoInset": 0.9,
+        "dashboardHeaderLogoInset": 0.9,
+        "dashboardWatermarkLogoInset": 0.82
+      },
+      "status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ret-001",
+  "title": "Catheter-drawn blood culture (hub culture)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Obtain paired blood cultures (peripheral + catheter-drawn culture for each lumen) simultaneously, using identical volumes and strict hub disinfection, to diagnose catheter-associated bloodstream infection (CLABSI) without removing the device.",
+  "body": "## Steps to perform\n\n1. Identify the patient, catheter, lumen, and clinical suspicion of catheter-associated bloodstream infection (CLABSI).\n2. Perform hand hygiene (WHO Moment 2); prepare bottles and labels (**PERIPHERAL** / **CVC lumen X**) prior to venipuncture.\n3. Draw a peripheral blood culture from a different extremity than the catheter using standard aseptic technique (see `hem-001`).\n4. **Simultaneously or immediately after:** remove the dressing if it prevents access; disinfect the hub with alcoholic chlorhexidine (friction ≥ 15 s); allow to dry completely.\n5. Draw blood from the catheter using a syringe or sterile system; maintain the **same volume** as the peripheral draw (10–15 ml in adults).\n6. Inoculate the bottles according to the system used (vacuum system: aerobic first; syringe system: anaerobic first); mix gently by inversion.\n7. Repeat the procedure for each lumen if dealing with a multi-lumen catheter (label each lumen individually).\n8. Place all culture bottles into the blood culture incubator **at the exact same time**.\n9. Record the precise time of each draw, the sampled lumen, the number of days the catheter has been in place, and concurrent antibiotic therapy.\n10. Perform hand hygiene upon completion; immediately report positive results or clinical deterioration.\n\n## Scientific rationale\n\n### Indications\n\nSuspicion of **central venous catheter-associated bloodstream infection (CLABSI)** in patients presenting with:\n\n- Fever, chills, or hemodynamic instability with no clear source.\n- Indwelling CVC, PICC, or dialysis catheter.\n- A need to **retain the catheter** or evaluate the source before its removal.\n\nThis complements the blood culture collection protocol (`hem-001`). The catheter-drawn culture is obtained **at the same time** as the peripheral blood culture.\n\n### When NOT to routinely perform catheter-drawn cultures\n\n- Catheters inserted **less than 48 hours** prior, unless an aseptic failure during insertion is suspected.\n- Low clinical suspicion of CLABSI (increases false-positive rates).\n- In the absence of a simultaneous paired peripheral blood culture.\n\n### Diagnostic principles (laboratory interpretation)\n\n| Method | Criteria suggestive of CLABSI |\n| --- | --- |\n| **Differential time to positivity (DTP)** | Catheter-drawn culture turns positive **≥ 2 hours before** the peripheral culture (same organism and antibiogram) |\n| **Quantitative culture** | Catheter-to-peripheral ratio **≥ 3:1** in colony counts |\n| **Catheter tip culture** | Same organism isolated from the tip (Maki method ≥ 15 CFU) and the peripheral blood culture |\n\n### Evidence and recommendations\n\n> **SATI/SADI 2025 (Cornistein et al.):** Paired blood cultures using equal volumes and strict disinfection of the hub for diagnosing CLABSI without mandatory catheter removal.\n\n> **Surviving Sepsis 2021:** Obtain cultures prior to antibiotic administration in sepsis, provided it does not delay treatment.\n\n### Subsequent management (clinical reference)\n\n- If CLABSI is confirmed: evaluate catheter removal based on severity, the specific microorganism isolated, and the ongoing necessity of vascular access.\n- Initiate or adjust empiric antibiotic therapy according to institutional protocols and SATI/SADI 2025 guidelines.\n- Do not interpret the isolation of skin flora (CoNS) without clinical correlation and differential time to positivity.\n\n### Common complications / errors\n\n- Insufficient disinfection of the hub → **false positive**.\n- Unequal blood volumes → invalidates differential time to positivity.\n- Delayed incubation → biases the results.\n- Failure to label the specific lumen → impossible to identify the infectious focus.",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Revista Medicina Intensiva. Diagnóstico de bacteriemia asociada a catéter: tiempo diferencial de positividad y métodos microbiológicos.",
+      "url": "https://revista.sati.org.ar/index.php/MI/article/view/661"
+    },
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (hemocultivos y sospecha de infección de catéter).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — cultures before antibiotics in sepsis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    }
+  ]
+}

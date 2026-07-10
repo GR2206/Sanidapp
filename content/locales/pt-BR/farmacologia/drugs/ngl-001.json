@@ -1,0 +1,72 @@
+{
+  "id": "ngl-001",
+  "name": "Nitroglicerina",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Vasodilatador coronariano de curta duração. Hipotensor endovenoso, periférico e pulmonar.",
+  "indications": "## Indicações principais\n\nVasodilatador coronariano de curta duração. Hipotensor endovenoso, periférico e pulmonar.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
+      "diluent": "SG 5% ou NaCl 0,9%.",
+      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
+      "dose": "Início 5–10 mcg/min; incrementar a cada 3–5 min até efeito (máx. protocolo).",
+      "infusionRate": "Titular conforme PA e perfusão",
+      "administration": "E.V. contínua em bomba; via central preferida.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorizar FC, PA invasiva, diurese e perfusão periférica."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas de 5 ml: 5 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "< 400 mcg/mL.",
+      "infusionRate": "Somente por BIC.",
+      "dose": "0,5-10 µg/kg/minuto.",
+      "compatibility": "Não administrar concomitantemente a outra medicação. Pode antagonizar o efeito anticoagulante da heparina.",
+      "notes": "Para infusão contínua diluir em dextrosa 5% ou solução fisiológica em uma concentração de 50-100 µg/ml (concentração máxima: 400 µg/ml). Diminui o efeito anticoagulante da heparina. Os beta-bloqueadores e bloqueadores dos canais de cálcio podem aumentar o efeito hipotensor da nitroglicerina."
+    },
+    "neonatal": {
+      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
+      "diluent": "SG 5% ou NaCl 0,9%.",
+      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
+      "dose": "0,5–3 mcg/kg/min na UCIN; monitorizar PA.",
+      "infusionRate": "Titular conforme PA e perfusão",
+      "administration": "E.V. contínua em bomba; via central preferida.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorizar FC, PA invasiva, diurese e perfusão periférica."
+    }
+  },
+  "stability": "## Geral\n\n- Usar bolsa de vidro/polietileno conforme bula; proteger da luz.\n\n## Guia pediátrica\n\n- Descartar o sobrante uma vez aberta.",
+  "adverseEffects": "## Efeitos adversos\n\nVertigem, cefaleias, taquicardia, náuseas, hipotensão, tontura, dermatite esfoliativa.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — nitroGLICERINA (cód. 0150, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

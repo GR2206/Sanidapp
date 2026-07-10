@@ -1,0 +1,45 @@
+{
+  "id": "ran-001",
+  "name": "Ranitidina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antagonista do receptor H2, antiulceroso, prevenção de úlcera de stress.",
+  "indications": "## Indicações principais\n\nAntagonista do receptor H2, antiulceroso, prevenção de úlcera de stress.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampolas de 5 ml: 10 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "2,5 mg/mL.",
+      "infusionRate": "15 a 30 min. com BIC.",
+      "dose": "Prematuros e lactentes a termo < 2 semanas: E.V.: dose de carga: 1,5 mg/kg, manutenção: 1,5 mg/kg/dia c/12 h. Crianças: E.V.: 2–4 mg/kg/dia c/6–8 h. Adultos: E.V.: 50 mg/dose c/6–8 h, dose máxima: 400 mg/dia.",
+      "notes": "Para sua administração E.V. diluir em Dx 5% ou Sol. F. a uma concentração de 0,5 mg/ml (máximo: 2,5 mg/ml) e infundir em 15–30 minutos. Precaução em pacientes com insuficiência hepática."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- 48 h à temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\nTontura, insônia, agitação, rash cutâneo, constipação, náuseas, diarreia, vômitos, cefaleia. Bradicardia em infusão rápida. Raros: Aumento de transaminases, leucopenia, trombocitopenia, broncoespasmo.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Ranitidina Cloridrato (cód. 0175, ATC A02BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

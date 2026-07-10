@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-006",
+  "title": "Neonatal blood culture collection",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Draw a blood culture in newborns weighing 500 g to 2500 g (days 0–30) prior to antibiotic administration, provided it does not delay its initiation, ensuring a weight-adjusted volume, strict aseptic technique, and the use of pediatric bottles.",
+  "body": "## Steps to perform\n\n1. Confirm the clinical indication (suspected sepsis, thermal instability, respiratory distress, NEC, catheter-associated infection); identify the newborn (using two identifiers), weigh, and record the time.\n2. Explain the procedure to the family; maintain thermoregulation throughout the process.\n3. Prepare pediatric bottles (aerobic and anaerobic according to protocol); disinfect the rubber stoppers with 70% alcohol for ≥ 15 s and allow to dry.\n4. Perform hand hygiene (WHO Moment 2); don sterile gloves if performing the puncture through a catheter.\n5. Select the site: peripheral venipuncture is preferred; use a UVC/UAC only under a differential time to positivity (DTP) protocol; do not combine catheter and peripheral blood into the same culture set unless explicitly indicated.\n6. Disinfect the skin or catheter hub using an antiseptic with friction for ≥ 30 s, extending the area by 2–3 cm; do not re-wipe the disinfected zone.\n7. Extract the required volume according to weight (see table) using a high-precision syringe; do not overfill the pediatric bottles.\n8. Inoculate the bottles following system guidelines: vacuum-driven systems (aerobic first); syringe-driven systems (anaerobic first, if applicable); mix by gentle inversion.\n9. Label the bottles on a clean surface with the newborn's name, weight, date, time, puncture site, set number, and any prior antibiotics administered.\n10. In severe sepsis: **do not delay antibiotic therapy** due to difficult venous access; draw cultures in parallel and administer empirical therapy as prescribed.\n11. Transport to the laboratory immediately; record the initiation time of the empirical antibiotic.\n12. Communicate any positive results, probable contamination (Corynebacterium, Bacillus, Micrococcus), or clinical deterioration.\n\n## Scientific rationale\n\n### Population and scope\n\n**Newborns day 0–30**, **500 g–2500 g**. Early-onset sepsis (< 72 h) and late-onset sepsis (> 72 h) require a blood culture prior to starting antibiotics whenever clinically safe; in septic shock, antibiotic administration must not be delayed.\n\n### Indications\n\n- Clinical suspicion of neonatal sepsis (thermal instability, lethargy, apnea, metabolic acidosis).\n- Fever or hypothermia in newborns with maternal risk factors (chorioamnionitis, PROM > 18 h).\n- Suspected catheter-associated bloodstream infection (CLABSI).\n- Suspected or confirmed necrotizing enterocolitis (NEC).\n- Poor clinical course in at-risk newborns without an identified source of infection.\n\n### Evidence and recommendations\n\n> **Source:** SATI / Critical Care Infectology Consensus — Blood culture contamination has a high impact on neonates; strict aseptic technique and adequate sample volume optimize diagnostic yield (SATI, 2007; updated 2025).\n\n> **Source:** VON — Sepsis is a leading cause of morbidity and mortality in VLBW infants; drawing blood cultures prior to antibiotic administration increases diagnostic sensitivity without delaying treatment in severe cases (Vermont Oxford Network).\n\n### Volume according to neonatal weight\n\n| Weight | Volume per bottle | Number of sets |\n| --- | --- | --- |\n| 500–749 g | 0.5–1 ml | 1–2 (depending on severity) |\n| 750–999 g | 1 ml | 1–2 |\n| 1000–1499 g | 1–2 ml | 2 in severe sepsis |\n| 1500–2500 g | 2–3 ml | 2 in severe sepsis |\n\nAlways adhere to the manufacturer's maximum volume threshold for pediatric bottles.\n\n### Timing and site selection\n\n- **Ideal:** Prior to the first antibiotic dose; matching a fever spike is not required.\n- **Severe sepsis:** 2 sets from different sites (peripheral + catheter with differential culture if applicable).\n- **Neonatal endocarditis:** 3 sets from separate anatomical sites.\n\n### Catheter vs. peripheral blood cultures\n\n| Clinical situation | Action |\n| --- | --- |\n| Suspected CLABSI | 1 peripheral set + 1 catheter differential culture (matching volumes) |\n| Recently placed catheter (< 48 h) | Peripheral site preferred |\n| No peripheral access available | Draw from UVC using aseptic technique; document the source |\n\n### Prevention of contamination\n\n- Do not touch the bottle stopper after disinfection.\n- Do not use the same alcohol swabs on the skin and the bottle simultaneously (cross-contamination prevention).\n- In extreme preterm infants: consider coordinating the puncture during a brief, managed respiratory pause to minimize movement.\n\n### Complications — notify immediately\n\n- Inability to obtain a sample accompanied by clinical deterioration (escalate to UVC or intraosseous access).\n- Hemorrhage or extensive hematoma at the puncture site.\n- Air embolization during catheter sampling.\n- Positive culture results paired with clinical decline (adjust antibiotic therapy immediately).",
+  "bibliography": [
+    {
+      "citation": "SATI — Microbiological sample collection in the ICU (Critical Infectology Committee). Revision 2007.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Central venous catheter-associated infections — SATI/SADI consensus 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Vermont Oxford Network. Sepsis prevention and early recognition in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on prevention of healthcare-associated infections in neonatal units.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Management of neonatal sepsis and febrile neonates.",
+      "url": "https://www.aap.org/en/patient-care/"
+    }
+  ]
+}

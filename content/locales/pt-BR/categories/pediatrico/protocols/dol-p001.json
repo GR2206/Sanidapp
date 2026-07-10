@@ -1,0 +1,27 @@
+{
+  "id": "dol-p001",
+  "title": "Dor e sedação em pediatria",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Avaliar dor com escalas validadas por idade (FLACC, EVA, CPOT-ped), tratar de forma multimodal e minimizar sedação desnecessária.",
+  "body": "## Passos a realizar\n\n1. **Avaliar dor sistematicamente** no início de cada turno e antes/depois de procedimentos.\n2. **Selecionar escala validada** conforme idade e situação: FLACC (0–7 anos), EVA (> 6–7 anos), COMFORT-B/CPOT (UTI/intubado), NIPS/PIPP (neonato).\n3. **Registrar pontuação** de dor/sedação no prontuário com hora e contexto.\n4. Aplicar **medidas não farmacológicas**: contenção terapêutica com familiar, amamentação ou sacarose em lactentes, distração, ambiente tranquilo e agrupar cuidados.\n5. Administrar **analgesia farmacológica** conforme prescrição e gravidade (paracetamol/ibuprofeno leve; opioides titulados moderado-grave).\n6. Administrar **analgesia antes do procedimento** doloroso quando indicado (não aguardar dor máxima).\n7. Na UTI, **reavaliar sedação** com escala adaptada (RASS); priorizar analgesia sobre sedação isolada (PADIS).\n8. **Vigiar efeitos adversos**: hipotensão, bradipneia, depressão respiratória com opioides/benzodiazepínicos, náuseas.\n9. **Envolver a família** no cuidado da dor e explicar plano de analgesia.\n10. **Comunicar imediatamente** se bradipneia, hipotensão, sedação excessiva ou dor não controlada apesar do tratamento.\n\n## Fundamentação científica\n\n### Princípios\n\n- A dor é frequentemente subtratada em pediatria.\n- Avaliar dor de forma **sistemática a cada turno** e antes/depois de procedimentos.\n- Combinar farmacológico e não farmacológico.\n\n### Escalas de avaliação\n\n| Idade / situação | Escala |\n| --- | --- |\n| 0–7 anos (pré-verbal) | **FLACC** (Face, Legs, Activity, Cry, Consolability) |\n| > 6–7 anos cooperador | **EVA** (escala visual analógica 0–10) |\n| UTI / intubado | **COMFORT-B** ou **CPOT** adaptada |\n| Neonato | **NIPS** ou **PIPP** |\n\n### Intervenções não farmacológicas\n\n- Contenção terapêutica com familiar.\n- Amamentação ou sacarose oral em lactentes para dor procedural leve.\n- Distração, música, brincadeira.\n- Ambiente tranquilo; agrupar cuidados.\n\n### Analgesia farmacológica (conforme prescrição)\n\n| Situação | Opções frequentes |\n| --- | --- |\n| Dor leve | Paracetamol, ibuprofeno oral/IV |\n| Dor moderada-grave | Opioides titulados (morfina, fentanil) |\n| Procedimento breve | Sedação com cetamina, propofol ou midazolam conforme protocolo |\n\n### Sedação na UTI\n\n- Objetivo: paciente tranquilo mas avaliável (evitar sedação excessiva).\n- Reavaliar sedação com escala (RASS adaptada).\n- Vigiar depressão respiratória com opioides e benzodiazepínicos.\n- **PADIS** (adaptação pediátrica das diretrizes SCCM): priorizar analgesia sobre sedação isolada.\n\n### Papel da enfermagem\n\n- Registrar escala de dor/sedação a cada turno.\n- Administrar analgesia **antes** de procedimentos dolorosos quando indicado.\n- Vigiar efeitos adversos: hipotensão, bradipneia, náuseas.\n- Envolver a família no cuidado da dor.",
+  "bibliography": [
+    {
+      "citation": "Devlin JW, et al. PADIS Guidelines — adaptação à população pediátrica em UTI.",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Prevention and Management of Procedural Pain in the Newborn. Pediatrics. 2016.",
+      "url": "https://publications.aap.org/pediatrics/article/137/2/e20154271/81496"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — PADIS Guidelines.",
+      "url": "https://www.sccm.org/clinical-resources/guidelines"
+    },
+    {
+      "citation": "SATI — Guias de prática clínica para prevenção e manejo da dor (tradução oficial espanhol).",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    }
+  ]
+}

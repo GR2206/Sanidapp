@@ -1,0 +1,47 @@
+{
+  "id": "bup-001",
+  "name": "Bupivacaína",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestésico local do grupo das amidas.",
+  "indications": "## Indicações principais\n\nAnestésico local do grupo das amidas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolas 20 mL: 5 mg/mL; Ampolas hiperbáricas 4 mL: 5 mg/mL.",
+      "dose": "Até 0,5 mg/kg/dose conforme bloqueio regional.",
+      "administration": "Local e regional."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas 20 mL: 5 mg/mL; Ampolas hiperbáricas 4 mL: 5 mg/mL",
+      "administration": "Local e regional",
+      "dose": "Até 0,5 mg/kg/dose",
+      "notes": "USO EXCLUSIVO DO ESPECIALISTA. Não administrar por via endovenosa. Ação prolongada. Doses repetidas por qualquer via causam acúmulo e efeitos sistêmicos."
+    }
+  },
+  "stability": "## Geral\n\n- Seguir condições de armazenamento do fabricante.",
+  "adverseEffects": "## Efeitos adversos\n\nArritmias, parada cardíaca. Os efeitos cardiovasculares são mais graves que os da lidocaína.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — BUPIvacaína Cloridrato* (cód. 0028, ATC N01BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

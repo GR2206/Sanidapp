@@ -1,0 +1,49 @@
+{
+  "id": "asm-001",
+  "name": "Asma — crise aguda",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **crise asmática aguda** é a piora rápida de sintomas respiratórios com obstrução reversível das vias aéreas. Na emergência estratifica-se a gravidade por frequência respiratória, uso de musculatura acessória, capacidade de falar em frases completas, sibilos, SpO₂ e pico de fluxo expiratório se o paciente puder cooperar. A **asma quase fatal** cursa com silêncio auscultatório, bradicardia, cianose ou alteração do sensorium.\n\nO tratamento de primeira linha é **salbutamol** de ação curta (nebulização ou inalador com espaçador, doses repetidas a cada 20 min em crise moderada-grave) mais **brometo de ipratrópio** em episódios graves. **Corticoides sistêmicos** (prednisona oral ou metilprednisolona / dexametasona IV) indicam-se precocemente. Oxigênio para manter SpO₂ ≥ 94 %. Avaliar sulfato de magnésio IV em crise refratária e consulta à UTI se não houver resposta ou houver acidose respiratória.\n\n**Enfermagem**: posição semisentada, monitorar SpO₂ e FR continuamente, registrar hora e resposta a cada nebulização, preparar acesso venoso em crise moderada-grave e vigiar efeitos adversos de beta-2 (tremor, taquicardia). Revisar técnica inalatória e plano de ação escrito na alta.",
+  "bibliography": [
+    {
+      "citation": "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "Associação Argentina de Medicina Respiratória (AAMR). Diretrizes de asma.",
+      "url": "https://www.aamr.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Asthma Education and Prevention Program (NAEPP). Expert Panel Report.",
+      "url": "https://www.nhlbi.nih.gov/health-topics/asthma"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    },
+    {
+      "drugId": "ipr-001",
+      "label": "Ipratrópio"
+    },
+    {
+      "drugId": "mep-001",
+      "label": "Metilprednisolona"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "mag-001",
+      "label": "Sulfato de magnésio"
+    }
+  ]
+}

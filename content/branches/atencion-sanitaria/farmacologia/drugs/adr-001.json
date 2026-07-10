@@ -1,0 +1,55 @@
+{
+  "id": "adr-001",
+  "name": "Adrenalina (epinefrina)",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Simpaticomimético. Shock cardiogénico o séptico con hipotensión refractaria con baja resistencia periférica.",
+  "indications": "## Indicaciones principales\n\nSimpaticomimético. Shock cardiogénico o séptico con hipotensión refractaria con baja resistencia periférica.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 1 mg/mL (1:1000) o 0,1 mg/mL (1:10 000) según presentación institucional.",
+      "dose": "PCR IV/IO: 1 mg cada 3–5 min. Anafilaxia IM: 0,3–0,5 mg; repetir cada 5–15 min si persiste.",
+      "administration": "IV/IO en PCR; IM en anafilaxia.",
+      "notes": "Registrar hora, dosis, vía y respuesta hemodinámica."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 4 ml: 1 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Paro: Sol. Cl Na 0,9%, Dext. 5%. Anafilaxia: sin diluyente.",
+      "finalConcentration": "Paro: 0,1 mg/mL (diluir una amp hasta 10 mL). Anafilaxia: 0,01 mg/kg.",
+      "infusionRate": "Push.",
+      "dose": "0,05-1 µg/kg/minuto, dosis máxima: 2 µg/kg/min Adultos: iniciar 4 µg/minuto, Infusión: 8-12 µg/minuto",
+      "notes": "Se oxida rápidamente, no utilizar si presenta coloración marrón. No se recomienda diluir en solución fisiológica. Los efectos de la noradrenalina pueden aumentarse en presencia de antidepresivos tricíclicos, antihistamínco y beta bloqueantes."
+    },
+    "neonatal": {
+      "presentation": "Ampolla 0,1 mg/mL (1:10 000) preferida para neonatos cuando esté disponible.",
+      "dose": "RCP neonatal: 0,01–0,03 mg/kg IV/IO/endotraqueal según algoritmo NRP vigente.",
+      "administration": "Vía umbilical, periférica u otro acceso según situación."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Se degrada rápido. No usar en caso de coloración de la solución o precipitado. Descartar el sobrante.\n\n## General\n\n- Proteger de la luz. Conservar a T° ambiente entre 15 y 30°.",
+  "adverseEffects": "## Efectos adversos\n\nHipertensión, necrosis, bradicardia. Uso prolongado disminución del gasto cardiaco, depleción del volumen plasmático, vasoconstricción periférica y visceral severa. Además, cardiopatía por estrés.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — NORadrenalina (cód. 1401, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Pediatric Advanced Life Support (PALS).",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "World Allergy Organization. Anaphylaxis guidance for healthcare providers.",
+      "url": "https://www.worldallergy.org/"
+    }
+  ]
+}

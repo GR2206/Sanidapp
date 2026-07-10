@@ -1,0 +1,46 @@
+{
+  "id": "ate-001",
+  "name": "Atenolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Betabloqueante selectivo. Hipotensor. Antagonista beta adrenérgico.",
+  "indications": "## Indicaciones principales\n\nBetabloqueante selectivo. Hipotensor. Antagonista beta adrenérgico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 50 y 100 mg. Ampolla 5 mg/10 mL (uso IV limitado).",
+      "dose": "HTA/angina: 50–100 mg/día VO. Arritmias: según protocolo cardiológico.",
+      "administration": "VO en dosis única o fraccionada."
+    },
+    "pediatrico": {
+      "dose": "Niños: inicial: 0,5 a 1 mg/kg/día cada 12 -24 hs; dosis máxima: 2 mg/kg/día, hasta 100 mg/día. Adultos: 25-50 mg/día cada 24 hs, dosis máxima: hipertensión: 100 mg/día; angina: 200 mg/día.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 50-100 mg; Suspensión (preparado magistral): 5 mg/ml",
+      "notes": "Evitar la suspensión abrupta. Usar con precaución en pacientes con broncoespasmo, diabetes mellitus, hipertiroidismo. Las dosis iniciales de los antihipertensivos son tentativas, deben ser modificadas según la respuesta clínica y efectos colaterales. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Comprimidos según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nFatiga, letargia, alucinaciones, bradicardia, hipotensión, rash, náuseas, vómitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Atenolol (cód. 0263, ATC C07AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension and arrhythmia guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "prt-001",
+  "name": "Protamina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antagonista da heparina, forma sais insolúveis inativando-a.",
+  "indications": "## Indicações principais\n\nAntagonista da heparina, forma sais insolúveis inativando-a.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 10 mg/mL.",
+      "dose": "1 mg protamina por 100 UI heparina restantes; E.V. lento em 10 min (máx. 50 mg/dose).",
+      "administration": "E.V. muito lenta."
+    },
+    "pediatrico": {
+      "dose": "1 ml (10 mg) de protamina neutraliza 1000 unidades de heparina (U.H.) USP. A dose depende do tempo desde a suspensão de heparina: < 30 minutos: 1 mg c/100 Unidades de heparina (U.H.) recebida 30 min - 60 min: 0,5 - 0,75 mg c/100 U.H. recebida 60 min - 120 min: 0,375 - 0,5 mg c/ 100 U.H. recebida > 120 min: 0,25 - 0,375 mg c/ 100 U.H. recebida",
+      "administration": "E.V. lenta",
+      "presentation": "Ampolas por 5 ml: 10 mg/ml",
+      "notes": "Administrar em períodos de 10 minutos. Não administrar mais de 50 mg/dose. O excesso atua como anticoagulante fraco. Precaução em pacientes com alergia ao peixe."
+    },
+    "neonatal": {
+      "dose": "Mesma regra mg:UI conforme heparina administrada.",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Usar imediatamente após diluição.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, hipertensão pulmonar, bradicardia e outros efeitos cardiovasculares. Dispneia, náuseas, vômitos, lassidão, reações anafilactoides.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Protamina Sulfato (cód. 8911, ATC V03AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

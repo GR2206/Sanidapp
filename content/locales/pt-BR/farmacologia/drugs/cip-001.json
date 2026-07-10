@@ -1,0 +1,56 @@
+{
+  "id": "cip-001",
+  "name": "Ciprofloxacina",
+  "version": "1.2.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Fluoroquinolona. Tratamento de infecções do trato respiratório, ouvido médio, trato urinário, pele e tecidos moles causadas por bactérias suscetíveis: gram-negativas aeróbias, Mycobacterium tuberculosis e algumas gram-positivas.",
+  "indications": "## Indicações principais\n\nFluoroquinolona. Tratamento de infecções do trato respiratório, ouvido médio, trato urinário, pele e tecidos moles causadas por bactérias suscetíveis: gram-negativas aeróbias, Mycobacterium tuberculosis e algumas gram-positivas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Sachê contendo 200 mg (Norgreen, Rivero).",
+      "reconstitution": "Não requer reconstituição prévia. Conc: 200 mg / 100 mL.",
+      "finalConcentration": "200 mg / 100 mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. 200 mg em 30 min, 400 mg em 60 min.",
+      "notes": "Não retirar a proteção (bolsa plástica preta) até o momento de usar."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 250–500 mg; Solução (preparado magistral): 30 mg/mL; F.A.: 200 mg; Gotas oftalmológicas: 0,3%; Pomada oftalmológica: 0,3%",
+      "administration": "V.O. E.V. Local",
+      "diluent": "SF 0,9%, SG 5% e SG 10%.",
+      "finalConcentration": "2 mg/mL.",
+      "infusionRate": "60 min.",
+      "dose": "Infecções leves e moderadas: 20 mg/kg/dia a cada 12 h, dose máxima: V.O.: 500 mg/dose; E.V.: 400 mg/dose. Infecções graves, pielonefrite e fibrose cística V.O./E.V.: 30 mg/kg/dia, V.O.: a cada 12 h, dose máxima: 1,5 g/dia; E.V.: a cada 8 h, dose máxima: 1,2 g/dia. Profilaxia meningococo (contato): V.O.: 20 mg/kg/dose única, máximo: 500 mg/dose. Gotas oftalmológicas: a cada 2–3 h",
+      "notes": "Aconselha-se seu uso em pediatria somente em situações especiais. Administrar longe das refeições. Os antiácidos (que contenham cálcio, magnésio ou alumínio) e o sucralfato diminuem a absorção da ciprofloxacina se administrados concomitantemente. Aumenta risco de nefrotoxicidade com ciclosporina."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- Não especificado.\n\n## Guia pediátrica\n\n- Uma vez aberta, 14 dias em temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\nArtralgias, náuseas, vômitos, cefaleias, tontura, rash, cristalúria. Rupturas tendinosas (mais frequentemente no tendão de Aquiles) a partir das 48 h de tratamento.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — CIPROfloxacina (cód. 0281, ATC J01MA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

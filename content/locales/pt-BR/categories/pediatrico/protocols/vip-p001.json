@@ -1,0 +1,35 @@
+{
+  "id": "vip-p001",
+  "title": "Colocação de via periférica pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Canalizar cateter venoso periférico em criança com técnica asséptica não tátil, calibre conforme peso, analgesia e contenção terapêutica segura, e vigilância estreita de extravasamento.",
+  "body": "## Passos a realizar\n\n1. Identificar o paciente (dois identificadores), alergias e prescrição; escolher calibre e sítio conforme peso.\n2. Explicar o procedimento à família e à criança; oferecer analgesia tópica ou sistêmica e organizar contenção terapêutica segura (mínimo duas pessoas).\n3. Realizar higienização das mãos (momento 2 OMS) e preparar material estéril.\n4. Posicionar a extremidade; aplicar torniquete suave 5–10 cm proximal; palpar e selecionar veia.\n5. Desinfetar a pele com antisséptico em fricção circular; deixar secar completamente; não repassar a zona desinfetada.\n6. Realizar punção venosa com técnica não tátil (ângulo 10–30°); avançar até refluxo de sangue na câmara.\n7. Retirar o torniquete; introduzir o cateter; retirar a agulha; conectar conjunto fechado de infusão sem desconexões desnecessárias.\n8. Verificar refluxo e infusão sem resistência; fixar com curativo transparente sem comprimir.\n9. Registrar data, hora, sítio, calibre, número de tentativas e operador; higienização das mãos ao finalizar.\n10. Se falhar: máximo duas tentativas por operador; escalar para colega com experiência ou acesso alternativo (intraósseo, central).\n11. Revisar a cada turno eritema, dor, edema e extravasamento; desinfetar o hub antes de cada acesso; retirar quando finalizar tratamento ou houver complicação.\n\n## Fundamentação científica\n\n### Indicações\n\n- Administração de medicação ou fluidos IV.\n- Reanimação com bolus (desidratação, sepse, choque).\n- Coleta de amostras sanguíneas quando não há acesso alternativo.\n- Contraste ou procedimentos conforme prescrição médica.\n\n### Evidência e recomendações\n\n> **Bundle de prevenção (OMS 2024 / SATI):** higienização das mãos, técnica asséptica, antisséptico na pele, máximo duas tentativas por operador, fixação adequada e retirada precoce se o acesso não for indispensável (Gorski et al., 2024; CDC/HICPAC, 2011).\n\n### Seleção do sítio e calibre\n\n| Peso aproximado | Calibre sugerido | Sítio preferido |\n| --- | --- | --- |\n| RN / lactente pequeno | 24 G | Dorso da mão ou pé; antebraço se veia visível |\n| 1–10 kg | 24 G | Antebraço, dorso da mão |\n| 10–20 kg | 22–24 G | Antebraço |\n| > 20 kg | 22–20 G | Antebraço (primeira opção) |\n\n| Preferência | Sítio |\n| --- | --- |\n| Primeira opção | Antebraço (veias basílica, cefálica ou mediana cefálica) |\n| Alternativa | Dorso da mão ou pé (lactente; maior risco de extravasamento) |\n| Último recurso | Couro cabeludo (somente RN/lactente conforme protocolo institucional) |\n| Evitar | Extremidade com infecção, linfedema, fístula ou punções falhas prévias na mesma zona |\n\nRotacionar extremidades; não repetir punção no mesmo sítio na mesma sessão.\n\n### Preparação da criança\n\n- Analgesia tópica quando o tempo permitir (EMLA 60 min, lidocaína tópica, J-tip conforme protocolo AAP).\n- Contenção terapêutica: uma pessoa estabiliza sem comprimir tórax nem via aérea; outra canaliza.\n- Antisséptico: clorexidina alcoólica em crianças ≥ 2 meses; em RN prematuro ou < 2 meses seguir protocolo institucional.\n\n### Critérios de retirada imediata\n\n- Flebite, infiltração ou extravasamento (ativar protocolo se fármaco vesicante).\n- Suspeita de infecção do sítio ou bacteremia associada ao cateter.\n- Mau funcionamento ou obstrução não resolvida.\n- Cateter não mais indispensável.\n\n### Complicações — comunicar imediatamente\n\n- Extravasamento de medicação vesicante, osmótica ou vasoativa.\n- Hematoma extenso, sangramento persistente ou perda de pulso distal.\n- Cianose ou palidez da extremidade canalizada.\n- Dor intensa, choro inconsolável ou recusa da extremidade.\n- Febre ou eritema progressivo no sítio de inserção.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections and other infections associated with the use of intravascular catheters — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "OMS — Notícias: novas orientações para reduzir septicemias por cateteres (2024).",
+      "url": "https://www.who.int/es/news-room/09-05-2024-new-guidance-aims-to-reduce-bloodstream-infections-from-catheter-use"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011. CDC / HICPAC.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Pediatric Pain Management and sedation for procedures.",
+      "url": "https://www.aap.org/en/patient-care/sedation-and-analgesia/"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Prevenção de IRAS e acessos vasculares.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

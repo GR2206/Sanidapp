@@ -1,0 +1,41 @@
+{
+  "id": "tel-001",
+  "name": "Telmisartana",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "BRA de longa duração para HAS e redução do risco cardiovascular.",
+  "indications": "## Indicações\n\n- Hipertensão arterial essencial.\n- Redução de eventos cardiovasculares em pacientes de alto risco (conforme indicação registrada).\n\n## Precauções\n\n- Contraindicado na gestação.\n- Cautela com diuréticos poupadores de potássio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 40 e 80 mg.",
+      "dose": "40–80 mg/dia VO em dose única.",
+      "administration": "VO com ou sem alimentos."
+    },
+    "pediatrico": {
+      "dose": "1–2 mg/kg/dia VO (uso limitado, protocolo cardiológico).",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n- Hipotensão, hipercalemia, tontura, dor lombar (raro).",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

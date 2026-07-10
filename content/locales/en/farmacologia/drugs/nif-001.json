@@ -1,0 +1,47 @@
+{
+  "id": "nif-001",
+  "name": "Nifedipine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Arterial vasodilator. Calcium channel blocker.",
+  "indications": "## Main indications\n\nArterial vasodilator. Calcium channel blocker.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Extended-release tablets 30 and 60 mg. Capsules 10 mg.",
+      "dose": "Hypertension: 30–60 mg/day PO ER. Tocolysis/obstetric: per maternity protocol.",
+      "administration": "PO. Do not crush or chew ER formulations."
+    },
+    "pediatrico": {
+      "dose": "Controlled-release tablets: 0,25-0,5 mg/kg/day, every 12-24 h; maximum dose: 3 mg/kg/day (up to 120 mg/day). Adults: Initial: controlled-release tablets: 30 to 60 mg/day every 24 h; maximum dose: 120 mg/day (controlled-release tablets).",
+      "administration": "PO; SL",
+      "presentation": "Controlled-release tablets: 30 mg",
+      "notes": "Interactions: increases adverse effects of beta-blockers; increases serum concentration of digoxin; rifampin decreases nifedipine levels; with cyclosporine gingival hyperplasia is exacerbated."
+    }
+  },
+  "stability": "## Stability\n\n- Store per package insert.",
+  "adverseEffects": "## Adverse effects\n\nFlushing, headache, nausea, cutaneous reactions, lower extremity edema, tachycardia, palpitations, gingival hyperplasia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — NIFEdipina (code 0240, ATC C08CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Gynecology and Obstetrics. Obstetric protocols.",
+      "url": "https://www.sag.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

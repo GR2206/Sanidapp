@@ -1,0 +1,53 @@
+{
+  "id": "teo-001",
+  "name": "Aminofilina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Aumenta la contractilidad diafragmática. Apnea del recién nacido.",
+  "indications": "## Indicaciones principales\n\nAumenta la contractilidad diafragmática. Apnea del recién nacido.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 24 mg/mL (teofilina equivalente).",
+      "dose": "Carga 5–6 mg/kg IV lento; mantenimiento 0,5 mg/kg/h.",
+      "administration": "IV lenta."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 10 ml: 24 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Dext. 5%.",
+      "finalConcentration": "25 mg/mL.",
+      "infusionRate": "20 a 30 min con BIC.",
+      "dose": "Dosis ataque E.V.: 7 mg/kg/dosis en 20-30 minutos. Dosis mantenimiento: 1-6 meses: 0,4mg/kg/hora, 6-12 meses: 0,6 mg/kg/hora, 1-9 años: 0,8 mg/Kg/hora, &gt; 10 años y adultos: 0,7 mg/kg/hora. Apnea del recién nacido: dosis de carga: 5 mg/kg, mantenimiento: 5 mg/kg/día cada 12 hs (monitorear niveles séricos para determinar la dosis apropiada).",
+      "notes": "Concentración sérica: apnea primaria R.N.: 3-10 µg/ml, broncodilatador pico 10-15 µg/ml. Aumentan los niveles de teofilina: eritromicina, ciprofloxacina, norfloxacina. Disminuyen los niveles de teofilina: rifampicina, carbamacepina, fenobarbital, difenilhidantoína. Aumenta el riesgo de hipokalemia con dosis altas de salbutamol. Para su administración diluir con solución fisiológica (preferentemente) o dextrosa 5% a una concentración de 1 mg/ml (máxima concentración: 25 mg/ml)."
+    },
+    "neonatal": {
+      "dose": "Carga y mantenimiento según protocolo apnea NNU.",
+      "administration": "IV en bomba."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Descartar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nIrritabilidad, inquietud, convulsiones, cefalea, insomnio, palpitaciones, hipotensión, extrasístoles, hiperglucemia, dolor abdominal, vómitos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — amiNOFilina (cód. 0012, ATC R03DA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

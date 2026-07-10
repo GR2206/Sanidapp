@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-003",
+  "title": "Cuidado do coto umbilical",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Cuidar do coto umbilical em neonato de 500 g a 2500 g (dia 0–30) com técnica seca ou antisséptica conforme protocolo institucional, vigilância de onfalite e não aplicar substâncias não recomendadas.",
+  "body": "## Passos a realizar\n\n1. Ao nascimento: secar o cordão com gaze estéril; colocar pinça umbilical a 2–3 cm da base (ou conforme dispositivo institucional); manter coto exposto ao ar se método seco.\n2. Orientar a família: não cobrir com fralda (dobrar fralda abaixo do coto); não puxar nem manipular o coto; lavar as mãos antes e depois do cuidado.\n3. Realizar higienização das mãos (momento 1 OMS) antes de inspecionar o cordão.\n4. Inspecionar a cada troca de fralda e pelo menos a cada turno: base seca ou úmida limpa, sem eritema, sem odor fétido, sem secreção purulenta.\n5. Se protocolo institucional indicar método seco (OMS recomendado): não aplicar álcool, povidona nem pomadas; retirar pinça quando coto estiver seco (usualmente 3–7 dias).\n6. Se protocolo indicar antisséptico: aplicar clorexidina 4% ou 7,1% digluconato uma vez ao dia na base do cordão com cotonete; fricção suave; deixar secar ao ar.\n7. Manter área limpa e seca; se contaminação com urina ou fezes, limpar com água morna e sabão neutro; secar completamente.\n8. Registrar aspecto do cordão na ficha neonatal: úmido/seco, eritema, secreção, dia de queda do coto.\n9. Não submergir o RN em banho até queda do coto e cicatrização completa (banho de esponja até então).\n10. Diante de sinais de infecção: medir temperatura axilar, hemograma e cultura conforme prescrição; não retirar pinça em onfalite ativa sem avaliação.\n11. Se sangramento do coto: comprimir base 5–10 min com gaze estéril; se persistir, ligadura por profissional capacitado.\n12. Documentar dia de queda do cordão; continuar vigilância da cicatriz umbilical 48 h pós-queda.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. O cuidado do coto umbilical é preventivo; a onfalite pode progredir para sepse neonatal em horas, especialmente em prematuros e em ambientes com recursos limitados.\n\n### Objetivo\n\n- Promover secagem e descolamento seguro do coto (3–14 dias).\n- Prevenir onfalite e sepse neonatal.\n- Orientar cuidadores primários.\n\n### Evidência e recomendações\n\n> **OMS:** o cuidado do coto umbilical seco e limpo é recomendado em ambientes com baixa taxa de infecção; a clorexidina a 7,1% reduz onfalite e mortalidade em ambientes de alto risco (WHO, 2024).\n\n> **AAP / ACOG:** não aplicar substâncias não estéreis (talco, pós, ervas); manter cordão visível e seco (American Academy of Pediatrics).\n\n### Métodos de cuidado comparados\n\n| Método | Indicação | Ação |\n| --- | --- | --- |\n| Seco e limpo | Unidades com baixa taxa de infecção | Sem antisséptico; ar livre |\n| Clorexidina 4–7,1% | Alto risco de onfalite / prematuros | Aplicação diária na base |\n| Álcool 70% | Alternativa institucional | 1–2 vezes/dia se protocolo indicar |\n\nNão misturar métodos sem indicação; seguir protocolo institucional uniforme.\n\n### Pinçamento do cordão\n\n| Situação | Tempo de pinçamento |\n| --- | --- |\n| RN vigoroso a termo | ≥ 30–60 s ou até cessação das pulsações |\n| < 34 sem sem reanimação | Pinçamento tardio 30–60 s se estável |\n| Reanimação ativa | Pinçamento imediato se necessário para acesso |\n\n### Sinais de onfalite — avisar imediatamente\n\n| Grau | Achados | Ação |\n| --- | --- | --- |\n| Leve | Eritema < 2 cm na base | Vigilância estreita; cultura se febre |\n| Moderada | Eritema > 2 cm, exsudato, odor | Antibiótico IV; hemocultura |\n| Grave | Celulite periumbilical, necrose | Sepse; UCIN; cirurgia se necrose |\n\n### Tempo de descolamento normal\n\n| Peso / IG | Dias até queda |\n| --- | --- |\n| Prematuro < 1000 g | 10–14 dias |\n| 1000–2500 g | 7–10 dias |\n| A termo | 5–7 dias |\n\nAtraso > 14 dias ou granuloma umbilical: avaliar pelo neonatologista.\n\n### Complicações — avisar imediatamente\n\n- Onfalite (eritema, calor, exsudato purulento, odor).\n- Sangramento ativo do coto não controlado com compressão.\n- Febre ou hipotermia associada a alterações no cordão.\n- Granuloma umbilical com sangramento persistente.\n- Hérnia umbilical encarcerada (raro em RN; avaliar se protrusão dolorosa).",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Care of the umbilical cord — recommendations on newborn health.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "World Health Organization. WHO recommendations on umbilical cord care for newborns.",
+      "url": "https://www.who.int/publications/i/item/9789241548554"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Umbilical cord care in the newborn.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Infection prevention bundles in the NICU and newborn nursery.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "SATI — Prevenção de infecções neonatais e cuidados do cordão.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ],
+  "division": "baja-complejidad"
+}

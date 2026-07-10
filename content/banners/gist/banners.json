@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-06-25",
+  "slots": [
+    {
+      "id": "bannerTOP",
+      "label": "Protocolos",
+      "enabled": true,
+      "title": "Protocolos al instante",
+      "subtitle": "Guías clínicas actualizadas y códigos QR para tu servicio",
+      "imageUrl": null,
+      "linkUrl": null,
+      "appRoute": "/category/adulto",
+      "version": "1.1"
+    },
+    {
+      "id": "bannerMEDIO",
+      "label": "Pacientes",
+      "enabled": true,
+      "title": "Adulto · Pediátrico · Neonatología",
+      "subtitle": "El contenido se adapta al tipo de paciente que estás atendiendo",
+      "imageUrl": null,
+      "linkUrl": null,
+      "appRoute": null,
+      "version": "1.1"
+    },
+    {
+      "id": "bannerBOT",
+      "label": "Farmacología",
+      "enabled": true,
+      "title": "Farmacología cuando la necesitás",
+      "subtitle": "Monografías con preparación por edad, al alcance de un toque",
+      "imageUrl": null,
+      "linkUrl": null,
+      "appRoute": "/(drawer)/farmacologia",
+      "version": "1.1"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "enp-001",
+  "name": "Enalapril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Vasodilatador venoso y arterial. Inhibidor de la enzima convertidora de la angiotensina.",
+  "indications": "## Indicaciones principales\n\nVasodilatador venoso y arterial. Inhibidor de la enzima convertidora de la angiotensina.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5, 10 y 20 mg. Ampolla 1,25 mg/mL (uso IV limitado).",
+      "dose": "HTA: 5–20 mg/día VO en 1–2 tomas. IC: iniciar 2,5 mg VO 1–2 veces/día y titular.",
+      "administration": "VO con o sin alimentos."
+    },
+    "pediatrico": {
+      "dose": "V.O.: Niños: inicial: 0,08 mg/kg/día cada 24 hs, dosis máxima: &lt; 12 años: 0,6 mg/kg/día; &gt; 12 años: 40 mg/día; adolescentes y adultos: 2,5-5 mg/día, dosis usual para hipertensión: 10-40 mg/día. E.V. (enalaprilato): Niños: 5-10 µg/kg/dosis cada 8-24 hs; adolescentes y adultos: 0,625-1,25 mg/dosis cada 6 hs.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 5 - 10mg; Solución V.O. (preparado magistral): 2 mg/ml (0,1 mg/gota) Ver formulación",
+      "notes": "Con diuréticos ahorradores de potasio puede producir hiperkalemia. Precaución en pacientes deplecionados de sodio. Es dializable. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Comprimidos: conservar según prospecto a T° ambiente.\n- Solución IV: usar inmediatamente tras preparación.",
+  "adverseEffects": "## Efectos adversos\n\nReacciones cutáneas, trastornos del gusto, vértigo, cefalea, neutropenia, hipotensión ortostática, tos. Teratogénico.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Enalapril Maleato (cód. 0082, ATC C09AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

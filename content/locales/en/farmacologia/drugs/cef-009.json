@@ -1,0 +1,53 @@
+{
+  "id": "cef-009",
+  "name": "Cefalothin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "First-generation cephalosporin. Surgical prophylaxis, treatment of respiratory tract, middle ear, skin and soft tissue infections caused by susceptible bacteria: gram-positive cocci.",
+  "indications": "## Main indications\n\nFirst-generation cephalosporin. Surgical prophylaxis, treatment of respiratory tract, middle ear, skin and soft tissue infections caused by susceptible bacteria: gram-positive cocci.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 1 g (Arecemin, Cefalotina Larjan, Drawer, Dosagluc, Cefade, Richet).",
+      "reconstitution": "5 mL SWFI. Conc: 200 mg/mL.",
+      "diluent": "1–2 g in 100 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "10–20 mg/mL.",
+      "administration": "Direct IV: Yes. Reconstitute with 10 mL SWFI, 0.9% NaCl or 5% dextrose and administer over 3–5 min. Intermittent IV: Yes. Dilute 1 g in 100 mL 0.9% NaCl or 5% dextrose and administer over 30–60 min.",
+      "notes": "If vial contents do not dissolve completely, add SWFI (0,2–0,5 mL) and shake vigorously. Darkening of the solution at room temperature does not affect efficacy. IM administration is possible."
+    },
+    "pediatrico": {
+      "presentation": "Powder vial: 1000 mg",
+      "administration": "IV",
+      "diluent": "0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "100 mg/mL.",
+      "infusionRate": "3 to 5 min.",
+      "dose": "100 mg/kg/day every 6–8 h. Adults: 500–2000 mg every 6 h. Preoperative dose in adults: 1–2 g. Maximum dose: 12 g.",
+      "notes": "Concomitant use with aminoglycosides may increase risk of nephrotoxicity."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 12 h at room temperature, 96 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature.\n\n## Pediatric guide\n\n- 96 h refrigerated; 12 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nAllergic reactions, thrombophlebitis, thrombocytopenia, leukopenia, nephrotoxicity.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefALOTina sódica (code 0035, ATC J01DB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

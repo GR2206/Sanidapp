@@ -1,0 +1,57 @@
+{
+  "id": "tra-001",
+  "name": "Polytrauma",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Polytrauma** is defined as simultaneous injury to multiple anatomical regions, carrying a high risk of hemorrhagic shock, TBI (traumatic brain injury), and thoracic, abdominal, or spinal injuries. In the emergency department, the **ATLS / ABCDE** approach is implemented: airway management with cervical spine protection, breathing and ventilation, circulation with hemorrhage control, neurological evaluation (GCS, pupils), and exposure with hypothermia prevention. **Damage control resuscitation** prioritizes arresting hemorrhage and restoring perfusion.\n\nImmediate actions: establish two large-bore intravenous lines, initiate crystalloid administration, and activate the blood bank protocol; administer **tranexamic acid** if indicated by protocol (< 3 h); apply tourniquets or compression for external hemorrhage; perform a FAST ultrasound or pan-scan CT depending on hemodynamic stability. Ensure adequate analgesia (titrated opioids, or ketamine in hemodynamically unstable contexts according to guidelines). Administer prophylactic antibiotics in open wounds and compound fractures. Initiate early consultation with general surgery and the ICU.\n\n**Nursing:** continuous monitoring, serial recording of GCS, control of bleeding and fluid outputs, maintain the cervical collar until cervical spine injury is ruled out, prevent hypothermia (using thermal blankets), strict fluid balance, and accompany the patient during imaging studies.",
+  "clinicalBox": {
+    "title": "ABCDE — initial assessment",
+    "content": "**A** — Airway + cervical spine protection\n**B** — Breathing and oxygenation (SpO₂, respiratory rate, auscultation)\n**C** — Circulation: hemorrhage control, heart rate, blood pressure, IV access, resuscitation\n**D** — Disability (neurological deficit): GCS, pupils, blood glucose\n**E** — Exposure (complete) with hypothermia prevention\n\nReevaluate following every intervention. Record admission time, trauma mechanism, and serial clinical findings."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "adr-001",
+      "label": "Epinephrine"
+    },
+    {
+      "drugId": "nor-001",
+      "label": "Norepinephrine"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morphine"
+    },
+    {
+      "drugId": "ket-001",
+      "label": "Ketamine"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Mannitol"
+    },
+    {
+      "drugId": "cef-002",
+      "label": "Cefazolin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American College of Surgeons. ATLS — Advanced Trauma Life Support.",
+      "url": "https://www.facs.org/quality-programs/trauma/atls/"
+    },
+    {
+      "citation": "Sociedad Argentina de Trauma y Emergencias (SATE). Consensos nacionales.",
+      "url": "https://www.sate.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Emergency care of severe trauma.",
+      "url": "https://www.who.int/"
+    }
+  ]
+}

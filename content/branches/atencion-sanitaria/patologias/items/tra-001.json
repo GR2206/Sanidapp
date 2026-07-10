@@ -1,0 +1,56 @@
+{
+  "id": "tra-001",
+  "name": "Politraumatismo",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **politraumatismo** es la lesión simultánea de múltiples regiones anatómicas, con riesgo de choque hemorrágico, TCE, lesión torácica, abdominal y de columna. En guardia se aplica el enfoque **ATLS / ABCDE**: vía aérea con protección cervical, ventilación, circulación y control de hemorragia, evaluación neurológica (GCS, pupilas) y exposición con prevención de hipotermia. La **reanimación con damage control** prioriza detener sangrado y restaurar perfusión.\n\nAcciones inmediatas: dos accesos venosos calibrosos, **cristaloides** y activación de banco de sangre; **ácido tranexámico** si indicado por protocolo (< 3 h); torniquetos o compresión en hemorragia externa; FAST ecográfico o TC **pan-scan** según estabilidad. Analgesia adecuada (opioides titulados, ketamina en contexto hemodinámico inestable según guía). Antibiótico profiláctico en heridas abiertas y fracturas expuestas. Contacto precoz con cirugía y UTI.\n\n**Enfermería**: monitorización continua, registro de GCS seriado, control de sangrado y débitos, mantener collarín hasta descartar lesión cervical, evitar hipotermia (mantas térmicas), balance hídrico estricto y acompañamiento del paciente en estudios imagenológicos.",
+  "clinicalBox": {
+    "title": "ABCDE — evaluación inicial",
+    "content": "**A** — Vía aérea + protección cervical\n**B** — Ventilación y oxigenación (SpO₂, FR, auscultación)\n**C** — Circulación: hemorragia, FC, TA, accesos, reanimación\n**D** — Deterioro neurológico: GCS, pupilas, glucosa\n**E** — Exposición completa con prevención de hipotermia\n\nReevaluar cada intervención. Registrar hora de ingreso, mecanismo y hallazgos seriados."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "adr-001",
+      "label": "Adrenalina (epinefrina)"
+    },
+    {
+      "drugId": "nor-001",
+      "label": "Noradrenalina"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "ket-001",
+      "label": "Ketamina"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Manitol"
+    },
+    {
+      "drugId": "cef-002",
+      "label": "Cefazolina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American College of Surgeons. ATLS — Advanced Trauma Life Support.",
+      "url": "https://www.facs.org/quality-programs/trauma/atls/"
+    },
+    {
+      "citation": "Sociedad Argentina de Trauma y Emergencias (SATE). Consensos nacionales.",
+      "url": "https://www.sate.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Emergency care of severe trauma.",
+      "url": "https://www.who.int/"
+    }
+  ]
+}

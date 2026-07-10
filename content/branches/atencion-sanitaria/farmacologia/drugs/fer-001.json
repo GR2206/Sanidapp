@@ -1,0 +1,50 @@
+{
+  "id": "fer-001",
+  "name": "Hierro sacarosa IV",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anemia hipocrómica microcítica.",
+  "indications": "## Indicaciones principales\n\nAnemia hipocrómica microcítica.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 100 mg hierro elemental.",
+      "dose": "Dosis total calculada por déficit; típico 200 mg IV en 15–30 min.",
+      "administration": "IV lenta en dilución."
+    },
+    "pediatrico": {
+      "dose": "Todas las dosis están expresadas como hierro elemental. Requerimientos: 0 - 1 año: 6 a 10 mg/día, 1 - 10 años: 10 mg; &gt; 10 años: 12 a 15 mg/día. Tratamiento de la anemia:3 mg/kg/día. Profiláctica RN pretérmino: 2 mg/kg/día.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 200 mg de sulfato ferroso (60 mg de hierro elemental); Gotas: 125 mg de sulfato ferroso/ml (1 gotero = 0,6 ml = 15 mg de hierro elemental); Solución sin hidratos de carbono (preparado magistral): 125 mg de sulfato ferroso/ml",
+      "notes": "Administrar separado de la leche. La vitamina C aumenta la absorción. Antiácidos y vitamina E disminuyen la absorción. Importante: indicar en ml o goteros ya que se confunde la sal con el hierro elemental."
+    },
+    "neonatal": {
+      "dose": "Uso limitado; esquemas hematología neonatal.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Usar dilución preparada de inmediato.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, anorexia, constipación, diarrea, dolor epigástrico.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Hierro (como Sulfato Ferroso) (cód. 0093, ATC B03AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

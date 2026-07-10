@@ -1,0 +1,44 @@
+{
+  "id": "tor-001",
+  "name": "Torasemida",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "executiveSummary": "Diurético de asa con vida media más larga; ICC y hipertensión.",
+  "indications": "## Indicaciones\n\n- Insuficiencia cardíaca crónica, edema periférico.\n- Hipertensión arterial (VO).\n\n## Precauciones\n\n- Hipokalemia, hipovolemia. Monitorizar función renal.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 10 mg/mL; comprimidos VO.",
+      "dose": "10–20 mg IV/VO cada 24 h; titular según diuresis.",
+      "administration": "IV lento o VO."
+    },
+    "pediatrico": {
+      "dose": "0,1–0,2 mg/kg/dosis cada 12–24 h (uso limitado).",
+      "administration": "IV/VO."
+    },
+    "neonatal": {
+      "dose": "Uso restringido según protocolo cardiorrenal NNU.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV según prospecto.",
+  "adverseEffects": "## Efectos\n\n- Hipokalemia, mareo, elevación de ácido úrico.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

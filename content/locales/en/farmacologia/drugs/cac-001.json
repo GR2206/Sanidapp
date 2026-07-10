@@ -1,0 +1,51 @@
+{
+  "id": "cac-001",
+  "name": "Calcium chloride",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of hypocalcemia and hyperkalemia.",
+  "indications": "## Main indications\n\nTreatment of hypocalcemia and hyperkalemia.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10% calcium chloride (13.6 mEq Ca/10 mL).",
+      "dose": "Cardiac arrest: 1 g (10 mL) IV/IO. Hypocalcemia: 0.5–1 g slow IV.",
+      "administration": "Slow IV/IO."
+    },
+    "pediatrico": {
+      "dose": "Symptomatic hypocalcemia: 0.1 - 0.2 mL/kg/dose (0.14-0.28 mEq Ca++/kg/dose) every 4-6 h. Adults: 5-10 mL/dose (7-14 mEq/dose) every 6 h. Hyperkalemia: 0.3 mL/kg (maximum: 3 mL). See CIME Electrolytes Bulletin.",
+      "administration": "IV",
+      "presentation": "10 mL ampoules: 100 mg of calcium chloride/mL (1.4 mEq Ca++/mL = 27.3 mg Ca++/mL)",
+      "notes": "IV administration must be performed slowly (< 0.5-1 mL/min. For IV infusion dilute to 20 mg of calcium chloride per mL (0.2 mL/mL) and infuse over 1 hour. Compatible solvents: 5% dextrose and SWFI. Incompatible with bicarbonate, phosphate, and sulfate."
+    },
+    "neonatal": {
+      "dose": "20 mg/kg slow IV in cardiac arrest/hypocalcemia NICU.",
+      "administration": "Central IV."
+    }
+  },
+  "stability": "## Stability\n\n- Incompatible with bicarbonate in line.",
+  "adverseEffects": "## Adverse effects\n\nTissue necrosis from extravasation. Monitor heart rate. If bradycardia occurs, stop the infusion.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — calcium CHLORIDE (ATC A12AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

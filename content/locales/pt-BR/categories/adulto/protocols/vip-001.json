@@ -1,0 +1,27 @@
+{
+  "id": "vip-001",
+  "title": "Colocação de via periférica",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Inserir cateter venoso periférico com técnica asséptica não tátil, antisséptico na pele, fixação adequada e retirada precoce se não for indispensável.",
+  "body": "## Passos a realizar\n\n1. Identificar paciente, alergias e prescrição (calibre, tipo de solução).\n2. Realizar higienização das mãos (técnica OMS) antes e após o procedimento.\n3. Explicar ao paciente e posicionar extremidade estendida.\n4. Aplicar torniquete 5–10 cm proximal ao sítio; palpar e selecionar veia.\n5. Desinfetar pele com clorexidina alcoólica em fricção circular; **deixar secar completamente**.\n6. Inserir cateter com técnica não tátil a 15–30° até retorno de sangue na câmara.\n7. Retirar torniquete antes de avançar completamente se ainda estiver colocado.\n8. Introduzir cateter, retirar agulha e conectar conjunto fechado de infusão sem desconectar desnecessariamente.\n9. Fixar com curativo transparente sem comprimir.\n10. Registrar data, hora, sítio, calibre e número de tentativas.\n11. Revisar a cada turno eritema, dor, edema, exsudato, flebite ou extravasamento.\n12. Retirar quando finalizar tratamento ou diante de sinais de complicação; reavaliar necessidade diariamente.\n\n## Fundamentação científica\n\n### Indicações\n\n- Administração de medicação ou fluidos IV.\n- Coleta de amostras sanguíneas quando não há acesso alternativo.\n- Contraste ou procedimentos conforme prescrição.\n- Reanimação com acesso periférico de urgência.\n\n### Seleção do sítio\n\n| Preferência | Sítio |\n| --- | --- |\n| Primeira opção | Antebraço (veias basílica, cefálica ou mediana cefálica) |\n| Alternativa | Dorso da mão (maior risco de flebite) |\n| Evitar | Extremidade com fístula AV, linfedema, trombose ou infecção local |\n| Evitar | Membro do lado com mastectomia radical (salvo indicação médica) |\n\n### Material\n\n- Cateter venoso periférico estéril (calibre conforme prescrição).\n- Torniquete, antisséptico (clorexidina alcoólica 0,5–2% preferencial).\n- Curativo transparente semipermeável estéril.\n- Equipo de infusão estéril e recipiente para perfurocortantes.\n\n### Evidência e recomendações\n\n> **OMS 2024:** Guias para prevenção de septicemias por cateteres periféricos com técnica asséptica não tátil e clorexidina na pele.\n\n> **CDC 2011 (O'Grady et al.):** Não trocar cateter de rotina; retirar quando não for mais indispensável.\n\n### Critérios de retirada imediata\n\n- Flebite, infiltração ou extravasamento.\n- Suspeita de infecção do sítio ou bacteremia associada ao cateter.\n- Mau funcionamento ou obstrução não resolvida.\n- Cateter não mais indispensável.\n\n### Complicações — comunicar imediatamente\n\n- Extravasamento de fármaco vesicante ou irritante.\n- Hematoma extenso ou sangramento persistente.\n- Dor intensa, cianose distal ou perda de pulso.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections and other infections associated with the use of intravascular catheters — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "OMS — Notícias: novas orientações para reduzir septicemias por cateteres (2024).",
+      "url": "https://www.who.int/es/news-room/09-05-2024-new-guidance-aims-to-reduce-bloodstream-infections-from-catheter-use"
+    },
+    {
+      "citation": "SATI — Consenso interinstitucional: prevenção de infecções associadas a dispositivos (acessos vasculares).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011. CDC / Healthcare Infection Control Practices Advisory Committee.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    }
+  ]
+}

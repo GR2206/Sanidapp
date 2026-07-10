@@ -1,0 +1,55 @@
+{
+  "id": "iam-001",
+  "name": "Infarto agudo de miocardio (IAM)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "El **infarto agudo de miocardio (IAM)** es necrosis miocárdica por isquemia prolongada, dentro del espectro del síndrome coronario agudo. Se clasifica en **IAMCEST** (elevación del ST en ECG) e **IAMSEST** (sin elevación del ST). El dolor típico es opresivo retroesternal > 20 minutos, con diaforesis, náuseas, irradiación a brazo izquierdo o mandíbula; en diabéticos, ancianos y mujeres puede ser **atípico** (disnea, astenia, síncope).\n\nLa prioridad en guardia es **ECG en menos de 10 minutos**. Ante **IAMCEST** o equivalentes (bloqueo de rama izquierda nuevo, imagen de ola hiperaguda): activar vía de **reperfusión urgente** (angioplastía primaria o trombólisis según tiempos y recursos). Tratamiento inicial: **ácido acetilsalicílico**, anticoagulación, nitroglicerina si PA lo permite, analgesia y betabloqueador según protocolo. Monitorizar arritmias ventriculares en las primeras 24 h.\n\n**Enfermería**: monitor cardíaco continuo, acceso venoso, oxígeno solo si hipoxemia, registro seriado de dolor (EVA) y preparación para cateterismo. Documentar hora de inicio de síntomas y hora de primer ECG. NPO hasta definición.",
+  "clinicalBoxes": [
+    {
+      "title": "Electrocardiograma — comparación visual",
+      "illustration": "ecg-sinus-vs-stemi",
+      "content": "**Criterio general de IAMCEST:** elevación del punto J ≥ **1 mm** en al menos **2 derivaciones contiguas** (criterios específicos en V2-V3 según sexo). Comparar siempre con un trazado previo si existe.\n\nAnte hallazgo compatible: activar código IAM, AAS y anticoagulación según protocolo, y no retrasar reperfusión."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Acute Coronary Syndromes Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Guía de SCA.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Acute Myocardial Infarction guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

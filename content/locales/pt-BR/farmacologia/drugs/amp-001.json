@@ -1,0 +1,58 @@
+{
+  "id": "amp-001",
+  "name": "Ampicilina",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Infecção ORL, respiratória, odontoestomatológica, gastrointestinal, geniturinária, de pele e tecido mole, neurológica, cirurgia, traumatologia, meningite bacteriana e septicemia.",
+  "indications": "## Indicações principais\n\nInfecção ORL, respiratória, odontoestomatológica, gastrointestinal, geniturinária, de pele e tecido mole, neurológica, cirurgia, traumatologia, meningite bacteriana e septicemia.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 1 g (Bagó, Drawer, Klonal, LIA, Pharmavial, Rivero).",
+      "reconstitution": "10 mL de AD. Conc.: 100 mg/mL.",
+      "diluent": "1 g em 100 mL de SF.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "E.V. direta: Sim. Reconst. 1 g em 10–15 mL de AD e passar em NÃO MENOS DE 10–15 min (veloc. máxima: 100 mg/min). E.V. intermitente: Sim. Diluir em 50–100 mL de SF. Passar em 15–60 min.",
+      "notes": "A DX 5% acelera a hidrólise da ampicilina (usar imediatamente). Prefere-se diluir com SF."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 500–1000 mg",
+      "reconstitution": "RECONSTITUIR COM ÁGUA DESTILADA.",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%, Ringer.",
+      "finalConcentration": "Entre 2 e 30 mg/mL.",
+      "infusionRate": "Entre 15 e 30 min com BIC.",
+      "dose": "Recém-nascidos: conforme idade e peso, ver Tabela de Doses de antimicrobianos em neonatologia; Crianças: 100 mg/kg/dia a cada 6 h. Pneumonia: 200 mg/kg/dia a cada 6 h; Meningite: 300–400 mg/kg/dia a cada 6 h, dose máxima: 12 g/dia; Adultos: 500–3000 mg/dose a cada 6 h. Ver tabela de ajuste de dose de antibióticos em I.R.",
+      "notes": "Quando o F.A. é reconstituído com concentração de 100 mg/ml é estável somente por 2 h em geladeira. E.V. push administrar em 3–5 minutos, infusão intermitente 15–30 minutos."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dose a cada 12 h em RN a termo; intervalos maiores em prematuros (protocolo da UTI neonatal).",
+      "administration": "E.V. lenta em bomba de seringa."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente, 4 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 4 h em temperatura ambiente e 24 h refrigerado.\n\n## Guia pediátrica\n\n- 8 h em temperatura ambiente (25°). 48 h em geladeira (4°).",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, glossite, anemia, trombocitopenia, eosinofilia, eritema, rash, urticária.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ampicilina (cód. 0018, ATC J01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

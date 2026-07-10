@@ -1,0 +1,47 @@
+{
+  "id": "sav-001",
+  "name": "Sacubitril/valsartan",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.3",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Symptomatic chronic heart failure with left ventricular systolic dysfunction. Sacubitril acts by blocking the effects of neprilysin and valsartan the angiotensin II receptor.",
+  "indications": "## Main indications\n\nSymptomatic chronic heart failure with left ventricular systolic dysfunction.\nSacubitril acts by blocking the effects of neprilysin and valsartan the angiotensin II receptor.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 24/26, 49/51 and 97/103 mg (sacubitril/valsartan).",
+      "dose": "Start 49/51 mg PO every 12 h; titrate to 97/103 mg every 12 h according to tolerance.",
+      "administration": "PO every 12 h."
+    },
+    "pediatrico": {
+      "dose": "It is progressive. For dosing consider the sum of both drugs. Children < 40 kg: initial 1.6 mg/kg/dose every 12 h, may increase dose after 2 - 4 weeks according to tolerance to 2.3 mg/kg/dose every 12 h with a maximum of 3.1 mg/kg/dose every 12 h. > 40 kg to 50 kg: initial 50 mg/dose every 12 h, may increase dose after 2 - 4 weeks according to tolerance to 100 mg/dose every 12 h with a maximum of 150 mg/dose every 12 h. > 50 kg: 100 mg/dose every 12 h, may increase dose after 2 - 4 weeks according to tolerance to 150 mg/dose every 12 h with a maximum of 200 mg/dose every 12 h.",
+      "administration": "PO",
+      "presentation": "Tablets: 50 mg (Sacubitril 24 mg + Valsartan 26 mg); 100 mg (Sacubitril 49 mg + Valsartan 51 mg); 200 mg (Sacubitril 97 mg + Valsartan 103 mg)",
+      "notes": "Increases systemic exposure of statins. With type 5 phosphodiesterase synthetic inhibitors including sildenafil, risk of hypotension. Risk of increased serum potassium and increases in serum creatinine with potassium-sparing diuretics (amiloride), mineralocorticoid antagonists (e.g.: spironolactone), potassium supplements, salt substitutes containing potassium, or others such as heparin. Increased systemic exposure with: OATP1B1, OATP1B3, OAT3 inhibitors (e.g.: rifampicin, cyclosporine), OAT1 (e.g. tenofovir, cidofovir) or MRP2 (e.g.: ritonavir). Reduces maximum concentration and AUC of metformin. Start with half the recommended dose in patients who were not on ACE inhibitor/ARB II treatment or who had been taking low doses of these medications (≤ 0.2 mg/kg/day of enalapril or equivalent). Concomitant therapy with angiotensin-converting enzyme inhibitors (e.g.: losartan) is contraindicated due to the potential risk of angioedema. If medication change is planned, discontinue ACE inhibitor/ARB II and then after 36 h start sacubitril-valsartan. Do not start treatment in patients with serum potassium levels of 5.3 mmol/L or with systolic blood pressure (SBP) < 5th percentile for patient age."
+    }
+  },
+  "stability": "## Stability\n\n- Store according to prescribing information in original packaging.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, renal function alterations, hyperkalemia, angioedema, dizziness, headache, vertigo, cough, fatigue, asthenia, anemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Sacubitril + Valsartan* (code 2090, ATC C09DX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart failure guidelines.",
+      "url": "https://www.escardio.org/"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dif-001",
+  "name": "Difenidramina",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antihistamínico. Coadjuvante antiemético. Sedante.",
+  "indications": "## Indicações principais\n\nAntihistamínico. Coadjuvante antiemético. Sedante.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Cápsulas: 50 mg; Comprimidos: 50 mg; Xarope: 2,5 mg/ml; Ampolas ou F.A. por 10 ml: 10 mg/ml",
+      "administration": "V.O.; E.V.; I.M.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "25 mg/mL.",
+      "infusionRate": "15 min. com BIC.",
+      "dose": "Lactentes: 1 mg/kg/dia; Crianças: 3 - 5 mg/kg/dia a cada 6-8 h, dose máxima: 50 mg/dose; pré-medicação: 1 mg/kg/dose, dose máxima: 50 mg/dose; . Adultos: 50 mg/dose a cada 6 - 8 h, dose máxima: 50 mg/dose.",
+      "notes": "< 6 meses podem apresentar hiperexcitabilidade paradoxal. Não usar em neonatos. V.O.: administrar com alimentos. Contraindicado em crises asmáticas."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nAtividade anticolinérgica significativa, sedação. Tontura, zumbido, fadiga, diplopia, lassidão, incoordenação, hipotensão, náuseas, vômitos, retenção urinária. Sobredose: psicose, febre, alucinações, convulsões.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — difenidrAMINA (cód. 0071, ATC R06AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

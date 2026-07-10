@@ -1,0 +1,54 @@
+{
+  "id": "cef-003",
+  "name": "Cefuroxima",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalosporina de segunda geração. Tratamento de infecções do trato respiratório alto e baixo, otite média, trato urinário, pele e tecidos moles, osso e articulações por bactérias gram-positivas e *Haemophilus influenzae*, *Escherichia coli* e *Klebsiella*.",
+  "indications": "## Indicações principais\n\nCefalosporina de segunda geração. Tratamento de infecções do trato respiratório alto e baixo, otite média, trato urinário, pele e tecidos moles, osso e articulações por bactérias gram-positivas e *Haemophilus influenzae*, *Escherichia coli* e *Klebsiella*.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 750 mg, 1,5 g E.V.; comprimidos 250–500 mg V.O.",
+      "dose": "E.V.: 750 mg–1,5 g a cada 8 h. V.O.: 250–500 mg a cada 12 h.",
+      "administration": "E.V. ou V.O."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 750–1500 mg",
+      "administration": "E.V.",
+      "diluent": "AD, SF 0,9%, SG 5%.",
+      "finalConcentration": "250 mg/mL.",
+      "infusionRate": "De 3 a 5 min.",
+      "dose": "3 a 12 anos: 75–150 mg/kg/dia a cada 8 h, dose máxima: 6 g/dia; meningite: 240 mg/kg/dia, dose máxima: 9 g/dia; > 13 anos e adultos: 750–1500 mg/dose a cada 8 h, dose máxima: 6 g/dia. Dose pré-cirúrgica em adultos: 1,5 g.",
+      "notes": "Não se aconselha em meningite por *Haemophilus influenzae*. Ajustar dose em insuficiência renal."
+    },
+    "neonatal": {
+      "dose": "Dose conforme protocolo da UTI neonatal.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Geral\n\n- E.V. diluída: 24 h refrigerada.\n\n## Guia pediátrica\n\n- 24 h em temperatura ambiente e 48 h refrigerado entre 4 °C e 8 °C.",
+  "adverseEffects": "## Efeitos adversos\n\nNeutropenia, anemia hemolítica, cefaleia, colite pseudomembranosa, flebite no local da injeção, rash, prurido anal.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefUROxima (cód. 0041, ATC J01DC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

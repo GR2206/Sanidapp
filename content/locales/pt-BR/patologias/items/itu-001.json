@@ -1,0 +1,49 @@
+{
+  "id": "itu-001",
+  "name": "Infecção urinária complicada e pielonefrite",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **infecção do trato urinário (ITU) complicada** ocorre na presença de anomalia estrutural ou funcional, instrumentação recente, gestação, diabetes ou imunossupressão. A **pielonefrite aguda** é infecção do parênquima renal, com febre, dor lombar, náuseas e às vezes sintomas miccionais. Em homens jovens toda ITU é considerada complicada; em idosos pode apresentar-se apenas com alteração do estado geral.\n\nO diagnóstico combina clínica, urocultura e, se houver febre persistente ou má resposta, imagem (ultrassonografia ou TC) para descartar obstrução ou abscesso. Antibiótico empírico conforme diretriz local (ceftriaxona, fluoroquinolona se baixa resistência, piperacilina-tazobactam em casos graves ou hospitalizados). Duração habitual 7–14 dias conforme gravidade. Internar se vômitos, septicemia, gestação, falha renal ou intolerância oral.\n\n**Enfermagem**: registrar temperatura e dor lombar, incentivar hidratação oral se tolera, controle de diurese, culturas antes do antibiótico quando possível sem retardar dose em quadro grave, e orientação sobre higiene e adesão ao tratamento.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes de ITU.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "European Association of Urology. Urological Infections guidelines.",
+      "url": "https://uroweb.org/guidelines"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacino"
+    },
+    {
+      "drugId": "lev-001",
+      "label": "Levofloxacino"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimetoprima/sulfametoxazol"
+    }
+  ]
+}

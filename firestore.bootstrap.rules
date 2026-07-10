@@ -1,0 +1,10 @@
+rules_version = '2';
+// REGLAS TEMPORALES DE ARRANQUE — publicar solo para la primera configuración.
+// Después de registrar tu usuario y crear admin, volver a firestore.rules (estrictas).
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /apps/sanidapp/{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

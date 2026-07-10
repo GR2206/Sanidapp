@@ -1,0 +1,51 @@
+{
+  "id": "ipr-001",
+  "name": "Ipratropium bromide",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antimuscarinic anticholinergic bronchodilator.",
+  "indications": "## Main indications\n\nAntimuscarinic anticholinergic bronchodilator.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Nebulization 0.25–0.5 mg; MDI.",
+      "dose": "0.5 mg nebulization every 6–8 h; combine with salbutamol in crisis.",
+      "administration": "Nebulization."
+    },
+    "pediatrico": {
+      "dose": "Bronchospasm: Aerosol: 3–14 years: 1–2 puffs 3 times daily up to 6 puffs/day; adults: 2 puffs 4 times daily up to 12 puffs/day. Nebulizer solution: neonates: 25 µg/kg/dose every 8 h; infants and children: 125–250 µg 3 times daily; >12 years and adults: 500 µg 3–4 times daily.",
+      "administration": "Inhalation",
+      "presentation": "Aerosol: 20 µg/dose; Nebulizer solution: 0.25 mg/mL (12.5 µg/drop)",
+      "notes": "Not recommended for children under 12 years (aerosol). Onset of action is slower than beta-adrenergic agonists."
+    },
+    "neonatal": {
+      "dose": "0.25 mg nebulization per NICU respiratory protocol.",
+      "administration": "Nebulization."
+    }
+  },
+  "stability": "## Stability\n\n- Mixture with salbutamol stable for one shift.",
+  "adverseEffects": "## Adverse effects\n\nDry mouth, cough, symptom exacerbation, local irritation, urinary retention, constipation.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Ipratropium (code 0473, ATC R03BB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

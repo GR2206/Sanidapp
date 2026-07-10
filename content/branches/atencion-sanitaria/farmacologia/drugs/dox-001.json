@@ -1,0 +1,40 @@
+{
+  "id": "dox-001",
+  "name": "Doxiciclina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "executiveSummary": "Tetraciclina de vida media larga; atípicas, rickettsias y malaria profilaxis.",
+  "indications": "## Indicaciones\n\n- Neumonía atípica, rickettsiosis, borreliosis, brucelosis.\n- Profilaxis de malaria (esquemas).\n\n## Precauciones\n\n- Evitar < 8 años (manchado dental) salvo indicación vital. Fotosensibilidad.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 100 mg; frasco IV.",
+      "dose": "100 mg VO cada 12 h o carga 200 mg día 1.",
+      "administration": "VO con agua, erecto."
+    },
+    "pediatrico": {
+      "dose": "> 8 años: 2–4 mg/kg/día cada 12 h.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- IV: proteger de luz; usar pronto.",
+  "adverseEffects": "## Efectos\n\n- Náuseas, fotosensibilidad, esofagitis si no se traga con agua.",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "icc-001",
+  "name": "Insuficiencia cardíaca (ICC)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **insuficiencia cardíaca** es un síndrome clínico en el que el corazón no bombea sangre de forma eficaz para las necesidades metabólicas, o lo hace solo con presiones de llenado elevadas. En guardia predominan las **descompensaciones agudas**: edema agudo de pulmón, ICC con congestión sistémica, perfil húmedo-frío (bajo gasto) o crisis hipertensivas asociadas. La anamnesis explora disnea paroxística nocturna, ortopnea, ganancia ponderal, adherencia a diuréticos y factores desencadenantes (infección, arritmia, IAM, anemia).\n\nEl examen valora crepitantes, ingurgitación yugular, reflujo hepatoyugular, edemas, ritmo y soplos. El **ECG**, radiografía de tórax, BNP/NT-proBNP, ionograma y función renal orientan gravedad y plan terapéutico. El tratamiento agudo combina **diuréticos de asa** (furosemida IV), vasodilatadores (nitroglicerina) en perfil hipertenso, oxígeno o VNI según hipoxemia, y manejo de la causa desencadenante. En choque cardiogénico se requiere inotrópicos y cuidados intensivos.\n\n**Enfermería**: peso diario, balance hídrico estricto, monitorización de diuresis post-furosemida, control de electrolitos (K⁺, Mg²⁺), posición semisentada y restricción de sodio y líquidos según orden médica. Detectar precozmente hipotensión, oliguria y alteración del estado mental.",
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemida"
+    },
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "dob-001",
+      "label": "Dobutamina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "esp-001",
+      "label": "Espironolactona"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Consensos de insuficiencia cardíaca.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology. Heart Failure Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Heart Failure guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

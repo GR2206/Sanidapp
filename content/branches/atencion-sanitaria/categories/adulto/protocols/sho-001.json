@@ -1,0 +1,27 @@
+{
+  "id": "sho-001",
+  "title": "Shock séptico: reanimación inicial",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Ante shock séptico, iniciar reanimación con cristaloides, antibiótico precoz y vasopresores si persiste hipotensión tras volumen, con monitorización estrecha.",
+  "body": "## Pasos a realizar\n\n1. Asegurar vía aérea, ventilación y oxigenación adecuadas.\n2. Canalizar dos vías periféricas de grueso calibre; acceso central si precisa.\n3. Infundir cristaloides balanceados 30 ml/kg en bolus, reevaluando respuesta hemodinámica.\n4. Administrar antibiótico de amplio espectro en la primera hora desde el reconocimiento.\n5. Tomar hemocultivos y cultivos de foco antes del antibiótico si no retrasa su inicio.\n6. Iniciar noradrenalina como vasopresor de primera línea si la hipotensión persiste tras fluidos.\n7. Monitorizar PAM invasiva si está disponible, diuresis horaria y lactato seriado.\n8. Preparar y administrar fluidos y drogas vasoactivas con bomba de infusión según prescripción.\n9. Vigilar extravasación, perfusión periférica y signos de sobrecarga hídrica.\n10. Registrar tiempos críticos: reconocimiento, antibiótico, inicio de fluidos y vasopresores.\n\n## Fundamentación científica\n\n### Indicaciones\n\nSepsis con necesidad de vasopresores para mantener PAM ≥ 65 mmHg y lactato > 2 mmol/L pese a reanimación inicial adecuada (definición operativa de shock séptico).\n\n### Objetivos de reanimación (primeras 3–6 horas)\n\n| Parámetro | Objetivo inicial |\n| --- | --- |\n| PAM | ≥ 65 mmHg |\n| Lactato | Descenso ≥ 10% en 2–4 h si elevado |\n| Diuresis | ≥ 0,5 ml/kg/h (si no tiene IRA previa) |\n| SpO₂ | ≥ 92% o según prescripción |\n\n### Evidencia y recomendaciones\n\n> **Surviving Sepsis Campaign 2021:** Reanimación con cristaloides balanceados, antibiótico precoz y noradrenalina como vasopresor de primera línea. La reanimación guiada por objetivos dinámicos puede requerir evaluación médica avanzada según recursos del servicio.\n\n### Rol de enfermería\n\n- Preparar y administrar fluidos y drogas vasoactivas según prescripción con bomba de infusión.\n- Vigilar extravasación, perfusión periférica y signos de sobrecarga hídrica.\n- Registrar tiempos críticos: reconocimiento, antibiótico, inicio de fluidos y vasopresores.\n\n### Complicaciones\n\n- Sobrecarga hídrica y edema pulmonar.\n- Extravasación de vasopresores.\n- Arritmias por electrolitos o fármacos.\n- Disfunción multiorgánica refractaria.",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "Rhodes A, Evans LE, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensive Care Med. 2017;43(3):304-377.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28101605/"
+    },
+    {
+      "citation": "SATI — Guías y consensos de la Sociedad Argentina de Terapia Intensiva.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "Surviving Sepsis Campaign — Guías y recursos oficiales.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    }
+  ]
+}

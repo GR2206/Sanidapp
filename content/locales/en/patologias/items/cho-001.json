@@ -1,0 +1,53 @@
+{
+  "id": "cho-001",
+  "name": "Acute Cholangitis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Acute cholangitis** is an infection of the biliary tree, almost always caused by obstruction (choledocholithiasis, stricture, tumor). The classic **Charcot's triad** comprises fever, jaundice, and right upper quadrant abdominal pain; **Reynolds' pentad** adds hypotension and altered mental status, defining severe cholangitis. In the emergency department, it should be suspected in any jaundiced patient presenting with fever or chills, especially those with a history of cholelithiasis or prior biliary intervention.\n\nManagement combines broad-spectrum antibiotics (covering enteric Gram-negative bacilli and anaerobes according to local guidelines) and urgent biliary drainage in moderate-to-severe forms (ERCP, percutaneous or surgical drainage depending on available resources). Resuscitation with crystalloids is required if septic shock is present. Do not delay antibiotic administration while waiting for imaging studies if clinical suspicion is high. Transfer to the ICU in cases presenting with Reynolds' pentad or organ dysfunction.\n\n**Nursing:** monitor BP, HR, temperature, and level of consciousness; monitor for jaundice and choluria; maintain NPO status until a clear plan is defined; prepare the patient for ERCP (consent form, coagulation panel, venous access); and record hourly antibiotic administration and urine output.",
+  "clinicalBox": {
+    "title": "Severity — Tokyo Guidelines (Summary)",
+    "content": "**Mild (Grade I):** responds to fluids and antibiotics; no organ dysfunction.\n**Moderate (Grade II):** characterized by leukocytosis/leukopenia, high fever, age > 75, marked hyperbilirubinemia, or associated UTI.\n**Severe (Grade III):** presents with cardiovascular, neurological, respiratory, renal, hepatic, or hematological dysfunction.\n\n**Charcot's Triad:** fever + jaundice + RUQ pain · **Reynolds' Pentad:** Charcot's triad + hypotension + altered mental status → urgent drainage."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "pip-001",
+      "label": "Piperacillin/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazole"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Tokyo Guidelines. Management of acute cholangitis and cholecystitis.",
+      "url": "https://www.jshbps.jp/en/guideline/"
+    },
+    {
+      "citation": "Sociedad Argentina de Gastroenterología (SAGE). Vía biliar y colangitis.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Society for Gastrointestinal Endoscopy. Role of ERCP in biliary disease.",
+      "url": "https://www.asge.org/"
+    }
+  ]
+}

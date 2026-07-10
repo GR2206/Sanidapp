@@ -1,0 +1,62 @@
+{
+  "id": "col-001",
+  "name": "Colistina",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Organismos multirresistentes, fibrose cística.",
+  "indications": "## Indicações principais\n\nOrganismos multirresistentes, fibrose cística.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 100 mg de colistina em base ativa (Permalec*, Fabra*, Colistina Richet*, Techsphere*, Alfacolin*, Alficetin, Nolisin, Cotrelan*, Colislym, Espirotech*).",
+      "reconstitution": "2 mL de AD. Conc.: 50 mg/mL.",
+      "diluent": "100 mg em 50–100 mL de SF ou SG 5%.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "E.V. direta: Sim. Reconst. em 3–5 mL de AD e passar em 3–5 min. E.V. intermitente: Sim. Diluir em 50 mL de SF ou SG 5% e infundir em 10–15 min.",
+      "notes": "100 mg de colistina base equivalem aproximadamente a 240 mg de colistina metanosulfonato e a 3.000.000 UI de potência. É possível a administração I.M. ou inalatória."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 100 mg de colistina base (3.000.000 U.I.)",
+      "administration": "E.V.; Intratecal; Inalatória",
+      "diluent": "SF 0,9%, SG 5%, AD, Ringer.",
+      "finalConcentration": "Conforme necessidades hídricas do paciente.",
+      "infusionRate": "Bolus de 3 a 5 min.",
+      "dose": "E.V.: 2,5 colistina base/kg/dose a cada 12 h. Infecções graves, pacientes críticos e fibrose cística: 7 mg de colistina base/kg/dia a cada 8 h. Dose máxima: 100 mg/dose. Adultos dose de carga: 5 mg de colistina base/kg/dose (dose máxima 300 mg); depois de 12 h pós-carga: 100 mg/dose a cada 8 h. Equivalência: 1 mg de colistimetato sódico = 12.500 U de colistimetato sódico = 0,4 mg de colistina base.",
+      "compatibility": "Precipita concomitantemente com eritromicina, cefalotina, tetraciclina.",
+      "notes": "Aumenta o risco de ototoxicidade e nefrotoxicidade com aminoglicosídeos, ciclosporina, anfotericina e cisplatina."
+    },
+    "neonatal": {
+      "dose": "Dose conforme protocolo da UTI neonatal e peso; monitorização renal rigorosa.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente, 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Usar imediatamente após diluído (24 h em temperatura ambiente).\n\n## Guia pediátrica\n\n- 8 h em temperatura ambiente, 24 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nFraqueza muscular, parestesia facial, distúrbios visuais, nefrotóxico. Pode produzir broncoespasmo quando nebulizado (tratar com β-agonistas).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Colistina Metansulfonato (Colistimetato sódico) (cód. 1202, ATC J01XB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

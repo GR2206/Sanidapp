@@ -1,0 +1,27 @@
+{
+  "id": "bro-p001",
+  "title": "Acute bronchiolitis in infants",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Provide supportive care: oxygen for hypoxemia, maintain hydration, and suction secretions as needed; do not routinely use bronchodilators, corticosteroids, or antibiotics.",
+  "body": "## Steps to perform\n\n1. Assess vital signs and clinical status: SpO₂, RR, work of breathing (retractions/accessory muscle use), feeding tolerance, and urine output.\n2. Apply the institutional severity scale (e.g., Wood–Downes, RDAI) and document risk factors.\n3. Start oxygen therapy if SpO₂ is < 90–92% (target per local protocol; commonly ≥ 90%).\n4. Maintain hydration: oral intake if tolerated; IV or nasogastric route if intake is < 50–75% or if dehydration is present.\n5. Suction nasal secretions using normal saline before feeds.\n6. Position the infant semi-upright and minimize handling that increases irritability.\n7. Implement contact isolation (RSV is highly contagious).\n8. Monitor for respiratory fatigue: grunting, apnea, cyanosis, or worsening distress.\n9. Do not routinely administer bronchodilators, systemic corticosteroids, antibiotics, or respiratory physiotherapy without a medical order.\n10. Educate the family on hand hygiene, avoidance of tobacco smoke, and warning signs requiring urgent reassessment.\n11. Escalate for admission or PICU transfer if SpO₂ remains persistently low, or if there are apneas, severe dehydration, or severe distress.\n\n## Scientific rationale\n\n### Definition\n\nA viral lower respiratory tract infection (most commonly RSV) in children < 2 years old, typically presenting with wheeze and increased work of breathing.\n\n### Initial assessment (high-yield)\n\n- SpO₂, RR, retractions/accessory muscle use, feeding status, urine output.\n- Institutional severity score (e.g., Wood–Downes, RDAI).\n- Risk factors: prematurity, congenital heart disease, bronchopulmonary dysplasia, age < 3 months.\n\n### Interventions not routinely recommended\n\n- Routine nebulized bronchodilators.\n- Systemic corticosteroids.\n- Antibiotics without documented bacterial co-infection.\n- Routine respiratory physiotherapy.\n\n> **Source:** Ralston SL, Lieberthal AS, Meissner HC, et al. Clinical Practice Guideline: Bronchiolitis. AAP. Pediatrics. 2014.\n\n### Admission / PICU criteria\n\n- SpO₂ persistently < 90% despite oxygen therapy.\n- Apneas, lethargy, or hypoperfusion.\n- Markedly reduced oral intake with dehydration.\n- RR > 70/min or severe respiratory distress.\n\n### Family education\n\n- Hand hygiene and tobacco avoidance.\n- Clear warning signs for urgent re-consultation.",
+  "bibliography": [
+    {
+      "citation": "Ralston SL, Lieberthal AS, Meissner HC, et al. Clinical Practice Guideline: Bronchiolitis. AAP. Pediatrics. 2014.",
+      "url": "https://publications.aap.org/pediatrics/article/134/5/e1474/74393"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Updated Guidance: Use of Palivizumab to Prevent RSV. 2022.",
+      "url": "https://publications.aap.org/aapnews/news/20880"
+    },
+    {
+      "citation": "SATI — Comité de Neumonología Crítica.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "SATI — Pediatría.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

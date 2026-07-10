@@ -1,0 +1,47 @@
+{
+  "id": "ate-001",
+  "name": "Atenolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Selective beta-blocker. Antihypertensive. Beta-adrenergic antagonist.",
+  "indications": "## Main indications\n\nSelective beta-blocker. Antihypertensive. Beta-adrenergic antagonist.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 50 and 100 mg. Ampoule 5 mg/10 mL (limited IV use).",
+      "dose": "HTN/angina: 50–100 mg/day PO. Arrhythmias: per cardiology protocol.",
+      "administration": "PO in single or divided doses."
+    },
+    "pediatrico": {
+      "dose": "Children: initial: 0.5 to 1 mg/kg/day every 12-24 h; maximum dose: 2 mg/kg/day, up to 100 mg/day. Adults: 25-50 mg/day every 24 h, maximum dose: hypertension: 100 mg/day; angina: 200 mg/day.",
+      "administration": "PO",
+      "presentation": "Tablets: 50-100 mg; Suspension (compounded preparation): 5 mg/mL",
+      "notes": "Avoid abrupt discontinuation. Use with caution in patients with bronchospasm, diabetes mellitus, hyperthyroidism. Initial doses of antihypertensives are tentative and should be modified according to clinical response and side effects. See preliminary guide for prevention of teratogenesis caused by medications."
+    }
+  },
+  "stability": "## Stability\n\n- Tablets per prescribing information.",
+  "adverseEffects": "## Adverse effects\n\nFatigue, lethargy, hallucinations, bradycardia, hypotension, rash, nausea, vomiting.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Atenolol (code 0263, ATC C07AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension and arrhythmia guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

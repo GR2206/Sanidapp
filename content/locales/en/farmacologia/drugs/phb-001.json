@@ -1,0 +1,58 @@
+{
+  "id": "phb-001",
+  "name": "Phenobarbital",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Anticonvulsant, hypnotic.",
+  "indications": "## Main indications\n\nAnticonvulsant, hypnotic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 200 mg/mL.",
+      "dose": "Loading 15–20 mg/kg slow IV; maintenance 1–3 mg/kg/day.",
+      "administration": "Very slow IV."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 15-100 mg; Ampoules 2 ml: 50 mg/ml; Solution (compounded): 20 mg/ml See Formulation",
+      "administration": "PO; IV; IM",
+      "diluent": "0.9% NaCl.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "30 mg/min with continuous infusion pump.",
+      "dose": "Loading (IV; IM): 20 mg/kg/dose, maximum dose: 1 g. Maintenance (PO; IV): 3-5 mg/kg/day every 12-24 h. Adults: 100 mg every 12 h, maximum dose: 600 mg. Renal insufficiency with glomerular filtration < 10 ml/min/1,73 m²: reduce dose by 50% and administer every 24 h; intermittent hemodialysis (20-50% dialyzed): an extra dose may be necessary, administer a dose during and after; peritoneal dialysis (40-50% dialyzed, depending on number of cycles); continuous replacement therapy: monitor serum levels, in some cases higher and more frequent doses may be necessary. Hepatic insufficiency: although dose reduction is recommended, no specific dose adjustment exists.",
+      "notes": "In both hepatic and renal insufficiency frequent serum level monitoring is recommended; in some cases higher and more frequent doses may be necessary. Enzyme inducer, reduces plasma concentration of: carBAMazepine, clonazePAM, lamoTRIgina, valproate. Anticonvulsant effects are antagonized by antidepressants and antipsychotics. Administer undiluted or dilute with equal volume of normal saline. Maximum infusion rate: children: 30 mg/min, adults or > 60 kg: 60 mg/min. See preliminary guide for prevention of medication-related teratogenesis."
+    },
+    "neonatal": {
+      "dose": "Loading 15–20 mg/kg; maintenance 3–4 mg/kg/day (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Do not mix with other drugs in Y-site.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, irritability and hyperactivity, ataxia, cutaneous rash, cardiorespiratory depression.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — FENobarbital (code 0092, ATC N03AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

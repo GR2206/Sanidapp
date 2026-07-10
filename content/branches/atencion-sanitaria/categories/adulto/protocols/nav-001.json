@@ -1,0 +1,27 @@
+{
+  "id": "nav-001",
+  "title": "Prevención de neumonía asociada a ventilación mecánica",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Aplicar el bundle de prevención de NAVM: higiene bucal, elevación de cabecera, sedación mínima, destete ventilatorio precoz y manejo del circuito.",
+  "body": "## Pasos a realizar\n\n1. Realizar higiene bucal con clorhexidina cada 6–8 h (salvo contraindicación).\n2. Mantener elevación de cabecera 30–45° de forma continua, salvo contraindicación hemodinámica.\n3. Aplicar sedación mínima y valorar diariamente ventana de sedación / prueba de respiración espontánea según protocolo médico.\n4. Administrar profilaxis de úlcera por estrés y tromboprofilaxis según prescripción.\n5. Manejar el circuito: no cambiar rutinariamente; evitar condensado en vía aérea.\n6. Aplicar descontaminación digestiva selectiva solo si está indicada por protocolo institucional.\n7. Realizar higiene de manos estricta antes y después de manipular la vía aérea.\n8. Vigilar temperatura, secreciones traqueales (cantidad, color, olor) y oxigenación.\n9. Registrar días de ventilación mecánica y eventos asociados.\n10. Comunicar fiebre nueva, secreciones purulentas o empeoramiento radiológico de inmediato.\n\n## Fundamentación científica\n\n### Indicaciones\n\nNeumonía que se desarrolla ≥ 48 horas después de la intubación endotraqueal y ventilación mecánica invasiva.\n\n### Evidencia y recomendaciones\n\n> **SATI / Sociedad Argentina de Infectología 2024:** Consenso intersociedades sobre prevención de neumonía asociada a ventilación mecánica con bundle multimodal.\n\n> **Klompas et al. 2022 (SHEA/IDSA):** Actualización de estrategias para prevenir NAVM, eventos ventilatorios asociados y neumonía nosocomial no ventilatoria.\n\n### Bundle de prevención (referencia)\n\n| Medida | Frecuencia / criterio |\n| --- | --- |\n| Higiene bucal con clorhexidina | Cada 6–8 h |\n| Elevación de cabecera | 30–45° continua |\n| Sedación mínima | Valoración diaria |\n| Manejo del circuito | Sin recambio rutinario |\n\n### Criterios de sospecha clínica\n\n- Fiebre nueva o leucocitosis/leucopenia.\n- Secreciones purulentas aumentadas.\n- Empeoramiento de oxigenación o infiltrado radiológico nuevo.\n\n### Complicaciones\n\n- Neumonía asociada a ventilación mecánica confirmada.\n- Prolongación de ventilación mecánica y estancia en UTI.\n- Sepsis respiratoria.",
+  "bibliography": [
+    {
+      "citation": "SATI / Sociedad Argentina de Infectología. Neumonía Asociada a Ventilación Mecánica — Actualización y Consenso Intersociedades 2024.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "SATI — Comité de Neumonología Crítica. Guía de prevención de la neumonía asociada a la VM.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Klompas M, et al. Strategies to Prevent Ventilator-Associated Pneumonia, Ventilator-Associated Events, and Nonventilator Hospital-Acquired Pneumonia in Acute-Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    }
+  ]
+}

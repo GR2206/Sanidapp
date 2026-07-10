@@ -1,0 +1,45 @@
+{
+  "id": "ecl-001",
+  "name": "Eclampsia and severe preeclampsia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Preeclampsia** is arterial hypertension (≥140/90) presenting with proteinuria or target-organ dysfunction after 20 weeks of gestation. **Severe preeclampsia** is characterized by BP ≥160/110, thrombocytopenia, impaired liver function, renal insufficiency, pulmonary edema, or cerebral or visual symptoms. **Eclampsia** is defined as the onset of tonic-clonic seizures within the clinical context of preeclampsia and constitutes an obstetric emergency.\n\nManagement combines IV **magnesium sulfate** (for seizure prophylaxis and treatment), blood pressure control utilizing **labetalol, hydralazine, or nifedipine** according to obstetric protocols, and **delivery of the fetus** when maternal or fetal safety is compromised (timing is dependent on gestational age and obstetric criteria). Monitor patellar reflexes, urine output, and respiratory rate during magnesium sulfate administration due to the risk of toxicity. In active eclampsia: stabilize the patient, protect the airway, and arrange for immediate transfer to the maternity unit or ICU.\n\n**Nursing:** monitor BP every 15 minutes until stabilized, maintain strict fluid balance, perform continuous fetal monitoring if applicable, prepare magnesium sulfate via an infusion pump, and ensure the antidote (calcium gluconate) is readily available. Record any seizure activity, time of the last meal, and antihypertensive medication administration. Coordinate care closely with obstetrics and neonatology.",
+  "relatedDrugs": [
+    {
+      "drugId": "mag-001",
+      "label": "Magnesium sulfate"
+    },
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "hdr-001",
+      "label": "Hydralazine"
+    },
+    {
+      "drugId": "cag-001",
+      "label": "Calcium gluconate"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American College of Obstetricians and Gynecologists. Gestational Hypertension and Preeclampsia.",
+      "url": "https://www.acog.org/clinical"
+    },
+    {
+      "citation": "Sociedad Argentina de Ginecología y Obstetricia (SAGO). Guías de hipertensión en el embarazo.",
+      "url": "https://www.sago.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Society for the Study of Hypertension in Pregnancy. ISSHP guidelines.",
+      "url": "https://www.glowm.com/"
+    }
+  ]
+}

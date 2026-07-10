@@ -1,0 +1,53 @@
+{
+  "id": "amf-003",
+  "name": "Anfotericina B complejo lipídico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Neutropénico febril al 7mo día. Infiltrado pulmonar durante la neutropenia. Micosis sistémicas documentadas.",
+  "indications": "## Indicaciones principales\n\nNeutropénico febril al 7mo día. Infiltrado pulmonar durante la neutropenia. Micosis sistémicas documentadas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA conteniendo 100 mg en 20 mL de solución (Abelcet).",
+      "reconstitution": "No requiere reconstitución previa. Conc: 5 mg/mL.",
+      "diluent": "100 mg en 100 mL de DX 5%. No utilizar SF.",
+      "finalConcentration": "1 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Extraer con una jeringa la dosis necesaria y utilizar el filtro que viene con el frasco. Introducir la dosis requerida en 100 mL de DX 5% y administrar en 120 min.",
+      "notes": "Todo el material no utilizado debe ser descartado (no contiene conservantes). Utilizar la aguja con filtro para retirar la solución del frasco y luego preparar la infusión."
+    },
+    "pediatrico": {
+      "dose": "Iniciar 0,5 mg/kg/día, aumentar 0,2 mg/kg/día cada 24 hs, hasta 1 mg/Kg/día, dosis máxima: 50 mg/día. Forma rápida de administración: iniciar 0,25 mg/kg e ir aumentando con intervalos de 6 hs hasta 1 mg/kg/día . No exceder de 1,5 mg/kg/día.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 50 mg",
+      "notes": "Infundir en 4-6 hs a una concentración de 0,1 mg/ml en dextrosa 5% por vía perférica y hasta 0,5 mg/ml por vía central. Premedicar para disminuir reacciones adversas con hidrocortisona, paracetamol, difenhidramina 30 min. antes de la infusión. No administrar con soluciones que contengan electrolitos. Corregir hipokalemia pre-administración."
+    },
+    "neonatal": {
+      "dose": "Dosis según protocolo NNU.",
+      "administration": "IV central."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- Vial de uso único. Mantener refrigerado.\n\n## Solución diluida (a administrar)\n\n- 6 hs a T° amb y 48 hs refrigerado. Usar perfus fotosensible.",
+  "adverseEffects": "## Efectos adversos\n\nFiebre, escalofríos, vómitos (relacionadas con la infusión), hipokalemia (25%), hipomagnesemia. Nefrotoxicidad: puede prevenirse con infusión salina previa. Anemia (75%). Raros: leucopenia, trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Anfotericina B (DEOXICOLATO) (cód. 0020, ATC J02AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

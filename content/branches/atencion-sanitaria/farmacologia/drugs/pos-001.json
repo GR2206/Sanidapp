@@ -1,0 +1,49 @@
+{
+  "id": "pos-001",
+  "name": "Posaconazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamiento de infecciones fúngicas invasivas (IFI), cuando otros fármacos de primera línea no pueden utilizarse o han resultado ineficaces (aspergilosis, fusariosis, cromoblastomicosis, micetoma, coccidioidomicosis) y como tratamiento en primera línea en pacientes seleccionados ",
+  "indications": "## Indicaciones principales\n\nTratamiento de infecciones fúngicas invasivas (IFI), cuando otros fármacos de primera línea no pueden utilizarse o han resultado  ineficaces (aspergilosis, fusariosis, cromoblastomicosis, micetoma, coccidioidomicosis) y como tratamiento en primera línea en  pacientes seleccionados con candidiasis orofaríngea.\nProfilaxis de IFI en pacientes inmunodeprimidos (pacientes con leucemia mieloide aguda,o síndrome mielodisplásico bajo quimioterapia o trasplante de células madre hematopoyéticas bajo tratamiento inmunosupresor).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Solución para concentrado para solución para infusión conteniendo 300 mg en 16,7 mL (18 mg/mL) (Noxafil IV).",
+      "reconstitution": "No requiere reconstitución previa. Conc: 18 mg/mL.",
+      "diluent": "300 mg en 150-250 mL de SF, DX 5% o Ringer lactato.",
+      "finalConcentration": "1-2 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 150-250 mL de SF, DX 5% o Ringer lactato y admin. en 90 min mediante filtro en línea (0,22 µm). Usar vía central preferentemente.",
+      "notes": "Requiere filtro en línea de 0,22 µm. Preferir vía central (irritante en vía periférica). Dosis de carga: 300 mg c/12 h el día 1; mantenimiento: 300 mg/día. Indicado en profilaxis y tratamiento de aspergilosis y otras micosis invasoras. Múltiples interacciones por inhibición del CYP3A4."
+    },
+    "pediatrico": {
+      "dose": "Suspensión de liberación inmediata: Profilaxis: 4 - 6 mg/kg/dosis cada 8 hs, máximo: 400 mg/dosis; Tratamiento: 4 - 6 mg/kg/dosis cada 6 hs Comprimidos de liberación prolongada: &ge; 3 años y adolescentes &le; 17 años: dosis de carga (x 24 hs): 5 - 7 mg/kg/dosis cada 12 hs, máximo: 300 mg/dosis), mantenimiento: 5 - 7 mg/kg/dosis cada 24 hs , máximo 300 mg/dosis. Ajustar dosis por monitoreo terapéutico (rango deseado profilaxis: &ge; 700 ng/mL, tratamiento: 1000 - 1250 ng/mL)",
+      "administration": "V.O.",
+      "presentation": "Comprimidos de liberación modificada: 100 mg; Suspensión oral por 105 ml: 40 mg/ml",
+      "notes": "El comprimido y la suspensión oral no se deben usar indistintamente, debido a las diferencias existentes en cuanto a la dosificación de cada formulación. Los comprimidos de liberación modificada pueden administrarse con o sin comidas y la suspensión oral debe administrarse con una comida o un suplemento nutricional en aquellos pacientes que no toleran una comida para mejorar la absorción. No se pueden partir. Concentración aumentada por verapamilo, ciclosporina, claritromicina, eritromicina. Aumenta concentración de vincristina, vinblastina (riesgo de neurotoxicidad), ciclosporina, tacrólimus, sirolimus (reducir dosis al iniciarse tratamiento con posaconazol y controlar su nivel sanguíneo); atazanavir, inhibidores de la proteasa (vigilar efectos adversos), digoxina (monitorizar niveles al iniciar tratamiento). Concentración disminuida por fosamprenavir, antagonistas H2 e inhibidores de bomba protones."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- No aplica.\n\n## Solución diluida (a administrar)\n\n- 12 hs a T° amb, 24 hs refrigerado.",
+  "adverseEffects": "## Efectos adversos\n\nNeutropenia, desequilibrio electrolítico, anorexia, apetito disminuido, hipocalemia, hipomagnesemia, parestesia, mareo, somnolencia, cefalea, disgeusia, hipertensión, náuseas, vómitos, dolor abdominal, diarrea, dispepsia, sequedad de boca, flatulencia, estreñomiento, molestia anorrectal, erupción, prurito, fiebre, astenia, fatiga. ",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Posaconazol* (cód. 1742, ATC J02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

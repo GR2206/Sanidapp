@@ -1,0 +1,27 @@
+{
+  "id": "vip-001",
+  "title": "Colocación de vía periférica",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Insertar catéter venoso periférico con técnica asséptica no táctil, antiséptico en piel, fijación adecuada y retiro precoz si no es indispensable.",
+  "body": "## Pasos a realizar\n\n1. Identificar paciente, alergias y prescripción (calibre, tipo de solución).\n2. Realizar higiene de manos (técnica OMS) antes y después del procedimiento.\n3. Explicar al paciente y posicionar extremidad extendida.\n4. Aplicar torniquete 5–10 cm proximal al sitio; palpar y seleccionar vena.\n5. Desinfectar piel con clorhexidina alcohólica en fricción circular; **dejar secar completamente**.\n6. Insertar catéter con técnica no táctil a 15–30° hasta retorno de sangre en cámara.\n7. Retirar torniquete antes de avanzar completamente si aún está colocado.\n8. Introducir catéter, retirar aguja y conectar equipo cerrado sin desconectar innecesariamente.\n9. Fijar con apósito transparente sin comprimir.\n10. Registrar fecha, hora, sitio, calibre y número de intentos.\n11. Revisar cada turno eritema, dolor, edema, exudado, flebitis o extravasación.\n12. Retirar cuando finalice tratamiento o ante signos de complicación; reevaluar necesidad diariamente.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Administración de medicación o fluidos IV.\n- Toma de muestras sanguíneas cuando no hay acceso alternativo.\n- Contraste o procedimientos según prescripción.\n- Reanimación con acceso periférico de urgencia.\n\n### Selección del sitio\n\n| Preferencia | Sitio |\n| --- | --- |\n| Primera opción | Antebrazo (venas basílica, cefálica o mediana cefálica) |\n| Alternativa | Dorso de mano (mayor riesgo de flebitis) |\n| Evitar | Extremidad con fístula AV, linfedema, trombosis o infección local |\n| Evitar | Miembro de lado con mastectomía radical (salvo indicación médica) |\n\n### Material\n\n- Catéter venoso periférico estéril (calibre según prescripción).\n- Torniquete, antiséptico (clorhexidina alcohólica 0,5–2% preferente).\n- Apósito transparente semipermeable estéril.\n- Equipo de infusión estéril y contenedor punzocortante.\n\n### Evidencia y recomendaciones\n\n> **OMS 2024:** Guías para prevención de septicemias por catéteres periféricos con técnica asséptica no táctil y clorhexidina en piel.\n\n> **CDC 2011 (O'Grady et al.):** No recambiar catéter de rutina; retirar cuando ya no sea indispensable.\n\n### Criterios de retiro inmediato\n\n- Flebitis, infiltración o extravasación.\n- Sospecha de infección del sitio o bacteriemia asociada al catéter.\n- Mal funcionamiento u obstrucción no resuelta.\n- Catéter ya no indispensable.\n\n### Complicaciones — avisar de inmediato\n\n- Extravasación de fármaco vesicante o irritante.\n- Hematoma extenso o sangrado persistente.\n- Dolor intenso, cianosis distal o pérdida de pulso.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections and other infections associated with the use of intravascular catheters — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "OMS — Noticias: nuevas orientaciones para reducir septicemias por catéteres (2024).",
+      "url": "https://www.who.int/es/news-room/09-05-2024-new-guidance-aims-to-reduce-bloodstream-infections-from-catheter-use"
+    },
+    {
+      "citation": "SATI — Consenso interinstitucional: prevención de infecciones asociadas a dispositivos (accesos vasculares).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011. CDC / Healthcare Infection Control Practices Advisory Committee.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    }
+  ]
+}

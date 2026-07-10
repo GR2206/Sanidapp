@@ -1,0 +1,46 @@
+{
+  "id": "aml-001",
+  "name": "Amlodipino",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Hipertensión. Bloqueante de los canales de calcio.",
+  "indications": "## Indicaciones principales\n\nHipertensión. Bloqueante de los canales de calcio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5 y 10 mg.",
+      "dose": "5–10 mg/día VO en dosis única matutina.",
+      "administration": "VO."
+    },
+    "pediatrico": {
+      "dose": "Niños: inicial: 0,06 mg/kg/día (hasta 5 mg/día), una vez por día; dosis máxima: 0,6 mg/kg/día (hasta 10 mg/día).Adultos: inicial: 5 mg una vez por día, mantenimiento: 5 - 10 mg una vez por día.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 5 - 10 mg; Suspensión (preparado magistral): 1 mg/ml",
+      "notes": "No discontinuar abruptamente la droga."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto, proteger de la luz.",
+  "adverseEffects": "## Efectos adversos\n\nPalpitaciones. edema periférico, cefalea, mareos, fatiga, angina, arritmia cardíaca (raro).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — AMLOdipina Besilato (cód. 1509, ATC C08CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

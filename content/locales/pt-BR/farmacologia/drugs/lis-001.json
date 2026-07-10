@@ -1,0 +1,41 @@
+{
+  "id": "lis-001",
+  "name": "Lisinopril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "IECA de ação prolongada sem grupo sulfidrílico para HAS, IC e proteção pós-infarto.",
+  "indications": "## Indicações\n\n- Hipertensão arterial.\n- Insuficiência cardíaca com disfunção sistólica.\n- Infarto agudo do miocárdio em fase aguda e crônica.\n- Nefropatia diabética.\n\n## Precauções\n\n- Contraindicado na gestação e angioedema prévio com IECA.\n- Ajustar em insuficiência renal; vigilar potássio e creatinina.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5, 10 e 20 mg.",
+      "dose": "HAS: 10–40 mg/dia VO. IC: iniciar 2,5–5 mg/dia e titular.",
+      "administration": "VO em dose única diária."
+    },
+    "pediatrico": {
+      "dose": "0,07–0,6 mg/kg/dia VO (máx. 40 mg/dia) em 1–2 doses.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula em temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\n- Tosse seca, hipotensão, hipercalemia, elevação de creatinina, angioedema.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

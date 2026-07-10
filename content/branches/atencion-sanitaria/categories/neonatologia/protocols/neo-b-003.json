@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-003",
+  "title": "Cuidado del cordón umbilical",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "baja-complejidad",
+  "version": "1.0",
+  "executiveSummary": "Cuidar el muñón umbilical en neonato de 500 g a 2500 g (día 0–30) con técnica seca o antiséptica según protocolo institucional, vigilancia de omphalitis y no aplicar sustancias no recomendadas.",
+  "body": "## Pasos a realizar\n\n1. Al nacimiento: secar el cordón con gasa estéril; colocar pinza umbilical a 2–3 cm de la base (o según dispositivo institucional); mantener muñón expuesto al aire si método seco.\n2. Enseñar a la familia: no cubrir con pañal (doblar pañal por debajo del muñón); no tirar ni manipular el muñón; lavarse manos antes y después del cuidado.\n3. Realizar higiene de manos (momento 1 OMS) antes de inspeccionar el cordón.\n4. Inspeccionar en cada cambio de pañal y al menos cada turno: base seca o húmeda limpia, sin eritema, sin olor fétido, sin secreción purulenta.\n5. Si protocolo institucional indica método seco (OMS recomendado): no aplicar alcohol, povidona ni unguentos; dejar caer pinza cuando muñón esté seco (usualmente 3–7 días).\n6. Si protocolo indica antiséptico: aplicar clorhexidina 4% o 7,1% digluconato una vez al día en la base del cordón con hisopo; fricción suave; dejar secar al aire.\n7. Mantener área limpia y seca; si contaminación con orina o heces, limpiar con agua tibia y jabón neutro; secar completamente.\n8. Registrar aspecto del cordón en gráfica neonatal: húmedo/seco, eritema, secreción, día de caída del muñón.\n9. No sumergir al RN en baño hasta caída del muñón y cicatrización completa (baño de esponja hasta entonces).\n10. Ante signos de infección: tomar temperatura axilar, hemograma y cultivo según prescripción; no retirar pinza en omphalitis activa sin evaluación.\n11. Si sangrado del muñón: comprimir base 5–10 min con gasa estéril; si persiste, ligadura por personal capacitado.\n12. Documentar día de caída del cordón; continuar vigilancia de la cicatriz umbilical 48 h post-caída.\n\n## Fundamentación científica\n\n### Población y alcance\n\n**Neonatos día 0–30**, **500 g–2500 g**. El cuidado del cordón umbilical es preventivo; la omphalitis puede progresar a sepsis neonatal en horas, especialmente en prematuros y settings con recursos limitados.\n\n### Objetivo\n\n- Promover secado y desprendimiento seguro del muñón (3–14 días).\n- Prevenir omphalitis y sepsis neonatal.\n- Educar a cuidadores primarios.\n\n### Evidencia y recomendaciones\n\n> **OMS:** el cuidado del cordón umbilical seco y limpio es recomendado en settings con baja tasa de infección; la clorhexidina al 7,1% reduce omphalitis y mortalidad en entornos de alto riesgo (WHO, 2024).\n\n> **AAP / ACOG:** no aplicar sustancias no estériles (talco, polvos, hierbas); mantener cordón visible y seco (American Academy of Pediatrics).\n\n### Métodos de cuidado comparados\n\n| Método | Indicación | Acción |\n| --- | --- | --- |\n| Seco y limpio | Unidades con baja tasa de infección | Sin antiséptico; aire libre |\n| Clorhexidina 4–7,1% | Alto riesgo de omphalitis / prematuros | Aplicación diaria en base |\n| Alcohol 70% | Alternativa institucional | 1–2 veces/día si protocolo lo indica |\n\nNo mezclar métodos sin indicación; seguir protocolo institucional uniforme.\n\n### Clampeo del cordón\n\n| Situación | Tiempo de clampeo |\n| --- | --- |\n| RN vigoroso a término | ≥ 30–60 s o hasta cese de pulsaciones |\n| < 34 sem no reanimación | Clampeo diferido 30–60 s si estable |\n| Reanimación activa | Clampeo inmediato si necesario para acceso |\n\n### Signos de omphalitis — avisar de inmediato\n\n| Grado | Hallazgos | Acción |\n| --- | --- | --- |\n| Leve | Eritema < 2 cm en base | Vigilancia estrecha; cultivo si fiebre |\n| Moderada | Eritema > 2 cm, exudado, olor | Antibiótico IV; hemocultivo |\n| Severa | Celulitis periumbilical, necrosis | Sepsis; UCI; cirugía si necrosis |\n\n### Tiempo de desprendimiento normal\n\n| Peso / EG | Días hasta caída |\n| --- | --- |\n| Prematuro < 1000 g | 10–14 días |\n| 1000–2500 g | 7–10 días |\n| Término | 5–7 días |\n\nRetraso > 14 días o granuloma umbilical: valorar por neonatólogo.\n\n### Complicaciones — avisar de inmediato\n\n- Omphalitis (eritema, calor, exudado purulento, olor).\n- Sangrado activo del muñón no controlado con compresión.\n- Fiebre o hipotermia asociada a cambios en cordón.\n- Granuloma umbilical sangrante persistente.\n- Hernia umbilical incarcerada (raro en RN; valorar si protrusión dolorosa).",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Care of the umbilical cord — recommendations on newborn health.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "World Health Organization. WHO recommendations on umbilical cord care for newborns.",
+      "url": "https://www.who.int/publications/i/item/9789241548554"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Umbilical cord care in the newborn.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Infection prevention bundles in the NICU and newborn nursery.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "SATI — Prevención de infecciones neonatales y cuidados del cordón.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "amf-003",
+  "name": "Amphotericin B lipid complex",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Febrile neutropenia on day 7. Pulmonary infiltrate during neutropenia. Documented systemic mycoses.",
+  "indications": "## Main indications\n\nFebrile neutropenia on day 7. Pulmonary infiltrate during neutropenia. Documented systemic mycoses.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial containing 100 mg in 20 mL solution (Abelcet).",
+      "reconstitution": "No prior reconstitution required. Conc: 5 mg/mL.",
+      "diluent": "100 mg in 100 mL 5% dextrose. Do not use 0.9% NaCl.",
+      "finalConcentration": "1 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Withdraw required dose with syringe and use filter supplied with vial. Add required dose to 100 mL 5% dextrose and administer over 120 min.",
+      "notes": "All unused material must be discarded (contains no preservatives). Use filter needle to withdraw solution from vial and then prepare infusion."
+    },
+    "pediatrico": {
+      "dose": "Start 0,5 mg/kg/day, increase 0,2 mg/kg/day every 24 h, up to 1 mg/kg/day, maximum dose: 50 mg/day. Rapid administration method: start 0,25 mg/kg and increase at 6 h intervals up to 1 mg/kg/day. Do not exceed 1,5 mg/kg/day.",
+      "administration": "IV",
+      "presentation": "Powder vial: 50 mg",
+      "notes": "Infuse over 4–6 h at concentration of 0,1 mg/mL in 5% dextrose via peripheral line and up to 0,5 mg/mL via central line. Premedicate to reduce adverse reactions with hydrocortisone, paracetamol, diphenhydramine 30 min before infusion. Do not administer with solutions containing electrolytes. Correct hypokalemia before administration."
+    },
+    "neonatal": {
+      "dose": "Dose per NICU protocol.",
+      "administration": "Central IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Single-use vial. Keep refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h at room temperature and 48 h refrigerated. Use light-protected infusion set.",
+  "adverseEffects": "## Adverse effects\n\nFever, chills, vomiting (infusion-related), hypokalemia (25%), hypomagnesemia. Nephrotoxicity: may be prevented with prior saline infusion. Anemia (75%). Rare: leukopenia, thrombocytopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anfotericina B (DEOXICOLATO) (code 0020, ATC J02AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

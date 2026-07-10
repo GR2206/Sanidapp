@@ -1,0 +1,27 @@
+{
+  "id": "hem-001",
+  "title": "Blood culture collection",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Draw two blood culture sets via peripheral venipuncture prior to antibiotic administration if possible, 10–15 ml per bottle, using strict aseptic technique to minimize contamination.",
+  "body": "## Steps to perform\n\n1. Identify the patient and document the time, site, and reason for the culture.\n2. Perform hand hygiene (WHO Moment 2: before an aseptic procedure).\n3. Prepare aerobic + anaerobic bottles at room temperature; disinfect the rubber septum with 70% alcohol and allow to dry.\n4. Disinfect the skin with alcoholic chlorhexidine using friction, expanding the area, and allow to dry for ≥ 30 s.\n5. Perform venipuncture using aseptic technique; do not palpate the disinfected skin with non-sterile fingers.\n6. Draw blood and inoculate bottles in the correct order depending on the system (vacuum system: aerobic first; syringe system: anaerobic first).\n7. Inoculate **10–15 ml per bottle** in adults (respect manufacturer instructions).\n8. Mix gently by inversion (do not shake vigorously).\n9. Label on a clean surface: name, date, time, and site.\n10. Perform hand hygiene upon completion (WHO Moments 3 and 4).\n11. Transport to the laboratory **immediately**; document the collection time and the start of antibiotics if applicable.\n12. Communicate positive results including the isolated pathogen, suspected contamination, or clinical deterioration.\n\n## Scientific rationale\n\n### Main indications\n\n- Clinical suspicion of **sepsis** or septic shock.\n- Fever of unknown origin or chills with hemodynamic instability.\n- Suspicion of infective endocarditis.\n- Evaluation of fever in patients with intravascular devices.\n- Suspicion of catheter-associated bloodstream infection (specific institutional protocol).\n\n### Number of samples (adults)\n\n| Situation | Recommended sets |\n| --- | --- |\n| Sepsis / suspected bacteremia | **2 sets** (minimum) |\n| Acute endocarditis | 3 sets from distinct anatomical sites |\n| Fever of unknown origin | 2–3 sets depending on protocol |\n\nEach **set** = 1 **aerobic** bottle + 1 **anaerobic** bottle.\n\n### Timing of collection\n\n- **Ideal:** Before initiating antibiotics.\n- It is not mandatory to coincide with a fever spike; it can be performed based on clinical suspicion.\n- If the patient is already receiving antibiotics: draw at trough concentration (just prior to the next scheduled dose) or according to local protocol.\n- In a septic emergency: both sets can be collected simultaneously from different extremities without delaying treatment.\n\n### Evidence and recommendations\n\n> **Surviving Sepsis 2021 (Evans et al.):** Obtain cultures prior to empiric antibiotics, provided it does not delay administration by more than 45 minutes.\n\n> **SATI — Microbiological sampling in the ICU:** Strict aseptic technique to minimize contamination from skin flora.\n\n### Puncture site\n\n- Prefer peripheral venipuncture from distinct anatomical sites.\n- Avoid performing venipuncture proximal to an active peripheral IV line.\n- Central catheter blood should only be drawn if a catheter infection is suspected and according to protocol (paired peripheral + central cultures).\n\n### Contamination prevention\n\n- Do not touch the bottle septum or the inside of the cap after disinfection.\n- Change the needle before inoculating if required by protocol.\n- Do not use the same venipuncture set for other samples without an aseptic sequence.\n\n### Complications\n\n- Contamination by skin flora (false positives).\n- Hematoma or pain at the puncture site.\n- Delayed transport that invalidates interpretation.",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (Comité de Infectología Crítica).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Guía de práctica clínica enfermera sobre hemocultivos — Consejo General de Enfermería de España (evidence-based 2024-2025).",
+      "url": "https://www.consejogeneralenfermeria.org/profesion/guias-clinicas/send/160-guias-clinicas/3122-guia-de-practica-clinica-enfermera-sobre-hemocultivos-actualizacion"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización intersociedades SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    }
+  ]
+}

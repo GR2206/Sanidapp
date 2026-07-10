@@ -1,0 +1,50 @@
+{
+  "id": "azt-001",
+  "name": "Aztreonam",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções graves por Gram (−) em pacientes com alergia às penicilinas.",
+  "indications": "## Indicações principais\n\nTratamento de infecções graves por Gram (−) em pacientes com alergia às penicilinas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 1 g (Richet, Norgreen).",
+      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
+      "diluent": "1 g em 100 mL de SF.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "E.V. intermitente: Sim. Diluir 1 g em 100 mL de SF ou SG 5% e administrar em 20–60 min.",
+      "notes": "Não administrar junto com outros medicamentos. Em caso de administração simultânea, suspender a administração do aztreonam."
+    },
+    "pediatrico": {
+      "dose": "90–120 mg/kg/dia a cada 6–8 h, dose máxima: 8 g/dia. Adultos: 1–2 g a cada 8 h. Fibrose cística: 150 mg/kg/dia a cada 8 h.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 1 g",
+      "notes": "Administrar por infusão E.V. em 20–60 minutos. Cada grama de aztreonam contém 780 mg de arginina."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 7 dias refrigerado.\n\n## Solução diluída (a administrar)\n\n- Não especificado.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, rash, convulsões, náuseas, vômitos, anorexia, dor abdominal, colite pseudomembranosa, eosinofilia, leucopenia, neutropenia, trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Aztreonam* (cód. 1445, ATC J01DF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

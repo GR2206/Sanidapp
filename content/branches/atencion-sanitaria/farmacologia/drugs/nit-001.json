@@ -1,0 +1,46 @@
+{
+  "id": "nit-001",
+  "name": "Nitrofurantoína",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Profilaxis y tratamiento de infecciones de vías urinarias por bacterias gram negativas y gram positivos sensibles, inclusive Escherichia coli, Klebsiella, Enterobacterias, Enterococos y Pseudomonas.",
+  "indications": "## Indicaciones principales\n\nProfilaxis y tratamiento de infecciones de vías urinarias por bacterias gram negativas y gram positivos sensibles, inclusive Escherichia coli, Klebsiella, Enterobacterias, Enterococos y Pseudomonas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 50 mg, 100 mg; suspensión.",
+      "dose": "100 mg VO cada 12 h x 5–7 días (cistitis). Profilaxis: 50–100 mg VO noche.",
+      "administration": "VO con alimentos."
+    },
+    "pediatrico": {
+      "dose": "Niños: Tratamiento: 5-7 mg/kg/día cada 6 hs. Profilaxis: 2,5 mg/kg/día una vez por día. Dosis máxima: 400 mg. Adultos: Profilaxis: 50 mg-100 mg/día, por la noche; Tratamiento: 50 mg-100 mg cada 6 hs, por 7 días.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 100 mg; Suspensión: 5 mg/ml",
+      "notes": "Contraindicado en pacientes con función renal alterada. Precaución en pacientes con asma."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar protegido de la luz.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, anorexia, cefalea, mareos, nistagmo, mialgia, neuropatía periférica, rash, urticaria, fiebre. Anemia hemolítica en pacientes con déficit de glucosa 6- Fosfato deshidrogenasa (G 6PD). En tratamientos prolongados: fibrosis pulmonar.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — NitroFURANTOÍNA (cód. 0319, ATC J01XE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

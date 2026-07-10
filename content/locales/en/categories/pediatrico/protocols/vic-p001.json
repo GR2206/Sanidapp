@@ -1,0 +1,35 @@
+{
+  "id": "vic-p001",
+  "title": "Pediatric central line insertion",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Assist with insertion of a pediatric central venous catheter using maximal sterile barrier precautions, ultrasound guidance when available, appropriate sedation/analgesia, and the central line-associated bloodstream infection (CLABSI) prevention bundle.",
+  "body": "## Steps to perform\n\n1. Verify patient identification, check allergies, review the order, confirm informed consent, and assess coagulation status per protocol; prepare sedation/analgesia and the pediatric resuscitation cart.\n2. Perform hand hygiene and don maximal sterile barriers (cap, mask, sterile gown, sterile gloves).\n3. Position the child according to the selected site; in newborns, ensure thermal regulation and continuous monitoring.\n4. Disinfect the skin with alcoholic chlorhexidine using circular friction (covering an area \u226520 cm); allow to dry completely.\n5. Assist with insertion using a sterile technique; support real-time ultrasound guidance if available.\n6. Connect lines using a closed system; flush and clamp unused lumens; secure the catheter without traction.\n7. Apply a transparent dressing per institutional protocol; monitor HR, SpO\u2082, BP, and cardiac rhythm during insertion.\n8. Check for blood return in each lumen and verify proper securement.\n9. Request a chest X-ray or ultrasound to confirm tip placement at the cavoatrial junction and to rule out pneumothorax prior to use, if required by protocol.\n10. Document site, gauge, number of lumens, length, operator, time, and any complications; label dates on each lumen.\n11. Disinfect the hub for \u226515 seconds before every access; reevaluate catheter necessity daily; remove the device once the indication is completed or if infection is suspected.\n\n## Scientific rationale\n\n### Indications\n\n- Administration of vasoactive drugs or hyperosmolar solutions.\n- Total parenteral nutrition.\n- Hemodynamic monitoring (e.g., CVP, central venous oxygen saturation) in critically ill patients.\n- Prolonged vascular access when peripheral access is insufficient.\n- Hemodialysis or resuscitation in sepsis/shock.\n\n### Evidence and recommendations\n\n> **CLABSI prevention (SATI/SADI 2025; WHO 2024):** Insert a central line only when explicitly indicated. The insertion bundle includes hand hygiene, maximal sterile barriers, skin antiseptic preparation, optimal site selection using ultrasound, and daily review of catheter necessity (Cornistein et al., 2025).\n\n### Site selection\n\n| Site | Pediatric considerations |\n| --- | --- |\n| Internal jugular | Preferred ultrasound-guided site; lower pneumothorax risk than the subclavian route |\n| Femoral | Frequently used in newborns or emergencies; remove or exchange as soon as possible |\n| Subclavian | Higher pneumothorax risk in small chest dimensions |\n| Umbilical vein | Neonatology only, during the first days of life |\n| PICC | Requires a trained team; indicated for prolonged access |\n\n### Guiding gauge selection\n\n| Weight / age | Gauge (Fr) |\n| --- | --- |\n| Newborn / < 5 kg | 3–4 Fr |\n| 5–15 kg | 4–5 Fr |\n| 15–30 kg | 5–7 Fr |\n| > 30 kg | 7–8 Fr |\n\n### Post-insertion verification\n\n- Ensure the catheter tip is positioned at the cavoatrial junction (approximately T8–T9); in newborns, avoid placing the tip in the right atrium due to the risk of arrhythmias and perforation.\n\n### Complications — notify immediately\n\n- Pneumothorax, hemothorax, or acute respiratory distress.\n- Uncontrolled local hemorrhage or an expanding hematoma.\n- Arrhythmias, bradycardia, or ectopy.\n- Fever or signs of site infection / suspected CLABSI.\n- Accidental catheter dislodgement or venous thrombosis.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Central venous catheter-associated infections. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos (BAC, HAI prevention).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Pediatric Advanced Life Support — acceso vascular en emergencia.",
+      "url": "https://www.aap.org/en/patient-care/pals/"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — Surviving Sepsis Campaign: reanimación y acceso vascular en sepsis pediatric.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dif-001",
+  "name": "Difenhidramina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antihistamínico. Coadyuvante antiemético. Sedante.",
+  "indications": "## Indicaciones principales\n\nAntihistamínico. Coadyuvante antiemético. Sedante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Cápsulas: 50 mg; Comprimidos: 50 mg; Jarabe: 2,5 mg/ml; Ampollas o F.A. por 10 ml: 10 mg/ml",
+      "administration": "V.O.; E.V.; I.M.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "25 mg/mL.",
+      "infusionRate": "15 min. con BIC.",
+      "dose": "Lactantes: 1 mg/kg/día; Niños: 3 - 5 mg/kg/día cada 6-8 hs, dosis máxima: 50 mg/dosis; premedicación: 1 mg/kg/dosis, dosis máxima: 50 mg/dosis; . Adultos: 50 mg/dosis cada 6 - 8 hs, dosis máxima: 50 mg/dosis.",
+      "notes": "&lt; de 6 meses pueden presentar hiperexcitabilidad paradojal. No usar en neonatos. V.O.: administrar con alimentos. Contraindicado en crisis asmáticas."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nActividad antimuscarínica significativa, sedación. Mareos, tinnitus, fatiga, diplopía, lasitud, incoordinación, hipotensión, náuseas, vómitos, retención urinaria. Sobredosis: psicosis, fiebre, alucinaciones, convulsiones.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — difenhidrAMINA (cód. 0071, ATC R06AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

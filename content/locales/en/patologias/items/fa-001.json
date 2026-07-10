@@ -1,0 +1,59 @@
+{
+  "id": "fa-001",
+  "name": "Atrial fibrillation (AF)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Atrial fibrillation** is the most frequent sustained arrhythmia in clinical practice, characterized by disorganized atrial activation and an irregular ventricular response. In the emergency department, it may present as palpitations, dyspnea, chest pain, syncope, or as an incidental finding. Differentiate among **de novo AF**, known decompensated AF, and atrial flutter. Always assess hemodynamic stability: in an unstable patient (hypotension, acute pulmonary edema, acute myocardial ischemia), urgent **electrical cardioversion** is indicated.\n\nIn a stable patient, search for reversible causes (sepsis, hypokalemia, hyperthyroidism, alcohol, pulmonary embolism). Rate control (beta-blockers, non-dihydropyridine calcium channel blockers, digoxin depending on the context) or rhythm control (pharmacological or scheduled electrical cardioversion) depends on the duration of symptoms and comorbidities. **Anticoagulation** is determined using the CHA₂DS₂-VASc and HAS-BLED scores; in AF >48 h or of unknown duration, anticoagulate prior to cardioversion unless an emergency arises.\n\n**Nursing:** continuous cardiac monitoring, recording of heart rate and blood pressure, administration of antiarrhythmics according to protocol, monitoring for bradycardia or prolonged QT interval, and education regarding anticoagulation adherence and outpatient follow-up.",
+  "clinicalBoxes": [
+    {
+      "title": "CHA₂DS₂-VASc — thromboembolic risk",
+      "content": "One point for each item (max. 9 in women, 8 in men):\n**C** — CHF or LV dysfunction · **H** — Hypertension · **A₂** — Age ≥75 years (2 pts) · **D** — Diabetes mellitus · **S₂** — Prior Stroke/TIA/thromboembolism (2 pts) · **V** — Vascular disease · **A** — Age 65–74 years · **Sc** — Female sex.\n\n**Score 0 (men) / 1 (women):** no anticoagulation. **Score 1 (men):** consider anticoagulation. **Score ≥2:** anticoagulation recommended unless contraindicated."
+    },
+    {
+      "title": "HAS-BLED — bleeding risk",
+      "content": "One point per item: **H** — Uncontrolled hypertension · **A** — Abnormal renal/hepatic function · **S** — Prior stroke · **B** — Prior bleeding or predisposition · **L** — Labile INR (on VKAs) · **E** — Age >65 years · **D** — Drugs (ASA, NSAIDs) or alcohol.\n\n≥3: high risk of bleeding — does not contraindicate anticoagulation but mandates close monitoring and correction of modifiable factors."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "amd-001",
+      "label": "Amiodarone"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparin sodium"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparin"
+    },
+    {
+      "drugId": "war-001",
+      "label": "Warfarin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Atrial Fibrillation Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Consenso de arritmias.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association / ACC. AF management guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

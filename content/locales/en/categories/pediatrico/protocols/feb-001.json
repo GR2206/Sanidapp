@@ -1,0 +1,27 @@
+{
+  "id": "feb-001",
+  "title": "Fever without source in infants",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Assess age, overall appearance, and red flags. Stratify the risk of serious bacterial infection and decide on outpatient management, observation, or admission.",
+  "body": "## Steps to perform\n\n1. Record the infant’s exact age and confirm that the fever is real (rectal or axillary temperature according to local protocol).\n2. Obtain a complete set of vital signs: HR, RR, BP, temperature, and SpO₂.\n3. Prioritize assessment of the infant’s overall appearance (alertness, tone, interaction, feeding) over the absolute temperature value.\n4. Screen for red flags: lethargy, poor perfusion, petechiae/purpura, retractions, refusal to feed, or a bulging fontanelle.\n5. Assess hydration and perfusion; document immunization status and relevant past medical history.\n6. Stratify risk by age group and agree on the management pathway with the medical team (outpatient workup, observation, or admission).\n7. Obtain age- and risk-appropriate samples as indicated: blood culture prior to antibiotics when applicable, urine culture (bag or sterile method depending on age), and additional studies per criteria.\n8. If observing, monitor and re-assess overall appearance every 1–2 hours.\n9. Educate the family about warning signs and criteria for urgent re-consultation.\n10. Refer or admit immediately if any red flag is present at any point during assessment.\n\n## Scientific rationale\n\n### Objective\n\nStandardize the initial evaluation of infants presenting with fever without an apparent source.\n\n### Age-based stratification (general approach)\n\n| Age | General management |\n| --- | --- |\n| 0–28 days | Consider admission and a complete workup (meningitis, UTI, bacteremia) |\n| 29–60 days | Laboratory evaluation and urine culture; blood culture according to protocol and clinical appearance |\n| 61–90 days | Use validated criteria (Rochester, Philadelphia, or local guidance) |\n| > 3 months | Assess overall appearance; seek clinical sources; outpatient management if well-appearing |\n\n### Nursing assessment (high-yield)\n\n- Complete vital signs (HR, RR, BP, temperature, SpO₂).\n- Hydration and perfusion status.\n- Fontanelle, petechial rash, retractions, and feeding refusal.\n- Vaccination and relevant history documentation.\n\n### Red flags\n\n- Lethargy, hypotonia, or inconsolable irritability.\n- Poor perfusion, hypotension, or disproportionate tachycardia.\n- Petechiae or purpura.\n- Retractions, grunting, cyanosis, or apnea.\n- Persistent vomiting or complete refusal of feeds.\n\n> **Source:** American Academy of Pediatrics. Clinical Practice Guideline: Febrile Infants 8 to 60 Days Old. Pediatrics. 2021.\n\n### Samples (per medical indication)\n\n- Blood culture prior to antibiotics when applicable.\n- Urine culture (bag collection vs sterile method depending on age and local protocol).\n- Additional tests based on age, risk stratification, and clinical findings.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Clinical Practice Guideline: Febrile Infants 8 to 60 Days Old. Pediatrics. 2021.",
+      "url": "https://publications.aap.org/pediatrics/article/148/2/e2021052228/179775"
+    },
+    {
+      "citation": "SATI — Área Pediatría. Recursos y lineamientos en cuidados críticos pediátricos.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    },
+    {
+      "citation": "Sociedad Latinoamericana de Cuidados Intensivos Pediátricos (SLACIP) — Consenso LATAM manejo de sepsis en niños.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/10-Consenso-LATAM-SLACIP-Sepsis-Espanol-Acta-Ped-Mex-Marzo-2022.pdf"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026 — reconocimiento precoz en lactante febril.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    }
+  ]
+}

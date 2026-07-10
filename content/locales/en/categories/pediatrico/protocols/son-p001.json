@@ -1,0 +1,35 @@
+{
+  "id": "son-p001",
+  "title": "Pediatric urinary catheter insertion",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Insert a urinary catheter in a child only with a justified indication, using a sterile technique, selecting catheter size by age, ensuring secure restraint, and using a closed drainage system to prevent catheter-associated urinary tract infections (CAUTI).",
+  "body": "## Steps to perform\n\n1. Verify the indication, identify the patient (two identifiers), and confirm the prescription (catheter type, gauge, and expected duration).\n2. Explain the procedure to the family; arrange secure therapeutic restraint (minimum of two people) and assess the need for analgesia.\n3. Perform hand hygiene (WHO Moment 2) and open the sterile kit on a clean surface.\n4. Position the child: female in a supine position with legs in a frog-leg position; male in a supine position with the penis held at 90\u00b0.\n5. Disinfect the urethral meatus with an antiseptic from the center to the periphery; allow to dry completely according to protocol.\n6. Lubricate the first 2\u20133 cm of the catheter and insert gently without forcing until a return of clear urine is obtained.\n7. Inflate the balloon with the volume specified by the manufacturer according to catheter gauge.\n8. Connect to a closed-circuit drainage bag; secure the catheter without tension to the thigh or abdomen.\n9. Position the drainage bag below the level of the bladder; do not place it directly on the floor.\n10. Document the time, gauge, balloon volume, initial appearance of the urine, and the operator\u2019s name.\n11. Monitor at every shift for obstruction, leaks, hematuria, fever, or irritability; reevaluate the necessity of the catheter on a daily basis.\n\n## Scientific rationale\n\n### Indications\n\n- Acute urinary retention accompanied by pain, a palpable bladder globe, or risk of renal damage.\n- Strict monitoring of fluid balance in critical care patients.\n- Abdominal, pelvic, or urological surgery according to medical prescription.\n- Management of neurogenic bladder (coordinate with urology).\n\n### Evidence and recommendations\n\n> **CAUTI Prevention (SATI/SADI 2024):** Routine urinary catheterization is not recommended in pediatrics. Alternative options should be considered (urine collection bags, intermittent catheterization). Reevaluate the necessity daily and remove at the earliest clinically feasible moment (Cornistein et al., 2024; Lo et al., 2022).\n\n### Relative contraindications\n\n- Suspected or confirmed urethral trauma.\n- Active urethral bleeding or inability to clearly identify the meatus.\n- Urethral stricture or malformation not yet evaluated by urology.\n- In male patients: if resistance is encountered during advancement, do not force the catheter; consult urology immediately.\n\n### Gauge selection\n\n| Approximate age / weight | Suggested gauge (Fr) |\n| --- | --- |\n| Premature NB / Newborn | 5\u20136 Fr |\n| Infant | 6\u20138 Fr |\n| Child (1\u20138 years old) | 8\u201310 Fr |\n| Older child / Adolescent | 10\u201312 Fr |\n\n### Anatomical technique differs by sex\n\n- **Female:** The meatus is located just below the clitoris; do not confuse it with the vaginal introitus.\n- **Male:** Approximate insertion length in infants: 4 cm + (age in years \u00d7 2) cm; confirm proper placement with the return of urine.\n\n### Post-care and removal criteria\n\n- Daily perineal hygiene using water and mild soap; do not routinely apply antiseptics to the meatus.\n- In infants: apply a skin barrier cream due to the risk of moisture-associated skin dermatitis.\n- Remove the catheter once the initial indication is resolved, or upon suspicion of CAUTI or recurrent obstruction.\n\n### Complications \u2014 discontinue and notify\n\n- Inability to pass the catheter or profuse urethral bleeding.\n- Purulent urine accompanied by fever (suspected CAUTI).\n- Absence of urine output alongside abdominal pain or a palpable bladder globe.\n- Catheter in the vagina (female): remove and replace using a new sterile technique.\n- Urethral trauma or persistent frank hematuria.",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a urinary catheter. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guías y consensos (ITU-SV, HAI prevention).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "Society of Pediatric Urology — recursos de cuidados de catéteres y malformaciones urológicas.",
+      "url": "https://www.spuonline.org/"
+    }
+  ]
+}

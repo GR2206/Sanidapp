@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-005",
+  "title": "Safe administration of neonatal intravenous medication",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Administer intravenous medication in newborns weighing 500 g to 2500 g (days 0–30) utilizing a double-verification process for weight-based dosing, dilution, and infusion rates as prescribed, ensuring drug compatibility and the selection of an appropriate vascular access route (central vs. peripheral).",
+  "body": "## Steps to perform\n\n1. Confirm newborn identification (using two identifiers), current weight (obtained within the last 24 hours), allergies, and the complete medical prescription (drug, dose in mg/kg, dilution, infusion rate in ml/h, and route).\n2. Calculate the dose strictly in mg/kg or mcg/kg/min based on the patient's weight in grams; utilize the institutional calculator; an independent double-check by a second healthcare professional is mandatory.\n3. Verify drug compatibility and the access route: administer vesicant, osmotic, or vasoactive drugs exclusively through a UVC or PICC line; reserve peripheral access solely for compatible and short-term medications.\n4. Prepare the medication in a clean area using an aseptic technique; label the syringe or bag with the newborn's name, drug, concentration, total dose, date/time of preparation, and expiration date.\n5. Perform hand hygiene (WHO Moment 2); disinfect the catheter hub for 15 seconds using an antiseptic; do not disconnect lines unnecessarily.\n6. Administer using a syringe pump or infusion pump with an accuracy of ± 0.1 ml/h; prime the line up to the catheter connection without administering unprescribed boluses.\n7. Monitor closely during the initial loading dose (especially with vasoactive agents): HR, BP/MAP, SpO₂, peripheral perfusion, and signs of extravasation.\n8. Document in the medical record: drug, dose in mg/kg, volume, infusion rate, route, start/end time, operator, and the verifying professional.\n9. Do not mix medications in the same line without consulting the neonatal compatibility chart; maintain dedicated lines for parenteral nutrition.\n10. In the event of a medication error or an adverse reaction: stop the infusion, notify immediately, document the event, and activate the pharmacovigilance protocol.\n11. During shift handoffs: verify active pumps, fluid concentrations, and infusion sites directly with the incoming colleague.\n12. Discard materials according to safety regulations; never reuse syringes or infusion sets.\n\n## Scientific rationale\n\n### Population and scope\n\nStrictly for newborns from day 0 to day 30, weighing 500 g to 2500 g. Dosing errors in neonates carry high morbidity and mortality due to a narrow therapeutic window and pharmacokinetic variability related to gestational age and immature renal/hepatic function.\n\n### Safety principles\n\n- **Weight:** Use birth weight during the first 24 hours of life; thereafter, use the current daily weight.\n- **Double-check:** Mandatory for high-alert medications (vasoactive agents, sedation, aminoglycoside antibiotics, anticonvulsants, heparin).\n- **Units:** mg/kg and mcg/kg/min; never confuse mg with mcg.\n- **Volume:** Minimize fluid volume overload in newborns < 1000 g (utilize micro-drip systems or syringe pumps).\n\n### Evidence and recommendations\n\n> **Source:** WHO / WHO Patient Safety — The use of standardized concentrations and independent double-checking processes significantly reduces medication errors in pediatric and neonatal intensive care units (WHO, 2024).\n\n> **Source:** VON — Infusion errors involving insulin, heparin, and vasoactive agents constitute sentinel events in the Neonatal ICU; the implementation of smart pumps with programmed guardrails and centralized preparation protocols is recommended (Vermont Oxford Network).\n\n### High-alert medications: route and dilution\n\n| Drug | Preferred route | Neonatal precaution |\n| --- | --- | --- |\n| Dopamine / dobutamine | UVC / PICC | Extravasation causes necrosis; titrate based on MAP |\n| Epinephrine | UVC / PICC / IO | Arrhythmia risk; utilize a 1:10,000 dilution |\n| Gentamicin / amikacin | UVC / PICC | Adjust dosing intervals based on GA and renal function |\n| Fentanyl / midazolam | UVC / PICC | Respiratory depression risk; administer via continuous infusion |\n| Heparin | UVC / PICC | Risk of intraventricular hemorrhage in preterm infants |\n| Parenteral nutrition | Exclusive UVC / PICC | Never via peripheral lines if osmolarity > 900 mOsm/L |\n\n### Compatibility and infusion lines\n\n- Maintain a dedicated line for parenteral nutrition; do not co-administer with other drugs via Y-site without confirmed compatibility.\n- Flush the line with 0.5–1 ml of normal saline (adjusted to weight) after IV push antibiotics; administer heparin according to the catheter maintenance protocol.\n\n### Reference calculation for infusion rate (vasoactive agents)\n\n**Example:** Dopamine at 5 mcg/kg/min in a newborn weighing 1000 g (1 kg), with a solution concentration of 1600 mcg/ml → (5 × 1 × 60) / 1600 = 0.19 ml/h.\n\n### Complications — notify immediately\n\n- Extravasation of a vesicant agent or vasoactive drug.\n- Bradycardia, hypotension, or arrhythmia following administration.\n- Respiratory depression (associated with opioids or benzodiazepines).\n- Identified medication error (such as a 10× or greater dosing error).\n- Allergic reaction or anaphylaxis.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient safety and medication without harm — high-risk situations.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety"
+    },
+    {
+      "citation": "Vermont Oxford Network. Medication safety and infusion practices in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Standardization of concentrations for neonatal and pediatric medication infusions.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). High-alert medications in acute care.",
+      "url": "https://www.ismp.org/recommendations/high-alert-medications-acute-list"
+    },
+    {
+      "citation": "SATI — Consensos en terapia intensiva neonatal y pediátrica.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

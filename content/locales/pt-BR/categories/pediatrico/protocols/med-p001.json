@@ -1,0 +1,35 @@
+{
+  "id": "med-p001",
+  "title": "Administração segura de medicação IV pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Verificar as 9 certezas com dupla checagem de dose por peso, compatibilidade e velocidade; usar bomba em fármacos de alto risco e vigiar extravasamento.",
+  "body": "## Passos a realizar\n\n1. Realizar higienização das mãos e preparar medicação em área limpa.\n2. Verificar as **9 certezas**: paciente, medicamento, dose, via, hora, registro, razão, resposta e forma de administração.\n3. **Dupla checagem independente** de dose calculada por peso (mg/kg) ou superfície corporal conforme prescrição.\n4. Confirmar alergias, via de acesso adequada e função renal/hepática se aplicável.\n5. Preparar medicação conforme protocolo de diluição pediátrica institucional.\n6. Desinfetar hub do cateter com clorexidina alcoólica ≥ 15 s; técnica asséptica.\n7. Administrar com **bomba de infusão** quando indicado (vasopressores, potássio, antibióticos críticos, sedação).\n8. Vigiar reações adversas e sinais de extravasamento durante e após a infusão.\n9. Documentar hora, dose, peso, via, velocidade e resposta no prontuário.\n10. Notificar imediatamente extravasamento, flebite, reação alérgica ou erro de medicação.\n\n## Fundamentação científica\n\n### Indicações\n\nAdministração segura de medicação intravenosa em criança hospitalizada, incluindo fármacos de alto risco e soluções hiperosmolares.\n\n### As 9 certezas (adaptação pediátrica)\n\n1. Paciente correto (dois identificadores).\n2. Medicamento correto.\n3. **Dose correta conforme peso atual** (recalcular se o peso mudou).\n4. Via correta (periférica vs central conforme fármaco).\n5. Hora correta.\n6. Registro correto.\n7. Razão correta.\n8. Resposta correta (vigiar efeitos e toxicidade).\n9. Forma correta de administração (bolus vs infusão contínua).\n\n### Precauções especiais pediátricas\n\n| Tipo de fármaco | Precaução |\n| --- | --- |\n| Vasopressores | Via central preferencial; bomba dedicada; titulação estreita |\n| Potássio IV | Nunca em bolus; velocidade máxima conforme peso e protocolo |\n| Antibióticos críticos | Respeitar tempo de infusão (beta-lactâmicos prolongados) |\n| Sedoanalgesia | Cálculo por kg; vigilância de depressão respiratória |\n| Fármacos vesicantes/osmóticos | Via central; vigilância estreita de extravasamento |\n| Fármacos fotossensíveis | Proteger da luz |\n\n### Evidência e recomendações\n\n> **OMS — Medication Without Harm:** verificação sistemática e dupla checagem em população pediátrica por maior risco de erro de dose (WHO, 2023).\n\n> **ISMP:** práticas seguras de medicação IV; push lento e diluição adequada em crianças (ISMP, 2024).\n\n> **Gorski et al. (2024):** padrões de terapia de infusão; desinfecção de hub e sistema fechado.\n\n### Eventos a notificar imediatamente\n\n- Extravasamento ou flebite (especialmente vesicantes).\n- Reação alérgica ou anafilaxia.\n- Erro de medicação ou dúvida na prescrição.\n- Depressão respiratória após sedoanalgesia IV.\n\n### Complicações\n\n- Extravasamento com risco de necrose tecidual em lactentes.\n- Flebite química ou infecciosa.\n- Anafilaxia.\n- Erro de dose por falha no cálculo ponderal.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm (pediatric medication safety).",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines for Safe Practice of IV Medications.",
+      "url": "https://www.ismp.org/guidelines/iv-push"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication Safety in the Pediatric Inpatient Setting.",
+      "url": "https://www.aap.org/en/patient-care/patient-safety/"
+    },
+    {
+      "citation": "SATI — Recomendações gerais para sedoanalgesia e manejo de infusões em UTI.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "NICE NG18. Intravenous fluid therapy in children and young people in hospital.",
+      "url": "https://www.nice.org.uk/guidance/ng18"
+    }
+  ]
+}

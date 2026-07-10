@@ -1,0 +1,48 @@
+{
+  "id": "ana-001",
+  "name": "Anafilaxia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **anafilaxia** es una reacción sistémica grave de hipersensibilidad, potencialmente mortal, con inicio rápido tras exposición a un alérgeno (alimentos, fármacos, venenos de himenóteros, látex). El diagnóstico es clínico: compromiso cutáneo-mucoso (urticaria, angioedema) más afectación respiratoria (estridor, sibilancias, disnea), cardiovascular (hipotensión, síncope) o gastrointestinal severa, tras exposición probable.\n\nEl tratamiento inmediato es **adrenalina intramuscular** (cara anterolateral del muslo, dosis según peso; repetir cada 5–15 min si persiste cuadro). Colocar en posición supina con miembros elevados salvo disnea grave (semisentado). Oxígeno, expansión con cristaloides si hipotensión, y **antihistamínico H1 + H2** y corticoide como coadyuvantes (no sustituyen adrenalina). Retirar el desencadenante si es fármaco IV. Observación mínima 4–6 h (riesgo de reacción bifásica); egreso con autoinyector de adrenalina si corresponde.\n\n**Enfermería**: identificar y retirar alérgeno, llamar ayuda, registrar hora exacta de adrenalina, monitorizar TA, FC y SpO₂, preparar segunda dosis y vía aérea avanzada. Documentar alérgeno y alerta en historia clínica.",
+  "clinicalBox": {
+    "title": "Adrenalina IM — dosis orientativa",
+    "content": "Vía **intramuscular** (muslo anterolateral), concentración 1:1000 (1 mg/mL):\n**Adulto:** 0,3–0,5 mg IM (0,3–0,5 mL)\n**Niño:** 0,01 mg/kg IM (máx. 0,3 mg)\n\nRepetir cada **5–15 min** si no hay mejoría clínica. En paro cardiorespiratorio: adrenalina IV según ACLS / protocolo pediátrico institucional."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "adr-001",
+      "label": "Adrenalina (epinefrina)"
+    },
+    {
+      "drugId": "hdc-001",
+      "label": "Hidrocortisona"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    },
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Allergy Organization. Anaphylaxis guidelines.",
+      "url": "https://www.worldallergy.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Alergia e Inmunología (SAAI). Consenso de anafilaxia.",
+      "url": "https://www.saai.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Allergy and Infectious Diseases. Anaphylaxis guidelines.",
+      "url": "https://www.niaid.nih.gov/"
+    }
+  ]
+}

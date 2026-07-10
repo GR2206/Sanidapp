@@ -1,0 +1,54 @@
+{
+  "id": "lab-001",
+  "name": "Labetalol",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Agente bloqueador alfa e beta.",
+  "indications": "## Indicações principais\n\nAgente bloqueador alfa e beta.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 5 mg/mL.",
+      "dose": "10–20 mg E.V. em bolus a cada 10 min; infusão 0,5–2 mg/min.",
+      "administration": "E.V. lenta ou infusão."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 200 mg; Ampolas 4 mL: 5 mg/mL",
+      "administration": "E.V.; V.O.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "Bolus: 5 mg/mL. Infusão contínua: 1 mg/mL.",
+      "infusionRate": "Bolus em 2–3 min ou infusão contínua.",
+      "dose": "Crise hipertensiva: Infusão E.V.: crianças: dose de ataque 0,2–1 mg/kg/dose em 2–3 min (máximo 2 mg/min) até 40 mg. Repetir a cada 10 min até máximo 3–4 mg/kg ou 300 mg. Infusão contínua: 0,25–3 mg/kg/h (neonatos: iniciar 0,5 mg/kg/h). Adultos: 0,3–1 mg/kg/dose de ataque, até 20 mg a cada 2 min; 40–80 mg a cada 10 min até 300 mg acumulados. Sem ajuste em insuficiência renal, HD ou DP. Reduzir dose em insuficiência hepática (~50% da habitual).",
+      "notes": "Para infusão contínua, diluir em SF ou SG 5%. Pode administrar-se sem diluir em restrição hídrica. Evitar em insuficiência hepática."
+    }
+  },
+  "stability": "## Geral\n\n- Usar diluição fresca para infusão.\n\n## Guia pediátrica\n\n- Descartar sobrante após aberto. Diluição estável 24 h em temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\nBroncoespasmo, hepatotoxicidade, hipercalemia, arritmia ventricular.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Labetalol Cloridrato* (cód. 1804, ATC C07AG).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

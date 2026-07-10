@@ -1,0 +1,27 @@
+{
+  "id": "sep-001",
+  "title": "Sepsis in adults",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Identify sepsis early, administer antibiotics within the first hour, measure serum lactate, and monitor tissue perfusion and respiratory function.",
+  "body": "## Steps to perform\n\n1. If sepsis is clinically suspected, activate the institutional sepsis protocol and notify the medical team immediately.\n2. Initiate continuous monitoring of heart rate, blood pressure, respiratory rate, SpO₂, temperature, and urine output.\n3. Administer oxygen therapy to maintain SpO₂ ≥ 92% (adjust according to comorbidities).\n4. Establish peripheral vascular access and central venous access if required.\n5. Obtain cultures **before** antibiotic administration only if doing so does not delay treatment.\n6. Administer empiric broad-spectrum antibiotics within the **first hour** after sepsis recognition.\n7. Measure serum lactate; repeat testing if the initial value is > 2 mmol/L.\n8. Administer crystalloid fluids guided by the patient's hemodynamic response if hypoperfusion is present.\n9. Reassess the patient every 30–60 minutes, evaluating perfusion, fluid balance, and response to treatment.\n10. Record critical time points (recognition, cultures, antibiotics, fluid administration) and immediately communicate any clinical deterioration.\n\n## Scientific rationale\n\n### Indications\n\nLife-threatening organ dysfunction caused by a dysregulated host response to infection (Sepsis-3 definition).\n\n### Suspicion criteria (nursing / first contact)\n\n- Altered mental status, fever, or hypothermia.\n- Tachycardia, tachypnea, or hypotension.\n- Oliguria, poor peripheral perfusion, or elevated lactate.\n- Suspected source of infection (respiratory, urinary, abdominal, skin, or indwelling medical devices).\n\n### Evidence and recommendations\n\n> **Surviving Sepsis Campaign 2021 (Evans et al.):** When sepsis is suspected, do not delay antibiotic therapy or resuscitation while awaiting additional diagnostic studies. Obtain cultures before antibiotics only if this does not delay treatment by more than 45 minutes.\n\n> **SATI — Critical Infectious Diseases Committee:** Early recognition and adherence to the sepsis bundle (cultures, antibiotics, lactate measurement, and fluid resuscitation) are shared responsibilities of the healthcare team, with nurses playing a central role in surveillance and documentation.\n\n### Nursing role\n\n- Early recognition and systematic documentation of warning signs.\n- Implementation of the sepsis bundle (cultures, antibiotics, lactate measurement, and fluid resuscitation).\n- Continuous monitoring of tissue perfusion, fluid balance, and response to therapy.\n- Immediate communication with the medical team if the patient's condition deteriorates.\n\n### Complications\n\n- Refractory septic shock.\n- Acute respiratory failure.\n- Acute kidney injury and multiple organ dysfunction.\n- Delayed antibiotic administration or inadequate fluid resuscitation.",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "Surviving Sepsis Campaign — Official guidelines and resources.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    },
+    {
+      "citation": "Argentine Society of Intensive Therapy (SATI). Critical Infectious Diseases Committee — Guidelines and consensus statements.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Rhodes A, Evans LE, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensive Care Med. 2017;43(3):304-377.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28101605/"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "amo-001",
+  "name": "Amoxicillin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Beta-lactam antibiotic used in the treatment of lower respiratory tract infections, otitis media, sinusitis, skin and soft tissues. Urinary tract infections caused by beta-lactamase–producing microorganisms.",
+  "indications": "## Main indications\n\nBeta-lactam antibiotic used in the treatment of lower respiratory tract infections, otitis media, sinusitis, skin and soft tissues. Urinary tract infections caused by beta-lactamase–producing microorganisms.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Capsules 500 mg, 875 mg; suspension; IV ampoule if available.",
+      "dose": "PO: 500 mg–1 g every 8 h. IV per hospital protocol.",
+      "administration": "PO with or without food; IV infusion."
+    },
+    "pediatrico": {
+      "dose": "20–40 mg/kg/day of amoxicillin every 8 h. Otitis media in high-risk patients, recurrent or persistent acute otitis due to S. pneumoniae, H. influenzae, M. catarrhalis: 80–90 mg/kg/day of amoxicillin; maximum dose: 1500 mg/day of amoxicillin, severe infections up to 3 g amoxicillin/day. Adults: 250 mg amoxicillin every 8 h. More severe and respiratory tract infections: 500 mg every 8 h. Prokinetic in intestinal pseudo-obstruction: 20 mg/kg/day every 12 h, maximum dose: 1500 mg/day.",
+      "administration": "PO",
+      "presentation": "Tablets: amoxicillin 500 mg + clavulanic acid 125 mg; Suspension: amoxicillin 50 mg/mL + clavulanic acid 12,5 mg/mL. Duo presentation: Tablets: amoxicillin 875 mg + clavulanic acid 125 mg; Reconstituted extemporaneous suspension: amoxicillin 80 mg/mL + clavulanic acid 11.4 mg/mL",
+      "notes": "Duo presentation should be administered every 12 h; amoxicillin as trihydrate and clavulanic acid as potassium salt."
+    },
+    "neonatal": {
+      "dose": "25–30 mg/kg/dose PO every 12 h or IV per NICU protocol.",
+      "administration": "PO or IV according to tolerance and severity."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted suspension: refrigerate per package insert (usually 7–14 days).",
+  "adverseEffects": "## Adverse effects\n\nGastrointestinal disturbances, diarrhea, elevation of transaminases and bilirubin, interstitial nephritis, hypersensitivity reactions. Rare: leukopenia, neutropenia, eosinophilia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — amoxicilina + Ácido CLAVULÁNICO (code 1068, ATC J01CR).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

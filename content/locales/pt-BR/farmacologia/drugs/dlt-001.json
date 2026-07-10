@@ -1,0 +1,41 @@
+{
+  "id": "dlt-001",
+  "name": "Diltiazem",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Bloqueador dos canais de cálcio não dihidropiridínico para FA/flutter, angina e HAS.",
+  "indications": "## Indicações\n\n- Controle de frequência em fibrilação atrial/flutter.\n- Angina pectoris e angina vasoespástica.\n- Hipertensão arterial.\n\n## Precauções\n\n- Contraindicado em bloqueio AV de alto grau, IC descompensada e junto com betabloqueadores IV sem supervisão.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 60 e 120 mg. Ampola 25 mg/5 mL.",
+      "dose": "FA aguda: 0,25 mg/kg IV (máx. 20 mg), repetir 0,35 mg/kg se necessário. VO: 120–360 mg/dia.",
+      "administration": "IV lenta ou VO."
+    },
+    "pediatrico": {
+      "dose": "0,1–0,3 mg/kg/dose IV a cada 6–8 h (uso especializado).",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Solução IV: estabilidade limitada; preparar e administrar conforme protocolo.",
+  "adverseEffects": "## Efeitos adversos\n\n- Bradicardia, bloqueio AV, hipotensão, edema, constipação.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / arrhythmia guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

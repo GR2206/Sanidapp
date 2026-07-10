@@ -1,0 +1,48 @@
+{
+  "id": "cad-001",
+  "name": "Cetoacidosis diabética (CAD)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **cetoacidosis diabética** es una emergencia metabólica definida por hiperglucemia, acidosis metabólica con anión gap elevado y cetonemia/cetonuria. Predomina en **diabetes tipo 1**, pero puede aparecer en tipo 2 bajo estrés grave. Los desencadenantes habituales son infección intercurrente, omisión de insulina, IAM y fármacos (corticoides). El cuadro incluye poliuria, polidipsia, náuseas, vómitos, dolor abdominal, respiración de Kussmaul y alteración del sensorio.\n\nEl tratamiento sigue el algoritmo institucional: **reposición de volumen** con cristaloides, **insulina regular IV** en infusión continua tras dosis inicial, corrección de **potasio** (no iniciar insulina si K⁺ < 3,3 mEq/L), y búsqueda del factor precipitante. El bicarbonato solo se considera en acidosis severa con pH < 6,9 según guía. Monitorizar glucemia horaria, gasometría, electrolitos y estado neurológico. Transición a insulina subcutánea cuando la cetonemia se resuelve y el paciente tolera vía oral.\n\n**Enfermería**: balance hídrico estricto, registro de vómitos y diuresis, glucemia capilar seriada, bomba de insulina con doble verificación de velocidad, y educación sobre prevención (enfermedad intercurrente, ajuste de dosis, no suspender insulina basal).",
+  "relatedDrugs": [
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "Insulina NPH"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloruro de potasio"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sodio"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrosa (glucosa)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care — hyperglycemic crises.",
+      "url": "https://diabetesjournals.org/care/"
+    },
+    {
+      "citation": "Sociedad Argentina de Diabetes (SAD). Consenso de CAD.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Joint British Diabetes Societies. DKA management guideline.",
+      "url": "https://www.diabetes.org.uk/"
+    }
+  ]
+}

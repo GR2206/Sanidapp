@@ -1,0 +1,55 @@
+{
+  "id": "acv-001",
+  "name": "Acidente vascular cerebral (AVC)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "O **acidente vascular cerebral** é uma síndrome neurológica focal de início abrupto por alteração da circulação cerebral (isquemia ou hemorragia). Na emergência deve distinguir-se dos **mimics** (crise convulsiva, hipoglicemia, síncope, enxaqueca com aura prolongada). A anamnese orienta o tempo de evolução, anticoagulação prévia e foco cardíaco ou carotídeo. O exame neurológico documenta **NIHSS** ou escala institucional, **Glasgow**, pupilas e sinais de hipertensão intracraniana.\n\nNo **AVC isquêmico agudo** a prioridade é a reperfusão dentro da janela terapêutica (trombólise IV e/ou trombectomia conforme protocolo local). A pressão arterial é manejada conforme critério de trombólise: evitar quedas bruscas salvo emergência hipertensiva. Na **hemorragia intracraniana** reverte-se anticoagulação se corresponder, controla-se PA e encaminha-se à neurocirurgia quando há indicação.\n\nNa **recepção do AVC agudo** **ativa-se o protocolo STROKE**, que consiste em colocar **duas vias periféricas** e solicitar **RM (ressonância magnética)** para obter as imagens dentro do **período janela**. A **enfermagem** assegura via aérea, oxigenoterapia se SpO₂ < 94 %, monitorização contínua e registro horário do nível de consciência e NIHSS; glicemia capilar, ionograma e coagulação conforme protocolo. Manter jejum oral até definir disfagia. Elevar cabeceira 30° se não houver contraindicação. Coordenar código AVC / teleictus institucional. Orientar a família sobre sinais de alerta e continuidade da reabilitação.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association / American Stroke Association. Guidelines for the Early Management of Acute Ischemic Stroke.",
+      "url": "https://www.ahajournals.org/stroke"
+    },
+    {
+      "citation": "Sociedade Argentina de Neurologia Vascular (SANV). Recomendações nacionais.",
+      "url": "https://www.sanv.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Stroke Organization. Global stroke guidelines.",
+      "url": "https://www.world-stroke.org/"
+    }
+  ],
+  "clinicalBoxes": [
+    {
+      "title": "Escala de Coma de Glasgow (GCS)",
+      "content": "**Abertura ocular (E)**\n4 Espontânea · 3 À voz · 2 À dor · 1 Nenhuma\n\n**Resposta verbal (V)**\n5 Orientada · 4 Confusa · 3 Palavras inapropriadas · 2 Sons incompreensíveis · 1 Nenhuma\n\n**Resposta motora (M)**\n6 Obedece ordens · 5 Localiza dor · 4 Retirada à dor · 3 Flexão anormal · 2 Extensão · 1 Nenhuma\n\n**Total E + V + M: 3–15.** GCS ≤ 8: avaliar proteção de via aérea. Registrar série, pupilas e lateralidade neurológica."
+    },
+    {
+      "title": "NIHSS — pontos-chave (resumo)",
+      "content": "Escala 0–42 para quantificar déficit neurológico no AVC agudo. Registrar na admissão e de forma seriada conforme protocolo.\n\n**Domínios principais:** nível de consciência · olhar conjugado · campos visuais · paralisia facial · motricidade de braços e pernas · ataxia de membros · sensibilidade · linguagem · disartria · extinção/negligência.\n\n**Referência orientativa:** 0 = sem sintomas · 1–4 = AVC leve · 5–15 = moderado · 16–20 = moderado-grave · > 20 = grave. Documentar hora de início dos sintomas e escore para decisão de reperfusão."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "man-001",
+      "label": "Manitol"
+    }
+  ]
+}

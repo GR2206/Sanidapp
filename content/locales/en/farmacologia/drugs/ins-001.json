@@ -1,0 +1,53 @@
+{
+  "id": "ins-001",
+  "name": "Regular insulin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Short-acting human insulin (IV/SC) for ketoacidosis, ICU hyperglycemia, and correction with glucose.",
+  "indications": "## Indications\n\n- Diabetic ketoacidosis and hyperglycemic hyperosmolar state.\n- Glycemic control in the ICU with an insulin protocol.\n- Hyperkalemia correction (regimens with glucose).\n\n## Precautions\n\n- Hypoglycemia. Monitor capillary blood glucose every 1–2 h during infusion.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "100 IU/mL vial.",
+      "dose": "DKA: 0.1 IU/kg IV bolus followed by 0.1 IU/kg/h infusion, titrated.",
+      "administration": "IV via pump or SC."
+    },
+    "pediatrico": {
+      "presentation": "100 IU/mL vial.",
+      "administration": "SC or IV.",
+      "diluent": "0.9% NaCl solution, 5% and 10% Dextrose.",
+      "infusionRate": "Continuous drip with infusion pump.",
+      "dose": "0.03 to 0.1 IU/kg/day depending on glycemia.",
+      "notes": "Hypoglycemic agent and for the treatment of hyperkalemia. May cause hypoglycemia, tachycardia, pallor, syncope, hypokalemia, nausea, anaphylaxis."
+    },
+    "neonatal": {
+      "dose": "NICU hyperglycemia: 0.01–0.05 IU/kg/h via pump.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- IV infusion 24–48 h per institutional protocol.\n\n## Pediatric chart\n\n- Keep closed in the refrigerator; once opened, 28 days in the refrigerator. Diluted for drip: 24 h.",
+  "adverseEffects": "## Effects\n\n- Hypoglycemia, hypokalemia during DKA correction.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

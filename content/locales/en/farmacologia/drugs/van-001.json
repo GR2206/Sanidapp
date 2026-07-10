@@ -1,0 +1,59 @@
+{
+  "id": "van-001",
+  "name": "Vancomycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.3",
+  "updatedAt": "2026-07-09",
+  "translationReviewed": true,
+  "executiveSummary": "Bactericidal glycopeptide against beta-lactam–resistant Gram-positive organisms (MRSA, enterococci, and others). High-risk medication: slow infusion (1 h), serum level monitoring, nephrotoxicity and ototoxicity.",
+  "indications": "## Main indications\n\n- Treatment of infections caused by beta-lactam–resistant Gram-positive microorganisms (*MRSA, S. viridans, Bacillus, Corynebacterium*).\n- Sepsis, bacteremia, meningitis, septic arthritis, endocarditis, osteomyelitis, nosocomial pneumonia due to *S. aureus*.\n- Pseudomembranous colitis due to *Clostridioides difficile*: oral route according to severity.\n\n## Precautions\n\n- Administer by infusion over 1 hour; risk of red man syndrome with hypotension if infusion is rapid.\n- Caution regarding necrosis with extravasation; monitor trough serum levels according to indication.\n- Adjust dose in renal insufficiency per institutional protocol.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder for injection 500–1000 mg (Rivervan, Vancomax, V. Fabra, V. Northia, V. Richet, Varedet).",
+      "reconstitution": "10 mL sterile water for injection. Conc: 100 mg/mL.",
+      "diluent": "500 mg in 100 mL 0.9% NaCl.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute 500 mg in 100 mL 0.9% NaCl and administer over no less than 60–90 min. Oral: Yes (*C. difficile* colitis).",
+      "dose": "Preoperative dose in adults: 1 g/dose.",
+      "notes": "Plasma vancomycin monitoring (from 48 h of treatment). Trough according to indication: 15–20 µg/mL (bacteremia, endocarditis, osteomyelitis, meningitis, nosocomial MRSA pneumonia); 10–15 µg/mL for other indications."
+    },
+    "pediatrico": {
+      "presentation": "Powder for injection 500–1000 mg.",
+      "reconstitution": "Sterile water for injection for reconstitution.",
+      "administration": "IV; PO (*C. difficile* colitis).",
+      "diluent": "0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "Infusion over 1 h.",
+      "dose": "IV — Sepsis, bacteremia, meningitis, and septic arthritis: 60 mg/kg/day every 6 h. IV — Other infections: 40 mg/kg/day every 8 h. IV — Cystic fibrosis: 45 mg/kg/day every 8 h. Maximum dose: 2 g/day (up to 4 g/day if underdosed). PO — *C. difficile* colitis: 10 mg/kg/dose every 6 h (max. 125 mg/dose; severe or fulminant: max. 500 mg/dose), 10 days.",
+      "notes": "High-risk medication. Ototoxic, nephrotoxic. May cause phlebitis, febrile reactions, rash, eosinophilia, neutropenia. Bolus administration may induce cardiac arrest."
+    },
+    "neonatal": {
+      "dose": "Dose and interval according to postmenstrual age and renal function (NICU protocol).",
+      "administration": "Central route preferred; monitor access and signs of extravasation."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature.\n\n## Pediatric guide\n\n- 96 h refrigerated.",
+  "adverseEffects": "## Common\n\n- Red man syndrome with hypotension (associated with infusion rate).\n- Phlebitis, febrile reactions, rash, eosinophilia, neutropenia.\n\n## Serious\n\n- Ototoxicity, nephrotoxicity.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Vancomycin Hydrochloride (code 0216, ATC J01XA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Rybak MJ, et al. Therapeutic monitoring of vancomycin: revised consensus guidelines. Am J Health Syst Pharm. 2020.",
+      "url": "https://www.ashp.org/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy — Vancomycin dosing and monitoring.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information — Vancomycin.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

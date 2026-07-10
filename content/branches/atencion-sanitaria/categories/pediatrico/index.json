@@ -1,0 +1,110 @@
+{
+  "category": "pediatrico",
+  "protocols": [
+    {
+      "id": "sep-p001",
+      "title": "Sepsis pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "feb-001",
+      "title": "Fiebre sin foco en lactante",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.2"
+    },
+    {
+      "id": "bro-p001",
+      "title": "Bronquiolitis aguda en lactante",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "reh-p001",
+      "title": "Rehidratación en gastroenteritis aguda",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "oxi-p001",
+      "title": "Oxigenoterapia pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "vip-p001",
+      "title": "Colocación de vía periférica pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.2"
+    },
+    {
+      "id": "son-p001",
+      "title": "Colocación de sonda vesical pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "vic-p001",
+      "title": "Colocación de vía central pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "hem-p001",
+      "title": "Toma de hemocultivo pediátrico",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.2"
+    },
+    {
+      "id": "ret-p001",
+      "title": "Toma de retrocultivo de catéter pediátrico",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "pam-p001",
+      "title": "Colocación de línea arterial pediátrica (PAM)",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "med-p001",
+      "title": "Administración segura de medicación IV pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0"
+    },
+    {
+      "id": "dip-p001",
+      "title": "Colocación de catéter de diálisis peritoneal pediátrico",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "dpp-p001",
+      "title": "Diálisis peritoneal pediátrica: intercambios y cuidados",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "dol-p001",
+      "title": "Dolor y sedación en pediatría",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    }
+  ]
+}

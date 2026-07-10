@@ -1,0 +1,57 @@
+{
+  "id": "flm-001",
+  "name": "Flumazenil",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antagonista de las benzodiazepinas.",
+  "indications": "## Indicaciones principales\n\nAntagonista de las benzodiazepinas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 0,1 mg/mL.",
+      "dose": "0,2 mg IV en 15 s; repetir 0,2 mg cada 1 min hasta 1 mg (protocolo).",
+      "administration": "IV lenta."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 5 ml: 0,1 mg/ml",
+      "administration": "E.V.",
+      "diluent": "A. dest., Sol. Cl Na 0,9%, Dext. 5%, Ringer.",
+      "finalConcentration": "0,05 mg/mL.",
+      "infusionRate": "Push de 15 a 30 seg.",
+      "dose": "Niños: 0,01 mg/kg (máximo 0,2 mg) cada 1 minuto, hasta 5 dosis. Infusión continua: 5-10 µg/kg/hora. Adultos: 0,2 mg en no menos de 15 segundos Si no se obtiene la respuesta deseada en 1 min. puede inyectarse una 2da dosis de 0,1 mg y en caso de ser necesario repetirse 0,1 mg cada 60 segundos hasta dosis total de 1 mg.",
+      "notes": "Sólo debe ser utilizada por anestesistas o terapistas. Se puede usar como prueba diagnóstica cuando se sospecha coma por benzodiazepina. No usar en intoxicaciones por benzodiazepinas y antidepresivos o cuando hay antecedentes convulsivos."
+    },
+    "neonatal": {
+      "dose": "Uso muy restringido; 0,01 mg/kg según protocolo NNU.",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## General\n\n- Usar inmediatamente tras apertura.\n\n## Cartilla pediátrica\n\n- 24 hs a T° ambiente. Luego desechar.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, ansiedad, palpitaciones. En pacientes tratados con benzodiazepinas puede provocar síndrome de abstinencia que se controla con diazepam.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Flumazenil (cód. 0520, ATC V03AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

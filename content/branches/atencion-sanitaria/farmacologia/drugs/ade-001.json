@@ -1,0 +1,53 @@
+{
+  "id": "ade-001",
+  "name": "Adenosina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Reversión rápida a ritmo sinusal normal de taquicardias paroxísticas supraventriculares. Ayuda al diagnóstico de taquicardias supraventriculares con complejos anchos o estrechos.",
+  "indications": "## Indicaciones principales\n\nReversión rápida a ritmo sinusal normal de taquicardias paroxísticas supraventriculares. Ayuda al diagnóstico de taquicardias supraventriculares con complejos anchos o estrechos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 3 mg/mL.",
+      "dose": "6 mg IV bolus rápido, luego 12 mg si persiste (máx. 30 mg).",
+      "administration": "IV proximal con flush 20 mL."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 2 ml: 3 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "3 mg/mL.",
+      "infusionRate": "Push con lavado inmediato de SF de 5 a 10 mL (administración con dos jeringas).",
+      "dose": "Inicial: 50-100 µg/kg (dosis máxima: 6 mg), si no hay respuesta, administrar a los 2 min una segunda dosis de 200 µg/kg y repetir el proceso hasta un máximo de 0,5 mg/kg/dosis en niños o 0,3 mg/kg/dosis en neonatos o hasta establecer ritmo sinusal (máximo: 12 mg/dosis o bien 30 mg/total).",
+      "notes": "No debe tomarse té, cola, café o cacao ni comer chocolate durante, al menos, 12 horas antes de la administración del medicamento."
+    },
+    "neonatal": {
+      "dose": "0,05–0,1 mg/kg bolus según protocolo.",
+      "administration": "IV con flush."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Descartar el sobrante una vez abierto.\n\n## General\n\n- Usar sin dilución; administrar de inmediato.",
+  "adverseEffects": "## Efectos adversos\n\nA pesar de que la incidencia de efectos secundarios es relativamente elevada, los posibles efectos son sumamente transitorios debido a la corta vida media del fármaco (&lt;10 s): dolor torácico, enrojecimiento facial (flush) e hipotensión arterial. Bradicardia y arritmias transitorias: bloqueo AV, complejos auriculares prematuros, fibrilación auricular y taquicardia ventricular no sostenida; disnea, hiperventilación, tos y broncoespasmo; mareos, cefalea, temblor, visión borrosa e hipertensión endocraneal; náuseas, sabor metálico y molestias gastrointestinales.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Adenosina (cód. 1181, ATC C01EB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "itu-001",
+  "name": "Infección urinaria complicada y pielonefritis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **infección del tracto urinario (ITU) complicada** ocurre en presencia de anomalía estructural o funcional, instrumentación reciente, embarazo, diabetes o inmunosupresión. La **pielonefritis aguda** es infección del parénquima renal, con fiebre, dolor lumbar, náuseas y a veces síntomas miccionales. En varones jóvenes toda ITU se considera complicada; en ancianos puede presentarse solo con alteración del estado general.\n\nEl diagnóstico combina clínica, urocultivo y, si hay fiebre persistente o mala respuesta, imagen (ecografía o TC) para descartar obstrucción o absceso. Antibiótico empírico según guía local (ceftriaxona, fluoroquinolona si baja resistencia, piperacilina-tazobactam en severos o hospitalizados). Duración habitual 7–14 días según gravedad. Hospitalizar si vómitos, septicemia, embarazo, falla renal o no tolerancia oral.\n\n**Enfermería**: registrar temperatura y dolor lumbar, incentivar hidratación oral si tolera, control de diuresis, cultivos antes de antibiótico cuando sea posible sin retrasar dosis en cuadro severo, y educación sobre higiene y adherencia al tratamiento.",
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "cip-001",
+      "label": "Ciprofloxacino"
+    },
+    {
+      "drugId": "lev-001",
+      "label": "Levofloxacino"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "tri-001",
+      "label": "Trimetoprima/sulfametoxazol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. International Clinical Practice Guidelines for Acute Uncomplicated Cystitis and Pyelonephritis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías de ITU.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "European Association of Urology. Urological Infections guidelines.",
+      "url": "https://uroweb.org/guidelines"
+    }
+  ]
+}

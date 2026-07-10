@@ -1,0 +1,45 @@
+{
+  "id": "ktr-001",
+  "name": "Ketorolac",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "No esteroideo.Analgésico en dolor agudo de moderado a severo, equivalente a los opioides. Escasa eficacia antiinflamatoria.",
+  "indications": "## Indicaciones principales\n\nNo esteroideo.Analgésico en dolor agudo de moderado a severo, equivalente a los opioides. Escasa eficacia antiinflamatoria.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampollas por 1 ml: 30 mg/ml; Ampollas por 2 ml: 15 mg/ml; Comprimidos: 10 mg",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "30 mg/mL.",
+      "infusionRate": "De 1 a 5 minutos.",
+      "dose": "Niños de 6 meses a 16 años: E.V.: 0,5 mg/kg/dosis (máx: 15 mg/dosis) cada 6 - 8 hs; V.O.: 1 mg/kg/dosis cada 6 - 8 hs, dosis máxima: 10 mg/dosis. &ge; 17 años, más de 50 kg y adultos: E.V.: 30 mg cada 6 - 8 hs, dosis máxima: 120 mg/día (si el niño pesa menos de 50 Kg no exceder los 60 mg/día), V.O.: 10 mg cada 6 - 8 hs, dosis máxima: 40 mg/día.",
+      "compatibility": "Precipita concomitante a morfina.",
+      "notes": "Máxima duración del tratamiento: 48 - 72 hs. Administración: push en más de 15 segundos o para infusión intermitente diluir en solución fisiológica o dextrosa 5% en una concentración de 0,12 mg/ml. Insuficiencia renal moderada o grave: contraindicado porque el ketorolac y sus metabolitos se eliminan principalmente por vía renal. En los pacientes con menor grado de insuficiencia renal indicar la mitad de la dosis recomendada, sin superar una dosis diaria total de 60 mg, con determinaciones periódicas de las pruebas de función renal. La diálisis apenas permite eliminar el ketorolaco de la sangre."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, dispepsias, epigastralgias, constipación, diarrea, edema, hipertensión, rash, prurito, púrpura, somnolencia, mareos, cefalea, sudoración. Hemorragia gastrointestinal, trombocitopenia, convulsiones, insuficiencia renal aguda.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — ketoROLac trometamina* (cód. 0642, ATC M01AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "cur-001",
+  "title": "Surgical wound care",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Perform sterile wound care, assess for signs of surgical site infection, and document wound progression during each shift.",
+  "body": "## Steps to perform\n\n1. Perform hand hygiene (WHO technique) and verify patient identity.\n2. Prepare sterile materials: gloves, normal saline or indicated antiseptic, gauze, and an occlusive dressing.\n3. Assess the wound: erythema, exudate, odor, edges, pain, and signs of dehiscence.\n4. Remove the previous dressing using aseptic technique.\n5. Clean from the center to the periphery using sterile materials; do not reuse materials on contaminated areas.\n6. Apply the dressing according to prescription and secure it without tension.\n7. Document findings, type of exudate, and interventions in the nursing medical record.\n8. Immediately report purulent discharge, dehiscence, cellulitis, or fever.\n\n## Scientific rationale\n\n### Indications\n\nNursing procedure for surgical wound care in hospitalized adults.\n\n### Material\n\n- Sterile gloves\n- Normal saline or antiseptic indicated in the prescription\n- Sterile gauze\n- Occlusive dressing\n\n### Evidence and recommendations\n\n> **WHO 2018:** Prevention of surgical site infection through aseptic technique, sterile wound care, and surveillance of local signs.\n\n> **SATI — Critical Infectious Diseases Committee:** Management of skin and soft tissue infections with early referral upon signs of complication.\n\n### Referral criteria\n\n- Purulent or foul-smelling discharge.\n- Suture dehiscence or evisceration.\n- Progressing perilesional cellulitis.\n- Fever or unexplained worsening of local pain.\n\n### Complications\n\n- Surgical site infection.\n- Dehiscence or evisceration.\n- Perilesional cellulitis.\n- Delayed healing.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Global Guidelines for the Prevention of Surgical Site Infection. WHO, 2018.",
+      "url": "https://www.who.int/publications/i/item/global-guidelines-for-the-prevention-of-surgical-site-infection"
+    },
+    {
+      "citation": "SATI — Critical Infectious Diseases Committee. Guidelines for management of skin and soft tissue infections.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    },
+    {
+      "citation": "SATI — General clinical guidelines and consensus statements.",
+      "url": "https://www.sati.org.ar/guias/"
+    }
+  ]
+}

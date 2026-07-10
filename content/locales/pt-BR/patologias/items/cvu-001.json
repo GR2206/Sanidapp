@@ -1,0 +1,53 @@
+{
+  "id": "cvu-001",
+  "name": "Crise convulsiva e estado de mal epiléptico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **crise convulsiva** é um evento paroxístico por descarga elétrica cerebral anormal. Na emergência deve distinguir-se **crise provocada** (hipoglicemia, hiponatremia, álcool, medicamentos, TCE, AVC) de **epilepsia**. O **estado de mal epiléptico** é convulsão ≥ 5 min ou duas ou mais crises sem recuperação completa do nível de consciência entre elas; é emergência neurológica.\n\nO algoritmo institucional habitual: **benzodiazepínico** de primeira linha (diazepam ou midazolam IV/retal/IM conforme via disponível). Se persistir, segunda dose de benzodiazepínico e depois **antiepiléptico IV** (levetiracetam, fenitoína ou valproato conforme protocolo). Corrigir simultaneamente glicose, eletrólitos e causa reversível. Proteger via aérea, oxigênio, acesso venoso e monitor cardíaco (fenitoína: risco de hipotensão e arritmias com infusão rápida).\n\n**Enfermagem**: cronometrar duração da crise, lateralizar o paciente, não introduzir objetos na boca, registrar medicação e hora exata, vigiar período pós-ictal (confusão, sonolência) e observar lesões por queda. Solicitar glicemia capilar imediata.",
+  "bibliography": [
+    {
+      "citation": "International League Against Epilepsy (ILAE). Status epilepticus treatment guidelines.",
+      "url": "https://www.ilae.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Neurologia (SAN). Consensos de epilepsia.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Epilepsy Society. Treatment of convulsive status epilepticus.",
+      "url": "https://www.aesnet.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "dia-001",
+      "label": "Diazepam"
+    },
+    {
+      "drugId": "mid-001",
+      "label": "Midazolam"
+    },
+    {
+      "drugId": "lor-001",
+      "label": "Lorazepam"
+    },
+    {
+      "drugId": "lvt-001",
+      "label": "Levetiracetam"
+    },
+    {
+      "drugId": "fny-001",
+      "label": "Fenitoína"
+    },
+    {
+      "drugId": "phb-001",
+      "label": "Fenobarbital"
+    }
+  ]
+}

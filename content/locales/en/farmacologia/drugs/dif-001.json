@@ -1,0 +1,45 @@
+{
+  "id": "dif-001",
+  "name": "Diphenhydramine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antihistamine. Antiemetic adjunct. Sedative.",
+  "indications": "## Main indications\n\nAntihistamine. Antiemetic adjunct. Sedative.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Capsules: 50 mg; Tablets: 50 mg; Syrup: 2,5 mg/mL; Ampoules or powder vial 10 mL: 10 mg/mL",
+      "administration": "PO; IV; IM",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "25 mg/mL.",
+      "infusionRate": "15 min with continuous infusion pump.",
+      "dose": "Infants: 1 mg/kg/day; Children: 3–5 mg/kg/day every 6–8 h, maximum dose: 50 mg/dose; premedication: 1 mg/kg/dose, maximum dose: 50 mg/dose. Adults: 50 mg/dose every 6–8 h, maximum dose: 50 mg/dose.",
+      "notes": "< 6 months may exhibit paradoxical hyperexcitability. Do not use in neonates. PO: administer with food. Contraindicated in asthmatic crises."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nSignificant antimuscarinic activity, sedation. Dizziness, tinnitus, fatigue, diplopia, lassitude, incoordination, hypotension, nausea, vomiting, urinary retention. Overdose: psychosis, fever, hallucinations, seizures.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — difenhidrAMINA (code 0071, ATC R06AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

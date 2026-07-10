@@ -1,0 +1,53 @@
+{
+  "id": "end-001",
+  "name": "Endocardite infecciosa",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **endocardite infecciosa** é infecção do endocárdio, valvas ou material protético intracardíaco, com alta morbimortalidade se não tratada. Suspeitar ante **febre prolongada** sem foco, sopro novo ou alterado, fenômenos embólicos (petéquias, Janeway, Osler, infartos), antecedente de valvulopatia, prótese valvar, uso de drogas IV ou procedimentos dentários recentes em pacientes de risco.\n\nAntes do antibiótico: **três hemoculturas** de distintos sítios e momentos (não retardar início se instabilidade). Esquema empírico conforme contexto: **vancomicina** + **ceftriaxona** ou **gentamicina** (valva nativa); ajustar quando houver antibiograma. ETE (ecocardiograma transesofágico) confirma vegetações e complicações. Indicações cirúrgicas: insuficiência cardíaca refratária, abscesso, fístula, infecção protética precoce ou embolia recorrente.\n\n**Enfermagem**: hemoculturas seriadas, controle de temperatura, vigilância de embolias (neurológicas, esplênicas, renais), orientação sobre adesão prolongada ao antibiótico e profilaxia em procedimentos dentários futuros.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Infective Endocarditis Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia (SAC). Endocardite infecciosa.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Infective endocarditis guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "Critérios de Duke — versão simplificada",
+    "content": "Diagnóstico provável com **2 maiores**, ou **1 maior + 3 menores**, ou **5 menores**.\n\n**Maiores:** hemoculturas positivas típicas · evidência ecocardiográfica (vegetação, abscesso, deiscência protética)\n\n**Menores:** predisposição (valvulopatia, uso de drogas IV) · febre > 38 °C · fenômenos vasculares (embolia, Janeway, hemorragias) · imunológicos (Osler, Roth, fator reumatoide) · hemocultura atípica · achado ecocardiográfico menor\n\nRegistrar hora da coleta de culturas e da primeira dose de antibiótico."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "gen-001",
+      "label": "Gentamicina"
+    },
+    {
+      "drugId": "amp-001",
+      "label": "Ampicilina"
+    },
+    {
+      "drugId": "ami-001",
+      "label": "Amicacina"
+    }
+  ]
+}

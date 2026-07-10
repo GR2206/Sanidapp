@@ -1,0 +1,40 @@
+{
+  "id": "tig-001",
+  "name": "Tigeciclina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Glicilciclina IV de reserva para infecções polimicrobianas intra-abdominais e de pele complicadas.",
+  "indications": "## Indicações\n\n- Infecções intra-abdominais e de pele complicadas quando as alternativas não são adequadas.\n\n## Precautões\n\n- Maior mortalidade em bacteriemia em alguns estudos; não é primeira linha na sepse.\n- Náuseas frequentes.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampola com pó liofilizado contendo 50 mg (Tigeciclina Richet, Tygacil).",
+      "reconstitution": "5 mL de SF ou SG 5%. Conc.: 10 mg/mL.",
+      "diluent": "50 mg em 100 mL de SF ou SG 5%.",
+      "finalConcentration": "0,5 mg/mL.",
+      "administration": "IV direta: Não. IV intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e administrar em 30–60 min.",
+      "notes": "Não administrar simultaneamente com anfotericina B, complexo lipídico de anfotericina B nem diazepam. Quando a dose de ataque for 200 mg, diluir em 200 mL de SF ou SG 5%."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente.\n\n## Solução diluída (a administrar)\n\n- 48 h em temperatura ambiente.",
+  "adverseEffects": "## Efeitos adversos\n\n- Náuseas, vômitos, hiperbilirrubinemia, pancreatite (raro).",
+  "bibliography": [
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

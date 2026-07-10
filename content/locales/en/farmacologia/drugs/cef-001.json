@@ -1,0 +1,51 @@
+{
+  "id": "cef-001",
+  "name": "Cephalexin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "First-generation cephalexin. Infections caused by susceptible bacteria of the urinary tract, skin, soft tissues, and bone.",
+  "indications": "## Main indications\n\nFirst-generation cephalexin. Infections caused by susceptible bacteria of the urinary tract, skin, soft tissues, and bone.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Capsules 500 mg; suspension.",
+      "dose": "250–500 mg PO every 6 h.",
+      "administration": "PO."
+    },
+    "pediatrico": {
+      "dose": "Children: 25-50 mg/kg/day every 6 h, severe infections: 50-100 mg/kg/day every 6 h, maximum dose: 3 g/day. Adults: 250-1000 mg every 6 h, maximum dose: 4 g/day. Urinary tract infection prophylaxis in neonates up to 2 months: 30 mg/kg/day every 24 h, at night. Bacterial endocarditis prophylaxis: 2 g, 1 hour before procedure.",
+      "administration": "PO",
+      "presentation": "Tablets: 500 mg; Syrup: 100 mg/ml",
+      "notes": "Administer on an empty stomach. Should not be used for urinary tract infection prophylaxis in children older than 2 months to avoid emergence of resistant strains."
+    },
+    "neonatal": {
+      "dose": "25 mg/kg/dose PO every 12 h per protocol.",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Refrigerated suspension per package insert.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, mild diarrhea, allergic reactions, pruritus, headache, neutropenia, fungal superinfections. Nephrotoxicity (2%).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — CefaLEXIN (code 0034, ATC Jo1DB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

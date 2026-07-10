@@ -1,0 +1,58 @@
+{
+  "id": "lor-001",
+  "name": "Lorazepam",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anticonvulsivante. Relajante muscular. Ansiolítico. Antiemético (vómitos anticipatorios).",
+  "indications": "## Indicaciones principales\n\nAnticonvulsivante. Relajante muscular. Ansiolítico. Antiemético (vómitos anticipatorios).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 2–4 mg/mL.",
+      "dose": "1–4 mg IV lento PRN sedación; status: 0,1 mg/kg (protocolo).",
+      "administration": "IV lenta."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 1-2-2,5 mg; Comprimidos sublinguales: 1 mg; Ampollas: 4 mg/ml; Solución (preparado magistral): 1 mg/ml",
+      "reconstitution": "1 amp. + 3 mL de diluyente.",
+      "administration": "V.O.; E.V.; I.M.",
+      "diluent": "A. dest., Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "Bolo de 2 a 5 minutos. Goteo para analgosedación.",
+      "dose": "Ansiedad, sedación: lactantes y niños (V.O./E.V.): 0,05 mg/kg/dosis cada 4-6-8 hs (máximo 2 mg/dosis), adultos: 1-10 mg/día cada 8-12 hs. Status epilepticus (E.V./Rectal) : neonatos: 0,05 mg/kg repetir si es necesario en 10-15 min., lactantes y niños: 0,1 mg/kg (máximo 4 mg/dosis) repetir si es necesario en 10-15 min., adultos: 4 mg/dosis repetir si es necesario en 10-15 min. Antiemético: 0,05 mg/kg/dosis cada 6 hs, máximo: 4 mg/dosis.",
+      "notes": "E.V.: Diluir previamente con igual volumen de Dx 5% o Sol.F., no exceder 2 mg/minuto. Interacciones: otros depresores del S.N.C. o respiratorios pueden aumentar los efectos adversos del lorazepam. Las ampollas contienen alcohol bencílico 2%, polietilenglicol y propilenglicol (precaución en recién nacidos por toxicidad). Evitar administración intraarterial. Contraindicado en glaucoma de ángulo estrecho. Ver guía preliminar para la prevención de la teratogénesis causada por medicamentos. Ver Guía práctica para manejo de analgosedación y su descenso en salas de cuidados intermedios y moderados."
+    },
+    "neonatal": {
+      "dose": "0,05 mg/kg IV según protocolo convulsiones NNU.",
+      "administration": "IV lenta."
+    }
+  },
+  "stability": "## General\n\n- IV diluida según prospecto.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto. Conservar en heladera.",
+  "adverseEffects": "## Efectos adversos\n\nSedación excesiva, ataxia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — LORazepam (cód. 0131, ATC N05BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "men-001",
+  "name": "Meningite e meningoencefalite",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **meningite bacteriana aguda** é uma emergência infecciosa com inflamação das meninges; a **meningoencefalite** acrescenta comprometimento do parênquima cerebral (frequente em etiologia viral, por exemplo HSV). O quadro clássico inclui febre, cefaleia intensa, rigidez de nuca, fotofobia e alteração do estado mental; em idosos e imunodeprimidos pode ser **subclínica**. O sinal de **Kernig** e **Brudzinski** apoiam o diagnóstico mas não o excluem se ausentes.\n\nAnte suspeita, não retardar antibiótico: hemoculturas e **punção lombar** (ou neuroimagem prévia somente se houver focalidade neurológica, papiledema, imunossupressão ou crise convulsiva recente, conforme protocolo). Esquema empírico adulto habitual: **ceftriaxona** ± **vancomicina** (cobertura de pneumococo resistente) ± **ampicilina** se > 50 anos ou imunossupressão (Listeria). Na suspeita de HSV: **aciclovir** IV. **Dexametasona** antes ou com a primeira dose de antibiótico na meningite pneumocócica conforme diretriz institucional.\n\n**Enfermagem**: isolamento por gotículas conforme protocolo, monitorar GCS e sinais de hipertensão intracraniana, controle rigoroso de temperatura, registrar hora da primeira dose de antibiótico, vigiar convulsões e preparar material para PL em ambiente estéril.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. Practice guidelines for bacterial meningitis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Meningite bacteriana.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "European Society of Clinical Microbiology and Infectious Diseases. Meningitis guidelines.",
+      "url": "https://www.escmid.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    },
+    {
+      "drugId": "amp-001",
+      "label": "Ampicilina"
+    },
+    {
+      "drugId": "aci-001",
+      "label": "Aciclovir"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexametasona"
+    }
+  ]
+}

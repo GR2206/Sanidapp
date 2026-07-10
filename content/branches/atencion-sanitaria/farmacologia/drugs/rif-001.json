@@ -1,0 +1,60 @@
+{
+  "id": "rif-001",
+  "name": "Rifampicina",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico.Tuberculostático.",
+  "indications": "## Indicaciones principales\n\nAntibiótico.Tuberculostático.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 600 mg (Rifampicina Kilab, Richet).",
+      "reconstitution": "10 mL de AD. Conc: 60 mg/mL.",
+      "diluent": "600 mg en 500 mL de DX 5%.",
+      "finalConcentration": "1,2 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Agitar suavemente hasta disolución completa. Diluir en 100-500 mL de DX 5% y admin. en 3 hs máx.",
+      "notes": "Luego de 4 hs de preparada la dilución, puede producirse precipitación del ATB. Utilizar preferentemente DX 5% para la misma, ya que en SF la estabilidad se reduce."
+    },
+    "pediatrico": {
+      "presentation": "Cápsulas: 300 mg; Comprimidos: 300 mg; Jarabe: 20 mg/ml; F.A.: 600 mg",
+      "administration": "E.V.; V.O.",
+      "diluent": "Preferentemente Dext. 5%. De lo contrario SF.",
+      "finalConcentration": "6 mg/mL.",
+      "infusionRate": "30 min. a 3 horas con BIC.",
+      "dose": "Menores 1 mes: 10 mg/kg/día. Mayores 1 mes: 10-20 mg/kg/día cada 24 hs, dosis máxima: 600 mg/día. Tratamiento tuberculosis: lactantes y niños: 10-20 mg/kg/día, dosis máxima: 600 mg/día. Profilaxis de H.influenzae: neonatos &lt; 1 mes: 10 mg/kg/día cada 24 hs por 4 días; niños: 20 mg/kg/día cada 24 hs por 4 días; Adultos: 600 mg cada 24 hs por 4 días. Profilaxis Meningococo: &lt; 1 mes: 10 mg/kg/día cada 12 hs por 2 días; niños: 20 mg/kg/día cada 12 hs por 2 días; Adultos: 600 mg cada 12 hs por 2 días. Sinergismo: niños: 10-20 mg/kg/día, cada 12-24 hs, dosis máxima: 600 mg/día; adultos: E.V.; V.O.: 300 mg cada 12 hs. Ver tabla de dosis de antinfecciosos en I.H.",
+      "notes": "Contraindicado en pacientes con hipersensibilidad. Precaución en pacientes con enfermedades hepáticas. Realizar hepatograma al inicio del tratamiento, repetir sólo si hay síntomas. Fuerte inductor C P-450. Interacciones: digital, fenitoína, diazepam, ciclosporina, trimetoprima/sulfametoxazol, ketoconazol, teofilina, anticoagulantes, inhibidores de proteasa. La rifampicina interfiere con los anticonceptivos orales, por lo que disminuye la eficacia anticonceptiva. Se recomienda el uso de otros métodos anticonceptivos (de barrera -preservativo-, dispositivos intrauterinos). Puede conferir un color anaranjado a los líquidos corporales. Las lentes de contacto blandas pueden mancharse de manera permanente.Ver guía de tratamiento de tuberculosis"
+    },
+    "neonatal": {
+      "dose": "Esquemas TB neonatal según protocolo nacional/NNU.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb.\n\n## Solución diluida (a administrar)\n\n- 4 hs a T° amb.\n\n## Cartilla pediátrica\n\n- 24 hs a T° ambiente reconstituido y 4 horas diluido.",
+  "adverseEffects": "## Efectos adversos\n\nDisturbios gastrointestinales, ictericia, hepatitis, reacciones febriles tipo influenza, reacciones dermatológicas, neurotoxicidad. Hematológicos: neutropenia, leucopenia, trombocitopenia (poco frecuente).",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — rifAMPicina (cód. 1054, ATC J04AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "sal-001",
+  "name": "Salbutamol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antiinflamatorio tópico, broncodilatador.",
+  "indications": "## Indicaciones principales\n\nAntiinflamatorio tópico, broncodilatador.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Nebulización 5 mg/mL; MDI; ampolla IV.",
+      "dose": "Neb: 2,5–5 mg cada 20 min x 3. IV: 0,5 mcg/kg/min infusión en crisis severa.",
+      "administration": "Nebulización o IV."
+    },
+    "pediatrico": {
+      "dose": "Según indicación médica.",
+      "administration": "Inhalatoria",
+      "presentation": "Aerosol: cada dosis Salbutamol 100 mcg + Dipropionato de Beclometasona 50 mcg",
+      "notes": "No indicado en ataque agudo. Controlar al paciente mediante pruebas de función pulmonar. Riesgo de síndrome de Cushing, aspecto Cushingoide, supresión suprarrenal, retraso del crecimiento en niños y adolescentes, disminución de la densidad mineral ósea, cataratas, glaucoma y, más raramente, efectos psicológicos o de comportamiento (hiperactividad psicomotora, trastornos del sueño, ansiedad, depresión o agresividad especialmente en niños). Controlar la altura de niños que reciben tto. No suspender el tratamiento bruscamente. Precaución en tirotoxicosis, tuberculosis pulmonar, insuf. de miocardio, aneurismas conocidos o enf. cardíacas subyacentes graves (isquemia de miocardio, taquiarritmias y cardiomiopatía obstructiva hipertrófica), hipertensión, tolerancia a glucosa disminuida, diabetes manifiesta, feocromocitoma y uso concomitante de glucósidos cardiacos. Riesgo de infecciones bucales (recomendar al paciente que se enjuage la boca tras administración), hipocalemia potenciada en concomitancia con xantinas, corticoides o diuréticos: vigilar nivel sérico de K + ."
+    },
+    "neonatal": {
+      "dose": "Neb: 0,1–0,3 mg/kg; infusión IV en broncodisplasia según NNU.",
+      "administration": "Neb/IV."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Nebulización usar solución fresca.",
+  "adverseEffects": "## Efectos adversos\n\nCandidiasis bucal o faríngea; temblor, cefalea; taquicardia; ronquera, irritación de boca y garganta.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — BECLOmetasona + salbutamol (cód. 1022, ATC R03AK).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

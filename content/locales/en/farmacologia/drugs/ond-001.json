@@ -1,0 +1,59 @@
+{
+  "id": "ond-001",
+  "name": "Ondansetron",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Refractory emesis. Chemotherapy-induced emesis (indication per current regulations). Postoperative nausea and vomiting.",
+  "indications": "## Main indications\n\nRefractory emesis. Chemotherapy-induced emesis (indication per current regulations). Postoperative nausea and vomiting.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "4–8 mg ampoule; ODT tablets.",
+      "dose": "4–8 mg slow IV or PO every 8 h.",
+      "administration": "Slow IV or PO."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 8 mg; Ampoules: 8 mg",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "Bolus over 2 to 5 minutes.",
+      "dose": "Chemotherapy-induced nausea and vomiting prophylaxis: Infants, children, and adolescents IV / PO: 0,15 mg/kg/dose (5 mg/m²/dose); maximum dose 8 mg/dose every 8 h. Administer first dose 30 minutes before starting cytotoxic infusion. Postoperative nausea and vomiting prophylaxis: IV: 1 month to 12 years and < 40 kg: 0,1 mg/kg/dose, > 40 kg and adults: 4 mg/dose. Adjust dose in hepatic insufficiency (single daily dose). Acute gastroenteritis: > 6 months 8 kg to 15 kg: 2 mg; 15 kg to 30 kg: 4 mg; > 30 kg: 8 mg. Dose may be repeated only if vomiting occurs within the first 15 minutes after administration.",
+      "compatibility": "Incompatible with acyclovir, ampicillin, aminophylline, furosemide, ganciclovir, lorazepam, methylprednisolone, and piperacillin.",
+      "notes": "Protect from light; do not administer in the same syringe or infusion with another medication. Administer as push over 2-5 min or by infusion diluted in 5% dextrose or 0.9% NaCl over 15 minutes. Metabolized by cytochrome P-450. Verify normal ECG before treatment due to QT interval prolongation at high doses and avoid concomitant use with cardiotoxic drugs."
+    },
+    "neonatal": {
+      "dose": "0,1 mg/kg IV every 8 h per protocol.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## General\n\n- IV compatible in NaCl and dextrose.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, constipation, fatigue, immediate hypersensitivity reactions (urticaria, angioedema, hypotension, bronchospasm, dyspnea, anaphylaxis), QTc interval prolongation, dizziness, fever.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Ondansetron (code 0502, ATC A04AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

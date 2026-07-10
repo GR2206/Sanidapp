@@ -1,0 +1,52 @@
+{
+  "id": "pna-001",
+  "name": "Neumonía adquirida en la comunidad",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **neumonía adquirida en la comunidad (NAC)** es la infección aguda del parénquima pulmonar adquirida fuera del ámbito hospitalario. En guardia se clasifica según gravedad con escalas como **CURB-65** o **PSI** para decidir manejo ambulatorio, hospitalario o en UTI. La presentación clásica incluye fiebre, tos productiva, dolor pleurítico y consolidación en la auscultación; en adultos mayores puede debutar con confusión o desaturación sin fiebre marcada.\n\nEl estudio incluye radiografía de tórax (o ecografía torácica si está disponible), hemograma, función renal, oximetría y hemocultivos en casos graves. El **antibiótico empírico** se ajusta a guía local y factores de riesgo (EPOC, alcoholismo, institucionalización reciente). Esquemas frecuentes: betalactámico ± macrólido o fluoroquinolona respiratoria en pacientes con comorbilidades. Oxígeno si SpO₂ < 90–92 % y reevaluación a las 48–72 h.\n\n**Enfermería**: control de temperatura y SpO₂, fomentar hidratación y movilización precoz, técnicas de tos efectiva, educación sobre completar el ciclo antibiótico y vacunación antineumocócica e influenza. Aislar solo si hay sospecha de patógeno transmitido por vía aérea según protocolo.",
+  "clinicalBox": {
+    "title": "CURB-65 — gravedad en NAC",
+    "content": "Un punto por cada criterio:\n**C** — Confusión (nueva o GCS ≤ 8)\n**U** — Urea > 19 mg/dL (o BUN > 20 mg/dL)\n**R** — Frecuencia respiratoria ≥ 30/min\n**B** — PA sistólica < 90 o diastólica ≤ 60 mmHg\n**65** — Edad ≥ 65 años\n\n**0–1:** manejo ambulatorio · **2:** considerar hospitalización · **3–5:** ingreso; ≥ 4 valorar UTI."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "azi-001",
+      "label": "Azitromicina"
+    },
+    {
+      "drugId": "lev-001",
+      "label": "Levofloxacino"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America / American Thoracic Society. Guidelines for CAP in adults.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Recomendaciones de NAC.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "British Thoracic Society. CAP guideline.",
+      "url": "https://www.brit-thoracic.org.uk/"
+    }
+  ]
+}

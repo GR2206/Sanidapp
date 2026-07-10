@@ -1,0 +1,54 @@
+{
+  "id": "ade-001",
+  "name": "Adenosine",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Rapid conversion to normal sinus rhythm in paroxysmal supraventricular tachycardia. Aids diagnosis of wide- or narrow-complex supraventricular tachycardias.",
+  "indications": "## Main indications\n\nRapid conversion to normal sinus rhythm in paroxysmal supraventricular tachycardia. Aids diagnosis of wide- or narrow-complex supraventricular tachycardias.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "3 mg/mL ampoule.",
+      "dose": "6 mg IV rapid bolus, then 12 mg if persistent (max. 30 mg).",
+      "administration": "Proximal IV with 20 mL flush."
+    },
+    "pediatrico": {
+      "presentation": "2 mL ampoules: 3 mg/mL",
+      "administration": "IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "3 mg/mL.",
+      "infusionRate": "Bolus with immediate 5–10 mL NS flush (two-syringe technique).",
+      "dose": "Initial: 50–100 µg/kg (maximum 6 mg); if no response, after 2 min give a second dose of 200 µg/kg and repeat up to 0.5 mg/kg/dose in children or 0.3 mg/kg/dose in neonates, or until sinus rhythm is restored (maximum 12 mg/dose or 30 mg total).",
+      "notes": "Avoid tea, cola, coffee, cocoa, and chocolate for at least 12 hours before administration."
+    },
+    "neonatal": {
+      "dose": "0.05–0.1 mg/kg bolus per protocol.",
+      "administration": "IV with flush."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Discard remainder once opened.\n\n## General\n\n- Use undiluted; administer immediately.",
+  "adverseEffects": "## Adverse effects\n\nAlthough the incidence of adverse effects is relatively high, they are usually very transient due to the short half-life (<10 s): chest pain, facial flushing, and hypotension. Transient bradycardia and arrhythmias: AV block, premature atrial complexes, atrial fibrillation, and nonsustained ventricular tachycardia; dyspnea, hyperventilation, cough, and bronchospasm; dizziness, headache, tremor, blurred vision, and increased intracranial pressure; nausea, metallic taste, and gastrointestinal discomfort.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Adenosine (code 1181, ATC C01EB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

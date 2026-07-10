@@ -1,0 +1,58 @@
+{
+  "id": "ond-001",
+  "name": "Ondansetrón",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Emesis refractaria. Emesis por quimioterapia (indicación según norma vigente). Náuseas y vómitos postoperatorio.",
+  "indications": "## Indicaciones principales\n\nEmesis refractaria. Emesis por quimioterapia (indicación según norma vigente). Náuseas y vómitos postoperatorio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 4–8 mg; comprimidos ODT.",
+      "dose": "4–8 mg IV lento o VO cada 8 h.",
+      "administration": "IV lento o VO."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 8 mg; Ampollas: 8 mg",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "Bolo de 2 a 5 minutos.",
+      "dose": "Profilaxis náuseas y vómitos inducidos por quimioterapia: Infantes, niños y adolescentes E.V. / V.O.: 0,15 mg/kg/dosis (5 mg/m&sup2;/ dosis); dosis máxima 8 mg/dosis c/8 hs. Administrar la primera dosis 30 minutos antes de comenzar la infusión del citostático. Profilaxis náuseas y vómitos postoperatorios: E.V.: 1 mes a 12 años y &lt; 40 kg: 0,1 mg/kg/dosis, &gt; 40 kg y adultos: 4 mg/dosis. Ajustar la dosis en insuficiencia hepática (1 sola dosis por día). Gastroenteritis aguda: &gt; de 6 meses 8 kg a 15 kg: 2 mg; 15 kg a 30 kg: 4 mg; &gt; 30 kg: 8 mg. La dosis puede repetirse sólo si se produce un vómito dentro de los primeros 15 minutos de haberse realizado la administración.",
+      "compatibility": "Incompatible con aciclovir, ampicilina, aminofilina, furosemida, ganciclovir, lorazepam, metilprednisolona y piperacilina.",
+      "notes": "Proteger de la luz, no administrar en la misma jeringa o infusión con otro medicamento. Administrar en push 2-5 min o por infusión diluido en Dx 5% o Sol. F en 15 minutos. Metabolizado por citocromo P-450. Verificar la normalidad del ECC antes del tratamiento por el aumento del intervalo QT en dosis altas y evitar el uso concomitante con drogas cardiotóxicas."
+    },
+    "neonatal": {
+      "dose": "0,1 mg/kg IV cada 8 h según protocolo.",
+      "administration": "IV lento."
+    }
+  },
+  "stability": "## General\n\n- IV compatible en NaCl y SG.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, constipación, fatiga, reacciones de hipersensibilidad inmediata (urticaria, angioedema, hipotensión, broncoespasmo, disnea, anafilaxia), prolongación del intervalo QTc, mareo, fiebre.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Ondansetrón (cód. 0502, ATC A04AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

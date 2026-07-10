@@ -1,0 +1,50 @@
+{
+  "id": "eno-001",
+  "name": "Enoxaparina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anticoagulante. Profilaxis y tratamiento de la trombosis venosa profunda y/o tromboembolismo pulmonar y trombosis arterial.",
+  "indications": "## Indicaciones principales\n\nAnticoagulante. Profilaxis y tratamiento de la trombosis venosa profunda y/o tromboembolismo pulmonar y trombosis arterial.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Jeringa precargada 40–100 mg.",
+      "dose": "Profilaxis: 40 mg SC cada 24 h. TEP: 1 mg/kg SC cada 12 h.",
+      "administration": "SC profunda; no frotar zona."
+    },
+    "pediatrico": {
+      "dose": "Según indicación del especialista. Dosis profiláctica: &lt; 2 meses: 0,75 mg/kg/dosis cada 12 hs; &gt; 2 meses: 0,5 mg/kg/dosis cada 12 hs. Dosis terapéutica: &lt; 2 meses: 1,5 mg/kg/dosis cada 12 hs; &gt; 2 meses: 1 mg/kg/dosis cada 12 hs",
+      "administration": "S.C.",
+      "presentation": "Jeringa prellenada: 20 mg - 40 mg - 60 mg - 80 mg - 100 mg",
+      "notes": "Tiene menor riesgo de sangrado que la heparina, vida media prolongada, menor control de laboratorio, En caso de indicar la combinación con sustancias que afectan la hemostasis, realizar cuidadosos controles clínicos y de laboratorio.Ver alerta."
+    },
+    "neonatal": {
+      "dose": "1,5 mg/kg SC cada 12 h en NNU (protocolo).",
+      "administration": "SC."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Jeringas precargadas listas para uso.",
+  "adverseEffects": "## Efectos adversos\n\nTrombocitopenia (raro), anemia hipocrómica, necrosis cutánea en el punto de inyección, hemorragia, fiebre, diarrea, confusión, disnea, edema.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Enoxaparina Sódica* (cód. 1184, ATC B01AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

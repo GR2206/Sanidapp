@@ -1,0 +1,47 @@
+{
+  "id": "flc-001",
+  "name": "Flecainide",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Ventricular arrhythmias refractory to other agents. Paroxysmal supraventricular tachycardia.",
+  "indications": "## Main indications\n\nVentricular arrhythmias refractory to other agents. Paroxysmal supraventricular tachycardia.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 100 mg.",
+      "dose": "100 mg PO every 12 h; titrate to 150 mg every 12 h according to response.",
+      "administration": "PO."
+    },
+    "pediatrico": {
+      "dose": "Children: 1–5 mg/kg/day every 8 h. Adults: 100 mg every 12 h, increasing dosage every 4 days according to need and tolerance. Maximum dose: 400 mg/day.",
+      "administration": "PO",
+      "presentation": "Tablets: 100 mg",
+      "notes": "Caution in patients with hepatic and/or renal insufficiency. Dairy products may interfere with absorption in infants. When used with amiodarone, reduce flecainide dose by 50%. When given concomitantly with propranolol, levels of both drugs increase. Flecainide may increase plasma concentration of digoxin."
+    }
+  },
+  "stability": "## Stability\n\n- Store per package insert.",
+  "adverseEffects": "## Adverse effects\n\nBlurred vision, nausea, headache, vomiting, tremor, paresthesia, ventricular tachyarrhythmias, elevated transaminases.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Flecainida* (code 0368, ATC C01BC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Atrial fibrillation guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

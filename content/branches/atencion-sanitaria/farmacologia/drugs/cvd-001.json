@@ -1,0 +1,46 @@
+{
+  "id": "cvd-001",
+  "name": "Carvedilol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Agente bloqueante alfa y beta. Insuficiencia cardíaca congestiva. Antagonista alfa y beta adrenérgico.",
+  "indications": "## Indicaciones principales\n\nAgente bloqueante alfa y beta. Insuficiencia cardíaca congestiva. Antagonista alfa y beta adrenérgico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 6,25, 12,5 y 25 mg.",
+      "dose": "IC: iniciar 3,125 mg VO 2 veces/día y titular. HTA: 12,5–25 mg VO 2 veces/día.",
+      "administration": "VO con alimentos (mejor tolerancia)."
+    },
+    "pediatrico": {
+      "dose": "Insuficiencia cardíaca congestiva: niños: inicial: 0,08 mg/kg/dosis cada 12 hs durante 2 semanas, luego duplicar cada 2 semanas si es bien tolerada hasta un rango de dosis de mantenimiento de 0,3 a 0,7 mg/kg/día cada 12 hs (máximo: 50 mg/día); adultos: inicial: 3,125 mg cada 12 hs, si es tolerada puede duplicarse cada 2 semanas hasta una dosis máxima de 25 a 50 mg, 2 veces por día. Hipertensión: niños y adolescentes: inicial: 0,1 mg/kg/dosis (hasta 12,5 mg) cada 12 hs; dosis máxima: 0,5 mg/kg/dosis (hasta 25 mg) cada 12 hs.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 3,125 - 6,25 mg Solución (preparado magistral): 1 mg/ml Ver formulación",
+      "notes": "Administrar con alimentos. Es contraindicado su uso en insuficiencia hepática. Interacciones: Clonidina aumenta niveles séricos del carvedilol. Carvedilol puede aumentar niveles séricos de ciclosporina; puede aumentar los efectos de otras drogas como digoxina, prazosín, adrenalina. Carvedilol puede enmascarar la taquicardia de la hipoglucemia causada por la insulina y los hipoglucemiantes orales. Rifampicina puede reducir la concentración plasmática del carvedilol hasta un 70%. Disminuye su efecto betabloqueante cuando se administra conjuntamente con antiácidos, bloqueantes de los canales de calcio, colestiramina, antiinflamatorios no esteroides, ampicilina y salicilatos"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nMareos, hipotensión, cefalea, fatiga, hiperglucemia, aumento de peso, diarrea, bradicardia, palpitaciones, etc.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Carvedilol* (cód. 1584, ATC C07AG).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Heart failure and hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

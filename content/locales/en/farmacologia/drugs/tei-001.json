@@ -1,0 +1,49 @@
+{
+  "id": "tei-001",
+  "name": "Teicoplanin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of lower respiratory tract, bone, skin and soft tissue, and urinary tract infections caused by gram-positive microorganisms susceptible to vancomycin when venous access is lost, as it can be administered by IM route.",
+  "indications": "## Main indications\n\nTreatment of lower respiratory tract, bone, skin and soft tissue, and urinary tract infections caused by gram-positive microorganisms susceptible to vancomycin when venous access is lost, as it can be administered by IM route.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial-ampoule 200 mg or 400 mg.",
+      "reconstitution": "Reconstitute with sterile water for injection; foaming is normal, allow to settle.",
+      "dose": "Loading: 6 mg/kg every 12 h x 3 doses. Maintenance: 6 mg/kg every 24 h.",
+      "infusionRate": "Slow IV infusion 30 min.",
+      "administration": "IV or IM."
+    },
+    "pediatrico": {
+      "dose": "Newborns: Day 1: 16 mg/kg/day, then 8 mg/kg/day (by infusion); > 2 months mild infections, first 3 doses IV/IM: 10 mg/kg/dose every 12 h, then: 10 mg/kg/day every 24 h; maximum dose: 400 mg/day. Neutropenic Bone Marrow Transplant severe infections: 15 - 20 mg/kg/day, maintain trough concentration: > 10 mg/L. Adults: 400 mg every 12 h for 3 doses, then mild infections: 400 mg every 24 h, severe infections: maximum dose 800 mg every 24 h.",
+      "administration": "IV; IM",
+      "presentation": "Powder vial: 400 mg",
+      "notes": "Its prolonged half-life allows use every 24 h. IV infusion over 30 minutes. Dose adjustment in renal failure."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted solution 24 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nInjection-site pain, fever, nausea, vomiting, anaphylactic reaction. Rare: thrombocytopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Teicoplanin (code 521, ATC J01XA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-001",
+  "title": "Reanimación neonatal en sala de partos (NRP/AAP)",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Reanimar al recién nacido de 500 g a 2500 g (día 0–30) en sala de partos siguiendo el algoritmo NRP/AAP con evaluación inicial, ventilación con presión positiva, compresiones si FC < 60 lpm y acceso vascular umbilical sin demorar ventilación efectiva.",
+  "body": "## Pasos a realizar\n\n1. Antes del parto: confirmar edad gestacional estimada, riesgo perinatal y equipo NRP completo (radiante, monitor FC, pulse oxímetro, mascarilla T-piece o bolsa autoinflable con válvula PEEP, laringoscopio 0/00, tubos 2,5–3,0, guías, UVC/UAC, termómetro).\n2. Al nacimiento: secar vigorosamente, retirar manta húmeda, colocar bajo radiante; posicionar cuello en leve extensión; aspirar boca y narinas solo si secreciones obstruyen o hay meconio no vigoroso (no aspiración rutinaria profunda).\n3. Clampear y cortar cordón ≥ 30–60 s si el RN respira o llora y el término de cordón es rosado; en < 34 sem o que requieren reanimación inmediata, valorar clampeo diferido según protocolo institucional.\n4. Evaluar respiración y FC a los 30 s: si respira/llora y FC ≥ 100 lpm → piel con piel con la madre, termorregulación y observación; si no → iniciar ventilación con presión positiva (VPP) en ≤ 30 s.\n5. Colocar pulse oxímetro en mano derecha preductal; ajustar FiO₂ según metas NRP por minuto de vida (iniciar 21–30% en ≥ 35 sem; 21–30% en 28–34 sem; considerar oxígeno titulado en < 28 sem).\n6. VPP: mascarilla bien sellada, frecuencia 40–60/min, presión inicial 20–25 cmH₂O (ajustar para movimiento torácico visible); usar PEEP 5 cmH₂O si equipo lo permite.\n7. Reevaluar cada 30 s: si FC ≥ 100 y respiración espontánea → suspender VPP y continuar soporte térmico y oxígeno titulado; si FC < 100 o no respira → continuar VPP; si no mejora → considerar cánula Guedel, cambio de dispositivo (T-piece preferido) o IOT con tubo 2,5–3,0 mm.\n8. Si FC persiste < 60 lpm tras VPP efectiva ≥ 30 s → iniciar compresiones torácicas 3:1 (90 compresiones + 30 ventilaciones/min con dos rescatadores) o 15:2 si IOT y dos rescatadores entrenados.\n9. Tras 60 s de compresiones: si FC ≥ 60 → detener compresiones y optimizar ventilación; si FC < 60 → administrar adrenalina 0,01–0,03 mg/kg IV/IO/UVC (0,1–0,3 ml/kg de 1:10.000) cada 3–5 min; considerar volumen 10 ml/kg si sospecha de hipovolemia.\n10. Canalizar UVC de emergencia si no hay acceso; no interrumpir VPP > 10 s para procedimientos; registrar tiempos, FiO₂, SatO₂, fármacos y respuesta.\n11. Al estabilizar: mantener temperatura axilar 36,5–37,5 °C, monitorización continua, gasometría y traslado a UCI Neonatal documentado.\n12. Debriefing inmediato del equipo y registro en historia clínica neonatal.\n\n## Fundamentación científica\n\n### Población y alcance\n\nProtocolo **estrictamente neonatal**: recién nacidos de **día 0 a día 30 de vida**, peso **500 g a 2500 g**, en sala de partos o área de reanimación perinatal. No extrapolar algoritmos pediátricos o adultos.\n\n### Indicaciones\n\n- Depresión respiratoria o FC < 100 lpm al nacimiento.\n- RN < 34 semanas que requieren soporte térmico y evaluación estrecha.\n- Meconio con RN no vigoroso.\n- Antecedente de distress fetal, cesárea de urgencia o malformaciones conocidas.\n\n### Evidencia y recomendaciones\n\n> **NRP/AAP (8.ª ed.):** la causa más frecuente de bradicardia neonatal es la hipoxia; la **ventilación efectiva** es la intervención más importante. Las compresiones solo si FC < 60 lpm pese a VPP adecuada ≥ 30 s (American Academy of Pediatrics, 2021).\n\n> **VON:** reducir hipotermia y retardo en VPP mejora outcomes en prematuros < 1500 g (Vermont Oxford Network, 2024).\n\n### Metas de SatO₂ preductal (NRP)\n\n| Minuto de vida | SatO₂ objetivo aproximada |\n| --- | --- |\n| 1 | 60–65% |\n| 2 | 65–70% |\n| 3 | 70–75% |\n| 4 | 75–80% |\n| 5 | 80–85% |\n| 10 | 85–95% |\n\n### Parámetros de ventilación inicial\n\n| Peso / EG | Tubo IOT (mm) | Profundidad IOT (cm) | Presión VPP inicial |\n| --- | --- | --- | --- |\n| < 1000 g / < 28 sem | 2,5 | 6–7 | 20–25 cmH₂O |\n| 1000–2000 g | 2,5–3,0 | 7–8 | 20–25 cmH₂O |\n| 2000–2500 g | 3,0 | 8–9 | 25–30 cmH₂O |\n\n### Fármacos de reanimación\n\n| Fármaco | Dosis | Vía | Notas |\n| --- | --- | --- | --- |\n| Adrenalina | 0,01–0,03 mg/kg | IV/UVC/IO | Repetir cada 3–5 min |\n| Volumen (SF) | 10 ml/kg | IV lento | Si hipovolemia probable |\n| Glucosa 10% | 2 ml/kg | IV lento | Si glucemia < 25 mg/dl confirmada |\n\n### Criterios de suspensión de reanimación\n\nSegún protocolo institucional, edad gestacional, peso al nacimiento y expectativas familiares; requiere decisión médica senior documentada.\n\n### Complicaciones — avisar de inmediato\n\n- Imposibilidad de ventilar (obstrucción, malformación airway).\n- FC persistente < 60 lpm pese a VPP, compresiones y adrenalina.\n- Hipotermia (< 36 °C) o hipertermia (> 37,5 °C) tras reanimación.\n- Neumotórax, sangrado pulmonar o enfisema subcutáneo.\n- Necesidad de ECMO o traslado a centro terciario.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program (NRP) — 8th Edition Provider Manual and Algorithm.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Evidence-based quality improvement for newborn care in NICUs.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on basic newborn resuscitation and immediate newborn care.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "Wyckoff MH, et al. Part 13: Neonatal Resuscitation — 2020 American Heart Association Guidelines. Circulation. 2020.",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000902"
+    },
+    {
+      "citation": "Sociedad Argentina de Terapia Intensiva (SATI). Consensos en neonatología y cuidados críticos perinatales.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

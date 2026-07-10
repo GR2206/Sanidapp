@@ -1,0 +1,57 @@
+{
+  "id": "sep-001",
+  "name": "Sepsis and septic shock",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Sepsis** is a life-threatening organ dysfunction caused by a dysregulated host response to infection. **Septic shock** is defined by persistent hypotension requiring vasopressors to maintain MAP ≥ 65 mmHg and a serum lactate level > 2 mmol/L despite adequate volume resuscitation. In the emergency department, it should be suspected in the presence of fever or hypothermia, tachycardia, tachypnea, altered mental status, oliguria, or hypotension, especially in older adults, immunosuppressed patients, or those with invasive devices.\n\nInitial management follows the **hour-zero** approach: obtain blood cultures before initiating antibiotics if it does not cause a delay of more than 45 minutes, administer early broad-spectrum antibiotics tailored to the likely source, initiate fluid resuscitation with crystalloids at 30 mL/kg for hypotension or elevated lactate, and start vasopressors (norepinephrine as first-line) if hypotension persists. Identify and control the source of infection (abscess drainage, removal of an infected catheter). Monitor serial lactate levels and assess SOFA/qSOFA scores according to institutional protocol.\n\n**Nursing:** continuous monitoring, establish two peripheral IV lines or central venous access, strict fluid balance recording, temperature monitoring, and sedation scales if the patient is intubated. Administer antibiotics within the established timeframe, prepare cultures, and document the initiation time of each intervention in the sepsis bundle.",
+  "clinicalBox": {
+    "title": "qSOFA — rapid sepsis screening",
+    "content": "One point for each criterion (to be evaluated outside the ICU):\n**Q** — Respiratory rate ≥ 22/min\n**S** — Altered mental status (GCS < 15)\n**O** — Systolic blood pressure ≤ 100 mmHg\n\n**≥ 2 points:** high risk of poor outcomes; activate the sepsis protocol, check lactate, and evaluate for organ dysfunction (SOFA). This does not substitute clinical judgment or the diagnosis of infection."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "nor-001",
+      "label": "Norepinephrine"
+    },
+    {
+      "drugId": "adr-001",
+      "label": "Epinephrine"
+    },
+    {
+      "drugId": "vas-001",
+      "label": "Vasopressin"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacillin/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomycin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock.",
+      "url": "https://www.sccm.org/survivingsepsiscampaign"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías de antimicrobianos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Sepsis technical package.",
+      "url": "https://www.who.int/health-topics/sepsis"
+    }
+  ]
+}

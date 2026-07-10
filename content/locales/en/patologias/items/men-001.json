@@ -1,0 +1,49 @@
+{
+  "id": "men-001",
+  "name": "Meningitis and Meningoencephalitis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "Acute **bacterial meningitis** is an infectious emergency characterized by inflammation of the meninges; **meningoencephalitis** further involves the cerebral parenchyma (frequently of viral etiology, such as HSV). The classic clinical presentation includes fever, severe headache, nuchal rigidity, photophobia, and altered mental status; in elderly and immunosuppressed patients, it may present **subclinically**. **Kernig's** and **Brudzinski's** signs support the diagnosis but their absence does not exclude it.\n\nIn case of suspicion, do not delay antibiotics: obtain blood cultures and perform a **lumbar puncture** (or prior neuroimaging only if focal neurological deficits, papilledema, immunosuppression, or a recent seizure are present, according to protocol). The standard empirical regimen for adults usually consists of: **ceftriaxone** + **vancomycin** (to cover resistant pneumococcus) + **ampicillin** if aged > 50 years or immunosuppressed (for *Listeria*). In case of suspected HSV: **IV acyclovir**. Administer **dexamethasone** before or concurrently with the first dose of antibiotics in pneumococcal meningitis according to institutional guidelines.\n\n**Nursing:** implement droplet isolation according to protocol, monitor GCS and signs of increased intracranial pressure, maintain strict temperature control, record the exact time of the first antibiotic dose, monitor for seizures, and prepare materials for lumbar puncture in a sterile environment.",
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomycin"
+    },
+    {
+      "drugId": "amp-001",
+      "label": "Ampicillin"
+    },
+    {
+      "drugId": "aci-001",
+      "label": "Acyclovir"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexamethasone"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America. Practice guidelines for bacterial meningitis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Bacterial meningitis.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "European Society of Clinical Microbiology and Infectious Diseases. Meningitis guidelines.",
+      "url": "https://www.escmid.org/"
+    }
+  ]
+}

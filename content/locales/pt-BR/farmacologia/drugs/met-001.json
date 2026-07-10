@@ -1,0 +1,59 @@
+{
+  "id": "met-001",
+  "name": "Metronidazol",
+  "version": "1.2.3",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico nitroimidazólico e antiparasitário. Ativo contra anaeróbios e protozoários.",
+  "indications": "## Indicações principais\n\nAntibiótico nitroimidazólico e antiparasitário. Ativo contra anaeróbios e protozoários.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Sachê 500 mg em 100 mL (Metronidazol Norgreen, Rivero, Ugar).",
+      "reconstitution": "Não requer reconstituição prévia. Conc.: 5 mg/mL.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Administrar em 60 min."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos, xarope, ampolas E.V.",
+      "administration": "V.O.; E.V.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "5 mg/mL.",
+      "infusionRate": "60 min.",
+      "dose": "Infecções anaeróbicas (V.O.; E.V.): 30 mg/kg/dia a cada 8 h, dose máxima: V.O.: 2 g; E.V.: 4 g. Amebíase: 35 mg/kg/dia a cada 8 h por 10 dias.",
+      "notes": "Evitar bebidas alcoólicas durante o tratamento e até 48 h após. Precaução com varfarina."
+    },
+    "neonatal": {
+      "dose": "7,5 mg/kg/dose a cada 12 h (UCIN).",
+      "administration": "E.V./V.O."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- Não especificado.\n\n## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, sabor metálico, neuropatia periférica em tratamentos prolongados, reações de hipersensibilidade.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — metroNIDAZOL (ATC J01XD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

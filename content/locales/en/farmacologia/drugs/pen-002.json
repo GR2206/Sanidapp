@@ -1,0 +1,50 @@
+{
+  "id": "pen-002",
+  "name": "Penicillin G benzathine",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of mild and moderate infections caused by susceptible gram-positive microorganisms or for prophylaxis of infections caused by these microorganisms. Syphilis.",
+  "indications": "## Main indications\n\nTreatment of mild and moderate infections caused by susceptible gram-positive microorganisms or for prophylaxis of infections caused by these microorganisms. Syphilis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial with lyophilized powder containing 1.2 and 2.4 MIU (Galtamicina, Klonal, Fabra, Richet, Pen Di Ben).",
+      "reconstitution": "5 mL SWFI (1.2 MIU); 10 mL SWFI (2.4 MIU). Conc: 0.24-0.12 MIU/mL.",
+      "diluent": "1.2 MIU in 5 mL SWFI or 2.4 MIU in 10 mL SWFI.",
+      "finalConcentration": "0.24 MIU/mL.",
+      "administration": "Deep IM: Yes. Shake gently to allow powder wetting, then shake vigorously until complete dissolution. Direct IV: No. Intermittent IV: No.",
+      "notes": "Must not under any circumstances be administered by IV route due to risk of fatal ischemia."
+    },
+    "pediatrico": {
+      "dose": "Syphilis: 50,000 IU/kg/dose, 1 to 3 doses according to duration of disease; maximum dose: 2,400,000 IU/dose. Secondary rheumatic fever prophylaxis: ≤ 27 Kg: IM: 600,000 IU every 3 to 4 weeks; > 27 kg: IM: 1,200,000 IU every 3 to 4 weeks.",
+      "administration": "IM",
+      "presentation": "Powder vial: 1,200,000 IU - 2,400,000 IU (lyophilized or suspension)",
+      "notes": "Use with caution in children under 2 years. Penicillin G benzathine is administered weekly."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Use immediately. Discard remainder if any.\n\n## Diluted solution (for administration)\n\n- Not applicable.",
+  "adverseEffects": "## Adverse effects\n\nAllergic reactions, mainly cutaneous. Hemolytic anemia, leukopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Penicillin BENZATHINE (code 0162, ATC J01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

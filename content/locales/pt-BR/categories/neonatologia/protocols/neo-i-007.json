@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-007",
+  "title": "Oxigenoterapia, CPAP e vigilância respiratória neonatal",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Administrar oxigenoterapia titulada, CPAP nasal e vigilância respiratória contínua em neonato de 500 g a 2500 g (dia 0–30) com metas de SatO₂ conforme idade pós-natal, prevenção de DAP e registro rigoroso de FiO₂.",
+  "body": "## Passos a realizar\n\n1. Avaliar trabalho respiratório (tiragem, gemido, batimento de asa nasal, retrações, apneia); monitorizar FC, FR, SatO₂ pré-ductal (mão direita) e pós-ductal se indicado; temperatura axilar 36,5–37,5 °C.\n2. Selecionar dispositivo conforme gravidade: cânulas nasais de baixo fluxo (LFNC), CPAP nasal, VNI ou ventilação mecânica conforme prescrição neonatológica.\n3. Iniciar oxigenoterapia titulada: FiO₂ mínima para alcançar SatO₂ objetivo conforme idade pós-natal e IG (ver tabela); preferir ar ambiente + oxigênio misturado, não oxigênio puro sustentado.\n4. Colocar CPAP nasal: prong/cânula adequada ao peso; pressão inicial 5–6 cmH₂O (ajustar 4–8 cmH₂O conforme resposta); fixar sem pressão excessiva na nariz.\n5. Verificar circuito: umidificação ativa 37 °C, pressão medida em Y-piece, ausência de vazamentos massivos; alarmes de pressão e FiO₂ ativos.\n6. Registrar a cada turno e após mudanças: FiO₂, PEEP/CPAP, FR, SatO₂, pH/PaCO₂ se gasometria, e achados clínicos.\n7. Posicionar em decúbito prono ou lateral alternado conforme protocolo; elevar cabeceira mínima se tolerado; evitar flexão cervical que obstrua via aérea.\n8. Aspirar secreções apenas se obstruem via aérea; técnica asséptica com pressão ≤ 80–100 mmHg em RN < 1500 g.\n9. Vigiar sinais de sobrecarga de CPAP: enfisema subcutâneo, pneumotórax, distensão abdominal, eritema nasal; reduzir pressão ou escalar conforme prescrição.\n10. Weaning: reduzir FiO₂ antes do CPAP; critérios de retirada conforme estabilidade clínica, SatO₂ em ar ambiente e ausência de apneias significativas.\n11. Em RN < 32 sem ou < 1500 g: rastreamento de retinopatia e seguimento de DAP (ducto arterioso persistente) conforme protocolo; limitar SatO₂ 91–95% em prematuros (evitar > 95% sustentado).\n12. Diante de deterioração súbita (SatO₂ ↓, cianose, apneia): aumentar FiO₂ temporariamente, ventilar com bolsa e máscara se apneia, avisar imediatamente e preparar intubação.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. A oxigenoterapia neonatal requer titulação rigorosa; a hipoxemia e a **hiperóxia** (especialmente em prematuros) causam morbidade (DAP, ROP, lesão pulmonar).\n\n### Indicações\n\n- Taquipneia, tiragem ou gemido expiratório.\n- SatO₂ abaixo do objetivo para idade pós-natal/IG.\n- Apneia da prematuridade ou bradicardia relacionada.\n- Síndrome do desconforto respiratório (SDR), TTRN, pneumonia neonatal.\n- Pós-extubação ou weaning de ventilação mecânica.\n\n### Evidência e recomendações\n\n> **VON / Neonatal Oxygenation Prospective Meta-analysis:** em prematuros < 28 sem objetivo SatO₂ **91–95%** reduz mortalidade vs faixas mais amplas; evitar > 95% sustentado (Vermont Oxford Network, 2023).\n\n> **AAP / NRP:** titular FiO₂ desde o nascimento; metas pré-ductais por minuto de vida na reanimação (American Academy of Pediatrics, 2021).\n\n### Metas de SatO₂ conforme idade gestacional\n\n| Grupo | SatO₂ objetivo |\n| --- | --- |\n| ≥ 35 sem (a termo/quase a termo) | 92–97% |\n| 28–34 sem | 91–95% |\n| < 28 sem / < 1000 g | 91–95% (estrito) |\n\nAjustar conforme prescrição neonatológica e gasometria (PaO₂ 50–80 mmHg orientativo em prematuros).\n\n### Seleção de suporte respiratório\n\n| Nível | Indicação | Parâmetros iniciais |\n| --- | --- | --- |\n| LFNC | Hipoxemia leve, pós-CPAP | 0,5–2 L/min (fluxo real limitado em RN pequenos) |\n| CPAP nasal | SDR leve-moderado, TTRN, pós-extubação | 5–6 cmH₂O; FiO₂ titulada |\n| VNI (NIPPV) | Apneia persistente, atelectasia | CPAP + pressão de suporte conforme ventilador |\n| VM invasiva | Falha de CPAP, PaCO₂ > 60 com acidose | Conforme protocolo de ventilação neonatal |\n\n### CPAP — cuidados da interface\n\n| Peso | Tamanho prong orientativo |\n| --- | --- |\n| 500–1000 g | Prematuro pequeno |\n| 1000–1500 g | Prematuro médio |\n| 1500–2500 g | Prematuro grande / a termo |\n\n- Rotacionar prongs a cada 6–12 h; proteger pele nasal com curativo hidrocolóide.\n- Umidificar a 100%; temperatura do gás 37 °C.\n\n### Vigilância respiratória contínua\n\n- Alarmes: bradicardia < 80 bpm, apneia > 20 s, SatO₂ < objetivo − 5% por > 30 s.\n- Registro de eventos de apneia/bradicardia no monitor.\n- Gasometria se FiO₂ > 40%, CPAP > 7 cmH₂O ou deterioração clínica.\n\n### Complicações — avisar imediatamente\n\n- Pneumotórax (assimetria torácica, ↓ murmúrio, desvio traqueal).\n- Enfisema subcutâneo cervical/facial.\n- DAP em prematuro (saturações > 95% com FiO₂ baixa).\n- Apneias frequentes com bradicardia (< 60 bpm) ou cianose.\n- Lesão nasal grave ou perfuração septal por CPAP mal fixado.",
+  "bibliography": [
+    {
+      "citation": "Vermont Oxford Network. Oxygen targeting and respiratory care in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — oxygen titration and CPAP.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "World Health Organization. WHO recommendations on newborn health — thermal care and respiratory support.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "Askie LM, et al. Neonatal Oxygenation Prospective Meta-analysis (NeOProM) — target ranges for SpO2. Cochrane and related trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24378724/"
+    },
+    {
+      "citation": "SATI — Consensos em ventilação e suporte respiratório neonatal.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ],
+  "division": "intensiva"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "pna-001",
+  "name": "Pneumonia adquirida na comunidade",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **pneumonia adquirida na comunidade (PAC)** é a infecção aguda do parênquima pulmonar adquirida fora do ambiente hospitalar. Na emergência classifica-se conforme gravidade com escalas como **CURB-65** ou **PSI** para decidir manejo ambulatorial, hospitalar ou em UTI. A apresentação clássica inclui febre, tosse produtiva, dor pleurítica e consolidação à ausculta; em idosos pode debutar com confusão ou dessaturação sem febre marcada.\n\nO estudo inclui radiografia de tórax (ou ultrassonografia torácica se disponível), hemograma, função renal, oximetria e hemoculturas em casos graves. O **antibiótico empírico** ajusta-se à diretriz local e fatores de risco (DPOC, alcoolismo, institucionalização recente). Esquemas frequentes: betalactâmico ± macrolídeo ou fluoroquinolona respiratória em pacientes com comorbidades. Oxigênio se SpO₂ < 90–92 % e reavaliação às 48–72 h.\n\n**Enfermagem**: controle de temperatura e SpO₂, fomentar hidratação e mobilização precoce, técnicas de tosse efetiva, orientação sobre completar o ciclo antibiótico e vacinação antipneumocócica e contra influenza. Isolar somente se houver suspeita de patógeno transmitido por via aérea conforme protocolo.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America / American Thoracic Society. Guidelines for CAP in adults.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Recomendações de PAC.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "British Thoracic Society. CAP guideline.",
+      "url": "https://www.brit-thoracic.org.uk/"
+    }
+  ],
+  "clinicalBox": {
+    "title": "CURB-65 — gravidade em PAC",
+    "content": "Um ponto por cada critério:\n**C** — Confusão (nova ou GCS ≤ 8)\n**U** — Ureia > 19 mg/dL (ou BUN > 20 mg/dL)\n**R** — Frequência respiratória ≥ 30/min\n**B** — PA sistólica < 90 ou diastólica ≤ 60 mmHg\n**65** — Idade ≥ 65 anos\n\n**0–1:** manejo ambulatorial · **2:** considerar hospitalização · **3–5:** internação; ≥ 4 avaliar UTI."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "azi-001",
+      "label": "Azitromicina"
+    },
+    {
+      "drugId": "lev-001",
+      "label": "Levofloxacino"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    }
+  ]
+}

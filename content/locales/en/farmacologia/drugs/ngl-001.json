@@ -1,0 +1,72 @@
+{
+  "id": "ngl-001",
+  "name": "Nitroglycerin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Short-acting coronary vasodilator. IV, peripheral and pulmonary hypotensive agent.",
+  "indications": "## Main indications\n\nShort-acting coronary vasodilator. IV, peripheral and pulmonary hypotensive agent.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per package insert; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "Start 5–10 mcg/min; increase every 3–5 min until effect (max. per protocol).",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output and peripheral perfusion."
+    },
+    "pediatrico": {
+      "presentation": "Ampoules 5 ml: 5 mg/ml",
+      "administration": "IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "< 400 mcg/mL.",
+      "infusionRate": "Continuous infusion pump only.",
+      "dose": "0,5-10 µg/kg/minute.",
+      "compatibility": "Do not administer concomitantly with other medication. May antagonize anticoagulant effect of heparin.",
+      "notes": "For continuous infusion dilute in 5% dextrose or normal saline at a concentration of 50-100 µg/ml (maximum concentration: 400 µg/ml). Decreases anticoagulant effect of heparin. Beta-blockers and calcium channel blockers may increase hypotensive effect of nitroglycerin."
+    },
+    "neonatal": {
+      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
+      "reconstitution": "Reconstitute per package insert; dilute in 5% dextrose or 0.9% NaCl.",
+      "diluent": "5% dextrose or 0.9% NaCl.",
+      "finalConcentration": "Concentration per service guide (infusion pump).",
+      "dose": "0,5–3 mcg/kg/min in NICU; monitor BP.",
+      "infusionRate": "Titrate according to BP and perfusion",
+      "administration": "Continuous IV infusion pump; central line preferred.",
+      "compatibility": "Verify in-line compatibility with other vasopressors.",
+      "notes": "Monitor HR, invasive BP, urine output and peripheral perfusion."
+    }
+  },
+  "stability": "## General\n\n- Use glass/polyethylene bag per package insert; protect from light.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nVertigo, headache, tachycardia, nausea, hypotension, dizziness, exfoliative dermatitis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — nitroGLICERINA (code 0150, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

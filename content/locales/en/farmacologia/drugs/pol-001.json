@@ -1,0 +1,52 @@
+{
+  "id": "pol-001",
+  "name": "Polymyxin B",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Preoperative decolonization in short-bowel patients, combined with oral metronidazole.",
+  "indications": "## Main indications\n\nPreoperative decolonization in short-bowel patients, combined with oral metronidazole.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "500,000 IU or 1 million IU vial.",
+      "dose": "1.5–2.5 mg/kg/day IV divided every 12 h (convert IU to mg per package insert).",
+      "infusionRate": "Slow infusion.",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "10–20 mg/kg/day every 6–8 h for 5 days.",
+      "administration": "PO",
+      "presentation": "Compounded preparation: capsules",
+      "notes": "Contraindicated in patients with hypersensitivity to polymyxins."
+    },
+    "neonatal": {
+      "dose": "Dose per NICU protocol; reserve use.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use after dilution per package insert.",
+  "adverseEffects": "## Adverse effects\n\nIrritability, ataxia, perioral paresthesia, nephrotoxicity.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Polymyxin B Sulfate (code 0486, ATC J01XB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

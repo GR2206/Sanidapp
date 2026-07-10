@@ -1,0 +1,44 @@
+{
+  "id": "sul-001",
+  "name": "Sulbactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Beta-lactamase inhibitor used as monotherapy for *Acinetobacter baumannii* infections according to institutional protocols.",
+  "indications": "## Indications\n\n- Monotherapy in *Acinetobacter baumannii* infections (intrinsic activity against OXA-23 and similar enzymes).\n- May be combined with colistin or meropenem depending on sensitivity.\n\n## Precautions\n\n- Do not confuse with ampicillin-sulbactam.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial with lyophilized powder containing 1 g of sodium sulbactam (Sulbactam Richet, Northia, others).",
+      "reconstitution": "10 mL of sterile water (SW) or normal saline (NS). Concentration: 100 mg/mL.",
+      "diluent": "1 g in 100 mL of NS or 5% dextrose (D5W).",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "Direct IV: Yes. Reconstitute in 10 mL SW and administer slowly over 3–5 min. Intermittent IV: Yes. Dilute in 50–100 mL NS or D5W and infuse over 15–30 min.",
+      "notes": "Usual dose: 3–4 g/day in 3–4 doses or prolonged infusion (1 g every 6 h over 3 h). May be combined with colistin or meropenem depending on sensitivity. Do not confuse with ampicillin-sulbactam."
+    },
+    "pediatrico": {
+      "dose": "Regimens according to pediatric infectious disease protocols.",
+      "administration": "IV as indicated."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted (in vial): 8 h at room temperature, 48 h refrigerated.\n- Diluted solution (to be administered): 8 h at room temperature, 48 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\n- Diarrhea, rash, phlebitis.",
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "dlp-001",
+  "name": "Dislipemia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-10",
+  "body": "La **dislipemia** es la alteración cuantitativa o cualitativa del metabolismo lipídico plasmático. En la práctica clínica se clasifica según el perfil predominante: **hipercolesterolemia** (elevación de colesterol total y/o LDL-c), **hipertrigliceridemia** (triglicéridos elevados) o **dislipemia mixta**. Su relevancia radica en el incremento del **riesgo cardiovascular aterosclerótico** y, en grados severos de hipertrigliceridemia, en el riesgo de **pancreatitis aguda**.\n\nLa evaluación requiere perfil lipídico en ayunas (o interpretación según guía vigente), antecedentes familiares, comorbilidades (diabetes, hipotiroidismo, síndrome nefrótico, obesidad, consumo de alcohol) y estimación del riesgo global (tabaquismo, HTA, edad, sexo). El **LDL-c** constituye el principal blanco terapéutico en prevención primaria y secundaria; los valores objetivo dependen del estrato de riesgo. En guardia o internación, la dislipemia suele manifestarse como comorbilidad no controlada, interacción con fármacos (corticoides, inmunosupresores, antirretrovirales) o, excepcionalmente, como **hipertrigliceridemia grave** (> 500–1000 mg/dL) con dolor abdominal epigástrico sugestivo de pancreatitis.\n\nEl **tratamiento** combina modificaciones del estilo de vida (dieta mediterránea o baja en grasas saturadas, actividad física, cesación tabáquica) y farmacoterapia según guía: estatinas de alta intensidad en prevención secundaria cardiovascular; fibratos o omega-3 en hipertrigliceridemia severa; y control de causas secundarias. En el ámbito hospitalario, priorizar la reinstauración o continuidad de la terapia hipolipemiante cuando no exista contraindicación, evitar suspender estatinas en síndrome coronario agudo salvo indicación expresa, y coordinar con nutrición y equipo médico tratante.\n\n**Enfermería**: registrar perfil lipídico y glucemia al ingreso si el cuadro lo permite; identificar adherencia previa a estatinas o fibratos; monitorizar enzimas hepáticas y CK si se inicia o intensifica tratamiento; educar sobre dieta, ejercicio y signos de mialgia intensa o ictericia; en hipertrigliceridemia grave, vigilar dolor abdominal, náuseas y amilasa/lipasa según protocolo.",
+  "relatedDrugs": [
+    {
+      "drugId": "ltx-001",
+      "label": "Levotiroxina"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "Insulina NPH"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology / European Atherosclerosis Society. Guidelines for the management of dyslipidaemias.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Prevención cardiovascular y manejo de factores de riesgo.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association / American College of Cardiology. Guideline on the management of blood cholesterol.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

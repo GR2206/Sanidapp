@@ -1,0 +1,43 @@
+{
+  "id": "isa-001",
+  "name": "Isavuconazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Triazol IV (Cresemba) para aspergilosis invasora y mucormicosis; requiere filtro en línea.",
+  "indications": "## Indicaciones principales\n\n- Aspergilosis invasora.\n- Mucormicosis según prescripción.\n\n## Precauciones\n\n- Requiere filtro en línea 0,2-1,2 µm. Interacciones con inhibidores/inductores del CYP3A4.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 200 mg de isavuconazonium sulfato (equiv. a 186 mg de isavuconazol) (Cresemba).",
+      "reconstitution": "5 mL de AD. Conc: 40 mg/mL de isavuconazonium sulfato. Agitar suavemente.",
+      "diluent": "200 mg en 250 mL de SF o DX 5%.",
+      "finalConcentration": "0,8 mg/mL.",
+      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 250 mL de SF o DX 5% y admin. en 60 min mediante filtro en línea (0,2-1,2 µm). No usar jeringa.",
+      "notes": "Requiere filtro en línea de 0,2-1,2 µm durante la infusión. No administrar en bolo. Dosis de carga: 200 mg c/8 h x 6 dosis (48 h); mantenimiento: 200 mg/día. Indicado en aspergilosis invasora y mucormicosis. Interacciones con inhibidores/inductores del CYP3A4."
+    },
+    "pediatrico": {
+      "dose": "Esquemas bajo supervisión de infectología pediátrica.",
+      "administration": "IV intermitente según protocolo."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 1 h a T° amb.\n\n## Solución diluida (a administrar)\n\n- 6 hs a T° amb, 24 hs refrigerado.",
+  "adverseEffects": "## Efectos\n\n- Náuseas, diarrea, elevación de transaminasas, prolongación QT.",
+  "bibliography": [
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

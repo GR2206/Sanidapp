@@ -1,0 +1,46 @@
+{
+  "id": "los-001",
+  "name": "Losartán",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Hipertensión. Antagonista de la angiotensina II.",
+  "indications": "## Indicaciones principales\n\nHipertensión. Antagonista de la angiotensina II.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 50 y 100 mg.",
+      "dose": "50–100 mg/día VO en 1–2 tomas. Puede combinarse con diurético.",
+      "administration": "VO con o sin alimentos."
+    },
+    "pediatrico": {
+      "dose": "Hipertensión: &gt; 6 años: 0.75 mg/kg, una vez por día, dosis máxima: 50 mg/día. Adultos: inicial: 50 mg/día, una vez por día; mantenimiento: 25 a 100 mg c/ 12 - 24 hs. En insuficiencia hepática comenzar con 25 mg una vez por día.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos: 50 mg: Suspensión (preparado magistral): 2,5 mg/ml",
+      "notes": "Evitar el uso concomitante de otros inhibidores de sistema renina-angiotensina."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto a T° ambiente.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión, diarrea, astenia, mareos, fatiga. Trombocitopenia, rabdomiólisis, angioedema.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — loSARTÁN potásico (cód. 1429, ATC C09CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

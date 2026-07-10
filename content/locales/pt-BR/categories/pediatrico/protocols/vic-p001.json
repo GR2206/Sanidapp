@@ -1,0 +1,35 @@
+{
+  "id": "vic-p001",
+  "title": "Colocação de via central pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Auxiliar na inserção de cateter venoso central pediátrico com barreira de esterilidade máxima, ultrassonografia quando disponível, sedação adequada e bundle de prevenção de bacteremia associada ao cateter (BAC).",
+  "body": "## Passos a realizar\n\n1. Verificar identificação, alergias, prescrição, consentimento e coagulação conforme protocolo; preparar sedação/analgesia e carro de parada pediátrico.\n2. Realizar higienização das mãos e vestir barreira de esterilidade máxima (touca, máscara, avental estéril, luvas estéreis).\n3. Posicionar a criança conforme sítio escolhido; em RN garantir controle térmico e monitorização contínua.\n4. Desinfetar pele com clorexidina alcoólica em fricção (≥ 20 cm); deixar secar completamente.\n5. Auxiliar na inserção com técnica estéril; apoiar ultrassonografia em tempo real se disponível.\n6. Conectar linhas em sistema fechado; purgar e fechar vias não usadas; fixar cateter sem tração.\n7. Aplicar curativo transparente conforme protocolo institucional; vigiar FC, SpO₂, PA e ritmo durante a inserção.\n8. Comprovar retorno venoso em cada via e fixação.\n9. Solicitar radiografia de tórax ou ultrassonografia para confirmar ponta na junção cavoatrial e descartar pneumotórax antes do uso, se o protocolo exigir.\n10. Registrar sítio, calibre, vias, comprimento, operador, hora e complicações; etiquetar datas em cada via.\n11. Desinfetar hub ≥ 15 s antes de cada acesso; reavaliar necessidade do cateter diariamente; retirar ao finalizar indicação ou diante de infecção.\n\n## Fundamentação científica\n\n### Indicações\n\n- Fármacos vasoativos ou soluções hiperosmolares.\n- Nutrição parenteral total.\n- Monitorização hemodinâmica (PVC, VVC) em paciente crítico.\n- Acesso prolongado quando o periférico é insuficiente.\n- Hemodiálise ou reanimação em sepse/choque.\n\n### Evidência e recomendações\n\n> **Prevenção BAC/CLABSI (SATI/SADI 2025; OMS 2024):** colocar somente se indicado. Bundle de inserção: higienização das mãos, barreira máxima, antisséptico na pele, sítio ótimo com ultrassonografia e revisão diária da necessidade (Cornistein et al., 2025).\n\n### Seleção do sítio\n\n| Sítio | Considerações pediátricas |\n| --- | --- |\n| **Jugular interna** | Ecoguiada preferida; menor risco de pneumotórax que subclávia |\n| **Femoral** | Frequente em RN/urgência; retirar ou trocar quando possível |\n| **Subclávia** | Maior risco de pneumotórax em tórax pequeno |\n| **Veia umbilical** | Somente neonatologia, primeiros dias de vida |\n| **PICC** | Equipe treinada; acesso prolongado |\n\n### Calibre orientativo\n\n| Peso / idade | Calibre (Fr) |\n| --- | --- |\n| RN / < 5 kg | 3–4 Fr |\n| 5–15 kg | 4–5 Fr |\n| 15–30 kg | 5–7 Fr |\n| > 30 kg | 7–8 Fr |\n\n### Verificação pós-inserção\n\n- Ponta na junção cavoatrial (aprox. T8–T9); em RN evitar ponta no átrio direito (risco de arritmias e perfuração).\n\n### Complicações — comunicar imediatamente\n\n- Pneumotórax, hemotórax ou dificuldade respiratória aguda.\n- Hemorragia local não controlada ou hematoma em expansão.\n- Arritmias, bradicardia ou ectopia.\n- Febre ou sinais de infecção do sítio / suspeita de BAC.\n- Extração acidental do cateter ou trombose venosa.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Guias e consensos (BAC, prevenção de IRAS).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Pediatric Advanced Life Support — acesso vascular em emergência.",
+      "url": "https://www.aap.org/en/patient-care/pals/"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — Surviving Sepsis Campaign: reanimação e acesso vascular em sepse pediátrica.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    }
+  ]
+}

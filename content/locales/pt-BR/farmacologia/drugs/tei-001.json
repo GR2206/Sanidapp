@@ -1,0 +1,49 @@
+{
+  "id": "tei-001",
+  "name": "Teicoplanina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções do trato respiratório inferior, osso, pele e partes moles e infecções das vias urinárias por microorganismos gram-positivos sensíveis à vancomicina em caso de perda de acesso venoso, dado que pode ser administrada por via I.M..",
+  "indications": "## Indicações principais\n\nTratamento de infecções do trato respiratório inferior, osso, pele e partes moles e infecções das vias urinárias por microorganismos gram-positivos sensíveis à vancomicina em caso de perda de acesso venoso, dado que pode ser administrada por via I.M..\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampola 200 mg ou 400 mg.",
+      "reconstitution": "Reconstituir com água para injeção; espuma normal, deixar repousar.",
+      "dose": "Carga: 6 mg/kg a cada 12 h x 3 doses. Manutenção: 6 mg/kg a cada 24 h.",
+      "infusionRate": "Perfusão E.V. lenta 30 min.",
+      "administration": "E.V. ou I.M."
+    },
+    "pediatrico": {
+      "dose": "R.N.: 1º dia: 16 mg/kg/dia, depois 8 mg/kg/dia (em infusão); > 2 meses infecções leves, as primeiras 3 doses E.V./I.M.: 10 mg/kg/dose a cada 12 h, depois: 10 mg/kg/dia a cada 24 h; dose máxima: 400 mg/dia. Neutropênicos Transplante de Medula Óssea infecções graves: 15–20 mg/kg/dia, manter concentração vale: > 10 mg/L. Adultos: 400 mg a cada 12 h por 3 doses, depois infecções leves: 400 mg a cada 24 h, infecções graves: dose máxima 800 mg a cada 24 h.",
+      "administration": "E.V.; I.M.",
+      "presentation": "F.A.: 400 mg",
+      "notes": "Sua meia-vida prolongada permite o uso a cada 24 h. Infusão E.V. em 30 minutos. Ajuste de dose em insuficiência renal."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Solução reconstituída 24 h refrigerada.",
+  "adverseEffects": "## Efeitos adversos\n\nDor no local da injeção, febre, náuseas, vômitos, reação anafilática. Raro: trombocitopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Teicoplanina (cód. 521, ATC J01XA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

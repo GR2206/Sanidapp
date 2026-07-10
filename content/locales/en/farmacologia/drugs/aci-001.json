@@ -1,0 +1,57 @@
+{
+  "id": "aci-001",
+  "name": "Acyclovir",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Disseminated herpes. Herpes zoster and varicella in the immunocompromised host. Herpetic encephalitis. Varicella in the newborn.",
+  "indications": "## Main indications\n\nDisseminated herpes. Herpes zoster and varicella in the immunocompromised host. Herpetic encephalitis. Varicella in the newborn.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 500 mg (Lazar, LAFEDAR, LIA, Pharma Vial).",
+      "reconstitution": "10 mL SWFI. Conc: 50 mg/mL.",
+      "diluent": "500 mg in 100 mL 0.9% NaCl. If dose exceeds 500 mg, dilute in 250 mL 0.9% NaCl.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Gently shake vial until solution is clear. Administer by slow infusion over more than 1 hour.",
+      "notes": "Refrigeration of reconstituted solution (in vial) may cause precipitate that redissolves at room temperature. USE ONLY SWFI (other diluents may precipitate acyclovir)."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 400–800 mg; Lyophilized powder vial: 500 mg; Suspension: 80 mg/mL; Cream/dermal ointment: 5%; Ophthalmic ointment: 3%",
+      "administration": "IV; PO; Topical",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "7 mg/mL or less.",
+      "infusionRate": "NOT LESS than 1 hour.",
+      "dose": "IV: Varicella, herpes zoster: 30 mg/kg/day every 8 h. Herpetic encephalitis: < 12 years: 60 mg/kg/day every 8 h; > 12 years: 30 mg/kg/day every 8 h. Genital herpes, mucocutaneous herpes in immunocompromised host, herpetic gingivostomatitis: < 12 years: 30 mg/kg/day every 8 h; > 12 years: 15 mg/kg/day every 8 h. PO: 80 mg/kg/day every 6 h (maximum dose: 3,2 g), adults: 200–800 mg every 6–8 h. Dose in obese patients should be calculated based on ideal body weight. Bone marrow transplant prophylaxis: Herpes simplex, serology-positive patient (recipient and/or donor): 10 mg/kg/dose every 8 h or 250 mg/m²/dose every 8 h (from 24 h before conditioning until day +30; discontinue if ganciclovir is started). Unrelated allogeneic transplant recipients for CMV prophylaxis: 500 mg/m²/dose every 8 h. Dermatologic therapy: Herpes virus infection: apply 5 times daily for 1 week. Ophthalmology: 3% ophthalmic ointment every 3 h.",
+      "notes": "Risk of phlebitis or injection-site inflammation at high concentrations (highly alkaline). Infuse over at least 1 hour at final concentration < 7 mg/mL. Adequate hydration is required to prevent acyclovir precipitation in renal tubules. Do not refrigerate reconstituted antibiotic."
+    },
+    "neonatal": {
+      "dose": "20 mg/kg/dose every 8 h in neonatal encephalitis.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 12 h at room temperature.\n\n## Diluted solution (for administration)\n\n- 12 h at room temperature.\n\n## Pediatric guide\n\n- Diluted with 5% dextrose: 24 h at room temperature.\n- Diluted with SWFI: 12 h at room temperature.\n- Do not refrigerate.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, encephalopathic signs, hypotension, rash, pruritus, nausea, vomiting, diarrhea, hematuria, arthralgia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ACIclovir (code 0002, ATC J05AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "val-001",
+  "name": "Valproato",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anticonvulsivante. Prevenção de enxaqueca. Uso em psiquiatria: doença bipolar-mania.",
+  "indications": "## Indicações principais\n\nAnticonvulsivante. Prevenção de enxaqueca. Uso em psiquiatria: doença bipolar-mania.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola E.V. 100 mg/mL; xarope/comprimidos V.O.",
+      "dose": "Carga 20–40 mg/kg E.V.; manutenção 15–60 mg/kg/dia V.O. dividido.",
+      "administration": "E.V. em 60 min ou V.O."
+    },
+    "pediatrico": {
+      "dose": "Status epiléptico (E.V.; S.N.G.; Retal): 20 mg/kg/dose, dose de carga máxima: 1 g: Infusão: 1–4 mg/kg/min. Manutenção (V.O.): 15–50 mg/kg/dia a cada 8 h, dose máxima: 90 mg/kg/dia (máximo por dia: 2000–2500 mg). Dor neuropática: 10–30 mg/kg/dia em 2 ou 3 doses, dose máxima: 400 mg/dia.",
+      "administration": "V.O.; E.V.",
+      "presentation": "F.A. de 5 ml: 100 mg/ml; Xarope: 50 mg/ml; Cápsulas: 250 mg; Comprimidos: 200–250–400–500 mg",
+      "notes": "Recomenda-se obter níveis plasmáticos em caso de suspeita de falta de adesão ao tratamento e/ou efeitos adversos. Administração E.V.: diluir em 50 ml de dextrosa 5% ou solução fisiológica e administrar em 60 minutos, velocidade máxima de infusão: 20 mg/minuto. Realizar hemograma, plaquetas e transaminases a cada 3–6 meses e amônio conforme clínica. Inibe metabolismo de lamotrigina aumentando o risco de rash, ataxia e tremor. Pode aumentar a concentração de fenitoína livre. O efeito anticonvulsivante pode ser antagonizado por antidepressivos e antipsicóticos. Embora os comprimidos ou cápsulas sejam sais distintos conforme o nome comercial (Depakene: ácido valproico; Exibral e Logical: valproato de magnésio; Valcote: divalproato sódico) todos estão indicados com o equivalente a ácido valproico. Ver alerta em gravidez Ver Alerta Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+    },
+    "neonatal": {
+      "dose": "Uso restrito; esquemas NNU sob neurologia.",
+      "administration": "E.V./V.O."
+    }
+  },
+  "stability": "## Estabilidade\n\n- E.V. conforme bula; não refrigerar precipitado.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, tremor, queda do cabelo, hepatotoxicidade, trombocitopenia, pancreatite, orexígeno.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Ácido Valproico (cód. 0235, ATC N03AG).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

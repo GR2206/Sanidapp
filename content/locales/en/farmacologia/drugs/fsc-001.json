@@ -1,0 +1,45 @@
+{
+  "id": "fsc-001",
+  "name": "Foscarnet",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of herpes group infections resistant to conventional therapies.",
+  "indications": "## Main indications\n\nTreatment of herpes group infections resistant to conventional therapies.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "500 mL vial: 24 mg/mL",
+      "administration": "IV",
+      "diluent": "0.9% NaCl solution, 5% dextrose.",
+      "finalConcentration": "12 mg/mL.",
+      "infusionRate": "Between 1 and 2 hours with syringe pump.",
+      "dose": "CMV retinitis: Induction: 90 mg/kg/dose every 12 h or 60 mg/kg/dose every 8 h for 14-21 days; maintenance: 90-120 mg/kg/dose every 24 h. Acyclovir-resistant mucocutaneous herpes simplex: 40 mg/kg/dose every 8-12 h.",
+      "notes": "Use with caution in patients with impaired renal function and when other nephrotoxic agents such as amphotericin B, aminoglycosides, cisplatin, and cyclosporine are used. Interacts with pentamidine (increases hypocalcemia), ciprofloxacin (increases risk of seizures). To decrease renal toxicity the patient must be adequately hydrated. Via central catheter infuse undiluted. Via peripheral vein the solution must be diluted to a maximum final concentration of 12 mg/mL. Infusion rate must not exceed 60 mg/kg/hour. Each gram of sodium foscarnet contains 10 mmol of sodium and 3.3 mmol of phosphate."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Do not refrigerate.",
+  "adverseEffects": "## Adverse effects\n\nRenal insufficiency, hypercalcemia, hyper or hypophosphatemia, metabolic alterations. Magnesium alterations.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Foscarnet* (code 1128, ATC J05AD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

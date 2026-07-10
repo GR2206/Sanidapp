@@ -1,0 +1,35 @@
+{
+  "id": "med-p001",
+  "title": "Safe pediatric IV medication administration",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Verify the 9 rights with an independent double-check of the weight-based dose, compatibility, and infusion rate; use an infusion pump for high-alert medications and closely monitor for extravasation.",
+  "body": "## Steps to perform\n\n1. Perform hand hygiene and prepare the medication in a clean area.\n2. Verify the **9 rights**: right patient, right medication, right dose, right route, right time, right documentation, right reason, right response, and right form of administration.\n3. Perform an **independent double-check** of the calculated dose based on weight (mg/kg) or body surface area, according to the medical prescription.\n4. Confirm allergies, the appropriate vascular access route, and renal/hepatic function if applicable.\n5. Prepare the medication following the institutional pediatric dilution protocol.\n6. Disinfect the catheter hub with alcoholic chlorhexidine for \u2265 15 seconds using an aseptic technique.\n7. Administer using an **infusion pump** when indicated (vasopressors, potassium, critical antibiotics, sedation).\n8. Monitor for adverse reactions and signs of extravasation during and after the infusion.\n9. Document the time, dose, weight, route, infusion rate, and clinical response in the medical record.\n10. Report immediately any extravasation, phlebitis, allergic reaction, or medication error.\n\n## Scientific rationale\n\n### Indications\n\nSafe administration of intravenous medication in hospitalized children, including high-alert medications and hyperosmolar solutions.\n\n### The 9 rights (pediatric adaptation)\n\n1. Right patient (using two identifiers).\n2. Right medication.\n3. **Right dose based on current weight** (recalculate if weight has changed).\n4. Right route (peripheral vs. central venous line depending on the drug).\n5. Right time.\n6. Right documentation.\n7. Right reason.\n8. Right response (monitor clinical effects and toxicity).\n9. Right form of administration (IV push/bolus vs. continuous infusion).\n\n### Special pediatric precautions\n\n| Type of drug | Precaution |\n| --- | --- |\n| Vasopressors | Central route preferred; dedicated infusion pump; close titration |\n| IV potassium | Never as an IV push/bolus; maximum infusion rate based on weight and protocol |\n| Critical antibiotics | Respect infusion times (prolonged beta-lactams) |\n| Sedoanalgesia | Calculated per kg; close monitoring for respiratory depression |\n| Vesicant/osmotic drugs | Central route; close monitoring for extravasation |\n| Photosensitive drugs | Protect from light |\n\n### Evidence and recommendations\n\n> **WHO — Medication Without Harm:** Systematic verification and double-checking in the pediatric population due to a higher risk of dosing errors (WHO, 2023).\n\n> **ISMP:** Safe practices for IV medication; slow push and proper dilution in children (ISMP, 2024).\n\n> **Gorski et al. (2024):** Infusion therapy standards, hub disinfection, and closed systems.\n\n### Events to report immediately\n\n- Extravasation or phlebitis (especially involving vesicant agents).\n- Allergic reaction or anaphylaxis.\n- Medication error or discrepancies in the prescription.\n- Respiratory depression following IV sedoanalgesia.\n\n### Complications\n\n- Extravasation with risk of tissue necrosis in infants.\n- Chemical or infectious phlebitis.\n- Anaphylaxis.\n- Dosing error due to weight-based calculation failure.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm (pediatric medication safety).",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines for Safe Practice of IV Medications.",
+      "url": "https://www.ismp.org/guidelines/iv-push"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication Safety in the Pediatric Inpatient Setting.",
+      "url": "https://www.aap.org/en/patient-care/patient-safety/"
+    },
+    {
+      "citation": "SATI — Recomendaciones generales para sedoanalgesia y manejo de infusiones en UTI.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "NICE NG18. Intravenous fluid therapy in children and young people in hospital.",
+      "url": "https://www.nice.org.uk/guidance/ng18"
+    }
+  ]
+}

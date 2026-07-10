@@ -1,0 +1,57 @@
+{
+  "id": "cag-001",
+  "name": "Gluconato de calcio",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamiento de hiperpotasemia. Estados hipocalcémicos.",
+  "indications": "## Indicaciones principales\n\nTratamiento de hiperpotasemia. Estados hipocalcémicos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 10% (0,465 mEq Ca/mL).",
+      "dose": "1–2 ampollas (10–20 mL) IV lento; repetir según protocolo.",
+      "administration": "IV lento 10–20 min."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 10 ml: 100 mg de gluconato de Ca/ml ( 0,46 mEq de Ca/ml = 9 mg de Ca iónico/ml)",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5% y 10%.",
+      "finalConcentration": "Hasta 50 mg/mL.",
+      "infusionRate": "1 a 2 mL/min.",
+      "dose": "Hipocalcemia sintomática: 1-2 ml/kg/dosis (0,46-0,92 mEq/kg/dosis) en 5-10 min, puede repetirse a las 6 hs o seguir con una infusión de 5 ml/kg/día (2,3 mEq/kg/día). Adultos: 10-30 ml (4,6-13,8 mEq) hasta respuesta. Hipocalcemia asintomática con V.O contraindicada: lactantes y niños: 2-5 ml/kg/día en infusión continua o cada 6 hs; adultos: 20-150 ml/día en infusión continua o en dosis divididas. HiperKalemia: 0,5 - 1 ml/kg (máximo: 10 ml). Ver Boletín CIME Electrolitos.",
+      "notes": "Push E.V.: 0,5-1 ml/minuto Infusión E.V.: diluir hasta 50 mg de gluconato de calcio por ml (0,5 ml/ml) e infundir en 1 hora. Mientras se infunde controlar la frecuencia cardíaca. Corregir primero la hipokalemia. Solventes compatibles Dx 5% y Sol. F.. No mezclar con soluciones que contienen bicarbonato o fosfato. 1 mEq de Ca = 20 mg Ca++"
+    },
+    "neonatal": {
+      "dose": "1–2 mL/kg gluconato 10% IV lento bajo monitorización.",
+      "administration": "IV lento."
+    }
+  },
+  "stability": "## General\n\n- Usar vía dedicada si es posible.\n\n## Cartilla pediátrica\n\n- Desechar una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nNecrosis tisular por extravasación. Monitorear la frecuencia cardíaca. Si se produce bradicardia detener la infusión.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — calcio GLUCONATO (cód. 0270, ATC A12AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

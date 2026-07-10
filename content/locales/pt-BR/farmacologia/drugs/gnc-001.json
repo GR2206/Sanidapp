@@ -1,0 +1,47 @@
+{
+  "id": "gnc-001",
+  "name": "Ganciclovir",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "translationReviewed": true,
+  "executiveSummary": "Antiviral para citomegalovírus em transplantados e imunocomprometidos; mielotoxicidade.",
+  "indications": "## Indicações\n\n- Doença invasiva por CMV em transplantados.\n- Profilaxia de CMV em esquemas de alto risco.\n\n## Precauções\n\n- Neutropenia e trombocitopenia. Teratogênico. Ajustar na DRC.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco-ampola com pó liofilizado contendo 500 mg (Ganciclovir Richet, Cymevene).",
+      "reconstitution": "10 mL de água destilada. Conc: 50 mg/mL.",
+      "diluent": "500 mg em 50–100 mL de SF ou SG 5%.",
+      "finalConcentration": "5–10 mg/mL.",
+      "administration": "IV intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e administrar em não menos de 60 min."
+    },
+    "pediatrico": {
+      "dose": "5 mg/kg IV a cada 12 h conforme protocolo de transplante.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "6 mg/kg/dose a cada 12 h em CMV congênito (protocolo especializado).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituído (no frasco-ampola)\n\n- 12 h em temperatura ambiente. Não refrigerar.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente. Não refrigerar.",
+  "adverseEffects": "## Efeitos adversos\n\n- Neutropenia, trombocitopenia, nefrotoxicidade.",
+  "bibliography": [
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    }
+  ]
+}

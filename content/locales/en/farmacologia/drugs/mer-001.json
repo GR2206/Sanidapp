@@ -1,0 +1,63 @@
+{
+  "id": "mer-001",
+  "name": "Meropenem",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Spectrum similar to imipenem.",
+  "indications": "## Main indications\n\nSpectrum similar to imipenem.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 1 g (Meropenem Drawer, Fabra, FADA, Klonal, Larjan, Richet, Anfietoc).",
+      "reconstitution": "10 mL sterile water for injection. Conc: 50 mg/mL.",
+      "diluent": "500 mg in 100 mL NS or 5% dextrose.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "Direct IV: Yes. Shake until dissolved in 10 mL SWFI, administer over 5 min. Intermittent IV: Yes. Dilute in 100 mL NS or 5% dextrose and infuse over 30-60 min.",
+      "notes": "With fluid restriction, may be diluted in as little as 50 mL NS or 5% dextrose."
+    },
+    "pediatrico": {
+      "presentation": "Vial: 500-1000 mg",
+      "reconstitution": "Sterile water for injection for reconstitution.",
+      "administration": "IV; IM",
+      "diluent": "0.9% NaCl, 5% and 10% dextrose, mannitol.",
+      "finalConcentration": "50 mg/mL.",
+      "infusionRate": "15 to 30 minutes with infusion pump.",
+      "dose": "Sepsis, CNS infections and cystic fibrosis: 120 mg/kg/day every 8 h, maximum dose: 6 g/day. Urinary tract, skin and soft tissue and other infections: 60 mg/kg/day every 8 h, maximum dose: 3 g/day. Pulmonary, intestinal tuberculosis: 60 mg/kg/day every 8 h, maximum 1,000 mg/dose. Meningeal tuberculosis: 120 mg/kg/day every 8 h, maximum 2,000/dose. See tuberculosis treatment guide.",
+      "notes": "Lower CNS toxicity than imipenem. Push administration: 3 to 5 min; intermittent infusion: 15 to 30 min."
+    },
+    "neonatal": {
+      "presentation": "500 mg vial-ampoule (Neonatal ICU).",
+      "dose": "Dose and interval per postmenstrual age and weight (e.g. 20 mg/kg/dose every 12–24 h in preterm infants; medical adjustment).",
+      "administration": "IV preferably via central line."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 1 h at room temperature, 8 h refrigerated.\n\n## Diluted solution (for administration)\n\n- In NS: 8 h at room temperature, 48 h refrigerated. In 5% dextrose: 3 h at room temperature, 14 h refrigerated.\n\n## Pediatric guide\n\n- 2 h at room temperature. 12 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, nausea, abdominal pain, diarrhea.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — MEROpenem (code 1152, ATC J01DH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy — Meropenem.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information — Meropenem.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Rational use of antimicrobials.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

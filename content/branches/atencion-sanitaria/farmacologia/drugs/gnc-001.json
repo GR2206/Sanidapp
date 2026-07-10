@@ -1,0 +1,46 @@
+{
+  "id": "gnc-001",
+  "name": "Ganciclovir",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Antiviral para citomegalovirus en trasplantados e inmunocomprometidos; mielotoxicidad.",
+  "indications": "## Indicaciones\n\n- Enfermedad invasiva por CMV en trasplantados.\n- Profilaxis de CMV en esquemas de alto riesgo.\n\n## Precauciones\n\n- Neutropenia y trombocitopenia. Teratogénico. Ajustar en IRC.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 500 mg (Ganciclovir Richet, Cymevene).",
+      "reconstitution": "10 mL de AD. Conc: 50 mg/mL.",
+      "diluent": "500 mg en 50-100 mL de SF o DX 5%.",
+      "finalConcentration": "5-10 mg/mL.",
+      "administration": "IV intermitente: Sí. Diluir en 100 mL de SF o DX 5% y admin. en no menos de 60 min."
+    },
+    "pediatrico": {
+      "dose": "5 mg/kg IV cada 12 h según protocolo trasplante.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "6 mg/kg/dosis cada 12 h en CMV congénito (protocolo especializado).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 12 h a T° amb. No refrigerar.\n\n## Solución diluida (a administrar)\n\n- 24 h a T° amb. No refrigerar.",
+  "adverseEffects": "## Efectos\n\n- Neutropenia, trombocitopenia, nefrotoxicidad.",
+  "bibliography": [
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    }
+  ]
+}

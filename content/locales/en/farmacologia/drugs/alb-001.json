@@ -1,0 +1,51 @@
+{
+  "id": "alb-001",
+  "name": "Human albumin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Plasma volume expander. Burns.",
+  "indications": "## Main indications\n\nPlasma volume expander. Burns.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial 20% or 25% albumin.",
+      "dose": "0,5–1 g/kg according to indication (paracentesis: 6–8 g/L of ascites removed).",
+      "administration": "IV."
+    },
+    "pediatrico": {
+      "dose": "Shock: Albumin 5% in 0.9% NaCl = 5–10 mL/kg (0,25–0,50 g/kg). Maximum dose: 6 g/kg/day",
+      "administration": "IV",
+      "presentation": "See Human albumin evidence-based use (CIME Bulletin) 50 mL vial 20%",
+      "notes": "Infusion rate: 0,25–1 mL/min. See Colloid Solutions (CIME Bulletin)"
+    },
+    "neonatal": {
+      "dose": "Replacement in neonatal shock per NICU protocol.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use immediately after spiking; do not mix with other drugs.",
+  "adverseEffects": "## Adverse effects\n\nHeart failure from volume overload, urticaria.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Albúmina Humana* (code 0007, ATC B05AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

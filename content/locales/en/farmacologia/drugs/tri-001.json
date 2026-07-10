@@ -1,0 +1,61 @@
+{
+  "id": "tri-001",
+  "name": "Trimethoprim+sulfamethoxazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Prophylaxis and treatment of urinary tract infections due to susceptible strains of E. coli, P. mirabilis, K. pneumoniae, Enterobacter spp and coagulase-negative Staphylococcus including S. saprophyticus. Treatment of acute otitis media caused by susceptible Streptococcus pneumoniae and Haemophilus influenzae. Not indicated for prolonged administration or otitis media prophylaxis. Alternative treatment for pneumonia caused by Pneumocystis jirovecii.",
+  "indications": "## Main indications\n\nProphylaxis and treatment of urinary tract infections due to susceptible strains of E. coli, P. mirabilis, K. pneumoniae, Enterobacter spp and coagulase-negative Staphylococcus including S. saprophyticus. Treatment of acute otitis media caused by susceptible Streptococcus pneumoniae and Haemophilus influenzae. Not indicated for prolonged administration or otitis media prophylaxis. Alternative treatment for pneumonia caused by Pneumocystis jirovecii.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule containing 80 mg trimethoprim (TMP) + 400 mg sulfamethoxazole (SMX) in 5 mL (Cotrizol G, Novidrine, Bactrim, Danferane, Spectrex).",
+      "reconstitution": "No prior reconstitution required. Conc: 16 mg/mL trimethoprim and 80 mg/mL sulfamethoxazole.",
+      "diluent": "80 mg TMP/400 mg SMX in 100 mL NS or 5% dextrose.",
+      "finalConcentration": "0.8 mg/mL TMP and 4 mg/mL SMX.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute 1 amp in 100 mL NS and administer over 30-60 min. Do not exceed 90 min.",
+      "notes": "A dilution of 1 mL TMP+SMX in 5 mL diluent is recommended."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 80 mg trimethoprim + 400 mg sulfamethoxazole; Tablets: 160 mg trimethoprim + 800 mg sulfamethoxazole; Syrup: 40 mg trimethoprim + 200 mg sulfamethoxazole /5 mL; Ampoules: 80 mg trimethoprim + 400 mg sulfamethoxazole/5 mL",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl solution, 5% and 10% dextrose.",
+      "finalConcentration": "1.6 mg/mL.",
+      "infusionRate": "Not less than 60 min with syringe pump.",
+      "dose": "Doses expressed on trimethoprim basis Mild and moderate infections: Children: 8-12 mg/kg/day every 12 h, maximum dose: 320 mg/day; Adults: 160 mg every 12 h, maximum dose 640 mg/day. Severe infections, Pneumocystis jirovecii, stenotrophomonas, meningitis: 20 mg/kg/day every 6 h, maximum IV dose: 240 mg/dose every 6 h, PO: 320 mg/dose every 6 h. Prophylaxis: 5 mg/kg/day 3 times per week, maximum dose 160 mg. Urinary infection prophylaxis: 2 mg/kg/day in a single nightly dose.",
+      "notes": "IV ampoules must not be administered undiluted. Interactions: phenytoin, rifampicin (increases levels of these drugs); metronidazole (potentiates metronidazole hematologic toxicity); cyclosporine (potentiates cyclosporine nephrotoxicity)."
+    },
+    "neonatal": {
+      "dose": "Avoid < 2 months except vital indication; dose according to NICU.",
+      "administration": "PO/IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (to be administered)\n\n- 2 h at room temperature. Prepare immediately before use.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nHypersensitivity reactions (mainly dermatologic), gastrointestinal disturbances (nausea, vomiting), blood dyscrasias. Renal toxicity (in patients with prior renal failure). Hepatitis, cholestasis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Trimethoprim + Sulfamethoxazole (code 0902, ATC J01EA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

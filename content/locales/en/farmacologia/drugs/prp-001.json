@@ -1,0 +1,51 @@
+{
+  "id": "prp-001",
+  "name": "Propranolol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Non-cardioselective β-blocker indicated for tachyarrhythmias, hypertension, neonatal thyrotoxicosis. Migraine prophylaxis. Palliative treatment of tetralogy of Fallot and obstructive hypertrophic cardiomyopathy. Portal hypertension. Treatment of severe infantile hemangiomas.",
+  "indications": "## Main indications\n\nNon-cardioselective β-blocker indicated for tachyarrhythmias, hypertension, neonatal thyrotoxicosis. Migraine prophylaxis. Palliative treatment of tetralogy of Fallot and obstructive hypertrophic cardiomyopathy. Portal hypertension. Treatment of severe infantile hemangiomas.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 40 and 80 mg. Ampoule 1 mg/mL.",
+      "dose": "HTN/angina: 40–160 mg/day PO divided. IV: 1–3 mg slow, repeat according to protocol.",
+      "administration": "PO or slow IV."
+    },
+    "pediatrico": {
+      "dose": "Arrhythmias and hypertension: Neonates: PO: initial: 0.25 mg/kg/dose every 6-8 h, increase slowly up to a maximum of 5 mg/kg/day. Higher doses may be required (consult specialist). Children: PO: initial: 1 mg/kg/day every 6 h, increase gradually every 3-5 days, maintenance: 1-5 mg/kg/day, maximum dose: arrhythmias: 16 mg/kg/day or 60 mg/day; hypertension: 8 mg/kg/day. Migraine prophylaxis: PO: children: 0.6-1.5 mg/kg/day every 8 h, maximum: 4 mg/kg/day; adults: initial: 80 mg/day every 6-8 h, maximum: 160-240 mg/day. Neonatal thyrotoxicosis: PO: 2 mg/kg/day (1-3 mg/kg/day) every 6-12 h. Higher doses may be required (consult specialist); adults: PO: 10-40 mg every 6 h. Infantile hemangiomas: PO: initial: 1 mg/kg/day every 8-12 h; increase gradually weekly up to 2 mg/kg/day (0.5-3 mg/kg/day) every 8-12 h. Continue at target dose until the end of the proliferation phase and complete resolution.",
+      "administration": "PO",
+      "presentation": "Tablets: 10 - 40 mg; Suspension (compounded preparation): 4 mg/mL",
+      "notes": "Adjust dose according to clinical effect and β-blockade. Use with caution in patients with diabetes mellitus and bronchial asthma. Avoid the IV route in patients receiving calcium channel blockers. Aluminum-containing antacids may decrease its absorption. With epinephrine, increased blood pressure and severe bradycardia. Flecainide, hydralazine, verapamil may increase cardiovascular adverse effects. Administer with food to avoid the risk of hypoglycemia. Do not discontinue abruptly. Reduce dose in hepatic insufficiency. In the treatment of infantile hemangiomas propranolol is contraindicated in preterm newborns and newborns younger than 14 days of life, congenital heart disease with contraindication to β-blocker treatment, infants with episodes of obstructive bronchitis, CNS disorders and altered renal function."
+    },
+    "neonatal": {
+      "dose": "0.01–0.2 mg/kg/dose IV according to neonatal cardiology protocol.",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## Stability\n\n- PO according to prescribing information. IV use immediately.",
+  "adverseEffects": "## Adverse effects\n\nFatigue, lethargy, bradycardia, hypotension, rash, nausea, vomiting, hypoglycemia, apneas, bronchospasm, increased liver enzymes, seizures, cold extremities.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Propranolol Hydrochloride* (code 0171, ATC C07AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension and arrhythmia guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

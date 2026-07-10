@@ -1,0 +1,27 @@
+{
+  "id": "nav-001",
+  "title": "Prevenção de pneumonia associada à ventilação mecânica",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Aplicar o bundle de prevenção de PAV: higiene bucal, elevação da cabeceira, sedação mínima, desmame ventilatório precoce e manejo do circuito.",
+  "body": "## Passos a realizar\n\n1. Realizar higiene bucal com clorexidina a cada 6–8 h (salvo contraindicação).\n2. Manter elevação da cabeceira 30–45° de forma contínua, salvo contraindicação hemodinâmica.\n3. Aplicar sedação mínima e avaliar diariamente janela de sedação / prova de respiração espontânea conforme protocolo médico.\n4. Administrar profilaxia de úlcera por estresse e tromboprofilaxia conforme prescrição.\n5. Manejar o circuito: não trocar rotineiramente; evitar condensado na via aérea.\n6. Aplicar descontaminação digestiva seletiva somente se indicada por protocolo institucional.\n7. Realizar higienização das mãos estrita antes e após manipular a via aérea.\n8. Vigiar temperatura, secreções traqueais (quantidade, cor, odor) e oxigenação.\n9. Registrar dias de ventilação mecânica e eventos associados.\n10. Comunicar febre nova, secreções purulentas ou piora radiológica imediatamente.\n\n## Fundamentação científica\n\n### Indicações\n\nPneumonia que se desenvolve ≥ 48 horas após intubação endotraqueal e ventilação mecânica invasiva.\n\n### Evidência e recomendações\n\n> **SATI / Sociedade Argentina de Infectologia 2024:** Consenso intersociedades sobre prevenção de pneumonia associada à ventilação mecânica com bundle multimodal.\n\n> **Klompas et al. 2022 (SHEA/IDSA):** Atualização de estratégias para prevenir PAV, eventos ventilatórios associados e pneumonia nosocomial não ventilatória.\n\n### Bundle de prevenção (referência)\n\n| Medida | Frequência / critério |\n| --- | --- |\n| Higiene bucal com clorexidina | A cada 6–8 h |\n| Elevação da cabeceira | 30–45° contínua |\n| Sedação mínima | Avaliação diária |\n| Manejo do circuito | Sem troca rotineira |\n\n### Critérios de suspeita clínica\n\n- Febre nova ou leucocitose/leucopenia.\n- Secreções purulentas aumentadas.\n- Piora da oxigenação ou infiltrado radiológico novo.\n\n### Complicações\n\n- Pneumonia associada à ventilação mecânica confirmada.\n- Prolongação da ventilação mecânica e permanência em UTI.\n- Sepse respiratória.",
+  "bibliography": [
+    {
+      "citation": "SATI / Sociedade Argentina de Infectologia. Pneumonia Associada à Ventilação Mecânica — Atualização e Consenso Intersociedades 2024.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "SATI — Comitê de Pneumologia Crítica. Guia de prevenção da pneumonia associada à VM.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Klompas M, et al. Strategies to Prevent Ventilator-Associated Pneumonia, Ventilator-Associated Events, and Nonventilator Hospital-Acquired Pneumonia in Acute-Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    }
+  ]
+}

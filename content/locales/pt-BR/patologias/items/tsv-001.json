@@ -1,0 +1,45 @@
+{
+  "id": "tsv-001",
+  "name": "Taquicardia supraventricular (TSV)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **taquicardia supraventricular (TSV)** é um ritmo rápido regular de origem auricular ou da junção AV, com frequência usualmente 150–250 bpm. O paciente refere **palpitações** de início e fim bruscos, tontura, opressão torácica ou dispneia. No ECG: QRS estreito e regular (salvo aberrância). Diferenciar de flutter auricular, FA com condução rápida e taquicardia sinusal.\n\nEm paciente **instável** (hipotensão, edema agudo de pulmão, dor isquêmica, alteração do estado mental): **cardioversão elétrica sincronizada** imediata. Se estável: manobras vagais e **adenosina** IV em bolus (com monitor e desfibrilador disponíveis). Se falha adenosina: betabloqueador IV, verapamil ou amiodarona conforme protocolo e comorbidades. Tratar causa desencadeante (febre, anemia, hipovolemia).\n\n**Enfermagem**: monitor cardíaco contínuo, acesso venoso, preparar adenosina e equipamento de cardioversão, registrar hora de início e resposta às manobras vagais, vigiar bradicardia após adenosina.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Supraventricular tachycardia guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia (SAC). Arritmias supraventriculares.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Tachycardia algorithm (ACLS).",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ade-001",
+      "label": "Adenosina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "amd-001",
+      "label": "Amiodarona"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropina"
+    }
+  ]
+}

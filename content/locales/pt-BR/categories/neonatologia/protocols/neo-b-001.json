@@ -1,0 +1,32 @@
+{
+  "id": "neo-b-001",
+  "title": "Cuidados do recém-nascido em unidade convencional (termorregulação, rastreamento)",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Prestar cuidados básicos ao neonato clinicamente estável de 500 g a 2500 g (dia 0–30) em unidade convencional com termorregulação rigorosa, rastreamentos neonatais, alojamento conjunto e vigilância de sinais de alarme.",
+  "body": "## Passos a realizar\n\n1. Receber o neonato com identificação verificada (pulseira mãe-RN, dois identificadores); revisar boletim de nascimento, IG, peso, Apgar e fatores de risco.\n2. Avaliar estabilidade: FC 100–160 lpm, FR 30–60/min, SatO₂ ≥ 92% em ar ambiente (ajustar por IG), temperatura axilar 36,5–37,5 °C, bom tônus e sucção.\n3. Termorregulação: pele a pele imediata se estável; se < 1500 g ou instável usar incubadora com servocontrole; gorro, meias; evitar correntes de ar e exposição.\n4. Medir temperatura axilar na admissão, às 2 h e a cada 4–6 h conforme protocolo; registrar na ficha neonatal.\n5. Rastreamento metabólico: solicitar/verificar triagem neonatal ampliada conforme normativa local (fenilcetonúria, hipotireoidismo congênito, fibrose cística, hemoglobinopatias etc.) na janela 24–72 h ou conforme peso mínimo.\n6. Rastreamento auditivo: emissões otoacústicas antes da alta ou conforme protocolo (< 34 sem na alta; repetir rastreamento se falhar).\n7. Rastreamento cardiovascular: oximetria de pulso pré e pós-ductal às 24–48 h de vida (diferença < 3% e SatO₂ ≥ 95% em ambas); encaminhar se positivo.\n8. Rastreamento ocular: exame com oftalmoscópio em prematuros < 32 sem ou < 1500 g conforme calendário ROP; encaminhar à oftalmologia.\n9. Higiene: banho diferido ≥ 24 h; apenas água morna na pele; não friccionar o vernix em prematuros; troca de fralda a cada 3 h ou se sujo.\n10. Alojamento conjunto: promover aleitamento materno na primeira hora; observar pega e sucção efetiva; registrar diurese (≥ 1 fralda molhada/24 h no dia 1), evacuações e peso diário.\n11. Orientar a família: sinais de alarme (letargia, recusa alimentar, cianose, febre > 38 °C, hipotermia < 36 °C, icterícia extensa, vômitos biliosos).\n12. Documentar todos os rastreamentos, vacinas (HBV 0 se indicada), profilaxia ocular e vitamina K; planejar alta com consultas de seguimento.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**, **clinicamente estáveis** em unidade de cuidados convencionais ou alojamento conjunto. RN que necessitem de UCIN (VM, vasoativos, NP) **não** se aplicam a este protocolo — encaminhar à divisão intensiva.\n\n### Critérios de inclusão em unidade convencional\n\n- SatO₂ ≥ 92% sem oxigênio suplementar (≥ 91% se prematuro 28–34 sem conforme prescrição).\n- Temperatura estável na faixa sem berço aquecido contínuo.\n- Alimentação enteral tolerada ou em via de início.\n- Sem sinais de sepse, desconforto respiratório moderado-grave ou convulsões.\n\n### Evidência e recomendações\n\n> **OMS — Cuidados essenciais do recém-nascido:** contato pele a pele, aleitamento materno precoce e termorregulação reduzem morbimortalidade neonatal (WHO, 2024).\n\n> **AAP:** rastreamento de cardiopatias congênitas com oximetria de pulso é padrão antes da alta hospitalar (American Academy of Pediatrics).\n\n### Termorregulação neonatal\n\n| Método | Indicação |\n| --- | --- |\n| Pele a pele | RN ≥ 1500 g estável, com mãe supervisionada |\n| Berço aquecido | RN a termo em ambiente climatizado 22–24 °C |\n| Incubadora com servocontrole | RN < 1500 g ou dificuldade de termorregulação |\n\nMeta axilar: **36,5–37,5 °C**. Hipotermia (< 36 °C) aumenta risco de hipoglicemia, acidose e sepse.\n\n### Calendário de rastreamentos (orientativo)\n\n| Rastreamento | Momento | Ação se anormal |\n| --- | --- | --- |\n| Triagem metabólica | 24–72 h (≥ peso mínimo) | Repetir / confirmar |\n| Oximetria CCC | 24–48 h | Ecocardiograma urgente se positivo |\n| Emissões otoacústicas | Antes da alta | Repetir rastreamento ou PEAT |\n| ROP | Semanas pós-natais conforme IG | Oftalmologia |\n| Bilirrubina | Antes da alta / conforme risco | Curva conforme nomograma de Bhutani |\n\n### Profilaxia de rotina\n\n- Vitamina K 1 mg IM ao nascimento (0,5 mg se < 1000 g conforme protocolo).\n- Profilaxia ocular (eritromicina/povidona) nas primeiras 2 h.\n- Vacina HBV 0 em RN de mãe HBsAg+ ou conforme calendário nacional.\n\n### Complicações — avisar imediatamente\n\n- Hipotermia ou hipertermia persistente.\n- Hipoglicemia (< 25 mg/dl) ou letargia.\n- Cianose ou SatO₂ < 90%.\n- Recusa alimentar total ou vômitos biliosos.\n- Icterícia nas primeiras 24 h ou zona III de Kramer.\n- Resultado positivo no rastreamento cardiovascular.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. WHO recommendations on postnatal care of the mother and newborn.",
+      "url": "https://www.who.int/publications/i/item/9789240045989"
+    },
+    {
+      "citation": "World Health Organization. Thermal protection of the newborn — practical guide.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Newborn screening and critical congenital heart disease screening.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Family-centered care and newborn nursery quality standards.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "SATI — Recomendações em cuidados neonatais de baixa complexidade.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ],
+  "division": "baja-complejidad"
+}

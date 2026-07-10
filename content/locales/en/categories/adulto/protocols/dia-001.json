@@ -1,0 +1,27 @@
+{
+  "id": "dia-001",
+  "title": "Hemodialysis catheter insertion",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Insert the hemodialysis catheter using sterile technique, with the internal jugular being the preferred site, utilizing ultrasound guidance when available, and formulating a removal or conversion plan to an autologous fistula according to KDOQI and infection prevention guidelines (SATI/SADI).",
+  "body": "## Steps to perform\n\n1. Identify the patient, verify the prescription and informed consent; review platelet count and INR according to protocol.\n2. Position the patient in a slight Trendelenburg position (15°) if using the jugular vein.\n3. Perform hand hygiene and employ maximal sterile barrier precautions (cap, mask, wide sterile drape, sterile gloves).\n4. Prepare the skin with alcoholic chlorhexidine over a wide area; **allow to dry** completely.\n5. Assist with ultrasound-guided insertion; maintain a strict sterile field.\n6. Verify inflow and outflow in **both lumens**; eliminate any air.\n7. Suture and secure the catheter; apply a sterile dressing.\n8. Connect the lines according to arterial and venous markings (do not invert them).\n9. Document the site, gauge, type (tunneled or non-tunneled), operator, and time.\n10. Lock the lumens with an anticoagulant solution according to protocol (heparin or citrate).\n11. Before each hemodialysis session: disinfect the hub with alcoholic chlorhexidine (friction ≥ 15 s); connect the circuit without contaminating the lumens.\n12. At the end of the session, flush and lock the lumens according to the dialysis unit protocol.\n\n## Scientific rationale\n\n### Indications\n\n- Need for immediate hemodialysis without a functioning fistula or graft.\n- Vascular bridge while an autologous access matures.\n- Renal replacement therapy in the ICU (severe AKI) according to medical criteria.\n\n### Types of catheter\n\n| Type | Use |\n| --- | --- |\n| **Non-tunneled** (temporary) | Emergency, AKI, bridge until a fistula or tunneled catheter is placed |\n| **Tunneled with cuff** | Chronic hemodialysis when no autologous access is available |\n\nBoth are dual-lumen central venous catheters (arterial and venous lumens for the HD circuit).\n\n### Site selection\n\n| Site | Recommendation |\n| --- | --- |\n| **Right internal jugular** | First choice (lower risk of central stenosis vs. subclavian) |\n| **Left internal jugular** | Alternative |\n| **Femoral** | Only temporary and for short-term duration; higher infectious risk |\n| **Subclavian** | **Avoid** if possible (high risk of central venous stenosis) |\n\n### Evidence and recommendations\n\n> **KDOQI 2019 (Lok et al.):** The catheter should be the **last option** in stage 5 CKD. Plan for an autologous access and remove the catheter as soon as it is no longer required.\n\n> **SATI/SADI 2025:** Catheter infection prevention using strict aseptic technique and careful lumen management.\n\n### Relative contraindications\n\n- Infection at the puncture site.\n- Known ipsilateral central venous thrombosis.\n- Severe uncorrected coagulopathy (assess risk-benefit ratio).\n\n### Complications — notify immediately\n\n- Active bleeding, expanding hematoma, or airway compromise.\n- Pneumothorax or acute dyspnea post-insertion.\n- Fever, chills, or purulent discharge at the site (suspected catheter infection or bacteremia).\n- Obstruction of both lumens or excessive recirculation during dialysis.",
+  "bibliography": [
+    {
+      "citation": "Lok CE, Huber TS, Lee T, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update. Am J Kidney Dis. 2020;75(4 Suppl 2):S1-S164.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "Lok CE, Huber TS, Lee T. KDOQI 2019 Vascular Access Guidelines: What Is New. Am J Kidney Dis. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35210726/"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización intersociedades SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    }
+  ]
+}

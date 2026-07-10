@@ -1,0 +1,54 @@
+{
+  "id": "atr-001",
+  "name": "Atropine",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Bradycardia. To reduce upper airway secretions and salivation. Ophthalmology: mydriatic and cycloplegic.",
+  "indications": "## Main indications\n\nBradycardia. To reduce upper airway secretions and salivation. Ophthalmology: mydriatic and cycloplegic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 1 mg/mL.",
+      "dose": "Bradycardia: 1 mg IV every 3–5 min (max. 3 mg).",
+      "administration": "Rapid IV bolus."
+    },
+    "pediatrico": {
+      "presentation": "Ampoules: 1 mg/ml (1000 µg/ml); Drops: 1%",
+      "administration": "IV; IM; SC; Intratracheal",
+      "diluent": "0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "0,1 mg/mL.",
+      "infusionRate": "CARDIAC ARREST undiluted (push).",
+      "dose": "20 µg/kg/dose (minimum dose: 100 µg); may be repeated at 5-minute intervals up to a total maximum dose: children: 1 mg; adolescents: 2 mg Toxicology: IV 20 µg/kg",
+      "notes": "Do not administer IM in neonates. Administer undiluted by IV route. Contraindicated in urinary tract obstruction and glaucoma. For intratracheal administration, dilute with normal saline in a total volume of 1-2 ml."
+    },
+    "neonatal": {
+      "dose": "0,02 mg/kg IV (NRP/PALS neonatal protocol).",
+      "administration": "IV/IO."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nMydriasis, dry mouth, cycloplegia, photophobia, bradycardia followed by tachycardia, palpitations, arrhythmias, urinary retention, confusion, hallucinations.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ATROPine Sulfate (code 0023, ATC A03BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

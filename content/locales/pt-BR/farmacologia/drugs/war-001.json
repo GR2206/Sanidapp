@@ -1,0 +1,51 @@
+{
+  "id": "war-001",
+  "name": "Varfarina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antagonista da vitamina K. Anticoagulante.",
+  "indications": "## Indicações principais\n\nAntagonista da vitamina K. Anticoagulante.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 5 mg (e outras concentrações).",
+      "dose": "Dose inicial 5 mg/dia V.O.; ajustar conforme INR objetivo.",
+      "administration": "V.O. no mesmo horário diariamente."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 1–2 mg; Suspensão (preparado magistral): 1 mg/mL",
+      "administration": "V.O.",
+      "dose": "Conforme indicação do especialista (de acordo com o INR esperado). Administrar uma vez por dia.",
+      "notes": "Usar com precaução em pacientes com trauma, infecção aguda, insuficiência renal moderada a grave e hipertensão moderada a leve. Contraindicado em pacientes com tendência a hemorragias (úlceras gástricas, aneurismas cerebrais, sistema nervoso central, grandes cirurgias, bloqueio peridural regional). Monitorar a resposta em pacientes com insuficiência hepática; pode ser marcadamente aumentada em icterícia obstrutiva devido à absorção reduzida de vitamina K e em pacientes com cirrose e/ou hepatite."
+    },
+    "neonatal": {
+      "dose": "Uso muito restrito; esquemas cardiológicos neonatais.",
+      "administration": "V.O."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Comprimidos na embalagem original.",
+  "adverseEffects": "## Efeitos adversos\n\nHemorragias em distintos órgãos, sangramento, cianose nos calcanhares, vasculite, tontura, fadiga, febre, cefaleia, parestesias, dermatite, gangrena da pele ou outros tecidos, necrose cutânea, dor abdominal, hematúria, colestase.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Warfarina* (cód. 1715, ATC B01AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

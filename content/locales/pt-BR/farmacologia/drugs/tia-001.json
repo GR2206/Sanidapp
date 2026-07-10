@@ -1,0 +1,51 @@
+{
+  "id": "tia-001",
+  "name": "Tiamina (vitamina B1)",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Doenças carenciais: beribéri (polineurite, insuficiência cardíaca, edemas). Deficiência PDH (piruvato desidrogenase). Síndrome de deficiência de tiamina: acidose láctica tipo B (sem hipoperfusão/hipoxemia, com ou sem hiperglicemia, encefalopatia de Wernicke (ataxia, confusão, oftalmoplegia).",
+  "indications": "## Indicações principais\n\nDoenças carenciais: beribéri (polineurite, insuficiência cardíaca, edemas). Deficiência PDH (piruvato desidrogenase).\nSíndrome de deficiência de tiamina: acidose láctica tipo B (sem hipoperfusão/hipoxemia, com ou sem hiperglicemia, encefalopatia de Wernicke (ataxia, confusão, oftalmoplegia).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 100 mg/mL.",
+      "dose": "100–500 mg E.V. lenta antes de glicose; depois 100 mg TID por 3–5 dias.",
+      "administration": "E.V. lenta."
+    },
+    "pediatrico": {
+      "dose": "R.N.D: 0–6 meses: 0,2 mg; 7–12 meses: 0,3 mg; 1–3 anos: 0,5 mg; 4–8 anos: 0,6 mg; 9–13 anos: 0,9 mg; 14–18 anos: 1,2 mg; adultos: 1,1 a 1,4 mg. Níveis normais: 1,6 a 4 mg/dl. Beribéri, Encefalopatia de Wernicke, Acidose Láctica tipo B: crianças: E.V.: 25 mg, uma vez por dia, máximo 1 semana, depois passar a V.O.: 5 a 10 mg/dia por um mês; Adolescentes e adultos: E.V. 100 mg/dia, máximo 1 semana, depois V.O.: 10 mg/dia por 1 mês. Prevenção de síndrome de realimentação: V.O.: 2 mg/kg/dia, máximo: 100 mg a cada 24 h durante 2 semanas, depois 1 mg/kg/dia (máximo 10 mg) durante 1 mês. Acidose Láctica Congênita: V.O.: 100–300 mg/dia. Deficiência PDH: 300 mg/dia Encefalopatia durante ou pós administração de Ifosfamida: 100 mg a cada 4 h até resolução dos sintomas, administrar em 30 minutos.",
+      "administration": "V.O. E.V.",
+      "presentation": "Comprimidos: 300 mg; Xarope (preparado magistral): 10 mg/ml; Ampolas de 1 ml: 100 mg/ml",
+      "notes": "É frequente encontrar carências associadas de vários fatores do complexo B, é conveniente utilizar todo o complexo. Pacientes em hemodiálise, diálise peritoneal ou síndrome de má absorção têm maiores requerimentos diários. Ver tabela de polivitamínicos. Para prevenção de síndrome de realimentação iniciar tiamina antes de iniciar aporte nutricional (inclusive plano de hidratação parenteral com dextrosa), depois das 2 semanas pode-se fazer o aporte com complexo B. Em pacientes oncológicos não utilizar complexo B, pois não se recomenda a administração de vitamina B12. Para a administração E.V. diluir 100 mg em 50 ml de solução fisiológica (preferentemente) ou dextrosa 5%, infundir em 30 minutos. Deve ser feito sob estrito monitoramento. Para evitar sintomas agudos de deficiência de tiamina, administrá-la antes das soluções de carboidratos parenterais. V.O. pode ser administrada com ou sem alimentos."
+    },
+    "neonatal": {
+      "dose": "10 mg E.V./dia em nutrição parenteral.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Proteger da luz.",
+  "adverseEffects": "## Efeitos adversos\n\nDermatite de contato, cianose, edema pulmonar, edema faríngeo, reações anafiláticas com distress respiratório, prurido, choque e dor abdominal, parestesias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Vitamina B1 (Tiamina) (cód. 0457, ATC A11DA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

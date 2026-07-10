@@ -1,0 +1,53 @@
+{
+  "id": "zid-001",
+  "name": "Zidovudina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antirretroviral análogo dos nucleosídeos, inibidor da transcriptase reversa. Para tratamento da infecção causada pelo retrovírus HIV.",
+  "indications": "## Indicações principais\n\nAntirretroviral análogo dos nucleosídeos, inibidor da transcriptase reversa. Para tratamento da infecção causada pelo retrovírus HIV.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 200 mg em 20 mL (Zidovudina Dosa).",
+      "reconstitution": "Não requer reconst. prévia. Conc: 10 mg/mL.",
+      "diluent": "200 mg em 50–200 mL de SF ou Dx 5%.",
+      "finalConcentration": "2–4 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 50–100 mL de SF ou Dx 5% e admin. em 60 min."
+    },
+    "pediatrico": {
+      "dose": "Profilaxia: R.N. < 30 semanas a 35 semanas I.G.: 0 a 4 semanas de vida: 2 mg/kg/dose a cada 12 h, 4 a 6 semanas de vida: 3 mg/kg/dose a cada 12 h; > 35 semanas I.G.: 4 mg/kg/dose a cada 12 h. Tratamento: Prematuros: 1,5 mg/kg/dose a cada 12 h até 2 semanas de idade, depois 2 mg/kg/dose a cada 8 h. Neonatos: V.O.: 2 mg/kg/dose a cada 6 h E.V.: 1,5 mg/kg/dose a cada 6 h. Crianças: V.O.: 4 a 9 Kg: 12 mg/kg/dose a cada 12 h, 9 a 30 kg: 9 mg/kg/dose a cada 12 h, > 30 kg: 300 mg/dose a cada 12 h; E.V.: 120 mg/m²/dose a cada 6 h. Adultos: 300 mg a cada 12 h. Insuficiência hepática severa: 300 mg a cada 24 h.",
+      "administration": "V.O.; E.V.",
+      "presentation": "Cápsulas: 100–250 mg; Xarope: 10 mg/ml F.A. de 20 ml: 10 mg/ml",
+      "notes": "Pode ser administrada com as refeições. E.V.: Diluir em D 5% (concentração 2–4 mg/ml) e infundir em 1 hora. Interage com: aciclovir, anfotericina, dapsona, ganciclovir, pentamidina, trimetoprima-sulfametoxazol, fluconazol, ácido valproico, cimetidina, difenilhidantoína, etc. Ver Profilaxia pós exposição: laboral, sexual e cortopunção na via pública."
+    },
+    "neonatal": {
+      "dose": "Profilaxia e tratamento conforme protocolo NNU/perinatal.",
+      "administration": "E.V. lenta conforme esquema."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- 24 h à temperatura ambiente, 48 h refrigerada.",
+  "adverseEffects": "## Efeitos adversos\n\nAnemia, leucopenia (principalmente neutropenia), cefaleias, náuseas, insônia e mialgias.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ZIDOvudina* (AZT) (cód. 0507, ATC J05AF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

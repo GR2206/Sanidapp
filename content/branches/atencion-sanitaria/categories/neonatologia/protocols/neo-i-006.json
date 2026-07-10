@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-006",
+  "title": "Toma de hemocultivo neonatal",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Extraer hemocultivo en neonato de 500 g a 2500 g (día 0–30) antes del antibiótico si no retrasa su inicio, con volumen ajustado al peso, técnica asséptica estricta y frascos pediátricos.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación clínica (sospecha sepsis, inestabilidad térmica, distrés respiratorio, NEC, infección de catéter); identificar RN (dos identificadores), pesar y registrar hora.\n2. Explicar a la familia; mantener termorregulación durante el procedimiento.\n3. Preparar frascos pediátricos (aeróbico ± anaeróbico según protocolo); desinfectar tapas con alcohol 70% ≥ 15 s; dejar secar.\n4. Realizar higiene de manos (momento 2 OMS); vestir guantes estériles si punción sobre catéter.\n5. Seleccionar sitio: venopunción periférica preferida; UVC/UAC solo con protocolo de retrocultivo diferenciado; no mezclar sangre de catéter y periférica en el mismo set sin indicación.\n6. Desinfectar piel o hub de catéter con antiséptico en fricción ≥ 30 s; ampliar área 2–3 cm; no repasar zona desinfectada.\n7. Extraer volumen según peso (ver tabla); usar jeringa de precisión; no sobrellenar frascos pediátricos.\n8. Inocular frascos en orden del sistema: vacío (aeróbico primero); jeringa (anaeróbico primero si aplica); mezclar por inversión suave.\n9. Etiquetar en mesa limpia: nombre, peso, fecha, hora, sitio de punción, número de set y antibióticos previos.\n10. En sepsis grave: **no demorar antibiótico** por dificultad de punción; tomar cultivos en paralelo y administrar empírico según prescripción.\n11. Transportar al laboratorio de inmediato; registrar hora de inicio de antibiótico empírico.\n12. Comunicar resultado positivo, contaminación probable (Corynebacterium, Bacillus, Micrococcus) o deterioro clínico.\n\n## Fundamentación científica\n\n### Población y alcance\n\n**Neonatos día 0–30**, **500 g–2500 g**. La sepsis neonatal precoz (< 72 h) y tardía (> 72 h) requiere hemocultivo antes de antibióticos cuando sea clínicamente seguro; en shock séptico el antibiótico no se retrasa.\n\n### Indicaciones\n\n- Sospecha clínica de sepsis neonatal (instabilidad térmica, letargia, apnea, acidosis metabólica).\n- Fiebre o hipotermia en RN con factores de riesgo materno (corioamnionitis, RPM > 18 h).\n- Sospecha de infección asociada a catéter (CLABSI).\n- NEC sospechada o confirmada.\n- Mala evolución clínica en RN de riesgo sin foco.\n\n### Evidencia y recomendaciones\n\n> **SATI / consenso infectología crítica:** en neonatos la contaminación de hemocultivo tiene alto impacto; técnica asséptica estricta y volumen adecuado mejoran rendimiento (SATI, 2007; actualización 2025).\n\n> **VON:** la sepsis es principal causa de morbimortalidad en VLBW; hemocultivo antes de antibiótico aumenta sensibilidad sin demorar tratamiento en casos graves (Vermont Oxford Network).\n\n### Volumen según peso neonatal\n\n| Peso | Volumen por frasco | Número de sets |\n| --- | --- | --- |\n| 500–749 g | 0,5–1 ml | 1–2 (según gravedad) |\n| 750–999 g | 1 ml | 1–2 |\n| 1000–1499 g | 1–2 ml | 2 en sepsis grave |\n| 1500–2500 g | 2–3 ml | 2 en sepsis grave |\n\nRespetar volumen máximo del frasco pediátrico del fabricante.\n\n### Momento y sitio\n\n- Ideal: antes de primer antibiótico; no requiere coincidir con pico febril.\n- Sepsis grave: 2 sets de sitios distintos (periférico + catéter con retrocultivo si aplica).\n- Endocarditis neonatal: 3 sets de sitios distintos.\n\n### Hemocultivo de catéter vs periférico\n\n| Situación | Acción |\n| --- | --- |\n| Sospecha CLABSI | 1 periférico + 1 retrocultivo de catéter (mismo volumen) |\n| Catéter reciente (< 48 h) | Preferir periférico |\n| Sin acceso periférico | UVC con técnica asséptica; documentar origen |\n\n### Prevención de contaminación\n\n- No tocar tapa del frasco tras desinfección.\n- No usar torundas de alcohol en piel y frasco simultáneamente (contaminación cruzada).\n- En prematuros extremos: considerar pausa respiratoria breve coordinada para evitar movimiento durante punción.\n\n### Complicaciones — avisar de inmediato\n\n- Imposibilidad de obtener muestra con deterioro clínico (escalar acceso UVC/intraóseo).\n- Hemorragia o hematoma extenso en sitio de punción.\n- Embolización aérea al muestrear por catéter.\n- Resultado positivo con deterioro clínico (ajustar antibiótico de inmediato).",
+  "bibliography": [
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (Comité de Infectología Crítica). Revisión 2007.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales — consenso SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Vermont Oxford Network. Sepsis prevention and early recognition in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on prevention of healthcare-associated infections in neonatal units.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Management of neonatal sepsis and febrile neonates.",
+      "url": "https://www.aap.org/en/patient-care/"
+    }
+  ]
+}

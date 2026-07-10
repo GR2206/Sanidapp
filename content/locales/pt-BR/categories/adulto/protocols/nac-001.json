@@ -1,0 +1,27 @@
+{
+  "id": "nac-001",
+  "title": "Pneumonia adquirida na comunidade (adulto)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Avaliar gravidade, oxigenar conforme necessidade, obter culturas se indicado e iniciar antibiótico empírico precoce conforme cenário clínico.",
+  "body": "## Passos a realizar\n\n1. Registrar sinais vitais completos: FR, SpO₂, PA, FC, temperatura e estado mental.\n2. Aplicar escala de gravidade institucional (CURB-65, PSI ou critério médico local).\n3. Confirmar imagem compatível (radiografia de tórax ou outra indicada).\n4. Obter hemoculturas se a doença for moderada-grave ou requerer internação.\n5. Solicitar antígeno urinário de pneumococo e Legionella conforme protocolo local.\n6. Administrar oxigenoterapia titulada (objetivo SpO₂ 92–96% na maioria dos adultos).\n7. Controlar hidratação e febre conforme prescrição.\n8. Monitorizar trabalho respiratório; preparar suporte avançado se houver deterioração.\n9. Aplicar isolamento respiratório conforme suspeita (TBC, gripe, COVID-19, etc.).\n10. Orientar o paciente sobre adesão antibiótica e sinais de alarme.\n\n## Fundamentação científica\n\n### Indicações\n\nInfecção aguda do parênquima pulmonar adquirida fora do hospital ou nas primeiras 48 h de internação, em paciente não exposto recentemente a fatores de risco de multirresistência.\n\n### Avaliação inicial\n\n- Sinais vitais, FR, SpO₂, estado mental, balanço hídrico.\n- Escala de gravidade institucional (CURB-65, PSI ou critério médico local).\n- Radiografia de tórax ou imagem compatível.\n- Hemoculturas se moderada-grave ou internação.\n- Antígeno urinário pneumococo / Legionella conforme protocolo local.\n\n### Evidência e recomendações\n\n> **ATS/IDSA 2019 (Metlay et al.):** Diagnóstico clínico-radiológico com estratificação de gravidade para decidir ambulatorial vs hospitalização. Antibiótico empírico precoce conforme cenário clínico.\n\n> **SATI — Comitê de Pneumologia Crítica:** Recomendações específicas para pneumonia adquirida na comunidade em adultos hospitalizados.\n\n### Critérios de encaminhamento à UTI\n\n- Necessidade de ventilação mecânica ou VNI com instabilidade.\n- Choque séptico ou hipotensão persistente.\n- Alteração grave do estado de consciência.\n- Hipoxemia refratária (PaO₂/FiO₂ < 250 com oxigênio suplementar).\n\n### Complicações\n\n- Insuficiência respiratória aguda.\n- Sepse / choque séptico.\n- Derrame pleural complicado ou empiema.\n- Atraso no antibiótico ou oxigenoterapia inadequada.",
+  "bibliography": [
+    {
+      "citation": "SATI — Comitê de Pneumologia Crítica. Pneumonia adquirida na comunidade.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Metlay JP, Waterer GW, Long AC, et al. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the ATS and IDSA. Am J Respir Crit Care Med. 2019;200(7):e45-e67.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31573350/"
+    },
+    {
+      "citation": "SATI — Guias e consensos gerais.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — manejo de sepse de origem respiratória.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "vor-001",
+  "name": "Voriconazol",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de aspergilose invasiva. Candidemia. Candidíase esofágica.",
+  "indications": "## Indicações principais\n\nTratamento de aspergilose invasiva. Candidemia. Candidíase esofágica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó liofilizado contendo 200 mg (VFend, Richet, Sandoz).",
+      "reconstitution": "19 mL de AD. Conc: 10 mg/mL.",
+      "diluent": "200 mg em 100 mL de SF, DX 5%.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 100 mL de SF ou DX 5% e administrar durante 60–120 min."
+    },
+    "pediatrico": {
+      "dose": "E.V.: 2 a 12 anos: dose de carga inicial 9 mg/kg/dose a cada 12 h por 2 doses, dose de manutenção 8 mg/kg a cada 12 h, dose máxima 350 mg c/12 h; > 12 anos e adultos: dose de carga: 6 mg/kg/dose a cada 12 h por 2 doses, dose de manutenção: 4 mg/kg/dose c/12 h. V.O.: 2 a 12 anos: 9 mg/kg/dose c/12 h; > 12 anos < 40 kg: 200 mg/dose c/12 h, durante 1 dia depois 100 mg/dose c/12 h; > 40 kg: 400 mg a cada 12 h durante 1 dia, depois 200–300 mg c/12 h. Ajuste de dose em insuficiência renal: com Cl < 50 ml/min pode haver acumulação do veículo do injetável (éter sulfobutílico de beta ciclodextrina sódica), administrar por V.O. ou avaliar risco-benefício. Ajuste de dose em insuficiência hepática leve a moderada: reduzir a dose de manutenção em 50%. Ver tabela de ajuste de dose em I.H.",
+      "administration": "E.V.; V.O.",
+      "presentation": "Comprimidos revestidos: 50–200 mg; F.A.: 200 mg; Suspensão (preparado magistral): 40 mg/ml",
+      "notes": "V.O.: administrar 1 h antes ou 1 h depois das refeições; E.V.: infundir em 1–2 h (máx. velocidade 3 mg/kg/hora). Monitorar a função hepática, renal e visual. Interações: voriconazol pode aumentar a concentração sérica de: cisaprida, pimozida, rifabutina (contraindicada), ciclosporina (diminuir a dose de ciclosporina 50%), sirolimus (contraindicado), tacrolimus (diminuir a dose de tacrolimus em 66%), efavirenz, delavirdina, benzodiazepínicos, bloqueantes dos canais de cálcio, metilprednisolona, omeprazol (para doses de omeprazol > 40 mg/dia, reduzir a dose do omeprazol em 50%). Rifampicina, difenilhidantoína diminuem os níveis séricos de voriconazol (ajustar sua dose). Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nAlterações visuais (fotofobia, visão borrada, etc.), taquicardia, hipertensão, vasodilatação, edema periférico, febre, cefaleia, alucinações, hipocalemia, hipomagnesemia, náuseas, vômitos, prolongamento do intervalo QT.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Voriconazol* (cód. 1601, ATC J02AC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

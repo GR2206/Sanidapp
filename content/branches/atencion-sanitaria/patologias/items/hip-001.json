@@ -1,0 +1,44 @@
+{
+  "id": "hip-001",
+  "name": "Hipoglucemia severa",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **hipoglucemia** es glucemia < 70 mg/dL (3,9 mmol/L); es **severa** cuando requiere ayuda de terceros para su tratamiento o presenta alteración del nivel de conciencia o convulsiones. En guardia es frecuente en diabéticos con exceso de insulina u hipoglucemiantes orales, ayuno prolongado, alcohol, sepsis o insuficiencia renal. También puede simular ACV o crisis convulsiva.\n\nEl tratamiento inmediato en paciente consciente: **15–20 g de glucosa oral** (sobres, jugo, miel) y repetir glucemia a los 15 min (regla del 15-15). Si no tolera vía oral o está inconsciente: **glucosa IV** (dextrosa 10 % o 25–50 % según protocolo) o **glucagón IM/SC** si no hay acceso venoso. Tras recuperación, comida con carbohidratos complejos y revisión de esquema insulínico. Investigar causa (dosis, comida omitida, enfermedad intercurrente).\n\n**Enfermería**: glucemia capilar al ingreso en todo paciente con alteración del sensorio, doble verificación de dosis de dextrosa IV, monitorización post-tratamiento (rebote o hipoglucemia recurrente) y educación sobre prevención y portar identificación de diabetes.",
+  "clinicalBox": {
+    "title": "Regla del 15-15",
+    "content": "Si el paciente está **consciente y puede deglutir**:\n1. Administrar **15–20 g de glucosa** oral (ej. 4 sobres de glucosa o 150 mL de jugo).\n2. Repetir glucemia a los **15 minutos**.\n3. Si persiste < 70 mg/dL, repetir el ciclo.\n4. Tras normalizar, ofrecer **snack** con carbohidrato complejo.\n\nSi está **inconsciente**: glucosa IV o glucagón IM — no administrar nada por boca."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "glu-001",
+      "label": "Dextrosa (glucosa)"
+    },
+    {
+      "drugId": "glc-001",
+      "label": "Glucagón"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care — hypoglycemia.",
+      "url": "https://diabetesjournals.org/care/"
+    },
+    {
+      "citation": "Sociedad Argentina de Diabetes (SAD). Manejo de hipoglucemia.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Hypoglycaemia Study Group. Definitions and reporting.",
+      "url": "https://ihsgonline.com/"
+    }
+  ]
+}

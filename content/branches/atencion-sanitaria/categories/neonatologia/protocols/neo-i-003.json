@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-003",
+  "title": "Catéter arterial umbilical (UAC) y PAM",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Canalizar catéter arterial umbilical en neonato de 500 g a 2500 g (día 0–30) para monitorización invasiva de PAM y gasometrías, con profundidad según peso, confirmación radiológica y sistema transductor calibrado al eje flebostático.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación (inestabilidad hemodinámica, ventilación mecánica, fármacos vasoactivos, gasometrías seriadas); verificar peso, coagulación y ausencia de omphalitis.\n2. Posicionar bajo radiante con monitorización continua; mantener temperatura axilar 36,5–37,5 °C.\n3. Realizar higiene de manos; vestir barrera estéril completa; preparar kit UAC (catéter 3,5–5 Fr), sistema de transducción pre-purgado y heparina diluida (1 U/ml según protocolo).\n4. Fijar cordón; seccionar; identificar arteria umbilical (estructura más pequeña, sangre roja pulsátil); dilatar ostio con pinzas.\n5. Introducir catéter con técnica suave; avanzar hasta profundidad según peso (ver tabla); conectar y verificar trazado arterial pulsátil en monitor.\n6. Suturar y fijar catéter; cubrir con apósito estéril; conectar a transductor sin burbujas de aire.\n7. Solicitar radiografía: punta en aorta entre T6 y L3 según peso; **nunca** en origen de arterias mesentéricas o renales.\n8. Colocar transductor al nivel del eje flebostático (línea axilar media); realizar cero; confirmar PAM coherente con clínica.\n9. Configurar infusión continua de heparina 1 U/ml a 0,5–1 ml/h (según peso y protocolo) para mantener permeabilidad; no administrar bolos por UAC salvo intercambio/emergencia.\n10. Registrar sitio, profundidad, calibre, hora, operador y valores iniciales de PAM, TA y gasometría.\n11. Realizar cero al inicio de turno y tras cambios de posición; desinfectar hub antes de cada muestreo.\n12. Retirar UAC lo antes posible (ideal < 5 días); vigilar perfusión de extremidades inferiores y signos de isquemia mesentérica o renal.\n\n## Fundamentación científica\n\n### Población y alcance\n\n**Neonatos día 0–30**, **500 g–2500 g**. El UAC es el acceso arterial estándar en UCI Neonatal durante los primeros días de vida; no aplicar criterios de PAM de adulto o niño mayor.\n\n### Indicaciones\n\n- Monitorización invasiva de presión arterial en RN inestable.\n- Gasometrías arteriales seriadas.\n- Titulación de fármacos vasoactivos (dopamina, dobutamina, adrenalina).\n- Evaluación de hipoxemia refractaria o hipertensión pulmonar.\n\n### Evidencia y recomendaciones\n\n> **VON / neonatología:** la profundidad incorrecta del UAC se asocia a isquemia mesentérica, renal y de extremidades; la radiografía post-inserción es obligatoria (Vermont Oxford Network).\n\n> **OMS (2024):** minimizar duración del catéter arterial; técnica estéril y retiro precoz reducen infección y trombosis (WHO, 2024).\n\n### Profundidad según peso (punta en aorta descendente)\n\n| Peso | Calibre UAC | Profundidad (cm desde base cordón) | Nivel vertebral objetivo |\n| --- | --- | --- | --- |\n| 500–750 g | 3,5 Fr | 6–8 cm | T6–T8 (alta) |\n| 750–1000 g | 3,5 Fr | 8–10 cm | T8–T10 |\n| 1000–1500 g | 5 Fr | 10–12 cm | T9–L2 (media) |\n| 1500–2500 g | 5 Fr | 12–15 cm | T10–L3 (baja) |\n\nPosición **alta** (T6–T10): menor riesgo de oclusión mesentérica. Posición **baja** (L3–L4): útil para catéteres largos; mayor riesgo de oclusión de ramas viscerales.\n\n### Objetivos de PAM en neonato\n\n| Edad postnatal | PAM orientativa (mmHg) |\n| --- | --- |\n| Día 0–1 | 30–40 (ajustar a peso y EG) |\n| Día 2–7 | 35–45 |\n| Semana 2–4 | 40–50 |\n\nUsar tablas de percentiles por edad postnatal y peso; en shock tratar PAM baja con volumen y vasoactivos según prescripción.\n\n### Muestreo de gasometría\n\n- Desechar volumen mínimo (0,5–1 ml en RN < 1000 g; 1–2 ml en > 1000 g) antes de extraer muestra.\n- Desinfectar hub 15 s; no introducir aire en el sistema.\n- Cerrar sistema y purgar burbujas tras cada muestreo.\n\n### Criterios de retiro\n\n- Estabilidad hemodinámica con monitorización no invasiva disponible.\n- UAC > 5 días (riesgo trombótico e infeccioso).\n- Sospecha de isquemia mesentérica, renal o de miembros inferiores.\n- Mal funcionamiento o infección.\n\n### Complicaciones — avisar de inmediato\n\n- Isquemia de extremidades inferiores (palidez, cianosis, pulsos ausentes).\n- NEC o sangrado digestivo (sospecha oclusión mesentérica).\n- Oliguria/anuria (oclusión renal).\n- Trombosis aórtica.\n- Hemorragia del cordón o del sitio de inserción.\n- Embolización aérea al muestrear.",
+  "bibliography": [
+    {
+      "citation": "Vermont Oxford Network. NICU quality improvement — umbilical artery catheter placement.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of bloodstream infections associated with intravascular catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — umbilical vascular access.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Complications and risk factors of peripheral arterial catheters. Crit Care. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Prevención de IAAS en UCI neonatal.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "oxi-001",
+  "title": "Oxygen therapy in hospitalized adults",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Titrate oxygen to achieve target saturation, re-evaluate the need every 24 hours, and monitor for CO₂ retention in patients with COPD.",
+  "body": "## Steps to perform\n\n1. Verify the prescription and SpO₂ target according to the patient's profile.\n2. Select the appropriate device (nasal cannula, simple face mask, reservoir mask, NIV, or invasive ventilation according to indication).\n3. Adjust flow and confirm saturation is within the target range.\n4. Hydrate mucous membranes and check skin integrity at device contact points.\n5. Monitor SpO₂, respiratory rate, work of breathing, and level of consciousness.\n6. Re-evaluate the need for oxygen at least every 24 hours.\n7. Document the device, flow rate, and patient response in the medical record.\n8. Discontinue oxygen if the patient achieves target saturation on room air.\n\n## Scientific rationale\n\n### Indications\n\n- Documented hypoxemia (SpO₂ below target or PaO₂ < 60 mmHg).\n- Acute respiratory failure or in the context of sepsis, community-acquired pneumonia, pulmonary edema, etc.\n\n### Saturation targets\n\n| Patient profile | Target SpO₂ |\n| --- | --- |\n| Adult without risk of hypercapnia | 92–96% |\n| COPD / risk of hypercapnia | 88–92% (adjust based on arterial blood gas) |\n| Pregnancy | ≥ 95% |\n\n### Devices\n\n- **Nasal cannula:** 1–6 L/min (approximate FiO₂ 24–44%).\n- **Simple face mask:** 6–10 L/min.\n- **Reservoir mask:** high flow; requires close monitoring.\n- **NIV / invasive ventilation:** according to medical prescription.\n\n### Evidence and recommendations\n\n> **BTS 2017 (O'Driscoll et al.):** Titrate oxygen to achieve target saturation; avoid maintenance oxygen therapy without a clear indication.\n\n> **Surviving Sepsis Campaign 2021:** Maintain SpO₂ ≥ 92% in sepsis, adjusting based on comorbidities.\n\n### Complications\n\n- CO₂ retention in patients with COPD or risk of hypercapnia.\n- Device-related pressure injuries.\n- Hypoxemia due to insufficient flow or misplaced device.",
+  "bibliography": [
+    {
+      "citation": "O'Driscoll BR, Howard LS, Earis J, et al. BTS Guideline for Oxygen Use in Adults in Healthcare and Emergency Settings. Thorax. 2017;72(Suppl 1):ii1-ii90.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28507176/"
+    },
+    {
+      "citation": "SATI — Critical Pulmonology Committee. Recommendations for ventilated critically ill patients and respiratory support.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — recommendations on oxygenation and ventilation.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    },
+    {
+      "citation": "World Health Organization. Oxygen therapy for acute and chronic conditions.",
+      "url": "https://www.who.int/health-topics/oxygen"
+    }
+  ]
+}

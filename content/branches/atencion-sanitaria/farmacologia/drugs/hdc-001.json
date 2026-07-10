@@ -1,0 +1,53 @@
+{
+  "id": "hdc-001",
+  "name": "Hidrocortisona",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "updatedAt": "2026-06-30",
+  "executiveSummary": "Corticoide con actividad mineralocorticoide; shock séptico refractario e insuficiencia adrenal.",
+  "indications": "## Indicaciones\n\n- Insuficiencia adrenal aguda.\n- Shock séptico refractario (esquemas de dosis de estrés).\n- Profilaxis de enfermedad de injerto contra huésped.\n\n## Precauciones\n\n- Hiperglucemia, retención de sodio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 100 mg.",
+      "dose": "Insuficiencia adrenal: 100 mg IV bolus. Shock: 50 mg cada 6 h o infusión según protocolo.",
+      "administration": "IV bolus o infusión."
+    },
+    "pediatrico": {
+      "presentation": "fco. amp. 100 o 500 mg, polvo para diluir.",
+      "administration": "EV o IM.",
+      "diluent": "A. dest., Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "50 mg/mL.",
+      "infusionRate": "Bolo 3 a 5 min.",
+      "dose": "Antiinflamatorio: 1 a 5 mg/kg/día. Asma: ataque de 4 a 8 mg/kg. Mantenimiento 2 mg/kg/dosis en 4 dosis diarias.",
+      "notes": "Corticoide de uso sistémico. Puede dar hipertensión, euforia, distensión abdominal, cefaleas, convulsiones, aumento de peso, aumento del apetito."
+    },
+    "neonatal": {
+      "dose": "2–5 mg/kg/dosis en insuficiencia adrenal neonatal.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Usar tras reconstitución según prospecto.\n\n## Cartilla pediátrica\n\n- 24 hs en heladera.",
+  "adverseEffects": "## Efectos\n\n- Hiperglucemia, hipertensión, edema, infecciones.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

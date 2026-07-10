@@ -1,0 +1,49 @@
+{
+  "id": "cad-001",
+  "name": "Cetoacidose diabética (CAD)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **cetoacidose diabética** é uma emergência metabólica definida por hiperglicemia, acidose metabólica com ânion gap elevado e cetonemia/cetonúria. Predomina no **diabetes tipo 1**, mas pode aparecer no tipo 2 sob estresse grave. Os desencadeantes habituais são infecção intercorrente, omissão de insulina, IAM e medicamentos (corticoides). O quadro inclui poliúria, polidipsia, náuseas, vômitos, dor abdominal, respiração de Kussmaul e alteração do sensorium.\n\nO tratamento segue o algoritmo institucional: **reposição de volume** com cristaloides, **insulina regular IV** em infusão contínua após dose inicial, correção de **potássio** (não iniciar insulina se K⁺ < 3,3 mEq/L), e busca do fator precipitante. O bicarbonato só se considera em acidose grave com pH < 6,9 conforme diretriz. Monitorizar glicemia horária, gasometria, eletrólitos e estado neurológico. Transição para insulina subcutânea quando a cetonemia se resolve e o paciente tolera via oral.\n\n**Enfermagem**: balanço hídrico rigoroso, registro de vômitos e diurese, glicemia capilar seriada, bomba de insulina com dupla verificação de velocidade, e orientação sobre prevenção (doença intercorrente, ajuste de dose, não suspender insulina basal).",
+  "bibliography": [
+    {
+      "citation": "American Diabetes Association. Standards of Care — hyperglycemic crises.",
+      "url": "https://diabetesjournals.org/care/"
+    },
+    {
+      "citation": "Sociedade Argentina de Diabetes (SAD). Consenso de CAD.",
+      "url": "https://www.sad.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Joint British Diabetes Societies. DKA management guideline.",
+      "url": "https://www.diabetes.org.uk/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "inp-001",
+      "label": "Insulina NPH"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloreto de potássio"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sódio"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glicose)"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "mer-001",
+  "name": "Meropenem",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Espectro semelhante ao imipenem.",
+  "indications": "## Indicações principais\n\nEspectro semelhante ao imipenem.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. com pó contendo 1 g (Meropenem Drawer, Fabra, FADA, Klonal, Larjan, Richet, Anfietoc).",
+      "reconstitution": "10 mL de AD. Conc: 50 mg/mL.",
+      "diluent": "500 mg em 100 mL de SF ou SG 5%.",
+      "finalConcentration": "5 mg/mL.",
+      "administration": "E.V. direta: Sim. Agitar até dissolver em 10 mL AD, administrar em 5 min. E.V. intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e passar em 30–60 min.",
+      "notes": "Em caso de restrição hídrica, pode diluir-se até em 50 mL de SF ou SG 5%."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 500–1000 mg",
+      "reconstitution": "Água destilada para reconstituição.",
+      "administration": "E.V.; I.M.",
+      "diluent": "SF 0,9%, SG 5% e 10%, manitol.",
+      "finalConcentration": "50 mg/mL.",
+      "infusionRate": "15 a 30 minutos com BIC.",
+      "dose": "Sepse, infecções do SNC e fibrose cística: 120 mg/kg/dia, a cada 8 h, dose máxima: 6 g/dia. Infecção urinária, de pele e partes moles e outras infecções: 60 mg/kg/dia, a cada 8 h, dose máxima: 3 g/dia. Tuberculose pulmonar, intestinal: 60 mg/kg/dia a cada 8 h, máximo 1.000 mg/dose. Tuberculose meníngea: 120 mg/kg/dia a cada 8 h, máximo 2.000/dose. Ver guia de tratamento de tuberculose.",
+      "notes": "Menor toxicidade a nível do SNC que imipenem. Administrar em push: 3 a 5 min.; em infusão intermitente: 15 a 30 min."
+    },
+    "neonatal": {
+      "presentation": "Frasco-ampola 500 mg (UCIN).",
+      "dose": "Dose e intervalo conforme idade pós-menstrual e peso (ex.: 20 mg/kg/dose a cada 12–24 h em prematuros; ajuste médico).",
+      "administration": "E.V. preferencialmente por via central."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente, 8 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Em SF: 8 h em temperatura ambiente, 48 h refrigerada. Em SG 5%: 3 h em temperatura ambiente, 14 h refrigerada.\n\n## Guia pediátrica\n\n- 2 h em temperatura ambiente. 12 h na geladeira.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, náuseas, dor abdominal, diarreia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — MEROpenem (cód. 1152, ATC J01DH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy — Meropenem.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos — Meropenem.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Uso racional de antimicrobianos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

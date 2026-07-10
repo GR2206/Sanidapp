@@ -1,0 +1,45 @@
+{
+  "id": "clp-001",
+  "name": "Chlorpromazine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antiemetic. Sedation in severe psychomotor agitation and abnormal movements (chorea).",
+  "indications": "## Main indications\n\nAntiemetic. Sedation in severe psychomotor agitation and abnormal movements (chorea).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Tablets: 25-100 mg; IM ampoules 5 mL: 5 mg/mL; IV ampoules 2 mL: 25 mg/mL",
+      "administration": "PO IV IM",
+      "diluent": "0.9% NaCl.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "0.5 mg/min.",
+      "dose": "Children > 6 months: 0.5-1 mg/kg/dose every 4-6 h. Maximum dose (IM-IV): < 5 years: 40 mg/day, 5-12 years: 75 mg/day. Adults: psychosis (PO): 30-800 mg/day in 1 to 4 doses, usual dose: 200 mg/day; (IM-IV): start 25 mg may be repeated in 1-4 h up to a maximum of 400 mg/dose every 4-6 h until patient is controlled, usual dose: 300-800 mg/day; antiemetic (PO): 10-25 mg every 4-6 h, (IM-IV): 25-50 mg every 4-6 h.",
+      "notes": "Neurologic, hematologic, and hepatic function monitoring in prolonged treatments. IV dilute in SWFI: 1 mg/mL, administer at 0.5 mg/min. With propranolol increases plasma concentration of chlorpromazine. May decrease absorption if administered with antacids containing aluminum and/or magnesium. May increase serum concentration of valproic acid. Avoid contact between injectable solution and skin because it may cause dermatitis."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- 7 days once reconstituted.",
+  "adverseEffects": "## Adverse effects\n\nSedation, somnolence, hypotension, antimuscarinic effects, respiratory depression, tachycardia, cardiac arrhythmias, extrapyramidal symptoms, hypothermia, gynecomastia, leukocytosis, hemolytic anemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — chlorproMAZINE Hydrochloride (code 0766, ATC N05AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

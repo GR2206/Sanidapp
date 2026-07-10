@@ -1,0 +1,62 @@
+{
+  "id": "cli-001",
+  "name": "Clindamicina",
+  "version": "1.2.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Tratamento de infecções por bactérias suscetíveis (anaeróbias, estafilococos, estreptococos, pneumococos) em pele, tecido celular subcutâneo, abdome e trato respiratório baixo.",
+  "indications": "## Indicações principais\n\nTratamento de infecções por bactérias suscetíveis (anaeróbias, estafilococos, estreptococos, pneumococos) em pele, tecido celular subcutâneo, abdome e trato respiratório baixo.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Amp. contendo 600 mg em 4 mL de solução (Clindamicina Drawer, Fabra, Duncan, Clindanovag, Larjan, Ramallo, Northia, FADA, Clindalaf, Klonal).",
+      "reconstitution": "Não requer reconst. prévia. Conc.: 150 mg/mL.",
+      "diluent": "600 mg em 50–100 mL de SF ou SG 5%.",
+      "finalConcentration": "6–12 mg/mL (conc. máx. 18 mg/mL).",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 50 mL de SF ou SG 5% e admin. em 20 min.",
+      "notes": "Ao refrigerar pode haver formação de cristais que se redissolvem em temperatura ambiente. A administração rápida pode gerar hipotensão (não se recomenda infundir mais de 1200 mg em 1 h)."
+    },
+    "pediatrico": {
+      "presentation": "Cápsulas: 300 mg; Ampolas de 4 mL: 150 mg/mL; Solução (preparado magistral): 100 mg/mL",
+      "administration": "V.O.; E.V.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "12 mg/mL.",
+      "infusionRate": "30 mg/minuto.",
+      "dose": "Recém-nascidos: conforme idade e peso; > 1 mês e crianças: 30 mg/kg/dia a cada 6–8 h, dose máxima: E.V.: 4,8 g/dia; V.O.: 1,8 g/dia. Adolescentes e adultos: E.V.: 1,2 a 2,7 g/dia em 2 a 4 doses divididas, dose máxima: 4,8 g/dia; V.O.: 150 a 450 mg/dose a cada 6–8 h, dose máxima: 1,8 g/dia.",
+      "compatibility": "Incompatível com ampicilina sódica, fenitoína sódica, barbitúricos, aminofilina, gluconato de cálcio e sulfato de magnésio.",
+      "notes": "Interações: beta-bloqueadores, eritromicina."
+    },
+    "neonatal": {
+      "dose": "5–7,5 mg/kg/dose a cada 6–8 h.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente e/ou refrigerado.\n\n## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, colite pseudomembranosa, vômitos, reações de hipersensibilidade, eosinofilia, leucopenia, agranulocitose, hepatotoxicidade.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Clindamicina (cód. 0051, ATC J01FF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

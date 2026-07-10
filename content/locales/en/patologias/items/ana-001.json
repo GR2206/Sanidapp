@@ -1,0 +1,49 @@
+{
+  "id": "ana-001",
+  "name": "Anaphylaxis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Anaphylaxis** is a severe, life-threatening systemic hypersensitivity reaction with rapid onset following exposure to an allergen (foods, drugs, Hymenoptera venom, latex). The diagnosis is clinical: mucocutaneous involvement (urticaria, angioedema) plus respiratory (stridor, wheezing, dyspnea), cardiovascular (hypotension, syncope), or severe gastrointestinal involvement following probable exposure.\n\nThe immediate treatment is **intramuscular adrenaline** (anterolateral aspect of the thigh, dose based on weight; repeat every 5–15 min if the condition persists). Place the patient in a supine position with legs elevated, unless severe dyspnea is present (semi-seated). Administer oxygen, fluid expansion with crystalloids if hypotension exists, and **H1 + H2 antihistamines** and corticosteroids as adjuncts (these do not replace adrenaline). Remove the triggering agent if it is an IV drug. Observe for at least 4–6 hours (risk of biphasic reaction); discharge with an adrenaline autoinjector if appropriate.\n\n**Nursing:** identify and remove the allergen, call for help, record the exact time of adrenaline administration, monitor BP, HR, and SpO₂, prepare a second dose and advanced airway. Document the allergen and alert in the medical record.",
+  "clinicalBox": {
+    "title": "Adrenaline IM — Orientative Dosage",
+    "content": "Intramuscular route (anterolateral thigh), concentration 1:1000 (1 mg/mL):\n**Adult:** 0.3–0.5 mg IM (0.3–0.5 mL)\n**Child:** 0.01 mg/kg IM (max. 0.3 mg)\n\nRepeat every **5–15 min** if there is no clinical improvement.\nIn cardiorespiratory arrest: IV adrenaline according to ACLS / institutional pediatric protocol."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "adr-001",
+      "label": "Adrenaline (epinephrine)"
+    },
+    {
+      "drugId": "hdc-001",
+      "label": "Hydrocortisone"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexamethasone"
+    },
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "World Allergy Organization. Anaphylaxis guidelines.",
+      "url": "https://www.worldallergy.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Alergia e Inmunología (SAAI). Consenso de anafilaxia.",
+      "url": "https://www.saai.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Allergy and Infectious Diseases. Anaphylaxis guidelines.",
+      "url": "https://www.niaid.nih.gov/"
+    }
+  ]
+}

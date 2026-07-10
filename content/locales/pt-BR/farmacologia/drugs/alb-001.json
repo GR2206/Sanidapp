@@ -1,0 +1,51 @@
+{
+  "id": "alb-001",
+  "name": "Albúmina humana",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Expansor de volume plasmático. Queimaduras.",
+  "indications": "## Indicações principais\n\nExpansor de volume plasmático. Queimaduras.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 20% ou 25% de albúmina.",
+      "dose": "0,5–1 g/kg conforme indicação (paracentese: 6–8 g/L de ascite retirada).",
+      "administration": "E.V."
+    },
+    "pediatrico": {
+      "dose": "Choque: Albúmina 5% em Sol. F. = 5–10 ml/kg (0,25–0,50 g/kg). Dose máxima: 6 g/kg/dia",
+      "administration": "E.V.",
+      "presentation": "Ver Albúmina — uso baseado em evidência científica (Boletim CIME). Frasco de 50 ml a 20%",
+      "notes": "Velocidade de infusão: 0,25–1 ml/min. Ver Soluções Coloidais (Boletim CIME)"
+    },
+    "neonatal": {
+      "dose": "Reposição em choque neonatal conforme protocolo da UTI neonatal.",
+      "administration": "E.V. lenta."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Usar imediatamente após pinçar; não misturar com outros medicamentos.",
+  "adverseEffects": "## Efeitos adversos\n\nInsuficiência cardíaca por sobrecarga de volume, urticária.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Albúmina Humana* (cód. 0007, ATC B05AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

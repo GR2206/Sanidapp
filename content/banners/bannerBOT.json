@@ -1,0 +1,11 @@
+{
+  "id": "bannerBOT",
+  "label": "Farmacología",
+  "enabled": true,
+  "title": "Farmacología cuando la necesitás",
+  "subtitle": "Monografías con preparación por edad, al alcance de un toque",
+  "imageUrl": null,
+  "linkUrl": null,
+  "appRoute": "/(drawer)/farmacologia",
+  "version": "1.1"
+}

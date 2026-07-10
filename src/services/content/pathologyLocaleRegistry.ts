@@ -1,0 +1,158 @@
+import type { Pathology } from '@/types/pathology';
+
+import abd_001_en from '../../../content/locales/en/patologias/items/abd-001.json';
+import acv_001_en from '../../../content/locales/en/patologias/items/acv-001.json';
+import ana_001_en from '../../../content/locales/en/patologias/items/ana-001.json';
+import ang_001_en from '../../../content/locales/en/patologias/items/ang-001.json';
+import asm_001_en from '../../../content/locales/en/patologias/items/asm-001.json';
+import cad_001_en from '../../../content/locales/en/patologias/items/cad-001.json';
+import cel_001_en from '../../../content/locales/en/patologias/items/cel-001.json';
+import cho_001_en from '../../../content/locales/en/patologias/items/cho-001.json';
+import cov_001_en from '../../../content/locales/en/patologias/items/cov-001.json';
+import cvu_001_en from '../../../content/locales/en/patologias/items/cvu-001.json';
+import del_001_en from '../../../content/locales/en/patologias/items/del-001.json';
+import den_001_en from '../../../content/locales/en/patologias/items/den-001.json';
+import dia_001_en from '../../../content/locales/en/patologias/items/dia-001.json';
+import dlp_001_en from '../../../content/locales/en/patologias/items/dlp-001.json';
+import ecl_001_en from '../../../content/locales/en/patologias/items/ecl-001.json';
+import end_001_en from '../../../content/locales/en/patologias/items/end-001.json';
+import epoc_001_en from '../../../content/locales/en/patologias/items/epoc-001.json';
+import fa_001_en from '../../../content/locales/en/patologias/items/fa-001.json';
+import hda_001_en from '../../../content/locales/en/patologias/items/hda-001.json';
+import hip_001_en from '../../../content/locales/en/patologias/items/hip-001.json';
+import hta_001_en from '../../../content/locales/en/patologias/items/hta-001.json';
+import iam_001_en from '../../../content/locales/en/patologias/items/iam-001.json';
+import icc_001_en from '../../../content/locales/en/patologias/items/icc-001.json';
+import int_001_en from '../../../content/locales/en/patologias/items/int-001.json';
+import ira_001_en from '../../../content/locales/en/patologias/items/ira-001.json';
+import itu_001_en from '../../../content/locales/en/patologias/items/itu-001.json';
+import men_001_en from '../../../content/locales/en/patologias/items/men-001.json';
+import per_001_en from '../../../content/locales/en/patologias/items/per-001.json';
+import pna_001_en from '../../../content/locales/en/patologias/items/pna-001.json';
+import pnc_001_en from '../../../content/locales/en/patologias/items/pnc-001.json';
+import rhd_001_en from '../../../content/locales/en/patologias/items/rhd-001.json';
+import sep_001_en from '../../../content/locales/en/patologias/items/sep-001.json';
+import sin_001_en from '../../../content/locales/en/patologias/items/sin-001.json';
+import tdm_001_en from '../../../content/locales/en/patologias/items/tdm-001.json';
+import tep_001_en from '../../../content/locales/en/patologias/items/tep-001.json';
+import tra_001_en from '../../../content/locales/en/patologias/items/tra-001.json';
+import tsv_001_en from '../../../content/locales/en/patologias/items/tsv-001.json';
+import abd_001_ptBR from '../../../content/locales/pt-BR/patologias/items/abd-001.json';
+import acv_001_ptBR from '../../../content/locales/pt-BR/patologias/items/acv-001.json';
+import ana_001_ptBR from '../../../content/locales/pt-BR/patologias/items/ana-001.json';
+import ang_001_ptBR from '../../../content/locales/pt-BR/patologias/items/ang-001.json';
+import asm_001_ptBR from '../../../content/locales/pt-BR/patologias/items/asm-001.json';
+import cad_001_ptBR from '../../../content/locales/pt-BR/patologias/items/cad-001.json';
+import cel_001_ptBR from '../../../content/locales/pt-BR/patologias/items/cel-001.json';
+import cho_001_ptBR from '../../../content/locales/pt-BR/patologias/items/cho-001.json';
+import cov_001_ptBR from '../../../content/locales/pt-BR/patologias/items/cov-001.json';
+import cvu_001_ptBR from '../../../content/locales/pt-BR/patologias/items/cvu-001.json';
+import del_001_ptBR from '../../../content/locales/pt-BR/patologias/items/del-001.json';
+import den_001_ptBR from '../../../content/locales/pt-BR/patologias/items/den-001.json';
+import dia_001_ptBR from '../../../content/locales/pt-BR/patologias/items/dia-001.json';
+import dlp_001_ptBR from '../../../content/locales/pt-BR/patologias/items/dlp-001.json';
+import ecl_001_ptBR from '../../../content/locales/pt-BR/patologias/items/ecl-001.json';
+import end_001_ptBR from '../../../content/locales/pt-BR/patologias/items/end-001.json';
+import epoc_001_ptBR from '../../../content/locales/pt-BR/patologias/items/epoc-001.json';
+import fa_001_ptBR from '../../../content/locales/pt-BR/patologias/items/fa-001.json';
+import hda_001_ptBR from '../../../content/locales/pt-BR/patologias/items/hda-001.json';
+import hip_001_ptBR from '../../../content/locales/pt-BR/patologias/items/hip-001.json';
+import hta_001_ptBR from '../../../content/locales/pt-BR/patologias/items/hta-001.json';
+import iam_001_ptBR from '../../../content/locales/pt-BR/patologias/items/iam-001.json';
+import icc_001_ptBR from '../../../content/locales/pt-BR/patologias/items/icc-001.json';
+import int_001_ptBR from '../../../content/locales/pt-BR/patologias/items/int-001.json';
+import ira_001_ptBR from '../../../content/locales/pt-BR/patologias/items/ira-001.json';
+import itu_001_ptBR from '../../../content/locales/pt-BR/patologias/items/itu-001.json';
+import men_001_ptBR from '../../../content/locales/pt-BR/patologias/items/men-001.json';
+import per_001_ptBR from '../../../content/locales/pt-BR/patologias/items/per-001.json';
+import pna_001_ptBR from '../../../content/locales/pt-BR/patologias/items/pna-001.json';
+import pnc_001_ptBR from '../../../content/locales/pt-BR/patologias/items/pnc-001.json';
+import rhd_001_ptBR from '../../../content/locales/pt-BR/patologias/items/rhd-001.json';
+import sep_001_ptBR from '../../../content/locales/pt-BR/patologias/items/sep-001.json';
+import sin_001_ptBR from '../../../content/locales/pt-BR/patologias/items/sin-001.json';
+import tdm_001_ptBR from '../../../content/locales/pt-BR/patologias/items/tdm-001.json';
+import tep_001_ptBR from '../../../content/locales/pt-BR/patologias/items/tep-001.json';
+import tra_001_ptBR from '../../../content/locales/pt-BR/patologias/items/tra-001.json';
+import tsv_001_ptBR from '../../../content/locales/pt-BR/patologias/items/tsv-001.json';
+
+/** Generado por scripts/sync-pathology-locales.mjs — no editar a mano */
+export const LOCAL_PATHOLOGY_LOCALES: Record<string, Record<string, Pathology>> = {
+  'en': {
+    'abd-001': abd_001_en as Pathology,
+    'acv-001': acv_001_en as Pathology,
+    'ana-001': ana_001_en as Pathology,
+    'ang-001': ang_001_en as Pathology,
+    'asm-001': asm_001_en as Pathology,
+    'cad-001': cad_001_en as Pathology,
+    'cel-001': cel_001_en as Pathology,
+    'cho-001': cho_001_en as Pathology,
+    'cov-001': cov_001_en as Pathology,
+    'cvu-001': cvu_001_en as Pathology,
+    'del-001': del_001_en as Pathology,
+    'den-001': den_001_en as Pathology,
+    'dia-001': dia_001_en as Pathology,
+    'dlp-001': dlp_001_en as Pathology,
+    'ecl-001': ecl_001_en as Pathology,
+    'end-001': end_001_en as Pathology,
+    'epoc-001': epoc_001_en as Pathology,
+    'fa-001': fa_001_en as Pathology,
+    'hda-001': hda_001_en as Pathology,
+    'hip-001': hip_001_en as Pathology,
+    'hta-001': hta_001_en as Pathology,
+    'iam-001': iam_001_en as Pathology,
+    'icc-001': icc_001_en as Pathology,
+    'int-001': int_001_en as Pathology,
+    'ira-001': ira_001_en as Pathology,
+    'itu-001': itu_001_en as Pathology,
+    'men-001': men_001_en as Pathology,
+    'per-001': per_001_en as Pathology,
+    'pna-001': pna_001_en as Pathology,
+    'pnc-001': pnc_001_en as Pathology,
+    'rhd-001': rhd_001_en as Pathology,
+    'sep-001': sep_001_en as Pathology,
+    'sin-001': sin_001_en as Pathology,
+    'tdm-001': tdm_001_en as Pathology,
+    'tep-001': tep_001_en as Pathology,
+    'tra-001': tra_001_en as Pathology,
+    'tsv-001': tsv_001_en as Pathology,
+  },
+  'pt-BR': {
+    'abd-001': abd_001_ptBR as Pathology,
+    'acv-001': acv_001_ptBR as Pathology,
+    'ana-001': ana_001_ptBR as Pathology,
+    'ang-001': ang_001_ptBR as Pathology,
+    'asm-001': asm_001_ptBR as Pathology,
+    'cad-001': cad_001_ptBR as Pathology,
+    'cel-001': cel_001_ptBR as Pathology,
+    'cho-001': cho_001_ptBR as Pathology,
+    'cov-001': cov_001_ptBR as Pathology,
+    'cvu-001': cvu_001_ptBR as Pathology,
+    'del-001': del_001_ptBR as Pathology,
+    'den-001': den_001_ptBR as Pathology,
+    'dia-001': dia_001_ptBR as Pathology,
+    'dlp-001': dlp_001_ptBR as Pathology,
+    'ecl-001': ecl_001_ptBR as Pathology,
+    'end-001': end_001_ptBR as Pathology,
+    'epoc-001': epoc_001_ptBR as Pathology,
+    'fa-001': fa_001_ptBR as Pathology,
+    'hda-001': hda_001_ptBR as Pathology,
+    'hip-001': hip_001_ptBR as Pathology,
+    'hta-001': hta_001_ptBR as Pathology,
+    'iam-001': iam_001_ptBR as Pathology,
+    'icc-001': icc_001_ptBR as Pathology,
+    'int-001': int_001_ptBR as Pathology,
+    'ira-001': ira_001_ptBR as Pathology,
+    'itu-001': itu_001_ptBR as Pathology,
+    'men-001': men_001_ptBR as Pathology,
+    'per-001': per_001_ptBR as Pathology,
+    'pna-001': pna_001_ptBR as Pathology,
+    'pnc-001': pnc_001_ptBR as Pathology,
+    'rhd-001': rhd_001_ptBR as Pathology,
+    'sep-001': sep_001_ptBR as Pathology,
+    'sin-001': sin_001_ptBR as Pathology,
+    'tdm-001': tdm_001_ptBR as Pathology,
+    'tep-001': tep_001_ptBR as Pathology,
+    'tra-001': tra_001_ptBR as Pathology,
+    'tsv-001': tsv_001_ptBR as Pathology,
+  },
+};

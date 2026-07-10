@@ -1,0 +1,27 @@
+{
+  "id": "pad-001",
+  "title": "Dolor, agitación y delirium en adulto crítico (PADIS)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Evaluar dolor de forma sistemática, minimizar sedación, prevenir delirium y favorecer movilización temprana y sueño respetuoso.",
+  "body": "## Pasos a realizar\n\n1. Evaluar dolor cada turno con EVA, ESCID o BPS según estado de conciencia.\n2. Valorar sedación con escala RASS y delirium con CAM-ICU o ICDSC.\n3. Administrar analgesia multimodal; evitar sedación como monoterapia del dolor.\n4. Mantener objetivo RASS 0 a −1 en la mayoría; realizar interrupción diaria de sedación si está indicada.\n5. Aplicar medidas no farmacológicas de delirium: reorientación, presencia de familiar, ciclo luz-oscuridad, minimizar ruido nocturno.\n6. Sedestar y movilizar según tolerancia y prescripción.\n7. Agrupar cuidados y reducir alarmas innecesarias en horario nocturno.\n8. Revisar fármacos delirógenos: anticolinérgicos, benzodiazepinas y opioides.\n9. Registrar escalas, intervenciones y respuesta en cada turno.\n\n## Fundamentación científica\n\n### Indicaciones\n\nConjunto de recomendaciones para **P**ain (dolor), **A**gitation/Sedation (agitación/sedación), **D**elirium (delirium), **I**mmobility (inmovilidad) y **S**leep disruption (disrupción del sueño) en pacientes críticos adultos (marco PADIS).\n\n### Herramientas de evaluación\n\n| Dominio | Herramienta sugerida |\n| --- | --- |\n| Dolor | EVA / ESCID / BPS según estado de conciencia |\n| Sedación | RASS (Richmond Agitation-Sedation Scale) |\n| Delirium | CAM-ICU o ICDSC |\n\n### Evidencia y recomendaciones\n\n> **PADIS Guidelines (Devlin et al. 2018):** Evaluación sistemática de dolor, sedación y delirium; minimizar benzodiazepinas; favorecer movilización temprana.\n\n> **SATI:** Traducción oficial al español de las guías PADIS para uso a pie de cama en UTI.\n\n### Complicaciones\n\n- Delirium prolongado y deterioro cognitivo.\n- Sedación excesiva con prolongación de ventilación mecánica.\n- Dolor no tratado con agitación y complicaciones hemodinámicas.\n- Inmovilidad con debilidad adquirida en UTI.",
+  "bibliography": [
+    {
+      "citation": "Devlin JW, Skrobik Y, Gélinas C, et al. Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU (PADIS). Crit Care Med. 2018;46(9):e825-e873.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30113379/"
+    },
+    {
+      "citation": "SATI — Guías de práctica clínica para la prevención y el manejo del dolor, agitación/sedación y delirium (traducción oficial al español).",
+      "url": "https://www.sati.org.ar/guias-de-practica-clinica-para-la-prevencion-y-el-manejo-del-dolor/"
+    },
+    {
+      "citation": "Society of Critical Care Medicine — PADIS Guidelines.",
+      "url": "https://www.sccm.org/clinical-resources/guidelines"
+    },
+    {
+      "citation": "SATI — Guías y consensos generales.",
+      "url": "https://www.sati.org.ar/guias/"
+    }
+  ]
+}

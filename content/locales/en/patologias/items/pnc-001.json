@@ -1,0 +1,45 @@
+{
+  "id": "pnc-001",
+  "name": "Acute Pancreatitis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Acute pancreatitis** is an inflammation of the pancreas characterized by typical abdominal pain and an elevation of amylase and/or lipase levels (> 3 times the upper limit of normal). The primary etiologies are **biliary lithiasis** and **alcohol consumption**; others include hypertriglyceridemia, drugs, ERCP, and hypercalcemia. Severity is stratified using scoring systems (Ranson, BISAP, APACHE) and markers of necrosis or organ failure.\n\nTreatment is **supportive**: aggressive volume resuscitation with crystalloids, adequate analgesia (opioids if required), initial NPO status, and reinstitution of diet based on tolerance and protocol. There is no routine indication for prophylactic antibiotics. Assess for cholecystectomy in mild biliary pancreatitis following resolution, and urgent ERCP if associated cholangitis is present. Complications include infected necrosis, pseudocyst, and organ failure, which warrant referral to the ICU.\n\n**Nursing:** monitor HR, BP, urine output (target ≥ 0.5 mL/kg/h), fluid balance, pain, and abdominal distension. Perform serial blood glucose monitoring (due to risk of hyperglycemia). Monitor for signs of sepsis in patients with necrosis and prepare for follow-up imaging studies.",
+  "relatedDrugs": [
+    {
+      "drugId": "mor-001",
+      "label": "Morphine"
+    },
+    {
+      "drugId": "ond-001",
+      "label": "Ondansetron"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacillin/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American Gastroenterological Association. Acute Pancreatitis Clinical Guidelines.",
+      "url": "https://gastro.org/clinical-guidance"
+    },
+    {
+      "citation": "Argentine Society of Gastroenterology (SAGE). Pancreatitis consensus.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Association of Pancreatology / American Pancreatic Association.",
+      "url": "https://www.iap-online.org/"
+    }
+  ]
+}

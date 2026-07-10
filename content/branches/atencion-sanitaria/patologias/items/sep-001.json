@@ -1,0 +1,56 @@
+{
+  "id": "sep-001",
+  "name": "Sepsis y shock séptico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **sepsis** es una disfunción orgánica potencialmente mortal causada por una respuesta desregulada del huésped a la infección. El **shock séptico** se define por hipotensión persistente que requiere vasopresores para mantener PAM ≥ 65 mmHg y lactato > 2 mmol/L pese a reanimación volumétrica adecuada. En guardia debe sospecharse ante fiebre o hipotermia, taquicardia, taquipnea, alteración del estado mental, oliguria o hipotensión, especialmente en adultos mayores, inmunodeprimidos o con dispositivos invasivos.\n\nEl manejo inicial sigue el enfoque **hora cero**: hemocultivos antes de antibióticos si no retrasa más de 45 minutos, antibiótico de amplio espectro precoz según foco probable, reanimación con cristaloides 30 mL/kg en hipotensión o lactato elevado, y vasopresores (noradrenalina de primera línea) si persiste hipotensión. Identificar y controlar el foco (drenaje de absceso, retiro de catéter infectado). Lactato seriado y SOFA/qSOFA según protocolo institucional.\n\n**Enfermería**: monitorización continua, dos vías periféricas o acceso central, registro estricto de balance hídrico, temperatura y escalas de sedación si está intubado. Administrar antibióticos en el tiempo acordado, preparar cultivos y documentar hora de inicio de cada intervención del bundle séptico.",
+  "clinicalBox": {
+    "title": "qSOFA — cribado rápido de sepsis",
+    "content": "Un punto por cada criterio (evaluar fuera de UTI):\n**Q** — Frecuencia respiratoria ≥ 22/min\n**S** — Alteración del estado mental (GCS < 15)\n**O** — PA sistólica ≤ 100 mmHg\n\n**≥ 2 puntos:** alto riesgo de evolución tórpida; activar protocolo séptico, lactato y evaluación de disfunción orgánica (SOFA). No sustituye el juicio clínico ni el diagnóstico de infección."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "nor-001",
+      "label": "Noradrenalina"
+    },
+    {
+      "drugId": "adr-001",
+      "label": "Adrenalina"
+    },
+    {
+      "drugId": "vas-001",
+      "label": "Vasopresina"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    },
+    {
+      "drugId": "mer-001",
+      "label": "Meropenem"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Surviving Sepsis Campaign. International Guidelines for Management of Sepsis and Septic Shock.",
+      "url": "https://www.sccm.org/survivingsepsiscampaign"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías de antimicrobianos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "World Health Organization. Sepsis technical package.",
+      "url": "https://www.who.int/health-topics/sepsis"
+    }
+  ]
+}

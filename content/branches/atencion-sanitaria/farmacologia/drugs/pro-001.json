@@ -1,0 +1,57 @@
+{
+  "id": "pro-001",
+  "name": "Propofol",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestésico. Sedación en pacientes ventilados.",
+  "indications": "## Indicaciones principales\n\nAnestésico. Sedación en pacientes ventilados.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Emulsión lipídica 10 mg/mL (frasco/ampolla).",
+      "dose": "Inducción 1–2,5 mg/kg IV; sedación 25–75 mcg/kg/min.",
+      "administration": "IV sin dilución o en infusión según protocolo.",
+      "notes": "Monitorizar triglicéridos y ácido láctico en infusión > 48 h."
+    },
+    "pediatrico": {
+      "presentation": "F.A. /ampollas por 20 ml: 10 mg/ml",
+      "administration": "E.V.",
+      "finalConcentration": "Administrar sin diluir.",
+      "infusionRate": "Bolo de 20 a 30 segundos.",
+      "dose": "Bolo: 2 - 2,5 mg/kg Infusión continua: 0,25 - 4 mg/kg/h, máximo 48 hs para el período periextubación.",
+      "notes": "Agente hipnótico de rápido inicio y corta duración. No tiene efectos analgésicos. Precaución en pacientes con inestabilidad cardiocirculatoria y desórdenes del metabolismo lipídico (pancreatitis, hiperlipoproteinemia primaria, hiperlipidemia diabética). Estabilidad de la infusión: 6 hs. Puede administrarse sin diluir o diuido en Dx 5% a concentración mayor de 2 mg/ml. Conservar en heladera. Ver preparaciones estandarizadas de analgosedación en UCIP."
+    },
+    "neonatal": {
+      "dose": "Uso restringido en NNU; esquemas de sedación según protocolo.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Cadena aséptica; usar en 6–12 h tras apertura según norma del servicio.\n\n## Cartilla pediátrica\n\n- No refrigerar. Desechar el sobrante una vez abierto. Dilución estable 12 hs a T° ambiente.",
+  "adverseEffects": "## Efectos adversos\n\nApnea, dolor en el sitio de la inyección. Posible excitación psicomotriz y disminución de la frecuencia cardíaca.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Propofol* (cód. 0434, ATC N01AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ami-001",
+  "name": "Amikacin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Aminoglycoside antibiotic used in the treatment of infections caused by Gram-negative bacteria resistant to gentamicin and infections caused by susceptible mycobacteria.",
+  "indications": "## Main indications\n\nAminoglycoside antibiotic used in the treatment of infections caused by Gram-negative bacteria resistant to gentamicin and infections caused by susceptible mycobacteria.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule containing 500 mg in 2 mL solution (Duncan, FABRA, Klonal, Larjan, Richet, Rivero).",
+      "reconstitution": "No prior reconstitution required. Conc: 250 mg/mL.",
+      "diluent": "500 mg in 200 mL 0.9% NaCl.",
+      "finalConcentration": "2,5 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Administer dose over 30-60 min.",
+      "notes": "May undergo color change without loss of activity. Discard dark solutions."
+    },
+    "pediatrico": {
+      "presentation": "2 mL ampoule: 250 mg/mL",
+      "administration": "IV; IM",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "Up to 10 mg/mL.",
+      "infusionRate": "30 to 60 min with infusion pump.",
+      "dose": "15 mg/kg/day every 12-24 h, maximum dose: 1500 mg/day. Cystic fibrosis: 30 mg/kg/day every 24 h. Mycobacterium avium: 7,5-15 mg/kg/day every 12-24 h. Mycobacterium tuberculosis infection in HIV-positive patients sensitive to amikacin as second-line antituberculous drug: 15-20 mg/kg/day every 12-24 h, maximum dose: 1000 mg/day. Treatment for nontuberculous mycobacterial infection: 15-30 mg/kg/day divided every 12-24 h as part of a multidrug regimen. Maximum dose: 1,5 g/day. Subsequent dosing per pharmacokinetic parameters. Neonates: see neonatal dosing table (> 1000 g and > 7 days: 10 mg/kg/dose every 12 h; > 2 months: 15 mg/kg/dose every 24 h). See antibiotic dose adjustment table in renal insufficiency. See tuberculosis treatment guide.",
+      "compatibility": "MUST NOT BE ADMINISTERED WITH OTHER DRUGS. Beta-lactam antibiotics reduce its effectiveness.",
+      "notes": "Administer by slow infusion (more than 30 minutes). Pharmacokinetics: Once-daily dosing: peak: 56 to 64 µg/mL, trough: < 1 µg/mL. Multiple daily doses: peak: 20 to 32 µg/mL, trough: 2 to 8 µg/mL. Monitoring by peak and trough levels. Peak 30 to 60 minutes after completion of a 1-hour infusion; trough: immediately before the next dose. Plasma monitoring required in: treatment > 5 days, decreased renal function, limited therapeutic response, obesity, increased extracellular volume, patients requiring dose escalation, cystic fibrosis, burns, dialysis patients, signs of ototoxicity and nephrotoxicity, and use of other nephrotoxic agents. Interacts with numerous drugs in infusion solution; administer separately. See preliminary guide for prevention of medication-related teratogenesis."
+    },
+    "neonatal": {
+      "dose": "15 mg/kg/dose every 24–48 h according to postmenstrual age.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Diluted solution (for administration)\n\n- 24 h at room temperature.\n\n## Pediatric guide\n\n- Store closed ampoule in a dark place. Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nOtotoxicity, nephrotoxicity, neuromuscular blockade.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — amiKACin (code 0011, ATC J01GB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

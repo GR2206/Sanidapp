@@ -1,0 +1,750 @@
+import type { Drug } from '@/types/drug';
+
+import aci_001_en from '../../../content/locales/en/farmacologia/drugs/aci-001.json';
+import ade_001_en from '../../../content/locales/en/farmacologia/drugs/ade-001.json';
+import adr_001_en from '../../../content/locales/en/farmacologia/drugs/adr-001.json';
+import alb_001_en from '../../../content/locales/en/farmacologia/drugs/alb-001.json';
+import amd_001_en from '../../../content/locales/en/farmacologia/drugs/amd-001.json';
+import amf_001_en from '../../../content/locales/en/farmacologia/drugs/amf-001.json';
+import amf_002_en from '../../../content/locales/en/farmacologia/drugs/amf-002.json';
+import amf_003_en from '../../../content/locales/en/farmacologia/drugs/amf-003.json';
+import ami_001_en from '../../../content/locales/en/farmacologia/drugs/ami-001.json';
+import aml_001_en from '../../../content/locales/en/farmacologia/drugs/aml-001.json';
+import amo_001_en from '../../../content/locales/en/farmacologia/drugs/amo-001.json';
+import amo_002_en from '../../../content/locales/en/farmacologia/drugs/amo-002.json';
+import amp_001_en from '../../../content/locales/en/farmacologia/drugs/amp-001.json';
+import amp_002_en from '../../../content/locales/en/farmacologia/drugs/amp-002.json';
+import ani_001_en from '../../../content/locales/en/farmacologia/drugs/ani-001.json';
+import ate_001_en from '../../../content/locales/en/farmacologia/drugs/ate-001.json';
+import atr_001_en from '../../../content/locales/en/farmacologia/drugs/atr-001.json';
+import atr_002_en from '../../../content/locales/en/farmacologia/drugs/atr-002.json';
+import azi_001_en from '../../../content/locales/en/farmacologia/drugs/azi-001.json';
+import azt_001_en from '../../../content/locales/en/farmacologia/drugs/azt-001.json';
+import azt_002_en from '../../../content/locales/en/farmacologia/drugs/azt-002.json';
+import bic_001_en from '../../../content/locales/en/farmacologia/drugs/bic-001.json';
+import bis_001_en from '../../../content/locales/en/farmacologia/drugs/bis-001.json';
+import bum_001_en from '../../../content/locales/en/farmacologia/drugs/bum-001.json';
+import bup_001_en from '../../../content/locales/en/farmacologia/drugs/bup-001.json';
+import cac_001_en from '../../../content/locales/en/farmacologia/drugs/cac-001.json';
+import caf_001_en from '../../../content/locales/en/farmacologia/drugs/caf-001.json';
+import cag_001_en from '../../../content/locales/en/farmacologia/drugs/cag-001.json';
+import cap_001_en from '../../../content/locales/en/farmacologia/drugs/cap-001.json';
+import car_001_en from '../../../content/locales/en/farmacologia/drugs/car-001.json';
+import cas_001_en from '../../../content/locales/en/farmacologia/drugs/cas-001.json';
+import cef_001_en from '../../../content/locales/en/farmacologia/drugs/cef-001.json';
+import cef_002_en from '../../../content/locales/en/farmacologia/drugs/cef-002.json';
+import cef_003_en from '../../../content/locales/en/farmacologia/drugs/cef-003.json';
+import cef_004_en from '../../../content/locales/en/farmacologia/drugs/cef-004.json';
+import cef_005_en from '../../../content/locales/en/farmacologia/drugs/cef-005.json';
+import cef_006_en from '../../../content/locales/en/farmacologia/drugs/cef-006.json';
+import cef_007_en from '../../../content/locales/en/farmacologia/drugs/cef-007.json';
+import cef_008_en from '../../../content/locales/en/farmacologia/drugs/cef-008.json';
+import cef_009_en from '../../../content/locales/en/farmacologia/drugs/cef-009.json';
+import cef_010_en from '../../../content/locales/en/farmacologia/drugs/cef-010.json';
+import cef_011_en from '../../../content/locales/en/farmacologia/drugs/cef-011.json';
+import cef_012_en from '../../../content/locales/en/farmacologia/drugs/cef-012.json';
+import cip_001_en from '../../../content/locales/en/farmacologia/drugs/cip-001.json';
+import cla_001_en from '../../../content/locales/en/farmacologia/drugs/cla-001.json';
+import cli_001_en from '../../../content/locales/en/farmacologia/drugs/cli-001.json';
+import clo_001_en from '../../../content/locales/en/farmacologia/drugs/clo-001.json';
+import clp_001_en from '../../../content/locales/en/farmacologia/drugs/clp-001.json';
+import col_001_en from '../../../content/locales/en/farmacologia/drugs/col-001.json';
+import cst_001_en from '../../../content/locales/en/farmacologia/drugs/cst-001.json';
+import cvd_001_en from '../../../content/locales/en/farmacologia/drugs/cvd-001.json';
+import dap_001_en from '../../../content/locales/en/farmacologia/drugs/dap-001.json';
+import des_001_en from '../../../content/locales/en/farmacologia/drugs/des-001.json';
+import dex_001_en from '../../../content/locales/en/farmacologia/drugs/dex-001.json';
+import dia_001_en from '../../../content/locales/en/farmacologia/drugs/dia-001.json';
+import dic_001_en from '../../../content/locales/en/farmacologia/drugs/dic-001.json';
+import dif_001_en from '../../../content/locales/en/farmacologia/drugs/dif-001.json';
+import dig_001_en from '../../../content/locales/en/farmacologia/drugs/dig-001.json';
+import dip_001_en from '../../../content/locales/en/farmacologia/drugs/dip-001.json';
+import dlt_001_en from '../../../content/locales/en/farmacologia/drugs/dlt-001.json';
+import dob_001_en from '../../../content/locales/en/farmacologia/drugs/dob-001.json';
+import dop_001_en from '../../../content/locales/en/farmacologia/drugs/dop-001.json';
+import dox_001_en from '../../../content/locales/en/farmacologia/drugs/dox-001.json';
+import dxt_001_en from '../../../content/locales/en/farmacologia/drugs/dxt-001.json';
+import efe_001_en from '../../../content/locales/en/farmacologia/drugs/efe-001.json';
+import eno_001_en from '../../../content/locales/en/farmacologia/drugs/eno-001.json';
+import enp_001_en from '../../../content/locales/en/farmacologia/drugs/enp-001.json';
+import eri_001_en from '../../../content/locales/en/farmacologia/drugs/eri-001.json';
+import ert_001_en from '../../../content/locales/en/farmacologia/drugs/ert-001.json';
+import esm_001_en from '../../../content/locales/en/farmacologia/drugs/esm-001.json';
+import esp_001_en from '../../../content/locales/en/farmacologia/drugs/esp-001.json';
+import est_001_en from '../../../content/locales/en/farmacologia/drugs/est-001.json';
+import fen_001_en from '../../../content/locales/en/farmacologia/drugs/fen-001.json';
+import fer_001_en from '../../../content/locales/en/farmacologia/drugs/fer-001.json';
+import flc_001_en from '../../../content/locales/en/farmacologia/drugs/flc-001.json';
+import flm_001_en from '../../../content/locales/en/farmacologia/drugs/flm-001.json';
+import flu_001_en from '../../../content/locales/en/farmacologia/drugs/flu-001.json';
+import fnt_001_en from '../../../content/locales/en/farmacologia/drugs/fnt-001.json';
+import fny_001_en from '../../../content/locales/en/farmacologia/drugs/fny-001.json';
+import fon_001_en from '../../../content/locales/en/farmacologia/drugs/fon-001.json';
+import fos_001_en from '../../../content/locales/en/farmacologia/drugs/fos-001.json';
+import fsc_001_en from '../../../content/locales/en/farmacologia/drugs/fsc-001.json';
+import fur_001_en from '../../../content/locales/en/farmacologia/drugs/fur-001.json';
+import gen_001_en from '../../../content/locales/en/farmacologia/drugs/gen-001.json';
+import glc_001_en from '../../../content/locales/en/farmacologia/drugs/glc-001.json';
+import glu_001_en from '../../../content/locales/en/farmacologia/drugs/glu-001.json';
+import gnc_001_en from '../../../content/locales/en/farmacologia/drugs/gnc-001.json';
+import hal_001_en from '../../../content/locales/en/farmacologia/drugs/hal-001.json';
+import hct_001_en from '../../../content/locales/en/farmacologia/drugs/hct-001.json';
+import hdc_001_en from '../../../content/locales/en/farmacologia/drugs/hdc-001.json';
+import hdr_001_en from '../../../content/locales/en/farmacologia/drugs/hdr-001.json';
+import hef_001_en from '../../../content/locales/en/farmacologia/drugs/hef-001.json';
+import hio_001_en from '../../../content/locales/en/farmacologia/drugs/hio-001.json';
+import imp_001_en from '../../../content/locales/en/farmacologia/drugs/imp-001.json';
+import imu_001_en from '../../../content/locales/en/farmacologia/drugs/imu-001.json';
+import inp_001_en from '../../../content/locales/en/farmacologia/drugs/inp-001.json';
+import ins_001_en from '../../../content/locales/en/farmacologia/drugs/ins-001.json';
+import ipr_001_en from '../../../content/locales/en/farmacologia/drugs/ipr-001.json';
+import isa_001_en from '../../../content/locales/en/farmacologia/drugs/isa-001.json';
+import iso_001_en from '../../../content/locales/en/farmacologia/drugs/iso-001.json';
+import ivb_001_en from '../../../content/locales/en/farmacologia/drugs/ivb-001.json';
+import kcl_001_en from '../../../content/locales/en/farmacologia/drugs/kcl-001.json';
+import ket_001_en from '../../../content/locales/en/farmacologia/drugs/ket-001.json';
+import ktr_001_en from '../../../content/locales/en/farmacologia/drugs/ktr-001.json';
+import lab_001_en from '../../../content/locales/en/farmacologia/drugs/lab-001.json';
+import lev_001_en from '../../../content/locales/en/farmacologia/drugs/lev-001.json';
+import lid_001_en from '../../../content/locales/en/farmacologia/drugs/lid-001.json';
+import lin_001_en from '../../../content/locales/en/farmacologia/drugs/lin-001.json';
+import lis_001_en from '../../../content/locales/en/farmacologia/drugs/lis-001.json';
+import lor_001_en from '../../../content/locales/en/farmacologia/drugs/lor-001.json';
+import los_001_en from '../../../content/locales/en/farmacologia/drugs/los-001.json';
+import ltx_001_en from '../../../content/locales/en/farmacologia/drugs/ltx-001.json';
+import lvt_001_en from '../../../content/locales/en/farmacologia/drugs/lvt-001.json';
+import mag_001_en from '../../../content/locales/en/farmacologia/drugs/mag-001.json';
+import man_001_en from '../../../content/locales/en/farmacologia/drugs/man-001.json';
+import mep_001_en from '../../../content/locales/en/farmacologia/drugs/mep-001.json';
+import mer_001_en from '../../../content/locales/en/farmacologia/drugs/mer-001.json';
+import met_001_en from '../../../content/locales/en/farmacologia/drugs/met-001.json';
+import mic_001_en from '../../../content/locales/en/farmacologia/drugs/mic-001.json';
+import mid_001_en from '../../../content/locales/en/farmacologia/drugs/mid-001.json';
+import mil_001_en from '../../../content/locales/en/farmacologia/drugs/mil-001.json';
+import min_001_en from '../../../content/locales/en/farmacologia/drugs/min-001.json';
+import mop_001_en from '../../../content/locales/en/farmacologia/drugs/mop-001.json';
+import mor_001_en from '../../../content/locales/en/farmacologia/drugs/mor-001.json';
+import mox_001_en from '../../../content/locales/en/farmacologia/drugs/mox-001.json';
+import mtp_001_en from '../../../content/locales/en/farmacologia/drugs/mtp-001.json';
+import nal_001_en from '../../../content/locales/en/farmacologia/drugs/nal-001.json';
+import ngl_001_en from '../../../content/locales/en/farmacologia/drugs/ngl-001.json';
+import nif_001_en from '../../../content/locales/en/farmacologia/drugs/nif-001.json';
+import nip_001_en from '../../../content/locales/en/farmacologia/drugs/nip-001.json';
+import nit_001_en from '../../../content/locales/en/farmacologia/drugs/nit-001.json';
+import nor_001_en from '../../../content/locales/en/farmacologia/drugs/nor-001.json';
+import nsh_001_en from '../../../content/locales/en/farmacologia/drugs/nsh-001.json';
+import oct_001_en from '../../../content/locales/en/farmacologia/drugs/oct-001.json';
+import olm_001_en from '../../../content/locales/en/farmacologia/drugs/olm-001.json';
+import ome_001_en from '../../../content/locales/en/farmacologia/drugs/ome-001.json';
+import ond_001_en from '../../../content/locales/en/farmacologia/drugs/ond-001.json';
+import ose_001_en from '../../../content/locales/en/farmacologia/drugs/ose-001.json';
+import oxa_001_en from '../../../content/locales/en/farmacologia/drugs/oxa-001.json';
+import pan_001_en from '../../../content/locales/en/farmacologia/drugs/pan-001.json';
+import pen_001_en from '../../../content/locales/en/farmacologia/drugs/pen-001.json';
+import pen_002_en from '../../../content/locales/en/farmacologia/drugs/pen-002.json';
+import phb_001_en from '../../../content/locales/en/farmacologia/drugs/phb-001.json';
+import pho_001_en from '../../../content/locales/en/farmacologia/drugs/pho-001.json';
+import pip_001_en from '../../../content/locales/en/farmacologia/drugs/pip-001.json';
+import pnc_001_en from '../../../content/locales/en/farmacologia/drugs/pnc-001.json';
+import pol_001_en from '../../../content/locales/en/farmacologia/drugs/pol-001.json';
+import pos_001_en from '../../../content/locales/en/farmacologia/drugs/pos-001.json';
+import ppf_001_en from '../../../content/locales/en/farmacologia/drugs/ppf-001.json';
+import pro_001_en from '../../../content/locales/en/farmacologia/drugs/pro-001.json';
+import prp_001_en from '../../../content/locales/en/farmacologia/drugs/prp-001.json';
+import prt_001_en from '../../../content/locales/en/farmacologia/drugs/prt-001.json';
+import ram_001_en from '../../../content/locales/en/farmacologia/drugs/ram-001.json';
+import ran_001_en from '../../../content/locales/en/farmacologia/drugs/ran-001.json';
+import rem_001_en from '../../../content/locales/en/farmacologia/drugs/rem-001.json';
+import rif_001_en from '../../../content/locales/en/farmacologia/drugs/rif-001.json';
+import roc_001_en from '../../../content/locales/en/farmacologia/drugs/roc-001.json';
+import sal_001_en from '../../../content/locales/en/farmacologia/drugs/sal-001.json';
+import sav_001_en from '../../../content/locales/en/farmacologia/drugs/sav-001.json';
+import sil_001_en from '../../../content/locales/en/farmacologia/drugs/sil-001.json';
+import srf_001_en from '../../../content/locales/en/farmacologia/drugs/srf-001.json';
+import suc_001_en from '../../../content/locales/en/farmacologia/drugs/suc-001.json';
+import suf_001_en from '../../../content/locales/en/farmacologia/drugs/suf-001.json';
+import sug_001_en from '../../../content/locales/en/farmacologia/drugs/sug-001.json';
+import sul_001_en from '../../../content/locales/en/farmacologia/drugs/sul-001.json';
+import tei_001_en from '../../../content/locales/en/farmacologia/drugs/tei-001.json';
+import tel_001_en from '../../../content/locales/en/farmacologia/drugs/tel-001.json';
+import teo_001_en from '../../../content/locales/en/farmacologia/drugs/teo-001.json';
+import tia_001_en from '../../../content/locales/en/farmacologia/drugs/tia-001.json';
+import tic_001_en from '../../../content/locales/en/farmacologia/drugs/tic-001.json';
+import tig_001_en from '../../../content/locales/en/farmacologia/drugs/tig-001.json';
+import tob_001_en from '../../../content/locales/en/farmacologia/drugs/tob-001.json';
+import tor_001_en from '../../../content/locales/en/farmacologia/drugs/tor-001.json';
+import tri_001_en from '../../../content/locales/en/farmacologia/drugs/tri-001.json';
+import trm_001_en from '../../../content/locales/en/farmacologia/drugs/trm-001.json';
+import val_001_en from '../../../content/locales/en/farmacologia/drugs/val-001.json';
+import van_001_en from '../../../content/locales/en/farmacologia/drugs/van-001.json';
+import vas_001_en from '../../../content/locales/en/farmacologia/drugs/vas-001.json';
+import vec_001_en from '../../../content/locales/en/farmacologia/drugs/vec-001.json';
+import vit_001_en from '../../../content/locales/en/farmacologia/drugs/vit-001.json';
+import vls_001_en from '../../../content/locales/en/farmacologia/drugs/vls-001.json';
+import vor_001_en from '../../../content/locales/en/farmacologia/drugs/vor-001.json';
+import vrp_001_en from '../../../content/locales/en/farmacologia/drugs/vrp-001.json';
+import war_001_en from '../../../content/locales/en/farmacologia/drugs/war-001.json';
+import zid_001_en from '../../../content/locales/en/farmacologia/drugs/zid-001.json';
+import aci_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/aci-001.json';
+import ade_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ade-001.json';
+import adr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/adr-001.json';
+import alb_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/alb-001.json';
+import amd_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amd-001.json';
+import amf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amf-001.json';
+import amf_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amf-002.json';
+import amf_003_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amf-003.json';
+import ami_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ami-001.json';
+import aml_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/aml-001.json';
+import amo_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amo-001.json';
+import amo_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amo-002.json';
+import amp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amp-001.json';
+import amp_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amp-002.json';
+import ani_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ani-001.json';
+import ate_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ate-001.json';
+import atr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/atr-001.json';
+import atr_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/atr-002.json';
+import azi_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/azi-001.json';
+import azt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/azt-001.json';
+import azt_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/azt-002.json';
+import bic_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bic-001.json';
+import bis_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bis-001.json';
+import bum_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bum-001.json';
+import bup_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bup-001.json';
+import cac_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cac-001.json';
+import caf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/caf-001.json';
+import cag_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cag-001.json';
+import cap_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cap-001.json';
+import car_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/car-001.json';
+import cas_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cas-001.json';
+import cef_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-001.json';
+import cef_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-002.json';
+import cef_003_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-003.json';
+import cef_004_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-004.json';
+import cef_005_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-005.json';
+import cef_006_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-006.json';
+import cef_007_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-007.json';
+import cef_008_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-008.json';
+import cef_009_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-009.json';
+import cef_010_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-010.json';
+import cef_011_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-011.json';
+import cef_012_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cef-012.json';
+import cip_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cip-001.json';
+import cla_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cla-001.json';
+import cli_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cli-001.json';
+import clo_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/clo-001.json';
+import clp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/clp-001.json';
+import col_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/col-001.json';
+import cst_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cst-001.json';
+import cvd_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cvd-001.json';
+import dap_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dap-001.json';
+import des_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/des-001.json';
+import dex_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dex-001.json';
+import dia_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dia-001.json';
+import dic_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dic-001.json';
+import dif_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dif-001.json';
+import dig_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dig-001.json';
+import dip_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dip-001.json';
+import dlt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dlt-001.json';
+import dob_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dob-001.json';
+import dop_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dop-001.json';
+import dox_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dox-001.json';
+import dxt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/dxt-001.json';
+import efe_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/efe-001.json';
+import eno_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/eno-001.json';
+import enp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/enp-001.json';
+import eri_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/eri-001.json';
+import ert_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ert-001.json';
+import esm_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/esm-001.json';
+import esp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/esp-001.json';
+import est_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/est-001.json';
+import fen_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fen-001.json';
+import fer_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fer-001.json';
+import flc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/flc-001.json';
+import flm_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/flm-001.json';
+import flu_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/flu-001.json';
+import fnt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fnt-001.json';
+import fny_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fny-001.json';
+import fon_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fon-001.json';
+import fos_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fos-001.json';
+import fsc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fsc-001.json';
+import fur_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fur-001.json';
+import gen_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/gen-001.json';
+import glc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/glc-001.json';
+import glu_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/glu-001.json';
+import gnc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/gnc-001.json';
+import hal_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hal-001.json';
+import hct_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hct-001.json';
+import hdc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hdc-001.json';
+import hdr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hdr-001.json';
+import hef_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hef-001.json';
+import hio_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hio-001.json';
+import imp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/imp-001.json';
+import imu_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/imu-001.json';
+import inp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/inp-001.json';
+import ins_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ins-001.json';
+import ipr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ipr-001.json';
+import isa_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/isa-001.json';
+import iso_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/iso-001.json';
+import ivb_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ivb-001.json';
+import kcl_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/kcl-001.json';
+import ket_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ket-001.json';
+import ktr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ktr-001.json';
+import lab_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lab-001.json';
+import lev_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lev-001.json';
+import lid_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lid-001.json';
+import lin_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lin-001.json';
+import lis_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lis-001.json';
+import lor_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lor-001.json';
+import los_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/los-001.json';
+import ltx_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ltx-001.json';
+import lvt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lvt-001.json';
+import mag_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mag-001.json';
+import man_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/man-001.json';
+import mep_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mep-001.json';
+import mer_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mer-001.json';
+import met_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/met-001.json';
+import mic_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mic-001.json';
+import mid_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mid-001.json';
+import mil_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mil-001.json';
+import min_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/min-001.json';
+import mop_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mop-001.json';
+import mor_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mor-001.json';
+import mox_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mox-001.json';
+import mtp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mtp-001.json';
+import nal_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/nal-001.json';
+import ngl_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ngl-001.json';
+import nif_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/nif-001.json';
+import nip_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/nip-001.json';
+import nit_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/nit-001.json';
+import nor_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/nor-001.json';
+import nsh_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/nsh-001.json';
+import oct_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/oct-001.json';
+import olm_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/olm-001.json';
+import ome_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ome-001.json';
+import ond_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ond-001.json';
+import ose_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ose-001.json';
+import oxa_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/oxa-001.json';
+import pan_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pan-001.json';
+import pen_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pen-001.json';
+import pen_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pen-002.json';
+import phb_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/phb-001.json';
+import pho_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pho-001.json';
+import pip_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pip-001.json';
+import pnc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pnc-001.json';
+import pol_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pol-001.json';
+import pos_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pos-001.json';
+import ppf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ppf-001.json';
+import pro_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pro-001.json';
+import prp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/prp-001.json';
+import prt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/prt-001.json';
+import ram_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ram-001.json';
+import ran_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ran-001.json';
+import rem_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/rem-001.json';
+import rif_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/rif-001.json';
+import roc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/roc-001.json';
+import sal_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/sal-001.json';
+import sav_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/sav-001.json';
+import sil_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/sil-001.json';
+import srf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/srf-001.json';
+import suc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/suc-001.json';
+import suf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/suf-001.json';
+import sug_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/sug-001.json';
+import sul_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/sul-001.json';
+import tei_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tei-001.json';
+import tel_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tel-001.json';
+import teo_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/teo-001.json';
+import tia_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tia-001.json';
+import tic_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tic-001.json';
+import tig_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tig-001.json';
+import tob_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tob-001.json';
+import tor_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tor-001.json';
+import tri_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/tri-001.json';
+import trm_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/trm-001.json';
+import val_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/val-001.json';
+import van_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/van-001.json';
+import vas_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/vas-001.json';
+import vec_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/vec-001.json';
+import vit_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/vit-001.json';
+import vls_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/vls-001.json';
+import vor_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/vor-001.json';
+import vrp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/vrp-001.json';
+import war_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/war-001.json';
+import zid_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/zid-001.json';
+
+/** Generado por scripts/sync-drug-locales.mjs — no editar a mano */
+export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
+  'en': {
+    'aci-001': aci_001_en as Drug,
+    'ade-001': ade_001_en as Drug,
+    'adr-001': adr_001_en as Drug,
+    'alb-001': alb_001_en as Drug,
+    'amd-001': amd_001_en as Drug,
+    'amf-001': amf_001_en as Drug,
+    'amf-002': amf_002_en as Drug,
+    'amf-003': amf_003_en as Drug,
+    'ami-001': ami_001_en as Drug,
+    'aml-001': aml_001_en as Drug,
+    'amo-001': amo_001_en as Drug,
+    'amo-002': amo_002_en as Drug,
+    'amp-001': amp_001_en as Drug,
+    'amp-002': amp_002_en as Drug,
+    'ani-001': ani_001_en as Drug,
+    'ate-001': ate_001_en as Drug,
+    'atr-001': atr_001_en as Drug,
+    'atr-002': atr_002_en as Drug,
+    'azi-001': azi_001_en as Drug,
+    'azt-001': azt_001_en as Drug,
+    'azt-002': azt_002_en as Drug,
+    'bic-001': bic_001_en as Drug,
+    'bis-001': bis_001_en as Drug,
+    'bum-001': bum_001_en as Drug,
+    'bup-001': bup_001_en as Drug,
+    'cac-001': cac_001_en as Drug,
+    'caf-001': caf_001_en as Drug,
+    'cag-001': cag_001_en as Drug,
+    'cap-001': cap_001_en as Drug,
+    'car-001': car_001_en as Drug,
+    'cas-001': cas_001_en as Drug,
+    'cef-001': cef_001_en as Drug,
+    'cef-002': cef_002_en as Drug,
+    'cef-003': cef_003_en as Drug,
+    'cef-004': cef_004_en as Drug,
+    'cef-005': cef_005_en as Drug,
+    'cef-006': cef_006_en as Drug,
+    'cef-007': cef_007_en as Drug,
+    'cef-008': cef_008_en as Drug,
+    'cef-009': cef_009_en as Drug,
+    'cef-010': cef_010_en as Drug,
+    'cef-011': cef_011_en as Drug,
+    'cef-012': cef_012_en as Drug,
+    'cip-001': cip_001_en as Drug,
+    'cla-001': cla_001_en as Drug,
+    'cli-001': cli_001_en as Drug,
+    'clo-001': clo_001_en as Drug,
+    'clp-001': clp_001_en as Drug,
+    'col-001': col_001_en as Drug,
+    'cst-001': cst_001_en as Drug,
+    'cvd-001': cvd_001_en as Drug,
+    'dap-001': dap_001_en as Drug,
+    'des-001': des_001_en as Drug,
+    'dex-001': dex_001_en as Drug,
+    'dia-001': dia_001_en as Drug,
+    'dic-001': dic_001_en as Drug,
+    'dif-001': dif_001_en as Drug,
+    'dig-001': dig_001_en as Drug,
+    'dip-001': dip_001_en as Drug,
+    'dlt-001': dlt_001_en as Drug,
+    'dob-001': dob_001_en as Drug,
+    'dop-001': dop_001_en as Drug,
+    'dox-001': dox_001_en as Drug,
+    'dxt-001': dxt_001_en as Drug,
+    'efe-001': efe_001_en as Drug,
+    'eno-001': eno_001_en as Drug,
+    'enp-001': enp_001_en as Drug,
+    'eri-001': eri_001_en as Drug,
+    'ert-001': ert_001_en as Drug,
+    'esm-001': esm_001_en as Drug,
+    'esp-001': esp_001_en as Drug,
+    'est-001': est_001_en as Drug,
+    'fen-001': fen_001_en as Drug,
+    'fer-001': fer_001_en as Drug,
+    'flc-001': flc_001_en as Drug,
+    'flm-001': flm_001_en as Drug,
+    'flu-001': flu_001_en as Drug,
+    'fnt-001': fnt_001_en as Drug,
+    'fny-001': fny_001_en as Drug,
+    'fon-001': fon_001_en as Drug,
+    'fos-001': fos_001_en as Drug,
+    'fsc-001': fsc_001_en as Drug,
+    'fur-001': fur_001_en as Drug,
+    'gen-001': gen_001_en as Drug,
+    'glc-001': glc_001_en as Drug,
+    'glu-001': glu_001_en as Drug,
+    'gnc-001': gnc_001_en as Drug,
+    'hal-001': hal_001_en as Drug,
+    'hct-001': hct_001_en as Drug,
+    'hdc-001': hdc_001_en as Drug,
+    'hdr-001': hdr_001_en as Drug,
+    'hef-001': hef_001_en as Drug,
+    'hio-001': hio_001_en as Drug,
+    'imp-001': imp_001_en as Drug,
+    'imu-001': imu_001_en as Drug,
+    'inp-001': inp_001_en as Drug,
+    'ins-001': ins_001_en as Drug,
+    'ipr-001': ipr_001_en as Drug,
+    'isa-001': isa_001_en as Drug,
+    'iso-001': iso_001_en as Drug,
+    'ivb-001': ivb_001_en as Drug,
+    'kcl-001': kcl_001_en as Drug,
+    'ket-001': ket_001_en as Drug,
+    'ktr-001': ktr_001_en as Drug,
+    'lab-001': lab_001_en as Drug,
+    'lev-001': lev_001_en as Drug,
+    'lid-001': lid_001_en as Drug,
+    'lin-001': lin_001_en as Drug,
+    'lis-001': lis_001_en as Drug,
+    'lor-001': lor_001_en as Drug,
+    'los-001': los_001_en as Drug,
+    'ltx-001': ltx_001_en as Drug,
+    'lvt-001': lvt_001_en as Drug,
+    'mag-001': mag_001_en as Drug,
+    'man-001': man_001_en as Drug,
+    'mep-001': mep_001_en as Drug,
+    'mer-001': mer_001_en as Drug,
+    'met-001': met_001_en as Drug,
+    'mic-001': mic_001_en as Drug,
+    'mid-001': mid_001_en as Drug,
+    'mil-001': mil_001_en as Drug,
+    'min-001': min_001_en as Drug,
+    'mop-001': mop_001_en as Drug,
+    'mor-001': mor_001_en as Drug,
+    'mox-001': mox_001_en as Drug,
+    'mtp-001': mtp_001_en as Drug,
+    'nal-001': nal_001_en as Drug,
+    'ngl-001': ngl_001_en as Drug,
+    'nif-001': nif_001_en as Drug,
+    'nip-001': nip_001_en as Drug,
+    'nit-001': nit_001_en as Drug,
+    'nor-001': nor_001_en as Drug,
+    'nsh-001': nsh_001_en as Drug,
+    'oct-001': oct_001_en as Drug,
+    'olm-001': olm_001_en as Drug,
+    'ome-001': ome_001_en as Drug,
+    'ond-001': ond_001_en as Drug,
+    'ose-001': ose_001_en as Drug,
+    'oxa-001': oxa_001_en as Drug,
+    'pan-001': pan_001_en as Drug,
+    'pen-001': pen_001_en as Drug,
+    'pen-002': pen_002_en as Drug,
+    'phb-001': phb_001_en as Drug,
+    'pho-001': pho_001_en as Drug,
+    'pip-001': pip_001_en as Drug,
+    'pnc-001': pnc_001_en as Drug,
+    'pol-001': pol_001_en as Drug,
+    'pos-001': pos_001_en as Drug,
+    'ppf-001': ppf_001_en as Drug,
+    'pro-001': pro_001_en as Drug,
+    'prp-001': prp_001_en as Drug,
+    'prt-001': prt_001_en as Drug,
+    'ram-001': ram_001_en as Drug,
+    'ran-001': ran_001_en as Drug,
+    'rem-001': rem_001_en as Drug,
+    'rif-001': rif_001_en as Drug,
+    'roc-001': roc_001_en as Drug,
+    'sal-001': sal_001_en as Drug,
+    'sav-001': sav_001_en as Drug,
+    'sil-001': sil_001_en as Drug,
+    'srf-001': srf_001_en as Drug,
+    'suc-001': suc_001_en as Drug,
+    'suf-001': suf_001_en as Drug,
+    'sug-001': sug_001_en as Drug,
+    'sul-001': sul_001_en as Drug,
+    'tei-001': tei_001_en as Drug,
+    'tel-001': tel_001_en as Drug,
+    'teo-001': teo_001_en as Drug,
+    'tia-001': tia_001_en as Drug,
+    'tic-001': tic_001_en as Drug,
+    'tig-001': tig_001_en as Drug,
+    'tob-001': tob_001_en as Drug,
+    'tor-001': tor_001_en as Drug,
+    'tri-001': tri_001_en as Drug,
+    'trm-001': trm_001_en as Drug,
+    'val-001': val_001_en as Drug,
+    'van-001': van_001_en as Drug,
+    'vas-001': vas_001_en as Drug,
+    'vec-001': vec_001_en as Drug,
+    'vit-001': vit_001_en as Drug,
+    'vls-001': vls_001_en as Drug,
+    'vor-001': vor_001_en as Drug,
+    'vrp-001': vrp_001_en as Drug,
+    'war-001': war_001_en as Drug,
+    'zid-001': zid_001_en as Drug,
+  },
+  'pt-BR': {
+    'aci-001': aci_001_ptBR as Drug,
+    'ade-001': ade_001_ptBR as Drug,
+    'adr-001': adr_001_ptBR as Drug,
+    'alb-001': alb_001_ptBR as Drug,
+    'amd-001': amd_001_ptBR as Drug,
+    'amf-001': amf_001_ptBR as Drug,
+    'amf-002': amf_002_ptBR as Drug,
+    'amf-003': amf_003_ptBR as Drug,
+    'ami-001': ami_001_ptBR as Drug,
+    'aml-001': aml_001_ptBR as Drug,
+    'amo-001': amo_001_ptBR as Drug,
+    'amo-002': amo_002_ptBR as Drug,
+    'amp-001': amp_001_ptBR as Drug,
+    'amp-002': amp_002_ptBR as Drug,
+    'ani-001': ani_001_ptBR as Drug,
+    'ate-001': ate_001_ptBR as Drug,
+    'atr-001': atr_001_ptBR as Drug,
+    'atr-002': atr_002_ptBR as Drug,
+    'azi-001': azi_001_ptBR as Drug,
+    'azt-001': azt_001_ptBR as Drug,
+    'azt-002': azt_002_ptBR as Drug,
+    'bic-001': bic_001_ptBR as Drug,
+    'bis-001': bis_001_ptBR as Drug,
+    'bum-001': bum_001_ptBR as Drug,
+    'bup-001': bup_001_ptBR as Drug,
+    'cac-001': cac_001_ptBR as Drug,
+    'caf-001': caf_001_ptBR as Drug,
+    'cag-001': cag_001_ptBR as Drug,
+    'cap-001': cap_001_ptBR as Drug,
+    'car-001': car_001_ptBR as Drug,
+    'cas-001': cas_001_ptBR as Drug,
+    'cef-001': cef_001_ptBR as Drug,
+    'cef-002': cef_002_ptBR as Drug,
+    'cef-003': cef_003_ptBR as Drug,
+    'cef-004': cef_004_ptBR as Drug,
+    'cef-005': cef_005_ptBR as Drug,
+    'cef-006': cef_006_ptBR as Drug,
+    'cef-007': cef_007_ptBR as Drug,
+    'cef-008': cef_008_ptBR as Drug,
+    'cef-009': cef_009_ptBR as Drug,
+    'cef-010': cef_010_ptBR as Drug,
+    'cef-011': cef_011_ptBR as Drug,
+    'cef-012': cef_012_ptBR as Drug,
+    'cip-001': cip_001_ptBR as Drug,
+    'cla-001': cla_001_ptBR as Drug,
+    'cli-001': cli_001_ptBR as Drug,
+    'clo-001': clo_001_ptBR as Drug,
+    'clp-001': clp_001_ptBR as Drug,
+    'col-001': col_001_ptBR as Drug,
+    'cst-001': cst_001_ptBR as Drug,
+    'cvd-001': cvd_001_ptBR as Drug,
+    'dap-001': dap_001_ptBR as Drug,
+    'des-001': des_001_ptBR as Drug,
+    'dex-001': dex_001_ptBR as Drug,
+    'dia-001': dia_001_ptBR as Drug,
+    'dic-001': dic_001_ptBR as Drug,
+    'dif-001': dif_001_ptBR as Drug,
+    'dig-001': dig_001_ptBR as Drug,
+    'dip-001': dip_001_ptBR as Drug,
+    'dlt-001': dlt_001_ptBR as Drug,
+    'dob-001': dob_001_ptBR as Drug,
+    'dop-001': dop_001_ptBR as Drug,
+    'dox-001': dox_001_ptBR as Drug,
+    'dxt-001': dxt_001_ptBR as Drug,
+    'efe-001': efe_001_ptBR as Drug,
+    'eno-001': eno_001_ptBR as Drug,
+    'enp-001': enp_001_ptBR as Drug,
+    'eri-001': eri_001_ptBR as Drug,
+    'ert-001': ert_001_ptBR as Drug,
+    'esm-001': esm_001_ptBR as Drug,
+    'esp-001': esp_001_ptBR as Drug,
+    'est-001': est_001_ptBR as Drug,
+    'fen-001': fen_001_ptBR as Drug,
+    'fer-001': fer_001_ptBR as Drug,
+    'flc-001': flc_001_ptBR as Drug,
+    'flm-001': flm_001_ptBR as Drug,
+    'flu-001': flu_001_ptBR as Drug,
+    'fnt-001': fnt_001_ptBR as Drug,
+    'fny-001': fny_001_ptBR as Drug,
+    'fon-001': fon_001_ptBR as Drug,
+    'fos-001': fos_001_ptBR as Drug,
+    'fsc-001': fsc_001_ptBR as Drug,
+    'fur-001': fur_001_ptBR as Drug,
+    'gen-001': gen_001_ptBR as Drug,
+    'glc-001': glc_001_ptBR as Drug,
+    'glu-001': glu_001_ptBR as Drug,
+    'gnc-001': gnc_001_ptBR as Drug,
+    'hal-001': hal_001_ptBR as Drug,
+    'hct-001': hct_001_ptBR as Drug,
+    'hdc-001': hdc_001_ptBR as Drug,
+    'hdr-001': hdr_001_ptBR as Drug,
+    'hef-001': hef_001_ptBR as Drug,
+    'hio-001': hio_001_ptBR as Drug,
+    'imp-001': imp_001_ptBR as Drug,
+    'imu-001': imu_001_ptBR as Drug,
+    'inp-001': inp_001_ptBR as Drug,
+    'ins-001': ins_001_ptBR as Drug,
+    'ipr-001': ipr_001_ptBR as Drug,
+    'isa-001': isa_001_ptBR as Drug,
+    'iso-001': iso_001_ptBR as Drug,
+    'ivb-001': ivb_001_ptBR as Drug,
+    'kcl-001': kcl_001_ptBR as Drug,
+    'ket-001': ket_001_ptBR as Drug,
+    'ktr-001': ktr_001_ptBR as Drug,
+    'lab-001': lab_001_ptBR as Drug,
+    'lev-001': lev_001_ptBR as Drug,
+    'lid-001': lid_001_ptBR as Drug,
+    'lin-001': lin_001_ptBR as Drug,
+    'lis-001': lis_001_ptBR as Drug,
+    'lor-001': lor_001_ptBR as Drug,
+    'los-001': los_001_ptBR as Drug,
+    'ltx-001': ltx_001_ptBR as Drug,
+    'lvt-001': lvt_001_ptBR as Drug,
+    'mag-001': mag_001_ptBR as Drug,
+    'man-001': man_001_ptBR as Drug,
+    'mep-001': mep_001_ptBR as Drug,
+    'mer-001': mer_001_ptBR as Drug,
+    'met-001': met_001_ptBR as Drug,
+    'mic-001': mic_001_ptBR as Drug,
+    'mid-001': mid_001_ptBR as Drug,
+    'mil-001': mil_001_ptBR as Drug,
+    'min-001': min_001_ptBR as Drug,
+    'mop-001': mop_001_ptBR as Drug,
+    'mor-001': mor_001_ptBR as Drug,
+    'mox-001': mox_001_ptBR as Drug,
+    'mtp-001': mtp_001_ptBR as Drug,
+    'nal-001': nal_001_ptBR as Drug,
+    'ngl-001': ngl_001_ptBR as Drug,
+    'nif-001': nif_001_ptBR as Drug,
+    'nip-001': nip_001_ptBR as Drug,
+    'nit-001': nit_001_ptBR as Drug,
+    'nor-001': nor_001_ptBR as Drug,
+    'nsh-001': nsh_001_ptBR as Drug,
+    'oct-001': oct_001_ptBR as Drug,
+    'olm-001': olm_001_ptBR as Drug,
+    'ome-001': ome_001_ptBR as Drug,
+    'ond-001': ond_001_ptBR as Drug,
+    'ose-001': ose_001_ptBR as Drug,
+    'oxa-001': oxa_001_ptBR as Drug,
+    'pan-001': pan_001_ptBR as Drug,
+    'pen-001': pen_001_ptBR as Drug,
+    'pen-002': pen_002_ptBR as Drug,
+    'phb-001': phb_001_ptBR as Drug,
+    'pho-001': pho_001_ptBR as Drug,
+    'pip-001': pip_001_ptBR as Drug,
+    'pnc-001': pnc_001_ptBR as Drug,
+    'pol-001': pol_001_ptBR as Drug,
+    'pos-001': pos_001_ptBR as Drug,
+    'ppf-001': ppf_001_ptBR as Drug,
+    'pro-001': pro_001_ptBR as Drug,
+    'prp-001': prp_001_ptBR as Drug,
+    'prt-001': prt_001_ptBR as Drug,
+    'ram-001': ram_001_ptBR as Drug,
+    'ran-001': ran_001_ptBR as Drug,
+    'rem-001': rem_001_ptBR as Drug,
+    'rif-001': rif_001_ptBR as Drug,
+    'roc-001': roc_001_ptBR as Drug,
+    'sal-001': sal_001_ptBR as Drug,
+    'sav-001': sav_001_ptBR as Drug,
+    'sil-001': sil_001_ptBR as Drug,
+    'srf-001': srf_001_ptBR as Drug,
+    'suc-001': suc_001_ptBR as Drug,
+    'suf-001': suf_001_ptBR as Drug,
+    'sug-001': sug_001_ptBR as Drug,
+    'sul-001': sul_001_ptBR as Drug,
+    'tei-001': tei_001_ptBR as Drug,
+    'tel-001': tel_001_ptBR as Drug,
+    'teo-001': teo_001_ptBR as Drug,
+    'tia-001': tia_001_ptBR as Drug,
+    'tic-001': tic_001_ptBR as Drug,
+    'tig-001': tig_001_ptBR as Drug,
+    'tob-001': tob_001_ptBR as Drug,
+    'tor-001': tor_001_ptBR as Drug,
+    'tri-001': tri_001_ptBR as Drug,
+    'trm-001': trm_001_ptBR as Drug,
+    'val-001': val_001_ptBR as Drug,
+    'van-001': van_001_ptBR as Drug,
+    'vas-001': vas_001_ptBR as Drug,
+    'vec-001': vec_001_ptBR as Drug,
+    'vit-001': vit_001_ptBR as Drug,
+    'vls-001': vls_001_ptBR as Drug,
+    'vor-001': vor_001_ptBR as Drug,
+    'vrp-001': vrp_001_ptBR as Drug,
+    'war-001': war_001_ptBR as Drug,
+    'zid-001': zid_001_ptBR as Drug,
+  },
+};

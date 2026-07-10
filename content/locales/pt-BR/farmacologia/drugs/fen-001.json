@@ -1,0 +1,65 @@
+{
+  "id": "fen-001",
+  "name": "Fenilefrina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Vasopressor alfa-adrenérgico puro; hipotensão intraoperatória e anafilaxia em esquemas.",
+  "indications": "## Indicações\n\n- Hipotensão durante anestesia.\n- Vasopressor na anafilaxia quando indicado no protocolo.\n\n## Precauções\n\n- Reflexo bradicardia. Cuidado em cardiopatia coronariana.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola ou frasco-ampola para infusão IV conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou SF.",
+      "diluent": "SG 5% ou SF.",
+      "finalConcentration": "Concentração conforme cartilha do serviço (bomba de infusão).",
+      "dose": "Bolus 50–100 mcg IV ou perfusão 0,1–0,5 mcg/kg/min.",
+      "infusionRate": "Bolus lento ou infusão contínua.",
+      "administration": "IV contínua em bomba; via central preferencial.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+    },
+    "pediatrico": {
+      "presentation": "Ampola ou frasco-ampola para infusão IV conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou SF.",
+      "diluent": "SG 5% ou SF.",
+      "finalConcentration": "Concentração conforme cartilha do serviço (bomba de infusão).",
+      "dose": "1–5 mcg/kg/dose em bolus ou perfusão conforme protocolo.",
+      "infusionRate": "Titular conforme PA e perfusão.",
+      "administration": "IV contínua em bomba; via central preferencial.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+    },
+    "neonatal": {
+      "presentation": "Ampola ou frasco-ampola para infusão IV conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou SF.",
+      "diluent": "SG 5% ou SF.",
+      "finalConcentration": "Concentração conforme cartilha do serviço (bomba de infusão).",
+      "dose": "Bolus e perfusão conforme cartilha da UCIN; uso restrito.",
+      "infusionRate": "Titular conforme PA e perfusão.",
+      "administration": "IV contínua em bomba; via central preferencial.",
+      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
+      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Utilizar solução recém-preparada ou conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n- Bradicardia reflexa, hipertensão, cefaleia, extravasamento.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

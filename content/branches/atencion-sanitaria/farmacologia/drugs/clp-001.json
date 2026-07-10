@@ -1,0 +1,44 @@
+{
+  "id": "clp-001",
+  "name": "Clorpromacina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antiemético. Sedación en la excitación psicomotriz severa y en los movimientos anormales (corea).",
+  "indications": "## Indicaciones principales\n\nAntiemético. Sedación en la excitación psicomotriz severa y en los movimientos anormales (corea).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Comprimidos: 25-100 mg; Ampollas I.M. de 5 ml: 5 mg/ml; E.V. de 2 ml: 25 mg/ml",
+      "administration": "V.O. E.V. I.M.",
+      "diluent": "Sol. Cl Na 0,9%.",
+      "finalConcentration": "1 mg/mL.",
+      "infusionRate": "0,5 mg/min.",
+      "dose": "Niños &gt; 6 meses: 0,5-1 mg/kg/dosis cada 4-6 hs. Dosis máxima (I.M.-E.V.): &lt; 5 años: 40 mg/día, 5-12 años: 75 mg/día. Adultos: psicosis (V.O.): 30-800 mg/día en 1 a 4 dosis, dosis usual: 200 mg/día; (I.M.-E.V.): iniciar 25 mg puede repetirse en 1-4 hs hasta un máximo de 400 mg/dosis cada 4-6 hs hasta que el paciente esté controlado, dosis usual: 300-800 mg/día; antiemético (V.O.): 10-25 mg cada 4-6 hs, (I.M.-E.V.): 25-50 mg cada 4-6 hs.",
+      "notes": "Control neurológico, hematológico y de funcionalidad hepática en tratamientos prolongados. E.V. diluir en Sol. F. : 1 mg/ml, administrar a 0,5 mg/min. Con propranolol aumenta la concentración plasmática de clorpromazina. Puede disminuir su absorción si se lo administra con antiácidos que contengan aluminio y/o magnesio. Puede aumentar la concentración sérica del ácido valproico. Evitar el contacto entre la solución inyectable y la piel porque puede producir dermatitis."
+    }
+  },
+  "stability": "## Cartilla pediátrica\n\n- 7 días una vez reconstituida.",
+  "adverseEffects": "## Efectos adversos\n\nSedación, somnolencia, hipotensión, efectos antimuscarínicos, depresión respiratoria, taquicardia, arritmias cardíacas, síntomas extrapiramidales, hipotermia, ginecomastia, leucocitosis, anemia hemolítica.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — clorproMAZINA Clorhidrato (cód. 0766, ATC N05AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

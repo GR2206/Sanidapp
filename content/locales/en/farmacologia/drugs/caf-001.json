@@ -1,0 +1,54 @@
+{
+  "id": "caf-001",
+  "name": "Caffeine citrate",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Respiratory center stimulant. Prophylaxis and treatment of neonatal apnea. Psychostimulant.",
+  "indications": "## Main indications\n\nRespiratory center stimulant. Prophylaxis and treatment of neonatal apnea. Psychostimulant.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Primarily neonatal use.",
+      "dose": "Not routinely used in adults.",
+      "administration": "N/A."
+    },
+    "pediatrico": {
+      "presentation": "Solution (compounded preparation): 5 mg caffeine base/mL; 1 mL ampoules: 250 mg caffeine base/mL",
+      "administration": "PO; IV",
+      "diluent": "0.9% saline or 5% dextrose.",
+      "finalConcentration": "10 mg/mL.",
+      "infusionRate": "30 min with infusion pump.",
+      "dose": "PO/IV: Loading dose: 10 mg caffeine base/kg in a single dose; maintenance dose: 2.5 mg caffeine base/kg/day in a single dose.",
+      "notes": "If no response, obtain levels; recommended blood concentration: 5 - 25 µg/mL; concentrations > 40 - 50 µg/mL are toxic. Formulation is caffeine base (compounded and commercial). See guide for intravenous drug administration."
+    },
+    "neonatal": {
+      "dose": "Loading 10–20 mg/kg IV over 30 min; maintenance 5 mg/kg/day.",
+      "administration": "IV/PO."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- 24 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nTachycardia, agitation, vomiting.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Caffeine (code 0029, ATC N06BC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

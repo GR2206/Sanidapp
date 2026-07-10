@@ -1,0 +1,62 @@
+{
+  "id": "cli-001",
+  "name": "Clindamycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of infections caused by susceptible bacteria (anaerobes, staphylococci, streptococci, pneumococci) of the skin, subcutaneous cellular tissue, abdomen, and lower respiratory tract.",
+  "indications": "## Main indications\n\nTreatment of infections caused by susceptible bacteria (anaerobes, staphylococci, streptococci, pneumococci) of the skin, subcutaneous cellular tissue, abdomen, and lower respiratory tract.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule containing 600 mg in 4 mL solution (Clindamicina Drawer, Fabra, Duncan, Clindanovag, Larjan, Ramallo, Northia, FADA, Clindalaf, Klonal).",
+      "reconstitution": "No prior reconstitution required. Conc: 150 mg/mL.",
+      "diluent": "600 mg in 50–100 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "6–12 mg/mL (max conc 18 mg/mL).",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 50 mL 0.9% NaCl or 5% dextrose and administer over 20 min.",
+      "notes": "Refrigeration may cause crystal formation that redissolves at room temperature. Rapid administration may cause hypotension (infusing more than 1200 mg in 1 h is not recommended)."
+    },
+    "pediatrico": {
+      "presentation": "Capsules: 300 mg; 4 mL ampoules: 150 mg/mL; Solution (compounded): 100 mg/mL",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "12 mg/mL.",
+      "infusionRate": "30 mg/minute.",
+      "dose": "Newborns: according to age and weight; > 1 month and children: 30 mg/kg/day every 6–8 h, maximum dose: IV: 4,8 g/day; PO: 1,8 g/day. Adolescents and adults: IV: 1,2 to 2,7 g/day in 2 to 4 divided doses, maximum dose: 4,8 g/day; PO: 150 to 450 mg/dose every 6–8 h, maximum dose: 1,8 g/day.",
+      "compatibility": "Incompatible with ampicillin sodium, phenytoin sodium, barbiturates, aminophylline, calcium gluconate and magnesium sulfate.",
+      "notes": "Interactions: beta-blockers, erythromycin."
+    },
+    "neonatal": {
+      "dose": "5–7,5 mg/kg/dose every 6–8 h.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature and/or refrigerated.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, pseudomembranous colitis, vomiting, hypersensitivity reactions, eosinophilia, leukopenia, agranulocytosis, hepatotoxicity.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Clindamicina (code 0051, ATC J01FF).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

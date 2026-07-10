@@ -1,0 +1,51 @@
+{
+  "id": "des-001",
+  "name": "Desmopressin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Diabetes insipidus (antidiuretic). Hemophilia. von Willebrand disease. Nocturnal enuresis.",
+  "indications": "## Main indications\n\nDiabetes insipidus (antidiuretic). Hemophilia. von Willebrand disease. Nocturnal enuresis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "IV ampoule 4 mcg/mL; nasal/PO per presentation.",
+      "dose": "DI: 1–2 mcg IV/SC or intranasal dose per protocol.",
+      "administration": "Slow IV, SC, or intranasal."
+    },
+    "pediatrico": {
+      "dose": "Diabetes insipidus: IV - SC: 2-4 µg/day every 12 h; intranasal: 0.05-0.1 mL/dose twice daily; PO <12 years: start with 0.05 mg/dose every 12 h until response (range 0.1-0.8 mg/day) >12 years and adults: 0.05 mg/dose every 12 h until response (range: 0.1-1.2 mg/day every 8-12 h). Hemophilia, von Willebrand disease: IV: > 3 months and adults: 0.3 µg/kg, 30 min before procedure. Nocturnal enuresis: intranasal: > 6 years: initial 20 µg, range: 10-40 µg, at bedtime; PO: > 12 years: 0.2-0.4 mg at bedtime. Greater absorption in the anterior region of the nasal fossa.",
+      "administration": "PO; IV; SC; Intranasal",
+      "presentation": "Nasal solution (with a calibrated cannula of 0.2 mL): 0.1 mg/mL; Nasal spray: 0.1 mg/mL; Ampoules: 4 µg/mL Tablets: 0.1-0.2 mg",
+      "notes": "Must be prescribed by specialists. Absorbed in the anterior nasal region. Dose is adjusted to individual clinical response. Keep ampoules and nasal solution refrigerated at 2-6°C. Desmopressin is potentiated by tricyclic antidepressants, carbamazepine, chlorpromazine, indomethacin. Intermittent infusion: usual dilution 0.1 µg/mL, infuse over 15 - 30 min; Continuous infusion: usual dilution 0.1 µg/mL. May be diluted in normal saline or 5% dextrose. SC: administer slowly over 10 - 20 seconds."
+    },
+    "neonatal": {
+      "dose": "0.1–0.3 mcg/kg per NICU indication.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Refrigerate per presentation.",
+  "adverseEffects": "## Adverse effects\n\nWater intoxication. Headache, stomach pain, nausea, hyponatremia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Desmopressin Acetate (code 0556, ATC H01BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

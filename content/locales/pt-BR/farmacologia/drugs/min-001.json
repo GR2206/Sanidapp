@@ -1,0 +1,47 @@
+{
+  "id": "min-001",
+  "name": "Minociclina",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico do grupo das tetraciclinas utilizado para tratar infecções bacterianas, incluindo pneumonia e outras infecções do trato respiratório, determinadas infecções de pele e partes moles, dos olhos, do sistema linfático, do aparelho digestivo, do aparelho reprodutor e do sistema urinário.",
+  "indications": "## Indicações principais\n\nAntibiótico do grupo das tetraciclinas utilizado para tratar infecções bacterianas, incluindo pneumonia e outras infecções do trato respiratório, determinadas infecções de pele e partes moles, dos olhos, do sistema linfático, do aparelho digestivo, do aparelho reprodutor e do sistema urinário.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas 100 mg.",
+      "dose": "100 mg V.O. a cada 12 h.",
+      "administration": "V.O. com abundante água."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 50 - 100 mg",
+      "administration": "V.O.",
+      "dose": "Infecções de pele e tecidos moles: > 8 anos: carga: 4 mg/kg, depois 2 mg/kg/dose a cada 12 h; máximo: 200 mg/dia, em caso de infecções por germes multirresistentes (acinetobacter sp, S maltophilia, Nocardia) dose máxima diária 400 mg; adultos: carga: 200 mg, depois 100 mg/dose a cada 12 h, em caso de infecções por germes multirresistentes (acinetobacter sp, S maltophilia, Nocardia) 200 mg/dose a cada 12 h.",
+      "notes": "Pode ser tomado com ou sem alimentos, beber um copo de água com cada dose. Em terapia prolongada realizar controle hematológico, renal e hepático. Interações: antiácidos com ferro, alumínio, cálcio e magnésio diminuem sua absorção. Diminuir dose de anticoagulantes porque aumenta sua ação."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula; proteger da luz.",
+  "adverseEffects": "## Efeitos adversos\n\nColoração permanente nos dentes e inibição do desenvolvimento ósseo em crianças, anorexia, náusea, vômito, diarreia, urticária, erupção, dermatite, superinfecção, anemia hemolítica, trombocitopenia, eosinofilia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — minoCICLina cloridrato (cód. 1359, ATC J01AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

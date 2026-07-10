@@ -1,0 +1,27 @@
+{
+  "id": "nav-001",
+  "title": "Prevention of ventilator-associated pneumonia",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Implement the ventilator-associated pneumonia (VAP) prevention bundle: oral hygiene, head-of-bed elevation, minimal sedation, early ventilator weaning, and proper ventilator circuit management.",
+  "body": "## Steps to perform\n\n1. Perform oral hygiene with chlorhexidine every 6–8 hours unless contraindicated.\n2. Maintain the head of the bed elevated 30–45° continuously unless contraindicated due to hemodynamic instability.\n3. Use minimal sedation and assess daily for a sedation interruption and spontaneous breathing trial according to the medical protocol.\n4. Administer stress ulcer prophylaxis and venous thromboembolism prophylaxis as prescribed.\n5. Manage the ventilator circuit appropriately: do not replace it routinely and avoid condensate accumulation in the airway circuit.\n6. Apply selective digestive decontamination only if indicated by the institutional protocol.\n7. Perform strict hand hygiene before and after any airway manipulation.\n8. Monitor body temperature, tracheal secretions (amount, color, and odor), and oxygenation.\n9. Document the number of days on mechanical ventilation and any associated events.\n10. Immediately report new-onset fever, purulent secretions, or worsening radiographic findings.\n\n## Scientific rationale\n\n### Indications\n\nPneumonia developing ≥ 48 hours after endotracheal intubation and initiation of invasive mechanical ventilation.\n\n### Evidence and recommendations\n\n> **SATI / Argentine Society of Infectious Diseases 2024:** Multisociety consensus on ventilator-associated pneumonia prevention with a multimodal bundle.\n\n> **Klompas et al. 2022 (SHEA/IDSA):** Updated strategies to prevent ventilator-associated pneumonia, ventilator-associated events, and non-ventilator hospital-acquired pneumonia.\n\n### Prevention bundle (reference)\n\n| Measure | Frequency / criteria |\n| --- | --- |\n| Oral hygiene with chlorhexidine | Every 6–8 hours |\n| Head-of-bed elevation | Continuous at 30–45° |\n| Minimal sedation | Daily assessment |\n| Ventilator circuit management | No routine circuit changes |\n\n### Clinical suspicion criteria\n\n- New-onset fever or leukocytosis/leukopenia.\n- Increased purulent tracheal secretions.\n- Worsening oxygenation or a new pulmonary infiltrate on chest imaging.\n\n### Complications\n\n- Confirmed ventilator-associated pneumonia.\n- Prolonged mechanical ventilation and ICU length of stay.\n- Respiratory sepsis.",
+  "bibliography": [
+    {
+      "citation": "SATI / Argentine Society of Infectious Diseases. Ventilator-Associated Pneumonia — 2024 Update and Multisociety Consensus.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "SATI — Critical Pulmonology Committee. Guidelines for the prevention of ventilator-associated pneumonia.",
+      "url": "https://www.sati.org.ar/guias-comite-neumonologia-critica-cnc/"
+    },
+    {
+      "citation": "Klompas M, et al. Strategies to Prevent Ventilator-Associated Pneumonia, Ventilator-Associated Events, and Nonventilator Hospital-Acquired Pneumonia in Acute-Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    }
+  ]
+}

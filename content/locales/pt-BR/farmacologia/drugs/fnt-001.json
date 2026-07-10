@@ -1,0 +1,58 @@
+{
+  "id": "fnt-001",
+  "name": "Fentanil",
+  "version": "1.1.4",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestésico opioide geral, mecanismo de ação semelhante à morfina. Coadjuvante da anestesia geral.",
+  "indications": "## Indicações principais\n\nAnestésico opioide geral, mecanismo de ação semelhante à morfina. Coadjuvante da anestesia geral.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 50 mcg/mL.",
+      "dose": "Bolus 25–100 mcg E.V.; infusão 0,5–2 mcg/kg/h.",
+      "administration": "E.V. lenta ou infusão."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas: 0,05 mg/mL",
+      "administration": "E.V.; Peridural",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "50 mcg/mL.",
+      "infusionRate": "Push em pelo menos 30 s.",
+      "dose": "1–12 anos: 1–2 µg/kg/dose; >12 anos e adultos: 0,5–1 µg/kg/dose. Intubação endotraqueal: 5–10 µg/kg. Pacientes em ventilação mecânica: infusão contínua: <50 kg: 1 µg/kg/h, ≥50 kg: 50 µg/h.",
+      "notes": "USO EXCLUSIVO DO ESPECIALISTA. Se administrado em gotejamento puro, proteger da luz. Push: administrar em 3–5 min. A sobredose pode ser tratada com naloxona. Equivalência analgésica: 1 µg de fentanil = 0,1 mg de morfina. Ver guia prática para manejo de analgosedação e seu desmame em unidades de cuidados intermediários e moderados."
+    },
+    "neonatal": {
+      "dose": "0,5–2 mcg/kg em bolus; infusão conforme escala de dor da UCIN.",
+      "administration": "E.V. em bomba."
+    }
+  },
+  "stability": "## Geral\n\n- Diluição 24 h conforme bula.\n\n## Guia pediátrica\n\n- 24 h após diluído.",
+  "adverseEffects": "## Efeitos adversos\n\nApneia, bradicardia, tórax rígido ou em madeira. Ver seção de analgésicos opioides.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — fentaNILo Citrato (cód. 0337, ATC N01AH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

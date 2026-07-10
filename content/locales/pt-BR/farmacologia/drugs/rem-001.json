@@ -1,0 +1,51 @@
+{
+  "id": "rem-001",
+  "name": "Remifentanil",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestésico opioide coadjuvante da anestesia geral. Início e metabolização rápidos.",
+  "indications": "## Indicações principais\n\nAnestésico opioide coadjuvante da anestesia geral. Início e metabolização rápidos.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 1–5 mg.",
+      "dose": "0,05–0,2 mcg/kg/min em infusão.",
+      "administration": "E.V. contínua exclusivamente."
+    },
+    "pediatrico": {
+      "dose": "0,5 µg/kg em bolus em 30 min. Manutenção: 0,1–0,3 µg/kg/min",
+      "administration": "E.V.",
+      "presentation": "Pó liofilizado: 5 mg",
+      "notes": "USO EXCLUSIVO DO ESPECIALISTA. Não administrar por via epidural ou intratecal (a glicina da formulação pode causar neurotoxicidade)."
+    },
+    "neonatal": {
+      "dose": "Uso na UCIN conforme protocolo anestésico/neonatal.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Reconstituir conforme bula; usar em 24 h.",
+  "adverseEffects": "## Efeitos adversos\n\nApneia, náuseas, bradiarritmia, hipotensão, depressão respiratória. Maior frequência de tórax em madeira. Ver seção de analgésicos opioides.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — REMIentanil* (cód. 1352, ATC N01AH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

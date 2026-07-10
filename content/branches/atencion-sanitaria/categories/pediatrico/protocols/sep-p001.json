@@ -1,0 +1,27 @@
+{
+  "id": "sep-p001",
+  "title": "Sepsis pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Reconocer sepsis con criterios Phoenix (disfunción orgánica ≥ 2 puntos), iniciar antibiótico precoz y reanimación guiada por perfusión en los primeros 60 minutos.",
+  "body": "## Pasos a realizar\n\n1. **Activar protocolo de sepsis** y avisar al equipo médico de inmediato ante sospecha clínica.\n2. Instalar **monitorización continua** y asegurar vía aérea según gravedad del paciente.\n3. Administrar **oxigenoterapia** para mantener SpO₂ en rango objetivo.\n4. Canalizar **acceso vascular**; extraer **hemocultivos** antes del antibiótico si no retrasa su inicio.\n5. Administrar **antibiótico empírico** de amplio espectro de forma precoz (primera hora).\n6. Iniciar **reanimación con cristaloides** en bolos guiados por respuesta (10–20 ml/kg); reevaluar tras cada bolo y repetir si indicado.\n7. Solicitar **lactato sérico** y realizar **control de glucemia**.\n8. Calcular y administrar bolos con **precisión según peso**; vigilar signos de sobrecarga hídrica o deterioro respiratorio.\n9. Preparar **drogas vasoactivas en bomba** si el médico las indica.\n10. **Registrar horarios** críticos: reconocimiento, cultivos, antibiótico, fluidos.\n11. Mantener **comunicación estrecha con la familia** y coordinar derivación a UTI si procede.\n\n## Fundamentación científica\n\n### Definición (Phoenix Sepsis Score)\n\n- **Sepsis pediátrica:** infección sospechada o confirmada con disfunción orgánica potencialmente mortal (**Phoenix ≥ 2 puntos**).\n- **Shock séptico:** sepsis con componente cardiovascular alterado (hipotensión, lactato elevado o necesidad de vasoactivos).\n\nSistemas evaluados: respiratorio, cardiovascular, coagulación, neurológico.\n\n### Reconocimiento en enfermería\n\n- Fiebre o hipotermia con alteración del estado mental o perfusión.\n- Taquicardia o bradicardia fuera de rango etario.\n- Taquipnea, necesidad de oxígeno o ventilación.\n- Mala perfusión: tiempo de llenado capilar prolongado, pulsos débiles, piel moteada.\n- Oliguria.\n\n> Activar protocolo de sepsis y equipo médico de inmediato.\n\n### Rol de enfermería\n\n- Cálculo y administración precisa de bolos por peso.\n- Vigilancia de signos de sobrecarga hídrica o deterioro respiratorio.\n- Preparación de drogas vasoactivas en bomba si se indican.\n- Comunicación estrecha con familia.\n\n### Criterios de derivación a UTI pediátrica\n\n- Necesidad de vasoactivos o ventilación mecánica.\n- Disfunción orgánica múltiple.\n- Shock refractario a fluidos.",
+  "bibliography": [
+    {
+      "citation": "Weiss SL, Peters MJ, et al. Surviving Sepsis Campaign International Guidelines for the Management of Sepsis and Septic Shock in Children 2026.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "Schlapbach LJ, Watson RS, et al. International Consensus Criteria for Pediatric Sepsis and Septic Shock (Phoenix Sepsis Score). JAMA. 2024.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900966/"
+    },
+    {
+      "citation": "SLACIP / ILAS — Consenso Latinoamericano de manejo de sepsis en niños (documento SATI).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/10-Consenso-LATAM-SLACIP-Sepsis-Espanol-Acta-Ped-Mex-Marzo-2022.pdf"
+    },
+    {
+      "citation": "SATI — Pediatría.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

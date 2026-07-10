@@ -1,0 +1,58 @@
+{
+  "id": "ket-001",
+  "name": "Ketamina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestesia disociativa. Analgesia.",
+  "indications": "## Indicaciones principales\n\nAnestesia disociativa. Analgesia.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 50 mg/mL.",
+      "dose": "Analgesia: 0,1–0,3 mg/kg bolus o 0,12–0,36 mg/kg/h. Inducción: 1–2 mg/kg IV.",
+      "administration": "IV lenta o infusión."
+    },
+    "pediatrico": {
+      "presentation": "F.A. de 10 ml: 50 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "50 mg/mL en bolo. 2 mg/mL intermitente o infusión continua.",
+      "infusionRate": "Bolo 1 minuto.",
+      "dose": "Inducción de anestesia: E.V.: 1-2 mg/kg en bolo; I.M.: 5 mg/kg; Infusión continua: 0,25 - 2 mg/kg/hora. Analgesia de piel, músculo y hueso: 0,5-1 mg/kg. Intubación endotraqueal: 2-3 mg/kg",
+      "compatibility": "Precipita concomitante a diazepam.",
+      "notes": "Con nalbufina: disminuye su efecto analgésico, alucinaciones. Con hormonas tiroideas: taquicardia e hipertensión. Contraindicaciones: hipertensión intracraneana, lesión ocular traumática e hipertensión pulmonar. Concentración de administración: 1 - 10 mg/ml en Dx 5% o Sol. F. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos. Ver preparaciones estandarizadas de analgosedación en UCIP"
+    },
+    "neonatal": {
+      "dose": "Uso en NNU según protocolo de sedación/analgesia.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Usar inmediatamente tras dilución si aplica.\n\n## Cartilla pediátrica\n\n- 10 días en heladera. Luego desechar. (Recomendación farmacia HNZN).",
+  "adverseEffects": "## Efectos adversos\n\nHipertensión endocraneana, sialorrea, alucinaciones auditivas y visuales. Uso crónico (drogadependencia): taquicardia, hipertensión, hipotensión, dilatación gástrica.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Ketamina Clorhidrato (cód. 0125, ATC N01AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

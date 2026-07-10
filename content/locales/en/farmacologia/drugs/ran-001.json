@@ -1,0 +1,45 @@
+{
+  "id": "ran-001",
+  "name": "Ranitidine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "H2 receptor antagonist, antiulcer agent, stress ulcer prevention.",
+  "indications": "## Main indications\n\nH2 receptor antagonist, antiulcer agent, stress ulcer prevention.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "5 mL ampoules: 10 mg/mL",
+      "administration": "IV",
+      "diluent": "0.9% NaCl solution, 5% dextrose.",
+      "finalConcentration": "2.5 mg/mL.",
+      "infusionRate": "15 to 30 min with syringe pump.",
+      "dose": "Preterm and term infants < 2 weeks: IV: loading dose: 1.5 mg/kg, maintenance: 1.5 mg/kg/day every 12 h. Children: IV: 2-4 mg/kg/day every 6-8 h. Adults: IV: 50 mg/dose every 6-8 h, maximum dose: 400 mg/day.",
+      "notes": "For IV administration dilute in 5% dextrose or SWFI to a concentration of 0.5 mg/mL (maximum: 2.5 mg/mL) and infuse over 15-30 minutes. Caution in patients with hepatic insufficiency."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- 48 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nDizziness, insomnia, agitation, skin rash, constipation, nausea, diarrhea, vomiting, headache. Bradycardia with rapid infusion. Rare: increased transaminases, leukopenia, thrombocytopenia, bronchospasm.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Ranitidine Hydrochloride (code 0175, ATC A02BA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

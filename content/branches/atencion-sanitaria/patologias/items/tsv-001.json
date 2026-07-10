@@ -1,0 +1,44 @@
+{
+  "id": "tsv-001",
+  "name": "Taquicardia supraventricular (TSV)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **taquicardia supraventricular (TSV)** es un ritmo rápido regular de origen auricular o unión AV, con frecuencia usualmente 150–250 lpm. El paciente refiere **palpitaciones** de inicio y fin bruscos, mareo, opresión torácica o disnea. En el ECG: QRS estrecho y regular (salvo aberrancia). Diferenciar de flutter auricular, FA con conducción rápida y taquicardia sinusal.\n\nEn paciente **inestable** (hipotensión, edema agudo de pulmón, dolor isquémico, alteración del estado mental): **cardioversión eléctrica sincronizada** inmediata. Si está estable: maniobras vagales y **adenosina** IV en bolos (con monitor y desfibrilador disponibles). Si falla adenosina: betabloqueador IV, verapamil o amiodarona según protocolo y comorbilidades. Tratar causa desencadenante (fiebre, anemia, hipovolemia).\n\n**Enfermería**: monitor cardíaco continuo, acceso venoso, preparar adenosina y equipo de cardioversión, registrar hora de inicio y respuesta a maniobras vagales, vigilar bradicardia tras adenosina.",
+  "relatedDrugs": [
+    {
+      "drugId": "ade-001",
+      "label": "Adenosina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "amd-001",
+      "label": "Amiodarona"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Supraventricular tachycardia guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Arritmias supraventriculares.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Tachycardia algorithm (ACLS).",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

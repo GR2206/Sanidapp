@@ -1,0 +1,57 @@
+{
+  "id": "dap-001",
+  "name": "Daptomicina",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibacteriano. Infecciones severas por Staphylococcus aureus meticilino resistente intolerantes o refractarias al tratamiento convencional con vancomicina.",
+  "indications": "## Indicaciones principales\n\nAntibacteriano. Infecciones severas por  Staphylococcus aureus meticilino resistente intolerantes o refractarias al tratamiento convencional con vancomicina.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA con polvo liofilizado conteniendo 500 mg (Cubicin RT).",
+      "reconstitution": "10 mL de AD. Conc: 50 mg/mL.",
+      "diluent": "500 mg en 50 mL de SF.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "IV directa: Sí, solo en adultos. Pasar en 2 min. IV intermitente: Sí. Diluir en 50 mL de SF y admin. en 30 min.",
+      "notes": "No es compatible con DX 5%."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 500 mg",
+      "reconstitution": "Reconstituir y dejar reposar 10 min. Mezclar con rotaciones suaves. No agitar vigorosamente.",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%. NO Dext. 5%.",
+      "finalConcentration": "20 mg/mL.",
+      "infusionRate": "30 min. con BIC.",
+      "dose": "Niños 2-6 años: 8 - 10 mg/kg/día c/24 hs; 6-12 años: 7 mg/kg/día c/24 hs; &gt; 12 años: 4 - 6 mg/kg/díac/24 hs. Bacteriemia, endocarditis derecha, osteomielitis, artritis séptica: 8 - 10 mg/kg/día Adultos: Infecciones severas de piel y partes blandas: 4 mg/kg/día c/24 hs; bacteriemia, endocarditis derecha: 6 mg/kg/día.",
+      "notes": "Velocidad de infusión: 60 minutos. Control de signos y síntomas de: miopatías y neuropatía periférica, monitoreo semanal de CPK."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb, 48 hs refrigerado.\n\n## Solución diluida (a administrar)\n\n- 48 hs refrigerado.\n\n## Cartilla pediátrica\n\n- 12 hs a T° ambiente, 48 hs en heladera.",
+  "adverseEffects": "## Efectos adversos\n\nDolor de pecho, edema periférico, cefaleas, mareos, insomnio, dolor abdominal, anemia, eosinofilia, aumento de las transaminasas séricas, fallo renal.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Daptomicina* (cód. 1831, ATC J01XX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

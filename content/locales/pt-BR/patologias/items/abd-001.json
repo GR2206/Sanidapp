@@ -1,0 +1,49 @@
+{
+  "id": "abd-001",
+  "name": "Abdome agudo",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "O **abdome agudo** é uma síndrome de dor abdominal de início recente que pode requerer intervenção cirúrgica ou tratamento urgente. As causas frequentes na emergência incluem apendicite, colecistite, pancreatite, obstrução intestinal, diverticulite, isquemia mesentérica, perfuração de víscera oca e patologia ginecológica (gravidez ectópica, torção anexial). A anamnese explora início, localização, irradiação, febre, vômitos, ritmo intestinal e antecedentes cirúrgicos.\n\nO exame avalia defesa, rebote, peritonismo, sinal de Murphy, massa palpável e hérnias. Exames conforme suspeita: laboratório (hemograma, amilase/lipase, β-hCG em mulher em idade fértil), ultrassonografia abdominal e TC com contraste quando indicada. Manejo inicial: jejum oral, acesso venoso, analgesia (sem retardar o diagnóstico), antieméticos e antibiótico se peritonite ou infecção. Consulta cirúrgica precoce ante peritonismo, instabilidade hemodinâmica ou suspeita de isquemia.\n\n**Enfermagem**: registrar evolução da dor em escala EVA seriada, controle de sinais vitais, preparar o paciente para exames de imagem e cirurgia, manter jejum oral, sonda nasogástrica somente se indicada, e vigilância de distensão abdominal e evacuações.",
+  "bibliography": [
+    {
+      "citation": "World Society of Emergency Surgery. WSES guidelines for acute abdomen.",
+      "url": "https://www.wses.org.uk/"
+    },
+    {
+      "citation": "Sociedade Argentina de Cirurgia (SAC). Consensos de abdome agudo.",
+      "url": "https://www.cirugia.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Surgeons. Acute care surgery resources.",
+      "url": "https://www.facs.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    },
+    {
+      "drugId": "ond-001",
+      "label": "Ondansetrona"
+    },
+    {
+      "drugId": "met-001",
+      "label": "Metronidazol"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacilina/tazobactam"
+    }
+  ]
+}

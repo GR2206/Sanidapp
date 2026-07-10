@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-003",
+  "title": "Umbilical arterial catheter (UAC) and MAP",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Cannulate an umbilical arterial catheter in newborns weighing 500 g to 2500 g (days 0–30) for invasive MAP monitoring and blood gas analysis, with insertion depth adjusted to weight, radiological confirmation, and a transducer system calibrated to the phlebostatic axis.",
+  "body": "## Steps to perform\n\n1. Confirm the medical indication (hemodynamic instability, mechanical ventilation, vasoactive drugs, serial blood gas analyses); verify weight, coagulation profile, and the absence of omphalitis.\n2. Position the infant under a radiant warmer with continuous monitoring; maintain an axillary temperature of 36.5–37.5 °C.\n3. Perform hand hygiene; don full sterile barriers; prepare the UAC kit (3.5–5 Fr catheter), a pre-flushed transduction system, and diluted heparin (1 U/ml according to protocol).\n4. Secure the umbilical cord; transect it; identify the umbilical artery (the smaller structure, presenting red, pulsatile blood); dilate the ostium using forceps.\n5. Insert the catheter using a gentle technique; advance to the estimated depth based on weight (see table); connect and verify a pulsatile arterial waveform on the monitor.\n6. Suture and secure the catheter; cover with a sterile dressing; connect to the transducer ensuring it is completely free of air bubbles.\n7. Request an immediate X-ray: the tip must be located in the aorta between T6 and L3 depending on weight; never at the origin of the mesenteric or renal arteries.\n8. Place the transducer at the level of the phlebostatic axis (mid-axillary line); perform a zero calibration; confirm a MAP reading consistent with clinical status.\n9. Configure a continuous infusion of heparin (1 U/ml at 0.5–1 ml/h based on weight and protocol) to maintain patency; do not administer boluses through the UAC unless for exchange transfusion or an emergency.\n10. Record the site, depth, gauge, time, operator, and initial values of MAP, BP, and blood gas analysis.\n11. Perform a zero calibration at the beginning of each shift and after any position changes; disinfect the hub prior to each sampling.\n12. Remove the UAC as soon as possible (ideally < 5 days); monitor lower extremity perfusion and watch for signs of mesenteric or renal ischemia.\n\n## Scientific rationale\n\n### Population and scope\n\nStrictly for newborns from day 0 to day 30, weighing 500 g to 2500 g. The UAC is the standard arterial access in the Neonatal ICU during the first days of life; do not apply adult or older child MAP criteria.\n\n### Indications\n\n- Invasive blood pressure monitoring in unstable newborns.\n- Serial arterial blood gas analyses.\n- Titration of vasoactive drugs (dopamine, dobutamine, epinephrine).\n- Evaluation of refractory hypoxemia or pulmonary hypertension.\n\n### Evidence and recommendations\n\n> **Source:** VON / Neonatology — Incorrect UAC depth is associated with mesenteric, renal, and extremity ischemia; post-insertion radiological confirmation is mandatory (Vermont Oxford Network).\n\n> **Source:** WHO (2024) — Minimize the duration of the arterial catheter; sterile technique and early removal reduce infection and thrombosis rates (WHO, 2024).\n\n### Depth according to weight (tip in descending aorta)\n\n| Weight | UAC gauge | Depth (cm from cord base) | Target vertebral level |\n| --- | --- | --- | --- |\n| 500–750 g | 3.5 Fr | 6–8 cm | T6–T8 (high position) |\n| 750–1000 g | 3.5 Fr | 8–10 cm | T8–T10 |\n| 1000–1500 g | 5 Fr | 10–12 cm | T9–L2 (mid position) |\n| 1500–2500 g | 5 Fr | 12–15 cm | T10–L3 (low position) |\n\nHigh placement (T6–T10) carries a lower risk of mesenteric occlusion. Low placement (L3–L4) is useful for long catheters but carries a higher risk of visceral branch occlusion.\n\n### MAP targets in newborns\n\n| Postnatal age | Guidance MAP (mmHg) |\n| --- | --- |\n| Day 0–1 | 30–40 (adjust for weight and GA) |\n| Day 2–7 | 35–45 |\n| Week 2–4 | 40–50 |\n\nUtilize percentile charts by postnatal age and birth weight; in shock, treat low MAP with volume expansion and vasoactive agents as prescribed.\n\n### Blood gas sampling\n\n- Discard a minimum volume (0.5–1 ml in newborns < 1000 g; 1–2 ml in newborns > 1000 g) before drawing the sample.\n- Disinfect the hub for 15 seconds; do not introduce air into the system.\n- Close the system and flush out any air bubbles after each sampling.\n\n### Removal criteria\n\n- Hemodynamic stability with non-invasive monitoring available.\n- UAC in place for > 5 days (increased thrombotic and infectious risk).\n- Suspected mesenteric, renal, or lower extremity ischemia.\n- Device malfunction or infection.\n\n### Complications — notify immediately\n\n- Lower extremity ischemia (pallor, cyanosis, absent pulses).\n- NEC or gastrointestinal bleeding (suspected mesenteric occlusion).\n- Oliguria/anuria (renal occlusion).\n- Aortic thrombosis.\n- Umbilical cord or insertion site hemorrhage.\n- Air embolization during sampling.",
+  "bibliography": [
+    {
+      "citation": "Vermont Oxford Network. NICU quality improvement — umbilical artery catheter placement.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of bloodstream infections associated with intravascular catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Neonatal Resuscitation Program — umbilical vascular access.",
+      "url": "https://www.aap.org/en/patient-care/neonatal-resuscitation-program-nrp/"
+    },
+    {
+      "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Complications and risk factors of peripheral arterial catheters. Crit Care. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Prevención de IAAS en UCI neonatal.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

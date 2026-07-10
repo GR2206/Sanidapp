@@ -1,0 +1,56 @@
+{
+  "id": "adr-001",
+  "name": "Epinephrine",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Sympathomimetic agent. Cardiogenic or septic shock with refractory hypotension and low peripheral resistance.",
+  "indications": "## Main indications\n\nSympathomimetic agent. Cardiogenic or septic shock with refractory hypotension and low peripheral resistance.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "1 mg/mL ampoule (1:1000) or 0.1 mg/mL (1:10,000) per institutional formulation.",
+      "dose": "Cardiac arrest IV/IO: 1 mg every 3–5 min. Anaphylaxis IM: 0.3–0.5 mg; repeat every 5–15 min if persistent.",
+      "administration": "IV/IO in cardiac arrest; IM in anaphylaxis.",
+      "notes": "Record time, dose, route, and hemodynamic response."
+    },
+    "pediatrico": {
+      "presentation": "4 mL ampoules: 1 mg/mL",
+      "administration": "IV",
+      "diluent": "Cardiac arrest: 0.9% NaCl, 5% dextrose. Anaphylaxis: undiluted.",
+      "finalConcentration": "Cardiac arrest: 0.1 mg/mL (dilute one ampoule to 10 mL). Anaphylaxis: 0.01 mg/kg.",
+      "infusionRate": "Bolus.",
+      "dose": "0.05–1 µg/kg/min, maximum 2 µg/kg/min. Adults: start 4 µg/min; infusion 8–12 µg/min",
+      "notes": "Oxidizes rapidly; do not use if brown discoloration is present. Saline dilution is not recommended. Norepinephrine effects may be increased with tricyclic antidepressants, antihistamines, and beta-blockers."
+    },
+    "neonatal": {
+      "presentation": "0.1 mg/mL ampoule (1:10,000) preferred for neonates when available.",
+      "dose": "Neonatal resuscitation: 0.01–0.03 mg/kg IV/IO/endotracheal per current NRP algorithm.",
+      "administration": "Umbilical, peripheral, or other access as appropriate."
+    }
+  },
+  "stability": "## Pediatric guide\n\n- Degrades quickly. Do not use if solution is discolored or precipitated. Discard remainder.\n\n## General\n\n- Protect from light. Store at 15–30 °C.",
+  "adverseEffects": "## Adverse effects\n\nHypertension, necrosis, bradycardia. Prolonged use: decreased cardiac output, plasma volume depletion, severe peripheral and visceral vasoconstriction. Stress cardiomyopathy may also occur.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — NORepinephrine (code 1401, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Pediatric Advanced Life Support (PALS).",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "World Allergy Organization. Anaphylaxis guidance for healthcare providers.",
+      "url": "https://www.worldallergy.org/"
+    }
+  ]
+}

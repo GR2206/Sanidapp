@@ -1,0 +1,44 @@
+{
+  "id": "hta-001",
+  "name": "Hipertensión arterial (HTA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **hipertensión arterial** es una elevación persistente de la presión arterial (PA) que incrementa el riesgo cardiovascular, renal y cerebrovascular. En guardia suele presentarse como **crisis hipertensiva** (PA muy elevada con o sin daño de órgano blanco) o como comorbilidad de otra patología aguda. Es fundamental medir PA en ambos brazos con técnica correcta, confirmar con repetición y buscar signos de **emergencia hipertensiva** (encefalopatía, edema agudo de pulmón, síndrome coronario agudo, disección aórtica, eclampsia, IRA aguda).\n\nEl **tratamiento oportuno** depende del contexto: en emergencia hipertensiva se inicia antihipertensivo IV con meta gradual (evitar caída > 25 % de la PA media en la primera hora salvo excepciones como disección aórtica). En **urgencia hipertensiva** (PA elevada sin daño agudo de órgano) se prefiere reinstaurar o ajustar tratamiento oral y observación. Fármacos frecuentes en guardia: labetalol, hidralazina, nitroglicerina o nitroprusiato según escenario y disponibilidad institucional.\n\nEn **enfermería**: monitorizar PA seriada, frecuencia cardíaca, diuresis y nivel de conciencia; registrar hora de cada dosis IV; vigilar hipotensión ortostática al iniciar o intensificar tratamiento. Educar sobre adherencia, restricción de sodio, control ambulatorio y signos de alarma (cefalea intensa, visión borrosa, dolor torácico, disnea).",
+  "relatedDrugs": [
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "hdr-001",
+      "label": "Hidralazina"
+    },
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "nip-001",
+      "label": "Nitroprusiato"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Sociedad Argentina de Hipertensión Arterial (SAHA). Guías y consensos.",
+      "url": "https://www.saha.org.ar/"
+    },
+    {
+      "citation": "European Society of Cardiology / ESH. Guidelines for the management of arterial hypertension.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Hypertension clinical guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

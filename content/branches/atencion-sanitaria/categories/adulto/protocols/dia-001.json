@@ -1,0 +1,27 @@
+{
+  "id": "dia-001",
+  "title": "Colocación de catéter de diálisis",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Colocar catéter de hemodiálisis con técnica estéril, sitio yugular interno preferido, ecografía cuando esté disponible y plan de retiro o conversión a fístula según KDOQI y prevención de infección (SATI/SADI).",
+  "body": "## Pasos a realizar\n\n1. Identificar paciente, verificar prescripción y consentimiento; revisar plaquetas/INR según protocolo.\n2. Posicionar en Trendelenburg leve (15°) si yugular.\n3. Realizar higiene de manos y barrera estéril máxima (gorro, barbijo, campo amplio, guantes estériles).\n4. Preparar piel con clorhexidina alcohólica en área amplia; **dejar secar**.\n5. Asistir en inserción ecoguiada; mantener campo estéril.\n6. Verificar flujo y reflujo en **ambas luces**; eliminar aire.\n7. Suturar y fijar; aplicar apósito estéril.\n8. Conectar líneas según marcación arterial/venosa (no invertir).\n9. Registrar sitio, calibre, tipo (tunelizado/no tunelizado), operador y hora.\n10. Sellar luces con solución anticoagulante según protocolo (heparina o citrato).\n11. Antes de cada sesión de HD: desinfectar hub con clorhexidina alcohólica (fricción ≥ 15 s); conectar circuito sin contaminar luces.\n12. Al finalizar sesión, lavar y sellar luces según protocolo de la unidad de diálisis.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Necesidad de hemodiálisis inmediata sin fístula o injerto funcionante.\n- Puente vascular mientras madura acceso autólogo.\n- Terapia de reemplazo renal en UTI (IRA grave) según criterio médico.\n\n### Tipos de catéter\n\n| Tipo | Uso |\n| --- | --- |\n| **No tunelizado** (temporal) | Urgencia, IRA, puente hasta fístula o catéter tunelizado |\n| **Tunelizado con cuff** | Hemodiálisis crónica sin acceso autólogo disponible |\n\nAmbos son catéteres venosos centrales de **doble luz** (arterial/venoso para circuito de HD).\n\n### Selección del sitio\n\n| Sitio | Recomendación |\n| --- | --- |\n| **Yugular interna derecha** | Primera opción (menor riesgo de estenosis central vs subclavia) |\n| **Yugular interna izquierda** | Alternativa |\n| **Femoral** | Solo temporal y de corta duración; mayor riesgo infeccioso |\n| **Subclavia** | **Evitar** si es posible (alto riesgo de estenosis venosa central) |\n\n### Evidencia y recomendaciones\n\n> **KDOQI 2019 (Lok et al.):** El catéter debe ser la **última opción** en ERC estadio 5. Planificar acceso autólogo y retirar catéter cuando ya no sea necesario.\n\n> **SATI/SADI 2025:** Prevención de infección de catéter con técnica asséptica estricta y cuidado de luces.\n\n### Contraindicaciones relativas\n\n- Infección en sitio de punción.\n- Trombosis venosa central ipsilateral conocida.\n- Coagulopatía grave no corregida (valorar riesgo/beneficio).\n\n### Complicaciones — avisar de inmediato\n\n- Sangrado activo, hematoma en expansión o compromiso de vía aérea.\n- Neumotórax o disnea aguda post-inserción.\n- Fiebre, escalofríos o secreción purulenta en el sitio (sospecha infección de catéter / bacteriemia).\n- Obstrucción de ambas luces o recirculación excesiva en diálisis.",
+  "bibliography": [
+    {
+      "citation": "Lok CE, Huber TS, Lee T, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update. Am J Kidney Dis. 2020;75(4 Suppl 2):S1-S164.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "Lok CE, Huber TS, Lee T. KDOQI 2019 Vascular Access Guidelines: What Is New. Am J Kidney Dis. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35210726/"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización intersociedades SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    }
+  ]
+}

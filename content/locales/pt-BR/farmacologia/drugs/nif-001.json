@@ -1,0 +1,47 @@
+{
+  "id": "nif-001",
+  "name": "Nifedipino",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Vasodilatador arterial. Bloqueador dos canais de cálcio.",
+  "indications": "## Indicações principais\n\nVasodilatador arterial. Bloqueador dos canais de cálcio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos liberação prolongada 30 e 60 mg. Cápsulas 10 mg.",
+      "dose": "HA: 30–60 mg/dia V.O. LP. Tocolise/obstétrica: conforme protocolo de maternidade.",
+      "administration": "V.O. Não triturar nem mastigar formulações LP."
+    },
+    "pediatrico": {
+      "dose": "Comprimidos de liberação controlada: 0,25-0,5 mg/kg/dia, a cada 12-24 h; dose máxima: 3 mg/kg/dia (até 120 mg/dia). Adultos: Inicial: comprimidos de liberação controlada: 30 a 60 mg/dia a cada 24 h; dose máxima: 120 mg/dia (comprimidos de liberação controlada).",
+      "administration": "V.O. S.L.",
+      "presentation": "Comprimidos de liberação controlada: 30 mg",
+      "notes": "Interações: aumenta os efeitos adversos dos betabloqueadores; aumenta a concentração sérica da digoxina; a rifampicina diminui níveis de nifedipina; com ciclosporina se exacerba a hiperplasia gengival."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nReações de calor, cefaleia, náuseas, reações cutâneas, edemas em membros inferiores, taquicardia, palpitações, hiperplasia gengival.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NIFEdipina (cód. 0240, ATC C08CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Diretrizes de hipertensão e insuficiência cardíaca.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Ginecologia e Obstetrícia. Protocolos obstétricos.",
+      "url": "https://www.sag.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

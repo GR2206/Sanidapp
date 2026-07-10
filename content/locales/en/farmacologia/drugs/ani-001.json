@@ -1,0 +1,50 @@
+{
+  "id": "ani-001",
+  "name": "Anidulafungin",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Prophylaxis and treatment of Candida spp and Aspergillus spp infections. Restricted to partial replacement in prophylaxis and treatment of fungal infections in solid organ transplant recipients; prophylaxis in hematopoietic stem cell transplant recipients; combination therapy in refractory fungal infections; treatment in neutropenic hematology-oncology patients.",
+  "indications": "## Main indications\n\nProphylaxis and treatment of Candida spp and Aspergillus spp infections. Restricted to: partial replacement in prophylaxis and treatment of fungal infections in solid organ transplant recipients; prophylaxis in hematopoietic stem cell transplant recipients; combination therapy in patients with refractory fungal infections; treatment in neutropenic hematology-oncology patients.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 100 mg (Ecalta).",
+      "reconstitution": "30 mL SWFI. Conc: 3,33 mg/mL.",
+      "diluent": "100 mg in 100 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "0,77 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Administer at rate of 100 mg over 90 min.",
+      "notes": "Loading dose (200 mg) must be administered over 3 hours."
+    },
+    "pediatrico": {
+      "dose": "Children: Loading dose: 3 mg/kg/day every 24 h, maintenance: 1,5 mg/kg/day every 24 h; Adults: loading dose: 200 mg/day, maintenance: 100 mg/day",
+      "administration": "IV",
+      "presentation": "Powder vial (lyophilized): 100 mg",
+      "notes": "Infusion rate: < 1,1 mg/minute (do not administer as bolus)."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 1 h refrigerated. Dilute immediately.\n\n## Diluted solution (for administration)\n\n- 48 h at room temperature.",
+  "adverseEffects": "## Adverse effects\n\nInfusion-related: rash, urticaria, flushing, pruritus, bronchospasm, dyspnea, hypotension. Other: hypokalemia, diarrhea, elevated ALT, hepatic enzymes, serum alkaline phosphatase and serum bilirubin.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anidulafungina* (code 1927, ATC J02AX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

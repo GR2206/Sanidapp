@@ -1,0 +1,54 @@
+{
+  "id": "amf-002",
+  "name": "Anfotericina B liposomal",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Pacientes com micose sistêmica documentada, refratária ao tratamento com anfotericina B. Transplantados com micose sistêmica documentada. Insuficiência renal grave durante o tratamento com anfotericina B.",
+  "indications": "## Indicações principais\n\nPacientes com micose sistêmica documentada, refratária ao tratamento com anfotericina B. Transplantados com micose sistêmica documentada. Insuficiência renal grave durante o tratamento com anfotericina B.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "F.A. contendo 50 mg (Ambisome).",
+      "reconstitution": "10 mL de AD. Conc.: 5 mg/mL.",
+      "diluent": "50 mg em 100 mL de DX 5%. Não utilizar SF.",
+      "finalConcentration": "0,5 mg/mL.",
+      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Extrair com seringa a dose necessária. Colocar o filtro na seringa e introduzir a dose do frasco em 100 mL de DX 5% e administrar em 60–120 min."
+    },
+    "pediatrico": {
+      "dose": "3–5 mg/kg/dia, dose máxima: 250 mg/dia. Se a indicação for empírica ou em certas infecções como candidemia: 3 mg/kg/dia. Mucormicose: 5 a 10 mg/kg/dia, conforme os focos envolvidos; com comprometimento do sistema nervoso central as doses variam de 7,5 a 10 mg/kg/dia.",
+      "infusionRate": "Perfusão 2–3 h.",
+      "administration": "E.V.",
+      "presentation": "F.A.: 50 mg",
+      "notes": "Não é necessária a administração concomitante de hidrocortisona ou difenidramina. Primeira dose 1 mg/kg. Velocidade de infusão: 2 h. Diluição: 0,2–2 mg/ml. Não administrar com soluções que contenham eletrólitos. Iniciar a infusão dentro de 6 h da diluição do fármaco."
+    },
+    "neonatal": {
+      "dose": "Dose conforme protocolo da UTI neonatal (habitualmente 3–5 mg/kg/dia).",
+      "administration": "E.V. central."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente e 7 dias refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente. Usar equipo fotossensível.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, arritmias, febre, calafrios. Menor hepatotoxicidade e nefrotoxicidade que a anfotericina B desoxicolato.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Anfotericina B LIPOSOMAL* (cód. 1154, ATC J02AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

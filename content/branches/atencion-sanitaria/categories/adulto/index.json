@@ -1,0 +1,131 @@
+{
+  "category": "adulto",
+  "protocols": [
+    {
+      "id": "sep-001",
+      "title": "Sepsis en adulto",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.2"
+    },
+    {
+      "id": "sho-001",
+      "title": "Shock séptico: reanimación inicial",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "nac-001",
+      "title": "Neumonía adquirida en la comunidad (adulto)",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "nav-001",
+      "title": "Prevención de neumonía asociada a ventilación mecánica",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "oxi-001",
+      "title": "Oxigenoterapia en adulto hospitalizado",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "pad-001",
+      "title": "Dolor, agitación y delirium en adulto crítico (PADIS)",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "hig-001",
+      "title": "Higiene de manos y prevención de IAAS",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "cur-001",
+      "title": "Curación de herida quirúrgica",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.2"
+    },
+    {
+      "id": "med-001",
+      "title": "Administración segura de medicación IV",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "son-001",
+      "title": "Colocación de sonda vesical",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "vip-001",
+      "title": "Colocación de vía periférica",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "vic-001",
+      "title": "Colocación de vía central",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "dia-001",
+      "title": "Colocación de catéter de diálisis",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "dip-001",
+      "title": "Colocación de catéter de diálisis peritoneal",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "dpp-001",
+      "title": "Diálisis peritoneal: intercambios y cuidados",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "hem-001",
+      "title": "Toma de hemocultivo",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "ret-001",
+      "title": "Toma de retrocultivo de catéter",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    },
+    {
+      "id": "pam-001",
+      "title": "Colocación de línea arterial (PAM)",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.1"
+    }
+  ]
+}

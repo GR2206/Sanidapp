@@ -1,0 +1,45 @@
+{
+  "id": "tob-001",
+  "name": "Tobramycin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Aminoglycoside with greater antipseudomonal activity; IV, IM, or inhaled use in cystic fibrosis.",
+  "indications": "## Indications\n\n- *Pseudomonas* infections in combination.\n- Inhaled in cystic fibrosis exacerbations (specific presentation).\n\n## Precautions\n\n- Monitor levels and renal function.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "40 mg/mL IV ampoule; solution for nebulization.",
+      "dose": "5–7 mg/kg/day IV divided every 8 h. Inhaled: according to cystic fibrosis protocol.",
+      "administration": "IV or inhaled."
+    },
+    "pediatrico": {
+      "dose": "5–7 mg/kg/day IV every 8 h.",
+      "administration": "IV/inhaled as indicated."
+    },
+    "neonatal": {
+      "dose": "4–5 mg/kg/dose every 24–48 h (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- IV diluted: 24 h refrigerated.\n- Nebulization: use immediately.",
+  "adverseEffects": "## Adverse effects\n\n- Nephrotoxicity, ototoxicity, bronchospasm (inhaled).",
+  "bibliography": [
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
+    }
+  ]
+}

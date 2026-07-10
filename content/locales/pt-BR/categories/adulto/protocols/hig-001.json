@@ -1,0 +1,27 @@
+{
+  "id": "hig-001",
+  "title": "Higienização das mãos e prevenção de IRAS",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Aplicar os 5 momentos de higienização das mãos da OMS e o bundle multimodal SATI para prevenir infecções relacionadas à assistência à saúde.",
+  "body": "## Passos a realizar\n\n1. Realizar higienização das mãos nos **5 momentos OMS**: antes de tocar o paciente, antes de tarefa asséptica, após risco de fluidos corporais, após tocar o paciente, após tocar o ambiente.\n2. Usar solução alcoólica com fricção por 20–30 segundos até secar quando as mãos não estão visivelmente sujas.\n3. Lavar com sabão e água quando há sujidade visível, esporos (C. difficile) ou surto de vírus entéricos.\n4. Aplicar medidas de isolamento conforme via de transmissão (contato, gotículas, aerossóis).\n5. Cuidar de acessos vasculares e dispositivos urinários conforme protocolo institucional.\n6. Realizar limpeza e desinfecção do ambiente do paciente.\n7. Comunicar surtos ou colonizações multirresistentes.\n8. Registrar cumprimento em observações diretas e eventos associados a dispositivos (AVP, SV, VM).\n\n## Fundamentação científica\n\n### Indicações\n\nReduzir infecções relacionadas à assistência à saúde (IRAS) mediante higienização das mãos e medidas de barreira padronizadas.\n\n### Cinco momentos de higienização das mãos (OMS)\n\n1. Antes de tocar o paciente.\n2. Antes de realizar tarefa asséptica.\n3. Após risco de exposição a fluidos corporais.\n4. Após tocar o paciente.\n5. Após tocar o ambiente do paciente.\n\n### Evidência e recomendações\n\n> **OMS 2009:** A higienização das mãos é a intervenção mais efetiva para prevenir IRAS. Solução alcoólica como método preferencial salvo contraindicações.\n\n> **SATI — Infectologia Crítica:** Bundle multimodal que inclui isolamento, cuidado de dispositivos, limpeza ambiental e stewardship antimicrobiano.\n\n### Bundle multimodal (SATI — Infectologia Crítica)\n\n- Medidas de isolamento conforme via de transmissão (contato, gotículas, aerossóis).\n- Cuidado de acessos vasculares e dispositivos urinários conforme protocolo.\n- Limpeza e desinfecção do ambiente do paciente.\n- Uso racional de antimicrobianos (programa de stewardship).\n\n### Indicadores de enfermagem\n\n- Cumprimento de higienização das mãos em observações diretas.\n- Registro de eventos associados a dispositivos (AVP, SV, VM).\n- Comunicação de surtos ou colonizações multirresistentes.\n\n### Complicações\n\n- Transmissão de microorganismos multirresistentes.\n- Infecções associadas a dispositivos (ICS, ITU-SV, PAV).\n- Surtos nosocomiais.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. WHO Guidelines on Hand Hygiene in Health Care. WHO, 2009.",
+      "url": "https://www.who.int/publications/i/item/9789241597906"
+    },
+    {
+      "citation": "SATI — Consenso interinstitucional: estratégia multimodal de prevenção de infecções associadas a dispositivos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "SATI — Guias e consensos.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "dip-001",
+  "name": "Dipirona",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Analgésico, antipirético. Dor aguda devido a trauma ou cirurgia. Dor cólica. Dor por câncer ou outra dor aguda grave ou crônica em casos refratários a outros analgésicos. Hiperpirexia resistente a outras drogas.",
+  "indications": "## Indicações principais\n\nAnalgésico, antipirético. Dor aguda devido a trauma ou cirurgia. Dor cólica. Dor por câncer ou outra dor aguda grave ou crônica em casos refratários a outros analgésicos. Hiperpirexia resistente a outras drogas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "pediatrico": {
+      "presentation": "Ampolas por 2 ml: 500 mg/ml; Comprimidos: 500 mg; Suspensão: 50 mg/ml",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5% e Dext. 10%.",
+      "finalConcentration": "100 mg/mL.",
+      "infusionRate": "Bolus 1 min.",
+      "dose": "10 mg/kg/dose a cada 6 h. Adultos: 0,5 - 1 g/dose a cada 6 h.",
+      "notes": "Por V.O. como droga de 3ª linha após paracetamol e ibuprofeno. Precauções: < 6 meses, associada com heparina há risco de sangramento, pacientes com hepatopatias. Contraindicações: porfiria, leucopenia, alergia a pirazolonas, síndrome hemorrágico."
+    }
+  },
+  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nAgranulocitose, anemia aplástica, reações cutâneas graves, hipotensão, broncoespasmo, náuseas, vômitos, tontura, cefaleia, diaforese, anafilaxia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Dipirona (cód. 0076, ATC N02BB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,52 @@
+{
+  "id": "end-001",
+  "name": "Endocarditis infecciosa",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **endocarditis infecciosa** es infección del endocardio, valvas o material protésico intracardíaco, con alta morbimortalidad si no se trata. Sospechar ante **fiebre prolongada** sin foco, soplo nuevo o cambiante, fenómenos embólicos (petequias, Janeway, Osler, infartos), antecedente de valvulopatía, prótesis valvular, uso de drogas IV o procedimientos dentales recientes en pacientes de riesgo.\n\nAntes de antibiótico: **tres hemocultivos** de distintos sitios y momentos (no retrasar inicio si inestabilidad). Esquema empírico según contexto: **vancomicina** + **ceftriaxona** o **gentamicina** (valva nativa); ajustar cuando haya antibiograma. ETE (ecocardiograma transesofágico) confirma vegetaciones y complicaciones. Indicaciones quirúrgicas: insuficiencia cardíaca refractaria, absceso, fístula, infección protésica temprana o embolia recurrente.\n\n**Enfermería**: hemocultivos seriados, control de temperatura, vigilancia de embolias (neurológicas, esplénicas, renales), educación sobre adherencia prolongada al antibiótico y profilaxis en procedimientos dentales futuros.",
+  "clinicalBox": {
+    "title": "Criterios de Duke — versión simplificada",
+    "content": "Diagnóstico probable con **2 mayores**, o **1 mayor + 3 menores**, o **5 menores**.\n\n**Mayores:** hemocultivos positivos típicos · evidencia ecocardiográfica (vegetación, absceso, dehiscencia protésica)\n\n**Menores:** predisposición (valvulopatía, IVDA) · fiebre > 38 °C · fenómenos vasculares (embolia, Janeway, hemorragias) · inmunológicos (Osler, Roth, factor reumatoide) · hemocultivo atípico · hallazgo ecocardiográfico menor\n\nRegistrar hora de extracción de cultivos y de primera dosis antibiótica."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "van-001",
+      "label": "Vancomicina"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "gen-001",
+      "label": "Gentamicina"
+    },
+    {
+      "drugId": "amp-001",
+      "label": "Ampicilina"
+    },
+    {
+      "drugId": "ami-001",
+      "label": "Amikacina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Infective Endocarditis Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología (SAC). Endocarditis infecciosa.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Infective endocarditis guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

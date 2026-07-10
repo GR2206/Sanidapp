@@ -1,0 +1,62 @@
+{
+  "id": "pip-001",
+  "name": "Piperacillin/tazobactam",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Treatment of mixed aerobic-anaerobic infections. Does not increase antipseudomonal activity; does increase activity against beta-lactamase–producing organisms.",
+  "indications": "## Main indications\n\nTreatment of mixed aerobic-anaerobic infections. Does not increase antipseudomonal activity; does increase activity against beta-lactamase–producing organisms.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Lyophilized powder vial containing 4 g piperacillin (PIP) + 0,5 g tazobactam (Bagótaz, Drawer, FADA, Pharmavial, Piperac Compuesto, Norgreen, Northia, Vredian, Petezam, Richet, Tazonam EDTA).",
+      "reconstitution": "20 mL sterile water for injection. PIP conc: 200 mg/mL.",
+      "diluent": "4,5 g in 100 mL 0.9% NaCl or 5% dextrose.",
+      "finalConcentration": "PIP conc: 40 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Gently agitate until dissolved. Dilute in 50-150 mL 0.9% NaCl and administer over 30 min.",
+      "notes": "Continuous IV infusion is possible. In that case, dilute 13,5 g (3 vials) in 250 mL 0.9% NaCl to run over 24 h."
+    },
+    "pediatrico": {
+      "presentation": "4.5 g vial: (piperacillin: 4 g + tazobactam: 0,5 g)",
+      "reconstitution": "Reconstitute with 17 mL for final volume of 20 mL.",
+      "administration": "IV",
+      "diluent": "0.9% NaCl or 5% dextrose, sterile water for injection for reconstitution.",
+      "finalConcentration": "20 mg/mL. In fluid restriction: 200 mg/mL.",
+      "infusionRate": "30 minutes with infusion pump.",
+      "dose": "Mild, moderate, and empiric infections: Children: 300 mg (piperacillin + tazobactam)/kg/day every 8 h, Adults: 4,5 g (piperacillin + tazobactam) every 8 h. Severe infections (bacteremias, complicated intra-abdominal infections): Children: 300 - 450 mg (piperacillin + tazobactam)/kg/day every 6 h, Adults: 4,5 g (piperacillin + tazobactam) every 6 h. Maximum dose: 18 g/day (piperacillin + tazobactam). Cystic fibrosis: 450 mg (piperacillin + tazobactam)/kg/day every 6 h.",
+      "notes": "Administer over 30 minutes. Administer 30-60 minutes apart from aminoglycosides. With vecuronium may prolong neuromuscular blockade."
+    },
+    "neonatal": {
+      "dose": "Dose and interval according to postmenstrual age, weight, and infectious focus (infectious diseases/neonatology prescription).",
+      "administration": "IV preferably central."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature and 48 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature and 7 days refrigerated.\n\n## Pediatric guide\n\n- 24 h at room temperature, 48 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nInsomnia, headache, confusion, seizures, rash, pruritus, edema, diarrhea, constipation, nausea, vomiting.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — PIPERACILLIN + tazobactam (code 1361, ATC J01CR).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy — Piperacillin-tazobactam.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information — Piperacillin and tazobactam.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Antimicrobial management guidelines.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

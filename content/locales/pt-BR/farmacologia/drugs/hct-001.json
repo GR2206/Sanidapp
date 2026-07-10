@@ -1,0 +1,51 @@
+{
+  "id": "hct-001",
+  "name": "Hidroclorotiazida",
+  "version": "1.0.3",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Diurético tiazídico. Hipertensão arterial, edemas e diabetes insípida nefrogênica.",
+  "indications": "## Indicações principais\n\nDiurético tiazídico. Hipertensão arterial, edemas e diabetes insípida nefrogênica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 12,5–25 mg.",
+      "dose": "12,5–50 mg V.O. a cada 24 h pela manhã.",
+      "administration": "V.O."
+    },
+    "pediatrico": {
+      "dose": "Neonatos e lactentes <6 meses: 2–4 mg/kg/dia a cada 12 h; dose máxima: 37,5 mg/dia. Lactentes >6 meses e crianças: 2 mg/kg/dia a cada 12 h; dose máxima: 100 mg/dia.",
+      "administration": "V.O.",
+      "presentation": "Comprimidos 12,5–25 mg",
+      "notes": "Administrar com alimentos. AINEs diminuem efeito anti-hipertensivo. Com anfotericina B aumenta perda de potássio."
+    },
+    "neonatal": {
+      "dose": "2–4 mg/kg/dia a cada 12 h; máximo 37,5 mg/dia.",
+      "administration": "V.O."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Comprimidos conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, cefaleia, tontura, hipocalemia, hiperglicemia, hiperlipidemia, hiperuricemia, náuseas, vômitos, diarreia, fraqueza muscular, fotossensibilidade.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — hidroCLOROtiazida (ATC C03AA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mtp-001",
+  "name": "Metoclopramide",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Antiemetic, antinauseant.",
+  "indications": "## Main indications\n\nAntiemetic, antinauseant.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10 mg/2 mL.",
+      "dose": "10 mg slow IV every 6–8 h PRN.",
+      "administration": "Slow IV."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 10 mg; Pediatric drops: 2 mg/ml (0,1 mg/drop); Adult drops: 5 mg/ml; Ampoules 2 ml: 5 mg/ml",
+      "administration": "PO; IV; IM",
+      "diluent": "0.9% NaCl.",
+      "finalConcentration": "0,2 to 5 mg/mL.",
+      "infusionRate": "No less than 15 min.",
+      "dose": "Children: 0,4 - 0,8 mg/kg/day every 6 h; adults: 10 - 15 mg/dose every 6 h. For chemotherapy: IV - PO: 1 - 2 mg/kg/dose, every 2 - 4 h for 2 to 5 doses, if nausea and/or vomiting continue: 0,5 mg/kg or 30 mg; every 4 - 6 h for 5 days. Postoperative: children: 0,1 - 0,2 mg/kg/dose every 6 - 8 h; > 14 years and adults: 10 mg every 6 - 8 h. Maximum dose is that preceding extrapyramidal effects.",
+      "compatibility": "Incompatible with cephalothin and sodium bicarbonate.",
+      "notes": "Use with caution and reduce dose in renal insufficiency, hypertension or depression. Antimuscarinics and opioid analgesics antagonize metoclopramide effect on the gastrointestinal tract; antipsychotics increase risk of extrapyramidal effects. Metoclopramide increases effects of paracetamol and aspirin."
+    },
+    "neonatal": {
+      "dose": "Restricted use; 0,1 mg/kg per NICU protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Use after withdrawal.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
+  "adverseEffects": "## Adverse effects\n\nExtrapyramidal symptoms (more common in children and young adults, especially after high IV doses), seizures, neuroleptic malignant syndrome. Occasionally: somnolence, restlessness, depression, diarrhea.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — MetoCLOPRAMIDA (code 0138, ATC A03FA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

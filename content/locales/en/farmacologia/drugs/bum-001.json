@@ -1,0 +1,45 @@
+{
+  "id": "bum-001",
+  "name": "Bumetanide",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Loop diuretic that is more potent than furosemide, mg for mg; useful in cases of furosemide resistance.",
+  "indications": "## Indications\n\n- Edema in heart failure (HF), cirrhosis, and chronic kidney disease (CKD) when potent diuresis is required.\n\n## Precautions\n\n- Hypokalemia and hypovolemia. Adjust in severe liver disease.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "0.25 mg/mL ampoule.",
+      "dose": "0.5–1 mg IV/IM; repeat based on response (1 mg ≈ 40 mg of furosemide).",
+      "administration": "IV/IM."
+    },
+    "pediatrico": {
+      "dose": "0.015–0.05 mg/kg/dose every 6–12 h.",
+      "administration": "IV/IM."
+    },
+    "neonatal": {
+      "dose": "0.01–0.05 mg/kg/dose according to protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Stability\n\n- Use after withdrawal; no standard dilution required.",
+  "adverseEffects": "## Effects\n\n- Hypokalemia, hypotension, muscle cramps.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

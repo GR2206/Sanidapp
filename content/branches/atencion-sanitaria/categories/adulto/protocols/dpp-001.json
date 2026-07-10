@@ -1,0 +1,31 @@
+{
+  "id": "dpp-001",
+  "title": "Diálisis peritoneal: intercambios y cuidados",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Realizar intercambios de DP con técnica asséptica estricta, vigilar peso y signos de peritonitis, y documentar cada sesión según ISPD.",
+  "body": "## Pasos a realizar\n\n1. Verificar identificación del paciente y prescripción (modalidad CAPD/APD, volumen, tiempo de permanencia, concentración de dializador).\n2. Realizar higiene de manos y preparar material: bolsa de dializador, equipo de transferencia, mascarilla si el protocolo lo indica.\n3. Cerrar puertas y ventanas; reducir corrientes de aire en la habitación.\n4. Colocar gorro y mascarilla; realizar nueva higiene de manos.\n5. Desinfectar tapa del catéter y conexiones con clorhexidina alcohólica o povidona yodada según protocolo; fricción ≥ 15 s; dejar secar.\n6. **Drenaje:** conectar equipo; abrir pinza de drenaje; permitir salida completa del líquido peritoneal; registrar volumen drenado y aspecto del líquido.\n7. **Infusión:** conectar bolsa de dializador fresco; verificar que no haya aire en el sistema; infundir volumen prescrito.\n8. Cerrar pinzas en orden correcto; desconectar con técnica asséptica; aplicar tapón estéril al catéter.\n9. Desechar material de un solo uso; registrar hora, volumen infundido/drenado, concentración y incidencias.\n10. Pesar al paciente según protocolo; vigilar dolor abdominal, fiebre o turbidez del efluente.\n11. Ante efluente turbio o síntomas: no reintroducir dializador; avisar de inmediato y tomar muestra de efluente para cultivo.\n\n## Fundamentación científica\n\n### Modalidades\n\n| Modalidad | Descripción |\n| --- | --- |\n| **CAPD** | Intercambios manuales varias veces al día |\n| **APD** | Ciclador nocturno automatizado (asistir en conexión/desconexión) |\n\n### Indicaciones de la técnica asséptica\n\n> **ISPD Peritonitis Guidelines (2016/2022):** la mayoría de peritonitis se origina por contaminación en el momento de la conexión. La técnica asséptica estricta es el pilar de prevención (Li et al., 2016).\n\n### Cuidados del catéter y sitio de salida\n\n- Revisar sitio de salida diariamente: eritema, exudado, granuloma, dolor.\n- Clasificar según escala de sitio de salida (ISPD); no usar antisépticos de rutina salvo indicación.\n- Fijar catéter para evitar tracción; cinturón de soporte si aplica.\n- Baño: proteger sitio según protocolo (ducha con protección, no inmersión).\n\n### Monitorización\n\n| Parámetro | Frecuencia |\n| --- | --- |\n| Peso | Diario |\n| Presión arterial | Según protocolo |\n| Efluente (claridad, volumen) | Cada intercambio |\n| Balance hídrico | Diario |\n| Glucemia (si dializador con glucosa) | Según indicación |\n\n### Criterios de sospecha de peritonitis\n\n- Efluente turbio.\n- Dolor abdominal.\n- Fiebre.\n- Náuseas o vómitos.\n\n**Conducta:** tomar muestra de efluente (primer efluente tras 2–4 h de permanencia mínimo según ISPD), iniciar antibiótico intraperitoneal según prescripción, no descartar bolsa de dializador hasta indicación.\n\n### Complicaciones — avisar de inmediato\n\n- Peritonitis (efluente turbio + síntomas).\n- Fuga de dializador (húmedo en sitio de salida o genitales).\n- Obstrucción del catéter (drenaje incompleto).\n- Deshidratación o sobrecarga hídrica marcada.\n- Hernia abdominal o dolor persistente.",
+  "bibliography": [
+    {
+      "citation": "Li PK, et al. ISPD Peritonitis Recommendations 2016. Perit Dial Int. 2016;36(5):481-508.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27649941/"
+    },
+    {
+      "citation": "Li PK, et al. ISPD Guidelines for Peritoneal Dialysis. Perit Dial Int. 2022.",
+      "url": "https://www.ispd.org/guidelines"
+    },
+    {
+      "citation": "Brown EA, et al. ISPD Guidelines for Peritoneal Access. Perit Dial Int. 2020.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32316758/"
+    },
+    {
+      "citation": "Lok CE, et al. KDOQI Clinical Practice Guideline for Vascular Access: 2019 Update.",
+      "url": "https://www.kidney.org/professionals/kdoqi/guidelines-and-commentaries/vascular-access"
+    },
+    {
+      "citation": "International Society for Peritoneal Dialysis — patient and caregiver education resources.",
+      "url": "https://www.ispd.org/"
+    }
+  ]
+}

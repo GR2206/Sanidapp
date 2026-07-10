@@ -1,0 +1,61 @@
+{
+  "id": "cef-005",
+  "name": "Ceftriaxone",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Third-generation cephalosporin. Treatment of sepsis, meningitis, lower respiratory tract, skin and soft tissue, and bone infections caused by aerobic gram-negative and some gram-positive bacteria. Prophylaxis for STIs (Neisseria gonorrhoeae).",
+  "indications": "## Main indications\n\nThird-generation cephalosporin. Treatment of sepsis, meningitis, lower respiratory tract, skin and soft tissue, and bone infections caused by aerobic gram-negative and some gram-positive bacteria. Prophylaxis for STIs (Neisseria gonorrhoeae).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Powder vial containing 1 g (Drawer, FABRA, Pharmavial, Acantex, Ceftriaz, Exemple, Norgreen, Bioteral).",
+      "reconstitution": "10 mL SWFI. Conc: 100 mg/mL.",
+      "diluent": "1 g in 100 mL NS or 5% dextrose. Infuse over 30-60 min.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "IM: Yes. Direct IV: Yes. Reconst. 1 g in 9.6 mL SWFI and administer over 2-4 min (except Norgreen brand: NO). Intermittent IV: Yes.",
+      "notes": "Do not inject more than 1 g IM. Without lidocaine this route is painful. Incompatible and must not be mixed with vancomycin, fluconazole, and aminoglycosides."
+    },
+    "pediatrico": {
+      "presentation": "Lyophilized powder vial: 1000 mg",
+      "administration": "IV; IM",
+      "diluent": "SWFI, 0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "Between 10 mg/mL and 40 mg/mL.",
+      "infusionRate": "Not less than 30 min.",
+      "dose": "Children: Mild and moderate infections: 50-75 mg/kg/day every 24 h. Severe infections, sepsis, meningitis, neutropenia: 100 mg/kg/day every 24 h. Maximum dose: 2 g (CNS: 4 g in 2 doses). Adults: 1-2 g every 24 h. Adult preoperative dose: 1 g. STI prophylaxis: Children: IM 250 mg single dose; adolescents and adults: IM: 500 mg/dose, single dose.",
+      "notes": "Renal and biliary elimination. Adjust dose with creatinine clearance < 10 mL/min. Use in neonates is not advised as it displaces bilirubin from albumin binding. In newborns, simultaneous administration of solutions containing calcium is contraindicated (wait 48 h from last ceftriaxone dose). Precipitates in lungs and kidneys of preterm and term newborns; cases of fatal reactions."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dose every 24 h (meningitis: specific NICU regimens).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- 6 h at room temperature and 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature and 72 h refrigerated.\n\n## Pediatric guide\n\n- 3 days at room temperature and 10 days refrigerated at 4° C.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, leukopenia, transient thrombocytopenia, hemolytic anemia, urticaria, rash, injection-site pain, biliary sludge, fever, headache, dizziness, vertigo.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — CefTRIAXone (code 0040, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

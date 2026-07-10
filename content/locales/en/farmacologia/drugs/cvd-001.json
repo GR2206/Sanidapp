@@ -1,0 +1,47 @@
+{
+  "id": "cvd-001",
+  "name": "Carvedilol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Alpha and beta blocking agent. Congestive heart failure. Alpha and beta adrenergic antagonist.",
+  "indications": "## Main indications\n\nAlpha and beta blocking agent. Congestive heart failure. Alpha and beta adrenergic antagonist.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 6.25, 12.5 and 25 mg.",
+      "dose": "HF: start 3.125 mg PO twice/day and titrate. HTN: 12.5–25 mg PO twice/day.",
+      "administration": "PO with food (better tolerance)."
+    },
+    "pediatrico": {
+      "dose": "Congestive heart failure: children: initial: 0.08 mg/kg/dose every 12 h for 2 weeks, then double every 2 weeks if well tolerated to a maintenance dose range of 0.3 to 0.7 mg/kg/day every 12 h (maximum: 50 mg/day); adults: initial: 3.125 mg every 12 h, if tolerated may be doubled every 2 weeks to a maximum dose of 25 to 50 mg twice daily. Hypertension: children and adolescents: initial: 0.1 mg/kg/dose (up to 12.5 mg) every 12 h; maximum dose: 0.5 mg/kg/dose (up to 25 mg) every 12 h.",
+      "administration": "PO",
+      "presentation": "Tablets: 3.125 - 6.25 mg Solution (compounded preparation): 1 mg/mL See formulation",
+      "notes": "Administer with food. Contraindicated in hepatic insufficiency. Interactions: Clonidine increases serum levels of carvedilol. Carvedilol may increase serum levels of cyclosporine; may increase effects of other drugs such as digoxin, prazosin, epinephrine. Carvedilol may mask tachycardia of hypoglycemia caused by insulin and oral hypoglycemic agents. Rifampicin may reduce plasma concentration of carvedilol by up to 70%. Decreases beta-blocking effect when administered concomitantly with antacids, calcium channel blockers, cholestyramine, nonsteroidal anti-inflammatory drugs, ampicillin, and salicylates"
+    }
+  },
+  "stability": "## Stability\n\n- Store per prescribing information.",
+  "adverseEffects": "## Adverse effects\n\nDizziness, hypotension, headache, fatigue, hyperglycemia, weight gain, diarrhea, bradycardia, palpitations, etc.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Carvedilol* (code 1584, ATC C07AG).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Heart failure and hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

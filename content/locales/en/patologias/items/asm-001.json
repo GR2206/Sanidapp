@@ -1,0 +1,49 @@
+{
+  "id": "asm-001",
+  "name": "Asthma — Acute Exacerbation",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "An **acute asthma exacerbation** is the rapid worsening of respiratory symptoms with reversible airway obstruction. In the emergency department, severity is stratified by respiratory rate, accessory muscle use, ability to speak in full sentences, wheezing, SpO₂, and peak expiratory flow if the patient is able to cooperate. **Near-fatal asthma** presents with a silent chest upon auscultation, bradycardia, cyanosis, or altered mental status.\n\nFirst-line treatment consists of short-acting salbutamol (nebulization or inhaler with a spacer, with repeated doses every 20 minutes in moderate-to-severe exacerbations) plus ipratropium bromide in severe episodes. **Systemic corticosteroids** (oral prednisone or IV methylprednisolone / dexamethasone) are indicated early on. Oxygen therapy should be titrated to maintain SpO₂ ≥ 94%. Assess the need for IV magnesium sulfate in refractory cases and consult the ICU if there is no therapeutic response or if respiratory acidosis develops.\n\n**Nursing:** maintain a semi-seated position, continuously monitor SpO₂ and respiratory rate, record the exact time and response to each nebulization, establish venous access in moderate-to-severe exacerbations, and monitor for beta-2 agonist side effects (tremor, tachycardia). Review inhaler technique and provide a written action plan upon discharge.",
+  "relatedDrugs": [
+    {
+      "drugId": "sal-001",
+      "label": "Salbutamol"
+    },
+    {
+      "drugId": "ipr-001",
+      "label": "Ipratropium"
+    },
+    {
+      "drugId": "mep-001",
+      "label": "Methylprednisolone"
+    },
+    {
+      "drugId": "dxt-001",
+      "label": "Dexamethasone"
+    },
+    {
+      "drugId": "mag-001",
+      "label": "Magnesium sulfate"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Global Initiative for Asthma (GINA). Global Strategy for Asthma Management and Prevention.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "Asociación Argentina de Medicina Respiratoria (AAMR). Guías de asma.",
+      "url": "https://www.aamr.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Asthma Education and Prevention Program (NAEPP). Expert Panel Report.",
+      "url": "https://www.nhlbi.nih.gov/health-topics/asthma"
+    }
+  ]
+}

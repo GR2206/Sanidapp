@@ -1,0 +1,62 @@
+{
+  "id": "lin-001",
+  "name": "Linezolid",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "For infections caused by vancomycin-resistant organisms. Oxazolidinone antibacterial.",
+  "indications": "## Main indications\n\nFor infections caused by vancomycin-resistant organisms. Oxazolidinone antibacterial.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Sachet containing 600 mg linezolid in 300 mL (Zyvox, Litrocan, Richet).",
+      "reconstitution": "No prior reconstitution required. Conc: 2 mg/mL.",
+      "diluent": "600 mg in 300 mL.",
+      "finalConcentration": "2 mg/mL.",
+      "administration": "Direct IV: No. Intermittent IV: Yes. Ready to use. Administer over 30-120 min.",
+      "notes": "Irritant. May cause phlebitis and injection-site pain. May have a slightly yellowish coloration that may intensify over time without affecting potency."
+    },
+    "pediatrico": {
+      "presentation": "IV injectable solution 2 mg/mL: infusion bags containing 600 mg/300 mL; Coated tablets: 600 mg",
+      "administration": "IV; PO",
+      "diluent": "0.9% NaCl, 5% dextrose, Ringer solution.",
+      "finalConcentration": "2 mg/mL.",
+      "infusionRate": "30 to 120 minutes with infusion pump.",
+      "dose": "Preterm neonates under 7 days: 10 mg/kg/dose every 12 h; Newborns to 11 years: 10 mg/kg/dose every 8 h; > 11 years to 18 years: 10 mg/kg/dose every 12 h, maximum 1200 mg/day; Adults: 600 mg/dose every 12 h, maximum dose: 1200 mg/day. Tuberculosis treatment: < 15 kg: 15 mg/kg/day every 24 h; > 15 kg: 10-12 mg/kg/day every 24 h, maximum dose: 600 mg.",
+      "compatibility": "Incompatible with amphotericin B, diazepam, phenytoin, TMP-SMX (trimethoprim/sulfamethoxazole), and ceftriaxone.",
+      "notes": "Patients on dialysis: administer after the procedure. Avoid consuming tyramine-rich foods or beverages. Caution when administered with adrenergic or serotonergic agents. IV: administer over 30 to 120 minutes. See tuberculosis treatment guide."
+    },
+    "neonatal": {
+      "dose": "10 mg/kg/dose every 8–12 h (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- Not specified.\n\n## Pediatric guide\n\n- 4 h at room temperature once opened. Keep in original container.",
+  "adverseEffects": "## Adverse effects\n\nHypertension, headache, diarrhea, nausea, thrombocytopenia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Linezolid* (code 1518, ATC J01XX).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

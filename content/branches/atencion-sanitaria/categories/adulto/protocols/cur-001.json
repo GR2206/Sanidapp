@@ -1,0 +1,27 @@
+{
+  "id": "cur-001",
+  "title": "Curación de herida quirúrgica",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Realizar curación estéril, valorar signos de infección de sitio quirúrgico y documentar evolución de la herida en cada turno.",
+  "body": "## Pasos a realizar\n\n1. Realizar higiene de manos (técnica WHO) y verificar identidad del paciente.\n2. Preparar material estéril: guantes, suero fisiológico o antiséptico indicado, gasas y apósito oclusivo.\n3. Valorar herida: eritema, exudado, olor, bordes, dolor y signos de dehiscencia.\n4. Retirar apósito anterior con técnica asséptica.\n5. Limpiar de centro a periferia con material estéril; no reutilizar material en zonas contaminadas.\n6. Aplicar apósito según prescripción y fijar sin tensión.\n7. Registrar hallazgos, tipo de exudado y conducta en historia clínica de enfermería.\n8. Comunicar de inmediato secreción purulenta, dehiscencia, celulitis o fiebre.\n\n## Fundamentación científica\n\n### Indicaciones\n\nProcedimiento de enfermería para curación de herida quirúrgica en adulto hospitalizado.\n\n### Material\n\n- Guantes estériles\n- Suero fisiológico o antiséptico indicado en prescripción\n- Gasas estériles\n- Apósito oclusivo\n\n### Evidencia y recomendaciones\n\n> **OMS 2018:** Prevención de infección de sitio quirúrgico mediante técnica asséptica, curación estéril y vigilancia de signos locales.\n\n> **SATI — Infectología Crítica:** Manejo de infecciones de piel y partes blandas con derivación precoz ante signos de complicación.\n\n### Criterios de derivación\n\n- Secreción purulenta o fétida.\n- Dehiscencia de sutura o evisceración.\n- Celulitis perilesional en progresión.\n- Fiebre o empeoramiento del dolor local no explicado.\n\n### Complicaciones\n\n- Infección de sitio quirúrgico.\n- Dehiscencia o evisceración.\n- Celulitis perilesional.\n- Retraso en la cicatrización.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Global Guidelines for the Prevention of Surgical Site Infection. WHO, 2018.",
+      "url": "https://www.who.int/publications/i/item/global-guidelines-for-the-prevention-of-surgical-site-infection"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Guía de manejo de infecciones de piel y partes blandas.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "World Health Organization. Infection prevention and control in health care.",
+      "url": "https://www.who.int/teams/integrated-health-services/infection-prevention-control"
+    },
+    {
+      "citation": "SATI — Guías y consensos generales.",
+      "url": "https://www.sati.org.ar/guias/"
+    }
+  ]
+}

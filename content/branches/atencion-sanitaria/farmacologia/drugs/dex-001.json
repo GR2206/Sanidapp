@@ -1,0 +1,46 @@
+{
+  "id": "dex-001",
+  "name": "Dexmedetomidina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Sedación de corta duración (24 hs) en pacientes intubados o no.",
+  "indications": "## Indicaciones principales\n\nSedación de corta duración (24 hs) en pacientes intubados o no.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 100 mcg/mL.",
+      "dose": "Carga 1 mcg/kg en 10 min (opcional), luego 0,2–1,5 mcg/kg/h.",
+      "administration": "IV en bomba."
+    },
+    "pediatrico": {
+      "dose": "&gt; 18 años: Infusión contínua: 0,2 a 2,5 µg/kg/h por 24 hs. Debe considerarse la disminución de la dosis en insuficiencia hepática.",
+      "administration": "E.V.",
+      "presentation": "F.A. de 2 ml: 100 µg/ml",
+      "notes": "Ver guía para la administración de drogas endovenosas. Ver Guía práctica para manejo analgosedación y su descenso en salas de cuidados intermedios y moderados."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Dilución 24 h; no usar ampolletas con partículas.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión, bradicardia, apnea, depresión respiratoria, broncoespasmo, náuseas, vómitos, xerostomía, arritmia cardíaca.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — dexMEDETOmidina* (cód. 1762, ATC N05CM).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

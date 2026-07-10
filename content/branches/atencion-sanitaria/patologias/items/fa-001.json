@@ -1,0 +1,58 @@
+{
+  "id": "fa-001",
+  "name": "Fibrilación auricular (FA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **fibrilación auricular** es la arritmia sostenida más frecuente en la práctica clínica, caracterizada por activación auricular desorganizada y respuesta ventricular irregular. En guardia puede debutar como palpitaciones, disnea, dolor torácico, síncope o hallazgo incidental. Diferenciar **FA de novo**, FA conocida descompensada y flutter auricular. Siempre valorar estabilidad hemodinámica: en paciente inestable (hipotensión, edema agudo de pulmón, isquemia miocárdica aguda) procede **cardioversión eléctrica urgente**.\n\nEn paciente estable se busca causa reversible (sepsis, hipokalemia, hipertiroidismo, alcohol, TEP). El control de frecuencia (betabloqueantes, calcioantagonistas no dihidropiridínicos, digoxina según contexto) o ritmo (cardioversión farmacológica o eléctrica programada) depende de tiempo de evolución y comorbilidades. La **anticoagulación** se decide con escalas CHA₂DS₂-VASc y HAS-BLED; en FA > 48 h o desconocida, anticoagular antes de cardioversión salvo emergencia.\n\n**Enfermería**: monitor cardíaco continuo, registro de FC y PA, administración de antiarrítmicos según protocolo, vigilancia de bradicardia o QT prolongado, y educación sobre adherencia a anticoagulación y control ambulatorio.",
+  "clinicalBoxes": [
+    {
+      "title": "CHA₂DS₂-VASc — riesgo tromboembólico",
+      "content": "Un punto por cada ítem (máx. 9 en mujer, 8 en varón):\n**C** — ICC o disfunción VI · **H** — HTA · **A₂** — edad ≥ 75 (2 pts) · **D** — diabetes · **S₂** — ACV/AIT/TE previo (2 pts) · **V** — enfermedad vascular · **A** — edad 65–74 · **Sc** — sexo femenino.\n\n**0 (varón) / 1 (mujer):** sin anticoagulación. **1 (varón):** considerar. **≥ 2:** anticoagulación recomendada salvo contraindicación."
+    },
+    {
+      "title": "HAS-BLED — riesgo de sangrado",
+      "content": "Un punto por ítem: **H** — HTA no controlada · **A** — renal/hepática anormal · **S** — ACV previo · **B** — sangrado previo o predisposición · **L** — INR lábil (ACO) · **E** — edad > 65 · **D** — fármacos (AAS, AINE) o alcohol.\n\n≥ 3: alto riesgo de sangrado — no contraindica anticoagulación, pero exige vigilancia y corrección de factores modificables."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "amd-001",
+      "label": "Amiodarona"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "war-001",
+      "label": "Warfarina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Atrial Fibrillation Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Consenso de arritmias.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association / ACC. AF management guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

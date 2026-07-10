@@ -1,0 +1,85 @@
+{
+  "category": "neonatologia",
+  "protocols": [
+    {
+      "id": "neo-i-001",
+      "title": "Reanimación neonatal en sala de partos (NRP/AAP)",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-002",
+      "title": "Catéter venoso umbilical (UVC)",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-003",
+      "title": "Catéter arterial umbilical (UAC) y PAM",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-004",
+      "title": "Vía periférica en neonato",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-005",
+      "title": "Administración segura de medicación IV neonatal",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-006",
+      "title": "Toma de hemocultivo neonatal",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-007",
+      "title": "Oxigenoterapia, CPAP y vigilancia respiratoria neonatal",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-b-001",
+      "title": "Cuidados del recién nacido en unidad convencional (termorregulación, cribado)",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "baja-complejidad",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-b-002",
+      "title": "Alimentación enteral en neonato clínicamente estable",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "baja-complejidad",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-b-003",
+      "title": "Cuidado del cordón umbilical",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "baja-complejidad",
+      "version": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "gen-001",
+  "name": "Gentamicin",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Aminoglycoside antibiotic for treatment of bone, central nervous system, respiratory tract, skin and soft tissue, abdominal, urinary, and endocarditis infections caused by Gram-negative bacteria, including Pseudomonas, and Gram-positive bacteria.",
+  "indications": "## Main indications\n\nAminoglycoside antibiotic for treatment of bone, central nervous system, respiratory tract, skin and soft tissue, abdominal, urinary, and endocarditis infections caused by Gram-negative bacteria, including Pseudomonas, and Gram-positive bacteria.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule containing 80 mg (Gentamicin Drawer).",
+      "reconstitution": "No prior reconstitution required. Conc: 40 mg/mL.",
+      "diluent": "80 mg in 100 mL 0.9% NaCl.",
+      "finalConcentration": "0,8 mg/mL.",
+      "administration": "Intermittent IV: Yes. Dilute in 100 mL 0.9% NaCl and administer over 30 min."
+    },
+    "pediatrico": {
+      "presentation": "2 mL ampoules: 40 mg/mL",
+      "administration": "IV; IM",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "11 mg/mL.",
+      "infusionRate": "30 to 60 min.",
+      "dose": "5-7,5 mg/kg/day every 24 h, maximum dose: 300 mg. Cystic fibrosis: 10 mg/kg/day, maximum dose: 400 mg. Endocarditis: 3 mg/kg/day every 8 h (monitor serum concentration). See antimicrobial dose adjustment table.",
+      "compatibility": "Incompatible with cephalosporins, penicillin, and heparin.",
+      "notes": "IV: administer diluted over 30 minutes. Pharmacokinetics: Multiple daily doses: peak: 4 to 12 µg/mL, trough: < 2 µg/mL. Once-daily dosing: peak: 16 to 24 µg/mL, trough: < 1 µg/mL. Monitoring by peak and trough levels. Peak 30 to 60 minutes after completion of a 1-hour infusion; trough: immediately before the next dose. Plasma monitoring required in: treatment > 5 days, decreased renal function, limited therapeutic response, obesity, increased extracellular volume, patients requiring dose escalation, cystic fibrosis, burns, dialysis patients, signs of ototoxicity and nephrotoxicity, and use of other nephrotoxic agents. See preliminary guide for prevention of medication-related teratogenesis."
+    },
+    "neonatal": {
+      "dose": "4–5 mg/kg/dose every 24–36 h according to postmenstrual age (NICU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature and 48 h refrigerated.\n\n## Pediatric guide\n\n- Discard once opened.",
+  "adverseEffects": "## Adverse effects\n\nVestibular damage, reversible nephrotoxicity, potentiates neuromuscular blockade by anesthetics.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Gentamicin (code 0105, ATC J01GB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

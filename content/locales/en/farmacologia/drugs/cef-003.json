@@ -1,0 +1,54 @@
+{
+  "id": "cef-003",
+  "name": "Cefuroxime",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Second-generation cephalosporin. Treatment of upper and lower respiratory tract infections, otitis media, urinary tract, skin and soft tissues, bone and joint infections caused by Gram-positive bacteria and Haemophilus influenzae, Escherichia coli, and Klebsiella.",
+  "indications": "## Main indications\n\nSecond-generation cephalosporin. Treatment of upper and lower respiratory tract infections, otitis media, urinary tract, skin and soft tissues, bone and joint infections caused by Gram-positive bacteria and Haemophilus influenzae, Escherichia coli, and Klebsiella.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Vial 750 mg, 1,5 g IV; tablets 250–500 mg PO.",
+      "dose": "IV: 750 mg–1,5 g every 8 h. PO: 250–500 mg every 12 h.",
+      "administration": "IV or PO."
+    },
+    "pediatrico": {
+      "presentation": "Vial: 750-1500 mg",
+      "administration": "IV",
+      "diluent": "Sterile water for injection, 0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "250 mg/mL.",
+      "infusionRate": "3 to 5 min.",
+      "dose": "3 to 12 years: 75 -150 mg/kg/day every 8 h, maximum dose: 6 g/day; meningitis: 240 mg/kg/day , maximum dose: 9 g/day, >13 years and adults: 750-1500 mg/dose every 8 h, maximum dose: 6 g/day. Preoperative dose in adults: 1,5 g.",
+      "notes": "Not recommended for meningitis due to Haemophilus influenzae. Adjust dose in renal insufficiency."
+    },
+    "neonatal": {
+      "dose": "Dose per NICU protocol.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## General\n\n- Diluted IV: 24 h refrigerated.\n\n## Pediatric guide\n\n- 24 h at room temperature and 48 h refrigerated between 4° C and 8° C.",
+  "adverseEffects": "## Adverse effects\n\nNeutropenia, hemolytic anemia, headache, pseudomembranous colitis, phlebitis at injection site, rash, anal pruritus.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefUROxime (code 0041, ATC J01DC).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

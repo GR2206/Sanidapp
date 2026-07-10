@@ -1,0 +1,60 @@
+{
+  "id": "tri-001",
+  "name": "Trimetoprima+sulfametoxazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Profilaxis y tratamiento de infecciones del tracto urinario debido a cepas suceptibles de E. coli, P. mirabilis, K. Pneumoniae, Enterobacter spp y Staphylococcus plasmocoagulasa negativo incluyendo S. saprophyticus. Tratamiento de la otitis media aguda causadas por Streptococcus ",
+  "indications": "## Indicaciones principales\n\nProfilaxis y tratamiento de infecciones del tracto urinario debido a cepas suceptibles de E. coli, P. mirabilis, K. Pneumoniae, Enterobacter spp y Staphylococcus plasmocoagulasa negativo incluyendo S. saprophyticus. Tratamiento de la otitis media aguda causadas por Streptococcus pneumoniae y Haemophilus influenzae susceptibles. No indicado en administración prolongada o profilaxis de otitis media. Alternativa al tratamiento de la neumonía causada por Pneumocystis jirovecii.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Amp conteniendo 80 mg de trimetoprima (TMP) + 400 mg de sulfametoxazol (SMX) en 5 mL (Cotrizol G, Novidrine, Bactrim, Danferane, Spectrex).",
+      "reconstitution": "No requiere reconst. previa. Conc: 16 mg/mL trimetoprima y 80 mg/mL de sulfametoxazol.",
+      "diluent": "80 mg TMP/400 mg SMX en 100 mL de SF o DX 5%.",
+      "finalConcentration": "0,8 mg/mL de TMP y 4 mg/mL de SMX.",
+      "administration": "IV directa: No. IV intermitente: Sí. Diluir 1 amp en 100 mL de SF y admin. en 30-60 min. No exceder los 90 min.",
+      "notes": "Se recomienda una dilución de 1 mL de TMP+SMX en 5 mL de diluyente."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos: 80 mg trimetoprima + 400 mg sulfametoxazol; Comprimidos: 160 mg trimetoprima + 800 mg sulfametoxazol; Jarabe: 40 mg de trimetoprima + 200 mg sulfametoxazol /5 ml; Ampollas: 80 mg de trimetoprima + 400 mg de sulfametoxazol/5 ml",
+      "administration": "V.O.; E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5% y 10%.",
+      "finalConcentration": "1,6 mg/mL.",
+      "infusionRate": "No menor a 60 min. con BIC.",
+      "dose": "Dosis expresadas en base a la trimetoprima Infecciones leves y moderadas: Niños: 8-12 mg/kg/día cada 12 hs, dosis máxima: 320 mg/día; Adultos: 160 mg cada 12 hs, dosis máxima 640 mg/día. Infecciones severas, Pneumocystis jirovecii, stenotrophomona, meningitis : 20 mg/kg/día cada 6 hs, dosis máxima E.V.: 240 mg/dosis cada 6 hs, V.O.: 320 mg/dosis cada 6 hs. Profilaxis: 5 mg/kg/día 3 veces por semana, dosis máxima 160 mg. Profilaxis infecciones urinarias: 2 mg/kg/día en una dosis diaria nocturna.",
+      "notes": "Ampollas E.V. no deben ser administradas sin diluir. Interacciones: fenitoína, rifampicina (aumenta los niveles de estas drogas); metronidazol (potencia la toxicidad hematológica del metronidazol); ciclosporina (potencia la nefrotoxicidad de la ciclosporina)."
+    },
+    "neonatal": {
+      "dose": "Evitar < 2 meses salvo indicación vital; dosis según NNU.",
+      "administration": "VO/IV."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- No aplica.\n\n## Solución diluida (a administrar)\n\n- 2 hs a T° amb. Prepararlo inmediatamente antes de su empleo.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
+  "adverseEffects": "## Efectos adversos\n\nReacciones de hipersensibilidad (sobre todo dermatológicas), disturbios gastrointestinales (náuseas, vómitos), discrasias sanguíneas. Toxicidad renal (en pacientes con fallo renal previo). Hepatitis, colestasis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Trimetoprima + Sulfametoxazol (cód. 0902, ATC J01EA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-004",
+  "title": "Vía periférica en neonato",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Canalizar catéter venoso periférico en neonato de 500 g a 2500 g (día 0–30) con técnica asséptica no táctil, calibre 24–26 G, máximo dos intentos por operador y vigilancia estricta de extravasación.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación, identificación (dos identificadores), peso exacto y prescripción; evaluar si el acceso puede ser UVC/PICC antes de periférica en RN < 1000 g con tratamiento prolongado.\n2. Seleccionar sitio según peso: dorso de mano/pie, antebrazo o tobillo; evitar cuero cabelludo salvo indicación institucional específica; no usar extremidad con UAC ipsilateral si protocolo lo contraindica.\n3. Mantener termorregulación bajo radiante o incubadora; monitorizar FC y SatO₂ durante el procedimiento.\n4. Realizar higiene de manos (momento 2 OMS); preparar material estéril; segundo operador para contención suave sin comprimir tórax.\n5. Aplicar torniquete suave con gasa o torniquete neonatal 5–10 cm proximal; palpar vena con transiluminador o visualización directa si disponible.\n6. Desinfectar piel con antiséptico según protocolo institucional (< 2 meses: clorhexidina acuosa 0,5% o povidona yodada según guía local; ≥ 2 meses: clorhexidina alcohólica si autorizada); fricción circular; secar ≥ 30 s.\n7. Puncionar con ángulo 10–20°; avanzar catéter 24–26 G hasta reflujo de sangre; retirar torniquete; fijar con apósito transparente sin comprimir.\n8. Conectar equipo microgotero o jeringa bomba; verificar infusión sin resistencia y ausencia de edema peripunción.\n9. Registrar fecha, hora, sitio, calibre, número de intentos, operador y solución infundida.\n10. Si fracasa: máximo dos intentos por operador; escalar a compañero experimentado o acceso central (UVC/PICC/intraóseo en emergencia).\n11. Revisar cada hora en RN < 1500 g y cada turno en > 1500 g: color, temperatura, edema, eritema y funcionamiento.\n12. Retirar al finalizar tratamiento, ante extravasación o si catéter > 72–96 h sin necesidad clínica.\n\n## Fundamentación científica\n\n### Población y alcance\n\nExclusivo **neonatos día 0–30**, **500 g–2500 g**. La vía periférica en prematuros tiene alto riesgo de extravasación y duración limitada; no equiparar con acceso pediátrico en > 30 días.\n\n### Indicaciones\n\n- Administración de medicación o fluidos IV de corta duración.\n- Toma de muestras sanguíneas cuando UVC/UAC no disponible.\n- Puente temporal mientras se canaliza acceso central.\n\n### Contraindicaciones relativas\n\n- RN < 750 g con nutrición parenteral prolongada prevista (preferir UVC/PICC).\n- Fármacos vesicantes, osmóticos o vasoactivos concentrados (requieren acceso central).\n- Infección cutánea, linfedema o punciones previas fallidas en la misma extremidad.\n\n### Evidencia y recomendaciones\n\n> **OMS (2024):** bundle periférico: higiene de manos, antiséptico en piel, máximo dos intentos por operador, fijación y retiro precoz (WHO, 2024).\n\n> **VON:** en prematuros < 1500 g la extravasación de soluciones hiperosmolar es causa frecuente de lesión tisular; preferir acceso central para NP (Vermont Oxford Network).\n\n### Selección de calibre y sitio\n\n| Peso | Calibre | Sitio preferido |\n| --- | --- | --- |\n| 500–1000 g | 26–24 G | Dorso mano/pie, tobillo |\n| 1000–1500 g | 24 G | Dorso mano/pie, antebrazo |\n| 1500–2500 g | 24 G | Antebrazo, dorso mano |\n\n| Evitar | Motivo |\n| --- | --- |\n| Cuero cabelludo | Riesgo hemorrágico y embolia aérea (solo protocolo específico) |\n| Pliegue antecubital | Flexión y oclusión |\n| Misma extremidad de UAC | Compromiso vascular |\n\n### Criterios de retiro inmediato\n\n- Extravasación (edema, blanqueamiento, endurecimiento cutáneo).\n- Flebitis o eritema progresivo.\n- Mal funcionamiento u oclusión.\n- Finalizada indicación IV.\n\n### Protocolo de extravasación neonatal\n\n1. Detener infusión; no retirar aguja hasta evaluar.\n2. Aspirar residual si posible; retirar catéter.\n3. Elevar extremidad; aplicar compresa fría (soluciones irritantes) o caliente (fármacos vasoconstrictores) según protocolo del fármaco.\n4. Antidoto específico si existe (p. ej. hialuronidasa según protocolo institucional).\n5. Documentar y escalar a neonatólogo; valorar imagen si extensa.\n\n### Complicaciones — avisar de inmediato\n\n- Extravasación de nutrición parenteral, calcio o fármacos vasoactivos.\n- Necrosis cutánea o síndrome compartimental.\n- Infección del sitio o bacteriemia.\n- Hematoma extenso o compromiso vascular distal.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Prevention of extravasation injury in very low birth weight infants.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "O'Grady NP, et al. CDC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Prevención de IAAS y accesos vasculares en UCI.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    }
+  ]
+}

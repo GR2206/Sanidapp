@@ -1,0 +1,59 @@
+{
+  "id": "fa-001",
+  "name": "Fibrilação atrial (FA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **fibrilação atrial** é a arritmia sustentada mais frequente na prática clínica, caracterizada por ativação atrial desorganizada e resposta ventricular irregular. Na emergência pode debutar como palpitações, dispneia, dor torácica, síncope ou achado incidental. Diferenciar **FA de novo**, FA conhecida descompensada e flutter atrial. Sempre avaliar estabilidade hemodinâmica: em paciente instável (hipotensão, edema agudo de pulmão, isquemia miocárdica aguda) procede **cardioversão elétrica urgente**.\n\nEm paciente estável busca-se causa reversível (sepse, hipocalemia, hipertireoidismo, álcool, TEP). O controle da frequência (betabloqueadores, bloqueadores de cálcio não dihidropiridínicos, digoxina conforme contexto) ou ritmo (cardioversão farmacológica ou elétrica programada) depende do tempo de evolução e comorbidades. A **anticoagulação** decide-se com escalas CHA₂DS₂-VASc e HAS-BLED; em FA > 48 h ou desconhecida, anticoagular antes da cardioversão salvo emergência.\n\n**Enfermagem**: monitor cardíaco contínuo, registro de FC e PA, administração de antiarrítmicos conforme protocolo, vigilância de bradicardia ou QT prolongado, e orientação sobre adesão à anticoagulação e acompanhamento ambulatorial.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Atrial Fibrillation Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Consenso de arritmias.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association / ACC. AF management guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "clinicalBoxes": [
+    {
+      "title": "CHA₂DS₂-VASc — risco tromboembólico",
+      "content": "Um ponto por cada item (máx. 9 em mulher, 8 em homem):\n**C** — IC ou disfunção VI · **H** — HAS · **A₂** — idade ≥ 75 (2 pts) · **D** — diabetes · **S₂** — AVC/AIT/TE prévio (2 pts) · **V** — doença vascular · **A** — idade 65–74 · **Sc** — sexo feminino.\n\n**0 (homem) / 1 (mulher):** sem anticoagulação. **1 (homem):** considerar. **≥ 2:** anticoagulação recomendada salvo contraindicação."
+    },
+    {
+      "title": "HAS-BLED — risco de sangramento",
+      "content": "Um ponto por item: **H** — HAS não controlada · **A** — renal/hepática anormal · **S** — AVC prévio · **B** — sangramento prévio ou predisposição · **L** — INR lábil (ACO) · **E** — idade > 65 · **D** — fármacos (AAS, AINE) ou álcool.\n\n≥ 3: alto risco de sangramento — não contraindica anticoagulação, mas exige vigilância e correção de fatores modificáveis."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "amd-001",
+      "label": "Amiodarona"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "war-001",
+      "label": "Varfarina"
+    }
+  ]
+}

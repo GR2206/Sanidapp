@@ -1,0 +1,35 @@
+{
+  "id": "son-p001",
+  "title": "Colocação de sonda vesical pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Colocar sonda vesical em criança somente com indicação justificada, técnica estéril, calibre conforme idade, contenção segura e circuito fechado para prevenir ITU associada à sonda.",
+  "body": "## Passos a realizar\n\n1. Verificar indicação, identificar o paciente (dois identificadores) e confirmar prescrição (tipo de sonda, calibre, duração prevista).\n2. Explicar o procedimento à família; organizar contenção terapêutica segura (mínimo duas pessoas) e avaliar analgesia.\n3. Realizar higienização das mãos (momento 2 OMS) e abrir kit estéril em superfície limpa.\n4. Posicionar a criança: menina em decúbito dorsal com pernas em posição de rã; menino em dorsal com pênis a 90°.\n5. Desinfetar o meato uretral com antisséptico do centro para a periferia; aguardar secagem conforme protocolo.\n6. Lubrificar a sonda 2–3 cm e introduzir suavemente sem forçar até obter retorno de urina clara.\n7. Inflar o balão com o volume indicado pelo fabricante conforme calibre.\n8. Conectar a bolsa de drenagem em circuito fechado; fixar a sonda sem tensão na coxa ou abdome.\n9. Colocar a bolsa abaixo do nível da bexiga; não apoiá-la no chão.\n10. Registrar hora, calibre, volume do balão, aspecto da urina inicial e responsável.\n11. Vigiar a cada turno obstrução, vazamentos, hematúria, febre ou irritabilidade; reavaliar necessidade da sonda diariamente.\n\n## Fundamentação científica\n\n### Indicações\n\n- Retenção urinária aguda com dor, globo vesical ou risco de dano renal.\n- Monitorização estrita de balanço hídrico em paciente crítico.\n- Cirurgia abdominal, pélvica ou urológica conforme prescrição.\n- Manejo de bexiga neurogênica (coordenar com urologia).\n\n### Evidência e recomendações\n\n> **Prevenção ITU-SV (SATI/SADI 2024):** não colocar sonda de rotina em pediatria. Avaliar alternativas (saco coletor, sondagem intermitente). Reavaliar necessidade diariamente e retirar no primeiro momento clinicamente possível (Cornistein et al., 2024; Lo et al., 2022).\n\n### Contraindicações relativas\n\n- Trauma uretral suspeito ou confirmado.\n- Sangramento uretral ativo ou impossibilidade de identificar meato.\n- Estenose uretral ou malformação não avaliada pela urologia.\n- Em **menino:** se houver resistência ao avanço, **não forçar** — consultar urologia.\n\n### Seleção de calibre\n\n| Idade / peso aproximado | Calibre (Fr) sugerido |\n| --- | --- |\n| RN prematuro / RN | 5–6 Fr |\n| Lactente | 6–8 Fr |\n| Criança (1–8 anos) | 8–10 Fr |\n| Criança maior / adolescente | 10–12 Fr |\n\n### Técnica diferenciada por sexo\n\n- **Menina:** meato logo abaixo do clitóris; não confundir com introito vaginal.\n- **Menino:** comprimento orientativo em lactente: 4 cm + (idade em anos × 2) cm; confirmar com retorno de urina.\n\n### Cuidados posteriores e critérios de retirada\n\n- Higiene perineal diária com água e sabão neutro; sem antissépticos de rotina no meato.\n- Em lactentes: barreira cutânea por risco de dermatite por umidade.\n- Retirar ao resolver indicação, diante de suspeita de ITU-SV ou obstrução recorrente.\n\n### Complicações — interromper e comunicar\n\n- Impossibilidade de passar a sonda ou sangramento uretral abundante.\n- Urina purulenta com febre (suspeita ITU-SV).\n- Ausência de diurese com dor abdominal ou globo vesical.\n- Sonda na vagina (menina): retirar e recolocar com técnica estéril.\n- Trauma uretral ou hematúria franca persistente.",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a sonda vesical. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Guias e consensos (ITU-SV, prevenção de IRAS).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "Society of Pediatric Urology — recursos de cuidados de cateteres e malformações urológicas.",
+      "url": "https://www.spuonline.org/"
+    }
+  ]
+}

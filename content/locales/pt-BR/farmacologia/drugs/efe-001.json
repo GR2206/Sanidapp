@@ -1,0 +1,45 @@
+{
+  "id": "efe-001",
+  "name": "Efedrina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "executiveSummary": "Simpaticomimético misto para hipotensão intraoperatória e broncoespasmo histórico.",
+  "indications": "## Indicações\n\n- Hipotensão durante anestesia espinhal/epidural.\n- Bradicardia com hipotensão em contexto anestésico.\n\n## Precauções\n\n- Taquicardia, HAS. Uso limitado em cardiopatia isquêmica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola 30–50 mg/mL.",
+      "dose": "5–10 mg IV em bolus; repetir a cada 3–5 min.",
+      "administration": "IV lenta."
+    },
+    "pediatrico": {
+      "dose": "0,1–0,2 mg/kg IV em bolus.",
+      "administration": "IV."
+    },
+    "neonatal": {
+      "dose": "Uso restrito na UCIN.",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Pronto para uso.",
+  "adverseEffects": "## Efeitos adversos\n\n- Taquicardia, palpitações, ansiedade, HAS.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

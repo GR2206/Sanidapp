@@ -1,0 +1,49 @@
+{
+  "id": "int-001",
+  "name": "Acute Poisoning",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Acute poisoning** is exposure to a substance in a toxic dose via oral, inhalational, cutaneous, or parenteral routes. In Argentine emergency departments, frequent cases include **drug overdoses** (benzodiazepines, opioids, paracetamol, antidepressants), **ethyl alcohol**, carbon monoxide, organophosphates, and drugs of abuse. The priority is the **ABCDE approach**: airway, breathing, circulation, capillary blood glucose, and temperature.\n\nIdentify toxidromes: **opioid** (miosis, respiratory depression → naloxone), **anticholinergic** (dry skin, mydriasis, urinary retention), **cholinergic** (sialorrhea, bronchorrhea, miosis → atropine), and **sedative-hypnotic** (CNS depression). In **paracetamol overdose**, calculate using the Rumack-Matthew nomogram and administer N-acetylcysteine if indicated. **Activated charcoal** is indicated only for recent ingestions (< 1–2 h) and with a protected airway. Contact the institutional or national toxicology center.\n\n**Nursing:** preserve samples (vomitus, containers), do not induce vomiting, monitor level of consciousness and respiratory rate, prepare antidotes according to protocol (naloxone, flumazenil with caution, glucose), and monitor for agitation or seizures during withdrawal.",
+  "relatedDrugs": [
+    {
+      "drugId": "nal-001",
+      "label": "Naloxone"
+    },
+    {
+      "drugId": "flm-001",
+      "label": "Flumazenil"
+    },
+    {
+      "drugId": "atr-001",
+      "label": "Atropine"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Sodium bicarbonate"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrose (glucose)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American College of Medical Toxicology. ACMT practice guidelines.",
+      "url": "https://www.acmt.net/"
+    },
+    {
+      "citation": "Argentine Toxicology Information Center (CITBA / reference hospitals).",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "Poison Control / WHO. Guidelines for poison control.",
+      "url": "https://www.who.int/health-topics/poisoning"
+    }
+  ]
+}

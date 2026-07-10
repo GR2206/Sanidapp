@@ -1,0 +1,46 @@
+{
+  "id": "nif-001",
+  "name": "Nifedipino",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Vasodilatador arterial. Bloqueante de los canales de calcio.",
+  "indications": "## Indicaciones principales\n\nVasodilatador arterial. Bloqueante de los canales de calcio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos liberación prolongada 30 y 60 mg. Cápsulas 10 mg.",
+      "dose": "HTA: 30–60 mg/día VO LP. Tocolisis/obstétrica: según protocolo de maternidad.",
+      "administration": "VO. No triturar ni masticar formulaciones LP."
+    },
+    "pediatrico": {
+      "dose": "Comprimidos de liberación controlada: 0,25-0,5 mg/kg/día, cada 12-24 hs; dosis máxima: 3 mg/kg/día (hasta 120 mg/día). Adultos: Inicial: comprimidos de liberación controlada: 30 a 60 mg/día cada 24 hs; dosis máxima: 120 mg/día (comprimidos de liberación controlada).",
+      "administration": "V.O. S.L.",
+      "presentation": "Comprimidos de liberación controlada: 30 mg",
+      "notes": "Interacciones: aumenta los efectos adversos de los betabloqueantes; aumenta la concentración sérica de la digoxina; la rifampicina disminuye niveles de nifedipina; con ciclosporina se exacerba la hiperplasia gingival."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nReacciones de calor, cefalea, náuseas, reacciones cutáneas, edemas en miembros inferiores, taquicardia, palpitaciones, hiperplasia gingival.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — NIFEdipina (cód. 0240, ATC C08CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Ginecología y Obstetricia. Protocolos obstétricos.",
+      "url": "https://www.sag.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

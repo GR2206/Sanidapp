@@ -1,0 +1,57 @@
+{
+  "id": "fnt-001",
+  "name": "Fentanilo",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.4",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anestésico general opiode, mecanismo de acción similar a la morfina. Coadyuvante de la anestesia general.",
+  "indications": "## Indicaciones principales\n\nAnestésico general opiode, mecanismo de acción similar a la morfina. Coadyuvante de la anestesia general.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla 50 mcg/mL.",
+      "dose": "Bolus 25–100 mcg IV; infusión 0,5–2 mcg/kg/h.",
+      "administration": "IV lenta o infusión."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas: 0, 05 mg/ml",
+      "administration": "E.V. PERIDURAL",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "50 mcg/mL.",
+      "infusionRate": "En push no menor a 30 seg.",
+      "dose": "1 - 12 años: 1 - 2 µg/kg/dosis, &gt; 12 años y adultos: 0,5 - 1 µg/kg/dosis Intubación endotraqueal: 5-10 µg/kg Pacientes en A.R.M.: infusión continua: &lt; 50 kg: 1µg/kg/hora, &gt; 50 kg: 50 µg/hora.",
+      "notes": "USO EXCLUSIVO DEL ESPECIALISTA. Si pasa en goteo puro se debe proteger de la luz. Push: administrar en 3-5 minutos. La sobredosis puede ser tratada con naloxona. Equivalencia analgésica: 1 µg de fentanilo = 0,1 mg de morfina. Ver Guía práctica para manejo analgosedación y su descenso en salas de cuidados intermedios y moderados."
+    },
+    "neonatal": {
+      "dose": "0,5–2 mcg/kg bolus; infusión según escala de dolor NNU.",
+      "administration": "IV en bomba."
+    }
+  },
+  "stability": "## General\n\n- Dilución 24 h según prospecto.\n\n## Cartilla pediátrica\n\n- 24 hs una vez diluido.",
+  "adverseEffects": "## Efectos adversos\n\nApnea, bradicardia, tórax rígido o leñoso. Ver apartado analgésicos opiodes",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — fentaNILo Citrato (cód. 0337, ATC N01AH).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "vls-001",
+  "name": "Valsartana",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "BRA para HAS, IC pós-infarto e intolerância a IECA.",
+  "indications": "## Indicações\n\n- Hipertensão arterial.\n- Insuficiência cardíaca em pacientes intolerantes a IECA (pós-IAM).\n- Pós-infarto com disfunção ventricular esquerda.\n\n## Precauções\n\n- Contraindicado na gestação. Não iniciar concomitantemente com IECA.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 80 e 160 mg.",
+      "dose": "HAS: 80–320 mg/dia VO. IC pós-IAM: 40 mg a cada 12 h, titular até 160 mg a cada 12 h.",
+      "administration": "VO com ou sem alimentos."
+    },
+    "pediatrico": {
+      "dose": "1,3 mg/kg/dia VO (máx. 160 mg/dia) em 1–2 doses.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n- Hipotensão, hipercalemia, tontura, elevação de creatinina.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

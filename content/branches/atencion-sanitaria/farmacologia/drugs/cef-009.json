@@ -1,0 +1,52 @@
+{
+  "id": "cef-009",
+  "name": "Cefalotina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalosporina de primera generación. Profilaxis quirúrgica, tratamiento de infecciones de tracto respiratorio, oído medio, piel y tejidos blandos causadas por bacterias susceptibles: cocos gram positivos.",
+  "indications": "## Indicaciones principales\n\nCefalosporina de primera generación. Profilaxis quirúrgica, tratamiento de infecciones de tracto respiratorio, oído medio, piel y tejidos blandos causadas por bacterias susceptibles: cocos gram positivos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA conteniendo 1 g (Arecemin, Cefalotina Larjan, Drawer, Dosagluc, Cefade, Richet).",
+      "reconstitution": "5 mL de AD. Conc: 200 mg/mL.",
+      "diluent": "1-2 g en 100 mL de SF o DX 5%.",
+      "finalConcentration": "10-20 mg/mL.",
+      "administration": "IV directa: Sí. Reconst. con 10 mL AD, SF o DX 5% y admin. en 3-5 min. IV intermitente: Sí. Diluir 1 g en 100 mL de SF o DX 5% y admin. en 30-60 min.",
+      "notes": "Si el contenido del frasco no se disuelve por completo, agregar AD (0,2-0,5 mL) y agitar vigorosamente. El oscurecimiento de la solución a T° amb no afecta la eficacia. Es posible la administración IM."
+    },
+    "pediatrico": {
+      "presentation": "F.A.: 1000 mg",
+      "administration": "E.V.",
+      "diluent": "Salina 0,9% o Dext. 5%.",
+      "finalConcentration": "100 mg/mL.",
+      "infusionRate": "3 a 5 min.",
+      "dose": "100 mg/kg/día cada 6-8 hs. Adultos: 500-2000 mg cada 6 hs. Dosis prequirúrgica en adultos: 1 - 2 g. Dosis máxima: 12 g.",
+      "notes": "Asociada con aminoglucósidos puede aumentar riesgo de nefrotoxicidad."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 12 hs a T° amb, 96 hs refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb.\n\n## Cartilla pediátrica\n\n- 96 h en heladera; 12 h a T° ambiente.",
+  "adverseEffects": "## Efectos adversos\n\nReacciones alérgicas, tromboflebitis , trombocitopenia, leucopenia, nefrotoxicidad.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — cefALOTina sódica (cód. 0035, ATC J01DB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

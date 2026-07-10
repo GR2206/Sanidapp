@@ -1,0 +1,70 @@
+{
+  "id": "dop-001",
+  "name": "Dopamina",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Efecto inotrópico positivo. Aumenta flujos renal, coronario y cerebral. Incrementa la diuresis, dosis dependiente.",
+  "indications": "## Indicaciones principales\n\nEfecto inotrópico positivo. Aumenta flujos renal, coronario y cerebral. Incrementa la diuresis, dosis dependiente.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
+      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
+      "diluent": "SG 5% o NaCl 0,9%.",
+      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
+      "dose": "2–20 mcg/kg/min titulado según respuesta hemodinámica.",
+      "infusionRate": "Titular según TA y perfusión",
+      "administration": "IV continua en bomba; vía central preferida.",
+      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
+      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+    },
+    "pediatrico": {
+      "presentation": "Ampollas de 5 ml: 40 mg/ml",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Ringer o Dext. 5%.",
+      "finalConcentration": "3,2 mg/mL (hasta 6 mg/mL en caso de restricción hídrica).",
+      "infusionRate": "Según indicación médica, con BIC.",
+      "dose": "2-20 µg/kg/minuto por infusión continua. Dosis máxima: 50 µg/kg/minuto.",
+      "notes": "Diluir con solución fisiológica o dextrosa 5 % para su administración. Incompatible con soluciones alcalinas. Los efectos cardíacos de la dopamina son antagonizados por los beta-bloqueantes y la vasoconstricción periférica causada por altas dosis de dopamina es antagonizada por bloqueantes alfa-adrenérgicos. La administración E.V de difenilhidantoína en pacientes que están recibiendo dopamina produce hipotensión y bradicardia."
+    },
+    "neonatal": {
+      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
+      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
+      "diluent": "SG 5% o NaCl 0,9%.",
+      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
+      "dose": "2–10 mcg/kg/min en NNU; monitorización estrecha.",
+      "infusionRate": "Titular según TA y perfusión",
+      "administration": "IV continua en bomba; vía central preferida.",
+      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
+      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+    }
+  },
+  "stability": "## General\n\n- Proteger de la luz; estabilidad 24 h según dilución institucional.\n\n## Cartilla pediátrica\n\n- 24 hs una vez diluida.",
+  "adverseEffects": "## Efectos adversos\n\nTaquicardia, palpitaciones, hipotensión, vasoconstricción, cefalea, ansiedad, confusión, debilidad, náuseas, vómitos, disnea, midriasis.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — DOPamina clorhidrato (cód. 0080, ATC C01CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

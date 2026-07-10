@@ -1,0 +1,27 @@
+{
+  "id": "sep-001",
+  "title": "Sepse em adulto",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Identificar precocemente a sepse, iniciar antibiótico na primeira hora, medir lactato e monitorizar perfusão e função respiratória.",
+  "body": "## Passos a realizar\n\n1. Diante de suspeita clínica, ativar o protocolo institucional de sepse e comunicar à equipe médica imediatamente.\n2. Iniciar monitorização contínua: FC, PA, FR, SpO₂, temperatura e diurese.\n3. Administrar oxigenoterapia para manter SpO₂ ≥ 92% (ajustar conforme comorbidades).\n4. Canalizar acesso vascular periférico e, se necessário, central.\n5. Coletar culturas **antes** do antibiótico somente se não retardar seu início.\n6. Administrar antibiótico de amplo espectro empírico na **primeira hora** desde o reconhecimento.\n7. Solicitar lactato sérico; repetir se o valor inicial for > 2 mmol/L.\n8. Infundir cristaloides guiados pela resposta hemodinâmica se houver hipoperfusão.\n9. Reavaliar o paciente a cada 30–60 minutos: perfusão, balanço hídrico e resposta ao tratamento.\n10. Registrar tempos críticos (reconhecimento, culturas, antibiótico, fluidos) e comunicar deterioração imediatamente.\n\n## Fundamentação científica\n\n### Indicações\n\nSíndrome de disfunção orgânica potencialmente fatal causada por resposta desregulada do hospedeiro à infecção (definição Sepsis-3).\n\n### Critérios de suspeita (enfermagem / primeiro contato)\n\n- Alteração do estado mental, febre ou hipotermia.\n- Taquicardia, taquipneia ou hipotensão.\n- Oligúria, má perfusão periférica ou lactato elevado.\n- Foco infeccioso provável (respiratório, urinário, abdominal, pele, dispositivos).\n\n### Evidência e recomendações\n\n> **Surviving Sepsis Campaign 2021 (Evans et al.):** Diante de suspeita de sepse, não retardar antibiótico nem reanimação por exames complementares. Obter culturas antes do antibiótico se não retardar seu início por mais de 45 minutos.\n\n> **SATI — Comitê de Infectologia Crítica:** A detecção precoce e o cumprimento do bundle de sepse (culturas, antibiótico, lactato, fluidos) são responsabilidade transversal da equipe, com papel central da enfermagem na vigilância e registro.\n\n### Papel da enfermagem\n\n- Detecção precoce e registro sistemático de sinais de alarme.\n- Cumprimento dos bundles de sepse (culturas, antibiótico, lactato, fluidos).\n- Vigilância de perfusão, balanço hídrico e resposta ao tratamento.\n- Comunicação imediata à equipe médica diante de deterioração.\n\n### Complicações\n\n- Choque séptico refratário.\n- Insuficiência respiratória aguda.\n- Lesão renal aguda e disfunção multissistêmica.\n- Atraso no antibiótico ou reanimação volêmica inadequada.",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "Surviving Sepsis Campaign — Guias e recursos oficiais.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Terapia Intensiva (SATI). Comitê de Infectologia Crítica — Guias e consensos.",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "Rhodes A, Evans LE, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensive Care Med. 2017;43(3):304-377.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28101605/"
+    }
+  ]
+}

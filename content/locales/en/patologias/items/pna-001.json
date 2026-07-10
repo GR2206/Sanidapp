@@ -1,0 +1,53 @@
+{
+  "id": "pna-001",
+  "name": "Community-Acquired Pneumonia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Community-acquired pneumonia (CAP)** is an acute infection of the lung parenchyma acquired outside of the hospital setting. In the emergency department, it is classified according to severity using scales such as **CURB-65** or the **Pneumonia Severity Index (PSI)** to determine outpatient, inpatient, or ICU management. The classic presentation includes fever, productive cough, pleuritic chest pain, and consolidation on auscultation; in older adults, it may present as confusion or desaturation without a marked febrile response.\n\nEvaluation includes a chest X-ray (or thoracic ultrasound if available), complete blood count, renal function tests, oximetry, and blood cultures in severe cases. **Empirical antibiotic therapy** is adjusted according to local guidelines and risk factors (COPD, alcoholism, recent institutionalization). Frequent regimens include: a beta-lactam + macrolide or a respiratory fluoroquinolone in patients with comorbidities. Administer oxygen if SpO₂ < 90–92% and reevaluate within 48–72 hours.\n\n**Nursing:** monitor temperature and SpO₂, encourage hydration and early mobilization, instruct on effective coughing techniques, provide education on completing the antibiotic course, and advise on pneumococcal and influenza vaccination. Implement isolation protocols only under suspicion of an airborne pathogen according to department guidelines.",
+  "clinicalBox": {
+    "title": "CURB-65 — Severity Assessment in CAP",
+    "content": "One point for each criterion:\n**C** — Confusion (new-onset or GCS ≤ 14 / altered mental status)\n**U** — Urea > 19 mg/dL (or BUN > 20 mg/dL)\n**R** — Respiratory rate ≥ 30/min\n**B** — Blood pressure (systolic < 90 mmHg or diastolic ≤ 60 mmHg)\n**65** — Age ≥ 65 years\n\n**Score 0–1:** Outpatient management · **Score 2:** Consider hospitalization · **Score 3–5:** Inpatient admission; ≥ 4 evaluate for ICU."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxone"
+    },
+    {
+      "drugId": "azi-001",
+      "label": "Azithromycin"
+    },
+    {
+      "drugId": "lev-001",
+      "label": "Levofloxacin"
+    },
+    {
+      "drugId": "pip-001",
+      "label": "Piperacillin/tazobactam"
+    },
+    {
+      "drugId": "van-001",
+      "label": "Vancomycin"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Infectious Diseases Society of America / American Thoracic Society. Guidelines for CAP in adults.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Argentine Society of Infectious Diseases (SADI). CAP recommendations.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "British Thoracic Society. CAP guideline.",
+      "url": "https://www.brit-thoracic.org.uk/"
+    }
+  ]
+}

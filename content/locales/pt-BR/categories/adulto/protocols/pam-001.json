@@ -1,0 +1,27 @@
+{
+  "id": "pam-001",
+  "title": "Colocação de linha arterial (PAM)",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Canalizar cateter arterial para monitorização invasiva da pressão arterial média (PAM), com teste de Allen favorável, técnica de Seldinger estéril e sistema transdutor calibrado ao eixo flebostático.",
+  "body": "## Passos a realizar\n\n1. Identificar o paciente e verificar coagulação se aplicável; realizar **teste de Allen** favorável antes de canalizar artéria radial.\n2. Realizar higienização das mãos e barreira estéril; posicionar o punho estendido sobre suporte e palpar pulso arterial.\n3. Desinfetar a pele com clorexidina alcoólica; **deixar secar**.\n4. Puncionar a 30–45° até refluxo **pulsátil**; introduzir guia, retirar agulha e avançar cateter sobre guia (técnica de Seldinger).\n5. Retirar guia; conectar a sistema pré-purgado **sem bolhas**.\n6. Fixar cateter com sutura ou dispositivo adesivo; aplicar curativo transparente.\n7. Conectar transdutor; colocar ao **nível do eixo flebostático** (4º espaço intercostal, linha axilar média).\n8. Realizar **zero** do transdutor com o paciente em posição padrão.\n9. Confirmar onda arterial no monitor e leitura de PAM coerente com a clínica.\n10. Ajustar pressurizador a **300 mmHg** para fluxo contínuo (3 ml/h conforme protocolo).\n11. Vigiar a cada turno ponto de inserção, perfusão distal (cor, temperatura, pulso) e curativo.\n12. Realizar zero no início do turno, após mobilização ou leituras duvidosas; retirar ao finalizar indicação ou diante de isquemia/infecção.\n\n## Fundamentação científica\n\n### Indicações\n\n- Instabilidade hemodinâmica ou choque (sepse, hemorrágico, etc.).\n- Uso de fármacos vasoativos que requerem titulação estreita.\n- Necessidade de gasometrias arteriais frequentes.\n- Monitorização de PAM objetivo em UTI ou perioperatório crítico.\n\nA **monitorização invasiva da pressão arterial (PAI)** permite registrar de forma contínua a pressão sistólica, diastólica e **média (PAM)**, além de facilitar gasometrias arteriais seriadas.\n\n### Seleção do sítio\n\n| Ordem | Sítio | Notas |\n| --- | --- | --- |\n| 1ª opção | **Artéria radial** | Acessível; requer **teste de Allen** favorável |\n| 2ª opção | Artéria pediosa dorsal | Alternativa com circulação colateral |\n| Urgência / choque | **Femoral** | Maior risco infeccioso; avaliar retirada precoce |\n| Evitar se possível | Braquial / ulnar | Circulação colateral limitada |\n\n### Teste de Allen (antes da radial)\n\n1. Comprimir ambas as artérias radial e ulnar simultaneamente.\n2. O paciente abre e fecha a mão até palidez.\n3. Soltar a ulnar: a mão deve **reperfundir em < 10 segundos**.\n4. Se anormal, escolher outro sítio ou solicitar avaliação médica.\n\n### Evidência e recomendações\n\n> **Surviving Sepsis Campaign 2021:** No choque séptico, a PAM é um objetivo de perfusão (usualmente ≥ 65 mmHg).\n\n> **Scheer et al. 2002:** Complicações de cateteres arteriais periféricos; vigilância da perfusão distal é essencial.\n\n### Material\n\n- Kit de cateter arterial (calibre 20 G radial habitual).\n- Técnica de **Seldinger**: agulha, guia, dilatador, cateter.\n- Clorexidina alcoólica 0,5–2%.\n- Sistema fechado: transdutor, pressurizador (300 mmHg), SF contínuo.\n\n> Se a inserção foi de urgência sem assepsia ótima, recanalizar em sítio distinto dentro de **48 h** conforme protocolo institucional.\n\n### Complicações — comunicar imediatamente\n\n- Palidez, dor ou parestesias distais (isquemia).\n- Sangramento ativo ou hematoma em expansão.\n- Onda amortecida ou damping (bolhas, coágulos, malposição).\n- Febre ou eritema no sítio de inserção (suspeita de infecção).",
+  "bibliography": [
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — objetivos hemodinâmicos e monitorização na sepse.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for prevention of BSI associated with intravascular catheters — Part 2 (CVC/ações assépticas aplicáveis). WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización SATI/SADI 2025 (princípios de prevenção em dispositivos intravasculares).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Scheer BV, Perel A, Pfeiffer UJ, et al. Clinical review: Complications and risk factors of peripheral arterial catheters used for hemodynamic monitoring in anesthesia and intensive care medicine. Crit Care. 2002.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493067/"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "cap-001",
+  "name": "Captopril",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Short-acting ACE inhibitor; useful for sublingual hypertensive crisis and management of heart failure (HF) and hypertension (HTN) in the emergency setting.",
+  "indications": "## Indications\n\n- Arterial hypertension and hypertensive crisis (sublingual according to protocol).\n- Heart failure.\n- Diabetic nephropathy.\n\n## Precautions\n\n- Contraindicated in pregnancy and patients with a history of angioedema.\n- Monitor blood pressure, renal function, and potassium levels.\n\n> Adjust per institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "25 and 50 mg tablets.",
+      "dose": "Chronic HTN: 12.5–50 mg PO 2–3 times/day. Crisis: 25 mg sublingual, repeat according to protocol.",
+      "administration": "PO or sublingual (for hypertensive crisis)."
+    },
+    "pediatrico": {
+      "dose": "0.3–0.5 mg/kg/dose PO every 8–24 h (protocol maximums apply).",
+      "administration": "PO."
+    },
+    "neonatal": {
+      "dose": "0.01–0.05 mg/kg/dose PO every 8–24 h according to cardiologist.",
+      "administration": "PO."
+    }
+  },
+  "stability": "## Stability\n\n- Tablets according to package insert. Protect from moisture.",
+  "adverseEffects": "## Effects\n\n- Hypotension, cough, hyperkalemia, rash, angioedema, taste disturbance.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Archivos sensibles para firma y publicación (no versionar)
+google-service-account.json
+*-firebase-adminsdk-*.json
+service-account*.json
+*.keystore
+credentials.json
+
+# Native: EAS genera android/ desde app.json en cada build (evita Gradle roto local)
+android/
+ios/

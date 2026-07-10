@@ -1,0 +1,41 @@
+{
+  "id": "iso-001",
+  "name": "Isossorbida mononitrato",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "translationReviewed": true,
+  "executiveSummary": "Nitrato de ação prolongada para angina crônica e insuficiência cardíaca.",
+  "indications": "## Indicações\n\n- Angina pectoris crônica estável.\n- Insuficiência cardíaca (coadjuvante em esquemas institucionais).\n- Profilaxia de angina no esforço.\n\n## Precauções\n\n- Hipotensão, cefaleia frequente no início. Contraindicado com inibidores de PDE-5 (sildenafil, etc.).\n- Intervalo livre de nitratos se usado várias vezes ao dia (tolerância).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos liberação prolongada 30, 60 e 120 mg.",
+      "dose": "30–120 mg/dia VO em 1–2 doses (formulação LP preferida).",
+      "administration": "VO. Não triturar comprimidos de liberação prolongada."
+    },
+    "pediatrico": {
+      "dose": "Uso pediátrico limitado; seguir protocolo cardiológico.",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula, proteger da umidade.",
+  "adverseEffects": "## Efeitos adversos\n\n- Cefaleia, hipotensão, tontura, rubor facial, taquicardia reflexa.",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Angina and heart failure guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

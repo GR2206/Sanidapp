@@ -1,0 +1,58 @@
+{
+  "id": "mep-001",
+  "name": "Metilprednisolona",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Anti-inflamatório e imunossupressor. Lesão medular. Tratamento de rejeição em glomerulopatias (lúpus, etc.).",
+  "indications": "## Indicações principais\n\nAnti-inflamatório e imunossupressor. Lesão medular. Tratamento de rejeição em glomerulopatias (lúpus, etc.).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Frasco 40–125 mg.",
+      "dose": "Asma: 60–125 mg E.V. EM em surto: 1 g/dia por 3–5 dias (protocolo).",
+      "administration": "E.V. lenta ou perfusão."
+    },
+    "pediatrico": {
+      "presentation": "F.A. liof.: 500 mg",
+      "administration": "E.V.",
+      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "125 mg/mL.",
+      "infusionRate": "20 a 60 minutos com BIC.",
+      "dose": "Anti-inflamatório e imunossupressor: E.V.: 30 mg/kg em uma dose, seguido de 15 - 30 mg/kg/dia ou 600 mg/m²/dia a cada 24 h durante 3 dias; Lesão medular: E.V.: 30 mg/kg seguido de 5,4 mg/kg/hora por 23 h; Tratamento de rejeição - glomerulopatias: E.V.: 10 mg/kg/dose durante 3 dias consecutivos, dose máxima: 1 g/dose; taquicardia ventricular - miocardite linfocítica silente: 30 mg/kg/dia em uma dose por 3 doses. Ver doses equivalentes de corticosteroides.",
+      "notes": "Reconstituição de F.A.: adicionar unicamente o diluente fornecido no envase ou água para injetável, é estável 48 h em temperatura ambiente. Infusão E.V.: diluir em solução fisiológica (preferentemente) ou dextrosa 5% em uma concentração recomendada de 2,5 - 20 mg/ml e administrar em 30 - 120 minutos. Push E.V.: máxima concentração recomendada 125 mg/ml. Para doses < 250 mg infundir em não menos de 5 minutos; doses ≥ 250 mg infundir em não menos de 30 minutos. Com altas doses pode requerer-se profilaxia antiácida. Ver considerações para uma corticoterapia segura. Ver atualização de corticosteroides."
+    },
+    "neonatal": {
+      "dose": "Uso restrito; esquemas pulmonares/DAH conforme UCIN.",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Geral\n\n- Reconstituir conforme bula.\n\n## Guia pediátrica\n\n- 48 h em temperatura ambiente uma vez reconstituída.",
+  "adverseEffects": "## Efeitos adversos\n\nHipertensão, hiperglicemia, úlcera péptica, miopatia, retardo do crescimento, cataratas, osteoporose, cataratas subcapsular posterior, síndrome cushingoide, alcalose hipocalêmica, edema, susceptibilidade aumentada às infecções, osteonecrose.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — metilprednisoLOna (cód. 0137, ATC H02AB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

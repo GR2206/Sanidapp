@@ -1,0 +1,40 @@
+{
+  "id": "olm-001",
+  "name": "Olmesartán",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-07-05",
+  "executiveSummary": "ARA-II para hipertensión arterial y combinaciones con diurético o calcioantagonista.",
+  "indications": "## Indicaciones\n\n- Hipertensión arterial esencial.\n- Esquemas combinados institucionales (olmesartán + HCTZ o amlodipino).\n\n## Precauciones\n\n- Contraindicado en embarazo. Enteropatía por olmesartán (rara, crónica).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 20 y 40 mg.",
+      "dose": "20–40 mg/día VO en dosis única.",
+      "administration": "VO con o sin alimentos."
+    },
+    "pediatrico": {
+      "dose": "0,3–1 mg/kg/día VO (6–16 años, según protocolo).",
+      "administration": "VO."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos\n\n- Mareos, hipotensión, hiperpotasemia, diarrea crónica (raro).",
+  "bibliography": [
+    {
+      "citation": "American Heart Association. Hypertension guidelines.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

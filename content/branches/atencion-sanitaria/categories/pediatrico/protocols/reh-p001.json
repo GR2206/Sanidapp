@@ -1,0 +1,27 @@
+{
+  "id": "reh-p001",
+  "title": "Rehidratación en gastroenteritis aguda",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Evaluar grado de deshidratación, priorizar rehidratación oral con SRO y reservar IV para deshidratación moderada-severa o intolerancia oral.",
+  "body": "## Pasos a realizar\n\n1. **Pesar al ingreso** para calcular volúmenes de rehidratación según peso.\n2. **Evaluar grado de deshidratación** con signos clínicos (estado general, ojos, mucosas, lágrimas, fontanela, diuresis, tiempo de llenado capilar).\n3. **Clasificar en Plan A, B o C** según grado de deshidratación y decidir manejo con el equipo médico.\n4. **Plan A (sin deshidratación):** aumentar líquidos orales (SRO, leche, agua), continuar alimentación habitual y educar sobre signos de alarma.\n5. **Plan B (moderada):** administrar **SRO 50–100 ml/kg en 4 horas** con cuchara o jeringa pequeña, frecuente y lenta; reevaluar cada 1–2 horas.\n6. Si hay **vómitos** durante Plan B: hacer pausas breves y reiniciar en pequeños volúmenes; escalar a Plan C si fracasa.\n7. **Plan C (severa o shock):** canalizar acceso vascular urgente y administrar **cristaloides IV 20 ml/kg** en bolos; reevaluar y repetir según respuesta.\n8. **Registrar entradas y salidas**: vómitos, diarrea, diuresis y líquidos administrados.\n9. **Monitorizar signos vitales** y vigilar hipoglucemia en lactantes.\n10. Cuando el paciente **tolera vía oral**, transicionar de IV a SRO de forma progresiva.\n11. Aplicar **aislamiento de contacto** si la etiología es infecciosa.\n\n## Fundamentación científica\n\n### Evaluación del grado de deshidratación\n\n| Signo | Sin / leve | Moderada | Severa |\n| --- | --- | --- | --- |\n| Estado general | Bien | Irritable, inquieto | Letárgico, hipotónico |\n| Ojos | Normales | Hundidos | Muy hundidos |\n| Mucosas | Húmedas | Secas | Muy secas |\n| Lágrimas | Presentes | Disminuidas | Ausentes |\n| Fontanela | Normal | Hundida | Muy hundida |\n| Diuresis | Normal | Disminuida | Oliguria/anuria |\n| Tiempo llenado capilar | < 2 s | 2–3 s | > 3 s |\n\n### Plan A — Sin deshidratación (manejo domiciliario)\n\n- Aumentar líquidos orales (SRO, leche, agua).\n- Continuar alimentación habitual.\n- Educar sobre signos de alarma.\n\n### Plan B — Deshidratación moderada\n\n- **SRO** 50–100 ml/kg en 4 horas en servicio de salud.\n- Administrar con cuchara o jeringa pequeña, frecuente y lenta.\n- Reevaluar cada 1–2 horas.\n- Si vómitos: pausas breves y reiniciar en pequeños volúmenes.\n- Si fracaso: Plan C.\n\n### Plan C — Deshidratación severa o shock\n\n- **Cristaloides IV** en bolos 20 ml/kg; reevaluar y repetir.\n- Acceso vascular urgente.\n- Monitorizar signos vitales y diuresis.\n- Cuando tolera oral: transición a SRO.\n\n### Rol de enfermería\n\n- Pesar al ingreso para calcular volúmenes.\n- Registrar entradas y salidas (vómitos, diarrea, diuresis).\n- Administrar SRO con paciencia; involucrar a padres.\n- Vigilar hipoglucemia en lactantes.\n- Aislamiento de contacto si etiología infecciosa.\n\n### No indicado de rutina\n\n- Antidiarreicos (loperamida).\n- Antibióticos salvo disentería con sangre o indicación específica.\n- Dieta restrictiva prolongada; reintroducir alimentos precocesmente.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. The treatment of diarrhoea: a manual for physicians and other senior health workers — Plan A, B, C.",
+      "url": "https://www.who.int/publications/i/item/9789241593183"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Clinical Practice Guideline: Maintenance Intravenous Fluids in Children. Pediatrics. 2018.",
+      "url": "https://publications.aap.org/pediatrics/article/142/6/e20183083/38604"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines — reanimación con fluidos.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    },
+    {
+      "citation": "SATI — Pediatría.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    }
+  ]
+}

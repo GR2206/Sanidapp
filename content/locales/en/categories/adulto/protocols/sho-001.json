@@ -1,0 +1,27 @@
+{
+  "id": "sho-001",
+  "title": "Septic shock: initial resuscitation",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "In patients with septic shock, initiate resuscitation with crystalloids, early antibiotic therapy, and vasopressors if hypotension persists after adequate fluid resuscitation, with close hemodynamic monitoring.",
+  "body": "## Steps to perform\n\n1. Ensure a patent airway, adequate ventilation, and oxygenation.\n2. Insert two large-bore peripheral intravenous lines; obtain central venous access if required.\n3. Administer 30 mL/kg of balanced crystalloids as a bolus, reassessing the hemodynamic response.\n4. Administer broad-spectrum antibiotics within the first hour after recognition of septic shock.\n5. Obtain blood cultures and cultures from the suspected infection source before antibiotic administration if this does not delay treatment.\n6. Initiate norepinephrine as the first-line vasopressor if hypotension persists despite adequate fluid resuscitation.\n7. Monitor invasive mean arterial pressure (MAP) if available, hourly urine output, and serial lactate levels.\n8. Prepare and administer intravenous fluids and vasoactive medications using an infusion pump according to the prescribed treatment.\n9. Monitor for extravasation, peripheral perfusion, and signs of fluid overload.\n10. Document critical time points: recognition, antibiotic administration, initiation of fluids, and vasopressor therapy.\n\n## Scientific rationale\n\n### Indications\n\nSepsis requiring vasopressors to maintain MAP ≥ 65 mmHg and a lactate level > 2 mmol/L despite adequate initial fluid resuscitation (operational definition of septic shock).\n\n### Resuscitation goals (first 3–6 hours)\n\n| Parameter | Initial target |\n| --- | --- |\n| MAP | ≥ 65 mmHg |\n| Lactate | ≥ 10% reduction within 2–4 hours if elevated |\n| Urine output | ≥ 0.5 mL/kg/hour (if no pre-existing acute kidney injury) |\n| SpO₂ | ≥ 92% or as clinically indicated |\n\n### Evidence and recommendations\n\n> **Surviving Sepsis Campaign 2021:** Balanced crystalloid resuscitation, early broad-spectrum antibiotics, and norepinephrine as the first-line vasopressor. Goal-directed resuscitation based on dynamic assessment may require advanced medical evaluation depending on available institutional resources.\n\n### Nursing role\n\n- Prepare and administer intravenous fluids and vasoactive medications according to medical orders using an infusion pump.\n- Monitor for vasopressor extravasation, peripheral perfusion, and signs of fluid overload.\n- Record critical time points, including recognition, antibiotic administration, initiation of fluid therapy, and vasopressor treatment.\n\n### Complications\n\n- Fluid overload and pulmonary edema.\n- Vasopressor extravasation.\n- Cardiac arrhythmias secondary to electrolyte disturbances or medications.\n- Refractory multiple organ dysfunction syndrome (MODS).",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021;49(11):e1063-e1143.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "Rhodes A, Evans LE, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016. Intensive Care Med. 2017;43(3):304-377.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28101605/"
+    },
+    {
+      "citation": "SATI — Argentine Society of Intensive Therapy. Clinical practice guidelines and consensus statements.",
+      "url": "https://www.sati.org.ar/guias/"
+    },
+    {
+      "citation": "Surviving Sepsis Campaign — Official guidelines and resources.",
+      "url": "https://www.sccm.org/SurvivingSepsisCampaign/Guidelines"
+    }
+  ]
+}

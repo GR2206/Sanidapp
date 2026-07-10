@@ -1,0 +1,44 @@
+{
+  "id": "ira-001",
+  "name": "Insuficiencia renal aguda (IRA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **insuficiencia renal aguda** (injuria renal aguda) es el deterioro rápido de la función renal con acumulación de productos nitrogenados y alteración del equilibrio hidroelectrolítico y ácido-base. Se clasifica en **prerrenal** (hipoperfusión), **renal** (nefrotóxicos, NTA) e **postrenal** (obstrucción). En guardia es frecuente por deshidratación, sepsis, nefrotóxicos (AINE, contrastes, aminoglucósidos) y obstrucción prostática en varones mayores.\n\nLa evaluación incluye creatinina y urea seriadas, ionograma, gasometría, sedimento urinario, ecografía renal si hay sospecha obstructiva y revisión de medicación. El manejo inicial es **tratar la causa**, suspender nefrotóxicos, ajustar dosis de fármacos al clearance y optimizar volumen: cristaloides en prerrenal con respuesta esperada, evitar sobrecarga en oliguria. Indicaciones de **diálisis urgente**: hiperkalemia refractaria, acidosis grave, sobrecarga hídrica con hipoxemia o uremia sintomática.\n\n**Enfermería**: balance hídrico estricto, peso diario, registro preciso de diuresis horaria, vigilancia de K⁺ y ECG si hiperkalemia, y prevención de nuevos insultos renales. Coordinar con farmacia el ajuste de antibióticos y anticoagulantes.",
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemida"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sodio"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloruro de potasio"
+    },
+    {
+      "drugId": "nsh-001",
+      "label": "Cloruro de sodio hipertónico"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Acute Kidney Injury guideline.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Sociedad Argentina de Nefrología (SAN). Consensos nacionales.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Acute kidney injury guideline.",
+      "url": "https://www.nice.org.uk/guidance/ng148"
+    }
+  ]
+}

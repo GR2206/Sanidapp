@@ -1,0 +1,37 @@
+{
+  "id": "per-001",
+  "name": "Acute Pericarditis",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "**Acute pericarditis** is an inflammation of the pericardium, frequently viral or post-viral in origin. The chest pain is **pleuritic** and retrosternal, **improving when sitting up and leaning forward**, and worsening in the supine position and with deep inspiration. A pericardial friction rub may be present on auscultation. The ECG typically shows **diffuse ST-segment elevation** with **PR-segment depression** in multiple leads (unlike AMI, which exhibits a territorial and reciprocal pattern).\n\nDiagnosis is clinical, supported by ECG, echocardiogram (pericardial effusion), and troponin levels (which may be elevated in cases of myopericarditis). Treatment consists of **NSAIDs** (ibuprofen or ASA at anti-inflammatory doses) and **colchicine** to reduce recurrences, according to guidelines. Avoid anticoagulation if there is a risk of hemopericardium. Hospitalization is indicated in the presence of high fever, significant effusion, immunosuppression, or suspicion of purulent pericarditis.\n\n**Nursing:** maintain a semi-seated position, ensure pain control, monitor for signs of cardiac tamponade (hypotension, jugular venous distension, pulsus paradoxus), and provide patient education regarding relative rest and follow-up.",
+  "relatedDrugs": [
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morphine"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Pericardial diseases guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Argentine Society of Cardiology (SAC). Pericarditis.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Cardiology. Pericarditis clinical guidance.",
+      "url": "https://www.acc.org/"
+    }
+  ]
+}

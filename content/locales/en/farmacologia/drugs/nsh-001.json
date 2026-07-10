@@ -1,0 +1,51 @@
+{
+  "id": "nsh-001",
+  "name": "Hypertonic sodium chloride",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Hyponatremia.",
+  "indications": "## Main indications\n\nHyponatremia.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule/bag NaCl 3% or 23,4%.",
+      "dose": "3%: 100–150 mL bolus in cerebral edema. Hyponatremia: per deficit calculation.",
+      "administration": "Central IV for 23,4%."
+    },
+    "pediatrico": {
+      "dose": "Requirements: 2 mEq/kg/day. Hyponatremia treatment: etiologic treatment first. Acute symptomatic hyponatremia with Na <130: (theoretical Na - actual Na) x 0,6 x weight (kg) = mEq Na to administer as 3% NaCl over 1- 4h. See CIME Electrolytes Bulletin.",
+      "administration": "PO; IV",
+      "presentation": "Ampoules: 200 mg/ml (3,4 mEq Na/ml); Oral solution (compounded): 233 mg/ml (4 mEq Na/ml)",
+      "notes": "Do not correct natremia more than 10 mEq/liter at a time. Do not administer 20% IV undiluted. Caution in patients with congestive heart failure, severe renal insufficiency, sodium retention with edema, neonates with hyperbilirubinemia. Pseudohyponatremia: for each 62 mg% increase in glucose, a 1 mEq decrease in Na concentration occurs."
+    },
+    "neonatal": {
+      "dose": "Hypertonic bolus per neuro-NICU protocol.",
+      "administration": "Central IV."
+    }
+  },
+  "stability": "## Stability\n\n- Ready-to-use solution; double-check concentration.",
+  "adverseEffects": "## Adverse effects\n\nEdema, nausea, vomiting.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Sodio CLORURO (code 0313, ATC A12CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

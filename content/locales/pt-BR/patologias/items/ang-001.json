@@ -1,0 +1,49 @@
+{
+  "id": "ang-001",
+  "name": "Angina instável e IAM sem supra de ST",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **angina instável** e o **IAM sem elevação do ST (IAMSSST)** formam o polo da síndrome coronariana aguda sem elevação do ST. Caracterizam-se por dor torácica em repouso ou prolongada, angina crescente ou nova, ou elevação de **troponina** com ECG sem critérios de IAM com supra de ST. O risco é estratificado com escalas (HEART, GRACE, TIMI) para decidir observação, internação em unidade coronariana ou estratégia invasiva precoce.\n\nO tratamento inclui **dupla antiagregação** (AAS + inibidor P2Y12 conforme protocolo), **anticoagulação**, betabloqueador, estatina de alta intensidade e nitratos para sintomas. A **coronariografia** é indicada em pacientes de alto risco ou com instabilidade hemodinâmica. Diferenciar de outras causas de dor torácica (dissecção aórtica, TEP, pericardite) antes de anticoagular amplamente.\n\n**Enfermagem**: ECG e troponina seriados conforme protocolo, monitorização contínua, controle de dor e PA, registro de episódios anginosos e orientação sobre sinais de alerta na alta.",
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Non-ST-elevation acute coronary syndromes.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Sociedade Argentina de Cardiologia (SAC). SCA sem elevação do ST.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. NSTE-ACS guideline.",
+      "url": "https://www.heart.org/"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglicerina"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparina sódica"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparina"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morfina"
+    }
+  ]
+}

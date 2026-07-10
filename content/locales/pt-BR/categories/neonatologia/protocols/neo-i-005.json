@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-005",
+  "title": "Administração segura de medicação IV neonatal",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Administrar medicação IV em neonato de 500 g a 2500 g (dia 0–30) com dupla verificação de dose por peso, diluição e velocidade conforme prescrição, compatibilidade e via adequada (central vs periférica).",
+  "body": "## Passos a realizar\n\n1. Confirmar identificação do neonato (dois identificadores), peso atual (< 24 h), alergias e prescrição médica completa (fármaco, dose mg/kg, diluição, velocidade ml/h, via).\n2. Calcular dose estritamente em mg/kg ou mcg/kg/min conforme peso em gramas; usar calculadora institucional; **dupla verificação** obrigatória por segundo profissional.\n3. Verificar compatibilidade e via: fármacos vesicantes/osmóticos/vasoativos apenas por UVC/PICC; periférica apenas para fármacos compatíveis e de curta duração.\n4. Preparar medicação em área limpa com técnica asséptica; etiquetar seringa/bolsa com nome do RN, fármaco, concentração, dose total, data/hora e validade.\n5. Realizar higienização das mãos (momento 2 OMS); desinfetar hub do cateter 15 s com antisséptico; não desconectar linhas desnecessariamente.\n6. Administrar em bomba de seringa ou infusão com precisão ± 0,1 ml/h; purgar linha no cateter sem bolus não prescritos.\n7. Vigiar durante carga inicial (vasoativos): FC, TA/PAM, SatO₂, perfusão periférica e sinais de extravasamento.\n8. Registrar na história: fármaco, dose mg/kg, volume, velocidade, via, hora início/fim, operador e verificador.\n9. Não misturar fármacos na mesma linha sem consultar tabela de compatibilidade neonatal; usar linhas dedicadas para nutrição parenteral.\n10. Diante de erro de medicação ou reação adversa: interromper infusão, avisar imediatamente, documentar evento e ativar protocolo de farmacovigilância.\n11. Na troca de turno: verificar bombas ativas, concentrações e sítios de infusão com colega entrante.\n12. Descartar material conforme normativa; nunca reutilizar seringas ou equipos de infusão.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. Os erros de dosagem em neonatos têm alta morbimortalidade por estreita margem terapêutica e variabilidade farmacocinética por idade gestacional e função renal/hepática imatura.\n\n### Princípios de segurança\n\n- **Peso:** usar peso ao nascimento nas primeiras 24 h; depois peso atual diário.\n- **Dupla verificação:** obrigatória para fármacos de alto risco (vasoativos, sedação, antibióticos aminoglicosídeos, anticonvulsivantes, heparina).\n- **Unidades:** mg/kg, mcg/kg/min; nunca confundir mg com mcg.\n- **Volume:** minimizar carga de líquidos em RN < 1000 g (microgotejamento/bomba de seringa).\n\n### Evidência e recomendações\n\n> **OMS / OMS Patient Safety:** as concentrações padronizadas e a dupla verificação reduzem erros de medicação em UTI pediátrica e neonatal (WHO, 2024).\n\n> **VON:** erros de infusão de insulina, heparina e vasoativos são eventos sentinela na UCIN; bombas com limites programados e protocolos de preparação centralizada (Vermont Oxford Network).\n\n### Fármacos de alto risco — via e diluição\n\n| Fármaco | Via preferida | Precaução neonatal |\n| --- | --- | --- |\n| Dopamina / dobutamina | UVC/PICC | Extravasamento → necrose; titular por PAM |\n| Adrenalina | UVC/PICC/IO | Arritmias; diluição 1:10.000 |\n| Gentamicina / amicacina | UVC/PICC | Ajustar intervalo por IG e função renal |\n| Fentanil / midazolam | UVC/PICC | Depressão respiratória; infusão contínua |\n| Heparina | UVC/PICC | Risco hemorragia intraventricular em prematuros |\n| Nutrição parenteral | UVC/PICC exclusivo | Nunca periférica; osmolaridade > 900 mOsm/L |\n\n### Compatibilidade e linhas\n\n- Linha dedicada para NP; não coadministrar com fármacos em Y sem compatibilidade confirmada.\n- Flush com SF 0,5–1 ml (conforme peso) após antibióticos em bolus; heparina conforme protocolo de manutenção de cateter.\n\n### Cálculo orientativo de velocidade (vasoativos)\n\nDose desejada (mcg/kg/min) × peso (kg) × 60 / concentração (mcg/ml) = ml/h\n\nExemplo: dopamina 5 mcg/kg/min em RN 1000 g (1 kg), solução 1600 mcg/ml → 5 × 1 × 60 / 1600 = 0,19 ml/h.\n\n### Complicações — avisar imediatamente\n\n- Extravasamento de fármaco vesicante ou vasoativo.\n- Bradicardia, hipotensão ou arritmia após administração.\n- Depressão respiratória (opioides, benzodiazepínicos).\n- Erro de medicação identificado (dose 10× ou mais).\n- Reação alérgica ou anafilaxia.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient safety and medication without harm — high-risk situations.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety"
+    },
+    {
+      "citation": "Vermont Oxford Network. Medication safety and infusion practices in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Standardization of concentrations for neonatal and pediatric medication infusions.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). High-alert medications in acute care.",
+      "url": "https://www.ismp.org/recommendations/high-alert-medications-acute-list"
+    },
+    {
+      "citation": "SATI — Consensos em terapia intensiva neonatal e pediátrica.",
+      "url": "https://www.sati.org.ar/"
+    }
+  ],
+  "division": "intensiva"
+}

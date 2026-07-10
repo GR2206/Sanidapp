@@ -1,0 +1,45 @@
+{
+  "id": "ira-001",
+  "name": "Insuficiência renal aguda (IRA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "A **insuficiência renal aguda** (injúria renal aguda) é a deterioração rápida da função renal com acúmulo de produtos nitrogenados e alteração do equilíbrio hidroeletrolítico e ácido-base. Classifica-se em **pré-renal** (hipoperfusão), **renal** (nefrotóxicos, NTA) e **pós-renal** (obstrução). Na emergência é frequente por desidratação, sepse, nefrotóxicos (AINE, contrastes, aminoglicosídeos) e obstrução prostática em homens idosos.\n\nA avaliação inclui creatinina e ureia seriadas, ionograma, gasometria, sedimento urinário, ultrassonografia renal se houver suspeita obstrutiva e revisão da medicação. O manejo inicial é **tratar a causa**, suspender nefrotóxicos, ajustar doses de fármacos ao clearance e otimizar volume: cristaloides em pré-renal com resposta esperada, evitar sobrecarga na oligúria. Indicações de **diálise urgente**: hipercalemia refratária, acidose grave, sobrecarga hídrica com hipoxemia ou uremia sintomática.\n\n**Enfermagem**: balanço hídrico rigoroso, peso diário, registro preciso de diurese horária, vigilância de K⁺ e ECG se hipercalemia, e prevenção de novos insultos renais. Coordenar com farmácia o ajuste de antibióticos e anticoagulantes.",
+  "bibliography": [
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Acute Kidney Injury guideline.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Sociedade Argentina de Nefrologia (SAN). Consensos nacionais.",
+      "url": "https://www.san.org.ar/"
+    },
+    {
+      "citation": "Ministério de Saúde da Argentina. Estratégias e diretrizes de atenção.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "National Institute for Health and Care Excellence. Acute kidney injury guideline.",
+      "url": "https://www.nice.org.uk/guidance/ng148"
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "fur-001",
+      "label": "Furosemida"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sódio"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloreto de potássio"
+    },
+    {
+      "drugId": "nsh-001",
+      "label": "Cloreto de sódio hipertônico"
+    }
+  ]
+}

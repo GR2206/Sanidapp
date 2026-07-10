@@ -1,0 +1,58 @@
+{
+  "id": "mil-001",
+  "name": "Milrinona",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Agente inotrópico positivo que melhora a função diastólica. Inibidor da fosfodiesterase.",
+  "indications": "## Indicações principais\n\nAgente inotrópico positivo que melhora a função diastólica. Inibidor da fosfodiesterase.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
+      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou SF 0,9%.",
+      "diluent": "SG 5% ou SF 0,9%.",
+      "finalConcentration": "Conforme cartilha do serviço (bomba de infusão).",
+      "dose": "Dose de ataque opcional 50 mcg/kg em 10 min, depois 0,375–0,75 mcg/kg/min.",
+      "infusionRate": "Bolus lento se usar dose de ataque.",
+      "administration": "E.V. contínua em bomba; via central preferida.",
+      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+    },
+    "pediatrico": {
+      "presentation": "FA 10 mL: 1 mg/mL",
+      "administration": "E.V.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "≤0,5 mg/mL para infusão contínua.",
+      "dose": "Dose de ataque: 50 µg/kg em 15 min; manutenção: 0,25–0,75 µg/kg/min; dose máxima em adultos: 1,13 mg/kg/dia. Pode ser necessário reduzir velocidade em insuficiência renal. Ajustar dose em recém-nascidos.",
+      "notes": "Requer monitorização clínica. Incompatível com furosemida. Infusão contínua: diluir em SG 5% ou SF; concentração usual <200 µg/mL. Não infundir por mais de 48 h."
+    }
+  },
+  "stability": "## Geral\n\n- Diluição 24 h refrigerada conforme bula.\n\n## Guia pediátrica\n\n- 24 h após diluído.",
+  "adverseEffects": "## Efeitos adversos\n\nArritmias ventriculares, hipotensão, cefaleia, hipocalemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — MILRinona (cód. 1452, ATC C01CE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ecl-001",
+  "name": "Eclampsia y preeclampsia severa",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **preeclampsia** es hipertensión arterial (≥ 140/90) con proteinuria o disfunción de órgano blanco tras las 20 semanas de gestación. La **preeclampsia severa** incluye PA ≥ 160/110, trombocitopenia, alteración hepática, insuficiencia renal, edema pulmonar, síntomas cerebrales o visuales. La **eclampsia** es la aparición de convulsiones tónico-clónicas en contexto de preeclampsia y constituye emergencia obstétrica.\n\nEl manejo combina **sulfato de magnesio** IV (profilaxis y tratamiento de convulsiones), control de PA con **labetalol, hidralazina o nifedipina** según protocolo obstétrico, y **resolución del embarazo** cuando la madre o el feto están en riesgo (timing según edad gestacional y criterios de obstetricia). Monitorizar reflejos patelares, diuresis y frecuencia respiratoria durante magnesio (riesgo de toxicidad). En eclampsia activa: estabilizar, proteger vía aérea y derivación inmediata a maternidad / UTI.\n\n**Enfermería**: PA cada 15 min hasta control, balance hídrico estricto, monitor fetal continuo si corresponde, preparar sulfato de magnesio con bomba y antídoto (gluconato de calcio) disponible. Registrar convulsiones, hora de última comida y medicación antihipertensiva. Coordinar con obstetricia y neonatología.",
+  "relatedDrugs": [
+    {
+      "drugId": "mag-001",
+      "label": "Sulfato de magnesio"
+    },
+    {
+      "drugId": "lab-001",
+      "label": "Labetalol"
+    },
+    {
+      "drugId": "hdr-001",
+      "label": "Hidralazina"
+    },
+    {
+      "drugId": "cag-001",
+      "label": "Gluconato de calcio"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "American College of Obstetricians and Gynecologists. Gestational Hypertension and Preeclampsia.",
+      "url": "https://www.acog.org/clinical"
+    },
+    {
+      "citation": "Sociedad Argentina de Ginecología y Obstetricia (SAGO). Guías de hipertensión en el embarazo.",
+      "url": "https://www.sago.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "International Society for the Study of Hypertension in Pregnancy. ISSHP guidelines.",
+      "url": "https://www.glowm.com/"
+    }
+  ]
+}

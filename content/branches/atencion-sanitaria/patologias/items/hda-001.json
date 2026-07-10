@@ -1,0 +1,52 @@
+{
+  "id": "hda-001",
+  "name": "Hemorragia digestiva alta (HDA)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "La **hemorragia digestiva alta** es el sangrado proximal al ligamento de Treitz, habitualmente por **úlcera péptica**, varices esofagogástricas, gastropatía erosiva, Mallory-Weiss o malignidad. Se manifiesta por hematemesis, melena o, en sangrado masivo, hematochezia. La gravedad se estima con escalas como **Glasgow-Blatchford** o Rockall; signos de inestabilidad (hipotensión, taquicardia, lipotimia, Hb < 7 g/dL) exigen reanimación agresiva.\n\nEl manejo inicial: dos vías venosas de grueso calibre, cristaloides y concentrados de hematíes según protocolo transfusional, **inhibidor de bomba de protones** IV (pantoprazol), y en sospecha de varices: vasoconstrictor esplácnico (octreotida) más antibiótico profiláctico y contacto urgente con endoscopía. Evitar AAS/AINES; reconsiderar anticoagulantes según balance riesgo-beneficio. Intubar para protección de vía aérea si hematemesis activa con alteración del nivel de conciencia.\n\n**Enfermería**: NPO, sonda nasogástrica solo si protocolo lo indica, monitorización continua, tipo y cruce, registro de episodios hemáticos y vigilancia de resangrado. Preparar al paciente y familiares para endoscopia urgente.",
+  "clinicalBox": {
+    "title": "Glasgow-Blatchford — riesgo en HDA",
+    "content": "Puntaje 0–23 (mayor = más riesgo de intervención). Ítems principales:\n**Urea** > 6,5 mmol/L (19 mg/dL) · **Hb** baja (según sexo) · **PA sistólica** < 90–110 · **FC** ≥ 100\n**Melena** · **Síncope** · **Hepatopatía** · **ICC** · **Varices** esofágicas conocidas\n\n**0:** bajo riesgo — valorar alta precoz tras observación · **≥ 1:** ingreso y endoscopia según protocolo · Puntajes altos: transfusión y UTI."
+  },
+  "relatedDrugs": [
+    {
+      "drugId": "pan-001",
+      "label": "Pantoprazol"
+    },
+    {
+      "drugId": "oct-001",
+      "label": "Octreotida"
+    },
+    {
+      "drugId": "cef-005",
+      "label": "Ceftriaxona"
+    },
+    {
+      "drugId": "vit-001",
+      "label": "Vitamina K"
+    },
+    {
+      "drugId": "prt-001",
+      "label": "Protamina"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "International consensus on management of patients with nonvariceal upper gastrointestinal bleeding.",
+      "url": "https://www.bsg.org.uk/"
+    },
+    {
+      "citation": "Sociedad Argentina de Gastroenterología (SAGE). Guías de HDA.",
+      "url": "https://www.sage.org.ar/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American College of Gastroenterology. Upper GI bleeding guideline.",
+      "url": "https://gi.org/guideline/"
+    }
+  ]
+}

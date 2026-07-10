@@ -1,0 +1,27 @@
+{
+  "id": "ret-001",
+  "title": "Coleta de retrocultura de cateter",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Obter hemocultura pareada (periférica + retrocultura por cada via) de forma simultânea, com igual volume e desinfecção estrita do hub, para diagnosticar bacteremia associada ao cateter sem retirá-lo.",
+  "body": "## Passos a realizar\n\n1. Identificar paciente, cateter, via e suspeita clínica de bacteremia associada ao cateter (BAC).\n2. Realizar higienização das mãos (momento 2 OMS); preparar frascos e etiquetas (**PERIFÉRICO** / **CVC via X**) antes da punção.\n3. Coletar hemocultura periférica em extremidade **distinta** à do cateter com técnica asséptica padrão (ver `hem-001`).\n4. **Simultaneamente ou imediatamente:** retirar curativo se impedir acesso; desinfetar hub com clorexidina alcoólica (fricção ≥ 15 s); deixar secar.\n5. Coletar sangue do cateter com seringa ou sistema estéril; **mesmo volume** que o periférico (10–15 ml adulto).\n6. Inocular frascos conforme sistema (vácuo: aeróbico primeiro; seringa: anaeróbico primeiro); misturar por inversão suave.\n7. Repetir para cada via se o cateter for multilúmen (etiquetar cada uma).\n8. Introduzir todos os frascos no equipamento de hemocultura **ao mesmo tempo**.\n9. Registrar hora exata de cada coleta, via amostrada, dias de cateter instalado e antibióticos em curso.\n10. Realizar higienização das mãos ao finalizar; comunicar resultado positivo ou deterioração clínica imediatamente.\n\n## Fundamentação científica\n\n### Indicações\n\nSuspeita de **bacteremia associada a cateter venoso central (BAC)** em paciente com:\n\n- Febre, calafrios ou instabilidade hemodinâmica sem foco claro.\n- Portador de CVC, PICC ou cateter de diálise.\n- Necessidade de **conservar o cateter** ou avaliar origem antes de retirá-lo.\n\nComplementa o protocolo de **coleta de hemocultura** (`hem-001`). A retrocultura coleta-se **ao mesmo tempo** que a hemocultura periférica.\n\n### Quando NÃO realizar retrocultura de rotina\n\n- Cateter inserido **há menos de 48 horas**, salvo suspeita de falha asséptica na inserção.\n- Baixa suspeita clínica de BAC (aumenta falsos positivos).\n- Sem hemocultura periférica pareada simultânea.\n\n### Princípio diagnóstico (interpretação pelo laboratório)\n\n| Método | Critério sugestivo de BAC |\n| --- | --- |\n| **Tempo diferencial de positividade** | Retrocultura positiva **≥ 2 horas antes** que a periférica (mesmo germe e antibiograma) |\n| **Quantitativo** | Relação retrocultura/periférica **≥ 3:1** em contagem de colônias |\n| **Cultura da ponta** | Mesmo germe na ponta (Maki ≥ 15 UFC) e hemocultura periférica |\n\n### Evidência e recomendações\n\n> **SATI/SADI 2025 (Cornistein et al.):** Retrocultura pareada com igual volume e desinfecção estrita do hub para diagnóstico de BAC sem retirada obrigatória do cateter.\n\n> **Surviving Sepsis 2021:** Culturas antes de antibióticos na sepse se não retardar tratamento.\n\n### Conduta posterior (referência clínica)\n\n- Se BAC confirmada: avaliar **retirada do cateter** conforme gravidade, microorganismo e necessidade do acesso.\n- Iniciar ou ajustar antibiótico empírico conforme protocolo institucional e SATI/SADI 2025.\n- Não interpretar isolamento de flora cutânea (SCN) sem correlação clínica e tempo diferencial.\n\n### Complicações / erros frequentes\n\n- Desinfecção insuficiente do hub → **falso positivo**.\n- Volume desigual → invalida tempo diferencial.\n- Demora na incubação → enviesa resultados.\n- Não etiquetar via → impossível identificar foco.",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "SATI — Revista Medicina Intensiva. Diagnóstico de bacteriemia asociada a catéter: tiempo diferencial de positividad y métodos microbiológicos.",
+      "url": "https://revista.sati.org.ar/index.php/MI/article/view/661"
+    },
+    {
+      "citation": "SATI — Coleta de amostras microbiológicas em UTI (hemoculturas e suspeita de infecção de cateter).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Evans L, et al. Surviving Sepsis Campaign 2021 — culturas antes de antibióticos na sepse.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    }
+  ]
+}

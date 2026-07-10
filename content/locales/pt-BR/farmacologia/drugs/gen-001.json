@@ -1,0 +1,61 @@
+{
+  "id": "gen-001",
+  "name": "Gentamicina",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Antibiótico aminoglicosídeo para tratamento de infecções em osso, sistema nervoso central, trato respiratório, pele e partes moles, abdominais, urinárias e endocardite por bactérias gram-negativas, incluindo Pseudomonas, e gram-positivas.",
+  "indications": "## Indicações principais\n\nAntibiótico aminoglicosídeo para tratamento de infecções em osso, sistema nervoso central, trato respiratório, pele e partes moles, abdominais, urinárias e endocardite por bactérias gram-negativas, incluindo Pseudomonas, e gram-positivas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampola contendo 80 mg (Gentamicina Drawer).",
+      "reconstitution": "Não requer reconstituição prévia. Conc.: 40 mg/mL.",
+      "diluent": "80 mg em 100 mL de SF.",
+      "finalConcentration": "0,8 mg/mL.",
+      "administration": "E.V. intermitente: Sim. Diluir em 100 mL de SF e administrar em 30 min."
+    },
+    "pediatrico": {
+      "presentation": "Ampolas de 2 mL: 40 mg/mL",
+      "administration": "E.V.; I.M.",
+      "diluent": "SF 0,9%, SG 5%.",
+      "finalConcentration": "11 mg/mL.",
+      "infusionRate": "30 a 60 min.",
+      "dose": "5–7,5 mg/kg/dia a cada 24 h, dose máxima: 300 mg. Fibrose cística: 10 mg/kg/dia, dose máxima: 400 mg. Endocardite: 3 mg/kg/dia a cada 8 h (monitorar concentração sérica). Ver tabela de ajuste de dose de antimicrobianos.",
+      "compatibility": "Incompatível com cefalosporinas, penicilina e heparina.",
+      "notes": "E.V.: administrar diluído em 30 minutos. Farmacocinética: Múltiplas doses diárias: pico: 4 a 12 µg/mL, vale: < 2 µg/mL. Dose única diária: pico: 16 a 24 µg/mL, vale: < 1 µg/mL. O acompanhamento será feito medindo pico e vale. Pico entre 30 e 60 minutos após finalizada a infusão de uma hora; vale: imediatamente antes da próxima dose. Requer monitorização plasmática em: tratamentos > 5 dias, pacientes com função renal diminuída, pacientes com resposta terapêutica limitada, obesidade, aumento do volume extracelular, pacientes que requerem aumento de dose, fibrocísticos, queimados, pacientes submetidos a diálise, sinais de ototoxicidade e nefrotoxicidade e uso de outros agentes nefrotóxicos. Ver guia preliminar para prevenção de teratogênese causada por medicamentos."
+    },
+    "neonatal": {
+      "dose": "4–5 mg/kg/dose a cada 24–36 h conforme idade pós-menstrual (UCIN).",
+      "administration": "E.V."
+    }
+  },
+  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente e 48 h refrigerado.\n\n## Guia pediátrica\n\n- Descartar após aberto.",
+  "adverseEffects": "## Efeitos adversos\n\nLesão vestibular, nefrotoxicidade reversível, potencializa o bloqueio neuromuscular por anestésicos.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Gentamicina (cód. 0105, ATC J01GB).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ],
+  "branch": "atencion-sanitaria",
+  "translationReviewed": true
+}

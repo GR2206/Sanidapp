@@ -1,0 +1,52 @@
+{
+  "id": "tdm-001",
+  "name": "Trastornos del medio interno",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "body": "Los **trastornos del medio interno (TDM)** agrupan alteraciones hidroelectrolíticas y ácido-base frecuentes en guardia: hiponatremia, hiperkalemia, hipokalemia, hipoglucemia, hipocalcemia y trastornos del equilibrio ácido-base. Suelen ser **consecuencia** de otra patología (vómitos, diarrea, diuréticos, IRA, sepsis, insulina excesiva) y su corrección inadecuada puede ser iatrogénica.\n\nLa **deshidratación** hipovolémica cursa con sed, mucosas secas, hipotensión ortostática, oliguria y hemoconcentración; el tratamiento es reposición con cristaloides según gravedad y causa. La **hiponatremia** sintomática (convulsiones, coma) requiere corrección controlada con salina hipertónica según protocolo; evitar corrección rápida para prevenir mielinólisis. La **hiperkalemia** grave demanda estabilización de membrana (calcio IV), shift intracelular (insulina-dextrosa, beta-2) y eliminación según recursos.\n\n**Enfermería**: monitorizar signos vitales, diuresis, glucemia capilar si procede, administrar electrolitos y sueros con bomba de infusión cuando corresponda, y repetir laboratorio según orden médica. Documentar volumen administrado y respuesta clínica.",
+  "relatedDrugs": [
+    {
+      "drugId": "nsh-001",
+      "label": "Cloruro de sodio hipertónico"
+    },
+    {
+      "drugId": "kcl-001",
+      "label": "Cloruro de potasio"
+    },
+    {
+      "drugId": "cag-001",
+      "label": "Gluconato de calcio"
+    },
+    {
+      "drugId": "bic-001",
+      "label": "Bicarbonato de sodio"
+    },
+    {
+      "drugId": "ins-001",
+      "label": "Insulina regular"
+    },
+    {
+      "drugId": "glu-001",
+      "label": "Dextrosa (glucosa)"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Renal Association. Clinical practice guideline on management of hyponatraemia.",
+      "url": "https://www.era-online.org/"
+    },
+    {
+      "citation": "Kidney Disease: Improving Global Outcomes (KDIGO). Electrolyte disorders.",
+      "url": "https://kdigo.org/guidelines/"
+    },
+    {
+      "citation": "Ministerio de Salud de la Nación Argentina. Estrategias y guías de atención.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Society of Nephrology. Core curriculum in electrolyte disorders.",
+      "url": "https://www.asn-online.org/"
+    }
+  ]
+}

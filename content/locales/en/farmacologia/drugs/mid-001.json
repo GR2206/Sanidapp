@@ -1,0 +1,59 @@
+{
+  "id": "mid-001",
+  "name": "Midazolam",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.2",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Hypnotic-induction agent and general anesthetic induction agent. Alternative benzodiazepine in status epilepticus.",
+  "indications": "## Main indications\n\nHypnotic-induction agent and general anesthetic induction agent. Alternative benzodiazepine in status epilepticus.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "5 mg/mL ampoule.",
+      "dose": "1–2 mg IV bolus; continuous sedation 0.02–0.1 mg/kg/h.",
+      "infusionRate": "Titrated pump infusion.",
+      "administration": "Slow IV or continuous infusion."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 7.5–15 mg; 3 mL ampoules: 5 mg/mL",
+      "administration": "PO; IV; IM; rectal; intranasal",
+      "diluent": "0.9% NaCl, 5% dextrose.",
+      "finalConcentration": "5 mg/mL (may be given undiluted).",
+      "infusionRate": "Continuous infusion per medical indication. IV bolus over 2–5 min. IN over 15 s.",
+      "dose": "Conscious sedation: 0.05–0.2 mg/kg/dose. Procedural sedation PO: 0.1–0.2 mg/kg/dose 30–45 min pre-procedure, maximum 15 mg. Status epilepticus, endotracheal intubation, mechanical ventilation (IV–IM–rectal): 0.1–0.3 mg/kg/dose; (continuous infusion): <50 kg: 0.05 mg/kg/h, ≥50 kg: 2 mg/h.",
+      "notes": "See preliminary guide for prevention of medication-related teratogenesis. See practical guide for analgosedation management and weaning in intermediate and moderate care units."
+    },
+    "neonatal": {
+      "dose": "NICU sedation: 0.03–0.06 mg/kg/h (protocol).",
+      "administration": "IV infusion pump."
+    }
+  },
+  "stability": "## General\n\n- Dilution stable 24 h per package insert.\n\n## Pediatric guide\n\n- 24 h once diluted.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, dizziness, cardiorespiratory depression, injection-site pain.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — MIDAzolam (code 0142, ATC N05CD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

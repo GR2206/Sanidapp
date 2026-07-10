@@ -1,0 +1,56 @@
+{
+  "id": "iam-001",
+  "name": "Acute Myocardial Infarction (AMI)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-06-25",
+  "translationReviewed": true,
+  "body": "Acute **myocardial infarction (AMI)** is myocardial necrosis caused by prolonged ischemia, falling within the spectrum of acute coronary syndrome. It is classified into **STEMI** (ST-segment elevation on ECG) and **NSTEMI** (non-ST-segment elevation). Typical pain is retrosternal and oppressive, lasting > 20 minutes, accompanied by diaphoresis, nausea, and radiation to the left arm or jaw; in diabetic patients, the elderly, and women, presentation may be **atypical** (dyspnea, asthenia, syncope).\n\nThe priority in the emergency department is to perform an **ECG in less than 10 minutes**. In the presence of **STEMI** or its equivalents (new-onset left bundle branch block, hyperacute T-wave pattern), activate the **urgent reperfusion pathway** (primary angioplasty or thrombolysis, depending on timelines and resources). Initial treatment: **acetylsalicylic acid**, anticoagulation, nitroglycerin if blood pressure permits, analgesia, and a beta-blocker according to protocol. Monitor for ventricular arrhythmias during the first 24 hours.\n\n**Nursing:** continuous cardiac monitoring, venous access, oxygen therapy only if hypoxemia is present, serial recording of pain (VAS), and preparation for cardiac catheterization. Document the time of symptom onset and the time of the first ECG. Maintain NPO status until a clear plan is defined.",
+  "clinicalBoxes": [
+    {
+      "title": "Electrocardiogram — visual comparison",
+      "illustration": "ecg-sinus-vs-stemi",
+      "content": "**General criterion for STEMI:** J-point elevation ≥ **1 mm** in at least **2 contiguous leads** (specific criteria apply to V2–V3 depending on sex). Always compare with a prior tracing if available.\n\nUpon finding a compatible tracing: activate the AMI code, administer ASA and anticoagulation according to protocol, and do not delay reperfusion."
+    }
+  ],
+  "relatedDrugs": [
+    {
+      "drugId": "ngl-001",
+      "label": "Nitroglycerin"
+    },
+    {
+      "drugId": "hef-001",
+      "label": "Heparin sodium"
+    },
+    {
+      "drugId": "eno-001",
+      "label": "Enoxaparin"
+    },
+    {
+      "drugId": "mor-001",
+      "label": "Morphine"
+    },
+    {
+      "drugId": "mop-001",
+      "label": "Metoprolol"
+    }
+  ],
+  "bibliography": [
+    {
+      "citation": "European Society of Cardiology. Acute Coronary Syndromes Guidelines.",
+      "url": "https://www.escardio.org/Guidelines"
+    },
+    {
+      "citation": "Argentine Society of Cardiology (SAC). ACS guideline.",
+      "url": "https://www.sac.org.ar/"
+    },
+    {
+      "citation": "Ministry of Health of Argentina. Care strategies and guidelines.",
+      "url": "https://www.argentina.gob.ar/salud"
+    },
+    {
+      "citation": "American Heart Association. Acute Myocardial Infarction guidelines.",
+      "url": "https://www.heart.org/"
+    }
+  ]
+}

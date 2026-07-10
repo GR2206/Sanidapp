@@ -1,0 +1,27 @@
+{
+  "id": "hem-001",
+  "title": "Toma de hemocultivo",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Extraer dos sets de hemocultivo por venopunción periférica antes del antibiótico si es posible, 10–15 ml por frasco, con técnica asséptica estricta para minimizar contaminación.",
+  "body": "## Pasos a realizar\n\n1. Identificar paciente y registrar hora, sitio y motivo del cultivo.\n2. Realizar higiene de manos (momento 2 OMS: antes de procedimiento asséptico).\n3. Preparar frascos aeróbico + anaeróbico a temperatura ambiente; desinfectar tapa con alcohol 70% y dejar secar.\n4. Desinfectar piel con clorhexidina alcohólica en fricción; ampliar área; **dejar secar** ≥ 30 s.\n5. Realizar venopunción con técnica asséptica; no repasar piel desinfectada con dedos no estériles.\n6. Extraer sangre e inocular frascos en orden según sistema (vacío: aeróbico primero; jeringa: anaeróbico primero).\n7. Inocular **10–15 ml por frasco** en adultos (respetar fabricante).\n8. Mezclar suavemente por inversión (no agitar vigorosamente).\n9. Etiquetar en mesa limpia: nombre, fecha, hora, sitio.\n10. Realizar higiene de manos al finalizar (momentos 3 y 4 OMS).\n11. Transportar al laboratorio **de inmediato**; registrar hora de extracción y de inicio de antibiótico si aplica.\n12. Comunicar resultado positivo con patógeno, sospecha de contaminación o deterioro clínico.\n\n## Fundamentación científica\n\n### Indicaciones principales\n\n- Sospecha clínica de **sepsis** o shock séptico.\n- Fiebre de origen desconocido o escalofríos con inestabilidad.\n- Sospecha de endocarditis infecciosa.\n- Evaluación de fiebre en paciente con dispositivos intravasculares.\n- Sospecha de bacteriemia asociada a catéter (protocolo específico institucional).\n\n### Número de muestras (adulto)\n\n| Situación | Sets recomendados |\n| --- | --- |\n| Sepsis / sospecha de bacteriemia | **2 sets** (mínimo) |\n| Endocarditis aguda | 3 sets de sitios distintos |\n| Fiebre de origen desconocido | 2–3 sets según protocolo |\n\nCada **set** = 1 frasco **aeróbico** + 1 frasco **anaeróbico**.\n\n### Momento de la extracción\n\n- **Ideal:** antes de iniciar antibióticos.\n- **No es obligatorio** coincidir con pico febril; puede realizarse ante sospecha clínica.\n- Si ya recibe antibióticos: extraer en concentración valle (justo antes de la siguiente dosis) o según protocolo local.\n- En urgencia séptica: los dos sets pueden tomarse **simultáneamente** de extremidades distintas sin demorar tratamiento.\n\n### Evidencia y recomendaciones\n\n> **Surviving Sepsis 2021 (Evans et al.):** Obtener cultivos **antes** del antibiótico empírico si no retrasa su inicio más de 45 minutos.\n\n> **SATI — Toma de muestras microbiológicas en UTI:** Técnica asséptica estricta para minimizar contaminación por flora de piel.\n\n### Sitio de punción\n\n- **Preferir venopunción periférica** en sitios distintos.\n- Evitar puncionar por encima de vía venosa periférica en uso.\n- Sangre de catéter central: solo si se sospecha infección del catéter y según protocolo (pares periférico + central).\n\n### Prevención de contaminación\n\n- No tocar tapa del frasco ni interior de la tapa tras desinfección.\n- Cambiar aguja antes de inocular si el protocolo lo indica.\n- No usar el mismo set de venopunción para otras muestras sin orden asséptica.\n\n### Complicaciones\n\n- Contaminación por flora de piel (falsos positivos).\n- Hematoma o dolor en sitio de punción.\n- Retraso en transporte que invalida interpretación.",
+  "bibliography": [
+    {
+      "citation": "Evans L, Rhodes A, Alhazzani W, et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021. Crit Care Med. 2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34605781/"
+    },
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (Comité de Infectología Crítica).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Guía de práctica clínica enfermera sobre hemocultivos — Consejo General de Enfermería de España (basada en evidencia 2024-2025).",
+      "url": "https://www.consejogeneralenfermeria.org/profesion/guias-clinicas/send/160-guias-clinicas/3122-guia-de-practica-clinica-enfermera-sobre-hemocultivos-actualizacion"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización intersociedades SATI/SADI 2025.",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    }
+  ]
+}

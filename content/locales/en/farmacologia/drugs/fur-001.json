@@ -1,0 +1,58 @@
+{
+  "id": "fur-001",
+  "name": "Furosemide",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.1",
+  "updatedAt": "2026-07-10",
+  "translationReviewed": true,
+  "executiveSummary": "Loop diuretic.",
+  "indications": "## Main indications\n\nLoop diuretic.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Ampoule 10 mg/mL.",
+      "dose": "20–40 mg slow IV; 40–80 mg in acute pulmonary edema per protocol.",
+      "administration": "Slow IV or IM."
+    },
+    "pediatrico": {
+      "presentation": "Tablets: 40 mg; Drops: 20 mg/mL (1 mg/drop) See formulation; 2 mL ampoules: 10 mg/mL.",
+      "administration": "PO; IV",
+      "diluent": "0.9% NaCl solution, 5% dextrose.",
+      "finalConcentration": "10 mg/mL.",
+      "infusionRate": "4 mg/min.",
+      "dose": "Neonates and preterm infants: PO: 1-4 mg/kg/dose every 12-24 h; IV: 1-2 mg/kg/dose every 12-24 h. Infants and children: IV: 1 mg/kg/dose every 6-12 h, continuous infusion: 0.05 mg/kg/hour; PO: initial: 0.5 - 2 mg/kg/dose every 12-24 h; maximum PO dose: 6 mg/kg/day. Adults: PO/IV: 20-80 mg/day every 6-12 h, maximum 600 mg/day. Patients with renal failure may require higher doses to induce diuresis.",
+      "notes": "Administer with food. For IV infusion dilute in normal saline (stable dilution 24 h). Maximum administration rate is 4 mg/min. Protect from light if administered undiluted. NSAIDs may reduce the antihypertensive and diuretic effects of the drug. Increases risk of hypokalemia with thiazides and corticosteroids. Increases risk of ototoxicity with aminoglycosides. Slow administration prevents ototoxicity."
+    },
+    "neonatal": {
+      "dose": "0.5–1 mg/kg/dose every 12–24 h (NICU).",
+      "administration": "Slow IV."
+    }
+  },
+  "stability": "## General\n\n- Use immediately; protect from light in storage.\n\n## Pediatric guide\n\n- 24 h once diluted.",
+  "adverseEffects": "## Adverse effects\n\nOtotoxicity, rash, headache, hypotension, muscle pain. In preterm neonates: hypokalemia, hypomagnesemia, hyponatremia, hyperuricemia, nephrocalcinosis, hypocalcemia.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Furosemide (code 0099, ATC C03CA).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
+    }
+  ]
+}

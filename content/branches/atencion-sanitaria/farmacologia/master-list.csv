@@ -1,0 +1,161 @@
+id,name,category,phase,adulto,pediatrico,neonatal,status
+adr-001,Adrenalina (epinefrina),catecolamina,0,sí,sí,sí,publicado
+amp-001,Ampicilina,penicilina,1,sí,sí,sí,borrador
+amp-002,Ampicilina/sulbactam,penicilina,1,sí,sí,sí,borrador
+amo-001,Amoxicilina,penicilina,1,sí,sí,sí,borrador
+amo-002,Amoxicilina/ácido clavulánico,penicilina,1,sí,sí,sí,borrador
+pip-001,Piperacilina/tazobactam,penicilina,1,sí,sí,sí,borrador
+pen-001,Penicilina G (benzilpenicilina),penicilina,1,sí,sí,sí,borrador
+pen-002,Penicilina G benzatínica,penicilina,1,sí,sí,no,borrador
+oxa-001,Oxacilina,penicilina,1,sí,sí,sí,borrador
+tic-001,Ticarcilina/ácido clavulánico,penicilina,1,sí,sí,no,borrador
+cef-001,Cefalexina,cefalosporina,1,sí,sí,sí,borrador
+cef-002,Cefazolina,cefalosporina,1,sí,sí,sí,borrador
+cef-003,Cefuroxima,cefalosporina,1,sí,sí,sí,borrador
+cef-004,Cefoxitina,cefalosporina,1,sí,sí,no,borrador
+cef-005,Ceftriaxona,cefalosporina,1,sí,sí,sí,borrador
+cef-006,Cefotaxima,cefalosporina,1,sí,sí,sí,borrador
+cef-007,Ceftazidima,cefalosporina,1,sí,sí,sí,borrador
+cef-008,Cefepime,cefalosporina,1,sí,sí,sí,borrador
+mer-001,Meropenem,carbapenem,1,sí,sí,sí,borrador
+imp-001,Imipenem/cilastatina,carbapenem,1,sí,sí,sí,borrador
+ert-001,Ertapenem,carbapenem,1,sí,sí,no,borrador
+van-001,Vancomicina,glicopéptido,1,sí,sí,sí,borrador
+tei-001,Teicoplanina,glicopéptido,1,sí,sí,no,borrador
+lin-001,Linezolid,oxazolidinona,1,sí,sí,sí,borrador
+dap-001,Daptomicina,lipopéptido,1,sí,no,no,borrador
+gen-001,Gentamicina,aminoglucósido,1,sí,sí,sí,borrador
+ami-001,Amikacina,aminoglucósido,1,sí,sí,sí,borrador
+tob-001,Tobramicina,aminoglucósido,1,sí,sí,sí,borrador
+cip-001,Ciprofloxacino,fluoroquinolona,1,sí,sí,no,borrador
+lev-001,Levofloxacino,fluoroquinolona,1,sí,sí,no,borrador
+mox-001,Moxifloxacino,fluoroquinolona,1,sí,no,no,borrador
+met-001,Metronidazol,nitroimidazol,1,sí,sí,sí,borrador
+cli-001,Clindamicina,lincosamida,1,sí,sí,sí,borrador
+azi-001,Azitromicina,macrólido,1,sí,sí,sí,borrador
+eri-001,Eritromicina,macrólido,1,sí,sí,sí,borrador
+cla-001,Claritromicina,macrólido,1,sí,sí,no,borrador
+tri-001,Trimetoprima/sulfametoxazol,sulfonamida,1,sí,sí,sí,borrador
+dox-001,Doxiciclina,tetraciclina,1,sí,sí,no,borrador
+min-001,Minociclina,tetraciclina,1,sí,no,no,borrador
+tig-001,Tigeciclina,tetraciclina,1,sí,no,no,borrador
+azt-001,Aztreonam,monobactam,1,sí,sí,no,borrador
+col-001,Colistina,polimixina,1,sí,sí,sí,borrador
+pol-001,Polimixina B,polimixina,1,sí,sí,sí,borrador
+fos-001,Fosfomicina,otros,1,sí,sí,no,borrador
+nit-001,Nitrofurantoína,otros,1,sí,sí,no,borrador
+rif-001,Rifampicina,otros,1,sí,sí,sí,borrador
+flu-001,Fluconazol,antifúngico,1b,sí,sí,sí,borrador
+amf-001,Anfotericina B,antifúngico,1b,sí,sí,sí,borrador
+amf-002,Anfotericina B liposomal,antifúngico,1b,sí,sí,sí,borrador
+vor-001,Voriconazol,antifúngico,1b,sí,sí,no,borrador
+cas-001,Caspofungina,antifúngico,1b,sí,sí,sí,borrador
+mic-001,Micafungina,antifúngico,1b,sí,sí,sí,borrador
+ani-001,Anidulafungina,antifúngico,1b,sí,sí,no,borrador
+nor-001,Noradrenalina (norepinefrina),vasoactivo,2,sí,sí,sí,borrador
+dop-001,Dopamina,vasoactivo,2,sí,sí,sí,borrador
+dob-001,Dobutamina,inotrópico,2,sí,sí,sí,borrador
+vas-001,Vasopresina,vasoactivo,2,sí,sí,sí,borrador
+fen-001,Fenilefrina,vasoactivo,2,sí,sí,sí,borrador
+mil-001,Milrinona,inotrópico,2,sí,sí,no,borrador
+ngl-001,Nitroglicerina,vasodilatador,2,sí,sí,sí,borrador
+nip-001,Nitroprusiato sódico,vasodilatador,2,sí,sí,no,borrador
+mid-001,Midazolam,sedoanalgesia,2,sí,sí,sí,borrador
+pro-001,Propofol,sedoanalgesia,2,sí,sí,sí,borrador
+ket-001,Ketamina,sedoanalgesia,2,sí,sí,sí,borrador
+fnt-001,Fentanilo,sedoanalgesia,2,sí,sí,sí,borrador
+mor-001,Morfina,sedoanalgesia,2,sí,sí,sí,borrador
+suf-001,Sufentanilo,sedoanalgesia,2,sí,sí,sí,borrador
+rem-001,Remifentanilo,sedoanalgesia,2,sí,sí,sí,borrador
+dex-001,Dexmedetomidina,sedoanalgesia,2,sí,sí,no,borrador
+lor-001,Lorazepam,sedoanalgesia,2,sí,sí,sí,borrador
+dia-001,Diazepam,sedoanalgesia,2,sí,sí,sí,borrador
+amd-001,Amiodarona,antiarrítmico,2,sí,sí,sí,borrador
+lid-001,Lidocaína,antiarrítmico,2,sí,sí,sí,borrador
+atr-001,Atropina,antiarrítmico,2,sí,sí,sí,borrador
+ade-001,Adenosina,antiarrítmico,2,sí,sí,sí,borrador
+mag-001,Sulfato de magnesio,antiarrítmico,2,sí,sí,sí,borrador
+esm-001,Esmolol,antiarrítmico,2,sí,sí,no,borrador
+mop-001,Metoprolol,antiarrítmico,2,sí,sí,no,borrador
+lab-001,Labetalol,antiarrítmico,2,sí,sí,no,borrador
+nal-001,Naloxona,reversor,2,sí,sí,sí,borrador
+flm-001,Flumazenil,reversor,2,sí,sí,sí,borrador
+fny-001,Fenitoína,anticonvulsivante,3,sí,sí,sí,borrador
+phb-001,Fenobarbital,anticonvulsivante,3,sí,sí,sí,borrador
+lvt-001,Levetiracetam,anticonvulsivante,3,sí,sí,sí,borrador
+val-001,Valproato,anticonvulsivante,3,sí,sí,sí,borrador
+car-001,Carbamazepina,anticonvulsivante,3,sí,sí,sí,borrador
+fur-001,Furosemida,diurético,3,sí,sí,sí,borrador
+bum-001,Bumetanida,diurético,3,sí,sí,sí,borrador
+tor-001,Torasemida,diurético,3,sí,sí,sí,borrador
+hct-001,Hidroclorotiazida,diurético,3,sí,sí,sí,borrador
+esp-001,Espironolactona,diurético,3,sí,sí,sí,borrador
+man-001,Manitol,diurético,3,sí,sí,sí,borrador
+hef-001,Heparina sódica,anticoagulante,3,sí,sí,sí,borrador
+eno-001,Enoxaparina,anticoagulante,3,sí,sí,sí,borrador
+fon-001,Fondaparinux,anticoagulante,3,sí,sí,no,borrador
+war-001,Warfarina,anticoagulante,3,sí,sí,no,borrador
+prt-001,Protamina,anticoagulante,3,sí,sí,sí,borrador
+kcl-001,Cloruro de potasio,electrolito,3,sí,sí,sí,borrador
+nsh-001,Cloruro de sodio hipertónico,electrolito,3,sí,sí,sí,borrador
+bic-001,Bicarbonato de sodio,electrolito,3,sí,sí,sí,borrador
+cag-001,Gluconato de calcio,electrolito,3,sí,sí,sí,borrador
+cac-001,Cloruro de calcio,electrolito,3,sí,sí,sí,borrador
+pho-001,Fosfato de potasio,electrolito,3,sí,sí,sí,borrador
+glu-001,Dextrosa (glucosa),electrolito,3,sí,sí,sí,borrador
+mtp-001,Metoclopramida,soporte,3,sí,sí,sí,borrador
+ond-001,Ondansetrón,soporte,3,sí,sí,sí,borrador
+pan-001,Pantoprazol,soporte,3,sí,sí,sí,borrador
+oct-001,Octreotida,soporte,3,sí,sí,sí,borrador
+des-001,Desmopresina,soporte,3,sí,sí,sí,borrador
+ins-001,Insulina regular,insulina,4,sí,sí,sí,borrador
+inp-001,Insulina NPH,insulina,4,sí,sí,sí,borrador
+suc-001,Succinilcolina,relajante neuromuscular,4,sí,sí,sí,borrador
+roc-001,Rocuronio,relajante neuromuscular,4,sí,sí,sí,borrador
+vec-001,Vecuronio,relajante neuromuscular,4,sí,sí,sí,borrador
+cst-001,Cisatracurio,relajante neuromuscular,4,sí,sí,sí,borrador
+atr-002,Atracurio,relajante neuromuscular,4,sí,sí,sí,borrador
+pnc-001,Pancuronio,relajante neuromuscular,4,sí,sí,sí,borrador
+sug-001,Sugammadex,relajante neuromuscular,4,sí,sí,sí,borrador
+sal-001,Salbutamol,broncodilatador,4,sí,sí,sí,borrador
+ipr-001,Bromuro de ipratropio,broncodilatador,4,sí,sí,sí,borrador
+teo-001,Aminofilina,broncodilatador,4,sí,sí,sí,borrador
+caf-001,Citrato de cafeína,broncodilatador,4,no,sí,sí,borrador
+dxt-001,Dexametasona,corticoide,4,sí,sí,sí,borrador
+mep-001,Metilprednisolona,corticoide,4,sí,sí,sí,borrador
+hdc-001,Hidrocortisona,corticoide,4,sí,sí,sí,borrador
+glc-001,Glucagón,soporte crítico,4,sí,sí,sí,borrador
+vit-001,Fitomenadiona (vitamina K),soporte crítico,4,sí,sí,sí,borrador
+ltx-001,Levotiroxina,soporte crítico,4,sí,sí,sí,borrador
+lis-001,Lisinopril,antihipertensivo,3,sí,sí,no,borrador
+ram-001,Ramipril,antihipertensivo,3,sí,sí,no,borrador
+vls-001,Valsartán,antihipertensivo,3,sí,sí,no,borrador
+tel-001,Telmisartán,antihipertensivo,3,sí,sí,no,borrador
+olm-001,Olmesartán,antihipertensivo,3,sí,sí,no,borrador
+bis-001,Bisoprolol,cardiovascular,3,sí,sí,no,borrador
+prp-001,Propranolol,cardiovascular,3,sí,sí,sí,borrador
+iso-001,Isosorbida mononitrato,cardiovascular,3,sí,no,no,borrador
+flc-001,Flecainida,cardiovascular,3,sí,no,no,borrador
+ppf-001,Propafenona,cardiovascular,3,sí,sí,no,borrador
+ivb-001,Ivabradina,cardiovascular,3,sí,no,no,borrador
+sav-001,Sacubitril/valsartán,cardiovascular,3,sí,no,no,borrador
+enp-001,Enalapril,antihipertensivo,3,sí,sí,no,borrador
+cap-001,Captopril,antihipertensivo,3,sí,sí,sí,borrador
+los-001,Losartán,antihipertensivo,3,sí,sí,no,borrador
+aml-001,Amlodipino,antihipertensivo,3,sí,sí,no,borrador
+nif-001,Nifedipino,antihipertensivo,3,sí,sí,no,borrador
+cvd-001,Carvedilol,cardiovascular,3,sí,sí,no,borrador
+ate-001,Atenolol,cardiovascular,3,sí,sí,no,borrador
+dig-001,Digoxina,cardiovascular,3,sí,sí,sí,borrador
+dlt-001,Diltiazem,cardiovascular,3,sí,sí,no,borrador
+vrp-001,Verapamilo,cardiovascular,3,sí,sí,sí,borrador
+hdr-001,Hidralazina,soporte crítico,4,sí,sí,sí,borrador
+efe-001,Efedrina,soporte crítico,4,sí,sí,no,borrador
+hal-001,Haloperidol,soporte crítico,4,sí,sí,no,borrador
+alb-001,Albúmina humana,soporte crítico,4,sí,sí,sí,borrador
+srf-001,Surfactante pulmonar,soporte crítico,4,no,sí,sí,borrador
+aci-001,Aciclovir,antiviral,4,sí,sí,sí,borrador
+gnc-001,Ganciclovir,antiviral,4,sí,sí,sí,borrador
+ose-001,Oseltamivir,antiviral,4,sí,sí,sí,borrador
+fer-001,Hierro sacarosa IV,soporte crítico,4,sí,sí,no,borrador
+tia-001,Tiamina (vitamina B1),soporte crítico,4,sí,sí,sí,borrador

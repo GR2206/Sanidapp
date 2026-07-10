@@ -1,0 +1,27 @@
+{
+  "id": "vip-001",
+  "title": "Peripheral IV line insertion",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.1",
+  "executiveSummary": "Insert peripheral venous catheters using a non-touch aseptic technique, skin antiseptic, proper securing, and early removal when no longer indispensable.",
+  "body": "## Steps to perform\n\n1. Identify the patient, allergies, and prescription (gauge, type of solution).\n2. Perform hand hygiene (WHO technique) before and after the procedure.\n3. Explain the procedure to the patient and position the limb fully extended.\n4. Apply a tourniquet 5–10 cm proximal to the selected site; palpate and select the vein.\n5. Disinfect the skin with alcoholic chlorhexidine using circular friction; **allow it to dry completely**.\n6. Insert the catheter using a non-touch technique at an angle of 15–30° until blood return is observed in the flash chamber.\n7. Remove the tourniquet before advancing the catheter fully, if it is still applied.\n8. Advance the catheter, withdraw the needle, and connect a closed infusion system without unnecessary disconnections.\n9. Secure with a transparent dressing without causing compression.\n10. Document the date, time, site, gauge, and number of attempts.\n11. Check during each shift for erythema, pain, edema, exudate, phlebitis, or extravasation.\n12. Remove the catheter once treatment is completed or upon signs of complication; re-evaluate its necessity daily.\n\n## Scientific rationale\n\n### Indications\n\n- Administration of IV medications or fluids.\n- Blood sampling when no alternative access is available.\n- Contrast administration or procedures according to medical prescription.\n- Emergency resuscitation requiring peripheral access.\n\n### Site selection\n\n| Preference | Site |\n| --- | --- |\n| First choice | Forearm (basilic, cephalic, or median cubital veins) |\n| Alternative | Dorsum of the hand (higher risk of phlebitis) |\n| Avoid | Limb with an AV fistula, lymphedema, thrombosis, or local infection |\n| Avoid | Limb on the side of a radical mastectomy (unless medically indicated) |\n\n### Material\n\n- Sterile peripheral venous catheter (gauge according to prescription).\n- Tourniquet, antiseptic (preferentially 0.5–2% alcoholic chlorhexidine).\n- Sterile semipermeable transparent dressing.\n- Sterile infusion set and sharps disposal container.\n\n### Evidence and recommendations\n\n> **WHO 2024:** Guidelines for the prevention of bloodstream infections from peripheral catheters using a non-touch aseptic technique and skin chlorhexidine.\n\n> **CDC 2011 (O'Grady et al.):** Do not replace catheters routinely; remove when no longer indispensable.\n\n### Criteria for immediate removal\n\n- Phlebitis, infiltration, or extravasation.\n- Suspicion of site infection or catheter-associated bacteremia.\n- Malfunction or unresolved obstruction.\n- Catheter is no longer indispensable.\n\n### Complications — notify immediately\n\n- Extravasation of vesicant or irritant drugs.\n- Extensive hematoma or persistent bleeding.\n- Severe pain, distal cyanosis, or loss of pulse.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections and other infections associated with the use of intravascular catheters — Part 1: Peripheral catheters. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240080189"
+    },
+    {
+      "citation": "WHO — News: new guidance to reduce bloodstream infections from catheter use (2024).",
+      "url": "https://www.who.int/es/news-room/09-05-2024-new-guidance-aims-to-reduce-bloodstream-infections-from-catheter-use"
+    },
+    {
+      "citation": "SATI — Multisociety consensus: prevention of device-associated infections (vascular access).",
+      "url": "https://www.sati.org.ar/comite-de-infectologia-critica/"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011. CDC / Healthcare Infection Control Practices Advisory Committee.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    }
+  ]
+}

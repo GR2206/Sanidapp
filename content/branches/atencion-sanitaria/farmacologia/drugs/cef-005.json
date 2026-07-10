@@ -1,0 +1,60 @@
+{
+  "id": "cef-005",
+  "name": "Ceftriaxona",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.1",
+  "updatedAt": "2026-07-10",
+  "executiveSummary": "Cefalosporina de tercera generación. Tratamiento de sepsis, meningitis, infecciones del tracto respiratorio bajo, piel y tejidos blandos, óseas, por bacterias gram negativas aeróbicas y algunas gram positivas. Profilaxis para ITS (Neisseria gonorrhoeae).",
+  "indications": "## Indicaciones principales\n\nCefalosporina de tercera generación. Tratamiento de sepsis, meningitis, infecciones del tracto respiratorio bajo, piel y tejidos blandos, óseas, por bacterias gram negativas aeróbicas y algunas gram positivas. Profilaxis para ITS (Neisseria gonorrhoeae).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "FA conteniendo 1 g (Drawer, FABRA, Pharmavial, Acantex, Ceftriaz, Exemple, Norgreen, Bioteral).",
+      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
+      "diluent": "1 g en 100 mL de SF o DX 5%. Pasar en 30-60 min.",
+      "finalConcentration": "10 mg/mL.",
+      "administration": "IM: Sí. IV directa: Sí. Reconst. 1 g en 9,6 mL de AD y pasar en 2-4 min (excepto marca Norgreen: NO). IV intermitente: Sí.",
+      "notes": "No inyectar más de 1 g vía IM. Sin lidocaína esta vía es dolorosa. Es incompatible y no debe ser mezclada con vancomicina, fluconazol y aminoglucósidos."
+    },
+    "pediatrico": {
+      "presentation": "F.A. Liof.: 1000 mg",
+      "administration": "E.V.; I.M.",
+      "diluent": "AD, Sol. Cl Na 0,9%, Dext. 5%.",
+      "finalConcentration": "Entre 10 mg/mL y 40 mg/mL.",
+      "infusionRate": "No menor a 30 min.",
+      "dose": "Niños: Infecciones leves y moderadas: 50-75 mg/kg/día, cada 24 hs. Infecciones severas, sepsis, meningitis, neutropenia: 100 mg/kg/día, cada 24 hs. Dosis máxima: 2 g (S.N.C.: 4 g en 2 dosis). Adultos: 1-2 g cada 24 hs. Dosis prequirúrgica adultos: 1 g. Profilaxis para ITS: Niños: I.M. 250 mg única dosis; adolescentes y adultos: I.M.: 500 mg/dosis, única dosis.",
+      "notes": "Eliminación renal y biliar. Ajuste de dosis con clearance de creatinina &lt; 10 ml/min. No se aconseja su uso en neonatos por desplazar a la bilirrubina de su unión con la albúmina. En R.N. contraindicada la administración simultánea de soluciones que contengan calcio (esperar 48 hs desde la última dosis de cefTRIAXona). Precipita en pulmones y riñones de R.N. prematuros y de término, casos de reacciones fatales."
+    },
+    "neonatal": {
+      "dose": "50 mg/kg/dosis cada 24 h (meningitis: esquemas específicos NNU).",
+      "administration": "IV."
+    }
+  },
+  "stability": "## Reconstituido (en el frasco)\n\n- 6 hs a T° amb y 24 hs refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb y 72 hs refrigerado.\n\n## Cartilla pediátrica\n\n- 3 días a T° ambiente y 10 días en heladera a 4° C.",
+  "adverseEffects": "## Efectos adversos\n\nDiarrea, leucopenia, trombocitopenia transitoria, anemia hemolítica, urticaria, rash, dolor en el sitio de inyección, barro biliar, fiebre, cefalea, mareos, vértigo.",
+  "bibliography": [
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — CefTRIAXona (cód. 0040, ATC J01DD).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
+      "url": "https://www.sadi.org.ar/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
+    }
+  ]
+}

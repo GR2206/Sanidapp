@@ -1,0 +1,27 @@
+{
+  "id": "feb-001",
+  "title": "Fiebre sin foco en lactante",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.2",
+  "executiveSummary": "Valorar edad, estado general y signos de alarma. Estratificar riesgo de infección bacteriana grave y decidir estudio ambulatorio, observación o ingreso.",
+  "body": "## Pasos a realizar\n\n1. **Registrar edad exacta** del lactante y confirmar que la fiebre es real (temperatura rectal o axilar según protocolo).\n2. Tomar **signos vitales completos**: FC, FR, TA, temperatura y SpO₂.\n3. Evaluar **estado general** (aspecto, tono, interacción, alimentación) como dato prioritario sobre la cifra de temperatura.\n4. Explorar **signos de alarma**: letargia, mala perfusión, petequias, tiraje, rechazo alimentario, fontanela abombada.\n5. Valorar **estado de hidratación y perfusión**; registrar vacunación y antecedentes relevantes.\n6. **Estratificar riesgo según edad** y decidir conducta con el equipo médico (estudio ambulatorio, observación o ingreso).\n7. Obtener **muestras indicadas** según edad y riesgo: hemocultivo antes de antibiótico si procede, urinocultivo (bolsa o método estéril) y otros estudios según criterios.\n8. **Monitorizar** durante observación si aplica; reevaluar estado general cada 1–2 horas.\n9. **Educar a la familia** sobre signos de empeoramiento y criterios de reconsulta urgente.\n10. **Derivar o ingresar de inmediato** si aparece cualquier signo de alarma durante la valoración.\n\n## Fundamentación científica\n\n### Objetivo\n\nEstandarizar la evaluación inicial del lactante con fiebre sin foco aparente.\n\n### Estratificación por edad\n\n| Edad | Conducta general |\n| --- | --- |\n| **0–28 días** | Considerar ingreso y estudio completo (meningitis, UTI, bacteriemia) |\n| **29–60 días** | Analítica, urinocultivo; hemocultivo según protocolo y estado general |\n| **61–90 días** | Estratificación con criterios validados (Rochester, Philadelphia o guía local) |\n| **> 3 meses** | Valorar estado general; foco clínico; manejo ambulatorio si bien aspecto |\n\n### Evaluación de enfermería\n\n- Signos vitales completos (FC, FR, TA, temperatura, SpO₂).\n- Estado de hidratación y perfusión.\n- Fontanela, exantema petequial, tiraje, rechazo alimentario.\n- Registro de vacunación y antecedentes.\n\n### Signos de alarma\n\n- Letargia, hipotonía o irritabilidad inconsolable.\n- Mala perfusión, hipotensión o taquicardia desproporcionada.\n- Petequias o púrpura.\n- Tiraje, gemido, cianosis o apnea.\n- Vómitos persistentes o rechazo total del alimento.\n\n> Priorizar el **estado general** sobre un dato aislado de temperatura (AAP 2021).\n\n### Muestras (según indicación médica)\n\n- Hemocultivo antes de antibiótico si procede.\n- Urinocultivo (bolsa o método estéril según edad).\n- Otros estudios según edad y criterios de riesgo.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Clinical Practice Guideline: Febrile Infants 8 to 60 Days Old. Pediatrics. 2021.",
+      "url": "https://publications.aap.org/pediatrics/article/148/2/e2021052228/179775"
+    },
+    {
+      "citation": "SATI — Área Pediatría. Recursos y lineamientos en cuidados críticos pediátricos.",
+      "url": "https://www.sati.org.ar/pediatria/"
+    },
+    {
+      "citation": "Sociedad Latinoamericana de Cuidados Intensivos Pediátricos (SLACIP) — Consenso LATAM manejo de sepsis en niños.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/10-Consenso-LATAM-SLACIP-Sepsis-Espanol-Acta-Ped-Mex-Marzo-2022.pdf"
+    },
+    {
+      "citation": "Weiss SL, et al. Surviving Sepsis Campaign Pediatric Guidelines 2026 — reconocimiento precoz en lactante febril.",
+      "url": "https://sccm.org/survivingsepsiscampaign/guidelines-and-resources/surviving-sepsis-campaign-pediatric-guidelines"
+    }
+  ]
+}
