@@ -7,11 +7,8 @@ import { ActivityIndicator, ScrollView, StyleSheet, View } from 'react-native';
 
 
 import { ScreenContainer } from '@/components/layout/ScreenContainer';
-
 import { ProtocolBody } from '@/components/protocol/ProtocolBody';
-
 import { ProtocolPdfButton } from '@/components/protocol/ProtocolPdfButton';
-
 import { PremiumUpgradePanel } from '@/components/subscription/PremiumUpgradePanel';
 
 import { FavoriteToggleButton } from '@/components/ui/FavoriteToggleButton';
@@ -239,8 +236,6 @@ export default function ProtocolScreen() {
           ))}
 
         </View>
-
-
 
         <ProtocolPdfButton protocol={protocol} />
 

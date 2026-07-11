@@ -1,15 +1,15 @@
 {
   "id": "ins-001",
-  "name": "Insulina regular",
+  "name": "Insulina corriente",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2",
+  "updatedAt": "2026-07-11",
   "translationReviewed": true,
-  "executiveSummary": "Insulina humana de ação curta IV/SC para cetoacidose, hiperglicemia em UTI e correção com glicose.",
-  "indications": "## Indicações\n\n- Cetoacidose diabética e estado hiperglicêmico hiperosmolar.\n- Controle glicêmico em UTI com protocolo de insulina.\n- Correção de hipercalemia (esquemas com glicose).\n\n## Precauções\n\n- Hipoglicemia. Monitorar glicemia capilar a cada 1–2 h em infusão.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Insulina humana de ação rápida (etiqueta amarela habitual), forma farmacêutica líquida. Uso IV/SC em cetoacidose, hiperglicemia em UTI e correção com glicose.",
+  "indications": "## Indicações\n\n- Cetoacidose diabética e estado hiperglicêmico hiperosmolar.\n- Controle glicêmico em UTI com protocolo de insulina.\n- Correção de hipercalemia (esquemas com glicose).\n\n## Identificação prática\n\n- **Ação rápida** (corriente). Frasco líquido; na prática costuma identificar-se com **etiqueta amarela** (confirmar sempre a embalagem institucional).\n- Diferenciar da **insulina NPH** (ação intermediária/lenta, etiqueta verde habitual).\n\n## Precauções\n\n- Hipoglicemia. Monitorar glicemia capilar a cada 1–2 h em infusão.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola 100 UI/mL.",
+      "presentation": "Frasco-ampola líquido 100 UI/mL (corriente / ação rápida).",
       "dose": "CAD: bolus 0,1 UI/kg IV depois infusão 0,1 UI/kg/h titulada.",
       "administration": "IV em bomba ou SC."
     },

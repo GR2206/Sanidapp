@@ -33,7 +33,7 @@ const items = [
       { drugId: 'kcl-001', label: 'Cloreto de potássio' },
       { drugId: 'cag-001', label: 'Gluconato de cálcio' },
       { drugId: 'bic-001', label: 'Bicarbonato de sódio' },
-      { drugId: 'ins-001', label: 'Insulina regular' },
+      { drugId: 'ins-001', label: 'Insulina corriente' },
       { drugId: 'glu-001', label: 'Dextrose (glicose)' },
     ],
     bibliography: [

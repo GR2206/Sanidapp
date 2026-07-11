@@ -31,9 +31,37 @@ function localizePathologyMeta(meta: PathologyMeta, locale: AppLocale): Patholog
   };
 }
 
-export async function loadPathologyIndex(branchId: string = DEFAULT_BRANCH_ID): Promise<PathologyIndex> {
+/** El contenido empaquetado en la app prevalece sobre GitHub. */
+function mergePathologyIndex(remote: PathologyIndex | null): PathologyIndex {
+  const localById = new Map(LOCAL_PATHOLOGY_INDEX.pathologies.map((item) => [item.id, item]));
+  const remoteItems = remote?.pathologies ?? [];
+  const mergedIds = new Set<string>();
+  const pathologies: PathologyMeta[] = [];
+
+  for (const meta of remoteItems) {
+    mergedIds.add(meta.id);
+    pathologies.push(localById.get(meta.id) ?? meta);
+  }
+
+  for (const meta of LOCAL_PATHOLOGY_INDEX.pathologies) {
+    if (!mergedIds.has(meta.id)) {
+      pathologies.push(meta);
+    }
+  }
+
+  return {
+    ...LOCAL_PATHOLOGY_INDEX,
+    ...(remote ?? {}),
+    pathologies,
+  };
+}
+
+export async function loadPathologyIndex(
+  branchId: string = DEFAULT_BRANCH_ID,
+): Promise<PathologyIndex> {
   try {
-    return await fetchGitHubJson<PathologyIndex>(getPathologyIndexPath(branchId));
+    const remote = await fetchGitHubJson<PathologyIndex>(getPathologyIndexPath(branchId));
+    return mergePathologyIndex(remote);
   } catch {
     return LOCAL_PATHOLOGY_INDEX;
   }
@@ -63,26 +91,23 @@ export async function loadPathology(
   pathologyId: string,
   locale: AppLocale = 'es',
 ): Promise<Pathology | null> {
-  const meta = LOCAL_PATHOLOGY_INDEX.pathologies.find((item) => item.id === pathologyId) ?? null;
   const local = LOCAL_PATHOLOGIES[pathologyId];
-
-  let base: Pathology | null = null;
-
-  if (!meta) {
-    base = local ?? null;
-  } else {
-    try {
-      base = await fetchGitHubJson<Pathology>(getPathologyPath(meta));
-    } catch {
-      base = local ?? null;
-    }
+  if (local) {
+    return resolvePathologyLocale(local, locale);
   }
 
-  if (!base) {
+  const meta =
+    LOCAL_PATHOLOGY_INDEX.pathologies.find((item) => item.id === pathologyId) ?? null;
+  if (!meta) {
     return null;
   }
 
-  return resolvePathologyLocale(base, locale);
+  try {
+    const remote = await fetchGitHubJson<Pathology>(getPathologyPath(meta));
+    return resolvePathologyLocale(remote, locale);
+  } catch {
+    return null;
+  }
 }
 
 export function getLocalizedPathologyCount(locale: AppLocale): number {

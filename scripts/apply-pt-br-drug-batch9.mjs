@@ -101,7 +101,7 @@ const drugs = [
     bibliography: [BIB.sadiUcip, BIB.pedGuide, BIB.sanford, BIB.anmat, BIB.sadi],
   },
   {
-    id: 'ins-001', name: 'Insulina regular', version: '1.1', updatedAt: '2026-06-30',
+    id: 'ins-001', name: 'Insulina corriente', version: '1.1', updatedAt: '2026-06-30',
     executiveSummary: 'Insulina humana de ação curta IV/SC para cetoacidose, hiperglicemia em UTI e correção com glicose.',
     indications: `## Indicações\n\n- Cetoacidose diabética e estado hiperglicêmico hiperosmolar.\n- Controle glicêmico em UTI com protocolo de insulina.\n- Correção de hipercalemia (esquemas com glicose).\n\n## Precauções\n\n- Hipoglicemia. Monitorar glicemia capilar a cada 1–2 h em infusão.\n\n${ADJUST}`,
     dilution: {
@@ -135,7 +135,7 @@ const drugs = [
   {
     id: 'inp-001', name: 'Insulina NPH', version: '1.1', updatedAt: '2026-06-30',
     executiveSummary: 'Insulina intermediária SC para transição pós-CAD e diabetes basal em hospitalização.',
-    indications: `## Indicações\n\n- Esquema basal-bolus na diabetes hospitalizada.\n- Transição após infusão de insulina regular em CAD estabilizada.\n\n## Precauções\n\n- Não administrar IV. Hipoglicemia tardia.\n\n${ADJUST}`,
+    indications: `## Indicações\n\n- Esquema basal-bolus na diabetes hospitalizada.\n- Transição após infusão de insulina corriente em CAD estabilizada.\n\n## Precauções\n\n- Não administrar IV. Hipoglicemia tardia.\n\n${ADJUST}`,
     dilution: {
       adulto: { presentation: 'Frasco-ampola 100 UI/mL NPH.', dose: 'Dose basal conforme esquema (ex.: 0,2–0,5 UI/kg/dia basal).', administration: 'SC exclusivamente.' },
       pediatrico: {

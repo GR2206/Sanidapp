@@ -2,14 +2,14 @@
   "id": "inp-001",
   "name": "NPH insulin",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2",
+  "updatedAt": "2026-07-11",
   "translationReviewed": true,
-  "executiveSummary": "Intermediate-acting SC insulin for post-DKA transition and basal diabetes management during hospitalization.",
-  "indications": "## Indications\n\n- Basal-bolus regimen in hospitalized diabetes.\n- Transition after regular insulin infusion in stabilized DKA.\n\n## Precautions\n\n- Do not administer IV. Delayed hypoglycemia.\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "Intermediate/slow-acting insulin (typically green-labeled liquid vial). SC use for post-DKA transition and basal diabetes during hospitalization.",
+  "indications": "## Indications\n\n- Basal-bolus regimen in hospitalized diabetes.\n- Transition after short-acting insulin infusion in stabilized DKA.\n\n## Practical identification\n\n- **Intermediate/slow-acting** (NPH). Liquid vial; in practice often identified by a **green label** (always confirm the institutional packaging).\n- Distinguish from **short-acting insulin (corriente)** (typically yellow-labeled).\n\n## Precautions\n\n- Do not administer IV. Delayed hypoglycemia.\n\n> Adjust per institutional protocol and medical prescription.",
   "dilution": {
     "adulto": {
-      "presentation": "100 IU/mL NPH vial.",
+      "presentation": "100 IU/mL NPH liquid vial (intermediate/slow-acting).",
       "dose": "Basal dose according to regimen (e.g., 0.2–0.5 IU/kg/day basal).",
       "administration": "SC exclusively."
     },

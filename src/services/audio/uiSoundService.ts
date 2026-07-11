@@ -35,22 +35,19 @@ function isSupportedPlatform(): boolean {
 }
 
 /**
- * Respeta el perfil del celular (timbre / vibración / silencio).
- * - iOS: sesión ambient con playsInSilentMode: false.
- * - Android: ringer mode nativo (módulo DeviceRinger en builds nativos).
+ * Respeta el perfil del celular cuando hay API nativa.
+ * - iOS: playsInSilentMode: false (silent switch).
+ * - Android con DeviceRinger: solo suena en modo normal, al volumen de timbre.
+ * - Android sin módulo (Expo Go): permite sonido (no hay forma fiable de leer el vibrador).
  */
 function isDeviceSoundProfileAllowingAudio(): boolean {
-  if (Platform.OS !== 'android') {
+  if (Platform.OS !== 'android' || !DeviceRinger) {
     return true;
-  }
-  if (!DeviceRinger) {
-    // Expo Go no trae el módulo: el audio multimedia ignora vibración/silencio.
-    return false;
   }
   try {
     return DeviceRinger.getRingerMode() === 'normal';
   } catch {
-    return false;
+    return true;
   }
 }
 
@@ -108,7 +105,8 @@ async function ensureReady(): Promise<boolean> {
   priming = (async () => {
     try {
       await setAudioModeAsync({
-        playsInSilentMode: false,
+        // iOS: respeta el switch de silencio. En Android Expo Go este flag se ignora.
+        playsInSilentMode: Platform.OS === 'ios' ? false : true,
         interruptionMode: 'mixWithOthers',
         shouldPlayInBackground: false,
         shouldRouteThroughEarpiece: false,
@@ -160,9 +158,6 @@ export function getUiSoundsEnabled(): boolean {
 }
 
 export function primeUiSounds(): void {
-  if (Platform.OS === 'android' && !DeviceRinger) {
-    return;
-  }
   void ensureReady();
 }
 

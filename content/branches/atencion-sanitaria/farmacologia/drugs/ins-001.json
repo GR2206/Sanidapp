@@ -1,19 +1,19 @@
 {
   "id": "ins-001",
-  "name": "Insulina regular",
+  "name": "Insulina corriente",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Insulina humana de acción corta IV/SC para cetoacidosis, hiperglucemia en UCI y corrección con glucosa.",
-  "indications": "## Indicaciones\n\n- Cetoacidosis diabética e estado hiperglucémico hiperosmolar.\n- Control glucémico en UCI con protocolo de insulina.\n- Corrección de hiperkalemia (esquemas con glucosa).\n\n## Precauciones\n\n- Hipoglucemia. Monitorizar glicemia capilar cada 1–2 h en infusión.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2",
+  "updatedAt": "2026-07-11",
+  "executiveSummary": "Insulina humana de acción rápida (etiqueta amarilla habitual), forma farmacéutica líquida. Uso IV/SC en cetoacidosis, hiperglucemia en UCI y corrección con glucosa.",
+  "indications": "## Indicaciones\n\n- Cetoacidosis diabética e estado hiperglucémico hiperosmolar.\n- Control glucémico en UCI con protocolo de insulina.\n- Corrección de hiperkalemia (esquemas con glucosa).\n\n## Identificación práctica\n\n- **Acción rápida** (corriente). Frasco líquido; en la práctica suele identificarse con **etiqueta amarilla** (confirmar siempre el envase institucional).\n- Diferenciar de **insulina NPH** (acción intermedia/lenta, etiqueta verde habitual).\n\n## Precauciones\n\n- Hipoglucemia. Monitorizar glicemia capilar cada 1–2 h en infusión.\n\n> Ajustar según protocolo institucional y prescripción médica.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco 100 UI/mL.",
+      "presentation": "Frasco líquido 100 UI/mL (corriente / acción rápida).",
       "dose": "CAD: bolus 0,1 UI/kg IV luego infusión 0,1 UI/kg/h titulada.",
       "administration": "IV en bomba o SC."
     },
     "pediatrico": {
-      "presentation": "fco. amp. 100 UI/mL.",
+      "presentation": "fco. amp. líquido 100 UI/mL.",
       "administration": "SC o EV.",
       "diluent": "Sol. Cl Na 0,9%, Dext. 5% y 10%.",
       "infusionRate": "Goteo continuo con BIC.",

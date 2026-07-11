@@ -261,6 +261,22 @@ export const extEn = {
     textSizeIncrease: 'Increase text size',
     textSizeValue: '{{percent}}%',
   },
+  legal: {
+    tabTitle: 'Legal notice',
+    tabHint: 'Professional responsibility and informational use',
+    tabHintOpen: 'Tap to close',
+    title: 'Legal notice and professional responsibility',
+    scientificNature:
+      'The clinical, pharmacological, and decision-support information contained in Sanidapp is strictly scientific in nature. It has been systematized from publicly available knowledge sources and from specialized literature routinely consulted in healthcare practice.',
+    bibliography:
+      'References, supporting evidence, and documentary sources for each item are listed in the Bibliography section of the corresponding protocol, monograph, or clinical material.',
+    informativeUse:
+      'Sanidapp is solely an informational and reference tool. It does not replace in-person clinical assessment, formal therapeutic orders, or applicable institutional standards.',
+    professionalResponsibility:
+      'Any diagnostic, therapeutic, or care-management decision—and any resulting consequences—rests exclusively with the healthcare professional responsible for the patient, who must verify the information against current evidence, the specific clinical context, and the facility’s protocols.',
+    compact:
+      'Scientific–informational content based on publicly available sources (see Bibliography). Clinical use and its consequences remain the sole responsibility of the professional in charge.',
+  },
   contact: {
     intro: 'Questions, suggestions, or information about Sanidapp.',
     emailLabel: 'Contact email',

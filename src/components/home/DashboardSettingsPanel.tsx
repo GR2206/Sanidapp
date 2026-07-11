@@ -7,6 +7,7 @@ import { Pressable, StyleSheet, View, type ScrollView } from 'react-native';
 
 import { InstitutionTokenRedeemForm } from '@/components/subscription/InstitutionTokenRedeemForm';
 import { PremiumIapPurchaseSection } from '@/components/subscription/PremiumIapPurchaseSection';
+import { LegalDisclaimer } from '@/components/legal/LegalDisclaimer';
 import { LanguagePicker } from '@/components/ui/LanguagePicker';
 import { Typography } from '@/components/ui/Typography';
 import { useAuth } from '@/contexts/AuthContext';
@@ -243,6 +244,8 @@ export function DashboardSettingsPanel({
       </View>
 
       <LanguagePicker variant="line" dividerColor={dividerColor} />
+
+      <LegalDisclaimer />
 
       <Pressable
         accessibilityRole="button"

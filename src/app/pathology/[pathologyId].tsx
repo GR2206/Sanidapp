@@ -7,9 +7,7 @@ import { ActivityIndicator, ScrollView, StyleSheet } from 'react-native';
 
 
 import { PremiumUpgradePanel } from '@/components/subscription/PremiumUpgradePanel';
-
 import { ScreenContainer } from '@/components/layout/ScreenContainer';
-
 import {
   PathologyBibliographySection,
   PathologyBody,
@@ -272,7 +270,6 @@ export default function PathologyScreen() {
 
 
         <PathologyBibliographySection entries={pathology.bibliography} />
-
       </ScrollView>
 
     </ScreenContainer>

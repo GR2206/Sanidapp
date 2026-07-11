@@ -5,7 +5,7 @@ const B = bib('aha', 'anmat', 'sccm', 'aap');
 export const PHASE4_MONOGRAPHS = {
   'ins-001': build({
     id: 'ins-001',
-    name: 'Insulina regular',
+    name: 'Insulina corriente',
     executiveSummary: 'Insulina humana de acción corta IV/SC para cetoacidosis, hiperglucemia en UCI y corrección con glucosa.',
     indications: '## Indicaciones\n\n- Cetoacidosis diabética e estado hiperglucémico hiperosmolar.\n- Control glucémico en UCI con protocolo de insulina.\n- Corrección de hiperkalemia (esquemas con glucosa).\n\n## Precauciones\n\n- Hipoglucemia. Monitorizar glicemia capilar cada 1–2 h en infusión.',
     dilution: {
@@ -22,7 +22,7 @@ export const PHASE4_MONOGRAPHS = {
     id: 'inp-001',
     name: 'Insulina NPH',
     executiveSummary: 'Insulina intermedia SC para transición post-CAD y diabetes basal en hospitalización.',
-    indications: '## Indicaciones\n\n- Esquema basal-bolus en diabetes hospitalizada.\n- Transición tras infusión de insulina regular en CAD estabilizada.\n\n## Precauciones\n\n- No administrar IV. Hipoglucemia retardada.',
+    indications: '## Indicaciones\n\n- Esquema basal-bolus en diabetes hospitalizada.\n- Transición tras infusión de insulina corriente en CAD estabilizada.\n\n## Precauciones\n\n- No administrar IV. Hipoglucemia retardada.',
     dilution: {
       adulto: { presentation: 'Frasco 100 UI/mL NPH.', dose: 'Dosis basal según esquema (ej. 0,2–0,5 UI/kg/día basal).', administration: 'SC exclusivamente.' },
       pediatrico: { dose: 'Basal 0,2–0,5 UI/kg/día SC dividido.', administration: 'SC.' },

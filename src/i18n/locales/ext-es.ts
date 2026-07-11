@@ -257,6 +257,22 @@ export const extEs = {
     textSizeIncrease: 'Aumentar letra',
     textSizeValue: '{{percent}}%',
   },
+  legal: {
+    tabTitle: 'Aviso legal',
+    tabHint: 'Responsabilidad profesional y uso informativo',
+    tabHintOpen: 'Tocá para cerrar',
+    title: 'Aviso legal y de responsabilidad profesional',
+    scientificNature:
+      'La información clínica, farmacológica y de apoyo a la decisión contenida en Sanidapp es de carácter estrictamente científico. Ha sido sistematizada a partir de fuentes de conocimiento público y de la literatura especializada de consulta habitual en el ámbito de la salud.',
+    bibliography:
+      'Las referencias, fundamentos y procedencia documental de cada contenido se consignan en la sección Bibliografía del respectivo protocolo, monografía o material clínico.',
+    informativeUse:
+      'Sanidapp constituye una herramienta meramente informativa y de consulta. No reemplaza la evaluación clínica presencial, la indicación terapéutica formal ni las normas institucionales vigentes.',
+    professionalResponsibility:
+      'Toda decisión diagnóstica, terapéutica o de manejo asistencial —así como sus eventuales consecuencias— recae exclusivamente en la responsabilidad del profesional de la salud a cargo del paciente, quien deberá contrastar la información con la evidencia actualizada, el contexto clínico particular y los protocolos del efector.',
+    compact:
+      'Contenido de carácter científico-informativo, basado en fuentes de conocimiento público (véase Bibliografía). El uso clínico y sus consecuencias son responsabilidad exclusiva del profesional a cargo.',
+  },
   contact: {
     intro: 'Consultas, sugerencias o información sobre Sanidapp.',
     emailLabel: 'Correo de contacto',

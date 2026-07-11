@@ -370,7 +370,7 @@ const PATHOLOGIES = [
       { drugId: 'kcl-001', label: 'Cloruro de potasio' },
       { drugId: 'cag-001', label: 'Gluconato de calcio' },
       { drugId: 'bic-001', label: 'Bicarbonato de sodio' },
-      { drugId: 'ins-001', label: 'Insulina regular' },
+      { drugId: 'ins-001', label: 'Insulina corriente' },
       { drugId: 'glu-001', label: 'Dextrosa (glucosa)' },
     ],
     bibliography: [
@@ -383,9 +383,9 @@ const PATHOLOGIES = [
   {
     id: 'cad-001',
     name: 'Cetoacidosis diabética (CAD)',
-    body: `La **cetoacidosis diabética** es una emergencia metabólica definida por hiperglucemia, acidosis metabólica con anión gap elevado y cetonemia/cetonuria. Predomina en **diabetes tipo 1**, pero puede aparecer en tipo 2 bajo estrés grave. Los desencadenantes habituales son infección intercurrente, omisión de insulina, IAM y fármacos (corticoides). El cuadro incluye poliuria, polidipsia, náuseas, vómitos, dolor abdominal, respiración de Kussmaul y alteración del sensorio.\n\nEl tratamiento sigue el algoritmo institucional: **reposición de volumen** con cristaloides, **insulina regular IV** en infusión continua tras dosis inicial, corrección de **potasio** (no iniciar insulina si K⁺ < 3,3 mEq/L), y búsqueda del factor precipitante. El bicarbonato solo se considera en acidosis severa con pH < 6,9 según guía. Monitorizar glucemia horaria, gasometría, electrolitos y estado neurológico. Transición a insulina subcutánea cuando la cetonemia se resuelve y el paciente tolera vía oral.\n\n**Enfermería**: balance hídrico estricto, registro de vómitos y diuresis, glucemia capilar seriada, bomba de insulina con doble verificación de velocidad, y educación sobre prevención (enfermedad intercurrente, ajuste de dosis, no suspender insulina basal).`,
+    body: `La **cetoacidosis diabética** es una emergencia metabólica definida por hiperglucemia, acidosis metabólica con anión gap elevado y cetonemia/cetonuria. Predomina en **diabetes tipo 1**, pero puede aparecer en tipo 2 bajo estrés grave. Los desencadenantes habituales son infección intercurrente, omisión de insulina, IAM y fármacos (corticoides). El cuadro incluye poliuria, polidipsia, náuseas, vómitos, dolor abdominal, respiración de Kussmaul y alteración del sensorio.\n\nEl tratamiento sigue el algoritmo institucional: **reposición de volumen** con cristaloides, **insulina corriente IV** en infusión continua tras dosis inicial, corrección de **potasio** (no iniciar insulina si K⁺ < 3,3 mEq/L), y búsqueda del factor precipitante. El bicarbonato solo se considera en acidosis severa con pH < 6,9 según guía. Monitorizar glucemia horaria, gasometría, electrolitos y estado neurológico. Transición a insulina subcutánea cuando la cetonemia se resuelve y el paciente tolera vía oral.\n\n**Enfermería**: balance hídrico estricto, registro de vómitos y diuresis, glucemia capilar seriada, bomba de insulina con doble verificación de velocidad, y educación sobre prevención (enfermedad intercurrente, ajuste de dosis, no suspender insulina basal).`,
     relatedDrugs: [
-      { drugId: 'ins-001', label: 'Insulina regular' },
+      { drugId: 'ins-001', label: 'Insulina corriente' },
       { drugId: 'inp-001', label: 'Insulina NPH' },
       { drugId: 'kcl-001', label: 'Cloruro de potasio' },
       { drugId: 'bic-001', label: 'Bicarbonato de sodio' },
@@ -403,7 +403,7 @@ const PATHOLOGIES = [
     name: 'Diabetes mellitus',
     body: `La diabetes mellitus es una enfermedad metabólica definida por hiperglucemia crónica. En la **diabetes tipo 1** hay destrucción de las células beta pancreáticas y déficit absoluto de insulina, con inicio frecuente en la infancia o adolescencia. La **diabetes tipo 2** combina resistencia a la insulina y secreción insuficiente; se asocia a edad avanzada, sobrepeso, sedentarismo y antecedentes familiares. La **diabetes gestacional** aparece durante el embarazo y exige control estricto por el riesgo materno y fetal.\n\nEntre las afecciones agudas destacan la **cetoacidosis diabética** (más habitual en tipo 1), el **estado hiperglucémico hiperosmolar** (más frecuente en tipo 2) y la **hipoglucemia**, que puede deberse a exceso de insulina, ayuno prolongado o actividad física no compensada. Las complicaciones crónicas incluyen retinopatía, nefropatía, neuropatía periférica, pie diabético e incremento del riesgo cardiovascular. En la valoración de enfermería conviene registrar poliuria, polidipsia, pérdida de peso, heridas que cicatrizan mal y cambios en el nivel de conciencia.\n\nEl **tratamiento oportuno** combina educación, plan alimentario y actividad física. El tipo 1 requiere insulina desde el diagnóstico. En el tipo 2 se inicia habitualmente con metformina y otros fármacos según meta glucémica; la insulina se indica cuando no se alcanza el control. En hospitalización: monitorizar glucemia capilar, administrar insulina basal y de corrección según protocolo institucional, e iniciar de inmediato el algoritmo de **CAD** o **EHH** cuando corresponda. Ante hipoglucemia sintomática, aplicar la regla del 15-15 (glucosa oral) o glucagón / dextrosa IV según gravedad y protocolo del servicio.`,
     relatedDrugs: [
-      { drugId: 'ins-001', label: 'Insulina regular' },
+      { drugId: 'ins-001', label: 'Insulina corriente' },
       { drugId: 'inp-001', label: 'Insulina NPH' },
       { drugId: 'glc-001', label: 'Glucagón' },
       { drugId: 'glu-001', label: 'Dextrosa (glucosa)' },
@@ -588,7 +588,7 @@ const PATHOLOGIES = [
     relatedDrugs: [
       { drugId: 'glu-001', label: 'Dextrosa (glucosa)' },
       { drugId: 'glc-001', label: 'Glucagón' },
-      { drugId: 'ins-001', label: 'Insulina regular' },
+      { drugId: 'ins-001', label: 'Insulina corriente' },
     ],
     bibliography: [
       { citation: 'American Diabetes Association. Standards of Care — hypoglycemia.', url: 'https://diabetesjournals.org/care/' },

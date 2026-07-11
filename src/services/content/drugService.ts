@@ -31,9 +31,35 @@ function localizeDrugMeta(meta: DrugMeta, locale: AppLocale): DrugMeta {
   };
 }
 
+/** El contenido empaquetado en la app prevalece sobre GitHub (nombres y textos al día). */
+function mergeDrugIndex(remote: DrugIndex | null): DrugIndex {
+  const localById = new Map(LOCAL_DRUG_INDEX.drugs.map((item) => [item.id, item]));
+  const remoteDrugs = remote?.drugs ?? [];
+  const mergedIds = new Set<string>();
+  const drugs: DrugMeta[] = [];
+
+  for (const meta of remoteDrugs) {
+    mergedIds.add(meta.id);
+    drugs.push(localById.get(meta.id) ?? meta);
+  }
+
+  for (const meta of LOCAL_DRUG_INDEX.drugs) {
+    if (!mergedIds.has(meta.id)) {
+      drugs.push(meta);
+    }
+  }
+
+  return {
+    ...LOCAL_DRUG_INDEX,
+    ...(remote ?? {}),
+    drugs,
+  };
+}
+
 export async function loadDrugIndex(branchId: string = DEFAULT_BRANCH_ID): Promise<DrugIndex> {
   try {
-    return await fetchGitHubJson<DrugIndex>(getDrugIndexPath(branchId));
+    const remote = await fetchGitHubJson<DrugIndex>(getDrugIndexPath(branchId));
+    return mergeDrugIndex(remote);
   } catch {
     return LOCAL_DRUG_INDEX;
   }
@@ -60,26 +86,22 @@ export async function loadDrugMeta(
 }
 
 export async function loadDrug(drugId: string, locale: AppLocale = 'es'): Promise<Drug | null> {
-  const meta = await loadDrugMeta(drugId, 'es');
   const local = LOCAL_DRUGS[drugId];
-
-  let base: Drug | null = null;
-
-  if (!meta) {
-    base = local ?? null;
-  } else {
-    try {
-      base = await fetchGitHubJson<Drug>(getDrugPath(meta));
-    } catch {
-      base = local ?? null;
-    }
+  if (local) {
+    return resolveDrugLocale(local, locale);
   }
 
-  if (!base) {
+  const meta = await loadDrugMeta(drugId, 'es');
+  if (!meta) {
     return null;
   }
 
-  return resolveDrugLocale(base, locale);
+  try {
+    const remote = await fetchGitHubJson<Drug>(getDrugPath(meta));
+    return resolveDrugLocale(remote, locale);
+  } catch {
+    return null;
+  }
 }
 
 export function getLocalizedDrugCount(locale: AppLocale): number {

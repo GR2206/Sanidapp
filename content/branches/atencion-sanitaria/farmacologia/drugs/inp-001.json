@@ -2,13 +2,13 @@
   "id": "inp-001",
   "name": "Insulina NPH",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Insulina intermedia SC para transición post-CAD y diabetes basal en hospitalización.",
-  "indications": "## Indicaciones\n\n- Esquema basal-bolus en diabetes hospitalizada.\n- Transición tras infusión de insulina regular en CAD estabilizada.\n\n## Precauciones\n\n- No administrar IV. Hipoglucemia retardada.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2",
+  "updatedAt": "2026-07-11",
+  "executiveSummary": "Insulina de acción intermedia/lenta (etiqueta verde habitual), forma farmacéutica líquida. Uso SC para transición post-CAD y diabetes basal en hospitalización.",
+  "indications": "## Indicaciones\n\n- Esquema basal-bolus en diabetes hospitalizada.\n- Transición tras infusión de insulina corriente en CAD estabilizada.\n\n## Identificación práctica\n\n- **Acción intermedia/lenta** (NPH). Frasco líquido; en la práctica suele identificarse con **etiqueta verde** (confirmar siempre el envase institucional).\n- Diferenciar de **insulina corriente** (acción rápida, etiqueta amarilla habitual).\n\n## Precauciones\n\n- No administrar IV. Hipoglucemia retardada.\n\n> Ajustar según protocolo institucional y prescripción médica.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco 100 UI/mL NPH.",
+      "presentation": "Frasco líquido 100 UI/mL NPH (acción intermedia/lenta).",
       "dose": "Dosis basal según esquema (ej. 0,2–0,5 UI/kg/día basal).",
       "administration": "SC exclusivamente."
     },

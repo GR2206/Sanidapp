@@ -1,15 +1,15 @@
 {
   "id": "ins-001",
-  "name": "Regular insulin",
+  "name": "Short-acting insulin",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2",
+  "updatedAt": "2026-07-11",
   "translationReviewed": true,
-  "executiveSummary": "Short-acting human insulin (IV/SC) for ketoacidosis, ICU hyperglycemia, and correction with glucose.",
-  "indications": "## Indications\n\n- Diabetic ketoacidosis and hyperglycemic hyperosmolar state.\n- Glycemic control in the ICU with an insulin protocol.\n- Hyperkalemia correction (regimens with glucose).\n\n## Precautions\n\n- Hypoglycemia. Monitor capillary blood glucose every 1–2 h during infusion.\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "Short-acting human insulin (corriente; typically yellow-labeled liquid vial). IV/SC for ketoacidosis, ICU hyperglycemia, and correction with glucose.",
+  "indications": "## Indications\n\n- Diabetic ketoacidosis and hyperglycemic hyperosmolar state.\n- Glycemic control in the ICU with an insulin protocol.\n- Hyperkalemia correction (regimens with glucose).\n\n## Practical identification\n\n- **Short-acting** (corriente). Liquid vial; in practice often identified by a **yellow label** (always confirm the institutional packaging).\n- Distinguish from **NPH insulin** (intermediate/slow-acting; typically green-labeled).\n\n## Precautions\n\n- Hypoglycemia. Monitor capillary blood glucose every 1–2 h during infusion.\n\n> Adjust per institutional protocol and medical prescription.",
   "dilution": {
     "adulto": {
-      "presentation": "100 IU/mL vial.",
+      "presentation": "100 IU/mL liquid vial (short-acting / corriente).",
       "dose": "DKA: 0.1 IU/kg IV bolus followed by 0.1 IU/kg/h infusion, titrated.",
       "administration": "IV via pump or SC."
     },
