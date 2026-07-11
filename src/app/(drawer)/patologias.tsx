@@ -48,6 +48,7 @@ import type { PathologyMeta } from '@/types/pathology';
 import { groupByLetter } from '@/utils/groupByLetter';
 
 import { hapticLight } from '@/utils/haptics';
+import { playKeySound } from '@/services/audio/uiSoundService';
 
 import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
@@ -173,7 +174,10 @@ export default function PatologiasScreen() {
 
           value={query}
 
-          onChangeText={setQuery}
+          onChangeText={(value) => {
+            playKeySound();
+            setQuery(value);
+          }}
 
           placeholder={isPremium ? t('catalog.searchPathology') : t('catalog.searchPathologySamples')}
 

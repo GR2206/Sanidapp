@@ -96,15 +96,8 @@ export function HomePrimaryBottomNav({ activeTab, onTabChange }: HomePrimaryBott
 
         const isCalculations = tab.id === 'calculos';
 
-        const iconColor = isCalculations
-
-          ? colors.accent
-
-          : active
-
-            ? colors.accent
-
-            : colors.textMuted;
+        // Misma marca en los 4 tabs (modo oscuro no debe mezclar accent + gris).
+        const iconColor = colors.accent;
 
         const labelColor = iconColor;
 

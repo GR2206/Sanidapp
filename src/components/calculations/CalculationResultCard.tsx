@@ -77,25 +77,28 @@ const styles = StyleSheet.create({
   card: {
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: radius.sm,
-    paddingHorizontal: spacing.sm,
-    paddingVertical: spacing.xs + 2,
-    gap: 2,
+    paddingHorizontal: spacing.xs + 2,
+    paddingVertical: 4,
+    gap: 1,
   },
   label: {
-    marginBottom: 2,
+    marginBottom: 1,
+    fontSize: 11,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'flex-start',
-    gap: spacing.sm,
-    paddingVertical: 4,
+    gap: spacing.xs,
+    paddingVertical: 2,
   },
   doseCol: {
     flex: 0.42,
-    minWidth: 96,
+    minWidth: 80,
+    fontSize: 13,
   },
   indicationCol: {
     flex: 0.58,
-    lineHeight: 16,
+    lineHeight: 14,
+    fontSize: 11,
   },
 });

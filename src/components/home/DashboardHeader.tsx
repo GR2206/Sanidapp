@@ -31,9 +31,10 @@ export function DashboardHeader() {
   const headerLogoScale = theme.dashboardHeaderLogoCoverScale;
   const headerUsesScaledCover = headerLogoScale !== 1;
   const headerLogoInset = theme.dashboardHeaderLogoInset ?? 0.88;
+  // Mismo círculo claro en dark y light: el disco delimita el logo.
   const logoFrameBackground = theme.dashboardLogoBlendBackground
     ? theme.background
-    : colors.surface;
+    : '#FFFFFF';
 
   const appearanceIcon =
     mode === 'auto' ? 'theme-light-dark' : isDark ? 'weather-night' : 'white-balance-sunny';

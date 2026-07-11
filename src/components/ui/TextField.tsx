@@ -3,6 +3,7 @@ import { StyleSheet, TextInput, type TextInputProps } from 'react-native';
 
 import { Typography } from '@/components/ui/Typography';
 import { useTextScale } from '@/contexts/TextScaleContext';
+import { playKeySound } from '@/services/audio/uiSoundService';
 import { palette } from '@/theme/colors';
 import { radius, spacing } from '@/theme/spacing';
 import { fontFamily } from '@/theme/typography';
@@ -13,7 +14,7 @@ interface TextFieldProps extends TextInputProps {
 }
 
 export const TextField = forwardRef<TextInput, TextFieldProps>(function TextField(
-  { label, error, style, ...rest },
+  { label, error, style, onChangeText, ...rest },
   ref,
 ) {
   const { s } = useTextScale();
@@ -27,6 +28,10 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
         ref={ref}
         allowFontScaling={false}
         placeholderTextColor={palette.textMuted}
+        onChangeText={(value) => {
+          playKeySound();
+          onChangeText?.(value);
+        }}
         style={[
           styles.input,
           {

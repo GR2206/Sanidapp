@@ -35,6 +35,7 @@ yarn-error.*
 .env*.local
 *-firebase-adminsdk-*.json
 service-account*.json
+service-account.sanidapp.json
 
 # editor / agent / caches
 .claude/

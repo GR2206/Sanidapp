@@ -5,23 +5,38 @@ import {
   useContext,
   useEffect,
   useMemo,
+  useRef,
   useState,
   type ReactNode,
 } from 'react';
+import { LayoutAnimation, Platform, UIManager } from 'react-native';
 
 const STORAGE_KEY = 'sanidapp_text_scale';
 
-/** Pasos de tamaño (1 = normal). */
-export const TEXT_SCALE_STEPS = [0.9, 1, 1.15, 1.3, 1.45] as const;
-export type TextScaleStep = (typeof TEXT_SCALE_STEPS)[number];
+export const TEXT_SCALE_MIN = 0.9;
+export const TEXT_SCALE_MAX = 1.45;
+/** Incremento al tocar las letras A. */
+export const TEXT_SCALE_BUTTON_STEP = 0.05;
+const DEFAULT_SCALE = 1;
 
-const DEFAULT_SCALE: TextScaleStep = 1;
+/** @deprecated Prefer TEXT_SCALE_MIN / MAX; se mantiene por compatibilidad. */
+export const TEXT_SCALE_STEPS = [0.9, 1, 1.15, 1.3, 1.45] as const;
+export type TextScaleStep = number;
+
+if (
+  Platform.OS === 'android' &&
+  UIManager.setLayoutAnimationEnabledExperimental
+) {
+  UIManager.setLayoutAnimationEnabledExperimental(true);
+}
 
 interface TextScaleContextValue {
-  scale: TextScaleStep;
+  scale: number;
   canDecrease: boolean;
   canIncrease: boolean;
-  setScale: (scale: TextScaleStep) => Promise<void>;
+  setScale: (scale: number) => Promise<void>;
+  /** Escala continua mientras se arrastra (sin animación brusca). */
+  setScaleLive: (scale: number) => void;
   increase: () => Promise<void>;
   decrease: () => Promise<void>;
   /** Escala un tamaño en px (redondeo a 0.5). */
@@ -33,22 +48,25 @@ const TextScaleContext = createContext<TextScaleContextValue>({
   canDecrease: false,
   canIncrease: true,
   setScale: async () => {},
+  setScaleLive: () => {},
   increase: async () => {},
   decrease: async () => {},
   s: (size) => size,
 });
 
-function nearestStep(value: number): TextScaleStep {
-  let best: TextScaleStep = DEFAULT_SCALE;
-  let bestDist = Number.POSITIVE_INFINITY;
-  for (const step of TEXT_SCALE_STEPS) {
-    const dist = Math.abs(step - value);
-    if (dist < bestDist) {
-      best = step;
-      bestDist = dist;
-    }
-  }
-  return best;
+export function clampTextScale(value: number): number {
+  if (!Number.isFinite(value)) return DEFAULT_SCALE;
+  const clamped = Math.min(TEXT_SCALE_MAX, Math.max(TEXT_SCALE_MIN, value));
+  return Math.round(clamped * 100) / 100;
+}
+
+function animateScaleChange() {
+  LayoutAnimation.configureNext({
+    duration: 240,
+    create: { type: LayoutAnimation.Types.easeInEaseOut, property: LayoutAnimation.Properties.opacity },
+    update: { type: LayoutAnimation.Types.easeInEaseOut },
+    delete: { type: LayoutAnimation.Types.easeInEaseOut, property: LayoutAnimation.Properties.opacity },
+  });
 }
 
 export function scalePx(size: number, scale: number): number {
@@ -56,49 +74,79 @@ export function scalePx(size: number, scale: number): number {
 }
 
 export function TextScaleProvider({ children }: { children: ReactNode }) {
-  const [scale, setScaleState] = useState<TextScaleStep>(DEFAULT_SCALE);
+  const [scale, setScaleState] = useState(DEFAULT_SCALE);
+  const persistTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     AsyncStorage.getItem(STORAGE_KEY).then((raw) => {
       if (!raw) return;
       const parsed = Number.parseFloat(raw);
       if (Number.isFinite(parsed)) {
-        setScaleState(nearestStep(parsed));
+        setScaleState(clampTextScale(parsed));
       }
     });
   }, []);
 
-  const setScale = useCallback(async (next: TextScaleStep) => {
-    setScaleState(next);
-    await AsyncStorage.setItem(STORAGE_KEY, String(next));
+  const persistScale = useCallback((next: number, immediate = false) => {
+    if (persistTimer.current) {
+      clearTimeout(persistTimer.current);
+      persistTimer.current = null;
+    }
+    const write = () => {
+      void AsyncStorage.setItem(STORAGE_KEY, String(next));
+    };
+    if (immediate) {
+      write();
+      return;
+    }
+    persistTimer.current = setTimeout(write, 180);
   }, []);
 
+  const setScale = useCallback(
+    async (next: number) => {
+      const clamped = clampTextScale(next);
+      setScaleState(clamped);
+      persistScale(clamped, true);
+    },
+    [persistScale],
+  );
+
+  const setScaleLive = useCallback(
+    (next: number) => {
+      const clamped = clampTextScale(next);
+      setScaleState(clamped);
+      persistScale(clamped, false);
+    },
+    [persistScale],
+  );
+
   const increase = useCallback(async () => {
-    const index = TEXT_SCALE_STEPS.indexOf(scale);
-    if (index < TEXT_SCALE_STEPS.length - 1) {
-      await setScale(TEXT_SCALE_STEPS[index + 1]);
-    }
+    const next = clampTextScale(scale + TEXT_SCALE_BUTTON_STEP);
+    if (next === scale) return;
+    animateScaleChange();
+    await setScale(next);
   }, [scale, setScale]);
 
   const decrease = useCallback(async () => {
-    const index = TEXT_SCALE_STEPS.indexOf(scale);
-    if (index > 0) {
-      await setScale(TEXT_SCALE_STEPS[index - 1]);
-    }
+    const next = clampTextScale(scale - TEXT_SCALE_BUTTON_STEP);
+    if (next === scale) return;
+    animateScaleChange();
+    await setScale(next);
   }, [scale, setScale]);
 
-  const value = useMemo<TextScaleContextValue>(() => {
-    const index = TEXT_SCALE_STEPS.indexOf(scale);
-    return {
+  const value = useMemo<TextScaleContextValue>(
+    () => ({
       scale,
-      canDecrease: index > 0,
-      canIncrease: index < TEXT_SCALE_STEPS.length - 1,
+      canDecrease: scale > TEXT_SCALE_MIN + 0.001,
+      canIncrease: scale < TEXT_SCALE_MAX - 0.001,
       setScale,
+      setScaleLive,
       increase,
       decrease,
       s: (size: number) => scalePx(size, scale),
-    };
-  }, [decrease, increase, scale, setScale]);
+    }),
+    [decrease, increase, scale, setScale, setScaleLive],
+  );
 
   return <TextScaleContext.Provider value={value}>{children}</TextScaleContext.Provider>;
 }

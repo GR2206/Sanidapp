@@ -23,17 +23,6 @@ interface KeyboardAwareScrollScreenProps {
   scrollProps?: Omit<ScrollViewProps, 'children' | 'contentContainerStyle' | 'ref'>;
 }
 
-function visibleAreaBottom(extraGap: number): number {
-  const windowHeight = Dimensions.get('window').height;
-  const keyboardHeight = Keyboard.metrics()?.height ?? 0;
-
-  if (Platform.OS === 'android') {
-    return windowHeight - extraGap;
-  }
-
-  return windowHeight - keyboardHeight - extraGap;
-}
-
 export function KeyboardAwareScrollScreen({
   children,
   centerWhenIdle = false,
@@ -66,18 +55,25 @@ export function KeyboardAwareScrollScreen({
   }, []);
 
   const isKeyboardOpen = keyboardHeight > 0;
-  const bottomPadding = keyboardHeight + spacing.xxxl * 2;
+  // Android usa softwareKeyboardLayoutMode "resize": la ventana ya se achica.
+  // iOS necesita padding extra con la altura del teclado.
+  const bottomPadding = isKeyboardOpen
+    ? Platform.OS === 'ios'
+      ? keyboardHeight + spacing.xxl + spacing.lg
+      : spacing.xxl + spacing.xl
+    : spacing.xl;
 
   return (
     <KeyboardAvoidingView
       style={styles.flex}
-      behavior={isKeyboardOpen ? 'padding' : undefined}
-      keyboardVerticalOffset={Platform.OS === 'ios' ? spacing.sm : spacing.md}>
+      behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+      keyboardVerticalOffset={Platform.OS === 'ios' ? spacing.xl : 0}>
       <ScrollView
         ref={scrollRef}
         {...scrollProps}
         keyboardShouldPersistTaps="handled"
-        automaticallyAdjustKeyboardInsets
+        keyboardDismissMode="on-drag"
+        automaticallyAdjustKeyboardInsets={Platform.OS === 'ios'}
         showsVerticalScrollIndicator={false}
         onScroll={(event) => {
           scrollYRef.current = event.nativeEvent.contentOffset.y;
@@ -87,8 +83,10 @@ export function KeyboardAwareScrollScreen({
         contentContainerStyle={[
           styles.content,
           centerWhenIdle && !isKeyboardOpen ? styles.centered : null,
-          { paddingBottom: isKeyboardOpen ? bottomPadding : spacing.xl },
           contentContainerStyle,
+          // Debe ir al final: el padding inferior del teclado no puede pisarse.
+          { paddingBottom: isKeyboardOpen ? bottomPadding : undefined },
+          !isKeyboardOpen && !contentContainerStyle ? { paddingBottom: spacing.xl } : null,
         ]}>
         {children}
       </ScrollView>
@@ -109,7 +107,11 @@ export function scrollAuthFieldIntoView(
     }
 
     field.measureInWindow((_x, y, _width, height) => {
-      const visibleBottom = visibleAreaBottom(extraGap);
+      const windowHeight = Dimensions.get('window').height;
+      // En Android con resize, windowHeight ya excluye el teclado.
+      const keyboardInset =
+        Platform.OS === 'ios' ? (Keyboard.metrics()?.height ?? 0) : 0;
+      const visibleBottom = windowHeight - keyboardInset - extraGap;
       const fieldBottom = y + height;
 
       if (fieldBottom <= visibleBottom) {
@@ -118,7 +120,7 @@ export function scrollAuthFieldIntoView(
 
       const overlap = fieldBottom - visibleBottom + spacing.md;
       scrollRef.current?.scrollTo({
-        y: scrollYRef.current + overlap,
+        y: Math.max(0, scrollYRef.current + overlap),
         animated: true,
       });
     });
@@ -128,9 +130,11 @@ export function scrollAuthFieldIntoView(
 
   if (Platform.OS === 'android') {
     setTimeout(runScroll, 120);
-    setTimeout(runScroll, 300);
+    setTimeout(runScroll, 280);
+    setTimeout(runScroll, 420);
   } else {
-    setTimeout(runScroll, 100);
+    setTimeout(runScroll, 80);
+    setTimeout(runScroll, 200);
   }
 }
 

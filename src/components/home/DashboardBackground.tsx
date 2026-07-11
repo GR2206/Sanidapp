@@ -24,7 +24,9 @@ export function DashboardBackground({ children }: DashboardBackgroundProps) {
   const watermarkLogoInset = theme.dashboardWatermarkLogoInset ?? 0.88;
   const watermarkFrameBackground = theme.dashboardLogoBlendBackground
     ? theme.background
-    : undefined;
+    : watermarkCircle
+      ? '#FFFFFF'
+      : undefined;
 
   if (!hasBranding) {
     return (

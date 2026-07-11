@@ -1,11 +1,14 @@
 import { router, useNavigation, type Href } from 'expo-router';
-import { useEffect, useLayoutEffect, useMemo, useState } from 'react';
-import { ActivityIndicator, StyleSheet, View } from 'react-native';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type RefObject } from 'react';
+import { ActivityIndicator, ScrollView, StyleSheet, View } from 'react-native';
 
 import { CalculationDrugSelect } from '@/components/calculations/CalculationDrugSelect';
 import { CalculationResultCard } from '@/components/calculations/CalculationResultCard';
 import { CalculationSelect } from '@/components/calculations/CalculationSelect';
-import { KeyboardAwareScrollScreen } from '@/components/layout/KeyboardAwareScrollScreen';
+import {
+  KeyboardAwareScrollScreen,
+  scrollAuthFieldIntoView,
+} from '@/components/layout/KeyboardAwareScrollScreen';
 import { ScreenContainer } from '@/components/layout/ScreenContainer';
 import { PremiumUpgradePanel } from '@/components/subscription/PremiumUpgradePanel';
 import { Button } from '@/components/ui/Button';
@@ -24,11 +27,13 @@ import {
 import { spacing } from '@/theme/spacing';
 import {
   buildDoseResultRows,
+  calculateBodyMassIndex,
+  calculateBodySurfaceAreaM2,
   calculateEttDepthCm,
-  calculatePediatricBmiIndex,
   ETT_SIZES_MM,
   formatClinicalNumber,
   formatEttSize,
+  parseHeightCm,
   parseWeightKg,
   recommendEttSizeByWeightKg,
 } from '@/utils/clinicalCalculations';
@@ -36,8 +41,8 @@ import {
 type CalculationResults = {
   doseLabel: string | null;
   doseRows: { dose: string; indication?: string }[];
-  bmiValue: string;
-  recommendedEtt: string;
+  bsaValue: string;
+  bmiValue: string | null;
 };
 
 export default function CalculationsScreen() {
@@ -46,24 +51,30 @@ export default function CalculationsScreen() {
   const { colors, fonts } = useAppTheme();
   const { isPremium } = usePremiumAccess();
   const { contentPaddingBottom } = useScreenInsets();
+  const scrollRef = useRef<ScrollView>(null);
+  const scrollYRef = useRef(0);
+  const weightFieldRef = useRef<View>(null);
+  const heightFieldRef = useRef<View>(null);
 
   const [loadingOptions, setLoadingOptions] = useState(true);
   const [drugOptions, setDrugOptions] = useState<CalculationDrugOption[]>([]);
 
   const [weight, setWeight] = useState('');
+  const [height, setHeight] = useState('');
   const [weightError, setWeightError] = useState<string | undefined>();
   const [drugId, setDrugId] = useState<string | null>(null);
   const [ettSize, setEttSize] = useState<string | null>(null);
   const [results, setResults] = useState<CalculationResults | null>(null);
+  const [recommendedEtt, setRecommendedEtt] = useState<string | null>(null);
 
   const displayedEttDepth = useMemo(() => {
-    if (!results || !ettSize) return null;
+    if (!recommendedEtt || !ettSize) return null;
     const selectedEtt = Number.parseFloat(ettSize);
     if (!Number.isFinite(selectedEtt)) return null;
     return t('calculations.ettDepthValue', {
       value: formatClinicalNumber(calculateEttDepthCm(selectedEtt), 1),
     });
-  }, [ettSize, results, t]);
+  }, [ettSize, recommendedEtt, t]);
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -101,6 +112,10 @@ export default function CalculationsScreen() {
     [],
   );
 
+  function focusField(fieldRef: RefObject<View | null>) {
+    scrollAuthFieldIntoView(scrollRef, scrollYRef, fieldRef, spacing.xl);
+  }
+
   function handleOpenDrugMonograph(selectedDrugId: string) {
     router.push(ROUTES.drug(selectedDrugId) as Href);
   }
@@ -110,6 +125,7 @@ export default function CalculationsScreen() {
     if (!weightKg) {
       setWeightError(t('calculations.weightRequired'));
       setResults(null);
+      setRecommendedEtt(null);
       return;
     }
 
@@ -140,14 +156,19 @@ export default function CalculationsScreen() {
       doseRows = [{ dose: t('calculations.doseUnavailable') }];
     }
 
-    const bmi = calculatePediatricBmiIndex(weightKg);
+    const bsa = calculateBodySurfaceAreaM2(weightKg);
+    const heightCm = parseHeightCm(height);
+    const bmi = heightCm ? calculateBodyMassIndex(weightKg, heightCm) : null;
     const recommended = recommendEttSizeByWeightKg(weightKg);
 
+    setRecommendedEtt(`${formatEttSize(recommended)} mm`);
     setResults({
       doseLabel,
       doseRows,
-      bmiValue: formatClinicalNumber(bmi, 3),
-      recommendedEtt: `${formatEttSize(recommended)} mm`,
+      bsaValue: t('calculations.bsaUnit', { value: formatClinicalNumber(bsa, 3) }),
+      bmiValue: bmi
+        ? t('calculations.bmiUnit', { value: formatClinicalNumber(bmi, 1) })
+        : null,
     });
   }
 
@@ -164,38 +185,63 @@ export default function CalculationsScreen() {
   return (
     <ScreenContainer>
       <KeyboardAwareScrollScreen
+        scrollRef={scrollRef}
+        scrollYRef={scrollYRef}
         contentContainerStyle={[styles.content, { paddingBottom: contentPaddingBottom }]}>
-        <Typography
-          variant="body"
-          color={colors.textMuted}
-          style={[styles.intro, { fontFamily: fonts.regular }]}>
-          {t('calculations.intro')}
-        </Typography>
-
         {loadingOptions ? (
           <ActivityIndicator color={colors.button} style={styles.loader} />
         ) : (
           <View style={styles.form}>
-            <TextField
-              label={t('calculations.weight')}
-              value={weight}
-              onChangeText={(value) => {
-                setWeight(value);
-                if (weightError) setWeightError(undefined);
-              }}
-              keyboardType="decimal-pad"
-              placeholder={t('calculations.weightPlaceholder')}
-              error={weightError}
-              style={{
-                borderColor: colors.border,
-                backgroundColor: colors.backgroundSoft,
-                color: colors.text,
-                fontFamily: fonts.regular,
-                paddingVertical: 8,
-                paddingHorizontal: 12,
-                minHeight: 40,
-              }}
-            />
+            <View ref={weightFieldRef} collapsable={false}>
+              <TextField
+                label={t('calculations.weight')}
+                value={weight}
+                onChangeText={(value) => {
+                  setWeight(value);
+                  if (weightError) setWeightError(undefined);
+                }}
+                keyboardType="decimal-pad"
+                placeholder={t('calculations.weightPlaceholder')}
+                error={weightError}
+                onFocus={() => focusField(weightFieldRef)}
+                style={{
+                  borderColor: colors.border,
+                  backgroundColor: colors.backgroundSoft,
+                  color: colors.text,
+                  fontFamily: fonts.regular,
+                  paddingVertical: 5,
+                  paddingHorizontal: 10,
+                  minHeight: 32,
+                  marginBottom: 6,
+                  fontSize: 14,
+                }}
+              />
+            </View>
+
+            <View ref={heightFieldRef} collapsable={false}>
+              <TextField
+                label={t('calculations.height')}
+                value={height}
+                onChangeText={setHeight}
+                keyboardType="decimal-pad"
+                placeholder={t('calculations.heightPlaceholder')}
+                onFocus={() => focusField(heightFieldRef)}
+                style={{
+                  borderColor: colors.border,
+                  backgroundColor: colors.backgroundSoft,
+                  color: colors.text,
+                  fontFamily: fonts.regular,
+                  paddingVertical: 5,
+                  paddingHorizontal: 10,
+                  minHeight: 32,
+                  marginBottom: 2,
+                  fontSize: 14,
+                }}
+              />
+              <Typography variant="caption" color={colors.textMuted} style={styles.heightHint}>
+                {t('calculations.heightHint')}
+              </Typography>
+            </View>
 
             <CalculationDrugSelect
               label={t('calculations.drug')}
@@ -224,40 +270,47 @@ export default function CalculationsScreen() {
               <CalculationResultCard label={results.doseLabel} rows={results.doseRows} />
             ) : null}
 
-            <CalculationResultCard label={t('calculations.bmi')} value={results.bmiValue} />
+            <CalculationResultCard label={t('calculations.bsa')} value={results.bsaValue} />
 
-            <View style={[styles.divider, { backgroundColor: colors.border }]} />
-
-            <Typography
-              variant="subtitle"
-              style={[styles.sectionTitle, { color: colors.text, fontFamily: fonts.semiBold }]}>
-              {t('calculations.criticalArea')}
-            </Typography>
-
-            <CalculationSelect
-              label={t('calculations.ett')}
-              value={ettSize}
-              options={ettOptions}
-              onChange={setEttSize}
-              placeholder={t('calculations.selectEtt')}
-              allowClear
+            <CalculationResultCard
+              label={t('calculations.bmi')}
+              value={results.bmiValue ?? t('calculations.bmiNeedsHeight')}
             />
 
-            <View style={styles.row}>
-              <View style={styles.rowItem}>
-                <CalculationResultCard
-                  label={t('calculations.recommendedEtt')}
-                  value={results.recommendedEtt}
-                />
-              </View>
-              {displayedEttDepth ? (
+            <View style={styles.criticalSection}>
+              <View style={[styles.divider, { backgroundColor: colors.border }]} />
+
+              <Typography
+                variant="subtitle"
+                style={[styles.sectionTitle, { color: colors.text, fontFamily: fonts.semiBold }]}>
+                {t('calculations.criticalArea')}
+              </Typography>
+
+              <CalculationSelect
+                label={t('calculations.ett')}
+                value={ettSize}
+                options={ettOptions}
+                onChange={setEttSize}
+                placeholder={t('calculations.selectEtt')}
+                allowClear
+              />
+
+              <View style={styles.row}>
                 <View style={styles.rowItem}>
                   <CalculationResultCard
-                    label={t('calculations.ettDepth')}
-                    value={displayedEttDepth}
+                    label={t('calculations.recommendedEtt')}
+                    value={recommendedEtt ?? '—'}
                   />
                 </View>
-              ) : null}
+                {displayedEttDepth ? (
+                  <View style={styles.rowItem}>
+                    <CalculationResultCard
+                      label={t('calculations.ettDepth')}
+                      value={displayedEttDepth}
+                    />
+                  </View>
+                ) : null}
+              </View>
             </View>
           </View>
         ) : null}
@@ -270,32 +323,36 @@ const styles = StyleSheet.create({
   content: {
     paddingHorizontal: spacing.md,
     paddingTop: spacing.sm,
-    gap: spacing.md,
+    gap: spacing.sm,
   },
   premiumWrap: {
     paddingHorizontal: spacing.md,
     paddingTop: spacing.sm,
   },
-  intro: {
-    lineHeight: 20,
-  },
   loader: {
     marginVertical: spacing.md,
   },
   form: {
-    gap: spacing.sm,
+    gap: spacing.xs,
+  },
+  heightHint: {
+    marginBottom: spacing.xs,
   },
   calculateButton: {
-    marginTop: 2,
-    paddingVertical: 10,
-    paddingHorizontal: spacing.lg,
+    marginTop: 4,
+    paddingVertical: 8,
+    paddingHorizontal: spacing.md,
   },
   results: {
+    gap: Math.round(spacing.sm * 1.3),
+  },
+  criticalSection: {
+    marginTop: spacing.md,
     gap: spacing.sm,
   },
   divider: {
     height: StyleSheet.hairlineWidth,
-    marginVertical: spacing.xs,
+    marginBottom: spacing.xs,
   },
   sectionTitle: {
     marginBottom: 2,

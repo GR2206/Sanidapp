@@ -53,19 +53,37 @@ export const dashboardDarkColors: DashboardColors = {
   watermarkOpacity: 0,
 };
 
+function hexLuminance(hex: string): number {
+  const raw = hex.replace('#', '').trim();
+  if (raw.length !== 6) return 1;
+  const r = Number.parseInt(raw.slice(0, 2), 16) / 255;
+  const g = Number.parseInt(raw.slice(2, 4), 16) / 255;
+  const b = Number.parseInt(raw.slice(4, 6), 16) / 255;
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+}
+
+/** En dark, evita accents casi negros (p. ej. Español #1A1A1A) que no se ven. */
+function resolveDarkBrandAccent(theme: SanatorioTheme): string {
+  if (!theme.neutralChrome) {
+    return theme.primary;
+  }
+  return hexLuminance(theme.accent) < 0.22 ? theme.primary : theme.accent;
+}
+
 export function getBrandedDashboardColors(theme: SanatorioTheme, isDark: boolean): DashboardColors {
   const chrome = theme.neutralChrome ? theme.accent : theme.primary;
 
   if (isDark) {
+    const accent = resolveDarkBrandAccent(theme);
     return {
-      accent: theme.neutralChrome ? theme.accent : theme.primary,
+      accent,
       text: '#F0F4F8',
       textSecondary: hexToRgba(theme.secondary, 0.92),
       textMuted: '#9AA8B8',
       surface: theme.neutralChrome ? 'rgba(18, 24, 32, 0.9)' : 'rgba(18, 24, 32, 0.9)',
       surfaceMuted: theme.neutralChrome ? 'rgba(255, 255, 255, 0.06)' : hexToRgba(theme.primary, 0.14),
-      border: hexToRgba(chrome, 0.28),
-      borderSubtle: hexToRgba(chrome, 0.18),
+      border: hexToRgba(accent, 0.28),
+      borderSubtle: hexToRgba(accent, 0.18),
       overlay: hexToRgba('#000000', 0.45),
       imageOverlay: theme.neutralChrome ? 'transparent' : hexToRgba(theme.primary, 0.18),
       shadow: '#000000',

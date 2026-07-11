@@ -1,13 +1,13 @@
 import { BracketTabRow } from '@/components/pharmacology/BracketButton';
 import { Typography } from '@/components/ui/Typography';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useAppTheme } from '@/hooks/useAppTheme';
 import {
   DRUG_POPULATIONS,
   type DrugDilution,
   type DrugDilutionProfile,
   type DrugPopulation,
 } from '@/types/drug';
-import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
 import { useMemo, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
@@ -37,11 +37,12 @@ function PreparationRows({
   fieldLabel: (key: (typeof FIELD_KEYS)[number]) => string;
   emptyLabel: string;
 }) {
+  const { colors } = useAppTheme();
   const fields = FIELD_KEYS.filter((key) => profile[key]?.trim());
 
   if (fields.length === 0) {
     return (
-      <Typography variant="caption" color={palette.textSecondary}>
+      <Typography variant="caption" color={colors.textSecondary}>
         {emptyLabel}
       </Typography>
     );
@@ -49,12 +50,24 @@ function PreparationRows({
 
   return (
     <View style={styles.rows}>
-      {fields.map((key) => (
-        <View key={key} style={styles.row}>
-          <Typography variant="caption" color={palette.textMuted} style={styles.rowLabel}>
+      {fields.map((key, index) => (
+        <View
+          key={key}
+          style={[
+            styles.row,
+            index < fields.length - 1 && {
+              borderBottomWidth: StyleSheet.hairlineWidth,
+              borderBottomColor: colors.border,
+              paddingBottom: spacing.sm,
+            },
+          ]}>
+          <Typography
+            variant="caption"
+            color={colors.textMuted}
+            style={styles.rowLabel}>
             {fieldLabel(key)}
           </Typography>
-          <Typography variant="caption" style={styles.rowValue}>
+          <Typography variant="body" style={[styles.rowValue, { color: colors.text }]}>
             {profile[key]}
           </Typography>
         </View>
@@ -65,6 +78,7 @@ function PreparationRows({
 
 export function DrugPreparationSection({ dilution }: DrugPreparationSectionProps) {
   const { t } = useLocale();
+  const { colors } = useAppTheme();
   const profiles = useMemo(
     () => DRUG_POPULATIONS.filter((population) => dilution[population]),
     [dilution],
@@ -75,7 +89,7 @@ export function DrugPreparationSection({ dilution }: DrugPreparationSectionProps
 
   if (profiles.length === 0) {
     return (
-      <Typography variant="caption" color={palette.textSecondary}>
+      <Typography variant="caption" color={colors.textSecondary}>
         {t('drug.noPreparationData')}
       </Typography>
     );
@@ -105,31 +119,24 @@ const styles = StyleSheet.create({
   wrap: {
     gap: spacing.md,
     width: '100%',
-    paddingTop: spacing.xs,
+    alignSelf: 'stretch',
   },
   rows: {
-    gap: spacing.md,
-    paddingLeft: spacing.xs,
-    borderLeftWidth: 2,
-    borderLeftColor: palette.border,
-    paddingVertical: spacing.xs,
+    gap: spacing.sm,
+    width: '100%',
   },
   row: {
-    flexDirection: 'row',
-    alignItems: 'flex-start',
-    gap: spacing.md,
+    width: '100%',
+    gap: spacing.xs,
   },
   rowLabel: {
-    width: 108,
-    flexShrink: 0,
     fontSize: 11,
     letterSpacing: 0.3,
     textTransform: 'uppercase',
     lineHeight: 16,
   },
   rowValue: {
-    flex: 1,
-    color: palette.text,
-    lineHeight: 20,
+    lineHeight: 22,
+    fontSize: 14,
   },
 });

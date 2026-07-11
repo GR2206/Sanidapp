@@ -29,6 +29,17 @@ export function parseWeightKg(value: string): number | null {
   return parsed;
 }
 
+/** Talla en cm (opcional). */
+export function parseHeightCm(value: string): number | null {
+  const normalized = value.trim().replace(',', '.');
+  if (!normalized) return null;
+
+  const parsed = Number.parseFloat(normalized);
+  if (!Number.isFinite(parsed) || parsed <= 0) return null;
+
+  return parsed;
+}
+
 export function calculateDoseMg(params: {
   weightKg: number;
   maxDailyDoseMgPerKgPerDay: number;
@@ -75,8 +86,23 @@ export function buildDoseResultLines(
   );
 }
 
-export function calculatePediatricBmiIndex(weightKg: number): number {
+/**
+ * Superficie corporal (m²) — fórmula simplificada por peso:
+ * BSA = (4·W + 7) / (W + 90)
+ */
+export function calculateBodySurfaceAreaM2(weightKg: number): number {
   return (weightKg * 4 + 7) / (90 + weightKg);
+}
+
+/** @deprecated Usar calculateBodySurfaceAreaM2 */
+export function calculatePediatricBmiIndex(weightKg: number): number {
+  return calculateBodySurfaceAreaM2(weightKg);
+}
+
+/** IMC (kg/m²) = peso / talla². `heightCm` en centímetros. */
+export function calculateBodyMassIndex(weightKg: number, heightCm: number): number {
+  const heightM = heightCm / 100;
+  return weightKg / (heightM * heightM);
 }
 
 export function recommendEttSizeByWeightKg(weightKg: number): EttSizeMm {

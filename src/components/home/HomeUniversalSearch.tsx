@@ -23,6 +23,7 @@ import { fontFamily } from '@/theme/typography';
 import { spacing } from '@/theme/spacing';
 
 import { hapticLight } from '@/utils/haptics';
+import { playKeySound } from '@/services/audio/uiSoundService';
 
 import { navigateToContentItem } from '@/utils/contentNavigation';
 
@@ -104,7 +105,10 @@ export function HomeUniversalSearch({ onResultPress }: HomeUniversalSearchProps)
 
           value={query}
 
-          onChangeText={setQuery}
+          onChangeText={(value) => {
+            playKeySound();
+            setQuery(value);
+          }}
 
           placeholder={searchPlaceholder}
 

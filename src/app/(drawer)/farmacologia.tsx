@@ -49,6 +49,7 @@ import type { DrugMeta } from '@/types/drug';
 import { groupDrugsByLetter } from '@/utils/groupDrugsByLetter';
 
 import { hapticLight } from '@/utils/haptics';
+import { playKeySound } from '@/services/audio/uiSoundService';
 
 import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
@@ -180,7 +181,10 @@ export default function FarmacologiaScreen() {
 
           value={query}
 
-          onChangeText={setQuery}
+          onChangeText={(value) => {
+            playKeySound();
+            setQuery(value);
+          }}
 
           placeholder={isPremium ? t('catalog.searchDrug') : t('catalog.searchPathologySamples')}
 

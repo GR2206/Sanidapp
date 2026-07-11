@@ -11,11 +11,13 @@ import { radius, spacing } from '@/theme/spacing';
 import { hapticLight } from '@/utils/haptics';
 
 interface LanguagePickerProps {
-  /** `field` = login/registro; `row` = fila en ajustes; `compact` = botón circular en header */
-  variant?: 'compact' | 'field' | 'row';
+  /** `field` = login/registro; `row` = fila en ajustes; `line` = ajustes sin recuadro; `compact` = botón circular en header */
+  variant?: 'compact' | 'field' | 'row' | 'line';
+  /** Color de la línea inferior (solo `line`). */
+  dividerColor?: string;
 }
 
-export function LanguagePicker({ variant = 'compact' }: LanguagePickerProps) {
+export function LanguagePicker({ variant = 'compact', dividerColor }: LanguagePickerProps) {
   const { locale, setLocale, t } = useLocale();
   const { colors: dashboardColors } = useDashboardTheme();
   const [open, setOpen] = useState(false);
@@ -23,11 +25,13 @@ export function LanguagePicker({ variant = 'compact' }: LanguagePickerProps) {
   const current = LOCALE_OPTIONS.find((option) => option.code === locale) ?? LOCALE_OPTIONS[0];
   const isField = variant === 'field';
   const isRow = variant === 'row';
+  const isLine = variant === 'line';
   const surfaceColor = isField ? palette.white : dashboardColors.surface;
   const borderColor = isField ? palette.border : dashboardColors.border;
   const accentColor = isField ? palette.accent : dashboardColors.accent;
   const textColor = isField ? palette.text : dashboardColors.text;
   const mutedColor = isField ? palette.textMuted : dashboardColors.textMuted;
+  const lineBorderColor = dividerColor ?? borderColor;
 
   async function handleSelect(code: AppLocale) {
     hapticLight();
@@ -51,14 +55,21 @@ export function LanguagePicker({ variant = 'compact' }: LanguagePickerProps) {
           setOpen(true);
         }}
         style={({ pressed }) => [
-          isField ? styles.fieldTrigger : isRow ? styles.rowTrigger : styles.trigger,
-          {
-            backgroundColor: surfaceColor,
-            borderColor,
-          },
+          isField ? styles.fieldTrigger : isLine ? styles.lineTrigger : isRow ? styles.rowTrigger : styles.trigger,
+          isField || isRow
+            ? {
+                backgroundColor: surfaceColor,
+                borderColor,
+              }
+            : isLine
+              ? { borderBottomColor: lineBorderColor }
+              : {
+                  backgroundColor: surfaceColor,
+                  borderColor,
+                },
           pressed && styles.pressed,
         ]}>
-        {isRow ? (
+        {isRow || isLine ? (
           <>
             <Typography variant="bodyMedium" style={styles.flag}>
               {current.flag}
@@ -71,7 +82,9 @@ export function LanguagePicker({ variant = 'compact' }: LanguagePickerProps) {
                 {current.label}
               </Typography>
             </View>
-            <MaterialCommunityIcons name="chevron-right" size={20} color={mutedColor} />
+            {!isLine ? (
+              <MaterialCommunityIcons name="chevron-right" size={20} color={mutedColor} />
+            ) : null}
           </>
         ) : isField ? (
           <>
@@ -182,6 +195,13 @@ const styles = StyleSheet.create({
     borderRadius: 14,
     borderWidth: StyleSheet.hairlineWidth,
     padding: spacing.md,
+  },
+  lineTrigger: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.sm,
+    paddingVertical: spacing.md,
+    borderBottomWidth: 1,
   },
   rowText: {
     flex: 1,

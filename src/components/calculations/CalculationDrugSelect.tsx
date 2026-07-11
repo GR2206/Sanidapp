@@ -16,6 +16,7 @@ import { useTextScale } from '@/contexts/TextScaleContext';
 import { radius, spacing } from '@/theme/spacing';
 import { fontFamily } from '@/theme/typography';
 import { hapticLight } from '@/utils/haptics';
+import { playKeySound } from '@/services/audio/uiSoundService';
 
 export type CalculationDrugSelectOption = {
   value: string;
@@ -132,7 +133,10 @@ export function CalculationDrugSelect({
 
             <TextInput
               value={query}
-              onChangeText={setQuery}
+              onChangeText={(value) => {
+                playKeySound();
+                setQuery(value);
+              }}
               placeholder={t('calculations.drugSearchPlaceholder')}
               placeholderTextColor={colors.textMuted}
               autoCorrect={false}
@@ -233,7 +237,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: radius.sm,
     paddingHorizontal: spacing.sm,
-    paddingVertical: 8,
+    paddingVertical: 5,
+    minHeight: 32,
   },
   triggerText: {
     flex: 1,

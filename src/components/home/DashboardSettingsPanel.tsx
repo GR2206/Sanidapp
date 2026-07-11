@@ -1,23 +1,27 @@
-import { useLocale } from '@/contexts/LocaleContext';
-import { useSoundPreferences } from '@/contexts/SoundPreferencesContext';
-import { useTextScale } from '@/contexts/TextScaleContext';
-import { useAppLabels } from '@/hooks/useAppLabels';
-import { useDashboardTheme } from '@/hooks/useDashboardTheme';
-import { spacing } from '@/theme/spacing';
-import { hapticLight, hapticToggle } from '@/utils/haptics';
-import { Pressable, StyleSheet, View } from 'react-native';
-import type { ScrollView } from 'react-native';
-import { type RefObject } from 'react';
+import Slider from '@react-native-community/slider';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { DrawerActions } from '@react-navigation/native';
 import { useNavigation } from 'expo-router';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { type RefObject, useEffect, useState } from 'react';
+import { Pressable, StyleSheet, View, type ScrollView } from 'react-native';
 
 import { InstitutionTokenRedeemForm } from '@/components/subscription/InstitutionTokenRedeemForm';
 import { PremiumIapPurchaseSection } from '@/components/subscription/PremiumIapPurchaseSection';
 import { LanguagePicker } from '@/components/ui/LanguagePicker';
-import { SpringPressable } from '@/components/ui/SpringPressable';
 import { Typography } from '@/components/ui/Typography';
 import { useAuth } from '@/contexts/AuthContext';
+import { useLocale } from '@/contexts/LocaleContext';
+import { useSoundPreferences } from '@/contexts/SoundPreferencesContext';
+import {
+  TEXT_SCALE_MAX,
+  TEXT_SCALE_MIN,
+  useTextScale,
+} from '@/contexts/TextScaleContext';
+import { useAppLabels } from '@/hooks/useAppLabels';
+import { useDashboardTheme } from '@/hooks/useDashboardTheme';
+import { spacing } from '@/theme/spacing';
+import { hapticLight, hapticToggle } from '@/utils/haptics';
+import { hexToRgba } from '@/utils/color';
 
 export function DashboardSettingsPanel({
   scrollRef,
@@ -30,15 +34,22 @@ export function DashboardSettingsPanel({
   const { profile, logout, firebaseEnabled, isPremium, accessTier } = useAuth();
   const { t } = useLocale();
   const { soundsEnabled, toggleSounds } = useSoundPreferences();
-  const { scale, canDecrease, canIncrease, decrease, increase } = useTextScale();
+  const { scale, setScale, setScaleLive, increase, decrease, canIncrease, canDecrease } =
+    useTextScale();
   const { appearanceMode, accessTier: accessTierLabel, premiumSource } = useAppLabels();
   const { colors, isDark, mode, cycleMode, hasBranding, sanatorio } = useDashboardTheme();
+  const [sliderValue, setSliderValue] = useState(scale);
+
+  useEffect(() => {
+    setSliderValue(scale);
+  }, [scale]);
 
   const appearanceIcon =
     mode === 'auto' ? 'theme-light-dark' : isDark ? 'weather-night' : 'white-balance-sunny';
   const hasInstitution = Boolean(profile?.sanatorioId);
   const isPersonalPremium = isPremium && profile?.premiumSource === 'iap' && !hasInstitution;
-  const textPercent = Math.round(scale * 100);
+  const textPercent = Math.round(sliderValue * 100);
+  const dividerColor = isDark ? 'rgba(255, 255, 255, 0.28)' : hexToRgba(colors.text, 0.22);
 
   return (
     <View style={styles.section}>
@@ -48,7 +59,7 @@ export function DashboardSettingsPanel({
 
       <View
         style={[
-          styles.card,
+          styles.profileCard,
           { backgroundColor: colors.surface, borderColor: colors.border },
         ]}>
         {hasBranding && sanatorio ? (
@@ -78,39 +89,18 @@ export function DashboardSettingsPanel({
             {profile.profesion}
           </Typography>
         ) : null}
+        {firebaseEnabled && profile ? (
+          <Typography variant="caption" style={{ color: colors.textSecondary, marginTop: 2 }}>
+            {accessTierLabel(accessTier)}
+            {isPremium && profile.premiumSource
+              ? ` · ${premiumSource(profile.premiumSource)}`
+              : ''}
+          </Typography>
+        ) : null}
       </View>
 
       {firebaseEnabled && profile ? (
-        <View
-          style={[
-            styles.card,
-            { backgroundColor: colors.surface, borderColor: colors.border },
-          ]}>
-          <View style={styles.tierRow}>
-            <MaterialCommunityIcons
-              name={isPremium ? 'star-circle' : 'account-outline'}
-              size={22}
-              color={isPremium ? colors.accent : colors.textMuted}
-            />
-            <View style={styles.rowText}>
-              <Typography variant="bodyMedium" style={{ color: colors.text }}>
-                {accessTierLabel(accessTier)}
-              </Typography>
-              {isPremium && profile.premiumSource ? (
-                <Typography variant="caption" style={{ color: colors.textMuted }}>
-                  {premiumSource(profile.premiumSource)}
-                </Typography>
-              ) : (
-                <Typography variant="caption" style={{ color: colors.textMuted }}>
-                  {isPersonalPremium
-                    ? t('subscription.catalogFullNoSanatorio')
-                    : hasInstitution
-                      ? t('subscription.licenseViaSanatorio')
-                      : t('subscription.adultIncludedPremium')}
-                </Typography>
-              )}
-            </View>
-          </View>
+        <View style={[styles.block, { borderBottomColor: dividerColor }]}>
           {!isPremium && hasInstitution ? (
             <InstitutionTokenRedeemForm
               accentColor={colors.accent}
@@ -131,18 +121,21 @@ export function DashboardSettingsPanel({
           {!isPremium && !hasInstitution ? (
             <PremiumIapPurchaseSection accentColor={colors.accent} />
           ) : null}
+          {isPremium && hasInstitution && !isPersonalPremium ? (
+            <Typography variant="caption" style={{ color: colors.textMuted }}>
+              {t('subscription.licenseViaSanatorio')}
+            </Typography>
+          ) : null}
         </View>
       ) : null}
 
-      <SpringPressable
+      <Pressable
+        accessibilityRole="button"
         onPress={() => {
           hapticLight();
           void cycleMode();
         }}
-        style={[
-          styles.row,
-          { backgroundColor: colors.surface, borderColor: colors.border },
-        ]}>
+        style={[styles.lineRow, { borderBottomColor: dividerColor }]}>
         <MaterialCommunityIcons name={appearanceIcon} size={22} color={colors.accent} />
         <View style={styles.rowText}>
           <Typography variant="bodyMedium" style={{ color: colors.text }}>
@@ -152,10 +145,10 @@ export function DashboardSettingsPanel({
             {t('appearance.settingsDetail')}
           </Typography>
         </View>
-        <MaterialCommunityIcons name="chevron-right" size={20} color={colors.textMuted} />
-      </SpringPressable>
+      </Pressable>
 
-      <SpringPressable
+      <Pressable
+        accessibilityRole="button"
         onPress={() => {
           if (soundsEnabled) {
             hapticToggle();
@@ -166,10 +159,7 @@ export function DashboardSettingsPanel({
             });
           }
         }}
-        style={[
-          styles.row,
-          { backgroundColor: colors.surface, borderColor: colors.border },
-        ]}>
+        style={[styles.lineRow, { borderBottomColor: dividerColor }]}>
         <MaterialCommunityIcons
           name={soundsEnabled ? 'volume-high' : 'volume-off'}
           size={22}
@@ -188,81 +178,79 @@ export function DashboardSettingsPanel({
           size={28}
           color={soundsEnabled ? colors.accent : colors.textMuted}
         />
-      </SpringPressable>
+      </Pressable>
 
-      <View
-        style={[
-          styles.row,
-          styles.textSizeRow,
-          { backgroundColor: colors.surface, borderColor: colors.border },
-        ]}>
-        <MaterialCommunityIcons name="format-size" size={22} color={colors.accent} />
-        <View style={styles.rowText}>
-          <Typography variant="bodyMedium" style={{ color: colors.text }}>
-            {t('settings.textSize')}
-          </Typography>
-          <Typography variant="caption" style={{ color: colors.textMuted }}>
-            {t('settings.textSizeHint')}
-          </Typography>
-        </View>
-        <View style={styles.textSizeControls}>
+      <View style={[styles.block, { borderBottomColor: dividerColor }]}>
+        <Typography variant="bodyMedium" style={{ color: colors.text }}>
+          {t('settings.textSize')}
+        </Typography>
+        <Typography variant="caption" style={{ color: colors.textMuted }}>
+          {t('settings.textSizeHint')}
+        </Typography>
+        <View style={styles.sliderRow}>
           <Pressable
             accessibilityRole="button"
             accessibilityLabel={t('settings.textSizeDecrease')}
             disabled={!canDecrease}
+            hitSlop={10}
             onPress={() => {
               hapticLight();
               void decrease();
             }}
-            style={[
-              styles.textSizeButton,
-              {
-                borderColor: colors.border,
-                backgroundColor: colors.surface,
-                opacity: canDecrease ? 1 : 0.4,
-              },
-            ]}>
-            <Typography variant="bodyMedium" style={{ color: colors.text, fontSize: 15 }}>
-              A−
+            style={[styles.scaleLetterHit, { opacity: canDecrease ? 1 : 0.35 }]}>
+            <Typography variant="caption" style={{ color: colors.textMuted, fontSize: 13 }}>
+              A
             </Typography>
           </Pressable>
-          <Typography variant="caption" style={[styles.textSizeValue, { color: colors.textSecondary }]}>
-            {t('settings.textSizeValue', { percent: textPercent })}
-          </Typography>
+          <Slider
+            style={styles.slider}
+            minimumValue={TEXT_SCALE_MIN}
+            maximumValue={TEXT_SCALE_MAX}
+            step={0.01}
+            value={sliderValue}
+            minimumTrackTintColor={colors.accent}
+            maximumTrackTintColor={dividerColor}
+            thumbTintColor={colors.accent}
+            onValueChange={(value) => {
+              setSliderValue(value);
+              setScaleLive(value);
+            }}
+            onSlidingComplete={(value) => {
+              hapticLight();
+              setSliderValue(value);
+              void setScale(value);
+            }}
+            accessibilityLabel={t('settings.textSize')}
+          />
           <Pressable
             accessibilityRole="button"
             accessibilityLabel={t('settings.textSizeIncrease')}
             disabled={!canIncrease}
+            hitSlop={10}
             onPress={() => {
               hapticLight();
               void increase();
             }}
-            style={[
-              styles.textSizeButton,
-              {
-                borderColor: colors.border,
-                backgroundColor: colors.surface,
-                opacity: canIncrease ? 1 : 0.4,
-              },
-            ]}>
-            <Typography variant="bodyMedium" style={{ color: colors.text, fontSize: 18 }}>
-              A+
+            style={[styles.scaleLetterHit, { opacity: canIncrease ? 1 : 0.35 }]}>
+            <Typography variant="bodyMedium" style={{ color: colors.text, fontSize: 22 }}>
+              A
             </Typography>
           </Pressable>
         </View>
+        <Typography variant="caption" style={{ color: colors.textSecondary }}>
+          {t('settings.textSizeValue', { percent: textPercent })}
+        </Typography>
       </View>
 
-      <LanguagePicker variant="row" />
+      <LanguagePicker variant="line" dividerColor={dividerColor} />
 
-      <SpringPressable
+      <Pressable
+        accessibilityRole="button"
         onPress={() => {
           hapticLight();
           navigation.dispatch(DrawerActions.openDrawer());
         }}
-        style={[
-          styles.row,
-          { backgroundColor: colors.surface, borderColor: colors.border },
-        ]}>
+        style={[styles.lineRow, { borderBottomColor: dividerColor }]}>
         <MaterialCommunityIcons name="menu" size={22} color={colors.accent} />
         <View style={styles.rowText}>
           <Typography variant="bodyMedium" style={{ color: colors.text }}>
@@ -272,26 +260,23 @@ export function DashboardSettingsPanel({
             {t('home.fullMenuHint')}
           </Typography>
         </View>
-        <MaterialCommunityIcons name="chevron-right" size={20} color={colors.textMuted} />
-      </SpringPressable>
+      </Pressable>
 
       {firebaseEnabled && profile ? (
-        <SpringPressable
+        <Pressable
+          accessibilityRole="button"
           onPress={() => {
             hapticLight();
             void logout();
           }}
-          style={[
-            styles.row,
-            { backgroundColor: colors.surface, borderColor: colors.border },
-          ]}>
+          style={[styles.lineRow, { borderBottomColor: dividerColor }]}>
           <MaterialCommunityIcons name="logout" size={22} color="#C62828" />
           <View style={styles.rowText}>
             <Typography variant="bodyMedium" style={{ color: '#C62828' }}>
               {t('settings.logout')}
             </Typography>
           </View>
-        </SpringPressable>
+        </Pressable>
       ) : null}
     </View>
   );
@@ -299,58 +284,53 @@ export function DashboardSettingsPanel({
 
 const styles = StyleSheet.create({
   section: {
-    gap: spacing.sm,
     paddingHorizontal: spacing.lg,
     paddingTop: spacing.md,
     paddingBottom: spacing.lg,
   },
   title: {
     letterSpacing: 0.8,
-    marginBottom: spacing.xs,
+    marginBottom: spacing.sm,
   },
-  card: {
+  profileCard: {
     borderRadius: 14,
     borderWidth: StyleSheet.hairlineWidth,
     padding: spacing.md,
     gap: spacing.xs,
+    marginBottom: spacing.sm,
   },
-  row: {
+  block: {
+    paddingVertical: spacing.md,
+    gap: spacing.xs,
+    borderBottomWidth: 1,
+  },
+  lineRow: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: spacing.sm,
-    borderRadius: 14,
-    borderWidth: StyleSheet.hairlineWidth,
-    padding: spacing.md,
-  },
-  textSizeRow: {
-    flexWrap: 'wrap',
-  },
-  textSizeControls: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.xs,
-  },
-  textSizeButton: {
-    minWidth: 40,
-    minHeight: 36,
-    borderRadius: 10,
-    borderWidth: StyleSheet.hairlineWidth,
-    alignItems: 'center',
-    justifyContent: 'center',
-    paddingHorizontal: spacing.sm,
-  },
-  textSizeValue: {
-    minWidth: 44,
-    textAlign: 'center',
+    paddingVertical: spacing.md,
+    borderBottomWidth: 1,
   },
   rowText: {
     flex: 1,
     gap: 2,
     minWidth: 120,
   },
-  tierRow: {
+  sliderRow: {
     flexDirection: 'row',
-    alignItems: 'flex-start',
+    alignItems: 'center',
     gap: spacing.sm,
+    marginTop: spacing.xs,
+  },
+  slider: {
+    flex: 1,
+    height: 40,
+  },
+  scaleLetterHit: {
+    minWidth: 28,
+    minHeight: 36,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 4,
   },
 });
