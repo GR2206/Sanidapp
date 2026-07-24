@@ -1,0 +1,31 @@
+{
+  "id": "uro-001",
+  "title": "Coleta de urocultura",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Obter urocultura com técnica que minimize contaminação; preferir jato médio limpo ou amostra de sonda recém-colocada; refrigerar ou enviar imediatamente ao laboratório; e interpretar a contagem junto com o quadro clínico.",
+  "body": "## Passos a realizar\n\n1. Verificar a indicação clínica (disúria, polaciúria, febre com suspeita de ITU, sepse de foco urinário, controle de tratamento conforme protocolo) e a identidade do paciente.\n2. Explicar o procedimento; solicitar que se evite micção recente (idealmente ≥ 2–3 h de retenção) se possível sem atrasar urgências.\n3. Escolher o método de coleta conforme a situação:\n   - **Jato médio limpo** (paciente colaborador, sem sonda).\n   - **Sonda vesical de uso único** (paciente não colaborador, retenção ou amostra crítica).\n   - **Aspiração do porto da sonda permanente** (nunca da bolsa).\n4. Higienização das mãos; preparar frasco estéril de boca larga, antisséptico/sabão conforme protocolo e etiquetas.\n5. **Jato médio:** lavar a genitália com água e sabão ou antisséptico conforme protocolo; em mulheres separar os lábios; em homens retrair o prepúcio se aplicável; descartar o primeiro jato e coletar o médio em frasco estéril sem tocar o interior.\n6. **Sonda intermitente:** técnica asséptica; descartar os primeiros mililitros e coletar em frasco estéril.\n7. **Sonda permanente:** clampear distalmente o cateter por alguns minutos se o protocolo indicar; desinfetar o porto de coleta; aspirar com seringa estéril; **não desconectar** o circuito fechado nem amostrar a bolsa.\n8. Fechar o frasco sem contaminar; etiquetar com nome, data, hora, método de obtenção e antibióticos em uso.\n9. Enviar ao laboratório **em até 2 h** em temperatura ambiente ou refrigerar (2–8 °C) até 24 h conforme protocolo local; não congelar.\n10. Se houver suspeita de sepse urinária: obter urocultura (e hemoculturas) **antes do antibiótico** se isso não atrasar o início além do aceitável (p. ex. Surviving Sepsis).\n11. Registrar método, hora e responsável; comunicar o resultado com contagem, germes e interpretação clínica.\n\n## Fundamentação científica\n\n### Indicações\n\n- Suspeita de cistite, pielonefrite ou prostatite bacteriana.\n- Febre ou sepse com foco urinário provável.\n- ITU associada a sonda (ITU-SV) com critérios clínicos.\n- Bacteriúria na gestação, urologia pré-operatória ou imunocomprometidos conforme protocolo.\n- Controle de cura somente quando indicado (não de rotina em cistite não complicada após melhora).\n\n### Métodos e qualidade da amostra\n\n| Método | Comentário |\n| --- | --- |\n| Jato médio limpo | Padrão em adultos colaboradores |\n| Sonda intermitente | Útil se não há micção espontânea confiável |\n| Porto de sonda permanente | Evita contaminar o sistema fechado |\n| Bolsa coletora | **Não válida** para cultura |\n| Punção suprapúbica | Reservada a casos especiais / urologia |\n\n### Interpretação orientativa (adulto)\n\n| Contagem (UFC/ml) | Interpretação habitual* |\n| --- | --- |\n| ≥ 10⁵ | Sugere ITU em amostra de jato médio com clínica |\n| 10³–10⁴ | Interpretar com clínica, sexo, método e germes |\n| Polimicrobiano / flora mista | Suspeitar contaminação; repetir se a clínica exigir |\n\n\\*Limiares podem variar conforme laboratório e guias locais; sempre correlacionar com sedimento e clínica.\n\n### Evidência e recomendações\n\n> **SATI/SADI 2024 (Cornistein et al.):** na ITU-SV, cultivar somente com suspeita clínica; não tratar bacteriúria assintomática em sonda de rotina; retirar ou trocar a sonda conforme indicação ao obter a amostra.\n\n> **IDSA / SHEA:** não cultivar da bolsa; técnica asséptica no porto; evitar culturas de “vigilância” sem indicação.\n\n### Erros frequentes que invalidam o resultado\n\n- Contaminação por flora periuretral (higiene inadequada ou inclusão do primeiro jato).\n- Atraso > 2 h sem refrigeração.\n- Amostra da bolsa ou de sonda antiga sem técnica de porto.\n- Antibiótico iniciado antes da coleta sem documentá-lo.\n\n### Complicações / situações — comunicar\n\n- Impossibilidade de obter amostra em paciente séptico (escalar sonda intermitente / urologia).\n- Trauma uretral ao sondar.\n- Resultado positivo com deterioração clínica (ajustar antibiótico conforme antibiograma).",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a sonda vesical. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women (IDSA). Clin Infect Dis. 2011 (e atualizações).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/"
+    },
+    {
+      "citation": "SATI — Comitê de Infectologia Crítica. Coleta de amostras microbiológicas em UTI.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    }
+  ]
+}

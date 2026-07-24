@@ -26,6 +26,8 @@ import neo_i_004_en from '../../../content/locales/en/categories/neonatologia/pr
 import neo_i_005_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-005.json';
 import neo_i_006_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-006.json';
 import neo_i_007_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-007.json';
+import neo_i_008_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-008.json';
+import neo_i_009_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-i-009.json';
 import oxi_001_en from '../../../content/locales/en/categories/adulto/protocols/oxi-001.json';
 import oxi_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/oxi-p001.json';
 import pad_001_en from '../../../content/locales/en/categories/adulto/protocols/pad-001.json';
@@ -37,8 +39,12 @@ import ret_p001_en from '../../../content/locales/en/categories/pediatrico/proto
 import sep_001_en from '../../../content/locales/en/categories/adulto/protocols/sep-001.json';
 import sep_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/sep-p001.json';
 import sho_001_en from '../../../content/locales/en/categories/adulto/protocols/sho-001.json';
+import sng_001_en from '../../../content/locales/en/categories/adulto/protocols/sng-001.json';
+import sng_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/sng-p001.json';
 import son_001_en from '../../../content/locales/en/categories/adulto/protocols/son-001.json';
 import son_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/son-p001.json';
+import uro_001_en from '../../../content/locales/en/categories/adulto/protocols/uro-001.json';
+import uro_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/uro-p001.json';
 import vic_001_en from '../../../content/locales/en/categories/adulto/protocols/vic-001.json';
 import vic_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/vic-p001.json';
 import vip_001_en from '../../../content/locales/en/categories/adulto/protocols/vip-001.json';
@@ -69,6 +75,8 @@ import neo_i_004_ptBR from '../../../content/locales/pt-BR/categories/neonatolog
 import neo_i_005_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-005.json';
 import neo_i_006_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-006.json';
 import neo_i_007_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-007.json';
+import neo_i_008_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-008.json';
+import neo_i_009_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-i-009.json';
 import oxi_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/oxi-001.json';
 import oxi_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/oxi-p001.json';
 import pad_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/pad-001.json';
@@ -80,8 +88,12 @@ import ret_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/
 import sep_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/sep-001.json';
 import sep_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/sep-p001.json';
 import sho_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/sho-001.json';
+import sng_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/sng-001.json';
+import sng_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/sng-p001.json';
 import son_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/son-001.json';
 import son_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/son-p001.json';
+import uro_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/uro-001.json';
+import uro_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/uro-p001.json';
 import vic_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/vic-001.json';
 import vic_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/vic-p001.json';
 import vip_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/vip-001.json';
@@ -116,6 +128,8 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'neo-i-005': neo_i_005_en as Protocol,
     'neo-i-006': neo_i_006_en as Protocol,
     'neo-i-007': neo_i_007_en as Protocol,
+    'neo-i-008': neo_i_008_en as Protocol,
+    'neo-i-009': neo_i_009_en as Protocol,
     'oxi-001': oxi_001_en as Protocol,
     'oxi-p001': oxi_p001_en as Protocol,
     'pad-001': pad_001_en as Protocol,
@@ -127,8 +141,12 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'sep-001': sep_001_en as Protocol,
     'sep-p001': sep_p001_en as Protocol,
     'sho-001': sho_001_en as Protocol,
+    'sng-001': sng_001_en as Protocol,
+    'sng-p001': sng_p001_en as Protocol,
     'son-001': son_001_en as Protocol,
     'son-p001': son_p001_en as Protocol,
+    'uro-001': uro_001_en as Protocol,
+    'uro-p001': uro_p001_en as Protocol,
     'vic-001': vic_001_en as Protocol,
     'vic-p001': vic_p001_en as Protocol,
     'vip-001': vip_001_en as Protocol,
@@ -161,6 +179,8 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'neo-i-005': neo_i_005_ptBR as Protocol,
     'neo-i-006': neo_i_006_ptBR as Protocol,
     'neo-i-007': neo_i_007_ptBR as Protocol,
+    'neo-i-008': neo_i_008_ptBR as Protocol,
+    'neo-i-009': neo_i_009_ptBR as Protocol,
     'oxi-001': oxi_001_ptBR as Protocol,
     'oxi-p001': oxi_p001_ptBR as Protocol,
     'pad-001': pad_001_ptBR as Protocol,
@@ -172,8 +192,12 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'sep-001': sep_001_ptBR as Protocol,
     'sep-p001': sep_p001_ptBR as Protocol,
     'sho-001': sho_001_ptBR as Protocol,
+    'sng-001': sng_001_ptBR as Protocol,
+    'sng-p001': sng_p001_ptBR as Protocol,
     'son-001': son_001_ptBR as Protocol,
     'son-p001': son_p001_ptBR as Protocol,
+    'uro-001': uro_001_ptBR as Protocol,
+    'uro-p001': uro_p001_ptBR as Protocol,
     'vic-001': vic_001_ptBR as Protocol,
     'vic-p001': vic_p001_ptBR as Protocol,
     'vip-001': vip_001_ptBR as Protocol,

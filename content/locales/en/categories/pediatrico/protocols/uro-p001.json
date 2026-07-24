@@ -1,0 +1,31 @@
+{
+  "id": "uro-p001",
+  "title": "Pediatric urine culture collection",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "In pediatrics, obtain a urine culture with the least contaminating method possible: adhesive bags only for screening; confirm with catheterization or aspiration if positive; send the specimen promptly and interpret by age and clinical findings.",
+  "body": "## Steps to perform\n\n1. Verify indication (fever without source in an infant, dysuria, abdominal/flank pain, recurrent UTI, uropathy) and identify the child (two identifiers).\n2. Explain to the family; avoid delays in febrile infants who require antibiotic decisions.\n3. Choose the method by age and urgency:\n   - **Clean-catch midstream:** cooperative children.\n   - **Intermittent bladder catheterization:** preferred method for definitive culture in infants/noncooperative children.\n   - **Periurethral adhesive bag:** screening only; **do not** base definitive treatment on a positive bag alone.\n   - **Suprapubic aspiration:** per local experience / urology.\n4. Perform hand hygiene; prepare a sterile container, genital hygiene supplies, and, if needed, a pediatric catheter of appropriate French size.\n5. **Midstream:** genital hygiene; collect the mid portion without touching the inside of the container.\n6. **Catheterization:** sterile technique (see pediatric urinary catheter protocol); discard the first milliliters; collect into a sterile container; remove the catheter.\n7. **Bag:** thorough hygiene; apply the bag; monitor; remove as soon as urine appears; transfer to a sterile container. If the bag culture is positive or equivocal: **confirm** with catheterization or aspiration before diagnosing UTI.\n8. Label: name, age, date, time, exact method, and prior antibiotics.\n9. Send to the laboratory immediately or refrigerate per protocol; document delays.\n10. In fever without source / suspected pyelonephritis: culture **before** empiric antibiotics whenever this does not delay treatment of an unstable child.\n11. Document and interpret together with sediment, CRP/PCT if applicable, and AAP/institutional criteria.\n\n## Scientific rationale\n\n### Indications\n\n- Febrile infant without source when UTI evaluation is planned.\n- Child with lower urinary symptoms or suspected pyelonephritis.\n- Follow-up in uropathy, reflux, or recurrent UTI per specialist.\n- Bacteriuria in high-risk settings (immunocompromised) per protocol.\n\n### Methods: reliability hierarchy\n\n| Method | Diagnostic reliability |\n| --- | --- |\n| Suprapubic aspiration | High |\n| Intermittent catheterization | High |\n| Midstream (cooperative child) | Good if technique is correct |\n| Adhesive bag | Low (high contamination); screening only |\n\n### Interpretive guidance (pediatrics)\n\n| Method | Approximate threshold* |\n| --- | --- |\n| Catheterization | ≥ 50,000 CFU/mL of a single organism + clinical findings/sediment |\n| Midstream | ≥ 100,000 CFU/mL typically |\n| Aspiration | Any significant growth of a pathogen |\n| Bag | Do not diagnose UTI on a positive bag alone |\n\n\\*Follow laboratory and current AAP/institutional thresholds.\n\n### Evidence and recommendations\n\n> **AAP (UTI in infants and children):** do not use an adhesive bag as the sole diagnostic method; confirm with catheterization or aspiration (Roberts et al. / AAP updates).\n\n> **SATI/SADI:** avoid unnecessary catheter cultures; always correlate with clinical findings (Cornistein et al., 2024).\n\n### Common errors\n\n- Treating “UTI” based only on a positive bag.\n- Delayed transport → overgrowth.\n- Contamination from inadequate hygiene.\n- Culturing from a diaper or an indwelling catheter collection bag.\n\n### Complications — notify\n\n- Urethral trauma during catheterization (do not force; consult urology).\n- Septic child without a specimen (prioritize stabilization and cultures in parallel).\n- Positive result with deterioration (adjust antibiotics).",
+  "bibliography": [
+    {
+      "citation": "Subcommittee on Urinary Tract Infection, American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children. Pediatrics.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "Cornistein W, et al. Infección urinaria asociada a sonda vesical — recomendaciones intersociedades SATI/SADI 2024. Medicina (B Aires). 2025.",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Lo E, et al. Strategies to Prevent CAUTI in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "Society of Pediatric Urology — resources on UTI diagnosis and malformations.",
+      "url": "https://www.spuonline.org/"
+    },
+    {
+      "citation": "SATI — Microbiologic specimen collection in the ICU.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    }
+  ]
+}

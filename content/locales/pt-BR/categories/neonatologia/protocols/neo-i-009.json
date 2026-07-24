@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-009",
+  "title": "Coleta de urocultura neonatal",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "Em neonatos (dia 0–30, 500–2500 g), obter urocultura por cateterismo vesical ou punção suprapúbica; não diagnosticar ITU apenas com bolsa adesiva; cultivar antes do antibiótico se a estabilidade permitir.",
+  "body": "## Passos a realizar\n\n1. Confirmar indicação (febre/hipotermia, sepse neonatal, ITU suspeita, avaliação de foco em RN instável) e identificar o RN (dois identificadores, peso).\n2. Explicar à família; manter termorregulação; não atrasar antibiótico em sepse grave por dificuldade de amostra — cultivar em paralelo.\n3. Escolher o método:\n   - **Cateterismo vesical** (5–6 Fr): método habitual para cultura definitiva.\n   - **Punção suprapúbica:** se houver experiência e bexiga palpável/cheia.\n   - **Bolsa adesiva:** apenas rastreamento; confirmar todo resultado positivo.\n4. Higienização das mãos; técnica asséptica; antisséptico cutâneo conforme protocolo neonatal; deixar secar.\n5. **Cateterismo:** lubrificar minimamente; introduzir sem forçar; descartar os primeiros mililitros; coletar em frasco estéril; retirar a sonda.\n6. **Punção:** localizar a bexiga (palpação/ultrassonografia se disponível); técnica estéril; aspirar; não atravessar alças intestinais.\n7. Etiquetar: nome, peso, data, hora, método e antibióticos maternos/neonatais.\n8. Enviar imediatamente ao laboratório; refrigerar somente conforme protocolo se houver atraso breve.\n9. Em sepse: obter também hemocultura; iniciar empírico conforme protocolo NRP/institucional sem aguardar a urocultura.\n10. Registrar e interpretar com clínica, sedimento (se houver volume) e limiares pediátrico-neonatais.\n\n## Fundamentação científica\n\n### População e alcance\n\n**Neonatos dia 0–30**, **500 g–2500 g**. A ITU neonatal pode apresentar-se como sepse sem sintomas urinários locais.\n\n### Indicações\n\n- Avaliação de sepse neonatal precoce ou tardia com possível foco urinário.\n- Febre ou instabilidade térmica sem foco.\n- Bacteriúria suspeita em RN com malformação urinária.\n- Controle conforme nefrologia/urologia neonatal.\n\n### Métodos e confiabilidade\n\n| Método | Uso no neonato |\n| --- | --- |\n| Cateterismo | Preferido para cultura diagnóstica |\n| Punção suprapúbica | Alta especificidade se houver experiência |\n| Bolsa | Apenas rastreamento; alta contaminação |\n| Fralda | **Não válido** |\n\n### Interpretação orientativa\n\n| Método | Critério orientativo* |\n| --- | --- |\n| Cateterismo | ≥ 50 000 UFC/ml de um patógeno + clínica |\n| Punção | Crescimento significativo de um patógeno |\n| Bolsa positiva | Confirmar sempre |\n\n\\*Ajustar ao laboratório e guia local/AAP.\n\n### Evidência e recomendações\n\n> **AAP:** em lactentes febris pequenos, o método de coleta determina a validade do diagnóstico de ITU.\n\n> **SATI / infectologia crítica:** técnica asséptica e envio rápido; correlacionar com hemocultura na sepse (coleta de amostras microbiológicas).\n\n> **VON:** a sepse de foco urinário faz parte do diferencial de sepse tardia; cultura adequada evita tratamentos prolongados por contaminação.\n\n### Erros frequentes\n\n- Diagnosticar e tratar apenas com bolsa positiva.\n- Atraso no envio.\n- Contaminação por técnica não estéril.\n- Forçar sonda em RN masculino com resistência (risco uretral).\n\n### Complicações — interromper e comunicar\n\n- Bradicardia/apneia durante o procedimento.\n- Trauma uretral ou hematúria franca.\n- Punção intestinal (se técnica suprapúbica incorreta).\n- RN séptico sem amostra (priorizar acesso e antibiótico; completar culturas assim que possível).",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "SATI — Coleta de amostras microbiológicas em UTI (Comitê de Infectologia Crítica).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. ITU associada a sonda — recomendações intersociedades SATI/SADI 2024.",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Vermont Oxford Network. Late-onset sepsis evaluation in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on prevention of healthcare-associated infections in neonatal units.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    }
+  ]
+}

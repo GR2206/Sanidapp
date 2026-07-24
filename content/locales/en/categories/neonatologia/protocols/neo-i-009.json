@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-009",
+  "title": "Neonatal urine culture collection",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "In neonates (day 0–30, 500–2500 g), obtain a urine culture by bladder catheterization or suprapubic aspiration; do not diagnose UTI from an adhesive bag alone; culture before antibiotics when stability allows.",
+  "body": "## Steps to perform\n\n1. Confirm indication (fever/hypothermia, neonatal sepsis, suspected UTI, source evaluation in an unstable neonate) and identify the neonate (two identifiers, weight).\n2. Explain to the family; maintain thermoregulation; do not delay antibiotics in severe sepsis because of sampling difficulty — culture in parallel.\n3. Choose the method:\n   - **Bladder catheterization** (5–6 Fr): usual method for definitive culture.\n   - **Suprapubic aspiration:** if experience is available and the bladder is palpable/full.\n   - **Adhesive bag:** screening only; confirm every positive result.\n4. Perform hand hygiene; aseptic technique; cutaneous antiseptic per neonatal protocol; allow to dry.\n5. **Catheterization:** lubricate minimally; advance without forcing; discard the first milliliters; collect into a sterile container; remove the catheter.\n6. **Aspiration:** locate the bladder (palpation/ultrasound if available); sterile technique; aspirate; do not traverse bowel loops.\n7. Label: name, weight, date, time, method, and maternal/neonatal antibiotics.\n8. Send immediately to the laboratory; refrigerate only per protocol if a brief delay occurs.\n9. In sepsis: also obtain blood culture; start empiric therapy per NRP/institutional protocol without waiting for the urine culture.\n10. Document and interpret with clinical findings, sediment (if volume allows), and pediatric–neonatal thresholds.\n\n## Scientific rationale\n\n### Population and scope\n\n**Neonates day 0–30**, **500 g–2500 g**. Neonatal UTI may present as sepsis without local urinary symptoms.\n\n### Indications\n\n- Evaluation of early- or late-onset neonatal sepsis with a possible urinary source.\n- Fever or temperature instability without a focus.\n- Suspected bacteriuria in a neonate with urinary malformation.\n- Follow-up per neonatal nephrology/urology.\n\n### Methods and reliability\n\n| Method | Use in the neonate |\n| --- | --- |\n| Catheterization | Preferred for diagnostic culture |\n| Suprapubic aspiration | High specificity when expertise is available |\n| Bag | Screening only; high contamination |\n| Diaper | **Not valid** |\n\n### Interpretive guidance\n\n| Method | Approximate criterion* |\n| --- | --- |\n| Catheterization | ≥ 50,000 CFU/mL of a pathogen + clinical findings |\n| Aspiration | Significant growth of a pathogen |\n| Positive bag | Always confirm |\n\n\\*Adjust to laboratory and local/AAP guidance.\n\n### Evidence and recommendations\n\n> **AAP:** in young febrile infants, the collection method determines the validity of a UTI diagnosis.\n\n> **SATI / critical infectious diseases:** aseptic technique and prompt transport; correlate with blood culture in sepsis (microbiologic sampling).\n\n> **VON:** urinary-source sepsis is part of the late-onset sepsis differential; adequate culture avoids prolonged treatment for contamination.\n\n### Common errors\n\n- Diagnosing and treating based only on a positive bag.\n- Delayed transport.\n- Contamination from nonsterile technique.\n- Forcing a catheter in a male neonate with resistance (urethral risk).\n\n### Complications — stop and notify\n\n- Bradycardia/apnea during the procedure.\n- Urethral trauma or frank hematuria.\n- Bowel puncture (if incorrect suprapubic technique).\n- Septic neonate without a specimen (prioritize access and antibiotics; complete cultures as soon as possible).",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "SATI — Microbiologic specimen collection in the ICU (Critical Infectious Diseases Committee).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter-associated UTI — SATI/SADI intersociety recommendations 2024.",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Vermont Oxford Network. Late-onset sepsis evaluation in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on prevention of healthcare-associated infections in neonatal units.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    }
+  ]
+}

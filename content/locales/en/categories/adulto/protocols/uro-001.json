@@ -1,0 +1,31 @@
+{
+  "id": "uro-001",
+  "title": "Urine culture collection",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Obtain a urine culture with technique that minimizes contamination; prefer a clean-catch midstream specimen or a sample from a freshly placed catheter; refrigerate or send promptly to the laboratory; and interpret colony counts together with the clinical picture.",
+  "body": "## Steps to perform\n\n1. Verify the clinical indication (dysuria, frequency, fever with suspected UTI, urinary-source sepsis, treatment follow-up per protocol) and patient identity.\n2. Explain the procedure; ask the patient to avoid recent voiding (ideally ≥ 2–3 h of retention) if possible without delaying urgent care.\n3. Choose the collection method by situation:\n   - **Clean-catch midstream** (cooperative patient, no catheter).\n   - **Single-use intermittent catheterization** (noncooperative patient, retention, or critical sample).\n   - **Aspiration from an indwelling catheter sampling port** (never from the bag).\n4. Perform hand hygiene; prepare a sterile wide-mouth container, antiseptic/soap per protocol, and labels.\n5. **Midstream:** wash the genitals with soap and water or antiseptic per protocol; in women separate the labia; in men retract the foreskin if applicable; discard the first stream and collect the midstream portion in a sterile container without touching the interior.\n6. **Intermittent catheter:** aseptic technique; discard the first milliliters and collect into a sterile container.\n7. **Indwelling catheter:** clamp the catheter distally for a few minutes if protocol indicates; disinfect the sampling port; aspirate with a sterile syringe; **do not disconnect** the closed system or sample from the bag.\n8. Close the container without contaminating it; label with name, date, time, collection method, and current antibiotics.\n9. Send to the laboratory **within 2 h** at room temperature, or refrigerate (2–8 °C) for up to 24 h per local protocol; do not freeze.\n10. If urinary sepsis is suspected: obtain urine culture (and blood cultures) **before antibiotics** if this does not delay initiation beyond an acceptable window (e.g., Surviving Sepsis).\n11. Document method, time, and responsible person; report results with colony count, organism, and clinical interpretation.\n\n## Scientific rationale\n\n### Indications\n\n- Suspected cystitis, pyelonephritis, or bacterial prostatitis.\n- Fever or sepsis with a probable urinary source.\n- Catheter-associated UTI (CAUTI) with clinical criteria.\n- Bacteriuria in pregnancy, preoperative urology, or immunocompromised patients per protocol.\n- Test of cure only when indicated (not routinely after uncomplicated cystitis that has improved).\n\n### Methods and specimen quality\n\n| Method | Comment |\n| --- | --- |\n| Clean-catch midstream | Standard in cooperative adults |\n| Intermittent catheterization | Useful when spontaneous voiding is unreliable |\n| Indwelling catheter sampling port | Avoids contaminating the closed system |\n| Collection bag | **Not valid** for culture |\n| Suprapubic aspiration | Reserved for special cases / urology |\n\n### Interpretive guidance (adult)\n\n| Colony count (CFU/mL) | Usual interpretation* |\n| --- | --- |\n| ≥ 10⁵ | Suggests UTI in a midstream specimen with compatible clinical findings |\n| 10³–10⁴ | Interpret with clinical context, sex, method, and organisms |\n| Polymicrobial / mixed flora | Suspect contamination; repeat if clinically required |\n\n\\*Thresholds may vary by laboratory and local guidelines; always correlate with sediment and clinical findings.\n\n### Evidence and recommendations\n\n> **SATI/SADI 2024 (Cornistein et al.):** in CAUTI, culture only with clinical suspicion; do not routinely treat asymptomatic bacteriuria in catheterized patients; remove or change the catheter as indicated when obtaining the specimen.\n\n> **IDSA / SHEA:** do not culture from the bag; use aseptic port technique; avoid “surveillance” cultures without indication.\n\n### Common errors that invalidate the result\n\n- Contamination by periurethral flora (poor hygiene or inclusion of the first stream).\n- Delay > 2 h without refrigeration.\n- Bag specimen or sampling an old catheter without port technique.\n- Antibiotics started before collection without documentation.\n\n### Complications / situations — notify\n\n- Inability to obtain a specimen in a septic patient (escalate to intermittent catheterization / urology).\n- Urethral trauma during catheterization.\n- Positive result with clinical deterioration (adjust antibiotics based on susceptibility).",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a sonda vesical. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women (IDSA). Clin Infect Dis. 2011 (and updates).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/"
+    },
+    {
+      "citation": "SATI — Critical Infectious Diseases Committee. Microbiologic specimen collection in the ICU.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    }
+  ]
+}

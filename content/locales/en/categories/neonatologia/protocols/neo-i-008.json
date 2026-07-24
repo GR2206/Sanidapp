@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-008",
+  "title": "Neonatal orogastric / nasogastric tube insertion",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "In neonates (day 0–30, 500–2500 g), prefer an orogastric tube if respiratory distress is present; measure length with a validated method, confirm gastric position before use, and secure without injuring skin or the airway.",
+  "body": "## Steps to perform\n\n1. Confirm indication (decompression, enteral feeding, emptying before CPAP/ventilation), identify the neonate (two identifiers), weight, and gestational/postnatal age.\n2. Explain to the family; maintain thermoregulation (radiant warmer/incubator) during the procedure.\n3. Prefer an **orogastric** tube in preterm infants with distress, CPAP, or ventilation (keeps the nares free). Reserve nasogastric placement for stable neonates with a patent nasal airway per protocol.\n4. Perform hand hygiene; prepare a 5–8 Fr tube by weight, minimal water-soluble lubricant, precision syringe, soft securement, and a container for aspirate.\n5. Measure length: for orogastric, corner of the mouth → ear → xiphoid (or institutional weight-based table); mark the tube.\n6. Position the neonate slightly semi-upright or lateral; suction oral secretions if needed.\n7. Advance gently to the mark **without forcing**. If cyanosis, bradycardia, apnea, or resistance occurs: withdraw, oxygenate/stabilize, and retry with supervision.\n8. Confirm gastric position before any use: gastric aspirate; pH when available; radiograph if uncertain, planned feeding, or prior misplacement. Do not rely on auscultation alone.\n9. Secure without occluding the nares or compressing the lip/cheek; keep CPAP/cannula access free; document route (oral/nasal), Fr, cm, confirmation method, and aspirate appearance.\n10. Start feeding or decompression only after confirmation; during feeding, elevate the head slightly if stability allows.\n11. Reassess every shift; remove or replace per protocol (obstruction, displacement, end of indication).\n\n## Scientific rationale\n\n### Population and scope\n\n**Neonates day 0–30**, **500 g–2500 g**, in the neonatal unit. The orogastric route reduces nasal obstruction and work of breathing in preterm infants.\n\n### Indications\n\n- Gastric decompression in ileus, suspected NEC, distension, or vomiting.\n- Enteral feeding (trophic or nutrition) when suck–swallow is unsafe.\n- Gastric emptying before procedures or during noninvasive respiratory support with distension.\n\n### Relative contraindications\n\n- Suspected esophageal atresia or tracheoesophageal fistula (coordinate surgery; do not force).\n- Severe craniofacial malformation (assess route with ENT/surgery).\n- Coagulopathy with active oral/nasal bleeding.\n\n### French size and route selection\n\n| Weight | French size | Preferred route |\n| --- | --- | --- |\n| 500–999 g | 5 Fr | Orogastric |\n| 1000–1499 g | 5–6 Fr | Orogastric |\n| 1500–2500 g | 6–8 Fr | Orogastric if distress; nasogastric if stable |\n\n### Evidence and recommendations\n\n> **AAP / neonatal practice:** verify location before feeding; misplacement is a preventable event (neonatal patient safety).\n\n> **VON / neonatal nutrition:** early trophic feeds with a correctly positioned tube improve tolerance and reduce parenteral nutrition days when clinically appropriate.\n\n### Aftercare\n\n- Monitor apnea, bradycardia, and desaturation related to the procedure.\n- Check gastric residual and tolerance per feeding protocol.\n- Inspect fixation skin every shift; prevent pressure injury.\n- On nasal CPAP: prioritize orogastric placement and avoid prong occlusion.\n\n### Complications — stop and notify\n\n- Suspected airway placement or esophageal perforation.\n- Bradycardia/apnea during insertion.\n- Pneumothorax or pneumoperitoneum (rare).\n- Nasal/oral injury from securement.\n- Aspiration after starting feeds with a misplaced tube.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Neonatal enteral nutrition and tube feeding safety.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Nutritional practices and tube feeding safety in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "Mehta NM, et al. ASPEN Guidelines for Nutrition Support in the Pediatric Critically Ill Patient. JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28686844/"
+    },
+    {
+      "citation": "World Health Organization. Optimal feeding of low-birth-weight infants (tube techniques and safety).",
+      "url": "https://www.who.int/publications"
+    },
+    {
+      "citation": "SATI — Nutrition Committee. Nutritional support in the critically ill patient (institutional neonatal adaptation).",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

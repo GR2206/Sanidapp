@@ -1,0 +1,31 @@
+{
+  "id": "sng-001",
+  "title": "Nasogastric tube insertion",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Insert a nasogastric tube only with a justified indication, confirm gastric position before use, secure without nasal injury, and reassess the need for the device daily.",
+  "body": "## Steps to perform\n\n1. Verify indication, contraindications, and patient identity; confirm the prescription (tube type, French size, expected duration, and purpose: decompression, feeding, or drug administration).\n2. Explain the procedure; assess nasal patency, septal deviation, and level of consciousness; choose the more patent naris.\n3. Perform hand hygiene; prepare a tube of the indicated size, water-soluble lubricant, syringe, stethoscope, noncompressive securement, and a container for aspirate.\n4. Measure insertion length: tip of the nose → earlobe → xiphoid process (NEX method); mark the tube.\n5. Place the patient semi-upright (Fowler 30–45°) if clinically appropriate; if intubated or with an advanced airway, coordinate with the team and maintain aspiration precautions.\n6. Lubricate the distal tip and advance through the chosen naris, directing downward and posteriorly; ask the patient to swallow sips of water if conscious and able to protect the airway.\n7. Advance to the mark without forcing. If marked resistance, severe coughing, cyanosis, respiratory distress, or a “muffled” voice occurs: **withdraw immediately** and retry via the other naris or with supervision.\n8. Confirm gastric position **before any use**: aspirate contents and assess pH ≤ 5.5 when the method is available; auscultate the epigastrium only as supportive information (not as the sole confirmation method). If uncertain: obtain a chest/abdominal radiograph per institutional protocol.\n9. Secure the tube without tension on the nasal ala or septum; protect the skin; document naris, French size, centimeters at the naris, confirmation method, and aspirate appearance.\n10. Connect to a drainage bag/system or start nutrition/medication only after documented confirmation.\n11. Reassess the indication every shift; remove at the first clinically possible moment.\n\n## Scientific rationale\n\n### Indications\n\n- Gastric decompression in ileus, proximal obstruction, or intractable vomiting.\n- Enteral nutrition when the oral route is insufficient or contraindicated.\n- Drug administration or activated charcoal when no safer alternative exists.\n- Selective gastric lavage in toxicology (restricted indications).\n\n### Relative / relatively absolute contraindications\n\n- Severe facial trauma, basilar skull fracture, or recent sinus/skull-base surgery (prefer orogastric placement or consult).\n- Active esophageal varices or recent esophageal surgery (weigh risk–benefit with a specialist).\n- Uncorrected severe coagulopathy (epistaxis risk).\n- Bilateral nasal obstruction or unresolved choanal atresia.\n\n### French size selection (adult)\n\n| Intended use | Approximate French size |\n| --- | --- |\n| Decompression / suction | 14–18 Fr |\n| Enteral nutrition / medication | 8–12 Fr (fine-bore) |\n| Intubated patient / high aspiration risk | Prefer orogastric if protocol indicates |\n\n### Position confirmation\n\n| Method | Comment |\n| --- | --- |\n| Aspirate pH ≤ 5.5 | Preferred when available and not altered by recent PPI use |\n| Radiograph | Gold standard if uncertain, planned feeding, or critical illness |\n| Isolated epigastric auscultation | **Insufficient** as the sole criterion |\n\n### Evidence and recommendations\n\n> **ASPEN / ESPEN (clinical nutrition):** verify gastric placement before starting enteral nutrition; do not rely on auscultation alone (McClave et al.; Singer et al.).\n\n> **Critical care:** pulmonary misplacement of an NG tube can cause pneumonia, pneumothorax, or death; always confirm before use (patient-safety practices).\n\n### Aftercare\n\n- Daily nasal and oral hygiene; rotate the fixation point to prevent pressure injury.\n- Monitor for epistaxis, sinusitis, odynophagia, vomiting, abdominal distension, and signs of aspiration.\n- During feeding: elevate the head of bed ≥ 30° if not contraindicated; check gastric residual volume per local protocol.\n- Do not forcefully irrigate if obstructed; consider replacement.\n\n### Complications — stop and notify\n\n- Suspected pulmonary placement (cough, desaturation, absent gastric aspirate).\n- Profuse epistaxis or septal hematoma.\n- Esophageal perforation or mediastinitis (severe pain, subcutaneous emphysema).\n- Pneumothorax after a failed attempt.\n- Nasal ulceration from inadequate securement.",
+  "bibliography": [
+    {
+      "citation": "McClave SA, Taylor BE, Martindale RG, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Adult Critically Ill Patient (SCCM/ASPEN). JPEN J Parenter Enteral Nutr. 2016 (and updates).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26773077/"
+    },
+    {
+      "citation": "Singer P, Blaser AR, Berger MM, et al. ESPEN guideline on clinical nutrition in the intensive care unit. Clin Nutr. 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30348463/"
+    },
+    {
+      "citation": "SATI — Nutrition Committee. Recommendations for nutritional support in the critically ill patient.",
+      "url": "https://www.sati.org.ar/"
+    },
+    {
+      "citation": "National Patient Safety Agency (NPSA) / NHS. Reducing the harm caused by misplaced nasogastric feeding tubes in adults.",
+      "url": "https://www.england.nhs.uk/patient-safety/"
+    },
+    {
+      "citation": "Boullata JI, Carrera AL, Harvey L, et al. ASPEN Safe Practices for Enteral Nutrition Therapy. JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28068900/"
+    }
+  ]
+}

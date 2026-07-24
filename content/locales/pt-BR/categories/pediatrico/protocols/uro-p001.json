@@ -1,0 +1,31 @@
+{
+  "id": "uro-p001",
+  "title": "Coleta de urocultura pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Em pediatria, obter urocultura com o método menos contaminante possível: bolsa adesiva apenas para rastreamento; confirmar com cateterismo ou punção se o resultado for positivo; enviar a amostra imediatamente e interpretar conforme idade e clínica.",
+  "body": "## Passos a realizar\n\n1. Verificar indicação (febre sem foco em lactente, disúria, dor abdominal/lombar, ITU recorrente, uropatia) e identificar a criança (dois identificadores).\n2. Explicar à família; evitar atrasos em lactentes febris que exigem decisão antibiótica.\n3. Escolher o método conforme idade e urgência:\n   - **Jato médio limpo:** crianças colaboradoras.\n   - **Cateterismo vesical intermitente:** método de escolha para cultura definitiva em lactentes/não colaboradores.\n   - **Bolsa adesiva periuretral:** apenas rastreamento; **não** basear tratamento definitivo só em bolsa positiva.\n   - **Punção suprapúbica:** conforme experiência local / urologia.\n4. Higienização das mãos; preparar frasco estéril, material de higiene genital e, se aplicável, sonda pediátrica do calibre adequado.\n5. **Jato médio:** higiene genital; coletar a porção média sem tocar o interior do frasco.\n6. **Cateterismo:** técnica estéril (ver protocolo de sonda vesical pediátrica); descartar os primeiros mililitros; coletar em frasco estéril; retirar a sonda.\n7. **Bolsa:** higiene rigorosa; colocar a bolsa; vigiar; retirar assim que houver urina; transferir para frasco estéril. Se a cultura da bolsa for positiva ou duvidosa: **confirmar** com cateterismo ou punção antes de definir ITU.\n8. Etiquetar: nome, idade, data, hora, método exato e antibióticos prévios.\n9. Enviar ao laboratório imediatamente ou refrigerar conforme protocolo; documentar atrasos.\n10. Em febre sem foco / suspeita de pielonefrite: cultivar **antes** do antibiótico empírico sempre que isso não atrase o tratamento de uma criança instável.\n11. Registrar e interpretar juntamente com sedimento, PCR/PCT se aplicável e critérios AAP/institucionais.\n\n## Fundamentação científica\n\n### Indicações\n\n- Lactente febril sem foco com decisão de investigar ITU.\n- Criança com sintomas urinários baixos ou suspeita de pielonefrite.\n- Controle em uropatia, refluxo ou ITU recorrente conforme especialista.\n- Bacteriúria em situações de risco (imunocomprometidos) conforme protocolo.\n\n### Métodos: hierarquia de confiabilidade\n\n| Método | Confiabilidade diagnóstica |\n| --- | --- |\n| Punção suprapúbica | Alta |\n| Cateterismo intermitente | Alta |\n| Jato médio (criança colaboradora) | Boa se a técnica for correta |\n| Bolsa adesiva | Baixa (alta contaminação); apenas rastreamento |\n\n### Interpretação orientativa (pediatria)\n\n| Método | Limiar orientativo* |\n| --- | --- |\n| Cateterismo | ≥ 50 000 UFC/ml de um único germe + clínica/sedimento |\n| Jato médio | ≥ 100 000 UFC/ml habitualmente |\n| Punção | Qualquer crescimento significativo de um patógeno |\n| Bolsa | Não diagnosticar ITU só por bolsa positiva |\n\n\\*Seguir limiares do laboratório e guia AAP/institucional vigentes.\n\n### Evidência e recomendações\n\n> **AAP (ITU em lactentes e crianças):** não usar bolsa adesiva como único método diagnóstico; confirmar com cateterismo ou punção (Roberts et al. / atualizações AAP).\n\n> **SATI/SADI:** evitar culturas desnecessárias de sonda; correlacionar sempre com a clínica (Cornistein et al., 2024).\n\n### Erros frequentes\n\n- Tratar “ITU” apenas com bolsa positiva.\n- Atraso no envio → supercrescimento.\n- Contaminação por higiene insuficiente.\n- Cultivar de fralda ou de bolsa coletora de sonda permanente.\n\n### Complicações — comunicar\n\n- Trauma uretral ao cateterizar (não forçar; consultar urologia).\n- Criança séptica sem amostra (priorizar estabilização e culturas em paralelo).\n- Resultado positivo com deterioração (ajustar antibiótico).",
+  "bibliography": [
+    {
+      "citation": "Subcommittee on Urinary Tract Infection, American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children. Pediatrics.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "Cornistein W, et al. Infección urinaria asociada a sonda vesical — recomendaciones intersociedades SATI/SADI 2024. Medicina (B Aires). 2025.",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Lo E, et al. Strategies to Prevent CAUTI in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "Society of Pediatric Urology — recursos sobre diagnóstico de ITU e malformações.",
+      "url": "https://www.spuonline.org/"
+    },
+    {
+      "citation": "SATI — Coleta de amostras microbiológicas em UTI.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    }
+  ]
+}

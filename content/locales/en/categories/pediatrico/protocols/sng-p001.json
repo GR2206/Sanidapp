@@ -1,0 +1,31 @@
+{
+  "id": "sng-p001",
+  "title": "Pediatric nasogastric tube insertion",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Insert a nasogastric tube in pediatrics only with a justified indication, measure length by the NEX method or an age-based table, confirm gastric position before use, and protect the airway and nasal mucosa.",
+  "body": "## Steps to perform\n\n1. Verify indication, two patient identifiers, and the prescription (French size, purpose, duration). Explain to the family; plan safe therapeutic holding and analgesia/sedation per protocol.\n2. Assess the nares, craniofacial malformations, and level of consciousness; choose the more patent naris.\n3. Perform hand hygiene; prepare a pediatric tube of the indicated size, water-soluble lubricant, precision syringe, stethoscope, soft securement, and a container for aspirate.\n4. Measure length: nose → ear → xiphoid (NEX) or per institutional age/height table; mark the tube.\n5. Position the child: infant semi-upright or lateral with the head slightly flexed; older child in Fowler position if cooperative.\n6. Lubricate and advance through the chosen naris downward and posteriorly; encourage swallowing with a pacifier or sips if safe.\n7. Advance to the mark **without forcing**. If cough, cyanosis, intense refusal, or resistance occurs: withdraw and reassess (other naris, orogastric route, or supervision).\n8. Confirm gastric position before use: aspirate with pH ≤ 5 when available; radiograph if uncertain, planned feeding, or critical illness. Do not rely on auscultation alone.\n9. Secure without compressing the nasal ala or septum; protect the skin; document naris, Fr, cm at the naris, confirmation method, and aspirate appearance.\n10. Start decompression, nutrition, or medication only after documented confirmation.\n11. Reassess need every shift; remove at the first clinically possible moment.\n\n## Scientific rationale\n\n### Indications\n\n- Decompression in ileus, abdominal postoperative care, or intractable vomiting.\n- Enteral nutrition when the oral route is insufficient (failure to thrive, dysphagia, critical illness).\n- Drug administration when no safe oral route exists.\n- Procedure preparation per prescription.\n\n### Relative contraindications\n\n- Facial trauma, basilar skull fracture, or recent upper-airway surgery.\n- Choanal atresia, bilateral nasal stenosis, or complex craniofacial malformation (coordinate ENT/surgery).\n- Esophageal varices or recent esophageal surgery.\n- Uncorrected coagulopathy with risk of severe epistaxis.\n\n### French size selection (pediatric)\n\n| Approximate age / weight | Suggested French size |\n| --- | --- |\n| Infant < 5 kg | 5–6 Fr |\n| Infant / small child | 6–8 Fr |\n| School-age child | 8–10 Fr |\n| Adolescent | 10–12 Fr (feeding); 12–14 Fr (decompression) |\n\n### Position confirmation\n\n| Method | Use in pediatrics |\n| --- | --- |\n| Aspirate pH | Preferred when available |\n| Radiograph | If uncertain or feeding an unstable patient |\n| Auscultation alone | **Not sufficient** |\n\n### Evidence and recommendations\n\n> **AAP / pediatric nutrition:** NG tube misplacement is a preventable adverse event; verify location before feeding (safety practices).\n\n> **ASPEN pediatric:** confirm gastric position and elevate the head of bed when feasible to reduce aspiration.\n\n### Aftercare\n\n- Nasal/oral hygiene; watch for pressure injury and sinusitis.\n- In infants: assess respiratory distress (the tube occupies part of the nasal airway).\n- Monitor feeding tolerance, residuals, and aspiration signs.\n- Avoid traction during diaper changes or mobilization.\n\n### Complications — stop and notify\n\n- Suspected pulmonary or airway placement.\n- Epistaxis, apnea, or desaturation during the attempt.\n- Esophageal perforation (rare; pain, emphysema).\n- Pneumothorax.\n- Nasal ulceration or recurrent displacement.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Enteral nutrition and tube feeding in children — clinical considerations and safety.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Mehta NM, Skillman HE, Irving SY, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Pediatric Critically Ill Patient (ASPEN). JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28686844/"
+    },
+    {
+      "citation": "Boullata JI, et al. ASPEN Safe Practices for Enteral Nutrition Therapy. JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28068900/"
+    },
+    {
+      "citation": "NHS / NPSA. Reducing harm from misplaced nasogastric feeding tubes — pediatric considerations.",
+      "url": "https://www.england.nhs.uk/patient-safety/"
+    },
+    {
+      "citation": "SATI — Nutrition Committee. Nutritional support in the critically ill patient (institutional pediatric adaptation).",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}
