@@ -126,6 +126,20 @@
       "category": "adulto",
       "branch": "atencion-sanitaria",
       "version": "1.1"
+    },
+    {
+      "id": "sng-001",
+      "title": "Colocación de sonda nasogástrica",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.0"
+    },
+    {
+      "id": "uro-001",
+      "title": "Toma de urocultivo",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.0"
     }
   ]
 }

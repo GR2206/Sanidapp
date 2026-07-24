@@ -58,6 +58,22 @@
       "version": "1.0"
     },
     {
+      "id": "neo-i-008",
+      "title": "Colocación de sonda orogástrica / nasogástrica neonatal",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
+      "id": "neo-i-009",
+      "title": "Toma de urocultivo neonatal",
+      "category": "neonatologia",
+      "branch": "atencion-sanitaria",
+      "division": "intensiva",
+      "version": "1.0"
+    },
+    {
       "id": "neo-b-001",
       "title": "Cuidados del recién nacido en unidad convencional (termorregulación, cribado)",
       "category": "neonatologia",

@@ -105,6 +105,20 @@
       "category": "pediatrico",
       "branch": "atencion-sanitaria",
       "version": "1.1"
+    },
+    {
+      "id": "sng-p001",
+      "title": "Colocación de sonda nasogástrica pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0"
+    },
+    {
+      "id": "uro-p001",
+      "title": "Toma de urocultivo pediátrico",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "id": "sng-001",
+  "title": "Colocación de sonda nasogástrica",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Colocar sonda nasogástrica solo con indicación justificada, confirmar posición gástrica antes de usar, fijar sin lesión nasal y reevaluar diariamente la necesidad del dispositivo.",
+  "body": "## Pasos a realizar\n\n1. Verificar indicación, contraindicaciones e identidad del paciente; confirmar prescripción (tipo de sonda, calibre, duración prevista y uso: descompresión, alimentación o administración de fármacos).\n2. Explicar el procedimiento; evaluar permeabilidad nasal, desviación septal y nivel de conciencia; elegir la fosa nasal más permeable.\n3. Realizar higiene de manos; preparar sonda del calibre indicado, lubricante hidrosoluble, jeringa, fonendoscopio, fijador no compresivo y recipiente para aspirado.\n4. Medir la longitud de inserción: punta de la nariz → lóbulo de la oreja → apófisis xifoides (método NEX); marcar la sonda.\n5. Colocar al paciente semisentado (Fowler 30–45°) si la clínica lo permite; en intubado o con vía aérea avanzada, coordinar con el equipo y mantener precauciones de aspiración.\n6. Lubricar el extremo distal e introducir por la fosa elegida, dirigiéndose hacia abajo y atrás; solicitar deglución de sorbos de agua si el paciente está consciente y puede proteger la vía aérea.\n7. Avanzar hasta la marca sin forzar. Ante resistencia marcada, tos intensa, cianosis, distress respiratorio o voz «apagada»: **retirar de inmediato** y reintentar por la otra fosa o con supervisión.\n8. Confirmar posición gástrica **antes de cualquier uso**: aspirar contenido y valorar pH ≤ 5,5 cuando el método esté disponible; auscultar el epigastrio solo como apoyo (no es método único de confirmación). Ante duda: radiografía de tórax/abdomen según protocolo institucional.\n9. Fijar la sonda sin tensión sobre el ala nasal ni el tabique; proteger la piel; registrar fosa, calibre, centímetros en narina, método de confirmación y aspecto del aspirado.\n10. Conectar a bolsa/sistema de drenaje o iniciar nutrición/medicación solo tras confirmación documentada.\n11. Reevaluar indicación cada turno; retirar al primer momento clínicamente posible.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Descompresión gástrica en íleo, obstrucción proximal o vómitos incoercibles.\n- Nutrición enteral cuando la vía oral es insuficiente o está contraindicada.\n- Administración de fármacos o carbón activado cuando no hay alternativa segura.\n- Lavado gástrico selectivo según toxicología (indicaciones restringidas).\n\n### Contraindicaciones relativas / absolutas relativas\n\n- Trauma facial severo, fractura de base de cráneo o cirugía reciente de senos/base de cráneo (preferir orogástrica o consultar).\n- Varices esofágicas activas o cirugía esofágica reciente (evaluar riesgo-beneficio con especialista).\n- Coagulopatía grave no corregida (riesgo de epistaxis).\n- Obstrucción nasal bilateral o atresia de coanas no resuelta.\n\n### Selección de calibre (adulto)\n\n| Uso previsto | Calibre orientativo |\n| --- | --- |\n| Descompresión / aspiración | 14–18 Fr |\n| Nutrición enteral / medicación | 8–12 Fr (sonda fina) |\n| Paciente intubado / alto riesgo de aspiración | Preferir orogástrica si el protocolo lo indica |\n\n### Confirmación de posición\n\n| Método | Comentario |\n| --- | --- |\n| pH del aspirado ≤ 5,5 | Preferido cuando está disponible y no hay IBP recientes que lo alteren |\n| Radiografía | Estándar de oro ante duda, nutrición programada o paciente crítico |\n| Auscultación epigástrica aislada | **Insuficiente** como único criterio |\n\n### Evidencia y recomendaciones\n\n> **ASPEN / ESPEN (nutrición clínica):** verificar ubicación gástrica antes de iniciar nutrición enteral; no confiar solo en la auscultación (McClave et al.; Singer et al.).\n\n> **Cuidados críticos:** la malposición pulmonar de una SNG puede causar neumonía, neumotórax o muerte; confirmar siempre antes del uso (prácticas de seguridad del paciente).\n\n### Cuidados posteriores\n\n- Higiene nasal y oral diaria; rotar punto de fijación para prevenir úlcera por presión.\n- Vigilar epistaxis, sinusitis, odinofagia, vómitos, distensión abdominal y signos de aspiración.\n- En nutrición: elevar cabecera ≥ 30° si no hay contraindicación; controlar residuo gástrico según protocolo local.\n- No irrigar con fuerza ante obstrucción; evaluar recolocación.\n\n### Complicaciones — detener y avisar\n\n- Sospecha de colocación pulmonar (tos, desaturación, ausencia de aspirado gástrico).\n- Epistaxis abundante o hematoma septal.\n- Perforación esofágica o mediastinitis (dolor intenso, enfisema subcutáneo).\n- Neumotórax tras intento fallido.\n- Úlcera nasal por fijación inadecuada.",
+  "bibliography": [
+    {
+      "citation": "McClave SA, Taylor BE, Martindale RG, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Adult Critically Ill Patient (SCCM/ASPEN). JPEN J Parenter Enteral Nutr. 2016 (y actualizaciones).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26773077/"
+    },
+    {
+      "citation": "Singer P, Blaser AR, Berger MM, et al. ESPEN guideline on clinical nutrition in the intensive care unit. Clin Nutr. 2019.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30348463/"
+    },
+    {
+      "citation": "SATI — Comité de Nutrición. Recomendaciones de soporte nutricional en el paciente crítico.",
+      "url": "https://www.sati.org.ar/"
+    },
+    {
+      "citation": "National Patient Safety Agency (NPSA) / NHS. Reducing the harm caused by misplaced nasogastric feeding tubes in adults.",
+      "url": "https://www.england.nhs.uk/patient-safety/"
+    },
+    {
+      "citation": "Boullata JI, Carrera AL, Harvey L, et al. ASPEN Safe Practices for Enteral Nutrition Therapy. JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28068900/"
+    }
+  ]
+}

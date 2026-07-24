@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-008",
+  "title": "Colocación de sonda orogástrica / nasogástrica neonatal",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "En neonatos (día 0–30, 500–2500 g) preferir sonda orogástrica si hay distress respiratorio; medir longitud con método validado, confirmar posición gástrica antes de usar y fijar sin lesionar piel ni vía aérea.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación (descompresión, alimentación enteral, vaciamiento pre-CPAP/ventilación), identificar RN (dos identificadores), peso y edad gestacional/postnatal.\n2. Explicar a la familia; mantener termorregulación (cama radiante/incubadora) durante el procedimiento.\n3. Preferir **orogástrica** en prematuros con distress, CPAP o ventilación (libera fosas nasales). Reservar nasogástrica para RN estables con vía nasal libre y según protocolo.\n4. Higiene de manos; preparar sonda 5–8 Fr según peso, lubricante hidrosoluble escaso, jeringa de precisión, fijador suave y recipiente para aspirado.\n5. Medir longitud: en orogástrica, ángulo de la boca → oreja → xifoides (o tabla institucional por peso); marcar la sonda.\n6. Posicionar al RN en semisentado leve o decúbito lateral; aspirar secreciones orales si es necesario.\n7. Introducir suavemente; avanzar hasta la marca **sin forzar**. Ante cianosis, bradicardia, apnea o resistencia: retirar, oxigenar/estabilizar y reintentar con supervisión.\n8. Confirmar posición gástrica antes de cualquier uso: aspirado gástrico; pH cuando esté disponible; radiografía si hay duda, nutrición programada o malposición previa. No confiar solo en auscultación.\n9. Fijar sin ocluir narinas ni comprimir labio/mejilla; dejar libre el acceso a CPAP/cánulas; registrar vía (oral/nasal), Fr, cm, método de confirmación y aspecto del aspirado.\n10. Iniciar alimentación o descompresión solo tras confirmación; en nutrición, elevar cabecera levemente si la estabilidad lo permite.\n11. Reevaluar cada turno; retirar o cambiar según protocolo (obstrucción, desplazamiento, fin de indicación).\n\n## Fundamentación científica\n\n### Población y alcance\n\n**Neonatos día 0–30**, **500 g–2500 g**, en unidad neonatal. La vía orogástrica reduce obstrucción nasal y trabajo respiratorio en prematuros.\n\n### Indicaciones\n\n- Descompresión gástrica en íleo, enterocolitis sospechada, distensión o vómitos.\n- Alimentación enteral (trofismo o nutrición) cuando no hay succión-deglución segura.\n- Vaciamiento gástrico antes de procedimientos o en asistencia respiratoria no invasiva con distensión.\n\n### Contraindicaciones relativas\n\n- Atresia de esófago o fístula traqueoesofágica sospechada (coordinar cirugía; no forzar).\n- Malformación craneofacial severa (evaluar vía con ORL/cirugía).\n- Coagulopatía con sangrado activo oral/nasal.\n\n### Selección de calibre y vía\n\n| Peso | Calibre (Fr) | Vía preferida |\n| --- | --- | --- |\n| 500–999 g | 5 Fr | Orogástrica |\n| 1000–1499 g | 5–6 Fr | Orogástrica |\n| 1500–2500 g | 6–8 Fr | Orogástrica si distress; nasogástrica si estable |\n\n### Evidencia y recomendaciones\n\n> **AAP / práctica neonatal:** verificar ubicación antes de alimentar; la malposición es un evento prevenible (seguridad del paciente neonatal).\n\n> **VON / nutrición neonatal:** inicio precoz de trofismo con sonda bien posicionada mejora tolerancia y reduce días de nutrición parenteral cuando la clínica lo permite.\n\n### Cuidados posteriores\n\n- Vigilar apnea, bradicardia y desaturación asociadas al procedimiento.\n- Controlar residuo gástrico y tolerancia según protocolo de alimentación.\n- Inspeccionar piel de fijación cada turno; prevenir lesiones por presión.\n- En CPAP nasal: priorizar orogástrica y evitar oclusión de prongs.\n\n### Complicaciones — detener y avisar\n\n- Sospecha de colocación en vía aérea o esófago perforado.\n- Bradicardia/apnea durante la inserción.\n- Neumotórax o neumoperitoneo (raro).\n- Lesión nasal/oral por fijación.\n- Aspiración tras inicio de alimentación con sonda mal posicionada.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Neonatal enteral nutrition and tube feeding safety.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Vermont Oxford Network. Nutritional practices and tube feeding safety in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "Mehta NM, et al. ASPEN Guidelines for Nutrition Support in the Pediatric Critically Ill Patient. JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28686844/"
+    },
+    {
+      "citation": "World Health Organization. Optimal feeding of low-birth-weight infants (técnicas de sonda y seguridad).",
+      "url": "https://www.who.int/publications"
+    },
+    {
+      "citation": "SATI — Comité de Nutrición. Soporte nutricional en el paciente crítico (adaptación neonatal institucional).",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "uro-001",
+  "title": "Toma de urocultivo",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Obtener urocultivo con técnica que minimice contaminación, preferir chorro medio limpio o muestra de sonda recién colocada, refrigerar o enviar de inmediato al laboratorio e interpretar el recuento junto con el cuadro clínico.",
+  "body": "## Pasos a realizar\n\n1. Verificar indicación clínica (disuria, polaquiuria, fiebre con sospecha de ITU, sepsis de foco urinario, control de tratamiento según protocolo) e identidad del paciente.\n2. Explicar el procedimiento; solicitar micción reciente evitada (idealmente ≥ 2–3 h de retención) si es posible sin demorar urgencias.\n3. Elegir método de recolección según situación:\n   - **Chorro medio limpio** (paciente colaborador, sin sonda).\n   - **Sonda vesical de un solo uso** (paciente no colaborador, retención o muestra crítica).\n   - **Aspiración del puerto de sonda permanente** (nunca de la bolsa).\n4. Higiene de manos; preparar frasco estéril de boca ancha, antiséptico/jabón según protocolo y etiquetas.\n5. **Chorro medio:** lavar genitales con agua y jabón o antiséptico según protocolo; en mujeres separar labios; en hombres retraer prepucio si aplica; desechar el primer chorro e recolectar el medio en frasco estéril sin tocar el interior.\n6. **Sonda intermitente:** técnica asséptica; desechar primeros mililitros y recolectar en frasco estéril.\n7. **Sonda permanente:** pinzar distalmente el catéter unos minutos si el protocolo lo indica; desinfectar el puerto de muestreo; aspirar con jeringa estéril; **no desconectar** el circuito cerrado ni muestrear la bolsa.\n8. Cerrar el frasco sin contaminar; etiquetar con nombre, fecha, hora, método de obtención y antibióticos en curso.\n9. Enviar al laboratorio **antes de 2 h** a temperatura ambiente o refrigerar (2–8 °C) hasta 24 h según protocolo local; no congelar.\n10. Si hay sospecha de sepsis urinaria: obtener urocultivo (y hemocultivos) **antes del antibiótico** si no retrasa el inicio más de lo aceptable (p. ej. Surviving Sepsis).\n11. Registrar método, hora y responsable; comunicar resultado con recuento, germen e interpretación clínica.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Sospecha de cistitis, pielonefritis o prostatitis bacteriana.\n- Fiebre o sepsis con foco urinario probable.\n- ITU asociada a sonda (ITU-SV) con criterios clínicos.\n- Bacteriuria en embarazo, urología preoperatoria o inmunocomprometidos según protocolo.\n- Control de curación solo cuando esté indicado (no de rutina en cistitis no complicada tras mejoría).\n\n### Métodos y calidad de la muestra\n\n| Método | Comentario |\n| --- | --- |\n| Chorro medio limpio | Estándar en adultos colaboradores |\n| Sonda intermitente | Útil si no hay micción espontánea confiable |\n| Puerto de sonda permanente | Evita contaminar el sistema cerrado |\n| Bolsa recolectora | **No válida** para cultivo |\n| Punción suprapúbica | Reservada a casos especiales / urología |\n\n### Interpretación orientativa (adulto)\n\n| Recuento (UFC/ml) | Interpretación habitual* |\n| --- | --- |\n| ≥ 10⁵ | Sugiere ITU en muestra de chorro medio con clínica |\n| 10³–10⁴ | Interpretar con clínica, sexo, método y gérmenes |\n| Polimicrobiano / flora mixta | Sospechar contaminación; repetir si la clínica lo exige |\n\n\\*Umbrales pueden variar según laboratorio y guías locales; siempre correlacionar con sedimento y clínica.\n\n### Evidencia y recomendaciones\n\n> **SATI/SADI 2024 (Cornistein et al.):** en ITU-SV, cultivar solo con sospecha clínica; no tratar bacteriuria asintomática en sonda de rutina; retirar o cambiar sonda según indicación al obtener muestra.\n\n> **IDSA / SHEA:** no cultivar de la bolsa; técnica asséptica en puerto; evitar cultivos de «vigilancia» sin indicación.\n\n### Errores frecuentes que invalidan el resultado\n\n- Contaminación por flora periuretral (mala higiene o primer chorro incluido).\n- Demora > 2 h sin refrigeración.\n- Muestra de bolsa o de sonda antigua sin técnica de puerto.\n- Antibiótico iniciado antes de la toma sin documentarlo.\n\n### Complicaciones / situaciones — avisar\n\n- Imposibilidad de obtener muestra en paciente séptico (escalar sonda intermitente / urología).\n- Trauma uretral al sondar.\n- Resultado positivo con deterioro clínico (ajustar antibiótico según antibiograma).",
+  "bibliography": [
+    {
+      "citation": "Cornistein W, Nuccetelli Y, Rodríguez VM, et al. Infección urinaria asociada a sonda vesical. Actualización y recomendaciones intersociedades 2024. Medicina (B Aires). 2025;85(2):1-15. (SATI / SADI).",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. Catheter associated urinary tract infection: Update and intersociety recommendations, 2024. Revista Argentina de Terapia Intensiva (SATI).",
+      "url": "https://revista.sati.org.ar/index.php/MI/en/article/view/980"
+    },
+    {
+      "citation": "Lo E, Nicolle LE, Coffin SE, et al. Strategies to Prevent Catheter-Associated Urinary Tract Infections in Acute Care Hospitals: 2022 Update. Infect Control Hosp Epidemiol. 2022.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36062715/"
+    },
+    {
+      "citation": "Gupta K, Hooton TM, Naber KG, et al. International clinical practice guidelines for the treatment of acute uncomplicated cystitis and pyelonephritis in women (IDSA). Clin Infect Dis. 2011 (y actualizaciones).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21292654/"
+    },
+    {
+      "citation": "SATI — Comité de Infectología Crítica. Toma de muestras microbiológicas en UTI.",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    }
+  ]
+}

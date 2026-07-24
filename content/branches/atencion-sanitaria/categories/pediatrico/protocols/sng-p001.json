@@ -1,0 +1,31 @@
+{
+  "id": "sng-p001",
+  "title": "Colocación de sonda nasogástrica pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "executiveSummary": "Colocar sonda nasogástrica en pediatría solo con indicación justificada, medir longitud por método NEX o tabla por edad, confirmar posición gástrica antes del uso y proteger vía aérea y mucosa nasal.",
+  "body": "## Pasos a realizar\n\n1. Verificar indicación, dos identificadores del paciente y prescripción (calibre, uso, duración). Explicar a la familia; planificar contención terapéutica segura y analgesia/sedación según protocolo.\n2. Evaluar fosas nasales, malformaciones craneofaciales y nivel de conciencia; elegir la fosa más permeable.\n3. Higiene de manos; preparar sonda pediátrica del calibre indicado, lubricante hidrosoluble, jeringa de precisión, fonendoscopio, fijador suave y recipiente para aspirado.\n4. Medir longitud: nariz → oreja → xifoides (NEX) o según tabla institucional por edad/talla; marcar la sonda.\n5. Posicionar al niño: lactante en semisentado o decúbito lateral con cabeza ligeramente flexionada; niño mayor en Fowler si colabora.\n6. Lubricar e introducir por la fosa elegida hacia abajo y atrás; estimular deglución con chupete o sorbos si es seguro.\n7. Avanzar hasta la marca **sin forzar**. Ante tos, cianosis, rechazo intenso o resistencia: retirar y reevaluar (otra fosa, orogástrica o supervisión).\n8. Confirmar posición gástrica antes de usar: aspirado con pH ≤ 5 cuando esté disponible; radiografía si hay duda, nutrición programada o paciente crítico. No usar solo auscultación.\n9. Fijar sin comprimir el ala nasal ni el tabique; proteger piel; registrar fosa, Fr, cm en narina, método de confirmación y aspecto del aspirado.\n10. Iniciar descompresión, nutrición o medicación solo tras confirmación documentada.\n11. Reevaluar necesidad cada turno; retirar al primer momento clínicamente posible.\n\n## Fundamentación científica\n\n### Indicaciones\n\n- Descompresión en íleo, postoperatorio abdominal o vómitos incoercibles.\n- Nutrición enteral cuando la vía oral es insuficiente (fallo de medro, disfagia, enfermedad crítica).\n- Administración de fármacos cuando no hay vía oral segura.\n- Preparación a procedimientos según prescripción.\n\n### Contraindicaciones relativas\n\n- Trauma facial, fractura de base de cráneo o cirugía reciente de vía aérea superior.\n- Atresia de coanas, estenosis nasal bilateral o malformación craneofacial compleja (coordinar ORL/cirugía).\n- Varices esofágicas o cirugía esofágica reciente.\n- Coagulopatía no corregida con riesgo de epistaxis grave.\n\n### Selección de calibre (pediátrico)\n\n| Edad / peso aproximado | Calibre (Fr) sugerido |\n| --- | --- |\n| Lactante < 5 kg | 5–6 Fr |\n| Lactante / niño pequeño | 6–8 Fr |\n| Niño (escolar) | 8–10 Fr |\n| Adolescente | 10–12 Fr (nutrición); 12–14 Fr (descompresión) |\n\n### Confirmación de posición\n\n| Método | Uso en pediatría |\n| --- | --- |\n| pH del aspirado | Preferido cuando disponible |\n| Radiografía | Ante duda o nutrición en paciente inestable |\n| Auscultación sola | **No suficiente** |\n\n### Evidencia y recomendaciones\n\n> **AAP / nutrición pediátrica:** la malposición de SNG es un evento adverso prevenible; verificar ubicación antes de alimentar (prácticas de seguridad).\n\n> **ASPEN pediatric:** confirmar posición gástrica y elevar cabecera cuando sea factible para reducir aspiración.\n\n### Cuidados posteriores\n\n- Higiene nasal/oral; vigilar úlcera por presión y sinusitis.\n- En lactantes: valorar molestia respiratoria (la sonda ocupa parte de la vía nasal).\n- Controlar tolerancia alimentaria, residuo y signos de aspiración.\n- Evitar tracciones durante el cambio de pañal o movilización.\n\n### Complicaciones — detener y avisar\n\n- Sospecha de colocación pulmonar o vía aérea.\n- Epistaxis, apnea o desaturación durante el intento.\n- Perforación esofágica (raro; dolor, enfisema).\n- Neumotórax.\n- Úlcera nasal o desplazamiento recurrente.",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Enteral nutrition and tube feeding in children — clinical considerations and safety.",
+      "url": "https://www.aap.org/en/patient-care/"
+    },
+    {
+      "citation": "Mehta NM, Skillman HE, Irving SY, et al. Guidelines for the Provision and Assessment of Nutrition Support Therapy in the Pediatric Critically Ill Patient (ASPEN). JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28686844/"
+    },
+    {
+      "citation": "Boullata JI, et al. ASPEN Safe Practices for Enteral Nutrition Therapy. JPEN. 2017.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28068900/"
+    },
+    {
+      "citation": "NHS / NPSA. Reducing harm from misplaced nasogastric feeding tubes — pediatric considerations.",
+      "url": "https://www.england.nhs.uk/patient-safety/"
+    },
+    {
+      "citation": "SATI — Comité de Nutrición. Soporte nutricional en el paciente crítico (adaptación pediátrica institucional).",
+      "url": "https://www.sati.org.ar/"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ import dpp001 from '../../../content/branches/atencion-sanitaria/categories/adul
 import hem001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/hem-001.json';
 import ret001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/ret-001.json';
 import pam001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/pam-001.json';
+import sng001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/sng-001.json';
+import uro001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/uro-001.json';
 import feb001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/feb-001.json';
 import sepP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/sep-p001.json';
 import vipP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/vip-p001.json';
@@ -34,6 +36,8 @@ import rehP001 from '../../../content/branches/atencion-sanitaria/categories/ped
 import medP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/med-p001.json';
 import dipP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/dip-p001.json';
 import dppP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/dpp-p001.json';
+import sngP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/sng-p001.json';
+import uroP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/uro-p001.json';
 import neoI001 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-001.json';
 import neoI002 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-002.json';
 import neoI003 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-003.json';
@@ -41,6 +45,8 @@ import neoI004 from '../../../content/branches/atencion-sanitaria/categories/neo
 import neoI005 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-005.json';
 import neoI006 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-006.json';
 import neoI007 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-007.json';
+import neoI008 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-008.json';
+import neoI009 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-i-009.json';
 import neoB001 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-b-001.json';
 import neoB002 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-b-002.json';
 import neoB003 from '../../../content/branches/atencion-sanitaria/categories/neonatologia/protocols/neo-b-003.json';
@@ -76,6 +82,8 @@ export const LOCAL_PROTOCOLS: Record<string, Protocol> = {
   'hem-001': hem001 as Protocol,
   'ret-001': ret001 as Protocol,
   'pam-001': pam001 as Protocol,
+  'sng-001': sng001 as Protocol,
+  'uro-001': uro001 as Protocol,
   'feb-001': feb001 as Protocol,
   'sep-p001': sepP001 as Protocol,
   'vip-p001': vipP001 as Protocol,
@@ -91,6 +99,8 @@ export const LOCAL_PROTOCOLS: Record<string, Protocol> = {
   'med-p001': medP001 as Protocol,
   'dip-p001': dipP001 as Protocol,
   'dpp-p001': dppP001 as Protocol,
+  'sng-p001': sngP001 as Protocol,
+  'uro-p001': uroP001 as Protocol,
   'neo-i-001': neoI001 as Protocol,
   'neo-i-002': neoI002 as Protocol,
   'neo-i-003': neoI003 as Protocol,
@@ -98,6 +108,8 @@ export const LOCAL_PROTOCOLS: Record<string, Protocol> = {
   'neo-i-005': neoI005 as Protocol,
   'neo-i-006': neoI006 as Protocol,
   'neo-i-007': neoI007 as Protocol,
+  'neo-i-008': neoI008 as Protocol,
+  'neo-i-009': neoI009 as Protocol,
   'neo-b-001': neoB001 as Protocol,
   'neo-b-002': neoB002 as Protocol,
   'neo-b-003': neoB003 as Protocol,

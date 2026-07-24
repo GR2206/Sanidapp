@@ -1,0 +1,32 @@
+{
+  "id": "neo-i-009",
+  "title": "Toma de urocultivo neonatal",
+  "category": "neonatologia",
+  "branch": "atencion-sanitaria",
+  "division": "intensiva",
+  "version": "1.0",
+  "executiveSummary": "En neonatos (día 0–30, 500–2500 g) obtener urocultivo por cateterismo vesical o punción suprapúbica; no diagnosticar ITU solo con bolsa adhesiva; cultivar antes del antibiótico si la estabilidad lo permite.",
+  "body": "## Pasos a realizar\n\n1. Confirmar indicación (fiebre/hipotermia, sepsis neonatal, ITU sospechada, evaluación de foco en RN inestable) e identificar al RN (dos identificadores, peso).\n2. Explicar a la familia; mantener termorregulación; no demorar antibiótico en sepsis grave por dificultad de muestra — cultivar en paralelo.\n3. Elegir método:\n   - **Cateterismo vesical** (5–6 Fr): método habitual de cultivo definitivo.\n   - **Punción suprapúbica:** si hay experiencia y vejiga palpable/llena.\n   - **Bolsa adhesiva:** solo screening; confirmar todo positivo.\n4. Higiene de manos; técnica asséptica; antiséptico cutáneo según protocolo neonatal; dejar secar.\n5. **Cateterismo:** lubricar mínimamente; introducir sin forzar; desechar primeros mililitros; recolectar en frasco estéril; retirar sonda.\n6. **Punción:** localizar vejiga (palpación/ecografía si disponible); técnica estéril; aspirar; no atravesar asas intestinales.\n7. Etiquetar: nombre, peso, fecha, hora, método y antibióticos maternos/neonatales.\n8. Enviar de inmediato al laboratorio; refrigerar solo según protocolo si hay demora breve.\n9. En sepsis: obtener también hemocultivo; iniciar empírico según protocolo NRP/institucional sin esperar el urocultivo.\n10. Registrar e interpretar con clínica, sedimento (si hay volumen) y umbrales pediátrico-neonatales.\n\n## Fundamentación científica\n\n### Población y alcance\n\n**Neonatos día 0–30**, **500 g–2500 g**. La ITU neonatal puede presentarse como sepsis sin síntomas urinarios locales.\n\n### Indicaciones\n\n- Evaluación de sepsis neonatal precoz o tardía con foco urinario posible.\n- Fiebre o inestabilidad térmica sin foco.\n- Bacteriuria sospechada en RN con malformación urinaria.\n- Control según nefrología/urología neonatal.\n\n### Métodos y confiabilidad\n\n| Método | Uso en neonato |\n| --- | --- |\n| Cateterismo | Preferido para cultivo diagnóstico |\n| Punción suprapúbica | Alta especificidad si hay experiencia |\n| Bolsa | Solo despistaje; alta contaminación |\n| Pañal | **No válido** |\n\n### Interpretación orientativa\n\n| Método | Criterio orientativo* |\n| --- | --- |\n| Cateterismo | ≥ 50 000 UFC/ml de un patógeno + clínica |\n| Punción | Crecimiento de un patógeno significativo |\n| Bolsa positiva | Confirmar siempre |\n\n\\*Ajustar a laboratorio y guía local/AAP.\n\n### Evidencia y recomendaciones\n\n> **AAP:** en lactantes febriles pequeños, el método de recolección determina la validez del diagnóstico de ITU.\n\n> **SATI / infectología crítica:** técnica asséptica y envío rápido; correlacionar con hemocultivo en sepsis (toma de muestras microbiológicas).\n\n> **VON:** la sepsis de foco urinario forma parte del diferencial de sepsis tardía; cultivo adecuado evita tratamientos prolongados por contaminación.\n\n### Errores frecuentes\n\n- Diagnosticar y tratar solo con bolsa positiva.\n- Demora en el envío.\n- Contaminación por técnica no estéril.\n- Forzar sonda en RN varón con resistencia (riesgo uretral).\n\n### Complicaciones — detener y avisar\n\n- Bradicardia/apnea durante el procedimiento.\n- Trauma uretral o hematuria franca.\n- Punción intestinal (si suprapúbica incorrecta).\n- RN séptico sin muestra (priorizar vía y antibiótico; completar cultivos apenas sea posible).",
+  "bibliography": [
+    {
+      "citation": "American Academy of Pediatrics. Urinary Tract Infection: Clinical Practice Guideline for the Diagnosis and Management of the Initial UTI in Febrile Infants and Children.",
+      "url": "https://publications.aap.org/pediatrics/article/128/3/595/30042"
+    },
+    {
+      "citation": "SATI — Toma de muestras microbiológicas en UTI (Comité de Infectología Crítica).",
+      "url": "https://www.sati.org.ar/wp-content/uploads/2022/04/Toma-de-muestras-microbiologicas-en-UTI-Revision2007.pdf"
+    },
+    {
+      "citation": "Cornistein W, et al. ITU asociada a sonda — recomendaciones intersociedades SATI/SADI 2024.",
+      "url": "https://www.medicinabuenosaires.com/revistas/vol85-25/n2/348.pdf"
+    },
+    {
+      "citation": "Vermont Oxford Network. Late-onset sepsis evaluation in the NICU.",
+      "url": "https://www.vtoxford.org/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines on prevention of healthcare-associated infections in neonatal units.",
+      "url": "https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/newborn-health"
+    }
+  ]
+}
