@@ -6,7 +6,8 @@ export type PremiumSource =
   | 'institution_token'
   | 'iap'
   | 'mercadopago'
-  | 'admin';
+  | 'admin'
+  | 'docente';
 
 export interface UserSubscriptionFields {
   accessTier: AccessTier;

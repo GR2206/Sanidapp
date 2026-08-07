@@ -9,10 +9,12 @@ import {
   scrollAuthFieldIntoView,
 } from '@/components/layout/KeyboardAwareScrollScreen';
 import { Button } from '@/components/ui/Button';
+import { FieldSelect } from '@/components/ui/FieldSelect';
 import { LanguagePicker } from '@/components/ui/LanguagePicker';
 import { LogoMark } from '@/components/ui/LogoMark';
 import { TextField } from '@/components/ui/TextField';
 import { Typography } from '@/components/ui/Typography';
+import { PROFESSION_OPTION_IDS } from '@/constants/professions';
 import { REGISTRATION_TYPES, registrationRequiresSanatorio } from '@/constants/registration';
 import { ROUTES } from '@/constants/routes';
 import { useAuth } from '@/contexts/AuthContext';
@@ -20,6 +22,8 @@ import { useLocale } from '@/contexts/LocaleContext';
 import { useAppLabels } from '@/hooks/useAppLabels';
 import { resolveMessage } from '@/i18n/resolveMessage';
 import { getLocalSanatorios } from '@/services/firebase/authService';
+import { detectCountryCodeFromGps } from '@/services/locale/detectCountry';
+import { writeLocalCountryCode } from '@/services/locale/countryPreference';
 import type { RegistrationType } from '@/types/auth';
 import { palette } from '@/theme/colors';
 import { radius, spacing } from '@/theme/spacing';
@@ -64,14 +68,18 @@ export default function RegisterScreen() {
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
-  const [profesion, setProfesion] = useState('');
+  const [profesionId, setProfesionId] = useState('');
+  const profesion = profesionId ? t(`auth.professions.${profesionId}`) : '';
   const [registrationType, setRegistrationType] = useState<RegistrationType>('institutional');
-  const [sanatorioId, setSanatorioId] = useState(sanatorios[0]?.id ?? '');
+  const [sanatorioId, setSanatorioId] = useState('');
+  const [countryCode, setCountryCode] = useState('');
+  const [detectingCountry, setDetectingCountry] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   const showSanatorioPicker = registrationRequiresSanatorio(registrationType);
   const isPremiumSignup = registrationType === 'premium';
+  const showCountryPicker = !showSanatorioPicker;
 
   useEffect(() => {
     const showEvent = Platform.OS === 'ios' ? 'keyboardWillShow' : 'keyboardDidShow';
@@ -122,7 +130,11 @@ export default function RegisterScreen() {
         profesion,
         registrationType,
         sanatorioId: showSanatorioPicker ? sanatorioId : '',
+        countryCode: showCountryPicker ? countryCode : undefined,
       });
+      if (showCountryPicker && countryCode) {
+        await writeLocalCountryCode(countryCode);
+      }
     } catch (cause) {
       const message =
         cause instanceof Error
@@ -151,7 +163,7 @@ export default function RegisterScreen() {
         scrollRef={scrollRef}
         scrollYRef={scrollYRef}
         contentContainerStyle={styles.scroll}>
-        <LogoMark size={88} showTitle title="SANIDAPP" />
+        <LogoMark size={72} showTitle title="SANIDAPP" />
 
         <View style={styles.form}>
           <Typography variant="subtitle" style={styles.heading}>
@@ -180,6 +192,59 @@ export default function RegisterScreen() {
 
           {showSanatorioPicker ? (
             <SanatorioSelect sanatorios={sanatorios} value={sanatorioId} onChange={setSanatorioId} />
+          ) : null}
+
+          {showCountryPicker ? (
+            <View style={styles.countryBlock}>
+              <Typography variant="label">{t('auth.fields.country')}</Typography>
+              <Typography variant="caption" color={palette.textMuted} style={styles.countryHint}>
+                {t('auth.fields.countryHintOptional')}
+              </Typography>
+              <View style={styles.typeRow}>
+                {[
+                  { code: 'AR', label: t('auth.fields.countryArgentina') },
+                  { code: 'XX', label: t('auth.fields.countryOther') },
+                ].map((option) => {
+                  const selected = countryCode === option.code;
+                  return (
+                    <Pressable
+                      key={option.code}
+                      onPress={() => setCountryCode(option.code)}
+                      style={[styles.typeCard, selected && styles.typeCardSelected]}>
+                      <Typography
+                        variant="caption"
+                        style={[styles.typeTitle, selected && styles.typeTitleSelected]}>
+                        {option.label}
+                      </Typography>
+                    </Pressable>
+                  );
+                })}
+              </View>
+              <Pressable
+                disabled={detectingCountry}
+                onPress={() => {
+                  void (async () => {
+                    setDetectingCountry(true);
+                    setError(null);
+                    try {
+                      const detected = await detectCountryCodeFromGps();
+                      if (!detected) {
+                        setError(t('auth.errors.countryDetectFailed'));
+                        return;
+                      }
+                      setCountryCode(detected === 'AR' ? 'AR' : 'XX');
+                      await writeLocalCountryCode(detected === 'AR' ? 'AR' : detected);
+                    } finally {
+                      setDetectingCountry(false);
+                    }
+                  })();
+                }}
+                style={styles.gpsButton}>
+                <Typography variant="caption" style={styles.gpsLabel}>
+                  {detectingCountry ? t('auth.fields.detectingGps') : t('auth.fields.detectGps')}
+                </Typography>
+              </Pressable>
+            </View>
           ) : null}
 
           <View ref={nombreFieldRef} collapsable={false}>
@@ -238,12 +303,18 @@ export default function RegisterScreen() {
           </Pressable>
 
           <View ref={profesionFieldRef} collapsable={false}>
-            <TextField
+            <FieldSelect
               label={t('auth.fields.profesion')}
-              value={profesion}
-              onChangeText={setProfesion}
+              value={profesionId}
               placeholder={t('auth.register.professionPlaceholder')}
-              onFocus={() => focusField('profesion', spacing.xxxl)}
+              options={PROFESSION_OPTION_IDS.map((id) => ({
+                id,
+                label: t(`auth.professions.${id}`),
+              }))}
+              onChange={(id) => {
+                setProfesionId(id);
+                focusField('profesion', spacing.xxxl);
+              }}
             />
           </View>
 
@@ -279,38 +350,45 @@ export default function RegisterScreen() {
 const styles = StyleSheet.create({
   safe: { flex: 1, backgroundColor: palette.background },
   scroll: {
-    gap: spacing.lg,
-    paddingVertical: spacing.lg,
-    paddingBottom: spacing.xxl,
+    gap: spacing.md,
+    paddingVertical: spacing.md,
+    paddingHorizontal: 0,
+    paddingBottom: spacing.xl,
   },
   form: {
-    backgroundColor: palette.white,
-    borderRadius: radius.lg,
-    borderWidth: 1,
+    width: '100%',
+    alignSelf: 'stretch',
+    backgroundColor: palette.surface,
+    borderRadius: 0,
+    borderWidth: 0,
+    borderTopWidth: 1,
+    borderBottomWidth: 1,
     borderColor: palette.border,
-    padding: spacing.lg,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.md,
     gap: spacing.xs,
   },
   heading: {
     textAlign: 'center',
     color: palette.accent,
-    marginBottom: spacing.sm,
+    marginBottom: spacing.xs,
+    fontSize: 18,
   },
   typeRow: {
     flexDirection: 'row',
     gap: spacing.xs,
-    marginBottom: spacing.md,
+    marginBottom: spacing.sm,
   },
   typeCard: {
     flex: 1,
     borderWidth: 1,
     borderColor: palette.border,
     borderRadius: radius.md,
-    paddingVertical: spacing.sm,
+    paddingVertical: spacing.xs,
     paddingHorizontal: spacing.xs,
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: 52,
+    minHeight: 44,
     backgroundColor: palette.background,
   },
   typeCardSelected: {
@@ -324,6 +402,21 @@ const styles = StyleSheet.create({
   },
   typeTitleSelected: {
     color: palette.accent,
+  },
+  countryBlock: {
+    gap: spacing.xs,
+    marginBottom: spacing.sm,
+  },
+  countryHint: {
+    marginBottom: 2,
+  },
+  gpsButton: {
+    alignSelf: 'flex-start',
+    paddingVertical: spacing.xs,
+  },
+  gpsLabel: {
+    color: palette.accent,
+    fontWeight: '700',
   },
   error: {
     textAlign: 'center',

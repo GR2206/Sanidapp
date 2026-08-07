@@ -23,7 +23,20 @@ interface SubscriptionOfferSelection {
 let cachedOffer: SubscriptionOfferSelection | null = null;
 
 export function isAndroidIapSupported(): boolean {
-  return Platform.OS === 'android' && Constants.appOwnership !== 'expo';
+  if (Platform.OS !== 'android') {
+    return false;
+  }
+
+  // Expo Go / store client ship without native Billing Library.
+  if (Constants.appOwnership === 'expo') {
+    return false;
+  }
+
+  if (Constants.executionEnvironment === 'storeClient') {
+    return false;
+  }
+
+  return true;
 }
 
 let connectionReady = false;
@@ -37,26 +50,59 @@ async function loadIapModule() {
 }
 
 function pickSubscriptionOffer(product: Record<string, unknown>): SubscriptionOfferSelection | null {
-  const sku = String(product.id ?? PREMIUM_IAP_PRODUCT_ID);
+  const sku = String(product.id ?? product.productId ?? PREMIUM_IAP_PRODUCT_ID);
 
   const offers = product.subscriptionOffers;
   if (Array.isArray(offers) && offers.length > 0) {
-    const offer = offers[0] as Record<string, unknown>;
-    const offerToken = offer.offerTokenAndroid ?? offer.offerToken;
-    if (typeof offerToken === 'string' && offerToken.length > 0) {
-      return { sku, offerToken };
+    for (const raw of offers) {
+      const offer = raw as Record<string, unknown>;
+      const offerToken =
+        (typeof offer.offerToken === 'string' && offer.offerToken) ||
+        (typeof offer.offerTokenAndroid === 'string' && offer.offerTokenAndroid) ||
+        '';
+      if (offerToken) {
+        return { sku, offerToken };
+      }
     }
   }
 
   const legacyOffers = product.subscriptionOfferDetailsAndroid;
   if (Array.isArray(legacyOffers) && legacyOffers.length > 0) {
-    const offer = legacyOffers[0] as Record<string, unknown>;
-    if (typeof offer.offerToken === 'string' && offer.offerToken.length > 0) {
-      return { sku, offerToken: offer.offerToken };
+    for (const raw of legacyOffers) {
+      const offer = raw as Record<string, unknown>;
+      if (typeof offer.offerToken === 'string' && offer.offerToken.length > 0) {
+        return { sku, offerToken: offer.offerToken };
+      }
     }
   }
 
   return null;
+}
+
+function resolveDisplayPrice(product: Record<string, unknown>): string {
+  if (typeof product.displayPrice === 'string' && product.displayPrice.trim()) {
+    return product.displayPrice;
+  }
+
+  const legacyOffers = product.subscriptionOfferDetailsAndroid;
+  if (Array.isArray(legacyOffers) && legacyOffers.length > 0) {
+    const phases = (legacyOffers[0] as { pricingPhases?: { pricingPhaseList?: Array<{ formattedPrice?: string }> } })
+      .pricingPhases?.pricingPhaseList;
+    const formatted = phases?.find((phase) => phase.formattedPrice)?.formattedPrice;
+    if (formatted) {
+      return formatted;
+    }
+  }
+
+  const offers = product.subscriptionOffers;
+  if (Array.isArray(offers) && offers.length > 0) {
+    const displayPrice = (offers[0] as { displayPrice?: string }).displayPrice;
+    if (typeof displayPrice === 'string' && displayPrice.trim()) {
+      return displayPrice;
+    }
+  }
+
+  return '';
 }
 
 export async function ensureIapConnection(): Promise<void> {
@@ -90,8 +136,8 @@ export async function loadPremiumProduct(): Promise<PremiumProduct | null> {
   cachedOffer = pickSubscriptionOffer(product);
 
   return {
-    title: String(product.title ?? 'Plan PREMIUM'),
-    displayPrice: String(product.displayPrice ?? ''),
+    title: String(product.title ?? product.nameAndroid ?? 'Plan PREMIUM'),
+    displayPrice: resolveDisplayPrice(product),
   };
 }
 
@@ -134,7 +180,18 @@ export async function requestPremiumPurchase(): Promise<PremiumPurchaseResult> {
 
     const errorSubscription = purchaseErrorListener((error) => {
       cleanup();
-      reject(new Error(error.message ?? 'i18n:subscription.errors.iapPurchaseCancelled'));
+      const code = String((error as { code?: string }).code ?? '');
+      const message = String(error.message ?? '');
+      const cancelled =
+        code.includes('UserCancelled') ||
+        code.includes('user-cancelled') ||
+        /cancel/i.test(message);
+
+      reject(
+        cancelled
+          ? i18nError('subscription.errors.iapPurchaseCancelled')
+          : new Error(message || 'i18n:subscription.errors.iapPurchaseFailed'),
+      );
     });
 
     function cleanup() {

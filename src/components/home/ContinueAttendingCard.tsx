@@ -3,8 +3,11 @@ import { StyleSheet, View } from 'react-native';
 
 import { SpringPressable } from '@/components/ui/SpringPressable';
 import { Typography } from '@/components/ui/Typography';
+import { CategoryTypePill } from '@/components/home/CategoryTypePill';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useDashboardTheme } from '@/hooks/useDashboardTheme';
+import { FREE_QUICK_ACCESS_TONES } from '@/theme/freeCategoryPills';
+import { brandSoftFill, freeElevatedCardStyle } from '@/theme/freeCardStyle';
 import { spacing } from '@/theme/spacing';
 import { hapticLight } from '@/utils/haptics';
 import { navigateToContentItem } from '@/utils/contentNavigation';
@@ -15,8 +18,11 @@ interface ContinueAttendingCardProps {
 }
 
 export function ContinueAttendingCard({ item }: ContinueAttendingCardProps) {
-  const { colors } = useDashboardTheme();
+  const { colors, isDark, fonts } = useDashboardTheme();
   const { t } = useLocale();
+  const freeCard = freeElevatedCardStyle(!isDark);
+  const iconBg = freeCard ? brandSoftFill(colors.accent, 0.9) : colors.surfaceMuted;
+  const titleTone = FREE_QUICK_ACCESS_TONES.adulto;
 
   if (!item) {
     return null;
@@ -24,7 +30,9 @@ export function ContinueAttendingCard({ item }: ContinueAttendingCardProps) {
 
   return (
     <View style={styles.section}>
-      <Typography variant="label" style={[styles.title, { color: colors.textSecondary }]}>
+      <Typography
+        variant="label"
+        style={[styles.title, { color: titleTone.label, fontFamily: fonts.semiBold }]}>
         {t('home.continueAttending')}
       </Typography>
       <SpringPressable
@@ -34,23 +42,21 @@ export function ContinueAttendingCard({ item }: ContinueAttendingCardProps) {
         }}
         style={[
           styles.card,
-          {
+          freeCard ?? {
             backgroundColor: colors.surface,
             borderColor: colors.border,
             shadowColor: colors.shadow,
           },
         ]}>
-        <View style={[styles.iconWrap, { backgroundColor: colors.surfaceMuted }]}>
+        <View style={[styles.iconWrap, { backgroundColor: iconBg }]}>
           <MaterialCommunityIcons name="play-circle-outline" size={28} color={colors.accent} />
         </View>
         <View style={styles.text}>
           <Typography variant="bodyMedium" numberOfLines={2} style={{ color: colors.text }}>
             {item.title}
           </Typography>
-          {item.subtitle ? (
-            <Typography variant="caption" numberOfLines={1} style={{ color: colors.textMuted }}>
-              {item.subtitle}
-            </Typography>
+          {item.subtitle || item.type ? (
+            <CategoryTypePill type={item.type} subtitle={item.subtitle} />
           ) : null}
         </View>
         <MaterialCommunityIcons name="chevron-right" size={22} color={colors.textMuted} />

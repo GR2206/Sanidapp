@@ -127,6 +127,7 @@ const styles = StyleSheet.create({
   label: {
     textTransform: 'none',
     letterSpacing: 0.2,
+    fontSize: 12,
   },
   trigger: {
     flexDirection: 'row',
@@ -135,11 +136,12 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: radius.sm,
     paddingHorizontal: spacing.sm,
-    paddingVertical: 5,
-    minHeight: 32,
+    paddingVertical: 4,
+    minHeight: 30,
   },
   triggerText: {
     flex: 1,
+    fontSize: 13,
   },
   backdrop: {
     flex: 1,

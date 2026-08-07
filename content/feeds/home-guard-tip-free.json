@@ -1,0 +1,45 @@
+{
+  "version": "1.1",
+  "updatedAt": "2026-07-29",
+  "tips": [
+    {
+      "id": "vanco-infusion",
+      "label": {
+        "es": "Tip de Guardia",
+        "en": "On-call tip",
+        "pt-BR": "Dica de plantão"
+      },
+      "text": {
+        "es": "Revisá los nuevos rangos de infusión para Vancomicina.",
+        "en": "Review the updated vancomycin infusion ranges.",
+        "pt-BR": "Revise as novas faixas de infusão para Vancomicina."
+      }
+    },
+    {
+      "id": "abc-drip",
+      "label": {
+        "es": "Tip de Guardia",
+        "en": "On-call tip",
+        "pt-BR": "Dica de plantão"
+      },
+      "text": {
+        "es": "Antes de iniciar un goteo, confirmá vía, dilución y tiempo de infusión.",
+        "en": "Before starting a drip, confirm route, dilution, and infusion time.",
+        "pt-BR": "Antes de iniciar um gotejo, confirme via, diluição e tempo de infusão."
+      }
+    },
+    {
+      "id": "allergy-check",
+      "label": {
+        "es": "Tip de Guardia",
+        "en": "On-call tip",
+        "pt-BR": "Dica de plantão"
+      },
+      "text": {
+        "es": "Chequeá alergias documentadas antes de administrar el primer antibiótico.",
+        "en": "Check documented allergies before giving the first antibiotic.",
+        "pt-BR": "Verifique alergias documentadas antes de administrar o primeiro antibiótico."
+      }
+    }
+  ]
+}

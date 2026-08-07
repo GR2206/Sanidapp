@@ -225,13 +225,14 @@ export async function matchStaffRegistration(
   const listIsSupervisor = isSupervisorRango(entry.rango);
   const claimsSupervisor = userClaimsSupervisor(input.profesion);
 
+  // Supervisor solo si el padrón lo marca. Escribir "supervisor" en profesión
+  // no otorga privilegios; si lo reclama y el padrón no lo tiene, se rechaza.
   if (claimsSupervisor && !listIsSupervisor) {
     throw i18nError('auth.errors.staffSupervisorMismatch');
   }
 
   const profesion = input.profesion.trim();
-  const role: Extract<UserRole, 'user' | 'supervisor'> =
-    claimsSupervisor && listIsSupervisor ? 'supervisor' : 'user';
+  const role: Extract<UserRole, 'user' | 'supervisor'> = listIsSupervisor ? 'supervisor' : 'user';
 
   return {
     entry,

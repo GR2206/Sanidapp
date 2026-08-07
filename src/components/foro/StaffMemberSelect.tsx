@@ -4,6 +4,7 @@ import { Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 import { Typography } from '@/components/ui/Typography';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useAppTheme } from '@/hooks/useAppTheme';
 import { formatStaffMemberName } from '@/services/firebase/sanatorioStaffService';
 import type { SanatorioStaffMember } from '@/types/foro';
 import { palette } from '@/theme/colors';
@@ -28,6 +29,7 @@ export function StaffMemberSelect({
   disabled = false,
 }: StaffMemberSelectProps) {
   const { t } = useLocale();
+  const { colors } = useAppTheme();
   const resolvedLabel = label ?? t('foro.direct.staffRequired');
   const resolvedPlaceholder = placeholder ?? t('foro.direct.pickPerson');
   const [open, setOpen] = useState(false);
@@ -65,7 +67,7 @@ export function StaffMemberSelect({
       <Modal visible={open} transparent animationType="fade" onRequestClose={() => setOpen(false)}>
         <Pressable style={styles.backdrop} onPress={() => setOpen(false)}>
           <Pressable style={styles.sheet} onPress={(event) => event.stopPropagation()}>
-            <Typography variant="bodyMedium" style={styles.sheetTitle}>
+            <Typography variant="bodyMedium" style={[styles.sheetTitle, { color: colors.textAccent }]}>
               {resolvedLabel}
             </Typography>
             <ScrollView style={styles.list} keyboardShouldPersistTaps="handled">
@@ -83,7 +85,10 @@ export function StaffMemberSelect({
                     style={[styles.option, isSelected && styles.optionSelected]}>
                     <Typography
                       variant="bodyMedium"
-                      style={[styles.optionText, isSelected && styles.optionTextSelected]}>
+                      style={[
+                        styles.optionText,
+                        isSelected && { color: colors.textAccent },
+                      ]}>
                       {name}
                     </Typography>
                     {item.profesion ? (
@@ -117,7 +122,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: palette.border,
     borderRadius: radius.md,
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.sm,
   },
@@ -139,7 +144,7 @@ const styles = StyleSheet.create({
   },
   sheet: {
     maxHeight: '70%',
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     borderRadius: radius.lg,
     borderWidth: 1,
     borderColor: palette.border,
@@ -147,7 +152,6 @@ const styles = StyleSheet.create({
     gap: spacing.sm,
   },
   sheetTitle: {
-    color: palette.accent,
     textAlign: 'center',
   },
   list: {
@@ -164,8 +168,5 @@ const styles = StyleSheet.create({
   },
   optionText: {
     color: palette.textSecondary,
-  },
-  optionTextSelected: {
-    color: palette.accent,
   },
 });

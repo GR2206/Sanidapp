@@ -1,13 +1,17 @@
-import { ActivityIndicator, StyleSheet, View } from 'react-native';
+import { useCallback, useState } from 'react';
+import { StyleSheet, View } from 'react-native';
 
 import { Button } from '@/components/ui/Button';
 import { Typography } from '@/components/ui/Typography';
-import { PREMIUM_IAP_PRODUCT_ID } from '@/constants/iap';
 import { useAuth } from '@/contexts/AuthContext';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useAppTheme } from '@/hooks/useAppTheme';
 import { usePremiumPurchase } from '@/hooks/usePremiumPurchase';
 import { resolveMessage } from '@/i18n/resolveMessage';
+import {
+  createMercadoPagoCheckoutForUser,
+  openMercadoPagoCheckout,
+} from '@/services/subscription/mercadoPagoService';
 import { spacing } from '@/theme/spacing';
 
 interface PremiumIapPurchaseSectionProps {
@@ -15,30 +19,58 @@ interface PremiumIapPurchaseSectionProps {
 }
 
 export function PremiumIapPurchaseSection({ accentColor }: PremiumIapPurchaseSectionProps) {
-  const { profile } = useAuth();
+  const { profile, refreshProfile } = useAuth();
   const { locale, t } = useLocale();
   const { colors } = useAppTheme();
-  const {
-    iapSupported,
-    product,
-    loadingProduct,
-    purchasing,
-    error,
-    purchasePremium,
-    reloadProduct,
-  } = usePremiumPurchase();
+  const { iapSupported, purchasing, error, purchasePremium } = usePremiumPurchase();
+
+  const [mpLoading, setMpLoading] = useState(false);
+  const [mpError, setMpError] = useState<string | null>(null);
+  const [localError, setLocalError] = useState<string | null>(null);
 
   const resolvedAccent = accentColor ?? colors.button;
-  const resolvedAlt = colors.buttonAlt;
-  const resolvedError = error ? resolveMessage(error, locale) : null;
+  const resolvedError = (error || localError) ? resolveMessage(error || localError || '', locale) : null;
+  const resolvedMpError = mpError ? resolveMessage(mpError, locale) : null;
 
-  async function handlePurchase() {
+  const handleGooglePlay = useCallback(async () => {
+    setLocalError(null);
+    setMpError(null);
+
+    if (!iapSupported) {
+      setLocalError(t('subscription.installFromTestTrack'));
+      return;
+    }
+
     try {
       await purchasePremium();
     } catch {
       // El hook ya guarda el mensaje en `error`.
     }
-  }
+  }, [iapSupported, purchasePremium, t]);
+
+  const handleMercadoPago = useCallback(async () => {
+    if (!profile) {
+      return;
+    }
+
+    setMpError(null);
+    setLocalError(null);
+    setMpLoading(true);
+
+    try {
+      const checkout = await createMercadoPagoCheckoutForUser(profile);
+      await openMercadoPagoCheckout(checkout.checkoutUrl);
+      await refreshProfile();
+    } catch (cause) {
+      const message =
+        cause instanceof Error
+          ? resolveMessage(cause.message, locale)
+          : t('subscription.errors.mpStartFailed');
+      setMpError(message);
+    } finally {
+      setMpLoading(false);
+    }
+  }, [locale, profile, refreshProfile, t]);
 
   if (!profile) {
     return (
@@ -46,77 +78,47 @@ export function PremiumIapPurchaseSection({ accentColor }: PremiumIapPurchaseSec
         <Typography variant="bodyMedium" style={{ color: colors.text }}>
           {t('subscription.loginToBuy')}
         </Typography>
-        <Typography variant="caption" style={{ color: colors.textMuted }}>
-          {t('subscription.createIndividualAccountDetail')}
-        </Typography>
       </View>
     );
   }
 
-  if (!iapSupported) {
-    return (
-      <View style={[styles.card, { backgroundColor: colors.backgroundSoft, borderColor: colors.border }]}>
-        <Typography variant="bodyMedium" style={{ color: colors.text }}>
-          {t('subscription.googlePlayPurchase')}
-        </Typography>
-        <Typography variant="caption" style={{ color: colors.textMuted }}>
-          {t('subscription.installFromTestTrack')}
-        </Typography>
-      </View>
-    );
-  }
-
-  const purchaseLabel = purchasing
-    ? t('subscription.processing')
-    : product?.displayPrice
-      ? t('subscription.buyPremium', { price: product.displayPrice })
-      : t('subscription.buyPremiumShort');
+  const googleLabel = purchasing ? t('subscription.processing') : t('subscription.payGooglePlay');
+  const mpLabel = mpLoading ? t('subscription.processing') : t('subscription.payMercadoPago');
 
   return (
     <View style={styles.container}>
       <Typography variant="bodyMedium" style={{ color: colors.text }}>
-        {t('subscription.googlePlayPlan')}
+        {t('subscription.premiumPayOptions')}
       </Typography>
-      <Typography variant="caption" style={{ color: colors.textMuted }}>
-        {t('subscription.iapCatalogDetail')}
+      <Typography variant="caption" style={{ color: colors.textSecondary }}>
+        {t('subscription.premiumPurchaseDetail')}
       </Typography>
 
-      {loadingProduct ? (
-        <ActivityIndicator color={resolvedAccent} style={styles.loader} />
-      ) : (
-        <>
-          {product ? (
-            <Typography variant="body" style={{ color: colors.textSecondary }}>
-              {product.title} · {product.displayPrice}
-            </Typography>
-          ) : (
-            <Typography variant="caption" style={{ color: colors.textMuted }}>
-              {t('subscription.iapPriceHint', { productId: PREMIUM_IAP_PRODUCT_ID })}
-            </Typography>
-          )}
-
-          <Button
-            label={purchaseLabel}
-            onPress={() => void handlePurchase()}
-            accentColor={resolvedAccent}
-            disabled={loadingProduct || purchasing}
-          />
-
-          {!product ? (
-            <Button
-              label={t('subscription.refreshPrice')}
-              variant="secondary"
-              onPress={() => void reloadProduct()}
-              accentColor={resolvedAlt}
-              disabled={loadingProduct || purchasing}
-            />
-          ) : null}
-        </>
-      )}
+      <View style={styles.purchaseActions}>
+        <Button
+          label={googleLabel}
+          onPress={() => void handleGooglePlay()}
+          accentColor={resolvedAccent}
+          disabled={purchasing || mpLoading}
+          style={styles.purchaseButton}
+        />
+        <Button
+          label={mpLabel}
+          onPress={() => void handleMercadoPago()}
+          accentColor="#009EE3"
+          disabled={purchasing || mpLoading}
+          style={styles.purchaseButton}
+        />
+      </View>
 
       {resolvedError ? (
         <Typography variant="caption" style={styles.errorText}>
           {resolvedError}
+        </Typography>
+      ) : null}
+      {resolvedMpError ? (
+        <Typography variant="caption" style={styles.errorText}>
+          {resolvedMpError}
         </Typography>
       ) : null}
     </View>
@@ -133,8 +135,17 @@ const styles = StyleSheet.create({
     borderWidth: StyleSheet.hairlineWidth,
     padding: spacing.md,
   },
-  loader: {
-    marginVertical: spacing.sm,
+  purchaseActions: {
+    alignItems: 'center',
+    gap: spacing.sm,
+    marginTop: spacing.xs,
+  },
+  purchaseButton: {
+    alignSelf: 'center',
+    width: '70%',
+    minHeight: 36,
+    paddingVertical: 8,
+    paddingHorizontal: 14,
   },
   errorText: {
     color: '#B3261E',

@@ -55,7 +55,7 @@ export async function configureForoNotificationChannel(): Promise<void> {
     description: 'Avisos, eventos y planificaciones de tu sanatorio',
     importance: Notifications.AndroidImportance.MAX,
     vibrationPattern: [0, 250, 250, 250],
-    lightColor: '#1E7E34',
+    lightColor: '#00B4D8',
     sound: 'default',
     enableVibrate: true,
     showBadge: true,
@@ -111,10 +111,6 @@ export async function getExpoPushToken(): Promise<string | null> {
 }
 
 export async function syncForoPushToken(profile: UserProfile): Promise<void> {
-  if (profile.role === 'admin') {
-    return;
-  }
-
   const db = getFirestoreDb();
   if (!db) {
     return;
@@ -125,15 +121,28 @@ export async function syncForoPushToken(profile: UserProfile): Promise<void> {
     return;
   }
 
+  const payload = {
+    uid: profile.uid,
+    role: profile.role,
+    expoPushToken,
+    platform: Platform.OS,
+    updatedAt: serverTimestamp(),
+  };
+
+  // Siempre registrar token global (recordatorios de cursos/congresos).
+  await setDoc(doc(db, ...FIRESTORE_PATHS.globalPushToken(profile.uid)), payload, {
+    merge: true,
+  });
+
+  if (profile.role === 'admin' || !profile.sanatorioId?.trim()) {
+    return;
+  }
+
   await setDoc(
     doc(db, ...FIRESTORE_PATHS.pushToken(profile.sanatorioId, profile.uid)),
     {
-      uid: profile.uid,
+      ...payload,
       sanatorioId: profile.sanatorioId,
-      role: profile.role,
-      expoPushToken,
-      platform: Platform.OS,
-      updatedAt: serverTimestamp(),
     },
     { merge: true },
   );

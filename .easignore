@@ -2,6 +2,7 @@
 google-service-account.json
 *-firebase-adminsdk-*.json
 service-account*.json
+sanidapp-b67d7-*.json
 *.keystore
 credentials.json
 

@@ -69,15 +69,39 @@ export function useForoAccess() {
   const { sanatorio } = useSanatorioTheme();
 
   return useMemo(() => {
-    const sanatorioId = sanatorio?.id ?? profile?.sanatorioId ?? null;
-    const canManageForo =
-      isSupervisor && Boolean(sanatorioId) && profile?.sanatorioId === sanatorioId;
+    const profileSanatorioId = profile?.sanatorioId?.trim() || null;
+    const themeSanatorioId = sanatorio?.id ?? null;
+    // Nunca mezclar datos de otro sanatorio por tema/branding.
+    const sanatorioId =
+      themeSanatorioId && profileSanatorioId && themeSanatorioId === profileSanatorioId
+        ? profileSanatorioId
+        : profileSanatorioId;
+    const canManageForo = isSupervisor && Boolean(sanatorioId);
+    const institutionalPremium =
+      profile?.accessTier === 'premium' &&
+      (profile.premiumSource === 'allowlist' ||
+        profile.premiumSource === 'institution_token' ||
+        profile.role === 'supervisor' ||
+        profile.role === 'admin');
 
     return {
       sanatorioId,
-      sanatorioName: sanatorio?.name ?? profile?.sanatorioName ?? null,
+      sanatorioName:
+        sanatorioId && themeSanatorioId === sanatorioId
+          ? (sanatorio?.name ?? profile?.sanatorioName ?? null)
+          : (profile?.sanatorioName ?? null),
       canManageForo,
-      canViewForo: Boolean(sanatorioId),
+      canViewForo:
+        Boolean(sanatorioId) && Boolean(institutionalPremium || profile?.role === 'admin'),
     };
-  }, [isSupervisor, profile?.sanatorioId, profile?.sanatorioName, sanatorio?.id, sanatorio?.name]);
+  }, [
+    isSupervisor,
+    profile?.accessTier,
+    profile?.premiumSource,
+    profile?.role,
+    profile?.sanatorioId,
+    profile?.sanatorioName,
+    sanatorio?.id,
+    sanatorio?.name,
+  ]);
 }

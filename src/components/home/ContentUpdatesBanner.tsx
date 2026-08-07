@@ -4,6 +4,8 @@ import { StyleSheet, View } from 'react-native';
 import { Typography } from '@/components/ui/Typography';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useDashboardTheme } from '@/hooks/useDashboardTheme';
+import { FREE_QUICK_ACCESS_TONES } from '@/theme/freeCategoryPills';
+import { freeElevatedCardStyle } from '@/theme/freeCardStyle';
 import { spacing } from '@/theme/spacing';
 
 interface ContentUpdatesBannerProps {
@@ -11,8 +13,10 @@ interface ContentUpdatesBannerProps {
 }
 
 export function ContentUpdatesBanner({ total }: ContentUpdatesBannerProps) {
-  const { colors } = useDashboardTheme();
+  const { colors, isDark, fonts } = useDashboardTheme();
   const { t } = useLocale();
+  const tone = FREE_QUICK_ACCESS_TONES.pediatrico;
+  const elevated = freeElevatedCardStyle(!isDark);
 
   if (total <= 0) {
     return null;
@@ -22,13 +26,17 @@ export function ContentUpdatesBanner({ total }: ContentUpdatesBannerProps) {
     <View
       style={[
         styles.banner,
-        {
+        elevated ?? {
           backgroundColor: colors.surface,
           borderColor: colors.borderSubtle,
+          borderWidth: 1,
         },
+        !isDark ? { backgroundColor: tone.gradient[0] } : null,
       ]}>
-      <MaterialCommunityIcons name="update" size={18} color="#E53935" />
-      <Typography variant="caption" style={{ color: colors.text, flex: 1 }}>
+      <MaterialCommunityIcons name="update" size={18} color={tone.icon} />
+      <Typography
+        variant="caption"
+        style={{ color: tone.label, flex: 1, fontFamily: fonts.semiBold }}>
         {t('home.contentUpdates', { count: total })}
       </Typography>
     </View>
@@ -43,7 +51,6 @@ const styles = StyleSheet.create({
     marginHorizontal: spacing.lg,
     paddingHorizontal: spacing.md,
     paddingVertical: spacing.sm,
-    borderRadius: 12,
-    borderWidth: StyleSheet.hairlineWidth,
+    borderRadius: 14,
   },
 });

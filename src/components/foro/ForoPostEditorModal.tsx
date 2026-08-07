@@ -256,7 +256,7 @@ export function ForoPostEditorModal({
               label={t('common.delete')}
               onPress={handleDelete}
               disabled={saving}
-              accentColor={palette.accent}
+              accentColor={colors.button}
               style={styles.deleteButton}
             />
           ) : null}

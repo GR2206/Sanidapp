@@ -1,0 +1,70 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && firestore.exists(/databases/(default)/documents/apps/sanidapp/config/admins)
+        && request.auth.uid in firestore.get(/databases/(default)/documents/apps/sanidapp/config/admins).data.uids;
+    }
+
+    function isSupervisorOf(sanatorioId) {
+      return isSignedIn()
+        && firestore.exists(/databases/(default)/documents/apps/sanidapp/usuarios/$(request.auth.uid))
+        && firestore.get(/databases/(default)/documents/apps/sanidapp/usuarios/$(request.auth.uid)).data.role == 'supervisor'
+        && firestore.get(/databases/(default)/documents/apps/sanidapp/usuarios/$(request.auth.uid)).data.sanatorioId == sanatorioId;
+    }
+
+    function canPublishGlobalFeeds() {
+      return isSignedIn()
+        && firestore.exists(/databases/(default)/documents/apps/sanidapp/usuarios/$(request.auth.uid))
+        && firestore.get(/databases/(default)/documents/apps/sanidapp/usuarios/$(request.auth.uid)).data.canPublishFeeds == true;
+    }
+
+    function isImage() {
+      return request.resource.contentType.matches('image/jpeg')
+        || request.resource.contentType.matches('image/png');
+    }
+
+    match /feeds/global/{kind}/{fileName} {
+      allow read: if isSignedIn();
+      allow write: if (isAdmin() || canPublishGlobalFeeds())
+        && isImage()
+        && request.resource.size < 5 * 1024 * 1024;
+    }
+
+    match /feeds/sanatorios/{sanatorioId}/{kind}/{fileName} {
+      allow read: if isSignedIn();
+      allow write: if (isAdmin() || isSupervisorOf(sanatorioId))
+        && isImage()
+        && request.resource.size < 5 * 1024 * 1024;
+    }
+
+    match /docente/certificates/{uid}/{fileName} {
+      allow read: if isSignedIn() && (request.auth.uid == uid || isAdmin());
+      allow write: if isSignedIn()
+        && request.auth.uid == uid
+        && isImage()
+        && request.resource.size < 5 * 1024 * 1024;
+    }
+
+    match /users/{uid}/{fileName} {
+      allow read: if isSignedIn();
+      allow write: if isSignedIn()
+        && request.auth.uid == uid
+        && isImage()
+        && request.resource.size < 3 * 1024 * 1024;
+    }
+
+    // Grabaciones efímeras de salas (subidas por LiveKit Egress / admin).
+    // El host descarga a su celular; lectura autenticada limitada al path.
+    match /sanidapp/meeting-recordings/{roomId}/{fileName} {
+      allow read: if isSignedIn();
+      allow write: if false;
+    }
+  }
+}

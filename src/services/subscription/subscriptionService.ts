@@ -9,7 +9,8 @@ export function normalizePremiumSource(value: unknown): PremiumSource {
     source === 'institution_token' ||
     source === 'iap' ||
     source === 'mercadopago' ||
-    source === 'admin'
+    source === 'admin' ||
+    source === 'docente'
   ) {
     return source;
   }

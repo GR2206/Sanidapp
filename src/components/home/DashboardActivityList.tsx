@@ -3,7 +3,10 @@ import { StyleSheet, View } from 'react-native';
 
 import { SpringPressable } from '@/components/ui/SpringPressable';
 import { Typography } from '@/components/ui/Typography';
+import { CategoryTypePill } from '@/components/home/CategoryTypePill';
 import { useDashboardTheme } from '@/hooks/useDashboardTheme';
+import { FREE_QUICK_ACCESS_TONES } from '@/theme/freeCategoryPills';
+import { brandSoftFill, freeElevatedCardStyle } from '@/theme/freeCardStyle';
 import { spacing } from '@/theme/spacing';
 import { hapticLight } from '@/utils/haptics';
 import { navigateToContentItem } from '@/utils/contentNavigation';
@@ -40,18 +43,27 @@ export function DashboardActivityList({
   emptyLabel,
   emptyIcon,
 }: DashboardActivityListProps) {
-  const { colors } = useDashboardTheme();
+  const { colors, isDark, fonts } = useDashboardTheme();
+  const freeCard = freeElevatedCardStyle(!isDark);
+  const iconBg = freeCard ? brandSoftFill(colors.accent, 0.9) : colors.surfaceMuted;
+  const titleTone =
+    title.toLowerCase().includes('favor') || title.toLowerCase().includes('favour')
+      ? FREE_QUICK_ACCESS_TONES.farmacologia
+      : FREE_QUICK_ACCESS_TONES.neonatologia;
 
   return (
     <View style={styles.section}>
-      <Typography variant="label" style={[styles.title, { color: colors.textSecondary }]}>
+      <Typography
+        variant="label"
+        style={[styles.title, { color: titleTone.label, fontFamily: fonts.semiBold }]}>
         {title}
       </Typography>
       {items.length === 0 ? (
         <View
           style={[
             styles.empty,
-            { borderColor: colors.border, backgroundColor: colors.surface },
+            freeCard ?? { borderColor: colors.border, backgroundColor: colors.surface },
+            freeCard ? styles.emptyFree : null,
           ]}>
           <MaterialCommunityIcons name={emptyIcon} size={32} color={colors.textMuted} />
           <Typography variant="body" style={{ color: colors.textMuted, textAlign: 'center' }}>
@@ -62,7 +74,9 @@ export function DashboardActivityList({
         <View
           style={[
             styles.list,
-            { backgroundColor: colors.surface, borderColor: colors.border },
+            freeCard
+              ? [freeCard, styles.listFree]
+              : { backgroundColor: colors.surface, borderColor: colors.border },
           ]}>
           {items.map((item, index) => (
             <SpringPressable
@@ -75,10 +89,16 @@ export function DashboardActivityList({
                 styles.row,
                 index < items.length - 1 && {
                   borderBottomWidth: StyleSheet.hairlineWidth,
-                  borderBottomColor: colors.border,
+                  borderBottomColor: freeCard ? 'rgba(0,0,0,0.06)' : colors.border,
                 },
               ]}>
-              <View style={[styles.iconWrap, { backgroundColor: colors.surfaceMuted }]}>
+              <View
+                style={[
+                  styles.iconWrap,
+                  {
+                    backgroundColor: iconBg,
+                  },
+                ]}>
                 <MaterialCommunityIcons
                   name={iconForType(item.type)}
                   size={18}
@@ -89,10 +109,8 @@ export function DashboardActivityList({
                 <Typography variant="bodyMedium" style={{ color: colors.text }}>
                   {item.title}
                 </Typography>
-                {item.subtitle ? (
-                  <Typography variant="caption" style={{ color: colors.textMuted }}>
-                    {item.subtitle}
-                  </Typography>
+                {item.subtitle || item.type ? (
+                  <CategoryTypePill type={item.type} subtitle={item.subtitle} />
                 ) : null}
               </View>
               <MaterialCommunityIcons name="chevron-right" size={20} color={colors.textMuted} />
@@ -121,10 +139,16 @@ const styles = StyleSheet.create({
     borderStyle: 'dashed',
     padding: spacing.xl,
   },
+  emptyFree: {
+    borderStyle: 'solid',
+  },
   list: {
     borderRadius: 16,
-    borderWidth: StyleSheet.hairlineWidth,
+    borderWidth: 1,
     overflow: 'hidden',
+  },
+  listFree: {
+    overflow: 'visible',
   },
   row: {
     flexDirection: 'row',

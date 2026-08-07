@@ -36,13 +36,14 @@ async function callHttpsFunction<TRequest, TResponse>(
 export async function syncAllowlistPremiumForUser(
   profile: UserProfile,
 ): Promise<UserProfile> {
-  if (profile.accessTier === 'premium' || !profile.sanatorioId) {
+  // Nunca pisar admin (lista config/admins o rol ya elevado).
+  if (profile.role === 'admin' || profile.accessTier === 'premium' || !profile.sanatorioId) {
     return profile;
   }
 
   const result = await callHttpsFunction<
     Record<string, never>,
-    { synced: boolean; accessTier: string; premiumSource: string }
+    { synced: boolean; accessTier: string; premiumSource: string; role?: string }
   >(
     'syncAllowlistPremium',
     {},
@@ -53,7 +54,15 @@ export async function syncAllowlistPremiumForUser(
     return profile;
   }
 
-  return mergeSubscriptionIntoProfile(profile, buildAllowlistPremiumGrant());
+  const nextRole =
+    result.role === 'supervisor' || result.role === 'user' || result.role === 'admin'
+      ? result.role
+      : profile.role;
+
+  return {
+    ...mergeSubscriptionIntoProfile(profile, buildAllowlistPremiumGrant()),
+    role: nextRole,
+  };
 }
 
 export async function redeemInstitutionTokenForUser(

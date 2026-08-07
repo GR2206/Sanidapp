@@ -32,6 +32,10 @@ import { HomeActivityRow } from '@/components/home/HomeActivityRow';
 
 import { HomeCategoryCircles } from '@/components/home/HomeCategoryCircles';
 
+import { HomeQuickGoteoWidget } from '@/components/home/HomeQuickGoteoWidget';
+
+import { NursingTipsCarousel } from '@/components/home/NursingTipsCarousel';
+
 import { HomeUniversalSearch } from '@/components/home/HomeUniversalSearch';
 
 import { Typography } from '@/components/ui/Typography';
@@ -149,6 +153,11 @@ export function HomeDashboard() {
                   }}
 
                   style={styles.hero}>
+
+                  <View style={styles.hookStack}>
+                    <NursingTipsCarousel />
+                    <HomeQuickGoteoWidget />
+                  </View>
 
                   <Typography
 
@@ -322,10 +331,9 @@ const styles = StyleSheet.create({
   },
 
   accountScrollContent: {
-    maxWidth: HOME_CONTENT_MAX_WIDTH,
     width: '100%',
-    alignSelf: 'center',
     flexGrow: 1,
+    paddingHorizontal: 0,
   },
 
   hero: {
@@ -336,6 +344,10 @@ const styles = StyleSheet.create({
 
     gap: spacing.sm,
 
+  },
+
+  hookStack: {
+    gap: spacing.sm,
   },
 
   greeting: {

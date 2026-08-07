@@ -1,22 +1,29 @@
 import { Image } from 'expo-image';
-import { type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
 import { ImageBackground, StyleSheet, useWindowDimensions, View } from 'react-native';
 
 import { useDashboardTheme } from '@/hooks/useDashboardTheme';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useSanatorioTheme } from '@/contexts/SanatorioThemeContext';
+import { loadFreeHomeBackgroundImageUrl } from '@/services/content/homeBackgroundService';
 
-const homeBackground = require('../../../assets/images/home-background.png');
+const localHomeBackground = require('../../../assets/images/home-background.png');
 
 interface DashboardBackgroundProps {
   children: ReactNode;
 }
 
+/**
+ * Home free: imagen (gist remoto o asset local).
+ * Home sanatorio: sin tocar — fondo/marca del establecimiento.
+ */
 export function DashboardBackground({ children }: DashboardBackgroundProps) {
   const { width, height } = useWindowDimensions();
   const { colors, hasBranding, logoSource } = useDashboardTheme();
   const { theme } = useSanatorioTheme();
   const { t } = useLocale();
+  const [remoteImageUrl, setRemoteImageUrl] = useState<string | null>(null);
+
   const watermarkSize = Math.round(Math.min(width, height) * 0.7);
   const watermarkCoverScale = theme.dashboardWatermarkCoverScale;
   const watermarkCircle = theme.dashboardWatermarkCircle;
@@ -28,61 +35,81 @@ export function DashboardBackground({ children }: DashboardBackgroundProps) {
       ? '#FFFFFF'
       : undefined;
 
-  if (!hasBranding) {
+  useEffect(() => {
+    if (hasBranding) {
+      return;
+    }
+
+    let active = true;
+    void loadFreeHomeBackgroundImageUrl().then((url) => {
+      if (active) {
+        setRemoteImageUrl(url);
+      }
+    });
+
+    return () => {
+      active = false;
+    };
+  }, [hasBranding]);
+
+  // Sanatorios: comportamiento original (no usar gist free).
+  if (hasBranding) {
     return (
-      <ImageBackground
-        source={homeBackground}
-        style={styles.fill}
-        imageStyle={styles.backgroundImage}
-        resizeMode="cover">
-        <View
-          pointerEvents="none"
-          style={[styles.overlay, { backgroundColor: colors.imageOverlay }]}
-        />
+      <View style={[styles.fill, { backgroundColor: colors.pageBackground }]}>
+        <View pointerEvents="none" style={[styles.overlay, { backgroundColor: colors.imageOverlay }]} />
+        {logoSource ? (
+          <View pointerEvents="none" style={styles.watermarkWrap}>
+            <View
+              style={[
+                styles.watermarkFrame,
+                {
+                  width: watermarkSize,
+                  height: watermarkSize,
+                  borderRadius: watermarkCircle ? watermarkSize / 2 : 0,
+                  opacity: colors.watermarkOpacity,
+                  backgroundColor: watermarkFrameBackground,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                },
+              ]}>
+              <Image
+                source={logoSource}
+                style={
+                  watermarkUsesScaledCover
+                    ? [
+                        styles.watermarkImage,
+                        { transform: [{ scale: watermarkCoverScale }] },
+                      ]
+                    : {
+                        width: `${Math.round(watermarkLogoInset * 100)}%`,
+                        height: `${Math.round(watermarkLogoInset * 100)}%`,
+                      }
+                }
+                contentFit={watermarkUsesScaledCover ? 'cover' : 'contain'}
+                accessibilityLabel={t('drawer.sanatoriumWatermark')}
+              />
+            </View>
+          </View>
+        ) : null}
         {children}
-      </ImageBackground>
+      </View>
     );
   }
 
+  const freeSource = remoteImageUrl ? { uri: remoteImageUrl } : localHomeBackground;
+
   return (
-    <View style={[styles.fill, { backgroundColor: colors.pageBackground }]}>
-      <View pointerEvents="none" style={[styles.overlay, { backgroundColor: colors.imageOverlay }]} />
-      {logoSource ? (
-        <View pointerEvents="none" style={styles.watermarkWrap}>
-          <View
-            style={[
-              styles.watermarkFrame,
-              {
-                width: watermarkSize,
-                height: watermarkSize,
-                borderRadius: watermarkCircle ? watermarkSize / 2 : 0,
-                opacity: colors.watermarkOpacity,
-                backgroundColor: watermarkFrameBackground,
-                alignItems: 'center',
-                justifyContent: 'center',
-              },
-            ]}>
-            <Image
-              source={logoSource}
-              style={
-                watermarkUsesScaledCover
-                  ? [
-                      styles.watermarkImage,
-                      { transform: [{ scale: watermarkCoverScale }] },
-                    ]
-                  : {
-                      width: `${Math.round(watermarkLogoInset * 100)}%`,
-                      height: `${Math.round(watermarkLogoInset * 100)}%`,
-                    }
-              }
-              contentFit={watermarkUsesScaledCover ? 'cover' : 'contain'}
-              accessibilityLabel={t('drawer.sanatoriumWatermark')}
-            />
-          </View>
-        </View>
-      ) : null}
+    <ImageBackground
+      source={freeSource}
+      style={styles.fill}
+      imageStyle={styles.backgroundImage}
+      resizeMode="cover">
+      <View
+        pointerEvents="none"
+        style={[styles.overlay, { backgroundColor: colors.imageOverlay }]}
+      />
       {children}
-    </View>
+    </ImageBackground>
   );
 }
 

@@ -26,6 +26,7 @@ const payload = {
       {
         ...item,
         region: catalog.region,
+        regionLabel: catalog.regionLabel ?? catalog.region,
         updatedAt: new Date().toISOString(),
       },
     ]),

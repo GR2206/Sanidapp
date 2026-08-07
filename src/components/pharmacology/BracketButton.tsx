@@ -5,7 +5,7 @@ import { useAppTheme } from '@/hooks/useAppTheme';
 import { palette } from '@/theme/colors';
 import { radius, spacing } from '@/theme/spacing';
 import { hapticLight } from '@/utils/haptics';
-import { hexToRgba } from '@/utils/color';
+import { contrastingInk, hexLuminance, hexToRgba } from '@/utils/color';
 
 interface BracketButtonProps {
   label: string;
@@ -13,6 +13,14 @@ interface BracketButtonProps {
   compact?: boolean;
   fill?: boolean;
   onPress?: () => void;
+}
+
+/** En dark, evita rellenos claros (p. ej. accent #9EC5F0) con texto blanco. */
+function resolveBracketFill(base: string, isDashboardDark: boolean): string {
+  if (!isDashboardDark) {
+    return base;
+  }
+  return hexLuminance(base) > 0.52 ? palette.accent : base;
 }
 
 /** Botón estándar azul para monografías (mismo estilo que la app, sin corchetes). */
@@ -23,19 +31,21 @@ export function BracketButton({
   fill = false,
   onPress,
 }: BracketButtonProps) {
-  const { colors, hasBranding } = useAppTheme();
+  const { colors, hasBranding, isDashboardDark } = useAppTheme();
   const interactive = Boolean(onPress);
 
+  const solid = resolveBracketFill(colors.button, isDashboardDark);
   const fillColor = selected
-    ? colors.button
+    ? solid
     : hasBranding
-      ? hexToRgba(colors.button, 0.52)
-      : colors.buttonMuted;
+      ? hexToRgba(solid, 0.52)
+      : hexToRgba(solid, 0.55);
   const borderColor = selected
-    ? colors.button
+    ? solid
     : hasBranding
-      ? hexToRgba(colors.button, 0.68)
-      : colors.buttonMuted;
+      ? hexToRgba(solid, 0.68)
+      : hexToRgba(solid, 0.55);
+  const labelColor = contrastingInk(fillColor);
 
   return (
     <Pressable
@@ -60,7 +70,7 @@ export function BracketButton({
       ]}>
       <Typography
         variant={compact ? 'caption' : 'bodyMedium'}
-        color={palette.white}
+        color={labelColor}
         numberOfLines={1}
         adjustsFontSizeToFit={compact}
         minimumFontScale={0.8}

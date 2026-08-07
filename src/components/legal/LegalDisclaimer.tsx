@@ -9,13 +9,13 @@ import { radius, spacing } from '@/theme/spacing';
 import { hapticLight } from '@/utils/haptics';
 
 /** Aviso legal completo, desplegable desde Ajustes. */
-export function LegalDisclaimer() {
+export function LegalDisclaimer({ embedded = false }: { embedded?: boolean }) {
   const { t } = useLocale();
   const { colors } = useAppTheme();
   const [open, setOpen] = useState(false);
 
   return (
-    <View style={[styles.wrap, { borderBottomColor: colors.border }]}>
+    <View style={[styles.wrap, !embedded && { borderBottomColor: colors.border, borderBottomWidth: 1 }]}>
       <Pressable
         accessibilityRole="button"
         accessibilityState={{ expanded: open }}
@@ -23,7 +23,7 @@ export function LegalDisclaimer() {
           hapticLight();
           setOpen((value) => !value);
         }}
-        style={styles.trigger}>
+        style={[styles.trigger, embedded && styles.triggerEmbedded]}>
         <MaterialCommunityIcons name="scale-balance" size={22} color={colors.button} />
         <View style={styles.triggerText}>
           <Typography variant="bodyMedium" style={{ color: colors.text }}>
@@ -44,6 +44,7 @@ export function LegalDisclaimer() {
         <View
           style={[
             styles.card,
+            embedded && styles.cardEmbedded,
             { backgroundColor: colors.backgroundSoft, borderColor: colors.borderStrong },
           ]}>
           <Typography variant="label" style={[styles.title, { color: colors.textSecondary }]}>
@@ -71,7 +72,6 @@ export function LegalDisclaimer() {
 
 const styles = StyleSheet.create({
   wrap: {
-    borderBottomWidth: 1,
     paddingBottom: spacing.sm,
     marginBottom: spacing.xs,
   },
@@ -80,6 +80,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: spacing.sm,
     paddingVertical: spacing.md,
+  },
+  triggerEmbedded: {
+    paddingHorizontal: spacing.md,
+    paddingBottom: spacing.md,
   },
   triggerText: {
     flex: 1,
@@ -93,6 +97,10 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.md,
     gap: spacing.sm,
     marginBottom: spacing.sm,
+  },
+  cardEmbedded: {
+    marginHorizontal: spacing.md,
+    marginBottom: spacing.md,
   },
   title: {
     letterSpacing: 0.6,

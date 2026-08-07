@@ -2,6 +2,23 @@
   "firestore": {
     "rules": "firestore.rules"
   },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "hosting": {
+    "public": "hosting/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "/auth/action",
+        "destination": "/auth/action/index.html"
+      }
+    ]
+  },
   "functions": [
     {
       "source": "functions",

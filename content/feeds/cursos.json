@@ -1,7 +1,20 @@
 {
-  "version": "1.0",
-  "updatedAt": "2026-06-25",
+  "version": "1.1",
+  "updatedAt": "2026-07-29",
   "title": "Cursos",
-  "intro": "Cursos y capacitaciones dictados por universidades e instituciones. El contenido se actualiza desde Gist sin necesidad de actualizar la app.",
-  "items": []
+  "intro": "",
+  "items": [
+    {
+      "id": "curso-ejemplo-1",
+      "title": "Actualización en soporte vital",
+      "caption": "Curso teórico-práctico",
+      "subtitle": "Dra. Ejemplo — Universidad / institución",
+      "date": "2026-08-15",
+      "location": "Online",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800",
+      "url": "https://example.com/disertante",
+      "linkLabel": "Ver página del disertante",
+      "body": "Breve descripción del curso. Reemplazá este ítem por tus cursos reales en el Gist."
+    }
+  ]
 }

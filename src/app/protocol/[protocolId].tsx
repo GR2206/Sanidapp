@@ -27,11 +27,11 @@ import { useRecordContentView } from '@/hooks/useRecordContentView';
 
 import { loadProtocol } from '@/services/content/manifestService';
 
+import { FREE_QUICK_ACCESS_TONES } from '@/theme/freeCategoryPills';
+
 import type { Protocol } from '@/types/protocol';
 
 import { protocolCategoryLabel, protocolSubtitle } from '@/utils/protocolLabels';
-
-import { palette } from '@/theme/colors';
 
 import { spacing } from '@/theme/spacing';
 
@@ -45,7 +45,7 @@ export default function ProtocolScreen() {
 
   const { contentPaddingBottom } = useScreenInsets();
 
-  const { colors } = useAppTheme();
+  const { colors, fonts } = useAppTheme();
 
   const { locale, t } = useLocale();
 
@@ -141,7 +141,7 @@ export default function ProtocolScreen() {
 
       <ScreenContainer centered>
 
-        <ActivityIndicator color={palette.accent} />
+        <ActivityIndicator color={colors.button} />
 
       </ScreenContainer>
 
@@ -187,20 +187,33 @@ export default function ProtocolScreen() {
 
 
 
+  const categoryTone =
+    protocol?.category === 'pediatrico'
+      ? FREE_QUICK_ACCESS_TONES.pediatrico
+      : protocol?.category === 'neonatologia'
+        ? FREE_QUICK_ACCESS_TONES.neonatologia
+        : FREE_QUICK_ACCESS_TONES.adulto;
+
   return (
 
     <ScreenContainer safe edges={['left', 'right']} style={styles.root}>
 
-      <View style={styles.summary}>
-
-        <Typography variant="label">{t('protocol.executiveSummary')}</Typography>
-
-        <Typography variant="body" style={styles.summaryText}>
-
-          {protocol.executiveSummary}
-
+      <View
+        style={[
+          styles.summary,
+          {
+            backgroundColor: colors.backgroundSoft,
+            borderBottomColor: colors.border,
+          },
+        ]}>
+        <Typography
+          variant="label"
+          style={{ color: categoryTone.label, fontFamily: fonts.semiBold, letterSpacing: 0.5 }}>
+          {t('protocol.executiveSummary')}
         </Typography>
-
+        <Typography variant="body" color={colors.textSecondary}>
+          {protocol.executiveSummary}
+        </Typography>
       </View>
 
 
@@ -211,7 +224,12 @@ export default function ProtocolScreen() {
 
         showsVerticalScrollIndicator={false}>
 
-        <Typography variant="section" style={styles.sectionTitle}>
+        <Typography
+          variant="section"
+          style={[
+            styles.sectionTitle,
+            { color: categoryTone.label, fontFamily: fonts.semiBold, letterSpacing: 0.5 },
+          ]}>
 
           {t('protocol.fullProtocol')}
 
@@ -221,9 +239,13 @@ export default function ProtocolScreen() {
 
 
 
-        <View style={styles.bibliography}>
+        <View style={[styles.bibliography, { borderTopColor: colors.border }]}>
 
-          <Typography variant="label">{t('protocol.bibliography')}</Typography>
+          <Typography
+            variant="label"
+            style={{ color: FREE_QUICK_ACCESS_TONES.farmacologia.label, fontFamily: fonts.semiBold }}>
+            {t('protocol.bibliography')}
+          </Typography>
 
           {protocol.bibliography.map((entry, index) => (
 
@@ -260,25 +282,10 @@ const styles = StyleSheet.create({
   },
 
   summary: {
-
-    backgroundColor: palette.white,
-
     borderBottomWidth: 1,
-
-    borderBottomColor: palette.border,
-
     paddingHorizontal: spacing.lg,
-
     paddingVertical: spacing.lg,
-
     gap: spacing.sm,
-
-  },
-
-  summaryText: {
-
-    color: palette.textSecondary,
-
   },
 
   scrollContent: {
@@ -304,8 +311,6 @@ const styles = StyleSheet.create({
     paddingTop: spacing.lg,
 
     borderTopWidth: 1,
-
-    borderTopColor: palette.border,
 
     gap: spacing.sm,
 

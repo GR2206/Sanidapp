@@ -16,6 +16,8 @@ interface LogoMarkProps {
   embedded?: boolean;
   /** Marca de agua: círculo blanco amplio, sin borde ni sombra. */
   watermark?: boolean;
+  /** Encabezado sobre gradiente oscuro. */
+  onDark?: boolean;
 }
 
 export function LogoMark({
@@ -25,9 +27,12 @@ export function LogoMark({
   accentColor = palette.accent,
   embedded = false,
   watermark = false,
+  /** Sobre gradiente oscuro: círculo translúcido + ícono/título claros. */
+  onDark = false,
 }: LogoMarkProps) {
   const circleSize = size;
   const iconSize = size * (watermark ? 0.5 : 0.44);
+  const resolvedAccent = onDark ? '#FFFFFF' : accentColor;
 
   return (
     <View style={[styles.wrapper, embedded && styles.wrapperEmbedded, watermark && styles.wrapperWatermark]}>
@@ -36,18 +41,23 @@ export function LogoMark({
           styles.circle,
           embedded && !watermark && styles.circleEmbedded,
           watermark && styles.circleWatermark,
+          onDark && styles.circleOnDark,
           {
             width: circleSize,
             height: circleSize,
             borderRadius: circleSize / 2,
           },
         ]}>
-        <MaterialCommunityIcons name="stethoscope" size={iconSize} color={accentColor} />
+        <MaterialCommunityIcons name="stethoscope" size={iconSize} color={resolvedAccent} />
       </View>
       {showTitle ? (
         <Typography
           variant={watermark ? 'bodyMedium' : 'subtitle'}
-          style={[styles.title, watermark && styles.titleWatermark]}>
+          style={[
+            styles.title,
+            watermark && styles.titleWatermark,
+            onDark && styles.titleOnDark,
+          ]}>
           {title}
         </Typography>
       ) : null}
@@ -70,7 +80,7 @@ const styles = StyleSheet.create({
     gap: spacing.sm,
   },
   circle: {
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     borderWidth: 1,
     borderColor: palette.border,
     alignItems: 'center',
@@ -88,17 +98,32 @@ const styles = StyleSheet.create({
     elevation: 1,
   },
   circleWatermark: {
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     borderWidth: 0,
     shadowOpacity: 0,
     shadowRadius: 0,
     elevation: 0,
     overflow: 'hidden',
   },
+  circleOnDark: {
+    backgroundColor: 'rgba(255,255,255,0.16)',
+    borderWidth: 1,
+    borderColor: 'rgba(255,255,255,0.45)',
+    shadowColor: '#FFFFFF',
+    shadowOpacity: 0.35,
+    shadowRadius: 18,
+    shadowOffset: { width: 0, height: 4 },
+    elevation: 4,
+  },
   title: {
     letterSpacing: 0.3,
   },
   titleWatermark: {
     color: palette.textSecondary,
+  },
+  titleOnDark: {
+    color: '#FFFFFF',
+    letterSpacing: 0.6,
+    fontWeight: '700',
   },
 });

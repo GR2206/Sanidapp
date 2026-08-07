@@ -26,10 +26,10 @@ export const dashboardLightColors: DashboardColors = {
   text: palette.text,
   textSecondary: palette.textSecondary,
   textMuted: palette.textMuted,
-  surface: 'rgba(255, 255, 255, 0.92)',
+  surface: palette.surface,
   surfaceMuted: palette.backgroundSoft,
   border: palette.border,
-  borderSubtle: 'rgba(44, 74, 110, 0.14)',
+  borderSubtle: 'rgba(26, 26, 26, 0.55)',
   overlay: 'rgba(255, 255, 255, 0.08)',
   imageOverlay: 'rgba(255, 255, 255, 0.12)',
   shadow: palette.accent,
@@ -38,14 +38,14 @@ export const dashboardLightColors: DashboardColors = {
 };
 
 export const dashboardDarkColors: DashboardColors = {
-  accent: '#9EC5F0',
+  accent: '#67E8F9',
   text: '#F0F4F8',
   textSecondary: '#C2CED9',
   textMuted: '#8A97A8',
-  surface: 'rgba(22, 30, 42, 0.88)',
-  surfaceMuted: 'rgba(30, 40, 54, 0.9)',
-  border: 'rgba(255, 255, 255, 0.14)',
-  borderSubtle: 'rgba(158, 197, 240, 0.2)',
+  surface: '#161E2A',
+  surfaceMuted: '#121820',
+  border: 'rgba(255, 255, 255, 0.22)',
+  borderSubtle: 'rgba(103, 232, 249, 0.32)',
   overlay: 'rgba(8, 12, 20, 0.62)',
   imageOverlay: 'rgba(8, 12, 20, 0.58)',
   shadow: '#000000',
@@ -71,8 +71,6 @@ function resolveDarkBrandAccent(theme: SanatorioTheme): string {
 }
 
 export function getBrandedDashboardColors(theme: SanatorioTheme, isDark: boolean): DashboardColors {
-  const chrome = theme.neutralChrome ? theme.accent : theme.primary;
-
   if (isDark) {
     const accent = resolveDarkBrandAccent(theme);
     return {
@@ -80,10 +78,10 @@ export function getBrandedDashboardColors(theme: SanatorioTheme, isDark: boolean
       text: '#F0F4F8',
       textSecondary: hexToRgba(theme.secondary, 0.92),
       textMuted: '#9AA8B8',
-      surface: theme.neutralChrome ? 'rgba(18, 24, 32, 0.9)' : 'rgba(18, 24, 32, 0.9)',
-      surfaceMuted: theme.neutralChrome ? 'rgba(255, 255, 255, 0.06)' : hexToRgba(theme.primary, 0.14),
-      border: hexToRgba(accent, 0.28),
-      borderSubtle: hexToRgba(accent, 0.18),
+      surface: '#161E2A',
+      surfaceMuted: '#121820',
+      border: 'rgba(255, 255, 255, 0.22)',
+      borderSubtle: hexToRgba(accent, 0.28),
       overlay: hexToRgba('#000000', 0.45),
       imageOverlay: theme.neutralChrome ? 'transparent' : hexToRgba(theme.primary, 0.18),
       shadow: '#000000',
@@ -97,10 +95,10 @@ export function getBrandedDashboardColors(theme: SanatorioTheme, isDark: boolean
     text: theme.accent,
     textSecondary: hexToRgba(theme.accent, 0.78),
     textMuted: hexToRgba(theme.accent, 0.58),
-    surface: theme.neutralChrome ? 'rgba(255, 255, 255, 0.96)' : 'rgba(255, 255, 255, 0.9)',
-    surfaceMuted: theme.neutralChrome ? '#FFFFFF' : theme.secondary,
-    border: hexToRgba(chrome, theme.neutralChrome ? 0.12 : 0.16),
-    borderSubtle: hexToRgba(chrome, theme.neutralChrome ? 0.1 : 0.2),
+    surface: palette.surface,
+    surfaceMuted: palette.backgroundSoft,
+    border: palette.border,
+    borderSubtle: 'rgba(26, 26, 26, 0.55)',
     overlay: theme.neutralChrome ? 'transparent' : hexToRgba(theme.primary, 0.05),
     imageOverlay: theme.neutralChrome ? 'transparent' : hexToRgba(theme.primary, 0.06),
     shadow: theme.neutralChrome ? theme.accent : theme.primary,

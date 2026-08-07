@@ -125,3 +125,45 @@ export function formatClinicalNumber(value: number, fractionDigits = 2): string 
 export function formatEttSize(size: number): string {
   return Number.isInteger(size) ? String(size) : size.toFixed(1).replace('.', ',');
 }
+
+/** Factor de goteo macrogotero (adulto). */
+export const DRIP_FACTOR_ADULT = 20;
+
+/** Factor de goteo microgotero (pediátrico). */
+export const DRIP_FACTOR_PEDIATRIC = 60;
+
+/** Parseo genérico de número clínico positivo (volumen, minutos, etc.). */
+export function parsePositiveNumber(value: string): number | null {
+  const normalized = value.trim().replace(',', '.');
+  if (!normalized) return null;
+
+  const parsed = Number.parseFloat(normalized);
+  if (!Number.isFinite(parsed) || parsed <= 0) return null;
+
+  return parsed;
+}
+
+/**
+ * Regla de 3 simple: si A → B, entonces C → X
+ * X = (B × C) / A
+ */
+export function calculateRuleOfThree(a: number, b: number, c: number): number | null {
+  if (![a, b, c].every((n) => Number.isFinite(n))) return null;
+  if (a === 0) return null;
+  return (b * c) / a;
+}
+
+/**
+ * Velocidad de goteo en gotas/min:
+ * (volumen_ml × factor_goteo) / minutos
+ */
+export function calculateDripRateGttPerMin(
+  volumeMl: number,
+  minutes: number,
+  dripFactor: number,
+): number | null {
+  if (!(volumeMl > 0) || !(minutes > 0) || !(dripFactor > 0)) {
+    return null;
+  }
+  return (volumeMl * dripFactor) / minutes;
+}

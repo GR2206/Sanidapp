@@ -1,5 +1,55 @@
 const { createVerifyPlayPurchaseHandler } = require('./playBilling');
-const { findStaffMatch, loadStaffAllowlist } = require('./staffAllowlist');
+const {
+  createMercadoPagoCheckoutHandler,
+  createMercadoPagoWebhookHandler,
+  mpFetch,
+  MP_SECRET_OPTS,
+} = require('./mercadoPago');
+const { createFeedInscriptionCheckoutHandler } = require('./feedInscriptionMp');
+const { createConfirmExternalFeedInscriptionHandler } = require('./feedInscriptionExternal');
+const { recordFeedInscriptionFromStripeSession } = require('./feedInscriptionStripe');
+const {
+  createStripeConnectOnboardingHandler,
+  createGetStripeConnectStatusHandler,
+  createStripeWebhookHandler,
+} = require('./stripeConnect');
+const {
+  createListFeedPayoutsHandler,
+  createSettleFeedPayoutHandler,
+} = require('./feedPayout');
+const {
+  createCreateMeetingRoomHandler,
+  createJoinMeetingRoomHandler,
+  createLeaveMeetingRoomHandler,
+  createEndMeetingRoomHandler,
+  createStartMeetingRecordingHandler,
+  createStopMeetingRecordingHandler,
+} = require('./meetingRooms');
+const {
+  createEnsureMyPublicIdHandler,
+  createLookupUserByPublicIdHandler,
+  createSendMeetingInviteHandler,
+  createDismissMeetingInviteHandler,
+} = require('./publicUserIds');
+const { createListFeedInscriptionsHandler } = require('./feedInscriptionRoster');
+const { createFeedReminderScheduleHandler } = require('./feedReminders');
+const {
+  createNotifyGlobalFeedPublishedHandler,
+  createNotifySanatorioFeedPublishedHandler,
+} = require('./feedPublishPush');
+const {
+  createSubmitDocenteApplicationHandler,
+  createListDocenteApplicationsHandler,
+  createGetMyDocenteApplicationHandler,
+  createReviewDocenteApplicationHandler,
+  createNotifyAdminsOnDocenteApplicationHandler,
+} = require('./docenteApplications');
+const {
+  createIncrementUserStatsHandler,
+  createDecrementUserStatsHandler,
+  createSyncPublicAppStatsHandler,
+} = require('./publicAppStats');
+const { findStaffMatch, loadStaffAllowlist, normalizePersonText } = require('./staffAllowlist');
 const bundledStaffConfig = require('./staff-allowlist-config.json');
 const { onDocumentCreated } = require('firebase-functions/v2/firestore');
 const { onCall, HttpsError } = require('firebase-functions/v2/https');
@@ -12,6 +62,22 @@ if (getApps().length === 0) {
 
 function getDb() {
   return getFirestore();
+}
+
+async function isConfiguredAdmin(db, uid, role) {
+  if (role === 'admin') {
+    return true;
+  }
+  try {
+    const snap = await db.doc('apps/sanidapp/config/admins').get();
+    if (!snap.exists) {
+      return false;
+    }
+    const uids = snap.data()?.uids;
+    return Array.isArray(uids) && uids.includes(uid);
+  } catch {
+    return false;
+  }
 }
 
 const STAFF_CONFIG_URL =
@@ -107,6 +173,30 @@ exports.redeemInstitutionToken = onCall(async (request) => {
     );
   }
 
+  // El código institucional solo vale si la persona figura en el padrón de ESE sanatorio.
+  let staffMatch;
+  try {
+    const staff = await loadStaffAllowlist(config, sanatorioId);
+    staffMatch = findStaffMatch(
+      staff,
+      String(userData.nombre ?? ''),
+      String(userData.apellido ?? ''),
+    );
+  } catch (error) {
+    console.warn('No se pudo verificar padrón al canjear token:', error);
+    throw new HttpsError(
+      'failed-precondition',
+      'No pudimos verificar el padrón del sanatorio. Contactá a tu institución.',
+    );
+  }
+
+  if (!staffMatch) {
+    throw new HttpsError(
+      'permission-denied',
+      'El código es válido, pero no figurás en el padrón de este sanatorio. Pedile a RRHH que te agregue al listado.',
+    );
+  }
+
   const payload = {
     accessTier: 'premium',
     institutionToken: token,
@@ -124,6 +214,14 @@ exports.redeemInstitutionToken = onCall(async (request) => {
       sanatorioData.name || sanatorioData.shortName || linkedSanatorioName || sanatorioId;
     payload.sanatorioId = sanatorioId;
     payload.sanatorioName = linkedSanatorioName;
+  }
+
+  // Rol supervisor solo si el padrón del sanatorio lo marca (nunca por profesión libre).
+  // No tocar admin (perfil o lista config/admins).
+  const rango = normalizePersonText(staffMatch?.rango);
+  const keepAdmin = await isConfiguredAdmin(db, uid, userData.role);
+  if (!keepAdmin) {
+    payload.role = rango.includes('supervisor') ? 'supervisor' : 'user';
   }
 
   await userRef.set(payload, { merge: true });
@@ -188,6 +286,23 @@ exports.syncAllowlistPremium = onCall(async (request) => {
   const nombre = String(userData.nombre ?? '').trim();
   const apellido = String(userData.apellido ?? '').trim();
 
+  if (await isConfiguredAdmin(db, uid, userData.role)) {
+    if (userData.role !== 'admin' || userData.accessTier !== 'premium') {
+      await applyPremiumPayload(db, uid, sanatorioId || null, {
+        role: 'admin',
+        accessTier: 'premium',
+        premiumSource: userData.premiumSource || 'admin',
+        updatedAt: FieldValue.serverTimestamp(),
+      });
+    }
+    return {
+      synced: false,
+      accessTier: 'premium',
+      premiumSource: userData.premiumSource || 'admin',
+      role: 'admin',
+    };
+  }
+
   if (!sanatorioId || !nombre || !apellido) {
     return {
       synced: false,
@@ -215,10 +330,41 @@ exports.syncAllowlistPremium = onCall(async (request) => {
 
   const match = findStaffMatch(staff, nombre, apellido);
   if (!match) {
+    // Sin fila en padrón: no premium institucional y no supervisor.
+    if (userData.role === 'supervisor') {
+      await applyPremiumPayload(db, uid, sanatorioId, {
+        role: 'user',
+        updatedAt: FieldValue.serverTimestamp(),
+      });
+    }
+
     return {
       synced: false,
-      accessTier: 'free',
-      premiumSource: '',
+      accessTier: userData.accessTier === 'premium' ? 'premium' : 'free',
+      premiumSource: userData.premiumSource ?? '',
+      role: userData.role === 'supervisor' ? 'user' : userData.role ?? 'user',
+    };
+  }
+
+  const isSupervisor = normalizePersonText(match.rango).includes('supervisor');
+  const rolePayload =
+    userData.role === 'admin'
+      ? {}
+      : { role: isSupervisor ? 'supervisor' : 'user' };
+
+  if (userData.accessTier === 'premium') {
+    if (rolePayload.role && rolePayload.role !== userData.role) {
+      await applyPremiumPayload(db, uid, sanatorioId, {
+        ...rolePayload,
+        updatedAt: FieldValue.serverTimestamp(),
+      });
+    }
+
+    return {
+      synced: false,
+      accessTier: 'premium',
+      premiumSource: userData.premiumSource ?? '',
+      role: rolePayload.role ?? userData.role ?? 'user',
     };
   }
 
@@ -228,6 +374,7 @@ exports.syncAllowlistPremium = onCall(async (request) => {
     premiumSource: 'allowlist',
     premiumGrantedAt: new Date().toISOString(),
     updatedAt: FieldValue.serverTimestamp(),
+    ...rolePayload,
   };
 
   await applyPremiumPayload(db, uid, sanatorioId, payload);
@@ -236,10 +383,52 @@ exports.syncAllowlistPremium = onCall(async (request) => {
     synced: true,
     accessTier: 'premium',
     premiumSource: 'allowlist',
+    role: rolePayload.role ?? userData.role ?? 'user',
   };
 });
 
 exports.verifyPlayPurchase = createVerifyPlayPurchaseHandler(getDb);
+exports.createMercadoPagoCheckout = createMercadoPagoCheckoutHandler(getDb);
+/** Checkout cursos: MP (ARS) + Stripe Connect (EUR/USD). */
+const FEED_CHECKOUT_SECRET_OPTS = {
+  secrets: [
+    'MERCADO_PAGO_ACCESS_TOKEN_TEST',
+    'MERCADO_PAGO_ACCESS_TOKEN_LIVE',
+    'STRIPE_SECRET_KEY',
+  ],
+};
+exports.createFeedInscriptionCheckout = createFeedInscriptionCheckoutHandler(
+  getDb,
+  mpFetch,
+  FEED_CHECKOUT_SECRET_OPTS,
+);
+exports.confirmExternalFeedInscription = createConfirmExternalFeedInscriptionHandler(getDb);
+exports.createMeetingRoom = createCreateMeetingRoomHandler(getDb);
+exports.joinMeetingRoom = createJoinMeetingRoomHandler(getDb);
+exports.leaveMeetingRoom = createLeaveMeetingRoomHandler(getDb);
+exports.endMeetingRoom = createEndMeetingRoomHandler(getDb);
+exports.startMeetingRecording = createStartMeetingRecordingHandler(getDb);
+exports.stopMeetingRecording = createStopMeetingRecordingHandler(getDb);
+exports.ensureMyPublicId = createEnsureMyPublicIdHandler(getDb);
+exports.lookupUserByPublicId = createLookupUserByPublicIdHandler(getDb);
+exports.sendMeetingInvite = createSendMeetingInviteHandler(getDb);
+exports.dismissMeetingInvite = createDismissMeetingInviteHandler(getDb);
+exports.createStripeConnectOnboarding = createStripeConnectOnboardingHandler(getDb);
+exports.getStripeConnectStatus = createGetStripeConnectStatusHandler(getDb);
+exports.stripeWebhook = createStripeWebhookHandler(getDb, {
+  recordFeedInscriptionFromStripeSession,
+});
+exports.listFeedPayouts = createListFeedPayoutsHandler(getDb);
+exports.settleFeedPayout = createSettleFeedPayoutHandler(getDb, mpFetch, MP_SECRET_OPTS);
+exports.listFeedInscriptions = createListFeedInscriptionsHandler(getDb);
+exports.mercadoPagoWebhook = createMercadoPagoWebhookHandler(getDb);
+exports.submitDocenteApplication = createSubmitDocenteApplicationHandler(getDb);
+exports.listDocenteApplications = createListDocenteApplicationsHandler(getDb);
+exports.getMyDocenteApplication = createGetMyDocenteApplicationHandler(getDb);
+exports.reviewDocenteApplication = createReviewDocenteApplicationHandler(getDb);
+exports.syncPublicAppStats = createSyncPublicAppStatsHandler(getDb);
+exports.onUsuarioCreatedUpdateStats = createIncrementUserStatsHandler(getDb);
+exports.onUsuarioDeletedUpdateStats = createDecrementUserStatsHandler(getDb);
 
 const TYPE_LABELS = {
   notificacion: 'Notificación',
@@ -270,6 +459,23 @@ async function sendExpoPushMessages(messages) {
     }
   }
 }
+
+exports.sendFeedDayBeforeReminders = createFeedReminderScheduleHandler(
+  getDb,
+  sendExpoPushMessages,
+);
+exports.notifyGlobalFeedPublished = createNotifyGlobalFeedPublishedHandler(
+  getDb,
+  sendExpoPushMessages,
+);
+exports.notifySanatorioFeedPublished = createNotifySanatorioFeedPublishedHandler(
+  getDb,
+  sendExpoPushMessages,
+);
+exports.notifyAdminsOnDocenteApplication = createNotifyAdminsOnDocenteApplicationHandler(
+  getDb,
+  sendExpoPushMessages,
+);
 
 exports.notifyForoPostCreated = onDocumentCreated(
   'apps/sanidapp/sanatorios/{sanatorioId}/foroPosts/{postId}',

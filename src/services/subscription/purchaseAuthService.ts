@@ -34,11 +34,17 @@ export async function verifyPlayPurchaseForUser(
 
     return mergeSubscriptionIntoProfile(profile, buildIapPremiumGrant());
   } catch (cause) {
-    const error = cause as { code?: string; message?: string };
+    const error = cause as { code?: string; message?: string; details?: unknown };
     if (error.code === 'functions/not-found' || error.code === 'functions/unavailable') {
       throw i18nError('subscription.errors.purchaseVerifyUnavailable');
     }
 
-    throw new Error(error.message ?? 'i18n:subscription.errors.purchaseValidationFailed');
+    const message = String(error.message ?? '').trim();
+    // Firebase a veces manda solo "INTERNAL" / "PERMISSION_DENIED" en mayúsculas.
+    if (!message || /^[A-Z_]+$/.test(message)) {
+      throw i18nError('subscription.errors.purchaseValidationFailed');
+    }
+
+    throw new Error(message);
   }
 }

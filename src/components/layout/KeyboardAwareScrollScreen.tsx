@@ -144,8 +144,8 @@ const styles = StyleSheet.create({
   },
   content: {
     flexGrow: 1,
-    paddingHorizontal: spacing.lg,
-    paddingTop: spacing.lg,
+    paddingHorizontal: spacing.sm,
+    paddingTop: spacing.md,
   },
   centered: {
     justifyContent: 'center',

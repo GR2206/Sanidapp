@@ -14,6 +14,7 @@ import {
 
 import { getFirestore, type Firestore } from 'firebase/firestore';
 import { getFunctions, type Functions } from 'firebase/functions';
+import { getStorage, type FirebaseStorage } from 'firebase/storage';
 
 import { Platform } from 'react-native';
 
@@ -31,6 +32,7 @@ let auth: Auth | null = null;
 
 let db: Firestore | null = null;
 let functions: Functions | null = null;
+let storage: FirebaseStorage | null = null;
 
 
 
@@ -139,5 +141,18 @@ export function getFirebaseFunctions(): Functions | null {
   }
 
   return functions;
+}
+
+export function getFirebaseStorage(): FirebaseStorage | null {
+  const firebaseApp = getFirebaseApp();
+  if (!firebaseApp) {
+    return null;
+  }
+
+  if (!storage) {
+    storage = getStorage(firebaseApp);
+  }
+
+  return storage;
 }
 

@@ -26,7 +26,7 @@ export function LanguagePicker({ variant = 'compact', dividerColor }: LanguagePi
   const isField = variant === 'field';
   const isRow = variant === 'row';
   const isLine = variant === 'line';
-  const surfaceColor = isField ? palette.white : dashboardColors.surface;
+  const surfaceColor = isField ? palette.surface : dashboardColors.surface;
   const borderColor = isField ? palette.border : dashboardColors.border;
   const accentColor = isField ? palette.accent : dashboardColors.accent;
   const textColor = isField ? palette.text : dashboardColors.text;
@@ -112,7 +112,7 @@ export function LanguagePicker({ variant = 'compact', dividerColor }: LanguagePi
             style={[
               styles.sheet,
               {
-                backgroundColor: isField ? palette.white : dashboardColors.surface,
+                backgroundColor: isField ? palette.surface : dashboardColors.surface,
                 borderColor,
               },
             ]}>
@@ -201,7 +201,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: spacing.sm,
     paddingVertical: spacing.md,
-    borderBottomWidth: 1,
+    paddingHorizontal: spacing.md,
+    borderBottomWidth: 0,
   },
   rowText: {
     flex: 1,

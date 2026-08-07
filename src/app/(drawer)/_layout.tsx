@@ -13,7 +13,7 @@ function DrawerNavigator() {
   const { hasBranding, sanatorio, navigation, colors, theme } = useAppTheme();
   const { t } = useLocale();
   const isTablet = Math.min(width, height) >= TABLET_SHORT_SIDE;
-  const drawerWidth = isTablet ? 320 : Math.min(300, Math.round(width * 0.82));
+  const drawerWidth = isTablet ? 280 : Math.min(260, Math.round(width * 0.72));
   const homeTitle = hasBranding ? (sanatorio?.shortName ?? t('drawer.index')) : 'Sanidapp';
 
   return (
@@ -54,6 +54,66 @@ function DrawerNavigator() {
         options={{ title: t('drawer.congresos'), drawerLabel: t('drawer.congresos') }}
       />
       <Drawer.Screen
+        name="reuniones"
+        options={{ title: t('drawer.reuniones'), drawerLabel: t('drawer.reuniones') }}
+      />
+      <Drawer.Screen
+        name="meeting-recordings"
+        options={{
+          title: t('drawer.meetingRecordings'),
+          drawerLabel: t('drawer.meetingRecordings'),
+        }}
+      />
+      <Drawer.Screen
+        name="cursos-institucion"
+        options={{
+          title: t('drawer.cursosInstitucion'),
+          drawerLabel: t('drawer.cursosInstitucion'),
+        }}
+      />
+      <Drawer.Screen
+        name="congresos-institucion"
+        options={{
+          title: t('drawer.congresosInstitucion'),
+          drawerLabel: t('drawer.congresosInstitucion'),
+        }}
+      />
+      <Drawer.Screen
+        name="supervisor-feeds"
+        options={{
+          title: t('drawer.supervisorFeeds'),
+          drawerLabel: t('drawer.supervisorFeeds'),
+        }}
+      />
+      <Drawer.Screen
+        name="admin-payouts"
+        options={{
+          title: t('drawer.adminPayouts'),
+          drawerLabel: t('drawer.adminPayouts'),
+        }}
+      />
+      <Drawer.Screen
+        name="feed-inscriptions"
+        options={{
+          title: t('drawer.feedInscriptions'),
+          drawerLabel: t('drawer.feedInscriptions'),
+        }}
+      />
+      <Drawer.Screen
+        name="docente-apply"
+        options={{
+          title: t('drawer.docenteApply'),
+          drawerLabel: t('drawer.docenteApply'),
+        }}
+      />
+      <Drawer.Screen
+        name="docente-applications"
+        options={{
+          title: t('drawer.docenteApplications'),
+          drawerLabel: t('drawer.docenteApplications'),
+        }}
+      />
+      <Drawer.Screen
         name="patologias"
         options={{ title: t('drawer.patologias'), drawerLabel: t('drawer.patologias') }}
       />
@@ -63,6 +123,10 @@ function DrawerNavigator() {
           title: t('content.pharmacology'),
           drawerItemStyle: { display: 'none' },
         }}
+      />
+      <Drawer.Screen
+        name="conocenos"
+        options={{ title: t('drawer.conocenos'), drawerLabel: t('drawer.conocenos') }}
       />
       <Drawer.Screen
         name="contacto"

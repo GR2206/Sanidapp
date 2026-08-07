@@ -2,7 +2,7 @@
   "expo": {
     "name": "Sanidapp",
     "slug": "sanidapp",
-    "version": "1.0.0",
+    "version": "1.2.4",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "sanidapp",
@@ -29,6 +29,38 @@
             "BROWSABLE",
             "DEFAULT"
           ]
+        },
+        {
+          "action": "VIEW",
+          "autoVerify": false,
+          "data": [
+            {
+              "scheme": "sanidapp",
+              "host": "meeting"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        },
+        {
+          "action": "VIEW",
+          "autoVerify": false,
+          "data": [
+            {
+              "scheme": "sanidapp",
+              "host": "reset-password"
+            },
+            {
+              "scheme": "sanidapp",
+              "host": "forgot-password"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
         }
       ],
       "adaptiveIcon": {
@@ -42,6 +74,8 @@
       "softwareKeyboardLayoutMode": "resize",
       "permissions": [
         "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
         "android.permission.POST_NOTIFICATIONS",
         "android.permission.READ_CALENDAR",
         "android.permission.WRITE_CALENDAR"
@@ -51,17 +85,23 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "notification": {
+      "icon": "./assets/images/notification-icon.png",
+      "color": "#00B4D8"
+    },
     "plugins": [
       "expo-router",
       [
         "expo-notifications",
         {
-          "color": "#1E7E34",
+          "icon": "./assets/images/notification-icon.png",
+          "color": "#00B4D8",
           "defaultChannel": "foro-sum",
           "sounds": [],
           "enableBackgroundRemoteNotifications": true
         }
       ],
+      "./plugins/withDisableNotificationsBootActions",
       [
         "expo-splash-screen",
         {
@@ -77,10 +117,13 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Sanidapp necesita acceso a la cámara para escanear códigos QR de protocolos.",
-          "recordAudioAndroid": false
+          "cameraPermission": "Sanidapp necesita acceso a la cámara para escanear códigos QR de protocolos y para las salas de reunión.",
+          "microphonePermission": "Sanidapp necesita el micrófono para las salas de reunión en vivo.",
+          "recordAudioAndroid": true
         }
       ],
+      "@livekit/react-native-expo-plugin",
+      "@config-plugins/react-native-webrtc",
       [
         "expo-calendar",
         {
@@ -88,13 +131,25 @@
         }
       ],
       [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Sanidapp usa tu ubicación solo para mostrar Cursos y Congresos si estás en Argentina."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Sanidapp necesita acceso a tus fotos para adjuntar el flyer JPG/PNG de cursos y congresos."
+        }
+      ],
+      [
         "expo-build-properties",
         {
           "android": {
             "minSdkVersion": 24,
-            "compileSdkVersion": 35,
-            "targetSdkVersion": 35,
-            "buildToolsVersion": "35.0.0",
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "buildToolsVersion": "36.0.0",
             "useLegacyPackaging": false
           },
           "ios": {
@@ -110,7 +165,10 @@
           "microphonePermission": false,
           "recordAudioAndroid": false
         }
-      ]
+      ],
+      "expo-av",
+      "expo-asset",
+      "./plugins/withOptionalHardwareFeatures"
     ],
     "experiments": {
       "typedRoutes": true

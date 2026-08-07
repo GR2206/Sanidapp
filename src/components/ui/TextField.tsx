@@ -11,19 +11,28 @@ import { fontFamily } from '@/theme/typography';
 interface TextFieldProps extends TextInputProps {
   label: string;
   error?: string;
+  /** ~15% más chico: labels e inputs (p. ej. Cálculos). */
+  compact?: boolean;
 }
 
 export const TextField = forwardRef<TextInput, TextFieldProps>(function TextField(
-  { label, error, style, onChangeText, ...rest },
+  { label, error, style, onChangeText, compact = false, ...rest },
   ref,
 ) {
   const { s } = useTextScale();
+  const baseFont = compact ? 12 : 14;
+  const basePadV = compact ? 6 : 8;
+  const baseMinH = compact ? 32 : 38;
 
   return (
     <>
-      <Typography variant="label" style={styles.label}>
-        {label}
-      </Typography>
+      {label.trim() ? (
+        <Typography
+          variant="label"
+          style={[styles.label, compact ? styles.labelCompact : null]}>
+          {label}
+        </Typography>
+      ) : null}
       <TextInput
         ref={ref}
         allowFontScaling={false}
@@ -35,10 +44,11 @@ export const TextField = forwardRef<TextInput, TextFieldProps>(function TextFiel
         style={[
           styles.input,
           {
-            fontSize: s(16),
-            paddingVertical: s(10),
-            minHeight: s(42),
+            fontSize: s(baseFont),
+            paddingVertical: s(basePadV),
+            minHeight: s(baseMinH),
           },
+          compact ? styles.inputCompact : null,
           error ? styles.inputError : null,
           style,
         ]}
@@ -59,15 +69,23 @@ const styles = StyleSheet.create({
     textTransform: 'none',
     letterSpacing: 0.2,
   },
+  labelCompact: {
+    fontSize: 12,
+    marginBottom: 4,
+  },
   input: {
     borderWidth: 1,
     borderColor: palette.border,
     borderRadius: radius.md,
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     paddingHorizontal: spacing.md,
     fontFamily: fontFamily.regular,
     color: palette.text,
     marginBottom: spacing.md,
+  },
+  inputCompact: {
+    marginBottom: spacing.sm,
+    paddingHorizontal: spacing.sm + 2,
   },
   inputError: {
     borderColor: palette.accent,

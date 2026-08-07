@@ -78,8 +78,8 @@ const styles = StyleSheet.create({
   inner: {
     flex: 1,
     width: '100%',
-    paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.md,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.sm,
     position: 'relative',
   },
   content: {

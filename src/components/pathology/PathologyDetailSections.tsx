@@ -6,9 +6,9 @@ import { PathologyEcgCompareIllustration } from '@/components/pathology/Patholog
 import { PathologyMarkdownBody } from '@/components/pathology/PathologyMarkdownBody';
 import { Typography } from '@/components/ui/Typography';
 import { useLocale } from '@/contexts/LocaleContext';
+import { useAppTheme } from '@/hooks/useAppTheme';
 import type { BibliographyEntry } from '@/types/protocol';
 import type { PathologyClinicalBox, PathologyClinicalIllustration, PathologyRelatedDrug } from '@/types/pathology';
-import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
 
 interface PathologyHeaderProps {
@@ -24,7 +24,8 @@ export function PathologyHeader({ name }: PathologyHeaderProps) {
 }
 
 export function PathologyDivider() {
-  return <View style={styles.dividerTrack} />;
+  const { colors } = useAppTheme();
+  return <View style={[styles.dividerTrack, { backgroundColor: colors.borderStrong }]} />;
 }
 
 interface PathologyBodyProps {
@@ -56,9 +57,18 @@ function ClinicalIllustration({ id }: { id: PathologyClinicalIllustration }) {
 }
 
 export function PathologyClinicalBoxSection({ box }: PathologyClinicalBoxSectionProps) {
+  const { colors } = useAppTheme();
+
   return (
-    <View style={styles.clinicalBox}>
-      <Typography variant="bodyMedium" style={styles.clinicalBoxTitle}>
+    <View
+      style={[
+        styles.clinicalBox,
+        {
+          borderColor: colors.borderStrong,
+          backgroundColor: colors.backgroundSoft,
+        },
+      ]}>
+      <Typography variant="bodyMedium" style={[styles.clinicalBoxTitle, { color: colors.textAccent }]}>
         {box.title}
       </Typography>
       {box.illustration ? <ClinicalIllustration id={box.illustration} /> : null}
@@ -136,7 +146,6 @@ const styles = StyleSheet.create({
   },
   dividerTrack: {
     height: 1,
-    backgroundColor: palette.borderStrong,
     marginVertical: spacing.md,
     width: '100%',
   },
@@ -151,13 +160,10 @@ const styles = StyleSheet.create({
     paddingVertical: spacing.md,
     paddingHorizontal: spacing.md,
     borderWidth: 1,
-    borderColor: palette.borderStrong,
     borderRadius: 12,
-    backgroundColor: palette.backgroundSoft,
     gap: spacing.sm,
   },
   clinicalBoxTitle: {
-    color: palette.accent,
     fontSize: 14,
     letterSpacing: 0.2,
     textAlign: 'left',
@@ -168,7 +174,6 @@ const styles = StyleSheet.create({
   },
   label: {
     textAlign: 'left',
-    color: palette.text,
     fontSize: 15,
     letterSpacing: 0.2,
   },
@@ -191,7 +196,6 @@ const styles = StyleSheet.create({
   },
   bibItem: {
     textAlign: 'justify',
-    color: palette.textSecondary,
     lineHeight: 20,
   },
 });

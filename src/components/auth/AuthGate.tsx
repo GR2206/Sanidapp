@@ -1,7 +1,9 @@
 import { Redirect } from 'expo-router';
+import { ActivityIndicator, StyleSheet, View } from 'react-native';
 
 import { useAuth } from '@/contexts/AuthContext';
 import { ROUTES } from '@/constants/routes';
+import { palette } from '@/theme/colors';
 
 export function AuthGate({ children }: { children: React.ReactNode }) {
   const { isReady, isAuthenticated, firebaseEnabled } = useAuth();
@@ -11,7 +13,11 @@ export function AuthGate({ children }: { children: React.ReactNode }) {
   }
 
   if (!isReady) {
-    return null;
+    return (
+      <View style={styles.loading}>
+        <ActivityIndicator color={palette.accent} size="large" />
+      </View>
+    );
   }
 
   if (!isAuthenticated) {
@@ -20,3 +26,12 @@ export function AuthGate({ children }: { children: React.ReactNode }) {
 
   return children;
 }
+
+const styles = StyleSheet.create({
+  loading: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: palette.background,
+  },
+});

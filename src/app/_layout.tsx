@@ -35,7 +35,7 @@ import { Platform } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import { AuthProvider, useAuth } from '@/contexts/AuthContext';
-import { AppearanceProvider } from '@/contexts/AppearanceContext';
+import { AppearanceProvider, useAppearance } from '@/contexts/AppearanceContext';
 import { LocaleProvider, useLocale } from '@/contexts/LocaleContext';
 import { SanatorioThemeProvider } from '@/contexts/SanatorioThemeContext';
 import { ForoUnreadAlert, ForoUnreadProvider } from '@/contexts/ForoUnreadContext';
@@ -43,24 +43,58 @@ import { SoundPreferencesProvider } from '@/contexts/SoundPreferencesContext';
 import { TextScaleProvider } from '@/contexts/TextScaleContext';
 import { useAppTheme } from '@/hooks/useAppTheme';
 import { getProtocolRouteFromUrl } from '@/services/qr/qrDeepLink';
-import { palette } from '@/theme/colors';
+import {
+  getPasswordResetCodeFromUrl,
+  isPasswordResetUrl,
+} from '@/services/auth/passwordResetLinks';
+import {
+  getMeetingCodeFromUrl,
+  getMeetingLobbyHref,
+  setPendingMeetingJoinCode,
+} from '@/services/meeting/meetingDeepLink';
+import { ROUTES } from '@/constants/routes';
 
 SplashScreen.preventAutoHideAsync();
 
-function useProtocolDeepLinks() {
+function useAuthAndProtocolDeepLinks() {
   const router = useRouter();
 
   useEffect(() => {
-    function openProtocolFromUrl(url: string) {
-      const route = getProtocolRouteFromUrl(url);
+    function handleUrl(url: string) {
+      if (isPasswordResetUrl(url)) {
+        const oobCode = getPasswordResetCodeFromUrl(url);
+        if (oobCode) {
+          router.push({
+            pathname: ROUTES.resetPassword,
+            params: { oobCode },
+          } as Href);
+          return;
+        }
+        if (url.toLowerCase().includes('forgot-password')) {
+          router.push(ROUTES.forgotPassword as Href);
+          return;
+        }
+      }
 
+      const meetingCode = getMeetingCodeFromUrl(url);
+      if (meetingCode) {
+        setPendingMeetingJoinCode(meetingCode);
+        router.push(getMeetingLobbyHref(meetingCode) as Href);
+        return;
+      }
+
+      const route = getProtocolRouteFromUrl(url);
       if (route) {
         router.push(route as Href);
       }
     }
 
+    void Linking.getInitialURL().then((url) => {
+      if (url) handleUrl(url);
+    });
+
     const subscription = Linking.addEventListener('url', ({ url }) => {
-      openProtocolFromUrl(url);
+      handleUrl(url);
     });
 
     return () => subscription.remove();
@@ -83,29 +117,29 @@ function ThemedStack() {
         headerShadowVisible: false,
         contentStyle: { backgroundColor: navigation.contentBackground },
       }}>
-        <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="(auth)" options={{ headerShown: false }} />
-        <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
-        <Stack.Screen
-          name="category/[categoryId]"
-          options={{ headerShown: true, title: t('stack.protocols') }}
-        />
-        <Stack.Screen name="scanner/index" options={{ headerShown: false }} />
-        <Stack.Screen
-          name="protocol/[protocolId]"
-          options={{ headerShown: true, title: t('stack.protocol') }}
-        />
-        <Stack.Screen name="drug/[drugId]" options={{ headerShown: true, title: t('stack.drug') }} />
-        <Stack.Screen
-          name="pathology/[pathologyId]"
-          options={{ headerShown: true, title: t('stack.pathology') }}
-        />
-        <Stack.Screen
-          name="calculations/index"
-          options={{ headerShown: true, title: t('calculations.title') }}
-        />
-        <Stack.Screen name="upgrade" options={{ headerShown: true, title: t('stack.premiumPlan') }} />
-      </Stack>
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+      <Stack.Screen name="(drawer)" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="category/[categoryId]"
+        options={{ headerShown: true, title: t('stack.protocols') }}
+      />
+      <Stack.Screen name="scanner/index" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="protocol/[protocolId]"
+        options={{ headerShown: true, title: t('stack.protocol') }}
+      />
+      <Stack.Screen name="drug/[drugId]" options={{ headerShown: true, title: t('stack.drug') }} />
+      <Stack.Screen
+        name="pathology/[pathologyId]"
+        options={{ headerShown: true, title: t('stack.pathology') }}
+      />
+      <Stack.Screen
+        name="calculations/index"
+        options={{ headerShown: true, title: t('calculations.title') }}
+      />
+      <Stack.Screen name="upgrade" options={{ headerShown: true, title: t('stack.premiumPlan') }} />
+    </Stack>
   );
 }
 
@@ -120,18 +154,38 @@ function ForoPushWrapper({ children }: { children: ReactNode }) {
   return <ForoPushNotificationsProvider>{children}</ForoPushNotificationsProvider>;
 }
 
+function ThemedChrome({ children }: { children: ReactNode }) {
+  const { isDark } = useAppearance();
+  const { colors } = useAppTheme();
+
+  useEffect(() => {
+    if (Platform.OS === 'android') {
+      void SystemUI.setBackgroundColorAsync(colors.background);
+    }
+  }, [colors.background]);
+
+  return (
+    <>
+      <StatusBar style={isDark ? 'light' : 'dark'} translucent={Platform.OS === 'android'} />
+      {children}
+    </>
+  );
+}
+
 function RootWithAppearance() {
   const { profile } = useAuth();
 
   return (
     <AppearanceProvider>
       <SanatorioThemeProvider profile={profile}>
-        <ForoUnreadProvider>
-          <ForoUnreadAlert />
-          <ForoPushWrapper>
-            <ThemedStack />
-          </ForoPushWrapper>
-        </ForoUnreadProvider>
+        <ThemedChrome>
+          <ForoUnreadProvider>
+            <ForoUnreadAlert />
+            <ForoPushWrapper>
+              <ThemedStack />
+            </ForoPushWrapper>
+          </ForoUnreadProvider>
+        </ThemedChrome>
       </SanatorioThemeProvider>
     </AppearanceProvider>
   );
@@ -160,13 +214,7 @@ export default function RootLayout() {
     Montserrat_700Bold,
     Montserrat_800ExtraBold,
   });
-  useProtocolDeepLinks();
-
-  useEffect(() => {
-    if (Platform.OS === 'android') {
-      SystemUI.setBackgroundColorAsync(palette.background);
-    }
-  }, []);
+  useAuthAndProtocolDeepLinks();
 
   useEffect(() => {
     if (fontsLoaded || fontError) {
@@ -184,7 +232,6 @@ export default function RootLayout() {
         <LocaleProvider>
           <TextScaleProvider>
             <SoundPreferencesProvider>
-              <StatusBar style="dark" translucent={Platform.OS === 'android'} />
               <RootNavigator />
             </SoundPreferencesProvider>
           </TextScaleProvider>

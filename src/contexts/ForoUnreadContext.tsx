@@ -165,32 +165,58 @@ export function useForoUnread(): ForoUnreadContextValue {
 
 export function ForoUnreadAlert(): null {
   const { unreadCount, isReady } = useForoUnread();
+  const { profile } = useAuth();
   const { t } = useLocale();
   const promptedRef = useRef(false);
 
   useEffect(() => {
-    if (!isReady || unreadCount <= 0 || promptedRef.current) {
+    promptedRef.current = false;
+  }, [profile?.uid]);
+
+  useEffect(() => {
+    if (!isReady || unreadCount <= 0 || promptedRef.current || !profile?.uid) {
       return;
     }
 
+    let cancelled = false;
+
     const timer = setTimeout(() => {
-      if (promptedRef.current) {
-        return;
-      }
+      void (async () => {
+        if (cancelled || promptedRef.current) {
+          return;
+        }
 
-      promptedRef.current = true;
+        // Persistimos para no re-alertar al volver de background / remount en la misma sesión de app.
+        try {
+          const AsyncStorage = (await import('@react-native-async-storage/async-storage')).default;
+          const key = `@sanidapp/foro-unread-prompted:${profile.uid}`;
+          const already = await AsyncStorage.getItem(key);
+          if (already === '1') {
+            promptedRef.current = true;
+            return;
+          }
+          await AsyncStorage.setItem(key, '1');
+        } catch {
+          // Si falla el storage, igual evitamos spam en este mount.
+        }
 
-      Alert.alert(t('foro.alertTitle'), t('foro.unreadPrompt', { count: unreadCount }), [
-        { text: t('common.notNow'), style: 'cancel' },
-        {
-          text: t('foro.viewForo'),
-          onPress: () => router.push(ROUTES.foro as Href),
-        },
-      ]);
+        promptedRef.current = true;
+
+        Alert.alert(t('foro.alertTitle'), t('foro.unreadPrompt', { count: unreadCount }), [
+          { text: t('common.notNow'), style: 'cancel' },
+          {
+            text: t('foro.viewForo'),
+            onPress: () => router.push(ROUTES.foro as Href),
+          },
+        ]);
+      })();
     }, 900);
 
-    return () => clearTimeout(timer);
-  }, [isReady, t, unreadCount]);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
+  }, [isReady, profile?.uid, t, unreadCount]);
 
   return null;
 }

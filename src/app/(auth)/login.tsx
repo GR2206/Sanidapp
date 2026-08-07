@@ -2,7 +2,6 @@ import { Link, router } from 'expo-router';
 import { useEffect, useRef, useState, type RefObject } from 'react';
 import {
   ActivityIndicator,
-  ImageBackground,
   Platform,
   Pressable,
   ScrollView,
@@ -24,13 +23,23 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useLocale } from '@/contexts/LocaleContext';
 import { ROUTES } from '@/constants/routes';
 import { resolveMessage } from '@/i18n/resolveMessage';
+import { resolvePostAuthHref } from '@/services/meeting/meetingDeepLink';
+import { loadPublicAppStats } from '@/services/stats/publicAppStatsService';
 import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
 
-const splashBackground = require('../../../assets/images/splash-background.png');
+function formatUserCount(value: number, locale: string): string {
+  try {
+    return new Intl.NumberFormat(locale === 'pt-BR' ? 'pt-BR' : locale === 'en' ? 'en-US' : 'es-AR').format(
+      value,
+    );
+  } catch {
+    return String(value);
+  }
+}
 
 export default function LoginScreen() {
-  const { isReady, isAuthenticated, firebaseEnabled, login, resetPassword } = useAuth();
+  const { isReady, isAuthenticated, firebaseEnabled, login } = useAuth();
   const { locale, t } = useLocale();
   const scrollRef = useRef<ScrollView>(null);
   const scrollYRef = useRef(0);
@@ -43,13 +52,28 @@ export default function LoginScreen() {
   const [error, setError] = useState<string | null>(null);
   const [success, setSuccess] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const [resetting, setResetting] = useState(false);
+  const [registeredUsers, setRegisteredUsers] = useState<number | null>(null);
 
   useEffect(() => {
     if (isReady && isAuthenticated) {
-      router.replace(ROUTES.home);
+      void resolvePostAuthHref(ROUTES.home as never).then((href) => {
+        router.replace(href);
+      });
     }
   }, [isAuthenticated, isReady]);
+
+  useEffect(() => {
+    if (!firebaseEnabled) return;
+    let cancelled = false;
+    void loadPublicAppStats().then((stats) => {
+      if (!cancelled && stats && stats.registeredUsers > 0) {
+        setRegisteredUsers(stats.registeredUsers);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [firebaseEnabled]);
 
   function focusField(fieldRef: RefObject<View | null>) {
     const delay = Platform.OS === 'android' ? 80 : 60;
@@ -76,148 +100,140 @@ export default function LoginScreen() {
     }
   }
 
-  async function handleResetPassword() {
-    setError(null);
-    setSuccess(null);
-
-    if (!email.trim()) {
-      setError(t('auth.errors.emailRequiredForReset'));
+  function openForgotPassword() {
+    const trimmed = email.trim();
+    if (trimmed) {
+      router.push({ pathname: ROUTES.forgotPassword, params: { email: trimmed } });
       return;
     }
-
-    setResetting(true);
-
-    try {
-      await resetPassword(email);
-      setSuccess(t('auth.resetSuccess', { email: email.trim().toLowerCase() }));
-    } catch (cause) {
-      const message =
-        cause instanceof Error
-          ? resolveMessage(cause.message, locale)
-          : t('auth.login.resetFailed');
-      setError(message);
-    } finally {
-      setResetting(false);
-    }
+    router.push(ROUTES.forgotPassword);
   }
 
   return (
     <View style={styles.root}>
-      <ImageBackground source={splashBackground} style={styles.background} resizeMode="cover">
-        <SafeAreaView style={styles.safe}>
-          <KeyboardAwareScrollScreen
-            scrollRef={scrollRef}
-            scrollYRef={scrollYRef}
-            centerWhenIdle
-            contentContainerStyle={styles.scroll}>
-            <LogoMark size={112} showTitle title="SANIDAPP" />
+      <SafeAreaView style={styles.safe}>
+        <KeyboardAwareScrollScreen
+          scrollRef={scrollRef}
+          scrollYRef={scrollYRef}
+          centerWhenIdle
+          contentContainerStyle={styles.scroll}>
+          <LogoMark size={88} showTitle title="SANIDAPP" />
 
-            <View style={styles.form}>
-              <Typography variant="subtitle" style={styles.heading}>
-                {t('auth.login.title')}
+          <View style={styles.form}>
+            <Typography variant="subtitle" style={styles.heading}>
+              {t('auth.login.title')}
+            </Typography>
+
+            {!firebaseEnabled ? (
+              <Typography variant="caption" style={styles.hint}>
+                {t('auth.login.firebasePendingConfigure')}
               </Typography>
+            ) : null}
 
-              {!firebaseEnabled ? (
-                <Typography variant="caption" style={styles.hint}>
-                  {t('auth.login.firebasePendingConfigure')}
-                </Typography>
-              ) : null}
-
-              <View ref={emailFieldRef} collapsable={false}>
-                <TextField
-                  label={t('auth.fields.email')}
-                  value={email}
-                  onChangeText={setEmail}
-                  autoCapitalize="none"
-                  keyboardType="email-address"
-                  textContentType="emailAddress"
-                  autoComplete="email"
-                  onFocus={() => focusField(emailFieldRef)}
-                />
-              </View>
-
-              <View ref={passwordFieldRef} collapsable={false}>
-                <TextField
-                  label={t('auth.fields.password')}
-                  value={password}
-                  onChangeText={setPassword}
-                  secureTextEntry={!showPassword}
-                  textContentType="password"
-                  autoComplete="password"
-                  onFocus={() => focusField(passwordFieldRef)}
-                />
-              </View>
-
-              <LanguagePicker variant="field" />
-
-              <Pressable onPress={() => setShowPassword((value) => !value)}>
-                <Typography variant="caption" style={styles.togglePassword}>
-                  {showPassword ? t('auth.login.hidePassword') : t('auth.login.showPassword')}
-                </Typography>
-              </Pressable>
-
-              <Pressable
-                onPress={() => void handleResetPassword()}
-                disabled={!firebaseEnabled || resetting}>
-                <Typography variant="caption" style={styles.forgotPassword}>
-                  {resetting ? t('auth.login.sendingEmail') : t('auth.login.forgotPassword')}
-                </Typography>
-              </Pressable>
-
-              {error ? (
-                <Typography variant="caption" color={palette.accent} style={styles.feedback}>
-                  {error}
-                </Typography>
-              ) : null}
-
-              {success ? (
-                <Typography variant="caption" style={styles.success}>
-                  {success}
-                </Typography>
-              ) : null}
-
-              <Button
-                label={loading ? t('auth.login.submitting') : t('auth.login.submit')}
-                onPress={handleLogin}
-                disabled={!firebaseEnabled || loading || !email || !password}
+            <View ref={emailFieldRef} collapsable={false}>
+              <TextField
+                label={t('auth.fields.email')}
+                value={email}
+                onChangeText={setEmail}
+                autoCapitalize="none"
+                keyboardType="email-address"
+                textContentType="emailAddress"
+                autoComplete="email"
+                onFocus={() => focusField(emailFieldRef)}
               />
-
-              <Link href={ROUTES.register} asChild>
-                <Typography variant="bodyMedium" style={styles.registerLink}>
-                  {t('auth.login.registerPrompt')}
-                </Typography>
-              </Link>
             </View>
 
-            {!isReady ? <ActivityIndicator color={palette.accent} /> : null}
-          </KeyboardAwareScrollScreen>
-        </SafeAreaView>
-      </ImageBackground>
+            <View ref={passwordFieldRef} collapsable={false}>
+              <TextField
+                label={t('auth.fields.password')}
+                value={password}
+                onChangeText={setPassword}
+                secureTextEntry={!showPassword}
+                textContentType="password"
+                autoComplete="password"
+                onFocus={() => focusField(passwordFieldRef)}
+              />
+            </View>
+
+            <LanguagePicker variant="field" />
+
+            <Pressable onPress={() => setShowPassword((value) => !value)}>
+              <Typography variant="caption" style={styles.togglePassword}>
+                {showPassword ? t('auth.login.hidePassword') : t('auth.login.showPassword')}
+              </Typography>
+            </Pressable>
+
+            <Pressable onPress={openForgotPassword} disabled={!firebaseEnabled}>
+              <Typography variant="caption" style={styles.forgotPassword}>
+                {t('auth.login.forgotPassword')}
+              </Typography>
+            </Pressable>
+
+            {error ? (
+              <Typography variant="caption" color={palette.accent} style={styles.feedback}>
+                {error}
+              </Typography>
+            ) : null}
+
+            {success ? (
+              <Typography variant="caption" style={styles.success}>
+                {success}
+              </Typography>
+            ) : null}
+
+            <Button
+              label={loading ? t('auth.login.submitting') : t('auth.login.submit')}
+              onPress={handleLogin}
+              disabled={!firebaseEnabled || loading || !email || !password}
+            />
+
+            <Link href={ROUTES.register} asChild>
+              <Typography variant="bodyMedium" style={styles.registerLink}>
+                {t('auth.login.registerPrompt')}
+              </Typography>
+            </Link>
+          </View>
+
+          {registeredUsers != null ? (
+            <View style={styles.statsBlock}>
+              <Typography variant="bodyMedium" style={styles.statsCount}>
+                {formatUserCount(registeredUsers, locale)}
+              </Typography>
+              <Typography variant="caption" style={styles.statsLabel}>
+                {t('auth.login.usersCountLabel')}
+              </Typography>
+            </View>
+          ) : null}
+
+          {!isReady ? <ActivityIndicator color={palette.accent} /> : null}
+        </KeyboardAwareScrollScreen>
+      </SafeAreaView>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  root: { flex: 1 },
-  background: { flex: 1 },
+  root: { flex: 1, backgroundColor: palette.background },
   safe: { flex: 1 },
   scroll: {
-    gap: spacing.lg,
-    paddingVertical: spacing.xl,
+    gap: spacing.md,
+    paddingVertical: spacing.md,
+    paddingHorizontal: 0,
   },
   form: {
     width: '100%',
-    maxWidth: 420,
-    alignSelf: 'center',
-    backgroundColor: 'rgba(255,255,255,0.92)',
-    borderRadius: 16,
-    padding: spacing.lg,
-    gap: spacing.sm,
+    alignSelf: 'stretch',
+    backgroundColor: 'rgba(255,255,255,0.94)',
+    borderRadius: 0,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.md,
+    gap: spacing.xs,
   },
   heading: {
     textAlign: 'center',
     color: palette.accent,
-    marginBottom: spacing.sm,
+    marginBottom: spacing.xs,
+    fontSize: 18,
   },
   hint: {
     textAlign: 'center',
@@ -246,5 +262,23 @@ const styles = StyleSheet.create({
     textAlign: 'right',
     color: palette.accent,
     marginBottom: spacing.sm,
+  },
+  statsBlock: {
+    alignItems: 'center',
+    gap: 2,
+    marginTop: spacing.md,
+    paddingBottom: spacing.sm,
+  },
+  statsCount: {
+    color: palette.accent,
+    fontWeight: '700',
+    fontSize: 18,
+    letterSpacing: 0.4,
+  },
+  statsLabel: {
+    textAlign: 'center',
+    color: palette.textMuted,
+    maxWidth: 300,
+    fontSize: 12,
   },
 });

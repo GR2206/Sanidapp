@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sanidapp · Restablecer contraseña</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4fbfd;
+        --accent: #00b4d8;
+        --text: #0f172a;
+        --muted: #64748b;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background: linear-gradient(160deg, #e8f9fd 0%, #ffffff 55%, #f0f9ff 100%);
+        color: var(--text);
+        padding: 24px;
+      }
+      .card {
+        width: min(420px, 100%);
+        background: rgba(255, 255, 255, 0.92);
+        border: 1px solid rgba(0, 180, 216, 0.18);
+        border-radius: 16px;
+        padding: 28px 24px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 1.35rem;
+        color: var(--accent);
+      }
+      p {
+        margin: 0 0 16px;
+        color: var(--muted);
+        line-height: 1.45;
+        font-size: 0.95rem;
+      }
+      a.btn {
+        display: inline-block;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 12px 18px;
+        border-radius: 10px;
+      }
+      .hint {
+        margin-top: 18px;
+        font-size: 0.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Sanidapp</h1>
+      <p id="message">Abriendo la app para restablecer tu contraseña…</p>
+      <a class="btn" id="openApp" href="#">Abrir Sanidapp</a>
+      <p class="hint" id="hint">
+        Si no se abre sola, tocá el botón. Si no tenés la app instalada, descargala desde Google Play.
+      </p>
+    </div>
+    <script>
+      (function () {
+        var params = new URLSearchParams(window.location.search);
+        var mode = (params.get('mode') || '').toLowerCase();
+        var oobCode = params.get('oobCode') || '';
+        var message = document.getElementById('message');
+        var openApp = document.getElementById('openApp');
+        var hint = document.getElementById('hint');
+
+        if (!oobCode || (mode && mode !== 'resetpassword')) {
+          message.textContent = 'Este enlace no es válido o ya expiró. Pedí uno nuevo desde la app.';
+          openApp.href = 'sanidapp://forgot-password';
+          openApp.textContent = 'Ir a Sanidapp';
+          hint.textContent = 'Desde la app podés solicitar un nuevo correo de restablecimiento.';
+          return;
+        }
+
+        var deepLink = 'sanidapp://reset-password?oobCode=' + encodeURIComponent(oobCode);
+        openApp.href = deepLink;
+        window.location.replace(deepLink);
+      })();
+    </script>
+  </body>
+</html>

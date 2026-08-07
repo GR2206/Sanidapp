@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.md,
     borderWidth: 1,
     borderColor: palette.border,
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     overflow: 'hidden',
   },
   frameActive: {
@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
     marginBottom: 0,
   },
   frameHome: {
-    backgroundColor: palette.white,
+    backgroundColor: palette.surface,
     borderColor: palette.border,
   },
   inset: {

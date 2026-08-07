@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import { useTextScale } from '@/contexts/TextScaleContext';
-import { palette } from '@/theme/colors';
+import { useAppTheme } from '@/hooks/useAppTheme';
 import { fontFamily, fontSize } from '@/theme/typography';
 import { spacing } from '@/theme/spacing';
 
@@ -41,11 +41,12 @@ function renderParagraph(paragraph: string, textStyle: object, strongStyle: obje
 /** Párrafos justificados (compatible con markdown inline **negrita**). */
 export function PathologyMarkdownBody({ content, compact = false }: PathologyMarkdownBodyProps) {
   const { s } = useTextScale();
+  const { colors } = useAppTheme();
 
   const textStyle = useMemo(
     () => ({
       width: '100%' as const,
-      color: palette.text,
+      color: colors.text,
       fontFamily: fontFamily.regular,
       fontSize: s(compact ? fontSize.xs : fontSize.sm),
       lineHeight: s((compact ? fontSize.xs : fontSize.sm) * (compact ? 1.5 : 1.55)),
@@ -55,7 +56,15 @@ export function PathologyMarkdownBody({ content, compact = false }: PathologyMar
         default: {},
       }),
     }),
-    [compact, s],
+    [colors.text, compact, s],
+  );
+
+  const strongStyle = useMemo(
+    () => ({
+      fontFamily: fontFamily.semiBold,
+      color: colors.text,
+    }),
+    [colors.text],
   );
 
   if (!content.trim()) {
@@ -75,7 +84,7 @@ export function PathologyMarkdownBody({ content, compact = false }: PathologyMar
           key={`p-${index}`}
           allowFontScaling={false}
           style={[textStyle, index < paragraphs.length - 1 ? styles.paragraphGap : null]}>
-          {renderParagraph(paragraph, textStyle, styles.strong)}
+          {renderParagraph(paragraph, textStyle, strongStyle)}
         </Text>
       ))}
     </View>
@@ -86,10 +95,6 @@ const styles = StyleSheet.create({
   wrap: {
     width: '100%',
     alignSelf: 'stretch',
-  },
-  strong: {
-    fontFamily: fontFamily.semiBold,
-    color: palette.text,
   },
   paragraphGap: {
     marginBottom: spacing.md,

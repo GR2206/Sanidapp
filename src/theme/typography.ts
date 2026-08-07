@@ -5,14 +5,15 @@ export const fontFamily = {
   bold: 'Inter_700Bold',
 } as const;
 
+/** Escala ~18–20% más compacta para lectura más panorámica. */
 export const fontSize = {
-  xs: 12,
-  sm: 14,
-  base: 16,
-  lg: 18,
-  xl: 22,
-  xxl: 28,
-  display: 32,
+  xs: 11,
+  sm: 12,
+  base: 14,
+  lg: 15,
+  xl: 18,
+  xxl: 22,
+  display: 26,
 } as const;
 
 export const lineHeight = {

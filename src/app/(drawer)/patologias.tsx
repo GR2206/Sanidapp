@@ -50,7 +50,6 @@ import { groupByLetter } from '@/utils/groupByLetter';
 import { hapticLight } from '@/utils/haptics';
 import { playKeySound } from '@/services/audio/uiSoundService';
 
-import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
 
 
@@ -168,7 +167,7 @@ export default function PatologiasScreen() {
 
       <View style={styles.searchWrap}>
 
-        <MaterialCommunityIcons name="magnify" size={18} color={palette.textMuted} />
+        <MaterialCommunityIcons name="magnify" size={18} color={colors.textMuted} />
 
         <TextInput
 
@@ -181,7 +180,7 @@ export default function PatologiasScreen() {
 
           placeholder={isPremium ? t('catalog.searchPathology') : t('catalog.searchPathologySamples')}
 
-          placeholderTextColor={palette.textMuted}
+          placeholderTextColor={colors.textMuted}
 
           style={styles.searchInput}
 
@@ -197,7 +196,7 @@ export default function PatologiasScreen() {
 
         <Typography
           variant="caption"
-          color={palette.textSecondary}
+          color={colors.textSecondary}
           style={{ marginBottom: spacing.sm, paddingHorizontal: spacing.lg }}>
           {t('catalog.freePathologyHint')}
         </Typography>
@@ -214,6 +213,10 @@ export default function PatologiasScreen() {
 
         style={styles.list}
 
+        keyboardShouldPersistTaps="handled"
+
+        keyboardDismissMode="on-drag"
+
         stickySectionHeadersEnabled={false}
 
         refreshControl={
@@ -228,7 +231,7 @@ export default function PatologiasScreen() {
 
         ListEmptyComponent={
 
-          <Typography variant="body" color={palette.textSecondary} style={styles.empty}>
+          <Typography variant="body" color={colors.textSecondary} style={styles.empty}>
 
             {query.trim() ? t('common.noResults') : t('catalog.noPathologies')}
 
@@ -236,15 +239,16 @@ export default function PatologiasScreen() {
 
         }
 
-        renderSectionHeader={({ section: { title } }) => (
-
-          <Typography variant="subtitle" style={styles.letterHeader}>
-
-            {title}
-
-          </Typography>
-
-        )}
+        renderSectionHeader={({ section: { title } }) => {
+          const tone = styles.letterTone(title);
+          return (
+            <View style={[styles.letterHeaderWrap, tone.wrap]}>
+              <Typography variant="subtitle" style={[styles.letterHeader, tone.text]}>
+                {title}
+              </Typography>
+            </View>
+          );
+        }}
 
         renderItem={({ item }) => (
 
@@ -277,5 +281,6 @@ export default function PatologiasScreen() {
   );
 
 }
+
 
 

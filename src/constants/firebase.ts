@@ -15,7 +15,8 @@
  *   apps/sanidapp/config/admins                         → lista de UIDs admin
  *   apps/sanidapp/sanatorios/{sanatorioId}/foroPosts/{postId} → pizarrón del sanatorio
  *   apps/sanidapp/sanatorios/{sanatorioId}/pushTokens/{uid}   → token push Expo del usuario
- *   apps/sanidapp/purchases/{uid}                             → compra IAP verificada (solo backend)
+ *   apps/sanidapp/feeds/{kind}/items/{itemId}                 → cursos/congresos free (admin)
+ *   apps/sanidapp/sanatorios/{sanatorioId}/feeds/{kind}/items/{itemId} → por sanatorio (supervisor)
  */
 export const FIREBASE_CONFIG = {
   apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY ?? '',
@@ -58,4 +59,29 @@ export const FIRESTORE_PATHS = {
     [...FIRESTORE_PATHS.sanatorio(sanatorioId), 'pushTokens'] as const,
   pushToken: (sanatorioId: string, uid: string) =>
     [...FIRESTORE_PATHS.pushTokens(sanatorioId), uid] as const,
+  /** Tokens push globales (usuarios free / recordatorios de cursos). */
+  globalPushTokens: () => [...FIRESTORE_PATHS.appDoc(), 'pushTokens'] as const,
+  globalPushToken: (uid: string) => [...FIRESTORE_PATHS.globalPushTokens(), uid] as const,
+  feedInscriptions: () => [...FIRESTORE_PATHS.appDoc(), 'feedInscriptions'] as const,
+  /** Contador público de usuarios registrados (lectura sin auth). */
+  publicStats: () => [...FIRESTORE_PATHS.config(), 'publicStats'] as const,
+  docenteApplications: () => [...FIRESTORE_PATHS.appDoc(), 'docenteApplications'] as const,
+  docenteApplication: (applicationId: string) =>
+    [...FIRESTORE_PATHS.docenteApplications(), applicationId] as const,
+  publicIds: () => [...FIRESTORE_PATHS.appDoc(), 'publicIds'] as const,
+  publicId: (publicId: string) => [...FIRESTORE_PATHS.publicIds(), publicId] as const,
+  meetingInvites: (uid: string) =>
+    [...FIRESTORE_PATHS.usuario(uid), 'meetingInvites'] as const,
+  meetingInvite: (uid: string, inviteId: string) =>
+    [...FIRESTORE_PATHS.meetingInvites(uid), inviteId] as const,
+  /** Feeds globales free (admin). kind = cursos | congresos */
+  globalFeedItems: (kind: string) =>
+    [...FIRESTORE_PATHS.appDoc(), 'feeds', kind, 'items'] as const,
+  globalFeedItem: (kind: string, itemId: string) =>
+    [...FIRESTORE_PATHS.globalFeedItems(kind), itemId] as const,
+  /** Feeds por sanatorio (aislados). */
+  sanatorioFeedItems: (sanatorioId: string, kind: string) =>
+    [...FIRESTORE_PATHS.sanatorio(sanatorioId), 'feeds', kind, 'items'] as const,
+  sanatorioFeedItem: (sanatorioId: string, kind: string, itemId: string) =>
+    [...FIRESTORE_PATHS.sanatorioFeedItems(sanatorioId, kind), itemId] as const,
 } as const;

@@ -13,11 +13,26 @@ export interface UserProfile {
   profesion: string;
   sanatorioId: string;
   sanatorioName: string;
+  /** ISO country (p. ej. AR). Usado para free: cursos/congresos solo en Argentina. */
+  countryCode: string;
   role: UserRole;
   accessTier: AccessTier;
   institutionToken: string;
   premiumSource: PremiumSource;
   premiumGrantedAt: string | null;
+  /**
+   * Docente aprobado por admin: puede publicar cursos/congresos globales.
+   * El resto del acceso premium es igual a cualquier enfermero premium.
+   */
+  canPublishFeeds: boolean;
+  /** Cuenta Stripe Connect Express (cobros EUR/USD). */
+  stripeConnectAccountId: string;
+  stripeConnectChargesEnabled: boolean;
+  stripeConnectCountry: string;
+  /** URL pública del avatar (Storage). Si falta, se muestra la inicial. */
+  avatarUrl: string;
+  /** ID corto público para buscarse e invitar a reuniones. */
+  publicId: string;
   createdAt: string;
   updatedAt: string;
 }
@@ -30,4 +45,6 @@ export interface RegisterInput {
   profesion: string;
   registrationType: RegistrationType;
   sanatorioId: string;
+  /** País elegido o detectado por GPS en registro free. */
+  countryCode?: string;
 }

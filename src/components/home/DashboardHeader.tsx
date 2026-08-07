@@ -7,7 +7,9 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { LogoMark } from '@/components/ui/LogoMark';
 import { UpdateBadge } from '@/components/ui/UpdateBadge';
+import { UserAvatar } from '@/components/ui/UserAvatar';
 import { Typography } from '@/components/ui/Typography';
+import { useAuth } from '@/contexts/AuthContext';
 import { useForoUnread } from '@/contexts/ForoUnreadContext';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useAppLabels } from '@/hooks/useAppLabels';
@@ -18,11 +20,13 @@ import { hapticLight } from '@/utils/haptics';
 import { hexToRgba } from '@/utils/color';
 
 const HEADER_LOGO_SIZE = 44;
+const ACTION_SIZE = 40;
 
 export function DashboardHeader() {
   const navigation = useNavigation();
   const insets = useSafeAreaInsets();
   const { unreadCount: foroUnreadCount } = useForoUnread();
+  const { profile } = useAuth();
   const { t } = useLocale();
   const { appearanceMode } = useAppLabels();
   const { colors, isDark, mode, cycleMode, hasBranding, sanatorio, logoSource, fonts } =
@@ -31,7 +35,6 @@ export function DashboardHeader() {
   const headerLogoScale = theme.dashboardHeaderLogoCoverScale;
   const headerUsesScaledCover = headerLogoScale !== 1;
   const headerLogoInset = theme.dashboardHeaderLogoInset ?? 0.88;
-  // Mismo círculo claro en dark y light: el disco delimita el logo.
   const logoFrameBackground = theme.dashboardLogoBlendBackground
     ? theme.background
     : '#FFFFFF';
@@ -41,7 +44,74 @@ export function DashboardHeader() {
 
   return (
     <View style={[styles.row, { paddingTop: insets.top + spacing.sm }]}>
+      <View style={styles.actions}>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={
+            foroUnreadCount > 0
+              ? t('drawer.openMenuUnread', { count: foroUnreadCount })
+              : t('drawer.openMenu')
+          }
+          onPress={() => {
+            hapticLight();
+            navigation.dispatch(DrawerActions.openDrawer());
+          }}
+          style={({ pressed }) => [
+            styles.iconButton,
+            { backgroundColor: colors.surface, borderColor: colors.border },
+            pressed && styles.pressed,
+          ]}>
+          <View style={styles.iconWrap}>
+            <UserAvatar
+              size={ACTION_SIZE - 4}
+              avatarUrl={profile?.avatarUrl}
+              nombre={profile?.nombre}
+              apellido={profile?.apellido}
+              email={profile?.email}
+              accentColor={colors.accent}
+              surfaceColor={colors.surface}
+              borderColor="transparent"
+              fontFamily={fonts.semiBold}
+            />
+            <UpdateBadge count={foroUnreadCount} />
+          </View>
+        </Pressable>
+        <Pressable
+          accessibilityRole="button"
+          accessibilityLabel={t('appearance.modeLabel', { mode: appearanceMode(mode) })}
+          onPress={() => {
+            hapticLight();
+            void cycleMode();
+          }}
+          style={({ pressed }) => [
+            styles.iconButton,
+            { backgroundColor: colors.surface, borderColor: colors.border },
+            pressed && styles.pressed,
+          ]}>
+          <MaterialCommunityIcons name={appearanceIcon} size={20} color={colors.accent} />
+        </Pressable>
+      </View>
+
       <View style={styles.brand}>
+        <View style={styles.brandText}>
+          <Typography
+            variant="subtitle"
+            numberOfLines={1}
+            style={[
+              styles.brandTitle,
+              { color: colors.accent, fontFamily: fonts.semiBold, textAlign: 'right' },
+            ]}>
+            {hasBranding ? (sanatorio?.shortName ?? 'Sanatorio') : 'Sanidapp'}
+          </Typography>
+          {hasBranding && sanatorio ? (
+            <Typography
+              variant="caption"
+              numberOfLines={1}
+              style={{ color: colors.textMuted, textAlign: 'right' }}>
+              {sanatorio.name}
+            </Typography>
+          ) : null}
+        </View>
         {hasBranding && logoSource ? (
           <View
             style={[
@@ -68,56 +138,6 @@ export function DashboardHeader() {
         ) : (
           <LogoMark size={40} accentColor={colors.accent} />
         )}
-        <View style={styles.brandText}>
-          <Typography
-            variant="subtitle"
-            numberOfLines={1}
-            style={[styles.brandTitle, { color: colors.accent, fontFamily: fonts.semiBold }]}>
-            {hasBranding ? (sanatorio?.shortName ?? 'Sanatorio') : 'Sanidapp'}
-          </Typography>
-          {hasBranding && sanatorio ? (
-            <Typography variant="caption" numberOfLines={1} style={{ color: colors.textMuted }}>
-              {sanatorio.name}
-            </Typography>
-          ) : null}
-        </View>
-      </View>
-      <View style={styles.actions}>
-        <Pressable
-          accessibilityRole="button"
-          accessibilityLabel={t('appearance.modeLabel', { mode: appearanceMode(mode) })}
-          onPress={() => {
-            hapticLight();
-            void cycleMode();
-          }}
-          style={({ pressed }) => [
-            styles.iconButton,
-            { backgroundColor: colors.surface, borderColor: colors.border },
-            pressed && styles.pressed,
-          ]}>
-          <MaterialCommunityIcons name={appearanceIcon} size={22} color={colors.accent} />
-        </Pressable>
-        <Pressable
-          accessibilityRole="button"
-          accessibilityLabel={
-            foroUnreadCount > 0
-              ? t('drawer.openMenuUnread', { count: foroUnreadCount })
-              : t('drawer.openMenu')
-          }
-          onPress={() => {
-            hapticLight();
-            navigation.dispatch(DrawerActions.openDrawer());
-          }}
-          style={({ pressed }) => [
-            styles.iconButton,
-            { backgroundColor: colors.surface, borderColor: colors.border },
-            pressed && styles.pressed,
-          ]}>
-          <View style={styles.iconWrap}>
-            <MaterialCommunityIcons name="account-circle-outline" size={26} color={colors.accent} />
-            <UpdateBadge count={foroUnreadCount} />
-          </View>
-        </Pressable>
       </View>
     </View>
   );
@@ -136,11 +156,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     gap: spacing.sm,
     flex: 1,
-    marginRight: spacing.sm,
+    marginLeft: spacing.sm,
+    justifyContent: 'flex-end',
   },
   brandText: {
-    flex: 1,
+    flexShrink: 1,
     gap: 1,
+    alignItems: 'flex-end',
   },
   brandTitle: {
     fontSize: 18,
@@ -155,10 +177,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     overflow: 'hidden',
   },
-  logoImage: {
-    width: '88%',
-    height: '88%',
-  },
   logoImageCover: {
     width: '100%',
     height: '100%',
@@ -169,9 +187,9 @@ const styles = StyleSheet.create({
     gap: spacing.xs,
   },
   iconButton: {
-    width: 42,
-    height: 42,
-    borderRadius: 21,
+    width: ACTION_SIZE,
+    height: ACTION_SIZE,
+    borderRadius: ACTION_SIZE / 2,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,

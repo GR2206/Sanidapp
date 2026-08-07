@@ -43,6 +43,7 @@ export function useDashboardTheme() {
   return {
     hasBranding,
     sanatorio,
+    theme,
     logoSource,
     fonts,
     isDark,

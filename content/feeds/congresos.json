@@ -1,7 +1,20 @@
 {
-  "version": "1.0",
-  "updatedAt": "2026-06-25",
+  "version": "1.1",
+  "updatedAt": "2026-07-29",
   "title": "Congresos",
-  "intro": "Congresos y eventos científicos del momento. El contenido se actualiza desde Gist sin necesidad de actualizar la app.",
-  "items": []
+  "intro": "",
+  "items": [
+    {
+      "id": "congreso-ejemplo-1",
+      "title": "Jornada de enfermería crítica",
+      "caption": "Congreso regional",
+      "subtitle": "Lic. Ejemplo — Sociedad científica",
+      "date": "2026-09-20",
+      "location": "Rosario",
+      "imageUrl": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800",
+      "url": "https://example.com/congreso",
+      "linkLabel": "Ir al sitio del evento",
+      "body": "Breve descripción del congreso. Reemplazá este ítem por tus eventos reales en el Gist."
+    }
+  ]
 }

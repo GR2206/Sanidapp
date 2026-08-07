@@ -58,7 +58,7 @@ export function CalculationResultCard({
                 <Typography
                   variant="caption"
                   style={[styles.indicationCol, { color: colors.textSecondary }]}
-                  numberOfLines={3}>
+                  numberOfLines={4}>
                   {row.indication}
                 </Typography>
               ) : null}
@@ -78,12 +78,12 @@ const styles = StyleSheet.create({
     borderWidth: StyleSheet.hairlineWidth,
     borderRadius: radius.sm,
     paddingHorizontal: spacing.xs + 2,
-    paddingVertical: 4,
+    paddingVertical: 3,
     gap: 1,
   },
   label: {
     marginBottom: 1,
-    fontSize: 11,
+    fontSize: 10,
   },
   row: {
     flexDirection: 'row',
@@ -93,12 +93,12 @@ const styles = StyleSheet.create({
   },
   doseCol: {
     flex: 0.42,
-    minWidth: 80,
-    fontSize: 13,
+    minWidth: 72,
+    fontSize: 12,
   },
   indicationCol: {
     flex: 0.58,
-    lineHeight: 14,
-    fontSize: 11,
+    lineHeight: 13,
+    fontSize: 10,
   },
 });

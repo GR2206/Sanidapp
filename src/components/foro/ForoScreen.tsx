@@ -27,6 +27,7 @@ import { useScreenInsets } from '@/hooks/useScreenInsets';
 import { resolveMessage } from '@/i18n/resolveMessage';
 import type { AppLocale } from '@/i18n/types';
 import { palette } from '@/theme/colors';
+import { livelyPillAt, livelyToneAt } from '@/theme/livelyUi';
 import { radius, spacing } from '@/theme/spacing';
 import type { ForoPost, ForoPostType } from '@/types/foro';
 import { addForoPostToDeviceCalendar } from '@/services/calendar/deviceCalendarService';
@@ -110,7 +111,7 @@ function ForoPostCard({
             ? colors.backgroundSoft
             : highlighted
               ? colors.backgroundSoft
-              : palette.white,
+              : palette.surface,
         },
       ]}>
       {showSelection ? (
@@ -210,6 +211,7 @@ function ForoSection({
   selectedPostIds,
   onToggleSelect,
   onToggleSelectAll,
+  toneIndex = 0,
 }: {
   title: string;
   posts: ForoPost[];
@@ -221,16 +223,25 @@ function ForoSection({
   selectedPostIds?: Set<string>;
   onToggleSelect?: (postId: string) => void;
   onToggleSelectAll?: (postIds: string[]) => void;
+  toneIndex?: number;
 }) {
-  const { colors } = useAppTheme();
+  const { colors, fonts } = useAppTheme();
   const { t } = useLocale();
+  const tone = livelyToneAt(toneIndex);
+  const pill = livelyPillAt(toneIndex);
   const allSelected =
     posts.length > 0 && posts.every((post) => selectedPostIds?.has(post.id));
 
   return (
     <View style={styles.section}>
       <View style={styles.sectionTitleBlock}>
-        <Typography variant="subtitle">{title}</Typography>
+        <View style={[styles.sectionTitlePill, { backgroundColor: pill.backgroundColor }]}>
+          <Typography
+            variant="subtitle"
+            style={{ color: tone.label, fontFamily: fonts.semiBold, letterSpacing: 0.5 }}>
+            {title}
+          </Typography>
+        </View>
         {canManage && posts.length > 0 && onToggleSelectAll ? (
           <Pressable
             accessibilityRole="button"
@@ -416,24 +427,13 @@ export function ForoScreen() {
       <ScrollView
         contentContainerStyle={[styles.content, { paddingBottom: contentPaddingBottom + spacing.xxl }]}
         refreshControl={<RefreshControl refreshing={refreshing} onRefresh={() => void handleRefresh()} />}>
-        <View style={styles.intro}>
-          <Typography variant="body" color={palette.textSecondary}>
-            {t('foro.boardIntro', { sanatorio: sanatorioName ?? t('subscription.yourSanatorio') })}
-          </Typography>
-          {canManageForo ? (
-            <Typography variant="caption" color={palette.textMuted}>
-              {t('foro.supervisorHint')}
-            </Typography>
-          ) : null}
-        </View>
-
         {loading ? (
           <ActivityIndicator color={colors.button} style={styles.loader} />
         ) : null}
 
         {error ? (
           <View style={[styles.errorBox, { borderColor: colors.border }]}>
-            <Typography variant="body" color={palette.accent}>
+            <Typography variant="body" color={colors.textAccent}>
               {resolveMessage(error, locale)}
             </Typography>
             <Typography variant="caption" color={palette.textMuted}>
@@ -466,7 +466,7 @@ export function ForoScreen() {
               disabled={deletingSelection}
               style={({ pressed }) => [
                 styles.deleteChip,
-                { backgroundColor: palette.accent },
+                { backgroundColor: colors.button },
                 pressed && styles.cardPressed,
                 deletingSelection && styles.deleteChipDisabled,
               ]}>
@@ -484,6 +484,7 @@ export function ForoScreen() {
             canManageForo ? t('foro.emptyNotificationsManage') : t('foro.emptyNotificationsStaff')
           }
           highlighted
+          toneIndex={0}
           canManage={canManageForo}
           sanatorioName={sanatorioName}
           onEdit={openEdit}
@@ -499,6 +500,7 @@ export function ForoScreen() {
             emptyMessage={
               canManageForo ? t('foro.emptyDirectManage') : t('foro.emptyDirectForYou')
             }
+            toneIndex={1}
             canManage={canManageForo}
             sanatorioName={sanatorioName}
             onEdit={openEdit}
@@ -512,6 +514,7 @@ export function ForoScreen() {
           title={t('foro.sectionEvents')}
           posts={boardPosts}
           emptyMessage={canManageForo ? t('foro.emptyEventsManage') : t('foro.emptyEventsStaff')}
+          toneIndex={2}
           canManage={canManageForo}
           sanatorioName={sanatorioName}
           onEdit={openEdit}
@@ -579,9 +582,6 @@ const styles = StyleSheet.create({
   content: {
     gap: spacing.lg,
   },
-  intro: {
-    gap: spacing.xs,
-  },
   loader: {
     marginVertical: spacing.lg,
   },
@@ -596,6 +596,12 @@ const styles = StyleSheet.create({
   },
   sectionTitleBlock: {
     gap: 2,
+  },
+  sectionTitlePill: {
+    alignSelf: 'flex-start',
+    paddingHorizontal: 12,
+    paddingVertical: 5,
+    borderRadius: 999,
   },
   selectAllLink: {
     alignSelf: 'flex-start',

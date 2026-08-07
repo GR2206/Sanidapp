@@ -3,8 +3,8 @@ import { Pressable, StyleSheet, type PressableProps } from 'react-native';
 import { Typography } from '@/components/ui/Typography';
 import { useTextScale } from '@/contexts/TextScaleContext';
 import { useAppTheme } from '@/hooks/useAppTheme';
-import { palette } from '@/theme/colors';
 import { radius, spacing } from '@/theme/spacing';
+import { contrastingInk } from '@/utils/color';
 import { hapticLight } from '@/utils/haptics';
 
 type ButtonVariant = 'primary' | 'secondary';
@@ -30,6 +30,7 @@ export function Button({
   const resolvedAccent =
     accentColor ?? (variant === 'secondary' ? colors.buttonAlt : colors.button);
   const toneStyle = { backgroundColor: resolvedAccent, borderColor: resolvedAccent };
+  const labelColor = contrastingInk(resolvedAccent);
 
   return (
     <Pressable
@@ -54,7 +55,7 @@ export function Button({
         typeof style === 'function' ? style({ pressed, hovered: false }) : style,
       ]}
       {...rest}>
-      <Typography variant="bodyMedium" color={palette.white} style={styles.label}>
+      <Typography variant="bodyMedium" color={labelColor} style={styles.label}>
         {label}
       </Typography>
     </Pressable>

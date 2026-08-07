@@ -7,7 +7,7 @@ type MarkdownStyle = NonNullable<MarkdownProps['style']>;
 
 /** Escala fontSize/lineHeight de estilos markdown. */
 export function scaleTextStyles(
-  styles: MarkdownStyle | undefined,
+  styles: Record<string, unknown> | MarkdownStyle | null | undefined,
   scale: number,
 ): MarkdownStyle {
   const next: Record<string, TextStyle> = {};

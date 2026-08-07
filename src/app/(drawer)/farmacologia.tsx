@@ -51,7 +51,6 @@ import { groupDrugsByLetter } from '@/utils/groupDrugsByLetter';
 import { hapticLight } from '@/utils/haptics';
 import { playKeySound } from '@/services/audio/uiSoundService';
 
-import { palette } from '@/theme/colors';
 import { spacing } from '@/theme/spacing';
 
 
@@ -175,7 +174,7 @@ export default function FarmacologiaScreen() {
 
       <View style={styles.searchWrap}>
 
-        <MaterialCommunityIcons name="magnify" size={18} color={palette.textMuted} />
+        <MaterialCommunityIcons name="magnify" size={18} color={colors.textMuted} />
 
         <TextInput
 
@@ -188,7 +187,7 @@ export default function FarmacologiaScreen() {
 
           placeholder={isPremium ? t('catalog.searchDrug') : t('catalog.searchPathologySamples')}
 
-          placeholderTextColor={palette.textMuted}
+          placeholderTextColor={colors.textMuted}
 
           style={styles.searchInput}
 
@@ -199,7 +198,7 @@ export default function FarmacologiaScreen() {
       </View>
 
       {!isPremium ? (
-        <Typography variant="caption" color={palette.textSecondary} style={{ marginBottom: spacing.sm }}>
+        <Typography variant="caption" color={colors.textSecondary} style={{ marginBottom: spacing.sm }}>
           {t('catalog.freeDrugHint')}
         </Typography>
       ) : null}
@@ -211,6 +210,10 @@ export default function FarmacologiaScreen() {
         keyExtractor={(item) => item.id}
 
         style={styles.list}
+
+        keyboardShouldPersistTaps="handled"
+
+        keyboardDismissMode="on-drag"
 
         stickySectionHeadersEnabled={false}
 
@@ -226,7 +229,7 @@ export default function FarmacologiaScreen() {
 
         ListEmptyComponent={
 
-          <Typography variant="body" color={palette.textSecondary} style={styles.empty}>
+          <Typography variant="body" color={colors.textSecondary} style={styles.empty}>
 
             {query.trim() ? t('common.noResults') : t('catalog.noDrugs')}
 
@@ -234,15 +237,16 @@ export default function FarmacologiaScreen() {
 
         }
 
-        renderSectionHeader={({ section: { title } }) => (
-
-          <Typography variant="subtitle" style={styles.letterHeader}>
-
-            {title}
-
-          </Typography>
-
-        )}
+        renderSectionHeader={({ section: { title } }) => {
+          const tone = styles.letterTone(title);
+          return (
+            <View style={[styles.letterHeaderWrap, tone.wrap]}>
+              <Typography variant="subtitle" style={[styles.letterHeader, tone.text]}>
+                {title}
+              </Typography>
+            </View>
+          );
+        }}
 
         renderItem={({ item }) => (
 
@@ -275,5 +279,6 @@ export default function FarmacologiaScreen() {
   );
 
 }
+
 
 

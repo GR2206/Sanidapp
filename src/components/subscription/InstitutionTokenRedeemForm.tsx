@@ -37,7 +37,7 @@ export function InstitutionTokenRedeemForm({
   const { locale, t } = useLocale();
   const sanatorios = getLocalSanatorios();
   const needsSanatorioPick = allowSanatorioPick && !profile?.sanatorioId;
-  const [sanatorioId, setSanatorioId] = useState(profile?.sanatorioId ?? sanatorios[0]?.id ?? '');
+  const [sanatorioId, setSanatorioId] = useState(profile?.sanatorioId ?? '');
   const [token, setToken] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -45,7 +45,8 @@ export function InstitutionTokenRedeemForm({
   const tokenFieldRef = useRef<View>(null);
 
   const resolvedSubmitLabel = submitLabel ?? t('subscription.activateAccess');
-  const resolvedDescription = description ?? t('subscription.tokenDescription');
+  const resolvedDescription =
+    description === undefined ? t('subscription.tokenDescription') : description.trim();
 
   function focusTokenField() {
     if (scrollRef && scrollYRef) {
@@ -77,11 +78,18 @@ export function InstitutionTokenRedeemForm({
   return (
     <View style={styles.container}>
       <Typography variant="bodyMedium">{t('subscription.institutionToken')}</Typography>
-      <Typography variant="caption" color="#666">
-        {resolvedDescription}
-      </Typography>
+      {resolvedDescription ? (
+        <Typography variant="caption" color="#666">
+          {resolvedDescription}
+        </Typography>
+      ) : null}
       {needsSanatorioPick ? (
-        <SanatorioSelect sanatorios={sanatorios} value={sanatorioId} onChange={setSanatorioId} />
+        <SanatorioSelect
+          sanatorios={sanatorios}
+          value={sanatorioId}
+          onChange={setSanatorioId}
+          hideRegionHint
+        />
       ) : null}
       <View ref={tokenFieldRef} collapsable={false}>
         <TextField

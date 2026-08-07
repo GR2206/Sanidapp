@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sanidapp</title>
+  <style>
+    body{margin:0;min-height:100vh;display:grid;place-items:center;font-family:Segoe UI,system-ui,sans-serif;background:#f4fbfd;color:#0f172a;padding:24px;text-align:center}
+    a{color:#00b4d8;font-weight:600}
+  </style>
+</head>
+<body>
+  <div>
+    <p>El pago PREMIUM no se completó. Volviendo a Sanidapp…</p>
+    <p><a id="open" href="sanidapp://premium/failure">Abrir Sanidapp</a></p>
+  </div>
+  <script>
+    (function(){
+      var deep = 'sanidapp://premium/failure';
+      var q = window.location.search || '';
+      var href = deep + (q ? (deep.indexOf('?') >= 0 ? '&' : '?') + q.slice(1) : '');
+      document.getElementById('open').href = href;
+      window.location.replace(href);
+    })();
+  </script>
+</body>
+</html>

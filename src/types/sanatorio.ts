@@ -49,9 +49,21 @@ export interface Sanatorio {
   city: string;
   branding: SanatorioBranding;
   status: SanatorioBrandingStatus;
+  /** Id de región del catálogo (ej. rosario). */
+  regionId?: string;
+  /** Etiqueta de respaldo si no hay i18n de región. */
+  regionLabel?: string;
 }
 
 export interface SanatorioCatalog {
   region: string;
+  /** Etiqueta legible; la UI prioriza i18n `sanatorios.regions.{region}`. */
+  regionLabel?: string;
   sanatorios: Sanatorio[];
 }
+
+export type SanatorioRegionGroup = {
+  regionId: string;
+  regionLabel: string;
+  sanatorios: Sanatorio[];
+};
