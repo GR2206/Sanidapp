@@ -12,22 +12,20 @@ import { LinearGradient } from 'expo-linear-gradient';
 
 import { Typography } from '@/components/ui/Typography';
 import { useLocale } from '@/contexts/LocaleContext';
-import {
-  NURSING_CAROUSEL_TIP_IDS,
-  nursingCarouselTipKey,
-} from '@/constants/nursingReminders';
 import { useDashboardTheme } from '@/hooks/useDashboardTheme';
-import { loadGuardTipOfDay, type ResolvedGuardTip } from '@/services/content/guardTipService';
+import { loadRandomGuardTips, type ResolvedGuardTip } from '@/services/content/guardTipService';
 import { FREE_QUICK_ACCESS_TONES } from '@/theme/freeCategoryPills';
 import { spacing } from '@/theme/spacing';
 import { mixHexWithBlack } from '@/utils/color';
 
 const PAGE_GAP = spacing.sm;
 const SIDE_INSET = 0;
-/** Tiempo entre slides (era 6.5s; pedían más lento). */
+/** Tiempo entre slides. */
 const AUTO_ADVANCE_MS = 11000;
 /** Altura fija para que todas las tarjetas midan igual. */
 const CARD_HEIGHT = 124;
+/** Cuántos tips muestra el carrusel por visita (elegidos al azar del banco). */
+const CAROUSEL_TIP_COUNT = 5;
 
 type CarouselSlide = {
   id: string;
@@ -47,69 +45,58 @@ function deepBrandGradient(base: string, deepen = 0): [string, string, string] {
 }
 
 /**
- * Carrusel de tips de enfermería (cotidianos + tip clínico del día).
+ * Carrusel de tips clínicos aleatorios (banco amplio + anti-repetición reciente).
  * Free y sanatorios (gradientes derivados de la paleta de marca).
  */
 export function NursingTipsCarousel() {
   const { t, locale } = useLocale();
-  const { colors, fonts, hasBranding, theme } = useDashboardTheme();
-  const [guardTip, setGuardTip] = useState<ResolvedGuardTip | null>(null);
+  const { fonts, hasBranding, theme } = useDashboardTheme();
+  const [tips, setTips] = useState<ResolvedGuardTip[]>([]);
   const [pageWidth, setPageWidth] = useState(Dimensions.get('window').width - spacing.lg * 2);
   const [index, setIndex] = useState(0);
   const scrollRef = useRef<ScrollView>(null);
 
   const brandPrimary = hasBranding ? theme.primary : '#00B4D8';
   const brandAccent = hasBranding ? theme.accent : '#0077B6';
-  const guardColors = useMemo(
+  const palette = useMemo(
     () =>
       hasBranding
-        ? deepBrandGradient(brandPrimary, 0)
-        : (['#00B4D8', '#0077B6', '#023E8A'] as [string, string, string]),
-    [brandPrimary, hasBranding],
-  );
-  const tipColorsA = useMemo(
-    () =>
-      hasBranding
-        ? deepBrandGradient(brandPrimary, 0.06)
-        : (['#059669', '#047857', '#065F46'] as [string, string, string]),
-    [brandPrimary, hasBranding],
-  );
-  const tipColorsB = useMemo(
-    () =>
-      hasBranding
-        ? deepBrandGradient(brandAccent, 0.1)
-        : (['#0284C7', '#0369A1', '#0C4A6E'] as [string, string, string]),
-    [brandAccent, hasBranding],
+        ? ([
+            deepBrandGradient(brandPrimary, 0),
+            deepBrandGradient(brandPrimary, 0.06),
+            deepBrandGradient(brandAccent, 0.1),
+            deepBrandGradient(brandPrimary, 0.12),
+            deepBrandGradient(brandAccent, 0.04),
+          ] as [string, string, string][])
+        : ([
+            ['#00B4D8', '#0077B6', '#023E8A'],
+            ['#059669', '#047857', '#065F46'],
+            ['#0284C7', '#0369A1', '#0C4A6E'],
+            ['#0D9488', '#0F766E', '#115E59'],
+            ['#2563EB', '#1D4ED8', '#1E3A8A'],
+          ] as [string, string, string][]),
+    [brandAccent, brandPrimary, hasBranding],
   );
 
   useEffect(() => {
     let active = true;
-    void loadGuardTipOfDay(locale).then((next) => {
-      if (active) setGuardTip(next);
+    void loadRandomGuardTips(locale, CAROUSEL_TIP_COUNT).then((next) => {
+      if (active) {
+        setTips(next);
+        setIndex(0);
+      }
     });
     return () => {
       active = false;
     };
   }, [locale]);
 
-  const slides: CarouselSlide[] = [
-    ...(guardTip
-      ? [
-          {
-            id: `guard-${guardTip.id}`,
-            kicker: guardTip.label || t('home.guardTipLabel'),
-            text: guardTip.text,
-            colors: guardColors,
-          },
-        ]
-      : []),
-    ...NURSING_CAROUSEL_TIP_IDS.map((id, tipIndex) => ({
-      id,
-      kicker: t('nursing.tipsKicker'),
-      text: t(nursingCarouselTipKey(id)),
-      colors: tipIndex % 2 === 0 ? tipColorsA : tipColorsB,
-    })),
-  ];
+  const slides: CarouselSlide[] = tips.map((tip, tipIndex) => ({
+    id: tip.id,
+    kicker: tip.label || t('nursing.tipsKicker'),
+    text: tip.text,
+    colors: palette[tipIndex % palette.length]!,
+  }));
 
   useEffect(() => {
     if (slides.length <= 1) return;

@@ -1,13 +1,13 @@
 {
-  "version": "1.1",
-  "updatedAt": "2026-07-29",
+  "version": "2.0",
+  "updatedAt": "2026-08-06",
   "tips": [
     {
       "id": "vanco-infusion",
       "label": {
-        "es": "Tip de Guardia",
-        "en": "On-call tip",
-        "pt-BR": "Dica de plantão"
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
       },
       "text": {
         "es": "Revisá los nuevos rangos de infusión para Vancomicina.",
@@ -18,9 +18,9 @@
     {
       "id": "abc-drip",
       "label": {
-        "es": "Tip de Guardia",
-        "en": "On-call tip",
-        "pt-BR": "Dica de plantão"
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
       },
       "text": {
         "es": "Antes de iniciar un goteo, confirmá vía, dilución y tiempo de infusión.",
@@ -31,14 +31,1015 @@
     {
       "id": "allergy-check",
       "label": {
-        "es": "Tip de Guardia",
-        "en": "On-call tip",
-        "pt-BR": "Dica de plantão"
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
       },
       "text": {
         "es": "Chequeá alergias documentadas antes de administrar el primer antibiótico.",
         "en": "Check documented allergies before giving the first antibiotic.",
         "pt-BR": "Verifique alergias documentadas antes de administrar o primeiro antibiótico."
+      }
+    },
+    {
+      "id": "hand-hygiene",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Antes y después de cada contacto: higiene de manos. Es el gesto que más protege.",
+        "en": "Before and after every contact: hand hygiene. It is the habit that protects most.",
+        "pt-BR": "Antes e depois de cada contato: higiene das mãos. É o gesto que mais protege."
+      }
+    },
+    {
+      "id": "double-check",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Doble chequeo en fármacos de alto riesgo: paciente, droga, dosis, vía y hora.",
+        "en": "Double-check high-alert meds: patient, drug, dose, route, and time.",
+        "pt-BR": "Dupla checagem em fármacos de alto risco: paciente, droga, dose, via e horário."
+      }
+    },
+    {
+      "id": "iv-site",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Revisá el sitio de acceso IV: dolor, enrojecimiento o extravasación no esperan.",
+        "en": "Check the IV site: pain, redness, or extravasation cannot wait.",
+        "pt-BR": "Revise o sítio de acesso IV: dor, hiperemia ou extravasamento não esperam."
+      }
+    },
+    {
+      "id": "vital-recheck",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Si un signo vital no cierra con el cuadro clínico, volvé a tomarlo y registrá.",
+        "en": "If a vital sign does not match the clinical picture, retake it and document.",
+        "pt-BR": "Se um sinal vital não fecha com o quadro, repita a aferição e registre."
+      }
+    },
+    {
+      "id": "handoff",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "En el pase de guardia: pendientes, riesgos y lo que no puede esperar.",
+        "en": "At handoff: pending tasks, risks, and what cannot wait.",
+        "pt-BR": "No passe de plantão: pendências, riscos e o que não pode esperar."
+      }
+    },
+    {
+      "id": "pain-scale",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Evaluá el dolor con escala y registrá la respuesta al analgésico.",
+        "en": "Assess pain with a scale and document the response to analgesia.",
+        "pt-BR": "Avalie a dor com escala e registre a resposta ao analgésico."
+      }
+    },
+    {
+      "id": "fall-risk",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Paciente con riesgo de caída: barandas, calzado y acompañamiento al baño.",
+        "en": "Fall-risk patient: side rails, footwear, and escort to the bathroom.",
+        "pt-BR": "Paciente com risco de queda: grades, calçado e acompanhamento ao banheiro."
+      }
+    },
+    {
+      "id": "two-identifiers",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Identificá al paciente con al menos dos datos antes de medicar o extraer.",
+        "en": "Identify the patient with at least two identifiers before meds or labs.",
+        "pt-BR": "Identifique o paciente com pelo menos dois dados antes de medicar ou coletar."
+      }
+    },
+    {
+      "id": "pump-settings",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Antes de arrancar la bomba, verificá droga, concentración, velocidad y unidad.",
+        "en": "Before starting the pump, verify drug, concentration, rate, and unit.",
+        "pt-BR": "Antes de ligar a bomba, verifique droga, concentração, velocidade e unidade."
+      }
+    },
+    {
+      "id": "kcl-safety",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "KCl IV solo en dilución adecuada y con bomba: nunca en bolo.",
+        "en": "IV KCl only properly diluted and on a pump: never as a bolus.",
+        "pt-BR": "KCl EV só em diluição adequada e com bomba: nunca em bolo."
+      }
+    },
+    {
+      "id": "insulin-check",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Insulina: confirmá tipo, unidades y si es SC o IV con un segundo profesional.",
+        "en": "Insulin: confirm type, units, and SC vs IV with a second clinician.",
+        "pt-BR": "Insulina: confirme tipo, unidades e se é SC ou EV com um segundo profissional."
+      }
+    },
+    {
+      "id": "oxygen-target",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Oxígeno: ajustá al objetivo de SpO2 indicado; más no siempre es mejor.",
+        "en": "Oxygen: titrate to the ordered SpO2 target; more is not always better.",
+        "pt-BR": "Oxigênio: ajuste ao alvo de SpO2 indicado; mais nem sempre é melhor."
+      }
+    },
+    {
+      "id": "pressure-ulcer",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Cambiá de decúbito y revisá prominencias óseas en pacientes de riesgo.",
+        "en": "Reposition and check bony prominences in at-risk patients.",
+        "pt-BR": "Mude de decúbito e revise proeminências ósseas em pacientes de risco."
+      }
+    },
+    {
+      "id": "urine-output",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Diuresis horaria baja o anuria: avisá temprano, no esperes al cierre.",
+        "en": "Low hourly urine output or anuria: escalate early, do not wait for shift end.",
+        "pt-BR": "Diurese horária baixa ou anúria: avise cedo, não espere o fechamento."
+      }
+    },
+    {
+      "id": "ng-tube",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "SNG: confirmá posición antes de administrar medicación o nutrición.",
+        "en": "NG tube: confirm placement before giving medication or feeds.",
+        "pt-BR": "SNG: confirme posição antes de administrar medicação ou nutrição."
+      }
+    },
+    {
+      "id": "sepsis-watch",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Taquicardia + hipotensión + fiebre o hipotermia: pensá sepsis y actuá ya.",
+        "en": "Tachycardia + hypotension + fever or hypothermia: think sepsis and act now.",
+        "pt-BR": "Taquicardia + hipotensão + febre ou hipotermia: pense sepse e aja já."
+      }
+    },
+    {
+      "id": "hypoglycemia",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Temblor, sudoración o confusión en diabético: glucemia capilar ahora.",
+        "en": "Tremor, sweating, or confusion in a diabetic: check capillary glucose now.",
+        "pt-BR": "Tremor, sudorese ou confusão em diabético: glicemia capilar agora."
+      }
+    },
+    {
+      "id": "chest-pain",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Dolor precordial nuevo: ECG, signos vitales y aviso inmediato.",
+        "en": "New chest pain: ECG, vitals, and immediate escalation.",
+        "pt-BR": "Dor precordial nova: ECG, sinais vitais e aviso imediato."
+      }
+    },
+    {
+      "id": "stroke-fast",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Déficit neurológico súbito: hora de inicio, glucemia y activá código.",
+        "en": "Sudden neuro deficit: onset time, glucose, and activate stroke pathway.",
+        "pt-BR": "Déficit neurológico súbito: horário de início, glicemia e ative o código."
+      }
+    },
+    {
+      "id": "fluid-balance",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Balances: registrá ingresos y egresos en tiempo real, no al final del turno.",
+        "en": "Fluid balance: record intake and output in real time, not at shift end.",
+        "pt-BR": "Balanços: registre entradas e saídas em tempo real, não no fim do plantão."
+      }
+    },
+    {
+      "id": "lab-critical",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Valor crítico de laboratorio: confirmá recepción y comunicá al médico ya.",
+        "en": "Critical lab value: confirm receipt and notify the physician immediately.",
+        "pt-BR": "Valor crítico de laboratório: confirme recebimento e comunique o médico já."
+      }
+    },
+    {
+      "id": "isolation",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Aislamiento: equipo correcto en la puerta y explicación breve al familiar.",
+        "en": "Isolation: correct PPE at the door and a brief explanation to family.",
+        "pt-BR": "Isolamento: EPI correto na porta e explicação breve ao familiar."
+      }
+    },
+    {
+      "id": "transfusion",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Transfusión: doble chequeo de unidad, paciente y signos en los primeros 15 min.",
+        "en": "Transfusion: double-check unit and patient; watch vitals in the first 15 min.",
+        "pt-BR": "Transfusão: dupla checagem de unidade e paciente; vigie sinais nos primeiros 15 min."
+      }
+    },
+    {
+      "id": "catheter-care",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Sonda vesical: bolsa bajo el nivel de la vejiga y circuito cerrado.",
+        "en": "Urinary catheter: bag below bladder level and keep the system closed.",
+        "pt-BR": "Sonda vesical: bolsa abaixo do nível da bexiga e sistema fechado."
+      }
+    },
+    {
+      "id": "wound-care",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Curación: asepsia, observación de exudado/olor y registro fotográfico si corresponde.",
+        "en": "Wound care: asepsis, check exudate/odor, and photo charting when indicated.",
+        "pt-BR": "Curativo: assepsia, observar exsudato/odor e registro fotográfico se indicado."
+      }
+    },
+    {
+      "id": "med-recon",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Al ingreso o traslado: reconciliá medicación habitual vs lo indicado hoy.",
+        "en": "On admission or transfer: reconcile home meds vs today’s orders.",
+        "pt-BR": "Na admissão ou transferência: reconcilie medicação habitual vs a de hoje."
+      }
+    },
+    {
+      "id": "dvt-prophylaxis",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Profilaxis TVP: medias/compresión y deambulación temprana si está autorizado.",
+        "en": "DVT prophylaxis: compression and early ambulation when allowed.",
+        "pt-BR": "Profilaxia de TVP: meias/compressão e deambulação precoce se autorizado."
+      }
+    },
+    {
+      "id": "aspiration",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Riesgo de broncoaspiración: cabecera elevada y vigilancia al alimentar.",
+        "en": "Aspiration risk: elevate head of bed and supervise feeding.",
+        "pt-BR": "Risco de broncoaspiração: cabeceira elevada e vigilância ao alimentar."
+      }
+    },
+    {
+      "id": "restraint",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Sujeción mecánica solo con indicación, reevaluación frecuente y registro.",
+        "en": "Physical restraint only with an order, frequent reassessment, and documentation.",
+        "pt-BR": "Contenção mecânica só com indicação, reavaliação frequente e registro."
+      }
+    },
+    {
+      "id": "crash-cart",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Conocé la ubicación del carro de paro y verificá sellos/caducidades del turno.",
+        "en": "Know the crash cart location and check seals/expiries each shift.",
+        "pt-BR": "Saiba onde está o carro de parada e verifique lacres/validades do plantão."
+      }
+    },
+    {
+      "id": "code-blue",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Durante RCP: roles claros, tiempos y registro; pedí ayuda temprano.",
+        "en": "During CPR: clear roles, timing, and charting; call for help early.",
+        "pt-BR": "Durante RCP: papéis claros, tempos e registro; peça ajuda cedo."
+      }
+    },
+    {
+      "id": "fever-workup",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Fiebre en inmunocomprometido: cultivos y aviso sin demorar el antimicrobiano.",
+        "en": "Fever in immunocompromised patients: cultures and escalate without delaying antimicrobials.",
+        "pt-BR": "Febre em imunocomprometido: culturas e aviso sem atrasar o antimicrobiano."
+      }
+    },
+    {
+      "id": "electrolytes",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Hipokalemia o hipomagnesemia: corregí según protocolo y rechequeá ECG si hay arritmia.",
+        "en": "Hypokalemia or hypomagnesemia: correct per protocol and recheck ECG if arrhythmia.",
+        "pt-BR": "Hipocalemia ou hipomagnesemia: corrija conforme protocolo e recheque ECG se houver arritmia."
+      }
+    },
+    {
+      "id": "anticoag",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Anticoagulado: vigilá sangrado, hematomas y caídas; confirmá INR/anti-Xa si aplica.",
+        "en": "On anticoagulants: watch for bleeding, bruises, and falls; confirm INR/anti-Xa if needed.",
+        "pt-BR": "Anticoagulado: vigie sangramento, hematomas e quedas; confirme INR/anti-Xa se aplicável."
+      }
+    },
+    {
+      "id": "opioid",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Opioides: respiración, sedación y naloxona a mano antes de la próxima dosis.",
+        "en": "Opioids: check respiration and sedation; keep naloxone ready before the next dose.",
+        "pt-BR": "Opioides: respiração, sedação e naloxona à mão antes da próxima dose."
+      }
+    },
+    {
+      "id": "pediatric-weight",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "En pediatría: dosis por peso actual; no asumas el de ayer.",
+        "en": "In pediatrics: dose by current weight; do not assume yesterday’s weight.",
+        "pt-BR": "Em pediatria: dose pelo peso atual; não assuma o de ontem."
+      }
+    },
+    {
+      "id": "neonate-temp",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Neonato: mantené cadena de calor; la hipotermia empeora la evolución.",
+        "en": "Neonate: keep the warm chain; hypothermia worsens outcomes.",
+        "pt-BR": "Neonato: mantenha a cadeia de calor; a hipotermia piora a evolução."
+      }
+    },
+    {
+      "id": "breastfeeding",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Lactancia: posición, agarre y signos de transferencia efectiva de leche.",
+        "en": "Breastfeeding: position, latch, and signs of effective milk transfer.",
+        "pt-BR": "Amamentação: posição, pega e sinais de transferência efetiva de leite."
+      }
+    },
+    {
+      "id": "psych-safety",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Agitación: seguridad del entorno, desescalada verbal y pedido de ayuda.",
+        "en": "Agitation: safe environment, verbal de-escalation, and call for help.",
+        "pt-BR": "Agitação: segurança do ambiente, desescalada verbal e pedido de ajuda."
+      }
+    },
+    {
+      "id": "privacy",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Confidencialidad: no comentes datos clínicos en pasillos ni ascensores.",
+        "en": "Confidentiality: do not discuss clinical data in hallways or elevators.",
+        "pt-BR": "Confidencialidade: não comente dados clínicos em corredores ou elevadores."
+      }
+    },
+    {
+      "id": "family-update",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Familia angustiada: información clara, empática y alineada con el equipo.",
+        "en": "Distressed family: clear, empathetic updates aligned with the care team.",
+        "pt-BR": "Família angustiada: informação clara, empática e alinhada com a equipe."
+      }
+    },
+    {
+      "id": "shift-priorities",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Priorizá: vía aérea, inestables, pendientes críticos y medicación horaria.",
+        "en": "Prioritize: airway, unstable patients, critical tasks, and timed meds.",
+        "pt-BR": "Priorize: via aérea, instáveis, pendências críticas e medicação horária."
+      }
+    },
+    {
+      "id": "documentation",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Si no está escrito, no está hecho: registrá hallazgos y acciones al momento.",
+        "en": "If it is not written, it was not done: chart findings and actions promptly.",
+        "pt-BR": "Se não está escrito, não foi feito: registre achados e ações na hora."
+      }
+    },
+    {
+      "id": "needle-stick",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Pinchazo: lavá, avisá, y seguí el protocolo de exposición ocupacional ya.",
+        "en": "Needlestick: wash, report, and follow occupational exposure protocol now.",
+        "pt-BR": "Picada: lave, avise e siga o protocolo de exposição ocupacional já."
+      }
+    },
+    {
+      "id": "ppe-doffing",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Al retirar EPP: el orden importa; evitá contaminarte al desvestirte.",
+        "en": "When doffing PPE: order matters; avoid self-contamination.",
+        "pt-BR": "Ao retirar EPI: a ordem importa; evite se contaminar ao despir."
+      }
+    },
+    {
+      "id": "hydration",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Adulto mayor: ofrecé líquidos y vigilá signos de deshidratación.",
+        "en": "Older adults: offer fluids and watch for dehydration signs.",
+        "pt-BR": "Idoso: ofereça líquidos e vigie sinais de desidratação."
+      }
+    },
+    {
+      "id": "constipation",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Días sin evacuación + distensión: evaluá íleo/obstrucción, no solo estreñimiento.",
+        "en": "Days without stool + distension: consider ileus/obstruction, not just constipation.",
+        "pt-BR": "Dias sem evacuação + distensão: avalie íleo/obstrução, não só prisão de ventre."
+      }
+    },
+    {
+      "id": "skin-rash",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Erupción nueva tras fármaco: suspendé sospechosos según protocolo y avisá.",
+        "en": "New rash after a drug: hold suspects per protocol and escalate.",
+        "pt-BR": "Erupção nova após fármaco: suspenda suspeitos conforme protocolo e avise."
+      }
+    },
+    {
+      "id": "anaphylaxis",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Anafilaxia: adrenalina IM precoz, vía aérea y llamado de emergencia.",
+        "en": "Anaphylaxis: early IM epinephrine, airway, and emergency call.",
+        "pt-BR": "Anafilaxia: adrenalina IM precoce, via aérea e chamado de emergência."
+      }
+    },
+    {
+      "id": "hypoxia",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Desaturación: oxígeno, posición, aspiración si corresponde y causa reversible.",
+        "en": "Desaturation: oxygen, positioning, suction if needed, and reversible causes.",
+        "pt-BR": "Dessaturação: oxigênio, posição, aspiração se indicado e causas reversíveis."
+      }
+    },
+    {
+      "id": "delirium",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Delirio: orientación, luz diurna, audífonos/lentes y revisar fármacos.",
+        "en": "Delirium: reorient, daytime light, glasses/hearing aids, and review meds.",
+        "pt-BR": "Delirium: orientação, luz diurna, óculos/aparelho e revisar fármacos."
+      }
+    },
+    {
+      "id": "pressure-cuff",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "TA muy alta o muy baja vs basal: repetí en el otro brazo y contextualizá.",
+        "en": "BP far from baseline: repeat on the other arm and interpret in context.",
+        "pt-BR": "PA muito alta ou baixa vs basal: repita no outro braço e contextualize."
+      }
+    },
+    {
+      "id": "infusion-site",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Quemazón o hinchazón en sitio de infusión: detené y evaluá extravasación.",
+        "en": "Burning or swelling at infusion site: stop and assess extravasation.",
+        "pt-BR": "Ardência ou inchaço no sítio de infusão: pare e avalie extravasamento."
+      }
+    },
+    {
+      "id": "oral-care",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Higiene oral en intubados/NPO reduce riesgo de neumonía asociada.",
+        "en": "Oral care in intubated/NPO patients lowers pneumonia risk.",
+        "pt-BR": "Higiene oral em intubados/NPO reduz risco de pneumonia associada."
+      }
+    },
+    {
+      "id": "early-warning",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Score de alerta temprana en alza: reevaluá y escalá antes del deterioro.",
+        "en": "Rising early-warning score: reassess and escalate before deterioration.",
+        "pt-BR": "Escore de alerta precoce em alta: reavalie e escale antes da deterioração."
+      }
+    },
+    {
+      "id": "blood-sugar-timing",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Glucometrías: respetá horarios precomida/post y relacioná con insulina.",
+        "en": "Glucose checks: respect pre/post meal timing and link to insulin.",
+        "pt-BR": "Glicemias: respeite horários pré/pós-refeição e relacione com a insulina."
+      }
+    },
+    {
+      "id": "consent",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Procedimiento invasivo: confirmá consentimiento y ayuno si corresponde.",
+        "en": "Invasive procedure: confirm consent and NPO status when required.",
+        "pt-BR": "Procedimento invasivo: confirme consentimento e jejum se indicado."
+      }
+    },
+    {
+      "id": "line-labels",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Etiquetá vías y bombas: evita intercambios de líneas en emergencias.",
+        "en": "Label lines and pumps: prevent line mix-ups in emergencies.",
+        "pt-BR": "Etiquete vias e bombas: evite trocas de linhas em emergências."
+      }
+    },
+    {
+      "id": "quiet-handoff",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Pase a pie de cama o con checklist: menos omisiones, más seguridad.",
+        "en": "Bedside or checklist handoff: fewer omissions, more safety.",
+        "pt-BR": "Passe à beira do leito ou com checklist: menos omissões, mais segurança."
+      }
+    },
+    {
+      "id": "self-care",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Cuidarte también es seguridad del paciente: hidratate y pedí relevo a tiempo.",
+        "en": "Your self-care is patient safety: hydrate and ask for relief on time.",
+        "pt-BR": "Cuidar de si também é segurança do paciente: hidrate-se e peça relevo a tempo."
+      }
+    },
+    {
+      "id": "culture-before-abx",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Si es posible, cultivos antes del primer antibiótico sin retrasar lo crítico.",
+        "en": "When possible, cultures before the first antibiotic without delaying critical care.",
+        "pt-BR": "Se possível, culturas antes do primeiro antibiótico sem atrasar o crítico."
+      }
+    },
+    {
+      "id": "weight-based",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Dosis por peso: usá el peso real del día en pediatría y obesidad mórbida.",
+        "en": "Weight-based dosing: use today’s actual weight in pediatrics and severe obesity.",
+        "pt-BR": "Dose por peso: use o peso real do dia em pediatria e obesidade mórbida."
+      }
+    },
+    {
+      "id": "monitor-alarms",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Alarmas: ajustá límites útiles; el ruido constante genera fatiga de alarma.",
+        "en": "Alarms: set useful limits; constant noise drives alarm fatigue.",
+        "pt-BR": "Alarmes: ajuste limites úteis; o ruído constante gera fadiga de alarme."
+      }
+    },
+    {
+      "id": "postop",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Postquirúrgico: dolor, sangrado, diuresis y signos de infección de herida.",
+        "en": "Post-op: pain, bleeding, urine output, and wound infection signs.",
+        "pt-BR": "Pós-operatório: dor, sangramento, diurese e sinais de infecção da ferida."
+      }
+    },
+    {
+      "id": "asthma",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Crisis asmática: posición, oxígeno y tiempos exactos del nebulizado/esteroide.",
+        "en": "Asthma flare: positioning, oxygen, and exact timing of neb/steroid.",
+        "pt-BR": "Crise asmática: posição, oxigênio e tempos exatos do nebulizado/esteroide."
+      }
+    },
+    {
+      "id": "gi-bleed",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Hematemesis o melena: vía, signos, muestra de grupo y aviso urgente.",
+        "en": "Hematemesis or melena: access, vitals, type and screen, urgent escalation.",
+        "pt-BR": "Hematemese ou melena: acesso, sinais, tipagem e aviso urgente."
+      }
+    },
+    {
+      "id": "pregnancy",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Embarazada: decúbito lateral izquierdo si hipotensa; pensá causa obstétrica.",
+        "en": "Pregnant patient: left lateral if hypotensive; consider obstetric causes.",
+        "pt-BR": "Gestante: decúbito lateral esquerdo se hipotensa; pense causa obstétrica."
+      }
+    },
+    {
+      "id": "end-of-life",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Cuidados paliativos: confort, dolor controlado y presencia humana primero.",
+        "en": "Palliative care: comfort, controlled pain, and human presence first.",
+        "pt-BR": "Cuidados paliativos: conforto, dor controlada e presença humana primeiro."
+      }
+    },
+    {
+      "id": "med-expiry",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Antes de diluir: chequear fecha de vencimiento y aspecto del frasco.",
+        "en": "Before diluting: check expiry date and vial appearance.",
+        "pt-BR": "Antes de diluir: verifique validade e aspecto do frasco."
+      }
+    },
+    {
+      "id": "high-alert",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Medicamentos de alto riesgo: nunca improvises concentraciones “de memoria”.",
+        "en": "High-alert meds: never improvise concentrations from memory.",
+        "pt-BR": "Medicamentos de alto risco: nunca improvise concentrações de memória."
+      }
+    },
+    {
+      "id": "iv-flush",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Tras medicar por vía: flush adecuado según protocolo y compatibilidad.",
+        "en": "After IV meds: flush per protocol and compatibility.",
+        "pt-BR": "Após medicar EV: flush adequado conforme protocolo e compatibilidade."
+      }
+    },
+    {
+      "id": "restraints-check",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Si hay sujeción: circulación distal, integridad cutánea y reevaluación horaria.",
+        "en": "If restrained: distal circulation, skin integrity, and hourly reassessment.",
+        "pt-BR": "Se houver contenção: circulação distal, pele e reavaliação horária."
+      }
+    },
+    {
+      "id": "shift-start",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Al iniciar el turno: revisá pendientes críticos antes del primer café.",
+        "en": "At shift start: review critical pending tasks before the first coffee.",
+        "pt-BR": "Ao iniciar o plantão: revise pendências críticas antes do primeiro café."
+      }
+    },
+    {
+      "id": "discharge-teach",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Al alta: explicá signos de alarma y medicación en lenguaje simple.",
+        "en": "At discharge: explain warning signs and meds in plain language.",
+        "pt-BR": "Na alta: explique sinais de alarme e medicação em linguagem simples."
+      }
+    },
+    {
+      "id": "noise-sleep",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Sueño del paciente: agrupá cuidados nocturnos y bajá luces/ruidos.",
+        "en": "Patient sleep: cluster night care and lower lights/noise.",
+        "pt-BR": "Sono do paciente: agrupe cuidados noturnos e reduza luzes/ruídos."
+      }
+    },
+    {
+      "id": "hydration-iv",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "Bolsa IV casi vacía: programá el recambio antes de que entre aire.",
+        "en": "IV bag almost empty: schedule the change before air enters the line.",
+        "pt-BR": "Bolsa EV quase vazia: programe a troca antes que entre ar."
+      }
+    },
+    {
+      "id": "fall-night",
+      "label": {
+        "es": "Tip",
+        "en": "Tip",
+        "pt-BR": "Dica"
+      },
+      "text": {
+        "es": "De noche: luz de orientación, barandas y respuesta rápida al llamado.",
+        "en": "At night: night light, side rails, and quick call-bell response.",
+        "pt-BR": "À noite: luz de orientação, grades e resposta rápida ao chamado."
       }
     }
   ]

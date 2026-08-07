@@ -1,3 +1,5 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 import localGuardTips from '../../../content/feeds/home-guard-tip-free.json';
 import { APP_CONFIG } from '@/constants/config';
 import type { AppLocale } from '@/i18n/types';
@@ -9,6 +11,9 @@ import {
 } from '@/types/guardTip';
 
 const LOCAL_TIPS = localGuardTips as GuardTipPage;
+const RECENT_TIP_IDS_KEY = '@sanidapp/recent-home-tip-ids';
+/** Evita repetir los mismos tips en aperturas seguidas. */
+const RECENT_TIP_WINDOW = 30;
 
 export type ResolvedGuardTip = {
   id: string;
@@ -16,26 +21,8 @@ export type ResolvedGuardTip = {
   text: string;
 };
 
-function dayOfYear(date = new Date()): number {
-  const start = new Date(date.getFullYear(), 0, 0);
-  const diff = date.getTime() - start.getTime();
-  return Math.floor(diff / (1000 * 60 * 60 * 24));
-}
-
 function tipHasText(tip: GuardTipItem, locale: AppLocale): boolean {
   return Boolean(resolveLocalizedText(tip.text, locale));
-}
-
-function pickTipOfDay(
-  tips: GuardTipItem[],
-  locale: AppLocale,
-  date = new Date(),
-): GuardTipItem | null {
-  const list = tips.filter((tip) => tipHasText(tip, locale));
-  if (list.length === 0) {
-    return null;
-  }
-  return list[dayOfYear(date) % list.length] ?? list[0];
 }
 
 function normalizePage(payload: GuardTipPage | null | undefined): GuardTipItem[] {
@@ -57,11 +44,66 @@ function resolveTip(tip: GuardTipItem, locale: AppLocale): ResolvedGuardTip | nu
   };
 }
 
-/**
- * Tip clínico del día para home free.
- * Prioriza Gist; si falla, usa JSON empaquetado. Resuelve textos por idioma.
- */
-export async function loadGuardTipOfDay(locale: AppLocale): Promise<ResolvedGuardTip | null> {
+function shuffleInPlace<T>(items: T[]): T[] {
+  for (let i = items.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = items[i]!;
+    items[i] = items[j]!;
+    items[j] = tmp;
+  }
+  return items;
+}
+
+async function readRecentTipIds(): Promise<string[]> {
+  try {
+    const raw = await AsyncStorage.getItem(RECENT_TIP_IDS_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as unknown;
+    if (!Array.isArray(parsed)) return [];
+    return parsed.map((id) => String(id)).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
+async function rememberTipIds(ids: string[]): Promise<void> {
+  if (ids.length === 0) return;
+  try {
+    const previous = await readRecentTipIds();
+    const merged = [...ids, ...previous.filter((id) => !ids.includes(id))].slice(
+      0,
+      RECENT_TIP_WINDOW,
+    );
+    await AsyncStorage.setItem(RECENT_TIP_IDS_KEY, JSON.stringify(merged));
+  } catch {
+    // ignore
+  }
+}
+
+function pickAvoidingRecent(pool: GuardTipItem[], recentIds: string[], count: number): GuardTipItem[] {
+  if (pool.length === 0 || count <= 0) return [];
+  const recent = new Set(recentIds);
+  const fresh = shuffleInPlace(pool.filter((tip) => !recent.has(tip.id)));
+  const reused = shuffleInPlace(pool.filter((tip) => recent.has(tip.id)));
+  const ordered = fresh.length > 0 ? [...fresh, ...reused] : reused;
+  const picked: GuardTipItem[] = [];
+  const used = new Set<string>();
+  for (const tip of ordered) {
+    if (used.has(tip.id)) continue;
+    used.add(tip.id);
+    picked.push(tip);
+    if (picked.length >= Math.min(count, pool.length)) break;
+  }
+  return picked;
+}
+
+async function loadTipPool(locale: AppLocale): Promise<GuardTipItem[]> {
+  const localTips = normalizePage(LOCAL_TIPS);
+  const byId = new Map<string, GuardTipItem>();
+  for (const tip of localTips) {
+    if (tip?.id) byId.set(String(tip.id), tip);
+  }
+
   const { gistUser, gistId, filename } = APP_CONFIG.homeGuardTip;
   try {
     if (gistId.trim()) {
@@ -70,15 +112,43 @@ export async function loadGuardTipOfDay(locale: AppLocale): Promise<ResolvedGuar
         gistId,
         filename,
       });
-      const picked = pickTipOfDay(normalizePage(remote), locale);
-      return picked ? resolveTip(picked, locale) : null;
+      for (const tip of normalizePage(remote)) {
+        if (tip?.id) byId.set(String(tip.id), tip);
+      }
     }
   } catch (error) {
     console.warn('No se pudo cargar tip de guardia desde gist:', error);
   }
 
-  const localPicked = pickTipOfDay(normalizePage(LOCAL_TIPS), locale);
-  return localPicked ? resolveTip(localPicked, locale) : null;
+  return [...byId.values()].filter((tip) => tipHasText(tip, locale));
+}
+
+/**
+ * Un tip aleatorio para el banner (evita los vistos recientemente).
+ */
+export async function loadGuardTipOfDay(locale: AppLocale): Promise<ResolvedGuardTip | null> {
+  const [picked] = await loadRandomGuardTips(locale, 1);
+  return picked ?? null;
+}
+
+/**
+ * Varios tips aleatorios para el carrusel del home.
+ */
+export async function loadRandomGuardTips(
+  locale: AppLocale,
+  count: number,
+): Promise<ResolvedGuardTip[]> {
+  const pool = await loadTipPool(locale);
+  if (pool.length === 0) return [];
+
+  const recentIds = await readRecentTipIds();
+  const picked = pickAvoidingRecent(pool, recentIds, count);
+  const resolved = picked
+    .map((tip) => resolveTip(tip, locale))
+    .filter((tip): tip is ResolvedGuardTip => Boolean(tip));
+
+  await rememberTipIds(resolved.map((tip) => tip.id));
+  return resolved;
 }
 
 export function getGuardTipGistRawUrl(): string {
