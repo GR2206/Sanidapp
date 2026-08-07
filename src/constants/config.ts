@@ -39,7 +39,7 @@ export const APP_CONFIG = {
    * Tip / clima de guardia del home free (banner gancho).
    * Archivo Gist: `home-guard-tip-free.json`
    * → `{ "tips": [{ "id", "label?", "text" }] }`
-   * Rota un tip por día. Sanatorios no lo usan.
+   * Se elige al azar (con anti-repetición). Sanatorios usan el mismo carrusel.
    */
   homeGuardTip: {
     gistUser: 'GR2206',
