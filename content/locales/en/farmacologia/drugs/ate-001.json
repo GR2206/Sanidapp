@@ -2,46 +2,47 @@
   "id": "ate-001",
   "name": "Atenolol",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Selective beta-blocker. Antihypertensive. Beta-adrenergic antagonist.",
-  "indications": "## Main indications\n\nSelective beta-blocker. Antihypertensive. Beta-adrenergic antagonist.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "β1-selective. Adult HTN/angina: **25–100 mg PO/day** (usual **50 mg**). IV (limited): **5 mg** over 5 min, may repeat **5 mg**. Pediatrics: **0.5–1 mg/kg/day** (max **2 mg/kg/day** or **100 mg**). Do not stop abruptly.",
+  "indications": "## Indications\n\n- Hypertension, angina, rate control in AF/tachycardia (alternative to other β-blockers).\n- Post-MI in selected regimens.\n\n## Precautions\n\n- Bradycardia, AV block, decompensated HF, asthma/COPD (less than non-selective, still a risk).\n- Masks hypoglycemia. Adjust in renal failure.\n- **No abrupt stop** (angina/MI rebound).\n\n> Hospital IV less used vs metoprolol/esmolol — follow local card.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 50 and 100 mg. Ampoule 5 mg/10 mL (limited IV use).",
-      "dose": "HTN/angina: 50–100 mg/day PO. Arrhythmias: per cardiology protocol.",
-      "administration": "PO in single or divided doses."
+      "presentation": "Tabs 25–50–100 mg; ampoule 5 mg/10 mL (if available).",
+      "dose": "HTN/angina: **25–50 mg PO/day**; increase to **100 mg/day** if needed (angina sometimes up to **200 mg/day**). IV: **5 mg** over ≥5 min; may repeat **5 mg** after 10 min (orient. max **10 mg**).",
+      "administration": "PO once daily (or divided). Slow IV with monitoring.",
+      "notes": "CrCl <35: reduce dose/interval per label."
     },
     "pediatrico": {
-      "dose": "Children: initial: 0.5 to 1 mg/kg/day every 12-24 h; maximum dose: 2 mg/kg/day, up to 100 mg/day. Adults: 25-50 mg/day every 24 h, maximum dose: hypertension: 100 mg/day; angina: 200 mg/day.",
-      "administration": "PO",
-      "presentation": "Tablets: 50-100 mg; Suspension (compounded preparation): 5 mg/mL",
-      "notes": "Avoid abrupt discontinuation. Use with caution in patients with bronchospasm, diabetes mellitus, hyperthyroidism. Initial doses of antihypertensives are tentative and should be modified according to clinical response and side effects. See preliminary guide for prevention of teratogenesis caused by medications."
+      "presentation": "Tabs 50–100 mg; compounded suspension 5 mg/mL.",
+      "dose": "Start **0.5–1 mg/kg/day** every 12–24 h; max **2 mg/kg/day** or **100 mg/day**.",
+      "administration": "PO.",
+      "notes": "Titrate by HR/BP. Caution in bronchospasm and diabetes."
     }
   },
-  "stability": "## Stability\n\n- Tablets per prescribing information.",
-  "adverseEffects": "## Adverse effects\n\nFatigue, lethargy, hallucinations, bradycardia, hypotension, rash, nausea, vomiting.",
+  "stability": "## Stability\n\n- Tablets per label. IV: use immediately.",
+  "adverseEffects": "## Adverse effects\n\nFatigue, bradycardia, hypotension, cold extremities, sleep disturbance, nausea; rarely bronchospasm.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Atenolol (code 0263, ATC C07AB).",
+      "citation": "Garrahan Hospital. Formulary — atenolol.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. Hypertension and arrhythmia guidelines.",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "American Heart Association. Clinical guidelines.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "citation": "Sociedad Argentina de Cardiología. Clinical practice guidelines.",
       "url": "https://www.sac.org.ar/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ]
 }

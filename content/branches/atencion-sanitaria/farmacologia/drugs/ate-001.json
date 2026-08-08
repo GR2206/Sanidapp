@@ -2,45 +2,31 @@
   "id": "ate-001",
   "name": "Atenolol",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Betabloqueante selectivo. Hipotensor. Antagonista beta adrenérgico.",
-  "indications": "## Indicaciones principales\n\nBetabloqueante selectivo. Hipotensor. Antagonista beta adrenérgico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "β1-selectivo. Adulto HTA/angina: **25–100 mg VO/día** (usual **50 mg**). IV (limitado): **5 mg** en 5 min, puede repetir **5 mg**. Pediatría: **0,5–1 mg/kg/día** (máx. **2 mg/kg/día** o **100 mg**). No suspender bruscamente.",
+  "indications": "## Indicaciones\n\n- Hipertensión, angina, control de frecuencia en FA/taquicardia (alternativa a otros β-bloqueantes).\n- Post-IAM en esquemas seleccionados.\n\n## Precauciones\n\n- Bradicardia, bloqueo AV, ICC descompensada, asma/EPOC (menos que no selectivos, aún riesgo).\n- Enmascara hipoglucemia. Ajuste en IRC (excreción renal).\n- **No corte abrupto** (angina/IAM rebound).\n\n> IV hospitalario poco usado vs metoprolol/esmolol — seguir cartilla local.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 50 y 100 mg. Ampolla 5 mg/10 mL (uso IV limitado).",
-      "dose": "HTA/angina: 50–100 mg/día VO. Arritmias: según protocolo cardiológico.",
-      "administration": "VO en dosis única o fraccionada."
+      "presentation": "Comp. 25–50–100 mg; ampolla 5 mg/10 mL (si disponible).",
+      "dose": "HTA/angina: **25–50 mg VO/día**; subir a **100 mg/día** si hace falta (angina a veces hasta **200 mg/día**). IV: **5 mg** en ≥5 min; puede repetir **5 mg** tras 10 min (máx. orient. **10 mg**).",
+      "administration": "VO 1 toma/día (o fraccionada). IV lento con monitorización.",
+      "notes": "ClCr <35: reducir dosis/intervalo según ficha."
     },
     "pediatrico": {
-      "dose": "Niños: inicial: 0,5 a 1 mg/kg/día cada 12 -24 hs; dosis máxima: 2 mg/kg/día, hasta 100 mg/día. Adultos: 25-50 mg/día cada 24 hs, dosis máxima: hipertensión: 100 mg/día; angina: 200 mg/día.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 50-100 mg; Suspensión (preparado magistral): 5 mg/ml",
-      "notes": "Evitar la suspensión abrupta. Usar con precaución en pacientes con broncoespasmo, diabetes mellitus, hipertiroidismo. Las dosis iniciales de los antihipertensivos son tentativas, deben ser modificadas según la respuesta clínica y efectos colaterales. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+      "presentation": "Comp. 50–100 mg; suspensión magistral 5 mg/mL.",
+      "dose": "Inicio **0,5–1 mg/kg/día** cada 12–24 h; máx. **2 mg/kg/día** o **100 mg/día**.",
+      "administration": "VO.",
+      "notes": "Titular por FC/PA. Precaución en broncoespasmo y diabetes."
     }
   },
-  "stability": "## Estabilidad\n\n- Comprimidos según prospecto.",
-  "adverseEffects": "## Efectos adversos\n\nFatiga, letargia, alucinaciones, bradicardia, hipotensión, rash, náuseas, vómitos.",
+  "stability": "## Estabilidad\n\n- Comprimidos según prospecto. IV: usar de inmediato.",
+  "adverseEffects": "## Efectos adversos\n\nFatiga, bradicardia, hipotensión, frío de extremidades, trastornos del sueño, náuseas, raramente broncoespasmo.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Atenolol (cód. 0263, ATC C07AB).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. Hypertension and arrhythmia guidelines.",
-      "url": "https://www.heart.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — atenolol.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEMPS CIMA. Ficha técnica atenolol.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "American Heart Association. Hypertension / arrhythmia context.", "url": "https://www.heart.org/" },
+    { "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.", "url": "https://www.sac.org.ar/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

@@ -1,47 +1,48 @@
 {
   "id": "nif-001",
   "name": "Nifedipino",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Vasodilatador arterial. Bloqueador dos canais de cálcio.",
-  "indications": "## Indicações principais\n\nVasodilatador arterial. Bloqueador dos canais de cálcio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Antagonista do cálcio di-hidropiridínico. Adulto HAS: **30–60 mg/dia** LP (máx. **90–120 mg**). Pediatria: **0,25–0,5 mg/kg/dia** LP. **Evitar cápsulas IR sublinguais** na crise. Tocolise: esquema obstétrico à parte.",
+  "indications": "## Indicações\n\n- Hipertensão crônica e angina vasoespástica (formulações LP).\n- Tocolise / HAS gestacional conforme protocolo de maternidade.\n\n## Precauções\n\n- Edema de membros, cefaleia, taquicardia reflexa, hiperplasia gengival.\n- **Não mastigar/partir comprimidos LP**. Cápsulas IR SL desaconselhadas pelas diretrizes modernas.\n\n> Preferir labetalol/nitroprussiato/nicardipino IV se emergência com lesão de órgão.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos liberação prolongada 30 e 60 mg. Cápsulas 10 mg.",
-      "dose": "HA: 30–60 mg/dia V.O. LP. Tocolise/obstétrica: conforme protocolo de maternidade.",
-      "administration": "V.O. Não triturar nem mastigar formulações LP."
+      "presentation": "Comp. LP 30–60 mg; cáps. IR 10 mg (uso restrito).",
+      "dose": "HAS: **30 mg LP/dia**; subir a **60 mg** (máx. habitual **90–120 mg/dia** LP). Angina: similar. Tocolise: p. ex. **10–20 mg** VO a cada 6–8 h conforme maternidade (não confundir com LP).",
+      "administration": "VO inteiro com água. Não triturar LP.",
+      "notes": "IR só se o protocolo institucional ainda contemplar e com monitorização."
     },
     "pediatrico": {
-      "dose": "Comprimidos de liberação controlada: 0,25-0,5 mg/kg/dia, a cada 12-24 h; dose máxima: 3 mg/kg/dia (até 120 mg/dia). Adultos: Inicial: comprimidos de liberação controlada: 30 a 60 mg/dia a cada 24 h; dose máxima: 120 mg/dia (comprimidos de liberação controlada).",
-      "administration": "V.O. S.L.",
-      "presentation": "Comprimidos de liberação controlada: 30 mg",
-      "notes": "Interações: aumenta os efeitos adversos dos betabloqueadores; aumenta a concentração sérica da digoxina; a rifampicina diminui níveis de nifedipina; com ciclosporina se exacerba a hiperplasia gengival."
+      "presentation": "Comp. LP 30 mg (fracionar só se autorizado).",
+      "dose": "LP: **0,25–0,5 mg/kg/dia** a cada 12–24 h; máx. **3 mg/kg/dia** ou **120 mg/dia**.",
+      "administration": "VO.",
+      "notes": "Titular por PA. Evitar IR SL."
     }
   },
-  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
-  "adverseEffects": "## Efeitos adversos\n\nReações de calor, cefaleia, náuseas, reações cutâneas, edemas em membros inferiores, taquicardia, palpitações, hiperplasia gengival.",
+  "stability": "## Estabilidade\n\n- Conservar conforme bula; proteger de luz/umidade.",
+  "adverseEffects": "## Efeitos adversos\n\nFlushing, cefaleia, edema pré-tibial, náuseas, taquicardia, palpitações, erupção, hiperplasia gengival.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NIFEdipina (cód. 0240, ATC C08CA).",
+      "citation": "Hospital Garrahan. Formulário — nifedipino.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. Diretrizes de hipertensão e insuficiência cardíaca.",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "American Heart Association. Clinical guidelines.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Ginecologia e Obstetrícia. Protocolos obstétricos.",
+      "citation": "Sociedad Argentina de Ginecología y Obstetricia. Protocolos obstétricos.",
       "url": "https://www.sag.org.ar/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

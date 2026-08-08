@@ -2,46 +2,47 @@
   "id": "nif-001",
   "name": "Nifedipine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Arterial vasodilator. Calcium channel blocker.",
-  "indications": "## Main indications\n\nArterial vasodilator. Calcium channel blocker.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Dihydropyridine calcium-channel blocker. Adult HTN: **30–60 mg/day** ER (max **90–120 mg**). Pediatrics: **0.25–0.5 mg/kg/day** ER. **Avoid IR sublingual capsules** in crisis (abrupt BP drops). Tocolysis: separate obstetric regimen.",
+  "indications": "## Indications\n\n- Chronic hypertension and vasospastic angina (ER formulations).\n- Tocolysis / gestational HTN per maternity protocol.\n\n## Precautions\n\n- Limb edema, headache, reflex tachycardia, gingival hyperplasia.\n- **Do not chew/split ER tablets**. Immediate-release capsules for SL “urgency” are discouraged by modern guidelines.\n- Interactions: β-blockers, digoxin, rifampin, cyclosporine.\n\n> Prefer labetalol/nitroprusside/nicardipine IV if emergency with organ damage.",
   "dilution": {
     "adulto": {
-      "presentation": "Extended-release tablets 30 and 60 mg. Capsules 10 mg.",
-      "dose": "Hypertension: 30–60 mg/day PO ER. Tocolysis/obstetric: per maternity protocol.",
-      "administration": "PO. Do not crush or chew ER formulations."
+      "presentation": "ER tabs 30–60 mg; IR caps 10 mg (restricted use).",
+      "dose": "HTN: **30 mg ER/day**; increase to **60 mg** (usual max **90–120 mg/day** ER). Angina: similar. Tocolysis: e.g. **10–20 mg** PO every 6–8 h per maternity (do not confuse with ER).",
+      "administration": "PO whole with water. Do not crush ER.",
+      "notes": "IR only if institutional protocol still allows and with monitoring."
     },
     "pediatrico": {
-      "dose": "Controlled-release tablets: 0,25-0,5 mg/kg/day, every 12-24 h; maximum dose: 3 mg/kg/day (up to 120 mg/day). Adults: Initial: controlled-release tablets: 30 to 60 mg/day every 24 h; maximum dose: 120 mg/day (controlled-release tablets).",
-      "administration": "PO; SL",
-      "presentation": "Controlled-release tablets: 30 mg",
-      "notes": "Interactions: increases adverse effects of beta-blockers; increases serum concentration of digoxin; rifampin decreases nifedipine levels; with cyclosporine gingival hyperplasia is exacerbated."
+      "presentation": "ER tabs 30 mg (split only if authorized).",
+      "dose": "ER: **0.25–0.5 mg/kg/day** every 12–24 h; max **3 mg/kg/day** or **120 mg/day**.",
+      "administration": "PO.",
+      "notes": "Titrate by BP. Avoid IR SL."
     }
   },
-  "stability": "## Stability\n\n- Store per package insert.",
-  "adverseEffects": "## Adverse effects\n\nFlushing, headache, nausea, cutaneous reactions, lower extremity edema, tachycardia, palpitations, gingival hyperplasia.",
+  "stability": "## Stability\n\n- Store per label; protect from light/moisture.",
+  "adverseEffects": "## Adverse effects\n\nFlushing, headache, pretibial edema, nausea, tachycardia, palpitations, rash, gingival hyperplasia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — NIFEdipina (code 0240, ATC C08CA).",
+      "citation": "Garrahan Hospital. Formulary — nifedipine.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. Hypertension guidelines.",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "American Heart Association. Clinical guidelines.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Gynecology and Obstetrics. Obstetric protocols.",
+      "citation": "Sociedad Argentina de Ginecología y Obstetricia. Obstetric protocols.",
       "url": "https://www.sag.org.ar/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ]
 }

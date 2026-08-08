@@ -2,43 +2,37 @@
   "id": "cap-001",
   "name": "Captopril",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-07-05",
-  "executiveSummary": "IECA de acción corta; útil en crisis hipertensiva sublingual y manejo de IC e HTA en guardia.",
-  "indications": "## Indicaciones\n\n- Hipertensión arterial y crisis hipertensiva (sublingual según protocolo).\n- Insuficiencia cardíaca.\n- Nefropatía diabética.\n\n## Precauciones\n\n- Contraindicado en embarazo y angioedema previo.\n- Monitorear PA, función renal y potasio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "IECA de acción corta. Adulto HTA: **12,5–50 mg VO cada 8–12 h** (máx. habitual **150 mg/día**). Crisis (práctica local): **25 mg** VO/SL, repetir a 30–60 min si hace falta. Pediatría: **0,3–0,5 mg/kg/dosis**. Contraindicado en embarazo.",
+  "indications": "## Indicaciones\n\n- Hipertensión e insuficiencia cardíaca.\n- Nefropatía diabética / proteinuria (IECA).\n- Urgencia hipertensiva en guardia (VO/SL) cuando no hay IV inmediato — preferir agentes IV si emergencia con daño de órgano.\n\n## Precauciones\n\n- **Embarazo (teratogénico)**, angioedema previo, estenosis bilateral de arteria renal.\n- Hipotensión de primera dosis, hiperK, ↑ creatinina — controlar PA, K+, función renal.\n- Tomar 1 h antes de comidas (absorción).\n\n> Interacciones: AINEs, K+-ahorradores, litio.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 25 y 50 mg.",
-      "dose": "HTA crónica: 12,5–50 mg VO 2–3 veces/día. Crisis: 25 mg sublingual, repetir según protocolo.",
-      "administration": "VO o sublingual (crisis hipertensiva)."
+      "presentation": "Comp. 12,5–25–50 mg.",
+      "dose": "HTA/IC: inicio **6,25–12,5 mg**; mantenimiento **12,5–50 mg cada 8–12 h** (máx. habitual **150 mg/día**). Urgencia: **25 mg** VO o SL; puede repetir **25 mg** a los 30–60 min (techo institucional).",
+      "administration": "VO (ayunas relativo). SL: masticar/disolver bajo lengua en crisis según protocolo local.",
+      "notes": "SL no sustituye manejo de emergencia hipertensiva con daño de órgano."
     },
     "pediatrico": {
-      "dose": "0,3–0,5 mg/kg/dosis VO cada 8–24 h (máx. protocolo).",
-      "administration": "VO."
+      "presentation": "Comp.; suspensión magistral frecuente.",
+      "dose": "**0,3–0,5 mg/kg/dosis** cada 8–24 h; titulación hasta **~6 mg/kg/día** en IC/HTA (especialista; techos por peso).",
+      "administration": "VO.",
+      "notes": "Inicio bajo; vigilar PA y creatinina."
     },
     "neonatal": {
-      "dose": "0,01–0,05 mg/kg/dosis VO cada 8–24 h según cardiólogo.",
-      "administration": "VO."
+      "presentation": "Suspensión diluida NNU.",
+      "dose": "**0,01–0,1 mg/kg/dosis** cada 8–24 h (inicio muy bajo) — cardiología/NNU.",
+      "administration": "VO.",
+      "notes": "Riesgo de hipotensión marcada."
     }
   },
-  "stability": "## Estabilidad\n\n- Comprimidos según prospecto. Proteger de la humedad.",
-  "adverseEffects": "## Efectos\n\n- Hipotensión, tos, hiperpotasemia, rash, angioedema, alteración del gusto.",
+  "stability": "## Estabilidad\n\n- Comprimidos: proteger de humedad.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión, tos seca, hiperK, rash, disgeusia, angioedema, insuficiencia renal aguda en estados de bajo flujo.",
   "bibliography": [
-    {
-      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
-      "url": "https://www.heart.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "AEMPS CIMA. Ficha técnica captopril.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "American Heart Association. Hypertension and heart failure guidelines.", "url": "https://www.heart.org/" },
+    { "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.", "url": "https://www.sac.org.ar/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "American Academy of Pediatrics. Critical care medication guidance.", "url": "https://www.aap.org/" }
   ]
 }

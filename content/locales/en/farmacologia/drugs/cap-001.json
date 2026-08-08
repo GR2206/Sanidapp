@@ -2,43 +2,52 @@
   "id": "cap-001",
   "name": "Captopril",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-07-05",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Short-acting ACE inhibitor; useful for sublingual hypertensive crisis and management of heart failure (HF) and hypertension (HTN) in the emergency setting.",
-  "indications": "## Indications\n\n- Arterial hypertension and hypertensive crisis (sublingual according to protocol).\n- Heart failure.\n- Diabetic nephropathy.\n\n## Precautions\n\n- Contraindicated in pregnancy and patients with a history of angioedema.\n- Monitor blood pressure, renal function, and potassium levels.\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "Short-acting ACE inhibitor. Adult HTN: **12.5–50 mg PO every 8–12 h** (usual max **150 mg/day**). Crisis (local practice): **25 mg** PO/SL, repeat at 30–60 min if needed. Pediatrics: **0.3–0.5 mg/kg/dose**. Contraindicated in pregnancy.",
+  "indications": "## Indications\n\n- Hypertension and heart failure.\n- Diabetic nephropathy / proteinuria (ACEI).\n- Hypertensive urgency in ED (PO/SL) when IV is not immediately available — prefer IV agents if emergency with organ damage.\n\n## Precautions\n\n- **Pregnancy (teratogenic)**, prior angioedema, bilateral renal-artery stenosis.\n- First-dose hypotension, hyperK, ↑ creatinine — monitor BP, K+, renal function.\n- Take 1 h before meals (absorption).\n\n> Interactions: NSAIDs, K+-sparing agents, lithium.",
   "dilution": {
     "adulto": {
-      "presentation": "25 and 50 mg tablets.",
-      "dose": "Chronic HTN: 12.5–50 mg PO 2–3 times/day. Crisis: 25 mg sublingual, repeat according to protocol.",
-      "administration": "PO or sublingual (for hypertensive crisis)."
+      "presentation": "Tabs 12.5–25–50 mg.",
+      "dose": "HTN/HF: start **6.25–12.5 mg**; maintenance **12.5–50 mg every 8–12 h** (usual max **150 mg/day**). Urgency: **25 mg** PO or SL; may repeat **25 mg** at 30–60 min (institutional ceiling).",
+      "administration": "PO (relative fasting). SL: chew/dissolve under tongue in crisis per local protocol.",
+      "notes": "SL does not replace hypertensive emergency management with organ damage."
     },
     "pediatrico": {
-      "dose": "0.3–0.5 mg/kg/dose PO every 8–24 h (protocol maximums apply).",
-      "administration": "PO."
+      "presentation": "Tabs; common compounded suspension.",
+      "dose": "**0.3–0.5 mg/kg/dose** every 8–24 h; titration up to **~6 mg/kg/day** in HF/HTN (specialist; weight ceilings).",
+      "administration": "PO.",
+      "notes": "Start low; watch BP and creatinine."
     },
     "neonatal": {
-      "dose": "0.01–0.05 mg/kg/dose PO every 8–24 h according to cardiologist.",
-      "administration": "PO."
+      "presentation": "Diluted NNU suspension.",
+      "dose": "**0.01–0.1 mg/kg/dose** every 8–24 h (very low start) — cardiology/NNU.",
+      "administration": "PO.",
+      "notes": "Marked hypotension risk."
     }
   },
-  "stability": "## Stability\n\n- Tablets according to package insert. Protect from moisture.",
-  "adverseEffects": "## Effects\n\n- Hypotension, cough, hyperkalemia, rash, angioedema, taste disturbance.",
+  "stability": "## Stability\n\n- Tablets: protect from moisture.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, dry cough, hyperK, rash, dysgeusia, angioedema, acute kidney injury in low-flow states.",
   "bibliography": [
     {
-      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "American Heart Association. Clinical guidelines.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
+      "citation": "Sociedad Argentina de Cardiología. Clinical practice guidelines.",
       "url": "https://www.sac.org.ar/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Critical care medication guidance.",
       "url": "https://www.aap.org/"
     }
   ]

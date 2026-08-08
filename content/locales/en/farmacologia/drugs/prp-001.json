@@ -2,50 +2,53 @@
   "id": "prp-001",
   "name": "Propranolol",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Non-cardioselective β-blocker indicated for tachyarrhythmias, hypertension, neonatal thyrotoxicosis. Migraine prophylaxis. Palliative treatment of tetralogy of Fallot and obstructive hypertrophic cardiomyopathy. Portal hypertension. Treatment of severe infantile hemangiomas.",
-  "indications": "## Main indications\n\nNon-cardioselective β-blocker indicated for tachyarrhythmias, hypertension, neonatal thyrotoxicosis. Migraine prophylaxis. Palliative treatment of tetralogy of Fallot and obstructive hypertrophic cardiomyopathy. Portal hypertension. Treatment of severe infantile hemangiomas.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Non-selective β-blocker. Adult HTN/angina: **40–160 mg/day** PO divided; IV **1 mg** slow, repeat up to **3–5 mg**. Pediatric arrhythmias: **1–5 mg/kg/day**. Hemangioma: up to **2–3 mg/kg/day**. Not in active asthma.",
+  "indications": "## Indications\n\n- Tachyarrhythmias, HTN, thyrotoxicosis, migraine prophylaxis, portal hypertension.\n- Tetralogy of Fallot / HOCM (palliative), severe infantile hemangiomas.\n\n## Precautions\n\n- Contraindicated/avoid in asthma, severe bradycardia, high-grade AV block.\n- Hypoglycemia (give with food in infants), apnea in newborns.\n- **Do not stop abruptly**. Avoid IV with IV verapamil.\n\n> Hemangiomas: not in preterm or <14 days on many labels.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 40 and 80 mg. Ampoule 1 mg/mL.",
-      "dose": "HTN/angina: 40–160 mg/day PO divided. IV: 1–3 mg slow, repeat according to protocol.",
-      "administration": "PO or slow IV."
+      "presentation": "Tabs 10–40–80 mg; ampoule 1 mg/mL.",
+      "dose": "HTN/angina/arrhythmia PO: **40 mg every 8–12 h**; range **80–160 mg/day** (sometimes up to **240–320 mg**). Migraine: **80–240 mg/day**. Thyrotoxicosis: **10–40 mg every 6 h**. IV: **1 mg** over 1 min; repeat every 2 min up to **3–5 mg** total.",
+      "administration": "PO with food. Very slow IV with monitoring.",
+      "notes": "Adjust in liver disease. Interactions: epinephrine, flecainide, hydralazine."
     },
     "pediatrico": {
-      "dose": "Arrhythmias and hypertension: Neonates: PO: initial: 0.25 mg/kg/dose every 6-8 h, increase slowly up to a maximum of 5 mg/kg/day. Higher doses may be required (consult specialist). Children: PO: initial: 1 mg/kg/day every 6 h, increase gradually every 3-5 days, maintenance: 1-5 mg/kg/day, maximum dose: arrhythmias: 16 mg/kg/day or 60 mg/day; hypertension: 8 mg/kg/day. Migraine prophylaxis: PO: children: 0.6-1.5 mg/kg/day every 8 h, maximum: 4 mg/kg/day; adults: initial: 80 mg/day every 6-8 h, maximum: 160-240 mg/day. Neonatal thyrotoxicosis: PO: 2 mg/kg/day (1-3 mg/kg/day) every 6-12 h. Higher doses may be required (consult specialist); adults: PO: 10-40 mg every 6 h. Infantile hemangiomas: PO: initial: 1 mg/kg/day every 8-12 h; increase gradually weekly up to 2 mg/kg/day (0.5-3 mg/kg/day) every 8-12 h. Continue at target dose until the end of the proliferation phase and complete resolution.",
-      "administration": "PO",
-      "presentation": "Tablets: 10 - 40 mg; Suspension (compounded preparation): 4 mg/mL",
-      "notes": "Adjust dose according to clinical effect and β-blockade. Use with caution in patients with diabetes mellitus and bronchial asthma. Avoid the IV route in patients receiving calcium channel blockers. Aluminum-containing antacids may decrease its absorption. With epinephrine, increased blood pressure and severe bradycardia. Flecainide, hydralazine, verapamil may increase cardiovascular adverse effects. Administer with food to avoid the risk of hypoglycemia. Do not discontinue abruptly. Reduce dose in hepatic insufficiency. In the treatment of infantile hemangiomas propranolol is contraindicated in preterm newborns and newborns younger than 14 days of life, congenital heart disease with contraindication to β-blocker treatment, infants with episodes of obstructive bronchitis, CNS disorders and altered renal function."
+      "presentation": "Tabs 10–40 mg; compounded suspension 4 mg/mL.",
+      "dose": "Arrhythmia/HTN: start **1 mg/kg/day** every 6–8 h; maintenance **1–5 mg/kg/day** (arrhythmia orient. max **16 mg/kg/day** or **60 mg/day**; HTN **8 mg/kg/day**). Migraine: **0.6–1.5 mg/kg/day**. Hemangioma: start **1 mg/kg/day**, goal **2–3 mg/kg/day** every 8–12 h.",
+      "administration": "PO with food.",
+      "notes": "Titrate every 3–7 days. Watch HR, BP, glucose, bronchospasm."
     },
     "neonatal": {
-      "dose": "0.01–0.2 mg/kg/dose IV according to neonatal cardiology protocol.",
-      "administration": "Slow IV."
+      "presentation": "Suspension; exceptional IV.",
+      "dose": "Thyrotoxicosis/arrhythmia PO: start **0.25 mg/kg every 6–8 h**, increase carefully (up to **~2–5 mg/kg/day**). IV: **0.01–0.15 mg/kg** slow — cardiology.",
+      "administration": "PO preferred; IV only monitored.",
+      "notes": "Hypoglycemia/apnea risk."
     }
   },
-  "stability": "## Stability\n\n- PO according to prescribing information. IV use immediately.",
-  "adverseEffects": "## Adverse effects\n\nFatigue, lethargy, bradycardia, hypotension, rash, nausea, vomiting, hypoglycemia, apneas, bronchospasm, increased liver enzymes, seizures, cold extremities.",
+  "stability": "## Stability\n\n- PO per label. IV: use immediately.",
+  "adverseEffects": "## Adverse effects\n\nBradycardia, hypotension, fatigue, bronchospasm, hypoglycemia, cold extremities, sleep disturbance, nausea.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Propranolol Hydrochloride* (code 0171, ATC C07AA).",
+      "citation": "Garrahan Hospital. Formulary — propranolol.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. Hypertension and arrhythmia guidelines.",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "American Heart Association. Clinical guidelines.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
+      "citation": "Sociedad Argentina de Cardiología. Clinical practice guidelines.",
       "url": "https://www.sac.org.ar/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ]
 }

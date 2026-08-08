@@ -117,8 +117,8 @@
       "id": "ate-001",
       "name": "Atenolol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "atr-002",
@@ -194,8 +194,8 @@
       "id": "cap-001",
       "name": "Captopril",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-07-05"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "car-001",
@@ -346,10 +346,10 @@
     },
     {
       "id": "clp-001",
-      "name": "Clorpromacina",
+      "name": "Clorpromazina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "cac-001",
@@ -418,8 +418,8 @@
       "id": "dia-001",
       "name": "Diazepam",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dic-001",
@@ -936,8 +936,8 @@
       "id": "nif-001",
       "name": "Nifedipino",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "nit-001",
@@ -1090,8 +1090,8 @@
       "id": "prp-001",
       "name": "Propranolol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "prt-001",
