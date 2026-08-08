@@ -229,8 +229,8 @@
       "id": "cef-009",
       "name": "Cefalotina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "cef-002",
@@ -530,8 +530,8 @@
       "id": "est-001",
       "name": "Estreptomicina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "fen-001",
@@ -684,8 +684,8 @@
       "id": "hdc-001",
       "name": "Hidrocortisona",
       "branch": "atencion-sanitaria",
-      "version": "1.1",
-      "updatedAt": "2026-06-30"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "fer-001",
@@ -719,8 +719,8 @@
       "id": "imu-001",
       "name": "Inmunoglobulina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ins-001",
@@ -1153,8 +1153,8 @@
       "id": "sil-001",
       "name": "Sildenafil",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "suc-001",
@@ -1181,8 +1181,8 @@
       "id": "sul-001",
       "name": "Sulbactam",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-30"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "mag-001",

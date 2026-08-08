@@ -2,45 +2,31 @@
   "id": "sil-001",
   "name": "Sildenafil",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Vasodilatador pulmonar, hipertensión pulmonar.",
-  "indications": "## Indicaciones principales\n\nVasodilatador pulmonar, hipertensión pulmonar.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Inhibidor PDE-5. HAP adulto (Revatio): **20 mg VO cada 8 h**. Pediatría HTP: **0,5–1 mg/kg/dosis cada 6–8 h** (máx. frec. **20 mg**/dosis; techo **~4 mg/kg/día**). Solo especialista. No con nitratos.",
+  "indications": "## Indicaciones\n\n- Hipertensión arterial pulmonar (HAP) / crisis de HTP en UCI pediátrica/neonatal según protocolo.\n- Disfunción eréctil: **otra dosis** (25–100 mg puntual) — no mezclar con esquema HAP.\n\n## Precauciones\n\n- **Contraindicado con nitratos / riociguat** (hipotensión severa).\n- Hipotensión, cefalea, flushing, trastornos visuales.\n- Alerta FDA histórica en niños (mortalidad en ensayos a largo plazo) — uso restringido.\n\n> IV (0,8 mg/mL importado) solo si disponible y con cardiología.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 50 mg; solución magistral 2 mg/ml.",
-      "dose": "Esquemas según protocolo de hipertensión pulmonar.",
-      "administration": "VO."
+      "presentation": "Comp. 20 mg (HAP) / 50–100 mg (DE); solución magistral 2 mg/mL.",
+      "dose": "HAP: **20 mg VO cada 8 h**. DE: **25–100 mg** 30–60 min antes (máx. 1/día) — indicación distinta.",
+      "administration": "VO. Separar de nitratos ≥24 h.",
+      "notes": "Ajuste en hepatopatía severa / comedicación CYP3A4."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 50 mg; Solución (preparado magistral): 2 mg/ml; Ampollas de 12,5 ml: 0,8 mg/ml (medicamento importado)",
-      "administration": "V.O.; E.V.",
-      "dose": "Niños y adolescentes: inicial: 0,5 - 1 mg/kg/dosis cada 6-8 hs, dosis máxima: 4 mg/kg/día hasta 20 mg/dosis cada 8 hs; mantenimiento: 0,25 - 1 mg/kg/dosis cada 6-8 hs, dosis máxima: 4 mg/kg/día hasta 20 mg/dosis cada 8 hs. No necesita ajuste de dosis en insuficiencia hepática o renal",
-      "notes": "Indicación restringida sólo por el especialista. No es dializable. Ver alerta de Sildenafil"
+      "presentation": "Comp. 50 mg; magistral 2 mg/mL; ampolla IV 0,8 mg/mL (importado).",
+      "dose": "HTP: inicio **0,5–1 mg/kg/dosis cada 6–8 h**; mantenimiento **0,25–1 mg/kg**; máx. habitual **20 mg**/dosis y **~4 mg/kg/día**.",
+      "administration": "VO; IV solo especialista.",
+      "notes": "Indicación restringida. No dializable."
     }
   },
-  "stability": "## Estabilidad\n\n- Conservar según prospecto en envase original.",
-  "adverseEffects": "## Efectos adversos\n\nDiarrea, indigestión, rash, mareos, cefalea, visión anormal, congestión nasal.",
+  "stability": "## Estabilidad\n\n- Conservar en envase original según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, flushing, dispepsia, congestión nasal, visión anormal, hipotensión, raramente priapismo.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Sildenafil* (cód. 1530, ATC G04BE).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Heart Association. Pulmonary hypertension guidelines.",
-      "url": "https://www.heart.org/"
-    },
-    {
-      "citation": "European Society of Cardiology. Pulmonary hypertension guidelines.",
-      "url": "https://www.escardio.org/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — sildenafil.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "ESC / ERS. Pulmonary hypertension guidelines — sildenafil.", "url": "https://www.escardio.org/" },
+    { "citation": "FDA. Revatio (sildenafil) labeling — pediatric warning.", "url": "https://www.fda.gov/" },
+    { "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.", "url": "https://www.sac.org.ar/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

@@ -1,44 +1,43 @@
 {
   "id": "imu-001",
-  "name": "Immunoglobulin",
+  "name": "Immune globulin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Kawasaki disease, idiopathic thrombocytopenic purpura, acquired immunodeficiency syndrome. Replacement therapy per Immunology indication. Varicella prevention in newborns and immunocompromised hosts.",
-  "indications": "## Main indications\n\nKawasaki disease, idiopathic thrombocytopenic purpura, acquired immunodeficiency syndrome. Replacement therapy per Immunology indication. Varicella prevention in newborns and immunocompromised hosts.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Human IVIG. Replacement: **0.4–0.8 g/kg** every 3–4 weeks. Immunomodulation (Kawasaki, GBS, many): **2 g/kg** total. ITP: **0.8–1 g/kg**. Slow initial infusion; anaphylaxis/headache/thrombosis risk.",
+  "indications": "## Indications\n\n- Humoral immunodeficiency (replacement).\n- Kawasaki, ITP, Guillain-Barré, CIDP, myasthenia, autoimmune encephalitis, MIS-C, etc.\n\n## Precautions\n\n- Do not mix with other IV drugs. Start slow (**0.3–0.5 mL/kg/h**) up to brand ceiling (**~4 mL/kg/h**).\n- Caution in IgA deficiency, renal failure, thrombophilia, heart failure (volume overload).\n- Brands not interchangeable without judgment.\n\n> Institutional / immunology request often required.",
   "dilution": {
+    "adulto": {
+      "presentation": "Vials/bottles 2.5–10 g (often 5–10%).",
+      "dose": "Replacement: **0.4–0.8 g/kg** IV every 3–4 weeks. ITP: **0.8–1 g/kg** (may repeat at 48 h). Kawasaki/GBS/CIDP load: **2 g/kg** total (1 dose or over 2–5 days). Myasthenia: often **1–2 g/kg**.",
+      "administration": "IV only as labeled; do not mix with other drugs. Follow brand rate template.",
+      "notes": "Premedicate per protocol if prior reactions."
+    },
     "pediatrico": {
-      "presentation": "Powder vial: 2,500 - 5,000 - 10,000 mg (concentration: 50 mg/mL)",
-      "administration": "IV",
-      "diluent": "Must not be mixed with other intravenous solutions.",
-      "finalConcentration": "5%.",
-      "infusionRate": "0.3 to 0.5 mL/kg/h increasing up to 4 mL/kg/h.",
-      "dose": "Immunodeficiencies: start 0.4 - 0.8 g/kg, every 3 to 4 weeks. Severe Guillain-Barré syndrome and significant disability: 2 g/kg (divided over 2 to 5 days) before 2 weeks of evolution. Chronic inflammatory demyelinating polyneuropathy: attack dose 2 g/kg over 2 to 5 days, followed by maintenance dose 1 g/kg every 3 - 4 weeks. Autoimmune encephalitis: 2 g/kg over 2 - 5 days. Multifocal motor neuropathy: 2 g/kg, divided over 2 to 5 days. Myasthenia gravis: 1 g/kg, single dose. Idiopathic thrombocytopenic purpura: 0.8 - 1 g/kg, single dose; per specialist criteria may be repeated at 48 h. Kawasaki disease: 2 g/kg, single dose. Pediatric multisystem inflammatory syndrome (PIMS) related to COVID-19: 2 g/kg in a single dose, maximum 100 g. See Therapy for pediatric multisystem inflammatory syndrome related to COVID-19.",
-      "notes": "Administration: Inpatient wards: See IV IG infusion templates. Day Hospital: See IV IG infusion template for different brands. See \"Use of Gammaglobulin in Pediatrics\". See \"Intravenous Gammaglobulin Request Form\""
+      "presentation": "Vials 2.5–5–10 g (e.g. 50 mg/mL).",
+      "dose": "Immunodeficiency: **0.4–0.8 g/kg** every 3–4 weeks. Kawasaki / MIS-C: **2 g/kg** single dose (MIS-C usual max **100 g**). GBS/CIDP/encephalitis: **2 g/kg** over 2–5 days. ITP: **0.8–1 g/kg**. Myasthenia: **1 g/kg**.",
+      "administration": "IV; start 0.3–0.5 mL/kg/h → up to 4 mL/kg/h.",
+      "notes": "See Garrahan / day-hospital templates."
     }
   },
-  "stability": "## Pediatric guide\n\n- Discard remainder once opened. Store between 2 and 30°C.",
-  "adverseEffects": "## Adverse effects\n\nAnaphylaxis, chest pain, dyspnea, shock, headache, fever, chills, nausea, vomiting, myalgias, arthralgias.",
+  "stability": "## Stability\n\n- Store 2–30 °C by brand. Discard leftover once opened.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, fever, chills, nausea, myalgias; anaphylaxis; thrombosis; AKI (historical sucrose); volume overload.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Human Intravenous Gammaglobulin* (code 0102, ATC J06BA).",
+      "citation": "Garrahan Hospital. Formulary — IVIG.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "AAP / ACR — Kawasaki IVIG dosing.",
       "url": "https://www.aap.org/"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

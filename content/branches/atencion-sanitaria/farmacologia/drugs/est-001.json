@@ -2,45 +2,31 @@
   "id": "est-001",
   "name": "Estreptomicina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico. Antituberculoso.",
-  "indications": "## Indicaciones principales\n\nAntibiótico. Antituberculoso.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Aminoglucósido antituberculoso. Adulto TB: **15 mg/kg IM/día** (usual **0,75–1 g/día**; máx. **1 g**). Pediatría: **15–20 mg/kg/día** (máx. **1 g**). Preferir IM; oto/nefrotoxicidad — niveles y audición.",
+  "indications": "## Indicaciones\n\n- Tuberculosis (siempre en combinación; 2.ª línea / resistencias según programa).\n- Algunas infecciones por enterococos / brucella en esquemas históricos (raro hoy).\n\n## Precauciones\n\n- Ototoxicidad vestibular/coclear y nefrotoxicidad — audiometría y creatinina.\n- Ajuste en IRC. Teratogénico (embarazo).\n- IV solo si no tolera IM y con infectología (diluir e infundir 30–60 min).\n\n> Nunca monoterapia en TB.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 1 g (Estreptomicina Richet).",
-      "reconstitution": "4,5 mL de AD o SF (100 mg/mL).",
-      "administration": "IM: Sí. Reconst. 1 g con 4,5 mL de AD o SF y aplicar IM profundo."
+      "presentation": "FA 1 g.",
+      "dose": "TB diaria: **15 mg/kg IM** (usual **0,75–1 g**) **cada 24 h**. Intermitente: **20–25 mg/kg** 2–3 veces/semana (máx. **1–1,5 g**/dosis según programa). Máx. habitual diario **1 g**.",
+      "administration": "IM profundo tras reconstituir ~4,5 mL AD/SF (≈100 mg/mL). IV excepcional: 1 g en 100 mL SF en 30–60 min.",
+      "notes": "Rotar sitios IM. Hidratación adecuada."
     },
     "pediatrico": {
-      "dose": "Neonatos: reservado sólo para pacientes que presentan resistencia a otros aminoglucósidos. Niños: 15 - 20 mg/kg/día, dosis máxima: 1 g/día",
-      "administration": "I.M.; E.V. (casos especiales)",
-      "presentation": "F.A.: 1 g",
-      "notes": "Ajustar dosis en insuficiencia renal. Para la administración E.V. (solo para pacientes que no toleran la inyección I.M. y con autorización de Infectología) la dosis se diluye en 100 ml de solución fisiológica e infundir en 30-60 minutos a través de una vía periférica o central.Ver guía de tratamiento de tuberculosis. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+      "presentation": "FA 1 g.",
+      "dose": "**15–20 mg/kg/día** IM (máx. **1 g/día**). Neonatos: solo si no hay alternativa — infectología/NNU.",
+      "administration": "IM; IV solo casos especiales.",
+      "notes": "Seguir guía nacional de TB."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 48 hs refrigerado.\n\n## Solución diluida (a administrar)\n\n- No aplica.",
-  "adverseEffects": "## Efectos adversos\n\nOtotoxicidad, nefrotoxicidad, parestesia peribucal. Por inyección I.M. reacciones de hipersensibilidad.",
+  "stability": "## Estabilidad\n\n- Reconstituido: ~48 h refrigerado.",
+  "adverseEffects": "## Efectos adversos\n\nVértigo, sordera, nefrotoxicidad, parestesias peribucales, reacciones en sitio IM, hipersensibilidad.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Estreptomicina (cód. 0086, ATC J01GA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — estreptomicina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "OMS / programas nacionales de TB — streptomycin dosing.", "url": "https://www.who.int/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.", "url": "https://www.sadi.org.ar/" }
   ]
 }

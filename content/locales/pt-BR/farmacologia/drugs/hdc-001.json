@@ -2,53 +2,53 @@
   "id": "hdc-001",
   "name": "Hidrocortisona",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Corticoide com atividade mineralocorticoide; choque séptico refratário e insuficiência adrenal.",
-  "indications": "## Indicações\n\n- Insuficiência adrenal aguda.\n- Choque séptico refratário (esquemas de dose de estresse).\n- Profilaxia de doença do enxerto contra hospedeiro.\n\n## Precauções\n\n- Hiperglicemia, retenção de sódio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Corticoide com mineralocorticoides. Crise adrenal adulto: **100 mg IV**, depois **50 mg a cada 6 h** ou **200 mg/dia**. Choque séptico: **200 mg/dia**. Pediatria estresse: **50–100 mg/m²/dia** ou **1–2 mg/kg a cada 6 h**.",
+  "indications": "## Indicações\n\n- Insuficiência adrenal aguda / perioperatória em Addison.\n- Choque séptico refratário (Surviving Sepsis).\n\n## Precauções\n\n- Hiperglicemia, retenção de Na+/edema, hipertensão, imunossupressão.\n\n> Na crise adrenal não atrasar: administrar já.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola 100 mg.",
-      "dose": "Insuficiência adrenal: 100 mg IV em bolus. Choque: 50 mg a cada 6 h ou infusão conforme protocolo.",
-      "administration": "IV em bolus ou infusão."
+      "presentation": "FA 100–500 mg (succinato sódico).",
+      "dose": "Crise adrenal: **100 mg IV** imediato, depois **50 mg a cada 6 h** (ou **200 mg/dia** em infusão). Choque séptico: **200 mg/dia** × ≥3 dias se indicado. Anti-inflamatório/asma: esquemas variáveis (**100–300 mg/dia**).",
+      "administration": "IV bolo 3–5 min ou infusão; IM possível.",
+      "notes": "Passar a VO (p. ex. 15–25 mg/dia) ao estabilizar."
     },
     "pediatrico": {
-      "presentation": "Frasco-ampola 100 ou 500 mg, pó para diluir.",
-      "administration": "IV ou IM.",
-      "diluent": "Água destilada, SF, SG 5%.",
-      "finalConcentration": "50 mg/mL.",
-      "infusionRate": "Bolus 3 a 5 min.",
-      "dose": "Anti-inflamatório: 1 a 5 mg/kg/dia. Asma: ataque de 4 a 8 mg/kg. Manutenção 2 mg/kg/dose em 4 doses diárias.",
-      "notes": "Corticoide de uso sistêmico. Pode causar hipertensão, euforia, distensão abdominal, cefaleias, convulsões, aumento de peso, aumento do apetite."
+      "presentation": "FA 100–500 mg.",
+      "dose": "Estresse / adrenal: **50–100 mg/m²/dia** dividido a cada 6 h (ou **1–2 mg/kg/dose** c/6 h). Crise: bolo **50–100 mg/m²**. Anti-inflamatório: **1–5 mg/kg/dia**. Asma ataque: frequentemente **4–8 mg/kg** carga depois **2 mg/kg/dose** c/6 h.",
+      "administration": "IV/IM.",
+      "notes": "Calcular por superfície quando possível."
     },
     "neonatal": {
-      "dose": "2–5 mg/kg/dose em insuficiência adrenal neonatal.",
-      "administration": "IV."
+      "presentation": "FA; cartilha UTI neonatal.",
+      "dose": "Insuficiência adrenal: **1–2 mg/kg/dose** a cada 6–8 h (faixas **2–5 mg/kg** na crise).",
+      "administration": "IV.",
+      "notes": "Monitorar glicemia e PA."
     }
   },
-  "stability": "## Geral\n\n- Utilizar após reconstituição conforme bula.\n\n## Guia pediátrica\n\n- 24 h na geladeira.",
-  "adverseEffects": "## Efeitos adversos\n\n- Hiperglicemia, hipertensão, edema, infecções.",
+  "stability": "## Estabilidade\n\n- Após reconstituição: ~24 h refrigerado (bula).",
+  "adverseEffects": "## Efeitos adversos\n\nHiperglicemia, hipertensão, edema, euforia, imunossupressão, miopatia com uso prolongado.",
   "bibliography": [
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "citation": "Surviving Sepsis / SCCM — hidrocortisona no choque séptico.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "Endocrine Society. Diretrizes de insuficiência adrenal.",
+      "url": "https://www.endocrine.org/"
+    },
+    {
+      "citation": "AHA. Contexto ACLS / PALS.",
+      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+    },
+    {
+      "citation": "AEMPS CIMA. Bula hidrocortisona IV.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ]
 }

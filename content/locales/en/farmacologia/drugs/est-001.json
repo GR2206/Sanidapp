@@ -2,45 +2,46 @@
   "id": "est-001",
   "name": "Streptomycin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Antibiotic. Antituberculous agent.",
-  "indications": "## Main indications\n\nAntibiotic. Antituberculous agent.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Antituberculous aminoglycoside. Adult TB: **15 mg/kg IM/day** (usual **0.75–1 g/day**; max **1 g**). Pediatrics: **15–20 mg/kg/day** (max **1 g**). Prefer IM; oto/nephrotoxicity — levels and hearing.",
+  "indications": "## Indications\n\n- Tuberculosis (always in combination; 2nd-line / resistance per program).\n- Some enterococcal / brucella regimens historically (rare today).\n\n## Precautions\n\n- Vestibular/cochlear ototoxicity and nephrotoxicity — audiometry and creatinine.\n- Adjust in renal failure. Teratogenic (pregnancy).\n- IV only if IM not tolerated and with ID (dilute; infuse 30–60 min).\n\n> Never monotherapy in TB.",
   "dilution": {
     "adulto": {
-      "presentation": "Lyophilized powder vial containing 1 g (Streptomycin Richet).",
-      "reconstitution": "4,5 mL SWFI or 0.9% NaCl (100 mg/mL).",
-      "administration": "IM: Yes. Reconstitute 1 g with 4,5 mL SWFI or 0.9% NaCl and administer deep IM."
+      "presentation": "Vial 1 g.",
+      "dose": "Daily TB: **15 mg/kg IM** (usual **0.75–1 g**) **every 24 h**. Intermittent: **20–25 mg/kg** 2–3×/week (max **1–1.5 g**/dose per program). Usual daily max **1 g**.",
+      "administration": "Deep IM after reconstituting ~4.5 mL SW/NS (≈100 mg/mL). Exceptional IV: 1 g in 100 mL NS over 30–60 min.",
+      "notes": "Rotate IM sites. Adequate hydration."
     },
     "pediatrico": {
-      "dose": "Neonates: reserved only for patients with resistance to other aminoglycosides. Children: 15–20 mg/kg/day, maximum dose: 1 g/day",
-      "administration": "IM; IV (special cases)",
-      "presentation": "Powder vial: 1 g",
-      "notes": "Adjust dose in renal insufficiency. For IV administration (only for patients who do not tolerate IM injection and with Infectious Diseases authorization) dilute dose in 100 mL 0.9% NaCl and infuse over 30–60 minutes via peripheral or central line. See tuberculosis treatment guide. See preliminary guide for prevention of medication-related teratogenesis."
+      "presentation": "Vial 1 g.",
+      "dose": "**15–20 mg/kg/day** IM (max **1 g/day**). Neonates: only if no alternative — ID/NNU.",
+      "administration": "IM; IV only special cases.",
+      "notes": "Follow national TB guide."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 48 h refrigerated.\n\n## Diluted solution (for administration)\n\n- Not applicable.",
-  "adverseEffects": "## Adverse effects\n\nOtotoxicity, nephrotoxicity, perioral paresthesia. With IM injection: hypersensitivity reactions.",
+  "stability": "## Stability\n\n- Reconstituted: ~48 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nVertigo, hearing loss, nephrotoxicity, perioral paresthesias, IM site reactions, hypersensitivity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Estreptomicina (code 0086, ATC J01GA).",
+      "citation": "Garrahan Hospital. Formulary — streptomycin.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "WHO / national TB programs — streptomycin.",
+      "url": "https://www.who.int/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

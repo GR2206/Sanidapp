@@ -2,42 +2,46 @@
   "id": "sul-001",
   "name": "Sulbactam",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-30",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Inibidor de betalactamases como monoterapia em infecções por *Acinetobacter baumannii* conforme cartilha institucional.",
-  "indications": "## Indicações principais\n\n- Monoterapia em infecções por *Acinetobacter baumannii* (atividade intrínseca sobre OXA-23 e similares).\n- Pode ser combinado com colistina ou meropenem conforme sensibilidade.\n\n## Precauções\n\n- Não confundir com ampicilina-sulbactam.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Inibidor de β-lactamases com atividade intrínseca anti-*Acinetobacter*. Adulto CRAB: **6–9 g/dia IV** dividido (p. ex. **2–3 g a cada 8 h**). Pediatria: **50–100 mg/kg/dia**. Não confundir com ampicilina-sulbactam.",
+  "indications": "## Indicações\n\n- Infecções por *Acinetobacter baumannii* quando o antibiograma/infectologia indicar — frequentemente combinado.\n\n## Precauções\n\n- **Não é ampicilina-sulbactam**: a dose aqui é de **sulbactam sozinho**.\n- Ajuste renal. Uso restrito / infectologia.\n\n> Doses altas (≥6–9 g/dia) costumam ser necessárias para CRAB.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola com pó liofilizado contendo 1 g de sulbactam sódico (Sulbactam Richet, Northia, outros).",
-      "reconstitution": "10 mL de água para injeção ou SF. Conc.: 100 mg/mL.",
-      "diluent": "1 g em 100 mL de SF ou SG 5%.",
-      "finalConcentration": "10 mg/mL.",
-      "administration": "IV direta: Sim. Reconstituir em 10 mL de água para injeção e administrar lentamente em 3–5 min. IV intermitente: Sim. Diluir em 50–100 mL de SF ou SG 5% e administrar em 15–30 min.",
-      "notes": "Dose habitual: 3–4 g/dia em 3–4 doses ou infusão prolongada (1 g a cada 6 h em 3 h). Pode ser combinado com colistina ou meropenem conforme sensibilidade. Não confundir com ampicilina-sulbactam."
+      "presentation": "FA 1 g sulbactam sódico.",
+      "dose": "CRAB / graves: **6–9 g/dia** IV (p. ex. **2 g a cada 8 h** ou **3 g a cada 8 h**; alternativa **1 g a cada 6 h** em infusão prolongada ~3 h). Menos graves: **3–4 g/dia**. Ajuste por ClCr.",
+      "administration": "Reconstituir 10 mL AD/SF; IV lento 3–5 min ou diluir 50–100 mL SF/SG 5% em 15–30 min.",
+      "notes": "Pode associar a colistina ou meropenem."
     },
     "pediatrico": {
-      "dose": "Esquemas conforme protocolo de infectologia pediátrica.",
-      "administration": "IV conforme indicação."
+      "presentation": "FA 1 g.",
+      "dose": "**50–100 mg/kg/dia** IV dividido a cada 6–8 h (máx. aproximar teto adulto ~**9 g/dia**) — infectologia.",
+      "administration": "IV como adulto.",
+      "notes": "Esquemas institucionais variáveis."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 8 h em temperatura ambiente; 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 8 h em temperatura ambiente; 48 h refrigerado.",
-  "adverseEffects": "## Efeitos adversos\n\n- Diarreia, rash, flebite.",
+  "stability": "## Estabilidade\n\n- Reconstituído/diluído: ~8 h T° amb / ~48 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, erupção, flebite, eosinofilia; raro: anafilaxia.",
   "bibliography": [
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA. Orientação gram-negativos resistentes — sulbactam para CRAB.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEMPS CIMA.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

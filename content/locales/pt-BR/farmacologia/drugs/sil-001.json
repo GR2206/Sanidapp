@@ -1,47 +1,48 @@
 {
   "id": "sil-001",
-  "name": "Sildenafila",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Vasodilatador pulmonar para hipertensão pulmonar.",
-  "indications": "## Indicações principais\n\nVasodilatador pulmonar para hipertensão pulmonar.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "name": "Sildenafil",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Inibidor PDE-5. HAP adulto (Revatio): **20 mg VO a cada 8 h**. Pediatria HTP: **0,5–1 mg/kg/dose a cada 6–8 h** (máx. freq. **20 mg**/dose). Só especialista. Não com nitratos.",
+  "indications": "## Indicações\n\n- Hipertensão arterial pulmonar (HAP) / crises de HTP.\n- Disfunção erétil: **outra dose** (25–100 mg pontual).\n\n## Precauções\n\n- **Contraindicado com nitratos / riociguat**.\n- Alerta FDA pediátrica histórica — uso restrito.\n\n> IV só se disponível e com cardiologia.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 50 mg; solução magistral 2 mg/mL.",
-      "dose": "Esquemas conforme protocolo de hipertensão pulmonar.",
-      "administration": "V.O."
+      "presentation": "Comp. 20 mg (HAP) / 50–100 mg (DE); magistral 2 mg/mL.",
+      "dose": "HAP: **20 mg VO a cada 8 h**. DE: **25–100 mg** 30–60 min antes (máx. 1/dia).",
+      "administration": "VO. Separar de nitratos ≥24 h.",
+      "notes": "Ajuste em hepatopatia grave / comeds CYP3A4."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 50 mg; Solução (magistral): 2 mg/mL; Ampolas 12,5 mL: 0,8 mg/mL (medicamento importado)",
-      "administration": "V.O.; E.V.",
-      "dose": "Crianças e adolescentes: inicial: 0,5–1 mg/kg/dose a cada 6–8 h, dose máxima: 4 mg/kg/dia até 20 mg/dose a cada 8 h; manutenção: 0,25–1 mg/kg/dose a cada 6–8 h, dose máxima: 4 mg/kg/dia até 20 mg/dose a cada 8 h. Não requer ajuste de dose em insuficiência hepática ou renal",
-      "notes": "Indicação restrita — uso exclusivo do especialista. Não é dialisável. Ver alerta de sildenafila."
+      "presentation": "Comp. 50 mg; magistral 2 mg/mL; ampola IV 0,8 mg/mL (importado).",
+      "dose": "HTP: início **0,5–1 mg/kg/dose a cada 6–8 h**; manutenção **0,25–1 mg/kg**; máx. habitual **20 mg**/dose e **~4 mg/kg/dia**.",
+      "administration": "VO; IV só especialista.",
+      "notes": "Indicação restrita. Não dialisável."
     }
   },
-  "stability": "## Estabilidade\n\n- Conservar conforme bula em embalagem original.",
-  "adverseEffects": "## Efeitos adversos\n\nDiarreia, dispepsia, rash, tontura, cefaleia, visão anormal, congestão nasal.",
+  "stability": "## Estabilidade\n\n- Conservar no frasco original conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, flushing, dispepsia, congestão nasal, visão anormal, hipotensão; raramente priapismo.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Sildenafil* (cód. 1530, ATC G04BE).",
+      "citation": "Hospital Garrahan. Formulário — sildenafil.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
+      "citation": "ESC / ERS. Hipertensão pulmonar — sildenafil.",
+      "url": "https://www.escardio.org/"
+    },
+    {
+      "citation": "FDA. Bula Revatio — alerta pediátrica.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "Sociedad Argentina de Cardiología.",
       "url": "https://www.sac.org.ar/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Heart Association. Pulmonary hypertension guidelines.",
-      "url": "https://www.heart.org/"
-    },
-    {
-      "citation": "European Society of Cardiology. Pulmonary hypertension guidelines.",
-      "url": "https://www.escardio.org/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

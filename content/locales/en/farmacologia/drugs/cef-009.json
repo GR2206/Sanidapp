@@ -1,52 +1,47 @@
 {
   "id": "cef-009",
-  "name": "Cefalothin",
+  "name": "Cephalothin",
   "branch": "atencion-sanitaria",
-  "version": "1.1.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "First-generation cephalosporin. Surgical prophylaxis, treatment of respiratory tract, middle ear, skin and soft tissue infections caused by susceptible bacteria: gram-positive cocci.",
-  "indications": "## Main indications\n\nFirst-generation cephalosporin. Surgical prophylaxis, treatment of respiratory tract, middle ear, skin and soft tissue infections caused by susceptible bacteria: gram-positive cocci.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "1st-generation cephalosporin. Adult: **1–2 g IV every 4–6 h** (max **12 g/day**); surgical prophylaxis **1–2 g**. Pediatrics: **80–150 mg/kg/day** divided every 6–8 h. Alternative to cefazolin in many centers.",
+  "indications": "## Indications\n\n- Skin/soft-tissue, respiratory and ear infections by susceptible Gram-positive cocci.\n- Perioperative surgical prophylaxis.\n\n## Precautions\n\n- β-lactam allergy. Frequent IV phlebitis.\n- Less convenient than cefazolin in many modern protocols — check availability.\n- Potential nephrotoxicity with aminoglycosides.\n\n> Darkening at room temperature does not necessarily mean loss of potency (label).",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial containing 1 g (Arecemin, Cefalotina Larjan, Drawer, Dosagluc, Cefade, Richet).",
-      "reconstitution": "5 mL SWFI. Conc: 200 mg/mL.",
-      "diluent": "1–2 g in 100 mL 0.9% NaCl or 5% dextrose.",
-      "finalConcentration": "10–20 mg/mL.",
-      "administration": "Direct IV: Yes. Reconstitute with 10 mL SWFI, 0.9% NaCl or 5% dextrose and administer over 3–5 min. Intermittent IV: Yes. Dilute 1 g in 100 mL 0.9% NaCl or 5% dextrose and administer over 30–60 min.",
-      "notes": "If vial contents do not dissolve completely, add SWFI (0,2–0,5 mL) and shake vigorously. Darkening of the solution at room temperature does not affect efficacy. IM administration is possible."
+      "presentation": "Vial 1 g.",
+      "dose": "Treatment: **0.5–2 g IV/IM every 4–6 h** (usual **1 g every 6 h**; severe up to **2 g every 4 h**). Max **12 g/day**. Prophylaxis: **1–2 g** pre-op (± redose by duration).",
+      "administration": "IV push 3–5 min (reconstitute ~10 mL) or dilute 100 mL NS/D5W over 30–60 min. IM possible.",
+      "notes": "If incomplete dissolution, add 0.2–0.5 mL SW and shake."
     },
     "pediatrico": {
-      "presentation": "Powder vial: 1000 mg",
-      "administration": "IV",
-      "diluent": "0.9% NaCl or 5% dextrose.",
-      "finalConcentration": "100 mg/mL.",
-      "infusionRate": "3 to 5 min.",
-      "dose": "100 mg/kg/day every 6–8 h. Adults: 500–2000 mg every 6 h. Preoperative dose in adults: 1–2 g. Maximum dose: 12 g.",
-      "notes": "Concomitant use with aminoglycosides may increase risk of nephrotoxicity."
+      "presentation": "Vial 1 g.",
+      "dose": "**80–150 mg/kg/day** IV divided every 6–8 h (often **100 mg/kg/day**); max **12 g/day**.",
+      "administration": "IV; conc. up to ~100 mg/mL per card.",
+      "notes": "Renal adjustment. Avoid unnecessary AG combination."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 12 h at room temperature, 96 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature.\n\n## Pediatric guide\n\n- 96 h refrigerated; 12 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nAllergic reactions, thrombophlebitis, thrombocytopenia, leukopenia, nephrotoxicity.",
+  "stability": "## Stability\n\n- Reconstituted: ~12 h room temp / ~96 h refrigerated.\n- Diluted: ~24 h room temp.",
+  "adverseEffects": "## Adverse effects\n\nRash, phlebitis, diarrhea, eosinophilia; rare: leukopenia, nephrotoxicity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefALOTina sódica (code 0035, ATC J01DB).",
+      "citation": "Garrahan Hospital. Formulary — cephalothin.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

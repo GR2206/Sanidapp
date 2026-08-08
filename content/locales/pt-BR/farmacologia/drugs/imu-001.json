@@ -1,45 +1,44 @@
 {
   "id": "imu-001",
   "name": "Imunoglobulina",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Doença de Kawasaki, púrpura trombocitopênica idiopática, síndrome de imunodeficiência adquirida. Terapêutica de reposição conforme indicação de Imunologia. Prevenção de varicela em R.N. e H.I.C.",
-  "indications": "## Indicações principais\n\nDoença de Kawasaki, púrpura trombocitopênica idiopática, síndrome de imunodeficiência adquirida. Terapêutica de reposição conforme indicação de Imunologia. Prevenção de varicela em R.N. e H.I.C.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "IgIV humana. Reposição: **0,4–0,8 g/kg** a cada 3–4 semanas. Imunomodulação (Kawasaki, GBS): **2 g/kg** total. PTI: **0,8–1 g/kg**. Infusão inicial lenta.",
+  "indications": "## Indicações\n\n- Imunodeficiência humoral (reposição).\n- Kawasaki, PTI, Guillain-Barré, CIDP, miastenia, encefalite autoimune, MIS-C, etc.\n\n## Precauções\n\n- Não misturar com outras IV. Velocidade inicial baixa.\n- Cautela em déficit de IgA, IRC, trombofilia, IC.\n\n> Solicitação institucional / imunologia costuma ser obrigatória.",
   "dilution": {
+    "adulto": {
+      "presentation": "FA/frascos 2,5–10 g (conc. frequente 5–10%).",
+      "dose": "Reposição: **0,4–0,8 g/kg** IV a cada 3–4 semanas. PTI: **0,8–1 g/kg**. Kawasaki/GBS/CIDP ataque: **2 g/kg** total. Miastenia: frequentemente **1–2 g/kg**.",
+      "administration": "IV exclusiva do produto. Seguir plantilha de velocidade da marca.",
+      "notes": "Pré-medicar conforme protocolo se reações prévias."
+    },
     "pediatrico": {
-      "presentation": "F.A.: 2.500–5.000–10.000 mg (concentração: 50 mg/ml)",
-      "administration": "E.V.",
-      "diluent": "Não deve ser misturada com outras soluções intravenosas.",
-      "finalConcentration": "5%.",
-      "infusionRate": "0,3 a 0,5 mL/kg/h em aumento até 4 mL/kg/h.",
-      "dose": "Imunodeficiências: iniciar 0,4–0,8 g/kg a cada 3 a 4 semanas. Síndrome de Guillain-Barré severo e incapacidade significativa: 2 g/kg (dividido em 2 a 5 dias) antes das 2 semanas de evolução. Polineuropatia desmielinizante inflamatória crônica: dose de ataque 2 g/kg em 2 a 5 dias, seguida de dose de manutenção 1 g/kg a cada 3–4 semanas. Encefalites autoimunes: 2 g/kg em 2–5 dias. Neuropatia motora multifocal: 2 g/kg, dividido em 2 a 5 dias. Miastenia gravis: 1 g/kg, dose única. Púrpura trombocitopênica idiopática: 0,8–1 g/kg, dose única; conforme critério do especialista pode repetir-se às 48 h. Doença de Kawasaki: 2 g/kg, dose única. Síndrome inflamatória multissistêmica pediátrica (PIMS) relacionada à COVID-19: 2 g/kg em dose única, máximo 100 g. Ver Terapêutica do síndrome inflamatório multissistêmico pediátrico relacionado à COVID-19.",
-      "notes": "Administração: Salas de Internação: Ver Plantillas de infusão GG E.V. \"Universidade Nacional de Córdoba\" Hospital de Dia: Ver Plantilla de infusão de GG E.V. distintas marcas. Ver \"Uso de Gammaglobulina em Pediatria\". Ver formulário de \"Solicitação de Gammaglobulina Endovenosa\"."
+      "presentation": "FA 2,5–5–10 g (p. ex. 50 mg/mL).",
+      "dose": "Imunodeficiência: **0,4–0,8 g/kg** a cada 3–4 semanas. Kawasaki / MIS-C: **2 g/kg** dose única (MIS-C máx. freq. **100 g**). GBS/CIDP/encefalite: **2 g/kg** em 2–5 dias. PTI: **0,8–1 g/kg**. Miastenia: **1 g/kg**.",
+      "administration": "IV; início 0,3–0,5 mL/kg/h → até 4 mL/kg/h.",
+      "notes": "Ver plantilhas Garrahan / hospital dia."
     }
   },
-  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto. Conservar entre 2 e 30 °C.",
-  "adverseEffects": "## Efeitos adversos\n\nAnafilaxia, dor torácica, dispneia, choque, cefaleia, febre, calafrios, náuseas, vômitos, mialgias, artralgias.",
+  "stability": "## Estabilidade\n\n- Conservar 2–30 °C conforme marca. Descartar sobra aberta.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, febre, calafrios, náuseas, mialgias; anafilaxia; trombose; IRA; sobrecarga de volume.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Gammaglobulina Humana Endovenosa * (cód. 0102, ATC J06BA).",
+      "citation": "Hospital Garrahan. Formulário — gamaglobulina IV.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "AAP / ACR — dose IVIG Kawasaki.",
       "url": "https://www.aap.org/"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

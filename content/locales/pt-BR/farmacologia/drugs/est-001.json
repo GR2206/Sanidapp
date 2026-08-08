@@ -1,47 +1,48 @@
 {
   "id": "est-001",
   "name": "Estreptomicina",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico. Antituberculoso.",
-  "indications": "## Indicações principais\n\nAntibiótico. Antituberculoso.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Aminoglicosídeo antituberculoso. Adulto TB: **15 mg/kg IM/dia** (usual **0,75–1 g/dia**; máx. **1 g**). Pediatria: **15–20 mg/kg/dia** (máx. **1 g**). Preferir IM; oto/nefrotoxicidade.",
+  "indications": "## Indicações\n\n- Tuberculose (sempre em combinação).\n- Algumas infecções por enterococos / brucela em esquemas históricos.\n\n## Precauções\n\n- Ototoxicidade e nefrotoxicidade. Ajuste na IRC. Teratogênico.\n- IV só se não tolerar IM e com infectologia.\n\n> Nunca monoterapia na TB.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 1 g (Estreptomicina Richet).",
-      "reconstitution": "4,5 mL de AD ou SF (100 mg/mL).",
-      "administration": "I.M.: Sim. Reconst. 1 g com 4,5 mL de AD ou SF e aplicar I.M. profunda."
+      "presentation": "FA 1 g.",
+      "dose": "TB diária: **15 mg/kg IM** (usual **0,75–1 g**) **a cada 24 h**. Intermitente: **20–25 mg/kg** 2–3×/semana (máx. **1–1,5 g**/dose). Máx. habitual diário **1 g**.",
+      "administration": "IM profundo após reconstituir ~4,5 mL AD/SF (≈100 mg/mL). IV excepcional: 1 g em 100 mL SF em 30–60 min.",
+      "notes": "Rotacionar sítios IM."
     },
     "pediatrico": {
-      "dose": "Neonatos: reservado somente para pacientes que apresentam resistência a outros aminoglicosídeos. Crianças: 15 - 20 mg/kg/dia, dose máxima: 1 g/dia",
-      "administration": "I.M.; E.V. (casos especiais)",
-      "presentation": "F.A.: 1 g",
-      "notes": "Ajustar dose em insuficiência renal. Para a administração E.V. (somente para pacientes que não toleram a injeção I.M. e com autorização de Infectologia) a dose se dilui em 100 ml de solução fisiológica e infundir em 30-60 minutos através de uma via periférica ou central. Ver guia de tratamento de tuberculose. Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+      "presentation": "FA 1 g.",
+      "dose": "**15–20 mg/kg/dia** IM (máx. **1 g/dia**). Neonatos: só se não houver alternativa.",
+      "administration": "IM; IV só casos especiais.",
+      "notes": "Seguir guia nacional de TB."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Não se aplica.",
-  "adverseEffects": "## Efeitos adversos\n\nOtotoxicidade, nefrotoxicidade, parestesia peribucal. Por injeção I.M. reações de hipersensibilidade.",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~48 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nVertigem, surdez, nefrotoxicidade, parestesias peribucais, reações no local IM, hipersensibilidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Estreptomicina (cód. 0086, ATC J01GA).",
+      "citation": "Hospital Garrahan. Formulário — estreptomicina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "OMS / programas nacionais de TB.",
+      "url": "https://www.who.int/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

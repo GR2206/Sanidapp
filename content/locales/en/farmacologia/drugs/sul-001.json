@@ -2,42 +2,46 @@
   "id": "sul-001",
   "name": "Sulbactam",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-30",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Beta-lactamase inhibitor used as monotherapy for *Acinetobacter baumannii* infections according to institutional protocols.",
-  "indications": "## Indications\n\n- Monotherapy in *Acinetobacter baumannii* infections (intrinsic activity against OXA-23 and similar enzymes).\n- May be combined with colistin or meropenem depending on sensitivity.\n\n## Precautions\n\n- Do not confuse with ampicillin-sulbactam.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "executiveSummary": "β-lactamase inhibitor with intrinsic anti-*Acinetobacter* activity. Adult CRAB: **6–9 g/day IV** divided (e.g. **2–3 g every 8 h** or **1 g every 6 h** over 3 h). Pediatrics: **50–100 mg/kg/day**. Do not confuse with ampicillin-sulbactam.",
+  "indications": "## Indications\n\n- *Acinetobacter baumannii* infections (incl. OXA) when susceptibility/ID indicate — often combined (colistin, carbapenem, etc.).\n\n## Precautions\n\n- **Not ampicillin-sulbactam**: dose here is **sulbactam alone**.\n- Renal adjustment. Diarrhea / *C. difficile*, rash, phlebitis.\n- Restricted / ID use.\n\n> High doses (≥6–9 g/day) usually needed for CRAB; 3–4 g/day may be insufficient.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial with lyophilized powder containing 1 g of sodium sulbactam (Sulbactam Richet, Northia, others).",
-      "reconstitution": "10 mL of sterile water (SW) or normal saline (NS). Concentration: 100 mg/mL.",
-      "diluent": "1 g in 100 mL of NS or 5% dextrose (D5W).",
-      "finalConcentration": "10 mg/mL.",
-      "administration": "Direct IV: Yes. Reconstitute in 10 mL SW and administer slowly over 3–5 min. Intermittent IV: Yes. Dilute in 50–100 mL NS or D5W and infuse over 15–30 min.",
-      "notes": "Usual dose: 3–4 g/day in 3–4 doses or prolonged infusion (1 g every 6 h over 3 h). May be combined with colistin or meropenem depending on sensitivity. Do not confuse with ampicillin-sulbactam."
+      "presentation": "Vial 1 g sulbactam sodium.",
+      "dose": "CRAB / severe: **6–9 g/day** IV (e.g. **2 g every 8 h** or **3 g every 8 h**; alternative **1 g every 6 h** as ~3 h prolonged infusion). Less severe: **3–4 g/day** divided. Adjust by CrCl.",
+      "administration": "Reconstitute 10 mL SW/NS; slow IV 3–5 min or dilute 50–100 mL NS/D5W over 15–30 min (or prolonged).",
+      "notes": "May combine with colistin or meropenem by susceptibility."
     },
     "pediatrico": {
-      "dose": "Regimens according to pediatric infectious disease protocols.",
-      "administration": "IV as indicated."
+      "presentation": "Vial 1 g.",
+      "dose": "**50–100 mg/kg/day** IV divided every 6–8 h (max approach adult ceiling ~**9 g/day** in large adolescents) — ID.",
+      "administration": "IV as adult.",
+      "notes": "Institutional regimens vary; do not improvise monotherapy."
     }
   },
-  "stability": "## Stability\n\n- Reconstituted (in vial): 8 h at room temperature, 48 h refrigerated.\n- Diluted solution (to be administered): 8 h at room temperature, 48 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\n- Diarrhea, rash, phlebitis.",
+  "stability": "## Stability\n\n- Reconstituted/diluted: ~8 h room temp / ~48 h refrigerated.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, rash, phlebitis, eosinophilia; rare: anaphylaxis.",
   "bibliography": [
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA. Resistant Gram-negative guidance — sulbactam for CRAB.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEMPS CIMA.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

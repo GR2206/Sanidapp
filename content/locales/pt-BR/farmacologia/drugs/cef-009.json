@@ -1,53 +1,48 @@
 {
   "id": "cef-009",
   "name": "Cefalotina",
-  "version": "1.1.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Cefalosporina de primeira geração. Profilaxia cirúrgica, tratamento de infecções do trato respiratório, ouvido médio, pele e tecidos moles causadas por bactérias suscetíveis: cocos gram-positivos.",
-  "indications": "## Indicações principais\n\nCefalosporina de primeira geração. Profilaxia cirúrgica, tratamento de infecções do trato respiratório, ouvido médio, pele e tecidos moles causadas por bactérias suscetíveis: cocos gram-positivos.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Cefalosporina de 1ª geração. Adulto: **1–2 g IV a cada 4–6 h** (máx. **12 g/dia**); profilaxia cirúrgica **1–2 g**. Pediatria: **80–150 mg/kg/dia** dividido a cada 6–8 h.",
+  "indications": "## Indicações\n\n- Infecções de pele/partes moles, respiratórias e óticas por cocos gram-positivos suscetíveis.\n- Profilaxia cirúrgica perioperatória.\n\n## Precauções\n\n- Alergia a β-lactâmicos. Flebite IV frequente.\n- Menos conveniente que cefazolina em muitos protocolos modernos.\n\n> Escurecimento à T° amb não implica necessariamente perda de potência.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 1 g (Arecemin, Cefalotina Larjan, Drawer, Dosagluc, Cefade, Richet).",
-      "reconstitution": "5 mL de AD. Conc.: 200 mg/mL.",
-      "diluent": "1–2 g em 100 mL de SF ou SG 5%.",
-      "finalConcentration": "10–20 mg/mL.",
-      "administration": "E.V. direta: Sim. Reconst. com 10 mL de AD, SF ou SG 5% e admin. em 3–5 min. E.V. intermitente: Sim. Diluir 1 g em 100 mL de SF ou SG 5% e admin. em 30–60 min.",
-      "notes": "Se o conteúdo do frasco não se dissolver por completo, adicionar AD (0,2–0,5 mL) e agitar vigorosamente. O escurecimento da solução em temperatura ambiente não afeta a eficácia. É possível a administração I.M."
+      "presentation": "FA 1 g.",
+      "dose": "Tratamento: **0,5–2 g IV/IM a cada 4–6 h** (usual **1 g a cada 6 h**; graves até **2 g a cada 4 h**). Máx. **12 g/dia**. Profilaxia: **1–2 g** pré-cirúrgico.",
+      "administration": "IV direta 3–5 min ou diluir 100 mL SF/SG 5% em 30–60 min. IM possível.",
+      "notes": "Se não dissolver por completo, adicionar 0,2–0,5 mL AD e agitar."
     },
     "pediatrico": {
-      "presentation": "F.A.: 1000 mg",
-      "administration": "E.V.",
-      "diluent": "SF 0,9% ou SG 5%.",
-      "finalConcentration": "100 mg/mL.",
-      "infusionRate": "3 a 5 min.",
-      "dose": "100 mg/kg/dia a cada 6–8 h. Adultos: 500–2000 mg a cada 6 h. Dose pré-cirúrgica em adultos: 1–2 g. Dose máxima: 12 g.",
-      "notes": "Associada a aminoglicosídeos pode aumentar o risco de nefrotoxicidade."
+      "presentation": "FA 1 g.",
+      "dose": "**80–150 mg/kg/dia** IV dividido a cada 6–8 h (freq. **100 mg/kg/dia**); máx. **12 g/dia**.",
+      "administration": "IV; conc. até ~100 mg/mL conforme cartilha.",
+      "notes": "Ajuste renal. Evitar AG sem necessidade."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 12 h em temperatura ambiente, 96 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente.\n\n## Guia pediátrica\n\n- 96 h refrigerado; 12 h em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\nReações alérgicas, tromboflebite, trombocitopenia, leucopenia, nefrotoxicidade.",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~12 h T° amb / ~96 h refrigerado.\n- Diluído: ~24 h T° amb.",
+  "adverseEffects": "## Efeitos adversos\n\nErupção, flebite, diarreia, eosinofilia; raro: leucopenia, nefrotoxicidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefALOTina sódica (cód. 0035, ATC J01DB).",
+      "citation": "Hospital Garrahan. Formulário — cefalotina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }
