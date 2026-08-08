@@ -65,6 +65,14 @@
       "version": "1.1"
     },
     {
+      "id": "med-vo-001",
+      "title": "Administración segura de medicación vía oral",
+      "category": "adulto",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-08-07"
+    },
+    {
       "id": "qui-001",
       "title": "Quimioterapia: manejo del paciente y desechos",
       "category": "adulto",

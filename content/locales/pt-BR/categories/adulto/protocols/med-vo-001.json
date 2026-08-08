@@ -1,0 +1,32 @@
+{
+  "id": "med-vo-001",
+  "title": "Administração segura de medicação por via oral",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Administrar medicação oral no adulto hospitalizado verificando os nove certos, deglutição segura, interações com alimentos e formas farmacêuticas que não devem ser fracionadas, conforme padrões de segurança do medicamento.",
+  "body": "## Passos a realizar\n\n1. Realizar higiene das mãos e preparar a medicação em área limpa, sem interrupções.\n2. Verificar os **nove certos**: paciente, medicamento, dose, via, horário, registro, razão, resposta e forma de administração.\n3. Confirmar alergias, indicação, função renal/hepática se aplicável e horários especiais (jejum, com alimentos, intervalo de antiácidos/cátions).\n4. Identificar o paciente com **dois identificadores** e explicar o que será administrado e por quê.\n5. Avaliar a capacidade de deglutição: nível de consciência, náuseas/vômitos, disfagia, NPO e risco de aspiração. Se não for seguro administrar VO, avisar e não forçar.\n6. Revisar a forma farmacêutica: comprimido, cápsula, solução, liberação prolongada/modificada, sublingual/bucal. **Não triturar nem abrir** formulações de liberação controlada, revestimento entérico, citotóxicos orais ou fármacos cuja bula/protocolo proíba.\n7. Administrar com água suficiente (salvo restrição hídrica ou instrução específica). Auxiliar posição semissentada/Fowler quando possível e permanecer até confirmar a deglutição.\n8. Para sonda enteral: confirmar posição da sonda, preferir formas líquidas ou trituração somente se permitida, irrigar antes/depois e não misturar múltiplos fármacos na mesma seringa salvo compatibilidade documentada.\n9. Vigiar intolerância imediata (vômito, engasgo, reação alérgica) e efeitos esperados/adversos conforme o fármaco.\n10. Documentar administração, recusa do paciente, dose omitida e motivo; notificar erros ou quase erros.\n\n## Fundamentação científica\n\n### Objetivo\n\nReduzir erros de medicação oral (paciente, fármaco, dose, forma e momento), aspiração e perda de eficácia por manipulação incorreta da forma farmacêutica.\n\n### Os nove certos (via oral)\n\n1. Paciente certo.\n2. Medicamento certo.\n3. Dose certa.\n4. Via certa (VO vs SNG/SNE vs sublingual).\n5. Horário certo.\n6. Registro certo.\n7. Razão certa.\n8. Resposta certa (vigiar efeito e toxicidade).\n9. Forma certa (não alterar liberação modificada).\n\n### Formas farmacêuticas — precauções\n\n| Forma | Precaução |\n| --- | --- |\n| Liberação prolongada / modificada | Não triturar, partir nem mastigar |\n| Revestimento entérico | Não triturar; não administrar com antiácidos salvo indicação |\n| Sublingual / bucal | Não engolir; não beber até a dissolução |\n| Líquidos / suspensões | Agitar se indicado; usar seringa/dosador oral |\n| Citostáticos orais | Manipulação com EPI conforme protocolo de perigosos |\n| Alto risco (anticoagulantes, opioides, hipoglicemiantes) | Dupla verificação conforme política institucional |\n\n### Interações com alimentos e coadministração\n\n- Respeitar “em jejum” vs “com alimentos” conforme bula.\n- Separar de cátions (Ca, Fe, Mg, Al), sucralfato ou resinas quando reduzirem a absorção.\n- Na polifarmácia, priorizar horários que evitem interações clinicamente relevantes.\n\n### Evidência e recomendações\n\n> **OMS — Medication Without Harm:** verificação sistemática e cultura de notificação como pilares da segurança.\n\n> **ISMP:** alertas sobre trituração indevida de formas de liberação modificada e erros com líquidos orais medidos incorretamente.\n\n> **Prática de enfermagem / farmácia clínica:** avaliação da deglutição e uso apropriado da via enteral como parte da administração segura.\n\n### Critérios de aviso imediato\n\n- Suspeita de aspiração ou engasgo.\n- Reação alérgica / anafilaxia.\n- Vômito imediato de dose crítica (anticoagulante, antiepiléptico, imunossupressor, hipoglicemiante).\n- Erro de medicação detectado.\n- Impossibilidade de deglutir dose inadiável.\n\n### Complicações\n\n- Aspiração broncopulmonar.\n- Ineficácia terapêutica por trituração ou interação com alimentos.\n- Toxicidade por duplicação ou dose incorreta.\n- Úlcera esofágica por comprimidos retidos (p. ex. bisfosfonatos) se a técnica for inadequada.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Oral dosage forms that should not be crushed.",
+      "url": "https://www.ismp.org/"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines and self-assessments for medication safety.",
+      "url": "https://www.ismp.org/resources"
+    },
+    {
+      "citation": "Joint Commission International. National Patient Safety Goals — medication administration.",
+      "url": "https://www.jointcommission.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "med-vo-001",
+  "title": "Safe oral medication administration",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Administer oral medication to hospitalized adults by verifying the nine rights, ensuring safe swallowing, respecting food–drug interactions, and never altering dosage forms that must not be crushed, according to medication-safety standards.",
+  "body": "## Steps to perform\n\n1. Perform hand hygiene and prepare medications in a clean area without interruptions.\n2. Verify the **nine rights**: right patient, drug, dose, route, time, documentation, reason, response, and dosage form.\n3. Confirm allergies, indication, renal/hepatic function if relevant, and special timing (fasting, with food, spacing from antacids/cations).\n4. Identify the patient with **two identifiers** and explain what is being given and why.\n5. Assess swallowing ability: level of consciousness, nausea/vomiting, dysphagia, NPO status, and aspiration risk. If oral administration is unsafe, escalate and do not force.\n6. Review the dosage form: tablet, capsule, solution, modified/extended release, sublingual/buccal. **Do not crush or open** controlled-release, enteric-coated, oral cytotoxic, or other products prohibited by the label/protocol.\n7. Administer with adequate water (unless fluid-restricted or otherwise instructed). Assist a semi-upright/Fowler position when possible and stay until swallowing is confirmed.\n8. For enteral tubes: confirm tube position, prefer liquid formulations or crush only when permitted, flush before/after, and do not mix multiple drugs in one syringe unless compatibility is documented.\n9. Monitor for immediate intolerance (vomiting, choking, allergic reaction) and expected/adverse effects according to the drug.\n10. Document administration, patient refusal, omitted doses and reason; report errors or near misses.\n\n## Scientific rationale\n\n### Purpose\n\nReduce oral medication errors (patient, drug, dose, form, and timing), aspiration, and loss of efficacy from incorrect alteration of the dosage form.\n\n### The nine rights (oral route)\n\n1. Right patient.\n2. Right drug.\n3. Right dose.\n4. Right route (oral vs NG/NJ vs sublingual).\n5. Right time.\n6. Right documentation.\n7. Right reason.\n8. Right response (monitor effect and toxicity).\n9. Right form (do not alter modified-release products).\n\n### Dosage forms — precautions\n\n| Form | Precaution |\n| --- | --- |\n| Extended / modified release | Do not crush, split, or chew |\n| Enteric-coated | Do not crush; avoid antacids unless indicated |\n| Sublingual / buccal | Do not swallow; avoid drinking until dissolved |\n| Liquids / suspensions | Shake if required; use an oral syringe/dosing device |\n| Oral cytotoxics | Handle with PPE per hazardous-drug protocol |\n| High-alert (anticoagulants, opioids, hypoglycemics) | Independent double-check per institutional policy |\n\n### Food interactions and coadministration\n\n- Respect “on an empty stomach” vs “with food” per product information.\n- Separate from cations (Ca, Fe, Mg, Al), sucralfate, or resins when absorption is reduced.\n- In polypharmacy, prioritize schedules that avoid clinically relevant interactions.\n\n### Evidence and recommendations\n\n> **WHO — Medication Without Harm:** systematic verification and reporting culture as medication-safety pillars.\n\n> **ISMP:** warnings against improper crushing of modified-release forms and errors with incorrectly measured oral liquids.\n\n> **Nursing / clinical pharmacy practice:** swallow assessment and appropriate enteral-route use as part of safe administration.\n\n### Immediate escalation criteria\n\n- Suspected aspiration or choking.\n- Allergic reaction / anaphylaxis.\n- Immediate vomiting of a critical dose (anticoagulant, antiseizure drug, immunosuppressant, hypoglycemic).\n- Detected medication error.\n- Inability to swallow a time-critical dose.\n\n### Complications\n\n- Pulmonary aspiration.\n- Therapeutic failure from crushing or food interactions.\n- Toxicity from duplication or wrong dose.\n- Esophageal injury from retained tablets (e.g., bisphosphonates) if technique is inadequate.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Oral dosage forms that should not be crushed.",
+      "url": "https://www.ismp.org/"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines and self-assessments for medication safety.",
+      "url": "https://www.ismp.org/resources"
+    },
+    {
+      "citation": "Joint Commission International. National Patient Safety Goals — medication administration.",
+      "url": "https://www.jointcommission.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}
