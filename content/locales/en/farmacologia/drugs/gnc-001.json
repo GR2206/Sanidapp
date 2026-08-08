@@ -2,46 +2,53 @@
   "id": "gnc-001",
   "name": "Ganciclovir",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Antiviral for cytomegalovirus in transplant recipients and immunocompromised patients; myelotoxicity.",
-  "indications": "## Indications\n\n- Invasive CMV disease in transplant recipients.\n- CMV prophylaxis in high-risk regimens.\n\n## Precautions\n\n- Neutropenia and thrombocytopenia. Teratogenic. Adjust in chronic kidney disease.\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "Anti-CMV. Adult induction **5 mg/kg IV every 12 h** × 14–21 days; maintenance **5 mg/kg/day**. Pediatrics similar by kg; congenital CMV often **6 mg/kg every 12 h**. Myelotoxic — monitor CBC.",
+  "indications": "## Indications\n\n- CMV disease (retinitis, pneumonitis, colitis, etc.) in immunocompromised/transplant patients.\n- Induction/maintenance and high-risk prophylaxis per transplant protocol.\n- Symptomatic congenital CMV (specialist regimens).\n\n## Precautions\n\n- Neutropenia, thrombocytopenia, anemia — monitor CBC. Teratogenic/potential carcinogen — safe handling.\n- Strict renal adjustment. Nephrotoxicity.\n\n> IV only (valganciclovir is the PO form). Infusion ≥ 60 min.",
   "dilution": {
     "adulto": {
-      "presentation": "Lyophilized powder vial containing 500 mg (Ganciclovir Richet, Cymevene).",
-      "reconstitution": "10 mL sterile water. Conc: 50 mg/mL.",
-      "diluent": "500 mg in 50–100 mL of 0.9% NaCl or 5% Dextrose.",
-      "finalConcentration": "5–10 mg/mL.",
-      "administration": "Intermittent IV: Yes. Dilute in 100 mL of 0.9% NaCl or 5% Dextrose and administer in no less than 60 min."
+      "presentation": "Vial 500 mg.",
+      "dose": "Induction: **5 mg/kg IV every 12 h** × 14–21 days. Maintenance: **5 mg/kg IV every 24 h** (or **6 mg/kg** 5 days/week per protocol). Transplant prophylaxis: 5 mg/kg/day schemes by risk/center.",
+      "administration": "Reconstitute with sterile water; dilute in 50–100 mL NS or 5% dextrose (5–10 mg/mL); infuse **≥ 60 min**. No bolus. Use gloves (cytotoxic).",
+      "notes": "Do not refrigerate reconstituted solution on many labels. Adequate hydration."
     },
     "pediatrico": {
-      "dose": "5 mg/kg IV every 12 h per transplant protocol.",
-      "administration": "IV."
+      "presentation": "Vial 500 mg.",
+      "dose": "Induction/treatment: **5 mg/kg IV every 12 h**. Maintenance: **5 mg/kg/day**. Adjust by renal function and transplant protocol.",
+      "administration": "IV ≥ 60 min.",
+      "notes": "Dose by weight. Watch neutrophils."
     },
     "neonatal": {
-      "dose": "6 mg/kg/dose every 12 h in congenital CMV (specialized protocol).",
-      "administration": "IV."
+      "presentation": "Vial; ID/NNU.",
+      "dose": "Symptomatic congenital CMV: often **6 mg/kg IV every 12 h** (then step to valganciclovir PO **16 mg/kg every 12 h** in many protocols) — confirm local guidance.",
+      "administration": "IV.",
+      "notes": "Prolonged therapy with hematologic and developmental monitoring."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 12 h at room temperature. Do not refrigerate.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature. Do not refrigerate.",
-  "adverseEffects": "## Effects\n\n- Neutropenia, thrombocytopenia, nephrotoxicity.",
+  "stability": "## Stability\n\n- Reconstituted: ~12 h room temp (do not refrigerate on many brands). Diluted: ~24 h room temp.",
+  "adverseEffects": "## Adverse effects\n\nNeutropenia, thrombocytopenia, anemia, fever, rash, ↑ creatinine, nausea, potential infertility.",
   "bibliography": [
     {
-      "citation": "Infectious Diseases, Infection Prevention and Control Service. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antivirals).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical guidelines.",
+      "citation": "IDSA / AAP / DHHS antiviral and HIV dosing references.",
       "url": "https://www.idsociety.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
+      "citation": "AEMPS CIMA antiviral SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     }
   ]
 }

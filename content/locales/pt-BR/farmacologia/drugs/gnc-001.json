@@ -2,46 +2,53 @@
   "id": "gnc-001",
   "name": "Ganciclovir",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Antiviral para citomegalovírus em transplantados e imunocomprometidos; mielotoxicidade.",
-  "indications": "## Indicações\n\n- Doença invasiva por CMV em transplantados.\n- Profilaxia de CMV em esquemas de alto risco.\n\n## Precauções\n\n- Neutropenia e trombocitopenia. Teratogênico. Ajustar na DRC.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Anti-CMV. Adulto indução **5 mg/kg IV a cada 12 h** × 14–21 dias; manutenção **5 mg/kg/dia**. Pediatria semelhante por kg; CMV congênito frequentemente **6 mg/kg a cada 12 h**. Mielotóxico — controlar hemograma.",
+  "indications": "## Indicações\n\n- Doença por CMV (retinite, pneumonite, colite, etc.) em imunocomprometidos/transplantados.\n- Indução/manutenção e profilaxia de alto risco conforme protocolo de transplante.\n- CMV congênito sintomático (esquemas especializados).\n\n## Precauções\n\n- Neutropenia, trombocitopenia, anemia — monitorar hemograma. Teratogênico/carcinógeno potencial — manipulação segura.\n- Ajustar estritamente na IRC. Nefrotoxicidade.\n\n> Só IV (valganciclovir é a forma VO). Infusão ≥ 60 min.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola com pó liofilizado contendo 500 mg (Ganciclovir Richet, Cymevene).",
-      "reconstitution": "10 mL de água destilada. Conc: 50 mg/mL.",
-      "diluent": "500 mg em 50–100 mL de SF ou SG 5%.",
-      "finalConcentration": "5–10 mg/mL.",
-      "administration": "IV intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e administrar em não menos de 60 min."
+      "presentation": "FA 500 mg.",
+      "dose": "Indução: **5 mg/kg IV a cada 12 h** × 14–21 dias. Manutenção: **5 mg/kg IV a cada 24 h** (ou **6 mg/kg** 5 dias/semana conforme protocolo). Profilaxia de transplante: esquemas 5 mg/kg/dia conforme risco/centro.",
+      "administration": "Reconstituir com AD; diluir em 50–100 mL SF ou Dext. 5% (5–10 mg/mL); infundir **≥ 60 min**. Sem bolo. Usar luvas (citotóxico).",
+      "notes": "Não refrigerar reconstituído em muitas bulas. Hidratação adequada."
     },
     "pediatrico": {
-      "dose": "5 mg/kg IV a cada 12 h conforme protocolo de transplante.",
-      "administration": "IV."
+      "presentation": "FA 500 mg.",
+      "dose": "Indução/tratamento: **5 mg/kg IV a cada 12 h**. Manutenção: **5 mg/kg/dia**. Ajustar pela função renal e protocolo de transplante.",
+      "administration": "IV ≥ 60 min.",
+      "notes": "Calcular pelo peso. Vigiar neutrófilos."
     },
     "neonatal": {
-      "dose": "6 mg/kg/dose a cada 12 h em CMV congênito (protocolo especializado).",
-      "administration": "IV."
+      "presentation": "FA; infectologia/UTIN.",
+      "dose": "CMV congênito sintomático: frequentemente **6 mg/kg IV a cada 12 h** (depois passo para valganciclovir VO **16 mg/kg a cada 12 h** em muitos protocolos) — confirmar guia local.",
+      "administration": "IV.",
+      "notes": "Tratamento prolongado com monitoramento hematológico e do desenvolvimento."
     }
   },
-  "stability": "## Reconstituído (no frasco-ampola)\n\n- 12 h em temperatura ambiente. Não refrigerar.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente. Não refrigerar.",
-  "adverseEffects": "## Efeitos adversos\n\n- Neutropenia, trombocitopenia, nefrotoxicidade.",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~12 h T° amb (não refrigerar em muitas marcas). Diluído: ~24 h T° amb.",
+  "adverseEffects": "## Efeitos adversos\n\nNeutropenia, trombocitopenia, anemia, febre, erupção, ↑ creatinina, náuseas, infertilidade potencial.",
   "bibliography": [
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário (antivirais).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "citation": "IDSA / AAP / DHHS — referências de posologia antiviral/HIV.",
       "url": "https://www.idsociety.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
+      "citation": "AEMPS CIMA — referências de bulas antivirais.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     }
   ]
 }

@@ -2,43 +2,37 @@
   "id": "fsc-001",
   "name": "Foscarnet",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamiento de infecciones del grupo herpes resistentes a las terapias convencionales.",
-  "indications": "## Indicaciones principales\n\nTratamiento de infecciones del grupo herpes resistentes a las terapias convencionales.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Pirofosfato análogo anti-herpes/CMV. Adulto/pediatría CMV: inducción **90 mg/kg cada 12 h** o **60 mg/kg cada 8 h**; mantenimiento **90–120 mg/kg/día**. HSV resistente: **40 mg/kg cada 8–12 h**. Alta nefrotoxicidad — hidratar.",
+  "indications": "## Indicaciones\n\n- Retinitis / enfermedad por CMV resistente o intolerante a ganciclovir.\n- HSV/VZV mucocutáneo resistente a aciclovir.\n\n## Precauciones\n\n- Nefrotoxicidad grave — hidratación previa/concomitante; evitar otros nefrotóxicos.\n- Alteraciones de Ca/P/Mg; QT; convulsiones. Alto contenido de Na⁺ y fosfato.\n- Velocidad máx. orientativa **60 mg/kg/h**.\n\n> Solo IV. Ajustar por creatinina según ficha.",
   "dilution": {
+    "adulto": {
+      "presentation": "Solución 24 mg/mL (frasco 250–500 mL).",
+      "dose": "CMV inducción: **90 mg/kg cada 12 h** o **60 mg/kg cada 8 h** × 14–21 días. Mantenimiento: **90–120 mg/kg cada 24 h**. HSV resistente: **40 mg/kg cada 8–12 h**.",
+      "administration": "Central: puede ir sin diluir. Periférica: diluir a ≤ **12 mg/mL** en SF/Dext. 5%. Infundir **1–2 h** con bomba. Hidratación con SF antes/durante.",
+      "notes": "Cada g aporta ~10 mmol Na⁺ y ~3,3 mmol fosfato. Interacción: pentamidina (hipocalcemia), ciprofloxacina (convulsiones)."
+    },
     "pediatrico": {
-      "presentation": "Frasco de 500 ml: 24 mg/ml",
-      "administration": "E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "12 mg/mL.",
-      "infusionRate": "Entre 1 y 2 hs con BIC.",
-      "dose": "Retinitis por CMV: Inducción: 90 mg/kg/dosis cada 12 hs o 60 mg/kg/dosis cada 8 hs por 14-21 días; mantenimiento: 90-120 mg/kg/dosis cada 24 hs. Herpes simple mucocutáneo resistente a aciclovir: 40 mg/kg/dosis cada 8-12 hs.",
-      "notes": "Utilizar con cuidado en pacientes con función renal deteriorada y cuando se usan otros agentes nefrotóxicos como anfotericina B, aminoglucósidos, cisplatino, ciclosporina. Interacciona con pentamidina (aumenta la hipocalcemia), ciprofloxacina (aumenta el riesgo de convulsiones). Para disminuir la toxicidad renal el paciente debe tener una adecuada hidratación. Por catéter central se infunde sin diluir. Por vena periférica la solución debe diluirse a una concentración final máxima de 12 mg/ml. La velocidad de infusión no debe exceder los 60 mg/kg/hora. Cada gramo de Foscarnet sódico contiene 10 mmol de sodio y 3,3 mmol de fosfato."
+      "presentation": "24 mg/mL.",
+      "dose": "Igual por kg que adulto: CMV inducción **90 mg/kg c/12 h** o **60 mg/kg c/8 h**; mantenimiento **90–120 mg/kg/día**. HSV resistente: **40 mg/kg c/8–12 h**.",
+      "administration": "IV con bomba; diluir si vía periférica.",
+      "notes": "Monitorear creatinina y electrolitos a diario al inicio."
+    },
+    "neonatal": {
+      "presentation": "Uso excepcional.",
+      "dose": "Solo infectología; no pauta rutinaria neonatal.",
+      "administration": "IV.",
+      "notes": "Riesgo renal desproporcionado."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- No refrigerar.",
-  "adverseEffects": "## Efectos adversos\n\nInsuficiencia renal, hipercalcemia, hiper o hipofosfatemia, alteraciones metabólicas. Alteraciones del magnesio.",
+  "stability": "## Estabilidad\n\n- No refrigerar. Usar según prospecto tras apertura.",
+  "adverseEffects": "## Efectos adversos\n\nIRA, hipo/hipercalcemia, hipo/hiperfosfatemia, hipomagnesemia, anemia, náuseas, úlceras genitales, convulsiones.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Foscarnet * (cód. 1128, ATC J05AD).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — foscarnet.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "IDSA. CMV and acyclovir-resistant HSV management.", "url": "https://www.idsociety.org/" },
+    { "citation": "AEMPS CIMA. Ficha técnica foscarnet.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" }
   ]
 }

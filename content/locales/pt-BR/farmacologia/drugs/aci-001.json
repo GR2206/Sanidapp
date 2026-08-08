@@ -1,57 +1,54 @@
 {
   "id": "aci-001",
   "name": "Aciclovir",
-  "version": "1.2.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Herpes disseminado. Herpes-zóster e varicela em hospedeiro imunocomprometido (HIC). Encefalite herpética. Varicela em recém-nascido.",
-  "indications": "## Indicações principais\n\nHerpes disseminado. Herpes-zóster e varicela em hospedeiro imunocomprometido (HIC). Encefalite herpética. Varicela em recém-nascido.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Antiviral anti-herpes. Adulto IV zóster/varicela **10 mg/kg a cada 8 h**; encefalite **10–15 mg/kg a cada 8 h**. Pediatria encefalite < 12 anos **20 mg/kg a cada 8 h**. Hidratar; infusão ≥ 1 h.",
+  "indications": "## Indicações\n\n- Encefalite herpética, herpes neonatal, varicela/zóster em imunocomprometidos, herpes mucocutâneo grave.\n- Herpes genital (VO), profilaxia em transplante conforme protocolo.\n\n## Precauções\n\n- Nefrotoxicidade por precipitação tubular — **hidratação**, infusão lenta, conc. ≤ 7 mg/mL.\n- Ajustar na IRC. Calcular em obesos pelo peso ideal conforme protocolo.\n- Reconstituir só com **água destilada**.\n\n> Nunca bolo IV. Flebite pela alcalinidade.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 500 mg (Lazar, LAFEDAR, LIA, Pharma Vial).",
-      "reconstitution": "10 mL de AD. Conc.: 50 mg/mL.",
-      "diluent": "500 mg em 100 mL de SF. Se a dose for maior que 500 mg, diluir em 250 mL de SF.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Agitar o frasco suavemente até obter solução clara. Administrar por infusão lenta durante mais de uma hora.",
-      "notes": "A refrigeração da solução reconstituída (no frasco) pode provocar precipitado que se redissolverá em temperatura ambiente. USAR SOMENTE ÁGUA DESTILADA (outras podem precipitar o aciclovir)."
+      "presentation": "FA 250–500 mg; comprimidos 200–400–800 mg; suspensão; tópico/oftálmico.",
+      "dose": "IV zóster/varicela (imunocomprometido): **10 mg/kg a cada 8 h**. Encefalite herpética: **10–15 mg/kg a cada 8 h** × 14–21 dias. Mucocutâneo grave: **5–10 mg/kg a cada 8 h**. VO herpes genital: **400 mg a cada 8 h** ou **200 mg × 5/dia**; zóster: **800 mg × 5/dia** × 7 dias.",
+      "administration": "IV: reconstituir com AD; diluir em SF (≤ 5–7 mg/mL); **≥ 60 min**. VO com ou sem alimentos. Tópico conforme bula.",
+      "notes": "Se dose > 500 mg, diluir em ≥ 250 mL SF. Não refrigerar reconstituído (precipitado reversível à T° amb)."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 400–800 mg; F.A. liof.: 500 mg; Suspensão: 80 mg/mL; Creme/Unguento dermatológico: 5%; Pomada oftálmica: 3%",
-      "administration": "E.V.; V.O.; Tópica",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "7 mg/mL ou menos.",
-      "infusionRate": "NÃO MENOR que 1 hora.",
-      "dose": "E.V.: Varicela, herpes-zóster: 30 mg/kg/dia a cada 8 h. Encefalite herpética: < 12 anos: 60 mg/kg/dia a cada 8 h; > 12 anos: 30 mg/kg/dia a cada 8 h. Herpes genital, herpes mucocutâneo em HIC, gingivoestomatite herpética: < 12 anos: 30 mg/kg/dia a cada 8 h; > 12 anos: 15 mg/kg/dia a cada 8 h. V.O.: 80 mg/kg/dia a cada 6 h (dose máxima: 3,2 g), adultos: 200–800 mg a cada 6–8 h. A dose em pacientes obesos deve ser calculada com base no peso corporal ideal. Profilaxia de transplante de medula óssea: Herpes simples, paciente com sorologia positiva (receptor e/ou doador): 10 mg/kg/dose a cada 8 h ou 250 mg/m²/dose a cada 8 h (desde 24 h antes do acondicionamento até o dia +30; suspender se iniciar ganciclovir). Receptores de transplante alogênico não relacionado para profilaxia de CMV: 500 mg/m²/dose a cada 8 h. Terapia dermatológica: Infecção por herpesvírus: aplicar 5 vezes ao dia, durante 1 semana. Oftalmologia: Pomada oftálmica 3% a cada 3 h.",
-      "notes": "Risco de flebite ou inflamação no local da injeção em altas concentrações (muito alcalino). Infundir em pelo menos 1 hora a uma concentração final < 7 mg/mL. Para prevenir a precipitação do aciclovir nos túbulos renais é necessária hidratação adequada. Não refrigerar o antibiótico reconstituído."
+      "presentation": "FA 500 mg; comprimidos; suspensão 80 mg/mL; creme 5%; pomada oftálmica 3%.",
+      "dose": "IV varicela/zóster: **10 mg/kg a cada 8 h** (30 mg/kg/dia). Encefalite: < 12 anos **20 mg/kg a cada 8 h**; ≥ 12 anos **10–15 mg/kg a cada 8 h**. Mucocutâneo/HIC: < 12 anos **10 mg/kg a cada 8 h**; ≥ 12 anos **5 mg/kg a cada 8 h**. VO: **80 mg/kg/dia a cada 6 h** (máx. **3,2 g/dia**).",
+      "administration": "IV ≥ 1 h, conc. ≤ 7 mg/mL. VO/tópico conforme indicação.",
+      "notes": "Profilaxia TMO: 10 mg/kg ou 250 mg/m² a cada 8 h conforme protocolo institucional."
     },
     "neonatal": {
-      "dose": "20 mg/kg/dose a cada 8 h em encefalite neonatal.",
-      "administration": "E.V. lenta."
+      "presentation": "FA; UTIN.",
+      "dose": "Encefalite / herpes neonatal disseminado: **20 mg/kg IV a cada 8 h** × 14–21 dias (SNC/disseminado) conforme guia.",
+      "administration": "IV lenta ≥ 1 h com hidratação.",
+      "notes": "Ajustar se prematuridade extrema / IRC."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 12 h em temperatura ambiente.\n\n## Solução diluída (a administrar)\n\n- 12 h em temperatura ambiente.\n\n## Guia pediátrica\n\n- Dil. com DX 5%: 24 h em temperatura ambiente.\n- Dil. com AD: 12 h em temperatura ambiente.\n- Não refrigerar.",
-  "adverseEffects": "## Efeitos adversos\n\nCefaleia, sinais encefalopáticos, hipotensão, rash, prurido, náuseas, vômitos, diarreia, hematúria, artralgia.",
+  "stability": "## Estabilidade\n\n- Reconstituído: não refrigerar (precipitado reversível). Diluído: conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nFlebite, náuseas, erupção, ↑ creatinina, cristalúria, neurotoxicidade (tremor, confusão) na IRC/doses altas.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ACIclovir (cód. 0002, ATC J05AB).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário (antivirais).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "citation": "IDSA / AAP / DHHS — referências de posologia antiviral/HIV.",
       "url": "https://www.idsociety.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEMPS CIMA — referências de bulas antivirais.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

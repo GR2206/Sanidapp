@@ -2,52 +2,53 @@
   "id": "zid-001",
   "name": "Zidovudine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Nucleoside analogue antiretroviral, reverse transcriptase inhibitor. For treatment of infection caused by HIV retrovirus.",
-  "indications": "## Main indications\n\nNucleoside analogue antiretroviral, reverse transcriptase inhibitor. For treatment of infection caused by HIV retrovirus.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "NRTI antiretroviral (AZT). Usual adult **300 mg PO every 12 h** (or 200 mg every 8 h). Perinatal/neonatal prophylaxis: schemes by gestational age (e.g. 2–4 mg/kg PO). Dose-limiting anemia/neutropenia.",
+  "indications": "## Indications\n\n- HIV treatment in combination (less often first-line today; still used in specific profiles).\n- Perinatal prophylaxis: maternal intrapartum IV and neonate PO/IV per national protocol.\n\n## Precautions\n\n- Myelosuppression (macrocytic anemia, neutropenia) — CBC. Myopathy, lactic acidosis/hepatic steatosis (rare).\n- Interactions with ribavirin, stavudine (antagonism), ganciclovir (↑ hematologic toxicity).\n\n> Never HIV monotherapy. Follow current national guidance.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial containing 200 mg in 20 mL (Zidovudina Dosa).",
-      "reconstitution": "No prior reconstitution required. Conc: 10 mg/mL.",
-      "diluent": "200 mg in 50-200 mL NS or 5% dextrose.",
-      "finalConcentration": "2-4 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 50-100 mL NS or 5% dextrose and administer over 60 min."
+      "presentation": "Tablets/capsules 100–300 mg; PO solution; IV 10 mg/mL.",
+      "dose": "Treatment (combined): **300 mg PO every 12 h** or **200 mg every 8 h**. Intrapartum (transmission prophylaxis): **2 mg/kg IV** over 1 h, then **1 mg/kg/h** until cord clamp (classic ACTG scheme) — confirm current local protocol.",
+      "administration": "PO with or without food. IV: dilute and infuse; no bolus.",
+      "notes": "Adjust in severe renal failure / hemodialysis per label."
     },
     "pediatrico": {
-      "dose": "Prophylaxis: Newborn < 30 weeks to 35 weeks gestational age: 0 to 4 weeks of life: 2 mg/kg/dose every 12 h, 4 to 6 weeks of life: 3 mg/kg/dose every 12 h; > 35 weeks gestational age: 4 mg/kg/dose every 12 h. Treatment: Preterm infants: 1.5 mg/kg/dose every 12 h until 2 weeks of age, then 2 mg/kg/dose every 8 h. Neonates: PO: 2 mg/kg/dose every 6 h IV: 1.5 mg/kg/dose every 6 h. Children: PO: 4 to 9 kg: 12 mg/kg/dose every 12 h, 9 to 30 kg: 9 mg/kg/dose every 12 h, > 30 kg: 300 mg/dose every 12 h; IV: 120 mg/m²/dose every 6 h. Adults: 300 mg every 12 h. Severe hepatic insufficiency: 300 mg every 24 h.",
-      "administration": "PO; IV",
-      "presentation": "Capsules: 100-250 mg; Syrup: 10 mg/mL 20 mL vial: 10 mg/mL",
-      "notes": "May be administered with meals. IV: Dilute in 5% dextrose (concentration 2-4 mg/mL) and infuse over 1 hour. Interacts with: acyclovir, amphotericin, dapsone, ganciclovir, pentamidine, trimethoprim-sulfamethoxazole, fluconazole, valproic acid, cimetidine, phenytoin, etc. See Post-exposure prophylaxis: occupational, sexual and needlestick in public settings."
+      "presentation": "Solution 10 mg/mL; capsules.",
+      "dose": "HIV treatment (historical orientative): **160–180 mg/m² every 8 h** or **12 mg/kg/day** divided — prefer current pediatric ART guidelines. Neonatal prophylaxis: see neonatal.",
+      "administration": "Prefer PO.",
+      "notes": "Doses and combinations per pediatric ID / national guideline."
     },
     "neonatal": {
-      "dose": "Prophylaxis and treatment according to NICU/perinatal protocol.",
-      "administration": "Slow IV according to regimen."
+      "presentation": "PO solution; IV.",
+      "dose": "Prophylaxis: neonate ≥ 35 weeks: often **4 mg/kg PO every 12 h**. 30–35 weeks: **2 mg/kg every 12 h** for the first 2–4 weeks, then **3 mg/kg every 12 h** per card. < 30 weeks: longer intervals initially. IV if PO not tolerated: **1.5–3 mg/kg** by GA — **follow national/NNU protocol**.",
+      "administration": "PO/IV.",
+      "notes": "Typical duration 4–6 weeks; extend if high risk. Monitor CBC."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature, 48 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nAnemia, leukopenia (mainly neutropenia), headaches, nausea, insomnia and myalgias.",
+  "stability": "## Stability\n\n- PO solution: per label. Diluted IV: use promptly.",
+  "adverseEffects": "## Adverse effects\n\nAnemia, neutropenia, nausea, headache, malaise, myopathy, nail hyperpigmentation, lactic acidosis (rare).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ZIDOvudine* (AZT) (code 0507, ATC J05AF).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antivirals).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "citation": "IDSA / AAP / DHHS antiviral and HIV dosing references.",
       "url": "https://www.idsociety.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA antiviral SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     }
   ]
 }

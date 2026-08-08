@@ -2,51 +2,37 @@
   "id": "zid-001",
   "name": "Zidovudina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antirretroviral análogo de los nucleósidos, inhibidor de la transcriptasa reversa. Para tratamiento de la infección causada por el retrovirus VIH.",
-  "indications": "## Indicaciones principales\n\nAntirretroviral análogo de los nucleósidos, inhibidor de la transcriptasa reversa. Para tratamiento de la infección causada por el retrovirus VIH.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "ITRN antirretroviral (AZT). Adulto habitual **300 mg VO cada 12 h** (o 200 mg c/8 h). Profilaxis perinatal/neonatal: esquemas por edad gestacional (p. ej. 2–4 mg/kg VO). Anemia/neutropenia dosis-limitantes.",
+  "indications": "## Indicaciones\n\n- Tratamiento de VIH en combinación (hoy menos primera línea, aún usado en perfiles específicos).\n- Profilaxis perinatal: madre intraparto IV y neonato VO/IV según protocolo nacional.\n\n## Precauciones\n\n- Mielosupresión (anemia macrocítica, neutropenia) — CBC. Miopatía, acidosis láctica/esteatosis hepática (rara).\n- Interacciones con ribavirina, estavudina (antagonismo), ganciclovir (↑ toxicidad hematológica).\n\n> Nunca monoterapia para VIH. Seguir guía nacional vigente.",
   "dilution": {
     "adulto": {
-      "presentation": "FA conteniendo 200 mg en 20 mL (Zidovudina Dosa).",
-      "reconstitution": "No requiere reconst. previa. Conc: 10 mg/mL.",
-      "diluent": "200 mg en 50-200 mL de SF o DX 5%.",
-      "finalConcentration": "2-4 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 50-100 mL de SF o DX 5% y admin. en 60 min."
+      "presentation": "Comprimidos/cápsulas 100–300 mg; solución VO; IV 10 mg/mL.",
+      "dose": "Tratamiento (combinado): **300 mg VO cada 12 h** o **200 mg cada 8 h**. Intraparto (profilaxis transmisión): **2 mg/kg IV** en 1 h, luego **1 mg/kg/h** hasta el clamp del cordón (esquema clásico ACTG) — confirmar protocolo local actual.",
+      "administration": "VO con o sin alimentos. IV: diluir e infundir; no bolo.",
+      "notes": "Ajustar en IRC grave / hemodiálisis según ficha."
     },
     "pediatrico": {
-      "dose": "Profilaxis: R.N. &lt; 30 semanas a 35 semanas E.G.: 0 a 4 semanas de vida : 2 mg/kg/dosis cada 12 hs, 4 a 6 semanas de vida: 3 mg/kg/dosis cada 12 hs; &gt; 35 semanas E.G.: 4 mg/kg/dosis cada 12 hs. Tratamiento: Prematuros: 1,5 mg/kg/dosis cada 12 hs hasta 2 semanas de edad, luego 2 mg/kg/dosis cada 8 hs. Neonatos: V.O.: 2 mg/kg/dosis cada 6 hs E.V.: 1,5 mg/kg/dosis cada 6 hs. Niños: V.O.: 4 a 9 Kg: 12 mg/kg/dosis cada 12 hs, 9 a 30 kg: 9 mg/kg/dosis cada 12 hs, &gt; 30 kg: 300 mg/dosis cada 12 hs; E.V.:120 mg/m&sup2;/dosis cada 6 hs. Adultos: 300 mg cada 12 hs. Insuficiencia hepática severa: 300 mg cada 24 hs.",
-      "administration": "V.O.; E.V.",
-      "presentation": "Cápsulas: 100-250 mg; Jarabe: 10 mg/ml F.A.de 20 ml: 10 mg/ml",
-      "notes": "Puede ser administrado con las comidas. E.V.: Diluir en D 5% (concentración 2-4 mg/ml) e infundir en 1 hora. Interacciona con: aciclovir, anfotericina, dapsona, ganciclovir, pentamidina, trimetoprima-sulfametoxazol, fluconazol, ácido valproico, cimetidina, difenilhidantoína, etc.. Ver Profilaxis post exposición: laboral, sexual y cortopunzante en la vía pública."
+      "presentation": "Solución 10 mg/mL; cápsulas.",
+      "dose": "Tratamiento VIH (orientativo histórico): **160–180 mg/m² cada 8 h** o **12 mg/kg/día** divididos — preferir guías pediátricas actuales (ART modernas). Profilaxis neonatal: ver neonatal.",
+      "administration": "VO preferente.",
+      "notes": "Dosis y combinaciones según infectología pediátrica / guía nacional."
     },
     "neonatal": {
-      "dose": "Profilaxis y tratamiento según protocolo NNU/perinatal.",
-      "administration": "IV lenta según esquema."
+      "presentation": "Solución VO; IV.",
+      "dose": "Profilaxis: RN ≥ 35 sem: a menudo **4 mg/kg VO cada 12 h**. 30–35 sem: **2 mg/kg c/12 h** las primeras 2–4 semanas, luego **3 mg/kg c/12 h** según cartilla. < 30 sem: intervalos más largos al inicio. IV si no tolera VO: **1,5–3 mg/kg** según EG — **seguir protocolo nacional/NNU**.",
+      "administration": "VO/IV.",
+      "notes": "Duración típica 4–6 semanas; ampliar si alto riesgo. Monitorear hemograma."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- No aplica.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb, 48 hs refrigerada.",
-  "adverseEffects": "## Efectos adversos\n\nAnemia, leucopenia (principalmente neutropenia), cefaleas, náuseas, insomnio y mialgias.",
+  "stability": "## Estabilidad\n\n- Solución VO: según prospecto. IV diluido: usar pronto.",
+  "adverseEffects": "## Efectos adversos\n\nAnemia, neutropenia, náuseas, cefalea, malestar, miopatía, hiperpigmentación ungueal, acidosis láctica (rara).",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — ZIDOvudina* (AZT) (cód. 0507, ATC J05AF).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — zidovudina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "WHO / DHHS. Perinatal HIV guidelines — zidovudine neonatal prophylaxis.", "url": "https://clinicalinfo.hiv.gov/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEMPS CIMA. Ficha técnica zidovudina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" }
   ]
 }
