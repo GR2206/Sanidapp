@@ -1,0 +1,50 @@
+{
+  "id": "dom-001",
+  "name": "Domperidone",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Peripheral prokinetic/antiemetic. Adult: **10 mg PO up to 3 times/day** (max **30 mg/day**, short courses). Pediatrics: restricted (QT); if used **0.25 mg/kg up to 3/day**. Avoid with long QT/potent CYP3A4 inhibitors.",
+  "indications": "## Indications\n\n- Nausea/vomiting when benefit outweighs risk.\n- Selected adult delayed gastric emptying symptoms.\n\n## Precautions\n\n- **QT prolongation** — not with other QT+ drugs, hypokalemia, HF, potent CYP3A4 inhibitors.\n- EMA: lowest dose/shortest duration (usually ≤7 days).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 10 mg; suspension 1 mg/mL.",
+      "dose": "**10 mg PO up to 3 times/day** (max **30 mg/day**). Prefer ≤7 days.",
+      "administration": "PO 15–30 min before meals.",
+      "notes": "Contraindicated if known QT / proarrhythmics."
+    },
+    "pediatrico": {
+      "presentation": "Suspension 1 mg/mL.",
+      "dose": "If specialist indicates: **0.25 mg/kg/dose up to 3/day** (max **0.75 mg/kg/day** or adult **30 mg**).",
+      "administration": "PO.",
+      "notes": "Consider ondansetron. ECG if risk factors."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Avoid; QT risk.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nDry mouth, headache, hyperprolactinemia, QT/arrhythmias, diarrhea.",
+  "bibliography": [
+    {
+      "citation": "EMA / AEMPS. Domperidone — cardiac risk.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Domperidone.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "Sanford Guide.",
+      "url": "https://www.sanfordguide.com/"
+    }
+  ],
+  "translationReviewed": true
+}

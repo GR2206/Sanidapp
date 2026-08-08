@@ -1,0 +1,50 @@
+{
+  "id": "cet-001",
+  "name": "Cetirizine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "2nd-generation H1 antihistamine. Adult and ≥12 years: **10 mg PO/day**. 6–12 years: **5 mg every 12 h** or **10 mg/day**. 2–6 years: **2.5 mg every 12 h**. Adjust in renal failure.",
+  "indications": "## Indications\n\n- Allergic rhinitis, chronic urticaria, allergic pruritus.\n\n## Precautions\n\n- More sedation than loratadine in some patients. Renal adjustment.\n- Avoid alcohol/CNS depressants.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 10 mg; syrup/drops 1 mg/mL.",
+      "dose": "**10 mg PO once daily**. Renal failure: **5 mg/day** or alternate days by CrCl.",
+      "administration": "PO, preferably at night if sedation.",
+      "notes": "Max 10 mg/day in adults."
+    },
+    "pediatrico": {
+      "presentation": "Syrup/drops 1 mg/mL; tabs 10 mg.",
+      "dose": "6–12 years: **5 mg q12h** or **10 mg/day**. 2–6 years: **2.5 mg q12h**. ≥12 years: **10 mg/day**.",
+      "administration": "PO.",
+      "notes": "<2 years: per local label."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, dry mouth, headache, fatigue; rare paradoxical reaction in children.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Cetirizine.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Garrahan Hospital. Institutional formulary.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

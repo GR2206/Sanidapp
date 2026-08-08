@@ -1,0 +1,50 @@
+{
+  "id": "abz-001",
+  "name": "Albendazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-helmíntico. Oxiúros/áscaris adulto: **400 mg VO dose única**. Geohelmintos: **400 mg/dia × 3 dias**. Hidatidose/NCC: **15 mg/kg/dia** (máx. **800 mg/dia**).",
+  "indications": "## Indicações\n\n- Geohelmintíases, oxiuríase.\n- Hidatidose e neurocisticercose (esquemas longos).\n\n## Precauções\n\n- Teratogênico — evitar na gravidez (1º trimestre).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 200–400 mg; suspensão 40 mg/mL.",
+      "dose": "Oxiúros: **400 mg VO única** (+ dia 14). Áscaris: **400 mg única** ou **×3 dias**. Tricuríase: **400 mg/dia × 3 dias**. Hidatidose/NCC: **15 mg/kg/dia** (máx. **800 mg/dia**).",
+      "administration": "VO; com comida gordurosa em infecções teciduais.",
+      "notes": "Tratar conviventes na oxiuríase."
+    },
+    "pediatrico": {
+      "presentation": "Suspensão 40 mg/mL.",
+      "dose": "≥2 anos: semelhante ao adulto (**400 mg**). <2 anos: **200 mg** única (OMS) ou **15 mg/kg** — bula local.",
+      "administration": "VO.",
+      "notes": "NCC: infectologia/neurologia."
+    },
+    "neonatal": {
+      "presentation": "Não rotineiro.",
+      "dose": "Só casos excepcionais.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nDor abdominal, náuseas, cefaleia, ↑ transaminases.",
+  "bibliography": [
+    {
+      "citation": "OMS. Diretrizes geohelmintos — albendazol.",
+      "url": "https://www.who.int/"
+    },
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "CDC. Parasitas — albendazol.",
+      "url": "https://www.cdc.gov/parasites/"
+    }
+  ],
+  "translationReviewed": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "nap-001",
+  "name": "Naproxeno",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "AINE de vida media larga. Adulto: **250–500 mg VO cada 12 h** (máx. habitual **1 g/día**; a veces **1,25 g** día 1). Pediatría ≥2 años: **5–10 mg/kg/día** dividido c/12 h (máx. **1 g/día**).",
+  "indications": "## Indicaciones\n\n- Dolor inflamatorio, dismenorrea, artritis, esguinces; migraña (esquemas).\n\n## Precauciones\n\n- Mismos riesgos GI/renales/CV que otros AINE. Evitar en 3.er trimestre.\n- Base vs sodio: equivalencias de mg distintas — leer etiqueta.\n\n> Preferir menor dosis y menor duración.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 250–500–550 mg (base o sodio).",
+      "dose": "**250–500 mg VO cada 12 h**. Dismenorrea/agudo: a menudo **500 mg** inicial luego **250 mg c/6–8 h** o **500 mg c/12 h**. Máx. habitual **1–1,25 g/día**.",
+      "administration": "VO con alimentos y agua.",
+      "notes": "No asociar otro AINE."
+    },
+    "pediatrico": {
+      "presentation": "Comp./suspensión según marca (≥2 años en muchas fichas).",
+      "dose": "**5–10 mg/kg/día VO** dividido cada 12 h (máx. **15 mg/kg/día** o **1 g/día**).",
+      "administration": "VO.",
+      "notes": "Evitar <2 años salvo ficha."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nDispepsia, HDA, cefalea, edema, ↑ creatinina, erupción.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Ficha técnica naproxeno.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos naproxeno.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEP Pediamécum. Naproxeno.", "url": "https://www.aeped.es/" },
+    { "citation": "Sanford Guide / clinical analgesic references.", "url": "https://www.sanfordguide.com/" }
+  ]
+}

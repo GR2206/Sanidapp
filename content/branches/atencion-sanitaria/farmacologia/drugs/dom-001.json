@@ -1,0 +1,37 @@
+{
+  "id": "dom-001",
+  "name": "Domperidona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Procinético/antiemético periférico. Adulto: **10 mg VO hasta 3 veces/día** (máx. **30 mg/día**, cursos cortos). Pediatría: uso restringido por QT; si se usa **0,25 mg/kg hasta 3/día**. Evitar con QT largo/CYP3A4 potentes.",
+  "indications": "## Indicaciones\n\n- Náuseas/vómitos (cuando el balance riesgo/beneficio lo justifica).\n- Síntomas de vaciamiento gástrico lento en adultos seleccionados.\n\n## Precauciones\n\n- **Prolonga QT** — no con otros QT+, hipokalemia, ICC, inhibidores potentes CYP3A4.\n- EMA: mínima dosis/duración (habitual ≤7 días).\n- Menos cruce SNC que metoclopramida (menos EPS), pero no inocua.\n\n> No de primera línea en niños en muchas guías actuales.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10 mg; suspensión 1 mg/mL.",
+      "dose": "**10 mg VO hasta 3 veces/día** (máx. **30 mg/día**). Preferir cursos ≤7 días.",
+      "administration": "VO 15–30 min antes de comidas.",
+      "notes": "Contraindicada si QT conocido / proarrítmicos."
+    },
+    "pediatrico": {
+      "presentation": "Suspensión 1 mg/mL.",
+      "dose": "Si infectología/gastro lo indica: **0,25 mg/kg/dosis hasta 3/día** (máx. **0,75 mg/kg/día** o techo adulto **30 mg**).",
+      "administration": "VO.",
+      "notes": "Evaluar alternativas (ondansetrón). ECG si factores de riesgo."
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "Evitar; riesgo QT.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSequedad de boca, cefalea, hiperprolactinemia, arritmias/QT, diarrea.",
+  "bibliography": [
+    { "citation": "EMA / AEMPS. Domperidone — cardiac risk and dosing restrictions.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos domperidona.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEP Pediamécum. Domperidona — precauciones pediátricas.", "url": "https://www.aeped.es/" },
+    { "citation": "Sanford / antiemetic clinical references.", "url": "https://www.sanfordguide.com/" }
+  ]
+}

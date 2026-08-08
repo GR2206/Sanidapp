@@ -1,0 +1,50 @@
+{
+  "id": "cet-001",
+  "name": "Cetirizina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-histamínico H1 2ª geração. Adulto e ≥12 anos: **10 mg VO/dia**. 6–12 anos: **5 mg a cada 12 h** ou **10 mg/dia**. 2–6 anos: **2,5 mg a cada 12 h**.",
+  "indications": "## Indicações\n\n- Rinite alérgica, urticária crônica, prurido alérgico.\n\n## Precauções\n\n- Sedação maior que loratadina em alguns. Ajuste renal.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10 mg; xarope/gotas 1 mg/mL.",
+      "dose": "**10 mg VO uma vez ao dia**. IRC: **5 mg/dia** ou dias alternados.",
+      "administration": "VO, de preferência à noite se sedação.",
+      "notes": "Máx. 10 mg/dia."
+    },
+    "pediatrico": {
+      "presentation": "Xarope/gotas 1 mg/mL.",
+      "dose": "6–12 anos: **5 mg c/12 h** ou **10 mg/dia**. 2–6 anos: **2,5 mg c/12 h**. ≥12 anos: **10 mg/dia**.",
+      "administration": "VO.",
+      "notes": "<2 anos: conforme bula local."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nSonolência, xerostomia, cefaleia, fadiga.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Cetirizina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulário institucional.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

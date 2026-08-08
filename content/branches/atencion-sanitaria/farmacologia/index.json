@@ -9,6 +9,13 @@
       "updatedAt": "2026-08-07"
     },
     {
+      "id": "asa-001",
+      "name": "Ácido acetilsalicílico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "ade-001",
       "name": "Adenosina",
       "branch": "atencion-sanitaria",
@@ -21,6 +28,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.1.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "abz-001",
+      "name": "Albendazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "alb-001",
@@ -303,6 +317,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "cet-001",
+      "name": "Cetirizina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "cip-001",
       "name": "Ciprofloxacina",
       "branch": "atencion-sanitaria",
@@ -462,6 +483,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "dom-001",
+      "name": "Domperidona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dop-001",
@@ -705,8 +733,8 @@
       "id": "ibu-001",
       "name": "Ibuprofeno",
       "branch": "atencion-sanitaria",
-      "version": "1.0.0",
-      "updatedAt": "2026-08-07"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "imp-001",
@@ -856,6 +884,13 @@
       "updatedAt": "2026-08-07"
     },
     {
+      "id": "mfm-001",
+      "name": "Metformina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "mep-001",
       "name": "Metilprednisolona",
       "branch": "atencion-sanitaria",
@@ -931,6 +966,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.1.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "nap-001",
+      "name": "Naproxeno",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "nif-001",
@@ -1027,8 +1069,8 @@
       "id": "pct-001",
       "name": "Paracetamol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.0",
-      "updatedAt": "2026-08-07"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "pen-002",

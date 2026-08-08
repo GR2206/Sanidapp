@@ -1,0 +1,50 @@
+{
+  "id": "asa-001",
+  "name": "Ácido acetilsalicílico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "AAS. Antiagregante adulto: **75–100 mg VO/dia**. Analgésico: **500–1000 mg a cada 4–6 h**. Pediatria: evitar como antipirético (Reye).",
+  "indications": "## Indicações\n\n- Prevenção CV secundária (dose baixa).\n- Dor/febre em adultos.\n- Kawasaki (especialista).\n\n## Precauções\n\n- **Não** antipirético em crianças/adolescentes com viral (Reye).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 81–100–325–500 mg.",
+      "dose": "Antiagregante: **75–100 mg VO/dia**. Analgésico/febre: **500–1000 mg a cada 4–6 h** (máx. **3–4 g/dia**).",
+      "administration": "VO com alimentos.",
+      "notes": "Interações com anticoagulantes e outros AINEs."
+    },
+    "pediatrico": {
+      "presentation": "Comp. pediátricos.",
+      "dose": "Não usar para febre viral. Kawasaki: fases anti-inflamatória depois antiagregante — cardiologia.",
+      "administration": "VO.",
+      "notes": "Risco Reye."
+    },
+    "neonatal": {
+      "presentation": "Excepcional.",
+      "dose": "Só protocolos específicos.",
+      "administration": "VO.",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Proteger da umidade.",
+  "adverseEffects": "## Efeitos adversos\n\nDispepsia, HDA, zumbido, broncoespasmo, Reye, hemorragia.",
+  "bibliography": [
+    {
+      "citation": "AHA. Antiagregação — AAS dose baixa.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "AAP. AAS e síndrome de Reye.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

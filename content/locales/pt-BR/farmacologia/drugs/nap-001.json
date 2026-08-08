@@ -1,0 +1,50 @@
+{
+  "id": "nap-001",
+  "name": "Naproxeno",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "AINE de meia-vida longa. Adulto: **250–500 mg VO a cada 12 h** (máx. habitual **1 g/dia**). Pediatria ≥2 anos: **5–10 mg/kg/dia** dividido c/12 h.",
+  "indications": "## Indicações\n\n- Dor inflamatória, dismenorreia, artrite, entorses.\n\n## Precauções\n\n- Mesmos riscos GI/renais/CV dos AINEs. Evitar no 3º trimestre.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 250–500–550 mg.",
+      "dose": "**250–500 mg VO a cada 12 h**. Agudo/dismenorreia: frequentemente **500 mg** inicial. Máx. habitual **1–1,25 g/dia**.",
+      "administration": "VO com alimentos.",
+      "notes": "Não associar outro AINE."
+    },
+    "pediatrico": {
+      "presentation": "Comp./suspensão (≥2 anos).",
+      "dose": "**5–10 mg/kg/dia VO** dividido a cada 12 h (máx. **1 g/dia**).",
+      "administration": "VO.",
+      "notes": "Evitar <2 anos salvo bula."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nDispepsia, HDA, cefaleia, edema, ↑ creatinina.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Naproxeno.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "Sanford Guide.",
+      "url": "https://www.sanfordguide.com/"
+    }
+  ],
+  "translationReviewed": true
+}

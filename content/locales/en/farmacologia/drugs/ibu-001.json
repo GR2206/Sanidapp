@@ -2,53 +2,53 @@
   "id": "ibu-001",
   "name": "Ibuprofen",
   "branch": "atencion-sanitaria",
-  "version": "1.0.0",
-  "updatedAt": "2026-08-07",
-  "translationReviewed": true,
-  "executiveSummary": "NSAID with analgesic, antipyretic, and anti-inflammatory effects. First-line with paracetamol for fever and mild–moderate pain; pediatric dosing in mg/kg with a defined daily maximum.",
-  "indications": "## Indications\n\n- Symptomatic treatment of **fever**.\n- Mild to moderate pain (headache, toothache, myalgia, sore throat, dysmenorrhea).\n- Musculoskeletal inflammatory conditions (including juvenile rheumatoid arthritis under a specific regimen).\n\n## Precautions and contraindications\n\n- Avoid in active peptic ulcer, GI bleeding, severe renal/hepatic failure, third trimester of pregnancy, and NSAID/ASA allergy (bronchospasm risk).\n- Use the lowest effective dose for the shortest time.\n- May mask signs of infection; reassess if fever/pain persist > 3 days.\n- Caution in varicella (cutaneous/infectious risks described with NSAIDs).\n\n> Dose by **current weight**. Confirm strength (mg/mL) before measuring volume.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "NSAID analgesic/antipyretic. Adult PO: **200–400 mg every 6–8 h** (self-care max **1.2 g/day**). Pediatric PO: **5–10 mg/kg every 6–8 h** (max **30 mg/kg/day**). IV (pain/fever): adult **400–800 mg every 6 h**; pediatrics **5–10 mg/kg every 6–8 h**.",
+  "indications": "## Indications\n\n- Fever and mild–moderate pain (PO first-line with paracetamol).\n- Musculoskeletal inflammatory conditions / JIA (PO regimens).\n- IV when PO not possible (post-op, inpatient) — specific products.\n\n## Precautions\n\n- Avoid in active ulcer/GI bleed, severe renal/hepatic failure, 3rd trimester, NSAID/ASA allergy.\n- Renal risk with dehydration; caution with ACEI/ARB, diuretics, anticoagulants.\n- **IV ≠ PO**. Neonatal PDA IV is a different regimen.\n\n> Calculate pediatrics by **weight**. Check suspension mg/mL.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets/capsules 200–400–600 mg; oral suspension 20–40 mg/mL depending on brand.",
-      "dose": "Fever/pain: 200–400 mg PO every 6–8 h. Usual short-course maximum: 1200 mg/day. Arthritis/inflammation under supervision: up to 1200–3200 mg/day in 3–4 doses per label and medical indication.",
-      "administration": "PO with food if gastric intolerance. Do not chew modified-release tablets.",
-      "notes": "Do not combine with other NSAIDs. Check interactions with anticoagulants, antiplatelets, lithium, methotrexate, and ACEI/ARB (renal function)."
+      "presentation": "PO: tabs/caps 200–400–600 mg; suspension 20–40 mg/mL. IV: vial per brand.",
+      "dose": "**PO** fever/pain: **200–400 mg every 6–8 h** (usual short-course max **1.2 g/day**; supervised inflammation up to **2.4–3.2 g/day**). **IV** pain/fever: **400–800 mg every 6 h** (usual max **3.2 g/day**); infuse ≥30 min.",
+      "administration": "PO with food if GI upset. IV: dilute per label; no rapid bolus.",
+      "notes": "Do not combine another NSAID."
     },
     "pediatrico": {
-      "presentation": "Oral suspension 2% (20 mg/mL) or 4% (40 mg/mL); pediatric tablets by brand.",
-      "dose": "Fever/pain: **5–10 mg/kg/dose PO every 6–8 h** (commonly 7.5–10 mg/kg/dose). **Daily maximum: 30 mg/kg/day** (generally ≤ 3–4 doses/day). ANMAT-aligned example (40 mg/mL suspension): 5 mg/kg/dose if axillary T < 39 °C; 10 mg/kg/dose if T ≥ 39 °C; every 6–8 h, ≤ 3 doses/day on that label. Inflammatory pain/JRA: **20–40 mg/kg/day** divided every 6–8 h (max 40 mg/kg/day) under specialist care.",
-      "administration": "PO. Prefer a calibrated oral syringe. Give with food if gastric upset. Do not use household spoons.",
-      "notes": "Always calculate by weight. Verify bottle strength (20 vs 40 mg/mL) before measuring mL. Avoid < 3 months unless product-specific medical indication. Do not routinely combine with another NSAID."
+      "presentation": "Suspension 20 or 40 mg/mL; pediatric tabs. Hospital IV per product.",
+      "dose": "**PO**: **5–10 mg/kg/dose every 6–8 h**; max **30 mg/kg/day**. JIA: **20–40 mg/kg/day** PO divided (specialist). **IV**: **5–10 mg/kg every 6–8 h** (max **30 mg/kg/day**).",
+      "administration": "PO with oral syringe; shake. IV per label.",
+      "notes": "Confirm 20 vs 40 mg/mL. Avoid <3 months unless labeled."
     },
     "neonatal": {
-      "presentation": "Not routine for neonatal fever/pain; IV PDA regimens are separate neonatology protocols.",
-      "dose": "Do not use as routine antipyretic/analgesic in neonates without explicit institutional indication.",
-      "administration": "Specialist order only.",
-      "notes": "IV ibuprofen for PDA is not the oral fever/pain regimen above."
+      "presentation": "IV for PDA (e.g. Pedea) ≠ oral antipyretic.",
+      "dose": "Not routine oral antipyretic. PDA: NNU regimen only.",
+      "administration": "IV under NNU protocol.",
+      "notes": "Do not interchange mL with oral suspension."
     }
   },
-  "stability": "## Stability / storage\n\n- Suspension: store per label (usually room temperature, tightly closed; shake before use).\n- Discard according to the manufacturer’s beyond-use date after opening.",
-  "adverseEffects": "## Adverse effects\n\nDyspepsia, nausea, abdominal pain, heartburn; less often: peptic ulcer/GI bleeding, rash, bronchospasm, fluid retention, elevated transaminases, acute kidney injury (especially with dehydration). Hypersensitivity reactions.",
+  "stability": "## Stability\n\n- Oral suspension: room temp per label; shake. Diluted IV: per product insert.",
+  "adverseEffects": "## Adverse effects\n\nDyspepsia, nausea, epigastric pain; ulcer/GI bleed; fluid retention; ↑ creatinine; bronchospasm; rash. IV: phlebitis, hypotension if rapid.",
   "bibliography": [
-    {
-      "citation": "ANMAT / Actron Pediatric (ibuprofen suspension) label — pediatric mg/kg dosing by temperature and weight.",
-      "url": "https://prospectos.bayer.com/prospectos/actron-pediatrico-2-argentina"
-    },
-    {
-      "citation": "AEMPS CIMA. Nurofen pediatric 20 mg/mL oral suspension SmPC — 20–30 mg/kg/day in 3–4 doses.",
-      "url": "https://cima.aemps.es/cima/pdfs/es/ft/82998/82998_ft.pdf"
-    },
-    {
-      "citation": "AEMPS CIMA. Pediatric IV ibuprofen — 5–10 mg/kg/dose, maximum 30 mg/kg/day (pediatric ceiling reference).",
-      "url": "https://cima.aemps.es/cima/dochtml/p/85161/P_85161.html"
-    },
     {
       "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (NSAID / analgesics).",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Ibuprofen injection — adult IV dosing.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "Garrahan Hospital. Institutional formulary.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AEP Pediamécum. Ibuprofen.",
+      "url": "https://www.aeped.es/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

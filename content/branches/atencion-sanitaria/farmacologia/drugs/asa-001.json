@@ -1,0 +1,37 @@
+{
+  "id": "asa-001",
+  "name": "Ácido acetilsalicílico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "AAS. Antiagregante adulto: **75–100 mg VO/día**. Analgésico/antipirético: **500–1000 mg cada 4–6 h** (máx. ~**3–4 g/día**). Pediatría: evitar como antipirético (Reye); dosis antiagregantes solo cardiología/reuma.",
+  "indications": "## Indicaciones\n\n- Prevención CV secundaria (dosis bajas).\n- Dolor/fiebre en adultos (hoy menos usado que paracetamol/ibuprofeno).\n- Kawasaki (dosis antiinflamatoria luego antiagregante) — pediatría especializada.\n\n## Precauciones\n\n- **No** antipirético en niños/adolescentes con viral (síndrome de Reye).\n- Úlcera, asma por AAS, coagulopatía, 3.er trimestre.\n\n> Distinguir dosis antiagregante vs analgésica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 81–100–325–500 mg; efervescentes.",
+      "dose": "Antiagregante: **75–100 mg VO/día**. Analgésico/fiebre: **500–1000 mg cada 4–6 h** (máx. habitual **3–4 g/día**).",
+      "administration": "VO con alimentos; efervescente disuelto.",
+      "notes": "Interacciones con anticoagulantes y otros AINE."
+    },
+    "pediatrico": {
+      "presentation": "Comp. pediátricos / magistrales.",
+      "dose": "No usar para fiebre viral. Kawasaki: fases **30–50 mg/kg/día** antiinflamatorio luego **3–5 mg/kg/día** antiagregante — cardiología. Antiagregación otras: **1–5 mg/kg/día** (máx. 100 mg) según especialista.",
+      "administration": "VO.",
+      "notes": "Riesgo Reye con infecciones virales."
+    },
+    "neonatal": {
+      "presentation": "Uso excepcional.",
+      "dose": "Solo protocolos específicos (p. ej. shunt) — NNU/cardiología.",
+      "administration": "VO.",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Proteger de humedad.",
+  "adverseEffects": "## Efectos adversos\n\nDispepsia, HDA, tinnitus (altas dosis), broncoespasmo, Reye (niños), hemorragia.",
+  "bibliography": [
+    { "citation": "AHA / guías antiagregación — low-dose aspirin.", "url": "https://www.heart.org/" },
+    { "citation": "AAP. Aspirin and Reye syndrome warnings.", "url": "https://www.aap.org/" },
+    { "citation": "AEMPS CIMA. Ácido acetilsalicílico.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos AAS.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

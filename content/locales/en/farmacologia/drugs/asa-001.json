@@ -1,0 +1,50 @@
+{
+  "id": "asa-001",
+  "name": "Acetylsalicylic acid (aspirin)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ASA. Adult antiplatelet: **75–100 mg PO/day**. Analgesic/antipyretic: **500–1000 mg every 4–6 h**. Pediatrics: avoid as antipyretic (Reye); antiplatelet only specialist.",
+  "indications": "## Indications\n\n- Secondary CV prevention (low dose).\n- Adult pain/fever (less used than paracetamol/ibuprofen).\n- Kawasaki (specialist).\n\n## Precautions\n\n- **Do not** use as antipyretic in children/adolescents with viral illness (Reye).\n- Ulcer, ASA asthma, coagulopathy, 3rd trimester.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 81–100–325–500 mg.",
+      "dose": "Antiplatelet: **75–100 mg PO/day**. Analgesic/fever: **500–1000 mg every 4–6 h** (usual max **3–4 g/day**).",
+      "administration": "PO with food.",
+      "notes": "Interactions with anticoagulants and other NSAIDs."
+    },
+    "pediatrico": {
+      "presentation": "Pediatric tabs / compounded.",
+      "dose": "Not for viral fever. Kawasaki: anti-inflammatory then antiplatelet phases — cardiology. Other antiplatelet: **1–5 mg/kg/day** (max 100 mg) specialist.",
+      "administration": "PO.",
+      "notes": "Reye risk with viral infections."
+    },
+    "neonatal": {
+      "presentation": "Exceptional.",
+      "dose": "Specific protocols only — NNU/cardiology.",
+      "administration": "PO.",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Protect from moisture.",
+  "adverseEffects": "## Adverse effects\n\nDyspepsia, GI bleed, tinnitus (high dose), bronchospasm, Reye (children), bleeding.",
+  "bibliography": [
+    {
+      "citation": "AHA. Antiplatelet guidance — low-dose aspirin.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "AAP. Aspirin and Reye syndrome.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

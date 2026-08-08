@@ -1,0 +1,37 @@
+{
+  "id": "cet-001",
+  "name": "Cetirizina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihistamínico H1 2.ª generación. Adulto y ≥12 años: **10 mg VO/día**. 6–12 años: **5 mg cada 12 h** o **10 mg/día**. 2–6 años: **2,5 mg cada 12 h**. Ajuste en IRC.",
+  "indications": "## Indicaciones\n\n- Rinitis alérgica, urticaria crónica, prurito alérgico.\n\n## Precauciones\n\n- Sedación mayor que loratadina en algunos pacientes. Ajuste renal.\n- Evitar alcohol/depresores. Precaución en epilepsia.\n\n> Jarabe 1 mg/mL facilita dosis pediátricas.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10 mg; gotas/jarabe 1 mg/mL; 10 mg/mL gotas.",
+      "dose": "**10 mg VO una vez al día**. IRC: reducir a **5 mg/día** o días alternos según ClCr.",
+      "administration": "VO, preferible noche si sedación.",
+      "notes": "Máx. 10 mg/día en adultos."
+    },
+    "pediatrico": {
+      "presentation": "Jarabe/gotas 1 mg/mL; comp. 10 mg.",
+      "dose": "6–12 años: **5 mg c/12 h** o **10 mg/día**. 2–6 años: **2,5 mg c/12 h** (5 mg/día). ≥12 años: **10 mg/día**.",
+      "administration": "VO.",
+      "notes": "<2 años: según ficha local (a menudo no rutinario)."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, xerostomía, cefalea, fatiga; raro: reacción paradojal en niños.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Cetirizina — posología por edad.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AEP Pediamécum. Cetirizina.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos cetirizina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Hospital Garrahan. Formulario — antihistamínicos.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" }
+  ]
+}

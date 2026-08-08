@@ -1,0 +1,50 @@
+{
+  "id": "abz-001",
+  "name": "Albendazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Benzimidazole anthelmintic. Adult pinworm/ascaris: **400 mg PO once** (repeat at 2 weeks for pinworm). Soil-transmitted: **400 mg/day × 3 days**. Hydatid/NCC: **15 mg/kg/day** (max **800 mg/day**) — specialist.",
+  "indications": "## Indications\n\n- Soil-transmitted helminths, pinworm.\n- Hydatid disease and neurocysticercosis (high/long regimens).\n\n## Precautions\n\n- Teratogenic — avoid in pregnancy (1st trimester).\n- LFTs on prolonged courses.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 200–400 mg; suspension 40 mg/mL.",
+      "dose": "Pinworm: **400 mg PO once** (+ day 14). Ascaris/hookworm: **400 mg once** or **×3 days**. Trichuris: **400 mg/day × 3 days**. Hydatid/NCC: **15 mg/kg/day** q12h (max **800 mg/day**).",
+      "administration": "PO; with fatty food for tissue infections.",
+      "notes": "Treat household contacts for pinworm."
+    },
+    "pediatrico": {
+      "presentation": "Suspension 40 mg/mL; tabs.",
+      "dose": "≥2 years: similar to adult short courses (**400 mg**). <2 years / low weight: **200 mg** once (WHO programs) or **15 mg/kg** (max 400) — local label.",
+      "administration": "PO.",
+      "notes": "NCC: ID/neurology."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Exceptional cases only.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nAbdominal pain, nausea, headache, ↑ transaminases; long courses: alopecia, leukopenia.",
+  "bibliography": [
+    {
+      "citation": "WHO. STH guidelines — albendazole.",
+      "url": "https://www.who.int/"
+    },
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "CDC. Parasites — albendazole.",
+      "url": "https://www.cdc.gov/parasites/"
+    }
+  ],
+  "translationReviewed": true
+}

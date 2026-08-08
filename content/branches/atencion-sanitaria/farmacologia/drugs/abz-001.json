@@ -1,0 +1,37 @@
+{
+  "id": "abz-001",
+  "name": "Albendazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihelmíntico benzimidazólico. Oxiuros/áscaris adulto: **400 mg VO dosis única** (repetir en 2 semanas en oxiuros). Geohelmintos: **400 mg/día × 3 días**. Hidatidosis/neurocisticercosis: esquemas prolongados **15 mg/kg/día** (máx. **800 mg/día**) — especialista.",
+  "indications": "## Indicaciones\n\n- Geohelmintiasis (áscaris, anquilostoma, tricocéfalo), oxiurosis.\n- Hidatidosis y neurocisticercosis (dosis altas/largas).\n\n## Precauciones\n\n- Teratogénico — evitar en embarazo (1.er trimestre).\n- Control hepático en tratamientos prolongados; alopecia, médula en cursos largos.\n\n> Tomar con comida grasa mejora absorción en infecciones tisulares.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 200–400 mg; suspensión 40 mg/mL.",
+      "dose": "Oxiuros: **400 mg VO única** (+ repetir día 14). Ascaris/anquilostoma: **400 mg única** o **×3 días**. Tricocéfalo: **400 mg/día × 3 días**. Hidatidosis/NCC: **15 mg/kg/día** dividido c/12 h (máx. **800 mg/día**) semanas–meses.",
+      "administration": "VO; con alimentos en esquemas tisulares.",
+      "notes": "Tratar convivientes en oxiurosis."
+    },
+    "pediatrico": {
+      "presentation": "Suspensión 40 mg/mL; comp.",
+      "dose": "≥2 años / ≥10–15 kg: similar a adulto (**400 mg** esquemas cortos). <2 años / bajo peso: **200 mg** única en muchos programas OMS o **15 mg/kg** (máx. 400) — ficha/local.",
+      "administration": "VO.",
+      "notes": "Neurocisticercosis: infectología/neurología."
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "Solo casos excepcionales.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nDolor abdominal, náuseas, cefalea, ↑ transaminasas; en cursos largos: alopecia, leucopenia.",
+  "bibliography": [
+    { "citation": "OMS. Guidelines for soil-transmitted helminthiasis — albendazole.", "url": "https://www.who.int/" },
+    { "citation": "AEMPS CIMA. Albendazol.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos albendazol.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "CDC. Parasites — albendazole dosing.", "url": "https://www.cdc.gov/parasites/" }
+  ]
+}

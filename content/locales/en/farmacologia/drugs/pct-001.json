@@ -2,53 +2,53 @@
   "id": "pct-001",
   "name": "Paracetamol (acetaminophen)",
   "branch": "atencion-sanitaria",
-  "version": "1.0.0",
-  "updatedAt": "2026-08-07",
-  "translationReviewed": true,
-  "executiveSummary": "First-line analgesic and antipyretic. Pediatrics: 10–15 mg/kg/dose PO; ≈ 60 mg/kg/day usual; do not exceed labeled daily ceilings because of hepatotoxicity risk.",
-  "indications": "## Indications\n\n- Symptomatic treatment of **fever**.\n- Mild to moderate pain.\n\n## Precautions\n\n- Risk of **hepatotoxicity** in overdose or excessive repeated dosing.\n- Do not combine multiple paracetamol-containing products.\n- Adjust in hepatic impairment; caution in malnutrition, alcoholism, and prolonged fasting.\n- Minimum interval between doses: **4 hours**.\n\n> Always dose by **current weight**. Confirm concentration (mg/mL) of drops/suspension before measuring volume.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Analgesic/antipyretic. Adult PO: **500–1000 mg every 6–8 h** (usual max **3 g/day**). IV: **1 g every 6 h**. Pediatric PO: **10–15 mg/kg/dose** (~**60 mg/kg/day**; not >**80 mg/kg/day** if <37 kg). Hepatotoxicity in overdose.",
+  "indications": "## Indications\n\n- Fever and mild–moderate pain (PO or IV if oral not tolerated).\n\n## Precautions\n\n- Hepatotoxicity: do not combine multiple paracetamol products.\n- Minimum interval **4 h**. Adjust in liver disease.\n- Add **all routes** toward the daily ceiling.\n\n> Check drops/suspension mg/mL before measuring.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 500–1000 mg; oral solution/drops by brand; IV ampoules 10 mg/mL.",
-      "dose": "PO: 500–1000 mg every 6–8 h. **Usual maximum: 3 g/day** (some hospital regimens allow up to 4 g/day only under supervision without hepatic risk factors). IV: 1 g every 6 h (max 3–4 g/day per label), infused over 15 min.",
-      "administration": "PO with or without food. IV as a short infusion per label.",
-      "notes": "Add all paracetamol sources (cold combinations, opioid combinations). In hepatic impairment reduce dose/interval with specialist advice."
+      "presentation": "PO: tabs 500–1000 mg; solution/drops. IV: 10 mg/mL (0.5–1 g bags).",
+      "dose": "**PO**: **500–1000 mg every 6–8 h**; usual max **3 g/day** (up to **4 g/day** only inpatient without hepatic risk). **IV**: **1 g every 6 h** (if <50 kg: **15 mg/kg/dose**); max **3–4 g/day**; infusion **15 min**.",
+      "administration": "PO with/without food. IV ready-to-use; no bolus.",
+      "notes": "Count cold syrups and opioid combinations."
     },
     "pediatrico": {
-      "presentation": "Oral drops/solution 100 mg/mL; suspension 32 mg/mL or other strengths; chewable tablets/suppositories by age.",
-      "dose": "**15 mg/kg/dose PO every 6 h** or **10 mg/kg/dose every 4 h**. Recommended daily dose ≈ **60 mg/kg/day**. **Do not exceed 80 mg/kg/day** in children < 37 kg. If > 38 kg: adult-aligned maximum (**3 g/day**). Minimum interval: 4 h.",
-      "administration": "PO with a calibrated oral syringe. Shake suspensions. Do not use household spoons.",
-      "notes": "If no response 3–4 h after 15 mg/kg, dosing may advance to 10 mg/kg every 4 h without exceeding the daily maximum. Avoid routinely adding another antipyretic when already on 60 mg/kg/day, except for inefficacy with medical indication."
+      "presentation": "Drops 100 mg/mL; suspension ~32 mg/mL; IV 10 mg/mL.",
+      "dose": "**PO**: **15 mg/kg every 6 h** or **10 mg/kg every 4 h** (~**60 mg/kg/day**; not >**80 mg/kg/day** if <37 kg). **IV**: **15 mg/kg/dose every 6 h**.",
+      "administration": "PO oral syringe. IV 15 min.",
+      "notes": "Min interval 4 h."
     },
     "neonatal": {
-      "presentation": "Oral solution / IV per NICU protocol.",
-      "dose": "PO or IV: usual NICU regimens **10–15 mg/kg/dose every 6–8 h** (adjust for gestational/postnatal age and hepatic function). Do not exceed institutional maxima; watch for accumulation.",
-      "administration": "PO if tolerated; IV infusion per label.",
-      "notes": "Preterm infants may need longer intervals. Always confirm with the unit neonatology guide."
+      "presentation": "Oral solution / IV NNU.",
+      "dose": "**PO or IV**: **10–15 mg/kg every 6–8 h** (longer intervals in preterms) — NNU card.",
+      "administration": "PO if tolerated; IV infusion.",
+      "notes": "Watch hepatic accumulation."
     }
   },
-  "stability": "## Stability / storage\n\n- Oral solutions: per label; keep tightly closed.\n- IV: follow manufacturer dilution/stability; discard leftovers per local policy.",
-  "adverseEffects": "## Adverse effects\n\nUsually well tolerated at therapeutic doses. Nausea, rash. In overdose: acute liver failure (treatable with N-acetylcysteine), nausea, vomiting, abdominal pain, coagulopathy.",
+  "stability": "## Stability\n\n- Orals per label. IV: after opening per insert; do not freeze.",
+  "adverseEffects": "## Adverse effects\n\nWell tolerated at therapeutic doses. Nausea, rash. Overdose: acute liver failure (N-acetylcysteine).",
   "bibliography": [
     {
-      "citation": "AEMPS CIMA. Paracetamol 100 mg/mL oral solution SmPC — 15 mg/kg/6 h or 10 mg/kg/4 h; ≈ 60 mg/kg/day; max 80 mg/kg/day (< 37 kg).",
-      "url": "https://cima.aemps.es/cima/dochtml/ft/85371/FT_85371.html"
-    },
-    {
-      "citation": "AEMPS CIMA. Apiretal / paracetamol drops SmPC — same weight-based pediatric regimen.",
-      "url": "https://cima.aemps.es/cima/pdfs/es/ft/49302/FichaTecnica_49302.html.pdf"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
       "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (analgesics/antipyretics).",
+      "citation": "Garrahan Hospital. Institutional formulary.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "World Health Organization. Analgesic guidance (paracetamol dosing principles).",
+      "citation": "WHO. Analgesic dosing — paracetamol.",
       "url": "https://www.who.int/"
+    },
+    {
+      "citation": "FDA. Acetaminophen IV labeling.",
+      "url": "https://www.fda.gov/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

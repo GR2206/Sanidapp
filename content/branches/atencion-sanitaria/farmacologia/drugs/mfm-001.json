@@ -1,0 +1,37 @@
+{
+  "id": "mfm-001",
+  "name": "Metformina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Biguanida antihiperglucemiante. Adulto: inicio **500 mg VO 1–2/día** con comidas; mantenimiento usual **1–2 g/día** (máx. **2,55–3 g/día** según ficha). Pediatría ≥10 años: similar inicio **500 mg/día**. Suspender si riesgo de acidosis láctica (IRC, hipoxia).",
+  "indications": "## Indicaciones\n\n- Diabetes mellitus tipo 2 (1.ª línea oral en muchos algoritmos).\n- SOP / prediabetes en contextos seleccionados.\n\n## Precauciones\n\n- **Acidosis láctica** — contraindicada si ClCr bajo (umbrales por ficha, a menudo <30 mL/min), insuficiencia hepática grave, sepsis, hipoxia.\n- Suspender antes de contraste yodado según protocolo.\n- GI frecuente al inicio — titular lento.\n\n> LP vs liberación inmediata: no triturar LP.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 500–850–1000 mg; LP 500–1000 mg.",
+      "dose": "Inicio: **500 mg VO 1–2 veces/día** con comidas; subir semanalmente. Mantenimiento habitual **1000–2000 mg/día**. Máx. frec. **2550–3000 mg/día** (IR) o según LP.",
+      "administration": "VO con comidas. LP una vez/día a menudo con cena.",
+      "notes": "Ajuste/contraindicación por ClCr. B12 a largo plazo."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 500–850 mg (≥10 años en fichas).",
+      "dose": "≥10 años: inicio **500 mg/día**; subir hasta **2 g/día** en 2–3 tomas según glucemia/tolerancia.",
+      "administration": "VO con comidas.",
+      "notes": "Solo DM2 / indicación endocrinológica. No en <10 años de rutina."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nDiarrea, náuseas, flatulencia, sabor metálico; déficit B12; raro: acidosis láctica.",
+  "bibliography": [
+    { "citation": "ADA. Standards of Care — metformin.", "url": "https://diabetes.org/" },
+    { "citation": "AEMPS CIMA. Metformina — dosing and renal thresholds.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos metformina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEP / ISPAD pediatric type 2 diabetes context.", "url": "https://www.ispad.org/" }
+  ]
+}

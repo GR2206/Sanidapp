@@ -1,0 +1,50 @@
+{
+  "id": "dom-001",
+  "name": "Domperidona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Procinético/antiemético periférico. Adulto: **10 mg VO até 3 vezes/dia** (máx. **30 mg/dia**). Pediatria: uso restrito (QT); se usar **0,25 mg/kg até 3/dia**.",
+  "indications": "## Indicações\n\n- Náuseas/vômitos quando o benefício supera o risco.\n\n## Precauções\n\n- **Prolonga QT**. EMA: menor dose/duração (habitual ≤7 dias).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10 mg; suspensão 1 mg/mL.",
+      "dose": "**10 mg VO até 3 vezes/dia** (máx. **30 mg/dia**). Preferir ≤7 dias.",
+      "administration": "VO 15–30 min antes das refeições.",
+      "notes": "Contraindicada se QT conhecido."
+    },
+    "pediatrico": {
+      "presentation": "Suspensão 1 mg/mL.",
+      "dose": "Se especialista indicar: **0,25 mg/kg/dose até 3/dia**.",
+      "administration": "VO.",
+      "notes": "Considerar ondansetrona."
+    },
+    "neonatal": {
+      "presentation": "Não rotineiro.",
+      "dose": "Evitar; risco QT.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nXerostomia, cefaleia, hiperprolactinemia, QT/arritmias.",
+  "bibliography": [
+    {
+      "citation": "EMA / AEMPS. Domperidona — risco cardíaco.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Domperidona.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "Sanford Guide.",
+      "url": "https://www.sanfordguide.com/"
+    }
+  ],
+  "translationReviewed": true
+}

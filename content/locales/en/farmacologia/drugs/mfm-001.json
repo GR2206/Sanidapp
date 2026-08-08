@@ -1,0 +1,50 @@
+{
+  "id": "mfm-001",
+  "name": "Metformin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Biguanide antihyperglycemic. Adult: start **500 mg PO 1–2/day** with meals; usual maintenance **1–2 g/day** (max **2.55–3 g/day**). Pediatrics ≥10 years: start **500 mg/day**. Stop if lactic acidosis risk (renal failure, hypoxia).",
+  "indications": "## Indications\n\n- Type 2 diabetes (often first-line oral).\n- PCOS / prediabetes in selected contexts.\n\n## Precautions\n\n- **Lactic acidosis** — contraindicated if low CrCl (often <30), severe liver failure, sepsis, hypoxia.\n- Hold before iodinated contrast per protocol.\n- GI upset common — titrate slowly.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 500–850–1000 mg; ER 500–1000 mg.",
+      "dose": "Start: **500 mg PO 1–2 times/day** with meals; increase weekly. Usual maintenance **1000–2000 mg/day**. Max often **2550–3000 mg/day**.",
+      "administration": "PO with meals. ER often once daily with evening meal.",
+      "notes": "Adjust/contraindicate by CrCl. Long-term B12."
+    },
+    "pediatrico": {
+      "presentation": "Tabs 500–850 mg (≥10 years).",
+      "dose": "≥10 years: start **500 mg/day**; up to **2 g/day** in 2–3 doses.",
+      "administration": "PO with meals.",
+      "notes": "Type 2 / endocrine indication only."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, flatulence, metallic taste; B12 deficiency; rare lactic acidosis.",
+  "bibliography": [
+    {
+      "citation": "ADA. Standards of Care — metformin.",
+      "url": "https://diabetes.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "ISPAD. Pediatric type 2 diabetes context.",
+      "url": "https://www.ispad.org/"
+    }
+  ],
+  "translationReviewed": true
+}

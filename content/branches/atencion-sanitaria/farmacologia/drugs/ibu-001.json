@@ -2,52 +2,37 @@
   "id": "ibu-001",
   "name": "Ibuprofeno",
   "branch": "atencion-sanitaria",
-  "version": "1.0.0",
-  "updatedAt": "2026-08-07",
-  "executiveSummary": "AINE con efecto analgésico, antipirético y antiinflamatorio. Primera línea junto con paracetamol para fiebre y dolor leve-moderado; dosis pediátrica por mg/kg con máximo diario definido.",
-  "indications": "## Indicaciones\n\n- Tratamiento sintomático de **fiebre**.\n- Dolor leve a moderado (cefalea, odontalgia, mialgias, odinofagia, dismenorrea).\n- Procesos inflamatorios musculoesqueléticos (incluyendo artritis reumatoide juvenil según esquema específico).\n\n## Precauciones y contraindicaciones\n\n- Evitar en úlcera péptica activa, hemorragia digestiva, insuficiencia renal/hepática grave, tercer trimestre de embarazo, y alergia a AINE/AAS (riesgo de broncoespasmo).\n- Usar la dosis eficaz más baja durante el menor tiempo posible.\n- Puede enmascarar signos de infección; reevaluar si fiebre/dolor persisten > 3 días.\n- Precaución en varicela (riesgos cutáneos/infecciosos descritos con AINE).\n\n> La dosis debe calcularse por **peso actual**. Confirmar presentación (mg/mL) antes de medir el volumen.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "AINE analgésico/antipirético. VO adulto: **200–400 mg cada 6–8 h** (máx. automedicación **1,2 g/día**). Pediatría VO: **5–10 mg/kg cada 6–8 h** (máx. **30 mg/kg/día**). IV (dolor/fiebre): adulto **400–800 mg cada 6 h**; pediatría **5–10 mg/kg cada 6–8 h**.",
+  "indications": "## Indicaciones\n\n- Fiebre y dolor leve–moderado (VO de primera línea junto con paracetamol).\n- Procesos inflamatorios musculoesqueléticos / AR juvenil (esquemas VO).\n- IV: cuando no es posible VO (postoperatorio, hospitalario) — productos específicos.\n\n## Precauciones\n\n- Evitar en úlcera/hemorragia digestiva, IRC/IHC graves, 3.er trimestre, alergia AINE/AAS.\n- Riesgo renal con deshidratación; precaución con IECA/ARA-II, diuréticos, anticoagulantes.\n- **IV ≠ VO**: concentraciones y techos del prospecto del producto IV.\n- DAP neonatal IV es esquema distinto (neonatología).\n\n> Calcular pediatría por **peso**. Verificar mg/mL de la suspensión.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos/cápsulas 200–400–600 mg; suspensión oral 20–40 mg/mL según marca.",
-      "dose": "Fiebre/dolor: 200–400 mg VO cada 6–8 h. Dosis máxima habitual de automedicación/corta duración: 1200 mg/día. En artritis/inflamación bajo supervisión: hasta 1200–3200 mg/día divididos en 3–4 tomas según prospecto e indicación médica.",
-      "administration": "VO con alimentos si hay intolerancia gástrica. No masticar comprimidos de liberación modificada.",
-      "notes": "Espaciar de otros AINE. Evaluar interacción con anticoagulantes, antiagregantes, litio, metotrexato e IECA/ARA-II (función renal)."
+      "presentation": "VO: comp./cáps. 200–400–600 mg; suspensión 20–40 mg/mL. IV: vial/ampolla según marca (p. ej. 100–200–400 mg/mL diluir).",
+      "dose": "**VO** fiebre/dolor: **200–400 mg cada 6–8 h** (máx. habitual corta duración **1,2 g/día**; inflamación supervisada hasta **2,4–3,2 g/día** según ficha). **IV** dolor/fiebre: **400–800 mg cada 6 h** (máx. frec. **3,2 g/día**); infundir ≥30 min.",
+      "administration": "VO con alimentos si intolerancia gástrica. IV: diluir según ficha; no bolo rápido.",
+      "notes": "No asociar otro AINE. Sumar todas las fuentes de ibuprofeno."
     },
     "pediatrico": {
-      "presentation": "Suspensión oral 2% (20 mg/mL) o 4% (40 mg/mL); comprimidos pediátricos según marca.",
-      "dose": "Fiebre/dolor: **5–10 mg/kg/dosis VO cada 6–8 h** (habitual 7,5–10 mg/kg/dosis). **Máximo diario: 30 mg/kg/día** (no superar en general 3–4 tomas/día). Ejemplo alineado a prospectos ANMAT (suspensión 40 mg/mL): 5 mg/kg/dosis si T axilar < 39 °C; 10 mg/kg/dosis si T ≥ 39 °C; cada 6–8 h, ≤ 3 tomas/día en esa ficha. Dolor inflamatorio/AR juvenil: **20–40 mg/kg/día** divididos cada 6–8 h (máx. 40 mg/kg/día) bajo indicación especializada.",
-      "administration": "VO. Preferir jeringa oral calibrada. Administrar con alimentos si molestia gástrica. No usar cucharas domésticas.",
-      "notes": "Calcular siempre por peso. Verificar concentración del frasco (20 vs 40 mg/mL) antes de medir mL. Evitar < 3 meses salvo indicación médica específica del producto. No asociar rutinariamente con otro AINE."
+      "presentation": "Suspensión 20 o 40 mg/mL; comp. pediátricos. IV hospitalario según producto.",
+      "dose": "**VO**: **5–10 mg/kg/dosis cada 6–8 h** (habitual 7,5–10 mg/kg); máx. **30 mg/kg/día** (≤3–4 tomas). ARJ: **20–40 mg/kg/día** VO dividido (especialista). **IV**: **5–10 mg/kg cada 6–8 h** (máx. **30 mg/kg/día**).",
+      "administration": "VO con jeringa calibrada; agitar suspensión. IV en perfusión según prospecto.",
+      "notes": "Confirmar 20 vs 40 mg/mL. Evitar <3 meses salvo ficha. Precaución en varicela."
     },
     "neonatal": {
-      "presentation": "Uso neonatal no rutinario para fiebre/dolor; formulaciones y dosis específicas (p. ej. cierre de DAP IV) son esquemas distintos bajo protocolo de neonatología.",
-      "dose": "No utilizar como antipirético/analgésico de rutina en neonatos sin indicación y protocolo institucional explícitos.",
-      "administration": "Solo bajo orden médica especializada.",
-      "notes": "El ibuprofeno IV para ductus no equivale a la pauta oral de fiebre/dolor descrita arriba."
+      "presentation": "IV específico para DAP (p. ej. Pedea) ≠ antipirético oral.",
+      "dose": "No usar como antipirético oral de rutina. DAP: esquema NNU (p. ej. 10→5→5 mg/kg) — solo neonatología.",
+      "administration": "IV bajo protocolo NNU.",
+      "notes": "No intercambiar mL con suspensión oral."
     }
   },
-  "stability": "## Estabilidad / conservación\n\n- Suspensión: conservar según prospecto (habitualmente temperatura ambiente, bien cerrado; agitar antes de usar).\n- Desechar según fecha de apertura indicada por el fabricante.",
-  "adverseEffects": "## Efectos adversos\n\nDispepsia, náuseas, dolor abdominal, pirosis; menos frecuentes: úlcera/hemorragia digestiva, erupción, broncoespasmo, retención hídrica, elevación de transaminasas, insuficiencia renal aguda (especialmente con deshidratación). Reacciones de hipersensibilidad.",
+  "stability": "## Estabilidad\n\n- Suspensión VO: T° ambiente según prospecto; agitar. IV diluido: usar según ficha del producto.",
+  "adverseEffects": "## Efectos adversos\n\nDispepsia, náuseas, epigastralgia; úlcera/HDA; retención hídrica; ↑ creatinina; broncoespasmo; erupción. IV: flebitis, hipotensión si rápido.",
   "bibliography": [
-    {
-      "citation": "ANMAT / prospecto Actron Pediátrico (ibuprofeno suspensión). Posología pediátrica por mg/kg según temperatura y peso.",
-      "url": "https://prospectos.bayer.com/prospectos/actron-pediatrico-2-argentina"
-    },
-    {
-      "citation": "AEMPS CIMA. Ficha técnica Nurofen pediátrico 20 mg/mL suspensión oral — dosis 20–30 mg/kg/día en 3–4 tomas.",
-      "url": "https://cima.aemps.es/cima/pdfs/es/ft/82998/82998_ft.pdf"
-    },
-    {
-      "citation": "AEMPS CIMA. Ibuprofeno pediátrico IV — 5–10 mg/kg/dosis, máximo 30 mg/kg/día (referencia de techo pediátrico).",
-      "url": "https://cima.aemps.es/cima/dochtml/p/85161/P_85161.html"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional (consulta AINE / analgésicos).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    }
+    { "citation": "ANMAT / prospectos ibuprofeno suspensión y comprimidos — posología VO.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEMPS CIMA. Ibuprofeno suspensión oral / IV pediátrico — techos mg/kg.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Ibuprofen injection (Caldorol/etc.) — adult IV dosing.", "url": "https://www.fda.gov/" },
+    { "citation": "Hospital Garrahan. Formulario — AINE / analgésicos.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEP Pediamécum. Ibuprofeno.", "url": "https://www.aeped.es/" }
   ]
 }

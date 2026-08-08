@@ -1,0 +1,50 @@
+{
+  "id": "mfm-001",
+  "name": "Metformina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Biguanida. Adulto: início **500 mg VO 1–2/dia** com refeições; manutenção usual **1–2 g/dia**. Pediatria ≥10 anos: início **500 mg/dia**. Suspender se risco de acidose láctica.",
+  "indications": "## Indicações\n\n- Diabetes mellitus tipo 2.\n- SOP / pré-diabetes em contextos selecionados.\n\n## Precauções\n\n- **Acidose láctica** — contraindicação se ClCr baixo, sepse, hipoxia.\n- Suspender antes de contraste iodado conforme protocolo.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 500–850–1000 mg; LP 500–1000 mg.",
+      "dose": "Início: **500 mg VO 1–2 vezes/dia** com refeições. Manutenção habitual **1000–2000 mg/dia**. Máx. freq. **2550–3000 mg/dia**.",
+      "administration": "VO com refeições.",
+      "notes": "Ajuste por ClCr. B12 a longo prazo."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 500–850 mg (≥10 anos).",
+      "dose": "≥10 anos: início **500 mg/dia**; até **2 g/dia**.",
+      "administration": "VO com refeições.",
+      "notes": "Só DM2 / endocrinologia."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, flatulência; déficit B12; raro: acidose láctica.",
+  "bibliography": [
+    {
+      "citation": "ADA. Standards of Care — metformina.",
+      "url": "https://diabetes.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "ISPAD. DM2 pediátrico.",
+      "url": "https://www.ispad.org/"
+    }
+  ],
+  "translationReviewed": true
+}

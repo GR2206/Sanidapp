@@ -1,0 +1,50 @@
+{
+  "id": "nap-001",
+  "name": "Naproxen",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Long half-life NSAID. Adult: **250–500 mg PO every 12 h** (usual max **1 g/day**). Pediatrics ≥2 years: **5–10 mg/kg/day** divided q12h (max **1 g/day**).",
+  "indications": "## Indications\n\n- Inflammatory pain, dysmenorrhea, arthritis, sprains; migraine (regimens).\n\n## Precautions\n\n- Same GI/renal/CV risks as other NSAIDs. Avoid in 3rd trimester.\n- Base vs sodium: different mg equivalences — read the label.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 250–500–550 mg.",
+      "dose": "**250–500 mg PO every 12 h**. Acute/dysmenorrhea: often **500 mg** load then **250 mg q6–8h** or **500 mg q12h**. Usual max **1–1.25 g/day**.",
+      "administration": "PO with food and water.",
+      "notes": "Do not combine another NSAID."
+    },
+    "pediatrico": {
+      "presentation": "Tabs/suspension (≥2 years on many labels).",
+      "dose": "**5–10 mg/kg/day PO** divided every 12 h (max **15 mg/kg/day** or **1 g/day**).",
+      "administration": "PO.",
+      "notes": "Avoid <2 years unless labeled."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nDyspepsia, GI bleed, headache, edema, ↑ creatinine, rash.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Naproxen.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "Sanford Guide.",
+      "url": "https://www.sanfordguide.com/"
+    }
+  ],
+  "translationReviewed": true
+}
