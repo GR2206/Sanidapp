@@ -1,0 +1,32 @@
+{
+  "id": "cit-001",
+  "title": "Manipulação segura de citostáticos",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Manipular, transportar, administrar e descartar fármacos citostáticos (antineoplásicos perigosos) com controles de engenharia, EPI adequado, sistemas fechados quando disponíveis e procedimentos de derramamento, para proteger a equipe, o paciente e o ambiente.",
+  "body": "## Passos a realizar\n\n1. Identificar o fármaco como perigoso/citostático conforme lista institucional (alinhada ao NIOSH/farmácia) e consultar a ficha de segurança e o procedimento local.\n2. Restringir a manipulação a pessoal capacitado; aplicar políticas de exclusão temporária (gravidez, amamentação ou outras condições definidas pela saúde ocupacional).\n3. Preparar somente na área designada (cabine de segurança biológica / sala de preparação de perigosos). **Não** reconstituir nem diluir citostáticos no quarto do paciente, salvo exceção institucional documentada.\n4. Vestir EPI completo antes de manipular: dois pares de luvas aprovadas para quimioterapia (ou conforme norma local), avental impermeável de manga longa, proteção ocular e, se houver risco de aerossolização, proteção respiratória indicada.\n5. Preferir **dispositivos de transferência de sistema fechado (CSTD)** para preparação, transferência e administração quando o serviço os disponha.\n6. Rotular com clareza: nome do paciente, fármaco, dose, diluente, volume, via, velocidade/tempo e legenda de medicamento perigoso.\n7. Transportar em recipiente rígido, fechado e identificado (sem tubo pneumático se o protocolo proibir); evitar agitação desnecessária.\n8. Na administração: manter o EPI, não purgar ar para o ambiente, usar compressas absorventes sob as conexões e verificar conexões antes de iniciar.\n9. Em caso de derramamento: evacuar a área imediata se necessário, vestir EPI de derramamento, conter com kit específico, limpar de fora para dentro conforme procedimento, descartar tudo como resíduo perigoso e notificar o incidente.\n10. Em caso de exposição cutânea/mucosa: retirar o EPI contaminado, lavar com água abundante (e sabão na pele) conforme protocolo, procurar saúde ocupacional/urgência e documentar.\n11. Descartar todo material contaminado em recipientes de citostáticos; descontaminar superfícies conforme procedimento institucional.\n12. Retirar o EPI em ordem segura (evitar autocontaminação), higienizar as mãos e registrar o procedimento ou incidente.\n\n## Fundamentação científica\n\n### Alcance\n\nAplica-se à manipulação de antineoplásicos e outros medicamentos perigosos no âmbito assistencial (preparação institucional, transporte, administração e descarte). Complementa, e não substitui, as normas da farmácia hospitalar e da saúde ocupacional.\n\n### Hierarquia de controles\n\n| Nível | Exemplo |\n| --- | --- |\n| Eliminação/substituição | Limitar reconstituição fora da farmácia |\n| Controles de engenharia | Cabine, pressão negativa, CSTD |\n| Controles administrativos | Capacitação, listas, dupla checagem, exclusão |\n| EPI | Luvas, avental, proteção ocular/respiratória |\n\n### Equipamento de proteção individual (resumo)\n\n- **Luvas:** trocar a cada 30 minutos ou diante de contaminação/rasgo; usar tipo aprovado para quimioterapia.\n- **Avental:** impermeável, fechado, mangas com punho; preferencialmente descartável.\n- **Olhos/face:** quando houver risco de respingo.\n- **Respiratória:** conforme avaliação de risco e procedimento de derramamento/aerossol.\n\n### Derramamentos — princípios\n\n1. Alertar e delimitar a zona.\n2. Usar kit de derramamento de medicamentos perigosos.\n3. Absorver líquido; nunca varrer pó seco a seco (umedecer conforme protocolo).\n4. Limpar com agentes recomendados pela farmácia/segurança.\n5. Descartar como resíduo perigoso e notificar.\n\n### Evidência e recomendações\n\n> **USP 〈800〉:** estabelece práticas para o manejo de medicamentos perigosos no ambiente de saúde, incluindo EPI, instalações e resíduos.\n\n> **NIOSH:** classifica medicamentos perigosos e orienta medidas de proteção do trabalhador da saúde.\n\n> **ISOPP / ONS:** padrões de manipulação segura e uso de sistemas fechados para reduzir contaminação de superfícies e exposição.\n\n### Critérios de aviso imediato\n\n- Derramamento de citostático fora da área controlada.\n- Exposição cutânea, ocular ou por inalação.\n- Ruptura de embalagem ou vazamento durante o transporte.\n- Administração a paciente incorreto ou dose incorreta detectada no fluxo de manipulação.\n\n### Complicações / riscos\n\n- Exposição ocupacional aguda (irritação) ou crônica (risco reprodutivo/genotóxico potencial).\n- Contaminação de superfícies e exposição secundária.\n- Erro de medicação por rotulagem ou transporte inadequados.",
+  "bibliography": [
+    {
+      "citation": "United States Pharmacopeia. USP General Chapter 〈800〉 Hazardous Drugs—Handling in the Healthcare Setting.",
+      "url": "https://www.usp.org/compounding/general-chapter-hazardous-drugs-handling-healthcare"
+    },
+    {
+      "citation": "NIOSH. NIOSH List of Antineoplastic and Other Hazardous Drugs in Healthcare Settings. CDC/NIOSH.",
+      "url": "https://www.cdc.gov/niosh/docs/2016-161/"
+    },
+    {
+      "citation": "International Society of Oncology Pharmacy Practitioners (ISOPP). ISOPP Standards for the Safe Handling of Cytotoxic Drugs.",
+      "url": "https://www.isopp.org/"
+    },
+    {
+      "citation": "Oncology Nursing Society. Safe Handling of Hazardous Drugs. 4th ed. Pittsburgh, PA: ONS; 2024.",
+      "url": "https://www.ons.org/books/safe-handling-hazardous-drugs-fourth-edition"
+    },
+    {
+      "citation": "Power LA, Coyne JW. ASHP Guidelines on Handling Hazardous Drugs. Am J Health Syst Pharm. 2018;75(24):1996–2031.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30429137/"
+    }
+  ]
+}

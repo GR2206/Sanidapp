@@ -1,0 +1,32 @@
+{
+  "id": "por-001",
+  "title": "Implantable port (Port-a-Cath) access and care",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Access, use, and maintain an implantable venous port (Port-a-Cath) with aseptic technique, a non-coring Huber needle, appropriate flush/lock, and surveillance for infection or occlusion, according to infusion therapy standards.",
+  "body": "## Steps to perform\n\n1. Verify patient identification, indication for access, allergies (including chlorhexidine/heparin), and port type (single/double lumen; power-injectable if applicable).\n2. Explain the procedure; position the patient comfortably with the port site exposed.\n3. Perform hand hygiene (WHO Moment 2); prepare a sterile field and supplies: Huber needle of appropriate gauge/length, dressing, syringes, and flush/lock solutions per protocol.\n4. Palpate the port septum; disinfect a wide skin area with alcoholic chlorhexidine using friction; **allow to dry completely**.\n5. Don sterile gloves; stabilize the port between the fingers and insert the **non-coring Huber needle** perpendicular to the septum until the needle tip seats against the chamber floor.\n6. Confirm blood return; if absent: slightly reposition the patient, ask for Valsalva/cough per protocol, reassess patency; **do not force**. If uncertain, escalate and do not administer vesicants.\n7. Flush with a pulsatile (push-pause) technique using 0.9% sodium chloride; administer medication/infusion or draw samples as ordered, disinfecting the hub before each access (≥ 15 s).\n8. At completion: flush the lumen fully; apply the lock (saline or heparin per institutional protocol and port type); clamp per device design while maintaining positive pressure if required.\n9. For intermittent access: remove the Huber needle using positive-pressure/institutional technique, apply pressure, and place a dry dressing.\n10. If the needle remains in place: secure without kinks, cover with a sterile transparent dressing, date the dressing, and inspect the site each shift.\n11. Educate the patient about signs of infection, thrombosis (arm/neck pain or swelling), avoiding trauma to the site, and seeking care for fever or erythema.\n12. Document date/time, needle gauge, blood return, flush/lock, complications, and next access need (unused ports usually require periodic flushing per protocol, e.g., every 4 weeks).\n\n## Scientific rationale\n\n### Common indications\n\n- Intermediate- or long-term chemotherapy.\n- Frequent infusions or vesicant therapy.\n- Parenteral nutrition or prolonged IV therapy when a fully implantable access is chosen.\n- Patients with limited peripheral access.\n\n### Key supplies\n\n| Item | Consideration |\n| --- | --- |\n| Huber needle | Non-coring; length matched to subcutaneous tissue |\n| Antiseptic | Alcoholic chlorhexidine preferred; air-dry |\n| Flush | 0.9% NaCl with pulsatile technique; volume per protocol |\n| Lock | Saline or heparin per institutional policy |\n| Dressing | Sterile transparent dressing if the needle remains in situ |\n\n### Infection and occlusion prevention\n\n- Minimize manipulations; always disinfect the hub.\n- Avoid very small syringes that generate excessive pressure against resistance.\n- If occluded: do not force; consider local thrombolytic therapy only with a medical order and protocol.\n- Remove the needle for local infection, severe pain, or unresolved malfunction.\n\n### Evidence and recommendations\n\n> **INS 2024:** standards for implantable venous ports, flush, lock, and site care.\n\n> **WHO/CDC (central catheters):** aseptic technique, chlorhexidine skin preparation, and reassessment of access necessity.\n\n> **ONS / oncology practice:** ports are preferred for many antineoplastic regimens; confirming blood return is critical before vesicants.\n\n### Immediate escalation criteria\n\n- No blood return with resistance to flushing.\n- Pain, burning, or swelling during infusion (possible extravasation/needle dislodgement).\n- Erythema, warmth, exudate, or dehiscence over the port pocket.\n- Fever or rigors associated with port use.\n- Limb edema, collateral veins, or chest pain (possible thrombosis).\n\n### Complications\n\n- Pocket infection or catheter-related bloodstream infection.\n- Device-related venous thrombosis.\n- Extravasation from needle disconnection/dislodgement.\n- Thrombotic or mechanical occlusion.\n- Pinch-off syndrome (rare; pain/malfunction with shoulder movement).",
+  "bibliography": [
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024;47(1S):S1–S285.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections. CDC/HICPAC.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Oncology Nursing Society. Access Device Standards of Practice for Oncology Nursing. ONS.",
+      "url": "https://www.ons.org/"
+    }
+  ]
+}

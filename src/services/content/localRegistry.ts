@@ -4,6 +4,10 @@ import neonatologiaIndex from '../../../content/branches/atencion-sanitaria/cate
 import cur001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/cur-001.json';
 import hig001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/hig-001.json';
 import med001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/med-001.json';
+import qui001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/qui-001.json';
+import cit001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/cit-001.json';
+import por001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/por-001.json';
+import pic001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/pic-001.json';
 import nac001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/nac-001.json';
 import nav001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/nav-001.json';
 import oxi001 from '../../../content/branches/atencion-sanitaria/categories/adulto/protocols/oxi-001.json';
@@ -73,6 +77,10 @@ export const LOCAL_PROTOCOLS: Record<string, Protocol> = {
   'hig-001': hig001 as Protocol,
   'cur-001': cur001 as Protocol,
   'med-001': med001 as Protocol,
+  'qui-001': qui001 as Protocol,
+  'cit-001': cit001 as Protocol,
+  'por-001': por001 as Protocol,
+  'pic-001': pic001 as Protocol,
   'son-001': son001 as Protocol,
   'vip-001': vip001 as Protocol,
   'vic-001': vic001 as Protocol,

@@ -1,0 +1,32 @@
+{
+  "id": "pic-001",
+  "title": "PICC line care and maintenance",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Maintain a peripherally inserted central catheter (PICC) with a care bundle: hand hygiene, hub disinfection, site dressing, correct flush/lock, surveillance for infection/thrombosis, and removal when no longer indispensable.",
+  "body": "## Steps to perform\n\n1. Verify patient identification, PICC type (number of lumens, power-injectable status if applicable), insertion date, external length visible, and ongoing need for the device.\n2. Perform hand hygiene before any manipulation; explain the procedure to the patient.\n3. Inspect the site for erythema, pain, exudate, warmth, change in the external length mark, kinking, or moisture under the dressing.\n4. Disinfect each hub with alcoholic chlorhexidine (friction ≥ 15 s) and **allow to dry** before connecting syringes or tubing; prefer needleless connectors and closed systems.\n5. Confirm patency and blood return from each lumen to be used; do not force against resistance.\n6. Flush with 0.9% sodium chloride using a pulsatile (push-pause) technique before and after medication/sampling; complete with the lock solution per protocol (saline or heparin).\n7. For site care: use aseptic/sterile technique per local policy; apply chlorhexidine to the skin; use a semipermeable transparent dressing (or chlorhexidine-impregnated dressing if indicated); change if moist, loose, soiled, or per institutional interval (e.g., every 7 days if intact).\n8. Secure the catheter with an appropriate stabilization device; avoid traumatic sutures; protect from traction.\n9. Arm precautions: do not measure blood pressure or perform peripheral venipuncture on the PICC arm; avoid heavy lifting and traction movements.\n10. Reassess PICC necessity **daily**; remove with aseptic technique when the indication ends or a complication occurs, per medical order.\n11. If catheter-related bloodstream infection is suspected: obtain blood cultures (peripheral + catheter lumen back-cultures) per protocol (`ret-001`) before antibiotics when clinically feasible.\n12. Document site appearance, external centimeters, dressing change, flush/lock, complications, and patient education.\n\n## Scientific rationale\n\n### Common PICC indications\n\n- Intermediate- or long-term IV therapy.\n- Prolonged antibiotics, parenteral nutrition, selected chemotherapy.\n- Central access when a tunneled CVC or port is not chosen.\n\n### Maintenance bundle (summary)\n\n| Component | Action |\n| --- | --- |\n| Hand hygiene | Before and after every manipulation |\n| Hub | Disinfect ≥ 15 s; air-dry |\n| Dressing | Intact, clean, and dry; protocolized changes |\n| Flush/lock | Pulsatile technique; institutional volumes |\n| Necessity | Daily review and timely removal |\n\n### Occlusion and thrombosis\n\n- Resistance to flush or absent blood return: do not force; check mechanical causes (clamps, kinks) and consult regarding local thrombolytic therapy if ordered.\n- Arm pain, edema, collateral veins, or dyspnea: suspect device-related thrombosis and escalate immediately.\n\n### Evidence and recommendations\n\n> **WHO 2024 / CDC:** CLABSI prevention with aseptic technique, chlorhexidine, and removal when the catheter is no longer indispensable.\n\n> **INS 2024:** PICC-specific standards for maintenance, dressing, flush, and complication assessment.\n\n> **SATI/SADI 2025:** prevention bundles for central venous catheter infections and CRBSI diagnosis.\n\n### Immediate escalation criteria\n\n- Site infection signs or fever associated with catheter use.\n- Suspected thrombosis (edema, pain, cyanosis).\n- Catheter rupture, migration, or partial dislodgement.\n- Extravasation or infiltration during infusion.\n- Unresolved occlusion.\n\n### Complications\n\n- CLABSI / catheter-related bloodstream infection.\n- PICC-associated deep vein thrombosis.\n- Mechanical or chemical phlebitis.\n- Thrombotic occlusion or drug precipitation.\n- Catheter migration or fracture.",
+  "bibliography": [
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024;47(1S):S1–S285.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections. CDC/HICPAC.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Chopra V, Flanders SA, Saint S, et al. The Michigan Appropriateness Guide for Intravenous Catheters (MAGIC). Ann Intern Med. 2015;163(6 Suppl):S1–S40.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26369828/"
+    }
+  ]
+}

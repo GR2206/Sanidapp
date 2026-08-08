@@ -1,6 +1,7 @@
 import type { Protocol } from '@/types/protocol';
 
 import bro_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/bro-p001.json';
+import cit_001_en from '../../../content/locales/en/categories/adulto/protocols/cit-001.json';
 import cur_001_en from '../../../content/locales/en/categories/adulto/protocols/cur-001.json';
 import dia_001_en from '../../../content/locales/en/categories/adulto/protocols/dia-001.json';
 import dip_001_en from '../../../content/locales/en/categories/adulto/protocols/dip-001.json';
@@ -33,6 +34,9 @@ import oxi_p001_en from '../../../content/locales/en/categories/pediatrico/proto
 import pad_001_en from '../../../content/locales/en/categories/adulto/protocols/pad-001.json';
 import pam_001_en from '../../../content/locales/en/categories/adulto/protocols/pam-001.json';
 import pam_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/pam-p001.json';
+import pic_001_en from '../../../content/locales/en/categories/adulto/protocols/pic-001.json';
+import por_001_en from '../../../content/locales/en/categories/adulto/protocols/por-001.json';
+import qui_001_en from '../../../content/locales/en/categories/adulto/protocols/qui-001.json';
 import reh_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/reh-p001.json';
 import ret_001_en from '../../../content/locales/en/categories/adulto/protocols/ret-001.json';
 import ret_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/ret-p001.json';
@@ -50,6 +54,7 @@ import vic_p001_en from '../../../content/locales/en/categories/pediatrico/proto
 import vip_001_en from '../../../content/locales/en/categories/adulto/protocols/vip-001.json';
 import vip_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/vip-p001.json';
 import bro_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/bro-p001.json';
+import cit_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/cit-001.json';
 import cur_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/cur-001.json';
 import dia_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/dia-001.json';
 import dip_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/dip-001.json';
@@ -82,6 +87,9 @@ import oxi_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/
 import pad_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/pad-001.json';
 import pam_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/pam-001.json';
 import pam_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/pam-p001.json';
+import pic_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/pic-001.json';
+import por_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/por-001.json';
+import qui_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/qui-001.json';
 import reh_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/reh-p001.json';
 import ret_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/ret-001.json';
 import ret_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/ret-p001.json';
@@ -103,6 +111,7 @@ import vip_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/
 export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = {
   'en': {
     'bro-p001': bro_p001_en as Protocol,
+    'cit-001': cit_001_en as Protocol,
     'cur-001': cur_001_en as Protocol,
     'dia-001': dia_001_en as Protocol,
     'dip-001': dip_001_en as Protocol,
@@ -135,6 +144,9 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'pad-001': pad_001_en as Protocol,
     'pam-001': pam_001_en as Protocol,
     'pam-p001': pam_p001_en as Protocol,
+    'pic-001': pic_001_en as Protocol,
+    'por-001': por_001_en as Protocol,
+    'qui-001': qui_001_en as Protocol,
     'reh-p001': reh_p001_en as Protocol,
     'ret-001': ret_001_en as Protocol,
     'ret-p001': ret_p001_en as Protocol,
@@ -154,6 +166,7 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
   },
   'pt-BR': {
     'bro-p001': bro_p001_ptBR as Protocol,
+    'cit-001': cit_001_ptBR as Protocol,
     'cur-001': cur_001_ptBR as Protocol,
     'dia-001': dia_001_ptBR as Protocol,
     'dip-001': dip_001_ptBR as Protocol,
@@ -186,6 +199,9 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'pad-001': pad_001_ptBR as Protocol,
     'pam-001': pam_001_ptBR as Protocol,
     'pam-p001': pam_p001_ptBR as Protocol,
+    'pic-001': pic_001_ptBR as Protocol,
+    'por-001': por_001_ptBR as Protocol,
+    'qui-001': qui_001_ptBR as Protocol,
     'reh-p001': reh_p001_ptBR as Protocol,
     'ret-001': ret_001_ptBR as Protocol,
     'ret-p001': ret_p001_ptBR as Protocol,

@@ -1,0 +1,32 @@
+{
+  "id": "cit-001",
+  "title": "Safe handling of cytotoxic agents",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Handle, transport, administer, and dispose of cytotoxic (hazardous antineoplastic) drugs using engineering controls, appropriate PPE, closed-system devices when available, and spill procedures to protect staff, patients, and the environment.",
+  "body": "## Steps to perform\n\n1. Identify the drug as hazardous/cytotoxic using the institutional list (aligned with NIOSH/pharmacy) and review the safety data sheet and local procedure.\n2. Restrict handling to trained personnel; apply temporary exclusion policies (pregnancy, breastfeeding, or other conditions defined by occupational health).\n3. Prepare only in the designated area (biological safety cabinet / hazardous-drug preparation room). **Do not** reconstitute or dilute cytotoxics at the bedside unless a documented institutional exception applies.\n4. Don full PPE before handling: chemotherapy-rated double gloves (or as per local standard), impermeable long-sleeve gown, eye protection, and indicated respiratory protection if aerosol risk exists.\n5. Prefer **closed-system transfer devices (CSTDs)** for preparation, transfer, and administration when available.\n6. Label clearly: patient name, drug, dose, diluent, volume, route, rate/time, and a hazardous-drug warning.\n7. Transport in a rigid, closed, labeled container (avoid pneumatic tubes if prohibited); minimize unnecessary agitation.\n8. During administration: maintain PPE, do not expel air into the room, place absorbent pads under connections, and verify connections before starting.\n9. For spills: clear the immediate area if needed, don spill PPE, contain with a dedicated kit, clean from the periphery inward per procedure, discard all materials as hazardous waste, and report the incident.\n10. For skin/mucous membrane exposure: remove contaminated PPE, flush thoroughly with water (and soap on skin) per protocol, seek occupational health/emergency care, and document.\n11. Discard all contaminated materials in cytotoxic containers; decontaminate surfaces per institutional procedure.\n12. Remove PPE in a safe sequence (avoid self-contamination), perform hand hygiene, and document the procedure or incident.\n\n## Scientific rationale\n\n### Scope\n\nApplies to handling of antineoplastic and other hazardous drugs in clinical settings (institutional preparation, transport, administration, and disposal). Complements—does not replace—hospital pharmacy and occupational health regulations.\n\n### Hierarchy of controls\n\n| Level | Example |\n| --- | --- |\n| Elimination/substitution | Limit reconstitution outside pharmacy |\n| Engineering controls | Cabinet, negative pressure, CSTDs |\n| Administrative controls | Training, drug lists, double-checks, exclusion |\n| PPE | Gloves, gown, eye/respiratory protection |\n\n### Personal protective equipment (summary)\n\n- **Gloves:** change every 30 minutes or sooner if contaminated/torn; use chemotherapy-rated gloves.\n- **Gown:** impermeable, closed, cuffed sleeves; preferably single-use.\n- **Eye/face:** when splash risk is present.\n- **Respiratory:** according to risk assessment and spill/aerosol procedures.\n\n### Spill response — principles\n\n1. Alert others and cordon the area.\n2. Use a hazardous-drug spill kit.\n3. Absorb liquid; never dry-sweep dry powder (moisten per protocol).\n4. Clean with agents recommended by pharmacy/safety.\n5. Discard as hazardous waste and notify.\n\n### Evidence and recommendations\n\n> **USP 〈800〉:** defines practices for hazardous-drug handling in healthcare, including PPE, facilities, and waste.\n\n> **NIOSH:** classifies hazardous drugs and guides worker protection measures.\n\n> **ISOPP / ONS:** safe-handling standards and closed-system use to reduce surface contamination and exposure.\n\n### Immediate escalation criteria\n\n- Cytotoxic spill outside a controlled area.\n- Cutaneous, ocular, or inhalational exposure.\n- Container breakage or leakage during transport.\n- Wrong patient or wrong dose detected during the handling process.\n\n### Complications / risks\n\n- Acute occupational exposure (irritation) or chronic risk (potential reproductive/genotoxic hazard).\n- Surface contamination and secondary exposure.\n- Medication error from inadequate labeling or transport.",
+  "bibliography": [
+    {
+      "citation": "United States Pharmacopeia. USP General Chapter 〈800〉 Hazardous Drugs—Handling in the Healthcare Setting.",
+      "url": "https://www.usp.org/compounding/general-chapter-hazardous-drugs-handling-healthcare"
+    },
+    {
+      "citation": "NIOSH. NIOSH List of Antineoplastic and Other Hazardous Drugs in Healthcare Settings. CDC/NIOSH.",
+      "url": "https://www.cdc.gov/niosh/docs/2016-161/"
+    },
+    {
+      "citation": "International Society of Oncology Pharmacy Practitioners (ISOPP). ISOPP Standards for the Safe Handling of Cytotoxic Drugs.",
+      "url": "https://www.isopp.org/"
+    },
+    {
+      "citation": "Oncology Nursing Society. Safe Handling of Hazardous Drugs. 4th ed. Pittsburgh, PA: ONS; 2024.",
+      "url": "https://www.ons.org/books/safe-handling-hazardous-drugs-fourth-edition"
+    },
+    {
+      "citation": "Power LA, Coyne JW. ASHP Guidelines on Handling Hazardous Drugs. Am J Health Syst Pharm. 2018;75(24):1996–2031.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30429137/"
+    }
+  ]
+}

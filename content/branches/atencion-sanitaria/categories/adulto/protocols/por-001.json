@@ -1,0 +1,32 @@
+{
+  "id": "por-001",
+  "title": "Manipulación y cuidados del catéter Port-a-Cath",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Acceder, usar y mantener un puerto venoso implantable (Port-a-Cath) con técnica aséptica, aguja Huber no cortante, flush adecuado y vigilancia de infección u oclusión, según estándares de terapia de infusión.",
+  "body": "## Pasos a realizar\n\n1. Verificar identificación del paciente, indicación del acceso, alergias (incl. clorhexidina/heparina) y tipo de puerto (simple/doble; potencia para contraste/alta presión si aplica).\n2. Explicar el procedimiento; colocar al paciente en posición cómoda con el área del puerto expuesta.\n3. Realizar higiene de manos (momento 2 OMS); preparar campo y material estéril: aguja Huber del calibre/longitud adecuados, apósito, jeringas, solución de flush y lock según protocolo.\n4. Palpar el septum del puerto; desinfectar la piel amplia con clorhexidina alcohólica en fricción; **dejar secar completamente**.\n5. Donar guantes estériles; estabilizar el puerto entre dedos e insertar la **aguja Huber (non-coring)** perpendicular al septum hasta sentir tope en el fondo de la cámara.\n6. Verificar retorno venoso de sangre; si no hay retorno: reposicionar levemente al paciente, pedir Valsalva/tos según protocolo, reevaluar permeabilidad; **no forzar**. Ante duda, avisar y no administrar vesicantes.\n7. Realizar flush con técnica pulsátil (push-pause) con solución fisiológica; administrar medicación/infusión o tomar muestras según orden, desinfectando el hub antes de cada acceso (≥ 15 s).\n8. Al finalizar: flush completo de la luz; aplicar lock (salino o heparina según protocolo institucional y tipo de puerto); pinzar según diseño del equipo mientras hay presión positiva si el sistema lo requiere.\n9. Si el acceso es intermitente: retirar la aguja Huber manteniendo presión positiva/técnica institucional, comprimir el sitio y aplicar apósito seco.\n10. Si permanece agujado: fijar sin acodaduras, cubrir con apósito transparente estéril, fechar y vigilar el sitio cada turno.\n11. Educar al paciente: signos de infección, trombosis (dolor, edema del brazo/cuello), no traumatizar la zona y acudir ante fiebre o eritema.\n12. Documentar fecha/hora, calibre de aguja, retorno, flush/lock, complicaciones y próxima necesidad de acceso (puertos en desuso suelen requerir flush periódico según protocolo, p. ej. cada 4 semanas).\n\n## Fundamentación científica\n\n### Indicaciones habituales\n\n- Quimioterapia de media/larga duración.\n- Infusiones frecuentes o vesicantes.\n- Nutrición parenteral o tratamientos IV prolongados cuando se elige acceso totalmente implantable.\n- Pacientes con acceso periférico limitado.\n\n### Material clave\n\n| Elemento | Consideración |\n| --- | --- |\n| Aguja Huber | No cortante (non-coring); longitud según tejido subcutáneo |\n| Antiséptico | Clorhexidina alcohólica preferente; secar al aire |\n| Flush | SF 0,9% con técnica pulsátil; volumen según protocolo |\n| Lock | Salino o heparina según política institucional |\n| Apósito | Transparente estéril si permanece implantada la aguja |\n\n### Prevención de infección y oclusión\n\n- Minimizar manipulaciones; desinfectar siempre el hub.\n- No usar jeringas de volumen muy pequeño que generen presión excesiva si hay resistencia.\n- Ante oclusión: no forzar; valorar trombolítico local solo con orden médica y protocolo.\n- Retirar la aguja ante signos locales de infección, dolor intenso o mal funcionamiento no resuelto.\n\n### Evidencia y recomendaciones\n\n> **INS 2024:** estándares para accesos venosos implantables, flush, lock y cuidado del sitio.\n\n> **OMS/CDC (catéteres centrales):** técnica aséptica, clorhexidina en piel y reevaluación de necesidad del acceso.\n\n> **ONS / práctica oncológica:** el Port es vía preferente para muchos esquemas antineoplásicos; la verificación de retorno es crítica antes de vesicantes.\n\n### Criterios de aviso inmediato\n\n- Ausencia de retorno con resistencia al flush.\n- Dolor, quemazón o tumefacción durante la infusión (sospecha de extravasación/desplazamiento).\n- Eritema, calor, exudado o dehiscencia sobre el bolsillo del puerto.\n- Fiebre o escalofríos asociados al uso del catéter.\n- Edema de extremidad, circulación colateral o dolor torácico (sospecha trombótica).\n\n### Complicaciones\n\n- Infección del bolsillo o bacteriemia asociada al catéter.\n- Trombosis venosa asociada al dispositivo.\n- Extravasación por desconexión/desplazamiento de la aguja.\n- Oclusión trombótica o mecánica.\n- Pinch-off syndrome (raro; dolor/malfunción con movimientos del hombro).",
+  "bibliography": [
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024;47(1S):S1–S285.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections. CDC/HICPAC.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Oncology Nursing Society. Access Device Standards of Practice for Oncology Nursing. ONS.",
+      "url": "https://www.ons.org/"
+    }
+  ]
+}

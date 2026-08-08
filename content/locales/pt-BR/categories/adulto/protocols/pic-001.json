@@ -1,0 +1,32 @@
+{
+  "id": "pic-001",
+  "title": "Manejo e cuidados do cateter PICC",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Cuidar do cateter central de inserção periférica (PICC) com bundle de manutenção: higiene das mãos, desinfecção do hub, curativo do sítio, flush/lock corretos, vigilância de infecção/trombose e retirada quando não for mais indispensável.",
+  "body": "## Passos a realizar\n\n1. Verificar identificação do paciente, tipo de PICC (lúmens, potência para contraste se aplicável), data de inserção, comprimento externo visível e necessidade atual do dispositivo.\n2. Realizar higiene das mãos antes de qualquer manipulação; explicar o procedimento ao paciente.\n3. Inspecionar o sítio: eritema, dor, exsudato, calor, deslocamento da marca externa, dobra ou umidade sob o curativo.\n4. Desinfetar cada hub com clorexidina alcoólica (fricção ≥ 15 s) e **deixar secar** antes de conectar seringas ou equipos; preferir conectores sem agulha e sistemas fechados.\n5. Verificar permeabilidade e refluxo venoso de cada lúmen a utilizar; não forçar se houver resistência.\n6. Realizar flush com SF 0,9% em técnica pulsátil (push-pause) antes e depois de medicação/amostras; completar com lock conforme protocolo (salina ou heparina).\n7. Para o curativo do sítio: técnica asséptica/estéril conforme política local; clorexidina na pele; curativo transparente semipermeável (ou impregnado com clorexidina se indicado); trocar diante de umidade, descolamento, sujidade ou conforme intervalo institucional (p. ex. a cada 7 dias se íntegro).\n8. Fixar o cateter com dispositivo de estabilização adequado; evitar suturas traumáticas; proteger de trações.\n9. Precauções do braço: não medir pressão arterial nem puncionar periféricos no braço do PICC; evitar cargas pesadas e movimentos de tração.\n10. Reavaliar **diariamente** a necessidade do PICC; retirar com técnica asséptica ao cessar a indicação ou diante de complicação, conforme ordem médica.\n11. Em suspeita de bacteremia associada: obter hemoculturas (periférica + retrocultura das luzes) conforme protocolo (`ret-001`) antes de antibióticos quando for clinicamente possível.\n12. Documentar aspecto do sítio, centímetros externos, curativo, flush/lock, complicações e educação ao paciente.\n\n## Fundamentação científica\n\n### Indicações habituais do PICC\n\n- Terapia IV de duração intermediária/prolongada.\n- Antibióticos prolongados, nutrição parenteral, quimioterapia selecionada.\n- Acesso central quando não se escolhe CVC tunelizado ou Port.\n\n### Bundle de manutenção (resumo)\n\n| Componente | Ação |\n| --- | --- |\n| Higiene das mãos | Antes e depois de cada manipulação |\n| Hub | Desinfecção ≥ 15 s; secar |\n| Curativo | Íntegro, limpo e seco; troca protocolizada |\n| Flush/lock | Pulsátil; volumes institucionais |\n| Necessidade | Revisão diária e retirada oportuna |\n\n### Oclusão e trombose\n\n- Resistência ao flush ou ausência de refluxo: não forçar; avaliar causas mecânicas (torneiras, dobras) e consultar trombolítico local somente com ordem.\n- Dor no braço, edema, circulação colateral ou dispneia: suspeitar trombose venosa associada e avisar imediatamente.\n\n### Evidência e recomendações\n\n> **OMS 2024 / CDC:** prevenção de CLABSI com técnica asséptica, clorexidina e retirada quando o cateter não for indispensável.\n\n> **INS 2024:** padrões específicos de manutenção de PICC, curativo, flush e avaliação de complicações.\n\n> **SATI/SADI 2025:** bundle de prevenção de infecções associadas a cateteres venosos centrais e diagnóstico de bacteremia associada.\n\n### Critérios de aviso imediato\n\n- Sinais de infecção do sítio ou febre associada ao uso do cateter.\n- Suspeita de trombose (edema, dor, cianose).\n- Ruptura, migração ou saída parcial do cateter.\n- Extravasamento ou infiltração durante a infusão.\n- Oclusão não resolvida.\n\n### Complicações\n\n- CLABSI / bacteremia associada ao cateter.\n- Trombose venosa profunda associada ao PICC.\n- Flebite mecânica ou química.\n- Oclusão trombótica ou por precipitação de fármacos.\n- Migração ou ruptura do cateter.",
+  "bibliography": [
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024;47(1S):S1–S285.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    },
+    {
+      "citation": "World Health Organization. Guidelines for the prevention of bloodstream infections associated with central venous catheters — Part 2. WHO, 2024.",
+      "url": "https://www.who.int/publications/i/item/9789240121805"
+    },
+    {
+      "citation": "O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the Prevention of Intravascular Catheter-Related Infections. CDC/HICPAC.",
+      "url": "https://www.cdc.gov/infection-control/hcp/guidance-guidelines/isp-intravascular-catheter.html"
+    },
+    {
+      "citation": "Cornistein W, et al. Infecciones asociadas a catéteres venosos centrales. Actualización y recomendaciones intersociedades 2025. Medicina (B Aires). (SATI / SADI).",
+      "url": "https://www.scielo.org.ar/scielo.php?pid=S0025-76802025001001337&script=sci_arttext"
+    },
+    {
+      "citation": "Chopra V, Flanders SA, Saint S, et al. The Michigan Appropriateness Guide for Intravenous Catheters (MAGIC). Ann Intern Med. 2015;163(6 Suppl):S1–S40.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26369828/"
+    }
+  ]
+}

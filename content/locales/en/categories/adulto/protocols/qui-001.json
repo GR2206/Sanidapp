@@ -1,0 +1,32 @@
+{
+  "id": "qui-001",
+  "title": "Chemotherapy: patient care and hazardous waste management",
+  "category": "adulto",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Administer and monitor antineoplastic chemotherapy in adults with safety verification, surveillance for immediate toxicity, and hazardous waste handling according to oncology and hazardous-drug standards.",
+  "body": "## Steps to perform\n\n1. Verify patient identification (two identifiers), allergies, diagnosis, prescribed regimen, cycle/day, current body surface area or weight, and laboratory results required by the protocol (complete blood count, renal/hepatic function as applicable).\n2. Confirm informed consent and prior education: route of administration, expected duration, anticipated effects, and warning signs.\n3. Review the complete medical order (drug, dose, diluent, volume, infusion time, sequence) and cross-check it with the pharmacy label; perform an **independent double-check** before starting.\n4. Assess vascular access: prefer a validated central line/port/PICC for vesicants; if a peripheral line is used, confirm patency, blood return, and absence of pain/erythema **before** infusion.\n5. Prepare the environment: designated area, spill kit available, PPE per the institutional hazardous-drug protocol, and labeled cytotoxic waste containers.\n6. Explain the procedure to the patient; obtain baseline vital signs and provide close monitoring for drugs with infusion-reaction risk.\n7. Administer according to the order and product information: respect infusion time, line compatibility, use closed-system devices when available, and do not interrupt critical infusions without indication.\n8. Monitor during and after infusion for extravasation, hypersensitivity, nausea, chest pain, dyspnea, rash, fever, or hemodynamic changes.\n9. If extravasation is suspected: **stop the infusion immediately**, do not remove the catheter yet, aspirate residual drug if the protocol indicates, mark the area, elevate the limb, and activate the institutional extravasation/medical escalation pathway.\n10. Manage waste: use cytotoxic hazardous-waste bags/sharps containers for tubing, syringes, residual solutions, and contaminated PPE; never discard in general or non-hazardous infectious waste.\n11. Handle linen and body fluids with hazardous-drug precautions during the excretion window defined by pharmacy/protocol (commonly 48–72 hours, drug-dependent).\n12. Document drug, dose, route, start/stop times, lot number if required, tolerance, incidents, and patient/family education.\n\n## Scientific rationale\n\n### Purpose\n\nReduce medication errors, injury from extravasation/infusion reactions, and occupational or environmental exposure to antineoplastic residues by aligning nursing practice with international chemotherapy safety standards.\n\n### Pre-administration safety checks\n\n| Element | Check |\n| --- | --- |\n| Identity | Two identifiers matched to wristband/record |\n| Regimen | Drug, dose, cycle, day, sequence |\n| Parameters | Laboratory values and protocol hold criteria |\n| Access | Patency and suitability for vesicant potential |\n| Double-check | Two independent clinicians before start |\n\n### Clinical monitoring during administration\n\n- Assess the infusion site frequently (pain, burning, swelling, loss of blood return).\n- Recognize infusion reactions: pruritus, urticaria, bronchospasm, hypotension, anaphylaxis.\n- Record vital signs according to drug- and unit-specific protocol.\n- Teach the patient to report **immediately** any site discomfort or new symptom.\n\n### Waste and body fluid handling\n\n> Antineoplastic agents and metabolites may be excreted in urine, feces, vomit, and sweat. Precaution duration depends on the drug; follow the institutional monograph.\n\n| Material | Disposition |\n| --- | --- |\n| Infusion sets, vials, syringes with residual drug | Hazardous/cytotoxic waste container |\n| Contaminated PPE | Cytotoxic waste (not recyclable) |\n| Visibly contaminated linen | Labeled bag; laundry hazardous-drug pathway |\n| Spill | Spill kit + decontamination procedure |\n\n### Evidence and recommendations\n\n> **ASCO/ONS Chemotherapy Safety Standards:** regimen verification, double-checks, and competency for antineoplastic administration.\n\n> **USP 〈800〉 / NIOSH:** hazardous drugs require engineering controls, PPE, and waste management to limit exposure.\n\n> **INS 2024:** vascular access assessment and immediate response to infiltration/extravasation.\n\n### Immediate escalation criteria\n\n- Suspected vesicant or irritant extravasation.\n- Hypersensitivity reaction or anaphylaxis.\n- Respiratory or hemodynamic deterioration during infusion.\n- Cytotoxic spill on skin, mucous membranes, or surfaces.\n- Medication error detected before, during, or after administration.\n\n### Complications\n\n- Extravasation with tissue injury.\n- Neutropenia, mucositis, delayed nausea/vomiting (post-dose follow-up).\n- Occupational exposure from improper waste handling.\n- Environmental contamination from incorrect disposal.",
+  "bibliography": [
+    {
+      "citation": "Neuss MN, Gilmore TR, Belderson KM, et al. 2016 Updated American Society of Clinical Oncology/Oncology Nursing Society Chemotherapy Administration Safety Standards, Including Standards for Pediatric Oncology. Oncol Nurs Forum. 2017;44(1):A1–A13.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27991602/"
+    },
+    {
+      "citation": "Oncology Nursing Society. Safe Handling of Hazardous Drugs. 4th ed. Pittsburgh, PA: ONS; 2024.",
+      "url": "https://www.ons.org/books/safe-handling-hazardous-drugs-fourth-edition"
+    },
+    {
+      "citation": "United States Pharmacopeia. USP General Chapter 〈800〉 Hazardous Drugs—Handling in the Healthcare Setting.",
+      "url": "https://www.usp.org/compounding/general-chapter-hazardous-drugs-handling-healthcare"
+    },
+    {
+      "citation": "NIOSH. List of Antineoplastic and Other Hazardous Drugs in Healthcare Settings. CDC/NIOSH.",
+      "url": "https://www.cdc.gov/niosh/docs/2016-161/"
+    },
+    {
+      "citation": "Gorski LA, Hadaway L, Hagle ME, et al. Infusion Therapy Standards of Practice, 9th ed. J Infus Nurs. 2024;47(1S):S1–S285.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38320480/"
+    }
+  ]
+}
