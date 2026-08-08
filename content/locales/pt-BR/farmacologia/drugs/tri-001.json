@@ -1,61 +1,54 @@
 {
   "id": "tri-001",
   "name": "Trimetoprima+sulfametoxazol",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Profilaxia e tratamento de infecções do trato urinário devido a cepas suscetíveis de E. coli, P. mirabilis, K. Pneumoniae, Enterobacter spp e Staphylococcus plasmocoagulase negativo incluindo S. saprophyticus. Tratamento da otite média aguda causada por Streptococcus pneumoniae e Haemophilus influenzae suscetíveis. Não indicado em administração prolongada ou profilaxia de otite média. Alternativa ao tratamento da pneumonia causada por Pneumocystis jirovecii.",
-  "indications": "## Indicações principais\n\nProfilaxia e tratamento de infecções do trato urinário devido a cepas suscetíveis de E. coli, P. mirabilis, K. Pneumoniae, Enterobacter spp e Staphylococcus plasmocoagulase negativo incluindo S. saprophyticus. Tratamento da otite média aguda causada por Streptococcus pneumoniae e Haemophilus influenzae suscetíveis. Não indicado em administração prolongada ou profilaxia de otite média. Alternativa ao tratamento da pneumonia causada por Pneumocystis jirovecii.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Cotrimoxazol. Dose com base na trimetoprima (TMP): adulto habitual 160 mg TMP a cada 12 h; pediatria 8–12 mg/kg/dia TMP a cada 12 h; PCP/doença grave 15–20 mg/kg/dia TMP.",
+  "indications": "## Indicações\n\n- ITU por germes sensíveis (*E. coli*, *Proteus*, *Klebsiella*, *Enterobacter*, *S. saprophyticus*, etc.).\n- Otite média aguda por *S. pneumoniae* / *H. influenzae* sensíveis (não profilaxia prolongada de otite).\n- Tratamento e profilaxia de pneumonia por *Pneumocystis jirovecii*; algumas infecções por *Stenotrophomonas*.\n\n## Precauções\n\n- Evitar em < 2 meses (kernicterus/imaturidade) salvo indicação vital.\n- Hipersensibilidade a sulfonamidas, anemia megaloblástica por déficit de folato, IRC grave: cautela ou contraindicação conforme bula.\n- Interações: varfarina, fenitoína, metotrexato, ciclosporina, rifampicina.\n\n> Sempre expressar e calcular a dose pelo **componente TMP**.",
   "dilution": {
     "adulto": {
-      "presentation": "Amp contendo 80 mg de trimetoprima (TMP) + 400 mg de sulfametoxazol (SMX) em 5 mL (Cotrizol G, Novidrine, Bactrim, Danferane, Spectrex).",
-      "reconstitution": "Não requer reconst. prévia. Conc: 16 mg/mL trimetoprima e 80 mg/mL de sulfametoxazol.",
-      "diluent": "80 mg TMP/400 mg SMX em 100 mL de SF ou Dx 5%.",
-      "finalConcentration": "0,8 mg/mL de TMP e 4 mg/mL de SMX.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir 1 amp em 100 mL de SF e admin. em 30–60 min. Não exceder 90 min.",
-      "notes": "Recomenda-se uma diluição de 1 mL de TMP+SMX em 5 mL de diluente."
+      "presentation": "Comprimidos simples 80/400 mg; dose dupla (DS) 160/800 mg; xarope; ampola 80 mg TMP + 400 mg SMX / 5 mL.",
+      "dose": "Leves-moderadas: **160 mg TMP / 800 mg SMX (1 DS) a cada 12 h** (máx. habitual **640 mg TMP/dia**). PCP / graves: **15–20 mg/kg/dia de TMP** divididos a cada 6–8 h IV ou VO. Profilaxia PCP: **160 mg TMP/dia** ou **160 mg 3×/semana** conforme protocolo. Profilaxia ITU: frequentemente **80–160 mg TMP à noite**.",
+      "administration": "VO com água; hidratação adequada. IV: diluir 1 amp (80/400) em ≥ 100 mL SF ou Dext. 5% (~0,8 mg/mL TMP); infundir 30–60 min (não > 90 min). Nunca sem diluir.",
+      "notes": "Diluição frequente: 1 mL de concentrado em 5 mL de diluente."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 80 mg trimetoprima + 400 mg sulfametoxazol; Comprimidos: 160 mg trimetoprima + 800 mg sulfametoxazol; Xarope: 40 mg de trimetoprima + 200 mg sulfametoxazol/5 ml; Ampolas: 80 mg de trimetoprima + 400 mg de sulfametoxazol/5 ml",
-      "administration": "V.O.; E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5% e 10%.",
-      "finalConcentration": "1,6 mg/mL.",
-      "infusionRate": "Não menor a 60 min. com BIC.",
-      "dose": "Doses expressas em base à trimetoprima Infecções leves e moderadas: Crianças: 8–12 mg/kg/dia a cada 12 h, dose máxima: 320 mg/dia; Adultos: 160 mg a cada 12 h, dose máxima 640 mg/dia. Infecções severas, Pneumocystis jirovecii, stenotrophomona, meningite: 20 mg/kg/dia a cada 6 h, dose máxima E.V.: 240 mg/dose a cada 6 h, V.O.: 320 mg/dose a cada 6 h. Profilaxia: 5 mg/kg/dia 3 vezes por semana, dose máxima 160 mg. Profilaxia infecções urinárias: 2 mg/kg/dia em uma dose diária noturna.",
-      "notes": "Ampolas E.V. não devem ser administradas sem diluir. Interações: fenitoína, rifampicina (aumenta os níveis destas drogas); metronidazol (potencia a toxicidade hematológica do metronidazol); ciclosporina (potencia a nefrotoxicidade da ciclosporina)."
+      "presentation": "Comprimidos 80/400 e 160/800; xarope 40 mg TMP + 200 mg SMX / 5 mL; ampolas 80/400 / 5 mL.",
+      "dose": "Em **TMP**: leves-moderadas **8–12 mg/kg/dia a cada 12 h** (máx. **320 mg TMP/dia**). Graves / PCP / *Stenotrophomonas* / meningite: **20 mg/kg/dia a cada 6 h** (máx. IV ~**240 mg TMP/dose** a cada 6 h; VO ~**320 mg/dose** a cada 6 h). Profilaxia PCP: **5 mg/kg/dia TMP** 3×/semana (máx. 160 mg). Profilaxia ITU: **2 mg/kg/dia** TMP noturno.",
+      "administration": "VO/IV. IV diluído ≥ 60 min com bomba.",
+      "notes": "Manter a relação fixa 1:5 TMP:SMX ao medir o xarope."
     },
     "neonatal": {
-      "dose": "Evitar < 2 meses salvo indicação vital; dose conforme NNU.",
-      "administration": "V.O./E.V."
+      "presentation": "Evitar < 2 meses.",
+      "dose": "Não usar de rotina em < 2 meses; só indicação vital sob UTIN/infectologia com dose do protocolo.",
+      "administration": "VO/IV conforme ordem especializada.",
+      "notes": "Risco de kernicterus e imaturidade enzimática."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- 2 h à temperatura ambiente. Preparar imediatamente antes do uso.\n\n## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nReações de hipersensibilidade (sobretudo dermatológicas), distúrbios gastrointestinais (náuseas, vômitos), discrasias sanguíneas. Toxicidade renal (em pacientes com falha renal prévia). Hepatite, colestase.",
+  "stability": "## Estabilidade\n\n- Diluição IV: usar logo (habitualmente ≤ 2 h à T° amb); preparar imediatamente antes de administrar.\n- Ampola aberta: descartar restante.",
+  "adverseEffects": "## Efeitos adversos\n\nErupções (incluindo graves: SJS/NET), náuseas, vômitos, discrasias sanguíneas, nefrotoxicidade, hepatite/colestase, hipercalemia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Trimetoprima + Sulfametoxazol (cód. 0902, ATC J01EA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (antimicrobianos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA. Referências de bulas de antimicrobianos.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

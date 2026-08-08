@@ -2,54 +2,52 @@
   "id": "cip-001",
   "name": "Ciprofloxacin",
   "branch": "atencion-sanitaria",
-  "version": "1.2.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Fluoroquinolone. Treatment of respiratory tract, middle ear, urinary tract, skin and soft tissue infections caused by susceptible bacteria: aerobic gram-negative, Mycobacterium tuberculosis, and some gram-positive.",
-  "indications": "## Main indications\n\nFluoroquinolone. Treatment of respiratory tract, middle ear, urinary tract, skin and soft tissue infections caused by susceptible bacteria: aerobic gram-negative, Mycobacterium tuberculosis, and some gram-positive.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Fluoroquinolone. Adult PO 250–750 mg every 12 h or IV 400 mg every 8–12 h by focus; pediatrics 20–30 mg/kg/day only for special indications (osteoarticular risk).",
+  "indications": "## Indications\n\n- Complicated UTI, pyelonephritis, skin/soft-tissue infections, osteomyelitis, GI/abdominal infections due to susceptible gram-negatives.\n- Selected respiratory/otitis infections when no alternative and documented susceptibility.\n- Meningococcal contact prophylaxis (single dose).\n\n## Precautions\n\n- Tendinopathy/tendon rupture, neuropathy, QT, photosensitivity; avoid routine use under 18 years.\n- Separate from antacids, Ca/Mg/Al, sucralfate, and dairy (↓ absorption).\n- Adjust in renal failure.\n\n> Prefer alternatives in pediatrics except cystic fibrosis, pyelonephritis, or other institutional exceptions.",
   "dilution": {
     "adulto": {
-      "presentation": "Sachet containing 200 mg (Norgreen, Rivero).",
-      "reconstitution": "No prior reconstitution required. Conc: 200 mg / 100 mL.",
-      "finalConcentration": "200 mg / 100 mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. 200 mg over 30 min, 400 mg over 60 min.",
-      "notes": "Do not remove protective cover (black plastic bag) until time of use."
+      "presentation": "Tablets 250–500–750 mg; IV solution 200 mg/100 mL or 400 mg/200 mL.",
+      "dose": "PO: mild–moderate **250–500 mg every 12 h**; severe/complicated **500–750 mg every 12 h**. IV: **400 mg every 12 h** (severe: **400 mg every 8 h**). Meningococcal prophylaxis: **500 mg PO once**.",
+      "administration": "PO away from meals/cations. IV: no bolus; 200 mg over ~30 min, 400 mg over ~60 min. Keep light protection until use (by presentation).",
+      "notes": "PO≈IV bioequivalence allows oral step-down in many infections."
     },
     "pediatrico": {
-      "presentation": "Tablets: 250-500 mg; Solution (compounded preparation): 30 mg/mL; Powder vial: 200 mg; Ophthalmic drops: 0.3% Ophthalmic ointment: 0.3%",
-      "administration": "PO IV Topical",
-      "diluent": "0.9% NaCl, 5% and 10% dextrose.",
-      "finalConcentration": "2 mg/mL.",
-      "infusionRate": "60 min.",
-      "dose": "Mild and moderate infections: 20 mg/kg/day every 12 h, maximum dose: PO: 500 mg/dose; IV: 400 mg/dose. Severe infections, pyelonephritis and cystic fibrosis PO/IV: 30 mg/kg/day, PO: every 12 h, maximum dose: 1.5 g/day; IV: every 8 h, maximum dose: 1.2 g/day. Meningococcal prophylaxis (contact): PO: 20 mg/kg single dose, maximum: 500 mg/dose. Ophthalmic drops: every 2 - 3 h",
-      "notes": "Use in pediatrics is advised only in special situations. Administer away from meals. Antacids (containing calcium, magnesium, or aluminum) and sucralfate decrease ciprofloxacin absorption if administered concomitantly. Increases risk of nephrotoxicity with cyclosporine."
+      "presentation": "Tablets 250–500 mg; compounded ~30 mg/mL; IV 200–400 mg; ophthalmic 0.3%.",
+      "dose": "Mild–moderate: **20 mg/kg/day every 12 h** (max PO **500 mg/dose**; IV **400 mg/dose**). Severe / pyelonephritis / CF: **30 mg/kg/day** (PO every 12 h, max **1.5 g/day**; IV every 8 h, max **1.2 g/day**). Meningococcal prophylaxis: **20 mg/kg PO once** (max **500 mg**).",
+      "administration": "PO/IV/topical. IV dilute to ~2 mg/mL; infuse ~60 min.",
+      "notes": "Restricted pediatric use. ↑ nephrotoxicity with cyclosporine."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "ID/NNU exceptions only; no standard neonatal fever regimen.",
+      "administration": "Specialist order.",
+      "notes": "Osteoarticular and resistance risks; avoid unless no alternatives."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- Not specified.\n\n## Pediatric guide\n\n- Once opened, 14 days at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nArthralgia, nausea, vomiting, headache, dizziness, rash, crystalluria. Tendon ruptures (most frequently Achilles tendon) from 48 h of treatment.",
+  "stability": "## Stability\n\n- Ready-to-use IV: per manufacturer; protect from light until administration.\n- Compounded/opened PO: typically up to 14 days at room temperature (check label).",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, headache, dizziness, rash, crystalluria, arthralgia. Serious: tendon rupture (≥ 48 h), neuropathy, hypersensitivity, *Clostridioides difficile*.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — CIPROfloxacin (code 0281, ATC J01MA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antimicrobials).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA. Antimicrobial SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

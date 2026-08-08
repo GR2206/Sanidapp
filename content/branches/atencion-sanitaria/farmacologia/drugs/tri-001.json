@@ -2,47 +2,36 @@
   "id": "tri-001",
   "name": "Trimetoprima+sulfametoxazol",
   "branch": "atencion-sanitaria",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Profilaxis y tratamiento de infecciones del tracto urinario debido a cepas suceptibles de E. coli, P. mirabilis, K. Pneumoniae, Enterobacter spp y Staphylococcus plasmocoagulasa negativo incluyendo S. saprophyticus. Tratamiento de la otitis media aguda causadas por Streptococcus ",
-  "indications": "## Indicaciones principales\n\nProfilaxis y tratamiento de infecciones del tracto urinario debido a cepas suceptibles de E. coli, P. mirabilis, K. Pneumoniae, Enterobacter spp y Staphylococcus plasmocoagulasa negativo incluyendo S. saprophyticus. Tratamiento de la otitis media aguda causadas por Streptococcus pneumoniae y Haemophilus influenzae susceptibles. No indicado en administración prolongada o profilaxis de otitis media. Alternativa al tratamiento de la neumonía causada por Pneumocystis jirovecii.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Cotrimoxazol. Dosis en base a trimetoprima (TMP): adulto habitual 160 mg TMP cada 12 h; pediatría 8–12 mg/kg/día TMP cada 12 h; PCP/tratamiento grave 15–20 mg/kg/día TMP.",
+  "indications": "## Indicaciones\n\n- ITU por gérmenes sensibles (*E. coli*, *Proteus*, *Klebsiella*, *Enterobacter*, *S. saprophyticus*, etc.).\n- Otitis media aguda por *S. pneumoniae* / *H. influenzae* sensibles (no profilaxis prolongada de otitis).\n- Tratamiento y profilaxis de neumonía por *Pneumocystis jirovecii*; algunas infecciones por *Stenotrophomonas*.\n\n## Precauciones\n\n- Evitar en < 2 meses (kernicterus / inmadurez) salvo indicación vital.\n- Hipersensibilidad a sulfamidas, anemia megaloblástica por déficit de folato, IRC grave: precaución o contraindicación según ficha.\n- Interacciones: warfarina, fenitoína, metotrexato, ciclosporina, rifampicina.\n\n> Siempre expresar y calcular la dosis por **componente TMP**.",
   "dilution": {
     "adulto": {
-      "presentation": "Amp conteniendo 80 mg de trimetoprima (TMP) + 400 mg de sulfametoxazol (SMX) en 5 mL (Cotrizol G, Novidrine, Bactrim, Danferane, Spectrex).",
-      "reconstitution": "No requiere reconst. previa. Conc: 16 mg/mL trimetoprima y 80 mg/mL de sulfametoxazol.",
-      "diluent": "80 mg TMP/400 mg SMX en 100 mL de SF o DX 5%.",
-      "finalConcentration": "0,8 mg/mL de TMP y 4 mg/mL de SMX.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir 1 amp en 100 mL de SF y admin. en 30-60 min. No exceder los 90 min.",
-      "notes": "Se recomienda una dilución de 1 mL de TMP+SMX en 5 mL de diluyente."
+      "presentation": "Comprimidos simples 80/400 mg; doble fuerza (DS) 160/800 mg; jarabe; ampolla 80 mg TMP + 400 mg SMX / 5 mL.",
+      "dose": "Infecciones leves-moderadas: **160 mg TMP / 800 mg SMX (1 DS) cada 12 h** (máx. habitual **640 mg TMP/día**). PCP / infecciones graves: **15–20 mg/kg/día de TMP** divididos cada 6–8 h IV u VO. Profilaxis PCP: **160 mg TMP/día** o **160 mg 3 veces/semana** según protocolo. Profilaxis ITU: a menudo **80–160 mg TMP por la noche**.",
+      "administration": "VO con agua; hidratación adecuada. IV: diluir 1 amp (80/400) en ≥ 100 mL SF o Dext. 5% (~0,8 mg/mL TMP); infundir 30–60 min (no > 90 min). Nunca sin diluir.",
+      "notes": "Dilución recomendada frecuente: 1 mL de concentrado en 5 mL de diluyente."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 80 mg trimetoprima + 400 mg sulfametoxazol; Comprimidos: 160 mg trimetoprima + 800 mg sulfametoxazol; Jarabe: 40 mg de trimetoprima + 200 mg sulfametoxazol /5 ml; Ampollas: 80 mg de trimetoprima + 400 mg de sulfametoxazol/5 ml",
-      "administration": "V.O.; E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5% y 10%.",
-      "finalConcentration": "1,6 mg/mL.",
-      "infusionRate": "No menor a 60 min. con BIC.",
-      "dose": "Dosis expresadas en base a la trimetoprima Infecciones leves y moderadas: Niños: 8-12 mg/kg/día cada 12 hs, dosis máxima: 320 mg/día; Adultos: 160 mg cada 12 hs, dosis máxima 640 mg/día. Infecciones severas, Pneumocystis jirovecii, stenotrophomona, meningitis : 20 mg/kg/día cada 6 hs, dosis máxima E.V.: 240 mg/dosis cada 6 hs, V.O.: 320 mg/dosis cada 6 hs. Profilaxis: 5 mg/kg/día 3 veces por semana, dosis máxima 160 mg. Profilaxis infecciones urinarias: 2 mg/kg/día en una dosis diaria nocturna.",
-      "notes": "Ampollas E.V. no deben ser administradas sin diluir. Interacciones: fenitoína, rifampicina (aumenta los niveles de estas drogas); metronidazol (potencia la toxicidad hematológica del metronidazol); ciclosporina (potencia la nefrotoxicidad de la ciclosporina)."
+      "presentation": "Comprimidos 80/400 y 160/800; jarabe 40 mg TMP + 200 mg SMX / 5 mL; ampollas 80/400 / 5 mL.",
+      "dose": "Dosis en **TMP**: leves-moderadas **8–12 mg/kg/día cada 12 h** (máx. **320 mg TMP/día**). Graves / PCP / *Stenotrophomonas* / meningitis: **20 mg/kg/día cada 6 h** (máx. IV ~**240 mg TMP/dosis** cada 6 h; VO ~**320 mg/dosis** cada 6 h). Profilaxis PCP: **5 mg/kg/día TMP** 3 veces/semana (máx. 160 mg). Profilaxis ITU: **2 mg/kg/día** TMP nocturno.",
+      "administration": "VO/IV. IV diluido ≥ 60 min con bomba.",
+      "notes": "Verificar relación fija 1:5 TMP:SMX al medir jarabe."
     },
     "neonatal": {
-      "dose": "Evitar < 2 meses salvo indicación vital; dosis según NNU.",
-      "administration": "VO/IV."
+      "presentation": "Evitar < 2 meses.",
+      "dose": "No usar de rutina en < 2 meses; solo indicación vital bajo NNU/infectología con dosis según protocolo.",
+      "administration": "VO/IV según orden especializada.",
+      "notes": "Riesgo de kernicterus e inmadurez enzimática."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- No aplica.\n\n## Solución diluida (a administrar)\n\n- 2 hs a T° amb. Prepararlo inmediatamente antes de su empleo.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nReacciones de hipersensibilidad (sobre todo dermatológicas), disturbios gastrointestinales (náuseas, vómitos), discrasias sanguíneas. Toxicidad renal (en pacientes con fallo renal previo). Hepatitis, colestasis.",
+  "stability": "## Estabilidad\n\n- Dilución IV: usar pronto (habitualmente ≤ 2 h a T° amb); preparar inmediatamente antes de administrar.\n- Ampolla abierta: desechar sobrante.",
+  "adverseEffects": "## Efectos adversos\n\nErupciones (incluye graves: SJS/TEN), náuseas, vómitos, discrasias sanguíneas, nefrotoxicidad, hepatitis/colestasis, hipercalemia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Trimetoprima + Sulfametoxazol (cód. 0902, ATC J01EA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — Trimetoprima + Sulfametoxazol (cód. 0902, ATC J01EA).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
@@ -51,6 +40,10 @@
     {
       "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEMPS CIMA. Fichas técnicas cotrimoxazol (TMP-SMX).",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
       "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",

@@ -2,48 +2,52 @@
   "id": "fos-001",
   "name": "Fosfomycin",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Antibacterial.",
-  "indications": "## Main indications\n\nAntibacterial.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Antibacterial. Uncomplicated adult cystitis: fosfomycin trometamol **3 g PO once**. IV (disodium): adults often 12–24 g/day in divided doses; pediatric IV 200–400 mg/kg/day.",
+  "indications": "## Indications\n\n- **Trometamol PO**: acute uncomplicated cystitis in women (and other uses per local label).\n- **Disodium IV**: severe infections due to susceptible organisms (including some MDR) when antibiogram and ID indicate.\n\n## Precautions\n\n- Trometamol: metoclopramide, antacids, and Ca salts ↓ absorption.\n- IV disodium: high **Na⁺** content (~14.5 mEq per gram) — caution in heart failure, hypertension, sodium restriction.\n- Adjust in renal failure per label.\n\n> Do not confuse trometamol (PO) with disodium (IV).",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial with lyophilized powder containing 1 g (Fosfomicina Luar, Fosfomicyn).",
-      "reconstitution": "10 mL SWFI. Conc: 100 mg/mL.",
-      "diluent": "1-4 g in 100-250 mL 5% dextrose.",
-      "finalConcentration": "4-40 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute at 4 mL SWFI or 5% dextrose per each mL of reconstituted solution and infuse at 1 g/h. Clarification: 4 g (40 mL) in 160 mL 5% dextrose. Infuse at 40 mL/h.",
-      "notes": "When fosfomycin dissolves an exothermic reaction occurs, causing the vial to warm slightly without altering the antibiotic. High sodium content (each gram of antibiotic contains 14.5 mEq)."
+      "presentation": "Trometamol sachet 3 g; IV disodium vial 1–4 g.",
+      "dose": "Uncomplicated cystitis: **3 g PO (trometamol) once**. IV disodium: usual **4 g every 6–8 h** (frequent range **12–16 g/day**; special cases up to ~**24 g/day** under ID).",
+      "administration": "PO: dissolve sachet in water, preferably fasting or away from meals. IV: reconstitute with sterile water; dilute (e.g. toward 4–40 mg/mL in 5% dextrose) and infuse ~1 g/h (no bolus).",
+      "notes": "IV reconstitution: mild exothermic reaction expected."
     },
     "pediatrico": {
-      "dose": "Children: 200 - 400 mg/kg/day every 6-8 h. Adults: 1 g - 5 g/day every 6-8 h; maximum dose: 16 g, in special cases: 8 g every 8 h (consult specialist).",
-      "administration": "IV PO",
-      "presentation": "Lyophilized powder vial (as sterile disodium salt): 1000 mg (each gram of Fosfomycin contains 14.5 mEq of sodium) Oral solution sachet (as fosfomycin trometamol): 3 g",
-      "notes": "Fosfomycin trometamol: metoclopramide, antacids, or calcium salts reduce fosfomycin absorption."
+      "presentation": "IV vial 1 g; trometamol PO by age/weight and authorized product.",
+      "dose": "IV: **200–400 mg/kg/day every 6–8 h**. PO trometamol in children: only if the product/label allows (many 3 g labels are adult); follow weight-based local pediatric label.",
+      "administration": "Diluted slow IV. PO per sachet instructions.",
+      "notes": "Calculate sodium load on high IV regimens."
+    },
+    "neonatal": {
+      "presentation": "IV under NNU protocol.",
+      "dose": "ID/NNU only; dose and interval by gestational age — not the adult oral cystitis regimen.",
+      "administration": "IV.",
+      "notes": "Sodium content clinically relevant in preterms."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not specified.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nCommon: diarrhea (9%-10%), nausea (4%-5%), headache (4%-10%), pharyngitis (2.5%), rhinitis (4.5%). Serious: aplastic anemia, cholestasis, hepatic necrosis, toxic megacolon, angioedema.",
+  "stability": "## Stability\n\n- IV dilution: ~24 h at room temperature (check label).\n- PO sachet: use immediately after dissolving.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, headache, pharyngitis/rhinitis. Serious (rare): aplastic anemia, cholestasis, hepatic necrosis, angioedema, toxic megacolon.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Fosfomycin* (code 1950, ATC J01XX).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antimicrobials).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA. Antimicrobial SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

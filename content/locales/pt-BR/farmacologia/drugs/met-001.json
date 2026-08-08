@@ -1,59 +1,54 @@
 {
   "id": "met-001",
   "name": "Metronidazol",
-  "version": "1.2.3",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico nitroimidazólico e antiparasitário. Ativo contra anaeróbios e protozoários.",
-  "indications": "## Indicações principais\n\nAntibiótico nitroimidazólico e antiparasitário. Ativo contra anaeróbios e protozoários.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Nitroimidazol contra anaeróbios e protozoários. Adulto habitual 500 mg VO/IV a cada 8 h; pediatria anaeróbios 30 mg/kg/dia a cada 8 h; amebíase ~35–50 mg/kg/dia conforme esquema.",
+  "indications": "## Indicações\n\n- Infecções anaeróbicas (intra-abdominais, pélvicas, tecidos moles, abscesso cerebral em combinação).\n- Vaginose bacteriana, tricomoníase, amebíase, giardíase (esquemas específicos).\n- Parte de alguns regimes de erradicação de *H. pylori*.\n\n## Precauções\n\n- Evitar álcool durante o tratamento e por **48 h depois** (efeito tipo dissulfiram).\n- Potencializa a varfarina; neuropatia em cursos prolongados.\n- Ajustar na insuficiência hepática grave.\n\n> IV pronto 5 mg/mL: sem bolo; infundir ~60 min.",
   "dilution": {
     "adulto": {
-      "presentation": "Sachê 500 mg em 100 mL (Metronidazol Norgreen, Rivero, Ugar).",
-      "reconstitution": "Não requer reconstituição prévia. Conc.: 5 mg/mL.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Administrar em 60 min."
+      "presentation": "Comprimidos 250–500 mg; suspensão; IV 500 mg/100 mL (5 mg/mL).",
+      "dose": "Anaeróbios: **500 mg VO ou IV a cada 8 h** (alternativa 7,5 mg/kg a cada 6–8 h). Máx. habitual IV orientativo **4 g/dia**. Tricomoníase: **2 g VO dose única** ou **250 mg a cada 8 h × 7 dias**. Amebíase: **500–750 mg a cada 8 h × 5–10 dias** conforme bula.",
+      "administration": "VO com alimentos se desconforto gástrico. IV intermitente em ~60 min (bolsa pronta).",
+      "notes": "A bolsa IV habitual não requer reconstituição."
     },
     "pediatrico": {
-      "presentation": "Comprimidos, xarope, ampolas E.V.",
-      "administration": "V.O.; E.V.",
-      "diluent": "SF 0,9%, SG 5%.",
-      "finalConcentration": "5 mg/mL.",
-      "infusionRate": "60 min.",
-      "dose": "Infecções anaeróbicas (V.O.; E.V.): 30 mg/kg/dia a cada 8 h, dose máxima: V.O.: 2 g; E.V.: 4 g. Amebíase: 35 mg/kg/dia a cada 8 h por 10 dias.",
-      "notes": "Evitar bebidas alcoólicas durante o tratamento e até 48 h após. Precaução com varfarina."
+      "presentation": "Comprimidos, xarope, IV 5 mg/mL.",
+      "dose": "Anaeróbios VO/IV: **30 mg/kg/dia a cada 8 h** (máx. VO **2 g/dia**; IV **4 g/dia**). Amebíase: **35–50 mg/kg/dia a cada 8 h × ~10 dias** (teto conforme bula). Giardíase: frequentemente **15 mg/kg/dia** divididos (máx. 750 mg/dia) × 5–7 dias.",
+      "administration": "VO/IV. IV ~5 mg/mL em 60 min.",
+      "notes": "Calcular pelo peso. Orientar adolescentes sobre álcool."
     },
     "neonatal": {
-      "dose": "7,5 mg/kg/dose a cada 12 h (UCIN).",
-      "administration": "E.V./V.O."
+      "presentation": "IV/VO conforme UTIN.",
+      "dose": "Orientativo UTIN: **7,5 mg/kg/dose a cada 12 h** (ajustar por idade gestacional/postnatal e guia local).",
+      "administration": "IV/VO.",
+      "notes": "Confirmar tabela neonatal institucional; o clearance depende da maturidade hepática."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- Não especificado.\n\n## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, sabor metálico, neuropatia periférica em tratamentos prolongados, reações de hipersensibilidade.",
+  "stability": "## Estabilidade\n\n- Bolsa IV: conforme fabricante; proteger de luz excessiva se a bula indicar.\n- Abrir/descartar conforme política do centro.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, gosto metálico, cefaleia, urina escura. Prolongados: neuropatia periférica, convulsões (raro), hipersensibilidade, leucopenia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — metroNIDAZOL (ATC J01XD).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (antimicrobianos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA. Referências de bulas de antimicrobianos.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

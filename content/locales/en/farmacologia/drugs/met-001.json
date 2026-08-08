@@ -2,57 +2,52 @@
   "id": "met-001",
   "name": "Metronidazole",
   "branch": "atencion-sanitaria",
-  "version": "1.2.3",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Nitroimidazole antibiotic and antiparasitic agent. Active against anaerobes and protozoa.",
-  "indications": "## Main indications\n\nNitroimidazole antibiotic and antiparasitic agent. Active against anaerobes and protozoa.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Nitroimidazole against anaerobes and protozoa. Usual adult 500 mg PO/IV every 8 h; pediatric anaerobes 30 mg/kg/day every 8 h; amebiasis ~35–50 mg/kg/day by regimen.",
+  "indications": "## Indications\n\n- Anaerobic infections (intra-abdominal, pelvic, soft tissue, brain abscess in combination).\n- Bacterial vaginosis, trichomoniasis, amebiasis, giardiasis (specific regimens).\n- Part of some *H. pylori* eradication regimens.\n\n## Precautions\n\n- Avoid alcohol during treatment and for **48 h after** (disulfiram-like effect).\n- Potentiates warfarin; neuropathy with prolonged courses.\n- Adjust in severe hepatic impairment.\n\n> Ready-to-use IV 5 mg/mL: no bolus; infuse ~60 min.",
   "dilution": {
     "adulto": {
-      "presentation": "500 mg in 100 mL bag (Metronidazol Norgreen, Rivero, Ugar).",
-      "reconstitution": "No prior reconstitution required. Conc.: 5 mg/mL.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Infuse over 60 min."
+      "presentation": "Tablets 250–500 mg; suspension; IV 500 mg/100 mL (5 mg/mL).",
+      "dose": "Anaerobes: **500 mg PO or IV every 8 h** (alternative 7.5 mg/kg every 6–8 h). Usual IV orientative max **4 g/day**. Trichomoniasis: **2 g PO once** or **250 mg every 8 h × 7 days**. Amebiasis: **500–750 mg every 8 h × 5–10 days** per label.",
+      "administration": "PO with food if gastric upset. Intermittent IV over ~60 min (ready-to-use bag).",
+      "notes": "Usual IV bag needs no reconstitution."
     },
     "pediatrico": {
-      "presentation": "Tablets, oral suspension, IV ampoules.",
-      "administration": "PO; IV",
-      "diluent": "0.9% NaCl, 5% dextrose.",
-      "finalConcentration": "5 mg/mL.",
-      "infusionRate": "60 min.",
-      "dose": "Anaerobic infections (PO; IV): 30 mg/kg/day every 8 h, maximum PO: 2 g; IV: 4 g. Amebiasis: 35 mg/kg/day every 8 h for 10 days.",
-      "notes": "Avoid alcoholic beverages during treatment and for 48 h afterward. Use caution with warfarin."
+      "presentation": "Tablets, syrup, IV 5 mg/mL.",
+      "dose": "Anaerobes PO/IV: **30 mg/kg/day every 8 h** (max PO **2 g/day**; IV **4 g/day**). Amebiasis: **35–50 mg/kg/day every 8 h × ~10 days** (ceiling per label). Giardiasis: often **15 mg/kg/day** divided (max 750 mg/day) × 5–7 days.",
+      "administration": "PO/IV. IV ~5 mg/mL over 60 min.",
+      "notes": "Dose by weight. Counsel adolescents about alcohol."
     },
     "neonatal": {
-      "dose": "7.5 mg/kg/dose every 12 h (NICU).",
-      "administration": "IV/PO."
+      "presentation": "IV/PO per NNU.",
+      "dose": "Orientative NNU: **7.5 mg/kg/dose every 12 h** (adjust by gestational/postnatal age and local guide).",
+      "administration": "IV/PO.",
+      "notes": "Confirm institutional neonatal table; clearance depends on hepatic maturity."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- Not specified.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, metallic taste, peripheral neuropathy with prolonged courses, hypersensitivity reactions.",
+  "stability": "## Stability\n\n- IV bag: per manufacturer; protect from excessive light if label requires.\n- Open/discard per center policy.",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, metallic taste, headache, dark urine. Prolonged: peripheral neuropathy, seizures (rare), hypersensitivity, leukopenia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — metroNIDAZOL (ATC J01XD).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antimicrobials).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA. Antimicrobial SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

@@ -1,50 +1,54 @@
 {
   "id": "fos-001",
   "name": "Fosfomicina",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibacteriano.",
-  "indications": "## Indicações principais\n\nAntibacteriano.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Antibacteriano. Cistite não complicada adulta: fosfomicina trometamol **3 g VO dose única**. IV (dissódica): adultos frequentemente 12–24 g/dia em doses fracionadas; pediatria IV 200–400 mg/kg/dia.",
+  "indications": "## Indicações\n\n- **Trometamol VO**: cistite aguda não complicada da mulher (e outros usos conforme bula local).\n- **Dissódica IV**: infecções graves por germes sensíveis (incl. alguns MDR) quando o antibiograma e a infectologia indicam.\n\n## Precauções\n\n- Trometamol: metoclopramida, antiácidos e sais de Ca ↓ absorção.\n- IV dissódica: alto teor de **Na⁺** (~14,5 mEq por grama) — cuidado em ICC, HAS, restrição sódica.\n- Ajustar na IRC conforme bula.\n\n> Não confundir sal trometamol (VO) com dissódica (IV).",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 1 g (Fosfomicina Luar, Fosfomicyn).",
-      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
-      "diluent": "1–4 g em 100–250 mL de DX 5%.",
-      "finalConcentration": "4–40 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir na proporção de 4 mL de AD ou DX 5% por cada mL de solução reconstituída e infundir na proporção de 1 g/h. Esclarecimento: 4 g (40 mL) em 160 mL de DX 5%. Passam-se 40 mL/h.",
-      "notes": "Ao dissolver a fosfomicina ocorre uma reação exotérmica, o que faz o frasco aquecer levemente sem alterar o antibiótico. Alto conteúdo de sódio (cada grama de ATB contém 14,5 mEq)."
+      "presentation": "Envelope trometamol 3 g; FA IV dissódica 1–4 g.",
+      "dose": "Cistite não complicada: **3 g VO (trometamol) em dose única**. IV dissódica: habitual **4 g a cada 6–8 h** (faixa frequente **12–16 g/dia**; casos especiais até ~**24 g/dia** sob infectologia).",
+      "administration": "VO: dissolver o envelope em água, de preferência em jejum ou longe das refeições. IV: reconstituir com AD; diluir (p. ex. para 4–40 mg/mL em Dext. 5%) e infundir ~1 g/h (sem bolo).",
+      "notes": "Reconstituição IV: reação exotérmica leve esperada."
     },
     "pediatrico": {
-      "dose": "Crianças: 200–400 mg/kg/dia a cada 6–8 h. Adultos: 1 g–5 g/dia a cada 6–8 h; dose máxima: 16 g, em casos especiais: 8 g a cada 8 h (consultar o especialista).",
-      "administration": "E.V. V.O.",
-      "presentation": "F.A. Liof. (como sal dissódica estéril): 1000 mg (cada grama de Fosfomicina contém 14,5 mEq de sódio) Sachê granulado para solução oral (como fosfomicina trometamol): 3 g",
-      "notes": "Fosfomicina trometamol: com metoclopramida, antiácidos ou sais de cálcio reduz a absorção da fosfomicina."
+      "presentation": "FA IV 1 g; trometamol VO conforme idade/peso e produto autorizado.",
+      "dose": "IV: **200–400 mg/kg/dia a cada 6–8 h**. VO trometamol em crianças: só se o produto/bula autorizar (muitas bulas de 3 g são adultas); seguir dose por peso da bula pediátrica local.",
+      "administration": "IV diluído lento. VO conforme instruções do envelope.",
+      "notes": "Calcular a carga de sódio em esquemas IV altos."
+    },
+    "neonatal": {
+      "presentation": "IV sob protocolo UTIN.",
+      "dose": "Só infectologia/UTIN; dose e intervalo conforme idade gestacional — não a pauta oral de cistite do adulto.",
+      "administration": "IV.",
+      "notes": "Teor de sódio clinicamente relevante em prematuros."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Não especificado.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\nComuns: diarreia (9%–10%), náuseas (4%–5%), cefaleia (4%–10%), faringite (2,5%), rinite (4,5%). Graves: anemia aplásica, colestase, necrose hepática, megacólon tóxico, angioedema.",
+  "stability": "## Estabilidade\n\n- Diluição IV: ~24 h à T° ambiente (verificar bula).\n- Envelope VO: usar imediatamente após dissolver.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, cefaleia, faringite/rinite. Graves (raros): anemia aplástica, colestase, necrose hepática, angioedema, megacólon tóxico.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Fosfomicina* (cód. 1950, ATC J01XX).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (antimicrobianos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA. Referências de bulas de antimicrobianos.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

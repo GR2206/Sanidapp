@@ -1,60 +1,53 @@
 {
   "id": "tri-001",
-  "name": "Trimethoprim+sulfamethoxazole",
+  "name": "Trimethoprim–sulfamethoxazole",
   "branch": "atencion-sanitaria",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Prophylaxis and treatment of urinary tract infections due to susceptible strains of E. coli, P. mirabilis, K. pneumoniae, Enterobacter spp and coagulase-negative Staphylococcus including S. saprophyticus. Treatment of acute otitis media caused by susceptible Streptococcus pneumoniae and Haemophilus influenzae. Not indicated for prolonged administration or otitis media prophylaxis. Alternative treatment for pneumonia caused by Pneumocystis jirovecii.",
-  "indications": "## Main indications\n\nProphylaxis and treatment of urinary tract infections due to susceptible strains of E. coli, P. mirabilis, K. pneumoniae, Enterobacter spp and coagulase-negative Staphylococcus including S. saprophyticus. Treatment of acute otitis media caused by susceptible Streptococcus pneumoniae and Haemophilus influenzae. Not indicated for prolonged administration or otitis media prophylaxis. Alternative treatment for pneumonia caused by Pneumocystis jirovecii.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Co-trimoxazole. Dose by trimethoprim (TMP): usual adult 160 mg TMP every 12 h; pediatrics 8–12 mg/kg/day TMP every 12 h; PCP/severe disease 15–20 mg/kg/day TMP.",
+  "indications": "## Indications\n\n- UTI due to susceptible organisms (*E. coli*, *Proteus*, *Klebsiella*, *Enterobacter*, *S. saprophyticus*, etc.).\n- Acute otitis media due to susceptible *S. pneumoniae* / *H. influenzae* (not prolonged otitis prophylaxis).\n- Treatment and prophylaxis of *Pneumocystis jirovecii* pneumonia; some *Stenotrophomonas* infections.\n\n## Precautions\n\n- Avoid under 2 months (kernicterus/immaturity) unless life-saving.\n- Sulfonamide hypersensitivity, folate-deficiency megaloblastic anemia, severe renal failure: caution or contraindication per label.\n- Interactions: warfarin, phenytoin, methotrexate, cyclosporine, rifampin.\n\n> Always express and calculate dose by the **TMP component**.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule containing 80 mg trimethoprim (TMP) + 400 mg sulfamethoxazole (SMX) in 5 mL (Cotrizol G, Novidrine, Bactrim, Danferane, Spectrex).",
-      "reconstitution": "No prior reconstitution required. Conc: 16 mg/mL trimethoprim and 80 mg/mL sulfamethoxazole.",
-      "diluent": "80 mg TMP/400 mg SMX in 100 mL NS or 5% dextrose.",
-      "finalConcentration": "0.8 mg/mL TMP and 4 mg/mL SMX.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute 1 amp in 100 mL NS and administer over 30-60 min. Do not exceed 90 min.",
-      "notes": "A dilution of 1 mL TMP+SMX in 5 mL diluent is recommended."
+      "presentation": "Single-strength tablets 80/400 mg; double-strength (DS) 160/800 mg; syrup; ampoule 80 mg TMP + 400 mg SMX / 5 mL.",
+      "dose": "Mild–moderate: **160 mg TMP / 800 mg SMX (1 DS) every 12 h** (usual max **640 mg TMP/day**). PCP / severe: **15–20 mg/kg/day TMP** divided every 6–8 h IV or PO. PCP prophylaxis: **160 mg TMP/day** or **160 mg 3×/week** per protocol. UTI prophylaxis: often **80–160 mg TMP at night**.",
+      "administration": "PO with water; adequate hydration. IV: dilute 1 amp (80/400) in ≥ 100 mL NS or 5% dextrose (~0.8 mg/mL TMP); infuse 30–60 min (not > 90 min). Never undiluted.",
+      "notes": "Common dilution: 1 mL concentrate in 5 mL diluent."
     },
     "pediatrico": {
-      "presentation": "Tablets: 80 mg trimethoprim + 400 mg sulfamethoxazole; Tablets: 160 mg trimethoprim + 800 mg sulfamethoxazole; Syrup: 40 mg trimethoprim + 200 mg sulfamethoxazole /5 mL; Ampoules: 80 mg trimethoprim + 400 mg sulfamethoxazole/5 mL",
-      "administration": "PO; IV",
-      "diluent": "0.9% NaCl solution, 5% and 10% dextrose.",
-      "finalConcentration": "1.6 mg/mL.",
-      "infusionRate": "Not less than 60 min with syringe pump.",
-      "dose": "Doses expressed on trimethoprim basis Mild and moderate infections: Children: 8-12 mg/kg/day every 12 h, maximum dose: 320 mg/day; Adults: 160 mg every 12 h, maximum dose 640 mg/day. Severe infections, Pneumocystis jirovecii, stenotrophomonas, meningitis: 20 mg/kg/day every 6 h, maximum IV dose: 240 mg/dose every 6 h, PO: 320 mg/dose every 6 h. Prophylaxis: 5 mg/kg/day 3 times per week, maximum dose 160 mg. Urinary infection prophylaxis: 2 mg/kg/day in a single nightly dose.",
-      "notes": "IV ampoules must not be administered undiluted. Interactions: phenytoin, rifampicin (increases levels of these drugs); metronidazole (potentiates metronidazole hematologic toxicity); cyclosporine (potentiates cyclosporine nephrotoxicity)."
+      "presentation": "Tablets 80/400 and 160/800; syrup 40 mg TMP + 200 mg SMX / 5 mL; ampoules 80/400 / 5 mL.",
+      "dose": "By **TMP**: mild–moderate **8–12 mg/kg/day every 12 h** (max **320 mg TMP/day**). Severe / PCP / *Stenotrophomonas* / meningitis: **20 mg/kg/day every 6 h** (max IV ~**240 mg TMP/dose** every 6 h; PO ~**320 mg/dose** every 6 h). PCP prophylaxis: **5 mg/kg/day TMP** 3×/week (max 160 mg). UTI prophylaxis: **2 mg/kg/day** TMP at night.",
+      "administration": "PO/IV. Diluted IV ≥ 60 min with pump.",
+      "notes": "Keep fixed 1:5 TMP:SMX ratio when measuring syrup."
     },
     "neonatal": {
-      "dose": "Avoid < 2 months except vital indication; dose according to NICU.",
-      "administration": "PO/IV."
+      "presentation": "Avoid under 2 months.",
+      "dose": "Not routine under 2 months; life-saving indication only under NNU/ID with protocol dosing.",
+      "administration": "PO/IV per specialist order.",
+      "notes": "Kernicterus risk and enzyme immaturity."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (to be administered)\n\n- 2 h at room temperature. Prepare immediately before use.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nHypersensitivity reactions (mainly dermatologic), gastrointestinal disturbances (nausea, vomiting), blood dyscrasias. Renal toxicity (in patients with prior renal failure). Hepatitis, cholestasis.",
+  "stability": "## Stability\n\n- IV dilution: use promptly (usually ≤ 2 h at room temperature); prepare immediately before administration.\n- Opened ampoule: discard remainder.",
+  "adverseEffects": "## Adverse effects\n\nRash (including severe SJS/TEN), nausea, vomiting, blood dyscrasias, nephrotoxicity, hepatitis/cholestasis, hyperkalemia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Trimethoprim + Sulfamethoxazole (code 0902, ATC J01EA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antimicrobials).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA. Antimicrobial SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

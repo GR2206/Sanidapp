@@ -1,62 +1,54 @@
 {
   "id": "cli-001",
   "name": "Clindamicina",
-  "version": "1.2.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamento de infecções por bactérias suscetíveis (anaeróbias, estafilococos, estreptococos, pneumococos) em pele, tecido celular subcutâneo, abdome e trato respiratório baixo.",
-  "indications": "## Indicações principais\n\nTratamento de infecções por bactérias suscetíveis (anaeróbias, estafilococos, estreptococos, pneumococos) em pele, tecido celular subcutâneo, abdome e trato respiratório baixo.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Lincosamida ativa contra anaeróbios e muitos gram-positivos. Adulto VO 150–450 mg a cada 6–8 h; IV 600–900 mg a cada 8 h. Pediatria ~20–40 mg/kg/dia (habitual 30) a cada 6–8 h.",
+  "indications": "## Indicações\n\n- Infecções de pele/partes moles, abdominais, do trato respiratório baixo e osteoarticulares por anaeróbios, estafilococos, estreptococos e pneumococos sensíveis.\n- Alternativa na alergia a betalactâmicos quando o espectro se encaixa.\n\n## Precauções\n\n- Alto risco de colite por *C. difficile* — suspender se diarreia intensa.\n- Sem IV direta/bolo rápido (hipotensão); não > 1200 mg em 1 h.\n- Incompatível em Y com ampicilina, fenitoína, barbitúricos, aminofilina, gluconato de Ca, MgSO₄.\n\n> Ajustar conforme o foco e o antibiograma.",
   "dilution": {
     "adulto": {
-      "presentation": "Amp. contendo 600 mg em 4 mL de solução (Clindamicina Drawer, Fabra, Duncan, Clindanovag, Larjan, Ramallo, Northia, FADA, Clindalaf, Klonal).",
-      "reconstitution": "Não requer reconst. prévia. Conc.: 150 mg/mL.",
-      "diluent": "600 mg em 50–100 mL de SF ou SG 5%.",
-      "finalConcentration": "6–12 mg/mL (conc. máx. 18 mg/mL).",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 50 mL de SF ou SG 5% e admin. em 20 min.",
-      "notes": "Ao refrigerar pode haver formação de cristais que se redissolvem em temperatura ambiente. A administração rápida pode gerar hipotensão (não se recomenda infundir mais de 1200 mg em 1 h)."
+      "presentation": "Cápsulas 150–300 mg; ampolas 150 mg/mL (p. ex. 600 mg/4 mL).",
+      "dose": "VO: **150–450 mg a cada 6–8 h** (máx. **1,8 g/dia**). IV: **600–900 mg a cada 8 h** (total habitual **1,2–2,7 g/dia**; máx. **4,8 g/dia** em infecção grave sob infectologia).",
+      "administration": "VO com um copo de água. IV intermitente: diluir (p. ex. 600 mg em 50–100 mL SF/Dext. 5%; habitual 6–12 mg/mL, máx. ~18 mg/mL) e infundir ≥ 20–30 min.",
+      "notes": "Ao refrigerar podem formar-se cristais que se redissolvem à T° ambiente."
     },
     "pediatrico": {
-      "presentation": "Cápsulas: 300 mg; Ampolas de 4 mL: 150 mg/mL; Solução (preparado magistral): 100 mg/mL",
-      "administration": "V.O.; E.V.",
-      "diluent": "SF 0,9%, SG 5%.",
-      "finalConcentration": "12 mg/mL.",
-      "infusionRate": "30 mg/minuto.",
-      "dose": "Recém-nascidos: conforme idade e peso; > 1 mês e crianças: 30 mg/kg/dia a cada 6–8 h, dose máxima: E.V.: 4,8 g/dia; V.O.: 1,8 g/dia. Adolescentes e adultos: E.V.: 1,2 a 2,7 g/dia em 2 a 4 doses divididas, dose máxima: 4,8 g/dia; V.O.: 150 a 450 mg/dose a cada 6–8 h, dose máxima: 1,8 g/dia.",
-      "compatibility": "Incompatível com ampicilina sódica, fenitoína sódica, barbitúricos, aminofilina, gluconato de cálcio e sulfato de magnésio.",
-      "notes": "Interações: beta-bloqueadores, eritromicina."
+      "presentation": "Cápsulas 300 mg; ampolas 150 mg/mL; magistral ~100 mg/mL.",
+      "dose": "> 1 mês: **20–40 mg/kg/dia** (habitual **30 mg/kg/dia**) divididos a cada 6–8 h VO ou IV. Máx. orientativo: VO **1,8 g/dia**; IV **4,8 g/dia**. Adolescentes: ver adulto.",
+      "administration": "VO/IV. IV diluído; velocidade controlada.",
+      "notes": "Interações: eritromicina (antagonismo in vitro). Betabloqueadores: monitorar."
     },
     "neonatal": {
-      "dose": "5–7,5 mg/kg/dose a cada 6–8 h.",
-      "administration": "E.V."
+      "presentation": "Ampola / protocolo UTIN.",
+      "dose": "**5–7,5 mg/kg/dose a cada 6–8 h** IV conforme idade/peso postnatal (ajustar com tabela neonatal local).",
+      "administration": "IV diluído, lento.",
+      "notes": "Confirmar intervalo por idade gestacional e postnatal no guia UTIN local."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente e/ou refrigerado.\n\n## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nDiarreia, colite pseudomembranosa, vômitos, reações de hipersensibilidade, eosinofilia, leucopenia, agranulocitose, hepatotoxicidade.",
+  "stability": "## Estabilidade\n\n- Diluição IV: ~24 h T° amb ou refrigerado (verificar bula).\n- Ampola aberta: descartar restante conforme política do centro.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, colite pseudomembranosa, vômitos, erupção, eosinofilia, leucopenia, agranulocitose, hepatotoxicidade, hipersensibilidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Clindamicina (cód. 0051, ATC J01FF).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (antimicrobianos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA. Referências de bulas de antimicrobianos.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

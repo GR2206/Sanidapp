@@ -306,8 +306,8 @@
       "id": "cip-001",
       "name": "Ciprofloxacina",
       "branch": "atencion-sanitaria",
-      "version": "1.2.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "cst-001",
@@ -327,15 +327,15 @@
       "id": "cla-001",
       "name": "Claritromicina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "cli-001",
       "name": "Clindamicina",
       "branch": "atencion-sanitaria",
-      "version": "1.2.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "clo-001",
@@ -614,8 +614,8 @@
       "id": "fos-001",
       "name": "Fosfomicina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "fur-001",
@@ -880,8 +880,8 @@
       "id": "met-001",
       "name": "Metronidazol",
       "branch": "atencion-sanitaria",
-      "version": "1.2.3",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "mic-001",
@@ -1258,8 +1258,8 @@
       "id": "tri-001",
       "name": "Trimetoprima+sulfametoxazol",
       "branch": "atencion-sanitaria",
-      "version": "1.2.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "val-001",

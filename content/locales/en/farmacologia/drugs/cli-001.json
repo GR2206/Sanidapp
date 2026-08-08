@@ -2,60 +2,52 @@
   "id": "cli-001",
   "name": "Clindamycin",
   "branch": "atencion-sanitaria",
-  "version": "1.2.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Treatment of infections caused by susceptible bacteria (anaerobes, staphylococci, streptococci, pneumococci) of the skin, subcutaneous cellular tissue, abdomen, and lower respiratory tract.",
-  "indications": "## Main indications\n\nTreatment of infections caused by susceptible bacteria (anaerobes, staphylococci, streptococci, pneumococci) of the skin, subcutaneous cellular tissue, abdomen, and lower respiratory tract.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Lincosamide active against anaerobes and many gram-positives. Adult PO 150–450 mg every 6–8 h; IV 600–900 mg every 8 h. Pediatrics ~20–40 mg/kg/day (usual 30) every 6–8 h.",
+  "indications": "## Indications\n\n- Skin/soft-tissue, abdominal, lower respiratory, and osteoarticular infections due to susceptible anaerobes, staphylococci, streptococci, and pneumococci.\n- Alternative in beta-lactam allergy when spectrum fits.\n\n## Precautions\n\n- High risk of *C. difficile* colitis — stop if severe diarrhea.\n- No IV push/rapid bolus (hypotension); do not give > 1200 mg in 1 h.\n- Y-site incompatible with ampicillin, phenytoin, barbiturates, aminophylline, calcium gluconate, MgSO₄.\n\n> Adjust by focus and antibiogram.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule containing 600 mg in 4 mL solution (Clindamicina Drawer, Fabra, Duncan, Clindanovag, Larjan, Ramallo, Northia, FADA, Clindalaf, Klonal).",
-      "reconstitution": "No prior reconstitution required. Conc: 150 mg/mL.",
-      "diluent": "600 mg in 50–100 mL 0.9% NaCl or 5% dextrose.",
-      "finalConcentration": "6–12 mg/mL (max conc 18 mg/mL).",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 50 mL 0.9% NaCl or 5% dextrose and administer over 20 min.",
-      "notes": "Refrigeration may cause crystal formation that redissolves at room temperature. Rapid administration may cause hypotension (infusing more than 1200 mg in 1 h is not recommended)."
+      "presentation": "Capsules 150–300 mg; ampoules 150 mg/mL (e.g. 600 mg/4 mL).",
+      "dose": "PO: **150–450 mg every 6–8 h** (max **1.8 g/day**). IV: **600–900 mg every 8 h** (usual total **1.2–2.7 g/day**; max **4.8 g/day** in severe infection under ID).",
+      "administration": "PO with a glass of water. Intermittent IV: dilute (e.g. 600 mg in 50–100 mL NS/5% dextrose; usual 6–12 mg/mL, max ~18 mg/mL) and infuse ≥ 20–30 min.",
+      "notes": "Refrigeration may form crystals that redissolve at room temperature."
     },
     "pediatrico": {
-      "presentation": "Capsules: 300 mg; 4 mL ampoules: 150 mg/mL; Solution (compounded): 100 mg/mL",
-      "administration": "PO; IV",
-      "diluent": "0.9% NaCl, 5% dextrose.",
-      "finalConcentration": "12 mg/mL.",
-      "infusionRate": "30 mg/minute.",
-      "dose": "Newborns: according to age and weight; > 1 month and children: 30 mg/kg/day every 6–8 h, maximum dose: IV: 4,8 g/day; PO: 1,8 g/day. Adolescents and adults: IV: 1,2 to 2,7 g/day in 2 to 4 divided doses, maximum dose: 4,8 g/day; PO: 150 to 450 mg/dose every 6–8 h, maximum dose: 1,8 g/day.",
-      "compatibility": "Incompatible with ampicillin sodium, phenytoin sodium, barbiturates, aminophylline, calcium gluconate and magnesium sulfate.",
-      "notes": "Interactions: beta-blockers, erythromycin."
+      "presentation": "Capsules 300 mg; ampoules 150 mg/mL; compounded ~100 mg/mL.",
+      "dose": "> 1 month: **20–40 mg/kg/day** (usual **30 mg/kg/day**) divided every 6–8 h PO or IV. Orientative max: PO **1.8 g/day**; IV **4.8 g/day**. Adolescents: see adult.",
+      "administration": "PO/IV. Diluted IV; controlled rate.",
+      "notes": "Interactions: erythromycin (in vitro antagonism). Beta-blockers: monitor."
     },
     "neonatal": {
-      "dose": "5–7,5 mg/kg/dose every 6–8 h.",
-      "administration": "IV."
+      "presentation": "Ampoule / NNU protocol.",
+      "dose": "**5–7.5 mg/kg/dose every 6–8 h** IV by postnatal age/weight (adjust with local neonatal table).",
+      "administration": "Diluted slow IV.",
+      "notes": "Confirm interval by gestational and postnatal age in the local NNU guide."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature and/or refrigerated.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nDiarrhea, pseudomembranous colitis, vomiting, hypersensitivity reactions, eosinophilia, leukopenia, agranulocytosis, hepatotoxicity.",
+  "stability": "## Stability\n\n- IV dilution: ~24 h room temp or refrigerated (check label).\n- Opened ampoule: discard remainder per center policy.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, pseudomembranous colitis, vomiting, rash, eosinophilia, leukopenia, agranulocytosis, hepatotoxicity, hypersensitivity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Clindamicina (code 0051, ATC J01FF).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antimicrobials).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA. Antimicrobial SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

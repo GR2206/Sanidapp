@@ -2,48 +2,52 @@
   "id": "cla-001",
   "name": "Clarithromycin",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Macrolide. Treatment of upper and lower respiratory tract infections, acute otitis media due to Mycoplasma and Chlamydia. Prophylaxis and treatment of Mycobacterium avium infections.",
-  "indications": "## Main indications\n\nMacrolide. Treatment of upper and lower respiratory tract infections, acute otitis media due to Mycoplasma and Chlamydia. Prophylaxis and treatment of Mycobacterium avium infections.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Macrolide. Adult PO 250–500 mg every 12 h; pediatrics 15 mg/kg/day every 12 h (usual max 1 g/day). IV 500 mg every 12 h when oral route unavailable.",
+  "indications": "## Indications\n\n- Upper and lower respiratory tract infections, otitis media, sinusitis due to susceptible organisms (including atypicals: *Mycoplasma*, *Chlamydia*).\n- Susceptible skin/soft-tissue infections.\n- *Mycobacterium avium* prophylaxis/treatment (specific regimens, higher doses).\n\n## Precautions\n\n- Contraindicated with terfenadine/cisapride (arrhythmia). Interactions: carbamazepine, rifabutin, statins, warfarin.\n- Adjust in severe renal impairment.\n- IV irritant (phlebitis): no bolus; infuse ≥ 60 min.\n\n> Prefer PO if tolerated. Confirm local susceptibility.",
   "dilution": {
     "adulto": {
-      "presentation": "Lyophilized powder vial containing 500 mg (Claritromicina Northia, Pharmavial, Richet, Kiaricid).",
-      "reconstitution": "10 mL SWFI. Conc: 50 mg/mL.",
-      "diluent": "500 mg in 250 mL 0.9% NaCl or 5% dextrose.",
-      "finalConcentration": "2 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Reconstitute 500 mg with 10 mL SWFI, dilute in 250 mL 0.9% NaCl, 5% dextrose and administer over 60 min.",
-      "notes": "Use only SWFI for reconstitution, as other diluents may cause precipitation. Do not use 0.9% NaCl. Irritant (may cause phlebitis)."
+      "presentation": "Tablets 250–500 mg; suspension; IV vial 500 mg.",
+      "dose": "PO usual infections: **250–500 mg every 12 h** (5–14 days by focus). IV: **500 mg every 12 h** (switch to PO ASAP). MAC / antimycobacterial (specialist): up to **500 mg every 12 h** or per protocol.",
+      "administration": "PO with or without food. IV: reconstitute 500 mg with 10 mL sterile water (not NS for initial reconstitution); dilute in 250 mL NS or 5% dextrose (~2 mg/mL) and infuse over 60 min.",
+      "notes": "Use sterile water only for lyophilizate reconstitution. No IV push."
     },
     "pediatrico": {
-      "dose": "Children: 15 mg/kg/day every 12 h, adolescents and adults (PO): 500 mg every 12 h. Antituberculous: 30 mg/kg/day every 12 h, maximum dose: 1 g/day.",
-      "administration": "PO; IV",
-      "presentation": "Tablets: 250 mg; Suspension: 25 mg/mL; Powder vial: 500 mg",
-      "notes": "Contraindicated in combination with terfenadine in patients with cardiac disease. Interactions: carbamazepine, cisapride, rifabutin. Do not refrigerate reconstituted suspension."
+      "presentation": "Tablets 250 mg; suspension 25 mg/mL; vial 500 mg.",
+      "dose": "**15 mg/kg/day PO/IV divided every 12 h**. Usual max for common infections: **1 g/day**. Antimycobacterial/MAC-type: up to **30 mg/kg/day** every 12 h (max **1 g/day**) under ID.",
+      "administration": "PO; IV as in adult (dose-proportional). Do not refrigerate reconstituted suspension (per many labels).",
+      "notes": "Dose by weight. Verify syrup strength (mg/mL) before measuring."
+    },
+    "neonatal": {
+      "presentation": "Exceptional use; prefer NNU alternatives.",
+      "dose": "Not routine in neonates; only under ID/neonatology with explicit protocol.",
+      "administration": "Specialist order only.",
+      "notes": "Limited data; weigh risk/benefit and interactions."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature and 48 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h at room temperature and 48 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, abnormal taste, dyspepsia, abdominal pain, headaches, hypersensitivity. See alert.",
+  "stability": "## Stability\n\n- Reconstituted (IV vial): ~24 h room temp / ~48 h refrigerated (check label).\n- Diluted for infusion: ~6 h room temp / ~48 h refrigerated.\n- PO suspension: per manufacturer beyond-use date.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, abnormal/metallic taste, dyspepsia, abdominal pain, headache, hypersensitivity. QT prolongation/arrhythmia with interacting drugs.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Claritromicina (code 0451, ATC J01FA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antimicrobials).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA. Antimicrobial SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]
