@@ -1,0 +1,50 @@
+{
+  "id": "dab-001",
+  "name": "Dabigatran",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Direct thrombin inhibitor DOAC. AF: **150 mg PO q12h** (**110 mg q12h** if ≥80 y, verapamil, high bleed risk). DVT/PE after 5–10 days LMWH: **150 mg q12h**. Swallow capsules whole; antidote **idarucizumab**.",
+  "indications": "## Indications\n\n- Stroke prevention in nonvalvular AF; DVT/PE treatment/prevention (after LMWH bridge in acute phase).\n\n## Precautions\n\n- Not for mechanical valves. Adjust/avoid if low CrCl (often contraindicated <30 in AF labels).\n- Do not open/chew capsules (↑ bioavailability/bleeding).\n- P-gp inhibitor interactions (amiodarone, verapamil — 110 mg dose).\n\n> Dyspepsia common — take with water/food.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Caps 75–110–150 mg.",
+      "dose": "AF: **150 mg q12h**; **110 mg q12h** if ≥80 y, concomitant verapamil, or high bleed risk/CrCl 30–50 per label. DVT/PE: after LMWH **150 mg q12h** (or 110 if criteria). Ortho prophylaxis: **220 mg/day** (or 150) per label.",
+      "administration": "PO whole capsule with water.",
+      "notes": "Missed dose: take if >6 h until next (BID)."
+    },
+    "pediatrico": {
+      "presentation": "Limited data / granules by country.",
+      "dose": "Hematology only — weight/age schemes on label.",
+      "administration": "PO.",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Keep in original blister; moisture degrades drug — avoid prolonged pillboxes.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, dyspepsia, gastritis; rare hypersensitivity.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Dabigatran — AF/VTE dosing.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ESC / AHA. AF DOAC — dabigatran.",
+      "url": "https://www.escardio.org/"
+    },
+    {
+      "citation": "FDA. Praxbind (idarucizumab) antidote context.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

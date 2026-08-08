@@ -1,0 +1,37 @@
+{
+  "id": "clz-001",
+  "name": "Clonazepam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Benzodiacepina de vida media larga. Epilepsia/mioclonías adulto: **0,5–1 mg VO c/8 h** titular (máx. frecuente **4–20 mg/día** según indicación). Pánico: **0,25–0,5 mg c/12 h**. Pediatría epilepsia: **0,01–0,03 mg/kg/día** inicio. Dependencia — cursos controlados.",
+  "indications": "## Indicaciones\n\n- Epilepsia (ausencias atípicas, mioclonías, Lennox-Gastaut adyuvante); trastorno de pánico; mioclonías.\n\n## Precauciones\n\n- Sedación, depresión respiratoria con opioides/alcohol.\n- Dependencia/abstinencia — no corte brusco.\n- Ancianos: caídas; preferir dosis mínimas.\n\n> Gotas facilitan titulación pediátrica/geriátrica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,5–2 mg; gotas 2,5 mg/mL.",
+      "dose": "Epilepsia: inicio **0,5 mg c/8 h** → titular semanalmente; mantenimiento frecuente **2–8 mg/día** (máx. fichas hasta **20 mg**). Pánico: **0,25 mg c/12 h** → hasta **1–2 mg/día** habitual.",
+      "administration": "VO.",
+      "notes": "Reducción gradual al retirar."
+    },
+    "pediatrico": {
+      "presentation": "Gotas; comp.",
+      "dose": "Epilepsia: inicio **0,01–0,03 mg/kg/día** en 2–3 tomas; mantenimiento **0,1–0,2 mg/kg/día** (máx. según edad/ficha).",
+      "administration": "VO.",
+      "notes": "Neurología pediátrica."
+    },
+    "neonatal": {
+      "presentation": "Uso excepcional NNU.",
+      "dose": "Solo protocolo (convulsiones) — preferir otras opciones modernas.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Psicotrópico — control de stock.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, ataxia, sialorrea (niños), irritabilidad paradojal, dependencia.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Clonazepam.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Benzodiazepine boxed warning.", "url": "https://www.fda.gov/" },
+    { "citation": "AEP Pediamécum. Clonazepam.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos clonazepam.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

@@ -2,57 +2,49 @@
   "id": "mor-001",
   "name": "Morphine",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Acute and chronic pain, moderate or severe. Symptomatic treatment of dyspnea. Dyspnea and cyanosis crises. Strong opioid.",
-  "indications": "## Main indications\n\nAcute and chronic pain, moderate or severe. Symptomatic treatment of dyspnea. Dyspnea and cyanosis crises. Strong opioid.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Strong µ-opioid agonist. Adult acute pain: **2–5 mg IV** q5–15 min PRN or **0.1 mg/kg**. PO IR: **5–15 mg q4h**; SR by equianalgesia. Pediatrics: **0.05–0.1 mg/kg** IV. Antidote: **naloxone**. Respiratory depression and constipation.",
+  "indications": "## Indications\n\n- Moderate–severe acute/chronic pain; acute pulmonary edema (low-dose IV); palliative dyspnea; ICU analgesia/sedation.\n\n## Precautions\n\n- Respiratory depression — monitor; potentiates benzodiazepines/alcohol.\n- CKD: metabolite accumulation (M6G) — reduce or use alternative.\n- Histamine: hypotension/pruritus; prefer fentanyl if unstable.\n\n> Titrate to effect; no fixed analgesic ceiling — limited by toxicity.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 10 mg/mL.",
-      "dose": "2–5 mg IV every 5–15 min PRN; PCA or infusion per prescription.",
-      "administration": "Slow IV."
+      "presentation": "Ampoules 10 mg/mL; IR/SR tabs; oral solution; PCA.",
+      "dose": "IV bolus: **2–5 mg** q5–15 min until control (or **0.05–0.1 mg/kg**). Infusion/PCA: per protocol (e.g. basal 1–2 mg/h + bolus). PO IR: **5–15 mg q4h**; convert to SR when stable. APO: **2–4 mg IV** slow.",
+      "administration": "Slow IV; SC/IM possible; PO. Dilute for PCA per chart.",
+      "notes": "Equianalgesia PO:IV ≈ 3:1 (approximate)."
     },
     "pediatrico": {
-      "presentation": "Ampoules: 10 mg/ml; Syrup (compounded): 0,1% (1 mg/ml), 0,3% (3 mg/ml), 1% (10 mg/ml) See formulation",
-      "administration": "PO; IV",
-      "diluent": "0.9% NaCl, 5% dextrose, Ringer solution.",
-      "finalConcentration": "5 mg/mL.",
-      "infusionRate": "Bolus over 5 min. 15 to 30 min with infusion pump.",
-      "dose": "PO: Initial dose 0,1 mg/kg every 4 h; IV; SC; IM: < 50 kg: 0,05 mg/kg every 4 h; Continuous infusion: 0,05 mg/kg/hour; >50 kg: Initial dose PO: 10 mg every 4 h (no ceiling dose); IV: 5 mg every 4 h, Continuous infusion: 2 mg/hour. Increase dose by 50% each time until effective dose is reached.",
-      "notes": "Association with an NSAID is recommended. Remember that neuropathic pain responds only partially to opioids (add adjuvants). Analgesic equivalence: 1 mg morphine IV = 2 mg morphine PO; 1 mg morphine IV = 10 µg fentanyl. See practical guide for analgosedation management and weaning in intermediate and moderate care units. For the 1% (10 mg/ml) presentation, the prescription must be endorsed on the reverse."
+      "presentation": "Ampoules; oral solution.",
+      "dose": "IV/SC: **0.05–0.1 mg/kg** q2–4h (max per dose by age). Infusion: **10–40 µg/kg/h** titrate. PO: **0.2–0.5 mg/kg q4h**.",
+      "administration": "IV/PO/SC.",
+      "notes": "Monitor SpO2 and sedation."
     },
     "neonatal": {
-      "dose": "0,01–0,05 mg/kg/dose according to NICU pain scale.",
-      "administration": "Slow IV."
+      "presentation": "NICU dilution.",
+      "dose": "Analgesia/sedation: **0.05–0.1 mg/kg** IV; infusion **5–20 µg/kg/h** — NICU only.",
+      "administration": "IV.",
+      "notes": "High respiratory risk."
     }
   },
-  "stability": "## General\n\n- Use dilution within the shift.\n\n## Pediatric guide\n\n- Not specified in guide.",
-  "adverseEffects": "## Adverse effects\n\nSee opioid analgesics section.",
+  "stability": "## Stability\n\n- Ampoule: controlled substance; dilutions per local stability (often 24 h).",
+  "adverseEffects": "## Adverse effects\n\nSedation, nausea, constipation, pruritus, urinary retention, respiratory depression, dependence.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Morphine Hydrochloride (code 0144, ATC N02AA).",
+      "citation": "AEMPS CIMA. Morphine.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "WHO. Analgesic ladder / opioid dosing principles.",
+      "url": "https://www.who.int/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — morphine.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

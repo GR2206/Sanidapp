@@ -1,0 +1,37 @@
+{
+  "id": "prg-001",
+  "name": "Pregabalina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Ligando α2δ (análogo GABA). Dolor neuropático/ansiedad adulto: inicio **75 mg c/12 h** → **150–300 mg/día** (máx. **600 mg/día**). Epilepsia parcial adyuvante: similar. Ajuste estricto en IRC. Sedación, mareo, potencial de abuso.",
+  "indications": "## Indicaciones\n\n- Dolor neuropático (diabético, postherpético); neuralgia; ansiedad generalizada; epilepsia parcial adyuvante; fibromialgia (fichas).\n\n## Precauciones\n\n- Reducir dosis según ClCr (tablas de ficha).\n- Suspensión gradual (insomnio, ansiedad de rebote).\n- Edema, ↑ peso; visión borrosa.\n- Controlado en algunos países (abuso).\n\n> No es opioide — útil en dolor neuropático sin techo respiratorio típico de opioides.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cáps. 25–50–75–150–300 mg; solución.",
+      "dose": "Inicio **75 mg c/12 h** o **50 mg c/8 h**; en 3–7 días a **150–300 mg/día**. Máx. **600 mg/día**. IRC: p. ej. ClCr 30–60 → máx. **300 mg/día**; <30 según tabla.",
+      "administration": "VO con o sin alimentos.",
+      "notes": "Titular según tolerancia (mareo)."
+    },
+    "pediatrico": {
+      "presentation": "Solución/cáps. según autorización.",
+      "dose": "Epilepsia ≥4 años (ficha): esquemas por peso — especialista.",
+      "administration": "VO.",
+      "notes": "No rutinario para ansiedad infantil."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nMareo, somnolencia, edema periférico, ↑ peso, sequedad de boca; raro: angioedema, ideación suicida.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Pregabalina — posología y ajuste renal.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "NICE. Neuropathic pain / GAD context.", "url": "https://www.nice.org.uk/" },
+    { "citation": "FDA. Pregabalin labeling.", "url": "https://www.fda.gov/" },
+    { "citation": "ANMAT. Prospectos pregabalina.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

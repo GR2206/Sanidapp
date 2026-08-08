@@ -1,0 +1,50 @@
+{
+  "id": "qtp-001",
+  "name": "Quetiapina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico atípico. Psicose adulto: titular **25–50 mg → 300–400 mg/dia** (máx. **750–800 mg**). Mania/depressão bipolar: esquemas até **300–800 mg**. Sedação off-label: **25–100 mg** à noite — não 1ª linha. XR 1×/dia. ↑ peso, sedação, QT.",
+  "indications": "## Indicações\n\n- Esquizofrenia; mania/depressão bipolar; adjuvante na depressão maior (bulas).\n\n## Precauções\n\n- Hipotensão ortostática no início; sedação marcada.\n- Metabólicos: peso, glicemia, lípides. Cataratas (controle oftalmo crônico).\n- Demência: ↑ mortalidade. Não usar como hipnótico crônico de primeira escolha.\n\n> IR ≠ XR — não trocar mg a mg sem bula.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 25–100–200–300 mg; XR 50–300–400 mg.",
+      "dose": "Esquizofrenia: dia 1 **25 mg a cada 12 h** → subir a **300–400 mg/dia** em dias. Mania: até **400–800 mg/dia**. Depressão bipolar: frequentemente **300 mg XR à noite**. Idosos: início **12,5–25 mg**.",
+      "administration": "VO; XR sem mastigar, noite preferível.",
+      "notes": "Reduzir com inibidores potentes de CYP3A4."
+    },
+    "pediatrico": {
+      "presentation": "Comp.; XR conforme autorização.",
+      "dose": "Adolescentes (≥10–13 a conforme indicação): esquemas de especialista (mania/esquizofrenia) — início baixo.",
+      "administration": "VO.",
+      "notes": "Monitorar peso e sedação."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nSonolência, boca seca, ↑ peso, tontura, constipação; raro: SNM, agranulocitose, QT.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Quetiapina IR/XR.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Quetiapina — bula e alerta na demência.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Psicose / bipolar (contexto).",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gbp-001",
+  "name": "Gabapentina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antiepiléptico / dolor neuropático. Adulto: inicio **300 mg noche** → **300 mg c/8 h** (rango **900–1800 mg/día**; máx. frecuente **3600 mg**). Ajuste renal obligatorio. Menos potente que pregabalina mg a mg; sedación y mareo.",
+  "indications": "## Indicaciones\n\n- Epilepsia parcial adyuvante; neuralgia postherpética; dolor neuropático (uso amplio); síndrome de piernas inquietas (off-label/fichas).\n\n## Precauciones\n\n- Ajuste por ClCr (reducir dosis/intervalo).\n- No suspender brusco en epilepsia.\n- Abuso potencial (con opioides ↑ depresión respiratoria).\n\n> Absorción saturable — dosis altas fraccionadas c/8 h.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cáps./comp. 100–300–400–600–800 mg; solución.",
+      "dose": "Dolor: día 1 **300 mg**, día 2 **300 mg c/12 h**, día 3 **300 mg c/8 h**; titular a **1800 mg/día** (hasta **3600**). Epilepsia: similar titulación. IRC: p. ej. ClCr <30 → **100–300 mg/día** o días alternos según tabla.",
+      "administration": "VO con o sin alimentos.",
+      "notes": "Separar de antiácidos ~2 h."
+    },
+    "pediatrico": {
+      "presentation": "Solución; cáps.",
+      "dose": "Epilepsia ≥3–12 años: **10–15 mg/kg/día** inicio → hasta **25–40 mg/kg/día** dividido c/8 h — neurología.",
+      "administration": "VO.",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "Solo protocolo especializado.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, mareo, ataxia, edema, fatiga; raro: reacciones de hipersensibilidad, ideación suicida.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Gabapentina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Gabapentin — respiratory depression with opioids.", "url": "https://www.fda.gov/" },
+    { "citation": "AEP Pediamécum. Gabapentina.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos gabapentina.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

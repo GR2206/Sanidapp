@@ -1,0 +1,37 @@
+{
+  "id": "dab-001",
+  "name": "Dabigatrán",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ACOD inhibidor directo de trombina. FA: **150 mg VO c/12 h** (**110 mg c/12 h** si ≥80 años, verapamilo, alto riesgo hemorrágico). TVP/TEP tras 5–10 días HBPM: **150 mg c/12 h**. Cápsulas enteras; antídoto **idarucizumab**.",
+  "indications": "## Indicaciones\n\n- Prevención de ACV en FA no valvular; tratamiento/prevención de TVP/TEP (tras puente HBPM en agudo).\n\n## Precauciones\n\n- No válvulas mecánicas. Ajuste/evitar si ClCr bajo (contraindicado <30 en muchas fichas FA).\n- No abrir/masticar cápsulas (↑ biodisponibilidad/hemorragia).\n- Interacciones con inhibidores P-gp (amiodarona, verapamilo — dosis 110).\n\n> Dispepsia frecuente — tomar con vaso de agua/comida.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cáps. 75–110–150 mg.",
+      "dose": "FA: **150 mg c/12 h**; **110 mg c/12 h** si ≥80 a, verapamilo concomitante, o alto riesgo hemorrágico/ClCr 30–50 según ficha. TVP/TEP: tras HBPM **150 mg c/12 h** (o 110 si criterios). Profilaxis orto: **220 mg/día** (o 150) según ficha.",
+      "administration": "VO cápsula entera con agua.",
+      "notes": "Olvido: tomar si faltan >6 h para la siguiente (bid)."
+    },
+    "pediatrico": {
+      "presentation": "Datos limitados / granulados según país.",
+      "dose": "Solo hematología — esquemas por peso/edad en ficha.",
+      "administration": "VO.",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Blíster original; humedad degrada el fármaco — no pastilleros prolongados.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia, dispepsia, gastritis; raro: reacción de hipersensibilidad.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Dabigatrán — posología FA/TVP.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ESC / AHA. AF DOAC — dabigatran.", "url": "https://www.escardio.org/" },
+    { "citation": "FDA. Praxbind (idarucizumab) antidote context.", "url": "https://www.fda.gov/" },
+    { "citation": "ANMAT. Prospectos dabigatrán.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

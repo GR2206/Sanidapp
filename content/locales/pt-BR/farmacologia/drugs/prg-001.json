@@ -1,0 +1,50 @@
+{
+  "id": "prg-001",
+  "name": "Pregabalina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Ligante α2δ (análogo do GABA). Dor neuropática/ansiedade adulto: início **75 mg a cada 12 h** → **150–300 mg/dia** (máx. **600 mg/dia**). Epilepsia parcial adjuvante: similar. Ajuste estrito na IRC. Sedação, tontura, potencial de abuso.",
+  "indications": "## Indicações\n\n- Dor neuropática (diabética, pós-herpética); neuralgia; ansiedade generalizada; epilepsia parcial adjuvante; fibromialgia (bulas).\n\n## Precauções\n\n- Reduzir dose conforme ClCr (tabelas da bula).\n- Suspensão gradual (insônia, ansiedade de rebote).\n- Edema, ↑ peso; visão turva.\n- Controlado em alguns países (abuso).\n\n> Não é opioide — útil na dor neuropática sem teto respiratório típico dos opioides.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cáps. 25–50–75–150–300 mg; solução.",
+      "dose": "Início **75 mg a cada 12 h** ou **50 mg a cada 8 h**; em 3–7 dias a **150–300 mg/dia**. Máx. **600 mg/dia**. IRC: p. ex. ClCr 30–60 → máx. **300 mg/dia**; <30 conforme tabela.",
+      "administration": "VO com ou sem alimentos.",
+      "notes": "Titular conforme tolerância (tontura)."
+    },
+    "pediatrico": {
+      "presentation": "Solução/cáps. conforme autorização.",
+      "dose": "Epilepsia ≥4 anos (bula): esquemas por peso — especialista.",
+      "administration": "VO.",
+      "notes": "Não rotineiro para ansiedade infantil."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nTontura, sonolência, edema periférico, ↑ peso, boca seca; raro: angioedema, ideação suicida.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Pregabalina — posologia e ajuste renal.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "NICE. Dor neuropática / TAG (contexto).",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "FDA. Bula da pregabalina.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

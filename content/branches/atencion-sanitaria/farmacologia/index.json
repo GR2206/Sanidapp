@@ -415,6 +415,13 @@
       "updatedAt": "2026-08-07"
     },
     {
+      "id": "clz-001",
+      "name": "Clonazepam",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "clo-001",
       "name": "Clonidina",
       "branch": "atencion-sanitaria",
@@ -475,6 +482,13 @@
       "name": "Colistina",
       "branch": "atencion-sanitaria",
       "version": "1.3.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "dab-001",
+      "name": "Dabigatrán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {
@@ -765,6 +779,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "gbp-001",
+      "name": "Gabapentina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "gnc-001",
       "name": "Ganciclovir",
       "branch": "atencion-sanitaria",
@@ -810,8 +831,8 @@
       "id": "hef-001",
       "name": "Heparina sódica",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "hdr-001",
@@ -1111,8 +1132,8 @@
       "id": "mor-001",
       "name": "Morfina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "mox-001",
@@ -1190,6 +1211,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.1",
       "updatedAt": "2026-06-30"
+    },
+    {
+      "id": "olz-001",
+      "name": "Olanzapina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "olm-001",
@@ -1290,6 +1318,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "prg-001",
+      "name": "Pregabalina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "ppf-001",
       "name": "Propafenona",
       "branch": "atencion-sanitaria",
@@ -1316,6 +1351,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "qtp-001",
+      "name": "Quetiapina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ram-001",

@@ -1,0 +1,50 @@
+{
+  "id": "clz-001",
+  "name": "Clonazepam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Long half-life benzodiazepine. Adult epilepsy/myoclonus: **0.5–1 mg PO q8h** titrate (usual max **4–20 mg/day** by indication). Panic: **0.25–0.5 mg q12h**. Pediatric epilepsy: start **0.01–0.03 mg/kg/day**. Dependence — controlled courses.",
+  "indications": "## Indications\n\n- Epilepsy (atypical absences, myoclonus, adjunct Lennox-Gastaut); panic disorder; myoclonus.\n\n## Precautions\n\n- Sedation, respiratory depression with opioids/alcohol.\n- Dependence/withdrawal — do not stop abruptly.\n- Elderly: falls; lowest doses.\n\n> Drops help pediatric/geriatric titration.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 0.5–2 mg; drops 2.5 mg/mL.",
+      "dose": "Epilepsy: start **0.5 mg q8h** → titrate weekly; usual maintenance **2–8 mg/day** (labels up to **20 mg**). Panic: **0.25 mg q12h** → often **1–2 mg/day**.",
+      "administration": "PO.",
+      "notes": "Taper gradually when stopping."
+    },
+    "pediatrico": {
+      "presentation": "Drops; tabs.",
+      "dose": "Epilepsy: start **0.01–0.03 mg/kg/day** in 2–3 doses; maintenance **0.1–0.2 mg/kg/day** (max by age/label).",
+      "administration": "PO.",
+      "notes": "Pediatric neurology."
+    },
+    "neonatal": {
+      "presentation": "Exceptional NICU use.",
+      "dose": "Protocol only (seizures) — prefer modern alternatives.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Controlled substance — stock control.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, ataxia, sialorrhea (children), paradoxical irritability, dependence.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Clonazepam.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Benzodiazepine boxed warning.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Clonazepam.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

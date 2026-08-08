@@ -1,51 +1,50 @@
 {
   "id": "hef-001",
-  "name": "Heparin sodium",
+  "name": "Unfractionated heparin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Anticoagulant.",
-  "indications": "## Main indications\n\nAnticoagulant.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "UFH. ACS/DVT: bolus **60–80 IU/kg** (usual max **4000–5000 IU**) then **12–18 IU/kg/h** IV titrated to aPTT/anti-Xa. SC prophylaxis: **5000 IU q8–12h**. Antidote: **protamine**. HIT risk — monitor platelets.",
+  "indications": "## Indications\n\n- Treatment/prophylaxis of thromboembolism; ACS; cardiopulmonary bypass; perioperative bridge.\n\n## Precautions\n\n- Bleeding; HIT type II (stop and do not use LMWH if HIT).\n- aPTT q6h until stable. Adjust in obesity/CKD per protocol.\n- Not IM. Neuraxial anesthesia: strict safety windows.\n\n> Prefer LMWH in many ambulatory settings; UFH if imminent surgery or severe CKD.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial 5000 UI/mL.",
-      "dose": "Bolus 60–80 UI/kg in ACS; infusion 12–15 UI/kg/h titrated to aPTT.",
-      "administration": "IV infusion pump."
+      "presentation": "Ampoules 1000–5000 IU/mL; syringes.",
+      "dose": "IV treatment: bolus **80 IU/kg** (or **60** in ACS) → infusion **18 IU/kg/h** (ACS often **12 IU/kg/h**) titrated. Prophylaxis: **5000 IU SC q8–12h**. Line flushes: local concentrations (e.g. 10–100 IU/mL) — not therapeutic.",
+      "administration": "IV pump / SC abdomen. Never IM.",
+      "notes": "Protamine: ~1 mg per 100 IU UFH in last 2–3 h (usual initial max ~50 mg)."
     },
     "pediatrico": {
-      "dose": "Loading dose: 75-100 U/kg bolus (10 minutes). Initial dose: < 1 year: 28 U/kg/hour, > 1 year: 20 U/kg/hour, adolescents: 18 U/kg/hour. Adjust according to nomograms.",
-      "administration": "IV",
-      "presentation": "Ampoule: 5000 U.I./ml",
-      "notes": "Contraindicated in: severe hepatic and renal insufficiency, subacute endocarditis, hemorrhagic gastritis, gastroduodenal ulcer. Drugs affecting platelet function (aspirin, nonsteroidal anti-inflammatory drugs, dipyridamole) may potentiate bleeding risk; digoxin, antihistamines, and nitroglycerin may decrease the anticoagulant effect of heparin."
+      "presentation": "Ampoules; pharmacy dilution.",
+      "dose": "Bolus **75 IU/kg** → **20–28 IU/kg/h** (younger/neonates higher per kg) — protocol + anti-Xa/aPTT.",
+      "administration": "IV/SC.",
+      "notes": "Hematology/ICU."
     },
     "neonatal": {
-      "dose": "28 UI/kg/h usual infusion in NICU (protocol).",
-      "administration": "IV infusion pump."
+      "presentation": "NICU dilution.",
+      "dose": "NICU schemes (bolus ~75 IU/kg; infusion ~28 IU/kg/h) — protocol only.",
+      "administration": "IV.",
+      "notes": "Anti-Xa."
     }
   },
-  "stability": "## Stability\n\n- Infusion prepared per guide; do not shake.",
-  "adverseEffects": "## Adverse effects\n\nHemorrhage, thrombocytopenia.",
+  "stability": "## Stability\n\n- Infusion in NS/D5W per compatibility; prepare extemporaneously.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, hematoma, HIT, osteoporosis (chronic), alopecia, hyperkalemia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Heparin Sodium (code 0111, ATC B01AB).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Sodium heparin.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA. ACS anticoagulation — UFH dosing.",
+      "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "CHEST. Heparin / HIT guidance context.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

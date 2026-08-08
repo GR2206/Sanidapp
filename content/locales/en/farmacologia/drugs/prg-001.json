@@ -1,0 +1,50 @@
+{
+  "id": "prg-001",
+  "name": "Pregabalin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "α2δ ligand (GABA analogue). Adult neuropathic pain/anxiety: start **75 mg q12h** → **150–300 mg/day** (max **600 mg/day**). Adjunct partial epilepsy: similar. Strict renal adjustment. Sedation, dizziness, abuse potential.",
+  "indications": "## Indications\n\n- Neuropathic pain (diabetic, postherpetic); neuralgia; GAD; adjunct partial epilepsy; fibromyalgia (labels).\n\n## Precautions\n\n- Reduce dose by CrCl (label tables).\n- Taper on withdrawal (insomnia, rebound anxiety).\n- Edema, weight gain; blurred vision.\n- Controlled in some countries (abuse).\n\n> Not an opioid — useful in neuropathic pain without typical opioid respiratory ceiling.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Caps 25–50–75–150–300 mg; solution.",
+      "dose": "Start **75 mg q12h** or **50 mg q8h**; over 3–7 days to **150–300 mg/day**. Max **600 mg/day**. CKD: e.g. CrCl 30–60 → max **300 mg/day**; <30 per table.",
+      "administration": "PO with or without food.",
+      "notes": "Titrate by tolerance (dizziness)."
+    },
+    "pediatrico": {
+      "presentation": "Solution/caps if authorized.",
+      "dose": "Epilepsy ≥4 y (label): weight-based — specialist.",
+      "administration": "PO.",
+      "notes": "Not routine for childhood anxiety."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nDizziness, somnolence, peripheral edema, weight gain, dry mouth; rare: angioedema, suicidal ideation.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Pregabalin — dosing and renal adjustment.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "NICE. Neuropathic pain / GAD context.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "FDA. Pregabalin labeling.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

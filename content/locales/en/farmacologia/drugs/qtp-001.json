@@ -1,0 +1,50 @@
+{
+  "id": "qtp-001",
+  "name": "Quetiapine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Atypical antipsychotic. Adult psychosis: titrate **25–50 mg → 300–400 mg/day** (max **750–800 mg**). Bipolar mania/depression: regimens up to **300–800 mg**. Off-label sedation: **25–100 mg** at night — not first-line. XR once daily. Weight gain, sedation, QT.",
+  "indications": "## Indications\n\n- Schizophrenia; bipolar mania/depression; adjunct in major depression (labels).\n\n## Precautions\n\n- Orthostatic hypotension at start; marked sedation.\n- Metabolic: weight, glucose, lipids. Cataracts (chronic eye checks).\n- Dementia: ↑ mortality. Not first-choice chronic hypnotic.\n\n> IR ≠ XR — do not swap mg-for-mg without label.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 25–100–200–300 mg; XR 50–300–400 mg.",
+      "dose": "Schizophrenia: day 1 **25 mg q12h** → up to **300–400 mg/day** over days. Mania: up to **400–800 mg/day**. Bipolar depression: often **300 mg XR at night**. Elderly: start **12.5–25 mg**.",
+      "administration": "PO; XR do not chew, evening preferred.",
+      "notes": "Reduce with strong CYP3A4 inhibitors."
+    },
+    "pediatrico": {
+      "presentation": "Tabs; XR if authorized.",
+      "dose": "Adolescents (≥10–13 y by indication): specialist schemes (mania/schizophrenia) — low start.",
+      "administration": "PO.",
+      "notes": "Monitor weight and sedation."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, dry mouth, weight gain, dizziness, constipation; rare: NMS, agranulocytosis, QT.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Quetiapine IR/XR.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Quetiapine — labeling and dementia warning.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Psychosis / bipolar prescribing context.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

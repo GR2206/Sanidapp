@@ -1,0 +1,50 @@
+{
+  "id": "clz-001",
+  "name": "Clonazepam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Benzodiazepínico de meia-vida longa. Epilepsia/mioclonias adulto: **0,5–1 mg VO a cada 8 h** titular (máx. frequente **4–20 mg/dia** conforme indicação). Pânico: **0,25–0,5 mg a cada 12 h**. Pediatria epilepsia: **0,01–0,03 mg/kg/dia** início. Dependência — cursos controlados.",
+  "indications": "## Indicações\n\n- Epilepsia (ausências atípicas, mioclonias, Lennox-Gastaut adjuvante); transtorno de pânico; mioclonias.\n\n## Precauções\n\n- Sedação, depressão respiratória com opioides/álcool.\n- Dependência/abstinência — não corte abrupto.\n- Idosos: quedas; preferir doses mínimas.\n\n> Gotas facilitam titulação pediátrica/geriátrica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,5–2 mg; gotas 2,5 mg/mL.",
+      "dose": "Epilepsia: início **0,5 mg a cada 8 h** → titular semanalmente; manutenção frequente **2–8 mg/dia** (máx. bulas até **20 mg**). Pânico: **0,25 mg a cada 12 h** → até **1–2 mg/dia** habitual.",
+      "administration": "VO.",
+      "notes": "Redução gradual ao retirar."
+    },
+    "pediatrico": {
+      "presentation": "Gotas; comp.",
+      "dose": "Epilepsia: início **0,01–0,03 mg/kg/dia** em 2–3 tomadas; manutenção **0,1–0,2 mg/kg/dia** (máx. conforme idade/bula).",
+      "administration": "VO.",
+      "notes": "Neurologia pediátrica."
+    },
+    "neonatal": {
+      "presentation": "Uso excepcional NNU.",
+      "dose": "Só protocolo (convulsões) — preferir outras opções modernas.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Psicotrópico — controle de estoque.",
+  "adverseEffects": "## Efeitos adversos\n\nSonolência, ataxia, sialorreia (crianças), irritabilidade paradoxal, dependência.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Clonazepam.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Alerta de benzodiazepínicos.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Clonazepam.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

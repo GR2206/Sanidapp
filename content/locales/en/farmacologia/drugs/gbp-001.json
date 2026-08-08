@@ -1,0 +1,50 @@
+{
+  "id": "gbp-001",
+  "name": "Gabapentin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antiepileptic / neuropathic pain agent. Adult: start **300 mg at night** → **300 mg q8h** (range **900–1800 mg/day**; usual max **3600 mg**). Mandatory renal adjustment. Less potent than pregabalin mg-for-mg; sedation and dizziness.",
+  "indications": "## Indications\n\n- Adjunct partial epilepsy; postherpetic neuralgia; neuropathic pain (broad use); restless legs (off-label/labels).\n\n## Precautions\n\n- Adjust by CrCl (reduce dose/interval).\n- Do not stop abruptly in epilepsy.\n- Abuse potential (with opioids ↑ respiratory depression).\n\n> Saturable absorption — high doses split q8h.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Caps/tabs 100–300–400–600–800 mg; solution.",
+      "dose": "Pain: day 1 **300 mg**, day 2 **300 mg q12h**, day 3 **300 mg q8h**; titrate to **1800 mg/day** (up to **3600**). Epilepsy: similar titration. CKD: e.g. CrCl <30 → **100–300 mg/day** or every other day per table.",
+      "administration": "PO with or without food.",
+      "notes": "Separate from antacids ~2 h."
+    },
+    "pediatrico": {
+      "presentation": "Solution; caps.",
+      "dose": "Epilepsy ≥3–12 y: start **10–15 mg/kg/day** → up to **25–40 mg/kg/day** divided q8h — neurology.",
+      "administration": "PO.",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Specialist protocol only.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, dizziness, ataxia, edema, fatigue; rare: hypersensitivity, suicidal ideation.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Gabapentin.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Gabapentin — respiratory depression with opioids.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Gabapentin.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

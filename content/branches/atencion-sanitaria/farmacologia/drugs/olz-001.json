@@ -1,0 +1,37 @@
+{
+  "id": "olz-001",
+  "name": "Olanzapina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico atípico. Adulto: **5–10 mg VO/día** (rango **5–20 mg**). Agitación IM: **10 mg** (máx. 3 dosis/día, separar ≥2 h). Alto riesgo metabólico (peso, diabetes). Demencia: ↑ mortalidad.",
+  "indications": "## Indicaciones\n\n- Esquizofrenia; manía bipolar; agitación aguda (IM).\n\n## Precauciones\n\n- Síndrome metabólico — vigilar peso, glucemia, lípidos.\n- Sedación, hipotensión; raro SNM, discinesia tardía.\n- IM: no mezclar en jeringa con benzodiacepinas IV (protocolos de separación).\n\n> Orodispersable útil si adherencia/ingesta dudosa.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–5–10–15–20 mg; ODT; ampolla IM 10 mg.",
+      "dose": "Inicio **5–10 mg VO noche**; mantenimiento **10–20 mg/día** (máx. **20 mg**). Agitación: **10 mg IM**; repetir si precisa (máx. **30 mg/día** IM).",
+      "administration": "VO/ODT; IM profundo. No IV.",
+      "notes": "Ancianos: inicio **2,5–5 mg**."
+    },
+    "pediatrico": {
+      "presentation": "Comp./ODT.",
+      "dose": "Adolescentes (≥13 a esquizofrenia/manía según ficha): inicio **2,5–5 mg**; máx. **20 mg** — especialista.",
+      "administration": "VO.",
+      "notes": "Riesgo metabólico acentuado."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Ampolla IM: usar tras reconstitución según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\n↑ peso, somnolencia, sequedad de boca, estreñimiento, hiperglucemia; raro: SNM, hepatitis.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Olanzapina VO/IM.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Olanzapine — metabolic and dementia warnings.", "url": "https://www.fda.gov/" },
+    { "citation": "NICE. Psychosis prescribing context.", "url": "https://www.nice.org.uk/" },
+    { "citation": "ANMAT. Prospectos olanzapina.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

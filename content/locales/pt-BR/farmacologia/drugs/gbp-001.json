@@ -1,0 +1,50 @@
+{
+  "id": "gbp-001",
+  "name": "Gabapentina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antiepiléptico / dor neuropática. Adulto: início **300 mg à noite** → **300 mg a cada 8 h** (faixa **900–1800 mg/dia**; máx. frequente **3600 mg**). Ajuste renal obrigatório. Menos potente que pregabalina mg a mg; sedação e tontura.",
+  "indications": "## Indicações\n\n- Epilepsia parcial adjuvante; neuralgia pós-herpética; dor neuropática (uso amplo); síndrome das pernas inquietas (off-label/bulas).\n\n## Precauções\n\n- Ajuste por ClCr (reduzir dose/intervalo).\n- Não suspender de forma abrupta na epilepsia.\n- Potencial de abuso (com opioides ↑ depressão respiratória).\n\n> Absorção saturável — doses altas fracionadas a cada 8 h.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cáps./comp. 100–300–400–600–800 mg; solução.",
+      "dose": "Dor: dia 1 **300 mg**, dia 2 **300 mg a cada 12 h**, dia 3 **300 mg a cada 8 h**; titular a **1800 mg/dia** (até **3600**). Epilepsia: titulação similar. IRC: p. ex. ClCr <30 → **100–300 mg/dia** ou dias alternados conforme tabela.",
+      "administration": "VO com ou sem alimentos.",
+      "notes": "Separar de antiácidos ~2 h."
+    },
+    "pediatrico": {
+      "presentation": "Solução; cáps.",
+      "dose": "Epilepsia ≥3–12 anos: **10–15 mg/kg/dia** início → até **25–40 mg/kg/dia** dividido a cada 8 h — neurologia.",
+      "administration": "VO.",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Não rotineiro.",
+      "dose": "Só protocolo especializado.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nSonolência, tontura, ataxia, edema, fadiga; raro: hipersensibilidade, ideação suicida.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Gabapentina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Gabapentina — depressão respiratória com opioides.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Gabapentina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

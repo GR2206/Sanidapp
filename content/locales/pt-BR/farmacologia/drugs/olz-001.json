@@ -1,0 +1,50 @@
+{
+  "id": "olz-001",
+  "name": "Olanzapina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico atípico. Adulto: **5–10 mg VO/dia** (faixa **5–20 mg**). Agitação IM: **10 mg** (máx. 3 doses/dia, separar ≥2 h). Alto risco metabólico (peso, diabetes). Demência: ↑ mortalidade.",
+  "indications": "## Indicações\n\n- Esquizofrenia; mania bipolar; agitação aguda (IM).\n\n## Precauções\n\n- Síndrome metabólica — vigiar peso, glicemia, lípides.\n- Sedação, hipotensão; raro SNM, discinesia tardia.\n- IM: não misturar na seringa com benzodiazepínicos IV (protocolos de separação).\n\n> Orodispersível útil se adesão/ingesta duvidosa.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–5–10–15–20 mg; ODT; ampola IM 10 mg.",
+      "dose": "Início **5–10 mg VO à noite**; manutenção **10–20 mg/dia** (máx. **20 mg**). Agitação: **10 mg IM**; repetir se preciso (máx. **30 mg/dia** IM).",
+      "administration": "VO/ODT; IM profundo. Não IV.",
+      "notes": "Idosos: início **2,5–5 mg**."
+    },
+    "pediatrico": {
+      "presentation": "Comp./ODT.",
+      "dose": "Adolescentes (≥13 a esquizofrenia/mania conforme bula): início **2,5–5 mg**; máx. **20 mg** — especialista.",
+      "administration": "VO.",
+      "notes": "Risco metabólico acentuado."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Ampola IM: usar após reconstituição conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\n↑ peso, sonolência, boca seca, constipação, hiperglicemia; raro: SNM, hepatite.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Olanzapina VO/IM.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Olanzapina — alertas metabólicas e demência.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Prescrição em psicose (contexto).",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

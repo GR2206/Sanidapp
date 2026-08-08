@@ -1,0 +1,50 @@
+{
+  "id": "olz-001",
+  "name": "Olanzapine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Atypical antipsychotic. Adult: **5–10 mg PO/day** (range **5–20 mg**). Agitation IM: **10 mg** (max 3 doses/day, ≥2 h apart). High metabolic risk (weight, diabetes). Dementia: ↑ mortality.",
+  "indications": "## Indications\n\n- Schizophrenia; bipolar mania; acute agitation (IM).\n\n## Precautions\n\n- Metabolic syndrome — monitor weight, glucose, lipids.\n- Sedation, hypotension; rare NMS, tardive dyskinesia.\n- IM: do not mix in syringe with IV benzodiazepines (separation protocols).\n\n> Orodispersible useful if adherence/intake uncertain.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 2.5–5–10–15–20 mg; ODT; IM ampoule 10 mg.",
+      "dose": "Start **5–10 mg PO at night**; maintenance **10–20 mg/day** (max **20 mg**). Agitation: **10 mg IM**; repeat if needed (max **30 mg/day** IM).",
+      "administration": "PO/ODT; deep IM. Not IV.",
+      "notes": "Elderly: start **2.5–5 mg**."
+    },
+    "pediatrico": {
+      "presentation": "Tabs/ODT.",
+      "dose": "Adolescents (≥13 y schizophrenia/mania per label): start **2.5–5 mg**; max **20 mg** — specialist.",
+      "administration": "PO.",
+      "notes": "Heightened metabolic risk."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- IM ampoule: use after reconstitution per label.",
+  "adverseEffects": "## Adverse effects\n\nWeight gain, somnolence, dry mouth, constipation, hyperglycemia; rare: NMS, hepatitis.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Olanzapine PO/IM.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Olanzapine — metabolic and dementia warnings.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Psychosis prescribing context.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

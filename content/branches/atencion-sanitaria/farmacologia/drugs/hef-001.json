@@ -2,49 +2,36 @@
   "id": "hef-001",
   "name": "Heparina sódica",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anticoagulante.",
-  "indications": "## Indicaciones principales\n\nAnticoagulante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "HNF. SCA/TVP: bolo **60–80 UI/kg** (máx. frecuente **4000–5000 UI**) luego **12–18 UI/kg/h** IV titulada a TTPa/anti-Xa. Profilaxis SC: **5000 UI c/8–12 h**. Antídoto: **protamina**. Riesgo HIT — vigilar plaquetas.",
+  "indications": "## Indicaciones\n\n- Tratamiento/profilaxis de tromboembolismo; SCA; circulación extracorpórea; puente perioperatorio.\n\n## Precauciones\n\n- Hemorragia; HIT tipo II (suspender y no usar HBPM si HIT).\n- TTPa cada 6 h hasta estable. Ajuste en obesidad/IRC según protocolo.\n- No IM. Anestesia neuroaxial: tiempos de seguridad estrictos.\n\n> Preferir HBPM en muchos escenarios ambulatorios; HNF si cirugía inminente o IRC grave.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco 5000 UI/mL.",
-      "dose": "Bolus 60–80 UI/kg en SCA; perfusión 12–15 UI/kg/h titulada a TTPa.",
-      "administration": "IV en bomba."
+      "presentation": "Ampollas 1000–5000 UI/mL; jeringas.",
+      "dose": "Tratamiento IV: bolo **80 UI/kg** (o **60** en SCA) → infusión **18 UI/kg/h** (SCA a menudo **12 UI/kg/h**) titulada. Profilaxis: **5000 UI SC c/8–12 h**. Flush de vías: concentraciones locales (p. ej. 10–100 UI/mL) — no terapéutico.",
+      "administration": "IV bomba / SC abdomen. Nunca IM.",
+      "notes": "Protamina: ~1 mg por 100 UI HNF en las últimas 2–3 h (máx. 50 mg dosis inicial orientativa)."
     },
     "pediatrico": {
-      "dose": "Dosis ataque: 75-100 U/kg en bolo (10 minutos). Dosis inicial: &lt; 1 año: 28 U/kg/hora, &gt; 1 año: 20 U/kg/hora, adolescentes: 18 U/kg/hora. Se adecua de acuerdo a nomogramas.",
-      "administration": "E.V.",
-      "presentation": "F.A.: 5000 U.I./ml",
-      "notes": "Contraindicada en: insuficiencia hepática y renal grave, endocarditis lenta, gastritis hemorrágica, úlcera gastroduodenal. Drogas que afectan la función plaquetaria (aspirina, antiinflamatorios no esteroides, dipiridamol) pueden potenciar el riesgo de hemorragias; digoxina, antihistamínicos y nitroglicerina pueden disminuir el efecto anticoagulante de la heparina."
+      "presentation": "Ampollas; dilución farmacia.",
+      "dose": "Bolo **75 UI/kg** → **20–28 UI/kg/h** (menores/neonatos dosis mayores por kg) — protocolo + anti-Xa/TTPa.",
+      "administration": "IV/SC.",
+      "notes": "Hematología/UCI."
     },
     "neonatal": {
-      "dose": "28 UI/kg/h infusión habitual en NNU (protocolo).",
-      "administration": "IV en bomba."
+      "presentation": "Dilución NNU.",
+      "dose": "Esquemas NNU (bolo ~75 UI/kg; infusión ~28 UI/kg/h) — solo protocolo.",
+      "administration": "IV.",
+      "notes": "Anti-Xa."
     }
   },
-  "stability": "## Estabilidad\n\n- Perfusión preparada según cartilla; no agitar.",
-  "adverseEffects": "## Efectos adversos\n\nHemorragias, trombocitopenia.",
+  "stability": "## Estabilidad\n\n- Infusión en SF/D5% según compatibilidad; preparar extemporánea.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia, hematoma, HIT, osteoporosis (crónico), alopecia, hiperpotasemia.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Heparina Sódica (cód. 0111, ATC B01AB).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "AEMPS CIMA. Heparina sódica.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AHA. ACS anticoagulation — UFH dosing.", "url": "https://www.heart.org/" },
+    { "citation": "CHEST. Heparin / HIT guidance context.", "url": "https://www.chestnet.org/" },
+    { "citation": "ANMAT. Prospectos heparina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }
