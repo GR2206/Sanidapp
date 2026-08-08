@@ -1,0 +1,50 @@
+{
+  "id": "bud-001",
+  "name": "Budesonide",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Inhaled/nasal corticosteroid. Adult asthma DPI/MDI: usual **200–800 µg/day** divided. Pediatric neb: **0.25–0.5 mg q12h** (up to **1 mg q12h**). Rhinitis: **64–256 µg/day** nasal. Not a rescue for acute bronchospasm.",
+  "indications": "## Indications\n\n- Persistent asthma (inhaled controller).\n- Allergic rhinitis (nasal spray).\n- IBD (ileal capsules / rectal foam — separate GI regimens).\n\n## Precautions\n\n- Rinse mouth after inhalation (thrush).\n- Do not stop abruptly after high prolonged doses.\n- Nebulization: do not mix with other drugs unless known compatible.\n\n> Acute attack: **salbutamol** (± systemic prednisone), do not rely on budesonide alone as rescue.",
+  "dilution": {
+    "adulto": {
+      "presentation": "DPI/MDI 100–400 µg/puff; neb 0.25–0.5 mg/2 mL; nasal 32–64 µg/spray; ileal caps 3 mg.",
+      "dose": "Asthma: **200–400 µg q12h** inhaled (range **200–1600 µg/day** by severity). Neb: **0.5–1 mg q12h**. Nasal: **64 µg/nostril 1–2×/day** (usual max **256 µg/day**). Ileal Crohn: **9 mg PO morning** for weeks (label).",
+      "administration": "Inhale with correct technique; nasal: clear nostrils. Ileal PO: do not chew.",
+      "notes": "Formoterol combinations (MART) follow combo label."
+    },
+    "pediatrico": {
+      "presentation": "Neb 0.25–0.5 mg; pediatric MDI/DPI; nasal.",
+      "dose": "Asthma neb ≥6 mo: **0.25–0.5 mg q12h**; severe **1 mg q12h**. Inhaler: often **100–200 µg q12h** (titrate). Nasal ≥6 y: **64 µg/nostril/day**.",
+      "administration": "Neb with air/O2; spacer if MDI.",
+      "notes": "Monitor growth with prolonged high doses."
+    },
+    "neonatal": {
+      "presentation": "Neb / NICU protocol.",
+      "dose": "Exceptional use (e.g. BPD) — neonatology only.",
+      "administration": "Nebulized per protocol.",
+      "notes": "Not routine."
+    }
+  },
+  "stability": "## Stability\n\n- Neb ampoules: use after opening; protect from light per brand.",
+  "adverseEffects": "## Adverse effects\n\nDysphonia, oral thrush, cough; nasal: epistaxis, dryness. Systemic effects rare at usual doses (Cushing, ↓ growth at high doses).",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Budesonide inhaled/nasal/neb.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "GINA. Asthma management — ICS dosing.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "AEP Pediamécum. Budesonide.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

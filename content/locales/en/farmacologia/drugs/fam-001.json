@@ -1,0 +1,50 @@
+{
+  "id": "fam-001",
+  "name": "Famotidine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "H2 antagonist. Adult PO: **20 mg q12h** or **40 mg at night** (ulcer/GERD); IV: **20 mg q12h**. Pediatrics: **0.5 mg/kg/dose q12h** PO/IV (max **40 mg/dose**). Preferred over ranitidine (NDMA).",
+  "indications": "## Indications\n\n- GERD, peptic ulcer, hypersecretion; stress-ulcer prophylaxis (IV hospital).\n- Alternative when PPI unused or as a bridge.\n\n## Precautions\n\n- Renal impairment: extend interval (e.g. q24–48h by CrCl).\n- Fewer CYP interactions than cimetidine; still monitor digoxin/theophylline in special contexts.\n\n> Ranitidine withdrawn/restricted in many markets — **famotidine** or omeprazole are usual substitutes.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 20–40 mg; IV vial 20 mg.",
+      "dose": "Ulcer/GERD: **20 mg PO q12h** or **40 mg PO at night** × 4–8 weeks. Hypersecretion: up to **20–40 mg q6h**. IV: **20 mg q12h** (infusion or slow).",
+      "administration": "PO with or without food. IV: dilute per label; no rapid concentrated bolus.",
+      "notes": "Switch to PO when oral route tolerated."
+    },
+    "pediatrico": {
+      "presentation": "Tabs; compounded suspension; IV 10–20 mg/mL by brand.",
+      "dose": "≥1 y / >10 kg: **0.5 mg/kg/dose PO or IV q12h** (max **40 mg/dose**). Neonates/infants: often **0.5 mg/kg/dose q24h** then q12h — local protocol.",
+      "administration": "PO/IV.",
+      "notes": "In infant GER prefer non-drug measures first."
+    },
+    "neonatal": {
+      "presentation": "IV / compounded.",
+      "dose": "Guide **0.5 mg/kg/dose** q24h → q12h under NICU.",
+      "administration": "IV/PO per center.",
+      "notes": "Not routine for physiologic regurgitation."
+    }
+  },
+  "stability": "## Stability\n\n- Reconstituted IV: per label (hours at room temp).",
+  "adverseEffects": "## Adverse effects\n\nHeadache, constipation/diarrhea, dizziness; rare: confusion (elderly), IV bradycardia, hepatitis.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Famotidine PO/IV.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Ranitidine NDMA withdrawal — H2 alternatives.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Famotidine.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

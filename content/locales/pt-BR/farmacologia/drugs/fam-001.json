@@ -1,0 +1,50 @@
+{
+  "id": "fam-001",
+  "name": "Famotidina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista H2. Adulto VO: **20 mg a cada 12 h** ou **40 mg à noite** (úlcera/DRGE); IV: **20 mg a cada 12 h**. Pediatria: **0,5 mg/kg/dose a cada 12 h** VO/IV (máx. **40 mg/dose**). Preferível à ranitidina (NDMA).",
+  "indications": "## Indicações\n\n- DRGE, úlcera péptica, hipersecreção; profilaxia de úlcera por estresse (IV hospitalar).\n- Alternativa quando não se usa IBP ou como ponte.\n\n## Precauções\n\n- Ajuste na IRC: alongar intervalo (p. ex. a cada 24–48 h conforme ClCr).\n- Menos interações CYP que cimetidina; ainda assim vigiar digoxina/teofilina em contextos especiais.\n\n> Ranitidina retirada/restringida em muitos mercados — **famotidina** ou omeprazol costumam ser a substituição.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 20–40 mg; FA IV 20 mg.",
+      "dose": "Úlcera/DRGE: **20 mg VO a cada 12 h** ou **40 mg VO à noite** × 4–8 semanas. Hipersecreção: até **20–40 mg a cada 6 h**. IV: **20 mg a cada 12 h** (infusão ou lento).",
+      "administration": "VO com ou sem alimentos. IV: diluir conforme bula; não bolo rápido concentrado.",
+      "notes": "Passar para VO ao tolerar via oral."
+    },
+    "pediatrico": {
+      "presentation": "Comp.; suspensão magistral; IV 10–20 mg/mL conforme marca.",
+      "dose": "≥1 ano / >10 kg: **0,5 mg/kg/dose VO ou IV a cada 12 h** (máx. **40 mg/dose**). Neonatos/lactentes: frequentemente **0,5 mg/kg/dose a cada 24 h** depois a cada 12 h — protocolo local.",
+      "administration": "VO/IV.",
+      "notes": "Na DRGE infantil preferir medidas não farmacológicas primeiro."
+    },
+    "neonatal": {
+      "presentation": "IV / magistral.",
+      "dose": "Orientativo **0,5 mg/kg/dose** a cada 24 h → a cada 12 h sob NNU.",
+      "administration": "IV/VO conforme centro.",
+      "notes": "Não rotineiro na regurgitação fisiológica."
+    }
+  },
+  "stability": "## Estabilidade\n\n- IV reconstituída: conforme bula (horas em T° ambiente).",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, constipação/diarreia, tontura; raro: confusão (idosos), bradicardia IV, hepatite.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Famotidina VO/IV.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Ranitidina NDMA — alternativas H2.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Famotidina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

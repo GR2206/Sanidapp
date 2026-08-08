@@ -1,47 +1,54 @@
 {
   "id": "nit-001",
   "name": "Nitrofurantoína",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Profilaxia e tratamento de infecções do trato urinário por bactérias gram-negativas e gram-positivas sensíveis, inclusive Escherichia coli, Klebsiella, Enterobacteriaceae, Enterococos e Pseudomonas.",
-  "indications": "## Indicações principais\n\nProfilaxia e tratamento de infecções do trato urinário por bactérias gram-negativas e gram-positivas sensíveis, inclusive Escherichia coli, Klebsiella, Enterobacteriaceae, Enterococos e Pseudomonas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antibiótico urinário. Cistite adulto (macrocristais/mono-hidratado): **100 mg VO a cada 12 h × 5 dias** (ou **50–100 mg a cada 6 h** conforme sal). Profilaxia: **50–100 mg à noite**. Pediatria ≥3 meses: **5–7 mg/kg/dia** a cada 6 h. Evitar se ClCr baixo / 3º trimestre.",
+  "indications": "## Indicações\n\n- Cistite aguda não complicada por germes sensíveis (*E. coli*, enterococo, etc.).\n- Profilaxia de ITU recorrente.\n\n## Precauções\n\n- **Não** para pielonefrite nem prostatite (níveis teciduais baixos).\n- Contraindicada se FG baixo (limites locais ~<30–60 mL/min), gravidez a termo / trabalho de parto, lactentes <3 meses, G6PD.\n- *Pseudomonas* e muitas *Proteus* costumam ser resistentes — não assumir cobertura.\n- Uso prolongado: toxicidade pulmonar e neuropatia.\n\n> Tomar com alimentos melhora tolerância e absorção.",
   "dilution": {
     "adulto": {
-      "presentation": "Cápsulas 50 mg, 100 mg; suspensão.",
-      "dose": "100 mg V.O. a cada 12 h x 5–7 dias (cistite). Profilaxia: 50–100 mg V.O. à noite.",
-      "administration": "V.O. com alimentos."
+      "presentation": "Cáps. macrocristais 50–100 mg; mono-hidratado/macrocristais 100 mg; suspensão.",
+      "dose": "Cistite: **100 mg a cada 12 h × 5 dias** (formulações bid) ou **50–100 mg a cada 6 h × 5–7 dias**. Profilaxia: **50–100 mg VO à noite**.",
+      "administration": "VO com comida e copo de água.",
+      "notes": "Urina pode escurecer — informar o paciente."
     },
     "pediatrico": {
-      "dose": "Crianças: Tratamento: 5–7 mg/kg/dia a cada 6 h. Profilaxia: 2,5 mg/kg/dia uma vez ao dia. Dose máxima: 400 mg. Adultos: Profilaxia: 50–100 mg/dia, à noite; Tratamento: 50–100 mg a cada 6 h, por 7 dias.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 100 mg; Suspensão: 5 mg/mL",
-      "notes": "Contraindicada em pacientes com função renal alterada. Precaução em pacientes com asma."
+      "presentation": "Suspensão 5–10 mg/mL; cáps. 50–100 mg.",
+      "dose": "≥3 meses: tratamento **5–7 mg/kg/dia** dividido a cada 6 h (máx. adulto). Profilaxia: **1–2 mg/kg à noite** (máx. 100 mg).",
+      "administration": "VO com alimentos.",
+      "notes": "<3 meses: contraindicada (hemólise)."
+    },
+    "neonatal": {
+      "presentation": "Contraindicada.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "Risco de hemólise."
     }
   },
-  "stability": "## Estabilidade\n\n- Conservar protegido da luz.",
-  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, anorexia, cefaleia, tontura, nistagmo, mialgia, neuropatia periférica, rash, urticária, febre. Anemia hemolítica em pacientes com deficiência de glicose-6-fosfato desidrogenase (G6PD). Em tratamentos prolongados: fibrose pulmonar.",
+  "stability": "## Estabilidade\n\n- Conservar protegido de luz/umidade conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, anorexia, cefaleia; pneumonite/fibrose (crônico); neuropatia; hemólise em G6PD; hepatite rara.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NitroFURANTOÍNA (cód. 0319, ATC J01XE).",
+      "citation": "Hospital Garrahan. Formulário — nitrofurantoína.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AEMPS CIMA. Nitrofurantoína — posologia e restrições.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "IDSA. Guidelines de cistite não complicada.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
-      "url": "https://www.idsociety.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

@@ -205,6 +205,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "bud-001",
+      "name": "Budesonida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "bum-001",
       "name": "Bumetanida",
       "branch": "atencion-sanitaria",
@@ -250,8 +257,8 @@
       "id": "cef-001",
       "name": "Cefalexina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "cef-009",
@@ -594,6 +601,13 @@
       "name": "Estreptomicina",
       "branch": "atencion-sanitaria",
       "version": "1.1.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "fam-001",
+      "name": "Famotidina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {
@@ -1076,8 +1090,8 @@
       "id": "nit-001",
       "name": "Nitrofurantoína",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ngl-001",
@@ -1279,8 +1293,8 @@
       "id": "sal-001",
       "name": "Salbutamol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "sil-001",

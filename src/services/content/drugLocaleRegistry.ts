@@ -26,6 +26,7 @@ import azt_002_en from '../../../content/locales/en/farmacologia/drugs/azt-002.j
 import bcd_001_en from '../../../content/locales/en/farmacologia/drugs/bcd-001.json';
 import bic_001_en from '../../../content/locales/en/farmacologia/drugs/bic-001.json';
 import bis_001_en from '../../../content/locales/en/farmacologia/drugs/bis-001.json';
+import bud_001_en from '../../../content/locales/en/farmacologia/drugs/bud-001.json';
 import bum_001_en from '../../../content/locales/en/farmacologia/drugs/bum-001.json';
 import bup_001_en from '../../../content/locales/en/farmacologia/drugs/bup-001.json';
 import cac_001_en from '../../../content/locales/en/farmacologia/drugs/cac-001.json';
@@ -80,6 +81,7 @@ import ert_001_en from '../../../content/locales/en/farmacologia/drugs/ert-001.j
 import esm_001_en from '../../../content/locales/en/farmacologia/drugs/esm-001.json';
 import esp_001_en from '../../../content/locales/en/farmacologia/drugs/esp-001.json';
 import est_001_en from '../../../content/locales/en/farmacologia/drugs/est-001.json';
+import fam_001_en from '../../../content/locales/en/farmacologia/drugs/fam-001.json';
 import fen_001_en from '../../../content/locales/en/farmacologia/drugs/fen-001.json';
 import fer_001_en from '../../../content/locales/en/farmacologia/drugs/fer-001.json';
 import fex_001_en from '../../../content/locales/en/farmacologia/drugs/fex-001.json';
@@ -234,6 +236,7 @@ import azt_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/azt-
 import bcd_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bcd-001.json';
 import bic_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bic-001.json';
 import bis_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bis-001.json';
+import bud_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bud-001.json';
 import bum_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bum-001.json';
 import bup_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/bup-001.json';
 import cac_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cac-001.json';
@@ -288,6 +291,7 @@ import ert_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ert-
 import esm_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/esm-001.json';
 import esp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/esp-001.json';
 import est_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/est-001.json';
+import fam_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fam-001.json';
 import fen_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fen-001.json';
 import fer_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fer-001.json';
 import fex_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fex-001.json';
@@ -446,6 +450,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'bcd-001': bcd_001_en as Drug,
     'bic-001': bic_001_en as Drug,
     'bis-001': bis_001_en as Drug,
+    'bud-001': bud_001_en as Drug,
     'bum-001': bum_001_en as Drug,
     'bup-001': bup_001_en as Drug,
     'cac-001': cac_001_en as Drug,
@@ -500,6 +505,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'esm-001': esm_001_en as Drug,
     'esp-001': esp_001_en as Drug,
     'est-001': est_001_en as Drug,
+    'fam-001': fam_001_en as Drug,
     'fen-001': fen_001_en as Drug,
     'fer-001': fer_001_en as Drug,
     'fex-001': fex_001_en as Drug,
@@ -656,6 +662,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'bcd-001': bcd_001_ptBR as Drug,
     'bic-001': bic_001_ptBR as Drug,
     'bis-001': bis_001_ptBR as Drug,
+    'bud-001': bud_001_ptBR as Drug,
     'bum-001': bum_001_ptBR as Drug,
     'bup-001': bup_001_ptBR as Drug,
     'cac-001': cac_001_ptBR as Drug,
@@ -710,6 +717,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'esm-001': esm_001_ptBR as Drug,
     'esp-001': esp_001_ptBR as Drug,
     'est-001': est_001_ptBR as Drug,
+    'fam-001': fam_001_ptBR as Drug,
     'fen-001': fen_001_ptBR as Drug,
     'fer-001': fer_001_ptBR as Drug,
     'fex-001': fex_001_ptBR as Drug,

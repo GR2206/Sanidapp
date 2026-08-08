@@ -25,6 +25,7 @@ import azt_002 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import bcd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bcd-001.json';
 import bic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bic-001.json';
 import bis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bis-001.json';
+import bud_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bud-001.json';
 import bum_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bum-001.json';
 import bup_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bup-001.json';
 import cac_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cac-001.json';
@@ -79,6 +80,7 @@ import ert_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import esm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/esm-001.json';
 import esp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/esp-001.json';
 import est_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/est-001.json';
+import fam_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fam-001.json';
 import fen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fen-001.json';
 import fer_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fer-001.json';
 import fex_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fex-001.json';
@@ -239,6 +241,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'bcd-001': bcd_001 as Drug,
   'bic-001': bic_001 as Drug,
   'bis-001': bis_001 as Drug,
+  'bud-001': bud_001 as Drug,
   'bum-001': bum_001 as Drug,
   'bup-001': bup_001 as Drug,
   'cac-001': cac_001 as Drug,
@@ -293,6 +296,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'esm-001': esm_001 as Drug,
   'esp-001': esp_001 as Drug,
   'est-001': est_001 as Drug,
+  'fam-001': fam_001 as Drug,
   'fen-001': fen_001 as Drug,
   'fer-001': fer_001 as Drug,
   'fex-001': fex_001 as Drug,

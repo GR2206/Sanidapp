@@ -1,0 +1,37 @@
+{
+  "id": "bud-001",
+  "name": "Budesonida",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Corticoide inhalado/nasal. Asma adulto DPI/MDI: habitual **200–800 µg/día** divididos. Pediatría neb (Pulmicort): **0,25–0,5 mg c/12 h** (hasta **1 mg c/12 h**). Rinitis: **64–256 µg/día** nasal. No es rescate de broncoespasmo agudo.",
+  "indications": "## Indicaciones\n\n- Asma persistente (controlador inhalado).\n- Rinitis alérgica (spray nasal).\n- EII (cápsulas ileales / espuma rectal — esquemas GI distintos).\n\n## Precauciones\n\n- Enjuagar boca tras inhalación (candidiasis).\n- No suspender brusco si dosis altas prolongadas.\n- Nebulización: no mezclar con otros fármacos salvo compatibilidad conocida.\n\n> Crisis aguda: **salbutamol** (± prednisona sistémica), no subir solo budesonida como rescate.",
+  "dilution": {
+    "adulto": {
+      "presentation": "DPI/MDI 100–400 µg/puff; neb 0,25–0,5 mg/2 mL; nasal 32–64 µg/disparo; cáps. ileales 3 mg.",
+      "dose": "Asma: **200–400 µg c/12 h** inhalado (rango **200–1600 µg/día** según gravedad). Neb: **0,5–1 mg c/12 h**. Nasal: **64 µg/fosa 1–2×/día** (máx. habitual **256 µg/día**). Crohn ileal: **9 mg VO mañana** × semanas (ficha).",
+      "administration": "Inhalar con técnica correcta; nasal: limpiar fosas. VO ileal: no masticar.",
+      "notes": "Combinaciones con formoterol (MART) siguen ficha del combo."
+    },
+    "pediatrico": {
+      "presentation": "Neb 0,25–0,5 mg; MDI/DPI pediátrico; nasal.",
+      "dose": "Asma neb ≥6 meses: **0,25–0,5 mg c/12 h**; graves **1 mg c/12 h**. Inhalador: a menudo **100–200 µg c/12 h** (titular). Nasal ≥6 años: **64 µg/fosa/día**.",
+      "administration": "Neb con aire/O2; cámara de inhalación si MDI.",
+      "notes": "Vigilar crecimiento en uso prolongado a dosis altas."
+    },
+    "neonatal": {
+      "presentation": "Neb / protocolo UCIN.",
+      "dose": "Uso excepcional (p. ej. DBP) — solo neonatología.",
+      "administration": "Nebulizado según protocolo.",
+      "notes": "No rutinario."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Ampollas neb: usar tras abrir; proteger de luz según marca.",
+  "adverseEffects": "## Efectos adversos\n\nDisfonía, candidiasis oral, tos; nasal: epistaxis, reseción. Sistémicos raros a dosis habituales (Cushing, ↓ crecimiento a dosis altas).",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Budesonida inhalada/nasal/neb.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "GINA. Asthma management — ICS dosing.", "url": "https://ginasthma.org/" },
+    { "citation": "AEP Pediamécum. Budesonida.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos budesonida.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}
