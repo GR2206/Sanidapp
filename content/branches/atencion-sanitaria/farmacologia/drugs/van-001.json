@@ -2,57 +2,37 @@
   "id": "van-001",
   "name": "Vancomicina",
   "branch": "atencion-sanitaria",
-  "version": "1.3",
-  "updatedAt": "2026-07-09",
-  "executiveSummary": "Glicopéptido bactericida contra Gram positivos resistentes a beta-lactámicos (MRSA, enterococos y otros). Medicamento de alto riesgo: infusión lenta (1 h), vigilancia de niveles séricos, nefrotoxicidad y ototoxicidad.",
-  "indications": "## Indicaciones principales\n\n- Tratamiento de infecciones por microorganismos Gram positivos resistentes a beta-lactámicos (*SAMR, S. viridans, Bacillus, Corynebacterium*).\n- Sepsis, bacteriemia, meningitis, artritis séptica, endocarditis, osteomielitis, neumonía intrahospitalaria por *S. aureus*.\n- Colitis pseudomembranosa por *Clostridioides difficile*: vía oral según gravedad.\n\n## Precauciones\n\n- Administrar en infusión durante 1 hora; riesgo de síndrome de cuello rojo con hipotensión si la infusión es rápida.\n- Precaución por necrosis en extravasación; controlar niveles séricos (valle) según indicación.\n- Ajustar dosis en insuficiencia renal según protocolo institucional.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.4.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Glicopéptido frente a grampositivos (SAMR, enterococos). Adulto habitual **15–20 mg/kg IV cada 8–12 h** (carga 25–30 mg/kg en graves). Pediatría 40–60 mg/kg/día. Infusión ≥ 60 min; monitorear valle/AUC.",
+  "indications": "## Indicaciones\n\n- Infecciones graves por grampositivos resistentes a betalactámicos (SAMR, enterococos, etc.): bacteriemia, endocarditis, osteomielitis, neumonía nosocomial, meningitis, artritis séptica.\n- Profilaxis quirúrgica seleccionada (implantes, alergia a betalactámicos).\n- Colitis por *C. difficile*: **VO** (no IV para ese foco luminal).\n\n## Precauciones\n\n- Infusión rápida → síndrome del hombre rojo / hipotensión.\n- Nefro y ototoxicidad; ajustar en IRC; extravasación irritante.\n- Metas de valle orientativas: **10–15 µg/mL** infecciones no graves; **15–20 µg/mL** bacteriemia/endocarditis/osteomielitis/meningitis/neumonía SAMR (o AUC/MIC según protocolo moderno).\n\n> Nunca IV directa. Separar de ceftriaxona en la misma vía.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. 500–1000 mg (Rivervan, Vancomax, V. Fabra, V. Northia, V. Richet, Varedet).",
-      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
-      "diluent": "500 mg en 100 mL de SF.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir 500 mg en 100 mL de SF y administrar en no menos de 60–90 min. Oral: Sí (colitis por *C. difficile*).",
-      "dose": "Dosis prequirúrgica en adultos: 1 g/dosis.",
-      "notes": "Monitoreo de vancomicina en plasma (desde 48 h de tratamiento). Valle según indicación: 15–20 µg/mL (bacteriemia, endocarditis, osteomielitis, meningitis, neumonía intrahospitalaria por SAMR); 10–15 µg/mL en otras indicaciones."
+      "presentation": "FA 500–1000 mg; cápsulas VO para *C. difficile*.",
+      "dose": "IV: **15–20 mg/kg cada 8–12 h** (peso real; redondear a 250 mg). Infecciones graves: carga **25–30 mg/kg** (máx. frecuente **2 g**), luego mantenimiento. Profilaxis quirúrgica: **15 mg/kg** (habitual **1–1,5 g**) 30–120 min antes de la incisión. *C. difficile* VO: **125 mg cada 6 h** × 10 días (graves: hasta **500 mg cada 6 h** según guía).",
+      "administration": "Reconstituir con AD; diluir a ≤ **5 mg/mL** en SF; infundir **≥ 60 min** (90–120 min si dosis > 1 g). VO solo para colitis.",
+      "notes": "Monitoreo de valle desde ~48 h o antes si IRC/inestabilidad."
     },
     "pediatrico": {
-      "presentation": "F.A. 500–1000 mg.",
-      "reconstitution": "Agua destilada para reconstitución.",
-      "administration": "E.V.; V.O. (colitis por *C. difficile*).",
-      "diluent": "Sol. Cl Na 0,9% o Dext. 5%.",
-      "finalConcentration": "5 mg/mL.",
-      "infusionRate": "Infusión durante 1 h.",
-      "dose": "E.V. — Sepsis, bacteriemia, meningitis y artritis séptica: 60 mg/kg/día, cada 6 hs. E.V. — Otras infecciones: 40 mg/kg/día, cada 8 hs. E.V. — Fibrosis quística: 45 mg/kg/día, cada 8 hs. Dosis máxima: 2 g/día (hasta 4 g/día si dosaje bajo). V.O. — Colitis por *C. difficile*: 10 mg/kg/dosis cada 6 hs (máx. 125 mg/dosis; severa o fulminante: máx. 500 mg/dosis), 10 días.",
-      "notes": "Medicamento de alto riesgo. Ototóxico, nefrotóxico. Puede causar flebitis, reacciones febriles, rash, eosinofilia, neutropenia. La administración en bolo puede inducir paro cardíaco."
+      "presentation": "FA 500–1000 mg.",
+      "dose": "Otras infecciones: **40 mg/kg/día cada 6–8 h**. Sepsis/bacteriemia/meningitis/artritis: **60 mg/kg/día cada 6 h**. FQ: a menudo **60–80 mg/kg/día** según centro. Máx. alineado al adulto por dosis.",
+      "administration": "IV diluida ≤ 5 mg/mL; ≥ 60 min.",
+      "notes": "Calcular por peso; niveles según protocolo pediátrico."
     },
     "neonatal": {
-      "dose": "Dosis y intervalo según edad postmenstrual y función renal (protocolo NNU).",
-      "administration": "Vía central preferida; monitorizar acceso y signos de extravasación."
+      "presentation": "FA; cartilla NNU.",
+      "dose": "Según edad postmenstrual y creatinina (p. ej. 10–15 mg/kg cada 8–24–48 h) — seguir tabla NNU.",
+      "administration": "IV lenta ≥ 60 min.",
+      "notes": "Intervalos largos en prematuros; monitoreo esencial."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 24 h refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb.\n\n## Cartilla pediátrica\n\n- 96 hs en heladera.",
-  "adverseEffects": "## Frecuentes\n\n- Síndrome de cuello rojo con hipotensión (asociado a velocidad de infusión).\n- Flebitis, reacciones febriles, rash, eosinofilia, neutropenia.\n\n## Graves\n\n- Ototoxicidad, nefrotoxicidad.",
+  "stability": "## Estabilidad\n\n- Dilución: usar según prospecto; típico 24 h refrigerado en SF.\n- No mezclar con betalactámicos/heparina en la misma jeringa.",
+  "adverseEffects": "## Efectos adversos\n\nSíndrome del hombre rojo, flebitis, nefrotoxicidad, ototoxicidad, neutropenia, erupción, fiebre medicamentosa.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Vancomicina Clorhidrato (cód. 0216, ATC J01XA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Rybak MJ, et al. Therapeutic monitoring of vancomycin: revised consensus guidelines. Am J Health Syst Pharm. 2020.",
-      "url": "https://www.ashp.org/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy — Vancomycin dosing and monitoring.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos — Vancomicina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — vancomicina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "IDSA / ASHP. Vancomycin therapeutic monitoring guidelines (AUC/MIC).", "url": "https://www.idsociety.org/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.", "url": "https://www.sadi.org.ar/" }
   ]
 }

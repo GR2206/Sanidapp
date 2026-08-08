@@ -2,54 +2,52 @@
   "id": "cef-007",
   "name": "Ceftazidime",
   "branch": "atencion-sanitaria",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Third-generation cephalosporin. Treatment of lower respiratory tract, skin and soft tissue, bone, joint, intra-abdominal, genitourinary, and central nervous system infections caused by susceptible gram-negative bacteria including Pseudomonas.",
-  "indications": "## Main indications\n\nThird-generation cephalosporin. Treatment of lower respiratory tract, skin and soft tissue, bone, joint, intra-abdominal, genitourinary, and central nervous system infections caused by susceptible gram-negative bacteria including Pseudomonas.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Antipseudomonal 3rd-generation cephalosporin. Adult **1–2 g IV every 8 h** (max 6 g/day; meningitis 2 g every 8 h). Pediatrics 100–150 mg/kg/day (CF 150–200 mg/kg/day).",
+  "indications": "## Indications\n\n- Gram-negative infections including *Pseudomonas*: respiratory, urinary, intra-abdominal, bone, skin, and susceptible CNS disease.\n- CF and febrile neutropenia in combination per protocol.\n\n## Precautions\n\n- Beta-lactam allergy. Adjust in renal failure.\n- Reconstitution releases **CO₂** — purge bubbles before injection.\n\n> Does not cover MRSA or many anaerobes; add coverage if the focus requires it.",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial containing 1 g (Ceftazidime Northia).",
-      "reconstitution": "10 mL SWFI. Conc: 100 mg/mL.",
-      "diluent": "Reconst. 1 g with 10 mL SWFI, dilute in 50-100 mL and administer over 15-30 min.",
-      "administration": "Direct IV: Yes. Reconst. 1 g in 10 mL SWFI and administer over 3-5 min. Intermittent IV: Yes.",
-      "notes": "Irritant. Caution during reconstitution because CO₂ is released (remove bubbles before administration). Risk of phlebitis with direct IV route. IM administration is possible."
+      "presentation": "Vial 1–2 g.",
+      "dose": "Usual: **1–2 g IV every 8 h**. Severe / *Pseudomonas*: **2 g every 8 h** (max **6 g/day**). Meningitis: **2 g every 8 h**. IM possible at ≤ 1 g per site.",
+      "administration": "IV: reconstitute with sterile water (CO₂); dilute in 50–100 mL; 15–30 min or push 3–5 min. Deep IM.",
+      "notes": "Phlebitis risk with push; prefer intermittent infusion."
     },
     "pediatrico": {
-      "presentation": "Powder vial: 500-1000 mg",
-      "reconstitution": "Sterile water for reconstitution.",
-      "administration": "IV",
-      "finalConcentration": "40 mg/mL (may be bolus 180 mg/mL).",
-      "infusionRate": "15 to 30 min with infusion pump.",
-      "dose": "Newborn: according to age and weight. Children: 100-150 mg/kg/day every 8 h, maximum dose: 6 g. Adults: 1-2 g every 8 h. Cystic fibrosis: 150-200 mg/kg/day every 6 h, maximum dose: 9 g. Uncomplicated urinary infection adults: 250 mg every 12 h; complicated: 500 mg every 12 h.",
-      "notes": "In renal insufficiency adjust dose and monitor; risk of nephrotoxicity with concomitant nephrotoxic drugs. With prolonged treatment, risk of superinfection by non-susceptible organisms; risk of pseudomembranous colitis."
+      "presentation": "Vial 500–1000 mg.",
+      "dose": "**100–150 mg/kg/day every 8 h** (max **6 g/day**). CF: **150–200 mg/kg/day every 6–8 h** (max **6–12 g/day** by center). Meningitis: high end of the range.",
+      "administration": "IV.",
+      "notes": "Dose by weight. > 40–50 kg: adult dose."
     },
     "neonatal": {
-      "dose": "50 mg/kg/dose every 12 h (NICU).",
-      "administration": "IV."
+      "presentation": "Vial; NNU.",
+      "dose": "Orientative: **50 mg/kg/dose every 8–12 h** by gestational/postnatal age.",
+      "administration": "IV.",
+      "notes": "Local NNU table."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h at room temperature and 24 h refrigerated.\n\n## Pediatric guide\n\n- Stable 24 h at room temperature protected from light; 10 days refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nLocal intolerance, hypersensitivity, gastrointestinal disorders.",
+  "stability": "## Stability\n\n- Dilution: per label (usually hours at room temp / refrigerated).",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, rash, phlebitis, eosinophilia, ↑ liver enzymes, seizures in renal failure/high dose, *C. difficile*.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cefTAZidime (code 0039, ATC J01DD).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sanford Guide / IDSA antimicrobial dosing references.",
+      "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

@@ -1,56 +1,54 @@
 {
   "id": "cef-007",
   "name": "Ceftazidima",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Cefalosporina de terceira geração. Tratamento de infecções do trato respiratório inferior, pele e partes moles, ósseas, articulares, intra-abdominais, geniturinárias e sistema nervoso central por bactérias gram-negativas suscetíveis, incluindo Pseudomonas.",
-  "indications": "## Indicações principais\n\nCefalosporina de terceira geração. Tratamento de infecções do trato respiratório inferior, pele e partes moles, ósseas, articulares, intra-abdominais, geniturinárias e sistema nervoso central por bactérias gram-negativas suscetíveis, incluindo Pseudomonas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Cefalosporina de 3ª geração antipseudomônica. Adulto **1–2 g IV a cada 8 h** (máx. 6 g/dia; meningite 2 g a cada 8 h). Pediatria 100–150 mg/kg/dia (FQ 150–200 mg/kg/dia).",
+  "indications": "## Indicações\n\n- Infecções por gram-negativos incl. *Pseudomonas*: respiratórias, urinárias, intra-abdominais, ósseas, pele e SNC sensíveis.\n- FQ e neutropenia febril em combinação conforme protocolo.\n\n## Precauções\n\n- Alergia a betalactâmicos. Ajustar na IRC.\n- A reconstituição libera **CO₂** — purgar bolhas antes de injetar.\n\n> Não cobre MRSA nem muitos anaeróbios; associar se o foco exigir.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 1 g (Ceftazidima Northia).",
-      "reconstitution": "10 mL de AD. Conc: 100 mg/mL.",
-      "diluent": "Reconst. 1 g com 10 mL de AD, diluir em 50–100 mL e administrar em 15–30 min.",
-      "administration": "E.V. direta: Sim. Reconst. 1 g em 10 mL de AD e administrar em 3–5 min. E.V. intermitente: Sim.",
-      "notes": "Irritante. Atenção na reconstituição porque se desprende CO₂ (eliminar as bolhas antes da administração). Existe risco de flebite ao usar a via E.V. direta. É possível a administração I.M."
+      "presentation": "FA 1–2 g.",
+      "dose": "Habitual: **1–2 g IV a cada 8 h**. Graves / *Pseudomonas*: **2 g a cada 8 h** (máx. **6 g/dia**). Meningite: **2 g a cada 8 h**. IM possível em doses ≤ 1 g por sítio.",
+      "administration": "IV: reconstituir com AD (CO₂); diluir em 50–100 mL; 15–30 min ou push 3–5 min. IM profundo.",
+      "notes": "Risco de flebite no push; preferir infusão intermitente."
     },
     "pediatrico": {
-      "presentation": "F.A.: 500–1000 mg",
-      "reconstitution": "Água destilada para reconstituição.",
-      "administration": "E.V.",
-      "finalConcentration": "40 mg/mL (pode ser bolo 180 mg/mL).",
-      "infusionRate": "15 a 30 min com BIC.",
-      "dose": "Recém-nascido: conforme idade e peso. Crianças: 100–150 mg/kg/dia a cada 8 h, dose máxima: 6 g. Adultos: 1–2 g a cada 8 h. Fibrose cística: 150–200 mg/kg/dia a cada 6 h, dose máxima: 9 g. Infecção urinária não complicada adultos: 250 mg a cada 12 h; as complicadas: 500 mg a cada 12 h.",
-      "notes": "Em I.R. ajustar dose e monitorizar, risco de nefrotoxicidade em concomitância com fármacos nefrotóxicos. Em tratamento prolongado risco de superinfecção por organismo não suscetível; risco de colite pseudomembranosa."
+      "presentation": "FA 500–1000 mg.",
+      "dose": "**100–150 mg/kg/dia a cada 8 h** (máx. **6 g/dia**). FQ: **150–200 mg/kg/dia a cada 6–8 h** (máx. **6–12 g/dia** conforme o centro). Meningite: extremo alto da faixa.",
+      "administration": "IV.",
+      "notes": "Calcular pelo peso. > 40–50 kg: dose de adulto."
     },
     "neonatal": {
-      "dose": "50 mg/kg/dose a cada 12 h (UCIN).",
-      "administration": "E.V."
+      "presentation": "FA; UTIN.",
+      "dose": "Orientativo: **50 mg/kg/dose a cada 8–12 h** conforme idade gestacional/postnatal.",
+      "administration": "IV.",
+      "notes": "Tabela UTIN local."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 6 h em temperatura ambiente e 24 h refrigerado.\n\n## Guia pediátrica\n\n- Estável 24 h em temperatura ambiente protegido da luz; 10 dias na geladeira.",
-  "adverseEffects": "## Efeitos adversos\n\nIntolerância local, hipersensibilidade, distúrbios gastrointestinais.",
+  "stability": "## Estabilidade\n\n- Diluição: conforme bula (habitual horas à T° amb / refrigerado).",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, erupção, flebite, eosinofilia, ↑ enzimas hepáticas, convulsões na IRC/doses altas, *C. difficile*.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefTAZidima (cód. 0039, ATC J01DD).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sanford Guide / IDSA — referências de posologia.",
+      "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA — referências de bulas.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

@@ -2,58 +2,53 @@
   "id": "van-001",
   "name": "Vancomycin",
   "branch": "atencion-sanitaria",
-  "version": "1.3",
-  "updatedAt": "2026-07-09",
+  "version": "1.4.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Bactericidal glycopeptide against beta-lactam–resistant Gram-positive organisms (MRSA, enterococci, and others). High-risk medication: slow infusion (1 h), serum level monitoring, nephrotoxicity and ototoxicity.",
-  "indications": "## Main indications\n\n- Treatment of infections caused by beta-lactam–resistant Gram-positive microorganisms (*MRSA, S. viridans, Bacillus, Corynebacterium*).\n- Sepsis, bacteremia, meningitis, septic arthritis, endocarditis, osteomyelitis, nosocomial pneumonia due to *S. aureus*.\n- Pseudomembranous colitis due to *Clostridioides difficile*: oral route according to severity.\n\n## Precautions\n\n- Administer by infusion over 1 hour; risk of red man syndrome with hypotension if infusion is rapid.\n- Caution regarding necrosis with extravasation; monitor trough serum levels according to indication.\n- Adjust dose in renal insufficiency per institutional protocol.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Glycopeptide against gram-positives (MRSA, enterococci). Usual adult **15–20 mg/kg IV every 8–12 h** (load 25–30 mg/kg in severe disease). Pediatrics 40–60 mg/kg/day. Infuse ≥ 60 min; monitor trough/AUC.",
+  "indications": "## Indications\n\n- Severe beta-lactam–resistant gram-positive infections (MRSA, enterococci, etc.): bacteremia, endocarditis, osteomyelitis, nosocomial pneumonia, meningitis, septic arthritis.\n- Selected surgical prophylaxis (implants, beta-lactam allergy).\n- *C. difficile* colitis: **PO** (not IV for luminal disease).\n\n## Precautions\n\n- Rapid infusion → red-man syndrome / hypotension.\n- Nephro- and ototoxicity; adjust in renal failure; irritant on extravasation.\n- Orientative trough targets: **10–15 µg/mL** non-severe; **15–20 µg/mL** bacteremia/endocarditis/osteomyelitis/meningitis/MRSA pneumonia (or AUC/MIC per modern protocol).\n\n> Never IV push. Separate from ceftriaxone in the same line.",
   "dilution": {
     "adulto": {
-      "presentation": "Powder for injection 500–1000 mg (Rivervan, Vancomax, V. Fabra, V. Northia, V. Richet, Varedet).",
-      "reconstitution": "10 mL sterile water for injection. Conc: 100 mg/mL.",
-      "diluent": "500 mg in 100 mL 0.9% NaCl.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute 500 mg in 100 mL 0.9% NaCl and administer over no less than 60–90 min. Oral: Yes (*C. difficile* colitis).",
-      "dose": "Preoperative dose in adults: 1 g/dose.",
-      "notes": "Plasma vancomycin monitoring (from 48 h of treatment). Trough according to indication: 15–20 µg/mL (bacteremia, endocarditis, osteomyelitis, meningitis, nosocomial MRSA pneumonia); 10–15 µg/mL for other indications."
+      "presentation": "Vial 500–1000 mg; PO capsules for *C. difficile*.",
+      "dose": "IV: **15–20 mg/kg every 8–12 h** (actual body weight; round to 250 mg). Severe infections: load **25–30 mg/kg** (usual max **2 g**), then maintenance. Surgical prophylaxis: **15 mg/kg** (usual **1–1.5 g**) 30–120 min before incision. *C. difficile* PO: **125 mg every 6 h** × 10 days (severe: up to **500 mg every 6 h** per guideline).",
+      "administration": "Reconstitute with sterile water; dilute to ≤ **5 mg/mL** in NS; infuse **≥ 60 min** (90–120 min if dose > 1 g). PO only for colitis.",
+      "notes": "Trough monitoring from ~48 h or earlier if renal failure/instability."
     },
     "pediatrico": {
-      "presentation": "Powder for injection 500–1000 mg.",
-      "reconstitution": "Sterile water for injection for reconstitution.",
-      "administration": "IV; PO (*C. difficile* colitis).",
-      "diluent": "0.9% NaCl or 5% dextrose.",
-      "finalConcentration": "5 mg/mL.",
-      "infusionRate": "Infusion over 1 h.",
-      "dose": "IV — Sepsis, bacteremia, meningitis, and septic arthritis: 60 mg/kg/day every 6 h. IV — Other infections: 40 mg/kg/day every 8 h. IV — Cystic fibrosis: 45 mg/kg/day every 8 h. Maximum dose: 2 g/day (up to 4 g/day if underdosed). PO — *C. difficile* colitis: 10 mg/kg/dose every 6 h (max. 125 mg/dose; severe or fulminant: max. 500 mg/dose), 10 days.",
-      "notes": "High-risk medication. Ototoxic, nephrotoxic. May cause phlebitis, febrile reactions, rash, eosinophilia, neutropenia. Bolus administration may induce cardiac arrest."
+      "presentation": "Vial 500–1000 mg.",
+      "dose": "Other infections: **40 mg/kg/day every 6–8 h**. Sepsis/bacteremia/meningitis/arthritis: **60 mg/kg/day every 6 h**. CF: often **60–80 mg/kg/day** by center. Max aligned to adult per dose.",
+      "administration": "Diluted IV ≤ 5 mg/mL; ≥ 60 min.",
+      "notes": "Dose by weight; levels per pediatric protocol."
     },
     "neonatal": {
-      "dose": "Dose and interval according to postmenstrual age and renal function (NICU protocol).",
-      "administration": "Central route preferred; monitor access and signs of extravasation."
+      "presentation": "Vial; NNU card.",
+      "dose": "By postmenstrual age and creatinine (e.g. 10–15 mg/kg every 8–24–48 h) — follow NNU table.",
+      "administration": "Slow IV ≥ 60 min.",
+      "notes": "Long intervals in preterms; monitoring essential."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature.\n\n## Pediatric guide\n\n- 96 h refrigerated.",
-  "adverseEffects": "## Common\n\n- Red man syndrome with hypotension (associated with infusion rate).\n- Phlebitis, febrile reactions, rash, eosinophilia, neutropenia.\n\n## Serious\n\n- Ototoxicity, nephrotoxicity.",
+  "stability": "## Stability\n\n- Dilution: per label; typically 24 h refrigerated in NS.\n- Do not mix with beta-lactams/heparin in the same syringe.",
+  "adverseEffects": "## Adverse effects\n\nRed-man syndrome, phlebitis, nephrotoxicity, ototoxicity, neutropenia, rash, drug fever.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Vancomycin Hydrochloride (code 0216, ATC J01XA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Rybak MJ, et al. Therapeutic monitoring of vancomycin: revised consensus guidelines. Am J Health Syst Pharm. 2020.",
-      "url": "https://www.ashp.org/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy — Vancomycin dosing and monitoring.",
+      "citation": "Sanford Guide / IDSA antimicrobial dosing references.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information — Vancomycin.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEMPS CIMA SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
+      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

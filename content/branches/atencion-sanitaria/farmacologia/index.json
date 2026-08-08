@@ -250,8 +250,8 @@
       "id": "cef-006",
       "name": "Cefotaxima",
       "branch": "atencion-sanitaria",
-      "version": "1.1.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "cef-004",
@@ -271,8 +271,8 @@
       "id": "cef-007",
       "name": "Ceftazidima",
       "branch": "atencion-sanitaria",
-      "version": "1.2.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "cef-011",
@@ -579,8 +579,8 @@
       "id": "flu-001",
       "name": "Fluconazol",
       "branch": "atencion-sanitaria",
-      "version": "1.2.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "flm-001",
@@ -810,8 +810,8 @@
       "id": "lin-001",
       "name": "Linezolid",
       "branch": "atencion-sanitaria",
-      "version": "1.2.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "lis-001",
@@ -1279,8 +1279,8 @@
       "id": "van-001",
       "name": "Vancomicina",
       "branch": "atencion-sanitaria",
-      "version": "1.3",
-      "updatedAt": "2026-07-09"
+      "version": "1.4.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "vas-001",

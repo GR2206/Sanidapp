@@ -1,61 +1,54 @@
 {
   "id": "flu-001",
   "name": "Fluconazol",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Candidíase urinária. Micoses superficiais e infecções profundas no paciente não neutropênico.",
-  "indications": "## Indicações principais\n\nCandidíase urinária. Micoses superficiais e infecções profundas no paciente não neutropênico.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Azol triazólico. Adulto orofaríngeo 100–200 mg/dia; sistêmico/criptococo **400–800 mg/dia** (ataque 800 mg). Pediatria 3–12 mg/kg/dia conforme o foco. VO≈IV.",
+  "indications": "## Indicações\n\n- Candidíase orofaríngea, esofágica, urinária e sistêmica (não neutropênico / conforme sensibilidade).\n- Meningite criptocócica (indução/manutenção em esquemas combinados).\n- Profilaxia em populações de risco selecionadas.\n\n## Precauções\n\n- Ajustar na IRC (dose de ataque igual; manutenção ↓). Hepatotoxicidade; QT; interações CYP.\n- *Candida krusei* intrinsicamente resistente; *C. glabrata* frequentemente resistente.\n\n> Bioequivalência VO/IV — passar para oral quando houver tolerância.",
   "dilution": {
     "adulto": {
-      "presentation": "Sachê contendo 200 mg (Fluconazol Norgreen, Rivero, Fluconovag, Braun).",
-      "reconstitution": "Não requer reconstituição prévia. Conc: 2 mg/mL.",
-      "finalConcentration": "2 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Administrar o conteúdo do sachê em 60 min.",
-      "notes": "Manter em temperatura ambiente e protegido da luz. Não retirar a proteção (bolsa plástica preta) até o momento de usar."
+      "presentation": "Comprimidos 50–100–150–200 mg; suspensão; IV 2 mg/mL.",
+      "dose": "Orofaringe: **100–200 mg/dia**. Esofágica: **200–400 mg/dia**. Candidíase sistêmica / criptococo: ataque **800 mg (12 mg/kg)** no dia 1, depois **400 mg (6 mg/kg)/dia** (graves até **800 mg/dia**). Vulvovaginal: **150 mg VO dose única**. Profilaxia: **200–400 mg/dia** conforme protocolo.",
+      "administration": "VO com ou sem alimentos. IV: bolsa pronta 2 mg/mL; infundir ~**60 min**; sem bolo. Proteger da luz até usar.",
+      "notes": "ClCr ≤ 50: 50% da dose de manutenção após o ataque."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 100–200 mg; Suspensão: 10 mg/mL; F.A. de 100 mL: 2 mg/mL",
-      "administration": "V.O.; E.V.",
-      "diluent": "Já diluído.",
-      "finalConcentration": "Não diluir.",
-      "infusionRate": "2 h com BIC.",
-      "dose": "Crianças: V.O., E.V.: Candidíase esofágica e orofaríngea: 3–6 mg/kg/dia, dose máxima: 200 mg/dia; Candidíase sistêmica e meningite criptocócica: 6–12 mg/kg/dia, a cada 24 h, dose máxima 400 mg; Adultos: 200–800 mg/dia conforme gravidade da infecção.",
-      "compatibility": "Não administrar concomitantemente com ampicilina, gluconato de cálcio, ceftazidima, cefotaxima, cefuroxima, ceftriaxona, clindamicina, furosemida, imipenem e piperacilina.",
-      "notes": "Fluconazol pode aumentar os níveis séricos de: ciclosporina, fenitoína, tacrolimus, midazolam, zidovudina, varfarina, cisaprida. Rifampicina diminui a concentração sérica de fluconazol. Administração E.V.: dose ≥ 6 mg/kg infundir em pelo menos 2 h. Boa penetração no LCR. Eliminação: 60% renal; ajustar dose em insuficiência renal. Ver guia preliminar para prevenção de teratogênese por medicamentos."
+      "presentation": "Comprimidos; suspensão 10 mg/mL; IV 2 mg/mL.",
+      "dose": "Orofaringe/esofágica: **3–6 mg/kg/dia** (máx. **200 mg/dia** em mucosas leves). Sistêmica / criptococo: **6–12 mg/kg/dia** a cada 24 h (máx. alinhado ao adulto **400–800 mg/dia**).",
+      "administration": "VO/IV. IV ~60 min.",
+      "notes": "Calcular pelo peso. > 50 kg: esquemas de adulto."
     },
     "neonatal": {
-      "dose": "Profilaxia/tratamento conforme protocolo UCIN (ex.: 6 mg/kg/dose a cada 72 h em prematuros).",
-      "administration": "E.V. lenta."
+      "presentation": "IV/suspensão; UTIN.",
+      "dose": "Tratamento orientativo: **6–12 mg/kg**. Prematuros: frequentemente **6 mg/kg a cada 72 h** no início (baixo clearance), depois encurtar o intervalo conforme IG — tabela UTIN.",
+      "administration": "IV/VO.",
+      "notes": "Confirmar o esquema institucional de candidíase neonatal."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- Não especificado.\n\n## Guia pediátrica\n\n- Descartar após aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nNáuseas, dor abdominal, diarreia, alopecia reversível, nefrotoxicidade, hipocalemia, rash (monitorar), prurido, anorexia, hepatotoxicidade (raro), eosinofilia, leucopenia, trombocitopenia, neutropenia.",
+  "stability": "## Estabilidade\n\n- IV pronto: T° amb, protegido da luz conforme o fabricante.\n- Suspensão: conforme a data de reconstituição da bula.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, dor abdominal, erupção, cefaleia, ↑ transaminases. Raros: hepatite grave, SJS, torsades (com outros fármacos QT).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Fluconazol (cód. 0409, ATC J02AC).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "citation": "Sanford Guide / IDSA — referências de posologia.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA — referências de bulas.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
+      "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

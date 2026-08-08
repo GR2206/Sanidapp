@@ -1,55 +1,54 @@
 {
   "id": "cef-006",
   "name": "Cefotaxima",
-  "version": "1.1.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Cefalosporina de terceira geração. Tratamento de infecções do trato respiratório inferior, pele e partes moles, osso, articulares, intra-abdominais, geniturinárias e sistema nervoso central por bactérias gram-negativas suscetíveis.",
-  "indications": "## Indicações principais\n\nCefalosporina de terceira geração. Tratamento de infecções do trato respiratório inferior, pele e partes moles, osso, articulares, intra-abdominais, geniturinárias e sistema nervoso central por bactérias gram-negativas suscetíveis.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Cefalosporina de 3ª geração. Adulto **1–2 g IV a cada 6–8 h** (máx. 12 g/dia; meningite 2 g a cada 4–6 h). Pediatria 100–150 mg/kg/dia (meningite 200–300 mg/kg/dia). Preferida em neonatos vs ceftriaxona.",
+  "indications": "## Indicações\n\n- Infecções respiratórias, urinárias, intra-abdominais, pele, ósseas e meningite por gram-negativos sensíveis (sem *Pseudomonas* confiável).\n- Sepse neonatal (com ampicilina) conforme protocolo.\n\n## Precauções\n\n- Alergia a betalactâmicos. Ajustar na IRC.\n- Melhor perfil neonatal que a ceftriaxona (menos deslocamento de bilirrubina / sem interação típica Ca–ceftriaxona).\n\n> Não antipseudomônica de escolha — usar ceftazidima/cefepime/pip-tazo se houver suspeita de *Pseudomonas*.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola 1 g.",
-      "dose": "1–2 g E.V. a cada 6–8 h.",
-      "infusionRate": "Perfusão 30 min.",
-      "administration": "E.V."
+      "presentation": "FA 1 g.",
+      "dose": "Leves-moderadas: **1 g a cada 8–12 h**. Graves: **1–2 g a cada 6–8 h**. Meningite: **2 g a cada 4–6 h** (máx. **12 g/dia**).",
+      "administration": "IV: reconstituir com AD; diluir em SF/Dext. 5%; 20–60 mg/mL em 15–30 min ou bolo 3–5 min (até ~100 mg/mL). IM possível.",
+      "notes": "Reduzir o intervalo em infecções graves do SNC."
     },
     "pediatrico": {
-      "presentation": "F.A.: 500–1000 mg",
-      "reconstitution": "Reconstituir com AD. Diluir em SF 0,9% ou SG 5%.",
-      "administration": "E.V.; I.M.",
-      "finalConcentration": "20 a 60 mg/mL (pode ser bolo 100 mg/mL em 3 a 5 min).",
-      "infusionRate": "15 a 30 min com BIC.",
-      "dose": "< 12 anos: 100–150 mg/kg/dia a cada 6–8 h. > 12 anos e adultos: 1–2 g a cada 6–8 h, dose máxima: 12 g. Meningite: 300 mg/kg/dia a cada 6 h. Fibrose cística: 150–200 mg/kg/dia a cada 6 h, dose máxima: 12 g. Dose pré-operatória em adultos: 1 g.",
-      "notes": "Precaução em pacientes com insuficiência renal. Risco aumentado de colite pseudomembranosa por C. difficile."
+      "presentation": "FA 500–1000 mg.",
+      "dose": "< 12 anos: **100–150 mg/kg/dia a cada 6–8 h**. Meningite: **200–300 mg/kg/dia a cada 6 h**. FQ: faixas altas conforme o centro. Máx. **12 g/dia**. ≥ 12 anos: como adulto.",
+      "administration": "IV/IM.",
+      "notes": "Calcular pelo peso."
     },
     "neonatal": {
-      "dose": "50 mg/kg/dose a cada 12 h; meningite: a cada 8 h (UCIN).",
-      "administration": "E.V."
+      "presentation": "FA; UTIN.",
+      "dose": "Orientativo: **50 mg/kg/dose a cada 12 h**; meningite **a cada 8 h** (ajustar por IG/IPN).",
+      "administration": "IV.",
+      "notes": "Pilar frequente com ampicilina na sepse neonatal."
     }
   },
-  "stability": "## Guia pediátrica\n\n- 24 h em temperatura ambiente e 10 dias na geladeira (2 a 8 °C).",
-  "adverseEffects": "## Efeitos adversos\n\nNeutropenia, anemia hemolítica, cefaleias, colite pseudomembranosa, flebite no local da injeção, rash, prurido anal.",
+  "stability": "## Estabilidade\n\n- Diluição: conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nErupção, diarreia, flebite, eosinofilia, ↑ transaminases, *C. difficile*, anafilaxia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefOTAxima (cód. 0037, ATC J01DD).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "citation": "Sanford Guide / IDSA — referências de posologia.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA — referências de bulas.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }
