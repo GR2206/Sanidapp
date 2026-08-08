@@ -1,62 +1,58 @@
 {
   "id": "col-001",
   "name": "Colistina",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Organismos multirresistentes, fibrose cística.",
-  "indications": "## Indicações principais\n\nOrganismos multirresistentes, fibrose cística.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Polimixina para gram-negativos XDR. Dose em **mg de colistina base (CBA)**. Adulto: carga **~5 mg CBA/kg** (máx. frequentemente **300 mg**), depois **~2,5 mg CBA/kg a cada 12 h** ou esquema institucional. Pediatria **~2,5 mg CBA/kg a cada 12 h**.",
+  "indications": "## Indicações\n\n- Infecções por *Acinetobacter*, *Pseudomonas*, enterobacterales XDR quando não há alternativas.\n- Fibrose cística (IV/inalada conforme protocolo).\n- Intratecal/intraventricular: só neurocirurgia/infectologia.\n\n## Precauções\n\n- **Nefro e neurotoxicidade**. Monitorar creatinina e sinais neurológicos.\n- Confirmar se o rótulo expressa **CBA**, **CMS** ou **UI** — não converter sem fator.\n- Orientativo: **1 mg CBA ≈ 2,4 mg CMS ≈ 30.000 UI**; **100 mg CBA ≈ 3 M UI** (frascos locais frequentes).\n\n> Preferir peso ideal em obesos conforme protocolo PK.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 100 mg de colistina em base ativa (Permalec*, Fabra*, Colistina Richet*, Techsphere*, Alfacolin*, Alficetin, Nolisin, Cotrelan*, Colislym, Espirotech*).",
-      "reconstitution": "2 mL de AD. Conc.: 50 mg/mL.",
-      "diluent": "100 mg em 50–100 mL de SF ou SG 5%.",
-      "finalConcentration": "2 mg/mL.",
-      "administration": "E.V. direta: Sim. Reconst. em 3–5 mL de AD e passar em 3–5 min. E.V. intermitente: Sim. Diluir em 50 mL de SF ou SG 5% e infundir em 10–15 min.",
-      "notes": "100 mg de colistina base equivalem aproximadamente a 240 mg de colistina metanosulfonato e a 3.000.000 UI de potência. É possível a administração I.M. ou inalatória."
+      "presentation": "FA frequentemente **100 mg CBA** (~3 M UI) / genéricos locais.",
+      "dose": "Carga (críticos): **5 mg CBA/kg** (teto institucional freq. **300 mg CBA**). Manutenção (~12 h pós-carga): **2,5 mg CBA/kg a cada 12 h** ou **~150–180 mg CBA/dia** dividido c/8–12 h conforme guia/ClCr. Ajuste renal obrigatório.",
+      "administration": "IV direta: 3–5 mL AD em 3–5 min, ou diluir 50–100 mL SF/SG 5% e infundir 10–30+ min. Também IM/inalatória conforme protocolo.",
+      "notes": "Precipita com eritromicina, cefalotina, tetraciclinas. Potencializa oto/nefrotoxicidade com AG, anfotericina, cisplatina, ciclosporina."
     },
     "pediatrico": {
-      "presentation": "F.A.: 100 mg de colistina base (3.000.000 U.I.)",
-      "administration": "E.V.; Intratecal; Inalatória",
-      "diluent": "SF 0,9%, SG 5%, AD, Ringer.",
-      "finalConcentration": "Conforme necessidades hídricas do paciente.",
-      "infusionRate": "Bolus de 3 a 5 min.",
-      "dose": "E.V.: 2,5 colistina base/kg/dose a cada 12 h. Infecções graves, pacientes críticos e fibrose cística: 7 mg de colistina base/kg/dia a cada 8 h. Dose máxima: 100 mg/dose. Adultos dose de carga: 5 mg de colistina base/kg/dose (dose máxima 300 mg); depois de 12 h pós-carga: 100 mg/dose a cada 8 h. Equivalência: 1 mg de colistimetato sódico = 12.500 U de colistimetato sódico = 0,4 mg de colistina base.",
-      "compatibility": "Precipita concomitantemente com eritromicina, cefalotina, tetraciclina.",
-      "notes": "Aumenta o risco de ototoxicidade e nefrotoxicidade com aminoglicosídeos, ciclosporina, anfotericina e cisplatina."
+      "presentation": "FA 100 mg CBA (~3 M UI).",
+      "dose": "Habitual: **2,5 mg CBA/kg a cada 12 h**. Graves/FQ/críticos: até **~5–7 mg CBA/kg/dia** dividido c/8 h (máx. freq. **100 mg**/dose) — infectologia.",
+      "administration": "IV (bolo lento ou infusão); inalatória/intratecal só protocolo.",
+      "notes": "Mesma conversão CBA/CMS/UI que em adultos."
     },
     "neonatal": {
-      "dose": "Dose conforme protocolo da UTI neonatal e peso; monitorização renal rigorosa.",
-      "administration": "E.V."
+      "presentation": "Uso especializado em UTI neonatal.",
+      "dose": "Conforme protocolo UTI neonatal e função renal; sem dose fixa universal.",
+      "administration": "IV.",
+      "notes": "Monitorização renal estrita."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente, 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Usar imediatamente após diluído (24 h em temperatura ambiente).\n\n## Guia pediátrica\n\n- 8 h em temperatura ambiente, 24 h refrigerado.",
-  "adverseEffects": "## Efeitos adversos\n\nFraqueza muscular, parestesia facial, distúrbios visuais, nefrotóxico. Pode produzir broncoespasmo quando nebulizado (tratar com β-agonistas).",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~24 h T° amb / ~48 h refrigerado (bula).\n- Diluído: preferir uso imediato (~8–24 h conforme cartilha).",
+  "adverseEffects": "## Efeitos adversos\n\nNefrotoxicidade, parestesias, fraqueza muscular, neurotoxicidade, broncoespasmo (nebulização — β-agonistas).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Colistina Metansulfonato (Colistimetato sódico) (cód. 1202, ATC J01XB).",
+      "citation": "Hospital Garrahan. Formulário — colistimetato sódico.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "EMA / AEMPS. Colistimetato — dose como CBA.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA. Infecções por gram-negativos resistentes — polimixinas.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Bulas de referência.",
+      "url": "https://cima.aemps.es/cima/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

@@ -1,49 +1,48 @@
 {
   "id": "cef-012",
   "name": "Ceftolozano-tazobactam",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Infecções intra-abdominais complicadas, pielonefrite aguda, infecções do trato urinário complicadas e pneumonia adquirida no hospital (NAH), incluída pneumonia associada à ventilação mecânica.",
-  "indications": "## Indicações principais\n\nInfecções intra-abdominais complicadas, pielonefrite aguda, infecções do trato urinário complicadas e pneumonia adquirida no hospital (NAH), incluída pneumonia associada à ventilação mecânica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Cefalosporina anti-Pseudomonas + inibidor. Adulto cIAI/cITU **1,5 g IV a cada 8 h**; HABP/VAP **3 g a cada 8 h**. Pediatria **~30 mg/kg a cada 8 h** do produto (máx. **1,5 g**); graves até **45 mg/kg**.",
+  "indications": "## Indicações\n\n- Infecção intra-abdominal complicada (cIAI), ITU complicada / pielonefrite.\n- Pneumonia nosocomial / associada à ventilação (HABP/VAP) — dose alta.\n- Reservado a Pseudomonas MDR / falha de outras opções.\n\n## Precauções\n\n- Ajuste renal obrigatório. Cada frasco ~230 mg Na+.\n- Em cIAI costuma associar metronidazol se forem necessários anaeróbios adicionais.\n\n> Doses referem-se ao **total ceftolozano + tazobactam** (1 g + 0,5 g = 1,5 g).",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 1 g de ceftolozano + 0,5 g de tazobactam (Zerbaxa).",
-      "reconstitution": "10 mL de AD ou SF. Conc.: 100 mg/mL de ceftolozano e 50 mg/mL de tazobactam.",
-      "diluent": "1,5 g em 100 mL de SF ou SG 5%.",
-      "finalConcentration": "Conc.: 10 mg/mL de ceftolozano e 5 mg/mL de tazobactam.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e administrar em 60 min."
+      "presentation": "FA 1 g ceftolozano + 0,5 g tazobactam (Zerbaxa).",
+      "dose": "cIAI / cITU / pielonefrite: **1,5 g IV a cada 8 h**. HABP/VAP: **3 g IV a cada 8 h**. Ajuste por ClCr conforme bula.",
+      "administration": "Reconstituir 10 mL AD/SF; diluir em 100 mL SF/SG 5%; infundir **60 min**.",
+      "notes": "Sem bolus IV."
     },
     "pediatrico": {
-      "dose": "Crianças: 30 mg/kg/dose (ceftolozano + tazobactam) a cada 8 h; máximo 1500 mg a cada 8 h. Infecções graves: 45 mg/kg/dose a cada 8 h. Adultos: 1500 mg a cada 8 h; Pneumonia associada à ventilação mecânica: 3000 mg a cada 8 h.",
-      "administration": "E.V.",
-      "presentation": "F.A. pó: 1.500 mg (1.000 mg ceftolozano + 500 mg tazobactam sódico)",
-      "notes": "Infusão E.V. (tempo de perfusão: 1 h para todas as doses). Monitorizar pacientes com I.R. no início ante qualquer mudança na função renal durante o tratamento e ajustar dose se necessário. Cada frasco contém 230 mg de sódio."
+      "presentation": "FA 1,5 g.",
+      "dose": "**30 mg/kg a cada 8 h** do produto combinado (máx. **1,5 g**/dose). Infecções graves: até **45 mg/kg a cada 8 h** (conforme bula; adultos VAP usam 3 g).",
+      "administration": "IV 60 min.",
+      "notes": "Monitorar função renal e ajustar."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente ou 7 dias refrigerado.",
-  "adverseEffects": "## Efeitos adversos\n\nColite por *Clostridioides difficile*, trombocitose, hipocalemia, insônia, ansiedade, cefaleia, tontura, hipotensão, náuseas, diarreia, constipação, vômitos, dor abdominal, erupção, pirexia, reações na zona de infusão, ALT e AST elevadas, transaminase elevada, prova de função hepática anormal, fosfatase alcalina no sangue aumentada, GGT elevada.",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~1 h T° amb.\n- Diluído: ~24 h T° amb ou até ~7 dias refrigerado (bula).",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, diarreia, cefaleia, febre, hipocalemia, ↑ transaminases, *C. difficile*, reações no local de infusão.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefTOLOZANO + tazobactam sódico* (cód. 2041, ATC J01CG).",
+      "citation": "Hospital Garrahan. Formulário — ceftolozano + tazobactam.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA. Orientação gram-negativos resistentes (contexto).",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Bulas de referência.",
+      "url": "https://cima.aemps.es/cima/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

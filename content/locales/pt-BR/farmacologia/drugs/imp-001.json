@@ -1,62 +1,54 @@
 {
   "id": "imp-001",
-  "name": "Imipenem + cilastatina",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamento de infecções respiratórias baixas, urinárias, intra-abdominais, ginecológicas, ósseas e articulares, septicemia, endocardite, de pele e partes moles por bactérias multirresistentes gram-negativas.",
-  "indications": "## Indicações principais\n\nTratamento de infecções respiratórias baixas, urinárias, intra-abdominais, ginecológicas, ósseas e articulares, septicemia, endocardite, de pele e partes moles por bactérias multirresistentes gram-negativas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "name": "Imipenem+cilastatina",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Carbapenêmico + cilastatina. Adulto **500 mg IV a cada 6 h** (como imipenem); graves/Pseudomonas **1 g a cada 6–8 h** (máx. usual **4 g/dia**). Pediatria **15–25 mg/kg a cada 6 h** (**60–100 mg/kg/dia**).",
+  "indications": "## Indicações\n\n- Infecções graves polimicrobianas / MDR gram-negativos (respiratórias, urinárias, intra-abdominais, ósseas, pele, sepse) quando o espectro justifica.\n- Não de primeira linha em meningite (penetração e convulsões).\n\n## Precauções\n\n- Maior risco convulsivo que outros carbapenêmicos.\n- **Não combinar com ganciclovir** (convulsões).\n- Ajuste renal estrito. Evitar em RN salvo decisão especializada.\n\n> Doses expressas como **imipenem**; cilastatina 1:1.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 500 mg de imipenem + 500 mg de cilastatina (Imipenem Drawer, Dixabiox, Imistatin, Zienam, Pharmavial, Imipecil, Richet).",
-      "reconstitution": "10 mL de SF ou SG 5%. Conc: 50 mg/mL.",
-      "diluent": "500 mg em 100 mL de SF ou SG 5%.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "E.V. intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e agitar. Administrar em 20–30 min. Doses > 500 mg devem ser infundidas em 40–60 min.",
-      "notes": "500 mg de imipenem + cilastatina contêm 37,5 mg de sódio (1,6 mEq). Se aparecerem náuseas e vômitos, diminuir velocidade de infusão. É possível a administração I.M."
+      "presentation": "FA 500 mg imipenem + 500 mg cilastatina.",
+      "dose": "Habitual: **500 mg IV a cada 6 h**. Graves / Pseudomonas: **1 g a cada 6–8 h**. Máx. usual **4 g/dia** de imipenem. Ajuste renal obrigatório.",
+      "administration": "Reconstituir com ~10 mL SF/SG 5%; diluir em ~100 mL (≈5 mg/mL). ≤500 mg em **20–30 min**; >500 mg em **40–60 min**. Se náuseas, diminuir velocidade.",
+      "notes": "~37,5 mg Na+ por 500 mg. IM possível em esquemas selecionados."
     },
     "pediatrico": {
-      "presentation": "F.A.: 500 mg",
-      "administration": "E.V.; I.M.",
-      "diluent": "SF 0,9%, SG 5% e 10%.",
-      "finalConcentration": "5 mg/mL.",
-      "infusionRate": "≤ 500 mg: 15 a 30 min. > 500 mg: 40 a 60 min.",
-      "dose": "Crianças: 60–100 mg/kg/dia a cada 6–8 h, dose máxima: 4 g. Adultos: 500 mg a cada 6 h; Pseudomonas: 1000 mg a cada 6 h. Fibrose cística: 90 mg/kg/dia a cada 6 h, dose máxima: 4 g/dia.",
-      "compatibility": "Não administrar concomitantemente com ganciclovir.",
-      "notes": "Administrar em 30 a 60 minutos. Precaução em pacientes com lesão renal e comprometimento neurológico. Não se aconselha seu uso em recém-nascidos. Com ganciclovir aumenta risco de convulsões."
+      "presentation": "FA 500 mg.",
+      "dose": "**15–25 mg/kg a cada 6 h** (**60–100 mg/kg/dia**); máx. **2–4 g/dia** conforme gravidade. FQ: até **~90 mg/kg/dia** a cada 6 h (máx. **4 g/dia**).",
+      "administration": "IV 15–60 min conforme dose; diluente SF/SG 5–10%.",
+      "notes": "Não aconselhado em recém-nascidos. Evitar coadministração com ganciclovir."
     },
     "neonatal": {
-      "dose": "Dose conforme idade pós-menstrual (UCIN); uso especializado.",
-      "administration": "E.V."
+      "presentation": "Uso excepcional em UTI neonatal.",
+      "dose": "Não de rotina; só se infectologia/UTI neonatal indicar com tabela local.",
+      "administration": "IV lenta.",
+      "notes": "Risco convulsivo elevado."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Com SF: 4 h em temperatura ambiente e 48 h refrigerada. SG 5%: 4 h em temperatura ambiente e 24 h refrigerada.\n\n## Guia pediátrica\n\n- SF temperatura ambiente 10 h, 48 h na geladeira. SG 5% temperatura ambiente 4 h, 24 h na geladeira.",
-  "adverseEffects": "## Efeitos adversos\n\nFlebite, reações alérgicas, náuseas, vômitos, diarreia, colite pseudomembranosa, convulsões. Raro: leucopenia, hepatotoxicidade e nefrotoxicidade.",
+  "stability": "## Estabilidade\n\n- Reconstituído: até ~24 h refrigerado (bula).\n- Diluído SF: ~4 h T° amb / ~48 h refrigerado; SG 5%: ~4 h T° amb / ~24 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, flebite, erupção, convulsões, *C. difficile*; raro: leucopenia, hepato/nefrotoxicidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — IMIpenem + Cilastatina* (cód. 0382, ATC J01DH).",
+      "citation": "Hospital Garrahan. Formulário — imipenem + cilastatina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Bula imipenem/cilastatina.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "SADI. Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

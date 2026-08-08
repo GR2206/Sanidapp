@@ -2,48 +2,46 @@
   "id": "ert-001",
   "name": "Ertapenem",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Sequential outpatient hospitalization treatment for intra-abdominal infections and complicated urinary tract infections.",
-  "indications": "## Main indications\n\nSequential outpatient hospitalization treatment for intra-abdominal infections and complicated urinary tract infections.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Once-daily carbapenem. Adult **1 g IV/IM every 24 h**. Pediatrics 3 months–12 years: **15 mg/kg every 12 h** (max **1 g/day**); ≥13 years: **1 g/day**. No anti-Pseudomonas activity.",
+  "indications": "## Indications\n\n- Complicated intra-abdominal infection, complicated UTI/pyelonephritis, skin/soft tissue, community-acquired pneumonia, colorectal prophylaxis (regimens).\n- Useful for OPAT / step-down because of once-daily dosing.\n\n## Precautions\n\n- **Does not cover Pseudomonas or Acinetobacter**.\n- Adjust in renal failure. Seizure risk (lower than imipenem) with CNS disease/renal failure.\n- IM only with 1% lidocaine (no epinephrine); do not give that solvent IV.\n\n> Prefer NS dilution; avoid D5W because of instability.",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial with lyophilized powder containing 1 g (Invanz, Ertapenem Richet).",
-      "reconstitution": "10 mL SWFI or NS. Conc: 100 mg/mL.",
-      "diluent": "1 g in 50-100 mL NS.",
-      "finalConcentration": "10-20 mg/mL.",
-      "administration": "IM: Yes. Reconst. with 3.2 mL painless solvent and administer deep IM. Intermittent IV: Yes. Reconst. with 10 mL SWFI or NS, dilute with 50-100 mL NS and infuse over 30-60 min.",
-      "notes": "No more than 6 h should pass between reconstitution and end of administration. Dilution in 5% dextrose is not recommended due to instability."
+      "presentation": "Vial 1 g (Invanz, generics).",
+      "dose": "**1 g IV or IM every 24 h**. Usual duration 5–14 days by site. Renal: CrCl ≤30 mL/min **0.5 g every 24 h** (per label).",
+      "administration": "IV: reconstitute with 10 mL SW/NS → dilute in 50–100 mL NS; infuse **30 min**. IM: 3.2 mL 1% lidocaine without epinephrine; deep IM within 1 h of reconstitution.",
+      "notes": "Max 6 h from reconstitution to end of IV infusion. ~137 mg Na+/g."
     },
     "pediatrico": {
-      "dose": "Intra-abdominal infections and complicated urinary tract infections: 3 months to 12 years: 15 mg/kg/dose every 12 h for 5 to 14 days, maximum 1 g/day; > 13 years and adults: 1 g for 14 days.",
-      "administration": "IV IM",
-      "presentation": "Powder vial: 1 g",
-      "notes": "Administer with caution in patients with brain lesions or history of seizures. IM: Reconstitute 1 g vial with 3.2 ml of 1% or 2% lidocaine, shake well before use (administer deep IM in a large muscle mass within one hour of preparation). IV: Shake well after reconstitution and dilute in normal saline to a final concentration of 20 mg/ml, infuse over 30 minutes; diluted solution is stable 6 h at room temperature and 24 h refrigerated. Probenecid decreases renal clearance of ertapenem. Contains 137 mg of sodium (approx. 6 mEq)/g of ertapenem."
+      "presentation": "Vial 1 g.",
+      "dose": "3 months–12 years: **15 mg/kg every 12 h** (max **1 g/day**). ≥13 years: **1 g every 24 h**.",
+      "administration": "IV 30 min (~20 mg/mL in NS) or IM as adult.",
+      "notes": "Caution with seizure history or brain injury."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 1 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nAbdominal pain, constipation, indigestion, nausea, vomiting, headache, vaginitis, seizures, injection-site pain.",
+  "stability": "## Stability\n\n- Reconstituted: use promptly (~1 h refrigerated in vial).\n- Diluted in NS: ~6 h refrigerated (check product insert).",
+  "adverseEffects": "## Adverse effects\n\nNausea, diarrhea, headache, phlebitis, vaginitis, seizures (rare), *C. difficile*, IM site pain.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — ERTApenem* (code 1703, ATC J01DH).",
+      "citation": "Garrahan Hospital. Institutional formulary — ertapenem.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Invanz (ertapenem) SmPC.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

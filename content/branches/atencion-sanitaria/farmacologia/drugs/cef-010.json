@@ -2,47 +2,31 @@
   "id": "cef-010",
   "name": "Ceftarolina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.3",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Para bacteriemias persistente por SAMR foco respiratorio/SDRA. Infecciones complicadas de piel y tejidos blandos y neumonía adquirida en la comunidad. Indicación exclusiva del especialista.",
-  "indications": "## Indicaciones principales\n\nPara bacteriemias persistente por SAMR foco respiratorio/SDRA.\nInfecciones complicadas de piel y tejidos blandos y neumonía adquirida en la comunidad.\nIndicación exclusiva del especialista.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Cefalosporina anti-SAMR. Adulto **600 mg IV cada 12 h** (piel/NAC). Pediatría por edad/peso: **6–12 mg/kg cada 8 h** o **600 mg cada 12 h** en ≥12 años ≥33 kg. Uso restringido.",
+  "indications": "## Indicaciones\n\n- Infecciones complicadas de piel y tejidos blandos (incl. SAMR).\n- Neumonía adquirida en la comunidad.\n- Bacteriemia SAMR / foco respiratorio: solo por infectología (esquemas intensificados institucionales).\n\n## Precauciones\n\n- Ajuste renal estricto. Coombs positivo frecuente.\n- Infusión habitual **5–60–120 min** según ficha/protocolo local.\n\n> No es carbapenem; no sustituye espectro anti-Pseudomonas.",
   "dilution": {
     "adulto": {
-      "presentation": "FA conteniendo 600 mg (Zinforo).",
-      "reconstitution": "20 mL de AD. Conc: 30 mg/mL.",
-      "diluent": "600 mg en 250 mL de SF o DX 5%.",
-      "finalConcentration": "2,4 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Reconst. 600 mg con 250 mL de AD, SF o DX 5% y admin. en 60 min."
+      "presentation": "FA 600 mg (Zinforo / genéricos).",
+      "dose": "Piel / NAC: **600 mg IV cada 12 h**. IRC: ClCr 30–50 → **400 mg c/12 h**; 15–30 → **300 mg c/12 h**; ESRD/HD → **200 mg c/12 h** (post-HD si diálisis).",
+      "administration": "Reconstituir 20 mL AD; diluir en 250 mL SF/DX 5% (≈2,4 mg/mL); infundir **60 min** (algunos protocolos 120 min).",
+      "notes": "Indicación especializada en bacteriemia SAMR persistente."
     },
     "pediatrico": {
-      "dose": "Infecciones complicadas de la piel y tejidos blandos y Neumonía adquirida en la comunidad: Neonatos hasta 2 meses: 6 mg/kg/dosis cada 8 hs, &gt; 2 meses a &lt; 2 años: 8 mg/kg/dosis cada 8 hs, &gt; 2 años a &lt; 12 años: 12 mg/kg/dosis (máximo 400 mg) cada 8 hs, adolescentes entre 12 a &lt; 18 años con peso &lt; 33 kg: 12 mg/kg/dosis (máximo 400 mg) cada 8 hs, adolescentes entre 12 a &lt; 18 años con peso &gt; 33 kg: 600 mg/dosis cada 12 hs, adultos: 600 mg/dosis cada 12 hs. I.R.: adultos y adolescentes &gt; 12 a - 18 años y Peso &gt; 33 Kg: Clcr 30 - 50 ml/min: 400 mg/dosis cada 12 hs; Clcr 15 - 30 ml/min: 300 mg/dosis cada 12 hs; Enfermedad renal (incluyendo hemodiálisis): 200 mg/cada 12 hs. 12 - 18 años y Peso &lt; 33 kg y niños 2 - 12 años: Clcr 30 - 50 ml/min: 8 mg/kg/dosis cada 8 hs (máximo: 300 mg cada 8 hs); Clcr 15 - 30 ml/min: 6 mg/kg/dosis cada 8 hs (máximo 200 mg/cada 8 hs).",
-      "administration": "E.V.",
-      "presentation": "F.A. polvo: 600 mg",
-      "notes": "Administrar mediante infusión E.V. durante 120 min."
+      "presentation": "FA 600 mg.",
+      "dose": "0–2 meses: **6 mg/kg cada 8 h**. >2 meses–<2 años: **8 mg/kg cada 8 h**. 2–<12 años: **12 mg/kg cada 8 h** (máx. **400 mg**/dosis). 12–<18 años <33 kg: **12 mg/kg cada 8 h** (máx. **400 mg**). 12–<18 años ≥33 kg y adultos: **600 mg cada 12 h**.",
+      "administration": "IV infusión (60–120 min según protocolo).",
+      "notes": "Ajuste renal pediátrico por ClCr y peso (ver ficha Garrahan/CIMA)."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- Diluir y utilizar inmediatamente.\n\n## Solución diluida (a administrar)\n\n- 6 hs a T° amb y 24 hs refrigerado.",
-  "adverseEffects": "## Efectos adversos\n\nRash, prurito, cefalea, mareo, flebitis, náuseas, vómitos, dolor abdominal, transaminasas aumentadas, pirexia, reacciones en el lugar de infusión (eritema, flebitis, dolor), test de Coombs positivo. ",
+  "stability": "## Estabilidad\n\n- Reconstituido: diluir y usar pronto.\n- Diluido: ~6 h T° amb / ~24 h refrigerado.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, diarrea, cefalea, rash, flebitis, ↑ transaminasas, Coombs +, reacciones en sitio de infusión.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — CeftaROLINA Fosamil* (cód. 2037, ATC J01DI).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — ceftarolina fosamil.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEMPS CIMA. Ficha técnica Zinforo (ceftarolina).", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "IDSA. Guidance on MRSA and skin/soft-tissue infections (contexto clínico).", "url": "https://www.idsociety.org/" }
   ]
 }

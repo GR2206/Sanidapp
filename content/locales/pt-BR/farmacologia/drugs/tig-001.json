@@ -2,26 +2,34 @@
   "id": "tig-001",
   "name": "Tigeciclina",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Glicilciclina IV de reserva para infecções polimicrobianas intra-abdominais e de pele complicadas.",
-  "indications": "## Indicações\n\n- Infecções intra-abdominais e de pele complicadas quando as alternativas não são adequadas.\n\n## Precautões\n\n- Maior mortalidade em bacteriemia em alguns estudos; não é primeira linha na sepse.\n- Náuseas frequentes.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Glicilciclina IV de reserva. Adulto: carga **100 mg**, depois **50 mg a cada 12 h** (graves: carga **200 mg** → **100 mg c/12 h**). Pediatria ≥8 anos: **1,2 mg/kg** carga e a cada 12 h (máx. 100/50 mg).",
+  "indications": "## Indicações\n\n- Infecções complicadas de pele/tecidos moles e intra-abdominais quando não há melhores alternativas.\n- Uso off-label/reservado em MDR conforme infectologia.\n\n## Precauções\n\n- Sinal de **maior mortalidade** em bacteremia/sepse em algumas análises — não primeira linha em choque.\n- Náuseas/vômitos frequentes. Pancreatite rara. Evitar na gravidez (classe tetraciclina).\n- Não cobre *Pseudomonas*; limitada em *Proteus/Morganella*.\n\n> Incompatível em Y com anfotericina B (incl. lipídica) e diazepam.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola com pó liofilizado contendo 50 mg (Tigeciclina Richet, Tygacil).",
-      "reconstitution": "5 mL de SF ou SG 5%. Conc.: 10 mg/mL.",
-      "diluent": "50 mg em 100 mL de SF ou SG 5%.",
-      "finalConcentration": "0,5 mg/mL.",
-      "administration": "IV direta: Não. IV intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e administrar em 30–60 min.",
-      "notes": "Não administrar simultaneamente com anfotericina B, complexo lipídico de anfotericina B nem diazepam. Quando a dose de ataque for 200 mg, diluir em 200 mL de SF ou SG 5%."
+      "presentation": "FA 50 mg (Tygacil / genéricos).",
+      "dose": "Padrão: carga **100 mg IV**, depois **50 mg a cada 12 h**. Intensificado (infectologia): carga **200 mg**, depois **100 mg a cada 12 h**.",
+      "administration": "Reconstituir 5 mL SF/SG 5%; diluir em 100 mL (carga 200 mg → 200 mL); infundir **30–60 min**. Sem IV direta.",
+      "notes": "Child-Pugh C: reduzir manutenção para 25 mg c/12 h após carga 100 mg (bula)."
+    },
+    "pediatrico": {
+      "presentation": "FA 50 mg.",
+      "dose": "≥8 anos: carga **1,2 mg/kg** (máx. **100 mg**), depois **1,2 mg/kg a cada 12 h** (máx. **50 mg**/dose). ≥12 anos e ≥40 kg: pode usar esquema de adulto.",
+      "administration": "IV 30–60 min.",
+      "notes": "Evitar <8 anos (depósito em dentes/osso como tetraciclinas)."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente.\n\n## Solução diluída (a administrar)\n\n- 48 h em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\n- Náuseas, vômitos, hiperbilirrubinemia, pancreatite (raro).",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~24 h T° amb.\n- Diluído: até ~48 h T° amb (bula).",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, ↑ bilirrubina, pancreatite (rara), fotossensibilidade, *C. difficile*.",
   "bibliography": [
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
+      "citation": "FDA / EMA. Bula tigeciclina — alerta de mortalidade.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "SADI. Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     },
     {
@@ -29,12 +37,12 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Bulas de referência.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

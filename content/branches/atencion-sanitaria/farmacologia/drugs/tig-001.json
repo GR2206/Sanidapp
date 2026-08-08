@@ -2,38 +2,31 @@
   "id": "tig-001",
   "name": "Tigeciclina",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Glicilciclina IV de reserva para polimicrobianos intraabdominales y de piel complicados.",
-  "indications": "## Indicaciones\n\n- Infecciones intraabdominales y de piel complicadas cuando alternativas no son adecuadas.\n\n## Precauciones\n\n- Mayor mortalidad en bacteriemia en algunos estudios; no primera línea en sepsis. Náuseas frecuentes.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Glicilciclina IV de reserva. Adulto: carga **100 mg**, luego **50 mg cada 12 h** (graves: carga **200 mg** → **100 mg c/12 h**). Pediatría ≥8 años: **1,2 mg/kg** carga y cada 12 h (máx. 100/50 mg).",
+  "indications": "## Indicaciones\n\n- Infecciones complicadas de piel y tejidos blandos e intraabdominales cuando no hay mejores alternativas.\n- Uso off-label/reservado en MDR según infectología.\n\n## Precauciones\n\n- Señal de **mayor mortalidad** en bacteriemia/sepsis en algunos análisis — no primera línea en shock.\n- Náuseas/vómitos frecuentes. Pancreatitis rara. Evitar en embarazo (clase tetraciclina).\n- No cubrir *Pseudomonas*; limitada en *Proteus/Morganella*.\n\n> Incompatible en Y con anfotericina B (incl. lipídica) y diazepam.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 50 mg (Tigeciclina Richet, Tygacil).",
-      "reconstitution": "5 mL de SF o DX 5%. Conc: 10 mg/mL.",
-      "diluent": "50 mg en 100 mL de SF o DX 5%.",
-      "finalConcentration": "0,5 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 100 mL de SF o DX 5% y admin. en 30-60 min.",
-      "notes": "No administrar en forma simultánea con anfotericina B, anfotericina B complejo lipídico ni diazepam. Cuando la dosis de carga es de 200 mg, diluir en 200 mL de SF o DX 5%."
+      "presentation": "FA 50 mg (Tygacil / genéricos).",
+      "dose": "Estándar: carga **100 mg IV**, luego **50 mg cada 12 h**. Esquemas intensificados (infectología): carga **200 mg**, luego **100 mg cada 12 h**.",
+      "administration": "Reconstituir 5 mL SF/DX 5%; diluir en 100 mL (carga 200 mg → 200 mL); infundir **30–60 min**. No IV directa.",
+      "notes": "Hepático Child-Pugh C: reducir mantenimiento a 25 mg c/12 h tras carga 100 mg (ficha)."
+    },
+    "pediatrico": {
+      "presentation": "FA 50 mg.",
+      "dose": "≥8 años: carga **1,2 mg/kg** (máx. **100 mg**), luego **1,2 mg/kg cada 12 h** (máx. **50 mg**/dosis). ≥12 años y ≥40 kg: puede usarse esquema de adulto.",
+      "administration": "IV 30–60 min.",
+      "notes": "Evitar <8 años (deposición en dientes/hueso como tetraciclinas)."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb.\n\n## Solución diluida (a administrar)\n\n- 48 hs a T° amb.",
-  "adverseEffects": "## Efectos\n\n- Náuseas, vómitos, hiperbilirrubinemia, pancreatitis (raro).",
+  "stability": "## Estabilidad\n\n- Reconstituido: ~24 h T° amb.\n- Diluido: hasta ~48 h T° amb (prospecto).",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, diarrea, ↑ bilirrubina, pancreatitis (rara), fotosensibilidad, *C. difficile*.",
   "bibliography": [
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "AEMPS CIMA. Ficha técnica Tygacil (tigeciclina).", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "FDA / EMA prescribing information — tigecycline mortality warning.", "url": "https://www.fda.gov/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.", "url": "https://www.sadi.org.ar/" }
   ]
 }

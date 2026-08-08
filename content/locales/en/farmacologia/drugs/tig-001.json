@@ -2,26 +2,34 @@
   "id": "tig-001",
   "name": "Tigecycline",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "IV glycylcycline reserved for complicated intra-abdominal and skin polymicrobial infections.",
-  "indications": "## Indications\n\n- Complicated intra-abdominal and skin infections when alternatives are not suitable.\n\n## Precautions\n\n- Higher mortality in bacteremia in some studies; not first-line in sepsis.\n- Frequent nausea.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "executiveSummary": "IV glycylcycline reserve. Adult: load **100 mg**, then **50 mg every 12 h** (severe: load **200 mg** → **100 mg q12h**). Pediatrics ≥8 years: **1.2 mg/kg** load and every 12 h (max 100/50 mg).",
+  "indications": "## Indications\n\n- Complicated skin/soft-tissue and intra-abdominal infections when better alternatives are lacking.\n- Off-label/reserved MDR use per ID.\n\n## Precautions\n\n- **Increased mortality** signal in bacteremia/sepsis in some analyses — not first-line in shock.\n- Frequent nausea/vomiting. Rare pancreatitis. Avoid in pregnancy (tetracycline class).\n- No *Pseudomonas* coverage; limited vs *Proteus/Morganella*.\n\n> Y-site incompatible with amphotericin B (incl. lipid) and diazepam.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial with lyophilized powder containing 50 mg (Tigeciclina Richet, Tygacil).",
-      "reconstitution": "5 mL normal saline (NS) or 5% dextrose (D5W). Concentration: 10 mg/mL.",
-      "diluent": "50 mg in 100 mL of NS or D5W.",
-      "finalConcentration": "0.5 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL NS or D5W and infuse over 30–60 min.",
-      "notes": "Do not administer simultaneously with amphotericin B, amphotericin B lipid complex, or diazepam. If the loading dose is 200 mg, dilute in 200 mL of NS or D5W."
+      "presentation": "Vial 50 mg (Tygacil / generics).",
+      "dose": "Standard: load **100 mg IV**, then **50 mg every 12 h**. Intensified (ID): load **200 mg**, then **100 mg every 12 h**.",
+      "administration": "Reconstitute 5 mL NS/D5W; dilute in 100 mL (200 mg load → 200 mL); infuse **30–60 min**. No IV push.",
+      "notes": "Child-Pugh C: reduce maintenance to 25 mg q12h after 100 mg load (label)."
+    },
+    "pediatrico": {
+      "presentation": "Vial 50 mg.",
+      "dose": "≥8 years: load **1.2 mg/kg** (max **100 mg**), then **1.2 mg/kg every 12 h** (max **50 mg**/dose). ≥12 years and ≥40 kg: adult regimen may be used.",
+      "administration": "IV 30–60 min.",
+      "notes": "Avoid <8 years (tooth/bone deposition like tetracyclines)."
     }
   },
-  "stability": "## Stability\n\n- Reconstituted (in vial): 24 h at room temperature.\n- Diluted solution (to be administered): 48 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\n- Nausea, vomiting, hyperbilirubinemia, pancreatitis (rare).",
+  "stability": "## Stability\n\n- Reconstituted: ~24 h room temp.\n- Diluted: up to ~48 h room temp (label).",
+  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, diarrhea, ↑ bilirubin, pancreatitis (rare), photosensitivity, *C. difficile*.",
   "bibliography": [
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
+      "citation": "FDA / EMA. Tigecycline prescribing information — mortality warning.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "SADI. Guidelines and consensus statements.",
       "url": "https://www.sadi.org.ar/"
     },
     {
@@ -29,12 +37,12 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }
