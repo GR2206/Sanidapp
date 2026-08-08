@@ -3,7 +3,6 @@ export type DrugDoseScheme = {
   maxDailyDoseMgPerKgPerDay: number;
   maxDosesPerDay: number;
   doseIntervalHours: number;
-  indication?: string;
 };
 
 export type DrugCalculationParams = {
@@ -40,6 +39,24 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "asa-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 50,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "fus-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 40,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
   "ami-001": {
     "schemes": [
       {
@@ -59,19 +76,10 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "teo-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 5,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
-      }
-    ]
-  },
   "amd-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 5,
+        "maxDailyDoseMgPerKgPerDay": 10,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
       }
@@ -128,10 +136,24 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "amp-002": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 150,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 300,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6
+      }
+    ]
+  },
   "amf-003": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 0.5,
+        "maxDailyDoseMgPerKgPerDay": 5,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
       }
@@ -150,15 +172,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
     "schemes": [
       {
         "maxDailyDoseMgPerKgPerDay": 5,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
-      }
-    ]
-  },
-  "ani-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 3,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
       }
@@ -232,35 +245,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 120,
         "maxDosesPerDay": 4,
         "doseIntervalHours": 6
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 120,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 150,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      }
-    ]
-  },
-  "azt-002": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 90,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 120,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 90,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
       },
       {
         "maxDailyDoseMgPerKgPerDay": 120,
@@ -532,25 +516,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "cef-010": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 18,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 24,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 36,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      }
-    ]
-  },
   "cef-007": {
     "schemes": [
       {
@@ -570,20 +535,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       },
       {
         "maxDailyDoseMgPerKgPerDay": 150,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      }
-    ]
-  },
-  "cef-012": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 90,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 135,
         "maxDosesPerDay": 3,
         "doseIntervalHours": 8
       }
@@ -693,27 +644,21 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "clp-001": {
+  "clz-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 3,
-        "maxDosesPerDay": 6,
-        "doseIntervalHours": 4
-      },
+        "maxDailyDoseMgPerKgPerDay": 0.03,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "cpg-001": {
+    "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 6,
-        "maxDosesPerDay": 6,
-        "doseIntervalHours": 4
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 2,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 4,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6
+        "maxDailyDoseMgPerKgPerDay": 1,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       }
     ]
   },
@@ -734,9 +679,18 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
   "dxt-001": {
     "schemes": [
       {
+        "maxDailyDoseMgPerKgPerDay": 0.3,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "dic-001": {
+    "schemes": [
+      {
         "maxDailyDoseMgPerKgPerDay": 2,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       }
     ]
   },
@@ -766,25 +720,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 5,
         "maxDosesPerDay": 3,
         "doseIntervalHours": 8
-      }
-    ]
-  },
-  "dig-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 0.01,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 0.02,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 0.005,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
       }
     ]
   },
@@ -836,6 +771,15 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "dom-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.75,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
   "dox-001": {
     "schemes": [
       {
@@ -878,30 +822,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "eno-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 1,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 1.5,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 2,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 3,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
-      }
-    ]
-  },
   "eri-001": {
     "schemes": [
       {
@@ -913,15 +833,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 50,
         "maxDosesPerDay": 4,
         "doseIntervalHours": 6
-      }
-    ]
-  },
-  "ert-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 30,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
       }
     ]
   },
@@ -1140,6 +1051,24 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "gbp-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 15,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "gnc-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 5,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
   "gen-001": {
     "schemes": [
       {
@@ -1229,9 +1158,18 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
   "hdc-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 8,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6
+        "maxDailyDoseMgPerKgPerDay": 5,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "hxz-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 2,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       }
     ]
   },
@@ -1260,6 +1198,22 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 1.8,
         "maxDosesPerDay": 3,
         "doseIntervalHours": 8
+      }
+    ]
+  },
+  "ibu-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 20,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6,
+        "indication": "VO/IV fiebre-dolor (5 mg/kg)"
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 30,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8,
+        "indication": "VO/IV fiebre-dolor (10 mg/kg; máx. 30 mg/kg/día)"
       }
     ]
   },
@@ -1378,20 +1332,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "lin-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 30,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 20,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
-      }
-    ]
-  },
   "lis-001": {
     "schemes": [
       {
@@ -1401,6 +1341,15 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       },
       {
         "maxDailyDoseMgPerKgPerDay": 0.6,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "lop-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.24,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
       }
@@ -1422,6 +1371,15 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 0.15,
         "maxDosesPerDay": 3,
         "doseIntervalHours": 8
+      }
+    ]
+  },
+  "los-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.75,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       }
     ]
   },
@@ -1522,6 +1480,15 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "nap-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 10,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
   "nif-001": {
     "schemes": [
       {
@@ -1598,6 +1565,15 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "ond-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.45,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      }
+    ]
+  },
   "ose-001": {
     "schemes": [
       {
@@ -1670,6 +1646,31 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "pct-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 60,
+        "maxDosesPerDay": 6,
+        "doseIntervalHours": 4,
+        "indication": "VO 10 mg/kg cada 4 h"
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 60,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6,
+        "indication": "VO/IV 15 mg/kg cada 6 h (~60 mg/kg/día)"
+      }
+    ]
+  },
+  "pip-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 300,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      }
+    ]
+  },
   "pol-001": {
     "schemes": [
       {
@@ -1694,17 +1695,12 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "pos-001": {
+  "prd-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 12,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 18,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
+        "maxDailyDoseMgPerKgPerDay": 3,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       }
     ]
   },
@@ -1895,6 +1891,15 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       },
       {
         "maxDailyDoseMgPerKgPerDay": 3,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
+  "sul-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 100,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
       }
@@ -2124,17 +2129,17 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "vor-001": {
+  "war-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 18,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
+        "maxDailyDoseMgPerKgPerDay": 0.1,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       },
       {
-        "maxDailyDoseMgPerKgPerDay": 16,
-        "maxDosesPerDay": 2,
-        "doseIntervalHours": 12
+        "maxDailyDoseMgPerKgPerDay": 0.2,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
       }
     ]
   },
@@ -2177,19 +2182,31 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "amp-002": {
+  "teo-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 150,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6,
-        "indication": "Infecciones leves / moderadas y profilaxis"
+        "maxDailyDoseMgPerKgPerDay": 5,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      }
+    ]
+  },
+  "cef-010": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 18,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
       },
       {
-        "maxDailyDoseMgPerKgPerDay": 300,
-        "maxDosesPerDay": 4,
-        "doseIntervalHours": 6,
-        "indication": "Infecciones graves (meningitis, bacteriemia, intraabdominal, osteomielitis)"
+        "maxDailyDoseMgPerKgPerDay": 24,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 36,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
       }
     ]
   },
@@ -2207,6 +2224,20 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "cef-012": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 90,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 135,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      }
+    ]
+  },
   "caf-001": {
     "schemes": [
       {
@@ -2218,6 +2249,30 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 2.5,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
+      }
+    ]
+  },
+  "clp-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 3,
+        "maxDosesPerDay": 6,
+        "doseIntervalHours": 4
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 6,
+        "maxDosesPerDay": 6,
+        "doseIntervalHours": 4
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 2,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 4,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6
       }
     ]
   },
@@ -2259,6 +2314,25 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
+  "dig-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.01,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.02,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 0.005,
+        "maxDosesPerDay": 1,
+        "doseIntervalHours": 24
+      }
+    ]
+  },
   "bup-001": {
     "schemes": [
       {
@@ -2268,12 +2342,50 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "ond-001": {
+  "eno-001": {
     "schemes": [
       {
-        "maxDailyDoseMgPerKgPerDay": 0.45,
+        "maxDailyDoseMgPerKgPerDay": 1,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 1.5,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 2,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 3,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      }
+    ]
+  },
+  "ert-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 30,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      }
+    ]
+  },
+  "lin-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 30,
         "maxDosesPerDay": 3,
         "doseIntervalHours": 8
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 20,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
       }
     ]
   },
@@ -2381,15 +2493,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "los-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 0.75,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
-      }
-    ]
-  },
   "roc-001": {
     "schemes": [
       {
@@ -2418,15 +2521,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       }
     ]
   },
-  "pip-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 300,
-        "maxDosesPerDay": 3,
-        "doseIntervalHours": 8
-      }
-    ]
-  },
   "sal-001": {
     "schemes": [
       {
@@ -2448,6 +2542,34 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
         "maxDailyDoseMgPerKgPerDay": 1,
         "maxDosesPerDay": 4,
         "doseIntervalHours": 6
+      }
+    ]
+  },
+  "pos-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 12,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 18,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      }
+    ]
+  },
+  "vor-001": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 18,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 16,
+        "maxDosesPerDay": 2,
+        "doseIntervalHours": 12
       }
     ]
   },
@@ -2479,20 +2601,6 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       },
       {
         "maxDailyDoseMgPerKgPerDay": 200,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
-      }
-    ]
-  },
-  "war-001": {
-    "schemes": [
-      {
-        "maxDailyDoseMgPerKgPerDay": 0.1,
-        "maxDosesPerDay": 1,
-        "doseIntervalHours": 24
-      },
-      {
-        "maxDailyDoseMgPerKgPerDay": 0.2,
         "maxDosesPerDay": 1,
         "doseIntervalHours": 24
       }
@@ -2536,6 +2644,35 @@ export const DRUG_CALCULATION_PARAMS: Record<string, DrugCalculationParams> = {
       },
       {
         "maxDailyDoseMgPerKgPerDay": 0.025,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      }
+    ]
+  },
+  "azt-002": {
+    "schemes": [
+      {
+        "maxDailyDoseMgPerKgPerDay": 90,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 120,
+        "maxDosesPerDay": 4,
+        "doseIntervalHours": 6
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 90,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 120,
+        "maxDosesPerDay": 3,
+        "doseIntervalHours": 8
+      },
+      {
+        "maxDailyDoseMgPerKgPerDay": 150,
         "maxDosesPerDay": 3,
         "doseIntervalHours": 8
       }

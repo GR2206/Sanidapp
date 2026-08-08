@@ -138,6 +138,34 @@ const manualOverrides = {
     { maxDailyDoseMgPerKgPerDay: 40, maxDosesPerDay: 3, doseIntervalHours: 8 },
     { maxDailyDoseMgPerKgPerDay: 45, maxDosesPerDay: 3, doseIntervalHours: 8 },
   ]),
+  'ibu-001': asParams([
+    {
+      maxDailyDoseMgPerKgPerDay: 20,
+      maxDosesPerDay: 4,
+      doseIntervalHours: 6,
+      indication: 'VO/IV fiebre-dolor (5 mg/kg)',
+    },
+    {
+      maxDailyDoseMgPerKgPerDay: 30,
+      maxDosesPerDay: 3,
+      doseIntervalHours: 8,
+      indication: 'VO/IV fiebre-dolor (10 mg/kg; máx. 30 mg/kg/día)',
+    },
+  ]),
+  'pct-001': asParams([
+    {
+      maxDailyDoseMgPerKgPerDay: 60,
+      maxDosesPerDay: 6,
+      doseIntervalHours: 4,
+      indication: 'VO 10 mg/kg cada 4 h',
+    },
+    {
+      maxDailyDoseMgPerKgPerDay: 60,
+      maxDosesPerDay: 4,
+      doseIntervalHours: 6,
+      indication: 'VO/IV 15 mg/kg cada 6 h (~60 mg/kg/día)',
+    },
+  ]),
   'adr-001': null,
   'nor-001': null,
   'dob-001': null,

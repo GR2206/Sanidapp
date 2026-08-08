@@ -5,7 +5,16 @@ export type CalculationDrugCatalogEntry = {
 
 export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   {
+    "id": "ace-001"
+  },
+  {
     "id": "aci-001"
+  },
+  {
+    "id": "asa-001"
+  },
+  {
+    "id": "fus-001"
   },
   {
     "id": "ade-001"
@@ -14,7 +23,13 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "adr-001"
   },
   {
+    "id": "abz-001"
+  },
+  {
     "id": "alb-001"
+  },
+  {
+    "id": "alp-001"
   },
   {
     "id": "ami-001"
@@ -53,7 +68,13 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "ani-001"
   },
   {
+    "id": "apx-001"
+  },
+  {
     "id": "ate-001"
+  },
+  {
+    "id": "ato-001"
   },
   {
     "id": "atr-002"
@@ -71,13 +92,22 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "azt-002"
   },
   {
+    "id": "bec-001"
+  },
+  {
     "id": "bic-001"
+  },
+  {
+    "id": "bcd-001"
   },
   {
     "id": "bis-001"
   },
   {
     "id": "ipr-001"
+  },
+  {
+    "id": "bud-001"
   },
   {
     "id": "bum-001"
@@ -134,6 +164,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "cef-003"
   },
   {
+    "id": "cet-001"
+  },
+  {
     "id": "cip-001"
   },
   {
@@ -149,7 +182,13 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "cli-001"
   },
   {
+    "id": "clz-001"
+  },
+  {
     "id": "clo-001"
+  },
+  {
+    "id": "cpg-001"
   },
   {
     "id": "clp-001"
@@ -164,10 +203,22 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "nsh-001"
   },
   {
+    "id": "ctm-001"
+  },
+  {
+    "id": "cod-001"
+  },
+  {
     "id": "col-001"
   },
   {
+    "id": "dab-001"
+  },
+  {
     "id": "dap-001"
+  },
+  {
+    "id": "dsl-001"
   },
   {
     "id": "des-001"
@@ -203,6 +254,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "dob-001"
   },
   {
+    "id": "dom-001"
+  },
+  {
     "id": "dop-001"
   },
   {
@@ -224,6 +278,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "ert-001"
   },
   {
+    "id": "esc-001"
+  },
+  {
     "id": "esm-001"
   },
   {
@@ -231,6 +288,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   },
   {
     "id": "est-001"
+  },
+  {
+    "id": "fam-001"
   },
   {
     "id": "fen-001"
@@ -243,6 +303,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   },
   {
     "id": "fnt-001"
+  },
+  {
+    "id": "fex-001"
   },
   {
     "id": "vit-001"
@@ -260,6 +323,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "fon-001"
   },
   {
+    "id": "for-001"
+  },
+  {
     "id": "fsc-001"
   },
   {
@@ -272,10 +338,16 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "fur-001"
   },
   {
+    "id": "gbp-001"
+  },
+  {
     "id": "gnc-001"
   },
   {
     "id": "gen-001"
+  },
+  {
+    "id": "glb-001"
   },
   {
     "id": "glc-001"
@@ -299,10 +371,16 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "hdc-001"
   },
   {
+    "id": "hxz-001"
+  },
+  {
     "id": "fer-001"
   },
   {
     "id": "hio-001"
+  },
+  {
+    "id": "ibu-001"
   },
   {
     "id": "imp-001"
@@ -311,10 +389,10 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "imu-001"
   },
   {
-    "id": "inp-001"
+    "id": "ins-001"
   },
   {
-    "id": "ins-001"
+    "id": "inp-001"
   },
   {
     "id": "isa-001"
@@ -324,6 +402,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   },
   {
     "id": "ivb-001"
+  },
+  {
+    "id": "ivm-001"
   },
   {
     "id": "ket-001"
@@ -341,6 +422,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "lev-001"
   },
   {
+    "id": "lmp-001"
+  },
+  {
     "id": "ltx-001"
   },
   {
@@ -353,6 +437,12 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "lis-001"
   },
   {
+    "id": "lop-001"
+  },
+  {
+    "id": "lrt-001"
+  },
+  {
     "id": "lor-001"
   },
   {
@@ -362,7 +452,13 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "man-001"
   },
   {
+    "id": "meb-001"
+  },
+  {
     "id": "mer-001"
+  },
+  {
+    "id": "mfm-001"
   },
   {
     "id": "mep-001"
@@ -389,16 +485,28 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "min-001"
   },
   {
+    "id": "mlk-001"
+  },
+  {
     "id": "mor-001"
   },
   {
     "id": "mox-001"
   },
   {
+    "id": "mup-001"
+  },
+  {
     "id": "nal-001"
   },
   {
+    "id": "nap-001"
+  },
+  {
     "id": "nif-001"
+  },
+  {
+    "id": "nys-001"
   },
   {
     "id": "nit-001"
@@ -414,6 +522,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   },
   {
     "id": "oct-001"
+  },
+  {
+    "id": "olz-001"
   },
   {
     "id": "olm-001"
@@ -437,6 +548,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "pan-001"
   },
   {
+    "id": "pct-001"
+  },
+  {
     "id": "pen-002"
   },
   {
@@ -452,6 +566,12 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "pos-001"
   },
   {
+    "id": "prd-001"
+  },
+  {
+    "id": "prg-001"
+  },
+  {
     "id": "ppf-001"
   },
   {
@@ -462,6 +582,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   },
   {
     "id": "prt-001"
+  },
+  {
+    "id": "qtp-001"
   },
   {
     "id": "ram-001"
@@ -476,6 +599,12 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
     "id": "rif-001"
   },
   {
+    "id": "ris-001"
+  },
+  {
+    "id": "riv-001"
+  },
+  {
     "id": "roc-001"
   },
   {
@@ -483,6 +612,9 @@ export const CALCULATION_DRUG_CATALOG: CalculationDrugCatalogEntry[] = [
   },
   {
     "id": "sal-001"
+  },
+  {
+    "id": "srt-001"
   },
   {
     "id": "sil-001"
