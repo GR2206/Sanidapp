@@ -2,10 +2,10 @@
   "id": "rem-001",
   "name": "Remifentanilo",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anestésico opioide. Coadyuvante de la anestesia general. Rápido comienzo de acción y metabolización rápida.",
-  "indications": "## Indicaciones principales\n\nAnestésico opioide. Coadyuvante de la anestesia general. Rápido comienzo de acción y metabolización rápida.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Opioide ultracorto. Adulto: **0,05–0,2 mcg/kg/min**. Pediatría: bolo **0,5 mcg/kg** → **0,1–0,3 mcg/kg/min**. NNU: **0,05–0,25 mcg/kg/min** — solo anestesia/neonatología.",
+  "indications": "## Indicaciones\n\n- Coadyuvante de anestesia general; sedación/analgesia con vía aérea asegurada.\n\n## Precauciones\n\n- Apnea, rigidez torácica, bradicardia, hipotensión.\n- **No epidural/intratecal** (glicina en formulación).\n\n> Uso exclusivo de especialista.",
   "dilution": {
     "adulto": {
       "presentation": "Frasco 1–5 mg.",
@@ -19,8 +19,10 @@
       "notes": "USO EXCLUSIVO DEL ESPECIALISTA. No administrar por vía epidural o intratecal (la glicina de la formulación puede causar neurotoxicidad)."
     },
     "neonatal": {
-      "dose": "Uso en NNU según protocolo anestésico/neonatal.",
-      "administration": "IV."
+      "presentation": "Liofilizado 1–5 mg; dilución NNU (p. ej. 20–50 mcg/mL).",
+      "dose": "Infusión **0,05–0,25 mcg/kg/min** IV continuo; bolo raro **0,5–1 mcg/kg** lento — solo anestesia/neonatología con vía aérea asegurada.",
+      "administration": "IV exclusiva en bomba.",
+      "notes": "Titular a respuesta; riesgo alto de apnea/rigidez."
     }
   },
   "stability": "## Estabilidad\n\n- Reconstituir según prospecto; usar en 24 h.",

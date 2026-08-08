@@ -2,9 +2,9 @@
   "id": "bum-001",
   "name": "Bumetanida",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-25",
-  "executiveSummary": "Diurético de asa más potente que furosemida mg a mg; útil en resistencia a furosemida.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Diurético de asa (≈40× furosemida mg a mg). Adulto **0,5–1 mg** IV. Pediatría **0,015–0,05 mg/kg/dosis**. NNU **0,01–0,05 mg/kg/dosis** c/12–24 h.",
   "indications": "## Indicaciones\n\n- Edema en ICC, cirrosis, IRC cuando se requiere diuresis potente.\n\n## Precauciones\n\n- Hipokalemia y hipovolemia. Ajustar en hepatopatía severa.\n\n> Ajustar según protocolo institucional y prescripción médica.",
   "dilution": {
     "adulto": {
@@ -17,8 +17,9 @@
       "administration": "IV/IM."
     },
     "neonatal": {
-      "dose": "0,01–0,05 mg/kg/dosis según protocolo.",
-      "administration": "IV."
+      "dose": "**0,01–0,05 mg/kg/dosis IV** cada **12–24 h**; titular a diuresis — neonatología.",
+      "administration": "IV.",
+      "notes": "Vigilar hipokalemia e hipovolemia."
     }
   },
   "stability": "## Estabilidad\n\n- Usar tras extracción sin dilución habitual.",

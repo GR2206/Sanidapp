@@ -2,57 +2,51 @@
   "id": "pro-001",
   "name": "Propofol",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Anesthetic. Sedation in ventilated patients.",
-  "indications": "## Main indications\n\nAnesthetic. Sedation in ventilated patients.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "IV hypnotic. Adult induction **1–2.5 mg/kg**; ped **2–2.5 mg/kg**. ICU sedation: **25–75 mcg/kg/min** or **0.25–4 mg/kg/h**. NICU: highly restricted — if used, low bolus **1–2 mg/kg** / minimal titrated infusion.",
+  "indications": "## Indications\n\n- Anesthetic induction/maintenance; sedation in ventilated patients.\n- Not analgesic — combine opioid if pain.\n\n## Precautions\n\n- Hypotension, apnea, injection-site pain. Propofol infusion syndrome (rare) at high/prolonged doses.\n- Caution in lipid disorders / pancreatitis.\n- Emulsion: aseptic technique; discard **6–12 h** after opening.\n\n> May be used undiluted (10 mg/mL) or diluted in D5W (= **2 mg/mL**).",
   "dilution": {
     "adulto": {
-      "presentation": "Lipid emulsion 10 mg/mL (vial/ampoule).",
-      "dose": "Induction 1–2,5 mg/kg IV; sedation 25–75 mcg/kg/min.",
-      "administration": "IV undiluted or infusion per protocol.",
-      "notes": "Monitor triglycerides and lactic acid with infusion > 48 h."
+      "presentation": "Emulsion 10 mg/mL.",
+      "dose": "Induction **1–2.5 mg/kg IV**. Sedation **25–75 mcg/kg/min** (equiv. orient. **1.5–4.5 mg/kg/h**) titrated.",
+      "administration": "Slow IV bolus or infusion; dedicated line preferred.",
+      "notes": "Monitor BP, triglycerides, and lactate if infusion >48 h."
     },
     "pediatrico": {
-      "presentation": "Powder vial/ampoules 20 ml: 10 mg/ml",
-      "administration": "IV",
-      "finalConcentration": "Administer undiluted.",
-      "infusionRate": "Bolus over 20 to 30 seconds.",
-      "dose": "Bolus: 2 - 2,5 mg/kg Continuous infusion: 0,25 - 4 mg/kg/h, maximum 48 h for peri-extubation period.",
-      "notes": "Rapid-onset, short-duration hypnotic agent. No analgesic effects. Caution in patients with cardiorespiratory instability and lipid metabolism disorders (pancreatitis, primary hyperlipoproteinemia, diabetic hyperlipidemia). Infusion stability: 6 h. May be administered undiluted or diluted in 5% dextrose at concentration > 2 mg/ml. Store refrigerated. See standardized PICU analgosedation preparations."
+      "presentation": "Ampules/vials 20 mL: 10 mg/mL.",
+      "finalConcentration": "Undiluted or =2 mg/mL in D5W.",
+      "dose": "Bolus **2–2.5 mg/kg**. Continuous infusion **0.25–4 mg/kg/h** (common max peri-extubation sedation ~48 h).",
+      "infusionRate": "Bolus 20–30 s.",
+      "administration": "IV.",
+      "notes": "Opened line stability ~6 h. Store per package insert."
     },
     "neonatal": {
-      "dose": "Restricted use in NICU; sedation regimens per protocol.",
-      "administration": "IV."
+      "presentation": "10 mg/mL; exceptional NICU use.",
+      "dose": "Highly restricted. If anesthesia/procedure: bolus **1–2 mg/kg IV** slow; infusion specialist only at minimal titrated doses (e.g. **0.5–2 mg/kg/h**).",
+      "administration": "IV with secured airway / full monitoring.",
+      "notes": "Prefer validated NICU alternatives when available."
     }
   },
-  "stability": "## General\n\n- Aseptic chain; use within 6–12 h after opening per service policy.\n\n## Pediatric guide\n\n- Do not refrigerate. Discard remainder once opened. Dilution stable 12 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nApnea, pain at injection site. Possible psychomotor excitation and decreased heart rate.",
+  "stability": "## Stability\n\n- Aseptic chain. Discard remainder 6–12 h after opening. Dilution in D5W: ~12 h room temperature (local guide).",
+  "adverseEffects": "## Adverse effects\n\nApnea, hypotension, bradycardia, local pain, hypertriglyceridemia, infusion syndrome (rare).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Propofol* (code 0434, ATC N01AX).",
+      "citation": "Hospital Garrahan. Formulario — propofol.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "citation": "SCCM. ICU sedation — propofol.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "AEMPS CIMA. Propofol.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Prospectos propofol.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

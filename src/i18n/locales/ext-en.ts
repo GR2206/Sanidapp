@@ -1078,7 +1078,7 @@ export const extEn = {
     doseForDrug: 'Dose · {{drug}}',
     doseValue: '{{value}} mg · q{{hours}}h',
     doseIndication: 'Indication',
-    doseUnavailable: 'No dose data for this drug.',
+    doseUnavailable: 'No dosing scheme is available for this drug with the entered weight.',
     bsa: 'Body surface area',
     bsaUnit: '{{value}} m²',
     bmi: 'Body mass index',

@@ -40,8 +40,8 @@
       "id": "adr-001",
       "name": "Adrenalina (epinefrina)",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "abz-001",
@@ -54,8 +54,8 @@
       "id": "alb-001",
       "name": "Albúmina humana",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "alp-001",
@@ -75,8 +75,8 @@
       "id": "teo-001",
       "name": "Aminofilina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "amd-001",
@@ -215,8 +215,8 @@
       "id": "bic-001",
       "name": "Bicarbonato de sodio",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "bcd-001",
@@ -250,8 +250,8 @@
       "id": "bum-001",
       "name": "Bumetanida",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-25"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "bup-001",
@@ -369,8 +369,8 @@
       "id": "cef-003",
       "name": "Cefuroxima",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "cet-001",
@@ -446,15 +446,15 @@
       "id": "cac-001",
       "name": "Cloruro de calcio",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "kcl-001",
       "name": "Cloruro de potasio",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "nsh-001",
@@ -481,7 +481,7 @@
       "id": "col-001",
       "name": "Colistina",
       "branch": "atencion-sanitaria",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "updatedAt": "2026-08-08"
     },
     {
@@ -579,8 +579,8 @@
       "id": "dob-001",
       "name": "Dobutamina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dom-001",
@@ -593,8 +593,8 @@
       "id": "dop-001",
       "name": "Dopamina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dox-001",
@@ -831,15 +831,15 @@
       "id": "hef-001",
       "name": "Heparina sódica",
       "branch": "atencion-sanitaria",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "updatedAt": "2026-08-08"
     },
     {
       "id": "hdr-001",
       "name": "Hidralazina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "hct-001",
@@ -901,8 +901,8 @@
       "id": "ins-001",
       "name": "Insulina corriente",
       "branch": "atencion-sanitaria",
-      "version": "1.2",
-      "updatedAt": "2026-07-11"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "inp-001",
@@ -943,8 +943,8 @@
       "id": "ket-001",
       "name": "Ketamina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ktr-001",
@@ -964,8 +964,8 @@
       "id": "lvt-001",
       "name": "Levetiracetam",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "lev-001",
@@ -1202,8 +1202,8 @@
       "id": "nor-001",
       "name": "Noradrenalina (norepinefrina)",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "oct-001",
@@ -1300,8 +1300,8 @@
       "id": "pol-001",
       "name": "Polimixina B",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "pos-001",
@@ -1335,8 +1335,8 @@
       "id": "pro-001",
       "name": "Propofol",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "prp-001",
@@ -1377,8 +1377,8 @@
       "id": "rem-001",
       "name": "Remifentanilo",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "rif-001",
@@ -1405,8 +1405,8 @@
       "id": "roc-001",
       "name": "Rocuronio",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "sav-001",

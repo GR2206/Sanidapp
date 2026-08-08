@@ -2,53 +2,52 @@
   "id": "teo-001",
   "name": "Aminophylline",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Increases diaphragmatic contractility. Apnea of the newborn.",
-  "indications": "## Main indications\n\nIncreases diaphragmatic contractility. Apnea of the newborn.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Methylxanthine. Adult: load **5–6 mg/kg** slow IV; maintenance **0.5–0.7 mg/kg/h**. Pediatrics load **7 mg/kg**; maint. **0.4–0.8 mg/kg/h** by age. Neonatal apnea: load **5 mg/kg**; maint. **2.5 mg/kg every 12 h** (**5 mg/kg/day**).",
+  "indications": "## Indications\n\n- Apnea of prematurity (alternative/adjunct to caffeine per center).\n- Bronchospasm / diaphragmatic support in selected regimens.\n\n## Precautions\n\n- Narrow therapeutic window: tachycardia, vomiting, seizures.\n- Interactions: ↑ levels with macrolides/quinolones; ↓ with rifampin/phenobarbital/phenytoin.\n\n> Titrate with serum levels when available.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 24 mg/mL (theophylline equivalent).",
-      "dose": "Loading 5–6 mg/kg slow IV; maintenance 0.5 mg/kg/h.",
-      "administration": "Slow IV."
+      "presentation": "Ampule 24 mg/mL (aminophylline ≈ theophylline equivalent per monograph).",
+      "dose": "Load **5–6 mg/kg IV** over 20–30 min; maintenance **0.5–0.7 mg/kg/h** continuous IV.",
+      "administration": "Slow IV / pump; preferably dilute in NS or D5W (usual conc. **1 mg/mL**, max **25 mg/mL**).",
+      "notes": "Bronchodilator target orient. peak **10–15 µg/mL**."
     },
     "pediatrico": {
-      "presentation": "10 mL ampoules: 24 mg/mL",
-      "administration": "IV",
-      "diluent": "5% dextrose.",
-      "finalConcentration": "25 mg/mL.",
-      "infusionRate": "20 to 30 min with syringe pump.",
-      "dose": "IV loading dose: 7 mg/kg/dose over 20-30 minutes. Maintenance dose: 1-6 months: 0.4 mg/kg/hour, 6-12 months: 0.6 mg/kg/hour, 1-9 years: 0.8 mg/kg/hour, > 10 years and adults: 0.7 mg/kg/hour. Apnea of the newborn: loading dose: 5 mg/kg, maintenance: 5 mg/kg/day every 12 h (monitor serum levels to determine appropriate dose).",
-      "notes": "Serum concentration: primary newborn apnea: 3-10 µg/mL, bronchodilator peak 10-15 µg/mL. Increase theophylline levels: erythromycin, ciprofloxacin, norfloxacin. Decrease theophylline levels: rifampicin, carbamazepine, phenobarbital, phenytoin. Increases risk of hypokalemia with high doses of salbutamol. For administration dilute with normal saline (preferably) or 5% dextrose to a concentration of 1 mg/mL (maximum concentration: 25 mg/mL)."
+      "presentation": "Ampules 10 mL: 24 mg/mL.",
+      "diluent": "0.9% NS or D5W.",
+      "finalConcentration": "Usual **1 mg/mL** (max **25 mg/mL**).",
+      "dose": "IV load: **7 mg/kg** over 20–30 min. Maintenance: **1–6 months 0.4 mg/kg/h**; **6–12 months 0.6 mg/kg/h**; **1–9 years 0.8 mg/kg/h**; **≥10 years 0.7 mg/kg/h**.",
+      "infusionRate": "Load 20–30 min via pump.",
+      "administration": "IV.",
+      "notes": "Neonatal apnea: see neonatal profile. Monitor levels."
     },
     "neonatal": {
-      "dose": "Loading and maintenance according to NICU apnea protocol.",
-      "administration": "IV on pump."
+      "presentation": "Ampule 24 mg/mL.",
+      "dose": "Neonatal apnea: load **5 mg/kg IV** over 20–30 min; maintenance **2.5 mg/kg/dose every 12 h** (**5 mg/kg/day**) — adjust with levels (common target **3–10 µg/mL**).",
+      "administration": "IV via pump; dilute NS/D5W (usual conc. 1 mg/mL).",
+      "notes": "Watch HR, vomiting, seizures."
     }
   },
-  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nIrritability, restlessness, seizures, headache, insomnia, palpitations, hypotension, extrasystoles, hyperglycemia, abdominal pain, vomiting.",
+  "stability": "## Stability\n\n- Opened ampule: discard remainder. Dilutions: follow local guide (~24 h).",
+  "adverseEffects": "## Adverse effects\n\nIrritability, tachycardia, arrhythmias, vomiting, seizures, hypokalemia (with β-agonists).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — amiNOphylline (code 0012, ATC R03DA).",
+      "citation": "Hospital Garrahan. Formulario — aminofilina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "AAP. Apnea of prematurity medication context.",
       "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. Aminofilina/teofilina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Prospectos aminofilina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

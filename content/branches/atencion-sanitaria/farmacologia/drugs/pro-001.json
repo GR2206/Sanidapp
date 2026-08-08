@@ -2,56 +2,38 @@
   "id": "pro-001",
   "name": "Propofol",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anestésico. Sedación en pacientes ventilados.",
-  "indications": "## Indicaciones principales\n\nAnestésico. Sedación en pacientes ventilados.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Hipnótico IV. Inducción adulto **1–2,5 mg/kg**; ped **2–2,5 mg/kg**. Sedación UCI: **25–75 mcg/kg/min** o **0,25–4 mg/kg/h**. NNU: uso muy restringido — si se usa, bolo bajo **1–2 mg/kg** / infusión mínima titulada.",
+  "indications": "## Indicaciones\n\n- Inducción/mantenimiento anestésico; sedación en paciente ventilado.\n- No analgésico — asociar opioide si dolor.\n\n## Precauciones\n\n- Hipotensión, apnea, dolor en inyección. Síndrome de infusión de propofol (raro) en dosis altas/prolongadas.\n- Precaución en trastornos lipídicos / pancreatitis.\n- Emulsión: técnica aséptica; desechar a las **6–12 h** de abierto.\n\n> Puede usarse sin diluir (10 mg/mL) o diluido en Dext. 5% (≥ **2 mg/mL**).",
   "dilution": {
     "adulto": {
-      "presentation": "Emulsión lipídica 10 mg/mL (frasco/ampolla).",
-      "dose": "Inducción 1–2,5 mg/kg IV; sedación 25–75 mcg/kg/min.",
-      "administration": "IV sin dilución o en infusión según protocolo.",
-      "notes": "Monitorizar triglicéridos y ácido láctico en infusión > 48 h."
+      "presentation": "Emulsión 10 mg/mL.",
+      "dose": "Inducción **1–2,5 mg/kg IV**. Sedación **25–75 mcg/kg/min** (equiv. orient. **1,5–4,5 mg/kg/h**) titulada.",
+      "administration": "IV bolo lento o infusión; vía dedicada preferible.",
+      "notes": "Monitorizar PA, triglicéridos y lactato si infusión prolongada (>48 h)."
     },
     "pediatrico": {
-      "presentation": "F.A. /ampollas por 20 ml: 10 mg/ml",
-      "administration": "E.V.",
-      "finalConcentration": "Administrar sin diluir.",
-      "infusionRate": "Bolo de 20 a 30 segundos.",
-      "dose": "Bolo: 2 - 2,5 mg/kg Infusión continua: 0,25 - 4 mg/kg/h, máximo 48 hs para el período periextubación.",
-      "notes": "Agente hipnótico de rápido inicio y corta duración. No tiene efectos analgésicos. Precaución en pacientes con inestabilidad cardiocirculatoria y desórdenes del metabolismo lipídico (pancreatitis, hiperlipoproteinemia primaria, hiperlipidemia diabética). Estabilidad de la infusión: 6 hs. Puede administrarse sin diluir o diuido en Dx 5% a concentración mayor de 2 mg/ml. Conservar en heladera. Ver preparaciones estandarizadas de analgosedación en UCIP."
+      "presentation": "Ampollas/frascos 20 mL: 10 mg/mL.",
+      "finalConcentration": "Sin diluir o ≥2 mg/mL en Dext. 5%.",
+      "dose": "Bolo **2–2,5 mg/kg**. Infusión continua **0,25–4 mg/kg/h** (máx. frec. sedación peri-extubación ~48 h).",
+      "infusionRate": "Bolo 20–30 s.",
+      "administration": "IV.",
+      "notes": "Estabilidad de línea abierta ~6 h. Conservar según prospecto."
     },
     "neonatal": {
-      "dose": "Uso restringido en NNU; esquemas de sedación según protocolo.",
-      "administration": "IV."
+      "presentation": "10 mg/mL; uso excepcional NNU.",
+      "dose": "Uso muy restringido. Si anestesia/procedimiento: bolo **1–2 mg/kg IV** lento; infusión solo especialista a dosis mínimas tituladas (p. ej. **0,5–2 mg/kg/h**).",
+      "administration": "IV con vía aérea asegurada / monitorización completa.",
+      "notes": "Preferir alternativas validadas en NNU cuando existan."
     }
   },
-  "stability": "## General\n\n- Cadena aséptica; usar en 6–12 h tras apertura según norma del servicio.\n\n## Cartilla pediátrica\n\n- No refrigerar. Desechar el sobrante una vez abierto. Dilución estable 12 hs a T° ambiente.",
-  "adverseEffects": "## Efectos adversos\n\nApnea, dolor en el sitio de la inyección. Posible excitación psicomotriz y disminución de la frecuencia cardíaca.",
+  "stability": "## Estabilidad\n\n- Cadena aséptica. Desechar sobrante a las 6–12 h de apertura. Dilución en Dext. 5%: ~12 h T° amb (cartilla).",
+  "adverseEffects": "## Efectos adversos\n\nApnea, hipotensión, bradicardia, dolor local, hipertrigliceridemia, síndrome de infusión (raro).",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Propofol* (cód. 0434, ATC N01AX).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "Hospital Garrahan. Formulario — propofol.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "SCCM. ICU sedation — propofol.", "url": "https://www.sccm.org/" },
+    { "citation": "AEMPS CIMA. Propofol.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos propofol.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

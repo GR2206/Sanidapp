@@ -2,10 +2,10 @@
   "id": "alb-001",
   "name": "Albúmina humana",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Expansor de volumen plasmático. Quemaduras.",
-  "indications": "## Indicaciones principales\n\nExpansor de volumen plasmático. Quemaduras.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Coloide. Adulto: **0,5–1 g/kg**. Pediatría shock: albúmina 5% **5–10 mL/kg** (**0,25–0,5 g/kg**). NNU: **0,5–1 g/kg** (o 5% **10–20 mL/kg**) IV lento.",
+  "indications": "## Indicaciones\n\n- Expansión volumétrica seleccionada; quemaduras; paracentesis de gran volumen.\n\n## Precauciones\n\n- Sobrecarga hídrica; alergia rara.\n\n> No sustituye cristaloides como primera línea en la mayoría de shocks.",
   "dilution": {
     "adulto": {
       "presentation": "Frasco 20% o 25% albúmina.",
@@ -19,8 +19,10 @@
       "notes": "Velocidad de infusión: 0,25-1 ml/min Ver Soluciones Coloidales (Boletín CIME)"
     },
     "neonatal": {
-      "dose": "Reposición en shock neonatal según protocolo NNU.",
-      "administration": "IV lenta."
+      "presentation": "Frasco 20% o 5% según stock NNU.",
+      "dose": "Hipoalbuminemia / expansión seleccionada: **0,5–1 g/kg** IV (equiv. orient. albúmina 5% **10–20 mL/kg** o 20% **2,5–5 mL/kg**) lento en 1–2 h.",
+      "administration": "IV lenta; no mezclar con otros fármacos en la misma línea.",
+      "notes": "Vigilar sobrecarga; neonatología."
     }
   },
   "stability": "## Estabilidad\n\n- Usar inmediatamente tras pinzar; no mezclar con otros fármacos.",

@@ -2,33 +2,34 @@
   "id": "hdr-001",
   "name": "Hydralazine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Antihypertensive. Vasodilator.",
-  "indications": "## Main indications\n\nAntihypertensive. Vasodilator.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Arterial vasodilator. Adult IV **5–10 mg** every 20–30 min. Pediatrics PO initial **0.25 mg/kg/dose**. Neonates IV **0.1–0.5 mg/kg/dose** every 6–8 h — cardiology.",
+  "indications": "## Indications\n\n- Hypertension (incl. selected crises); post–cardiac surgery in pediatrics/NICU.\n\n## Precautions\n\n- Reflex tachycardia, hypotension. Adjust in CKD.\n\n> Slow IV with monitoring.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 20 mg/mL.",
-      "dose": "5–10 mg IV every 20–30 min; max. 20 mg/dose obstetric.",
+      "presentation": "Ampule 20 mg/mL.",
+      "dose": "5–10 mg IV every 20–30 min; max 20 mg/dose obstetric.",
       "administration": "Slow IV."
     },
     "pediatrico": {
-      "dose": "Infants and children: initial: 0.25 mg/kg/dose 3 to 4 times per day, maximum: 25 mg/dose; increase over 3 to 4 weeks up to infants: 5 mg/kg/day and children: 7.5 mg/kg/day, maximum: 200 mg/day. In patients with mild to moderate renal insufficiency administer every 8 h, in severe renal insufficiency for fast acetylators every 8 to 16 h and slow acetylators every 12 to 24 h. Adults: initial: 10 mg every 6 h, increase 10 to 25 mg/dose every 2 to 5 days up to 300 mg/day. Usual dose range for hypertension: 25 to 100 mg/day in 2 doses.",
-      "administration": "PO",
-      "presentation": "Tablets: 25 - 50 mg",
-      "notes": "Prolonged use of hydralazine may cause pyridoxine deficiency. Indomethacin may decrease the hypotensive effects of hydralazine. Use with caution in patients with severe renal insufficiency. Administer with food."
+      "dose": "Infants and children: initial 0.25 mg/kg/dose 3–4 times daily, max 25 mg/dose; increase over 3–4 weeks up to infants 5 mg/kg/day and children 7.5 mg/kg/day, max 200 mg/day. Mild–moderate renal impairment: every 8 h; severe renal impairment for rapid acetylators every 8–16 h and slow acetylators every 12–24 h. Adults: initial 10 mg every 6 h, increase 10–25 mg/dose every 2–5 days up to 300 mg/day. Usual hypertension range: 25–100 mg/day in 2 doses.",
+      "administration": "PO.",
+      "presentation": "Tablets: 25–50 mg",
+      "notes": "Prolonged hydralazine use may cause pyridoxine deficiency. Indomethacin may reduce hypotensive effects. Use caution in severe renal impairment. Give with food."
     },
     "neonatal": {
-      "dose": "0.1–0.5 mg/kg/dose per cardiology protocol.",
-      "administration": "IV."
+      "presentation": "Ampule 20 mg/mL; NICU dilution.",
+      "dose": "**0.1–0.5 mg/kg/dose IV** slow every **6–8 h**; titrate to BP — cardiology/neonatology.",
+      "administration": "Slow IV.",
+      "notes": "Watch tachycardia and hypotension."
     }
   },
   "stability": "## Stability\n\n- Use after withdrawal.",
   "adverseEffects": "## Adverse effects\n\nPalpitations, tachycardia, edema, orthostatic hypotension, headache, fever, anorexia, nausea, vomiting.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Hydralazine (code 1554, ATC C02DB).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Hidralazina (cód. 1554, ATC C02DB).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -36,16 +37,17 @@
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
       "url": "https://www.sccm.org/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
       "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

@@ -2,9 +2,9 @@
   "id": "col-001",
   "name": "Colistina",
   "branch": "atencion-sanitaria",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "updatedAt": "2026-08-08",
-  "executiveSummary": "Polimixina para gramnegativos XDR. Dosis en **mg de colistina base (CBA)**. Adulto: carga **~5 mg CBA/kg** (máx. a menudo **300 mg**), luego **~2,5 mg CBA/kg cada 12 h** o esquema institucional. Pediatría **~2,5 mg CBA/kg cada 12 h**.",
+  "executiveSummary": "Polimixina XDR en **mg CBA**. Adulto: carga **~5 mg CBA/kg** (máx. frec. **300 mg**), mant. **~2,5 mg CBA/kg c/12 h**. Pediatría **~2,5 mg CBA/kg c/12 h**. NNU: **2,5–5 mg CBA/kg/día** dividido c/8–12 h.",
   "indications": "## Indicaciones\n\n- Infecciones por *Acinetobacter*, *Pseudomonas*, enterobacterales XDR cuando no hay alternativas.\n- Fibrosis quística (IV/inhalada según protocolo).\n- Intratecal/intraventricular: solo neurocirugía/infectología.\n\n## Precauciones\n\n- **Nefro y neurotoxicidad**. Monitorizar creatinina y signos neurológicos.\n- Confirmar si la etiqueta expresa **CBA**, **CMS** o **UI** — no intercambiar sin conversión.\n- Equivalencia orientativa: **1 mg CBA ≈ 2,4 mg CMS ≈ 30.000 UI**; **100 mg CBA ≈ 3 M UI** (viales locales frecuentes).\n\n> Preferir peso ideal en obesos según protocolo PK.",
   "dilution": {
     "adulto": {
@@ -20,10 +20,10 @@
       "notes": "Misma conversión CBA/CMS/UI que en adultos."
     },
     "neonatal": {
-      "presentation": "Uso NNU especializado.",
-      "dose": "Según protocolo NNU y función renal; no dosis fija universal.",
-      "administration": "IV.",
-      "notes": "Monitorización renal estricta."
+      "presentation": "FA 100 mg CBA; uso NNU especializado.",
+      "dose": "**2,5–5 mg CBA/kg/día IV** dividido cada **8–12 h**; prematuros/IRC: dosis o intervalo más conservadores — infectología + función renal.",
+      "administration": "IV lento / infusión.",
+      "notes": "Monitorización renal estricta; confirmar CBA vs CMS/UI del vial."
     }
   },
   "stability": "## Estabilidad\n\n- Reconstituido: ~24 h T° amb / ~48 h refrigerado (prospecto).\n- Diluido: preferir uso inmediato (~8–24 h según cartilla).",

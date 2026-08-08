@@ -2,35 +2,35 @@
   "id": "hef-001",
   "name": "Unfractionated heparin",
   "branch": "atencion-sanitaria",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updatedAt": "2026-08-08",
-  "executiveSummary": "UFH. ACS/DVT: bolus **60–80 IU/kg** (usual max **4000–5000 IU**) then **12–18 IU/kg/h** IV titrated to aPTT/anti-Xa. SC prophylaxis: **5000 IU q8–12h**. Antidote: **protamine**. HIT risk — monitor platelets.",
-  "indications": "## Indications\n\n- Treatment/prophylaxis of thromboembolism; ACS; cardiopulmonary bypass; perioperative bridge.\n\n## Precautions\n\n- Bleeding; HIT type II (stop and do not use LMWH if HIT).\n- aPTT q6h until stable. Adjust in obesity/CKD per protocol.\n- Not IM. Neuraxial anesthesia: strict safety windows.\n\n> Prefer LMWH in many ambulatory settings; UFH if imminent surgery or severe CKD.",
+  "executiveSummary": "UFH. Adult: bolus **60–80 units/kg** then **12–18 units/kg/h** IV. Pediatrics: bolus **75 units/kg** → **20–28 units/kg/h**. NICU: bolus **75 units/kg** → **28 units/kg/h** titrated to anti-Xa/aPTT. Prophylaxis SC **5000 units every 8–12 h**.",
+  "indications": "## Indications\n\n- Treatment/prophylaxis of thromboembolism; ACS; CPB; perioperative bridge.\n\n## Precautions\n\n- Bleeding; HIT. aPTT/anti-Xa every 6 h until stable.\n- Not IM. Neuraxial anesthesia: safety intervals.\n\n> Antidote: **protamine** (~1 mg per 100 units recent UFH; common max initial dose 50 mg).",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoules 1000–5000 IU/mL; syringes.",
-      "dose": "IV treatment: bolus **80 IU/kg** (or **60** in ACS) → infusion **18 IU/kg/h** (ACS often **12 IU/kg/h**) titrated. Prophylaxis: **5000 IU SC q8–12h**. Line flushes: local concentrations (e.g. 10–100 IU/mL) — not therapeutic.",
-      "administration": "IV pump / SC abdomen. Never IM.",
-      "notes": "Protamine: ~1 mg per 100 IU UFH in last 2–3 h (usual initial max ~50 mg)."
+      "presentation": "Ampules 1000–5000 units/mL.",
+      "dose": "IV treatment: bolus **80 units/kg** (ACS often **60 units/kg**, common max **4000–5000 units**) → infusion **18 units/kg/h** (ACS **12 units/kg/h**) titrated. Prophylaxis: **5000 units SC every 8–12 h**.",
+      "administration": "IV pump / SC. Never IM.",
+      "notes": "Line flush (10–100 units/mL) is not a therapeutic dose."
     },
     "pediatrico": {
-      "presentation": "Ampoules; pharmacy dilution.",
-      "dose": "Bolus **75 IU/kg** → **20–28 IU/kg/h** (younger/neonates higher per kg) — protocol + anti-Xa/aPTT.",
+      "presentation": "Ampules; pharmacy dilution.",
+      "dose": "Bolus **75 units/kg** → infusion **20–28 units/kg/h** titrated to anti-Xa/aPTT.",
       "administration": "IV/SC.",
       "notes": "Hematology/ICU."
     },
     "neonatal": {
-      "presentation": "NICU dilution.",
-      "dose": "NICU schemes (bolus ~75 IU/kg; infusion ~28 IU/kg/h) — protocol only.",
-      "administration": "IV.",
-      "notes": "Anti-Xa."
+      "presentation": "NICU dilution (e.g. 50–100 units/mL).",
+      "dose": "Bolus **75 units/kg IV** → infusion **28 units/kg/h**; titrate to anti-Xa (common target **0.3–0.7 units/mL**) — neonatology/hematology.",
+      "administration": "IV pump.",
+      "notes": "Frequent adjustment due to neonatal clearance."
     }
   },
   "stability": "## Stability\n\n- Infusion in NS/D5W per compatibility; prepare extemporaneously.",
-  "adverseEffects": "## Adverse effects\n\nBleeding, hematoma, HIT, osteoporosis (chronic), alopecia, hyperkalemia.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, hematoma, HIT, osteoporosis (chronic), hyperkalemia.",
   "bibliography": [
     {
-      "citation": "AEMPS CIMA. Sodium heparin.",
+      "citation": "AEMPS CIMA. Heparina sódica.",
       "url": "https://cima.aemps.es/cima/"
     },
     {
@@ -42,7 +42,7 @@
       "url": "https://www.chestnet.org/"
     },
     {
-      "citation": "ANMAT. Authorized product information.",
+      "citation": "ANMAT. Prospectos heparina.",
       "url": "https://www.argentina.gob.ar/anmat"
     }
   ],

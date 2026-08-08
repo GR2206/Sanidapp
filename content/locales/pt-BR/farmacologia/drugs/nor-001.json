@@ -1,71 +1,59 @@
 {
   "id": "nor-001",
   "name": "Noradrenalina (norepinefrina)",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Simpaticomimético. Choque cardiogênico ou séptico com hipotensão refratária com baixa resistência periférica.",
-  "indications": "## Indicações principais\n\nSimpaticomimético. Choque cardiogênico ou séptico com hipotensão refratária com baixa resistência periférica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Vasopressor de 1ª linha no choque séptico. Adulto: início **0,05–0,1 mcg/kg/min** (ou **4–8 mcg/min**) ajustar à PAM. Pediatria/UTIN: **0,05–1 mcg/kg/min** (máx. habitual **2 mcg/kg/min**). Via central + bomba.",
+  "indications": "## Indicações\n\n- Choque vasodilatado (séptico) com hipotensão apesar de volume.\n- Outros choques com RVS baixa.\n\n## Precauções\n\n- Isquemia digital/mesentérica; arritmias; extravasamento → necrose (tratar com fentolamina local conforme protocolo).\n- Preferir glicose 5% como diluente em muitos guias (oxidação em SF).\n\n> Não substitui reanimação com fluidos nem o tratamento da causa.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
-      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
-      "diluent": "SG 5% ou NaCl 0,9%.",
-      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
-      "dose": "Início habitual 0,05–0,1 mcg/kg/min; titular até PAM objetivo (prescrição).",
+      "presentation": "Ampola 1 mg/mL (frequente 4 mL = 4 mg).",
+      "diluent": "Preferível SG 5%; SF conforme ficha local.",
+      "finalConcentration": "Ex. 4–16 mcg/mL (guia do serviço).",
+      "dose": "Início **0,05–0,1 mcg/kg/min** ou **4–8 mcg/min**; ajustar (faixas frequentes **8–12 mcg/min**; altas **>30 mcg/min** só UTI).",
       "infusionRate": "Infusão contínua em bomba.",
-      "administration": "E.V. contínua em bomba; via central preferida.",
-      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
-      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+      "administration": "IV central preferida; nunca IM.",
+      "notes": "Monitorar PAM, lactato, diurese, perfusão periférica."
     },
     "pediatrico": {
-      "presentation": "Ampolas de 4 ml: 1 mg/ml",
-      "administration": "E.V.",
-      "diluent": "SOMENTE Dext. 5%.",
-      "finalConcentration": "Usual 4 mcg/mL. Em restrição hídrica, 16 mcg/mL.",
-      "infusionRate": "Somente por BIC.",
-      "dose": "0,05–1 µg/kg/minuto, dose máxima: 2 µg/kg/min Adultos: iniciar 4 µg/minuto, Infusão: 8–12 µg/minuto",
-      "notes": "Oxida-se rapidamente, não utilizar se apresentar coloração marrom. Não se recomenda diluir em solução fisiológica. Os efeitos da noradrenalina podem ser aumentados na presença de antidepressivos tricíclicos, anti-histamínico e beta-bloqueantes."
+      "presentation": "Ampolas 4 mL: 1 mg/mL.",
+      "diluent": "Preferível SG 5%.",
+      "finalConcentration": "Usual **4 mcg/mL**; restrição hídrica **16 mcg/mL**.",
+      "dose": "**0,05–1 mcg/kg/min**; máx. habitual **2 mcg/kg/min**.",
+      "infusionRate": "Só bomba.",
+      "administration": "IV.",
+      "notes": "Não usar se coloração marrom. Desprezar o restante."
     },
     "neonatal": {
-      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
-      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
-      "diluent": "SG 5% ou NaCl 0,9%.",
-      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
-      "dose": "0,05–1 mcg/kg/min conforme protocolo UCIN e peso.",
-      "infusionRate": "Titular conforme PA e perfusão",
-      "administration": "E.V. contínua em bomba; via central preferida.",
-      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
-      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+      "presentation": "Ampola 1 mg/mL; diluição UTIN.",
+      "diluent": "Preferível SG 5%.",
+      "finalConcentration": "Ex. **4–16 mcg/mL** (guia UTIN).",
+      "dose": "**0,05–1 mcg/kg/min** IV contínuo; ajustar à PAM/perfusão (máx. frequente **1–2 mcg/kg/min**).",
+      "infusionRate": "Bomba; via central preferida.",
+      "administration": "IV.",
+      "notes": "Monitorização invasiva quando disponível."
     }
   },
-  "stability": "## Geral\n\n- Proteger da luz. Trocar solução conforme política do serviço (habitualmente 24 h).\n\n## Guia pediátrica\n\n- Descartar o sobrante uma vez aberta. Diluição estável 24 h em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\nHipertensão, necrose, bradicardia. Uso prolongado: diminuição do débito cardíaco, depleção do volume plasmático, vasoconstrição periférica e visceral severa. Além disso, cardiopatia por estresse.",
+  "stability": "## Estabilidade\n\n- Proteger da luz. Diluição em bomba: ~24 h à temperatura ambiente (guia local). Desprezar se oxidada.",
+  "adverseEffects": "## Efeitos adversos\n\nHipertensão, bradicardia reflexa, isquemia, necrose por extravasamento, arritmias.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NORadrenalina (cód. 1401, ATC C01CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "citation": "Surviving Sepsis Campaign — norepinephrine first-line.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "Hospital Garrahan. Formulario — noradrenalina.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AHA. ACLS vasopressor context.",
+      "url": "https://cpr.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Prospectos noradrenalina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

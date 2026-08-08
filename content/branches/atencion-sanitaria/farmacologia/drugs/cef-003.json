@@ -2,10 +2,10 @@
   "id": "cef-003",
   "name": "Cefuroxima",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Cefalosporina de segunda generación. Tratamiento de infecciones del tracto respiratorio alto y bajo, otitis media, tracto urinario, piel y tejidos blandos, hueso y articulaciones por bacterias gram positivas y Haemophilus influenzae, Escherichia coli y Klebsiella.",
-  "indications": "## Indicaciones principales\n\nCefalosporina de segunda generación. Tratamiento de infecciones del tracto respiratorio alto y bajo, otitis media, tracto urinario, piel y tejidos blandos, hueso y articulaciones por bacterias gram positivas y Haemophilus influenzae, Escherichia coli y Klebsiella.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Cefalosporina 2.ª gen. Adulto IV **750 mg–1,5 g c/8 h**. Pediatría **75–150 mg/kg/día c/8 h** (meningitis hasta **240 mg/kg/día**). NNU: **50–100 mg/kg/día** dividido c/8–12 h según EG/peso.",
+  "indications": "## Indicaciones\n\n- Infecciones respiratorias, ORL, urinarias, piel/partes blandas, óseas por gérmenes sensibles (incl. *H. influenzae*, E. coli, Klebsiella).\n- Profilaxis quirúrgica seleccionada.\n\n## Precauciones\n\n- Alergia a betalactámicos. Ajustar en IRC.\n- No de elección en meningitis por *H. influenzae* (preferir 3.ª gen).\n\n> IV o VO según presentación.",
   "dilution": {
     "adulto": {
       "presentation": "Frasco 750 mg, 1,5 g IV; tabletas 250–500 mg VO.",
@@ -22,8 +22,10 @@
       "notes": "No se aconseja en meningitis por Haemophilus influenzae. Ajustar dosis en insuficiencia renal."
     },
     "neonatal": {
-      "dose": "Dosis según protocolo NNU.",
-      "administration": "IV."
+      "presentation": "Frasco 750 mg; reconstitución NNU.",
+      "dose": "**50–100 mg/kg/día IV** dividido cada **8–12 h** según edad gestacional y peso (infecciones no meníngeas). Meningitis: preferir otras cefalosporinas — si se usa, esquemas altos solo infectología/NNU.",
+      "administration": "IV lento 3–5 min o infusión.",
+      "notes": "Ajustar intervalo en prematurez/IRC."
     }
   },
   "stability": "## General\n\n- IV diluida: 24 h refrigerada.\n\n## Cartilla pediátrica\n\n- 24 hs a T° ambiente y 48 hs en heladera entre 4° C y 8° C.",

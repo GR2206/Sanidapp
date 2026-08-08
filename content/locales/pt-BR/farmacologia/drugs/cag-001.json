@@ -4,51 +4,51 @@
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
   "updatedAt": "2026-08-08",
-  "translationReviewed": true,
   "executiveSummary": "Sal de cálcio IV. Adulto hiperK / hipocalcemia sintomática: **1–2 g (10–20 mL a 10%)** IV lento. Pediatria: **0,5–1 mL/kg** de gluconato 10% (máx. freq. **10–20 mL**/dose). Monitorar ECG; risco de necrose se extravasamento.",
-  "indications": "## Indicações\n\n- Hiperpotassemia com alterações de ECG (estabilização de membrana).\n- Hipocalcemia sintomática; toxicidade por bloqueadores de cálcio / hipermagnesemia (protocolos).\n\n## Precauções\n\n- **Não misturar com bicarbonato nem fosfato** (precipita). Preferir via central ou periferia bem permeável.\n- Interromper se bradicardia.\n- Cloreto de cálcio tem mais Ca elemental/mL — não trocar mL a mL.\n\n> Ampola 10%: ~**100 mg gluconato/mL** ≈ **9 mg Ca elemental/mL** (~0,46 mEq/mL).",
+  "indications": "## Indicações\n\n- Hiperpotassemia com alterações de ECG (estabilização de membrana).\n- Hipocalcemia sintomática; toxicidade por bloqueadores de cálcio / hipermagnesemia (protocolos).\n\n## Precauções\n\n- **Não misturar com bicarbonato nem fosfato** (precipita). Preferir via central ou periferia bem permeável.\n- Interromper se bradicardia. Corrigir hipocalemia concomitante com critério.\n- Cloreto de cálcio tem mais Ca elemental/mL — não intercambiar mL a mL.\n\n> Ampola 10%: ~**100 mg gluconato/mL** ~ **9 mg Ca elemental/mL** (~0,46 mEq/mL).",
   "dilution": {
     "adulto": {
       "presentation": "Ampola 10% (10 mL).",
-      "dose": "HiperK / emergência: **10–20 mL (1–2 g)** IV em **2–5–10 min**; repetir em 5–10 min se persistirem alterações de ECG. Hipocalcemia: **1–2 g** e depois infusão conforme Ca iônico.",
+      "dose": "HiperK / emergência: **10–20 mL (1–2 g)** IV em **2–5–10 min**; repetir aos 5–10 min se persistirem alterações de ECG. Hipocalcemia: **1–2 g** e depois infusão conforme Ca iônico.",
       "administration": "IV lento sob monitorização; diluir se infusão (até ~50 mg/mL). Velocidade push orient. **0,5–1 mL/min**.",
-      "notes": "Extravasamento → necrose. Compatível com SF/SG; não com HCO3−/PO4."
+      "notes": "Extravasamento → necrose. Compatível com SF/DX; não com HCO3-/PO4."
     },
     "pediatrico": {
       "presentation": "Ampola 10 mL a 10%.",
-      "dose": "Hipocalcemia sintomática / hiperK: **0,5–1 mL/kg** de 10% (**50–100 mg/kg** gluconato; máx. freq. **10 mL**/dose) em 5–10 min; pode repetir ou seguir com **~5 mL/kg/dia** em infusão. Assintomática (se não VO): **2–5 mL/kg/dia**.",
+      "dose": "Hipocalcemia sintomática / hiperK: **0,5–1 mL/kg** a 10% (**50–100 mg/kg** gluconato; máx. freq. **10 mL**/dose) em 5–10 min; pode repetir ou passar a **~5 mL/kg/dia** em infusão. Assintomática (se não VO): **2–5 mL/kg/dia**.",
       "administration": "IV; diluir; controlar FC.",
       "notes": "Ver boletim institucional de eletrólitos."
     },
     "neonatal": {
-      "presentation": "Ampola 10%; cartilha UTI neonatal.",
-      "dose": "**1–2 mL/kg** de gluconato 10% IV lento (ou conforme protocolo de hipocalcemia neonatal).",
+      "presentation": "Ampola 10%; guia UTIN.",
+      "dose": "**1–2 mL/kg** de gluconato 10% (**100–200 mg/kg**) IV lento; pode repetir ou passar a infusão conforme Ca iônico.",
       "administration": "IV lento com monitorização.",
       "notes": "Via preferente segura; evitar extravasamento."
     }
   },
-  "stability": "## Estabilidade\n\n- Preferir via dedicada; descartar ampola aberta conforme cartilha.",
+  "stability": "## Estabilidade\n\n- Usar via dedicada se possível; desprezar ampola aberta conforme guia local.",
   "adverseEffects": "## Efeitos adversos\n\nBradicardia, hipotensão se rápido; calcificação/necrose por extravasamento; hipercalcemia.",
   "bibliography": [
     {
-      "citation": "Hospital Garrahan. Formulário — gluconato de cálcio.",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — gluconato de calcio.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "citation": "American Heart Association. ACLS — hyperkalemia / calcium.",
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "AEMPS CIMA. SmPC reference.",
+      "citation": "AEMPS CIMA. Ficha técnica gluconato cálcico.",
       "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM).",
+      "citation": "Society of Critical Care Medicine (SCCM). Electrolyte emergency context.",
       "url": "https://www.sccm.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

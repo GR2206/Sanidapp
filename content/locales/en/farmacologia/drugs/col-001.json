@@ -1,45 +1,44 @@
 {
   "id": "col-001",
-  "name": "Colistin",
+  "name": "Colistin (colistimethate)",
   "branch": "atencion-sanitaria",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "updatedAt": "2026-08-08",
-  "translationReviewed": true,
-  "executiveSummary": "Polymyxin for XDR Gram-negatives. Dose as **mg colistin base activity (CBA)**. Adult: load **~5 mg CBA/kg** (often max **300 mg**), then **~2.5 mg CBA/kg every 12 h** or institutional regimen. Pediatrics **~2.5 mg CBA/kg every 12 h**.",
-  "indications": "## Indications\n\n- Infections by XDR *Acinetobacter*, *Pseudomonas*, Enterobacterales when alternatives are lacking.\n- Cystic fibrosis (IV/inhaled per protocol).\n- Intrathecal/intraventricular: neurosurgery/ID only.\n\n## Precautions\n\n- **Nephro- and neurotoxicity**. Monitor creatinine and neurologic signs.\n- Confirm whether the label expresses **CBA**, **CMS**, or **IU** — do not convert without a factor.\n- Approximate: **1 mg CBA ≈ 2.4 mg CMS ≈ 30,000 IU**; **100 mg CBA ≈ 3 M IU** (common local vials).\n\n> Prefer ideal body weight in obesity per PK protocol.",
+  "executiveSummary": "XDR polymyxin in **mg CBA**. Adult: load **~5 mg CBA/kg** (common max **300 mg**), maint. **~2.5 mg CBA/kg every 12 h**. Pediatrics **~2.5 mg CBA/kg every 12 h**. Neonates: **2.5–5 mg CBA/kg/day** divided every 8–12 h.",
+  "indications": "## Indications\n\n- Infections by *Acinetobacter*, *Pseudomonas*, XDR Enterobacterales when no alternatives.\n- Cystic fibrosis (IV/inhaled per protocol).\n- Intrathecal/intraventricular: neurosurgery/infectious diseases only.\n\n## Precautions\n\n- **Nephro- and neurotoxicity**. Monitor creatinine and neurologic signs.\n- Confirm whether the label states **CBA**, **CMS**, or **units** — do not interchange without conversion.\n- Orientative equivalence: **1 mg CBA ≈ 2.4 mg CMS ≈ 30,000 units**; **100 mg CBA ≈ 3 M units** (common local vials).\n\n> Prefer ideal body weight in obesity per PK protocol.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial often **100 mg CBA** (~3 M IU) / local generics.",
-      "dose": "Loading (critical): **5 mg CBA/kg** (institutional ceiling often **300 mg CBA**). Maintenance (~12 h after load): **2.5 mg CBA/kg every 12 h** or **~150–180 mg CBA/day** divided q8–12 h by guideline/CrCl. Mandatory renal adjustment.",
-      "administration": "IV push: 3–5 mL SW over 3–5 min, or dilute 50–100 mL NS/D5W and infuse 10–30+ min. Also IM/inhaled per protocol.",
-      "notes": "Precipitates with erythromycin, cephalothin, tetracyclines. Potentiates oto/nephrotoxicity with AGs, amphotericin, cisplatin, cyclosporine."
+      "presentation": "Vial frequently **100 mg CBA** (~3 M units) / local generics.",
+      "dose": "Load (critical): **5 mg CBA/kg** (institutional ceiling often **300 mg CBA**). Maintenance (start ~12 h post-load): **2.5 mg CBA/kg every 12 h** or **~150–180 mg CBA/day** divided every 8–12 h per guide/CrCl. Mandatory renal adjustment.",
+      "administration": "Direct IV: 3–5 mL SWFI over 3–5 min, or dilute 50–100 mL NS/D5W and infuse 10–30+ min. Also IM/inhaled per protocol.",
+      "notes": "Precipitates with erythromycin, cephalothin, tetracyclines. Potentiates otonephrotoxicity with AG, amphotericin, cisplatin, cyclosporine."
     },
     "pediatrico": {
-      "presentation": "Vial 100 mg CBA (~3 M IU).",
-      "dose": "Usual: **2.5 mg CBA/kg every 12 h**. Severe/CF/critical: up to **~5–7 mg CBA/kg/day** divided q8h (often max **100 mg**/dose) — ID.",
-      "administration": "IV (slow push or infusion); inhaled/intrathecal only per protocol.",
-      "notes": "Same CBA/CMS/IU conversion as adults."
+      "presentation": "Vial 100 mg CBA (~3 M units).",
+      "dose": "Usual: **2.5 mg CBA/kg every 12 h**. Severe/CF/critical: up to **~5–7 mg CBA/kg/day** divided every 8 h (common max **100 mg**/dose) — infectious diseases.",
+      "administration": "IV (slow bolus or infusion); inhaled/intrathecal protocol only.",
+      "notes": "Same CBA/CMS/units conversion as adults."
     },
     "neonatal": {
-      "presentation": "Specialized NNU use.",
-      "dose": "Per NNU protocol and renal function; no universal fixed dose.",
-      "administration": "IV.",
-      "notes": "Strict renal monitoring."
+      "presentation": "Vial 100 mg CBA; specialized NICU use.",
+      "dose": "**2.5–5 mg CBA/kg/day IV** divided every **8–12 h**; prematurity/CKD: more conservative dose or interval — infectious diseases + renal function.",
+      "administration": "Slow IV / infusion.",
+      "notes": "Strict renal monitoring; confirm CBA vs CMS/units on the vial."
     }
   },
-  "stability": "## Stability\n\n- Reconstituted: ~24 h room temp / ~48 h refrigerated (label).\n- Diluted: prefer immediate use (~8–24 h per local card).",
+  "stability": "## Stability\n\n- Reconstituted: ~24 h room temp / ~48 h refrigerated (package insert).\n- Diluted: prefer immediate use (~8–24 h per local guide).",
   "adverseEffects": "## Adverse effects\n\nNephrotoxicity, paresthesias, muscle weakness, neurotoxicity, bronchospasm (nebulization — β-agonists).",
   "bibliography": [
     {
-      "citation": "Garrahan Hospital. Formulary — colistimethate sodium.",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — colistimetato sódico.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "EMA / AEMPS. Colistimethate — dosing as CBA.",
+      "citation": "EMA / AEMPS. Product information — colistimethate sodium (dosing as CBA).",
       "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "IDSA. Resistant Gram-negative infections — polymyxins.",
+      "citation": "IDSA. Guidance on antimicrobial-resistant Gram-negative infections — polymyxins.",
       "url": "https://www.idsociety.org/"
     },
     {
@@ -47,12 +46,9 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "AEMPS CIMA. SmPC references.",
-      "url": "https://cima.aemps.es/cima/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

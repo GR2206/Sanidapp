@@ -2,50 +2,49 @@
   "id": "cac-001",
   "name": "Calcium chloride",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Treatment of hypocalcemia and hyperkalemia.",
-  "indications": "## Main indications\n\nTreatment of hypocalcemia and hyperkalemia.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Concentrated Ca²⁺ salt. Adult arrest: **1 g (10 mL of 10%)** IV/IO. Pediatrics: **0.1–0.2 mL/kg** (common hyperK max **3 mL**). NICU: **20 mg/kg** slow IV. More elemental Ca/mL than gluconate — do not interchange mL for mL.",
+  "indications": "## Indications\n\n- Symptomatic hypocalcemia; hyperkalemia with ECG changes; Ca²⁺-blocker overdose (protocols).\n- Arrest with suspected reversible cause (hyperK / hypoCa / Ca-blocker overdose).\n\n## Precautions\n\n- Extravasation → severe necrosis; prefer central line.\n- **Incompatible with bicarbonate, phosphate, and sulfate** (precipitates).\n- Do not interchange mL for mL with gluconate.\n\n> Ampule 10%: **100 mg/mL** CaCl₂ ≈ **1.4 mEq Ca²⁺/mL**.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 10% calcium chloride (13.6 mEq Ca/10 mL).",
-      "dose": "Cardiac arrest: 1 g (10 mL) IV/IO. Hypocalcemia: 0.5–1 g slow IV.",
-      "administration": "Slow IV/IO."
+      "presentation": "Ampule 10 mL of 10% (~13.6 mEq Ca /10 mL).",
+      "dose": "Arrest / severe hyperK: **10 mL (1 g)** IV/IO; may repeat. Hypocalcemia: **5–10 mL (0.5–1 g)** slow IV every 6 h per ionized Ca.",
+      "administration": "Slow IV/IO (< **0.5–1 mL/min** push); for infusion dilute ~**20 mg/mL** and infuse ~1 h.",
+      "notes": "Stop if bradycardia. Compatible NS/D5W."
     },
     "pediatrico": {
-      "dose": "Symptomatic hypocalcemia: 0.1 - 0.2 mL/kg/dose (0.14-0.28 mEq Ca++/kg/dose) every 4-6 h. Adults: 5-10 mL/dose (7-14 mEq/dose) every 6 h. Hyperkalemia: 0.3 mL/kg (maximum: 3 mL). See CIME Electrolytes Bulletin.",
-      "administration": "IV",
-      "presentation": "10 mL ampoules: 100 mg of calcium chloride/mL (1.4 mEq Ca++/mL = 27.3 mg Ca++/mL)",
-      "notes": "IV administration must be performed slowly (< 0.5-1 mL/min. For IV infusion dilute to 20 mg of calcium chloride per mL (0.2 mL/mL) and infuse over 1 hour. Compatible solvents: 5% dextrose and SWFI. Incompatible with bicarbonate, phosphate, and sulfate."
+      "presentation": "Ampules 10 mL: 100 mg/mL (1.4 mEq Ca²⁺/mL).",
+      "dose": "Symptomatic hypocalcemia: **0.1–0.2 mL/kg** (**0.14–0.28 mEq/kg**) every 4–6 h. HyperK: **0.3 mL/kg** (common max **3 mL**/dose).",
+      "administration": "Slow IV; dilute for infusion.",
+      "notes": "Monitor ECG."
     },
     "neonatal": {
-      "dose": "20 mg/kg slow IV in cardiac arrest/hypocalcemia NICU.",
-      "administration": "Central IV."
+      "presentation": "Ampule 10%; NICU guide.",
+      "dose": "**20 mg/kg** (= **0.2 mL/kg** of 10%) slow IV in arrest/symptomatic hypocalcemia; may repeat per response.",
+      "administration": "Central IV preferred; slow with monitoring.",
+      "notes": "Avoid extravasation."
     }
   },
-  "stability": "## Stability\n\n- Incompatible with bicarbonate in line.",
-  "adverseEffects": "## Adverse effects\n\nTissue necrosis from extravasation. Monitor heart rate. If bradycardia occurs, stop the infusion.",
+  "stability": "## Stability\n\n- Do not mix with HCO₃⁻/PO₄³⁻ in the same line.",
+  "adverseEffects": "## Adverse effects\n\nBradycardia, hypotension if rapid; necrosis from extravasation; hypercalcemia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — calcium CHLORIDE (ATC A12AA).",
+      "citation": "Hospital Garrahan. Formulario — cloruro de calcio.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA. ACLS — calcium / hyperkalemia.",
+      "url": "https://cpr.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEMPS CIMA. Cloruro cálcico.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Prospectos cloruro de calcio.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

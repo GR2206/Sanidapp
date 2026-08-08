@@ -1,39 +1,42 @@
 {
   "id": "cef-003",
   "name": "Cefuroxima",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Cefalosporina de segunda geração. Tratamento de infecções do trato respiratório alto e baixo, otite média, trato urinário, pele e tecidos moles, osso e articulações por bactérias gram-positivas e *Haemophilus influenzae*, *Escherichia coli* e *Klebsiella*.",
-  "indications": "## Indicações principais\n\nCefalosporina de segunda geração. Tratamento de infecções do trato respiratório alto e baixo, otite média, trato urinário, pele e tecidos moles, osso e articulações por bactérias gram-positivas e *Haemophilus influenzae*, *Escherichia coli* e *Klebsiella*.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Cefalosporina de 2ª geração. Adulto IV **750 mg–1,5 g a cada 8 h**. Pediatria **75–150 mg/kg/dia a cada 8 h** (meningite até **240 mg/kg/dia**). Neonatos: **50–100 mg/kg/dia** dividido a cada 8–12 h conforme IG/peso.",
+  "indications": "## Indicações\n\n- Infecções respiratórias, ORL, urinárias, pele/partes moles, ósseas por germes sensíveis (incl. *H. influenzae*, E. coli, Klebsiella).\n- Profilaxia cirúrgica selecionada.\n\n## Precauções\n\n- Alergia a betalactâmicos. Ajustar na IRC.\n- Não de escolha em meningite por *H. influenzae* (preferir 3ª geração).\n\n> IV ou VO conforme apresentação.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco 750 mg, 1,5 g E.V.; comprimidos 250–500 mg V.O.",
-      "dose": "E.V.: 750 mg–1,5 g a cada 8 h. V.O.: 250–500 mg a cada 12 h.",
-      "administration": "E.V. ou V.O."
+      "presentation": "Frasco 750 mg, 1,5 g IV; comprimidos 250–500 mg VO.",
+      "dose": "IV: 750 mg–1,5 g a cada 8 h. VO: 250–500 mg a cada 12 h.",
+      "administration": "IV ou VO."
     },
     "pediatrico": {
-      "presentation": "F.A.: 750–1500 mg",
-      "administration": "E.V.",
-      "diluent": "AD, SF 0,9%, SG 5%.",
+      "presentation": "Frasco-ampola: 750–1500 mg",
+      "administration": "IV.",
+      "diluent": "AD, Sol. Cl Na 0,9%, SG 5%.",
       "finalConcentration": "250 mg/mL.",
       "infusionRate": "De 3 a 5 min.",
-      "dose": "3 a 12 anos: 75–150 mg/kg/dia a cada 8 h, dose máxima: 6 g/dia; meningite: 240 mg/kg/dia, dose máxima: 9 g/dia; > 13 anos e adultos: 750–1500 mg/dose a cada 8 h, dose máxima: 6 g/dia. Dose pré-cirúrgica em adultos: 1,5 g.",
-      "notes": "Não se aconselha em meningite por *Haemophilus influenzae*. Ajustar dose em insuficiência renal."
+      "dose": "3 a 12 anos: 75–150 mg/kg/dia a cada 8 h, dose máxima: 6 g/dia; meningite: 240 mg/kg/dia, dose máxima: 9 g/dia; ≥13 anos e adultos: 750–1500 mg/dose a cada 8 h, dose máxima: 6 g/dia. Dose pré-cirúrgica em adultos: 1,5 g.",
+      "notes": "Não se aconselha em meningite por Haemophilus influenzae. Ajustar dose na insuficiência renal."
     },
     "neonatal": {
-      "dose": "Dose conforme protocolo da UTI neonatal.",
-      "administration": "E.V."
+      "presentation": "Frasco 750 mg; reconstituição UTIN.",
+      "dose": "**50–100 mg/kg/dia IV** dividido a cada **8–12 h** conforme idade gestacional e peso (infecções não meníngeas). Meningite: preferir outras cefalosporinas — se usado, esquemas altos só infectologia/UTIN.",
+      "administration": "IV lento 3–5 min ou infusão.",
+      "notes": "Ajustar intervalo na prematuridade/IRC."
     }
   },
-  "stability": "## Geral\n\n- E.V. diluída: 24 h refrigerada.\n\n## Guia pediátrica\n\n- 24 h em temperatura ambiente e 48 h refrigerado entre 4 °C e 8 °C.",
-  "adverseEffects": "## Efeitos adversos\n\nNeutropenia, anemia hemolítica, cefaleia, colite pseudomembranosa, flebite no local da injeção, rash, prurido anal.",
+  "stability": "## Estabilidade\n\n- IV diluída: 24 h refrigerada.\n\n## Guia pediátrico\n\n- 24 h à T° ambiente e 48 h na geladeira entre 4 °C e 8 °C.",
+  "adverseEffects": "## Efeitos adversos\n\nNeutropenia, anemia hemolítica, cefaleia, colite pseudomembranosa, flebite no local de injeção, rash, prurido anal.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — cefUROxima (cód. 0041, ATC J01DC).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — cefUROxima (cód. 0041, ATC J01DC).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
+      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
       "url": "https://www.sadi.org.ar/"
     },
     {
@@ -41,14 +44,13 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
       "url": "https://www.sadi.org.ar/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

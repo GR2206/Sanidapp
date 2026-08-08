@@ -1,45 +1,44 @@
 {
   "id": "col-001",
-  "name": "Colistina",
+  "name": "Colistina (colistimetato)",
   "branch": "atencion-sanitaria",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "updatedAt": "2026-08-08",
-  "translationReviewed": true,
-  "executiveSummary": "Polimixina para gram-negativos XDR. Dose em **mg de colistina base (CBA)**. Adulto: carga **~5 mg CBA/kg** (máx. frequentemente **300 mg**), depois **~2,5 mg CBA/kg a cada 12 h** ou esquema institucional. Pediatria **~2,5 mg CBA/kg a cada 12 h**.",
-  "indications": "## Indicações\n\n- Infecções por *Acinetobacter*, *Pseudomonas*, enterobacterales XDR quando não há alternativas.\n- Fibrose cística (IV/inalada conforme protocolo).\n- Intratecal/intraventricular: só neurocirurgia/infectologia.\n\n## Precauções\n\n- **Nefro e neurotoxicidade**. Monitorar creatinina e sinais neurológicos.\n- Confirmar se o rótulo expressa **CBA**, **CMS** ou **UI** — não converter sem fator.\n- Orientativo: **1 mg CBA ≈ 2,4 mg CMS ≈ 30.000 UI**; **100 mg CBA ≈ 3 M UI** (frascos locais frequentes).\n\n> Preferir peso ideal em obesos conforme protocolo PK.",
+  "executiveSummary": "Polimixina XDR em **mg CBA**. Adulto: carga **~5 mg CBA/kg** (máx. freq. **300 mg**), mant. **~2,5 mg CBA/kg a cada 12 h**. Pediatria **~2,5 mg CBA/kg a cada 12 h**. Neonatos: **2,5–5 mg CBA/kg/dia** dividido a cada 8–12 h.",
+  "indications": "## Indicações\n\n- Infecções por *Acinetobacter*, *Pseudomonas*, enterobacterales XDR quando não há alternativas.\n- Fibrose cística (IV/inalada conforme protocolo).\n- Intratecal/intraventricular: só neurocirurgia/infectologia.\n\n## Precauções\n\n- **Nefro e neurotoxicidade**. Monitorar creatinina e sinais neurológicos.\n- Confirmar se o rótulo expressa **CBA**, **CMS** ou **UI** — não intercambiar sem conversão.\n- Equivalência orientativa: **1 mg CBA ≈ 2,4 mg CMS ≈ 30.000 UI**; **100 mg CBA ≈ 3 M UI** (frascos locais frequentes).\n\n> Preferir peso ideal em obesos conforme protocolo PK.",
   "dilution": {
     "adulto": {
       "presentation": "FA frequentemente **100 mg CBA** (~3 M UI) / genéricos locais.",
-      "dose": "Carga (críticos): **5 mg CBA/kg** (teto institucional freq. **300 mg CBA**). Manutenção (~12 h pós-carga): **2,5 mg CBA/kg a cada 12 h** ou **~150–180 mg CBA/dia** dividido c/8–12 h conforme guia/ClCr. Ajuste renal obrigatório.",
+      "dose": "Carga (críticos): **5 mg CBA/kg** (teto institucional freq. **300 mg CBA**). Manutenção (iniciar ~12 h pós-carga): **2,5 mg CBA/kg a cada 12 h** ou **~150–180 mg CBA/dia** dividido a cada 8–12 h conforme guia/ClCr. Ajuste renal obrigatório.",
       "administration": "IV direta: 3–5 mL AD em 3–5 min, ou diluir 50–100 mL SF/SG 5% e infundir 10–30+ min. Também IM/inalatória conforme protocolo.",
-      "notes": "Precipita com eritromicina, cefalotina, tetraciclinas. Potencializa oto/nefrotoxicidade com AG, anfotericina, cisplatina, ciclosporina."
+      "notes": "Precipita com eritromicina, cefalotina, tetraciclinas. Potencia otonefrotoxicidade com AG, anfotericina, cisplatina, ciclosporina."
     },
     "pediatrico": {
       "presentation": "FA 100 mg CBA (~3 M UI).",
-      "dose": "Habitual: **2,5 mg CBA/kg a cada 12 h**. Graves/FQ/críticos: até **~5–7 mg CBA/kg/dia** dividido c/8 h (máx. freq. **100 mg**/dose) — infectologia.",
+      "dose": "Habitual: **2,5 mg CBA/kg a cada 12 h**. Graves/FQ/críticos: até **~5–7 mg CBA/kg/dia** dividido a cada 8 h (máx. freq. **100 mg**/dose) — infectologia.",
       "administration": "IV (bolo lento ou infusão); inalatória/intratecal só protocolo.",
       "notes": "Mesma conversão CBA/CMS/UI que em adultos."
     },
     "neonatal": {
-      "presentation": "Uso especializado em UTI neonatal.",
-      "dose": "Conforme protocolo UTI neonatal e função renal; sem dose fixa universal.",
-      "administration": "IV.",
-      "notes": "Monitorização renal estrita."
+      "presentation": "FA 100 mg CBA; uso UTIN especializado.",
+      "dose": "**2,5–5 mg CBA/kg/dia IV** dividido a cada **8–12 h**; prematuros/IRC: dose ou intervalo mais conservadores — infectologia + função renal.",
+      "administration": "IV lento / infusão.",
+      "notes": "Monitorização renal estrita; confirmar CBA vs CMS/UI do frasco."
     }
   },
-  "stability": "## Estabilidade\n\n- Reconstituído: ~24 h T° amb / ~48 h refrigerado (bula).\n- Diluído: preferir uso imediato (~8–24 h conforme cartilha).",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~24 h T° amb / ~48 h refrigerado (bula).\n- Diluído: preferir uso imediato (~8–24 h conforme guia local).",
   "adverseEffects": "## Efeitos adversos\n\nNefrotoxicidade, parestesias, fraqueza muscular, neurotoxicidade, broncoespasmo (nebulização — β-agonistas).",
   "bibliography": [
     {
-      "citation": "Hospital Garrahan. Formulário — colistimetato sódico.",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — colistimetato sódico.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "EMA / AEMPS. Colistimetato — dose como CBA.",
+      "citation": "EMA / AEMPS. Product information — colistimethate sodium (dosing as CBA).",
       "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "IDSA. Infecções por gram-negativos resistentes — polimixinas.",
+      "citation": "IDSA. Guidance on antimicrobial-resistant Gram-negative infections — polymyxins.",
       "url": "https://www.idsociety.org/"
     },
     {
@@ -47,12 +46,9 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "AEMPS CIMA. Bulas de referência.",
-      "url": "https://cima.aemps.es/cima/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

@@ -2,70 +2,58 @@
   "id": "dop-001",
   "name": "Dopamine",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Positive inotropic effect. Increases renal, coronary, and cerebral flow. Increases diuresis, dose-dependent.",
-  "indications": "## Main indications\n\nPositive inotropic effect. Increases renal, coronary, and cerebral flow. Increases diuresis, dose-dependent.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Dose-dependent catecholamine. Usual ranges: **2–5 mcg/kg/min** (dopaminergic), **5–10 mcg/kg/min** (inotropic), **10–20 mcg/kg/min** (vasopressor). Pediatrics/NICU: **2–20 mcg/kg/min** (common max **50 mcg/kg/min**). Central line + pump.",
+  "indications": "## Indications\n\n- Shock with low output / hypotension when inotropy ± vasoconstriction is desired.\n- Historical “renal” low-dose use: limited evidence vs norepinephrine in sepsis.\n\n## Precautions\n\n- Tachycardia, arrhythmias, peripheral vasoconstriction at high doses; extravasation → necrosis.\n- Incompatible with alkaline solutions (bicarbonate).\n\n> Titrate to MAP/perfusion; prefer central line.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
-      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
-      "diluent": "5% dextrose or 0.9% NaCl.",
-      "finalConcentration": "Concentration per service guide (infusion pump).",
-      "dose": "2–20 mcg/kg/min titrated according to hemodynamic response.",
-      "infusionRate": "Titrate according to BP and perfusion",
-      "administration": "Continuous IV infusion pump; central line preferred.",
-      "compatibility": "Verify in-line compatibility with other vasopressors.",
-      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+      "presentation": "Ampule 40 mg/mL (5 mL) or institutional vial.",
+      "diluent": "0.9% NS or D5W (not alkaline).",
+      "finalConcentration": "E.g. **800 mcg/mL** (200 mg in 250 mL) or **1600 mcg/mL** (fluid restriction) — local guide.",
+      "dose": "**2–20 mcg/kg/min** continuous IV; titrate. Orient.: **2–5** dopaminergic; **5–10** inotropic; **10–20** vasopressor. Common max **20–50 mcg/kg/min** ICU only.",
+      "infusionRate": "Continuous infusion pump only.",
+      "administration": "Central IV preferred; never IM.",
+      "notes": "Monitor HR, BP, urine output, and infusion site."
     },
     "pediatrico": {
-      "presentation": "5 mL ampoules: 40 mg/mL",
-      "administration": "IV",
-      "diluent": "0.9% NaCl, Ringer or 5% dextrose.",
-      "finalConcentration": "3.2 mg/mL (up to 6 mg/mL in case of fluid restriction).",
-      "infusionRate": "Per medical indication, with infusion pump.",
-      "dose": "2-20 µg/kg/min by continuous infusion. Maximum dose: 50 µg/kg/min.",
-      "notes": "Dilute with normal saline or 5% dextrose for administration. Incompatible with alkaline solutions. Cardiac effects of dopamine are antagonized by beta-blockers and peripheral vasoconstriction caused by high doses of dopamine is antagonized by alpha-adrenergic blockers. IV administration of phenytoin in patients receiving dopamine causes hypotension and bradycardia."
+      "presentation": "Ampules 5 mL: 40 mg/mL.",
+      "diluent": "0.9% NS, Ringer, or D5W.",
+      "finalConcentration": "Usual **3.2 mg/mL**; up to **6 mg/mL** if fluid restriction.",
+      "dose": "**2–20 mcg/kg/min** continuous IV; usual max **50 mcg/kg/min**.",
+      "infusionRate": "Pump.",
+      "administration": "IV.",
+      "notes": "Antagonized by beta-blockers; high-dose vasoconstriction by alpha-blockers. Discard if abnormal color."
     },
     "neonatal": {
-      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
-      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
-      "diluent": "5% dextrose or 0.9% NaCl.",
-      "finalConcentration": "Concentration per service guide (infusion pump).",
-      "dose": "2–10 mcg/kg/min in NICU; close monitoring.",
-      "infusionRate": "Titrate according to BP and perfusion",
-      "administration": "Continuous IV infusion pump; central line preferred.",
-      "compatibility": "Verify in-line compatibility with other vasopressors.",
-      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+      "presentation": "Ampule 40 mg/mL; NICU dilution.",
+      "diluent": "0.9% NS or D5W.",
+      "finalConcentration": "E.g. **0.8–3.2 mg/mL** per NICU guide.",
+      "dose": "**2–10 mcg/kg/min** continuous IV (up to **20 mcg/kg/min** if refractory) — neonatology.",
+      "infusionRate": "Pump; central line preferred.",
+      "administration": "IV.",
+      "notes": "Close BP and HR monitoring."
     }
   },
-  "stability": "## General\n\n- Protect from light; stability 24 h per institutional dilution.\n\n## Pediatric guide\n\n- 24 h once diluted.",
-  "adverseEffects": "## Adverse effects\n\nTachycardia, palpitations, hypotension, vasoconstriction, headache, anxiety, confusion, weakness, nausea, vomiting, dyspnea, mydriasis.",
+  "stability": "## Stability\n\n- Pump dilution: ~24 h room temperature (local guide). Protect from light. Discard if oxidized.",
+  "adverseEffects": "## Adverse effects\n\nTachycardia, arrhythmias, hypertension/hypotension, nausea, vasoconstriction, necrosis from extravasation.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — DOPamine Hydrochloride (code 0080, ATC C01CA).",
+      "citation": "Hospital Garrahan. Formulario — dopamina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA. ACLS / PALS vasopressor context.",
+      "url": "https://cpr.heart.org/"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "citation": "Surviving Sepsis — norepinephrine preferred over dopamine in most septic shock.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "ANMAT. Prospectos dopamina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

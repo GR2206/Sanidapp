@@ -1,71 +1,59 @@
 {
   "id": "dop-001",
   "name": "Dopamina",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Efeito inotrópico positivo. Aumenta fluxos renal, coronário e cerebral. Incrementa a diurese, dose dependente.",
-  "indications": "## Indicações principais\n\nEfeito inotrópico positivo. Aumenta fluxos renal, coronário e cerebral. Incrementa a diurese, dose dependente.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Catecolamina dose-dependente. Faixas habituais: **2–5 mcg/kg/min** (dopaminérgico), **5–10 mcg/kg/min** (inotrópico), **10–20 mcg/kg/min** (vasopressor). Pediatria/UTIN: **2–20 mcg/kg/min** (máx. freq. **50 mcg/kg/min**). Via central + bomba.",
+  "indications": "## Indicações\n\n- Choque com baixo débito / hipotensão quando se busca inotropismo ± vasoconstrição.\n- Uso histórico “renal” em doses baixas: evidência limitada frente à noradrenalina na sepse.\n\n## Precauções\n\n- Taquicardia, arritmias, vasoconstrição periférica em doses altas; extravasamento → necrose.\n- Incompatível com soluções alcalinas (bicarbonato).\n\n> Ajustar à PAM/perfusão; preferir via central.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
-      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
-      "diluent": "SG 5% ou NaCl 0,9%.",
-      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
-      "dose": "2–20 mcg/kg/min titulado conforme resposta hemodinâmica.",
-      "infusionRate": "Titular conforme PA e perfusão",
-      "administration": "E.V. contínua em bomba; via central preferida.",
-      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
-      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+      "presentation": "Ampola 40 mg/mL (5 mL) ou frasco institucional.",
+      "diluent": "SF 0,9% ou SG 5% (não alcalinas).",
+      "finalConcentration": "Ex. **800 mcg/mL** (200 mg em 250 mL) ou **1600 mcg/mL** (restrição hídrica) — guia local.",
+      "dose": "**2–20 mcg/kg/min** IV contínuo; ajustar. Orient.: **2–5** dopaminérgico; **5–10** inotrópico; **10–20** vasopressor. Máx. freq. **20–50 mcg/kg/min** só UTI.",
+      "infusionRate": "Só bomba de infusão contínua.",
+      "administration": "IV central preferida; nunca IM.",
+      "notes": "Monitorar FC, PA, diurese e local da infusão."
     },
     "pediatrico": {
-      "presentation": "Ampolas de 5 mL: 40 mg/mL",
-      "administration": "E.V.",
+      "presentation": "Ampolas 5 mL: 40 mg/mL.",
       "diluent": "SF 0,9%, Ringer ou SG 5%.",
-      "finalConcentration": "3,2 mg/mL (até 6 mg/mL em caso de restrição hídrica).",
-      "infusionRate": "Conforme indicação médica, com BIC.",
-      "dose": "2–20 µg/kg/minuto por infusão contínua. Dose máxima: 50 µg/kg/minuto.",
-      "notes": "Diluir com solução fisiológica ou dextrosa 5% para sua administração. Incompatível com soluções alcalinas. Os efeitos cardíacos da dopamina são antagonizados pelos beta-bloqueantes e a vasoconstrição periférica causada por altas doses de dopamina é antagonizada por bloqueantes alfa-adrenérgicos. A administração E.V. de difenilhidantoína em pacientes que estão recebendo dopamina produz hipotensão e bradicardia."
+      "finalConcentration": "Usual **3,2 mg/mL**; até **6 mg/mL** se restrição hídrica.",
+      "dose": "**2–20 mcg/kg/min** IV contínuo; máx. habitual **50 mcg/kg/min**.",
+      "infusionRate": "Bomba.",
+      "administration": "IV.",
+      "notes": "Antagonizado por betabloqueadores; vasoconstrição em dose alta por alfabloqueadores. Desprezar se coloração anormal."
     },
     "neonatal": {
-      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
-      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
-      "diluent": "SG 5% ou NaCl 0,9%.",
-      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
-      "dose": "2–10 mcg/kg/min em UCIN; monitorização estreita.",
-      "infusionRate": "Titular conforme PA e perfusão",
-      "administration": "E.V. contínua em bomba; via central preferida.",
-      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
-      "notes": "Monitorar FC, PA invasiva, diurese e perfusão periférica."
+      "presentation": "Ampola 40 mg/mL; diluição UTIN.",
+      "diluent": "SF 0,9% ou SG 5%.",
+      "finalConcentration": "Ex. **0,8–3,2 mg/mL** conforme guia UTIN.",
+      "dose": "**2–10 mcg/kg/min** IV contínuo (até **20 mcg/kg/min** se refratário) — neonatologia.",
+      "infusionRate": "Bomba; via central preferida.",
+      "administration": "IV.",
+      "notes": "Monitorização estreita de PA e FC."
     }
   },
-  "stability": "## Geral\n\n- Proteger da luz; estabilidade 24 h conforme diluição institucional.\n\n## Guia pediátrica\n\n- 24 h uma vez diluída.",
-  "adverseEffects": "## Efeitos adversos\n\nTaquicardia, palpitações, hipotensão, vasoconstrição, cefaleia, ansiedade, confusão, fraqueza, náuseas, vômitos, dispneia, midríase.",
+  "stability": "## Estabilidade\n\n- Diluição em bomba: ~24 h T° ambiente (guia local). Proteger da luz. Desprezar se oxidada.",
+  "adverseEffects": "## Efeitos adversos\n\nTaquicardia, arritmias, hipertensão/hipotensão, náuseas, vasoconstrição, necrose por extravasamento.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — DOPamina cloridrato (cód. 0080, ATC C01CA).",
+      "citation": "Hospital Garrahan. Formulario — dopamina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA. ACLS / PALS vasopressor context.",
+      "url": "https://cpr.heart.org/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "citation": "Surviving Sepsis — norepinephrine preferred over dopamine in most septic shock.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "ANMAT. Prospectos dopamina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

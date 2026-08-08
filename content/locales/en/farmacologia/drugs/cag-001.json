@@ -4,51 +4,51 @@
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
   "updatedAt": "2026-08-08",
-  "translationReviewed": true,
-  "executiveSummary": "IV calcium salt. Adult hyperK / symptomatic hypocalcemia: **1–2 g (10–20 mL of 10%)** slow IV. Pediatrics: **0.5–1 mL/kg** of 10% gluconate (usual max **10–20 mL**/dose). Monitor ECG; necrosis risk if extravasation.",
-  "indications": "## Indications\n\n- Hyperkalemia with ECG changes (membrane stabilization).\n- Symptomatic hypocalcemia; calcium-channel blocker toxicity / hypermagnesemia (protocols).\n\n## Precautions\n\n- **Do not mix with bicarbonate or phosphate** (precipitates). Prefer central line or reliable peripheral IV.\n- Stop if bradycardia. Address concurrent hypokalemia thoughtfully.\n- Calcium chloride has more elemental Ca/mL — do not swap mL for mL.\n\n> 10% ampoule: ~**100 mg gluconate/mL** ≈ **9 mg elemental Ca/mL** (~0.46 mEq/mL).",
+  "executiveSummary": "IV calcium salt. Adult hyperK / symptomatic hypocalcemia: **1–2 g (10–20 mL of 10%)** slow IV. Pediatrics: **0.5–1 mL/kg** of 10% gluconate (common max **10–20 mL**/dose). Monitor ECG; necrosis risk if extravasation.",
+  "indications": "## Indications\n\n- Hyperkalemia with ECG changes (membrane stabilization).\n- Symptomatic hypocalcemia; calcium-channel blocker toxicity / hypermagnesemia (protocols).\n\n## Precautions\n\n- **Do not mix with bicarbonate or phosphate** (precipitates). Prefer central line or well-flowing peripheral.\n- Stop if bradycardia. Correct concomitant hypokalemia with judgment.\n- Calcium chloride has more elemental Ca/mL — do not interchange mL for mL.\n\n> Ampule 10%: ~**100 mg gluconate/mL** ~ **9 mg elemental Ca/mL** (~0.46 mEq/mL).",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 10% (10 mL).",
-      "dose": "HyperK / emergency: **10–20 mL (1–2 g)** IV over **2–5–10 min**; repeat in 5–10 min if ECG changes persist. Hypocalcemia: **1–2 g** then infusion by ionized Ca.",
+      "presentation": "Ampule 10% (10 mL).",
+      "dose": "HyperK / emergency: **10–20 mL (1–2 g)** IV over **2–5–10 min**; repeat at 5–10 min if ECG changes persist. Hypocalcemia: **1–2 g** then infusion per ionized Ca.",
       "administration": "Slow IV under monitoring; dilute if infusion (up to ~50 mg/mL). Orient. push rate **0.5–1 mL/min**.",
-      "notes": "Extravasation → necrosis. Compatible with NS/D5W; not with HCO3−/PO4."
+      "notes": "Extravasation → necrosis. Compatible with NS/DX; not with HCO3-/PO4."
     },
     "pediatrico": {
-      "presentation": "Ampoule 10 mL of 10%.",
-      "dose": "Symptomatic hypocalcemia / hyperK: **0.5–1 mL/kg** of 10% (**50–100 mg/kg** gluconate; usual max **10 mL**/dose) over 5–10 min; may repeat or continue **~5 mL/kg/day** infusion. Asymptomatic (if no PO): **2–5 mL/kg/day**.",
-      "administration": "IV; dilute; monitor HR.",
+      "presentation": "Ampule 10 mL of 10%.",
+      "dose": "Symptomatic hypocalcemia / hyperK: **0.5–1 mL/kg** of 10% (**50–100 mg/kg** gluconate; common max **10 mL**/dose) over 5–10 min; may repeat or switch to **~5 mL/kg/day** infusion. Asymptomatic (if not PO): **2–5 mL/kg/day**.",
+      "administration": "IV; dilute; watch HR.",
       "notes": "See institutional electrolyte bulletin."
     },
     "neonatal": {
-      "presentation": "Ampoule 10%; NNU card.",
-      "dose": "**1–2 mL/kg** of 10% gluconate slow IV (or per neonatal hypocalcemia protocol).",
+      "presentation": "Ampule 10%; NICU guide.",
+      "dose": "**1–2 mL/kg** of 10% gluconate (**100–200 mg/kg**) slow IV; may repeat or switch to infusion per ionized Ca.",
       "administration": "Slow IV with monitoring.",
-      "notes": "Secure line; avoid extravasation."
+      "notes": "Prefer safe line; avoid extravasation."
     }
   },
-  "stability": "## Stability\n\n- Prefer dedicated line; discard opened ampoule per card.",
+  "stability": "## Stability\n\n- Use dedicated line when possible; discard opened ampule per local guide.",
   "adverseEffects": "## Adverse effects\n\nBradycardia, hypotension if rapid; calcification/necrosis from extravasation; hypercalcemia.",
   "bibliography": [
     {
-      "citation": "Garrahan Hospital. Formulary — calcium gluconate.",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — gluconato de calcio.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "citation": "American Heart Association. ACLS — hyperkalemia / calcium.",
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "AEMPS CIMA. SmPC reference.",
+      "citation": "AEMPS CIMA. Ficha técnica gluconato cálcico.",
       "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM).",
+      "citation": "Society of Critical Care Medicine (SCCM). Electrolyte emergency context.",
       "url": "https://www.sccm.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

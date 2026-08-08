@@ -2,70 +2,58 @@
   "id": "nor-001",
   "name": "Norepinephrine (noradrenaline)",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Sympathomimetic. Cardiogenic or septic shock with refractory hypotension and low peripheral resistance.",
-  "indications": "## Main indications\n\nSympathomimetic. Cardiogenic or septic shock with refractory hypotension and low peripheral resistance.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "First-line vasopressor in septic shock. Adult: start **0.05–0.1 mcg/kg/min** (or **4–8 mcg/min**) titrate to MAP. Pediatrics/NICU: **0.05–1 mcg/kg/min** (usual max **2 mcg/kg/min**). Central line + pump.",
+  "indications": "## Indications\n\n- Vasodilated shock (septic) with hypotension despite volume.\n- Other shocks with low SVR.\n\n## Precautions\n\n- Digital/mesenteric ischemia; arrhythmias; extravasation → necrosis (treat with local phentolamine per protocol).\n- Prefer D5W as diluent in many institutional guides (oxidation in NS).\n\n> Does not replace fluid resuscitation or treatment of the cause.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
-      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
-      "diluent": "5% dextrose or 0.9% NaCl.",
-      "finalConcentration": "Concentration per service guide (infusion pump).",
-      "dose": "Usual starting dose 0.05–0.1 mcg/kg/min; titrate to target MAP (prescription).",
-      "infusionRate": "Continuous infusion pump.",
-      "administration": "Continuous IV infusion pump; central line preferred.",
-      "compatibility": "Verify in-line compatibility with other vasopressors.",
-      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+      "presentation": "Ampule 1 mg/mL (often 4 mL = 4 mg).",
+      "diluent": "Prefer D5W; NS per local monograph.",
+      "finalConcentration": "E.g. 4–16 mcg/mL (service guide).",
+      "dose": "Start **0.05–0.1 mcg/kg/min** or **4–8 mcg/min**; titrate (common ranges **8–12 mcg/min**; high **>30 mcg/min** ICU only).",
+      "infusionRate": "Continuous infusion via pump.",
+      "administration": "Central IV preferred; never IM.",
+      "notes": "Monitor MAP, lactate, urine output, peripheral perfusion."
     },
     "pediatrico": {
-      "presentation": "4 mL ampoules: 1 mg/ml",
-      "administration": "IV",
-      "diluent": "ONLY 5% dextrose.",
-      "finalConcentration": "Usual 4 mcg/mL. With fluid restriction, 16 mcg/mL.",
-      "infusionRate": "Infusion pump only.",
-      "dose": "0.05-1 µg/kg/minute, maximum dose: 2 µg/kg/min Adults: start 4 µg/minute, Infusion: 8-12 µg/minute",
-      "notes": "Oxidizes rapidly, do not use if brown discoloration is present. Dilution in normal saline is not recommended. Effects of norepinephrine may be increased in the presence of tricyclic antidepressants, antihistamines, and beta blockers."
+      "presentation": "Ampules 4 mL: 1 mg/mL.",
+      "diluent": "Prefer D5W.",
+      "finalConcentration": "Usual **4 mcg/mL**; fluid restriction **16 mcg/mL**.",
+      "dose": "**0.05–1 mcg/kg/min**; usual max **2 mcg/kg/min**.",
+      "infusionRate": "Pump only.",
+      "administration": "IV.",
+      "notes": "Do not use if brown discoloration. Discard remainder."
     },
     "neonatal": {
-      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
-      "reconstitution": "Reconstitute per prescribing information; dilute in 5% dextrose or 0.9% NaCl.",
-      "diluent": "5% dextrose or 0.9% NaCl.",
-      "finalConcentration": "Concentration per service guide (infusion pump).",
-      "dose": "0.05–1 mcg/kg/min per NICU protocol and weight.",
-      "infusionRate": "Titrate according to BP and perfusion",
-      "administration": "Continuous IV infusion pump; central line preferred.",
-      "compatibility": "Verify in-line compatibility with other vasopressors.",
-      "notes": "Monitor HR, invasive BP, urine output, and peripheral perfusion."
+      "presentation": "Ampule 1 mg/mL; NICU dilution.",
+      "diluent": "Prefer D5W.",
+      "finalConcentration": "E.g. **4–16 mcg/mL** (NICU guide).",
+      "dose": "**0.05–1 mcg/kg/min** continuous IV; titrate to MAP/perfusion (common max **1–2 mcg/kg/min**).",
+      "infusionRate": "Pump; central line preferred.",
+      "administration": "IV.",
+      "notes": "Invasive monitoring when available."
     }
   },
-  "stability": "## General\n\n- Protect from light. Change solution per service policy (usually 24 h).\n\n## Pediatric guide\n\n- Discard remainder once opened. Dilution stable 24 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nHypertension, necrosis, bradycardia. Prolonged use: decreased cardiac output, plasma volume depletion, severe peripheral and visceral vasoconstriction. Additionally, stress cardiomyopathy.",
+  "stability": "## Stability\n\n- Protect from light. Pump dilution: ~24 h at room temperature (local guide). Discard if oxidized.",
+  "adverseEffects": "## Adverse effects\n\nHypertension, reflex bradycardia, ischemia, necrosis from extravasation, arrhythmias.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — NORadrenaline (code 1401, ATC C01CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "citation": "Surviving Sepsis Campaign — norepinephrine first-line.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "Hospital Garrahan. Formulario — noradrenalina.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AHA. ACLS vasopressor context.",
+      "url": "https://cpr.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Prospectos noradrenalina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

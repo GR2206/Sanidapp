@@ -2,33 +2,34 @@
   "id": "alb-001",
   "name": "Human albumin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Plasma volume expander. Burns.",
-  "indications": "## Main indications\n\nPlasma volume expander. Burns.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Colloid. Adult: **0.5–1 g/kg**. Pediatric shock: 5% albumin **5–10 mL/kg** (**0.25–0.5 g/kg**). Neonates: **0.5–1 g/kg** (or 5% **10–20 mL/kg**) slow IV.",
+  "indications": "## Indications\n\n- Selected volume expansion; burns; large-volume paracentesis.\n\n## Precautions\n\n- Fluid overload; rare allergy.\n\n> Does not replace crystalloids as first line in most shocks.",
   "dilution": {
     "adulto": {
       "presentation": "Vial 20% or 25% albumin.",
-      "dose": "0,5–1 g/kg according to indication (paracentesis: 6–8 g/L of ascites removed).",
+      "dose": "0.5–1 g/kg per indication (paracentesis: 6–8 g/L of ascites removed).",
       "administration": "IV."
     },
     "pediatrico": {
-      "dose": "Shock: Albumin 5% in 0.9% NaCl = 5–10 mL/kg (0,25–0,50 g/kg). Maximum dose: 6 g/kg/day",
-      "administration": "IV",
-      "presentation": "See Human albumin evidence-based use (CIME Bulletin) 50 mL vial 20%",
-      "notes": "Infusion rate: 0,25–1 mL/min. See Colloid Solutions (CIME Bulletin)"
+      "dose": "Shock: 5% albumin in NS = 5–10 mL/kg (0.25–0.50 g/kg). Max dose: 6 g/kg/day",
+      "administration": "IV.",
+      "presentation": "See albumin evidence-based use (CIME bulletin). 50 mL vial at 20%",
+      "notes": "Infusion rate: 0.25–1 mL/min. See Colloid Solutions (CIME bulletin)."
     },
     "neonatal": {
-      "dose": "Replacement in neonatal shock per NICU protocol.",
-      "administration": "Slow IV."
+      "presentation": "Vial 20% or 5% per NICU stock.",
+      "dose": "Hypoalbuminemia / selected expansion: **0.5–1 g/kg** IV (orient. equiv. 5% albumin **10–20 mL/kg** or 20% **2.5–5 mL/kg**) slow over 1–2 h.",
+      "administration": "Slow IV; do not mix with other drugs in the same line.",
+      "notes": "Watch for overload; neonatology."
     }
   },
   "stability": "## Stability\n\n- Use immediately after spiking; do not mix with other drugs.",
   "adverseEffects": "## Adverse effects\n\nHeart failure from volume overload, urticaria.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Albúmina Humana* (code 0007, ATC B05AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Albúmina Humana* (cód. 0007, ATC B05AA).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -36,16 +37,17 @@
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
       "url": "https://www.sccm.org/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
       "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

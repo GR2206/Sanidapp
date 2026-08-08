@@ -2,10 +2,10 @@
   "id": "pol-001",
   "name": "Polimixina B",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Decolonización prequirúrgica en pacientes con intestino corto, asociada con metronidazol V.O.",
-  "indications": "## Indicaciones principales\n\nDecolonización prequirúrgica en pacientes con intestino corto, asociada con metronidazol V.O.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Polimixina B. Adulto IV: **1,5–2,5 mg/kg/día** c/12 h. Pediatría VO (decolonización): **10–20 mg/kg/día**. NNU IV reserva: **1,5–2,5 mg/kg/día** dividido c/12 h — infectología.",
+  "indications": "## Indicaciones\n\n- Infecciones por gramnegativos resistentes (IV); decolonización prequirúrgica VO en esquemas seleccionados (± metronidazol).\n\n## Precauciones\n\n- Nefro y neurotoxicidad. Confirmar conversión UI↔mg del vial local.\n\n> Uso de reserva / infectología.",
   "dilution": {
     "adulto": {
       "presentation": "Frasco-ampolla 500.000 UI o 1 millón UI.",
@@ -20,8 +20,10 @@
       "notes": "Contraindicada en pacientes con reacciones de hipersensibilidad a polimixinas."
     },
     "neonatal": {
-      "dose": "Dosis según protocolo NNU; uso de reserva.",
-      "administration": "IV."
+      "presentation": "Frasco 500.000–1.000.000 UI; conversión según prospecto.",
+      "dose": "IV (reserva): **1,5–2,5 mg/kg/día** dividido cada **12 h**; ajustar en IRC — solo infectología/NNU.",
+      "administration": "IV perfusión lenta.",
+      "notes": "Monitorizar creatinina y signos neurológicos."
     }
   },
   "stability": "## Estabilidad\n\n- Usar tras dilución según prospecto.",

@@ -2,10 +2,10 @@
   "id": "hdr-001",
   "name": "Hidralazina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antihipertensivo. Vasodilatador.",
-  "indications": "## Indicaciones principales\n\nAntihipertensivo. Vasodilatador.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Vasodilatador arterial. Adulto IV **5–10 mg** c/20–30 min. Pediatría VO inicial **0,25 mg/kg/dosis**. NNU IV **0,1–0,5 mg/kg/dosis** c/6–8 h — cardiología.",
+  "indications": "## Indicaciones\n\n- Hipertensión (incl. crisis seleccionadas); poscirugía cardíaca en pediatría/NNU.\n\n## Precauciones\n\n- Taquicardia refleja, hipotensión. Ajuste en IRC.\n\n> IV lento con monitorización.",
   "dilution": {
     "adulto": {
       "presentation": "Ampolla 20 mg/mL.",
@@ -19,8 +19,10 @@
       "notes": "El uso prolongado de hidralazina puede causar deficiencia de piridoxina. La indometacina puede disminuir los efectos hipotensores de la hidralazina. Usar con precaución en pacientes con severa insuficiencia renal. Administrar con alimentos."
     },
     "neonatal": {
-      "dose": "0,1–0,5 mg/kg/dosis según protocolo cardiológico.",
-      "administration": "IV."
+      "presentation": "Ampolla 20 mg/mL; dilución NNU.",
+      "dose": "**0,1–0,5 mg/kg/dosis IV** lento cada **6–8 h**; titular a PA — cardiología/neonatología.",
+      "administration": "IV lento.",
+      "notes": "Vigilar taquicardia e hipotensión."
     }
   },
   "stability": "## Estabilidad\n\n- Usar tras extracción.",

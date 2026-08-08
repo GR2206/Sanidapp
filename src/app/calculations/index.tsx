@@ -49,6 +49,7 @@ import {
   enrichSchemesWithMonographIndications,
   pickMonographDoseText,
 } from '@/utils/doseIndicationHints';
+import { buildMonographFallbackDoseRows } from '@/utils/monographDoseFallback';
 import { LOCAL_DRUGS } from '@/services/content/drugLocalRegistry';
 
 type CalculationResults = {
@@ -133,7 +134,14 @@ export default function CalculationsScreen() {
       doseLabel = selectedDrugName
         ? t('calculations.doseForDrug', { drug: selectedDrugName })
         : t('calculations.dose');
-      doseRows = [{ dose: t('calculations.doseUnavailable') }];
+      const fallbackRows = buildMonographFallbackDoseRows(
+        weightKg,
+        LOCAL_DRUGS[selectedDrugId],
+      );
+      doseRows =
+        fallbackRows.length > 0
+          ? fallbackRows
+          : [{ dose: t('calculations.doseUnavailable') }];
     }
 
     const bsa = calculateBodySurfaceAreaM2(weightKg);

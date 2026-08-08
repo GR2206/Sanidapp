@@ -2,32 +2,32 @@
   "id": "hef-001",
   "name": "Heparina sódica",
   "branch": "atencion-sanitaria",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updatedAt": "2026-08-08",
-  "executiveSummary": "HNF. SCA/TVP: bolo **60–80 UI/kg** (máx. frecuente **4000–5000 UI**) luego **12–18 UI/kg/h** IV titulada a TTPa/anti-Xa. Profilaxis SC: **5000 UI c/8–12 h**. Antídoto: **protamina**. Riesgo HIT — vigilar plaquetas.",
-  "indications": "## Indicaciones\n\n- Tratamiento/profilaxis de tromboembolismo; SCA; circulación extracorpórea; puente perioperatorio.\n\n## Precauciones\n\n- Hemorragia; HIT tipo II (suspender y no usar HBPM si HIT).\n- TTPa cada 6 h hasta estable. Ajuste en obesidad/IRC según protocolo.\n- No IM. Anestesia neuroaxial: tiempos de seguridad estrictos.\n\n> Preferir HBPM en muchos escenarios ambulatorios; HNF si cirugía inminente o IRC grave.",
+  "executiveSummary": "HNF. Adulto: bolo **60–80 UI/kg** luego **12–18 UI/kg/h** IV. Pediatría: bolo **75 UI/kg** → **20–28 UI/kg/h**. NNU: bolo **75 UI/kg** → **28 UI/kg/h** titulada a anti-Xa/TTPa. Profilaxis SC **5000 UI c/8–12 h**.",
+  "indications": "## Indicaciones\n\n- Tratamiento/profilaxis de tromboembolismo; SCA; CEC; puente perioperatorio.\n\n## Precauciones\n\n- Hemorragia; HIT. TTPa/anti-Xa cada 6 h hasta estable.\n- No IM. Anestesia neuroaxial: tiempos de seguridad.\n\n> Antídoto: **protamina** (~1 mg por 100 UI HNF recientes; máx. frec. 50 mg dosis inicial).",
   "dilution": {
     "adulto": {
-      "presentation": "Ampollas 1000–5000 UI/mL; jeringas.",
-      "dose": "Tratamiento IV: bolo **80 UI/kg** (o **60** en SCA) → infusión **18 UI/kg/h** (SCA a menudo **12 UI/kg/h**) titulada. Profilaxis: **5000 UI SC c/8–12 h**. Flush de vías: concentraciones locales (p. ej. 10–100 UI/mL) — no terapéutico.",
-      "administration": "IV bomba / SC abdomen. Nunca IM.",
-      "notes": "Protamina: ~1 mg por 100 UI HNF en las últimas 2–3 h (máx. 50 mg dosis inicial orientativa)."
+      "presentation": "Ampollas 1000–5000 UI/mL.",
+      "dose": "IV tratamiento: bolo **80 UI/kg** (SCA a menudo **60 UI/kg**, máx. frec. **4000–5000 UI**) → infusión **18 UI/kg/h** (SCA **12 UI/kg/h**) titulada. Profilaxis: **5000 UI SC c/8–12 h**.",
+      "administration": "IV bomba / SC. Nunca IM.",
+      "notes": "Flush de vías (10–100 UI/mL) no es dosis terapéutica."
     },
     "pediatrico": {
       "presentation": "Ampollas; dilución farmacia.",
-      "dose": "Bolo **75 UI/kg** → **20–28 UI/kg/h** (menores/neonatos dosis mayores por kg) — protocolo + anti-Xa/TTPa.",
+      "dose": "Bolo **75 UI/kg** → infusión **20–28 UI/kg/h** titulada a anti-Xa/TTPa.",
       "administration": "IV/SC.",
       "notes": "Hematología/UCI."
     },
     "neonatal": {
-      "presentation": "Dilución NNU.",
-      "dose": "Esquemas NNU (bolo ~75 UI/kg; infusión ~28 UI/kg/h) — solo protocolo.",
-      "administration": "IV.",
-      "notes": "Anti-Xa."
+      "presentation": "Dilución NNU (p. ej. 50–100 UI/mL).",
+      "dose": "Bolo **75 UI/kg** IV → infusión **28 UI/kg/h**; titular a anti-Xa (meta frec. **0,3–0,7 UI/mL**) — neonatología/hematología.",
+      "administration": "IV bomba.",
+      "notes": "Ajuste frecuente por clearance neonatal."
     }
   },
   "stability": "## Estabilidad\n\n- Infusión en SF/D5% según compatibilidad; preparar extemporánea.",
-  "adverseEffects": "## Efectos adversos\n\nHemorragia, hematoma, HIT, osteoporosis (crónico), alopecia, hiperpotasemia.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia, hematoma, HIT, osteoporosis (crónico), hiperpotasemia.",
   "bibliography": [
     { "citation": "AEMPS CIMA. Heparina sódica.", "url": "https://cima.aemps.es/cima/" },
     { "citation": "AHA. ACS anticoagulation — UFH dosing.", "url": "https://www.heart.org/" },

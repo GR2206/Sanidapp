@@ -2,47 +2,47 @@
   "id": "hef-001",
   "name": "Heparina sódica",
   "branch": "atencion-sanitaria",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "updatedAt": "2026-08-08",
-  "executiveSummary": "HNF. SCA/TVP: bolo **60–80 UI/kg** (máx. frequente **4000–5000 UI**) depois **12–18 UI/kg/h** IV titulada ao TTPa/anti-Xa. Profilaxia SC: **5000 UI a cada 8–12 h**. Antídoto: **protamina**. Risco de HIT — vigiar plaquetas.",
-  "indications": "## Indicações\n\n- Tratamento/profilaxia de tromboembolismo; SCA; circulação extracorpórea; ponte perioperatória.\n\n## Precauções\n\n- Hemorragia; HIT tipo II (suspender e não usar HBPM se HIT).\n- TTPa a cada 6 h até estável. Ajuste em obesidade/IRC conforme protocolo.\n- Não IM. Anestesia neuroaxial: tempos de segurança estritos.\n\n> Preferir HBPM em muitos cenários ambulatoriais; HNF se cirurgia iminente ou IRC grave.",
+  "executiveSummary": "HNF. Adulto: bolo **60–80 UI/kg** depois **12–18 UI/kg/h** IV. Pediatria: bolo **75 UI/kg** → **20–28 UI/kg/h**. UTIN: bolo **75 UI/kg** → **28 UI/kg/h** ajustada a anti-Xa/TTPa. Profilaxia SC **5000 UI a cada 8–12 h**.",
+  "indications": "## Indicações\n\n- Tratamento/profilaxia de tromboembolismo; SCA; CEC; ponte perioperatória.\n\n## Precauções\n\n- Hemorragia; HIT. TTPa/anti-Xa a cada 6 h até estável.\n- Não IM. Anestesia neuroaxial: tempos de segurança.\n\n> Antídoto: **protamina** (~1 mg por 100 UI HNF recentes; máx. freq. dose inicial 50 mg).",
   "dilution": {
     "adulto": {
-      "presentation": "Ampolas 1000–5000 UI/mL; seringas.",
-      "dose": "Tratamento IV: bolo **80 UI/kg** (ou **60** no SCA) → infusão **18 UI/kg/h** (SCA frequentemente **12 UI/kg/h**) titulada. Profilaxia: **5000 UI SC a cada 8–12 h**. Flush de vias: concentrações locais (p. ex. 10–100 UI/mL) — não terapêutico.",
-      "administration": "IV bomba / SC abdômen. Nunca IM.",
-      "notes": "Protamina: ~1 mg por 100 UI HNF nas últimas 2–3 h (máx. inicial orientativo ~50 mg)."
+      "presentation": "Ampolas 1000–5000 UI/mL.",
+      "dose": "IV tratamento: bolo **80 UI/kg** (SCA frequentemente **60 UI/kg**, máx. freq. **4000–5000 UI**) → infusão **18 UI/kg/h** (SCA **12 UI/kg/h**) ajustada. Profilaxia: **5000 UI SC a cada 8–12 h**.",
+      "administration": "IV bomba / SC. Nunca IM.",
+      "notes": "Flush de vias (10–100 UI/mL) não é dose terapêutica."
     },
     "pediatrico": {
       "presentation": "Ampolas; diluição farmácia.",
-      "dose": "Bolo **75 UI/kg** → **20–28 UI/kg/h** (menores/neonatos doses maiores por kg) — protocolo + anti-Xa/TTPa.",
+      "dose": "Bolo **75 UI/kg** → infusão **20–28 UI/kg/h** ajustada a anti-Xa/TTPa.",
       "administration": "IV/SC.",
       "notes": "Hematologia/UTI."
     },
     "neonatal": {
-      "presentation": "Diluição NNU.",
-      "dose": "Esquemas NNU (bolo ~75 UI/kg; infusão ~28 UI/kg/h) — só protocolo.",
-      "administration": "IV.",
-      "notes": "Anti-Xa."
+      "presentation": "Diluição UTIN (ex. 50–100 UI/mL).",
+      "dose": "Bolo **75 UI/kg** IV → infusão **28 UI/kg/h**; ajustar a anti-Xa (meta freq. **0,3–0,7 UI/mL**) — neonatologia/hematologia.",
+      "administration": "IV bomba.",
+      "notes": "Ajuste frequente pelo clearance neonatal."
     }
   },
   "stability": "## Estabilidade\n\n- Infusão em SF/SG 5% conforme compatibilidade; preparar extemporânea.",
-  "adverseEffects": "## Efeitos adversos\n\nHemorragia, hematoma, HIT, osteoporose (crônico), alopecia, hiperpotassemia.",
+  "adverseEffects": "## Efeitos adversos\n\nHemorragia, hematoma, HIT, osteoporose (crônico), hiperpotassemia.",
   "bibliography": [
     {
       "citation": "AEMPS CIMA. Heparina sódica.",
       "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "AHA. Anticoagulação no SCA — doses de HNF.",
+      "citation": "AHA. ACS anticoagulation — UFH dosing.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "CHEST. Heparina / HIT (contexto).",
+      "citation": "CHEST. Heparin / HIT guidance context.",
       "url": "https://www.chestnet.org/"
     },
     {
-      "citation": "ANMAT. Informações de produtos autorizados.",
+      "citation": "ANMAT. Prospectos heparina.",
       "url": "https://www.argentina.gob.ar/anmat"
     }
   ],

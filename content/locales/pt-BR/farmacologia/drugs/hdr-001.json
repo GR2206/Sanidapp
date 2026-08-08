@@ -1,32 +1,35 @@
 {
   "id": "hdr-001",
   "name": "Hidralazina",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anti-hipertensivo. Vasodilatador.",
-  "indications": "## Indicações principais\n\nAnti-hipertensivo. Vasodilatador.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Vasodilatador arterial. Adulto IV **5–10 mg** a cada 20–30 min. Pediatria VO inicial **0,25 mg/kg/dose**. Neonatos IV **0,1–0,5 mg/kg/dose** a cada 6–8 h — cardiologia.",
+  "indications": "## Indicações\n\n- Hipertensão (incl. crises selecionadas); pós-cirurgia cardíaca em pediatria/UTIN.\n\n## Precauções\n\n- Taquicardia reflexa, hipotensão. Ajuste na IRC.\n\n> IV lento com monitorização.",
   "dilution": {
     "adulto": {
       "presentation": "Ampola 20 mg/mL.",
-      "dose": "5–10 mg E.V. a cada 20–30 min; máx. 20 mg/dose obstétrica.",
-      "administration": "E.V. lento."
+      "dose": "5–10 mg IV a cada 20–30 min; máx. 20 mg/dose obstétrica.",
+      "administration": "IV lento."
     },
     "pediatrico": {
-      "dose": "Lactentes e crianças: inicial: 0,25 mg/kg/dose 3 a 4 vezes por dia, máximo: 25 mg/dose; ir aumentando em 3 a 4 semanas até lactentes: 5 mg/kg/dia e crianças: 7,5 mg/kg/dia, máximo: 200 mg/dia. Em pacientes com leve a moderada insuficiência renal indicar a cada 8 h, em insuficiência renal severa para acetiladores rápidos a cada 8 a 16 h e acetiladores lentos a cada 12 a 24 h. Adultos: inicial: 10 mg a cada 6 h, aumentar 10 a 25 mg/dose a cada 2 a 5 dias até 300 mg/dia. Faixa de dose usual para hipertensão: 25 a 100 mg/dia em 2 doses.",
-      "administration": "V.O.",
+      "dose": "Lactentes e crianças: inicial 0,25 mg/kg/dose 3 a 4 vezes ao dia, máximo 25 mg/dose; ir aumentando em 3 a 4 semanas até lactentes 5 mg/kg/dia e crianças 7,5 mg/kg/dia, máximo 200 mg/dia. Em insuficiência renal leve a moderada indicar a cada 8 h; em insuficiência renal grave para acetiladores rápidos a cada 8 a 16 h e acetiladores lentos a cada 12 a 24 h. Adultos: inicial 10 mg a cada 6 h, aumentar 10 a 25 mg/dose a cada 2 a 5 dias até 300 mg/dia. Faixa usual para hipertensão: 25 a 100 mg/dia em 2 doses.",
+      "administration": "VO.",
       "presentation": "Comprimidos: 25–50 mg",
-      "notes": "O uso prolongado de hidralazina pode causar deficiência de piridoxina. A indometacina pode diminuir os efeitos hipotensores da hidralazina. Usar com precaução em pacientes com insuficiência renal severa. Administrar com alimentos."
+      "notes": "O uso prolongado de hidralazina pode causar deficiência de piridoxina. A indometacina pode diminuir os efeitos hipotensores da hidralazina. Usar com precaução em insuficiência renal grave. Administrar com alimentos."
     },
     "neonatal": {
-      "dose": "0,1–0,5 mg/kg/dose conforme protocolo cardiológico.",
-      "administration": "E.V."
+      "presentation": "Ampola 20 mg/mL; diluição UTIN.",
+      "dose": "**0,1–0,5 mg/kg/dose IV** lento a cada **6–8 h**; ajustar à PA — cardiologia/neonatologia.",
+      "administration": "IV lento.",
+      "notes": "Vigiar taquicardia e hipotensão."
     }
   },
   "stability": "## Estabilidade\n\n- Usar após extração.",
   "adverseEffects": "## Efeitos adversos\n\nPalpitações, taquicardia, edema, hipotensão ortostática, cefaleia, febre, anorexia, náuseas, vômitos.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Hidralazina (cód. 1554, ATC C02DB).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Hidralazina (cód. 1554, ATC C02DB).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -34,11 +37,11 @@
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
       "url": "https://www.sccm.org/"
     },
     {
@@ -46,6 +49,5 @@
       "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

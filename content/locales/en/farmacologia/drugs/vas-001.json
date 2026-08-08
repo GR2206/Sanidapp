@@ -4,51 +4,51 @@
   "branch": "atencion-sanitaria",
   "version": "1.1.0",
   "updatedAt": "2026-08-08",
-  "translationReviewed": true,
-  "executiveSummary": "Antidiuretic hormone at vasopressor doses. Adult septic shock: fixed **0.03 U/min** (range **0.01–0.04 U/min**) as norepinephrine adjunct. Pediatrics: **0.0005–0.002 U/kg/min** (**0.03–0.12 U/kg/h**). No rapid bolus unless protocol.",
-  "indications": "## Indications\n\n- Refractory vasodilatory shock / sepsis adjunct (Surviving Sepsis).\n- Central diabetes insipidus and variceal GI bleeding: **different regimens and higher doses** — do not confuse with shock dosing.\n\n## Precautions\n\n- Digital, mesenteric, coronary ischemia; relative hyponatremia; ↓ cardiac output if excessive afterload.\n- Central line preferred. Does not replace volume or antibiotics.\n- Common ampoules: **20 U/mL**.\n\n> In shock, “low fixed” doses; above 0.04 U/min rarely helps and increases ischemia.",
+  "executiveSummary": "Antidiuretic hormone at vasopressor doses. Adult septic shock: **0.03 units/min** fixed (range **0.01–0.04 units/min**) as adjunct to norepinephrine. Pediatrics: **0.0005–0.002 units/kg/min** (**0.03–0.12 units/kg/h**). No rapid bolus unless protocol.",
+  "indications": "## Indications\n\n- Refractory vasodilated shock / adjunct in sepsis (Surviving Sepsis).\n- Central diabetes insipidus and variceal GI bleeding: **different regimens and higher doses** — do not confuse with shock dosing.\n\n## Precautions\n\n- Digital, mesenteric, coronary ischemia; relative hyponatremia; ↓ cardiac output if excessive afterload.\n- Central line preferred. Does not replace volume or antibiotics.\n- Common ampules: **20 units/mL**.\n\n> In shock, use “low fixed” doses; exceeding 0.04 units/min usually adds little benefit and increases ischemia.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 20 U/mL.",
-      "dose": "Septic shock: **0.03 U/min** continuous IV (alternative titration **0.01–0.04 U/min**). Varices (other regimen): often **0.2–0.4 U/min** — hepatology/GI protocol only.",
-      "administration": "Dilute in NS/D5W (usual max conc. **1 U/mL**); continuous pump.",
+      "presentation": "Ampule 20 units/mL.",
+      "dose": "Septic shock: **0.03 units/min** continuous IV (alternative titration **0.01–0.04 units/min**). Varices (other regimen): often **0.2–0.4 units/min** — hepatology/GI protocol only.",
+      "administration": "Dilute in NS/D5W (common max conc. **1 unit/mL**); continuous pump.",
       "notes": "Monitor BP, lactate, peripheral perfusion, and urine output."
     },
     "pediatrico": {
-      "presentation": "Ampoule 20 U/mL.",
-      "dose": "Refractory shock: **0.0005–0.002 U/kg/min** (approx. **0.03–0.12 U/kg/h**); some protocols up to **0.15 U/kg/h** — ID/ICU.",
-      "administration": "IV; dilute NS/D5W; max **1 U/mL**.",
-      "notes": "Diluted: discard ~18 h room temp / ~24 h refrigerated (card)."
+      "presentation": "Ampule 20 units/mL.",
+      "dose": "Refractory shock: **0.0005–0.002 units/kg/min** (approx. **0.03–0.12 units/kg/h**); some protocols use up to **0.15 units/kg/h** — infectious diseases/ICU.",
+      "administration": "IV; dilute NS/D5W; max **1 unit/mL**.",
+      "notes": "Once diluted: discard ~18 h at room temperature / ~24 h refrigerated (local guide)."
     },
     "neonatal": {
-      "presentation": "Specialized NNU use.",
-      "dose": "Refractory shock per NNU protocol (U/kg/min).",
-      "administration": "Central IV + pump.",
-      "notes": "High ischemic risk — specialist."
+      "presentation": "Ampule 20 units/mL; specialized NICU use.",
+      "dose": "Refractory shock: **0.0003–0.002 units/kg/min** continuous IV (approx. **0.02–0.12 units/kg/h**); titrate with monitoring — neonatology.",
+      "administration": "Central IV + pump; dilute NS/D5W (max ~1 unit/mL).",
+      "notes": "High ischemic risk — specialist only."
     }
   },
-  "stability": "## Stability\n\n- Dilution: follow label/card (~18–24 h).",
+  "stability": "## Stability\n\n- Dilution: follow package insert/local guide (~18–24 h).",
   "adverseEffects": "## Adverse effects\n\nPeripheral/mesenteric ischemia, hypertension, bradycardia, arrhythmias, hyponatremia, skin necrosis if extravasation.",
   "bibliography": [
     {
-      "citation": "Garrahan Hospital. Formulary — vasopressin.",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — vasopresina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Surviving Sepsis Campaign / SCCM — vasopressin adjunct.",
+      "citation": "Surviving Sepsis Campaign / SCCM — vasopressin as adjunctive vasopressor.",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
+      "citation": "American Heart Association. ACLS vasopressor context.",
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "AEMPS CIMA. SmPC reference.",
+      "citation": "AEMPS CIMA. Ficha técnica argipresina/vasopresina.",
       "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

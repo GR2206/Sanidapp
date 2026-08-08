@@ -2,10 +2,10 @@
   "id": "roc-001",
   "name": "Rocuronio",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Inducción rápida para politraumatizados sin ayuno previo.",
-  "indications": "## Indicaciones principales\n\nInducción rápida para politraumatizados sin ayuno previo.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Bloqueante neuromuscular. RSI adulto: **0,6–1,2 mg/kg** IV. Pediatría: **0,45–0,6 mg/kg**. NNU: **0,45–0,6 mg/kg** (hasta **1 mg/kg** RSI) — solo con vía aérea lista.",
+  "indications": "## Indicaciones\n\n- Intubación / RSI; relajación muscular perioperatoria.\n\n## Precauciones\n\n- Apnea; efectos vagolíticos. Incompatible con varios fármacos alcalinos.\n\n> Uso exclusivo de especialista; antídoto sugammadex cuando esté disponible.",
   "dilution": {
     "adulto": {
       "presentation": "Frasco 10 mg/mL.",
@@ -23,8 +23,10 @@
       "notes": "USO EXCLUSIVO DEL ESPECIALISTA. Puede administrarse sin diluir. Para infusión continua diluir con solución fisilógica o dextrosa 5% con una concentración de 0,5 a 1 mg/ml, no mezclar con soluciones alcalinas."
     },
     "neonatal": {
-      "dose": "0,45–1 mg/kg según protocolo NNU.",
-      "administration": "IV."
+      "presentation": "10 mg/mL; puede usarse sin diluir.",
+      "dose": "Intubación: **0,45–0,6 mg/kg IV**; RSI / condiciones difíciles hasta **1 mg/kg**. Mantenimiento: **0,1–0,2 mg/kg** o infusión baja titulada.",
+      "administration": "IV; vía aérea asegurada obligatoria.",
+      "notes": "Neonatología/anestesia."
     }
   },
   "stability": "## General\n\n- Frasco abierto según prospecto.\n\n## Cartilla pediátrica\n\n- 30 días en heladera una vez abierto.",

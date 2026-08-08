@@ -1079,7 +1079,7 @@ export const extPtBR = {
     doseForDrug: 'Dose · {{drug}}',
     doseValue: '{{value}} mg · a cada {{hours}} h',
     doseIndication: 'Tratamento',
-    doseUnavailable: 'Sem dados de dose para este fármaco.',
+    doseUnavailable: 'Não há esquema de dose disponível para este fármaco com o peso informado.',
     bsa: 'Superfície corporal',
     bsaUnit: '{{value}} m²',
     bmi: 'Índice de massa corporal',

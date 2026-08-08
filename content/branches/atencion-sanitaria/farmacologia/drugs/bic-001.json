@@ -2,52 +2,39 @@
   "id": "bic-001",
   "name": "Bicarbonato de sodio",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Corrección de acidosis metabólica.",
-  "indications": "## Indicaciones principales\n\nCorrección de acidosis metabólica.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "HCO₃⁻. Acidosis aguda: estimar **mEq = (HCO₃ deseado − actual) × 0,3 × kg**. Orient. bolo **1–2 mEq/kg** IV diluido. NNU/PCR seleccionada: **1–2 mEq/kg** lento. Tratar siempre la causa; corregir hipokalemia primero.",
+  "indications": "## Indicaciones\n\n- Acidosis metabólica grave seleccionada; intoxicaciones específicas; hiperK refractaria (esquemas).\n- NRP: uso restringido (no rutinario en PCR).\n\n## Precauciones\n\n- Extravasación → necrosis. Carga de Na⁺. Alcalosis, hipocalcemia.\n- **Incompatible con calcio, magnesio y atropina** en línea.\n\n> Ampolla 1 M = **1 mEq/mL** (8,4%). Periferia: diluir (p. ej. 1/6).",
   "dilution": {
     "adulto": {
-      "presentation": "Ampolla 1 mEq/mL (8,4%).",
-      "dose": "1–2 mEq/kg IV diluido en situaciones seleccionadas (prescripción).",
-      "administration": "IV lenta diluida."
+      "presentation": "Ampolla 1 mEq/mL (8,4%); también 0,5 M / VO.",
+      "dose": "Situaciones seleccionadas: **1–2 mEq/kg** IV; o calcular **(deseado − actual) × 0,3 × kg**. Infundir lento (a menudo >2 h si no emergencia).",
+      "administration": "IV diluido; vía central para concentraciones altas. Periferia: diluir (p. ej. hasta **0,5 mEq/mL**).",
+      "notes": "No mezclar con calcio."
     },
     "pediatrico": {
-      "presentation": "Cápsulas: 1000 mg; Solución V.O. 10% (preparado magistral): 100 mg de Bicarbonato de sodio/ml (1,2 mEq de bicarbonato/ml y 1,2 mEq de Sodio/ml); Solución E.V. 1 Molar: 1 mEq de bicarbonato/ml Ver formulación",
-      "administration": "V.O.; E.V.",
-      "diluent": "Salina 0,9% o Dext. 5%.",
-      "finalConcentration": "Corrección de EAB en HP.",
-      "infusionRate": "Infusión continua entre 4 y 8 horas con BIC.",
-      "dose": "Acidosis metabólica aguda grave (E.V.): mEq requeridos = (cc. sérica deseada - cc. actual) x 0,3 x peso en kg. Acidosis metabólica crónica (V.O.): mEq requeridos = (cc. sérica deseada - cc. actual) x 0,6 x peso en kg. Ver Boletín CIME Electrolitos.",
-      "notes": "Tratar siempre la causa de acidosis. Corregir en primer lugar la hipokalemia. Administración V.O.: administrar 1-3 horas luego de las comidas, cásulas de 1 g de bicarbonato de sodio contienen 12 mEq de bicarbonato y 12 mEq de sodio. Administración E.V.: vía periférica: diluir al 1/6; vía central: push E.V.: lento hasta 1 mEq/ml, infusión E.V.: diluir hasta 0,5 mEq/ml en Dx 5% e infundir en más de 2 hs. Incompatible con calcio, magnesio y atropina"
+      "presentation": "Solución IV 1 M (1 mEq/mL); VO 10% magistral ~1,2 mEq/mL; cáps. 1 g ≈ 12 mEq.",
+      "dose": "Aguda IV: **mEq = (deseado − actual) × 0,3 × kg** (orient. bolo **1–2 mEq/kg**). Crónica VO: factor **0,6 × kg**.",
+      "diluent": "SF 0,9% o Dext. 5%.",
+      "finalConcentration": "Periferia diluida; central hasta 1 mEq/mL push lento.",
+      "infusionRate": "Infusión habitual 4–8 h con BIC si no emergencia.",
+      "administration": "VO o IV.",
+      "notes": "Corregir hipokalemia antes/durante."
     },
     "neonatal": {
-      "dose": "1–2 mEq/kg en parada con acidosis según NRP.",
-      "administration": "IV lenta."
+      "presentation": "1 mEq/mL; dilución NNU.",
+      "dose": "**1–2 mEq/kg** IV lento en acidosis grave seleccionada / NRP cuando esté indicado — no rutinario en PCR.",
+      "administration": "IV lenta (diluir; preferir vía segura).",
+      "notes": "Riesgo de hemorragia IVH si bolo rápido — neonatología."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- Mantener a T° ambiente. Descartar el resto.\n\n## General\n\n- No mezclar con calcio en misma línea.",
-  "adverseEffects": "## Efectos adversos\n\nV.O.:distensión gástrica y flatulencia. E.V.: necrosis tisular (evitar extravasación), hiponatremia, alcalosis metabólica, hipocalcemia.",
+  "stability": "## Estabilidad\n\n- T° ambiente. Desechar sobrante de ampolla abierta. No mezclar con Ca²⁺.",
+  "adverseEffects": "## Efectos adversos\n\nNecrosis por extravasación, alcalosis, hipernatremia, hipocalcemia, flatulencia (VO).",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — bicarbonato de SODIO (cód. 0267, ATC B05CB).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "Hospital Garrahan. Formulario / electrolitos — bicarbonato.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AHA / NRP — bicarbonate not routine in cardiac arrest.", "url": "https://cpr.heart.org/" },
+    { "citation": "SCCM. Metabolic acidosis management context.", "url": "https://www.sccm.org/" },
+    { "citation": "ANMAT. Prospectos bicarbonato de sodio.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

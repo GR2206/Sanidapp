@@ -1,33 +1,36 @@
 {
   "id": "pol-001",
   "name": "Polimixina B",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Descolonização pré-operatória em pacientes com intestino curto, associada ao metronidazol V.O.",
-  "indications": "## Indicações principais\n\nDescolonização pré-operatória em pacientes com intestino curto, associada ao metronidazol V.O.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Polimixina B. Adulto IV: **1,5–2,5 mg/kg/dia** a cada 12 h. Pediatria VO (descolonização): **10–20 mg/kg/dia**. UTIN IV reserva: **1,5–2,5 mg/kg/dia** dividido a cada 12 h — infectologia.",
+  "indications": "## Indicações\n\n- Infecções por gram-negativos resistentes (IV); descolonização pré-cirúrgica VO em esquemas selecionados (± metronidazol).\n\n## Precauções\n\n- Nefro e neurotoxicidade. Confirmar conversão UI↔mg do frasco local.\n\n> Uso de reserva / infectologia.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola 500.000 U.I. ou 1 milhão U.I.",
-      "dose": "1,5–2,5 mg/kg/dia E.V. divididos a cada 12 h (converter U.I. em mg conforme bula).",
-      "infusionRate": "Perfusão lenta.",
-      "administration": "E.V."
+      "presentation": "Frasco-ampola 500.000 UI ou 1 milhão UI.",
+      "dose": "1,5–2,5 mg/kg/dia IV dividido a cada 12 h (converter UI para mg conforme bula).",
+      "infusionRate": "Infusão lenta.",
+      "administration": "IV."
     },
     "pediatrico": {
-      "dose": "10–20 mg/kg/dia a cada 6–8 h por 5 dias.",
-      "administration": "V.O.",
-      "presentation": "Preparação magistral: cápsulas",
-      "notes": "Contraindicada em hipersensibilidade às polimixinas."
+      "dose": "10–20 mg/kg/dia a cada 6–8 h durante 5 dias.",
+      "administration": "VO.",
+      "presentation": "Preparação magistral: sachês",
+      "notes": "Contraindicada em pacientes com reações de hipersensibilidade a polimixinas."
     },
     "neonatal": {
-      "dose": "Dose conforme protocolo da UCIN; uso de reserva.",
-      "administration": "E.V."
+      "presentation": "Frasco 500.000–1.000.000 UI; conversão conforme bula.",
+      "dose": "IV (reserva): **1,5–2,5 mg/kg/dia** dividido a cada **12 h**; ajustar na IRC — só infectologia/UTIN.",
+      "administration": "IV infusão lenta.",
+      "notes": "Monitorar creatinina e sinais neurológicos."
     }
   },
   "stability": "## Estabilidade\n\n- Usar após diluição conforme bula.",
   "adverseEffects": "## Efeitos adversos\n\nIrritabilidade, ataxia, parestesia perioral, nefrotoxicidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Polimixina B Sulfato (cód. 0486, ATC J01XB).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Polimixina B Sulfato (cód. 0486, ATC J01XB).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -35,18 +38,17 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
       "url": "https://www.sadi.org.ar/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
       "url": "https://www.idsociety.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

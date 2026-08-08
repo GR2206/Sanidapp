@@ -2,10 +2,10 @@
   "id": "lvt-001",
   "name": "Levetiracetam",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anticonvulsivante.",
-  "indications": "## Indicaciones principales\n\nAnticonvulsivante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anticonvulsivante. Adulto carga **60 mg/kg IV** (máx. **4500 mg**); mant. **500–1500 mg c/12 h**. Pediatría hasta **60 mg/kg/día**. NNU: carga **40–60 mg/kg** → mant. **20–40 mg/kg/día** c/12 h.",
+  "indications": "## Indicaciones\n\n- Crisis convulsivas / status (adyuvante); epilepsia.\n\n## Precauciones\n\n- Ajustar en IRC/hemodiálisis. Suspender gradualmente.\n\n> IV diluir e infundir ~15 min (neonatos conc. frec. **5 mg/mL**).",
   "dilution": {
     "adulto": {
       "presentation": "Frasco 500 mg/5 mL IV; comprimidos VO.",
@@ -22,8 +22,10 @@
       "notes": "Administración E.V.: Diluir la dosis en 100 ml de solución fisiológica o dextrosa 5 % y administrar en 15 min (neonatos: 5 mg/ml). Suspender la droga gradualmente para minimizar el aumento de frecuencia de convulsiones."
     },
     "neonatal": {
-      "dose": "Carga 40–60 mg/kg; mantenimiento según protocolo NNU.",
-      "administration": "IV."
+      "presentation": "100 mg/mL; diluir a ~5 mg/mL.",
+      "dose": "Carga **40–60 mg/kg IV** en ~15 min; mantenimiento **10–20 mg/kg/dosis cada 12 h** (**20–40 mg/kg/día**), titular a respuesta — neonatología.",
+      "administration": "IV.",
+      "notes": "Ajuste renal; no suspender en seco."
     }
   },
   "stability": "## General\n\n- Dilución IV 4 h ambiente según prospecto.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto. Dilución estable 24 hs a T° ambiente.",

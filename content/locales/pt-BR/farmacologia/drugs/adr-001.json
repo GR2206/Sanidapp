@@ -1,56 +1,52 @@
 {
   "id": "adr-001",
   "name": "Adrenalina (epinefrina)",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Simpaticomimético. Choque cardiogênico ou séptico com hipotensão refratária e baixa resistência periférica.",
-  "indications": "## Indicações principais\n\nSimpaticomimético. Choque cardiogênico ou séptico com hipotensão refratária e baixa resistência periférica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Catecolamina. PCR adulto: **1 mg IV/IO a cada 3–5 min**. Pediatria PCR: **0,01 mg/kg** (máx. 1 mg). Anafilaxia IM: adulto **0,3–0,5 mg**; ped **0,01 mg/kg** (máx. 0,5). Infusão no choque: **0,05–1 mcg/kg/min**.",
+  "indications": "## Indicações\n\n- Parada cardiorrespiratória (ACLS/PALS/NRP).\n- Anafilaxia; asma grave refratária (esquemas).\n- Choque / bradicardia sintomática com infusão contínua.\n\n## Precauções\n\n- Arritmias, hipertensão, isquemia miocárdica; extravasamento → necrose.\n- Diferenciar concentrações **1:1000 (1 mg/mL)** vs **1:10.000 (0,1 mg/mL)**.\n\n> Na PCR não atrasar a adrenalina; preferir via IV/IO.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola 1 mg/mL (1:1000) ou 0,1 mg/mL (1:10.000) conforme apresentação institucional.",
-      "dose": "PCR E.V./I.O.: 1 mg a cada 3–5 min. Anafilaxia I.M.: 0,3–0,5 mg; repetir a cada 5–15 min se persistir.",
-      "administration": "E.V./I.O. na PCR; I.M. na anafilaxia.",
-      "notes": "Registrar hora, dose, via e resposta hemodinâmica."
+      "presentation": "Ampola 1 mg/mL (1:1000) ou 0,1 mg/mL (1:10.000).",
+      "dose": "PCR: **1 mg IV/IO a cada 3–5 min**. Anafilaxia IM: **0,3–0,5 mg** (repetir a cada 5–15 min). Infusão: **0,05–0,5 mcg/kg/min** (até **1 mcg/kg/min**) ajustada.",
+      "administration": "IV/IO na PCR; IM anterolateral da coxa na anafilaxia; infusão em bomba (central preferível).",
+      "notes": "Monitorar ECG, PA e local da infusão."
     },
     "pediatrico": {
-      "presentation": "Ampolas 4 mL: 1 mg/mL",
-      "administration": "E.V.",
-      "diluent": "PCR: SF 0,9%, SG 5%. Anafilaxia: sem diluente.",
-      "finalConcentration": "PCR: 0,1 mg/mL (diluir uma ampola até 10 mL). Anafilaxia: 0,01 mg/kg.",
-      "infusionRate": "Push.",
-      "dose": "0,05–1 µg/kg/min, dose máxima: 2 µg/kg/min. Adultos: iniciar 4 µg/min; infusão 8–12 µg/min",
-      "notes": "Oxida rapidamente; não utilizar se apresentar coloração marrom. Não se recomenda diluir em solução fisiológica. Os efeitos da noradrenalina podem aumentar com antidepressivos tricíclicos, anti-histamínicos e betabloqueadores."
+      "presentation": "Ampola 1 mg/mL; diluir para 0,1 mg/mL na PCR se usar 1:1000.",
+      "diluent": "NaCl 0,9% ou SG 5% para diluição na PCR.",
+      "finalConcentration": "PCR: **0,1 mg/mL**. Infusão: ex. **16–32 mcg/mL** (ex. 0,6 mg em 25–50 mL SF).",
+      "dose": "PCR: **0,01 mg/kg IV/IO** (máx. **1 mg**) a cada 3–5 min. Anafilaxia IM: **0,01 mg/kg** (máx. **0,5 mg**). Infusão: **0,05–1 mcg/kg/min** (máx. habitual **2 mcg/kg/min**).",
+      "administration": "IV/IO/IM conforme indicação; infusão só em bomba.",
+      "notes": "Não usar se solução marrom/precipitada. Desprezar o restante."
     },
     "neonatal": {
-      "presentation": "Ampola 0,1 mg/mL (1:10.000) preferida para neonatos quando disponível.",
-      "dose": "RCP neonatal: 0,01–0,03 mg/kg E.V./I.O./endotraqueal conforme algoritmo NRP vigente.",
-      "administration": "Via umbilical, periférica ou outro acesso conforme situação."
+      "presentation": "Preferir 0,1 mg/mL (1:10.000) quando disponível.",
+      "dose": "RCP neonatal: **0,01–0,03 mg/kg IV/IO** (NRP); endotraqueal só se não houver acesso vascular (**0,05–0,1 mg/kg**). Infusão: **0,05–1 mcg/kg/min**.",
+      "administration": "Via umbilical / IV; bomba para infusão.",
+      "notes": "Seguir algoritmo NRP vigente do centro."
     }
   },
-  "stability": "## Guia pediátrica\n\n- Degrada rapidamente. Não usar se a solução estiver descolorida ou precipitada. Descartar o sobrante.\n\n## Geral\n\n- Proteger da luz. Conservar entre 15 e 30 °C.",
-  "adverseEffects": "## Efeitos adversos\n\nHipertensão, necrose, bradicardia. Uso prolongado: diminuição do débito cardíaco, depleção do volume plasmático, vasoconstrição periférica e visceral grave. Cardiomiopatia por estresse.",
+  "stability": "## Estabilidade\n\n- Proteger da luz. Desprezar se coloração ou precipitado. Diluições de bomba: seguir guia local (habitual 24 h).",
+  "adverseEffects": "## Efeitos adversos\n\nTaquicardia, hipertensão, arritmias, ansiedade, hiperglicemia, necrose por extravasamento.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — NORadrenalina (cód. 1401, ATC C01CA).",
+      "citation": "AHA. ACLS / PALS / NRP — epinephrine dosing.",
+      "url": "https://cpr.heart.org/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulario — adrenalina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Epinefrina.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Pediatric Advanced Life Support (PALS).",
-      "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "World Allergy Organization. Anaphylaxis guidance for healthcare providers.",
-      "url": "https://www.worldallergy.org/"
+      "citation": "ANMAT. Prospectos adrenalina/epinefrina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

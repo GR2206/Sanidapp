@@ -1078,7 +1078,7 @@ export const extEs = {
     doseForDrug: 'Dosis · {{drug}}',
     doseValue: '{{value}} mg · c/{{hours}} hs',
     doseIndication: 'Tratamiento',
-    doseUnavailable: 'Sin datos de dosis para este fármaco.',
+    doseUnavailable: 'No hay esquema de dosis cargado para este fármaco con el peso ingresado.',
     bsa: 'Superficie corporal',
     bsaUnit: '{{value}} m²',
     bmi: 'Índice de masa corporal',

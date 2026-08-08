@@ -20,10 +20,10 @@
       "notes": "Diluido: desechar ~18 h T° amb / ~24 h refrigerado (cartilla)."
     },
     "neonatal": {
-      "presentation": "Uso NNU especializado.",
-      "dose": "Shock refractario según protocolo NNU (µg/UI por kg/min).",
-      "administration": "IV central + bomba.",
-      "notes": "Riesgo isquémico elevado — especialista."
+      "presentation": "Ampolla 20 UI/mL; uso NNU especializado.",
+      "dose": "Shock refractario: **0,0003–0,002 UI/kg/min** IV continuo (orient. **0,02–0,12 UI/kg/h**); titular con monitorización — neonatología.",
+      "administration": "IV central + bomba; diluir SF/DX 5% (máx. ~1 UI/mL).",
+      "notes": "Riesgo isquémico elevado — solo especialista."
     }
   },
   "stability": "## Estabilidad\n\n- Dilución: seguir prospecto/cartilla (~18–24 h).",
