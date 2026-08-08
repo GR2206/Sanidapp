@@ -2,48 +2,46 @@
   "id": "pos-001",
   "name": "Posaconazole",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Treatment of invasive fungal infections (IFI) when other first-line drugs cannot be used or have proven ineffective (aspergillosis, fusariosis, chromoblastomycosis, mycetoma, coccidioidomycosis) and as first-line treatment in selected patients",
-  "indications": "## Main indications\n\nTreatment of invasive fungal infections (IFI) when other first-line drugs cannot be used or have proven ineffective (aspergillosis, fusariosis, chromoblastomycosis, mycetoma, coccidioidomycosis) and as first-line treatment in selected patients with oropharyngeal candidiasis.\nProphylaxis of IFI in immunocompromised patients (patients with acute myeloid leukemia, or myelodysplastic syndrome under chemotherapy or hematopoietic stem cell transplant under immunosuppressive treatment).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Broad-spectrum triazole. Adult IV/DR tablets: load **300 mg every 12 h on day 1**, then **300 mg every 24 h**. Oral suspension: different regimen — **do not interchange** formulations. TDM advisable.",
+  "indications": "## Indications\n\n- IFI prophylaxis in prolonged neutropenia (AML/MDS) and GVHD after HSCT.\n- Treatment of aspergillosis and other mycoses when voriconazole/AmB are unsuitable; selected oropharyngeal candidiasis.\n\n## Precautions\n\n- Strong CYP3A4 interactions (tacrolimus, sirolimus, vinca alkaloids, etc.).\n- IV: **0.22 µm** filter, prefer central line; dilute to **1–2 mg/mL**.\n- DR tablets ≠ oral suspension (different bioavailability).\n\n> Trough targets (orientative): prophylaxis ≥700 ng/mL; treatment ~1000–1500 ng/mL (center-specific).",
   "dilution": {
     "adulto": {
-      "presentation": "Solution for concentrate for solution for infusion containing 300 mg in 16,7 mL (18 mg/mL) (Noxafil IV).",
-      "reconstitution": "No prior reconstitution required. Conc: 18 mg/mL.",
-      "diluent": "300 mg in 150-250 mL of 0.9% NaCl, 5% dextrose or Ringer lactate.",
-      "finalConcentration": "1-2 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 150-250 mL of 0.9% NaCl, 5% dextrose or Ringer lactate and administer over 90 min via in-line filter (0,22 µm). Prefer central line.",
-      "notes": "Requires 0,22 µm in-line filter. Prefer central line (irritant via peripheral route). Loading dose: 300 mg every 12 h on day 1; maintenance: 300 mg/day. Indicated for prophylaxis and treatment of aspergillosis and other invasive mycoses. Multiple interactions via CYP3A4 inhibition."
+      "presentation": "IV 300 mg/16.7 mL (18 mg/mL); DR tablets 100 mg; suspension 40 mg/mL.",
+      "dose": "IV or DR tablets (≥40 kg): load **300 mg every 12 h × 2 doses (day 1)**, maintenance **300 mg every 24 h**. Suspension (not interchangeable): e.g. prophylaxis **200 mg every 8 h**; treatment per label (often **400 mg every 12 h** with food).",
+      "administration": "IV: dilute 300 mg in 150–250 mL NS/D5W/LR; **90 min** with 0.22 µm filter. DR tablets with/without food. Suspension **with food** or supplement.",
+      "notes": "Do not split DR tablets. Monitor electrolytes and interactions."
     },
     "pediatrico": {
-      "dose": "Immediate-release suspension: Prophylaxis: 4 - 6 mg/kg/dose every 8 h, maximum: 400 mg/dose; Treatment: 4 - 6 mg/kg/dose every 6 h Extended-release tablets: ≥ 3 years and adolescents ≤ 17 years: loading dose (x 24 h): 5 - 7 mg/kg/dose every 12 h, maximum: 300 mg/dose), maintenance: 5 - 7 mg/kg/dose every 24 h, maximum 300 mg/dose. Adjust dose by therapeutic drug monitoring (desired range prophylaxis: ≥ 700 ng/mL, treatment: 1000 - 1250 ng/mL)",
-      "administration": "PO",
-      "presentation": "Modified-release tablets: 100 mg; Oral suspension 105 ml: 40 mg/ml",
-      "notes": "Tablet and oral suspension should not be used interchangeably due to dosing differences between formulations. Modified-release tablets may be administered with or without meals; oral suspension should be administered with a meal or nutritional supplement in patients who cannot tolerate a meal to improve absorption. Tablets cannot be split. Concentration increased by verapamil, cyclosporine, clarithromycin, erythromycin. Increases concentration of vincristine, vinblastine (neurotoxicity risk), cyclosporine, tacrolimus, sirolimus (reduce dose when starting posaconazole and monitor blood levels); atazanavir, protease inhibitors (monitor adverse effects), digoxin (monitor levels when starting treatment). Concentration decreased by fosamprenavir, H2 antagonists and proton pump inhibitors."
+      "presentation": "DR tablets 100 mg; suspension 40 mg/mL; IV if available.",
+      "dose": "Suspension prophylaxis: **4–6 mg/kg every 8 h** (max **400 mg**/dose); treatment: **4–6 mg/kg every 6 h**. DR tablets ≥3 years: load **5–7 mg/kg every 12 h** (max **300 mg**) for 24 h, then **5–7 mg/kg every 24 h** (max **300 mg**). Adjust by TDM.",
+      "administration": "PO (non-interchangeable formulations); IV if authorized.",
+      "notes": "ID + levels. Inducers/antacids may ↓ suspension absorption."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Not applicable.\n\n## Diluted solution (for administration)\n\n- 12 h at room temperature, 24 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nNeutropenia, electrolyte imbalance, anorexia, decreased appetite, hypokalemia, hypomagnesemia, paresthesia, dizziness, somnolence, headache, dysgeusia, hypertension, nausea, vomiting, abdominal pain, diarrhea, dyspepsia, dry mouth, flatulence, constipation, anorectal discomfort, rash, pruritus, fever, asthenia, fatigue.",
+  "stability": "## Stability\n\n- Diluted IV: ~12 h room temp / ~24 h refrigerated (label).",
+  "adverseEffects": "## Adverse effects\n\nNausea, diarrhea, ↑ liver enzymes, hypokalemia, headache, rash, fever, neutropenia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Posaconazol* (code 1742, ATC J02AC).",
+      "citation": "Garrahan Hospital. Institutional formulary. — posaconazole.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC / bula de referência.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "IDSA. Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     }
   ]

@@ -1,50 +1,48 @@
 {
   "id": "pos-001",
   "name": "Posaconazol",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamento de infecções fúngicas invasivas (IFI), quando outros fármacos de primeira linha não podem ser utilizados ou resultaram ineficazes (aspergilose, fusariose, cromoblastomicose, micetoma, coccidioidomicose) e como tratamento de primeira linha em pacientes selecionados com candidíase orofaríngea.",
-  "indications": "## Indicações principais\n\nTratamento de infecções fúngicas invasivas (IFI), quando outros fármacos de primeira linha não podem ser utilizados ou resultaram ineficazes (aspergilose, fusariose, cromoblastomicose, micetoma, coccidioidomicose) e como tratamento de primeira linha em pacientes selecionados com candidíase orofaríngea.\nProfilaxia de IFI em pacientes imunodeprimidos (pacientes com leucemia mieloide aguda, ou síndrome mielodisplásica sob quimioterapia ou transplante de células-tronco hematopoiéticas sob tratamento imunossupressor).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Triazol de amplo espectro. IV/comprimidos LP adulto: carga **300 mg a cada 12 h no dia 1**, depois **300 mg a cada 24 h**. Suspensão oral: esquema distinto — **não intercambiar** formulações. TDM recomendável.",
+  "indications": "## Indicações\n\n- Profilaxia de IFI em neutropenia prolongada (LMA/SMD) e DECH pós-TCTH.\n- Tratamento de aspergilose e outras micoses quando voriconazol/AnB não são adequados; candidíase orofaríngea selecionada.\n\n## Precauções\n\n- Fortes interações CYP3A4 (tacrolimus, sirolimus, alcaloides da vinca, etc.).\n- IV: filtro **0,22 µm**, preferir via central; diluir a **1–2 mg/mL**.\n- Comprimidos LP ≠ suspensão (biodisponibilidade diferente).\n\n> Vales orientativos: profilaxia ≥700 ng/mL; tratamento ~1000–1500 ng/mL (conforme centro).",
   "dilution": {
     "adulto": {
-      "presentation": "Solução para concentrado para solução para infusão contendo 300 mg em 16,7 mL (18 mg/mL) (Noxafil IV).",
-      "reconstitution": "Não requer reconstituição prévia. Conc: 18 mg/mL.",
-      "diluent": "300 mg em 150-250 mL de SF, Dx 5% ou Ringer lactato.",
-      "finalConcentration": "1-2 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 150-250 mL de SF, Dx 5% ou Ringer lactato e admin. em 90 min mediante filtro em linha (0,22 µm). Usar via central preferentemente.",
-      "notes": "Requer filtro em linha de 0,22 µm. Preferir via central (irritante em via periférica). Dose de carga: 300 mg a cada 12 h no dia 1; manutenção: 300 mg/dia. Indicado em profilaxia e tratamento de aspergilose e outras micoses invasoras. Múltiplas interações por inibição do CYP3A4."
+      "presentation": "IV 300 mg/16,7 mL (18 mg/mL); comprimidos LP 100 mg; suspensão 40 mg/mL.",
+      "dose": "IV ou comprimidos LP (≥40 kg): carga **300 mg a cada 12 h × 2 doses (dia 1)**, manutenção **300 mg a cada 24 h**. Suspensão (não intercambiável): p. ex. profilaxia **200 mg a cada 8 h**; tratamento conforme bula (muitas vezes **400 mg a cada 12 h** com alimento).",
+      "administration": "IV: diluir 300 mg em 150–250 mL SF/SG 5%/RL; **90 min** com filtro 0,22 µm. Comprimidos LP com/sem comida. Suspensão **com comida** ou suplemento.",
+      "notes": "Não partir comprimidos LP. Monitorar eletrólitos e interações."
     },
     "pediatrico": {
-      "dose": "Suspensão de liberação imediata: Profilaxia: 4 - 6 mg/kg/dose a cada 8 h, máximo: 400 mg/dose; Tratamento: 4 - 6 mg/kg/dose a cada 6 h Comprimidos de liberação prolongada: ≥ 3 anos e adolescentes ≤ 17 anos: dose de carga (por 24 h): 5 - 7 mg/kg/dose a cada 12 h, máximo: 300 mg/dose), manutenção: 5 - 7 mg/kg/dose a cada 24 h, máximo 300 mg/dose. Ajustar dose por monitoramento terapêutico (faixa desejada profilaxia: ≥ 700 ng/mL, tratamento: 1000 - 1250 ng/mL)",
-      "administration": "V.O.",
-      "presentation": "Comprimidos de liberação modificada: 100 mg; Suspensão oral por 105 ml: 40 mg/ml",
-      "notes": "O comprimido e a suspensão oral não devem ser usados indistintamente, devido às diferenças existentes quanto à dosagem de cada formulação. Os comprimidos de liberação modificada podem ser administrados com ou sem refeições e a suspensão oral deve ser administrada com uma refeição ou um suplemento nutricional naqueles pacientes que não toleram uma refeição para melhorar a absorção. Não podem ser partidos. Concentração aumentada por verapamilo, ciclosporina, claritromicina, eritromicina. Aumenta concentração de vincristina, vinblastina (risco de neurotoxicidade), ciclosporina, tacrolimus, sirolimus (reduzir dose ao iniciar tratamento com posaconazol e controlar seu nível sanguíneo); atazanavir, inibidores da protease (vigiar efeitos adversos), digoxina (monitorizar níveis ao iniciar tratamento). Concentração diminuída por fosamprenavir, antagonistas H2 e inibidores de bomba de prótons."
+      "presentation": "Comprimidos LP 100 mg; suspensão 40 mg/mL; IV se disponível.",
+      "dose": "Suspensão profilaxia: **4–6 mg/kg a cada 8 h** (máx. **400 mg**/dose); tratamento: **4–6 mg/kg a cada 6 h**. Comprimidos LP ≥3 anos: carga **5–7 mg/kg a cada 12 h** (máx. **300 mg**) × 24 h, depois **5–7 mg/kg a cada 24 h** (máx. **300 mg**). Ajustar por TDM.",
+      "administration": "VO (formulações não intercambiáveis); IV se autorizado.",
+      "notes": "Infectologia + níveis. Indutores/antiácidos podem ↓ absorção da suspensão."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Não se aplica.\n\n## Solução diluída (a administrar)\n\n- 12 h em temperatura ambiente, 24 h refrigerado.",
-  "adverseEffects": "## Efeitos adversos\n\nNeutropenia, desequilíbrio eletrolítico, anorexia, apetite diminuído, hipocalemia, hipomagnesemia, parestesia, tontura, sonolência, cefaleia, disgeusia, hipertensão, náuseas, vômitos, dor abdominal, diarreia, dispepsia, secura da boca, flatulência, constipação, desconforto anorretal, erupção, prurido, febre, astenia, fadiga.",
+  "stability": "## Estabilidade\n\n- IV diluído: ~12 h T° amb / ~24 h refrigerado (bula).",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, diarreia, ↑ enzimas hepáticas, hipocalemia, cefaleia, erupção, febre, neutropenia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Posaconazol* (cód. 1742, ATC J02AC).",
+      "citation": "Hospital Garrahan. Formulário institucional. — posaconazol.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC / bula de referência.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "IDSA. Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

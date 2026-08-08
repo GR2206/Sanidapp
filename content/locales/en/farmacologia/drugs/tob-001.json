@@ -2,43 +2,52 @@
   "id": "tob-001",
   "name": "Tobramycin",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-25",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Aminoglycoside with greater antipseudomonal activity; IV, IM, or inhaled use in cystic fibrosis.",
-  "indications": "## Indications\n\n- *Pseudomonas* infections in combination.\n- Inhaled in cystic fibrosis exacerbations (specific presentation).\n\n## Precautions\n\n- Monitor levels and renal function.\n\n> Adjust according to institutional protocols and medical prescription.",
+  "executiveSummary": "Antipseudomonal aminoglycoside. Adult/pediatric IV: **5–7 mg/kg/day** (traditional q8h) or **5–7 mg/kg every 24 h** (extended interval). CF often **10 mg/kg every 24 h**. Inhaled: **300 mg every 12 h** (cycles). Monitor levels and creatinine.",
+  "indications": "## Indications\n\n- Serious Gram-negative infections (esp. *Pseudomonas*) in combination.\n- Cystic fibrosis: IV and/or inhaled (TOBI and others).\n\n## Precautions\n\n- Nephro- and ototoxicity — levels (peak/trough or AUC) and renal function.\n- Adjust by CrCl; caution with other nephrotoxins.\n- Do not mix in the same syringe with β-lactams (inactivation).\n\n> Prefer extended interval in many non-CF adults per PK protocol.",
   "dilution": {
     "adulto": {
-      "presentation": "40 mg/mL IV ampoule; solution for nebulization.",
-      "dose": "5–7 mg/kg/day IV divided every 8 h. Inhaled: according to cystic fibrosis protocol.",
-      "administration": "IV or inhaled."
+      "presentation": "Ampoule 40–80 mg/mL; nebulization 300 mg.",
+      "dose": "Conventional IV: **1.5–2.5 mg/kg every 8 h** (**~5–7 mg/kg/day**). Extended interval: **5–7 mg/kg IV every 24 h**. CF: often **10 mg/kg IV every 24 h**. Inhaled: **300 mg every 12 h** in 28-day on/off cycles (specific product).",
+      "administration": "IV over 30–60 min in NS/D5W. Nebulize with indicated system; do not mix other drugs in the same cup without protocol.",
+      "notes": "Calculate by ideal body weight in obesity per center."
     },
     "pediatrico": {
-      "dose": "5–7 mg/kg/day IV every 8 h.",
-      "administration": "IV/inhaled as indicated."
+      "presentation": "Ampoule; pediatric nebulization per product.",
+      "dose": "**2–2.5 mg/kg every 8 h** or **5–7.5 mg/kg every 24 h** per protocol. CF: often **10 mg/kg every 24 h**. Inhaled: by age/product (e.g. 300 mg q12h in ≥6 years).",
+      "administration": "IV/inhaled.",
+      "notes": "TDM mandatory for prolonged courses."
     },
     "neonatal": {
-      "dose": "4–5 mg/kg/dose every 24–48 h (NICU).",
-      "administration": "IV."
+      "presentation": "Ampoule; NNU card.",
+      "dose": "Orientative: **4–5 mg/kg/dose every 24–48 h** by PMA/PNA and renal function.",
+      "administration": "Slow IV.",
+      "notes": "Follow center neonatal table."
     }
   },
-  "stability": "## Stability\n\n- IV diluted: 24 h refrigerated.\n- Nebulization: use immediately.",
-  "adverseEffects": "## Adverse effects\n\n- Nephrotoxicity, ototoxicity, bronchospasm (inhaled).",
+  "stability": "## Stability\n\n- Diluted IV: ~24 h refrigerated.\n- Nebulization: use immediately after opening.",
+  "adverseEffects": "## Adverse effects\n\nNephrotoxicity, ototoxicity (cochlear/vestibular), neuromuscular blockade (rare), bronchospasm (inhaled).",
   "bibliography": [
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEMPS CIMA. SmPC / bula de referência.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Cystic Fibrosis Foundation — inhaled tobramycin.",
+      "url": "https://www.cff.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "citation": "IDSA. Clinical practice guidelines.",
       "url": "https://www.idsociety.org/"
     }
   ]

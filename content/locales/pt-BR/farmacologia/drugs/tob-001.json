@@ -2,43 +2,52 @@
   "id": "tob-001",
   "name": "Tobramicina",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-25",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Aminoglicosídeo com maior atividade antipseudomonas; uso IV, IM ou inalatório na fibrose cística.",
-  "indications": "## Indicações\n\n- Infecções por *Pseudomonas* em associação.\n- Via inalatória em exacerbações de fibrose cística (apresentação específica).\n\n## Precauções\n\n- Monitorar níveis séricos e função renal.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Aminoglicosídeo antipseudomonas. Adulto/pediatria IV: **5–7 mg/kg/dia** (tradicional c/8 h) ou **5–7 mg/kg a cada 24 h** (intervalo estendido). FQ frequentemente **10 mg/kg a cada 24 h**. Inalada: **300 mg a cada 12 h** (ciclos). Monitorar níveis e creatinina.",
+  "indications": "## Indicações\n\n- Infecções graves por gram-negativos (esp. *Pseudomonas*) em combinação.\n- Fibrose cística: IV e/ou inalada (TOBI e outras).\n\n## Precauções\n\n- Nefro e ototoxicidade — níveis e função renal.\n- Ajuste por ClCr; cautela com outros nefrotóxicos.\n- Não misturar na mesma seringa com β-lactâmicos (inativação).\n\n> Preferir intervalo estendido em muitos adultos não FQ conforme protocolo PK.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola 40 mg/mL IV; solução para nebulização.",
-      "dose": "5–7 mg/kg/dia IV divididos a cada 8 h. Inalatório: conforme protocolo de fibrose cística.",
-      "administration": "IV ou inalatório."
+      "presentation": "Ampola 40–80 mg/mL; nebulização 300 mg.",
+      "dose": "IV convencional: **1,5–2,5 mg/kg a cada 8 h** (**~5–7 mg/kg/dia**). Intervalo estendido: **5–7 mg/kg IV a cada 24 h**. FQ: frequentemente **10 mg/kg IV a cada 24 h**. Inalada: **300 mg a cada 12 h** em ciclos 28 dias on/off (produto específico).",
+      "administration": "IV em 30–60 min em SF/SG. Nebulizar com sistema indicado; não diluir com outros fármacos na mesma cubeta sem protocolo.",
+      "notes": "Calcular por peso ideal em obesidade conforme centro."
     },
     "pediatrico": {
-      "dose": "5–7 mg/kg/dia IV a cada 8 h.",
-      "administration": "IV/inalatório conforme indicação."
+      "presentation": "Ampola; nebulização pediátrica conforme produto.",
+      "dose": "**2–2,5 mg/kg a cada 8 h** ou **5–7,5 mg/kg a cada 24 h** conforme protocolo. FQ: frequentemente **10 mg/kg a cada 24 h**. Inalada: conforme idade/produto (p. ex. 300 mg c/12 h em ≥6 anos).",
+      "administration": "IV/inalada.",
+      "notes": "TDM obrigatório em cursos prolongados."
     },
     "neonatal": {
-      "dose": "4–5 mg/kg/dose a cada 24–48 h (UCIN).",
-      "administration": "IV."
+      "presentation": "Ampola; cartilha UTI neonatal.",
+      "dose": "Orientativo: **4–5 mg/kg/dose a cada 24–48 h** conforme PMA/PNA e função renal.",
+      "administration": "IV lenta.",
+      "notes": "Seguir tabela neonatal do centro."
     }
   },
-  "stability": "## Estabilidade\n\n- IV diluída: 24 h refrigerada. Nebulização: usar imediatamente.",
-  "adverseEffects": "## Efeitos adversos\n\n- Nefrotoxicidade, ototoxicidade, broncoespasmo (inalatório).",
+  "stability": "## Estabilidade\n\n- IV diluída: ~24 h refrigerada.\n- Nebulização: usar imediatamente após abrir.",
+  "adverseEffects": "## Efeitos adversos\n\nNefrotoxicidade, ototoxicidade (coclear/vestibular), bloqueio neuromuscular (raro), broncoespasmo (inalada).",
   "bibliography": [
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEMPS CIMA. SmPC / bula de referência.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Cystic Fibrosis Foundation — tobramicina inalada.",
+      "url": "https://www.cff.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
+      "citation": "IDSA. Clinical practice guidelines.",
       "url": "https://www.idsociety.org/"
     }
   ]

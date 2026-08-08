@@ -2,43 +2,37 @@
   "id": "tob-001",
   "name": "Tobramicina",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-25",
-  "executiveSummary": "Aminoglucósido con mayor actividad antipseudomonal; uso IV, IM o inhalada en fibrosis quística.",
-  "indications": "## Indicaciones\n\n- Infecciones por *Pseudomonas* en combinación.\n- Inhalada en exacerbaciones de fibrosis quística (presentación específica).\n\n## Precauciones\n\n- Monitorizar niveles y función renal.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Aminoglucósido antipseudomonal. Adulto/pediatría IV: **5–7 mg/kg/día** (tradicional c/8 h) o **5–7 mg/kg cada 24 h** (intervalo extendido). FQ a menudo **10 mg/kg cada 24 h**. Inhalada: **300 mg cada 12 h** (ciclos). Monitorizar niveles y creatinina.",
+  "indications": "## Indicaciones\n\n- Infecciones graves por gramnegativos (esp. *Pseudomonas*) en combinación.\n- Fibrosis quística: IV y/o inhalada (TOBI u otras).\n\n## Precauciones\n\n- Nefro y ototoxicidad — niveles (pico/valle o AUC) y función renal.\n- Ajuste por ClCr; precaución con otros nefrotóxicos.\n- No mezclar en la misma jeringa con β-lactámicos (inactivación).\n\n> Preferir intervalo extendido en muchos adultos no FQ según protocolo PK.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampolla 40 mg/mL IV; solución para nebulización.",
-      "dose": "5–7 mg/kg/día IV dividido cada 8 h. Inhalada: según protocolo de fibrosis quística.",
-      "administration": "IV o inhalada."
+      "presentation": "Ampolla 40–80 mg/mL; nebulización 300 mg.",
+      "dose": "IV convencional: **1,5–2,5 mg/kg cada 8 h** (**~5–7 mg/kg/día**). Intervalo extendido: **5–7 mg/kg IV cada 24 h**. FQ: frecuentemente **10 mg/kg IV cada 24 h**. Inhalada: **300 mg cada 12 h** en ciclos 28 días on/off (producto específico).",
+      "administration": "IV en 30–60 min en SF/DX. Nebulizar con sistema indicado; no diluir con otros fármacos en la misma cubeta sin protocolo.",
+      "notes": "Calcular por peso ideal en obesidad según centro."
     },
     "pediatrico": {
-      "dose": "5–7 mg/kg/día IV cada 8 h.",
-      "administration": "IV/inhalada según indicación."
+      "presentation": "Ampolla; nebulización pediátrica según producto.",
+      "dose": "**2–2,5 mg/kg cada 8 h** o **5–7,5 mg/kg cada 24 h** según protocolo. FQ: a menudo **10 mg/kg cada 24 h**. Inhalada: según edad/producto (p. ej. 300 mg c/12 h en ≥6 años).",
+      "administration": "IV/inhalada.",
+      "notes": "TDM obligatorio en cursos prolongados."
     },
     "neonatal": {
-      "dose": "4–5 mg/kg/dosis cada 24–48 h (NNU).",
-      "administration": "IV."
+      "presentation": "Ampolla; cartilla NNU.",
+      "dose": "Orientativo: **4–5 mg/kg/dosis cada 24–48 h** según PMA/PNA y función renal.",
+      "administration": "IV lenta.",
+      "notes": "Seguir tabla neonatal del centro."
     }
   },
-  "stability": "## Estabilidad\n\n- IV diluida 24 h refrigerada. Nebulización: usar inmediatamente.",
-  "adverseEffects": "## Efectos\n\n- Nefrotoxicidad, ototoxicidad, broncoespasmo (inhalada).",
+  "stability": "## Estabilidad\n\n- IV diluida: ~24 h refrigerada.\n- Nebulización: usar de inmediato tras abrir.",
+  "adverseEffects": "## Efectos adversos\n\nNefrotoxicidad, ototoxicidad (cochlear/vestibular), bloqueo neuromuscular (raro), broncoespasmo (inhalada).",
   "bibliography": [
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    }
+    { "citation": "Sanford Guide to Antimicrobial Therapy — tobramycin.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "AEMPS CIMA. Ficha técnica tobramicina IV/inhalada.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Cystic Fibrosis Foundation / guías FQ — inhaled tobramycin.", "url": "https://www.cff.org/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "IDSA. Guidance on Gram-negative infections (contexto aminoglucósidos).", "url": "https://www.idsociety.org/" }
   ]
 }

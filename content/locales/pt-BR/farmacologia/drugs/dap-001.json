@@ -1,58 +1,48 @@
 {
   "id": "dap-001",
   "name": "Daptomicina",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibacteriano. Infecções graves por Staphylococcus aureus meticilino resistente intolerantes ou refratárias ao tratamento convencional com vancomicina.",
-  "indications": "## Indicações principais\n\nAntibacteriano. Infecções graves por Staphylococcus aureus meticilino resistente intolerantes ou refratárias ao tratamento convencional com vancomicina.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Lipopeptídeo anti-gram-positivos (incl. MRSA). Adulto pele: **4 mg/kg IV a cada 24 h**; bacteremia/endocardite direita: **6 mg/kg/dia** (muitos centros **8–10 mg/kg**). **Não usar em pneumonia**. Controlar CPK.",
+  "indications": "## Indicações\n\n- Infecções complicadas de pele e partes moles por gram-positivos.\n- Bacteremia por *S. aureus* (incl. MRSA) e endocardite direita.\n- Alternativa se falha/intolerância à vancomicina.\n\n## Precauções\n\n- **Inativada pelo surfactante pulmonar — contraindicada em pneumonia**.\n- Miopatia / ↑ CPK — suspender estatinas se possível; CPK basal e semanal.\n- Ajuste na IRC (a cada 48 h se ClCr <30).\n- Incompatível com **SG 5%**.\n\n> Adultos: IV push 2 min possível; crianças: só infusão.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 500 mg (Cubicin RT).",
-      "reconstitution": "10 mL de AD. Conc: 50 mg/mL.",
-      "diluent": "500 mg em 50 mL de SF.",
-      "finalConcentration": "10 mg/mL.",
-      "administration": "E.V. direta: Sim, somente em adultos. Passar em 2 min. E.V. intermitente: Sim. Diluir em 50 mL de SF e administrar em 30 min.",
-      "notes": "Não é compatível com DX 5%."
+      "presentation": "FA 350–500 mg.",
+      "dose": "Pele/partes moles: **4 mg/kg IV a cada 24 h**. Bacteremia / endocardite direita: **6 mg/kg a cada 24 h**. Intensificado (infectologia): **8–10 mg/kg a cada 24 h**. ClCr <30: mesmo mg/kg **a cada 48 h**.",
+      "administration": "Reconstituir com AD (repouso ~10 min; não agitar forte). Adultos: IV 2 min ou diluir em SF **30 min**. Só SF.",
+      "notes": "Vigiar mialgias e neuropatia periférica."
     },
     "pediatrico": {
-      "presentation": "F.A.: 500 mg",
-      "reconstitution": "Reconstituir e deixar repousar 10 min. Misturar com rotações suaves. Não agitar vigorosamente.",
-      "administration": "E.V.",
-      "diluent": "Sol. Cl Na 0,9%. NÃO Dext. 5%.",
-      "finalConcentration": "20 mg/mL.",
-      "infusionRate": "30 min. com BIC.",
-      "dose": "Crianças 2–6 anos: 8–10 mg/kg/dia c/24 h; 6–12 anos: 7 mg/kg/dia c/24 h; > 12 anos: 4–6 mg/kg/dia c/24 h. Bacteremia, endocardite direita, osteomielite, artrite séptica: 8–10 mg/kg/dia Adultos: Infecções graves de pele e partes moles: 4 mg/kg/dia c/24 h; bacteremia, endocardite direita: 6 mg/kg/dia.",
-      "notes": "Velocidade de infusão: 60 minutos. Controle de sinais e sintomas de: miopatias e neuropatia periférica, monitorização semanal de CPK."
+      "presentation": "FA 500 mg.",
+      "dose": "1–<2 anos: muitas vezes **10 mg/kg a cada 24 h**. 2–6 anos: **9–10 mg/kg/dia**. 7–11 anos: **7 mg/kg/dia**. 12–17 anos: **5 mg/kg/dia** (pele) ou **7 mg/kg** (bacteremia) — seguir bula por indicação.",
+      "administration": "IV infusão **30–60 min** em SF (sem push em crianças).",
+      "notes": "CPK semanal. Não pneumonia."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 24 h em temperatura ambiente, 48 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 48 h refrigerado.\n\n## Guia pediátrica\n\n- 12 h em temperatura ambiente, 48 h na geladeira.",
-  "adverseEffects": "## Efeitos adversos\n\nDor no peito, edema periférico, cefaleias, tontura, insônia, dor abdominal, anemia, eosinofilia, aumento das transaminases séricas, insuficiência renal.",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~24 h T° amb / ~48 h refrigerado.\n- Diluído em SF: ~48 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\n↑ CPK, mialgia, pneumonia eosinofílica (rara), cefaleia, diarreia, anemia, ↑ transaminases.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Daptomicina* (cód. 1831, ATC J01XX).",
+      "citation": "Hospital Garrahan. Formulário institucional. — daptomicina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC / bula de referência.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA. Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

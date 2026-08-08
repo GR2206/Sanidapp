@@ -2,42 +2,30 @@
   "id": "isa-001",
   "name": "Isavuconazol",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Triazol IV (Cresemba) para aspergilosis invasora y mucormicosis; requiere filtro en línea.",
-  "indications": "## Indicaciones principales\n\n- Aspergilosis invasora.\n- Mucormicosis según prescripción.\n\n## Precauciones\n\n- Requiere filtro en línea 0,2-1,2 µm. Interacciones con inhibidores/inductores del CYP3A4.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Triazol (Cresemba) para aspergilosis invasora y mucormicosis. Adulto: carga **372 mg isavuconazonium (= 200 mg isavuconazol) cada 8 h × 6 dosis**, luego **372 mg (= 200 mg) cada 24 h**. Filtro en línea obligatorio.",
+  "indications": "## Indicaciones\n\n- Aspergilosis invasora.\n- Mucormicosis (alternativa a anfotericina lipídica según contexto).\n\n## Precauciones\n\n- Infusión IV **≥60 min** con filtro **0,2–1,2 µm**. No bolo.\n- Interacciones CYP3A4 (inductores potentes contraindicados en muchas fichas).\n- Puede **acortar** el QT (opuesto a muchos azoles) — aún así revisar fármacos concomitantes.\n\n> Dosis etiquetadas a veces como “200 mg” = isavuconazol; equivalen a **372 mg** de isavuconazonium sulfato.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 200 mg de isavuconazonium sulfato (equiv. a 186 mg de isavuconazol) (Cresemba).",
-      "reconstitution": "5 mL de AD. Conc: 40 mg/mL de isavuconazonium sulfato. Agitar suavemente.",
-      "diluent": "200 mg en 250 mL de SF o DX 5%.",
-      "finalConcentration": "0,8 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 250 mL de SF o DX 5% y admin. en 60 min mediante filtro en línea (0,2-1,2 µm). No usar jeringa.",
-      "notes": "Requiere filtro en línea de 0,2-1,2 µm durante la infusión. No administrar en bolo. Dosis de carga: 200 mg c/8 h x 6 dosis (48 h); mantenimiento: 200 mg/día. Indicado en aspergilosis invasora y mucormicosis. Interacciones con inhibidores/inductores del CYP3A4."
+      "presentation": "FA 372 mg isavuconazonium sulfato (= 200 mg isavuconazol); cápsulas 100 mg isavuconazol (186 mg isavuconazonium).",
+      "dose": "Carga: **372 mg IV/VO cada 8 h × 6 dosis** (48 h). Mantenimiento: **372 mg cada 24 h**. (Equivale a **200 mg** de isavuconazol por dosis.)",
+      "administration": "IV: reconstituir 5 mL AD; diluir en 250 mL SF/DX 5%; **60 min** con filtro. Cápsulas enteras.",
+      "notes": "No usar jeringa sola para infundir el concentrado sin diluir según ficha."
     },
     "pediatrico": {
-      "dose": "Esquemas bajo supervisión de infectología pediátrica.",
-      "administration": "IV intermitente según protocolo."
+      "presentation": "FA/cápsulas según edad/peso autorizado.",
+      "dose": "≥1 año: según franja de peso de la ficha. Orientativo: ≥18 kg suele igualar esquema adulto (**372 mg**); <18 kg dosis en **mg/kg** por bula — infectología pediátrica.",
+      "administration": "IV/VO con filtro IV como adulto.",
+      "notes": "No improvisar equivalencias entre formulaciones."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 1 h a T° amb.\n\n## Solución diluida (a administrar)\n\n- 6 hs a T° amb, 24 hs refrigerado.",
-  "adverseEffects": "## Efectos\n\n- Náuseas, diarrea, elevación de transaminasas, prolongación QT.",
+  "stability": "## Estabilidad\n\n- Reconstituido: ~1 h T° amb.\n- Diluido: ~6 h T° amb / ~24 h refrigerado.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, diarrea, ↑ transaminasas, hipokalemia, cefalea, reacciones en infusión.",
   "bibliography": [
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    }
+    { "citation": "AEMPS CIMA / FDA. Cresemba (isavuconazonium) — loading and maintenance.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "IDSA. Practice Guidelines for Aspergillosis / Mucormycosis (contexto).", "url": "https://www.idsociety.org/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

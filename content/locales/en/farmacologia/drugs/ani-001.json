@@ -2,48 +2,46 @@
   "id": "ani-001",
   "name": "Anidulafungin",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Prophylaxis and treatment of Candida spp and Aspergillus spp infections. Restricted to partial replacement in prophylaxis and treatment of fungal infections in solid organ transplant recipients; prophylaxis in hematopoietic stem cell transplant recipients; combination therapy in refractory fungal infections; treatment in neutropenic hematology-oncology patients.",
-  "indications": "## Main indications\n\nProphylaxis and treatment of Candida spp and Aspergillus spp infections. Restricted to: partial replacement in prophylaxis and treatment of fungal infections in solid organ transplant recipients; prophylaxis in hematopoietic stem cell transplant recipients; combination therapy in patients with refractory fungal infections; treatment in neutropenic hematology-oncology patients.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "IV echinocandin. Adult candidemia: load **200 mg on day 1**, then **100 mg every 24 h**. Pediatrics: load **3 mg/kg**, maintenance **1.5 mg/kg every 24 h**. Infusion ≤1.1 mg/min.",
+  "indications": "## Indications\n\n- Invasive candidiasis / candidemia in non-neutropenic patients (and institutional neutropenic regimens).\n- Esophageal candidiasis (lower doses on some labels).\n- Restricted / combination use in refractory IFI per transplant/heme protocols.\n\n## Precautions\n\n- No bolus. Rate **<1.1 mg/min** (100 mg ≈ 90 min; 200 mg load ≈ 180 min).\n- Infusion-related reactions — slow the rate.\n- Little renal adjustment; hepatic metabolism without major CYP.\n\n> No mucorales coverage; limited in urine.",
   "dilution": {
     "adulto": {
-      "presentation": "Lyophilized powder vial containing 100 mg (Ecalta).",
-      "reconstitution": "30 mL SWFI. Conc: 3,33 mg/mL.",
-      "diluent": "100 mg in 100 mL 0.9% NaCl or 5% dextrose.",
-      "finalConcentration": "0,77 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Administer at rate of 100 mg over 90 min.",
-      "notes": "Loading dose (200 mg) must be administered over 3 hours."
+      "presentation": "Vial 100 mg (Eraxis / generics).",
+      "dose": "Candidemia / invasive: load **200 mg IV day 1**, maintenance **100 mg every 24 h**. Esophageal (label): often load **100 mg**, then **50 mg/day**.",
+      "administration": "Reconstitute 30 mL SW; dilute in NS/D5W; infuse ≤1.1 mg/min.",
+      "notes": "Reconstituted: dilute promptly (~1 h refrigerated in vial)."
     },
     "pediatrico": {
-      "dose": "Children: Loading dose: 3 mg/kg/day every 24 h, maintenance: 1,5 mg/kg/day every 24 h; Adults: loading dose: 200 mg/day, maintenance: 100 mg/day",
-      "administration": "IV",
-      "presentation": "Powder vial (lyophilized): 100 mg",
-      "notes": "Infusion rate: < 1,1 mg/minute (do not administer as bolus)."
+      "presentation": "Vial 100 mg.",
+      "dose": "Load **3 mg/kg** (max **200 mg**), then **1.5 mg/kg every 24 h** (max **100 mg**).",
+      "administration": "IV ≤1.1 mg/min.",
+      "notes": "Follow age band authorized on local label."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 1 h refrigerated. Dilute immediately.\n\n## Diluted solution (for administration)\n\n- 48 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nInfusion-related: rash, urticaria, flushing, pruritus, bronchospasm, dyspnea, hypotension. Other: hypokalemia, diarrhea, elevated ALT, hepatic enzymes, serum alkaline phosphatase and serum bilirubin.",
+  "stability": "## Stability\n\n- Reconstituted: ~1 h refrigerated; dilute immediately.\n- Diluted: up to ~48 h room temp (label).",
+  "adverseEffects": "## Adverse effects\n\nHypokalemia, diarrhea, ↑ ALT/AST/ALP/bilirubin, infusion reactions (rash, pruritus, dyspnea, hypotension).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anidulafungina* (code 1927, ATC J02AX).",
+      "citation": "Garrahan Hospital. Institutional formulary. — anidulafungin.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC / bula de referência.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "IDSA. Clinical practice guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     }
   ]
