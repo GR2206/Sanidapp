@@ -2,49 +2,36 @@
   "id": "des-001",
   "name": "Desmopresina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Diabetes Insípida (antidiurético). Hemofilia. Enfermedad de von Willebrand. Enuresis nocturna.",
-  "indications": "## Indicaciones principales\n\nDiabetes Insípida (antidiurético). Hemofilia. Enfermedad de von Willebrand. Enuresis nocturna.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Análogo de vasopresina. DI adulto: **1–2 µg IV/SC cada 12–24 h** (o nasal/VO). Hemofilia A / von Willebrand: **0,3 µg/kg IV** en 15–30 min. Riesgo de hiponatremia — restringir líquidos.",
+  "indications": "## Indicaciones\n\n- Diabetes insípida central.\n- Hemofilia A leve y enfermedad de von Willebrand (tipos seleccionados) peri-procedimiento.\n- Enuresis nocturna (VO/nasal) en >6 años según especialista.\n\n## Precauciones\n\n- **Intoxicación hídrica / hiponatremia** — restringir ingesta hídrica, control Na+.\n- No en von Willebrand tipo 2B. Evitar si IRC severa / ICC con retención.\n- Formulaciones nasal/VO/IV **no son intercambiables 1:1**.\n\n> Conservar ampollas/solución nasal refrigeradas (2–8 °C) según ficha.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampolla IV 4 mcg/mL; nasal/VO según presentación.",
-      "dose": "DI: 1–2 mcg IV/SC o dosis intranasal según protocolo.",
-      "administration": "IV lento, SC o intranasal."
+      "presentation": "Ampolla 4 µg/mL; spray/solución nasal; comp. 0,1–0,2 mg.",
+      "dose": "DI: **1–2 µg IV o SC** cada 12–24 h (titular); nasal/VO según respuesta. Hemofilia/vWD: **0,3 µg/kg IV** 30 min antes del procedimiento. Enuresis: VO **0,2–0,4 mg** al acostarse (especialista).",
+      "administration": "IV: diluir (~0,1 µg/mL) en SF/DX 5%; **15–30 min**. SC lento. Nasal en mucosa anterior.",
+      "notes": "Potenciada por carbamazepina, AINEs, ISRS/tricíclicos (↓ Na+)."
     },
     "pediatrico": {
-      "dose": "Diabetes insípida: E.V - S.C.: 2-4 µg/día cada 12 hs; intranasal: 0,05-0,1 ml/dosis 2 veces por día; V.O. &lt;12 años: iniciar con 0,05 mg/dosis cada 12 hs hasta respuesta (rango 0,1-0,8 mg/día) &gt;12 años y adultos: 0,05 mg/dosis cada 12 hs hasta respuesta (rango: 0,1-1,2 mg/día cada 8-12 hs). Hemofilia, enfermedad de von Willebrand: E.V.: &gt; de 3 meses y adultos: 0,3 µg/kg, 30 min antes del procedimiento. Enureis nocturna: intranasal: &gt; 6 años: inicial 20 µg, rango: 10-40 µg, al acostarse; V.O.: &gt; 12 años: 0,2-0,4 mg al acostarse. Mayor absorción en la región anterior de la fosa nasal.",
-      "administration": "V.O.; E.V.; S.C.; Intranasal",
-      "presentation": "Solución nasal (con una cánula calibrada de 0,2 ml): 0,1 mg/ml; Spray nasal: 0,1 mg/ml; Ampollas: 4 µg/ml Comprimidos: 0,1-0,2 mg",
-      "notes": "Debe ser indicado por especialistas. Se absorbe en la región nasal anterior. La dosis se adecua a la respuesta clínica individual. Conservar las ampollas y la solución nasal en heladera a 2-6&deg;C. La desmopresina es potenciada por antidepresivos tricíclicos, carbamacepina, clorpromazina, indometacina. Infusión intermitente: dilución usual 0,1 µg/ml, infundir en 15 - 30 min; Infusión continua: dilución usual 0,1 µg/ml. Se puede diluir en solición fisiológica o dextrosa 5%. S.C.: administrar lentamente en 10 - 20 segundos."
+      "presentation": "Ampolla 4 µg/mL; nasal 0,1 mg/mL; comp. 0,1–0,2 mg.",
+      "dose": "DI IV/SC: **2–4 µg/día** dividido cada 12 h (titular). Nasal: **5–10 µg** (0,05–0,1 mL) 2/día. VO <12 años: inicio **0,05 mg c/12 h** (rango **0,1–0,8 mg/día**); ≥12 años hasta **1,2 mg/día**. Hemofilia/vWD ≥3 meses: **0,3 µg/kg IV**. Enuresis ≥6 años: nasal **10–40 µg** o VO ≥12 años **0,2–0,4 mg** nocturno.",
+      "administration": "VO/IV/SC/nasal.",
+      "notes": "Indicar por especialista; controlar sodio."
     },
     "neonatal": {
-      "dose": "0,1–0,3 mcg/kg según indicación NNU.",
-      "administration": "IV."
+      "presentation": "Uso NNU excepcional.",
+      "dose": "Orientativo DI: **0,1–0,3 µg/kg** IV según protocolo.",
+      "administration": "IV lento.",
+      "notes": "Solo endocrinología/NNU."
     }
   },
-  "stability": "## Estabilidad\n\n- Refrigerar según presentación.",
-  "adverseEffects": "## Efectos adversos\n\nIntoxicación hídrica. Cefalea, dolor estomacal, náuseas, hiponatremia.",
+  "stability": "## Estabilidad\n\n- Refrigerar ampollas y nasal según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, náuseas, hiponatremia, retención hídrica, rubor, trombosis rara (dosis hemostáticas).",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Desmopresina Acetato (cód. 0556, ATC H01BA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — desmopresina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEMPS CIMA. Ficha técnica desmopresina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "World Federation of Hemophilia / hematology dosing references (DDAVP).", "url": "https://wfh.org/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

@@ -390,8 +390,8 @@
       "id": "des-001",
       "name": "Desmopresina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dxt-001",
@@ -432,8 +432,8 @@
       "id": "dif-001",
       "name": "Difenhidramina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dig-001",
@@ -621,8 +621,8 @@
       "id": "fur-001",
       "name": "Furosemida",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "gnc-001",
@@ -649,8 +649,8 @@
       "id": "cag-001",
       "name": "Gluconato de calcio",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "hal-001",
@@ -698,8 +698,8 @@
       "id": "hio-001",
       "name": "Hioscina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ibu-001",
@@ -1188,8 +1188,8 @@
       "id": "mag-001",
       "name": "Sulfato de magnesio",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "srf-001",

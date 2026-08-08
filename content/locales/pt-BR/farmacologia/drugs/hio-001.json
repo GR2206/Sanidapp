@@ -1,45 +1,44 @@
 {
   "id": "hio-001",
   "name": "Hioscina",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Espasmolítico, para inibir produção de secreções.",
-  "indications": "## Indicações principais\n\nEspasmolítico, para inibir produção de secreções.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "N-butilbrometo de hioscina (Buscopan). Adulto espasmo/antissecretor: **20 mg IV/IM/SC** até **3–4 vezes/dia** (máx. ~**100 mg/dia**); VO **10–20 mg**. Pediatria por idade/peso. Anticolinérgico.",
+  "indications": "## Indicações\n\n- Espasmo gastrointestinal / cólica.\n- Redução de secreções (cuidados paliativos / perioperatório) como adjuvante.\n\n## Precauções\n\n- Contraindicada em glaucoma de ângulo fechado, miastenia grave, megacólon/obstrução mecânica.\n- Potencializa anticolinérgicos; antagoniza metoclopramida no trato GI.\n- Distinguir de **escopolamina (hioscina hidrobrometo)** — doses diferentes.\n\n> Ampolas locais frequentes: **20 mg/mL**.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10 mg; ampola 20 mg/mL.",
+      "dose": "Espasmo / antissecretor: **20 mg IV, IM ou SC** até a cada 6–8 h (máx. habitual **100 mg/dia**). VO: **10–20 mg a cada 6–8 h**.",
+      "administration": "IV lento (~5 min) diluído ou conforme cartilha; IM/SC; VO. A ampola pode ser usada VO em alguns protocolos.",
+      "notes": "Vigiar taquicardia, retenção urinária e visão turva."
+    },
     "pediatrico": {
-      "presentation": "Comprimidos: 10 mg; Ampolas: 20 mg/ml.",
-      "administration": "V.O.; E.V.; I.M.; S.L.; S.C.",
-      "diluent": "A. dest., Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "Bolo 5 min.",
-      "dose": "Antissecretório (coadjuvante): E.V.–S.C.–I.M.: Lactentes e < 6 anos: 0,3–0,6 mg/kg/dose, dose máxima: 1,5 mg/kg/dia; 6 a 12 anos: 5–10 mg/dose até 3 vezes por dia, > 12 anos: 20 mg/dose até 4 vezes por dia, adultos dose máxima: 100 mg/dia. V.O.: 6 a 12 anos: 10 mg/dose a cada 8 h, > 12 anos: 20 mg a cada 6 h.",
-      "notes": "Contraindicada em pacientes com miastenia gravis, megacólon e glaucoma. A hioscina aumenta os efeitos anticolinérgicos de: antidepressivos anticolinérgicos, anti-histamínicos, amantadina, fenotiazinas. O uso concomitante com metoclopramida pode diminuir o efeito sobre o trato gastrointestinal de ambas as drogas. A ampola pode ser administrada por V.O. Ver alerta."
+      "presentation": "Comp. 10 mg; ampola 20 mg/mL.",
+      "dose": "IV/IM/SC antissecretor: lactentes/<6 anos **0,3–0,6 mg/kg/dose** (máx. orient. **1,5 mg/kg/dia**); 6–12 anos **5–10 mg** até 3/dia; >12 anos **20 mg** até 4/dia. VO: 6–12 anos **10 mg a cada 8 h**; >12 anos **20 mg a cada 6 h**.",
+      "administration": "VO/IV/IM/SC; diluente AD/SF/SG 5%; bolo ~5 min.",
+      "notes": "Seguir tetos institucionais; evitar em glaucoma/miastenia."
     }
   },
-  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nSecura da boca, taquicardia, distúrbios na visão, constipação, retenção urinária. Reações alérgicas.",
+  "stability": "## Estabilidade\n\n- Ampola aberta: descartar sobra.",
+  "adverseEffects": "## Efeitos adversos\n\nXerostomia, taquicardia, visão turva, constipação, retenção urinária, reações alérgicas.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Hioscina N-Butilbromuro (cód. 0840, ATC A03BA).",
+      "citation": "Hospital Garrahan. Formulário — hioscina N-butilbrometo.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "American Academy of Pediatrics. Critical care medication guidance.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

@@ -1,45 +1,44 @@
 {
   "id": "hio-001",
-  "name": "Hyoscine",
+  "name": "Hyoscine butylbromide",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Spasmolytic, to inhibit secretion production.",
-  "indications": "## Main indications\n\nSpasmolytic, to inhibit secretion production.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Hyoscine N-butylbromide (Buscopan). Adult spasm/antisecretory: **20 mg IV/IM/SC** up to **3–4 times/day** (max ~**100 mg/day**); PO **10–20 mg**. Pediatrics by age/weight. Anticholinergic.",
+  "indications": "## Indications\n\n- GI spasm / colic.\n- Secretion reduction (palliative / perioperative) as adjunct.\n\n## Precautions\n\n- Contraindicated in angle-closure glaucoma, myasthenia gravis, megacolon/mechanical obstruction.\n- Potentiates anticholinergics; antagonizes metoclopramide on the GI tract.\n- Distinguish from **scopolamine (hyoscine hydrobromide)** — different doses.\n\n> Local ampoules often **20 mg/mL**.",
   "dilution": {
+    "adulto": {
+      "presentation": "Tabs 10 mg; ampoule 20 mg/mL.",
+      "dose": "Spasm / antisecretory: **20 mg IV, IM or SC** up to every 6–8 h (usual max **100 mg/day**). PO: **10–20 mg every 6–8 h**.",
+      "administration": "Slow IV (~5 min) diluted or per card; IM/SC; PO. Ampoule may be given PO in some protocols.",
+      "notes": "Watch tachycardia, urinary retention, blurred vision."
+    },
     "pediatrico": {
-      "presentation": "Tablets: 10 mg; Ampoules: 20 mg/mL.",
-      "administration": "PO; IV; IM; SL; SC",
-      "diluent": "SWFI, 0.9% NaCl solution, 5% dextrose.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "Bolus 5 min.",
-      "dose": "Antisecretory (adjunct): IV-SC-IM: Infants and < 6 years: 0.3-0.6 mg/kg/dose, maximum dose: 1.5 mg/kg/day; 6 to 12 years: 5 - 10 mg/dose up to 3 times per day, > 12 years: 20 mg/dose up to 4 times per day, adults maximum dose: 100 mg/day. PO: 6 to 12 years: 10 mg/dose every 8 h, > 12 years: 20 mg every 6 h.",
-      "notes": "Contraindicated in patients with myasthenia gravis, megacolon, and glaucoma. Hyoscine increases the anticholinergic effects of: anticholinergic antidepressants, antihistamines, amantadine, phenothiazines. Concomitant use with metoclopramide may decrease the gastrointestinal effect of both drugs. The ampoule may be administered PO. See alert"
+      "presentation": "Tabs 10 mg; ampoule 20 mg/mL.",
+      "dose": "IV/IM/SC antisecretory: infants/<6 years **0.3–0.6 mg/kg/dose** (orient. max **1.5 mg/kg/day**); 6–12 years **5–10 mg** up to 3/day; >12 years **20 mg** up to 4/day. PO: 6–12 years **10 mg every 8 h**; >12 years **20 mg every 6 h**.",
+      "administration": "PO/IV/IM/SC; diluent SW/NS/D5W; bolus ~5 min.",
+      "notes": "Follow institutional ceilings; avoid in glaucoma/myasthenia."
     }
   },
-  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nDry mouth, tachycardia, visual disturbances, constipation, urinary retention. Allergic reactions.",
+  "stability": "## Stability\n\n- Opened ampoule: discard leftover.",
+  "adverseEffects": "## Adverse effects\n\nDry mouth, tachycardia, blurred vision, constipation, urinary retention, allergic reactions.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Hyoscine N-Butylbromide (code 0840, ATC A03BA).",
+      "citation": "Garrahan Hospital. Formulary — hyoscine N-butylbromide.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "American Academy of Pediatrics. Critical care medication guidance.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

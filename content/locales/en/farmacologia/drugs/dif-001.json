@@ -2,44 +2,43 @@
   "id": "dif-001",
   "name": "Diphenhydramine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Antihistamine. Antiemetic adjunct. Sedative.",
-  "indications": "## Main indications\n\nAntihistamine. Antiemetic adjunct. Sedative.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "First-generation H1 antihistamine. Adult: **25–50 mg PO/IV/IM every 6–8 h** (usual max **300–400 mg/day**). Pediatrics: **1–2 mg/kg/dose every 6–8 h** (max **50 mg**/dose; ~**5 mg/kg/day**). Sedating; not in neonates.",
+  "indications": "## Indications\n\n- Allergic reactions, pruritus, urticaria; anaphylaxis adjunct (after epinephrine).\n- Selected nausea/vomiting; sedation / premedication.\n- Acute dystonia from neuroleptics (alternative to biperiden per protocol).\n\n## Precautions\n\n- Strong anticholinergic: glaucoma, urinary retention, ileus, myasthenia.\n- Sedation and paradoxical excitation in infants. **Do not use in neonates**; caution <6 months.\n- Avoid in acute asthma crisis as bronchodilator monotherapy.\n\n> IV: dilute and infuse ~15 min; no rapid bolus.",
   "dilution": {
+    "adulto": {
+      "presentation": "Tabs/caps 25–50 mg; syrup; ampoule 10 mg/mL.",
+      "dose": "**25–50 mg every 6–8 h** PO/IV/IM. Usual max **300–400 mg/day**. Premedication/anaphylaxis adjunct: **25–50 mg** IV/IM.",
+      "administration": "PO with food. IV: dilute in NS/D5W; ~15 min. Deep IM.",
+      "notes": "Potentiates sedation with opioids/benzodiazepines/alcohol."
+    },
     "pediatrico": {
-      "presentation": "Capsules: 50 mg; Tablets: 50 mg; Syrup: 2,5 mg/mL; Ampoules or powder vial 10 mL: 10 mg/mL",
-      "administration": "PO; IV; IM",
-      "diluent": "0.9% NaCl, 5% dextrose.",
-      "finalConcentration": "25 mg/mL.",
-      "infusionRate": "15 min with continuous infusion pump.",
-      "dose": "Infants: 1 mg/kg/day; Children: 3–5 mg/kg/day every 6–8 h, maximum dose: 50 mg/dose; premedication: 1 mg/kg/dose, maximum dose: 50 mg/dose. Adults: 50 mg/dose every 6–8 h, maximum dose: 50 mg/dose.",
-      "notes": "< 6 months may exhibit paradoxical hyperexcitability. Do not use in neonates. PO: administer with food. Contraindicated in asthmatic crises."
+      "presentation": "Syrup 2.5 mg/mL; tabs 50 mg; ampoule 10 mg/mL.",
+      "dose": "**1–2 mg/kg/dose every 6–8 h** (**~3–5 mg/kg/day**; max **50 mg**/dose). Premedication: **1 mg/kg** (max **50 mg**).",
+      "administration": "PO/IV/IM as adult.",
+      "notes": "<6 months: possible paradoxical excitation. Not neonates."
     }
   },
-  "stability": "## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nSignificant antimuscarinic activity, sedation. Dizziness, tinnitus, fatigue, diplopia, lassitude, incoordination, hypotension, nausea, vomiting, urinary retention. Overdose: psychosis, fever, hallucinations, seizures.",
+  "stability": "## Stability\n\n- Opened ampoule: discard leftover per card.",
+  "adverseEffects": "## Adverse effects\n\nSedation, dry mouth, urinary retention, blurred vision, tachycardia, hypotension; anticholinergic overdose (delirium, seizures).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — difenhidrAMINA (code 0071, ATC R06AA).",
+      "citation": "Garrahan Hospital. Formulary — diphenhydramine.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "American Academy of Pediatrics. Critical care medication guidance.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

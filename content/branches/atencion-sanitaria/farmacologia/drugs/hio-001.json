@@ -2,43 +2,30 @@
   "id": "hio-001",
   "name": "Hioscina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Espasmolítico, para inhibir producción de secreciones.",
-  "indications": "## Indicaciones principales\n\nEspasmolítico, para inhibir producción de secreciones.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "N-butilbromuro de hioscina (Buscapina). Adulto espasmo/antisecretor: **20 mg IV/IM/SC** hasta **3–4 veces/día** (máx. ~**100 mg/día**); VO **10–20 mg**. Pediatría por edad/peso. Anticolinérgico.",
+  "indications": "## Indicaciones\n\n- Espasmo gastrointestinal / cólico.\n- Reducción de secreciones (cuidados paliativos / perioperatorio) como coadyuvante.\n\n## Precauciones\n\n- Contraindicada en glaucoma de ángulo cerrado, miastenia grave, megacolon/obstrucción mecánica.\n- Potencia anticolinérgicos; antagoniza metoclopramida sobre el tracto GI.\n- Distinguir de **escopolamina (hioscina hidrobromuro)** — dosis distintas.\n\n> Ampollas locales frecuentes: **20 mg/mL**.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10 mg; ampolla 20 mg/mL.",
+      "dose": "Espasmo / antisecretor: **20 mg IV, IM o SC** hasta cada 6–8 h (máx. habitual **100 mg/día**). VO: **10–20 mg cada 6–8 h**.",
+      "administration": "IV lento (~5 min) diluido o según cartilla; IM/SC; VO. La ampolla puede usarse VO en algunos protocolos.",
+      "notes": "Vigilar taquicardia, retención urinaria y visión borrosa."
+    },
     "pediatrico": {
-      "presentation": "Comprimidos: 10 mg; Ampollas: 20 mg/ml.",
-      "administration": "V.O.; E.V.; I.M.; S.L.; S.C.",
-      "diluent": "A. dest., Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "Bolo 5 min.",
-      "dose": "Antisecretorio (coadyuvante): EV-SC-IM: Lactantes y &lt; 6 años: 0,3-0,6 mg/kg/dosis, dosis máxima: 1,5 mg/kg/día; 6 a 12 años: 5 - 10 mg/dosis hasta 3 veces por día, &gt; de 12 años: 20 mg/dosis hasta 4 veces por día, adultos dosis máxima: 100 mg/día. V.O.: 6 a 12 años: 10 mg/dosis cada 8 hs, &gt; 12 años: 20 mg cada 6 hs.",
-      "notes": "Contraindicada en pacientes con miastenia gravis, megacolon y glaucoma. La hioscina aumenta los efectos anticolinérgicos de: antidepresivos anticolinérgicos, antihistamínicos, amantadina, fenotiacinas. El uso concomitante con metoclopramida puede disminuir el efecto sobre el tracto gastrointestinal de ambas drogas. La ampolla puede ser administrada por V.O..Ver alerta"
+      "presentation": "Comp. 10 mg; ampolla 20 mg/mL.",
+      "dose": "IV/IM/SC antisecretor: lactantes/<6 años **0,3–0,6 mg/kg/dosis** (máx. orient. **1,5 mg/kg/día**); 6–12 años **5–10 mg** hasta 3/día; >12 años **20 mg** hasta 4/día. VO: 6–12 años **10 mg cada 8 h**; >12 años **20 mg cada 6 h**.",
+      "administration": "VO/IV/IM/SC; diluyente AD/SF/DX 5%; bolo ~5 min.",
+      "notes": "Seguir techos institucionales; evitar en glaucoma/miastenia."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nSequedad de boca, taquicardia, trastornos en la visión, constipación, retención urinaria. Reacciones alérgicas.",
+  "stability": "## Estabilidad\n\n- Ampolla abierta: desechar sobrante.",
+  "adverseEffects": "## Efectos adversos\n\nXerostomía, taquicardia, visión borrosa, estreñimiento, retención urinaria, reacciones alérgicas.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Hioscina N-Butilbromuro (cód. 0840, ATC A03BA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — hioscina N-butilbromuro.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEMPS CIMA. Ficha técnica butilbromuro de hioscina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "American Academy of Pediatrics. Critical care medication guidance.", "url": "https://www.aap.org/" }
   ]
 }

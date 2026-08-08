@@ -1,45 +1,44 @@
 {
   "id": "dif-001",
   "name": "Difenidramina",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antihistamínico. Coadjuvante antiemético. Sedante.",
-  "indications": "## Indicações principais\n\nAntihistamínico. Coadjuvante antiemético. Sedante.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Anti-histamínico H1 de 1ª geração. Adulto: **25–50 mg VO/IV/IM a cada 6–8 h** (máx. habitual **300–400 mg/dia**). Pediatria: **1–2 mg/kg/dose a cada 6–8 h** (máx. **50 mg**/dose; ~**5 mg/kg/dia**). Sedativo; não em neonatos.",
+  "indications": "## Indicações\n\n- Reações alérgicas, prurido, urticária; adjuvante na anafilaxia (após adrenalina).\n- Náuseas/vômitos selecionados; sedação / pré-medicação.\n- Distonia aguda por neurolépticos (alternativa à biperideno conforme protocolo).\n\n## Precauções\n\n- Anticolinérgico forte: glaucoma, retenção urinária, íleo, miastenia.\n- Sedação e efeito paradoxal em lactentes. **Não usar em neonatos**; cautela <6 meses.\n- Evitar em crise asmática aguda como monoterapia broncodilatadora.\n\n> IV: diluir e infundir ~15 min; sem bolo rápido.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comp./cáps. 25–50 mg; xarope; ampola 10 mg/mL.",
+      "dose": "**25–50 mg a cada 6–8 h** VO/IV/IM. Máx. habitual **300–400 mg/dia**. Pré-medicação/anafilaxia adjuvante: **25–50 mg** IV/IM.",
+      "administration": "VO com alimentos. IV: diluir em SF/SG 5%; ~15 min. IM profundo.",
+      "notes": "Potencializa sedação com opioides/benzodiazepínicos/álcool."
+    },
     "pediatrico": {
-      "presentation": "Cápsulas: 50 mg; Comprimidos: 50 mg; Xarope: 2,5 mg/ml; Ampolas ou F.A. por 10 ml: 10 mg/ml",
-      "administration": "V.O.; E.V.; I.M.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "25 mg/mL.",
-      "infusionRate": "15 min. com BIC.",
-      "dose": "Lactentes: 1 mg/kg/dia; Crianças: 3 - 5 mg/kg/dia a cada 6-8 h, dose máxima: 50 mg/dose; pré-medicação: 1 mg/kg/dose, dose máxima: 50 mg/dose; . Adultos: 50 mg/dose a cada 6 - 8 h, dose máxima: 50 mg/dose.",
-      "notes": "< 6 meses podem apresentar hiperexcitabilidade paradoxal. Não usar em neonatos. V.O.: administrar com alimentos. Contraindicado em crises asmáticas."
+      "presentation": "Xarope 2,5 mg/mL; comp. 50 mg; ampola 10 mg/mL.",
+      "dose": "**1–2 mg/kg/dose a cada 6–8 h** (**~3–5 mg/kg/dia**; máx. **50 mg**/dose). Pré-medicação: **1 mg/kg** (máx. **50 mg**).",
+      "administration": "VO/IV/IM como adulto.",
+      "notes": "<6 meses: excitabilidade paradoxal possível. Não neonatos."
     }
   },
-  "stability": "## Guia pediátrica\n\n- Descartar o sobrante uma vez aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nAtividade anticolinérgica significativa, sedação. Tontura, zumbido, fadiga, diplopia, lassidão, incoordenação, hipotensão, náuseas, vômitos, retenção urinária. Sobredose: psicose, febre, alucinações, convulsões.",
+  "stability": "## Estabilidade\n\n- Ampola aberta: descartar sobra conforme cartilha.",
+  "adverseEffects": "## Efeitos adversos\n\nSedação, xerostomia, retenção urinária, visão turva, taquicardia, hipotensão; overdose anticolinérgica (delírio, convulsões).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — difenidrAMINA (cód. 0071, ATC R06AA).",
+      "citation": "Hospital Garrahan. Formulário — difenidramina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "American Academy of Pediatrics. Critical care medication guidance.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

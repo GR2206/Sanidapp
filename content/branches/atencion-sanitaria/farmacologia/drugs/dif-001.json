@@ -2,43 +2,30 @@
   "id": "dif-001",
   "name": "Difenhidramina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antihistamínico. Coadyuvante antiemético. Sedante.",
-  "indications": "## Indicaciones principales\n\nAntihistamínico. Coadyuvante antiemético. Sedante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihistamínico H1 de 1.ª generación. Adulto: **25–50 mg VO/IV/IM cada 6–8 h** (máx. habitual **300–400 mg/día**). Pediatría: **1–2 mg/kg/dosis cada 6–8 h** (máx. **50 mg**/dosis; ~**5 mg/kg/día**). Sedante; no en neonatos.",
+  "indications": "## Indicaciones\n\n- Reacciones alérgicas, prurito, urticaria; coadyuvante en anafilaxia (después de adrenalina).\n- Náuseas/vómitos seleccionados; sedación / premedicación.\n- Distonía aguda por neurolépticos (alternativa a biperideno según protocolo).\n\n## Precauciones\n\n- Anticolinérgico fuerte: glaucoma, retención urinaria, íleo, miastenia.\n- Sedación y efecto paradojal en lactantes. **No usar en neonatos**; cautela <6 meses.\n- Evitar en crisis asmática aguda como monoterapia broncodilatadora.\n\n> IV: diluir e infundir ~15 min; no bolo rápido.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comp./cáps. 25–50 mg; jarabe; ampolla 10 mg/mL.",
+      "dose": "**25–50 mg cada 6–8 h** VO/IV/IM. Máx. habitual **300–400 mg/día**. Premedicación/anafilaxia adyuvante: **25–50 mg** IV/IM.",
+      "administration": "VO con alimentos. IV: diluir en SF/DX 5%; ~15 min. IM profundo.",
+      "notes": "Potencia sedación con opioides/benzodiacepinas/alcohol."
+    },
     "pediatrico": {
-      "presentation": "Cápsulas: 50 mg; Comprimidos: 50 mg; Jarabe: 2,5 mg/ml; Ampollas o F.A. por 10 ml: 10 mg/ml",
-      "administration": "V.O.; E.V.; I.M.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "25 mg/mL.",
-      "infusionRate": "15 min. con BIC.",
-      "dose": "Lactantes: 1 mg/kg/día; Niños: 3 - 5 mg/kg/día cada 6-8 hs, dosis máxima: 50 mg/dosis; premedicación: 1 mg/kg/dosis, dosis máxima: 50 mg/dosis; . Adultos: 50 mg/dosis cada 6 - 8 hs, dosis máxima: 50 mg/dosis.",
-      "notes": "&lt; de 6 meses pueden presentar hiperexcitabilidad paradojal. No usar en neonatos. V.O.: administrar con alimentos. Contraindicado en crisis asmáticas."
+      "presentation": "Jarabe 2,5 mg/mL; comp. 50 mg; ampolla 10 mg/mL.",
+      "dose": "**1–2 mg/kg/dosis cada 6–8 h** (**~3–5 mg/kg/día**; máx. **50 mg**/dosis). Premedicación: **1 mg/kg** (máx. **50 mg**).",
+      "administration": "VO/IV/IM como adulto.",
+      "notes": "<6 meses: excitabilidad paradojal posible. No neonatos."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nActividad antimuscarínica significativa, sedación. Mareos, tinnitus, fatiga, diplopía, lasitud, incoordinación, hipotensión, náuseas, vómitos, retención urinaria. Sobredosis: psicosis, fiebre, alucinaciones, convulsiones.",
+  "stability": "## Estabilidad\n\n- Ampolla abierta: desechar sobrante según cartilla.",
+  "adverseEffects": "## Efectos adversos\n\nSedación, xerostomía, retención urinaria, visión borrosa, taquicardia, hipotensión; sobredosis anticolinérgica (delirio, convulsiones).",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — difenhidrAMINA (cód. 0071, ATC R06AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — difenhidramina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEMPS CIMA. Ficha técnica difenhidramina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "American Academy of Pediatrics. Critical care medication guidance.", "url": "https://www.aap.org/" }
   ]
 }
