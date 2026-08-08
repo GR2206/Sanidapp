@@ -1,0 +1,37 @@
+{
+  "id": "meb-001",
+  "name": "Mebendazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihelmíntico benzimidazólico. Oxiuros: **100 mg VO única** (repetir día 14). Geohelmintos: **100 mg c/12 h × 3 días** o **500 mg única**. Pediatría ≥2 años: mismos esquemas cortos.",
+  "indications": "## Indicaciones\n\n- Oxiurosis, ascaridiasis, tricocefalosis, anquilostomiasis.\n\n## Precauciones\n\n- Evitar en 1.er trimestre de embarazo.\n- Menos usado que albendazol en programas OMS de masa; útil en oxiuros.\n\n> Tratar convivientes y reforzar higiene en oxiurosis.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 100 mg; a veces 500 mg.",
+      "dose": "Oxiuros: **100 mg VO única** + **100 mg día 14**. Ascaris/tricocéfalo/anquilostoma: **100 mg c/12 h × 3 días** o **500 mg dosis única**.",
+      "administration": "VO con o sin alimentos; masticar si la ficha lo indica.",
+      "notes": "No requiere ayuno."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 100 mg (a veces suspensión según país).",
+      "dose": "≥2 años: iguales esquemas que adulto. <2 años: solo si beneficio supera riesgo / ficha local.",
+      "administration": "VO.",
+      "notes": "Peso muy bajo: preferir suspensión o albendazol según protocolo."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nDolor abdominal, diarrea, flatulencia; raro: erupción, ↑ enzimas hepáticas en cursos largos.",
+  "bibliography": [
+    { "citation": "OMS. Soil-transmitted helminthiasis — mebendazole.", "url": "https://www.who.int/" },
+    { "citation": "AEMPS CIMA. Mebendazol.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "CDC. Parasites — mebendazole dosing.", "url": "https://www.cdc.gov/parasites/" },
+    { "citation": "ANMAT. Prospectos mebendazol.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

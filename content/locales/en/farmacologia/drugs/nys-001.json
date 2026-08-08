@@ -1,0 +1,50 @@
+{
+  "id": "nys-001",
+  "name": "Nystatin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Topical GI polyene (negligible absorption). Oral thrush adult: **400,000–600,000 IU PO q6h** (swish & swallow). Infants: **100,000–200,000 IU q6h**. Intestinal: **500,000–1,000,000 IU q8h**.",
+  "indications": "## Indications\n\n- Oropharyngeal and non-invasive GI candidiasis.\n- Prophylaxis in immunosuppression/prolonged antibiotics (local protocols).\n\n## Precautions\n\n- Not for systemic or severe esophageal candidiasis (use systemic azoles).\n- Shake suspension; hold in mouth before swallowing.\n\n> Usual suspension: **100,000 IU/mL**.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Suspension 100,000 IU/mL; tablets/ovules by brand (vaginal topical separate).",
+      "dose": "Oral: **4–6 mL (400,000–600,000 IU) q6h** × 7–14 days. Intestinal: **5–10 mL (500,000–1,000,000 IU) q8h**.",
+      "administration": "Swish several minutes then swallow; after meals; avoid immediate drinking.",
+      "notes": "Continue a few days after clinical improvement."
+    },
+    "pediatrico": {
+      "presentation": "Suspension 100,000 IU/mL.",
+      "dose": "Infants/children: **1–2 mL (100,000–200,000 IU) q6h** to each side of the mouth. Older: up to adult doses if needed.",
+      "administration": "Apply with dropper/swab to mucosa; swallow remainder.",
+      "notes": "Treat maternal nipples if breastfeeding with thrush."
+    },
+    "neonatal": {
+      "presentation": "Oral suspension.",
+      "dose": "Often **100,000 IU (1 mL) q6h** to oral mucosa — local protocol.",
+      "administration": "Topical oral application.",
+      "notes": "Exclude invasive disease if no improvement."
+    }
+  },
+  "stability": "## Stability\n\n- Store per label; shake before use.",
+  "adverseEffects": "## Adverse effects\n\nNausea, diarrhea, local irritation; rare allergy (minimal systemic absorption).",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Nystatin oral suspension.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Nystatin.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — topical oral antifungals.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

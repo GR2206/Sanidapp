@@ -1,0 +1,50 @@
+{
+  "id": "meb-001",
+  "name": "Mebendazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-helmíntico benzimidazólico. Oxiúros: **100 mg VO dose única** (repetir dia 14). Geohelmintos: **100 mg a cada 12 h × 3 dias** ou **500 mg única**. Pediatria ≥2 anos: mesmos esquemas curtos.",
+  "indications": "## Indicações\n\n- Oxiuríase, ascaridíase, tricuríase, ancilostomíase.\n\n## Precauções\n\n- Evitar no 1º trimestre da gravidez.\n- Menos usado que albendazol em programas OMS de massa; útil em oxiúros.\n\n> Tratar conviventes e reforçar higiene na oxiuríase.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 100 mg; às vezes 500 mg.",
+      "dose": "Oxiúros: **100 mg VO única** + **100 mg dia 14**. Áscaris/tricocéfalo/ancilóstoma: **100 mg a cada 12 h × 3 dias** ou **500 mg dose única**.",
+      "administration": "VO com ou sem alimentos; mastigar se a bula indicar.",
+      "notes": "Não requer jejum."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 100 mg (às vezes suspensão conforme país).",
+      "dose": "≥2 anos: iguais esquemas do adulto. <2 anos: só se benefício superar risco / bula local.",
+      "administration": "VO.",
+      "notes": "Peso muito baixo: preferir suspensão ou albendazol conforme protocolo."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nDor abdominal, diarreia, flatulência; raro: erupção, ↑ enzimas hepáticas em cursos longos.",
+  "bibliography": [
+    {
+      "citation": "OMS. Geohelmintíases — mebendazol.",
+      "url": "https://www.who.int/"
+    },
+    {
+      "citation": "AEMPS CIMA. Mebendazol.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CDC. Parasites — mebendazole dosing.",
+      "url": "https://www.cdc.gov/parasites/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

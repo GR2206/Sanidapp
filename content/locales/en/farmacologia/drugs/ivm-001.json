@@ -1,0 +1,50 @@
+{
+  "id": "ivm-001",
+  "name": "Ivermectin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Macrocyclic lactone anthelmintic/ectoparasiticide. Strongyloidiasis/onchocerciasis: **200 µg/kg PO once** (sometimes repeat). Scabies (protocols): **200 µg/kg** ± day 7–14. 3 mg tablets — weight-based.",
+  "indications": "## Indications\n\n- Strongyloidiasis; onchocerciasis.\n- Scabies/pediculosis in institutional regimens (off-label in some countries).\n\n## Precautions\n\n- Avoid in pregnancy; caution in lactation.\n- Neurologic risk with *Loa loa* co-infection (Africa) — screen first.\n- Not a COVID-19 treatment outside trials.\n\n> Many labels: empty stomach with water; some with food — follow local SmPC.",
+  "dilution": {
+    "adulto": {
+      "presentation": "3 mg tabs (also 6 mg by brand).",
+      "dose": "**200 µg/kg PO** rounded to 3 mg multiples. Approx: 15–24 kg → 3 mg; 25–35 → 6 mg; 36–50 → 9 mg; 51–65 → 12 mg; 66–79 → 15 mg; ≥80 kg → **200 µg/kg**. Scabies: often **repeat day 7 or 14**.",
+      "administration": "PO single dose. Onchocerciasis: WHO community regimens differ.",
+      "notes": "Weigh the patient; do not guess."
+    },
+    "pediatrico": {
+      "presentation": "3 mg tabs (crush if allowed by label).",
+      "dose": "≥15 kg: **200 µg/kg** as adult. <15 kg / <5 y: restricted on many labels — specialist/protocol only.",
+      "administration": "PO.",
+      "notes": "Household scabies: treat contacts + environmental measures."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Do not use routinely.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nPruritus, dizziness, nausea, diarrhea; Mazzotti reaction in onchocerciasis (fever, urticaria, lymphadenopathy).",
+  "bibliography": [
+    {
+      "citation": "CDC. Parasites — ivermectin dosing.",
+      "url": "https://www.cdc.gov/parasites/"
+    },
+    {
+      "citation": "WHO. Onchocerciasis / strongyloidiasis guidance.",
+      "url": "https://www.who.int/"
+    },
+    {
+      "citation": "AEMPS CIMA. Ivermectin.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

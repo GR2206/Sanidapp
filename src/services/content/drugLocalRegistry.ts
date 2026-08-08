@@ -50,6 +50,7 @@ import cla_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import cli_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cli-001.json';
 import clo_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/clo-001.json';
 import clp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/clp-001.json';
+import cod_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cod-001.json';
 import col_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/col-001.json';
 import cst_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cst-001.json';
 import cvd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cvd-001.json';
@@ -96,6 +97,7 @@ import hdc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import hdr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hdr-001.json';
 import hef_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hef-001.json';
 import hio_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hio-001.json';
+import hxz_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hxz-001.json';
 import ibu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ibu-001.json';
 import imp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/imp-001.json';
 import imu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/imu-001.json';
@@ -105,6 +107,7 @@ import ipr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import isa_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/isa-001.json';
 import iso_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/iso-001.json';
 import ivb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ivb-001.json';
+import ivm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ivm-001.json';
 import kcl_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/kcl-001.json';
 import ket_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ket-001.json';
 import ktr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ktr-001.json';
@@ -120,6 +123,7 @@ import ltx_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import lvt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lvt-001.json';
 import mag_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mag-001.json';
 import man_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/man-001.json';
+import meb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/meb-001.json';
 import mep_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mep-001.json';
 import mer_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mer-001.json';
 import met_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/met-001.json';
@@ -128,6 +132,7 @@ import mic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import mid_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mid-001.json';
 import mil_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mil-001.json';
 import min_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/min-001.json';
+import mlk_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mlk-001.json';
 import mop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mop-001.json';
 import mor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mor-001.json';
 import mox_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mox-001.json';
@@ -140,6 +145,7 @@ import nip_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import nit_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nit-001.json';
 import nor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nor-001.json';
 import nsh_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nsh-001.json';
+import nys_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nys-001.json';
 import oct_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/oct-001.json';
 import olm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/olm-001.json';
 import ome_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ome-001.json';
@@ -251,6 +257,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'cli-001': cli_001 as Drug,
   'clo-001': clo_001 as Drug,
   'clp-001': clp_001 as Drug,
+  'cod-001': cod_001 as Drug,
   'col-001': col_001 as Drug,
   'cst-001': cst_001 as Drug,
   'cvd-001': cvd_001 as Drug,
@@ -297,6 +304,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'hdr-001': hdr_001 as Drug,
   'hef-001': hef_001 as Drug,
   'hio-001': hio_001 as Drug,
+  'hxz-001': hxz_001 as Drug,
   'ibu-001': ibu_001 as Drug,
   'imp-001': imp_001 as Drug,
   'imu-001': imu_001 as Drug,
@@ -306,6 +314,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'isa-001': isa_001 as Drug,
   'iso-001': iso_001 as Drug,
   'ivb-001': ivb_001 as Drug,
+  'ivm-001': ivm_001 as Drug,
   'kcl-001': kcl_001 as Drug,
   'ket-001': ket_001 as Drug,
   'ktr-001': ktr_001 as Drug,
@@ -321,6 +330,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'lvt-001': lvt_001 as Drug,
   'mag-001': mag_001 as Drug,
   'man-001': man_001 as Drug,
+  'meb-001': meb_001 as Drug,
   'mep-001': mep_001 as Drug,
   'mer-001': mer_001 as Drug,
   'met-001': met_001 as Drug,
@@ -329,6 +339,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'mid-001': mid_001 as Drug,
   'mil-001': mil_001 as Drug,
   'min-001': min_001 as Drug,
+  'mlk-001': mlk_001 as Drug,
   'mop-001': mop_001 as Drug,
   'mor-001': mor_001 as Drug,
   'mox-001': mox_001 as Drug,
@@ -341,6 +352,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'nit-001': nit_001 as Drug,
   'nor-001': nor_001 as Drug,
   'nsh-001': nsh_001 as Drug,
+  'nys-001': nys_001 as Drug,
   'oct-001': oct_001 as Drug,
   'olm-001': olm_001 as Drug,
   'ome-001': ome_001 as Drug,

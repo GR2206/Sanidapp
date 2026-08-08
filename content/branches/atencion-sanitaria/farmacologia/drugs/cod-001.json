@@ -1,0 +1,37 @@
+{
+  "id": "cod-001",
+  "name": "Codeína",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Opioide débil (profármaco → morfina vía CYP2D6). Analgesia adulto: **15–60 mg VO c/4–6 h** (máx. habitual **240 mg/día** solo codeína). Antitusígeno: dosis menores. **Evitar <12 años**; precaución 12–18 años post-amigdalectomía.",
+  "indications": "## Indicaciones\n\n- Dolor moderado (a menudo asociada a paracetamol/ibuprofeno).\n- Tos seca irritativa (dosis antitúsicas).\n\n## Precauciones\n\n- Metabolizadores ultrarrápidos CYP2D6: riesgo de depresión respiratoria; lentos: poco efecto.\n- Contraindicada en muchos países en <12 años y en 12–18 años tras amigdalectomía/adenoidectomía.\n- Estreñimiento, sedación, dependencia; no asociar alcohol/depresores.\n\n> Revisar si el preparado ya trae paracetamol para no duplicar dosis.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp./jarabe 15–30–60 mg; combinados con paracetamol.",
+      "dose": "Analgesia: **15–60 mg VO cada 4–6 h**. Máx. habitual **240 mg/día** de codeína (combinados: respetar techo de paracetamol **3–4 g/día**). Antitusígeno: a menudo **10–20 mg c/4–6 h**.",
+      "administration": "VO con alimentos si náuseas.",
+      "notes": "Reducir en ancianos, IRC, hepatopatía."
+    },
+    "pediatrico": {
+      "presentation": "Jarabe/comp. según país — muchos retirados.",
+      "dose": "<12 años: **no recomendar** (EMA/FDA). 12–18 años: solo si no hay alternativa y sin riesgo respiratorio; históricamente **0,5–1 mg/kg c/4–6 h** (máx. 60 mg/dosis) — preferir otras opciones.",
+      "administration": "VO.",
+      "notes": "Preferir paracetamol/ibuprofeno ± otras estrategias."
+    },
+    "neonatal": {
+      "presentation": "Contraindicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto; psicotrópico — control de stock.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, estreñimiento, somnolencia, mareo; depresión respiratoria, dependencia, prurito.",
+  "bibliography": [
+    { "citation": "EMA. Codeine — restrictions in children.", "url": "https://www.ema.europa.eu/" },
+    { "citation": "FDA. Codeine and tramadol contraindicated in children.", "url": "https://www.fda.gov/" },
+    { "citation": "AEMPS CIMA. Codeína / asociaciones.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos codeína.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

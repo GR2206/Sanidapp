@@ -1,0 +1,37 @@
+{
+  "id": "ivm-001",
+  "name": "Ivermectina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Lactona macrocíclica antihelmíntica/ectoparasiticida. Estrongiloidiasis/oncocercosis: **200 µg/kg VO dosis única** (a veces repetir). Escabiosis (protocolos): **200 µg/kg** ± dosis día 7–14. Comprimidos 3 mg — dosis por peso.",
+  "indications": "## Indicaciones\n\n- Estrongiloidiasis; oncocercosis (filariasis).\n- Escabiosis / pediculosis en esquemas institucionales (off-label en algunos países).\n\n## Precauciones\n\n- Evitar en embarazo; precaución lactancia.\n- Riesgo neurológico si coinfección *Loa loa* (África) — evaluar antes.\n- No es tratamiento de COVID-19 fuera de ensayos.\n\n> Tomar en ayunas con agua (muchas fichas); otras con comida — seguir etiqueta local.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 3 mg (también 6 mg según marca).",
+      "dose": "**200 µg/kg VO** redondeando a múltiplos de 3 mg. Guía aproximada: 15–24 kg → 3 mg; 25–35 → 6 mg; 36–50 → 9 mg; 51–65 → 12 mg; 66–79 → 15 mg; ≥80 kg → **200 µg/kg**. Escabiosis: a menudo **repetir día 7 o 14**.",
+      "administration": "VO; una toma. Oncocercosis: esquemas OMS distintos (comunidad).",
+      "notes": "Pesar al paciente; no adivinar."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 3 mg (triturar si necesario según ficha).",
+      "dose": "≥15 kg: **200 µg/kg** igual que adulto. <15 kg / <5 años: restringido en muchas fichas — solo especialista/protocolo.",
+      "administration": "VO.",
+      "notes": "Escabiosis familiar: tratar contactos + medidas ambientales."
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "No utilizar de rutina.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nPrurito, mareo, náuseas, diarrea; reacción de Mazzotti en oncocercosis (fiebre, urticaria, adenopatías).",
+  "bibliography": [
+    { "citation": "CDC. Parasites — ivermectin dosing.", "url": "https://www.cdc.gov/parasites/" },
+    { "citation": "OMS. Onchocerciasis / strongyloidiasis guidance.", "url": "https://www.who.int/" },
+    { "citation": "AEMPS CIMA. Ivermectina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Prospectos ivermectina.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

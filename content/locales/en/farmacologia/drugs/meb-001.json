@@ -1,0 +1,50 @@
+{
+  "id": "meb-001",
+  "name": "Mebendazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Benzimidazole anthelmintic. Pinworm: **100 mg PO once** (repeat day 14). Soil-transmitted: **100 mg q12h × 3 days** or **500 mg once**. Children ≥2 y: same short courses.",
+  "indications": "## Indications\n\n- Pinworm, ascaris, trichuris, hookworm.\n\n## Precautions\n\n- Avoid in 1st trimester of pregnancy.\n- Less used than albendazole in WHO MDA; useful for pinworm.\n\n> Treat household contacts and reinforce hygiene for pinworm.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 100 mg; sometimes 500 mg.",
+      "dose": "Pinworm: **100 mg PO once** + **100 mg day 14**. Ascaris/trichuris/hookworm: **100 mg q12h × 3 days** or **500 mg once**.",
+      "administration": "PO with or without food; chew if label says so.",
+      "notes": "No fasting required."
+    },
+    "pediatrico": {
+      "presentation": "100 mg tabs (suspension in some countries).",
+      "dose": "≥2 y: same as adult short courses. <2 y: only if benefit outweighs risk / local label.",
+      "administration": "PO.",
+      "notes": "Very low weight: prefer suspension or albendazole per protocol."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nAbdominal pain, diarrhea, flatulence; rare rash, ↑ LFTs on long courses.",
+  "bibliography": [
+    {
+      "citation": "WHO. Soil-transmitted helminthiasis — mebendazole.",
+      "url": "https://www.who.int/"
+    },
+    {
+      "citation": "AEMPS CIMA. Mebendazole.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CDC. Parasites — mebendazole dosing.",
+      "url": "https://www.cdc.gov/parasites/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mlk-001",
+  "name": "Montelucaste",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista de leucotrienos. Adulto/≥15 anos: **10 mg VO à noite**. 6–14 anos: **5 mg/noite**. 2–5 anos: **4 mg/noite**. Profilaxia de asma e rinite alérgica — **não** crise aguda.",
+  "indications": "## Indicações\n\n- Asma persistente (adjunto/alternativa a CSI em leves–moderados).\n- Rinite alérgica; prevenção de broncoespasmo por exercício.\n\n## Precauções\n\n- Aviso de efeitos neuropsiquiátricos (sonhos vívidos, agitação, depressão, ideação suicida) — orientar e suspender se aparecerem.\n- Não substitui broncodilatadores de resgate nem CSI na crise.\n\n> Tomar à noite (asma); rinite: manhã ou noite conforme bula.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. revestidos 10 mg; mastigáveis 4–5 mg; granulado 4 mg.",
+      "dose": "≥15 anos: **10 mg VO 1×/dia** (noite). Exercício: **10 mg** ≥2 h antes (máx. 1 dose/dia).",
+      "administration": "VO com ou sem alimentos.",
+      "notes": "Não para ataque agudo de asma."
+    },
+    "pediatrico": {
+      "presentation": "Mastigáveis 4–5 mg; granulado 4 mg; comp. 10 mg (≥15 a).",
+      "dose": "6–14 anos: **5 mg/noite**. 2–5 anos: **4 mg/noite**. 6–23 meses (algumas bulas): **4 mg** granulado — verificar bula local.",
+      "administration": "VO; granulado em colher ou alimento pastoso (não diluir em líquido para beber).",
+      "notes": "Vigilância neuropsiquiátrica também em crianças."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula; proteger da umidade.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, dor abdominal, IVAS; raros: Churg-Strauss (contexto de corticoides), eventos neuropsiquiátricos.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Bula montelucaste.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Montelucaste — boxed warning neuropsiquiátrico.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Montelucaste.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

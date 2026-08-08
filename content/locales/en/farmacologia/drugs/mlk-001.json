@@ -1,0 +1,50 @@
+{
+  "id": "mlk-001",
+  "name": "Montelukast",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Leukotriene receptor antagonist. Adults/≥15 y: **10 mg PO at night**. 6–14 y: **5 mg nightly**. 2–5 y: **4 mg nightly**. Asthma prophylaxis / allergic rhinitis — **not** for acute attacks.",
+  "indications": "## Indications\n\n- Persistent asthma (add-on/alternative in mild–moderate disease).\n- Allergic rhinitis; exercise-induced bronchoconstriction prevention.\n\n## Precautions\n\n- Neuropsychiatric events (vivid dreams, agitation, depression, suicidal ideation) — counsel and stop if they occur.\n- Does not replace rescue bronchodilators or steroids in exacerbations.\n\n> Evening dosing for asthma; rhinitis: morning or evening per label.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Film-coated 10 mg; chewable 4–5 mg; granules 4 mg.",
+      "dose": "≥15 y: **10 mg PO once daily** (evening). Exercise: **10 mg** ≥2 h before (max 1 dose/day).",
+      "administration": "PO with or without food.",
+      "notes": "Not for acute asthma attack."
+    },
+    "pediatrico": {
+      "presentation": "Chewable 4–5 mg; granules 4 mg; 10 mg tabs (≥15 y).",
+      "dose": "6–14 y: **5 mg nightly**. 2–5 y: **4 mg nightly**. 6–23 mo (some labels): **4 mg** granules — check local SmPC.",
+      "administration": "PO; granules on spoon or soft food (do not dissolve in a drink).",
+      "notes": "Monitor neuropsychiatric effects in children too."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label; protect from moisture.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, abdominal pain, URI; rare: Churg-Strauss (steroid context), neuropsychiatric events.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Montelukast SmPC.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Montelukast boxed warning — neuropsychiatric events.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Montelukast.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

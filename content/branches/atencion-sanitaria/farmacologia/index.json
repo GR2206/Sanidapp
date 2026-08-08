@@ -394,6 +394,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "cod-001",
+      "name": "Codeína",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "col-001",
       "name": "Colistina",
       "branch": "atencion-sanitaria",
@@ -716,6 +723,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "hxz-001",
+      "name": "Hidroxicina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "fer-001",
       "name": "Hierro sacarosa IV",
       "branch": "atencion-sanitaria",
@@ -784,6 +798,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "ivm-001",
+      "name": "Ivermectina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ket-001",
@@ -877,6 +898,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "meb-001",
+      "name": "Mebendazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "mer-001",
       "name": "Meropenem",
       "branch": "atencion-sanitaria",
@@ -947,6 +975,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "mlk-001",
+      "name": "Montelukast",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "mor-001",
       "name": "Morfina",
       "branch": "atencion-sanitaria",
@@ -979,6 +1014,13 @@
       "name": "Nifedipino",
       "branch": "atencion-sanitaria",
       "version": "1.1.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "nys-001",
+      "name": "Nistatina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {

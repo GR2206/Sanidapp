@@ -1,0 +1,37 @@
+{
+  "id": "hxz-001",
+  "name": "Hidroxicina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihistamínico H1 1.ª generación (sedante). Prurito adulto: **25 mg VO noche** hasta **25 mg 3–4 veces/día**. Ansiedad: **50–100 mg/día** divididos. Pediatría: **1–2 mg/kg/día** VO divididos (máx. según edad).",
+  "indications": "## Indicaciones\n\n- Prurito (urticaria, dermatitis); ansiedad leve–moderada; premedicación sedante (VO/IM según ficha).\n\n## Precauciones\n\n- Prolongación de QT — evitar con otros QT+/hipopotasemia; dosis altas aumentan riesgo.\n- Sedación marcada; no conducir; potenciar con alcohol/opioides/benzodiacepinas.\n- Ancianos: dosis bajas; riesgo anticolinérgico/caídas.\n\n> Preferir antihistamínicos no sedantes si solo rinitis diurna.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10–25–50 mg; jarabe; ampollas IM (hospital).",
+      "dose": "Prurito: **25 mg VO noche**; si hace falta **25 mg c/6–8 h** (máx. habitual **100 mg/día** prurito). Ansiedad: **50–100 mg/día** en 2–3 tomas (algunas fichas hasta **300 mg/día** — no superar sin especialista).",
+      "administration": "VO; IM solo presentación inyectable hospitalaria.",
+      "notes": "Ajuste en IRC/hepática: reducir dosis."
+    },
+    "pediatrico": {
+      "presentation": "Jarabe; comp. según peso.",
+      "dose": "**1–2 mg/kg/día VO** dividido c/6–8 h. Orientativo: >6 años a menudo **12,5–25 mg** por toma; <6 años preferir mg/kg y jarabe.",
+      "administration": "VO.",
+      "notes": "Vigilar sedación excesiva y paradoja de excitación."
+    },
+    "neonatal": {
+      "presentation": "No indicado de rutina.",
+      "dose": "Evitar (sedación/respiratorio).",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, xerostomía, visión borrosa, retención urinaria, taquicardia; arritmia si QT prolongado.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Hidroxicina — posología y QT.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AEP Pediamécum. Hidroxicina.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos hidroxicina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "EMA. Hydroxyzine — cardiovascular risk measures.", "url": "https://www.ema.europa.eu/" }
+  ]
+}

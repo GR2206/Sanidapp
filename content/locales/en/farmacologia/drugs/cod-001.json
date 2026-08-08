@@ -1,0 +1,50 @@
+{
+  "id": "cod-001",
+  "name": "Codeine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Weak opioid (prodrug → morphine via CYP2D6). Adult analgesia: **15–60 mg PO q4–6h** (usual max **240 mg/day** codeine alone). Antitussive: lower doses. **Avoid <12 y**; caution 12–18 y after tonsillectomy.",
+  "indications": "## Indications\n\n- Moderate pain (often combined with paracetamol/ibuprofen).\n- Dry irritative cough (antitussive doses).\n\n## Precautions\n\n- Ultra-rapid CYP2D6 metabolizers: respiratory depression risk; poor metabolizers: little effect.\n- Contraindicated in many countries <12 y and in 12–18 y after tonsillectomy/adenoidectomy.\n- Constipation, sedation, dependence; avoid alcohol/CNS depressants.\n\n> Check if the product already contains paracetamol to avoid duplicate dosing.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs/syrup 15–30–60 mg; combinations with paracetamol.",
+      "dose": "Analgesia: **15–60 mg PO every 4–6 h**. Usual max **240 mg/day** codeine (combinations: respect paracetamol ceiling **3–4 g/day**). Antitussive: often **10–20 mg q4–6h**.",
+      "administration": "PO with food if nausea.",
+      "notes": "Reduce in elderly, renal, hepatic impairment."
+    },
+    "pediatrico": {
+      "presentation": "Syrup/tabs by country — many withdrawn.",
+      "dose": "<12 y: **do not recommend** (EMA/FDA). 12–18 y: only if no alternative and no respiratory risk; historically **0.5–1 mg/kg q4–6h** (max 60 mg/dose) — prefer other options.",
+      "administration": "PO.",
+      "notes": "Prefer paracetamol/ibuprofen ± other strategies."
+    },
+    "neonatal": {
+      "presentation": "Contraindicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label; controlled substance — stock control.",
+  "adverseEffects": "## Adverse effects\n\nNausea, constipation, somnolence, dizziness; respiratory depression, dependence, pruritus.",
+  "bibliography": [
+    {
+      "citation": "EMA. Codeine — restrictions in children.",
+      "url": "https://www.ema.europa.eu/"
+    },
+    {
+      "citation": "FDA. Codeine and tramadol contraindicated in children.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEMPS CIMA. Codeine / combinations.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

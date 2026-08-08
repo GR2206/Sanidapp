@@ -1,0 +1,50 @@
+{
+  "id": "nys-001",
+  "name": "Nistatina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Polieno tópico digestivo (quase sem absorção). Candidíase oral adulto: **400.000–600.000 UI VO a cada 6 h** (bochechar e engolir). Lactentes: **100.000–200.000 UI a cada 6 h**. Intestinal: **500.000–1.000.000 UI a cada 8 h**.",
+  "indications": "## Indicações\n\n- Candidíase orofaríngea e digestiva não invasiva.\n- Profilaxia em imunossupressão/antibióticos prolongados (esquemas locais).\n\n## Precauções\n\n- Não serve para candidíase sistêmica nem esofágica grave (usar azóis sistêmicos).\n- Suspensão: agitar; manter na boca antes de engolir.\n\n> Concentração habitual: **100.000 UI/mL**.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Suspensão 100.000 UI/mL; comprimidos/óvulos conforme marca (tópico vaginal à parte).",
+      "dose": "Oral: **4–6 mL (400.000–600.000 UI) a cada 6 h** × 7–14 dias. Intestinal: **5–10 mL (500.000–1.000.000 UI) a cada 8 h**.",
+      "administration": "Bochechar vários minutos e engolir; após refeições; não beber imediatamente.",
+      "notes": "Continuar alguns dias após melhora clínica."
+    },
+    "pediatrico": {
+      "presentation": "Suspensão 100.000 UI/mL.",
+      "dose": "Lactentes/crianças: **1–2 mL (100.000–200.000 UI) a cada 6 h** em cada lado da boca. Maiores: até dose de adulto conforme gravidade.",
+      "administration": "Aplicar com conta-gotas/swab na mucosa; engolir o restante.",
+      "notes": "Tratar mamilos maternos se amamentação com candidíase."
+    },
+    "neonatal": {
+      "presentation": "Suspensão oral.",
+      "dose": "Frequente: **100.000 UI (1 mL) a cada 6 h** na mucosa oral — protocolo local.",
+      "administration": "Aplicação tópica oral.",
+      "notes": "Descartar doença invasiva se não melhorar."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula; agitar antes de usar.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, diarreia, irritação local; alergia rara (quase sem absorção sistêmica).",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Nistatina suspensão oral.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Nistatina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulário — antifúngicos tópicos orais.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

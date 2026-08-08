@@ -1,0 +1,37 @@
+{
+  "id": "mlk-001",
+  "name": "Montelukast",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista de leucotrienos. Adulto/≥15 años: **10 mg VO/noche**. 6–14 años: **5 mg/noche**. 2–5 años: **4 mg/noche**. Profilaxis de asma y rinitis alérgica — **no** crisis aguda.",
+  "indications": "## Indicaciones\n\n- Asma persistente (aditivo/alternativa a CSI en leves–moderados).\n- Rinitis alérgica; prevención de broncoespasmo por ejercicio.\n\n## Precauciones\n\n- Advertencia de efectos neuropsiquiátricos (sueños vividos, agitación, depresión, ideación suicida) — informar y suspender si aparecen.\n- No sustituye broncodilatadores de rescate ni CSI en crisis.\n\n> Tomar por la noche (asma); rinitis: mañana o noche según ficha.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. recubiertos 10 mg; masticables 4–5 mg; granulado 4 mg.",
+      "dose": "≥15 años: **10 mg VO una vez al día** (noche). Broncoespasmo por ejercicio: **10 mg** ≥2 h antes (máx. 1 dosis/día).",
+      "administration": "VO con o sin alimentos.",
+      "notes": "No para ataque agudo de asma."
+    },
+    "pediatrico": {
+      "presentation": "Masticables 4–5 mg; granulado 4 mg; comp. 10 mg (≥15 a).",
+      "dose": "6–14 años: **5 mg/noche**. 2–5 años: **4 mg/noche**. 6–23 meses (algunas fichas): **4 mg** granulado — verificar etiqueta local.",
+      "administration": "VO; granulado en cuchara o con alimentos blandos (no diluir en líquido para beber).",
+      "notes": "Vigilancia neuropsiquiátrica también en niños."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto; proteger de humedad.",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, dolor abdominal, infección respiratoria alta; raros: Churg-Strauss (contexto corticoides), eventos neuropsiquiátricos.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Ficha técnica montelukast.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Montelukast — boxed warning neuropsychiatric events.", "url": "https://www.fda.gov/" },
+    { "citation": "AEP Pediamécum. Montelukast.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos montelukast.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hxz-001",
+  "name": "Hydroxyzine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "First-generation sedating H1 antihistamine. Adult pruritus: **25 mg PO at night** up to **25 mg 3–4×/day**. Anxiety: **50–100 mg/day** divided. Pediatrics: **1–2 mg/kg/day** PO divided (max by age).",
+  "indications": "## Indications\n\n- Pruritus (urticaria, dermatitis); mild–moderate anxiety; sedative premedication (PO/IM per label).\n\n## Precautions\n\n- QT prolongation — avoid with other QT+/hypokalemia; higher doses raise risk.\n- Marked sedation; no driving; potentiates alcohol/opioids/benzodiazepines.\n- Elderly: low doses; anticholinergic/fall risk.\n\n> Prefer non-sedating antihistamines for daytime rhinitis alone.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 10–25–50 mg; syrup; IM ampoules (hospital).",
+      "dose": "Pruritus: **25 mg PO at night**; if needed **25 mg q6–8h** (usual max **100 mg/day** for itch). Anxiety: **50–100 mg/day** in 2–3 doses (some labels up to **300 mg/day** — specialist only).",
+      "administration": "PO; IM only with injectable hospital presentation.",
+      "notes": "Reduce dose in renal/hepatic impairment."
+    },
+    "pediatrico": {
+      "presentation": "Syrup; tabs by weight.",
+      "dose": "**1–2 mg/kg/day PO** divided q6–8h. Guide: >6 y often **12.5–25 mg** per dose; <6 y prefer mg/kg and syrup.",
+      "administration": "PO.",
+      "notes": "Watch excess sedation and paradoxical excitation."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Avoid (sedation/respiratory risk).",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, dry mouth, blurred vision, urinary retention, tachycardia; arrhythmia if QT prolonged.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Hydroxyzine — dosing and QT.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Hydroxyzine.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "EMA. Hydroxyzine cardiovascular risk measures.",
+      "url": "https://www.ema.europa.eu/"
+    }
+  ],
+  "translationReviewed": true
+}
