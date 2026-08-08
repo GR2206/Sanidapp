@@ -1,0 +1,50 @@
+{
+  "id": "ris-001",
+  "name": "Risperidone",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Atypical antipsychotic. Adult psychosis: start **1–2 mg/day** → **4–6 mg/day** (usual max **8–16 mg**). Agitation/dementia (off-label): **0.25–1 mg/day**. Pediatric ASD irritability (≥5 y): **0.25–0.5 mg/day** titrate. Depot IM every 2 weeks per label.",
+  "indications": "## Indications\n\n- Schizophrenia; bipolar mania; irritability in ASD (authorized ages).\n\n## Precautions\n\n- Dose-dependent EPS; hyperprolactinemia; ↑ weight/glucose/lipids.\n- Elderly dementia: ↑ stroke/mortality.\n- QT, orthostatic hypotension at start.\n\n> Oral solution helps low-dose titration.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 0.5–1–2–3–4 mg; solution 1 mg/mL; depot IM.",
+      "dose": "Psychosis: **1 mg q12h** day 1 → increase **1 mg/day** to **4–6 mg/day**. Elderly: start **0.5 mg q12h**. Usual max **8 mg/day** (up to 16 on labels). Depot: after PO stabilization, per brand (e.g. 25 mg/2 wk).",
+      "administration": "PO; depot IM gluteal/deltoid per label.",
+      "notes": "Reduce in renal/hepatic impairment."
+    },
+    "pediatrico": {
+      "presentation": "Solution 1 mg/mL; tabs.",
+      "dose": "ASD irritability ≥5 y: **0.25 mg/day** (<20 kg) or **0.5 mg** (≥20 kg) → titrate to **0.5–3 mg/day**. Adolescent psychosis: specialist regimens.",
+      "administration": "PO.",
+      "notes": "Monitor weight, prolactin, EPS."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Solution: per label after opening.",
+  "adverseEffects": "## Adverse effects\n\nSomnolence, weight gain, EPS, hyperprolactinemia, hypotension; rare: NMS, priapism.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Risperidone PO/depot.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Risperidone — labeling and dementia warning.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AAP / autism irritability dosing context.",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

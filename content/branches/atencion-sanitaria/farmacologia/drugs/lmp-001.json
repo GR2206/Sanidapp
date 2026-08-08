@@ -1,0 +1,37 @@
+{
+  "id": "lmp-001",
+  "name": "Levomepromazina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico fenotiazínico sedante (metotrimeprazina). Adulto agitación/psicosis: **25–50 mg VO/IM** (hasta **100–200 mg/día** divididos). Cuidados paliativos (náuseas/agitación): **6,25–25 mg** c/6–8 h. Hipotensión ortostática y sedación marcadas.",
+  "indications": "## Indicaciones\n\n- Psicosis/agitación; náuseas refractarias y sedación en paliativos; coadyuvante dolor (esquemas).\n\n## Precauciones\n\n- Hipotensión, sedación, QT, EPS, síndrome neuroléptico maligno.\n- Ancianos con demencia: ↑ mortalidad (alerta clase antipsicóticos).\n- Potencia depresores; anticolinérgico.\n\n> Empezar bajo e ir lento, sobre todo en frágiles.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 25–100 mg; ampollas IM/IV según país.",
+      "dose": "Psiquiatría: inicio **25–50 mg VO/día** → **100–200 mg/día** en 2–3 tomas (máx. según ficha a veces **1 g/día** hospitalario). Paliativos: **6,25–12,5 mg** c/6–8 h VO/SC, titular. IM: **25–50 mg**.",
+      "administration": "VO; IM profundo; IV solo si ficha/hospital lo autoriza (riesgo hipotensión).",
+      "notes": "Monitorizar PA al inicio."
+    },
+    "pediatrico": {
+      "presentation": "Uso restringido.",
+      "dose": "Solo psiquiatría/paliativos pediátricos — sin pauta ambulatoria general.",
+      "administration": "—",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Ampollas: proteger de luz según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSedación, hipotensión, sequedad de boca, EPS, taquicardia; raro: agranulocitosis, SNM.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Levomepromazina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "NICE / palliative care — levomepromazine antiemetic/sedation.", "url": "https://www.nice.org.uk/" },
+    { "citation": "FDA. Antipsychotics — mortality in dementia.", "url": "https://www.fda.gov/" },
+    { "citation": "ANMAT. Prospectos levomepromazina.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

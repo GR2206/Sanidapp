@@ -1,0 +1,37 @@
+{
+  "id": "ace-001",
+  "name": "Acenocumarol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista de vitamina K (más usado que warfarina en LatAm/Europa). Adulto: inicio típico **2–4 mg VO/día** (ancianos **1 mg**); ajustar a INR (p. ej. **2–3**). Vida media más corta que warfarina — fluctuaciones más rápidas. Antídoto: vitamina K ± CCP.",
+  "indications": "## Indicaciones\n\n- FA, TVP/TEP, válvulas mecánicas, otras indicaciones de AVK según guía local.\n\n## Precauciones\n\n- Mismas interacciones/hemorragia que warfarina; INR frecuente al inicio.\n- Embarazo: teratogénico — alternativas.\n- No automedicar cambios; misma hora diaria.\n\n> Tablas de ajuste institucionales propias (no copiar las de warfarina 1:1).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 1–4 mg.",
+      "dose": "Inicio frecuente **2–4 mg/día** × 1–2 días (frágiles **1 mg**), luego según INR. Mantenimiento típico **1–8 mg/día**. Puente con heparina hasta INR terapéutico si precisa.",
+      "administration": "VO 1×/día.",
+      "notes": "Educar sobre dieta K y fármacos que alteran INR."
+    },
+    "pediatrico": {
+      "presentation": "Comp.; magistral.",
+      "dose": "Solo hematología — sin pauta ambulatoria estándar.",
+      "administration": "VO.",
+      "notes": "INR estrecho."
+    },
+    "neonatal": {
+      "presentation": "Excepcional.",
+      "dose": "Solo especialista.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia, hematomas; necrosis cutánea rara; teratogenicidad.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Acenocumarol.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "CHEST. Antithrombotic therapy — VKA context.", "url": "https://www.chestnet.org/" },
+    { "citation": "ANMAT. Prospectos acenocumarol.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "ESC. AF anticoagulation guidelines context.", "url": "https://www.escardio.org/" }
+  ]
+}

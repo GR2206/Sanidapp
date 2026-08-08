@@ -1,0 +1,50 @@
+{
+  "id": "lmp-001",
+  "name": "Levomepromazine (Methotrimeprazine)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Sedating phenothiazine antipsychotic. Adult agitation/psychosis: **25–50 mg PO/IM** (up to **100–200 mg/day** divided). Palliative (nausea/agitation): **6.25–25 mg** q6–8h. Marked orthostatic hypotension and sedation.",
+  "indications": "## Indications\n\n- Psychosis/agitation; refractory nausea and sedation in palliative care; pain adjunct (regimens).\n\n## Precautions\n\n- Hypotension, sedation, QT, EPS, NMS.\n- Elderly with dementia: ↑ mortality (class antipsychotic warning).\n- Potentiates depressants; anticholinergic.\n\n> Start low and go slow, especially in frail patients.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 25–100 mg; IM/IV ampoules by country.",
+      "dose": "Psychiatry: start **25–50 mg PO/day** → **100–200 mg/day** in 2–3 doses (some hospital labels up to **1 g/day**). Palliative: **6.25–12.5 mg** q6–8h PO/SC, titrate. IM: **25–50 mg**.",
+      "administration": "PO; deep IM; IV only if label/hospital allows (hypotension risk).",
+      "notes": "Monitor BP at initiation."
+    },
+    "pediatrico": {
+      "presentation": "Restricted use.",
+      "dose": "Child psychiatry/palliative only — no general ambulatory regimen.",
+      "administration": "—",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Ampoules: protect from light per label.",
+  "adverseEffects": "## Adverse effects\n\nSedation, hypotension, dry mouth, EPS, tachycardia; rare: agranulocytosis, NMS.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Levomepromazine.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "NICE / palliative care — levomepromazine.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "FDA. Antipsychotics — mortality in dementia.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

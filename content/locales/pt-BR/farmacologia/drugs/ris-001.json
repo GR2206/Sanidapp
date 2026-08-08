@@ -1,0 +1,50 @@
+{
+  "id": "ris-001",
+  "name": "Risperidona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico atípico. Adulto psicose: início **1–2 mg/dia** → **4–6 mg/dia** (máx. habitual **8–16 mg**). Agitação/demência (off-label): **0,25–1 mg/dia**. Pediatria TEA irritabilidade (≥5 a): **0,25–0,5 mg/dia** titular. Depot IM a cada 2 semanas conforme bula.",
+  "indications": "## Indicações\n\n- Esquizofrenia; mania bipolar; irritabilidade no TEA (idades autorizadas).\n\n## Precauções\n\n- EPS dose-dependente; hiperprolactinemia; ↑ peso/glicemia/lípides.\n- Idosos com demência: ↑ AVC/mortalidade.\n- QT, hipotensão ortostática no início.\n\n> Solução oral facilita titulação baixa.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,5–1–2–3–4 mg; solução 1 mg/mL; depot IM.",
+      "dose": "Psicose: **1 mg a cada 12 h** dia 1 → subir **1 mg/dia** até **4–6 mg/dia**. Idosos: início **0,5 mg a cada 12 h**. Máx. frequente **8 mg/dia** (até 16 nas bulas). Depot: após estabilizar VO, conforme marca (p. ex. 25 mg/2 sem).",
+      "administration": "VO; depot IM glúteo/deltóide conforme bula.",
+      "notes": "Reduzir na IRC/hepática."
+    },
+    "pediatrico": {
+      "presentation": "Solução 1 mg/mL; comp.",
+      "dose": "TEA irritabilidade ≥5 anos: **0,25 mg/dia** (<20 kg) ou **0,5 mg** (≥20 kg) → titular a **0,5–3 mg/dia**. Psicose adolescente: esquemas de especialista.",
+      "administration": "VO.",
+      "notes": "Monitorar peso, prolactina, EPS."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Solução: conforme data de abertura da bula.",
+  "adverseEffects": "## Efeitos adversos\n\nSonolência, ↑ peso, EPS, hiperprolactinemia, hipotensão; raro: SNM, priapismo.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Risperidona VO/depot.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Risperidona — bula e alerta na demência.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AAP / irritabilidade no autismo (contexto).",
+      "url": "https://www.aap.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

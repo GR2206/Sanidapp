@@ -2,50 +2,49 @@
   "id": "eno-001",
   "name": "Enoxaparin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Anticoagulant. Prophylaxis and treatment of deep vein thrombosis and/or pulmonary thromboembolism and arterial thrombosis.",
-  "indications": "## Main indications\n\nAnticoagulant. Prophylaxis and treatment of deep vein thrombosis and/or pulmonary thromboembolism and arterial thrombosis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "LMWH. Adult prophylaxis: **40 mg SC/day** (surgical **20–40 mg** by risk). Treatment DVT/PE/ACS: **1 mg/kg SC q12h** or **1.5 mg/kg/day**. If CrCl <30: often **1 mg/kg/day**. Pediatrics: **0.5–1 mg/kg** by indication.",
+  "indications": "## Indications\n\n- Prophylaxis and treatment of DVT/PE; ACS (with antiplatelets); anticoagulation bridge; pregnancy (preferred vs VKA).\n\n## Precautions\n\n- Bleeding; HIT (less than UFH).\n- Not IM. Avoid with recent spinal/epidural anesthesia without protocol.\n- Anti-Xa in pregnancy, weight extremes, CKD.\n\n> Prefilled syringes 20–40–60–80–100 mg; do not expel air bubble (by design).",
   "dilution": {
     "adulto": {
-      "presentation": "Prefilled syringe 40–100 mg.",
-      "dose": "Prophylaxis: 40 mg SC every 24 h. PE: 1 mg/kg SC every 12 h.",
-      "administration": "Deep SC; do not rub injection site."
+      "presentation": "SC syringes 20–40–60–80–100–120–150 mg.",
+      "dose": "Medical prophylaxis: **40 mg SC/day**. High-risk surgery: **40 mg/day** (start 12 h before/after per protocol). Treatment: **1 mg/kg q12h** or **1.5 mg/kg/day**. ACS: **1 mg/kg q12h**. CrCl <30: **1 mg/kg/day** treatment; prophylaxis **20–30 mg/day**.",
+      "administration": "SC abdomen (rotate sites); do not rub.",
+      "notes": "Use actual body weight for mg/kg; obesity: anti-Xa/protocol."
     },
     "pediatrico": {
-      "dose": "Per specialist indication. Prophylactic dose: < 2 months: 0,75 mg/kg/dose every 12 h; > 2 months: 0,5 mg/kg/dose every 12 h. Therapeutic dose: < 2 months: 1,5 mg/kg/dose every 12 h; > 2 months: 1 mg/kg/dose every 12 h",
-      "administration": "SC",
-      "presentation": "Prefilled syringe: 20 mg – 40 mg – 60 mg – 80 mg – 100 mg",
-      "notes": "Lower bleeding risk than heparin, prolonged half-life, less laboratory monitoring. If combination with substances affecting hemostasis is indicated, perform careful clinical and laboratory monitoring. See alert."
+      "presentation": "Syringes; pharmacy dilution.",
+      "dose": "Prophylaxis: ~**0.5 mg/kg q12h**. Treatment: **1 mg/kg q12h** (neonates often **1.5–1.7 mg/kg q12h**) — hematology + anti-Xa.",
+      "administration": "SC.",
+      "notes": "Do not extrapolate adult without weight."
     },
     "neonatal": {
-      "dose": "1,5 mg/kg SC every 12 h in NICU (protocol).",
-      "administration": "SC."
+      "presentation": "NICU dilution.",
+      "dose": "Treatment often **1.5–1.7 mg/kg SC q12h** — protocol + anti-Xa only.",
+      "administration": "SC.",
+      "notes": "Specialist."
     }
   },
-  "stability": "## Stability\n\n- Prefilled syringes ready for use.",
-  "adverseEffects": "## Adverse effects\n\nThrombocytopenia (rare), hypochromic anemia, cutaneous necrosis at injection site, hemorrhage, fever, diarrhea, confusion, dyspnea, edema.",
+  "stability": "## Stability\n\n- Room temp per label; do not freeze.",
+  "adverseEffects": "## Adverse effects\n\nInjection-site hematoma, bleeding, anemia; rare: HIT, hyperkalemia, skin necrosis.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Enoxaparina Sódica* (code 1184, ATC B01AB).",
+      "citation": "AEMPS CIMA. Enoxaparin — prophylaxis/treatment.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CHEST / ESC. VTE and ACS LMWH dosing.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — enoxaparin.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

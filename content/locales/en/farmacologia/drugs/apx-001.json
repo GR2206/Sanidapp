@@ -1,0 +1,50 @@
+{
+  "id": "apx-001",
+  "name": "Apixaban",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-Xa DOAC. AF: **5 mg PO q12h** (**2.5 mg q12h** if ≥2 of: ≥80 y, ≤60 kg, creatinine ≥1.5 mg/dL). DVT/PE: **10 mg q12h × 7 days** → **5 mg q12h**. Ortho prophylaxis: **2.5 mg q12h**. Favorable profile in moderate CKD.",
+  "indications": "## Indications\n\n- Nonvalvular AF; DVT/PE treatment/prevention; orthopedic prophylaxis.\n\n## Precautions\n\n- Bleeding; not for mechanical valves / moderate–severe rheumatic AF.\n- CYP3A4/P-gp interactions (2.5 mg if dual strong inhibitors).\n- Antidote: andexanet (± PCC).\n\n> Apply AF dose-reduction criteria strictly.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 2.5–5 mg.",
+      "dose": "AF: **5 mg q12h** or **2.5 mg q12h** (criteria above/label). DVT/PE: **10 mg q12h × 7 d** then **5 mg q12h**. Extension >6 mo: sometimes **2.5 mg q12h**. Ortho: **2.5 mg q12h**.",
+      "administration": "PO with or without food; may crush if label allows (NG).",
+      "notes": "Missed dose: take if >6 h until next (BID scheme)."
+    },
+    "pediatrico": {
+      "presentation": "Limited data / trials.",
+      "dose": "Pediatric hematology protocol only.",
+      "administration": "—",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, hematoma, nausea; rare hypersensitivity.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Apixaban — dose criteria.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ARISTOTLE / ESC AF DOAC guidance.",
+      "url": "https://www.escardio.org/"
+    },
+    {
+      "citation": "CHEST. VTE — apixaban regimens.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

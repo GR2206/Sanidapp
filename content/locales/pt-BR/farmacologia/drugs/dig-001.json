@@ -1,51 +1,50 @@
 {
   "id": "dig-001",
   "name": "Digoxina",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Glicosídeo cardíaco. Insuficiência cardíaca (efeito inotrópico positivo e cronotrópico negativo).",
-  "indications": "## Indicações principais\n\nGlicosídeo cardíaco. Insuficiência cardíaca (efeito inotrópico positivo e cronotrópico negativo).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Glicosídeo cardíaco. Adulto manutenção: **0,125–0,25 mg VO/dia** (idosos/IRC **0,0625–0,125 mg**). Carga (se preciso): **0,25–0,5 mg** IV/VO fracionada. Nível-alvo habitual na IC **0,5–0,9 ng/mL**. Toxicidade ↑ com hipopotassemia.",
+  "indications": "## Indicações\n\n- IC com FE reduzida (sintomas apesar da terapia ótima); controle de frequência na FA (2ª linha vs betabloqueadores/bloqueadores de cálcio).\n\n## Precauções\n\n- Margem terapêutica estreita — níveis, ECG, K+/Mg2+/função renal.\n- Interações: amiodarona, verapamil, macrolídeos ↑ digoxinemia.\n- Antídoto: Fab antidigoxina na intoxicação grave.\n\n> Não é inotrópico de resgate agudo moderno (preferir outras estratégias no choque).",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 0,25 mg. Ampola 0,25 mg/mL.",
-      "dose": "Ataque E.V. 0,25–0,5 mg; manutenção V.O. 0,125–0,25 mg/dia conforme função renal.",
-      "administration": "V.O. ou E.V. lenta (diluída conforme protocolo)."
+      "presentation": "Comp. 0,125–0,25 mg; ampola 0,25 mg/mL; elixir.",
+      "dose": "Manutenção: **0,125–0,25 mg VO/dia**. IRC/idosos: **0,0625–0,125 mg/dia**. Carga total orientativa **0,5–1 mg** em 24 h dividida (IV lento ou VO) — muitos iniciam sem carga.",
+      "administration": "VO. IV lento ≥5 min diluído; não IM.",
+      "notes": "Coletar nível ≥6–8 h pós-dose (vale)."
     },
     "pediatrico": {
-      "dose": "Digitalização rápida (E.V.): RN a termo: 0,02–0,04 mg/kg/dia; RN pré-termo: 0,015–0,025 mg/kg/dia; 1 mês a 2 anos: 0,025–0,05 mg/kg/dia; >2 anos: 0,03–0,04 mg/kg/dia; adolescentes: 0,01–0,015 mg/kg/dia. Máximo: 1 mg. (V.O.): aumentar 20%. Esquema: 50% no início, 25% em 6–8 h, 25% restante em 12–16 h. Em pacientes previamente digitalizados usar metade da dose. Manutenção (V.O.): RN a termo: 0,01 mg/kg/dia (½ gota/kg/dia Lanoxin); 1 mês–2 anos: 0,01–0,015 mg/kg/dia (¾ gota/kg/dia Lanoxin); >2 anos: 0,01 mg/kg/dia (½ gota/kg/dia Lanoxin); adolescentes: 0,005 mg/kg/dia (máximo 0,25 mg/dia). Ver tabela de ajuste em insuficiência renal (boletim CIME)",
-      "administration": "V.O.; E.V.",
-      "presentation": "Comprimidos: 0,25 mg; Gotas: 750 mcg/mL (gotas/mg variam conforme marca); Ampolas 1 mL: 0,25 mg/mL",
-      "notes": "Diuréticos depletores de potássio aumentam risco de intoxicação digitálica. Níveis podem aumentar com amiodarona (reduzir dose ~50% e monitorar), flecainida, propafenona, espironolactona, eritromicina, verapamil. Corticoides aumentam risco de hipocalemia. Faixa terapêutica: 0,8–2 ng/mL. Níveis >2 ng/mL associados à toxicidade. Reduzir dose em insuficiência renal. E.V.: puro ou diluído 1:4 em SG 5% ou SF em >5 min. Contraindicada em cardiomiopatia hipertrófica obstrutiva. Marcas comerciais diferem em droga por gota. Manter frasco bem fechado."
+      "presentation": "Elixir; ampola.",
+      "dose": "Carga total frequente **20–40 µg/kg** (prematuros menos) dividida; manutenção **5–10 µg/kg/dia** — cardiologia pediátrica.",
+      "administration": "VO/IV.",
+      "notes": "Monitorar níveis e ECG."
     },
     "neonatal": {
-      "dose": "Doses neonatais conforme protocolo cardiológico e níveis séricos.",
-      "administration": "E.V. lenta."
+      "presentation": "Elixir/IV NNU.",
+      "dose": "Esquemas NNU/cardiologia (carga ~20–30 µg/kg).",
+      "administration": "IV/VO.",
+      "notes": "Só especialista."
     }
   },
-  "stability": "## Estabilidade\n\n- Ampolas: usar após diluição conforme protocolo institucional.",
-  "adverseEffects": "## Efeitos adversos\n\nVômitos, tontura, diarreia, visão borrada, aumento da diurese, sudorese fria, convulsões, bloqueio AV, arritmias.",
+  "stability": "## Estabilidade\n\n- Ampola: usar após abertura conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, anorexia, visão turva/xantopsia, arritmias (bigeminismo, TV), confusão — suspeitar toxicidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — diGOXina (cód. 0073, ATC C01AA).",
+      "citation": "AEMPS CIMA. Digoxina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AHA/ACC. Insuficiência cardíaca — papel e níveis da digoxina.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulário — digoxina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

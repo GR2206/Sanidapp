@@ -1,51 +1,50 @@
 {
   "id": "hal-001",
   "name": "Haloperidol",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antipsicótico. Antiemético. De primeira linha na coreia infantil.",
-  "indications": "## Indicações principais\n\nAntipsicótico. Antiemético. De primeira linha na coreia infantil.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico típico butirofenona. Agitação adulto: **0,5–5 mg VO/IM** (repetir a cada 30–60 min; máx. frequente **20 mg/dia**). VO crônico: **1–15 mg/dia**. Náuseas/paliativos: **0,5–2 mg** a cada 6–8 h. IV: só diluído/monitorizado (QT). Alto risco de EPS.",
+  "indications": "## Indicações\n\n- Psicose/agitação; delirium (doses baixas); náuseas refratárias; coreia (esquemas); síndrome de Tourette.\n\n## Precauções\n\n- EPS, distonia aguda (tratar com biperideno/difenidramina); SNM.\n- QT — evitar com outros QT+; ECG se risco.\n- Demência: ↑ mortalidade. Parkinson: evitar ou dose mínima.\n\n> Decanoato IM depot só manutenção especializada.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola 5 mg/mL.",
-      "dose": "0,5–5 mg E.V./I.M. a cada 30–60 min PRN agitação.",
-      "administration": "E.V. lenta ou I.M."
+      "presentation": "Comp. 0,5–1–5–10 mg; gotas; ampola 5 mg/mL; decanoato depot.",
+      "dose": "Agitação: **0,5–2 mg** (idosos) até **5 mg** IM/VO; repetir conforme resposta (máx. ~**20 mg/dia**). Psicose: **1–15 mg/dia** VO divididos. Paliativos/náuseas: **0,5–1 mg** a cada 8 h. IV (UTI): **0,5–2 mg** lento — protocolo.",
+      "administration": "VO/IM. IV só com monitorização. Depot glúteo conforme bula.",
+      "notes": "Ter anticolinérgico à mão se distonia."
     },
     "pediatrico": {
-      "dose": "Crianças: Inicial: 0,025–0,05 mg/kg/dia a cada 8–12 h, ir aumentando até que os sintomas sejam controlados ou os efeitos adversos intoleráveis. Manutenção: transtornos psicóticos: 0,05–0,15 mg/kg/dia a cada 8–12 h, transtornos não psicóticos: 0,05–0,075 mg/kg/dia a cada 8–12 h, agitação–hiperquinesia–antiemético: 0,01–0,03 mg/kg/dia em dose única. Adultos: 5–10 mg/dose a cada 8–12 h.",
-      "administration": "V.O. E.V. I.M.",
-      "presentation": "Comprimidos: 1–5–10 mg; Gotas: 2 mg/mL (0,1 mg/gota); Ampolas de 1 mL: 5 mg/mL; Ampolas de Haloperidol decanoato de 3 mL: 50 mg/mL",
-      "notes": "Os depressores do SNC podem aumentar os efeitos adversos do haloperidol. Com adrenalina pode causar hipotensão. Carbamazepina e fenobarbital podem aumentar o metabolismo do haloperidol e diminuir sua eficácia. O haloperidol decanoato é de depósito e só pode ser administrado por via I.M. Não se recomenda usar em crianças menores de 3 anos."
+      "presentation": "Gotas; comp.",
+      "dose": "Psiquiatria: orientativo **0,025–0,05 mg/kg/dia** dividido (máx. conforme idade) — especialista. Agitação: doses baixas pontuais.",
+      "administration": "VO/IM.",
+      "notes": "Alto risco de EPS em jovens."
     },
     "neonatal": {
-      "dose": "Não recomendado salvo indicação psiquiátrica especializada.",
-      "administration": "E.V."
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Estabilidade\n\n- E.V. usar sem diluição ou conforme bula.",
-  "adverseEffects": "## Efeitos adversos\n\nReações extrapiramidais e hipotalâmicas graves, distonia. Tem menos efeitos muscarínicos e hipotensores e mais efeitos extrapiramidais que a clorpromazina.",
+  "stability": "## Estabilidade\n\n- Ampolas conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nEPS, acatisia, sedação, hiperprolactinemia, QT longo; raro: SNM, convulsões.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — haloPERIDol (cód. 0109, ATC N05AD).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Haloperidol.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "FDA. Haloperidol — alertas de QT / demência.",
+      "url": "https://www.fda.gov/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "NICE. Delirium / antiemético paliativo (contexto).",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

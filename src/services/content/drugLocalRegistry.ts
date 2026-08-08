@@ -1,5 +1,6 @@
 import farmacologiaIndex from '../../../content/branches/atencion-sanitaria/farmacologia/index.json';
 import abz_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/abz-001.json';
+import ace_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ace-001.json';
 import aci_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/aci-001.json';
 import ade_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ade-001.json';
 import adr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/adr-001.json';
@@ -16,6 +17,7 @@ import amo_002 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import amp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amp-001.json';
 import amp_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amp-002.json';
 import ani_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ani-001.json';
+import apx_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/apx-001.json';
 import asa_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/asa-001.json';
 import ate_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ate-001.json';
 import ato_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ato-001.json';
@@ -130,6 +132,7 @@ import lev_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import lid_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lid-001.json';
 import lin_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lin-001.json';
 import lis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lis-001.json';
+import lmp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lmp-001.json';
 import lop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lop-001.json';
 import lor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lor-001.json';
 import los_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/los-001.json';
@@ -187,6 +190,8 @@ import ram_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import ran_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ran-001.json';
 import rem_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/rem-001.json';
 import rif_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/rif-001.json';
+import ris_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ris-001.json';
+import riv_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/riv-001.json';
 import roc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/roc-001.json';
 import sal_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sal-001.json';
 import sav_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/sav-001.json';
@@ -224,6 +229,7 @@ export const LOCAL_DRUG_INDEX = farmacologiaIndex as DrugIndex;
 /** Generado por scripts/sync-drugs.mjs — no editar a mano. Ejecutar: npm run sync-drugs */
 export const LOCAL_DRUGS: Record<string, Drug> = {
   'abz-001': abz_001 as Drug,
+  'ace-001': ace_001 as Drug,
   'aci-001': aci_001 as Drug,
   'ade-001': ade_001 as Drug,
   'adr-001': adr_001 as Drug,
@@ -240,6 +246,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'amp-001': amp_001 as Drug,
   'amp-002': amp_002 as Drug,
   'ani-001': ani_001 as Drug,
+  'apx-001': apx_001 as Drug,
   'asa-001': asa_001 as Drug,
   'ate-001': ate_001 as Drug,
   'ato-001': ato_001 as Drug,
@@ -354,6 +361,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'lid-001': lid_001 as Drug,
   'lin-001': lin_001 as Drug,
   'lis-001': lis_001 as Drug,
+  'lmp-001': lmp_001 as Drug,
   'lop-001': lop_001 as Drug,
   'lor-001': lor_001 as Drug,
   'los-001': los_001 as Drug,
@@ -411,6 +419,8 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'ran-001': ran_001 as Drug,
   'rem-001': rem_001 as Drug,
   'rif-001': rif_001 as Drug,
+  'ris-001': ris_001 as Drug,
+  'riv-001': riv_001 as Drug,
   'roc-001': roc_001 as Drug,
   'sal-001': sal_001 as Drug,
   'sav-001': sav_001 as Drug,

@@ -1,0 +1,50 @@
+{
+  "id": "riv-001",
+  "name": "Rivaroxabana",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "DOAC anti-Xa. FA não valvar: **20 mg VO/dia** com comida (**15 mg** se ClCr 15–49). TVP/TEP: **15 mg a cada 12 h × 21 dias** → **20 mg/dia**. Profilaxia ortopédica: **10 mg/dia**. Não em válvulas mecânicas; ajustar na IRC.",
+  "indications": "## Indicações\n\n- Prevenção de AVC na FA não valvar; tratamento/prevenção de TVP/TEP; profilaxia pós-cirurgia de quadril/joelho.\n\n## Precauções\n\n- Hemorragia; não usar se ClCr <15 (FA) conforme bula; evitar na gravidez.\n- Interações com inibidores/indutores potentes de CYP3A4/P-gp.\n- Doses de 15–20 mg: **com alimento** (absorção).\n- Antídoto: andexanet alfa (se disponível); CCP off-label.\n\n> Não para FA valvar reumática / prótese mecânica.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–10–15–20 mg.",
+      "dose": "FA: **20 mg/dia** com comida (**15 mg/dia** se ClCr 15–49). TVP/TEP agudo: **15 mg a cada 12 h × 21 d** depois **20 mg/dia**. Extensão: às vezes **10 mg/dia**. Profilaxia orto: **10 mg/dia**. SCA (bula): **2,5 mg a cada 12 h** + AAS ± clopidogrel — especialista.",
+      "administration": "VO; 15–20 mg com comida.",
+      "notes": "Se esquecer dose bid (15 mg): tomar o quanto antes para completar 30 mg/dia."
+    },
+    "pediatrico": {
+      "presentation": "Suspensão/comp. conforme peso (bulas recentes).",
+      "dose": "TVP pediátrica: esquemas por peso/idade na bula — só hematologia.",
+      "administration": "VO.",
+      "notes": "Não improvisar dose de adulto."
+    },
+    "neonatal": {
+      "presentation": "Não rotineiro.",
+      "dose": "Só ensaios/especialista.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHemorragia, anemia, tontura; raro: SJS, hepatotoxicidade.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Rivaroxabana — posologia FA/TVP.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ESC / AHA. Doses de DOAC na FA.",
+      "url": "https://www.escardio.org/"
+    },
+    {
+      "citation": "CHEST. Tratamento de TEV — rivaroxabana.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

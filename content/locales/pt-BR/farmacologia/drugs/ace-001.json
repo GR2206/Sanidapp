@@ -1,0 +1,50 @@
+{
+  "id": "ace-001",
+  "name": "Acenocumarol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista da vitamina K (mais usado que varfarina na LatAm/Europa). Adulto: início típico **2–4 mg VO/dia** (idosos **1 mg**); ajustar ao INR (p. ex. **2–3**). Meia-vida mais curta que varfarina — flutuações mais rápidas. Antídoto: vitamina K ± CCP.",
+  "indications": "## Indicações\n\n- FA, TVP/TEP, válvulas mecânicas, outras indicações de AVK conforme diretriz local.\n\n## Precauções\n\n- Mesmas interações/hemorragia que varfarina; INR frequente no início.\n- Gravidez: teratogênico — alternativas.\n- Não automedicar mudanças; mesmo horário diário.\n\n> Tabelas institucionais próprias (não copiar as da varfarina 1:1).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 1–4 mg.",
+      "dose": "Início frequente **2–4 mg/dia** × 1–2 dias (frágeis **1 mg**), depois conforme INR. Manutenção típica **1–8 mg/dia**. Ponte com heparina até INR terapêutico se preciso.",
+      "administration": "VO 1×/dia.",
+      "notes": "Educar sobre dieta K e fármacos que alteram INR."
+    },
+    "pediatrico": {
+      "presentation": "Comp.; magistral.",
+      "dose": "Só hematologia — sem pauta ambulatorial padrão.",
+      "administration": "VO.",
+      "notes": "INR estreito."
+    },
+    "neonatal": {
+      "presentation": "Excepcional.",
+      "dose": "Só especialista.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHemorragia, hematomas; necrose cutânea rara; teratogenicidade.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Acenocumarol.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CHEST. Terapia antitrombótica — contexto AVK.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "ESC. Anticoagulação na FA (contexto).",
+      "url": "https://www.escardio.org/"
+    }
+  ],
+  "translationReviewed": true
+}

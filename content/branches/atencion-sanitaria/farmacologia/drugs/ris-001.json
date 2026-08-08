@@ -1,0 +1,37 @@
+{
+  "id": "ris-001",
+  "name": "Risperidona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico atípico. Adulto psicosis: inicio **1–2 mg/día** → **4–6 mg/día** (máx. habitual **8–16 mg**). Agitación/demencia (off-label): **0,25–1 mg/día**. Pediatría TEA irritabilidad (≥5 a): **0,25–0,5 mg/día** titular. Depot IM cada 2 semanas según ficha.",
+  "indications": "## Indicaciones\n\n- Esquizofrenia; manía bipolar; irritabilidad en TEA (edades autorizadas).\n\n## Precauciones\n\n- EPS dosis-dependiente; hiperprolactinemia; ↑ peso/glucemia/lípidos.\n- Ancianos demencia: ↑ ACV/mortalidad.\n- QT, hipotensión ortostática al inicio.\n\n> Solución oral facilita titulación baja.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,5–1–2–3–4 mg; solución 1 mg/mL; depot IM.",
+      "dose": "Psicosis: **1 mg c/12 h** día 1 → subir **1 mg/día** hasta **4–6 mg/día**. Ancianos: inicio **0,5 mg c/12 h**. Máx. frecuente **8 mg/día** (hasta 16 en fichas). Depot: tras estabilizar VO, según marca (p. ej. 25 mg/2 sem).",
+      "administration": "VO; depot IM glúteo/deltoides según ficha.",
+      "notes": "Reducir en IRC/hepática."
+    },
+    "pediatrico": {
+      "presentation": "Solución 1 mg/mL; comp.",
+      "dose": "TEA irritabilidad ≥5 años: **0,25 mg/día** (<20 kg) o **0,5 mg** (≥20 kg) → titular a **0,5–3 mg/día**. Psicosis adolescente: esquemas de especialista.",
+      "administration": "VO.",
+      "notes": "Monitorizar peso, prolactina, EPS."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Solución: según fecha de apertura del prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSomnolencia, ↑ peso, EPS, hiperprolactinemia, hipotensión; raro: SNM, priapismo.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Risperidona VO/depot.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Risperidone — labeling and dementia warning.", "url": "https://www.fda.gov/" },
+    { "citation": "AAP / autism irritability dosing context.", "url": "https://www.aap.org/" },
+    { "citation": "ANMAT. Prospectos risperidona.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

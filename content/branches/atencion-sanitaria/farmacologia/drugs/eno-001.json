@@ -2,49 +2,36 @@
   "id": "eno-001",
   "name": "Enoxaparina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anticoagulante. Profilaxis y tratamiento de la trombosis venosa profunda y/o tromboembolismo pulmonar y trombosis arterial.",
-  "indications": "## Indicaciones principales\n\nAnticoagulante. Profilaxis y tratamiento de la trombosis venosa profunda y/o tromboembolismo pulmonar y trombosis arterial.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "HBPM. Profilaxis adulto: **40 mg SC/día** (quirúrgico **20–40 mg** según riesgo). Tratamiento TVP/TEP/SCA: **1 mg/kg SC c/12 h** o **1,5 mg/kg/día**. Ajuste si ClCr <30: a menudo **1 mg/kg/día**. Pediatría: **0,5–1 mg/kg** según indicación.",
+  "indications": "## Indicaciones\n\n- Profilaxis y tratamiento de TVP/TEP; SCA (con antiplaquetarios); puente de anticoagulación; embarazo (preferida vs AVK).\n\n## Precauciones\n\n- Hemorragia; trombocitopenia inducida por heparina (menos que HNF).\n- No IM. Evitar en anestesia espinal/epidural reciente sin protocolo.\n- Anti-Xa en embarazo, extremos de peso, IRC.\n\n> Jeringas precargadas 20–40–60–80–100 mg; no expulsar burbuja de aire (diseño).",
   "dilution": {
     "adulto": {
-      "presentation": "Jeringa precargada 40–100 mg.",
-      "dose": "Profilaxis: 40 mg SC cada 24 h. TEP: 1 mg/kg SC cada 12 h.",
-      "administration": "SC profunda; no frotar zona."
+      "presentation": "Jeringas SC 20–40–60–80–100–120–150 mg.",
+      "dose": "Profilaxis médico: **40 mg SC/día**. Cirugía alto riesgo: **40 mg/día** (iniciar 12 h antes/después según protocolo). Tratamiento: **1 mg/kg c/12 h** o **1,5 mg/kg/día**. SCA: **1 mg/kg c/12 h**. ClCr <30: **1 mg/kg/día** tratamiento; profilaxis **20–30 mg/día**.",
+      "administration": "SC abdomen (rotar sitios); no frotar.",
+      "notes": "Peso real para mg/kg; obesidad: anti-Xa/protocolo."
     },
     "pediatrico": {
-      "dose": "Según indicación del especialista. Dosis profiláctica: &lt; 2 meses: 0,75 mg/kg/dosis cada 12 hs; &gt; 2 meses: 0,5 mg/kg/dosis cada 12 hs. Dosis terapéutica: &lt; 2 meses: 1,5 mg/kg/dosis cada 12 hs; &gt; 2 meses: 1 mg/kg/dosis cada 12 hs",
-      "administration": "S.C.",
-      "presentation": "Jeringa prellenada: 20 mg - 40 mg - 60 mg - 80 mg - 100 mg",
-      "notes": "Tiene menor riesgo de sangrado que la heparina, vida media prolongada, menor control de laboratorio, En caso de indicar la combinación con sustancias que afectan la hemostasis, realizar cuidadosos controles clínicos y de laboratorio.Ver alerta."
+      "presentation": "Jeringas; dilución farmacia.",
+      "dose": "Profilaxis: ~**0,5 mg/kg c/12 h**. Tratamiento: **1 mg/kg c/12 h** (neonatos a menudo **1,5–1,7 mg/kg c/12 h**) — hematología + anti-Xa.",
+      "administration": "SC.",
+      "notes": "No extrapolar adulto sin peso."
     },
     "neonatal": {
-      "dose": "1,5 mg/kg SC cada 12 h en NNU (protocolo).",
-      "administration": "SC."
+      "presentation": "Dilución NNU.",
+      "dose": "Tratamiento frecuente **1,5–1,7 mg/kg SC c/12 h** — solo protocolo + anti-Xa.",
+      "administration": "SC.",
+      "notes": "Especialista."
     }
   },
-  "stability": "## Estabilidad\n\n- Jeringas precargadas listas para uso.",
-  "adverseEffects": "## Efectos adversos\n\nTrombocitopenia (raro), anemia hipocrómica, necrosis cutánea en el punto de inyección, hemorragia, fiebre, diarrea, confusión, disnea, edema.",
+  "stability": "## Estabilidad\n\n- T° ambiente según prospecto; no congelar.",
+  "adverseEffects": "## Efectos adversos\n\nHematoma en sitio, hemorragia, anemia; raro: HIT, hiperpotasemia, necrosis cutánea.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Enoxaparina Sódica* (cód. 1184, ATC B01AB).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "AEMPS CIMA. Enoxaparina — profilaxis/tratamiento.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "CHEST / ESC. VTE and ACS LMWH dosing.", "url": "https://www.chestnet.org/" },
+    { "citation": "Hospital Garrahan. Formulario — enoxaparina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "ANMAT. Prospectos enoxaparina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

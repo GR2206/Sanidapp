@@ -2,6 +2,13 @@
   "branch": "atencion-sanitaria",
   "drugs": [
     {
+      "id": "ace-001",
+      "name": "Acenocumarol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "aci-001",
       "name": "Aciclovir",
       "branch": "atencion-sanitaria",
@@ -75,8 +82,8 @@
       "id": "amd-001",
       "name": "Amiodarona",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "aml-001",
@@ -139,6 +146,13 @@
       "name": "Anidulafungina",
       "branch": "atencion-sanitaria",
       "version": "1.2.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "apx-001",
+      "name": "Apixabán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {
@@ -530,8 +544,8 @@
       "id": "dig-001",
       "name": "Digoxina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "dlt-001",
@@ -593,8 +607,8 @@
       "id": "eno-001",
       "name": "Enoxaparina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "eri-001",
@@ -789,8 +803,8 @@
       "id": "hal-001",
       "name": "Haloperidol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "hef-001",
@@ -938,6 +952,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "lmp-001",
+      "name": "Levomepromazina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "ltx-001",
@@ -1322,6 +1343,20 @@
       "name": "Rifampicina",
       "branch": "atencion-sanitaria",
       "version": "1.3.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "ris-001",
+      "name": "Risperidona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "riv-001",
+      "name": "Rivaroxabán",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {

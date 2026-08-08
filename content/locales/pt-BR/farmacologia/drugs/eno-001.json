@@ -1,51 +1,50 @@
 {
   "id": "eno-001",
   "name": "Enoxaparina",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Anticoagulante. Profilaxia e tratamento da trombose venosa profunda e/ou tromboembolismo pulmonar e trombose arterial.",
-  "indications": "## Indicações principais\n\nAnticoagulante. Profilaxia e tratamento da trombose venosa profunda e/ou tromboembolismo pulmonar e trombose arterial.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "HBPM. Profilaxia adulto: **40 mg SC/dia** (cirúrgico **20–40 mg** conforme risco). Tratamento TVP/TEP/SCA: **1 mg/kg SC a cada 12 h** ou **1,5 mg/kg/dia**. Ajuste se ClCr <30: frequentemente **1 mg/kg/dia**. Pediatria: **0,5–1 mg/kg** conforme indicação.",
+  "indications": "## Indicações\n\n- Profilaxia e tratamento de TVP/TEP; SCA (com antiplaquetários); ponte de anticoagulação; gravidez (preferida vs AVK).\n\n## Precauções\n\n- Hemorragia; trombocitopenia induzida por heparina (menos que HNF).\n- Não IM. Evitar em anestesia espinal/epidural recente sem protocolo.\n- Anti-Xa na gravidez, extremos de peso, IRC.\n\n> Seringas preenchidas 20–40–60–80–100 mg; não expulsar a bolha de ar (design).",
   "dilution": {
     "adulto": {
-      "presentation": "Seringa pré-carregada 40–100 mg.",
-      "dose": "Profilaxia: 40 mg SC a cada 24 h. TEP: 1 mg/kg SC a cada 12 h.",
-      "administration": "SC profunda; não friccionar a região."
+      "presentation": "Seringas SC 20–40–60–80–100–120–150 mg.",
+      "dose": "Profilaxia médica: **40 mg SC/dia**. Cirurgia alto risco: **40 mg/dia** (iniciar 12 h antes/depois conforme protocolo). Tratamento: **1 mg/kg a cada 12 h** ou **1,5 mg/kg/dia**. SCA: **1 mg/kg a cada 12 h**. ClCr <30: **1 mg/kg/dia** tratamento; profilaxia **20–30 mg/dia**.",
+      "administration": "SC abdômen (rotacionar sítios); não esfregar.",
+      "notes": "Peso real para mg/kg; obesidade: anti-Xa/protocolo."
     },
     "pediatrico": {
-      "dose": "Conforme indicação do especialista. Dose profilática: < 2 meses: 0,75 mg/kg/dose a cada 12 h; > 2 meses: 0,5 mg/kg/dose a cada 12 h. Dose terapêutica: < 2 meses: 1,5 mg/kg/dose a cada 12 h; > 2 meses: 1 mg/kg/dose a cada 12 h",
-      "administration": "S.C.",
-      "presentation": "Seringa pré-preenchida: 20 mg - 40 mg - 60 mg - 80 mg - 100 mg",
-      "notes": "Tem menor risco de sangramento que a heparina, meia-vida prolongada, menor controle laboratorial. Em caso de indicar a combinação com substâncias que afetam a hemostasia, realizar cuidadosos controles clínicos e de laboratório. Ver alerta."
+      "presentation": "Seringas; diluição farmácia.",
+      "dose": "Profilaxia: ~**0,5 mg/kg a cada 12 h**. Tratamento: **1 mg/kg a cada 12 h** (neonatos frequentemente **1,5–1,7 mg/kg a cada 12 h**) — hematologia + anti-Xa.",
+      "administration": "SC.",
+      "notes": "Não extrapolar adulto sem peso."
     },
     "neonatal": {
-      "dose": "1,5 mg/kg SC a cada 12 h na UTI neonatal (protocolo).",
-      "administration": "SC."
+      "presentation": "Diluição NNU.",
+      "dose": "Tratamento frequente **1,5–1,7 mg/kg SC a cada 12 h** — só protocolo + anti-Xa.",
+      "administration": "SC.",
+      "notes": "Especialista."
     }
   },
-  "stability": "## Estabilidade\n\n- Seringas pré-carregadas prontas para uso.",
-  "adverseEffects": "## Efeitos adversos\n\nTrombocitopenia (raro), anemia hipocrômica, necrose cutânea no ponto de injeção, hemorragia, febre, diarreia, confusão, dispneia, edema.",
+  "stability": "## Estabilidade\n\n- T° ambiente conforme bula; não congelar.",
+  "adverseEffects": "## Efeitos adversos\n\nHematoma no local, hemorragia, anemia; raro: HIT, hiperpotassemia, necrose cutânea.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Enoxaparina Sódica* (cód. 1184, ATC B01AB).",
+      "citation": "AEMPS CIMA. Enoxaparina — profilaxia/tratamento.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CHEST / ESC. TEV e SCA — doses de HBPM.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulário — enoxaparina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

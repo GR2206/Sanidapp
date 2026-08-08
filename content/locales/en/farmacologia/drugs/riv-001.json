@@ -1,0 +1,50 @@
+{
+  "id": "riv-001",
+  "name": "Rivaroxaban",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-Xa DOAC. Nonvalvular AF: **20 mg PO/day** with food (**15 mg** if CrCl 15–49). DVT/PE: **15 mg q12h × 21 days** → **20 mg/day**. Ortho prophylaxis: **10 mg/day**. Not for mechanical valves; adjust for renal function.",
+  "indications": "## Indications\n\n- Stroke prevention in nonvalvular AF; DVT/PE treatment/prevention; hip/knee surgery prophylaxis.\n\n## Precautions\n\n- Bleeding; avoid if CrCl <15 (AF) per label; avoid in pregnancy.\n- Interactions with strong CYP3A4/P-gp inhibitors/inducers.\n- 15–20 mg doses: **with food** (absorption).\n- Antidote: andexanet alfa (if available); PCC off-label.\n\n> Not for rheumatic valvular AF / mechanical prosthesis.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 2.5–10–15–20 mg.",
+      "dose": "AF: **20 mg/day** with food (**15 mg/day** if CrCl 15–49). Acute DVT/PE: **15 mg q12h × 21 d** then **20 mg/day**. Extension: sometimes **10 mg/day**. Ortho prophylaxis: **10 mg/day**. ACS (label): **2.5 mg q12h** + aspirin ± clopidogrel — specialist.",
+      "administration": "PO; 15–20 mg with food.",
+      "notes": "Missed BID 15 mg dose: take ASAP to complete 30 mg/day."
+    },
+    "pediatrico": {
+      "presentation": "Suspension/tabs by weight (newer labels).",
+      "dose": "Pediatric VTE: weight/age schemes on label — hematology only.",
+      "administration": "PO.",
+      "notes": "Do not improvise adult doses."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Trials/specialist only.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, anemia, dizziness; rare: SJS, hepatotoxicity.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Rivaroxaban — AF/VTE dosing.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ESC / AHA. AF DOAC dosing.",
+      "url": "https://www.escardio.org/"
+    },
+    {
+      "citation": "CHEST. VTE treatment — rivaroxaban.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

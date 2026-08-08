@@ -1,0 +1,50 @@
+{
+  "id": "ace-001",
+  "name": "Acenocoumarol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Vitamin K antagonist (more used than warfarin in LatAm/Europe). Adult: typical start **2–4 mg PO/day** (elderly **1 mg**); adjust to INR (e.g. **2–3**). Shorter half-life than warfarin — faster swings. Antidote: vitamin K ± PCC.",
+  "indications": "## Indications\n\n- AF, DVT/PE, mechanical valves, other VKA indications per local guideline.\n\n## Precautions\n\n- Same interactions/bleeding as warfarin; frequent INR at start.\n- Pregnancy: teratogenic — alternatives.\n- Do not self-adjust; same daily time.\n\n> Institutional nomograms (do not copy warfarin tables 1:1).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 1–4 mg.",
+      "dose": "Usual start **2–4 mg/day** × 1–2 days (frail **1 mg**), then by INR. Typical maintenance **1–8 mg/day**. Bridge with heparin until therapeutic INR if needed.",
+      "administration": "PO once daily.",
+      "notes": "Counsel on vitamin K diet and INR-altering drugs."
+    },
+    "pediatrico": {
+      "presentation": "Tabs; compounded.",
+      "dose": "Hematology only — no standard ambulatory regimen.",
+      "administration": "PO.",
+      "notes": "Tight INR."
+    },
+    "neonatal": {
+      "presentation": "Exceptional.",
+      "dose": "Specialist only.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, bruising; rare skin necrosis; teratogenicity.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Acenocoumarol.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CHEST. Antithrombotic therapy — VKA context.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "ESC. AF anticoagulation guidelines context.",
+      "url": "https://www.escardio.org/"
+    }
+  ],
+  "translationReviewed": true
+}

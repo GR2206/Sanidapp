@@ -1,0 +1,50 @@
+{
+  "id": "lmp-001",
+  "name": "Levomepromazina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antipsicótico fenotiazínico sedativo (metotrimeprazina). Adulto agitação/psicose: **25–50 mg VO/IM** (até **100–200 mg/dia** divididos). Cuidados paliativos (náuseas/agitação): **6,25–25 mg** a cada 6–8 h. Hipotensão ortostática e sedação marcadas.",
+  "indications": "## Indicações\n\n- Psicose/agitação; náuseas refratárias e sedação em paliativos; coadjuvante da dor (esquemas).\n\n## Precauções\n\n- Hipotensão, sedação, QT, EPS, SNM.\n- Idosos com demência: ↑ mortalidade (alerta de classe).\n- Potencia depressores; anticolinérgico.\n\n> Começar baixo e subir devagar, sobretudo em frágeis.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 25–100 mg; ampolas IM/IV conforme país.",
+      "dose": "Psiquiatria: início **25–50 mg VO/dia** → **100–200 mg/dia** em 2–3 tomadas (máx. conforme bula às vezes **1 g/dia** hospitalar). Paliativos: **6,25–12,5 mg** a cada 6–8 h VO/SC, titular. IM: **25–50 mg**.",
+      "administration": "VO; IM profundo; IV só se bula/hospital autorizar (risco de hipotensão).",
+      "notes": "Monitorar PA no início."
+    },
+    "pediatrico": {
+      "presentation": "Uso restrito.",
+      "dose": "Só psiquiatria/paliativos pediátricos — sem pauta ambulatorial geral.",
+      "administration": "—",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Ampolas: proteger da luz conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nSedação, hipotensão, boca seca, EPS, taquicardia; raro: agranulocitose, SNM.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Levomepromazina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "NICE / cuidados paliativos — levomepromazina.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "FDA. Antipsicóticos — mortalidade na demência.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

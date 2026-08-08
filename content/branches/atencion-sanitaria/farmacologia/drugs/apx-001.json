@@ -1,0 +1,37 @@
+{
+  "id": "apx-001",
+  "name": "Apixabán",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ACOD anti-Xa. FA: **5 mg VO c/12 h** (**2,5 mg c/12 h** si ≥2 de: ≥80 años, ≤60 kg, creatinina ≥1,5 mg/dL). TVP/TEP: **10 mg c/12 h × 7 días** → **5 mg c/12 h**. Profilaxis orto: **2,5 mg c/12 h**. Buen perfil en IRC moderada.",
+  "indications": "## Indicaciones\n\n- FA no valvular; tratamiento/prevención TVP/TEP; profilaxis ortopédica.\n\n## Precauciones\n\n- Hemorragia; no válvulas mecánicas / FA reumática moderada-grave.\n- Interacciones CYP3A4/P-gp (dosis 2,5 mg si inhibidores potentes duales).\n- Antídoto: andexanet (± CCP).\n\n> Criterios de reducción a 2,5 mg en FA — aplicar estrictamente.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–5 mg.",
+      "dose": "FA: **5 mg c/12 h** o **2,5 mg c/12 h** (criterios arriba / ficha). TVP/TEP: **10 mg c/12 h × 7 d** luego **5 mg c/12 h**. Extensión >6 meses: a veces **2,5 mg c/12 h**. Orto: **2,5 mg c/12 h**.",
+      "administration": "VO con o sin alimentos; puede triturarse si ficha lo permite (SNG).",
+      "notes": "Si olvido: tomar si falta >6 h para la siguiente (esquema bid)."
+    },
+    "pediatrico": {
+      "presentation": "Datos limitados / ensayos.",
+      "dose": "Solo hematología pediátrica según protocolo.",
+      "administration": "—",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "No indicado de rutina.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia, hematoma, náuseas; raro: reacción de hipersensibilidad.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Apixabán — criterios de dosis.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ARISTOTLE / ESC AF DOAC guidance.", "url": "https://www.escardio.org/" },
+    { "citation": "CHEST. VTE — apixaban regimens.", "url": "https://www.chestnet.org/" },
+    { "citation": "ANMAT. Prospectos apixabán.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

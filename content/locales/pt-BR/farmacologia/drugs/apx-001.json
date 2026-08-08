@@ -1,0 +1,50 @@
+{
+  "id": "apx-001",
+  "name": "Apixabana",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "DOAC anti-Xa. FA: **5 mg VO a cada 12 h** (**2,5 mg a cada 12 h** se ≥2 de: ≥80 anos, ≤60 kg, creatinina ≥1,5 mg/dL). TVP/TEP: **10 mg a cada 12 h × 7 dias** → **5 mg a cada 12 h**. Profilaxia orto: **2,5 mg a cada 12 h**. Bom perfil na IRC moderada.",
+  "indications": "## Indicações\n\n- FA não valvar; tratamento/prevenção TVP/TEP; profilaxia ortopédica.\n\n## Precauções\n\n- Hemorragia; não válvulas mecânicas / FA reumática moderada–grave.\n- Interações CYP3A4/P-gp (dose 2,5 mg se inibidores potentes duais).\n- Antídoto: andexanet (± CCP).\n\n> Critérios de redução para 2,5 mg na FA — aplicar estritamente.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–5 mg.",
+      "dose": "FA: **5 mg a cada 12 h** ou **2,5 mg a cada 12 h** (critérios acima/bula). TVP/TEP: **10 mg a cada 12 h × 7 d** depois **5 mg a cada 12 h**. Extensão >6 meses: às vezes **2,5 mg a cada 12 h**. Orto: **2,5 mg a cada 12 h**.",
+      "administration": "VO com ou sem alimentos; pode triturar se a bula permitir (SNG).",
+      "notes": "Se esquecer: tomar se faltar >6 h para a seguinte (esquema bid)."
+    },
+    "pediatrico": {
+      "presentation": "Dados limitados / ensaios.",
+      "dose": "Só hematologia pediátrica conforme protocolo.",
+      "administration": "—",
+      "notes": "—"
+    },
+    "neonatal": {
+      "presentation": "Não indicado de rotina.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHemorragia, hematoma, náuseas; raro: hipersensibilidade.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Apixabana — critérios de dose.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ARISTOTLE / ESC orientação DOAC na FA.",
+      "url": "https://www.escardio.org/"
+    },
+    {
+      "citation": "CHEST. TEV — esquemas de apixabana.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

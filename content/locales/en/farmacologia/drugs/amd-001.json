@@ -2,55 +2,49 @@
   "id": "amd-001",
   "name": "Amiodarone",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Ventricular arrhythmias.",
-  "indications": "## Main indications\n\nVentricular arrhythmias.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Class III antiarrhythmic (mixed effects). Arrest/VT: **300 mg IV** bolus → **150 mg**. Stable VT: **150 mg over 10 min** then **1 mg/min × 6 h** → **0.5 mg/min**. Chronic PO: load **400–800 mg/day** for weeks → maintenance **100–200 mg/day**. Thyroid/lung/liver toxicity.",
+  "indications": "## Indications\n\n- Life-threatening ventricular arrhythmias; AF (rhythm control) when other options fail.\n- Cardiac arrest (refractory VT/VF) per ACLS.\n\n## Precautions\n\n- Very long half-life; interactions (warfarin, digoxin, simvastatin — reduce doses).\n- Monitor TSH, LFTs, chest X-ray, eyes in chronic use.\n- Bradycardia, QT, IV hypotension.\n\n> IV: preferably dilute in D5W; pump concentrations per protocol.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule 150 mg/3 mL.",
-      "dose": "Cardiac arrest: 300 mg IV bolus, then 150 mg. Stable VT: 150 mg over 10 min, infusion 1 mg/min x 6 h.",
-      "infusionRate": "Bolus over 10 min; then infusion.",
-      "administration": "IV in 5% dextrose (precipitates in NaCl)."
+      "presentation": "Ampoule 150–300 mg; tabs 100–200 mg.",
+      "dose": "Arrest: **300 mg IV** (diluted) → **150 mg** if persists. Pulse VT: **150 mg IV over 10 min**; infusion **1 mg/min × 6 h** then **0.5 mg/min**. PO: load **400–800 mg/day** (up to 1.2 g) × 1–3 weeks → **100–200 mg/day**.",
+      "administration": "IV in D5W; PO with food if intolerant. Central line preferred at high concentrations.",
+      "notes": "Filter/compatibility per chart."
     },
     "pediatrico": {
-      "presentation": "Tablets: 200 mg; 3 mL ampoules: 50 mg/mL; Suspension (compounded): 5 mg/mL",
-      "administration": "PO; IV",
-      "diluent": "5% dextrose.",
-      "finalConcentration": "< 3 mg/mL via peripheral line; up to 6 mg/mL via central venous catheter.",
-      "infusionRate": "Loading dose over 10 min with continuous infusion pump. Then drip over 12 to 24 h.",
-      "dose": "IV: Loading: 5 mg/kg by drip over 15 minutes; then 5 mg/kg/day by continuous infusion. PO: Maintenance: 10 mg/kg/day (maximum: 200 mg/dose) every 12–24 h during the first week, then continue at 5 mg/kg/day. Adults: PO: loading dose: 800–1600 mg/day every 12–24 h for 1–3 weeks, then 600–800 mg/day, maintenance: 200–400 mg/day. Reduce dose in hepatic insufficiency.",
-      "compatibility": "Incompatible with aminophylline, ceftazidime, heparin, sodium bicarbonate.",
-      "notes": "Specialist-only indication. IV: dilute in 5% dextrose, use rigid bag or glass for infusions longer than 2 h. For concentrations greater than 2 mg/mL and/or infusions longer than 1 hour, use central line. Concentrations < 0,6 mg/mL are unstable. Incompatible with bicarbonate. PO: administer with food. Interacts with: digoxin (amiodarone increases digoxin concentration, reduce digoxin dose by approximately 50% and monitor digoxin levels), beta-blockers and calcium channel blockers (increases risk of bradycardia), phenytoin (increases serum phenytoin concentration and decreases amiodarone concentration). Avoid sun exposure. Highly effective but requires serial monitoring due to adverse effects. See preliminary guide for prevention of medication-related teratogenesis."
+      "presentation": "Ampoule; compounded suspension.",
+      "dose": "Arrest: **5 mg/kg IV** (max 300) → repeat **5 mg/kg**. Infusion: **5–15 µg/kg/min**. PO: load/maintenance by cardiology (~**5–10 mg/kg/day** load).",
+      "administration": "IV/PO.",
+      "notes": "Cardiology/ICU only."
     },
     "neonatal": {
-      "dose": "5 mg/kg bolus; infusion per NICU protocol.",
-      "administration": "IV."
+      "presentation": "NICU protocol.",
+      "dose": "Arrhythmias — neonatology/cardiology only.",
+      "administration": "IV.",
+      "notes": "—"
     }
   },
-  "stability": "## Pediatric guide\n\n- Discard remainder once opened.\n\n## General\n\n- Protect from light; use dedicated line if possible.",
-  "adverseEffects": "## Adverse effects\n\nPulmonary infiltrates, pulmonary fibrosis, asymptomatic corneal microdeposits (monitor with slit lamp every 6 months), cutaneous photosensitivity, hypo- and hyperthyroidism, polyneuropathies. Prolonged QT. See alert.",
+  "stability": "## Stability\n\n- Infusion: protect from light; limited PVC stability — preferred sets.",
+  "adverseEffects": "## Adverse effects\n\nIV hypotension, bradycardia; chronic: hypo/hyperthyroidism, pulmonary fibrosis, ↑ enzymes, corneal deposits, photosensitivity, blue-gray skin.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Amiodarona Clorhidrato* (code 0014, ATC C01BD).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AHA. ACLS — amiodarone in cardiac arrest.",
+      "url": "https://cpr.heart.org/"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Amiodarone PO/IV.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "ESC. Ventricular arrhythmias / AF rhythm control.",
+      "url": "https://www.escardio.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }
