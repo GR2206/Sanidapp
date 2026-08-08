@@ -2,43 +2,58 @@
   "id": "trm-001",
   "name": "Tramadol",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Analgésico.",
-  "indications": "## Indicaciones principales\n\nAnalgésico.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Analgésico opioide débil (agonista µ + inhibición de recaptación de serotonina/noradrenalina). Dolor moderado-severo. Pediatría: uso restringido a niños mayores/adolescentes; 1–2 mg/kg/dosis cada 6–8 h (máx. usual 400 mg/día en adultos).",
+  "indications": "## Indicaciones\n\n- Dolor moderado a severo agudo o crónico cuando analgésicos no opioides son insuficientes.\n\n## Precauciones\n\n- Riesgo de depresión respiratoria, convulsiones, síndrome serotoninérgico (ISRS/IRSN/IMAO).\n- Evitar en < 12 años salvo criterio especializado; contraindicado en muchos marcos regulatorios tras amigdalectomía/adenoidectomía en niños.\n- Ajustar en insuficiencia hepática/renal.\n- Interacciones: carbamazepina (disminuye efecto), tricíclicos y serotoninérgicos (aumentan riesgo).\n\n> Verificar gotas: la equivalencia gotas–mg varía por marca (20–40 gotas/mL según producto).",
   "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas/comprimidos 50 mg; liberación prolongada 50–200 mg; gotas (concentración según marca); ampollas 50 mg/mL.",
+      "dose": "VO/IV: **50–100 mg cada 4–6 h**. Máximo habitual **400 mg/día**. Liberación controlada: cada 12 h con la misma dosis diaria total.",
+      "administration": "VO con agua. IV: diluir e infundir (p. ej. en 15–20 min); no bolo rápido.",
+      "diluent": "NaCl 0,9% o dextrosa 5%.",
+      "finalConcentration": "Hasta ~25 mg/mL según cartilla.",
+      "infusionRate": "Infusión corta ~15–20 min.",
+      "notes": "Titular a la mínima dosis eficaz. Vigilar sedación, náuseas y riesgo de dependencia."
+    },
     "pediatrico": {
-      "presentation": "Calmador(R) cápulas: 50 mg, gotas: 1 ml=20 gotas=50 mg, ampollas de 1 ml: 50 mg/ml; Lixidol&reg;: comprimidos 50 mg, gotas: 1 ml=24 gotas=100 mg; Nobligán(R) cápsulas: 50 mg, gotas: 1 ml=40 gotas=100 mg, ampollas de 2 ml: 50 mg/ml",
-      "administration": "V.O.; E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
+      "presentation": "Cápsulas 50 mg; gotas (verificar mg/mL de la marca); ampollas 50 mg/mL.",
+      "dose": "**1–2 mg/kg/dosis cada 6–8 h**. Rango diario orientativo **3–6 mg/kg/día**. No superar el techo de adulto (**400 mg/día**) en adolescentes. Preferir ≥ 12 años / peso adecuado según política local.",
+      "administration": "VO; IV diluido en infusión corta.",
+      "diluent": "NaCl 0,9% o dextrosa 5%.",
       "finalConcentration": "25 mg/mL.",
-      "infusionRate": "20 min. con BIC.",
-      "dose": "1-2 mg/kg/dosis cada 8 hs, dosis máxima: 3 - 6 mg/kg/día. Adultos: 50-100 mg cada 4-6 hs, dosis máxima: 400 mg/día. Al pasar a cápsulas de liberación controlada dar cada 12 hs. Ajustar la dosis en insuficiencia hepática.",
-      "notes": "Droga en evaluación en pediatría, utilizar en niños mayores y adolescentes. Interacciona con carbamacepina y antidepresivos tricíclicos.Ver alerta"
+      "infusionRate": "~20 min con bomba/infusión controlada.",
+      "notes": "Droga de uso restringido en pediatría. Confirmar equivalencia de gotas de la marca disponible. Ajustar en insuficiencia hepática."
+    },
+    "neonatal": {
+      "presentation": "No indicado de rutina.",
+      "dose": "No usar en neonatos como analgésico habitual.",
+      "administration": "No aplica.",
+      "notes": "Elegir analgésicos del protocolo NNU (p. ej. paracetamol, opioides específicos)."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nVer apartado analgésicos opiáceos.",
+  "stability": "## Estabilidad\n\n- Ampollas: uso inmediato tras apertura.\n- Diluciones IV: preparar al momento.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, mareos, sedación, sequedad bucal, sudoración, constipación, prurito, convulsiones (dosis altas o predisposición), depresión respiratoria, dependencia, síndrome serotoninérgico.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — TraMADol Clorhidrato * (cód. 0477, ATC N02AX).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Tramadol (cód. 0477, ATC N02AX).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "FDA. Restricted use of codeine and tramadol medicines in children — safety communication.",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability"
     },
     {
       "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "EMA. Tramadol-containing medicines — product information and pediatric restrictions where applicable.",
+      "url": "https://www.ema.europa.eu/"
     },
     {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "World Health Organization. Guidelines on the management of chronic pain in children.",
+      "url": "https://www.who.int/"
     }
   ]
 }

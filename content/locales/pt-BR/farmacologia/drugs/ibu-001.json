@@ -1,0 +1,54 @@
+{
+  "id": "ibu-001",
+  "name": "Ibuprofeno",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "AINE com efeito analgésico, antipirético e anti-inflamatório. Primeira linha com paracetamol para febre e dor leve-moderada; dose pediátrica em mg/kg com máximo diário definido.",
+  "indications": "## Indicações\n\n- Tratamento sintomático da **febre**.\n- Dor leve a moderada (cefaleia, odontalgia, mialgias, odinofagia, dismenorreia).\n- Processos inflamatórios musculoesqueléticos (incluindo artrite reumatoide juvenil conforme esquema específico).\n\n## Precauções e contraindicações\n\n- Evitar em úlcera péptica ativa, hemorragia digestiva, insuficiência renal/hepática grave, terceiro trimestre da gestação e alergia a AINE/AAS (risco de broncoespasmo).\n- Usar a menor dose eficaz pelo menor tempo possível.\n- Pode mascarar sinais de infecção; reavaliar se febre/dor persistirem > 3 dias.\n- Cautela na varicela (riscos cutâneos/infecciosos descritos com AINE).\n\n> Calcular a dose pelo **peso atual**. Confirmar a concentração (mg/mL) antes de medir o volume.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos/cápsulas 200–400–600 mg; suspensão oral 20–40 mg/mL conforme a marca.",
+      "dose": "Febre/dor: 200–400 mg VO a cada 6–8 h. Máximo habitual de curta duração: 1200 mg/dia. Artrite/inflamação sob supervisão: até 1200–3200 mg/dia em 3–4 tomadas conforme bula e indicação médica.",
+      "administration": "VO com alimentos se houver intolerância gástrica. Não mastigar comprimidos de liberação modificada.",
+      "notes": "Não associar a outro AINE. Avaliar interação com anticoagulantes, antiagregantes, lítio, metotrexato e IECA/BRA (função renal)."
+    },
+    "pediatrico": {
+      "presentation": "Suspensão oral 2% (20 mg/mL) ou 4% (40 mg/mL); comprimidos pediátricos conforme a marca.",
+      "dose": "Febre/dor: **5–10 mg/kg/dose VO a cada 6–8 h** (habitual 7,5–10 mg/kg/dose). **Máximo diário: 30 mg/kg/dia** (em geral ≤ 3–4 tomadas/dia). Exemplo alinhado a bulas ANMAT (suspensão 40 mg/mL): 5 mg/kg/dose se T axilar < 39 °C; 10 mg/kg/dose se T ≥ 39 °C; a cada 6–8 h, ≤ 3 tomadas/dia naquela ficha. Dor inflamatória/ARJ: **20–40 mg/kg/dia** divididos a cada 6–8 h (máx. 40 mg/kg/dia) sob indicação especializada.",
+      "administration": "VO. Preferir seringa oral calibrada. Administrar com alimentos se desconforto gástrico. Não usar colheres domésticas.",
+      "notes": "Calcular sempre pelo peso. Verificar a concentração do frasco (20 vs 40 mg/mL) antes de medir mL. Evitar < 3 meses salvo indicação específica do produto. Não associar rotineiramente a outro AINE."
+    },
+    "neonatal": {
+      "presentation": "Uso neonatal não rotineiro para febre/dor; esquemas IV para PCA são protocolos distintos de neonatologia.",
+      "dose": "Não utilizar como antipirético/analgésico de rotina em neonatos sem indicação institucional explícita.",
+      "administration": "Somente sob ordem especializada.",
+      "notes": "Ibuprofeno IV para canal arterial não equivale ao esquema oral de febre/dor acima."
+    }
+  },
+  "stability": "## Estabilidade / conservação\n\n- Suspensão: conservar conforme bula (em geral temperatura ambiente, bem fechada; agitar antes de usar).\n- Descartar conforme prazo após abertura indicado pelo fabricante.",
+  "adverseEffects": "## Efeitos adversos\n\nDispepsia, náuseas, dor abdominal, pirose; menos frequentes: úlcera/hemorragia digestiva, erupção, broncoespasmo, retenção hídrica, elevação de transaminases, insuficiência renal aguda (especialmente com desidratação). Reações de hipersensibilidade.",
+  "bibliography": [
+    {
+      "citation": "ANMAT / bula Actron Pediátrico (ibuprofeno suspensão). Posologia pediátrica em mg/kg conforme temperatura e peso.",
+      "url": "https://prospectos.bayer.com/prospectos/actron-pediatrico-2-argentina"
+    },
+    {
+      "citation": "AEMPS CIMA. Ficha técnica Nurofen pediátrico 20 mg/mL suspensão oral — 20–30 mg/kg/dia em 3–4 tomadas.",
+      "url": "https://cima.aemps.es/cima/pdfs/es/ft/82998/82998_ft.pdf"
+    },
+    {
+      "citation": "AEMPS CIMA. Ibuprofeno pediátrico IV — 5–10 mg/kg/dose, máximo 30 mg/kg/dia (referência de teto pediátrico).",
+      "url": "https://cima.aemps.es/cima/dochtml/p/85161/P_85161.html"
+    },
+    {
+      "citation": "ANMAT. Informação de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (AINE / analgésicos).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ]
+}

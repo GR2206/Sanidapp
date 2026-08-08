@@ -3,8 +3,8 @@
   "name": "Amoxicillin",
   "branch": "atencion-sanitaria",
   "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
+  "updatedAt": "2026-08-07",
+  "translationReviewed": false,
   "executiveSummary": "Beta-lactam antibiotic used in the treatment of lower respiratory tract infections, otitis media, sinusitis, skin and soft tissues. Urinary tract infections caused by beta-lactamase–producing microorganisms.",
   "indications": "## Main indications\n\nBeta-lactam antibiotic used in the treatment of lower respiratory tract infections, otitis media, sinusitis, skin and soft tissues. Urinary tract infections caused by beta-lactamase–producing microorganisms.\n\n> Adjust according to institutional protocol and medical prescription.",
   "dilution": {

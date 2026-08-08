@@ -92,6 +92,7 @@ import hdc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import hdr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hdr-001.json';
 import hef_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hef-001.json';
 import hio_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/hio-001.json';
+import ibu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ibu-001.json';
 import imp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/imp-001.json';
 import imu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/imu-001.json';
 import inp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/inp-001.json';
@@ -139,6 +140,7 @@ import ond_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import ose_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ose-001.json';
 import oxa_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/oxa-001.json';
 import pan_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pan-001.json';
+import pct_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pct-001.json';
 import pen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pen-001.json';
 import pen_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pen-002.json';
 import phb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/phb-001.json';
@@ -283,6 +285,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'hdr-001': hdr_001 as Drug,
   'hef-001': hef_001 as Drug,
   'hio-001': hio_001 as Drug,
+  'ibu-001': ibu_001 as Drug,
   'imp-001': imp_001 as Drug,
   'imu-001': imu_001 as Drug,
   'inp-001': inp_001 as Drug,
@@ -330,6 +333,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'ose-001': ose_001 as Drug,
   'oxa-001': oxa_001 as Drug,
   'pan-001': pan_001 as Drug,
+  'pct-001': pct_001 as Drug,
   'pen-001': pen_001 as Drug,
   'pen-002': pen_002 as Drug,
   'phb-001': phb_001 as Drug,

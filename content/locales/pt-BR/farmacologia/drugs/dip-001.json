@@ -2,7 +2,7 @@
   "id": "dip-001",
   "name": "Dipirona",
   "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "updatedAt": "2026-08-07",
   "executiveSummary": "Analgésico, antipirético. Dor aguda devido a trauma ou cirurgia. Dor cólica. Dor por câncer ou outra dor aguda grave ou crônica em casos refratários a outros analgésicos. Hiperpirexia resistente a outras drogas.",
   "indications": "## Indicações principais\n\nAnalgésico, antipirético. Dor aguda devido a trauma ou cirurgia. Dor cólica. Dor por câncer ou outra dor aguda grave ou crônica em casos refratários a outros analgésicos. Hiperpirexia resistente a outras drogas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
   "dilution": {
@@ -41,5 +41,5 @@
     }
   ],
   "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  "translationReviewed": false
 }

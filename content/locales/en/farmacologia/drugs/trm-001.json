@@ -3,8 +3,8 @@
   "name": "Tramadol",
   "branch": "atencion-sanitaria",
   "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
+  "updatedAt": "2026-08-07",
+  "translationReviewed": false,
   "executiveSummary": "Analgesic.",
   "indications": "## Main indications\n\nAnalgesic.\n\n> Adjust according to institutional protocol and medical prescription.",
   "dilution": {

@@ -86,6 +86,14 @@
       "version": "1.0"
     },
     {
+      "id": "med-vo-p001",
+      "title": "Administración segura de medicación vía oral pediátrica",
+      "category": "pediatrico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0",
+      "updatedAt": "2026-08-07"
+    },
+    {
       "id": "dip-p001",
       "title": "Colocación de catéter de diálisis peritoneal pediátrico",
       "category": "pediatrico",

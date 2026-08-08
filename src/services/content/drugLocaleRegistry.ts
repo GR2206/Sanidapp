@@ -93,6 +93,7 @@ import hdc_001_en from '../../../content/locales/en/farmacologia/drugs/hdc-001.j
 import hdr_001_en from '../../../content/locales/en/farmacologia/drugs/hdr-001.json';
 import hef_001_en from '../../../content/locales/en/farmacologia/drugs/hef-001.json';
 import hio_001_en from '../../../content/locales/en/farmacologia/drugs/hio-001.json';
+import ibu_001_en from '../../../content/locales/en/farmacologia/drugs/ibu-001.json';
 import imp_001_en from '../../../content/locales/en/farmacologia/drugs/imp-001.json';
 import imu_001_en from '../../../content/locales/en/farmacologia/drugs/imu-001.json';
 import inp_001_en from '../../../content/locales/en/farmacologia/drugs/inp-001.json';
@@ -140,6 +141,7 @@ import ond_001_en from '../../../content/locales/en/farmacologia/drugs/ond-001.j
 import ose_001_en from '../../../content/locales/en/farmacologia/drugs/ose-001.json';
 import oxa_001_en from '../../../content/locales/en/farmacologia/drugs/oxa-001.json';
 import pan_001_en from '../../../content/locales/en/farmacologia/drugs/pan-001.json';
+import pct_001_en from '../../../content/locales/en/farmacologia/drugs/pct-001.json';
 import pen_001_en from '../../../content/locales/en/farmacologia/drugs/pen-001.json';
 import pen_002_en from '../../../content/locales/en/farmacologia/drugs/pen-002.json';
 import phb_001_en from '../../../content/locales/en/farmacologia/drugs/phb-001.json';
@@ -278,6 +280,7 @@ import hdc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hdc-
 import hdr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hdr-001.json';
 import hef_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hef-001.json';
 import hio_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/hio-001.json';
+import ibu_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ibu-001.json';
 import imp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/imp-001.json';
 import imu_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/imu-001.json';
 import inp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/inp-001.json';
@@ -325,6 +328,7 @@ import ond_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ond-
 import ose_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ose-001.json';
 import oxa_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/oxa-001.json';
 import pan_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pan-001.json';
+import pct_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pct-001.json';
 import pen_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pen-001.json';
 import pen_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pen-002.json';
 import phb_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/phb-001.json';
@@ -467,6 +471,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'hdr-001': hdr_001_en as Drug,
     'hef-001': hef_001_en as Drug,
     'hio-001': hio_001_en as Drug,
+    'ibu-001': ibu_001_en as Drug,
     'imp-001': imp_001_en as Drug,
     'imu-001': imu_001_en as Drug,
     'inp-001': inp_001_en as Drug,
@@ -514,6 +519,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'ose-001': ose_001_en as Drug,
     'oxa-001': oxa_001_en as Drug,
     'pan-001': pan_001_en as Drug,
+    'pct-001': pct_001_en as Drug,
     'pen-001': pen_001_en as Drug,
     'pen-002': pen_002_en as Drug,
     'phb-001': phb_001_en as Drug,
@@ -654,6 +660,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'hdr-001': hdr_001_ptBR as Drug,
     'hef-001': hef_001_ptBR as Drug,
     'hio-001': hio_001_ptBR as Drug,
+    'ibu-001': ibu_001_ptBR as Drug,
     'imp-001': imp_001_ptBR as Drug,
     'imu-001': imu_001_ptBR as Drug,
     'inp-001': inp_001_ptBR as Drug,
@@ -701,6 +708,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'ose-001': ose_001_ptBR as Drug,
     'oxa-001': oxa_001_ptBR as Drug,
     'pan-001': pan_001_ptBR as Drug,
+    'pct-001': pct_001_ptBR as Drug,
     'pen-001': pen_001_ptBR as Drug,
     'pen-002': pen_002_ptBR as Drug,
     'phb-001': phb_001_ptBR as Drug,

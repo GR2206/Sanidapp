@@ -16,6 +16,7 @@ import hig_001_en from '../../../content/locales/en/categories/adulto/protocols/
 import med_001_en from '../../../content/locales/en/categories/adulto/protocols/med-001.json';
 import med_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/med-p001.json';
 import med_vo_001_en from '../../../content/locales/en/categories/adulto/protocols/med-vo-001.json';
+import med_vo_p001_en from '../../../content/locales/en/categories/pediatrico/protocols/med-vo-p001.json';
 import nac_001_en from '../../../content/locales/en/categories/adulto/protocols/nac-001.json';
 import nav_001_en from '../../../content/locales/en/categories/adulto/protocols/nav-001.json';
 import neo_b_001_en from '../../../content/locales/en/categories/neonatologia/protocols/neo-b-001.json';
@@ -70,6 +71,7 @@ import hig_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/proto
 import med_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/med-001.json';
 import med_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/med-p001.json';
 import med_vo_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/med-vo-001.json';
+import med_vo_p001_ptBR from '../../../content/locales/pt-BR/categories/pediatrico/protocols/med-vo-p001.json';
 import nac_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/nac-001.json';
 import nav_001_ptBR from '../../../content/locales/pt-BR/categories/adulto/protocols/nav-001.json';
 import neo_b_001_ptBR from '../../../content/locales/pt-BR/categories/neonatologia/protocols/neo-b-001.json';
@@ -128,6 +130,7 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'med-001': med_001_en as Protocol,
     'med-p001': med_p001_en as Protocol,
     'med-vo-001': med_vo_001_en as Protocol,
+    'med-vo-p001': med_vo_p001_en as Protocol,
     'nac-001': nac_001_en as Protocol,
     'nav-001': nav_001_en as Protocol,
     'neo-b-001': neo_b_001_en as Protocol,
@@ -184,6 +187,7 @@ export const LOCAL_PROTOCOL_LOCALES: Record<string, Record<string, Protocol>> = 
     'med-001': med_001_ptBR as Protocol,
     'med-p001': med_p001_ptBR as Protocol,
     'med-vo-001': med_vo_001_ptBR as Protocol,
+    'med-vo-p001': med_vo_p001_ptBR as Protocol,
     'nac-001': nac_001_ptBR as Protocol,
     'nav-001': nav_001_ptBR as Protocol,
     'neo-b-001': neo_b_001_ptBR as Protocol,

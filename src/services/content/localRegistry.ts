@@ -39,6 +39,7 @@ import broP001 from '../../../content/branches/atencion-sanitaria/categories/ped
 import dolP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/dol-p001.json';
 import rehP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/reh-p001.json';
 import medP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/med-p001.json';
+import medVoP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/med-vo-p001.json';
 import dipP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/dip-p001.json';
 import dppP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/dpp-p001.json';
 import sngP001 from '../../../content/branches/atencion-sanitaria/categories/pediatrico/protocols/sng-p001.json';
@@ -107,6 +108,7 @@ export const LOCAL_PROTOCOLS: Record<string, Protocol> = {
   'dol-p001': dolP001 as Protocol,
   'reh-p001': rehP001 as Protocol,
   'med-p001': medP001 as Protocol,
+  'med-vo-p001': medVoP001 as Protocol,
   'dip-p001': dipP001 as Protocol,
   'dpp-p001': dppP001 as Protocol,
   'sng-p001': sngP001 as Protocol,

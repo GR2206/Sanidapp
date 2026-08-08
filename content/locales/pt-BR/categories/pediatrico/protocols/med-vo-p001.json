@@ -1,0 +1,32 @@
+{
+  "id": "med-vo-p001",
+  "title": "Administração segura de medicação por via oral pediátrica",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Administrar medicação oral em pediatria com dupla verificação da dose por peso atual, avaliação de deglutição/aspiração, formas farmacêuticas pediátricas e educação à família, conforme padrões de segurança do medicamento.",
+  "body": "## Passos a realizar\n\n1. Realizar higiene das mãos e preparar a medicação em área limpa, sem interrupções.\n2. Verificar os **nove certos** e o **peso atual** da criança (recalcular se o peso mudou desde a última dose).\n3. Realizar **dupla checagem independente** da dose em mg/kg (ou mg/m² quando indicado) antes de fármacos de alto risco ou cálculos complexos.\n4. Confirmar alergias, indicação, NPO, via (VO vs sonda) e horários especiais (jejum, com alimentos).\n5. Identificar o paciente com **dois identificadores**; explicar à família (e à criança conforme a idade) o que será administrado.\n6. Avaliar deglutição e risco de aspiração: idade, nível de consciência, vômitos, desconforto respiratório. Não forçar; escalar se a via oral não for segura.\n7. Escolher a forma adequada: suspensão/gotas com seringa oral dosadora (nunca seringa de injeção com agulha); comprimidos mastigáveis ou trituráveis somente se permitido. **Não triturar** liberação prolongada, revestimento entérico nem citotóxicos orais.\n8. Administrar em posição semissentada; confirmar deglutição; oferecer água/leite conforme instrução do fármaco (salvo restrição).\n9. Se houver sonda enteral: confirmar posição, preferir líquidos, irrigar antes/depois e não misturar fármacos incompatíveis na mesma seringa.\n10. Documentar o peso usado no cálculo, dose, via, horário, tolerância e educação familiar; notificar omissões, recusas e erros.\n\n## Fundamentação científica\n\n### Objetivo\n\nReduzir erros de dose ponderal (principal causa de erro em pediatria), aspiração e perda de eficácia por manipulação incorreta de formas farmacêuticas.\n\n### Os nove certos (adaptação pediátrica VO)\n\n1. Paciente certo (dois identificadores).\n2. Medicamento certo.\n3. **Dose certa conforme o peso atual**.\n4. Via certa (VO / sonda / sublingual).\n5. Horário certo.\n6. Registro certo (incluir peso e mg/kg).\n7. Razão certa.\n8. Resposta certa (febre, dor, sedação, toxicidade).\n9. Forma certa (suspensão, gotas; não alterar liberação modificada).\n\n### Precauções pediátricas\n\n| Situação | Ação |\n| --- | --- |\n| Cálculo mg/kg | Usar o peso do dia; verificar máximos diários |\n| Líquidos orais | Seringa oral calibrada; nunca colheres domésticas |\n| Lactentes | Avaliar aspiração; fracionar volumes se necessário |\n| Polifarmácia antipirética | Evitar duplicar paracetamol em outros produtos |\n| Alto risco | Dupla checagem (opioides, anticoagulação, quimioterapia oral, hipoglicemiantes) |\n| Família | Educar intervalo mínimo entre doses e sinais de overdose |\n\n### Evidência e recomendações\n\n> **OMS — Medication Without Harm:** a pediatria exige verificação reforçada pelo maior risco de erro de dose.\n\n> **ISMP:** erros frequentes com líquidos orais medidos incorretamente e com trituração indevida.\n\n> **AAP / prática pediátrica:** preferir dosagem por peso e dispositivos de medição oral calibrados.\n\n### Critérios de aviso imediato\n\n- Engasgo ou suspeita de aspiração.\n- Reação alérgica / anafilaxia.\n- Vômito imediato de dose crítica.\n- Dose calculada que ultrapassa o máximo diário da bula.\n- Erro de medicação detectado.\n\n### Complicações\n\n- Overdose hepática (paracetamol) ou outras toxicidades por erro de cálculo.\n- Aspiração.\n- Ineficácia por subdose ou interação com alimentos.\n- Toxicidade por duplicação de princípios ativos em produtos combinados.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines and self-assessments for medication safety — oral liquid measurement.",
+      "url": "https://www.ismp.org/resources"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Metric units and the preferred dosing of oral liquid medications.",
+      "url": "https://publications.aap.org/pediatrics"
+    },
+    {
+      "citation": "Joint Commission International. National Patient Safety Goals — medication administration.",
+      "url": "https://www.jointcommission.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

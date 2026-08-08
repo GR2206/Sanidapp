@@ -2,7 +2,7 @@
   "id": "trm-001",
   "name": "Tramadol",
   "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "updatedAt": "2026-08-07",
   "executiveSummary": "Analgésico.",
   "indications": "## Indicações principais\n\nAnalgésico.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
   "dilution": {
@@ -41,5 +41,5 @@
     }
   ],
   "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  "translationReviewed": false
 }

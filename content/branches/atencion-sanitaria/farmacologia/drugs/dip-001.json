@@ -2,43 +2,58 @@
   "id": "dip-001",
   "name": "Dipirona",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Analgésico, antipirético. Dolor agudo debido a trauma o cirugía. Dolor cólico. Dolor por cáncer u otro dolor agudo severo o crónico en casos refractarios a otros analgésicos. Hiperpirexia resistente a otras drogas.",
-  "indications": "## Indicaciones principales\n\nAnalgésico, antipirético. Dolor agudo debido a trauma o cirugía. Dolor cólico. Dolor por cáncer u otro dolor agudo severo o crónico en casos refractarios a otros analgésicos. Hiperpirexia resistente a otras drogas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Analgésico y antipirético (pirazolona). En pediatría suele reservarse como 3.ª línea tras paracetamol e ibuprofeno. Dosis habitual: 10–15 mg/kg/dosis cada 6–8 h VO/IV.",
+  "indications": "## Indicaciones\n\n- Dolor agudo (traumático, postoperatorio, cólico) cuando otros analgésicos no bastan o no están disponibles.\n- Fiebre / hiperpirexia refractaria a primera línea.\n- Dolor oncológico u otro dolor severo refractario, según criterio médico.\n\n## Precauciones y contraindicaciones\n\n- Riesgo de **agranulocitosis** y otras discrasias sanguíneas (infrecuente pero grave).\n- Contraindicaciones: alergia a pirazolonas, porfiria, insuficiencia medular, trastornos hemorrágicos graves.\n- Precaución < 6 meses, hepatopatía, uso con heparina (sangrado).\n- Preferir paracetamol e ibuprofeno como 1.ª/2.ª línea en pediatría cuando estén disponibles.\n\n> Calcular por peso. Confirmar concentración de ampolla/suspensión antes de diluir o medir.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 500 mg; ampollas 500 mg/mL (2 mL); gotas/suspensión según marca.",
+      "dose": "VO/IV: **0,5–1 g/dosis cada 6–8 h**. Máximo habitual **4 g/día** (no superar sin indicación explícita).",
+      "administration": "VO con agua. IV: diluir y administrar lento (riesgo de hipotensión en bolo rápido); preferir infusión corta.",
+      "diluent": "NaCl 0,9% o dextrosa 5%.",
+      "finalConcentration": "Habitual hasta 100 mg/mL según cartilla local.",
+      "infusionRate": "Bolo lento ≥ 1–2 min o infusión corta; evitar IV push rápido.",
+      "notes": "Vigilar presión arterial durante IV. Educar sobre signos de agranulocitosis (fiebre, odinofagia, úlceras orales)."
+    },
     "pediatrico": {
-      "presentation": "Ampollas por 2 ml: 500 mg/ml; Comprimidos: 500 mg; Suspensión: 50 mg/ml",
-      "administration": "V.O.; E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5% y Dext. 10%.",
-      "finalConcentration": "100 mg/mL.",
-      "infusionRate": "Bolo 1 min.",
-      "dose": "10 mg/kg/dosis cada 6 hs. Adultos: 0,5 - 1 g/dosis cada 6 hs.",
-      "notes": "Por V.O. como droga de 3ra línea después de paracetamol e ibuprofeno. Precauciones: &lt; de 6 meses, asociada con heparina hay riesgo de sangrado, pacientes con hepatopatías. Contraindicaciones: porfiria, leucopenia, alergia a pirazolonas, síndrome hemorrágico."
+      "presentation": "Ampollas 500 mg/mL; comprimidos 500 mg; suspensión 50 mg/mL.",
+      "dose": "**10–15 mg/kg/dosis cada 6–8 h** VO o IV (dosis típica de cartilla: **10 mg/kg/dosis cada 6 h**). Máximo por dosis alineado a presentación adulta fraccionada; no superar equivalente de **4 g/día** en adolescentes de peso adulto.",
+      "administration": "VO; IV diluido. Usar jeringa oral calibrada para suspensión.",
+      "diluent": "NaCl 0,9%, dextrosa 5% o 10%.",
+      "finalConcentration": "100 mg/mL para administración IV según cartilla.",
+      "infusionRate": "Bolo lento (~1 min) o infusión corta; monitorizar PA.",
+      "notes": "3.ª línea tras paracetamol e ibuprofeno. Evitar < 6 meses salvo indicación. No asociar rutinariamente a otros mielotóxicos."
+    },
+    "neonatal": {
+      "presentation": "Uso excepcional.",
+      "dose": "No es antipirético de primera línea en neonatos. Si se indica por especialista: esquemas institucionales habituales cercanos a **10 mg/kg/dosis**, con intervalo prolongado y vigilancia hematológica/hemodinámica.",
+      "administration": "Solo bajo protocolo de neonatología.",
+      "notes": "Priorizar paracetamol IV/VO según guía NNU."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nAgranulocitosis, anemia aplástica, reacciones cutáneas severas, hipotensión, broncoespasmo, náuseas, vómitos, mareos, cefalea, diaforesis, anafilaxia.",
+  "stability": "## Estabilidad\n\n- Ampolla abierta: desechar sobrante según política local (habitualmente no guardar multidosis).\n- Diluciones IV: preparar al momento.",
+  "adverseEffects": "## Efectos adversos\n\nHipotensión (sobre todo IV rápida), náuseas, vómitos, mareos, reacciones cutáneas, broncoespasmo, anafilaxia, agranulocitosis, anemia aplásica, nefritis intersticial.",
   "bibliography": [
     {
       "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Dipirona (cód. 0076, ATC N02BB).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina — metamizol/dipirona.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "EMA. Metamizole-containing medicinal products — risk of agranulocytosis (safety information).",
+      "url": "https://www.ema.europa.eu/"
     },
     {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sociedad Argentina de Pediatría / praxis analgésica pediátrica — uso escalonado de antipiréticos.",
+      "url": "https://www.sap.org.ar/"
+    },
+    {
+      "citation": "World Health Organization. Analgesic therapy principles in children.",
+      "url": "https://www.who.int/"
     }
   ]
 }

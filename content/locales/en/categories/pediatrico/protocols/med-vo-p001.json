@@ -1,0 +1,32 @@
+{
+  "id": "med-vo-p001",
+  "title": "Safe pediatric oral medication administration",
+  "category": "pediatrico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Administer oral medication in pediatrics with independent double-checking of weight-based doses, swallow/aspiration assessment, pediatric dosage forms, and caregiver education, according to medication-safety standards.",
+  "body": "## Steps to perform\n\n1. Perform hand hygiene and prepare medications in a clean area without interruptions.\n2. Verify the **nine rights** and the child’s **current weight** (recalculate if weight has changed since the last dose).\n3. Perform an **independent double-check** of the mg/kg dose (or mg/m² when applicable) before high-alert drugs or complex calculations.\n4. Confirm allergies, indication, NPO status, route (oral vs tube), and special timing (fasting, with food).\n5. Identify the patient with **two identifiers**; explain to caregivers (and to the child as age-appropriate) what is being given.\n6. Assess swallowing and aspiration risk: age, consciousness, vomiting, respiratory distress. Do not force; escalate if the oral route is unsafe.\n7. Choose the appropriate form: suspension/drops with an oral dosing syringe (never an injectable syringe with a needle); chewable/crushable tablets only when allowed. **Do not crush** extended-release, enteric-coated, or oral cytotoxic products.\n8. Administer in a semi-upright position; confirm swallowing; offer water/milk per drug instructions (unless restricted).\n9. If an enteral tube is used: confirm position, prefer liquids, flush before/after, and do not mix incompatible drugs in one syringe.\n10. Document the weight used for calculation, dose, route, time, tolerance, and family education; report omissions, refusals, and errors.\n\n## Scientific rationale\n\n### Purpose\n\nReduce weight-based dosing errors (a leading pediatric medication-error cause), aspiration, and loss of efficacy from incorrect alteration of dosage forms.\n\n### The nine rights (pediatric oral adaptation)\n\n1. Right patient (two identifiers).\n2. Right drug.\n3. **Right dose by current weight**.\n4. Right route (oral / tube / sublingual).\n5. Right time.\n6. Right documentation (include weight and mg/kg).\n7. Right reason.\n8. Right response (fever, pain, sedation, toxicity).\n9. Right form (suspension, drops; do not alter modified-release products).\n\n### Pediatric precautions\n\n| Situation | Action |\n| --- | --- |\n| mg/kg calculation | Use today’s weight; verify daily maxima |\n| Oral liquids | Calibrated oral syringe; never household spoons |\n| Infants | Assess aspiration; split volumes if needed |\n| Antipyretic polypharmacy | Avoid duplicating paracetamol in other products |\n| High-alert | Double-check (opioids, anticoagulation, oral chemo, hypoglycemics) |\n| Caregivers | Teach minimum dosing interval and overdose signs |\n\n### Evidence and recommendations\n\n> **WHO — Medication Without Harm:** pediatrics requires reinforced verification because of higher dose-error risk.\n\n> **ISMP:** frequent errors with incorrectly measured oral liquids and improper crushing.\n\n> **AAP / pediatric practice:** prefer weight-based dosing and calibrated oral measuring devices.\n\n### Immediate escalation criteria\n\n- Choking or suspected aspiration.\n- Allergic reaction / anaphylaxis.\n- Immediate vomiting of a critical dose.\n- Calculated dose exceeding the labeled daily maximum.\n- Detected medication error.\n\n### Complications\n\n- Hepatic overdose (paracetamol) or other toxicities from calculation error.\n- Aspiration.\n- Inefficacy from underdosing or food interactions.\n- Toxicity from duplicated active ingredients in combination products.",
+  "bibliography": [
+    {
+      "citation": "World Health Organization. Patient Safety — Medication Without Harm.",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/policy/medication-without-harm"
+    },
+    {
+      "citation": "Institute for Safe Medication Practices (ISMP). Guidelines and self-assessments for medication safety — oral liquid measurement.",
+      "url": "https://www.ismp.org/resources"
+    },
+    {
+      "citation": "American Academy of Pediatrics. Metric units and the preferred dosing of oral liquid medications.",
+      "url": "https://publications.aap.org/pediatrics"
+    },
+    {
+      "citation": "Joint Commission International. National Patient Safety Goals — medication administration.",
+      "url": "https://www.jointcommission.org/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ]
+}

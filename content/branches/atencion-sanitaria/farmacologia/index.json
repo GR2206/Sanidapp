@@ -12,7 +12,7 @@
       "id": "ade-001",
       "name": "Adenosina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -26,7 +26,7 @@
       "id": "alb-001",
       "name": "Albúmina humana",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -61,8 +61,8 @@
       "id": "amo-001",
       "name": "Amoxicilina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "amo-002",
@@ -117,7 +117,7 @@
       "id": "ate-001",
       "name": "Atenolol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -131,7 +131,7 @@
       "id": "atr-001",
       "name": "Atropina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -152,8 +152,8 @@
       "id": "azt-002",
       "name": "Aztreonam-avibactam",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-30"
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
     },
     {
       "id": "bic-001",
@@ -173,7 +173,7 @@
       "id": "ipr-001",
       "name": "Bromuro de ipratropio",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -264,7 +264,7 @@
       "id": "cef-010",
       "name": "Ceftarolina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "updatedAt": "2026-07-10"
     },
     {
@@ -341,7 +341,7 @@
       "id": "clo-001",
       "name": "Clonidina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -453,8 +453,8 @@
       "id": "dip-001",
       "name": "Dipirona",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "dob-001",
@@ -516,14 +516,14 @@
       "id": "esm-001",
       "name": "Esmolol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
       "id": "esp-001",
       "name": "Espironolactona",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -558,7 +558,7 @@
       "id": "fnt-001",
       "name": "Fentanilo",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.4",
       "updatedAt": "2026-07-10"
     },
     {
@@ -586,7 +586,7 @@
       "id": "flm-001",
       "name": "Flumazenil",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -642,7 +642,7 @@
       "id": "glc-001",
       "name": "Glucagón",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -677,7 +677,7 @@
       "id": "hct-001",
       "name": "Hidroclorotiazida",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "updatedAt": "2026-07-10"
     },
     {
@@ -702,6 +702,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "ibu-001",
+      "name": "Ibuprofeno",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-07"
+    },
+    {
       "id": "imp-001",
       "name": "Imipenem+cilastatina",
       "branch": "atencion-sanitaria",
@@ -716,18 +723,18 @@
       "updatedAt": "2026-07-10"
     },
     {
-      "id": "inp-001",
-      "name": "Insulina NPH",
-      "branch": "atencion-sanitaria",
-      "version": "1.1",
-      "updatedAt": "2026-06-30"
-    },
-    {
       "id": "ins-001",
       "name": "Insulina corriente",
       "branch": "atencion-sanitaria",
-      "version": "1.1",
-      "updatedAt": "2026-06-30"
+      "version": "1.2",
+      "updatedAt": "2026-07-11"
+    },
+    {
+      "id": "inp-001",
+      "name": "Insulina NPH",
+      "branch": "atencion-sanitaria",
+      "version": "1.2",
+      "updatedAt": "2026-07-11"
     },
     {
       "id": "isa-001",
@@ -768,7 +775,7 @@
       "id": "lab-001",
       "name": "Labetalol",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -782,14 +789,14 @@
       "id": "lev-001",
       "name": "Levofloxacino",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-25"
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
     },
     {
       "id": "ltx-001",
       "name": "Levotiroxina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -866,7 +873,7 @@
       "id": "met-001",
       "name": "Metronidazol",
       "branch": "atencion-sanitaria",
-      "version": "1.2.1",
+      "version": "1.2.3",
       "updatedAt": "2026-07-10"
     },
     {
@@ -880,14 +887,14 @@
       "id": "mid-001",
       "name": "Midazolam",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {
       "id": "mil-001",
       "name": "Milrinona",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -908,8 +915,8 @@
       "id": "mox-001",
       "name": "Moxifloxacino",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-25"
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
     },
     {
       "id": "nal-001",
@@ -922,8 +929,8 @@
       "id": "nif-001",
       "name": "Nifedipino",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-07-05"
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
     },
     {
       "id": "nit-001",
@@ -971,7 +978,7 @@
       "id": "ome-001",
       "name": "Omeprazol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -999,7 +1006,7 @@
       "id": "pnc-001",
       "name": "Pancuronio",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -1008,6 +1015,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0",
       "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "pct-001",
+      "name": "Paracetamol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "pen-002",
@@ -1034,7 +1048,7 @@
       "id": "pol-001",
       "name": "Polimixina B",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -1090,8 +1104,8 @@
       "id": "rem-001",
       "name": "Remifentanilo",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-25"
+      "version": "1.0.2",
+      "updatedAt": "2026-07-10"
     },
     {
       "id": "rif-001",
@@ -1111,7 +1125,7 @@
       "id": "sav-001",
       "name": "Sacubitril/valsartán",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "updatedAt": "2026-07-10"
     },
     {
@@ -1125,7 +1139,7 @@
       "id": "sil-001",
       "name": "Sildenafil",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
+      "version": "1.0.1",
       "updatedAt": "2026-07-10"
     },
     {
@@ -1167,7 +1181,7 @@
       "id": "srf-001",
       "name": "Surfactante pulmonar",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "updatedAt": "2026-07-10"
     },
     {
@@ -1188,8 +1202,8 @@
       "id": "tia-001",
       "name": "Tiamina (vitamina B1)",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-25"
+      "version": "1.0.1",
+      "updatedAt": "2026-07-10"
     },
     {
       "id": "tic-001",
@@ -1223,8 +1237,8 @@
       "id": "trm-001",
       "name": "Tramadol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "tri-001",
@@ -1265,7 +1279,7 @@
       "id": "vec-001",
       "name": "Vecuronio",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "updatedAt": "2026-07-10"
     },
     {

@@ -2,7 +2,7 @@
   "id": "amo-001",
   "name": "Amoxicilina",
   "version": "1.0.2",
-  "updatedAt": "2026-07-10",
+  "updatedAt": "2026-08-07",
   "executiveSummary": "Antibiótico betalactâmico utilizado no tratamento de infecções respiratórias baixas, otite média, sinusite, pele e partes moles. Infecções do trato urinário causadas por microorganismos produtores de betalactâmicos.",
   "indications": "## Indicações principais\n\nAntibiótico betalactâmico utilizado no tratamento de infecções respiratórias baixas, otite média, sinusite, pele e partes moles. Infecções do trato urinário causadas por microorganismos produtores de betalactâmicos.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
   "dilution": {
@@ -47,5 +47,5 @@
     }
   ],
   "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  "translationReviewed": false
 }

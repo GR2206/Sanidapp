@@ -1,0 +1,54 @@
+{
+  "id": "pct-001",
+  "name": "Paracetamol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Analgésico e antipirético de primeira linha. Em pediatria: 10–15 mg/kg/dose VO; ≈ 60 mg/kg/dia habitual; não ultrapassar os tetos diários da bula pelo risco de hepatotoxicidade.",
+  "indications": "## Indicações\n\n- Tratamento sintomático da **febre**.\n- Dor leve a moderada.\n\n## Precauções\n\n- Risco de **hepatotoxicidade** em overdose ou doses repetidas excessivas.\n- Não combinar vários produtos que contenham paracetamol.\n- Ajustar na insuficiência hepática; cautela em desnutrição, alcoolismo e jejum prolongado.\n- Intervalo mínimo entre doses: **4 horas**.\n\n> Calcular sempre pelo **peso atual**. Confirmar a concentração (mg/mL) de gotas/suspensão antes de medir o volume.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 500–1000 mg; solução/gotas conforme a marca; ampolas IV 10 mg/mL.",
+      "dose": "VO: 500–1000 mg a cada 6–8 h. **Máximo habitual: 3 g/dia** (alguns esquemas hospitalares permitem até 4 g/dia somente sob supervisão e sem fatores de risco hepático). IV: 1 g a cada 6 h (máx. 3–4 g/dia conforme bula), infusão em 15 min.",
+      "administration": "VO com ou sem alimentos. IV em infusão curta conforme bula.",
+      "notes": "Somar todas as fontes de paracetamol (resfriados combinados, opioides associados). Na insuficiência hepática reduzir dose/intervalo com o especialista."
+    },
+    "pediatrico": {
+      "presentation": "Gotas/solução oral 100 mg/mL; suspensão 32 mg/mL ou outras; comprimidos mastigáveis/supositórios conforme a idade.",
+      "dose": "**15 mg/kg/dose VO a cada 6 h** ou **10 mg/kg/dose a cada 4 h**. Dose diária recomendada ≈ **60 mg/kg/dia**. **Não ultrapassar 80 mg/kg/dia** em crianças < 37 kg. Se > 38 kg: máximo alinhado ao adulto (**3 g/dia**). Intervalo mínimo: 4 h.",
+      "administration": "VO com seringa oral calibrada. Agitar suspensões. Não usar colheres domésticas.",
+      "notes": "Se em 3–4 h não houver resposta com 15 mg/kg, pode-se adiantar para 10 mg/kg a cada 4 h sem ultrapassar o máximo diário. Evitar associar outro antipirético de rotina se já recebe 60 mg/kg/dia, salvo ineficácia e indicação médica."
+    },
+    "neonatal": {
+      "presentation": "Solução oral / IV conforme protocolo de UTIN.",
+      "dose": "VO ou IV: esquemas habituais de UTIN **10–15 mg/kg/dose a cada 6–8 h** (ajustar por idade gestacional/pós-natal e função hepática). Não exceder máximos do protocolo institucional; vigiar acumulação.",
+      "administration": "VO se tolerar; IV em infusão conforme bula.",
+      "notes": "Prematuros podem necessitar intervalos mais longos. Confirmar sempre com o guia de neonatologia da unidade."
+    }
+  },
+  "stability": "## Estabilidade / conservação\n\n- Soluções orais: conforme bula; bem fechadas.\n- IV: seguir diluição/estabilidade do fabricante; descartar sobras conforme política local.",
+  "adverseEffects": "## Efeitos adversos\n\nEm doses terapêuticas costuma ser bem tolerado. Náuseas, erupção. Em overdose: insuficiência hepática aguda (tratável com N-acetilcisteína), náuseas, vômitos, dor abdominal, coagulopatia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Ficha técnica paracetamol solução oral 100 mg/mL — 15 mg/kg/6 h ou 10 mg/kg/4 h; ≈ 60 mg/kg/dia; máximo 80 mg/kg/dia (< 37 kg).",
+      "url": "https://cima.aemps.es/cima/dochtml/ft/85371/FT_85371.html"
+    },
+    {
+      "citation": "AEMPS CIMA. Ficha técnica Apiretal / paracetamol gotas — mesma pauta ponderal pediátrica.",
+      "url": "https://cima.aemps.es/cima/pdfs/es/ft/49302/FichaTecnica_49302.html.pdf"
+    },
+    {
+      "citation": "ANMAT. Informação de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (analgésicos/antipiréticos).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "World Health Organization. Princípios de dosagem de paracetamol.",
+      "url": "https://www.who.int/"
+    }
+  ]
+}

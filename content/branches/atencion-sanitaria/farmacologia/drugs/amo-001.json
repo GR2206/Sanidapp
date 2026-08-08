@@ -2,25 +2,27 @@
   "id": "amo-001",
   "name": "Amoxicilina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico betalactámico utilizado en el tratamiento de infecciones respiratorias bajas, otitis media, sinusitis, piel y partes blandas. Infecciones tracto-urinarias causadas por microorganismos productores de betalactámicos.",
-  "indications": "## Indicaciones principales\n\nAntibiótico betalactámico utilizado en el tratamiento de infecciones respiratorias bajas, otitis media, sinusitis, piel y partes blandas. Infecciones tracto-urinarias causadas por microorganismos productores de betalactámicos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Antibiótico betalactámico de amplio uso oral. Adultos: 500 mg–1 g cada 8 h VO. Pediatría: 20–40 mg/kg/día (otitis de alto riesgo 80–90 mg/kg/día) con máximos diarios explícitos.",
+  "indications": "## Indicaciones\n\n- Infecciones de vías respiratorias, otitis media, sinusitis, piel y partes blandas, infecciones urinarias por gérmenes sensibles.\n\n> Confirmar sensibilidad local. No cubrir BLEE ni estafilococo resistente.",
   "dilution": {
     "adulto": {
       "presentation": "Cápsulas 500 mg, 875 mg; suspensión; ampolla IV si disponible.",
-      "dose": "VO: 500 mg–1 g cada 8 h. IV según protocolo hospitalario.",
-      "administration": "VO con o sin alimentos; IV en perfusión."
+      "dose": "VO: **500 mg–1 g cada 8 h** (infecciones leves-moderadas). Infecciones respiratorias más severas: **500 mg–1 g cada 8 h** según gravedad. Máximo habitual orientativo **3 g/día** de amoxicilina. IV: usar formulaciones IV institucionales con dosis equivalentes según infectología.",
+      "administration": "VO con o sin alimentos; IV en perfusión según ficha.",
+      "notes": "No cubrir BLEE. Ajustar intervalo en insuficiencia renal grave. Completar esquema aunque mejore la clínica."
     },
     "pediatrico": {
-      "dose": "20-40 mg/kg/día de amoxicilina cada 8 hs. Otitis media en pacientes de alto riesgo, otitis recurrente o persistente aguda por S. Pneumoniae, H. Influenzae, M. Catarrahalis: 80-90 mg/kg/día de amoxicilina; dosis máxima: 1500 mg/día de amoxicilina, infecciones severas hasta 3 g de amoxicilina/día. Adultos: 250 mg de amoxicilina cada 8 hs. Infecciones más severas y del tracto respiratorio: 500 mg cada 8 hs. Procinético en pseudoobstrucción intestinal: 20 mg/kg/día cada 12 hs, dosis máxima: 1500 mg/día.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: amoxicilina 500 mg + ácido clavulánico 125 mg; Suspensión: amoxicilina 50 mg/ml + ácido clavulánico 12,5 mg/ml. Presentación Dúo: Comprimidos: amoxicilina 875 mg + ácido clavulánico 125 mg; Suspensión extemporánea reconstituida: amoxicilina 80 mg/ml + ácido clavulánico 11.4 mg/ml",
-      "notes": "La presentación Dúo debe administrarse cad 12 hs, la amoxicilina como trihidrato y el ácido clavulánico como sal potásica."
+      "dose": "**20–40 mg/kg/día VO divididos cada 8 h**. Otitis media de alto riesgo / persistente (neumococo, H. influenzae, M. catarrhalis): **80–90 mg/kg/día** de amoxicilina divididos cada 12 h (o según producto dúo); dosis máxima habitual **2–3 g/día** según gravedad y prospecto. Adultos en cartilla pediátrica: 250–500 mg cada 8 h.",
+      "administration": "VO.",
+      "presentation": "Comprimidos y suspensiones (amoxicilina sola). Verificar mg/mL de la suspensión reconstituida.",
+      "notes": "Calcular por peso. Agitar suspensión. Conservar reconstituida en refrigeración según prospecto (habitual 7–14 días)."
     },
     "neonatal": {
-      "dose": "25–30 mg/kg/dosis VO cada 12 h o IV según protocolo NNU.",
-      "administration": "VO o IV según tolerancia y gravedad."
+      "dose": "**25–30 mg/kg/dosis VO cada 12 h** en infecciones leves si tolera oral; IV según protocolo NNU/infectología (dosis e intervalo dependen de edad gestacional y postnatal).",
+      "administration": "VO o IV según tolerancia y gravedad.",
+      "notes": "Confirmar cobertura empírica con el esquema neonatal institucional; no sustituye ampicilina+gentamicina en sepsis neonatal precoz."
     }
   },
   "stability": "## Estabilidad\n\n- Suspensión reconstituida: refrigerar según prospecto (habitualmente 7–14 días).",
