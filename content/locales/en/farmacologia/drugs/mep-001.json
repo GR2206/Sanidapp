@@ -2,53 +2,45 @@
   "id": "mep-001",
   "name": "Methylprednisolone",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Anti-inflammatory and immunosuppressant. Spinal cord injury.. Treatment of rejection in glomerulopathies (lupus, etc.).",
-  "indications": "## Main indications\n\nAnti-inflammatory and immunosuppressant. Spinal cord injury.. Treatment of rejection in glomerulopathies (lupus, etc.).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Intermediate IV corticosteroid. Adult asthma 40–125 mg IV every 6–8 h; MS flare 1 g/day × 3–5 days. Pediatric anti-inflammatory 1–2 mg/kg/day; pulses 10–30 mg/kg/day (max 1 g) by indication.",
+  "indications": "## Indications\n\n- Asthma exacerbation, severe allergic reactions, anaphylaxis (adjunct).\n- Pulses in autoimmune disease / glomerulopathies / rejection.\n- Acute spinal cord injury (historical regimens — verify current protocol).\n- Multiple sclerosis flare (megadose).\n\n## Precautions\n\n- Hyperglycemia, hypertension, ulcer, infections, psychosis. Infuse high doses slowly (arrhythmia with bolus).\n- Equivalence: **4 mg methylprednisolone ≈ 5 mg prednisone ≈ 0.75 mg dexamethasone**.\n\n> Pulses only under specialty protocol.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial 40–125 mg.",
-      "dose": "Asthma: 60–125 mg IV. MS relapse: 1 g/day x 3–5 days (protocol).",
-      "administration": "Slow IV or infusion."
+      "presentation": "Vial 40–125–500–1000 mg.",
+      "dose": "Asthma / acute inflammation: **40–125 mg IV every 6–8 h** (then step down to PO). MS flare: **1 g IV/day × 3–5 days**. Shock/anaphylaxis (adjunct): **1–2 mg/kg** IV (often 125 mg). Autoimmune pulses: **10–30 mg/kg/day** or **1 g/day** × 3 days per protocol.",
+      "administration": "Reconstitute with manufacturer diluent or sterile water. Dilute to 2.5–20 mg/mL in NS (preferred) or 5% dextrose. < 250 mg: ≥ 5 min; ≥ 250 mg: ≥ 30–60 min (up to 120 min for megadose).",
+      "notes": "Push max ~125 mg/mL. Antacid prophylaxis at high doses."
     },
     "pediatrico": {
-      "presentation": "Lyophilized powder vial: 500 mg",
-      "administration": "IV",
-      "diluent": "0.9% NaCl, 5% dextrose.",
-      "finalConcentration": "125 mg/mL.",
-      "infusionRate": "20 to 60 min with continuous infusion pump.",
-      "dose": "Anti-inflammatory and immunosuppressant: IV: 30 mg/kg in a single dose, followed by 15 - 30 mg/kg/day or 600 mg/m²/day every 24 h for 3 days; Spinal cord injury: IV: 30 mg/kg followed by 5,4 mg/kg/hour for 23 h; Rejection treatment - glomerulopathies: IV: 10 mg/kg/dose for 3 consecutive days, maximum dose: 1 g/dose; ventricular tachycardia - silent lymphocytic myocarditis: 30 mg/kg/day in a single dose for 3 doses. See equivalent corticosteroid doses.",
-      "notes": "Powder vial reconstitution: add only the diluent provided in the package or sterile water for injection; stable 48 h at room temperature. IV infusion: dilute in normal saline (preferably) or 5% dextrose at a recommended concentration of 2,5 - 20 mg/ml and administer over 30 - 120 minutes. IV push: maximum recommended concentration 125 mg/ml. For doses < 250 mg infuse over no less than 5 minutes; doses ≥ 250 mg infuse over no less than 30 minutes. With high doses antiacid prophylaxis may be required. See considerations for safe corticosteroid therapy. See corticosteroid update."
+      "presentation": "Lyophilized vial 40–500–1000 mg.",
+      "dose": "Usual anti-inflammatory: **1–2 mg/kg/day** IV divided every 6–12 h (adult-oriented max). Pulses: **10–30 mg/kg/dose** (max **1 g**) × 3 days. Spinal injury (if still used): load **30 mg/kg**, then **5.4 mg/kg/h × 23 h**. Glomerulopathies/rejection: **10 mg/kg/day × 3 days** (max 1 g/dose).",
+      "administration": "Diluted IV 30–120 min by dose. No rapid megadose bolus.",
+      "notes": "Dose by weight. Monitor BP, glycemia, and electrolytes."
     },
     "neonatal": {
-      "dose": "Restricted use; pulmonary/DAH regimens per NICU.",
-      "administration": "IV."
+      "presentation": "Restricted NNU use.",
+      "dose": "Only pulmonary/DAH or other explicit NNU indications — not a general anti-inflammatory regimen.",
+      "administration": "IV.",
+      "notes": "Neurodevelopmental risk; specialist decision."
     }
   },
-  "stability": "## General\n\n- Reconstitute per package insert.\n\n## Pediatric guide\n\n- 48 h at room temperature once reconstituted.",
-  "adverseEffects": "## Adverse effects\n\nHypertension, hyperglycemia, peptic ulcer, myopathy, growth arrest, cataracts, osteoporosis, posterior subcapsular cataracts, cushingoid syndrome, hypokalemic alkalosis, edema, increased susceptibility to infections, osteonecrosis.",
+  "stability": "## Stability\n\n- Reconstituted: up to ~48 h at room temperature per many labels (verify).\n- Dilution: use within the shift / per manufacturer.",
+  "adverseEffects": "## Adverse effects\n\nHypertension, hyperglycemia, peptic ulcer, myopathy, growth delay, cataracts, osteoporosis, iatrogenic Cushing, edema, hypokalemia, infections, osteonecrosis.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — metilprednisoLOna (code 0137, ATC H02AB).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AEMPS CIMA / EMA SmPC dosing references.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",

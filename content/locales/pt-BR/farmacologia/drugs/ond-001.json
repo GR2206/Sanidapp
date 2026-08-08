@@ -1,59 +1,50 @@
 {
   "id": "ond-001",
   "name": "Ondansetrona",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Êmese refratária. Êmese por quimioterapia (indicação conforme norma vigente). Náuseas e vômitos pós-operatórios.",
-  "indications": "## Indicações principais\n\nÊmese refratária. Êmese por quimioterapia (indicação conforme norma vigente). Náuseas e vômitos pós-operatórios.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Antagonista 5-HT3. Adulto 4–8 mg VO/IV a cada 8 h; pediatria CINV 0,15 mg/kg/dose (máx. 8 mg); PONV 0,1 mg/kg (máx. 4 mg). Gastroenterite: dose única por peso.",
+  "indications": "## Indicações\n\n- Náuseas e vômitos induzidos por quimioterapia (CINV) e radioterapia.\n- Náuseas e vômitos pós-operatórios (PONV).\n- Emese refratária / gastroenterite aguda (uso frequente off-label ou conforme bula local).\n\n## Precauções\n\n- Prolongamento do **QTc** — revisar ECG em doses altas ou com outros fármacos que alonguem o QT.\n- Ajustar na insuficiência hepática grave (muitas vezes **máx. 8 mg/dia**).\n- Incompatível em Y com aciclovir, ampicilina, aminofilina, furosemida, ganciclovir, lorazepam, metilprednisolona, piperacilina.\n\n> Proteger da luz. Não misturar na mesma seringa com outros fármacos.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola 4–8 mg; comprimidos ODT.",
-      "dose": "4–8 mg E.V. lenta ou V.O. a cada 8 h.",
-      "administration": "E.V. lenta ou V.O."
+      "presentation": "Ampolas 4–8 mg; comprimidos / ODT 4–8 mg.",
+      "dose": "CINV / emese: **8 mg VO ou IV** 30 min antes da quimioterapia, depois **8 mg a cada 8–12 h** (máx. habitual **24 mg/dia** conforme esquema). PONV: **4 mg IV** dose única (pode repetir conforme protocolo). Náuseas gerais: **4–8 mg VO/IV a cada 8 h**.",
+      "administration": "IV lento 2–5 min ou diluído em SF/Dext. 5% em ~15 min (~1 mg/mL). VO/ODT sem água se dispersível.",
+      "notes": "Hepática grave: frequentemente uma única dose de 8 mg/dia."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 8 mg; Ampolas: 8 mg",
-      "administration": "V.O.; E.V.",
-      "diluent": "SF 0,9%, SG 5%.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "Bolus de 2 a 5 minutos.",
-      "dose": "Profilaxia de náuseas e vômitos induzidos por quimioterapia: Lactentes, crianças e adolescentes E.V./V.O.: 0,15 mg/kg/dose (5 mg/m²/dose); dose máxima 8 mg/dose a cada 8 h. Administrar a primeira dose 30 minutos antes de iniciar a infusão do citostático. Profilaxia de náuseas e vômitos pós-operatórios: E.V.: 1 mês a 12 anos e < 40 kg: 0,1 mg/kg/dose, > 40 kg e adultos: 4 mg/dose. Ajustar a dose em insuficiência hepática (apenas uma dose por dia). Gastroenterite aguda: > 6 meses 8 kg a 15 kg: 2 mg; 15 kg a 30 kg: 4 mg; > 30 kg: 8 mg. A dose pode ser repetida somente se ocorrer vômito nos primeiros 15 minutos após a administração.",
-      "compatibility": "Incompatível com aciclovir, ampicilina, aminofilina, furosemida, ganciclovir, lorazepam, metilprednisolona e piperacilina.",
-      "notes": "Proteger da luz; não administrar na mesma seringa ou infusão com outro medicamento. Administrar em push 2–5 min ou por infusão diluída em SG 5% ou SF em 15 minutos. Metabolizado pelo citocromo P-450. Verificar a normalidade do ECG antes do tratamento pelo aumento do intervalo QT em doses altas e evitar o uso concomitante com fármacos cardiotóxicos."
+      "presentation": "Ampolas 4–8 mg; comprimidos 4–8 mg.",
+      "dose": "CINV: **0,15 mg/kg/dose** VO ou IV (máx. **8 mg/dose**) a cada 8 h; 1ª dose 30 min antes do citostático. PONV (1 mês–12 anos): **< 40 kg: 0,1 mg/kg** IV (máx. 4 mg); **≥ 40 kg: 4 mg**. Gastroenterite aguda ≥ 6 meses (dose única): **8–15 kg: 2 mg**; **15–30 kg: 4 mg**; **> 30 kg: 8 mg** — repetir só se vômito nos primeiros 15 min.",
+      "administration": "VO/IV. IV push 2–5 min ou infusão 15 min diluída.",
+      "notes": "Calcular pelo peso. Verificar QTc e fármacos concomitantes."
     },
     "neonatal": {
-      "dose": "0,1 mg/kg E.V. a cada 8 h conforme protocolo.",
-      "administration": "E.V. lenta."
+      "presentation": "Ampola; uso excepcional.",
+      "dose": "Orientativo: **0,1 mg/kg IV a cada 8 h** só sob protocolo UTIN (dados limitados).",
+      "administration": "IV lento.",
+      "notes": "Não rotineiro; avaliar risco/benefício e QT."
     }
   },
-  "stability": "## Geral\n\n- E.V. compatível em SF e SG.\n\n## Guia pediátrica\n\n- Descartar o sobrante após aberto.",
-  "adverseEffects": "## Efeitos adversos\n\nCefaleia, constipação, fadiga, reações de hipersensibilidade imediata (urticária, angioedema, hipotensão, broncoespasmo, dispneia, anafilaxia), prolongamento do intervalo QTc, tontura, febre.",
+  "stability": "## Estabilidade\n\n- Ampola aberta: descartar restante.\n- Diluição IV: usar logo; proteger da luz.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, constipação, fadiga, tontura, febre. Hipersensibilidade (urticária, angioedema, anafilaxia). Prolongamento do QTc.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Ondansetrón (cód. 0502, ATC A04AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AEMPS CIMA / EMA — referências de posologia.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
       "url": "https://www.aap.org/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

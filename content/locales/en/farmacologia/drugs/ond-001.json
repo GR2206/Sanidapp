@@ -2,54 +2,45 @@
   "id": "ond-001",
   "name": "Ondansetron",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Refractory emesis. Chemotherapy-induced emesis (indication per current regulations). Postoperative nausea and vomiting.",
-  "indications": "## Main indications\n\nRefractory emesis. Chemotherapy-induced emesis (indication per current regulations). Postoperative nausea and vomiting.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "5-HT3 antagonist. Adult 4–8 mg PO/IV every 8 h; pediatric CINV 0.15 mg/kg/dose (max 8 mg); PONV 0.1 mg/kg (max 4 mg). Gastroenteritis: single weight-based dose.",
+  "indications": "## Indications\n\n- Chemotherapy-induced (CINV) and radiation-induced nausea and vomiting.\n- Postoperative nausea and vomiting (PONV).\n- Refractory emesis / acute gastroenteritis (frequent off-label or per local label).\n\n## Precautions\n\n- **QTc** prolongation — check ECG at high doses or with other QT-prolonging drugs.\n- Adjust in severe hepatic impairment (often **max 8 mg/day**).\n- Y-site incompatible with acyclovir, ampicillin, aminophylline, furosemide, ganciclovir, lorazepam, methylprednisolone, piperacillin.\n\n> Protect from light. Do not mix in the same syringe with other drugs.",
   "dilution": {
     "adulto": {
-      "presentation": "4–8 mg ampoule; ODT tablets.",
-      "dose": "4–8 mg slow IV or PO every 8 h.",
-      "administration": "Slow IV or PO."
+      "presentation": "Ampoules 4–8 mg; tablets / ODT 4–8 mg.",
+      "dose": "CINV / emesis: **8 mg PO or IV** 30 min before chemotherapy, then **8 mg every 8–12 h** (usual max **24 mg/day** by regimen). PONV: **4 mg IV** once (may repeat per protocol). General nausea: **4–8 mg PO/IV every 8 h**.",
+      "administration": "Slow IV over 2–5 min or diluted in NS/5% dextrose over ~15 min (~1 mg/mL). PO/ODT without water if dispersible.",
+      "notes": "Severe hepatic impairment: often a single 8 mg/day dose."
     },
     "pediatrico": {
-      "presentation": "Tablets: 8 mg; Ampoules: 8 mg",
-      "administration": "PO; IV",
-      "diluent": "0.9% NaCl, 5% dextrose.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "Bolus over 2 to 5 minutes.",
-      "dose": "Chemotherapy-induced nausea and vomiting prophylaxis: Infants, children, and adolescents IV / PO: 0,15 mg/kg/dose (5 mg/m²/dose); maximum dose 8 mg/dose every 8 h. Administer first dose 30 minutes before starting cytotoxic infusion. Postoperative nausea and vomiting prophylaxis: IV: 1 month to 12 years and < 40 kg: 0,1 mg/kg/dose, > 40 kg and adults: 4 mg/dose. Adjust dose in hepatic insufficiency (single daily dose). Acute gastroenteritis: > 6 months 8 kg to 15 kg: 2 mg; 15 kg to 30 kg: 4 mg; > 30 kg: 8 mg. Dose may be repeated only if vomiting occurs within the first 15 minutes after administration.",
-      "compatibility": "Incompatible with acyclovir, ampicillin, aminophylline, furosemide, ganciclovir, lorazepam, methylprednisolone, and piperacillin.",
-      "notes": "Protect from light; do not administer in the same syringe or infusion with another medication. Administer as push over 2-5 min or by infusion diluted in 5% dextrose or 0.9% NaCl over 15 minutes. Metabolized by cytochrome P-450. Verify normal ECG before treatment due to QT interval prolongation at high doses and avoid concomitant use with cardiotoxic drugs."
+      "presentation": "Ampoules 4–8 mg; tablets 4–8 mg.",
+      "dose": "CINV: **0.15 mg/kg/dose** PO or IV (max **8 mg/dose**) every 8 h; 1st dose 30 min before cytostatic. PONV (1 month–12 years): **< 40 kg: 0.1 mg/kg** IV (max 4 mg); **≥ 40 kg: 4 mg**. Acute gastroenteritis ≥ 6 months (single dose): **8–15 kg: 2 mg**; **15–30 kg: 4 mg**; **> 30 kg: 8 mg** — repeat only if vomiting within first 15 min.",
+      "administration": "PO/IV. IV push 2–5 min or 15-min diluted infusion.",
+      "notes": "Dose by weight. Check QTc and concomitant drugs."
     },
     "neonatal": {
-      "dose": "0,1 mg/kg IV every 8 h per protocol.",
-      "administration": "Slow IV."
+      "presentation": "Ampoule; exceptional use.",
+      "dose": "Orientative: **0.1 mg/kg IV every 8 h** only under NNU protocol (limited data).",
+      "administration": "Slow IV.",
+      "notes": "Not routine; weigh risk/benefit and QT."
     }
   },
-  "stability": "## General\n\n- IV compatible in NaCl and dextrose.\n\n## Pediatric guide\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Adverse effects\n\nHeadache, constipation, fatigue, immediate hypersensitivity reactions (urticaria, angioedema, hypotension, bronchospasm, dyspnea, anaphylaxis), QTc interval prolongation, dizziness, fever.",
+  "stability": "## Stability\n\n- Opened ampoule: discard remainder.\n- IV dilution: use promptly; protect from light.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, constipation, fatigue, dizziness, fever. Hypersensitivity (urticaria, angioedema, anaphylaxis). QTc prolongation.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Ondansetron (code 0502, ATC A04AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AEMPS CIMA / EMA SmPC dosing references.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",

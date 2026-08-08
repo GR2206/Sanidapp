@@ -2,52 +2,48 @@
   "id": "dxt-001",
   "name": "Dexametasona",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Corticoide potente IV/VO para edema cerebral, croup, COVID grave y profilaxis náuseas.",
-  "indications": "## Indicaciones\n\n- Edema cerebral, croup (nebulización/IM según protocolo).\n- Profilaxis náuseas por quimioterapia y postoperatoria.\n- Maduración pulmonar fetal (esquema obstétrico).\n\n## Precauciones\n\n- Hiperglucemia, inmunosupresión. Taper si uso prolongado.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Corticoide potente de larga acción. Adulto habitual 4–20 mg/día IV/VO según indicación; croup pediátrico **0,6 mg/kg** dosis única (máx. 16 mg); COVID grave 6 mg/día; antiemético 4–8 mg.",
+  "indications": "## Indicaciones\n\n- Edema cerebral, meningitis bacteriana (dosis altas en esquemas seleccionados), asma/exacerbaciones, croup.\n- Profilaxis de náuseas (CINV/PONV) y COVID-19 grave que requiere O₂ (esquema RECOVERY).\n- Maduración pulmonar fetal (betametasona/dexametasona obstétrica).\n\n## Precauciones\n\n- Hiperglucemia, inmunosupresión, úlcera, psicosis, HTA. No suspender en forma abrupta tras uso prolongado.\n- Equivalencia aproximada: **0,75 mg dexametasona ≈ 5 mg prednisona ≈ 4 mg metilprednisolona**.\n\n> La dosis es altamente indicación-dependiente."
   "dilution": {
     "adulto": {
-      "presentation": "Ampolla 4–8 mg/mL; comprimidos.",
-      "dose": "4–10 mg IV/IM según indicación; croup ped: 0,6 mg/kg dosis única.",
-      "administration": "IV/IM/VO/nebulización según protocolo."
+      "presentation": "Ampollas 4–8 mg/mL; comprimidos 0,5–4–8 mg.",
+      "dose": "Antiinflamatorio general: **4–10 mg IV/IM/VO** cada 6–12 h (ajustar). Edema cerebral: frecuentemente **10 mg IV** carga, luego **4 mg cada 6 h**. Antiemético: **4–8 mg IV/VO**. COVID-19 grave: **6 mg VO/IV cada 24 h × 10 días** (o hasta alta). Shock/dosis altas: según protocolo de UCI.",
+      "administration": "IV lento o diluido; IM; VO. Nebulización solo si el protocolo local lo contempla.",
+      "notes": "Monitorizar glucemia. Profilaxis GI en cursos altos/prolongados."
     },
     "pediatrico": {
-      "presentation": "amp. 8 mg/2 mL.",
-      "administration": "EV o IM.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "4 mg/mL.",
-      "infusionRate": "15 min. con BIC.",
-      "dose": "0,5 a 2 mg/kg/día en 4 dosis diarias. Antiinflamatorio: 0,08 a 0,3 mg/kg/día 2 a 4 veces al día.",
-      "notes": "Antiinflamatorio esteroideo. Puede dar edema, hipertensión, cefalea, náusea, vómito."
+      "presentation": "Ampolla 8 mg/2 mL; solución/comprimidos.",
+      "dose": "Croup: **0,15–0,6 mg/kg VO/IM/IV dosis única** (habitual **0,6 mg/kg**; máx. **10–16 mg**). Antiinflamatorio: **0,08–0,3 mg/kg/día** en 2–4 tomas. Dosis altas (edema/meningitis seleccionada): **0,5–2 mg/kg/día** divididos. Asma/exacerbación: a menudo **0,15–0,3 mg/kg** (máx. adulto) según guía local.",
+      "administration": "VO preferente en croup si tolera; IV/IM si no. Diluir para infusión ~15 min si se indica.",
+      "notes": "Una sola dosis suele bastar en croup. Calcular por peso."
     },
     "neonatal": {
-      "dose": "Maduración pulmonar fetal: esquema obstétrico. Evitar uso prolongado en RN.",
-      "administration": "IM materno / IV RN según protocolo."
+      "presentation": "Protocolo obstétrico / NNU.",
+      "dose": "Maduración pulmonar: esquema **materno** (p. ej. 6 mg IM cada 12 h × 4 dosis) — no es pauta del RN. En RN: solo esquemas NNU (DBP, etc.); evitar cursos prolongados por neurodesarrollo.",
+      "administration": "IM materno / IV RN según protocolo.",
+      "notes": "No usar como antipirético."
     }
   },
-  "stability": "## General\n\n- IV estable según dilución.\n\n## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos\n\n- Hiperglucemia, insomnio, supresión adrenal, infecciones.",
+  "stability": "## Estabilidad\n\n- Ampolla abierta: desechar sobrante.\n- Dilución IV: según prospecto; usar en el turno.",
+  "adverseEffects": "## Efectos adversos\n\nHiperglucemia, insomnio, HTA, retención hídrica, inmunosupresión, miopatía, osteoporosis, supresión adrenal, infecciones oportunistas.",
   "bibliography": [
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "RECOVERY Collaborative Group. Dexamethasone in hospitalized patients with COVID-19 — 6 mg daily.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2021436"
     },
     {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEP / Pediamécum. Dexametasona — croup 0,15–0,6 mg/kg.",
+      "url": "https://www.aeped.es/comites/cm/pediamecum"
     },
     {
       "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario (corticoides).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     }
   ]
 }

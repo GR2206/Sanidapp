@@ -2,49 +2,45 @@
   "id": "dxt-001",
   "name": "Dexametasona",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Corticoide potente IV/VO para edema cerebral, crupe, COVID grave e profilaxia de náuseas.",
-  "indications": "## Indicações\n\n- Edema cerebral, crupe (nebulização/IM conforme protocolo).\n- Profilaxia de náuseas por quimioterapia e pós-operatória.\n- Maturação pulmonar fetal (esquema obstétrico).\n\n## Precauções\n\n- Hiperglicemia, imunossupressão. Desmame se uso prolongado.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Corticoide potente de longa ação. Adulto habitual 4–20 mg/dia IV/VO conforme indicação; crupe pediátrico **0,6 mg/kg** dose única (máx. 16 mg); COVID grave 6 mg/dia; antiemético 4–8 mg.",
+  "indications": "## Indicações\n\n- Edema cerebral, meningite bacteriana (doses altas em esquemas selecionados), asma/exacerbações, crupe.\n- Profilaxia de náuseas (CINV/PONV) e COVID-19 grave com necessidade de O₂ (esquema RECOVERY).\n- Maturação pulmonar fetal (betametasona/dexametasona obstétrica).\n\n## Precauções\n\n- Hiperglicemia, imunossupressão, úlcera, psicose, HAS. Não suspender de forma abrupta após uso prolongado.\n- Equivalência aproximada: **0,75 mg dexametasona ≈ 5 mg prednisona ≈ 4 mg metilprednisolona**.\n\n> A dose é altamente dependente da indicação.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola 4–8 mg/mL; comprimidos.",
-      "dose": "4–10 mg IV/IM conforme indicação; crupe ped: 0,6 mg/kg dose única.",
-      "administration": "IV/IM/VO/nebulização conforme protocolo."
+      "presentation": "Ampolas 4–8 mg/mL; comprimidos 0,5–4–8 mg.",
+      "dose": "Anti-inflamatório geral: **4–10 mg IV/IM/VO** a cada 6–12 h (ajustar). Edema cerebral: frequentemente **10 mg IV** de ataque, depois **4 mg a cada 6 h**. Antiemético: **4–8 mg IV/VO**. COVID-19 grave: **6 mg VO/IV a cada 24 h × 10 dias** (ou até a alta). Choque/doses altas: conforme protocolo de UTI.",
+      "administration": "IV lento ou diluído; IM; VO. Nebulização só se o protocolo local contemplar.",
+      "notes": "Monitorar glicemia. Profilaxia GI em cursos altos/prolongados."
     },
     "pediatrico": {
-      "presentation": "Ampola 8 mg/2 mL.",
-      "administration": "IV ou IM.",
-      "diluent": "SF, SG 5%.",
-      "finalConcentration": "4 mg/mL.",
-      "infusionRate": "15 min com bomba de infusão.",
-      "dose": "0,5 a 2 mg/kg/dia em 4 doses diárias. Anti-inflamatório: 0,08 a 0,3 mg/kg/dia 2 a 4 vezes ao dia.",
-      "notes": "Anti-inflamatório esteroide. Pode causar edema, hipertensão, cefaleia, náuseas, vômitos."
+      "presentation": "Ampola 8 mg/2 mL; solução/comprimidos.",
+      "dose": "Crupe: **0,15–0,6 mg/kg VO/IM/IV dose única** (habitual **0,6 mg/kg**; máx. **10–16 mg**). Anti-inflamatório: **0,08–0,3 mg/kg/dia** em 2–4 tomadas. Doses altas (edema/meningite selecionada): **0,5–2 mg/kg/dia** divididos. Asma/exacerbação: frequentemente **0,15–0,3 mg/kg** (máx. adulto) conforme guia local.",
+      "administration": "VO preferencial no crupe se tolerar; IV/IM se não. Diluir para infusão ~15 min se indicado.",
+      "notes": "Uma única dose costuma bastar no crupe. Calcular pelo peso."
     },
     "neonatal": {
-      "dose": "Maturação pulmonar fetal: esquema obstétrico. Evitar uso prolongado em RN.",
-      "administration": "IM materno / IV RN conforme protocolo."
+      "presentation": "Protocolo obstétrico / UTIN.",
+      "dose": "Maturação pulmonar: esquema **materno** (p. ex. 6 mg IM a cada 12 h × 4 doses) — não é pauta do RN. No RN: só esquemas UTIN (DBP, etc.); evitar cursos prolongados pelo neurodesenvolvimento.",
+      "administration": "IM materno / IV do RN conforme protocolo.",
+      "notes": "Não usar como antipirético."
     }
   },
-  "stability": "## Geral\n\n- IV estável conforme diluição.\n\n## Guia pediátrica\n\n- Descartar o remanescente após aberto.",
-  "adverseEffects": "## Efeitos adversos\n\n- Hiperglicemia, insônia, supressão adrenal, infecções.",
+  "stability": "## Estabilidade\n\n- Ampola aberta: descartar restante.\n- Diluição IV: conforme bula; usar no turno.",
+  "adverseEffects": "## Efeitos adversos\n\nHiperglicemia, insônia, HAS, retenção hídrica, imunossupressão, miopatia, osteoporose, supressão adrenal, infecções oportunistas.",
   "bibliography": [
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA / EMA — referências de posologia.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
