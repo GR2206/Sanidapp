@@ -1,0 +1,37 @@
+{
+  "id": "glb-001",
+  "name": "Glibenclamida",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Sulfonilurea (gliburida). Adulto: inicio **2,5–5 mg VO/día** con desayuno; mantenimiento **2,5–15 mg/día** (máx. habitual **15–20 mg**). Alto riesgo de hipoglucemia — preferir alternativas en ancianos/IRC. No en embarazo tipo 2 de rutina.",
+  "indications": "## Indicaciones\n\n- DM2 cuando dieta/ejercicio/metformina no bastan (cada vez menos 1.ª línea).\n\n## Precauciones\n\n- Hipoglucemia prolongada (vida media larga) — riesgo en ancianos, IRC, ayuno, alcohol.\n- Evitar si ClCr bajo; muchas guías desaconsejan en >65–70 años.\n- Interacciones: ↑ efecto con AINE, sulfonamidas, alcohol; ↓ con rifampicina.\n\n> Educar sobre síntomas de hipoglucemia y no saltar comidas.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–5 mg.",
+      "dose": "Inicio **2,5–5 mg VO 1×/día** con el desayuno. Titular cada días–semanas. Dosis >10 mg: a menudo dividir en 2 tomas. Máx. habitual **15 mg/día** (algunas fichas **20 mg**).",
+      "administration": "VO con alimentos (primera comida del día).",
+      "notes": "Si hipoglucemia: reducir/suspender; valorar deprescribir."
+    },
+    "pediatrico": {
+      "presentation": "No rutinario.",
+      "dose": "DM2 pediátrica: solo especialista (preferir metformina/insulina).",
+      "administration": "—",
+      "notes": "No uso habitual."
+    },
+    "neonatal": {
+      "presentation": "No indicado (salvo diabetes neonatal monogénica — especialista).",
+      "dose": "No rutinario.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nHipoglucemia, aumento de peso, náuseas, erupción; raro: hematológicos, fotosensibilidad.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Glibenclamida.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ADA. Standards of Care — sulfonylureas hypoglycemia risk.", "url": "https://diabetes.org/" },
+    { "citation": "ANMAT. Prospectos glibenclamida.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Beers Criteria / deprescribing context in older adults.", "url": "https://www.americangeriatrics.org/" }
+  ]
+}

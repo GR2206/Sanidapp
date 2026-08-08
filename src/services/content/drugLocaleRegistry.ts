@@ -5,6 +5,7 @@ import aci_001_en from '../../../content/locales/en/farmacologia/drugs/aci-001.j
 import ade_001_en from '../../../content/locales/en/farmacologia/drugs/ade-001.json';
 import adr_001_en from '../../../content/locales/en/farmacologia/drugs/adr-001.json';
 import alb_001_en from '../../../content/locales/en/farmacologia/drugs/alb-001.json';
+import alp_001_en from '../../../content/locales/en/farmacologia/drugs/alp-001.json';
 import amd_001_en from '../../../content/locales/en/farmacologia/drugs/amd-001.json';
 import amf_001_en from '../../../content/locales/en/farmacologia/drugs/amf-001.json';
 import amf_002_en from '../../../content/locales/en/farmacologia/drugs/amf-002.json';
@@ -57,6 +58,7 @@ import clo_001_en from '../../../content/locales/en/farmacologia/drugs/clo-001.j
 import clp_001_en from '../../../content/locales/en/farmacologia/drugs/clp-001.json';
 import cod_001_en from '../../../content/locales/en/farmacologia/drugs/cod-001.json';
 import col_001_en from '../../../content/locales/en/farmacologia/drugs/col-001.json';
+import cpg_001_en from '../../../content/locales/en/farmacologia/drugs/cpg-001.json';
 import cst_001_en from '../../../content/locales/en/farmacologia/drugs/cst-001.json';
 import ctm_001_en from '../../../content/locales/en/farmacologia/drugs/ctm-001.json';
 import cvd_001_en from '../../../content/locales/en/farmacologia/drugs/cvd-001.json';
@@ -100,6 +102,7 @@ import fsc_001_en from '../../../content/locales/en/farmacologia/drugs/fsc-001.j
 import fur_001_en from '../../../content/locales/en/farmacologia/drugs/fur-001.json';
 import fus_001_en from '../../../content/locales/en/farmacologia/drugs/fus-001.json';
 import gen_001_en from '../../../content/locales/en/farmacologia/drugs/gen-001.json';
+import glb_001_en from '../../../content/locales/en/farmacologia/drugs/glb-001.json';
 import glc_001_en from '../../../content/locales/en/farmacologia/drugs/glc-001.json';
 import glu_001_en from '../../../content/locales/en/farmacologia/drugs/glu-001.json';
 import gnc_001_en from '../../../content/locales/en/farmacologia/drugs/gnc-001.json';
@@ -220,6 +223,7 @@ import aci_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/aci-
 import ade_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ade-001.json';
 import adr_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/adr-001.json';
 import alb_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/alb-001.json';
+import alp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/alp-001.json';
 import amd_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amd-001.json';
 import amf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amf-001.json';
 import amf_002_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/amf-002.json';
@@ -272,6 +276,7 @@ import clo_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/clo-
 import clp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/clp-001.json';
 import cod_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cod-001.json';
 import col_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/col-001.json';
+import cpg_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cpg-001.json';
 import cst_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cst-001.json';
 import ctm_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ctm-001.json';
 import cvd_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/cvd-001.json';
@@ -315,6 +320,7 @@ import fsc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fsc-
 import fur_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fur-001.json';
 import fus_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/fus-001.json';
 import gen_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/gen-001.json';
+import glb_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/glb-001.json';
 import glc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/glc-001.json';
 import glu_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/glu-001.json';
 import gnc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/gnc-001.json';
@@ -439,6 +445,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'ade-001': ade_001_en as Drug,
     'adr-001': adr_001_en as Drug,
     'alb-001': alb_001_en as Drug,
+    'alp-001': alp_001_en as Drug,
     'amd-001': amd_001_en as Drug,
     'amf-001': amf_001_en as Drug,
     'amf-002': amf_002_en as Drug,
@@ -491,6 +498,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'clp-001': clp_001_en as Drug,
     'cod-001': cod_001_en as Drug,
     'col-001': col_001_en as Drug,
+    'cpg-001': cpg_001_en as Drug,
     'cst-001': cst_001_en as Drug,
     'ctm-001': ctm_001_en as Drug,
     'cvd-001': cvd_001_en as Drug,
@@ -534,6 +542,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'fur-001': fur_001_en as Drug,
     'fus-001': fus_001_en as Drug,
     'gen-001': gen_001_en as Drug,
+    'glb-001': glb_001_en as Drug,
     'glc-001': glc_001_en as Drug,
     'glu-001': glu_001_en as Drug,
     'gnc-001': gnc_001_en as Drug,
@@ -656,6 +665,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'ade-001': ade_001_ptBR as Drug,
     'adr-001': adr_001_ptBR as Drug,
     'alb-001': alb_001_ptBR as Drug,
+    'alp-001': alp_001_ptBR as Drug,
     'amd-001': amd_001_ptBR as Drug,
     'amf-001': amf_001_ptBR as Drug,
     'amf-002': amf_002_ptBR as Drug,
@@ -708,6 +718,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'clp-001': clp_001_ptBR as Drug,
     'cod-001': cod_001_ptBR as Drug,
     'col-001': col_001_ptBR as Drug,
+    'cpg-001': cpg_001_ptBR as Drug,
     'cst-001': cst_001_ptBR as Drug,
     'ctm-001': ctm_001_ptBR as Drug,
     'cvd-001': cvd_001_ptBR as Drug,
@@ -751,6 +762,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'fur-001': fur_001_ptBR as Drug,
     'fus-001': fus_001_ptBR as Drug,
     'gen-001': gen_001_ptBR as Drug,
+    'glb-001': glb_001_ptBR as Drug,
     'glc-001': glc_001_ptBR as Drug,
     'glu-001': glu_001_ptBR as Drug,
     'gnc-001': gnc_001_ptBR as Drug,

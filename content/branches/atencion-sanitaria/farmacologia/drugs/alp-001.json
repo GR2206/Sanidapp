@@ -1,0 +1,37 @@
+{
+  "id": "alp-001",
+  "name": "Alprazolam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Benzodiacepina de vida media intermedia. Ansiedad adulto: **0,25–0,5 mg VO c/8 h** (máx. habitual **4 mg/día**). Pánico: titulación hasta **1–10 mg/día** divididos (especialista). Ancianos: inicio **0,25 mg c/12 h**. Dependencia y depresión respiratoria — cursos cortos.",
+  "indications": "## Indicaciones\n\n- Trastorno de ansiedad; crisis de pánico (esquemas).\n\n## Precauciones\n\n- Dependencia, tolerancia, síndrome de abstinencia — no suspender brusco; limitar duración.\n- Potencia con alcohol/opioides/depresores → depresión respiratoria.\n- Ancianos: caídas, confusión — dosis mínimas.\n- Embarazo/lactancia: evitar si posible.\n\n> No es 1.ª línea a largo plazo frente a ISRS/terapia.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,25–0,5–1–2 mg; LP/XR según marca.",
+      "dose": "Ansiedad: **0,25–0,5 mg VO c/8 h**; subir despacio. Máx. frecuente **4 mg/día**. Pánico: inicio bajo → hasta **1–4 mg/día** habitual (algunos esquemas hasta **10 mg** — especialista). XR: 1×/día según ficha.",
+      "administration": "VO; no masticar XR.",
+      "notes": "Reducción gradual (10–25%/1–2 semanas) al retirar."
+    },
+    "pediatrico": {
+      "presentation": "No rutinario.",
+      "dose": "Uso excepcional bajo psiquiatría infantil — sin pauta estándar ambulatoria.",
+      "administration": "—",
+      "notes": "Preferir otras estrategias."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Psicotrópico — control de stock; conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nSedación, mareo, amnesia anterógrada, ataxia, dependencia; paradoja de agitación rara.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Alprazolam.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Benzodiazepine boxed warning — abuse, addiction, withdrawal.", "url": "https://www.fda.gov/" },
+    { "citation": "NICE. Anxiety — benzodiazepine short-term use.", "url": "https://www.nice.org.uk/" },
+    { "citation": "ANMAT. Prospectos alprazolam.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

@@ -4,6 +4,7 @@ import aci_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import ade_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ade-001.json';
 import adr_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/adr-001.json';
 import alb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/alb-001.json';
+import alp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/alp-001.json';
 import amd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amd-001.json';
 import amf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amf-001.json';
 import amf_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/amf-002.json';
@@ -56,6 +57,7 @@ import clo_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import clp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/clp-001.json';
 import cod_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cod-001.json';
 import col_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/col-001.json';
+import cpg_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cpg-001.json';
 import cst_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cst-001.json';
 import ctm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ctm-001.json';
 import cvd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cvd-001.json';
@@ -99,6 +101,7 @@ import fsc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import fur_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fur-001.json';
 import fus_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fus-001.json';
 import gen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/gen-001.json';
+import glb_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glb-001.json';
 import glc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glc-001.json';
 import glu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glu-001.json';
 import gnc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/gnc-001.json';
@@ -225,6 +228,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'ade-001': ade_001 as Drug,
   'adr-001': adr_001 as Drug,
   'alb-001': alb_001 as Drug,
+  'alp-001': alp_001 as Drug,
   'amd-001': amd_001 as Drug,
   'amf-001': amf_001 as Drug,
   'amf-002': amf_002 as Drug,
@@ -277,6 +281,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'clp-001': clp_001 as Drug,
   'cod-001': cod_001 as Drug,
   'col-001': col_001 as Drug,
+  'cpg-001': cpg_001 as Drug,
   'cst-001': cst_001 as Drug,
   'ctm-001': ctm_001 as Drug,
   'cvd-001': cvd_001 as Drug,
@@ -320,6 +325,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'fur-001': fur_001 as Drug,
   'fus-001': fus_001 as Drug,
   'gen-001': gen_001 as Drug,
+  'glb-001': glb_001 as Drug,
   'glc-001': glc_001 as Drug,
   'glu-001': glu_001 as Drug,
   'gnc-001': gnc_001 as Drug,

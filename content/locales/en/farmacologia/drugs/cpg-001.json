@@ -1,0 +1,50 @@
+{
+  "id": "cpg-001",
+  "name": "Clopidogrel",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antiplatelet (P2Y12 inhibitor, CYP2C19 prodrug). Adult: load **300–600 mg PO** then **75 mg/day**. With aspirin in ACS/stent (DAPT). Pediatrics: exceptional use (refractory Kawasaki, etc.) — specialist.",
+  "indications": "## Indications\n\n- ACS (MI/unstable angina), post-stent, ischemic stroke/TIA, PAD — per guidelines ± aspirin.\n\n## Precautions\n\n- Bleeding — hold 5–7 days before major surgery if risk allows.\n- Poor CYP2C19 metabolizers / omeprazole-esomeprazole: ↓ effect (prefer pantoprazole if PPI needed).\n- Avoid chronic NSAIDs without protection; caution with anticoagulants.\n\n> 600 mg load if urgent PCI (institutional protocol).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 75 mg; sometimes 300 mg.",
+      "dose": "Maintenance: **75 mg PO/day**. ACS/PCI load: **300 mg** or **600 mg** once, then 75 mg/day. DAPT duration: by stent/event (typically 1–12 months).",
+      "administration": "PO with or without food.",
+      "notes": "Do not miss doses in critical post-stent window."
+    },
+    "pediatrico": {
+      "presentation": "Tabs 75 mg (split/compound).",
+      "dose": "Off-label: guide **1 mg/kg/day** (max 75) after load per protocol — pediatric cardiology/hematology only.",
+      "administration": "PO.",
+      "notes": "No general ambulatory regimen."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Specialist protocol only.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, hematoma, dyspepsia; rare: TTP, neutropenia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Clopidogrel.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AHA/ACC. ACS / DAPT guidelines context.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "FDA. Clopidogrel — CYP2C19 boxed warning.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

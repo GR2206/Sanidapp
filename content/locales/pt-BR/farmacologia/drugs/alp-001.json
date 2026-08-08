@@ -1,0 +1,50 @@
+{
+  "id": "alp-001",
+  "name": "Alprazolam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Benzodiazepínico de meia-vida intermediária. Ansiedade adulto: **0,25–0,5 mg VO a cada 8 h** (máx. habitual **4 mg/dia**). Pânico: titulação até **1–10 mg/dia** divididos (especialista). Idosos: início **0,25 mg a cada 12 h**. Dependência e depressão respiratória — cursos curtos.",
+  "indications": "## Indicações\n\n- Transtorno de ansiedade; crises de pânico (esquemas).\n\n## Precauções\n\n- Dependência, tolerância, síndrome de abstinência — não suspender de forma abrupta; limitar duração.\n- Potencia com álcool/opioides/depressores → depressão respiratória.\n- Idosos: quedas, confusão — doses mínimas.\n- Gravidez/amamentação: evitar se possível.\n\n> Não é 1ª linha a longo prazo frente a ISRS/terapia.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,25–0,5–1–2 mg; LP/XR conforme marca.",
+      "dose": "Ansiedade: **0,25–0,5 mg VO a cada 8 h**; subir devagar. Máx. frequente **4 mg/dia**. Pânico: início baixo → até **1–4 mg/dia** habitual (alguns esquemas até **10 mg** — especialista). XR: 1×/dia conforme bula.",
+      "administration": "VO; não mastigar XR.",
+      "notes": "Redução gradual (10–25%/1–2 semanas) ao retirar."
+    },
+    "pediatrico": {
+      "presentation": "Não rotineiro.",
+      "dose": "Uso excepcional sob psiquiatria infantil — sem pauta ambulatorial padrão.",
+      "administration": "—",
+      "notes": "Preferir outras estratégias."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Psicotrópico — controle de estoque; conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nSedação, tontura, amnésia anterógrada, ataxia, dependência; agitação paradoxal rara.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Alprazolam.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Alerta de benzodiazepínicos — abuso, dependência, abstinência.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Ansiedade — uso curto de benzodiazepínicos.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

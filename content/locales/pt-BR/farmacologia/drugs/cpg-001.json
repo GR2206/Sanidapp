@@ -1,0 +1,50 @@
+{
+  "id": "cpg-001",
+  "name": "Clopidogrel",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antiplaquetário (inibidor P2Y12, pró-fármaco CYP2C19). Adulto: carga **300–600 mg VO** depois **75 mg/dia**. Com AAS em SCA/stent (DAPT). Pediatria: uso excepcional (Kawasaki refratário, etc.) — especialista.",
+  "indications": "## Indicações\n\n- SCA (IAM/angina instável), pós-stent, AVC isquêmico/AIT, DAP — conforme diretrizes ± AAS.\n\n## Precauções\n\n- Hemorragia — suspender 5–7 dias antes de cirurgia maior se o risco permitir.\n- Metabolizadores CYP2C19 lentos / omeprazol-esomeprazol: ↓ efeito (preferir pantoprazol se IBP).\n- Não combinar com AINE crônicos sem proteção; cuidado com anticoagulantes.\n\n> Carga 600 mg se ICP urgente (protocolo institucional).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 75 mg; às vezes 300 mg.",
+      "dose": "Manutenção: **75 mg VO/dia**. Carga SCA/ICP: **300 mg** ou **600 mg** única, depois 75 mg/dia. Duração DAPT: conforme stent/evento (1–12 meses típico).",
+      "administration": "VO com ou sem alimentos.",
+      "notes": "Não omitir doses no período crítico pós-stent."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 75 mg (fracionar/magistral).",
+      "dose": "Off-label: orientativo **1 mg/kg/dia** (máx. 75) após carga conforme protocolo — só cardiologia/hematologia pediátrica.",
+      "administration": "VO.",
+      "notes": "Sem pauta ambulatorial geral."
+    },
+    "neonatal": {
+      "presentation": "Não rotineiro.",
+      "dose": "Só protocolo especializado.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHemorragia, hematoma, dispepsia; raro: PTT, neutropenia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Clopidogrel.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AHA/ACC. SCA / DAPT (contexto).",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "FDA. Clopidogrel — alerta CYP2C19.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

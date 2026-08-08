@@ -51,6 +51,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "alp-001",
+      "name": "Alprazolam",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "ami-001",
       "name": "Amikacina",
       "branch": "atencion-sanitaria",
@@ -401,6 +408,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "cpg-001",
+      "name": "Clopidogrel",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "clp-001",
       "name": "Clorpromazina",
       "branch": "atencion-sanitaria",
@@ -614,8 +628,8 @@
       "id": "esp-001",
       "name": "Espironolactona",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "est-001",
@@ -751,6 +765,13 @@
       "updatedAt": "2026-08-07"
     },
     {
+      "id": "glb-001",
+      "name": "Glibenclamida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "glc-001",
       "name": "Glucagón",
       "branch": "atencion-sanitaria",
@@ -789,8 +810,8 @@
       "id": "hct-001",
       "name": "Hidroclorotiazida",
       "branch": "atencion-sanitaria",
-      "version": "1.0.3",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "hdc-001",
@@ -1496,8 +1517,8 @@
       "id": "war-001",
       "name": "Warfarina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "zid-001",

@@ -2,49 +2,36 @@
   "id": "war-001",
   "name": "Warfarina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antagonista de la vitamina K. Anticoagulante.",
-  "indications": "## Indicaciones principales\n\nAntagonista de la vitamina K. Anticoagulante.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista de vitamina K. Adulto: inicio típico **2,5–5 mg VO/día** (ancianos/frágiles **1–2,5 mg**); ajustar a INR objetivo (p. ej. **2–3** FA/TVP; **2,5–3,5** válvula mecánica mitral). Antídoto: vitamina K ± CCP/PFC.",
+  "indications": "## Indicaciones\n\n- FA con indicación de ACO, TVP/TEP, válvulas mecánicas, síndromes antifosfolípido (según guía).\n\n## Precauciones\n\n- Interacciones múltiples (antibióticos, amiodarona, AINE, alcohol, verduras ricos en K).\n- Hemorragia — educar; INR frecuentes al inicio y tras cambios.\n- Embarazo: teratogénica (1.er trimestre) — anticoagulantes alternativos.\n- Muchos pacientes migran a ACOD si elegibles (no válvulas mecánicas).\n\n> Misma hora cada día; no automedicar cambios de dosis.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 5 mg (y otras concentraciones).",
-      "dose": "Dosis inicial 5 mg/día VO; ajustar según INR objetivo.",
-      "administration": "VO a misma hora diaria."
+      "presentation": "Comp. 1–2,5–5–10 mg.",
+      "dose": "Inicio: **5 mg/día** × 1–2 días (o **2,5 mg** en ancianos/alto riesgo) luego ajustar. Mantenimiento frecuente **2–10 mg/día**. Puente con heparina hasta INR terapéutico si preciso.",
+      "administration": "VO 1×/día, mismo horario.",
+      "notes": "Tabla de ajuste según INR institucional."
     },
     "pediatrico": {
-      "dose": "Según indicación del especialista (de acuerdo al RIN esperado). Administrar una vez por día.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 1 - 2 mg; Suspensión (preparado magistral): 1 mg/ml",
-      "notes": "Usar con precaución en pacientes con trauma, infección aguda, moderada a severa falla renal y moderada a leve hipertensión. Contraindicado en pacientes con tendencia a hemorragias (úlceras gástricas, aneurismas cerebrales, sistema nerviosos central, grandes cirugías, bloqueo lumbar regional). Monitorear la respuesta de los pacientes con insuficiencia hepática, puede ser marcadamente aumentada en ictericia obstructiva debido a la absorción reducida de vitamina K y en pacientes con cirrosis y/o hepatitis."
+      "presentation": "Comp.; suspensión magistral.",
+      "dose": "Inicio orientativo **0,1–0,2 mg/kg/día** (máx. 5–10 mg) — solo hematología; INR frecuente.",
+      "administration": "VO.",
+      "notes": "No ambulatorio sin programa de anticoagulación."
     },
     "neonatal": {
-      "dose": "Uso muy restringido; esquemas cardiológicos neonatales.",
-      "administration": "VO."
+      "presentation": "Uso excepcional.",
+      "dose": "Solo hematología neonatal.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Estabilidad\n\n- Comprimidos en envase original.",
-  "adverseEffects": "## Efectos adversos\n\nHemorragias en distintos órganos, sangrado, cianosis en talones, vasculitis, mareos, fatiga, fiebre, cefalea, parestesias, dermatitis, gangrena de la piel u otros tejidos, necrosis de piel, dolor abdominal, hematuria, colestasis.",
+  "stability": "## Estabilidad\n\n- Conservar protegido de humedad/luz según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nHemorragia, hematomas; necrosis cutánea (raro, déficit proteína C); síndrome del dedo púrpura; teratogenicidad.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Warfarina* (cód. 1715, ATC B01AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "AEMPS CIMA. Warfarina / acenocumarol context.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ACC/AHA. Atrial fibrillation / valve anticoagulation.", "url": "https://www.heart.org/" },
+    { "citation": "CHEST. Antithrombotic guidelines context.", "url": "https://www.chestnet.org/" },
+    { "citation": "ANMAT. Prospectos warfarina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

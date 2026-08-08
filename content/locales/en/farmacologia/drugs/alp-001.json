@@ -1,0 +1,50 @@
+{
+  "id": "alp-001",
+  "name": "Alprazolam",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Intermediate half-life benzodiazepine. Adult anxiety: **0.25–0.5 mg PO q8h** (usual max **4 mg/day**). Panic: titrate to **1–10 mg/day** divided (specialist). Elderly: start **0.25 mg q12h**. Dependence and respiratory depression — short courses.",
+  "indications": "## Indications\n\n- Anxiety disorder; panic attacks (regimens).\n\n## Precautions\n\n- Dependence, tolerance, withdrawal — do not stop abruptly; limit duration.\n- Potentiates alcohol/opioids/depressants → respiratory depression.\n- Elderly: falls, confusion — lowest doses.\n- Pregnancy/lactation: avoid if possible.\n\n> Not long-term first-line vs SSRIs/therapy.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 0.25–0.5–1–2 mg; XR by brand.",
+      "dose": "Anxiety: **0.25–0.5 mg PO q8h**; increase slowly. Usual max **4 mg/day**. Panic: low start → often **1–4 mg/day** (some schemes up to **10 mg** — specialist). XR: once daily per label.",
+      "administration": "PO; do not chew XR.",
+      "notes": "Taper 10–25%/1–2 weeks when stopping."
+    },
+    "pediatrico": {
+      "presentation": "Not routine.",
+      "dose": "Exceptional under child psychiatry — no standard ambulatory regimen.",
+      "administration": "—",
+      "notes": "Prefer other strategies."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Controlled substance — stock control; store per label.",
+  "adverseEffects": "## Adverse effects\n\nSedation, dizziness, anterograde amnesia, ataxia, dependence; rare paradoxical agitation.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Alprazolam.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Benzodiazepine boxed warning — abuse, addiction, withdrawal.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Anxiety — short-term benzodiazepine use.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

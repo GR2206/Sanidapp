@@ -1,0 +1,50 @@
+{
+  "id": "glb-001",
+  "name": "Glibenclamida",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Sulfonilureia (gliburida). Adulto: início **2,5–5 mg VO/dia** com café da manhã; manutenção **2,5–15 mg/dia** (máx. habitual **15–20 mg**). Alto risco de hipoglicemia — preferir alternativas em idosos/IRC. Não de rotina na gravidez.",
+  "indications": "## Indicações\n\n- DM2 quando dieta/exercício/metformina não bastam (cada vez menos 1ª linha).\n\n## Precauções\n\n- Hipoglicemia prolongada (meia-vida longa) — risco em idosos, IRC, jejum, álcool.\n- Evitar se ClCr baixo; muitas diretrizes desaconselham em >65–70 anos.\n- Interações: ↑ efeito com AINE, sulfonamidas, álcool; ↓ com rifampicina.\n\n> Educar sobre sintomas de hipoglicemia e não pular refeições.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 2,5–5 mg.",
+      "dose": "Início **2,5–5 mg VO 1×/dia** com o café da manhã. Titular em dias–semanas. Doses >10 mg: frequentemente dividir em 2 tomadas. Máx. habitual **15 mg/dia** (algumas bulas **20 mg**).",
+      "administration": "VO com alimentos (primeira refeição do dia).",
+      "notes": "Se hipoglicemia: reduzir/suspender; avaliar desprescrição."
+    },
+    "pediatrico": {
+      "presentation": "Não rotineiro.",
+      "dose": "DM2 pediátrica: só especialista (preferir metformina/insulina).",
+      "administration": "—",
+      "notes": "Sem uso habitual."
+    },
+    "neonatal": {
+      "presentation": "Não indicado (salvo diabetes neonatal monogênica — especialista).",
+      "dose": "Não rotineiro.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHipoglicemia, ganho de peso, náuseas, erupção; raro: hematológicos, fotossensibilidade.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Glibenclamida.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ADA. Standards of Care — risco de hipoglicemia com sulfonilureias.",
+      "url": "https://diabetes.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Beers Criteria / desprescrição em idosos.",
+      "url": "https://www.americangeriatrics.org/"
+    }
+  ],
+  "translationReviewed": true
+}

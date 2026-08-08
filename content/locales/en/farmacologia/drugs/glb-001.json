@@ -1,0 +1,50 @@
+{
+  "id": "glb-001",
+  "name": "Glibenclamide (Glyburide)",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Sulfonylurea (glyburide). Adult: start **2.5–5 mg PO/day** with breakfast; maintenance **2.5–15 mg/day** (usual max **15–20 mg**). High hypoglycemia risk — prefer alternatives in elderly/CKD. Not routine in pregnancy.",
+  "indications": "## Indications\n\n- T2DM when diet/exercise/metformin are insufficient (less often first-line now).\n\n## Precautions\n\n- Prolonged hypoglycemia (long half-life) — risk in elderly, CKD, fasting, alcohol.\n- Avoid if low CrCl; many guidelines discourage in >65–70 y.\n- Interactions: ↑ effect with NSAIDs, sulfonamides, alcohol; ↓ with rifampin.\n\n> Counsel on hypoglycemia symptoms; do not skip meals.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 2.5–5 mg.",
+      "dose": "Start **2.5–5 mg PO once daily** with breakfast. Titrate over days–weeks. Doses >10 mg: often split BID. Usual max **15 mg/day** (some labels **20 mg**).",
+      "administration": "PO with food (first meal of the day).",
+      "notes": "If hypoglycemia: reduce/stop; consider deprescribing."
+    },
+    "pediatrico": {
+      "presentation": "Not routine.",
+      "dose": "Pediatric T2DM: specialist only (prefer metformin/insulin).",
+      "administration": "—",
+      "notes": "Not usual use."
+    },
+    "neonatal": {
+      "presentation": "Not indicated (except monogenic neonatal diabetes — specialist).",
+      "dose": "Not routine.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nHypoglycemia, weight gain, nausea, rash; rare: hematologic, photosensitivity.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Glibenclamide.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ADA. Standards of Care — sulfonylurea hypoglycemia risk.",
+      "url": "https://diabetes.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Beers Criteria / deprescribing in older adults.",
+      "url": "https://www.americangeriatrics.org/"
+    }
+  ],
+  "translationReviewed": true
+}

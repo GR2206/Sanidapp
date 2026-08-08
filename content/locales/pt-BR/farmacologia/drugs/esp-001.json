@@ -1,51 +1,50 @@
 {
   "id": "esp-001",
   "name": "Espironolactona",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Diurético poupador de potássio, antagonista da aldosterona, para tratamento de edema e hipocalemia induzida por diuréticos.",
-  "indications": "## Indicações principais\n\nDiurético poupador de potássio, antagonista da aldosterona, para tratamento de edema e hipocalemia induzida por diuréticos.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antagonista mineralocorticoide (poupador de K+). IC/HAS adulto: **12,5–25 mg VO/dia** (até **50 mg**). Ascite: **100–400 mg/dia**. Hiperaldosteronismo: doses altas. Pediatria: **1–3 mg/kg/dia**. Vigiar hiperpotassemia.",
+  "indications": "## Indicações\n\n- IC com FE reduzida (RALES/diretrizes); HAS resistente; edema/ascite cirrótica; hiperaldosteronismo; hirsutismo (off-label).\n\n## Precauções\n\n- Hiperpotassemia — não associar a IECA+BRA+suplemento K sem controle; IRC.\n- Ginecomastia, mastodinia, irregularidades menstruais (antiandrogênio).\n- Evitar na gravidez (antiandrogênio).\n\n> Controlar K+ e creatinina 3–7 dias após início/aumento.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 25–100 mg.",
-      "dose": "25–50 mg V.O. a cada 24 h; ascite: 100–400 mg/dia em esquemas.",
-      "administration": "V.O."
+      "presentation": "Comp. 25–50–100 mg.",
+      "dose": "IC: início **12,5–25 mg/dia**; máx. habitual **50 mg/dia**. HAS: **25–50 mg/dia**. Ascite: **100 mg/dia** início → até **400 mg/dia** com furosemida em esquemas. Hiperaldosteronismo: **100–400 mg/dia**.",
+      "administration": "VO com alimentos se intolerância GI.",
+      "notes": "Suspender se K+ ≥5,5 ou deterioração renal marcada."
     },
     "pediatrico": {
-      "dose": "Inicial: 1 mg/kg/dia a cada 12-24 h, dose máxima: 3,3 mg/kg/dia (até 100 mg/dia). Adultos: Edema, Hipocalemia: 25 mg - 200 mg a cada 12 - 24 h; Hipertensão: 25 mg - 50 mg/dia.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 25 - 100 mg; Suspensão (preparado magistral): 5 mg/ml",
-      "notes": "Contraindicado em hipercalemia, hiponatremia, insuficiência renal grave, anúria. Com anti-inflamatórios não esteroides, ciclosporina, sais de potássio: alto risco de hipercalemia. Pode ocorrer potencialização dos efeitos das drogas anti-hipertensivas e de outros diuréticos."
+      "presentation": "Comp.; suspensão magistral.",
+      "dose": "**1–3 mg/kg/dia** VO em 1–2 tomadas (máx. conforme indicação; frequentemente ≤100 mg).",
+      "administration": "VO.",
+      "notes": "Cardiologia/nefrologia pediátrica."
     },
     "neonatal": {
-      "dose": "1–3 mg/kg/dia conforme protocolo diurético da UTI neonatal.",
-      "administration": "V.O."
+      "presentation": "Magistral.",
+      "dose": "Orientativo **1–3 mg/kg/dia** — só NNU/cardiologia.",
+      "administration": "VO.",
+      "notes": "Monitorar K+."
     }
   },
-  "stability": "## Estabilidade\n\n- V.O. estável.",
-  "adverseEffects": "## Efeitos adversos\n\nHipercalemia, hiponatremia, cefaleia, anorexia, náuseas, diarreia, vômitos, ginecomastia em homens, distúrbios menstruais em mulheres.",
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHiperpotassemia, ginecomastia, tontura, náuseas; acidose metabólica hiperclorêmica rara.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Espironolactona (cód. 0085, ATC C03DA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Espironolactona.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA/ACC. Insuficiência cardíaca — doses de ARM.",
+      "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEP Pediamécum. Espironolactona.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

@@ -2,50 +2,49 @@
   "id": "hct-001",
   "name": "Hydrochlorothiazide",
   "branch": "atencion-sanitaria",
-  "version": "1.0.3",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Thiazide diuretic. Hypertension, edema, and nephrogenic diabetes insipidus.",
-  "indications": "## Main indications\n\nThiazide diuretic. Hypertension, edema, and nephrogenic diabetes insipidus.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Thiazide diuretic. Adult HTN: **12.5–25 mg PO morning** (up to **50 mg**; doses >25 mg ↑ metabolic effects with little BP gain). Edema: **25–100 mg/day**. Pediatrics: **1–2 mg/kg/day**. Watch Na+, K+, uric acid, glucose.",
+  "indications": "## Indications\n\n- Hypertension (alone or with ACEI/ARB/amlodipine).\n- Edema; nephrogenic diabetes insipidus (low doses — specialist).\n\n## Precautions\n\n- Hyponatremia (elderly), hypokalemia, hyperuricemia/gout, ↑ glucose/lipids.\n- Ineffective if GFR very low (<30 mL/min) — prefer loop diuretic.\n- Photosensitivity; sulfonamide allergy (cross-reactivity debated).\n\n> Take in the morning to avoid nocturia.",
   "dilution": {
     "adulto": {
-      "presentation": "12.5–25 mg tablets.",
-      "dose": "12.5–50 mg PO every 24 h in the morning.",
-      "administration": "PO."
+      "presentation": "Tabs 12.5–25–50 mg; fixed combos.",
+      "dose": "HTN: **12.5–25 mg PO/day** morning; useful max often **50 mg**. Edema: **25–100 mg/day** in 1–2 doses.",
+      "administration": "PO in the morning.",
+      "notes": "Replace K+ or add K-sparing if needed."
     },
     "pediatrico": {
-      "dose": "Neonates and infants <6 months: 2–4 mg/kg/day every 12 h; maximum 37.5 mg/day. Infants >6 months and children: 2 mg/kg/day every 12 h; maximum 100 mg/day.",
-      "administration": "PO",
-      "presentation": "12.5–25 mg tablets",
-      "notes": "Administer with food. NSAIDs decrease antihypertensive effect. With amphotericin B increases potassium loss."
+      "presentation": "Tabs; compounded.",
+      "dose": "**1–2 mg/kg/day** PO (usual max **37.5–50 mg/day** by age/label).",
+      "administration": "PO morning.",
+      "notes": "Monitor electrolytes."
     },
     "neonatal": {
-      "dose": "2–4 mg/kg/day every 12 h; maximum 37.5 mg/day.",
-      "administration": "PO."
+      "presentation": "Compounded.",
+      "dose": "NICU/nephrology protocol only.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Stability\n\n- Tablets per package insert.",
-  "adverseEffects": "## Adverse effects\n\nHypotension, headache, dizziness, hypokalemia, hyperglycemia, hyperlipidemia, hyperuricemia, nausea, vomiting, diarrhea, muscle weakness, photosensitivity.",
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nHypokalemia, hyponatremia, hyperuricemia, dizziness, photosensitivity; rare: pancreatitis, blood dyscrasias.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — hydroCHLOROthiazide (ATC C03AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Hydrochlorothiazide.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA/ACC. Hypertension — thiazide dosing.",
+      "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEP Pediamécum. Hydrochlorothiazide.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

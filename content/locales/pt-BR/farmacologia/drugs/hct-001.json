@@ -1,51 +1,50 @@
 {
   "id": "hct-001",
   "name": "Hidroclorotiazida",
-  "version": "1.0.3",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Diurético tiazídico. Hipertensão arterial, edemas e diabetes insípida nefrogênica.",
-  "indications": "## Indicações principais\n\nDiurético tiazídico. Hipertensão arterial, edemas e diabetes insípida nefrogênica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Diurético tiazídico. HAS adulto: **12,5–25 mg VO de manhã** (até **50 mg**; doses >25 mg ↑ efeitos metabólicos sem muito ganho de PA). Edema: **25–100 mg/dia**. Pediatria: **1–2 mg/kg/dia**. Vigiar Na+, K+, ácido úrico, glicemia.",
+  "indications": "## Indicações\n\n- Hipertensão (só ou em combo com IECA/BRA/anlodipino).\n- Edemas; diabetes insípida nefrogênica (doses baixas — especialista).\n\n## Precauções\n\n- Hiponatremia (idosos), hipopotassemia, hiperuricemia/gota, ↑ glicemia/lípides.\n- Ineficaz se FG muito baixo (<30 mL/min) — preferir diurético de alça.\n- Fotossensibilidade; alergia a sulfonamidas (cruzamento discutido).\n\n> Tomar de manhã para não noctúria.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 12,5–25 mg.",
-      "dose": "12,5–50 mg V.O. a cada 24 h pela manhã.",
-      "administration": "V.O."
+      "presentation": "Comp. 12,5–25–50 mg; combos fixos.",
+      "dose": "HAS: **12,5–25 mg VO/dia** de manhã; máx. útil frequente **50 mg**. Edema: **25–100 mg/dia** em 1–2 tomadas.",
+      "administration": "VO de manhã.",
+      "notes": "Repor K+ ou associar poupador se preciso."
     },
     "pediatrico": {
-      "dose": "Neonatos e lactentes <6 meses: 2–4 mg/kg/dia a cada 12 h; dose máxima: 37,5 mg/dia. Lactentes >6 meses e crianças: 2 mg/kg/dia a cada 12 h; dose máxima: 100 mg/dia.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos 12,5–25 mg",
-      "notes": "Administrar com alimentos. AINEs diminuem efeito anti-hipertensivo. Com anfotericina B aumenta perda de potássio."
+      "presentation": "Comp.; magistral.",
+      "dose": "**1–2 mg/kg/dia** VO (máx. habitual **37,5–50 mg/dia** conforme idade/bula).",
+      "administration": "VO de manhã.",
+      "notes": "Controle de eletrólitos."
     },
     "neonatal": {
-      "dose": "2–4 mg/kg/dia a cada 12 h; máximo 37,5 mg/dia.",
-      "administration": "V.O."
+      "presentation": "Magistral.",
+      "dose": "Só protocolo NNU/nefrologia.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Estabilidade\n\n- Comprimidos conforme bula.",
-  "adverseEffects": "## Efeitos adversos\n\nHipotensão, cefaleia, tontura, hipocalemia, hiperglicemia, hiperlipidemia, hiperuricemia, náuseas, vômitos, diarreia, fraqueza muscular, fotossensibilidade.",
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHipopotassemia, hiponatremia, hiperuricemia, tontura, fotossensibilidade; raro: pancreatite, discrasias.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — hidroCLOROtiazida (ATC C03AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Hidroclorotiazida.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AHA/ACC. Hipertensão — doses de tiazídico.",
+      "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEP Pediamécum. Hidroclorotiazida.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

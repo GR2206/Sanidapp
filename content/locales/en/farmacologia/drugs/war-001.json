@@ -2,50 +2,49 @@
   "id": "war-001",
   "name": "Warfarin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Vitamin K antagonist. Anticoagulant.",
-  "indications": "## Main indications\n\nVitamin K antagonist. Anticoagulant.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Vitamin K antagonist. Adult: typical start **2.5–5 mg PO/day** (elderly/frail **1–2.5 mg**); adjust to INR goal (e.g. **2–3** AF/DVT; **2.5–3.5** mechanical mitral valve). Antidote: vitamin K ± PCC/FFP.",
+  "indications": "## Indications\n\n- AF with OAC indication, DVT/PE, mechanical valves, antiphospholipid syndromes (per guideline).\n\n## Precautions\n\n- Many interactions (antibiotics, amiodarone, NSAIDs, alcohol, vitamin K–rich foods).\n- Bleeding — educate; frequent INR at start and after changes.\n- Pregnancy: teratogenic (1st trimester) — alternative anticoagulants.\n- Many eligible patients move to DOACs (not mechanical valves).\n\n> Same time daily; do not self-adjust dose.",
   "dilution": {
     "adulto": {
-      "presentation": "5 mg tablets (and other strengths).",
-      "dose": "Initial dose 5 mg/day PO; adjust per target INR.",
-      "administration": "PO at the same time daily."
+      "presentation": "Tabs 1–2.5–5–10 mg.",
+      "dose": "Start: **5 mg/day** × 1–2 days (or **2.5 mg** in elderly/high risk) then adjust. Usual maintenance **2–10 mg/day**. Bridge with heparin until therapeutic INR if needed.",
+      "administration": "PO once daily, same time.",
+      "notes": "Institutional INR adjustment nomogram."
     },
     "pediatrico": {
-      "dose": "Per specialist indication (according to expected INR). Administer once daily.",
-      "administration": "PO",
-      "presentation": "Tablets: 1 - 2 mg; Suspension (compounded): 1 mg/mL",
-      "notes": "Use with caution in patients with trauma, acute infection, moderate to severe renal failure, and moderate to mild hypertension. Contraindicated in patients with bleeding tendency (gastric ulcers, cerebral aneurysms, central nervous system, major surgery, regional lumbar block). Monitor response in patients with hepatic insufficiency; may be markedly increased in obstructive jaundice due to reduced vitamin K absorption and in patients with cirrhosis and/or hepatitis."
+      "presentation": "Tabs; compounded suspension.",
+      "dose": "Start guide **0.1–0.2 mg/kg/day** (max 5–10 mg) — hematology only; frequent INR.",
+      "administration": "PO.",
+      "notes": "Not ambulatory without anticoagulation program."
     },
     "neonatal": {
-      "dose": "Very restricted use; neonatal cardiology regimens.",
-      "administration": "PO."
+      "presentation": "Exceptional use.",
+      "dose": "Neonatal hematology only.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Stability\n\n- Tablets in original container.",
-  "adverseEffects": "## Adverse effects\n\nHemorrhage in various organs, bleeding, heel cyanosis, vasculitis, dizziness, fatigue, fever, headache, paresthesias, dermatitis, skin or other tissue gangrene, skin necrosis, abdominal pain, hematuria, cholestasis.",
+  "stability": "## Stability\n\n- Protect from moisture/light per label.",
+  "adverseEffects": "## Adverse effects\n\nBleeding, bruising; skin necrosis (rare, protein C deficiency); purple toe syndrome; teratogenicity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Warfarin* (code 1715, ATC B01AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Warfarin / acenocoumarol context.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "ACC/AHA. Atrial fibrillation / valve anticoagulation.",
+      "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "CHEST. Antithrombotic guidelines context.",
+      "url": "https://www.chestnet.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }
