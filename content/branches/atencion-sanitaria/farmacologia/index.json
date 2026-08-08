@@ -341,8 +341,8 @@
       "id": "clo-001",
       "name": "Clonidina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "clp-001",
@@ -537,8 +537,8 @@
       "id": "fen-001",
       "name": "Fenilefrina",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-25"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "fny-001",
@@ -775,8 +775,8 @@
       "id": "lab-001",
       "name": "Labetalol",
       "branch": "atencion-sanitaria",
-      "version": "1.1.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "lvt-001",
@@ -957,8 +957,8 @@
       "id": "nip-001",
       "name": "Nitroprusiato sódico",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "nor-001",
@@ -1286,8 +1286,8 @@
       "id": "vas-001",
       "name": "Vasopresina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "vec-001",

@@ -1,37 +1,31 @@
 {
   "id": "nip-001",
-  "name": "Nitroprussiato sódico",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Vasodilatador arterial e venoso.",
-  "indications": "## Indicações principais\n\nVasodilatador arterial e venoso.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "name": "Nitroprussiato de sódio",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Vasodilatador arterial/venoso de ação imediata. Adulto: início **0,3–0,5 µg/kg/min**, titulação usual **0,5–5 µg/kg/min** (máx. **10 µg/kg/min**). Pediatria: início **0,3–1 µg/kg/min**, manutenção freq. ≤**4–6 µg/kg/min**. Proteger da luz; risco cianeto/tiocianato.",
+  "indications": "## Indicações\n\n- Emergência hipertensiva com lesão de órgão quando se precisa controle imediato.\n- Pós-carga em IC aguda / cirurgia cardíaca conforme protocolo.\n\n## Precauções\n\n- **Toxicidade por cianeto** (doses altas, >24–48 h, falência hepática) e **tiocianato** (IRC, uso prolongado).\n- Proteger bolsa e linha da luz; descartar se azul/cinza/escuro.\n- Preferir **SG 5%**. Via central preferível. PA invasiva recomendada.\n\n> Usar a menor dose e o menor tempo possíveis.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola ou frasco para perfusão E.V. conforme apresentação institucional.",
-      "reconstitution": "Reconstituir conforme bula; diluir em SG 5% ou NaCl 0,9%.",
-      "diluent": "SG 5% ou NaCl 0,9%.",
-      "finalConcentration": "Concentração conforme guia do serviço (bomba de infusão).",
-      "dose": "0,3–10 mcg/kg/min titulado; máximo tempo de infusão conforme protocolo.",
-      "infusionRate": "Infusão contínua protegida da luz.",
-      "administration": "E.V. contínua em bomba; via central preferida.",
-      "compatibility": "Verificar compatibilidade em linha com outros vasopressores.",
-      "notes": "Monitorizar FC, PA invasiva, diurese e perfusão periférica."
+      "presentation": "FA 50 mg (ou outras conforme marca).",
+      "dose": "Início **0,3–0,5 µg/kg/min**; titular a cada poucos minutos. Faixa usual **0,5–5 µg/kg/min**; teto **10 µg/kg/min**. Evitar doses altas prolongadas.",
+      "administration": "Infusão contínua em bomba; diluir em SG 5% (opaco/protegido). Concentrações habituais 50–200 µg/mL conforme cartilha.",
+      "notes": "Monitorar PA, FC, lactato, sinais de intoxicação (acidose, confusão)."
     },
     "pediatrico": {
-      "presentation": "F.A.: 50 mg",
-      "administration": "E.V.",
-      "diluent": "SOMENTE Dextrosa 5%.",
-      "finalConcentration": "Usual 200 mcg/mL. Em restrição hídrica, 1000 mcg/mL.",
-      "infusionRate": "Somente por BIC, conforme PA.",
-      "dose": "Inicial: 0,5-1 µg/kg/min, manutenção: até 4-6 µg/kg/min",
-      "notes": "Diluir em dextrosa a 5% em uma concentração de 0,2 mg/ml (concentração máxima de diluição: 1 mg/ml); a diluição dura 24 h se mantida protegida da luz."
+      "presentation": "FA 50 mg.",
+      "dose": "Início **0,5–1 µg/kg/min**; manutenção habitual até **4–6 µg/kg/min** (máx. institucional muitas vezes **10 µg/kg/min** breve).",
+      "administration": "Só bomba; **só SG 5%**. Conc. usual **200 µg/mL**; restrição hídrica até **1000 µg/mL**.",
+      "notes": "Diluição protegida da luz ~24 h."
     }
   },
-  "stability": "## Geral\n\n- Proteger estritamente da luz; descartar se solução azul/cinza.\n\n## Guia pediátrica\n\n- 24 h uma vez reconstituído. 24 h uma vez diluído.",
-  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, sudorese, inquietação, cefaleia, palpitações. Intoxicação por tiocianato.",
+  "stability": "## Estabilidade\n\n- Reconstituído/diluído: ~24 h se protegido da luz. Descartar se descoloração.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão excessiva, taquicardia reflexa, cefaleia, náuseas; intoxicação cianeto/tiocianato; hipotireoidismo com tiocianato crônico.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — nitroPRUSIATO de Sódio (cód. 0151, ATC C02DD).",
+      "citation": "Hospital Garrahan. Formulário — nitroprussiato.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -39,22 +33,16 @@
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
+      "citation": "Society of Critical Care Medicine (SCCM).",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

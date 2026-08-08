@@ -2,45 +2,47 @@
   "id": "clo-001",
   "name": "Clonidine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Antihypertensive, alpha-2 adrenergic agonist. For sedation, pain, prevention of opioid withdrawal syndrome.",
-  "indications": "## Main indications\n\nAntihypertensive, alpha-2 adrenergic agonist. For sedation, pain, prevention of opioid withdrawal syndrome.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Central α2 agonist. Adult HTN PO: **0.1 mg every 12 h**, usual titration **0.2–0.6 mg/day**. ICU sedation: **0.2–2 µg/kg/h** IV. Pediatric crisis: **2–6 µg/kg** IV (max **300 µg**). Do not stop abruptly.",
+  "indications": "## Indications\n\n- Hypertension (PO; patches in some countries).\n- Adjunctive sedation/analgesia and opioid withdrawal prevention/treatment in ICU.\n- Selected hypertensive crisis (PO/IV by availability).\n\n## Precautions\n\n- Bradycardia, sedation, dry mouth. Adjust if GFR very low.\n- **Hypertensive rebound** if abrupt stop after prolonged use — wean over days.\n- Monitor BP and HR.\n\n> Local ampoules often **150 µg/mL**.",
   "dilution": {
+    "adulto": {
+      "presentation": "Tabs 0.1–0.15 mg; ampoule 150 µg/mL; TTS patch by country.",
+      "dose": "HTN PO: start **0.1 mg every 12 h**; usual titration **0.2–0.6 mg/day** (usual max **2.4 mg/day**). Urgency PO: **0.1–0.2 mg**, repeat by response. Sedation/withdrawal IV: **0.2–2 µg/kg/h** (titrate).",
+      "administration": "PO. IV: dilute in NS/D5W for pump per card (e.g. 150 µg in 24 mL ≈ 6.25 µg/mL).",
+      "notes": "Gradual wean after >2 weeks of use."
+    },
     "pediatrico": {
-      "presentation": "1 mL ampoules: 0.150 mg/mL; Solution (compounded preparation): 10 µg/mL",
-      "reconstitution": "Once reconstituted, 1 amp. up to 24 mL.",
-      "administration": "IV; PO",
-      "diluent": "0.9% NaCl, 5% dextrose.",
-      "finalConcentration": "Per dilution for infusion pump (1 amp. up to 24 mL).",
-      "infusionRate": "Per medical indication, with infusion pump.",
-      "dose": "Severe hypertension: 2 to 18 years: IV: 2-6 µg/kg single daily dose, maximum 300 µg; PO: initial 0.5-1 µg/kg every 8 h and increase if needed up to maximum 25 µg/kg/day in divided doses (do not exceed 1.2 mg/day); Sedation, pain, prevention of opioid withdrawal syndrome: IV: initial: 0.25 µg/kg/h, increase by 0.1 µg/kg/h until adequate sedation (in most children effect should be seen with 1 - 3 µg/kg/h); PO: 1-3 µg/kg every 8 h, maximum dose 5 µg/kg every 8 h. Adjust dose with glomerular filtration < 10 mL/min.",
-      "notes": "Blood pressure and pulse must be monitored. Do not discontinue abruptly if administered for more than 2 weeks; reduce daily over 5 days to 1 µg/kg/dose every 8 h then discontinue (hypertensive crisis). See practical guide for analgosedation management and weaning in intermediate and moderate care units."
+      "presentation": "Ampoule 150 µg/mL; compounded 10 µg/mL; PO.",
+      "dose": "HTN crisis (2–18 years): IV **2–6 µg/kg** single dose (max **300 µg**). PO: start **0.5–1 µg/kg every 8 h**, up to max **25 µg/kg/day** (not > **1.2 mg/day**). Sedation/pain/withdrawal: IV start **0.25 µg/kg/h**, increase by 0.1 µg/kg/h (usual effect **1–3 µg/kg/h**); PO **1–3 µg/kg every 8 h** (max **5 µg/kg q8h**).",
+      "administration": "IV/PO; infusion on pump.",
+      "notes": "Adjust if GFR <10 mL/min. No abrupt stop."
     }
   },
-  "stability": "## Pediatric guide\n\n- 24 h. Once reconstituted 1 amp. up to 24 mL.",
-  "adverseEffects": "## Adverse effects\n\nContact dermatitis, erythema, pruritus, constipation, nausea, xerostomia, dizziness, fatigue, somnolence, sedation, depression, fluid retention, bradycardia, Raynaud syndrome, headache.",
+  "stability": "## Stability\n\n- Pump dilution: ~24 h (usual pediatric card).",
+  "adverseEffects": "## Adverse effects\n\nSedation, dry mouth, bradycardia, hypotension, constipation, depression, rebound hypertension on withdrawal.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — cloNIDine Hydrochloride (code 0490, ATC C02AC).",
+      "citation": "Garrahan Hospital. Formulary — clonidine.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "Society of Critical Care Medicine (SCCM).",
+      "url": "https://www.sccm.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "citation": "American Academy of Pediatrics. Critical care medication guidance.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

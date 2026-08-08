@@ -2,44 +2,31 @@
   "id": "clo-001",
   "name": "Clonidina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antihipertensivo, agonista alfa 2-adrenérgico. Para sedación, dolor, prevención de síndrome de abstinencia de opiáceos.",
-  "indications": "## Indicaciones principales\n\nAntihipertensivo, agonista alfa 2-adrenérgico. Para sedación, dolor, prevención de síndrome de abstinencia de opiáceos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Agonista α2 central. Adulto HTA VO: **0,1 mg cada 12 h**, titulación habitual **0,2–0,6 mg/día**. Sedación UCI: **0,2–2 µg/kg/h** IV. Pediatría crisis: **2–6 µg/kg** IV (máx. **300 µg**). No suspender bruscamente.",
+  "indications": "## Indicaciones\n\n- Hipertensión (VO; parches en algunos países).\n- Sedación / analgesia adyuvante y prevención/tratamiento de abstinencia de opioides en UCI.\n- Crisis hipertensiva seleccionada (VO/IV según disponibilidad).\n\n## Precauciones\n\n- Bradicardia, sedación, sequedad de boca. Ajuste si FG muy bajo.\n- **Rebound hipertensivo** si suspensión abrupta tras uso prolongado — destetar en días.\n- Monitorizar PA y FC.\n\n> Ampollas locales frecuentes: **150 µg/mL**.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comp. 0,1–0,15 mg; ampolla 150 µg/mL; parche TTS según país.",
+      "dose": "HTA VO: inicio **0,1 mg cada 12 h**; titulación usual **0,2–0,6 mg/día** (máx. habitual **2,4 mg/día**). Urgencia VO: **0,1–0,2 mg**, repetir según respuesta. Sedación/abstinencia IV: **0,2–2 µg/kg/h** (titular).",
+      "administration": "VO. IV: diluir en SF/DX 5% para bomba según cartilla (p. ej. 150 µg en 24 mL ≈ 6,25 µg/mL).",
+      "notes": "Destete gradual tras >2 semanas de uso."
+    },
     "pediatrico": {
-      "presentation": "Ampollas de 1 ml: 0,150 mg/ml; Solución (preparado magistral): 10 µg/ml",
-      "reconstitution": "Una vez reconstituida, 1 amp. hasta 24 mL.",
-      "administration": "E.V.; V.O.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "Según dilución para BIC (1 amp. hasta 24 mL).",
-      "infusionRate": "Según indicación médica, con BIC.",
-      "dose": "Hipertensión grave: 2 a 18 años: E.V.: 2-6 µg/kg dosis única día, máximo 300 µg; V.O.: inicial 0,5-1 µg/kg cada 8 hs e ir aumentando si fuese necesario hasta un máximo 25 µg/kg/día en dosis divididas (no exceder 1,2 mg/día); Sedación, dolor, prevención de síndrome de abstinencia de opiáceos: E.V.: inicial: 0,25 µg/kg/hora, aumentar de a 0,1 µg/kg/hora hasta lograr una adecuada sedación (en la mayoría de los niños debería observarse el efecto con 1 - 3 µg/kg/hora); V.O.: 1-3 µg/kg cada 8 hs, dosis máxima 5 µg/kg cada 8 hs. Ajustar la dosis con filtrado glomerular &lt; 10 ml/min.",
-      "notes": "Debe monitorearse la presión sanguínea y el pulso. No suspender abruptamente si fue administrada por más de 2 semanas, reducir diariamente en el término de 5 días hasta 1 µg/kg/dosis, cada 8 hs y luego suspender (crisis hipertensiva). Ver Guía práctica para manejo analgosedación y su descenso en salas de cuidados intermedios y moderados."
+      "presentation": "Ampolla 150 µg/mL; solución magistral 10 µg/mL; VO.",
+      "dose": "Crisis HTA (2–18 años): IV **2–6 µg/kg** dosis única (máx. **300 µg**). VO: inicio **0,5–1 µg/kg cada 8 h**, hasta máx. **25 µg/kg/día** (no > **1,2 mg/día**). Sedación/dolor/abstinencia: IV inicio **0,25 µg/kg/h**, subir 0,1 µg/kg/h (efecto usual **1–3 µg/kg/h**); VO **1–3 µg/kg cada 8 h** (máx. **5 µg/kg c/8 h**).",
+      "administration": "IV/VO; infusión con BIC.",
+      "notes": "Ajustar si FG <10 mL/min. No corte brusco."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- 24 hs. Una vez reconstituida 1 amp. hasta 24 mL.",
-  "adverseEffects": "## Efectos adversos\n\nDermatitis de contacto, eritema, prurito, constipación, náuseas, xerostomía, mareos, fatiga, somnolencia, sedación, depresión, retención de líquido, bradicardia, síndrome de Raynaud, cefalea.",
+  "stability": "## Estabilidad\n\n- Dilución para bomba: ~24 h (cartilla pediátrica habitual).",
+  "adverseEffects": "## Efectos adversos\n\nSedación, xerostomía, bradicardia, hipotensión, estreñimiento, depresión, rebound hipertensivo al suspender.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — cloNIDina clorhidrato (cód. 0490, ATC C02AC).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — clonidina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "AEMPS CIMA. Ficha técnica clonidina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Society of Critical Care Medicine (SCCM). ICU sedation / withdrawal context.", "url": "https://www.sccm.org/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "American Academy of Pediatrics. Critical care medication guidance.", "url": "https://www.aap.org/" }
   ]
 }

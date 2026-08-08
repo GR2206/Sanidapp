@@ -2,67 +2,37 @@
   "id": "vas-001",
   "name": "Vasopresina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Para hipotensión refractaria a catecolaminas con hipoplejía.",
-  "indications": "## Indicaciones principales\n\nPara hipotensión refractaria a catecolaminas con hipoplejía.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Hormona antidiurética a dosis vasopresoras. Shock séptico adulto: **0,03 UI/min** fijo (rango **0,01–0,04 UI/min**) como adyuvante a noradrenalina. Pediatría: **0,0005–0,002 UI/kg/min** (**0,03–0,12 UI/kg/h**). No bolo rápido salvo protocolo.",
+  "indications": "## Indicaciones\n\n- Shock vasodilatado refractario / adyuvante en sepsis (Surviving Sepsis).\n- Diabetes insípida central y hemorragia digestiva varicosa: **esquemas distintos y dosis mayores** — no confundir con dosis de shock.\n\n## Precauciones\n\n- Isquemia digital, mesentérica, coronaria; hiponatremia relativa; ↓ gasto si postcarga excesiva.\n- Vía central preferible. No reemplaza volumen ni antibióticos.\n- Ampollas frecuentes: **20 UI/mL**.\n\n> En shock, dosis “fijas bajas”; subir por encima de 0,04 UI/min no suele aportar y aumenta isquemia.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
-      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
-      "diluent": "SG 5% o NaCl 0,9%.",
-      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
-      "dose": "0,03–0,04 UI/min fijo o 0,01–0,04 UI/min según protocolo séptico.",
-      "infusionRate": "Titular según TA y perfusión",
-      "administration": "IV continua en bomba; vía central preferida.",
-      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
-      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+      "presentation": "Ampolla 20 UI/mL.",
+      "dose": "Shock séptico: **0,03 UI/min** IV continuo (alternativa titulación **0,01–0,04 UI/min**). Varices (otro esquema): a menudo **0,2–0,4 UI/min** — solo hepatología/protocolo GI.",
+      "administration": "Diluir en SF/DX 5% (máx. conc. frec. **1 UI/mL**); bomba continua.",
+      "notes": "Monitorizar PA, lactato, perfusión periférica y diuresis."
     },
     "pediatrico": {
-      "presentation": "Ampollas de 1 ml: 20 U/ml",
-      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
-      "diluent": "SG 5% o NaCl 0,9%.",
-      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
-      "dose": "0,01-0,15 U/kg/hora",
-      "infusionRate": "Titular según TA y perfusión",
-      "administration": "E.V.",
-      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
-      "notes": "Para su administración E.V., diluir en solución fisiológica o en dextrosa 5% antes de utilizarse, máxima concentración de administración 1 U/ml. Desechar la solución diluida no utilizada luego de 18 hs a temperatura ambiente y 24 hs bajo refrigeración."
+      "presentation": "Ampolla 20 UI/mL.",
+      "dose": "Shock refractario: **0,0005–0,002 UI/kg/min** (equiv. orient. **0,03–0,12 UI/kg/h**); algunos protocolos usan hasta **0,15 UI/kg/h** — infectología/UCI.",
+      "administration": "IV; diluir SF/DX 5%; máx. **1 UI/mL**.",
+      "notes": "Diluido: desechar ~18 h T° amb / ~24 h refrigerado (cartilla)."
     },
     "neonatal": {
-      "presentation": "Ampolla o vial para perfusión IV según presentación institucional.",
-      "reconstitution": "Reconstituir según prospecto; diluir en SG 5% o NaCl 0,9%.",
-      "diluent": "SG 5% o NaCl 0,9%.",
-      "finalConcentration": "Concentración según cartilla del servicio (bomba de infusión).",
-      "dose": "Dosis por kg según protocolo NNU para shock refractario.",
-      "infusionRate": "Titular según TA y perfusión",
-      "administration": "IV continua en bomba; vía central preferida.",
-      "compatibility": "Verificar compatibilidad en línea con otros vasopresores.",
-      "notes": "Monitorizar FC, TA invasiva, diuresis y perfusión periférica."
+      "presentation": "Uso NNU especializado.",
+      "dose": "Shock refractario según protocolo NNU (µg/UI por kg/min).",
+      "administration": "IV central + bomba.",
+      "notes": "Riesgo isquémico elevado — especialista."
     }
   },
-  "stability": "## Estabilidad\n\n- Dilución estable según prospecto; rotar sitio de infusión.",
-  "adverseEffects": "## Efectos adversos\n\nHipertensión, bradicardia, arritmias, trombosis venosa, fiebre, vértigo, temblor, diaforesis.",
+  "stability": "## Estabilidad\n\n- Dilución: seguir prospecto/cartilla (~18–24 h).",
+  "adverseEffects": "## Efectos adversos\n\nIsquemia periférica/mesentérica, hipertensión, bradicardia, arritmias, hiponatremia, necrosis cutánea si extravasación.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Vasopresina* (cód. 1662, ATC H01BA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Guías de medicación en UCI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — vasopresina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "Surviving Sepsis Campaign / SCCM — vasopressin as adjunctive vasopressor.", "url": "https://www.sccm.org/" },
+    { "citation": "American Heart Association. ACLS vasopressor context.", "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines" },
+    { "citation": "AEMPS CIMA. Ficha técnica argipresina/vasopresina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

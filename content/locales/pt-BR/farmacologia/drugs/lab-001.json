@@ -1,31 +1,31 @@
 {
   "id": "lab-001",
   "name": "Labetalol",
-  "version": "1.1.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Agente bloqueador alfa e beta.",
-  "indications": "## Indicações principais\n\nAgente bloqueador alfa e beta.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Bloqueador α/β. Adulto crise: bolo **10–20 mg IV** em 2 min, depois **20–80 mg a cada 10 min** (máx. acumulado **300 mg**) ou infusão **0,5–2 mg/min**. Pediatria: carga **0,2–1 mg/kg** (máx. **40 mg**/bolo); infusão **0,25–3 mg/kg/h**.",
+  "indications": "## Indicações\n\n- Urgências/emergências hipertensivas (incl. pré-eclâmpsia/eclâmpsia em esquemas obstétricos).\n- Controle perioperatório da PA quando indicado.\n\n## Precauções\n\n- Evitar/extrema cautela em asma/DPOC, bradicardia, bloqueio AV, ICC descompensada.\n- Reduzir ~50% na insuficiência hepática.\n- Pode mascarar hipoglicemia.\n\n> Paciente semi-sentado; monitorar PA e FC a cada bolo.",
   "dilution": {
     "adulto": {
-      "presentation": "Ampola 5 mg/mL.",
-      "dose": "10–20 mg E.V. em bolus a cada 10 min; infusão 0,5–2 mg/min.",
-      "administration": "E.V. lenta ou infusão."
+      "presentation": "Ampola 5 mg/mL; comprimidos 100–200 mg.",
+      "dose": "Crise: **10–20 mg IV** em ≥2 min; repetir **20–80 mg a cada 10 min** até controle (máx. acumulado **300 mg**). Infusão: **0,5–2 mg/min** (alguns protocolos até **10 mg/min** breve). VO manutenção conforme bula.",
+      "administration": "IV lenta ou infusão em SF/SG 5% (p. ex. 1 mg/mL). Pode usar sem diluir se restrição hídrica.",
+      "notes": "Não suspender β-bloqueio crônico de forma abrupta em coronarianos."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 200 mg; Ampolas 4 mL: 5 mg/mL",
-      "administration": "E.V.; V.O.",
-      "diluent": "SF 0,9%, SG 5%.",
-      "finalConcentration": "Bolus: 5 mg/mL. Infusão contínua: 1 mg/mL.",
-      "infusionRate": "Bolus em 2–3 min ou infusão contínua.",
-      "dose": "Crise hipertensiva: Infusão E.V.: crianças: dose de ataque 0,2–1 mg/kg/dose em 2–3 min (máximo 2 mg/min) até 40 mg. Repetir a cada 10 min até máximo 3–4 mg/kg ou 300 mg. Infusão contínua: 0,25–3 mg/kg/h (neonatos: iniciar 0,5 mg/kg/h). Adultos: 0,3–1 mg/kg/dose de ataque, até 20 mg a cada 2 min; 40–80 mg a cada 10 min até 300 mg acumulados. Sem ajuste em insuficiência renal, HD ou DP. Reduzir dose em insuficiência hepática (~50% da habitual).",
-      "notes": "Para infusão contínua, diluir em SF ou SG 5%. Pode administrar-se sem diluir em restrição hídrica. Evitar em insuficiência hepática."
+      "presentation": "Ampola 5 mg/mL; comp. 200 mg.",
+      "dose": "Crise: bolo **0,2–1 mg/kg** em 2–3 min (máx. **40 mg**/dose; velocidade ≤**2 mg/min**); repetir c/10 min até **3–4 mg/kg** ou **300 mg** acumulados. Infusão contínua: **0,25–3 mg/kg/h** (neonatos: início ~**0,5 mg/kg/h**).",
+      "administration": "IV bolo ou bomba; diluente SF/SG 5%.",
+      "notes": "Descartar sobra aberta conforme cartilha."
     }
   },
-  "stability": "## Geral\n\n- Usar diluição fresca para infusão.\n\n## Guia pediátrica\n\n- Descartar sobrante após aberto. Diluição estável 24 h em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\nBroncoespasmo, hepatotoxicidade, hipercalemia, arritmia ventricular.",
+  "stability": "## Estabilidade\n\n- Diluição para infusão: ~24 h T° amb. Preferir preparo fresco.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, bradicardia, broncoespasmo, tontura, náuseas; hepatotoxicidade rara; hiperK ocasional.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Labetalol Cloridrato* (cód. 1804, ATC C07AG).",
+      "citation": "Hospital Garrahan. Formulário — labetalol.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -33,22 +33,16 @@
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "ACOG / diretrizes de hipertensão na gravidez (labetalol IV).",
+      "url": "https://www.acog.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

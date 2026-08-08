@@ -2,38 +2,30 @@
   "id": "nip-001",
   "name": "Sodium nitroprusside",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
-  "executiveSummary": "Arterial and venous vasodilator.",
-  "indications": "## Main indications\n\nArterial and venous vasodilator.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Immediate arterial/venous vasodilator. Adult: start **0.3–0.5 µg/kg/min**, usual titration **0.5–5 µg/kg/min** (max **10 µg/kg/min**). Pediatrics: start **0.3–1 µg/kg/min**, maintenance often ≤**4–6 µg/kg/min**. Protect from light; cyanide/thiocyanate risk.",
+  "indications": "## Indications\n\n- Hypertensive emergency with organ injury when immediate control is needed.\n- Afterload reduction in acute heart failure / cardiac surgery per protocol.\n\n## Precautions\n\n- **Cyanide toxicity** (high dose, >24–48 h, liver failure) and **thiocyanate** (renal failure, prolonged use).\n- Protect bag and line from light; discard if blue/gray/dark.\n- Prefer **D5W**. Central line preferred. Invasive BP recommended.\n\n> Use lowest dose and shortest time; consider alternatives (nicardipine, labetalol, NTG).",
   "dilution": {
     "adulto": {
-      "presentation": "Ampoule or vial for IV infusion per institutional presentation.",
-      "reconstitution": "Reconstitute per package insert; dilute in 5% dextrose or 0.9% NaCl.",
-      "diluent": "5% dextrose or 0.9% NaCl.",
-      "finalConcentration": "Concentration per service guide (infusion pump).",
-      "dose": "0,3–10 mcg/kg/min titrated; maximum infusion time per protocol.",
-      "infusionRate": "Continuous infusion protected from light.",
-      "administration": "Continuous IV infusion pump; central line preferred.",
-      "compatibility": "Verify in-line compatibility with other vasopressors.",
-      "notes": "Monitor HR, invasive BP, urine output and peripheral perfusion."
+      "presentation": "Vial 50 mg (or other by brand).",
+      "dose": "Start **0.3–0.5 µg/kg/min**; titrate every few minutes. Usual range **0.5–5 µg/kg/min**; ceiling **10 µg/kg/min**. Avoid prolonged high doses.",
+      "administration": "Continuous pump infusion; dilute in D5W (opaque/light-protected). Usual concentrations 50–200 µg/mL per card.",
+      "notes": "Monitor BP, HR, lactate, toxicity signs (acidosis, confusion)."
     },
     "pediatrico": {
-      "presentation": "Powder vial: 50 mg",
-      "administration": "IV",
-      "diluent": "5% dextrose ONLY.",
-      "finalConcentration": "Usual 200 mcg/mL. With fluid restriction, 1000 mcg/mL.",
-      "infusionRate": "Continuous infusion pump only, according to BP.",
-      "dose": "Initial: 0,5-1 µg/kg/min, maintenance: up to 4-6 µg/kg/min",
-      "notes": "Dilute in 5% dextrose at a concentration of 0,2 mg/ml (maximum dilution concentration: 1 mg/ml); dilution lasts 24 h if kept protected from light."
+      "presentation": "Vial 50 mg.",
+      "dose": "Start **0.5–1 µg/kg/min**; usual maintenance up to **4–6 µg/kg/min** (institutional max often **10 µg/kg/min** briefly).",
+      "administration": "Pump only; **D5W only**. Usual conc. **200 µg/mL**; fluid restriction up to **1000 µg/mL**.",
+      "notes": "Light-protected dilution ~24 h."
     }
   },
-  "stability": "## General\n\n- Protect strictly from light; discard if solution blue/gray.\n\n## Pediatric guide\n\n- 24 h once reconstituted. 24 h once diluted.",
-  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, sweating, restlessness, headache, palpitations. Thiocyanate intoxication.",
+  "stability": "## Stability\n\n- Reconstituted/diluted: ~24 h if light-protected. Discard if discolored.",
+  "adverseEffects": "## Adverse effects\n\nExcessive hypotension, reflex tachycardia, headache, nausea; cyanide/thiocyanate toxicity; hypothyroidism with chronic thiocyanate.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — nitroPRUSIATO de Sodio (code 0151, ATC C02DD).",
+      "citation": "Garrahan Hospital. Formulary — nitroprusside.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -41,20 +33,16 @@
       "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
+      "citation": "Society of Critical Care Medicine (SCCM).",
       "url": "https://www.sccm.org/"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "AEMPS CIMA. SmPC reference.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     }
   ]
 }
