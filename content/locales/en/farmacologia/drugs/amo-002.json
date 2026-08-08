@@ -2,33 +2,36 @@
   "id": "amo-002",
   "name": "Amoxicillin/clavulanic acid",
   "branch": "atencion-sanitaria",
-  "version": "1.0.3",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Beta-lactam antibiotic used in the treatment of lower respiratory tract infections, otitis media, sinusitis, skin and soft tissues. Urinary tract infections caused by beta-lactamase–producing microorganisms.",
-  "indications": "## Main indications\n\nBeta-lactam antibiotic used in the treatment of lower respiratory tract infections, otitis media, sinusitis, skin and soft tissues. Urinary tract infections caused by beta-lactamase–producing microorganisms.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Beta-lactam + inhibitor. Adult PO 875/125 mg every 12 h or 500/125 every 8 h; IV 1.2 g every 8 h. Pediatrics by amoxicillin component: 20–40 mg/kg/day (high-risk otitis 80–90 mg/kg/day).",
+  "indications": "## Indications\n\n- Respiratory infections, otitis media, sinusitis, skin/soft tissue, and UTI due to susceptible beta-lactamase–producing organisms.\n- Bites and selected polymicrobial infections per antibiogram.\n\n## Precautions\n\n- Diarrhea / *C. difficile*; hepatotoxicity (more with prolonged courses).\n- Adjust in renal failure. Penicillin allergy: contraindicated.\n- Always calculate by the **amoxicillin component**; verify presentation ratio (7:1 duo vs 4:1).\n\n> Duo presentations (875/125 or 80/11.4 mg/mL suspension) are given every 12 h.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 500/125 mg, 875/125 mg; suspension; IV 1,2 g or 2,2 g.",
-      "dose": "PO: 875/125 mg every 12 h. IV: 1,2 g every 8 h or per protocol.",
-      "administration": "PO or IV."
+      "presentation": "Tablets 500/125 and 875/125 mg; suspension; IV 1.2 g (1000/200) or 2.2 g by brand.",
+      "dose": "PO: **875/125 mg every 12 h** or **500/125 mg every 8 h**. More severe: keep 875/125 q12h or escalate to IV. IV: **1.2 g every 8 h** (severe: up to **1.2 g every 6 h** or **2.2 g every 8 h** per label/ID).",
+      "administration": "PO at the start of meals (better GI tolerance). IV: reconstitute and dilute per label; usual intermittent infusion 30–40 min.",
+      "notes": "Does not cover ESBL or MRSA. Complete the course even if symptoms improve."
     },
     "pediatrico": {
-      "dose": "20–40 mg/kg/day of amoxicillin every 8 h. Otitis media in high-risk patients, recurrent or persistent acute otitis due to S. pneumoniae, H. influenzae, M. catarrhalis: 80–90 mg/kg/day of amoxicillin; maximum dose: 1500 mg/day of amoxicillin, severe infections up to 3 g amoxicillin/day. Adults: 250 mg amoxicillin every 8 h. More severe and respiratory tract infections: 500 mg every 8 h. Prokinetic in intestinal pseudo-obstruction: 20 mg/kg/day every 12 h, maximum dose: 1500 mg/day.",
-      "administration": "PO",
-      "presentation": "Tablets: amoxicillin 500 mg + clavulanic acid 125 mg; Suspension: amoxicillin 50 mg/mL + clavulanic acid 12,5 mg/mL. Duo presentation: Tablets: amoxicillin 875 mg + clavulanic acid 125 mg; Reconstituted extemporaneous suspension: amoxicillin 80 mg/mL + clavulanic acid 11.4 mg/mL",
-      "notes": "Duo presentation should be administered every 12 h; amoxicillin as trihydrate and clavulanic acid as potassium salt."
+      "presentation": "Suspension 4:1 (e.g. 50/12.5 mg/mL) or duo 7:1 (e.g. 80/11.4 mg/mL); tablets 500/125 and 875/125.",
+      "dose": "By **amoxicillin**: mild–moderate **20–40 mg/kg/day** divided every 8 h (4:1) or every 12 h (7:1 duo). High-risk/persistent otitis: **80–90 mg/kg/day** amoxicillin (duo q12h). Usual max **~90 mg/kg/day** amoxicillin; absolute ceilings often **2–3 g/day** amoxicillin by severity and label.",
+      "administration": "PO. Shake suspension; refrigerate after reconstitution per label.",
+      "notes": "Verify mg/mL before measuring. Do not use duo for a 4:1 regimen without recalculating."
     },
     "neonatal": {
-      "dose": "Dose per NICU protocol; restricted use.",
-      "administration": "PO or IV per indication."
+      "presentation": "Restricted use.",
+      "dose": "Not routine; only under NNU/ID with dose and interval by gestational/postnatal age.",
+      "administration": "PO or IV by tolerance and severity.",
+      "notes": "Early-onset neonatal sepsis empiric therapy is usually ampicillin + gentamicin, not amox-clav."
     }
   },
-  "stability": "## Stability\n\n- Refrigerated suspension per package insert. Diluted IV: use within shift.",
-  "adverseEffects": "## Adverse effects\n\nGastrointestinal disturbances, diarrhea, elevation of transaminases and bilirubin, interstitial nephritis, hypersensitivity reactions. Rare: leukopenia, neutropenia, eosinophilia.",
+  "stability": "## Stability\n\n- Reconstituted suspension: refrigerate per label (usually 7–10 days).\n- Diluted IV: use within the shift / per manufacturer stability.",
+  "adverseEffects": "## Adverse effects\n\nDiarrhea, nausea, vomiting, candidiasis, rash, elevated transaminases. Rare: cholestatic hepatitis, interstitial nephritis, blood dyscrasias, anaphylaxis.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — amoxicilina + Ácido CLAVULÁNICO (code 1068, ATC J01CR).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (beta-lactams).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -36,16 +39,16 @@
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA / CDC antimicrobial dosing references.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
+      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

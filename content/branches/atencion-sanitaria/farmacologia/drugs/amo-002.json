@@ -2,32 +2,35 @@
   "id": "amo-002",
   "name": "Amoxicilina/ácido clavulánico",
   "branch": "atencion-sanitaria",
-  "version": "1.0.3",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico betalactámico utilizado en el tratamiento de infecciones respiratorias bajas, otitis media, sinusitis, piel y partes blandas. Infecciones tracto-urinarias causadas por microorganismos productores de betalactámicos.",
-  "indications": "## Indicaciones principales\n\nAntibiótico betalactámico utilizado en el tratamiento de infecciones respiratorias bajas, otitis media, sinusitis, piel y partes blandas. Infecciones tracto-urinarias causadas por microorganismos productores de betalactámicos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Betalactámico + inhibidor. Adulto VO 875/125 mg cada 12 h o 500/125 cada 8 h; IV 1,2 g cada 8 h. Pediatría por componente amoxicilina: 20–40 mg/kg/día (otitis alto riesgo 80–90 mg/kg/día).",
+  "indications": "## Indicaciones\n\n- Infecciones respiratorias, otitis media, sinusitis, piel/partes blandas e ITU por gérmenes productores de betalactamasas sensibles.\n- Mordeduras y algunas infecciones polimicrobianas según antibiograma.\n\n## Precauciones\n\n- Diarrea / *C. difficile*; hepatotoxicidad (más con cursos prolongados).\n- Ajustar en IRC. Alergia a penicilinas: contraindicado.\n- Calcular siempre por el **componente amoxicilina**; verificar ratio de la presentación (7:1 dúo vs 4:1).\n\n> La presentación dúo (875/125 o suspensión 80/11,4 mg/mL) se administra cada 12 h.",
   "dilution": {
     "adulto": {
-      "presentation": "Tabletas 500/125 mg, 875/125 mg; suspensión; IV 1,2 g o 2,2 g.",
-      "dose": "VO: 875/125 mg cada 12 h. IV: 1,2 g cada 8 h o según protocolo.",
-      "administration": "VO o IV."
+      "presentation": "Comprimidos 500/125 y 875/125 mg; suspensión; IV 1,2 g (1000/200) o 2,2 g según marca.",
+      "dose": "VO: **875/125 mg cada 12 h** o **500/125 mg cada 8 h**. Infecciones más graves: mantener 875/125 c/12 h o escalar a IV. IV: **1,2 g cada 8 h** (graves: hasta **1,2 g cada 6 h** o **2,2 g cada 8 h** según ficha/infectología).",
+      "administration": "VO al inicio de las comidas (mejor tolerancia GI). IV: reconstituir y diluir según prospecto; infusión intermitente habitual 30–40 min.",
+      "notes": "No cubrir BLEE ni SAMR. Completar esquema aunque mejore la clínica."
     },
     "pediatrico": {
-      "dose": "20-40 mg/kg/día de amoxicilina cada 8 hs. Otitis media en pacientes de alto riesgo, otitis recurrente o persistente aguda por S. Pneumoniae, H. Influenzae, M. Catarrahalis: 80-90 mg/kg/día de amoxicilina; dosis máxima: 1500 mg/día de amoxicilina, infecciones severas hasta 3 g de amoxicilina/día. Adultos: 250 mg de amoxicilina cada 8 hs. Infecciones más severas y del tracto respiratorio: 500 mg cada 8 hs. Procinético en pseudoobstrucción intestinal: 20 mg/kg/día cada 12 hs, dosis máxima: 1500 mg/día.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: amoxicilina 500 mg + ácido clavulánico 125 mg; Suspensión: amoxicilina 50 mg/ml + ácido clavulánico 12,5 mg/ml. Presentación Dúo: Comprimidos: amoxicilina 875 mg + ácido clavulánico 125 mg; Suspensión extemporánea reconstituida: amoxicilina 80 mg/ml + ácido clavulánico 11.4 mg/ml",
-      "notes": "La presentación Dúo debe administrarse cad 12 hs, la amoxicilina como trihidrato y el ácido clavulánico como sal potásica."
+      "presentation": "Suspensión 4:1 (p. ej. 50/12,5 mg/mL) o dúo 7:1 (p. ej. 80/11,4 mg/mL); comprimidos 500/125 y 875/125.",
+      "dose": "Por **amoxicilina**: leves-moderadas **20–40 mg/kg/día** divididos cada 8 h (ratio 4:1) o cada 12 h (dúo 7:1). Otitis de alto riesgo / persistente: **80–90 mg/kg/día** de amoxicilina (dúo c/12 h). Máx. habitual **~90 mg/kg/día** de amoxicilina; techos absolutos frecuentes **2–3 g/día** de amoxicilina según gravedad y prospecto.",
+      "administration": "VO. Agitar suspensión; refrigerar según ficha tras reconstitución.",
+      "notes": "Verificar mg/mL del frasco antes de medir. No usar dúo en esquemas pensados para ratio 4:1 sin recalcular."
     },
     "neonatal": {
-      "dose": "Dosis según protocolo NNU; uso restringido.",
-      "administration": "VO o IV según indicación."
+      "presentation": "Uso restringido.",
+      "dose": "No rutinario; solo bajo NNU/infectología con dosis e intervalo por edad gestacional/postnatal.",
+      "administration": "VO o IV según tolerancia y gravedad.",
+      "notes": "En sepsis neonatal precoz el esquema empírico suele ser ampicilina + gentamicina, no amoxi-clav."
     }
   },
-  "stability": "## Estabilidad\n\n- Suspensión refrigerada según prospecto. IV diluida: usar en turno.",
-  "adverseEffects": "## Efectos adversos\n\nDisturbios gastrointestinales, diarrea, elevación de transaminasas y bilirrubina, nefritis intersticial, reacciones de hipersensibilidad. Raros: leucopenia, neutropenia, eosinofilia.",
+  "stability": "## Estabilidad\n\n- Suspensión reconstituida: refrigerar según prospecto (habitual 7–10 días).\n- IV diluida: usar en el turno / según estabilidad del fabricante.",
+  "adverseEffects": "## Efectos adversos\n\nDiarrea, náuseas, vómitos, candidiasis, erupción, elevación de transaminasas. Raros: hepatitis colestásica, nefritis intersticial, discrasias sanguíneas, anafilaxia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — amoxicilina + Ácido CLAVULÁNICO (cód. 1068, ATC J01CR).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — amoxicilina + ácido clavulánico (cód. 1068, ATC J01CR).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
@@ -39,12 +42,12 @@
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Fichas técnicas amoxicilina/clavulánico VO e IV.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
+      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

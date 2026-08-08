@@ -1,58 +1,54 @@
 {
   "id": "amp-001",
   "name": "Ampicilina",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Infecção ORL, respiratória, odontoestomatológica, gastrointestinal, geniturinária, de pele e tecido mole, neurológica, cirurgia, traumatologia, meningite bacteriana e septicemia.",
-  "indications": "## Indicações principais\n\nInfecção ORL, respiratória, odontoestomatológica, gastrointestinal, geniturinária, de pele e tecido mole, neurológica, cirurgia, traumatologia, meningite bacteriana e septicemia.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Aminopenicilina. Adulto IV/VO habitual 0,5–2 g a cada 4–6 h (meningite até ~12 g/dia); pediatria 100–200 mg/kg/dia (meningite 300–400 mg/kg/dia). Pilar na sepse/meningite neonatal conforme protocolo UTIN.",
+  "indications": "## Indicações\n\n- Infecções ORL, respiratórias, geniturinárias, GI, pele/partes moles, endocardite, meningite e bacteremia por germes sensíveis (estreptococos, enterococos, *Listeria*, alguns gram-negativos não produtores de betalactamase).\n- Empírico na sepse neonatal (geralmente com aminoglicosídeo).\n\n## Precauções\n\n- Alergia a penicilinas. Alto risco de erupção com mononucleose / alopurinol.\n- Preferir diluir em **SF** (a dextrose acelera a hidrólise).\n- Ajustar intervalo na IRC.\n\n> Confirmar sensibilidade; não cobre ESBL nem MRSA.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 1 g (Bagó, Drawer, Klonal, LIA, Pharmavial, Rivero).",
-      "reconstitution": "10 mL de AD. Conc.: 100 mg/mL.",
-      "diluent": "1 g em 100 mL de SF.",
-      "finalConcentration": "10 mg/mL.",
-      "administration": "E.V. direta: Sim. Reconst. 1 g em 10–15 mL de AD e passar em NÃO MENOS DE 10–15 min (veloc. máxima: 100 mg/min). E.V. intermitente: Sim. Diluir em 50–100 mL de SF. Passar em 15–60 min.",
-      "notes": "A DX 5% acelera a hidrólise da ampicilina (usar imediatamente). Prefere-se diluir com SF."
+      "presentation": "FA 500 mg–1 g; cápsulas VO 250–500 mg (se disponíveis).",
+      "dose": "VO: **250–500 mg a cada 6 h**. IV/IM: leves-moderadas **0,5–1 g a cada 6 h**; graves **1–2 g a cada 4–6 h**. Meningite / endovascular graves: até **2 g a cada 4 h** (máx. habitual **12 g/dia**).",
+      "administration": "IV direta: reconstituir 1 g em 10–15 mL AD; passar em ≥ 10–15 min (máx. ~100 mg/min). IV intermitente: diluir em 50–100 mL SF (~10 mg/mL) em 15–60 min. Preferir SF à Dext. 5%.",
+      "notes": "Reconstituído concentrado (~100 mg/mL): estabilidade curta (horas na geladeira); preparar próximo à administração."
     },
     "pediatrico": {
-      "presentation": "F.A.: 500–1000 mg",
-      "reconstitution": "RECONSTITUIR COM ÁGUA DESTILADA.",
-      "administration": "E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%, Ringer.",
-      "finalConcentration": "Entre 2 e 30 mg/mL.",
-      "infusionRate": "Entre 15 e 30 min com BIC.",
-      "dose": "Recém-nascidos: conforme idade e peso, ver Tabela de Doses de antimicrobianos em neonatologia; Crianças: 100 mg/kg/dia a cada 6 h. Pneumonia: 200 mg/kg/dia a cada 6 h; Meningite: 300–400 mg/kg/dia a cada 6 h, dose máxima: 12 g/dia; Adultos: 500–3000 mg/dose a cada 6 h. Ver tabela de ajuste de dose de antibióticos em I.R.",
-      "notes": "Quando o F.A. é reconstituído com concentração de 100 mg/ml é estável somente por 2 h em geladeira. E.V. push administrar em 3–5 minutos, infusão intermitente 15–30 minutos."
+      "presentation": "FA 500–1000 mg; suspensão VO conforme a marca.",
+      "dose": "**100 mg/kg/dia a cada 6 h** (leves-moderadas). Pneumonia / graves: **200 mg/kg/dia a cada 6 h**. Meningite: **300–400 mg/kg/dia a cada 6 h** (máx. **12 g/dia**).",
+      "administration": "IV: reconstituição com AD; diluição 2–30 mg/mL; push 3–5 min ou infusão 15–30 min. VO se houver tolerância e foco adequado.",
+      "notes": "Calcular pelo peso. Ver tabela de ajuste na insuficiência renal."
     },
     "neonatal": {
-      "dose": "50 mg/kg/dose a cada 12 h em RN a termo; intervalos maiores em prematuros (protocolo da UTI neonatal).",
-      "administration": "E.V. lenta em bomba de seringa."
+      "presentation": "FA; protocolo UTIN.",
+      "dose": "Orientativo RN a termo: **50 mg/kg/dose a cada 12 h** (não meníngea). Meningite / *Listeria*: doses e intervalos mais frequentes conforme tabela por idade gestacional e postnatal do centro.",
+      "administration": "IV lenta em bomba de seringa.",
+      "notes": "Sempre cruzar com a cartilha neonatal institucional (IG/IPN)."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente, 4 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 4 h em temperatura ambiente e 24 h refrigerado.\n\n## Guia pediátrica\n\n- 8 h em temperatura ambiente (25°). 48 h em geladeira (4°).",
-  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, glossite, anemia, trombocitopenia, eosinofilia, eritema, rash, urticária.",
+  "stability": "## Estabilidade\n\n- Reconstituído concentrado: ~1 h T° amb / ~4 h refrigerado (verificar bula).\n- Diluído em SF: ~4 h T° amb / ~24 h refrigerado (cartilhas pediátricas frequentemente 8 h / 48 h).",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, vômitos, diarreia, glossite, erupção/urticária, eosinofilia, anemia, trombocitopenia. Anafilaxia em alérgicos.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ampicilina (cód. 0018, ATC J01CA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (betalactâmicos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA / CDC — referências de posologia antimicrobiana.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

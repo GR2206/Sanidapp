@@ -1,58 +1,54 @@
 {
   "id": "amp-002",
   "name": "Ampicilina-sulbactam",
-  "version": "1.2.5",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico de amplo espectro.",
-  "indications": "## Indicações principais\n\nAntibiótico de amplo espectro.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Aminopenicilina + inibidor de betalactamases. Dose como **ampicilina+sulbactam**: adulto 1,5–3 g a cada 6 h IV (máx. 12 g/dia); pediatria 150 mg/kg/dia (graves 300 mg/kg/dia) a cada 6 h.",
+  "indications": "## Indicações\n\n- Infecções ginecológicas, intra-abdominais, pele/partes moles, respiratórias e osteoarticulares por germes produtores de betalactamases sensíveis (inclui muitos anaeróbios em combinação).\n- Alternativa empírica hospitalar quando o espectro se encaixa.\n\n## Precauções\n\n- Alergia a penicilinas. Erupção ↑ com alopurinol.\n- Cada **1,5 g** fornece ~**5 mEq de Na⁺** — cuidado na restrição sódica.\n- Preferir diluição em **SF**. Ajustar na IRC.\n\n> As doses são expressas como a **soma ampicilina + sulbactam** (ratio 2:1).",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 1 g de ampicilina + 0,5 g de sulbactam (PharmaVial, Drawer, Klonal, Norgreen, Northia**, Richmond).",
-      "reconstitution": "5 mL de AD. Conc.: 300 mg/mL.",
-      "diluent": "1,5 g em 100 mL de SF.",
-      "finalConcentration": "Conc. AMS: 15 mg/mL.",
-      "administration": "E.V. direta: Sim. Reconst. 1,5 g em 3 mL de AD e admin. 3–5 min. E.V. intermitente: Sim. Admin. 1,5 g em 100 mL de SF em 15–30 min.",
-      "notes": "A DX 5% acelera a hidrólise da ampicilina (usar imediatamente). Prefere-se diluir com SF."
+      "presentation": "FA 1,5 g (1 g amp + 0,5 g sulb) e 3 g (2 g + 1 g).",
+      "dose": "Leves-moderadas / profilaxia: **1,5 g IV a cada 6 h** (máx. habitual da combinação nesse intervalo **6 g/dia**). Graves (intra-abdominal complicada, bacteremia, osteomielite, meningite selecionada): **3 g a cada 6 h** (máx. **12 g/dia** de ampicilina+sulbactam).",
+      "administration": "IV direta: reconstituir 1,5 g em ~3–5 mL AD; passar em 3–5 min. IV intermitente: 1,5 g em ~100 mL SF em 15–30 min. Preferir SF.",
+      "notes": "A dextrose acelera a hidrólise da ampicilina — usar de imediato se diluir em DX."
     },
     "pediatrico": {
-      "presentation": "F.A.: 1,5 g (ampicilina: 1 g + sulbactam: 0,5 g)",
-      "reconstitution": "RECONSTITUIR COM ÁGUA DESTILADA.",
-      "administration": "E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%, Ringer.",
-      "finalConcentration": "Entre 2 e 30 mg/mL.",
-      "infusionRate": "Entre 15 e 30 min com BIC.",
-      "dose": "Infecções leves, moderadas e profilaxia: Crianças: 150 mg (ampicilina + sulbactam)/kg/dia a cada 6 h, Adultos: 1500 mg/dose a cada 6 h; dose máxima: 6 g/dia (ampicilina + sulbactam). Infecções graves (meningite, bacteriemias, infecções intra-abdominais complicadas, osteomielite): Crianças: 300 mg (ampicilina + sulbactam)/kg/dia a cada 6 h; Adultos: 3000 mg/dose a cada 6 h. Dose máxima: 12 g/dia (ampicilina + sulbactam).",
-      "notes": "Em pacientes com restrição de Na, observar que 1500 mg de sultamicilina contêm 5 mEq de Na. Interage com alopurinol (pode aumentar a frequência de rash por ampicilina)."
+      "presentation": "FA 1,5 g (amp 1 g + sulb 0,5 g).",
+      "dose": "Leves-moderadas / profilaxia: **150 mg/kg/dia** (amp+sulb) a cada 6 h. Graves: **300 mg/kg/dia** a cada 6 h. Tetos alinhados ao adulto: em geral não ultrapassar **12 g/dia** da combinação.",
+      "administration": "IV; reconstituição com AD; diluição 2–30 mg/mL; infusão 15–30 min.",
+      "notes": "Calcular pelo peso usando a soma dos dois componentes."
     },
     "neonatal": {
-      "dose": "Dose conforme idade pós-menstrual e peso (protocolo da UTI neonatal).",
-      "administration": "E.V. em bomba de seringa."
+      "presentation": "FA; protocolo UTIN.",
+      "dose": "Conforme idade pós-menstrual e peso (tabela UTIN); não substitui automaticamente ampicilina simples + gentamicina na sepse precoce.",
+      "administration": "IV em bomba de seringa.",
+      "notes": "Confirmar indicação com infectologia neonatal."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente e 4 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 3 h em temperatura ambiente e 24 h refrigerado.\n\n## Guia pediátrica\n\n- 8 h em temperatura ambiente (25°). 48 h em geladeira (4°). Conservar em temperatura ambiente, protegido da luz.",
-  "adverseEffects": "## Efeitos adversos\n\nDor no local da injeção e flebite, diarreia, rash, náuseas, cefaleia, eritema. Leve aumento de enzimas hepáticas. Raro: alterações hematológicas.",
+  "stability": "## Estabilidade\n\n- Reconstituído: ~1 h T° amb / ~4 h refrigerado.\n- Diluído: ~3 h T° amb / ~24 h refrigerado (verificar bula; cartilhas pediátricas podem indicar 8 h / 48 h).",
+  "adverseEffects": "## Efeitos adversos\n\nDor/flebite no local, diarreia, erupção, náuseas, cefaleia, ↑ leve de enzimas hepáticas. Raro: alterações hematológicas, anafilaxia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — ampicilina + SULBACTAM (cód. 0903, ATC J01CA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (betalactâmicos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
+      "citation": "AEMPS CIMA / CDC — referências de posologia antimicrobiana.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

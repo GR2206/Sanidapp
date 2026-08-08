@@ -2,48 +2,52 @@
   "id": "pen-002",
   "name": "Penicillin G benzathine",
   "branch": "atencion-sanitaria",
-  "version": "1.1.2",
-  "updatedAt": "2026-07-10",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Treatment of mild and moderate infections caused by susceptible gram-positive microorganisms or for prophylaxis of infections caused by these microorganisms. Syphilis.",
-  "indications": "## Main indications\n\nTreatment of mild and moderate infections caused by susceptible gram-positive microorganisms or for prophylaxis of infections caused by these microorganisms. Syphilis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Depot penicillin **IM only**. Adult: early syphilis 2.4 MU IM once; late 2.4 MU weekly × 3. Rheumatic fever prophylaxis 1.2 MU every 3–4 weeks. Pediatrics by weight (syphilis 50,000 IU/kg; RF by kg).",
+  "indications": "## Indications\n\n- Syphilis (stage-based regimens).\n- Secondary prophylaxis of rheumatic fever / recurrent streptococcal infection.\n- Selected streptococcal pharyngitis when single-dose IM is chosen.\n\n## Route precautions\n\n- **NEVER IV** (risk of ischemia/embolism/fatal outcome).\n- **Deep IM only** (upper outer quadrant of buttock or vastus lateralis in children).\n- Caution under 2 years; penicillin allergy.\n\n> Do not interchange with IV sodium penicillin G or procaine penicillin without reviewing the regimen.",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial with lyophilized powder containing 1.2 and 2.4 MIU (Galtamicina, Klonal, Fabra, Richet, Pen Di Ben).",
-      "reconstitution": "5 mL SWFI (1.2 MIU); 10 mL SWFI (2.4 MIU). Conc: 0.24-0.12 MIU/mL.",
-      "diluent": "1.2 MIU in 5 mL SWFI or 2.4 MIU in 10 mL SWFI.",
-      "finalConcentration": "0.24 MIU/mL.",
-      "administration": "Deep IM: Yes. Shake gently to allow powder wetting, then shake vigorously until complete dissolution. Direct IV: No. Intermittent IV: No.",
-      "notes": "Must not under any circumstances be administered by IV route due to risk of fatal ischemia."
+      "presentation": "Vial / syringe 1.2 MU and 2.4 MU.",
+      "dose": "Early syphilis (primary/secondary/early latent): **2.4 MU IM once**. Late latent / unknown duration: **2.4 MU IM once weekly × 3 weeks**. Rheumatic fever prophylaxis: **1.2 MU IM every 3–4 weeks**. Streptococcal pharyngitis (alternative): **1.2 MU IM once**.",
+      "administration": "Deep IM only. Reconstitute with sterile water (e.g. 1.2 MU in 5 mL; 2.4 MU in 10 mL); shake to a homogeneous suspension. No IV or SC.",
+      "notes": "Use immediately after reconstitution; discard remainder."
     },
     "pediatrico": {
-      "dose": "Syphilis: 50,000 IU/kg/dose, 1 to 3 doses according to duration of disease; maximum dose: 2,400,000 IU/dose. Secondary rheumatic fever prophylaxis: ≤ 27 Kg: IM: 600,000 IU every 3 to 4 weeks; > 27 kg: IM: 1,200,000 IU every 3 to 4 weeks.",
-      "administration": "IM",
-      "presentation": "Powder vial: 1,200,000 IU - 2,400,000 IU (lyophilized or suspension)",
-      "notes": "Use with caution in children under 2 years. Penicillin G benzathine is administered weekly."
+      "presentation": "Vial 1.2–2.4 MU.",
+      "dose": "Syphilis: **50,000 IU/kg/dose IM** (1–3 doses by stage/duration; max **2.4 MU/dose**). Rheumatic fever prophylaxis: **≤ 27 kg: 600,000 IU** every 3–4 weeks; **> 27 kg: 1.2 MU** every 3–4 weeks.",
+      "administration": "Deep IM. Careful technique in infants.",
+      "notes": "Typical administration weekly or every 3–4 weeks by indication — not a daily regimen."
+    },
+    "neonatal": {
+      "presentation": "Not routine for neonatal sepsis.",
+      "dose": "Congenital syphilis: most scenarios use **IV penicillin G sodium**, not benzathine. Benzathine only if the syphilis protocol explicitly indicates it (selected cases without neurosyphilis).",
+      "administration": "IM only if the regimen orders it.",
+      "notes": "Always confirm with ID / congenital syphilis guidance."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Use immediately. Discard remainder if any.\n\n## Diluted solution (for administration)\n\n- Not applicable.",
-  "adverseEffects": "## Adverse effects\n\nAllergic reactions, mainly cutaneous. Hemolytic anemia, leukopenia.",
+  "stability": "## Stability\n\n- Reconstituted: immediate use; do not store.\n- Do not dilute for IV use.",
+  "adverseEffects": "## Adverse effects\n\nLocal pain, allergic rashes, fever. Rare: hemolytic anemia, leukopenia, anaphylaxis. Embolism/ischemia if given IV by error.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Penicillin BENZATHINE (code 0162, ATC J01CA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (beta-lactams).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
+      "citation": "AEMPS CIMA / CDC antimicrobial dosing references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

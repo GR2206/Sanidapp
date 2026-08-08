@@ -2,36 +2,40 @@
   "id": "pen-002",
   "name": "Penicilina G benzatínica",
   "branch": "atencion-sanitaria",
-  "version": "1.1.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamiento de infecciones leves y moderadas, causadas por microorganismos gram positivos sensibles o para profilaxis de infecciones ocasionadas por estos microorganismos. Sífilis.",
-  "indications": "## Indicaciones principales\n\nTratamiento de infecciones leves y moderadas, causadas por microorganismos gram positivos sensibles o para profilaxis de infecciones ocasionadas por estos microorganismos. Sífilis.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Penicilina depot **solo IM**. Adulto: sífilis precoz 2,4 MUI IM dosis única; tardía 2,4 MUI semanal × 3. Profilaxis fiebre reumática 1,2 MUI cada 3–4 semanas. Pediatría por peso (sífilis 50.000 UI/kg; FR según kg).",
+  "indications": "## Indicaciones\n\n- Sífilis (esquemas por estadio).\n- Profilaxis secundaria de fiebre reumática / infecciones estreptocócica recidivantes.\n- Algunas faringitis estreptocócicas cuando se elige dosis única IM.\n\n## Precauciones — vía\n\n- **NUNCA IV** (riesgo de isquemia/embolia/ fatal).\n- Solo **IM profunda** (cuadrante superior externo del glúteo o vastus lateralis en niños).\n- Precaución en < 2 años; alergia a penicilinas.\n\n> No intercambiar con penicilina G sódica IV ni con procaínica sin revisar el esquema.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 1,2 y 2,4 MUI (Galtamicina, Klonal, Fabra, Richet, Pen Di Ben).",
-      "reconstitution": "5 mL AD (1,2 MUI); 10 mL AD (2,4 MUI). Conc: 0,24-0,12 MUI/mL.",
-      "diluent": "1,2 MUI en 5 mL de AD o 2,4 MUI en 10 mL de AD.",
-      "finalConcentration": "0,24 MUI/mL.",
-      "administration": "IM profunda: Sí. Agitar suavemente para permitir la humectación del polvo, luego agitar vigorosamente hasta la completa disolución. IV directa: No. IV intermitente: No.",
-      "notes": "No debe administrarse bajo ningún concepto por vía IV por el riesgo de producir isquemia fatal."
+      "presentation": "FA / jeringa 1,2 MUI y 2,4 MUI.",
+      "dose": "Sífilis precoz (primaria/secundaria/latente temprana): **2,4 MUI IM en dosis única**. Sífilis latente tardía / desconocida duración: **2,4 MUI IM una vez por semana × 3 semanas**. Profilaxis fiebre reumática: **1,2 MUI IM cada 3–4 semanas**. Faringitis estreptocócica (alternativa): **1,2 MUI IM dosis única**.",
+      "administration": "IM profunda únicamente. Reconstituir con AD (p. ej. 1,2 MUI en 5 mL; 2,4 MUI en 10 mL); agitar hasta suspensión homogénea. No IV ni SC.",
+      "notes": "Usar inmediatamente tras reconstitución; descartar remanente."
     },
     "pediatrico": {
-      "dose": "Sífilis: 50.000 U.I./kg/dosis, 1 a 3 dosis según tiempo de evolución; dosis máxima: 2.400.000 U.I./dosis. Prevención secundaria de fiebre reumática: &le; 27 Kg: I.M.: 600.000 U.I. cada 3 a 4 semanas; &gt; 27 kg: I.M.: 1.200.000 U.I. cada 3 a 4 semanas.",
-      "administration": "I.M.",
-      "presentation": "F.A.: 1.200.000 U.I. - 2.400.000 U.I. (liofilizado o suspensión)",
-      "notes": "Indicar con precaución en menores de 2 años. La administración de la penicilina G benzatínica es semanal."
+      "presentation": "FA 1,2–2,4 MUI.",
+      "dose": "Sífilis: **50.000 UI/kg/dosis IM** (1–3 dosis según estadio/tiempo; máx. **2,4 MUI/dosis**). Profilaxis fiebre reumática: **≤ 27 kg: 600.000 UI** cada 3–4 semanas; **> 27 kg: 1,2 MUI** cada 3–4 semanas.",
+      "administration": "IM profunda. Técnica cuidadosa en lactantes.",
+      "notes": "Administración típica semanal o cada 3–4 semanas según indicación — no es pauta diaria."
+    },
+    "neonatal": {
+      "presentation": "No rutinaria para sepsis neonatal.",
+      "dose": "Sífilis congénita: en la mayoría de escenarios se usa **penicilina G sódica IV**, no benzatínica. Benzatínica solo si el protocolo de sífilis lo indica explícitamente (casos seleccionados sin neurosífilis).",
+      "administration": "IM solo si el esquema lo ordena.",
+      "notes": "Confirmar siempre con infectología / guía de sífilis congénita."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- Utilizar en forma inmediata. Descartar el remanente si lo hubiera.\n\n## Solución diluida (a administrar)\n\n- No aplica.",
-  "adverseEffects": "## Efectos adversos\n\nReacciones alérgicas, sobre todo cutáneas. Anemia hemolítica, leucopenia.",
+  "stability": "## Estabilidad\n\n- Reconstituido: uso inmediato; no guardar.\n- No diluir para vía IV.",
+  "adverseEffects": "## Efectos adversos\n\nDolor local, erupciones alérgicas, fiebre. Raros: anemia hemolítica, leucopenia, anafilaxia. Embolia/isquemia si se administra IV por error.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — penicilina  BENZATÍNICA (cód. 0162, ATC J01CA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — penicilina benzatínica (cód. 0162, ATC J01CE).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "CDC STI Treatment Guidelines — benzathine penicillin G for syphilis.",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
