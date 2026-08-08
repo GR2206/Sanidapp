@@ -2,48 +2,53 @@
   "id": "vor-001",
   "name": "Voriconazole",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Treatment of invasive aspergillosis. Candidemia. Esophageal candidiasis.",
-  "indications": "## Main indications\n\nTreatment of invasive aspergillosis. Candidemia. Esophageal candidiasis.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Broad-spectrum azole (aspergillus). Adult IV: load **6 mg/kg every 12 h × 2**, then **4 mg/kg every 12 h**; PO ≥ 40 kg **400 mg every 12 h × 2**, then **200 mg every 12 h**. Monitor levels and hepatotoxicity.",
+  "indications": "## Indications\n\n- Invasive aspergillosis (treatment of choice in many protocols).\n- Esophageal/invasive candidiasis due to fluconazole-resistant species; selected *Scedosporium* / *Fusarium* infections.\n\n## Precautions\n\n- Hepatotoxicity, visual hallucinations, photosensitivity, QT, strong CYP interactions.\n- IV with cyclodextrin: caution in renal failure (CrCl < 50) — prefer PO.\n- Orientative trough levels ~1–5 µg/mL by center.\n\n> Take PO 1 h before or after meals.",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial with lyophilized powder containing 200 mg (VFend, Richet, Sandoz).",
-      "reconstitution": "19 mL SWFI. Conc: 10 mg/mL.",
-      "diluent": "200 mg in 100 mL NS, 5% dextrose.",
-      "finalConcentration": "2 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL NS or 5% dextrose and administer over 60-120 min."
+      "presentation": "IV vial; tablets 50–200 mg; suspension.",
+      "dose": "IV: load **6 mg/kg every 12 h × 2 doses**, maintenance **4 mg/kg every 12 h**. PO ≥ 40 kg: load **400 mg every 12 h × 2**, then **200 mg every 12 h** (< 40 kg: load **200 mg every 12 h × 2**, then **100 mg every 12 h**). May escalate to 300 mg PO every 12 h if response is insufficient.",
+      "administration": "IV: reconstitute and dilute to 0.5–5 mg/mL; infuse **1–3 h** (max 3 mg/kg/h). No bolus. PO relatively fasting.",
+      "notes": "Avoid potent inducers (rifampin, carbamazepine, etc.)."
     },
     "pediatrico": {
-      "dose": "IV: 2 to 12 years: initial loading dose 9 mg/kg/dose every 12 h for 2 doses, maintenance dose 8 mg/kg every 12 h, maximum dose 350 mg every 12 h; > 12 years and adults: loading dose: 6 mg/kg/dose every 12 h for 2 doses, maintenance dose: 4 mg/kg/dose every 12 h. PO: 2 to 12 years: 9 mg/kg/dose every 12 h; > 12 years < 40 kg: 200 mg/dose every 12 h, for 1 day then 100 mg/dose every 12 h; > 40 kg: 400 mg every 12 h for 1 day, then 200 - 300 mg every 12 h. Dose adjustment in renal insufficiency: with Cl < 50 ml/min there may be accumulation of the injectable vehicle (sulfobutylether beta-cyclodextrin sodium), administer PO or assess risk-benefit. Dose adjustment in mild to moderate hepatic insufficiency: reduce maintenance dose by 50%. See dose adjustment table in hepatic insufficiency.",
-      "administration": "IV; PO",
-      "presentation": "Coated tablets: 50 - 200 mg; Powder vial: 200 mg; Suspension (compounded preparation): 40 mg/mL",
-      "notes": "PO: administer 1 h before or 1 h after meals; IV: infuse over 1-2 h (max. rate 3 mg/kg/hour). Monitor hepatic, renal, and visual function. Interactions: voriconazole may increase serum concentration of: cisapride, pimozide, rifabutin (contraindicated), cyclosporine (reduce cyclosporine dose 50%), sirolimus (contraindicated), tacrolimus (reduce tacrolimus dose by 66%), efavirenz, delavirdine, benzodiazepines, calcium channel blockers, methylprednisolone, omeprazole (for omeprazole doses > 40 mg/day, reduce omeprazole dose by 50%). Rifampicin, phenytoin decrease voriconazole serum levels (adjust dose). See preliminary guide for prevention of teratogenesis caused by medications."
+      "presentation": "Vial; suspension; tablets.",
+      "dose": "Ages 2–12 (IV): load **9 mg/kg every 12 h × 2**, maintenance **8 mg/kg every 12 h** (max **350 mg every 12 h**). PO 2–12 years: often **9 mg/kg every 12 h** (max 350 mg). ≥ 12 years / ≥ 50 kg: adult scheme. Adjust by levels.",
+      "administration": "IV/PO as in adult.",
+      "notes": "Variable pediatric PK — TDM advisable."
+    },
+    "neonatal": {
+      "presentation": "Exceptional use.",
+      "dose": "ID only; not a standard neonatal candida sepsis regimen (prefer ampho/echinocandin/fluconazole by focus).",
+      "administration": "IV/PO under protocol.",
+      "notes": "Limited data."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nVisual disturbances (photophobia, blurred vision, etc), tachycardia, hypertension, vasodilation, peripheral edema, fever, headache, hallucinations, hypokalemia, hypomagnesemia, nausea, vomiting, QT interval prolongation.",
+  "stability": "## Stability\n\n- Diluted IV: per label; do not refrigerate reconstituted solution on many brands.",
+  "adverseEffects": "## Adverse effects\n\nTransient visual changes, hallucinations, rash, photosensitivity, ↑ transaminases, nausea, QT prolongation, neuropathy with prolonged use.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Voriconazole* (code 1601, ATC J02AC).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antifungals).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA invasive fungal infection guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA antifungal SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

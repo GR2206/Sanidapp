@@ -2,46 +2,37 @@
   "id": "mic-001",
   "name": "Micafungina",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Equinocandina IV para candidiasis y profilaxis en trasplante; una dosis diaria.",
-  "indications": "## Indicaciones principales\n\n- Candidiasis esofágica y candidemia.\n- Profilaxis de candidiasis en trasplante y UCI de alto riesgo.\n\n## Precauciones\n\n- Ajustar en insuficiencia hepática severa. Hemólisis (raro).\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Equinocandina. Adulto candidemia/invasora **100 mg/día**; esofágica **150 mg/día**; profilaxis trasplante **50 mg/día**. Pediatría **2–3 mg/kg/día** (máx. 100–150 mg según indicación).",
+  "indications": "## Indicaciones\n\n- Candidiasis invasora / candidemia.\n- Esofagitis por candida.\n- Profilaxis de candida en receptores de trasplante de células madre hematopoyéticas.\n\n## Precauciones\n\n- Hepatotoxicidad; reacciones de hipersensibilidad/histamina con infusión rápida.\n- Pocas interacciones vs azoles, pero no ausentes.\n\n> Solo IV. Infundir ~1 h.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 50 mg o 100 mg (Mycamine).",
-      "reconstitution": "5 mL de SF. Conc: 10 mg/mL (50 mg) o 20 mg/mL (100 mg). Agitar suavemente; no agitar vigorosamente.",
-      "diluent": "50-100 mg en 100 mL de SF.",
-      "finalConcentration": "0,5-1 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir en 100 mL de SF y admin. en 60 min. Proteger de la luz.",
-      "notes": "No agitar vigorosamente (genera espuma). Proteger de la luz durante toda la preparación e infusión. No usar DX 5% para reconstitución. Dosis habitual candidiasis invasora: 100 mg/día; profilaxis en trasplante: 50 mg/día. Equinocandina sin ajuste de dosis en IR o IH leve-moderada."
+      "presentation": "FA 50–100 mg.",
+      "dose": "Candidemia / invasora: **100 mg IV cada 24 h**. Esofagitis: **150 mg/día**. Profilaxis TPH: **50 mg/día**. No requiere dosis de carga.",
+      "administration": "Reconstituir con SF o Dext. 5% según ficha; diluir e infundir ~**60 min**. No bolo.",
+      "notes": "Proteger de la luz según marca."
     },
     "pediatrico": {
-      "dose": "2–3 mg/kg/día IV (máx. 100 mg/día).",
-      "administration": "IV 1 h."
+      "presentation": "FA 50–100 mg.",
+      "dose": "**2–3 mg/kg/día** (máx. habitual **100 mg/día** en candidemia; esofagitis hasta **3 mg/kg** o techo adulto **150 mg** según ficha). Neonatos/lactantes: esquemas 2–10 mg/kg según indicación e infectología.",
+      "administration": "IV ~60 min.",
+      "notes": "Calcular por peso. > 40 kg: dosis de adulto."
     },
     "neonatal": {
-      "dose": "2–4 mg/kg/día IV según protocolo NNU.",
-      "administration": "IV."
+      "presentation": "FA; NNU/infectología.",
+      "dose": "Candidiasis invasora: frecuentemente **4–10 mg/kg/día** en protocolos neonatales (mayor aclaramiento) — confirmar tabla local.",
+      "administration": "IV.",
+      "notes": "No extrapolar automáticamente la dosis de 2 mg/kg del niño mayor."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb protegido de la luz.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb protegido de la luz.",
-  "adverseEffects": "## Efectos\n\n- Flebitis, elevación de fosfatasa alcalina, rash, náuseas.",
+  "stability": "## Estabilidad\n\n- Dilución: según prospecto (habitual 24 h refrigerado).",
+  "adverseEffects": "## Efectos adversos\n\nFiebre, flebitis, náuseas, diarrea, ↑ transaminases, hipokalemia, erupción, anemia, reacciones de histamina.",
   "bibliography": [
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — micafungina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "IDSA. Candidiasis guidelines — echinocandin dosing.", "url": "https://www.idsociety.org/" },
+    { "citation": "AEMPS CIMA. Ficha técnica micafungina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" }
   ]
 }

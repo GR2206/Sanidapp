@@ -1,49 +1,54 @@
 {
   "id": "vor-001",
   "name": "Voriconazol",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamento de aspergilose invasiva. Candidemia. Candidíase esofágica.",
-  "indications": "## Indicações principais\n\nTratamento de aspergilose invasiva. Candidemia. Candidíase esofágica.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Azol de amplo espectro (aspergillus). Adulto IV: ataque **6 mg/kg a cada 12 h × 2**, depois **4 mg/kg a cada 12 h**; VO ≥ 40 kg **400 mg a cada 12 h × 2**, depois **200 mg a cada 12 h**. Monitorar níveis e hepatotoxicidade.",
+  "indications": "## Indicações\n\n- Aspergilose invasora (tratamento de escolha em muitos protocolos).\n- Candidíase esofágica/invasora por espécies fluconazol-resistentes; infecções por *Scedosporium* / *Fusarium* selecionadas.\n\n## Precauções\n\n- Hepatotoxicidade, alucinações visuais, fotossensibilidade, QT, interações CYP fortes.\n- IV com ciclodextrina: cautela na IRC (ClCr < 50) — preferir VO.\n- Níveis terapêuticos (vale) orientativos ~1–5 µg/mL conforme o centro.\n\n> Tomar VO 1 h antes ou depois das refeições.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 200 mg (VFend, Richet, Sandoz).",
-      "reconstitution": "19 mL de AD. Conc: 10 mg/mL.",
-      "diluent": "200 mg em 100 mL de SF, DX 5%.",
-      "finalConcentration": "2 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Diluir em 100 mL de SF ou DX 5% e administrar durante 60–120 min."
+      "presentation": "FA IV; comprimidos 50–200 mg; suspensão.",
+      "dose": "IV: ataque **6 mg/kg a cada 12 h × 2 doses**, manutenção **4 mg/kg a cada 12 h**. VO ≥ 40 kg: ataque **400 mg a cada 12 h × 2**, depois **200 mg a cada 12 h** (< 40 kg: ataque **200 mg a cada 12 h × 2**, depois **100 mg a cada 12 h**). Pode escalar para 300 mg VO a cada 12 h se a resposta for insuficiente.",
+      "administration": "IV: reconstituir e diluir a 0,5–5 mg/mL; infundir **1–3 h** (máx. 3 mg/kg/h). Sem bolo. VO em jejum relativo.",
+      "notes": "Evitar indutores potentes (rifampicina, carbamazepina, etc.)."
     },
     "pediatrico": {
-      "dose": "E.V.: 2 a 12 anos: dose de carga inicial 9 mg/kg/dose a cada 12 h por 2 doses, dose de manutenção 8 mg/kg a cada 12 h, dose máxima 350 mg c/12 h; > 12 anos e adultos: dose de carga: 6 mg/kg/dose a cada 12 h por 2 doses, dose de manutenção: 4 mg/kg/dose c/12 h. V.O.: 2 a 12 anos: 9 mg/kg/dose c/12 h; > 12 anos < 40 kg: 200 mg/dose c/12 h, durante 1 dia depois 100 mg/dose c/12 h; > 40 kg: 400 mg a cada 12 h durante 1 dia, depois 200–300 mg c/12 h. Ajuste de dose em insuficiência renal: com Cl < 50 ml/min pode haver acumulação do veículo do injetável (éter sulfobutílico de beta ciclodextrina sódica), administrar por V.O. ou avaliar risco-benefício. Ajuste de dose em insuficiência hepática leve a moderada: reduzir a dose de manutenção em 50%. Ver tabela de ajuste de dose em I.H.",
-      "administration": "E.V.; V.O.",
-      "presentation": "Comprimidos revestidos: 50–200 mg; F.A.: 200 mg; Suspensão (preparado magistral): 40 mg/ml",
-      "notes": "V.O.: administrar 1 h antes ou 1 h depois das refeições; E.V.: infundir em 1–2 h (máx. velocidade 3 mg/kg/hora). Monitorar a função hepática, renal e visual. Interações: voriconazol pode aumentar a concentração sérica de: cisaprida, pimozida, rifabutina (contraindicada), ciclosporina (diminuir a dose de ciclosporina 50%), sirolimus (contraindicado), tacrolimus (diminuir a dose de tacrolimus em 66%), efavirenz, delavirdina, benzodiazepínicos, bloqueantes dos canais de cálcio, metilprednisolona, omeprazol (para doses de omeprazol > 40 mg/dia, reduzir a dose do omeprazol em 50%). Rifampicina, difenilhidantoína diminuem os níveis séricos de voriconazol (ajustar sua dose). Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+      "presentation": "FA; suspensão; comprimidos.",
+      "dose": "2–12 anos (IV): ataque **9 mg/kg a cada 12 h × 2**, manutenção **8 mg/kg a cada 12 h** (máx. **350 mg a cada 12 h**). VO 2–12 anos: frequentemente **9 mg/kg a cada 12 h** (máx. 350 mg). ≥ 12 anos / ≥ 50 kg: esquema adulto. Ajustar por níveis.",
+      "administration": "IV/VO como no adulto.",
+      "notes": "Farmacocinética variável em crianças — TDM recomendável."
+    },
+    "neonatal": {
+      "presentation": "Uso excepcional.",
+      "dose": "Só infectologia; sem pauta padrão de sepse neonatal por candida (preferir anfo/equinocandina/fluconazol conforme o foco).",
+      "administration": "IV/VO sob protocolo.",
+      "notes": "Dados limitados."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 24 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- 24 h refrigerado.",
-  "adverseEffects": "## Efeitos adversos\n\nAlterações visuais (fotofobia, visão borrada, etc.), taquicardia, hipertensão, vasodilatação, edema periférico, febre, cefaleia, alucinações, hipocalemia, hipomagnesemia, náuseas, vômitos, prolongamento do intervalo QT.",
+  "stability": "## Estabilidade\n\n- IV diluído: conforme bula; não refrigerar a solução reconstituída de muitas marcas.",
+  "adverseEffects": "## Efeitos adversos\n\nAlterações visuais transitórias, alucinações, erupção, fotossensibilidade, ↑ transaminases, náuseas, QT prolongado, neuropatia com uso prolongado.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Voriconazol* (cód. 1601, ATC J02AC).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário (antifúngicos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA — diretrizes de infecções fúngicas invasoras.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA — referências de bulas antifúngicas.",
+      "url": "https://cima.aemps.es/cima/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

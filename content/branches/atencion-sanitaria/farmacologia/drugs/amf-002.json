@@ -2,52 +2,37 @@
   "id": "amf-002",
   "name": "Anfotericina B liposomal",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Pacientes con micosis sistémica documentada, refractaria a tratamiento con anfotericina B. Trasplantados con micosis sistémica documentada. Fallo renal grave durante el tratamiento con anfotericina B.",
-  "indications": "## Indicaciones principales\n\nPacientes con micosis sistémica documentada, refractaria a tratamiento con anfotericina B. Trasplantados con micosis sistémica documentada. Fallo renal grave durante el tratamiento con anfotericina B.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Formulación liposomal (AmBisome-like). Adulto/pediatría habitual **3–5 mg/kg/día IV**; empírico/candidemia **3 mg/kg**; mucormicosis **5–10 mg/kg**. Menos nefrotóxica que desoxicolato.",
+  "indications": "## Indicaciones\n\n- Micosis invasoras (candida, aspergillus, criptococo, mucorales, leishmania visceral, etc.).\n- Tratamiento empírico en neutropenia febril persistente.\n- Cuando hay toxicidad o fallo de desoxicolato.\n\n## Precauciones\n\n- Aún puede causar nefrotoxicidad e hipokalemia — monitorear.\n- **No intercambiar mg/kg 1:1 con desoxicolato**.\n- Reacciones a la infusión posibles (menos frecuentes).\n\n> Diluir solo según ficha del producto liposomal.",
   "dilution": {
     "adulto": {
-      "presentation": "FA conteniendo 50 mg (Ambisome).",
-      "reconstitution": "10 mL de AD. Conc: 5 mg/mL.",
-      "diluent": "50 mg en 100 mL de DX 5%. No utilizar SF.",
-      "finalConcentration": "0,5 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Extraer con jeringa la dosis necesaria. Colocar el filtro en la jeringa e introducir la dosis del vial en 100 mL de DX 5% y administrar en 60-120 min."
+      "presentation": "FA liposomal 50 mg.",
+      "dose": "Candidemia / empírico: **3 mg/kg/día**. Aspergillosis / graves: **3–5 mg/kg/día**. Mucormicosis: **5–10 mg/kg/día**. Leishmaniasis visceral: esquemas 3 mg/kg en días específicos según guía.",
+      "administration": "Reconstituir y filtrar según prospecto; diluir en Dext. 5%; infundir ~**30–60 min** (o según ficha). No SF para reconstitución inicial de muchas marcas.",
+      "notes": "Protección de luz según fabricante. No mezclar con otros fármacos."
     },
     "pediatrico": {
-      "dose": "3- 5 mg/kg/día, dosis máxima: 250 mg/día. Si la indicación es empírica o en ciertas infecciones como candidemia: 3 mg/kg/día. Mucormicosis: 5 a 10 mg/kg/día, según los focos implicados, con compromiso del sistema nervioso central las dosis varían de 7,5 a 10 mg/kg/día.",
-      "infusionRate": "Perfusión 2–3 h.",
-      "administration": "E.V.",
-      "presentation": "F.A.: 50 mg",
-      "notes": "No es necesaria la administración concomitante de hidrocortisona o difenhidramina. Primera dosis 1 mg/kg. Velocidad de infusión: 2 hs. Dilución: 0,2-2 mg/ml. No administrar con soluciones que contengan electrolitos. Iniciar la infusión dentro de las 6 hs de la dilución de la droga."
+      "presentation": "FA 50 mg.",
+      "dose": "**3–5 mg/kg/día** (máx. orientativo cartilla antigua **250 mg/día** — hoy se titula por mg/kg en graves). Empírico/candidemia: **3 mg/kg/día**. Mucormicosis: **5–10 mg/kg/día**.",
+      "administration": "IV como en adulto.",
+      "notes": "Calcular por peso. Preferida frente a desoxicolato en pediatría."
     },
     "neonatal": {
-      "dose": "Dosis según protocolo NNU (habitualmente 3–5 mg/kg/día).",
-      "administration": "IV central."
+      "presentation": "FA; NNU.",
+      "dose": "Candidiasis invasora: frecuentemente **3–5 mg/kg/día** bajo infectología/NNU.",
+      "administration": "IV.",
+      "notes": "Confirmar protocolo local."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb y 7 días refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb. Usar perfus fotosensible.",
-  "adverseEffects": "## Efectos adversos\n\nNáuseas, vómitos, arritmias, fiebre, escalofríos. Menor hepatotoxicidad y nefrotoxicidad que la anfotericina B deoxicolato.",
+  "stability": "## Estabilidad\n\n- Tras reconstitución/dilución: plazos cortos (horas) — verificar prospecto de la marca.",
+  "adverseEffects": "## Efectos adversos\n\nHipokalemia, hipomagnesemia, ↑ creatinina (menor que convencional), fiebre/escalofríos, náuseas, anemia, hepatotoxicidad.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Anfotericina B LIPOSOMAL* (cód. 1154, ATC J02AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — anfotericina B liposomal.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "IDSA. Practice guidelines for aspergillosis, mucormycosis, and candidiasis.", "url": "https://www.idsociety.org/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEMPS CIMA. Ficha técnica anfotericina B liposomal.", "url": "https://cima.aemps.es/cima/" }
   ]
 }

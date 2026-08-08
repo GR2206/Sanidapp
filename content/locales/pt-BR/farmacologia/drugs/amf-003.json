@@ -1,54 +1,54 @@
 {
   "id": "amf-003",
   "name": "Anfotericina B complexo lipídico",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Neutropênico febril no 7º dia. Infiltrado pulmonar durante a neutropenia. Micoses sistêmicas documentadas.",
-  "indications": "## Indicações principais\n\nNeutropênico febril no 7º dia. Infiltrado pulmonar durante a neutropenia. Micoses sistêmicas documentadas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "ABLC (tipo Abelcet). Dose habitual **5 mg/kg/dia IV** em adultos e crianças — não usar a pauta de 1 mg/kg do desoxicolato. Alternativa lipídica quando não há liposomal.",
+  "indications": "## Indicações\n\n- Micoses invasoras em pacientes com toxicidade ou refratariedade ao desoxicolato, ou como alternativa lipídica.\n\n## Precauções\n\n- Nefrotoxicidade e hipocalemia (intermediária entre convencional e liposomal).\n- Reações à infusão frequentes — infundir lento; pré-medicação conforme o centro.\n- **Não trocar 1:1 com desoxicolato nem com liposomal**.\n\n> Verificar sempre o nome do produto na ordem.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. contendo 100 mg em 20 mL de solução (Abelcet).",
-      "reconstitution": "Não requer reconstituição prévia. Conc.: 5 mg/mL.",
-      "diluent": "100 mg em 100 mL de DX 5%. Não utilizar SF.",
-      "finalConcentration": "1 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Extrair com seringa a dose necessária e utilizar o filtro que acompanha o frasco. Introduzir a dose requerida em 100 mL de DX 5% e administrar em 120 min.",
-      "notes": "Todo o material não utilizado deve ser descartado (não contém conservantes). Utilizar a agulha com filtro para retirar a solução do frasco e depois preparar a infusão."
+      "presentation": "Suspensão/FA complexo lipídico (p. ex. 100 mg/20 mL).",
+      "dose": "Habitual: **5 mg/kg/dia IV**. Algumas micoses graves: até **5 mg/kg/dia** sustentados; não escalar como desoxicolato a partir de 0,5 mg/kg.",
+      "administration": "Diluir em Dext. 5% conforme bula; filtrar se o prospecto exigir; infundir tipicamente **2 h** (máx. 2,5 mg/kg/h em muitas bulas).",
+      "notes": "Agitar suavemente; não congelar. Separar de SF em Y."
     },
     "pediatrico": {
-      "dose": "Iniciar 0,5 mg/kg/dia, aumentar 0,2 mg/kg/dia a cada 24 h, até 1 mg/kg/dia, dose máxima: 50 mg/dia. Forma rápida de administração: iniciar 0,25 mg/kg e ir aumentando com intervalos de 6 h até 1 mg/kg/dia. Não exceder 1,5 mg/kg/dia.",
-      "administration": "E.V.",
-      "presentation": "F.A.: 50 mg",
-      "notes": "Infundir em 4–6 h a uma concentração de 0,1 mg/ml em dextrosa 5% por via periférica e até 0,5 mg/ml por via central. Premedicar para diminuir reações adversas com hidrocortisona, paracetamol, difenidramina 30 min. antes da infusão. Não administrar com soluções que contenham eletrólitos. Corrigir hipocalemia antes da administração."
+      "presentation": "Complejo lipídico conforme a marca.",
+      "dose": "**5 mg/kg/dia IV** (igual ao adulto por kg). Não usar 0,5–1 mg/kg (isso é desoxicolato).",
+      "administration": "IV lento em Dext. 5% conforme bula.",
+      "notes": "Calcular pelo peso. Confirmar que a ordem diga ABLC/complexo lipídico."
     },
     "neonatal": {
-      "dose": "Dose conforme protocolo da UTI neonatal.",
-      "administration": "E.V. central."
+      "presentation": "Uso excepcional; muitas UTIN preferem liposomal.",
+      "dose": "Só sob infectologia/UTIN; se usada, habitualmente **5 mg/kg/dia**.",
+      "administration": "IV.",
+      "notes": "Preferir liposomal se disponível."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Frasco de uso único. Manter refrigerado.\n\n## Solução diluída (a administrar)\n\n- 6 h em temperatura ambiente e 48 h refrigerado. Usar equipo fotossensível.",
-  "adverseEffects": "## Efeitos adversos\n\nFebre, calafrios, vômitos (relacionados à infusão), hipocalemia (25%), hipomagnesemia. Nefrotoxicidade: pode ser prevenida com infusão salina prévia. Anemia (75%). Raros: leucopenia, trombocitopenia.",
+  "stability": "## Estabilidade\n\n- Diluição: prazos curtos do fabricante; não agitar vigorosamente.",
+  "adverseEffects": "## Efeitos adversos\n\nCalafrios, febre, náuseas, ↑ creatinina, hipocalemia, hipomagnesemia, anemia, hepatotoxicidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Anfotericina B (DEOXICOLATO) (cód. 0020, ATC J02AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário (antifúngicos).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA — diretrizes de infecções fúngicas invasoras.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA — referências de bulas antifúngicas.",
+      "url": "https://cima.aemps.es/cima/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

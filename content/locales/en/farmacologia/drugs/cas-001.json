@@ -2,53 +2,53 @@
   "id": "cas-001",
   "name": "Caspofungin",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "For patients who do not tolerate or do not respond to therapy with other antifungals, patients with renal failure who have documented Candida infection, patients with hepatic insufficiency in whom Fluconazole cannot be used. Empirical treatment in febrile neutropenia if",
-  "indications": "## Main indications\n\nFor patients who do not tolerate or do not respond to therapy with other antifungals, patients with renal failure who have documented Candida infection, patients with hepatic insufficiency in whom Fluconazole cannot be used.\nEmpirical treatment in febrile neutropenia without focus on the 5th or 7th day of persistent fever and neutropenia.\nProphylaxis in bone marrow transplant patients and in leukemias and in some cases as treatment of documented infections by fungi sensitive to echinocandins\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Echinocandin. Adult: load **70 mg** day 1, then **50 mg/day** (70 mg/day if > 80 kg or severe). Pediatrics > 3 months: load **70 mg/m²**, then **50 mg/m²/day** (max 70 mg).",
+  "indications": "## Indications\n\n- Invasive candidiasis, candidemia, candida esophagitis.\n- Invasive aspergillosis refractory/intolerant to other azoles/amphotericin.\n- Empiric therapy in febrile neutropenia.\n\n## Precautions\n\n- Adjust in moderate hepatic impairment (adult maintenance **35 mg/day**).\n- Interactions: inducers (rifampin, etc.) may require **70 mg/day** maintenance.\n- Do not dilute in dextrose on many labels — use **NS**.\n\n> No PO. Infuse ~1 h.",
   "dilution": {
     "adulto": {
-      "presentation": "Powder vial with lyophilized powder containing 50 mg or 70 mg (Cancidas).",
-      "reconstitution": "10.5 mL SWFI, NS, or bacteriostatic water. Conc: 5 mg/mL (50 mg) or 7 mg/mL (70 mg). Shake gently until clear solution is obtained.",
-      "diluent": "50-70 mg in 250 mL NS or Ringer lactate.",
-      "finalConcentration": "0.2-0.28 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Withdraw necessary volume and dilute in 250 mL NS or Ringer lactate. Administer over 60 min.",
-      "notes": "Do not use 5% dextrose as diluent (incompatible). Loading dose: 70 mg on day 1; maintenance: 50 mg/day. In patients with moderate hepatic insufficiency increase to 70 mg/day. First-line echinocandin for invasive candidiasis."
+      "presentation": "Vial 50–70 mg.",
+      "dose": "Load: **70 mg IV** day 1. Maintenance: **50 mg/day**. If weight > 80 kg or aspergillosis/severe: maintenance **70 mg/day**. Child-Pugh B hepatic: maintenance **35 mg/day** after 70 mg load.",
+      "administration": "Reconstitute with sterile water; dilute in **250 mL NS**; infuse ~**60 min**. No bolus. Do not mix with dextrose on many brands.",
+      "notes": "Switch to another echinocandin/azole by course and culture."
     },
     "pediatrico": {
-      "dose": "Neonates: 2 mg/kg/day (with Infectious Diseases authorization); Children > 3 months: loading dose 70 mg/m² and continue with 50 mg/m², when coadministered with Rifampicin, Nevirapine, Efavirenz, Carbamazepine, dexamethasone, phenytoin increase to 70 mg/m² every 24 h, maximum dose 70 mg/dose. Adults: Initial 70 mg/dose then 50 mg/dose every 24 h, when coadministered with Rifampicin, Nevirapine, Efavirenz, Carbamazepine, dexamethasone, phenytoin, must be increased to 70 mg/dose once daily. No dose adjustment needed for renal insufficiency.",
-      "administration": "IV",
-      "presentation": "Powder vial: 50 and 70 mg",
-      "notes": "Administer slowly, over 1 hour. Do not dilute in dextrose. Stable 48 h refrigerated once diluted. Interactions: with cyclosporine may increase caspofungin concentration (increased transaminases have been observed), avoid; with tacrolimus may decrease tacrolimus serum concentration."
+      "presentation": "Vial 50–70 mg.",
+      "dose": "> 3 months: load **70 mg/m²** (max **70 mg**), then **50 mg/m²/day** (max **70 mg**). If inducers or poor response: up to **70 mg/m²/day** (max 70 mg). Neonates: **2 mg/kg/day** only with ID authorization.",
+      "administration": "IV ~60 min in NS.",
+      "notes": "Calculate by body surface area."
     },
     "neonatal": {
-      "dose": "25 mg/m²/day IV per NICU protocol (specialized use).",
-      "administration": "IV."
+      "presentation": "Vial; restricted use.",
+      "dose": "Orientative off-label: **2 mg/kg/day** under ID — not routine.",
+      "administration": "IV.",
+      "notes": "Limited data; prefer validated NNU schemes."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 1 h at room temperature, 24 h refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature, 48 h refrigerated.",
-  "adverseEffects": "## Adverse effects\n\nHypotension, rash, diarrhea, headache, increased transaminases and alkaline phosphatase.",
+  "stability": "## Stability\n\n- Dilution in NS: per label (usually 24 h refrigerated).",
+  "adverseEffects": "## Adverse effects\n\nFever, phlebitis, nausea, vomiting, diarrhea, ↑ transaminases, rash, hypokalemia, anemia.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Caspofungin* (code 1594, ATC J02AX).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antifungals).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA invasive fungal infection guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA antifungal SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

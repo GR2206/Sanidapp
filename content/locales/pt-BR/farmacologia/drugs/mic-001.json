@@ -2,47 +2,53 @@
   "id": "mic-001",
   "name": "Micafungina",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Equinocandina IV para candidíase e profilaxia em transplante; uma dose diária.",
-  "indications": "## Indicações principais\n\n- Candidíase esofágica e candidemia.\n- Profilaxia de candidíase em transplante e UTI de alto risco.\n\n## Precauções\n\n- Ajustar em insuficiência hepática grave. Hemólise (raro).\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "Equinocandina. Adulto candidemia/invasora **100 mg/dia**; esofágica **150 mg/dia**; profilaxia de transplante **50 mg/dia**. Pediatria **2–3 mg/kg/dia** (máx. 100–150 mg conforme indicação).",
+  "indications": "## Indicações\n\n- Candidíase invasora / candidemia.\n- Esofagite por candida.\n- Profilaxia de candida em receptores de transplante de células-tronco hematopoéticas.\n\n## Precauções\n\n- Hepatotoxicidade; reações de hipersensibilidade/histamina com infusão rápida.\n- Poucas interações vs azóis, mas não ausentes.\n\n> Só IV. Infundir ~1 h.",
   "dilution": {
     "adulto": {
-      "presentation": "Frasco-ampola com pó liofilizado contendo 50 mg ou 100 mg (Mycamine).",
-      "reconstitution": "5 mL de SF. Conc: 10 mg/mL (50 mg) ou 20 mg/mL (100 mg). Agitar suavemente; não agitar vigorosamente.",
-      "diluent": "50–100 mg em 100 mL de SF.",
-      "finalConcentration": "0,5–1 mg/mL.",
-      "administration": "IV direta: Não. IV intermitente: Sim. Diluir em 100 mL de SF e administrar em 60 min. Proteger da luz.",
-      "notes": "Não agitar vigorosamente (gera espuma). Proteger da luz durante toda a preparação e infusão. Não usar SG 5% para reconstituição. Dose habitual candidíase invasora: 100 mg/dia; profilaxia em transplante: 50 mg/dia. Equinocandina sem ajuste de dose em IR ou IH leve-moderada."
+      "presentation": "FA 50–100 mg.",
+      "dose": "Candidemia / invasora: **100 mg IV a cada 24 h**. Esofagite: **150 mg/dia**. Profilaxia TCTH: **50 mg/dia**. Não requer dose de ataque.",
+      "administration": "Reconstituir com SF ou Dext. 5% conforme bula; diluir e infundir ~**60 min**. Sem bolo.",
+      "notes": "Proteger da luz conforme a marca."
     },
     "pediatrico": {
-      "dose": "2–3 mg/kg/dia IV (máx. 100 mg/dia).",
-      "administration": "IV 1 h."
+      "presentation": "FA 50–100 mg.",
+      "dose": "**2–3 mg/kg/dia** (máx. habitual **100 mg/dia** na candidemia; esofagite até **3 mg/kg** ou teto adulto **150 mg** conforme bula). Neonatos/lactentes: esquemas 2–10 mg/kg conforme indicação e infectologia.",
+      "administration": "IV ~60 min.",
+      "notes": "Calcular pelo peso. > 40 kg: dose de adulto."
     },
     "neonatal": {
-      "dose": "2–4 mg/kg/dia IV conforme protocolo da UCIN.",
-      "administration": "IV."
+      "presentation": "FA; UTIN/infectologia.",
+      "dose": "Candidíase invasora: frequentemente **4–10 mg/kg/dia** em protocolos neonatais (maior clearance) — confirmar tabela local.",
+      "administration": "IV.",
+      "notes": "Não extrapolar automaticamente a dose de 2 mg/kg da criança maior."
     }
   },
-  "stability": "## Reconstituído (no frasco-ampola)\n\n- 24 h em temperatura ambiente protegido da luz.\n\n## Solução diluída (a administrar)\n\n- 24 h em temperatura ambiente protegido da luz.",
-  "adverseEffects": "## Efeitos adversos\n\n- Flebite, elevação de fosfatase alcalina, rash, náuseas.",
+  "stability": "## Estabilidade\n\n- Diluição: conforme bula (habitual 24 h refrigerado).",
+  "adverseEffects": "## Efeitos adversos\n\nFebre, flebite, náuseas, diarreia, ↑ transaminases, hipocalemia, erupção, anemia, reações de histamina.",
   "bibliography": [
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário (antifúngicos).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "IDSA — diretrizes de infecções fúngicas invasoras.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Diretrizes clínicas.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA — referências de bulas antifúngicas.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

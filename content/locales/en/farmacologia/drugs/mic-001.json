@@ -2,47 +2,53 @@
   "id": "mic-001",
   "name": "Micafungin",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "IV echinocandin for candidiasis and prophylaxis in transplant patients; one daily dose.",
-  "indications": "## Primary indications\n\n- Esophageal candidiasis and candidemia.\n- Candidiasis prophylaxis in transplant and high-risk ICU patients.\n\n## Precautions\n\n- Adjust in severe hepatic impairment. Hemolysis (rare).\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "Echinocandin. Adult candidemia/invasive **100 mg/day**; esophageal **150 mg/day**; transplant prophylaxis **50 mg/day**. Pediatrics **2–3 mg/kg/day** (max 100–150 mg by indication).",
+  "indications": "## Indications\n\n- Invasive candidiasis / candidemia.\n- Candida esophagitis.\n- Candida prophylaxis in hematopoietic stem-cell transplant recipients.\n\n## Precautions\n\n- Hepatotoxicity; hypersensitivity/histamine reactions with rapid infusion.\n- Fewer interactions than azoles, but not absent.\n\n> IV only. Infuse ~1 h.",
   "dilution": {
     "adulto": {
-      "presentation": "Lyophilized powder vial containing 50 mg or 100 mg (Mycamine).",
-      "reconstitution": "5 mL of NS. Conc: 10 mg/mL (50 mg) or 20 mg/mL (100 mg). Gently swirl; do not shake vigorously.",
-      "diluent": "50–100 mg in 100 mL of NS.",
-      "finalConcentration": "0.5–1 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute in 100 mL of NS and administer over 60 min. Protect from light.",
-      "notes": "Do not shake vigorously (generates foam). Protect from light throughout preparation and infusion. Do not use D5W for reconstitution. Usual dose for invasive candidiasis: 100 mg/day; prophylaxis in transplant: 50 mg/day. Echinocandin with no dose adjustment required in renal impairment or mild-to-moderate hepatic impairment."
+      "presentation": "Vial 50–100 mg.",
+      "dose": "Candidemia / invasive: **100 mg IV every 24 h**. Esophagitis: **150 mg/day**. HSCT prophylaxis: **50 mg/day**. No loading dose required.",
+      "administration": "Reconstitute with NS or 5% dextrose per label; dilute and infuse ~**60 min**. No bolus.",
+      "notes": "Protect from light by brand."
     },
     "pediatrico": {
-      "dose": "2–3 mg/kg/day IV (max. 100 mg/day).",
-      "administration": "IV over 1 h."
+      "presentation": "Vial 50–100 mg.",
+      "dose": "**2–3 mg/kg/day** (usual max **100 mg/day** in candidemia; esophagitis up to **3 mg/kg** or adult ceiling **150 mg** per label). Neonates/infants: 2–10 mg/kg schemes by indication and ID.",
+      "administration": "IV ~60 min.",
+      "notes": "Dose by weight. > 40 kg: adult dose."
     },
     "neonatal": {
-      "dose": "2–4 mg/kg/day IV per NICU protocol.",
-      "administration": "IV."
+      "presentation": "Vial; NNU/ID.",
+      "dose": "Invasive candidiasis: often **4–10 mg/kg/day** in neonatal protocols (higher clearance) — confirm local table.",
+      "administration": "IV.",
+      "notes": "Do not automatically extrapolate the older-child 2 mg/kg dose."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature, protected from light.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature, protected from light.",
-  "adverseEffects": "## Effects\n\n- Phlebitis, elevation of alkaline phosphatase, rash, nausea.",
+  "stability": "## Stability\n\n- Dilution: per label (usually 24 h refrigerated).",
+  "adverseEffects": "## Adverse effects\n\nFever, phlebitis, nausea, diarrhea, ↑ transaminases, hypokalemia, rash, anemia, histamine reactions.",
   "bibliography": [
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antifungals).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "IDSA invasive fungal infection guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical guidelines.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA antifungal SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

@@ -2,52 +2,37 @@
   "id": "cas-001",
   "name": "Caspofungina",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Para pacientes que no toleren o no respondan a la terapia con otros antifúngicos, pacientes con fallo renal que tengan infección documentada por cándida, pacientes con insuficiencia hepática en los que no se pueda utilizar Fluconazol. Tratamiento empírico en neutropenia febril si",
-  "indications": "## Indicaciones principales\n\nPara pacientes que no toleren o no respondan a la terapia con otros antifúngicos, pacientes con fallo renal que tengan infección documentada por cándida, pacientes con insuficiencia hepática en los que no se pueda utilizar Fluconazol.\nTratamiento empírico en neutropenia febril sin foco al 5to o 7mo día de persistencia de fiebre y neutropenia.\nProfilaxis en pacientes trasplantados de médula ósea y en leucemias y en algunos casos como tratamiento de infecciones documentadas por hongos sensibles a equinocandinas\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Equinocandina. Adulto: carga **70 mg** día 1, luego **50 mg/día** (70 mg/día si > 80 kg o graves). Pediatría > 3 meses: carga **70 mg/m²**, luego **50 mg/m²/día** (máx. 70 mg).",
+  "indications": "## Indicaciones\n\n- Candidiasis invasora, candidemia, esofagitis por candida.\n- Aspergillosis invasora refractaria/intolerante a otros azoles/anfotericina.\n- Empírico en neutropenia febril.\n\n## Precauciones\n\n- Ajuste en insuficiencia hepática moderada (adulto mantenimiento **35 mg/día**).\n- Interacciones: inductores (rifampicina, etc.) pueden requerir **70 mg/día** de mantenimiento.\n- No diluir en Dextrosa en muchas fichas — usar **SF**.\n\n> No VO. Infusión ~1 h.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 50 mg o 70 mg (Cancidas).",
-      "reconstitution": "10,5 mL de AD, SF o agua bacteriostática. Conc: 5 mg/mL (50 mg) o 7 mg/mL (70 mg). Agitar suavemente hasta obtener solución clara.",
-      "diluent": "50-70 mg en 250 mL de SF o Ringer lactato.",
-      "finalConcentration": "0,2-0,28 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Extraer el volumen necesario y diluir en 250 mL de SF o Ringer lactato. Admin. en 60 min.",
-      "notes": "No utilizar DX 5% como diluyente (incompatible). Dosis de carga: 70 mg el día 1; mantenimiento: 50 mg/día. En pacientes con insuficiencia hepática moderada aumentar a 70 mg/día. Equinocandina de primera línea para candidiasis invasora."
+      "presentation": "FA 50–70 mg.",
+      "dose": "Carga: **70 mg IV** día 1. Mantenimiento: **50 mg/día**. Si peso > 80 kg o aspergillosis/graves: mantenimiento **70 mg/día**. Hepática Child-Pugh B: mantenimiento **35 mg/día** tras carga 70 mg.",
+      "administration": "Reconstituir con AD; diluir en **250 mL SF**; infundir ~**60 min**. No bolo. No mezclar con dextrosa en muchas marcas.",
+      "notes": "Pasar a otra equinocandina/azol según evolución y cultivo."
     },
     "pediatrico": {
-      "dose": "Neonatos: 2 mg/kg/día (con autorización de Infectología); Niños &gt; 3 meses: dosis de carga 70 mg/m&sup2; y continuar con 50 mg/m&sup2;, cuando se coadministra con Rifampicina, Nevirapina, Efavirenz, Carbamacepina, dexametasona, fenitoína aumentar a 70 mg/m&sup2; cada 24 hs, dosis máxima 70 mg/dosis. Adultos: Inicial 70 mg/dosis y luego 50 mg/dosis cada 24 hs, cuando se coadministra con Rifampicina, Nevirapina, Efavirenz, Carbamacepina, dexametasona, fenitoína, debe aumentarse a 70 mg/dosis una vez por día. No necesita ajuste por insuficiencia renal.",
-      "administration": "E.V.",
-      "presentation": "F.A.: 50 y 70 mg",
-      "notes": "Administrar lentamente, en 1 hora. No diluir en Dextrosa. Es estable 48 hs en heladera una vez que está diluído. Interacciones: con ciclosporina puede aumentar la concentración del caspofungín (se ha observado aumento de las transaminasas), evitar; con tacrólimus puede disminuir la concentración sérica del tacrólimus."
+      "presentation": "FA 50–70 mg.",
+      "dose": "> 3 meses: carga **70 mg/m²** (máx. **70 mg**), luego **50 mg/m²/día** (máx. **70 mg**). Si inductores o mala respuesta: hasta **70 mg/m²/día** (máx. 70 mg). Neonatos: **2 mg/kg/día** solo con autorización de infectología.",
+      "administration": "IV ~60 min en SF.",
+      "notes": "Calcular por superficie corporal."
     },
     "neonatal": {
-      "dose": "25 mg/m²/día IV según protocolo NNU (uso especializado).",
-      "administration": "IV."
+      "presentation": "FA; uso restringido.",
+      "dose": "Orientativo off-label: **2 mg/kg/día** bajo infectología — no rutinario.",
+      "administration": "IV.",
+      "notes": "Datos limitados; preferir esquemas NNU validados."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 1 h a T° amb, 24 h refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb, 48 hs refrigerado.",
-  "adverseEffects": "## Efectos adversos\n\nHipotensión, rash, diarrea, cefalea, aumento de transaminasas y fosfatasa alcalina.",
+  "stability": "## Estabilidad\n\n- Dilución en SF: según prospecto (habitual 24 h refrigerado).",
+  "adverseEffects": "## Efectos adversos\n\nFiebre, flebitis, náuseas, vómitos, diarrea, ↑ transaminasas, erupción, hipokalemia, anemia.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Caspofungín* (cód. 1594, ATC J02AX).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — caspofungina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "IDSA. Clinical Practice Guideline for the Management of Candidiasis.", "url": "https://www.idsociety.org/" },
+    { "citation": "AEMPS CIMA. Ficha técnica caspofungina — adult and pediatric BSA dosing.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" }
   ]
 }

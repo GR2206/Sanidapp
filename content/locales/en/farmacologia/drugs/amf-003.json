@@ -2,53 +2,53 @@
   "id": "amf-003",
   "name": "Amphotericin B lipid complex",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Febrile neutropenia on day 7. Pulmonary infiltrate during neutropenia. Documented systemic mycoses.",
-  "indications": "## Main indications\n\nFebrile neutropenia on day 7. Pulmonary infiltrate during neutropenia. Documented systemic mycoses.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "ABLC (Abelcet-like). Usual dose **5 mg/kg/day IV** in adults and children — do not use the 1 mg/kg deoxycholate regimen. Lipid alternative when liposomal is unavailable.",
+  "indications": "## Indications\n\n- Invasive mycoses in patients with deoxycholate toxicity or refractoriness, or as a lipid alternative.\n\n## Precautions\n\n- Nephrotoxicity and hypokalemia (intermediate between conventional and liposomal).\n- Frequent infusion reactions — infuse slowly; premedication per center.\n- **Do not interchange 1:1 with deoxycholate or liposomal**.\n\n> Always verify the product name on the order.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial containing 100 mg in 20 mL solution (Abelcet).",
-      "reconstitution": "No prior reconstitution required. Conc: 5 mg/mL.",
-      "diluent": "100 mg in 100 mL 5% dextrose. Do not use 0.9% NaCl.",
-      "finalConcentration": "1 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Withdraw required dose with syringe and use filter supplied with vial. Add required dose to 100 mL 5% dextrose and administer over 120 min.",
-      "notes": "All unused material must be discarded (contains no preservatives). Use filter needle to withdraw solution from vial and then prepare infusion."
+      "presentation": "Lipid-complex suspension/vial (e.g. 100 mg/20 mL).",
+      "dose": "Usual: **5 mg/kg/day IV**. Some severe mycoses: sustained **5 mg/kg/day**; do not escalate from 0.5 mg/kg like deoxycholate.",
+      "administration": "Dilute in 5% dextrose per label; filter if required; typically infuse over **2 h** (max 2.5 mg/kg/h on many labels).",
+      "notes": "Gentle agitation; do not freeze. Separate from NS at Y-site."
     },
     "pediatrico": {
-      "dose": "Start 0,5 mg/kg/day, increase 0,2 mg/kg/day every 24 h, up to 1 mg/kg/day, maximum dose: 50 mg/day. Rapid administration method: start 0,25 mg/kg and increase at 6 h intervals up to 1 mg/kg/day. Do not exceed 1,5 mg/kg/day.",
-      "administration": "IV",
-      "presentation": "Powder vial: 50 mg",
-      "notes": "Infuse over 4–6 h at concentration of 0,1 mg/mL in 5% dextrose via peripheral line and up to 0,5 mg/mL via central line. Premedicate to reduce adverse reactions with hydrocortisone, paracetamol, diphenhydramine 30 min before infusion. Do not administer with solutions containing electrolytes. Correct hypokalemia before administration."
+      "presentation": "Lipid complex by brand.",
+      "dose": "**5 mg/kg/day IV** (same as adult per kg). Do not use 0.5–1 mg/kg (that is deoxycholate).",
+      "administration": "Slow IV in 5% dextrose per label.",
+      "notes": "Dose by weight. Confirm the order says ABLC/lipid complex."
     },
     "neonatal": {
-      "dose": "Dose per NICU protocol.",
-      "administration": "Central IV."
+      "presentation": "Exceptional use; many NICUs prefer liposomal.",
+      "dose": "ID/NNU only; if used, usually **5 mg/kg/day**.",
+      "administration": "IV.",
+      "notes": "Prefer liposomal if available."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- Single-use vial. Keep refrigerated.\n\n## Diluted solution (for administration)\n\n- 6 h at room temperature and 48 h refrigerated. Use light-protected infusion set.",
-  "adverseEffects": "## Adverse effects\n\nFever, chills, vomiting (infusion-related), hypokalemia (25%), hypomagnesemia. Nephrotoxicity: may be prevented with prior saline infusion. Anemia (75%). Rare: leukopenia, thrombocytopenia.",
+  "stability": "## Stability\n\n- Dilution: short manufacturer windows; do not shake vigorously.",
+  "adverseEffects": "## Adverse effects\n\nChills, fever, nausea, ↑ creatinine, hypokalemia, hypomagnesemia, anemia, hepatotoxicity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anfotericina B (DEOXICOLATO) (code 0020, ATC J02AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antifungals).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA invasive fungal infection guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA antifungal SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

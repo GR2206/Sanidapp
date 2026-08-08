@@ -2,55 +2,37 @@
   "id": "amf-001",
   "name": "Anfotericina B desoxicolato",
   "branch": "atencion-sanitaria",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Neutropénico febril al 7mo día. Infiltrado pulmonar durante la neutropenia. Micosis sistémicas documentadas.",
-  "indications": "## Indicaciones principales\n\nNeutropénico febril al 7mo día. Infiltrado pulmonar durante la neutropenia. Micosis sistémicas documentadas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Polieno convencional. Adulto/pediatría habitual **0,5–1 mg/kg/día IV** (máx. frecuente **50 mg/día**). Alta nefrotoxicidad e infusión-reacciones — preferir formulaciones lipídicas si disponibles.",
+  "indications": "## Indicaciones\n\n- Micosis sistémicas graves (candida, criptococo, aspergillus, mucorales, etc.) cuando no hay alternativa lipídica o por costo/disponibilidad.\n- Leishmaniasis / otros usos según protocolo.\n\n## Precauciones\n\n- Nefrotoxicidad, hipokalemia, hipomagnesemia — hidratación con SF, reposición electrolítica, monitoreo de creatinina.\n- Reacciones a la infusión (fiebre, escalofríos): premedicación según centro; infundir lento (2–6 h).\n- **No confundir mg/kg con liposomal** (dosis 5× distintas).\n\n> Test dose institucional opcional. Nunca bolo.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 50 mg (Anfotericina LIA, Richet, Northia**).",
-      "reconstitution": "10 mL de AD. Conc: 5 mg/mL. Agitar el vial hasta que la solución coloidal sea clara.",
-      "diluent": "50 mg en 500 mL de DX 5%.",
-      "finalConcentration": "0,1 mg/mL.",
-      "administration": "IV directa: No. IV intermitente: Sí. Diluir lo reconstituido en 500 mL de DX 5% y administrar en 6 h.",
-      "notes": "No utilizar SF (puede precipitar). Bajo ningún concepto se debería superar la dosis de 1,5 mg/kg/día. La sobredosis puede provocar paro cardiorrespiratorio."
+      "presentation": "FA 50 mg (desoxicolato).",
+      "dose": "Habitual: **0,5–1 mg/kg/día IV** (máx. frecuente **50–70 mg/día** según ficha/protocolo). Escalada: iniciar **0,25–0,5 mg/kg** y subir **0,2 mg/kg/día** hasta la meta, o esquema rápido institucional. Meningitis criptocóccica (inducción clásica): **0,7–1 mg/kg/día** ± flucitosina.",
+      "administration": "Reconstituir solo con AD; diluir en Dext. 5% (no SF — precipita). Conc. habitual ≤ 0,1 mg/mL; infundir **2–6 h** protegido de la luz.",
+      "notes": "Incompatible con SF y muchos fármacos en Y. Vigilar K⁺, Mg²⁺, creatinina."
     },
     "pediatrico": {
-      "presentation": "F.A.: 50 mg",
-      "reconstitution": "Reconstituir con AD. Diluir con Dextrosa (NO Salina).",
-      "administration": "E.V.",
-      "finalConcentration": "0,1 mg/mL.",
-      "infusionRate": "Entre 2 y 4 horas, con BIC.",
-      "dose": "Iniciar 0,5 mg/kg/día, aumentar 0,2 mg/kg/día cada 24 hs, hasta 1 mg/Kg/día, dosis máxima: 50 mg/día. Forma rápida de administración: iniciar 0,25 mg/kg e ir aumentando con intervalos de 6 hs hasta 1 mg/kg/día . No exceder de 1,5 mg/kg/día.",
-      "notes": "Infundir en 4-6 hs a una concentración de 0,1 mg/ml en dextrosa 5% por vía perférica y hasta 0,5 mg/ml por vía central. Premedicar para disminuir reacciones adversas con hidrocortisona, paracetamol, difenhidramina 30 min. antes de la infusión. No administrar con soluciones que contengan electrolitos. Corregir hipokalemia pre-administración."
+      "presentation": "FA 50 mg.",
+      "dose": "Iniciar **0,5 mg/kg/día**, aumentar **0,2 mg/kg/día** hasta **1 mg/kg/día** (máx. **50 mg/día**). Esquema rápido: iniciar **0,25 mg/kg** según cartilla. Graves: hasta **1–1,5 mg/kg/día** bajo infectología.",
+      "administration": "IV en Dext. 5%, lento, protegido de la luz.",
+      "notes": "Calcular por peso. Misma toxicidad que en adultos."
     },
     "neonatal": {
-      "dose": "0,5–1 mg/kg/dosis cada 24–48 h según protocolo NNU.",
-      "administration": "IV central con hidratación y control iónico."
+      "presentation": "FA; NNU.",
+      "dose": "Orientativo: **0,5–1 mg/kg/día**; muchas UCIN prefieren liposomal. Confirmar protocolo.",
+      "administration": "IV lento.",
+      "notes": "Nefrotoxicidad crítica en pretérminos."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb en la oscuridad y 7 días refrigerado.\n\n## Solución diluida (a administrar)\n\n- La solución diluida no es estable. Si sobra, descartar el remanente. Usar perfus fotosensible.\n\n## Cartilla pediátrica — Reconstituido\n\n- Una vez reconstituido: 24 h a T° amb, 7 días en heladera (2-8°C).",
-  "adverseEffects": "## Efectos adversos\n\nFiebre, escalofríos, vómitos (relacionadas con la infusión), hipokalemia (25%), hipomagnesemia. Nefrotoxicidad: puede prevenirse con infusión salina previa. Anemia (75%). Raros: leucopenia, trombocitopenia.",
+  "stability": "## Estabilidad\n\n- Dilución en Dext. 5%: según prospecto (habitual uso inmediato / horas protegido de luz).",
+  "adverseEffects": "## Efectos adversos\n\nFiebre, escalofríos, náuseas, flebitis, nefrotoxicidad, hipokalemia, hipomagnesemia, anemia, hepatotoxicidad.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Anfotericina B (DEOXICOLATO) (cód. 0020, ATC J02AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Guías clínicas.",
-      "url": "https://www.idsociety.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — anfotericina B desoxicolato.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "IDSA. Guidelines for candidiasis, aspergillosis, and cryptococcosis.", "url": "https://www.idsociety.org/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEMPS CIMA. Ficha técnica anfotericina B.", "url": "https://cima.aemps.es/cima/" }
   ]
 }

@@ -89,22 +89,22 @@
       "id": "amf-003",
       "name": "Anfotericina B complejo lipídico",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "amf-001",
       "name": "Anfotericina B desoxicolato",
       "branch": "atencion-sanitaria",
-      "version": "1.2.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "amf-002",
       "name": "Anfotericina B liposomal",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "ani-001",
@@ -215,8 +215,8 @@
       "id": "cas-001",
       "name": "Caspofungina",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "cef-001",
@@ -887,8 +887,8 @@
       "id": "mic-001",
       "name": "Micafungina",
       "branch": "atencion-sanitaria",
-      "version": "1.1",
-      "updatedAt": "2026-06-30"
+      "version": "1.2.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "mid-001",
@@ -1307,8 +1307,8 @@
       "id": "vor-001",
       "name": "Voriconazol",
       "branch": "atencion-sanitaria",
-      "version": "1.1.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.3.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "war-001",

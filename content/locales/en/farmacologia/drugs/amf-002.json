@@ -2,53 +2,53 @@
   "id": "amf-002",
   "name": "Liposomal amphotericin B",
   "branch": "atencion-sanitaria",
-  "version": "1.1.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Patients with documented systemic mycosis refractory to amphotericin B treatment. Transplant recipients with documented systemic mycosis. Severe renal failure during amphotericin B treatment.",
-  "indications": "## Main indications\n\nPatients with documented systemic mycosis refractory to amphotericin B treatment. Transplant recipients with documented systemic mycosis. Severe renal failure during amphotericin B treatment.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Liposomal formulation (AmBisome-like). Usual adult/pediatric **3–5 mg/kg/day IV**; empiric/candidemia **3 mg/kg**; mucormycosis **5–10 mg/kg**. Less nephrotoxic than deoxycholate.",
+  "indications": "## Indications\n\n- Invasive mycoses (candida, aspergillus, cryptococcus, mucorales, visceral leishmaniasis, etc.).\n- Empiric therapy in persistent febrile neutropenia.\n- When deoxycholate toxicity or failure occurs.\n\n## Precautions\n\n- Still may cause nephrotoxicity and hypokalemia — monitor.\n- **Do not interchange mg/kg 1:1 with deoxycholate**.\n- Infusion reactions possible (less frequent).\n\n> Dilute only per the liposomal product label.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial containing 50 mg (Ambisome).",
-      "reconstitution": "10 mL SWFI. Conc: 5 mg/mL.",
-      "diluent": "50 mg in 100 mL 5% dextrose. Do not use 0.9% NaCl.",
-      "finalConcentration": "0,5 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Withdraw required dose with syringe. Place filter on syringe and add vial dose to 100 mL 5% dextrose and administer over 60–120 min."
+      "presentation": "Liposomal vial 50 mg.",
+      "dose": "Candidemia / empiric: **3 mg/kg/day**. Aspergillosis / severe: **3–5 mg/kg/day**. Mucormycosis: **5–10 mg/kg/day**. Visceral leishmaniasis: 3 mg/kg on specific days per guideline.",
+      "administration": "Reconstitute and filter per label; dilute in 5% dextrose; infuse ~**30–60 min** (or per label). Many brands: no NS for initial reconstitution.",
+      "notes": "Light protection per manufacturer. Do not mix with other drugs."
     },
     "pediatrico": {
-      "dose": "3–5 mg/kg/day, maximum dose: 250 mg/day. If indication is empirical or in certain infections such as candidemia: 3 mg/kg/day. Mucormycosis: 5 to 10 mg/kg/day, depending on involved foci; with central nervous system involvement doses range from 7,5 to 10 mg/kg/day.",
-      "infusionRate": "Infusion 2–3 h.",
-      "administration": "IV",
-      "presentation": "Powder vial: 50 mg",
-      "notes": "Concomitant hydrocortisone or diphenhydramine not required. First dose 1 mg/kg. Infusion rate: 2 h. Dilution: 0,2–2 mg/mL. Do not administer with solutions containing electrolytes. Start infusion within 6 h of drug dilution."
+      "presentation": "Vial 50 mg.",
+      "dose": "**3–5 mg/kg/day** (older card max **250 mg/day** — now titrate by mg/kg in severe disease). Empiric/candidemia: **3 mg/kg/day**. Mucormycosis: **5–10 mg/kg/day**.",
+      "administration": "IV as in adult.",
+      "notes": "Dose by weight. Preferred over deoxycholate in pediatrics."
     },
     "neonatal": {
-      "dose": "Dose per NICU protocol (usually 3–5 mg/kg/day).",
-      "administration": "Central IV."
+      "presentation": "Vial; NNU.",
+      "dose": "Invasive candidiasis: often **3–5 mg/kg/day** under ID/NNU.",
+      "administration": "IV.",
+      "notes": "Confirm local protocol."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature and 7 days refrigerated.\n\n## Diluted solution (for administration)\n\n- 24 h at room temperature. Use light-protected infusion set.",
-  "adverseEffects": "## Adverse effects\n\nNausea, vomiting, arrhythmias, fever, chills. Less hepatotoxicity and nephrotoxicity than amphotericin B deoxycholate.",
+  "stability": "## Stability\n\n- After reconstitution/dilution: short windows (hours) — check brand label.",
+  "adverseEffects": "## Adverse effects\n\nHypokalemia, hypomagnesemia, ↑ creatinine (less than conventional), fever/chills, nausea, anemia, hepatotoxicity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anfotericina B LIPOSOMAL* (code 1154, ATC J02AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antifungals).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "IDSA invasive fungal infection guidelines.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS CIMA antifungal SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }

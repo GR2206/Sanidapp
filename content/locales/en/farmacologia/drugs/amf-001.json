@@ -2,56 +2,53 @@
   "id": "amf-001",
   "name": "Amphotericin B deoxycholate",
   "branch": "atencion-sanitaria",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Febrile neutropenia on day 7. Pulmonary infiltrate during neutropenia. Documented systemic mycoses.",
-  "indications": "## Main indications\n\nFebrile neutropenia on day 7. Pulmonary infiltrate during neutropenia. Documented systemic mycoses.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "Conventional polyene. Usual adult/pediatric **0.5–1 mg/kg/day IV** (common max **50 mg/day**). High nephrotoxicity and infusion reactions — prefer lipid formulations when available.",
+  "indications": "## Indications\n\n- Severe systemic mycoses (candida, cryptococcus, aspergillus, mucorales, etc.) when lipid alternatives are unavailable or by cost/availability.\n- Leishmaniasis / other uses per protocol.\n\n## Precautions\n\n- Nephrotoxicity, hypokalemia, hypomagnesemia — NS hydration, electrolyte replacement, creatinine monitoring.\n- Infusion reactions (fever, chills): premedication per center; infuse slowly (2–6 h).\n- **Do not confuse mg/kg with liposomal** (doses differ ~5×).\n\n> Optional institutional test dose. Never bolus.",
   "dilution": {
     "adulto": {
-      "presentation": "Lyophilized powder vial containing 50 mg (Anfotericina LIA, Richet, Northia**).",
-      "reconstitution": "10 mL SWFI. Conc: 5 mg/mL. Shake vial until colloidal solution is clear.",
-      "diluent": "50 mg in 500 mL 5% dextrose.",
-      "finalConcentration": "0,1 mg/mL.",
-      "administration": "Direct IV: No. Intermittent IV: Yes. Dilute reconstituted solution in 500 mL 5% dextrose and administer over 6 h.",
-      "notes": "Do not use 0.9% NaCl (may precipitate). Under no circumstances should the dose exceed 1,5 mg/kg/day. Overdose may cause cardiorespiratory arrest."
+      "presentation": "Vial 50 mg (deoxycholate).",
+      "dose": "Usual: **0.5–1 mg/kg/day IV** (common max **50–70 mg/day** per label/protocol). Escalation: start **0.25–0.5 mg/kg** and increase **0.2 mg/kg/day** to target, or institutional rapid scheme. Cryptococcal meningitis (classic induction): **0.7–1 mg/kg/day** ± flucytosine.",
+      "administration": "Reconstitute with sterile water only; dilute in 5% dextrose (not NS — precipitates). Usual conc. ≤ 0.1 mg/mL; infuse **2–6 h** protected from light.",
+      "notes": "Incompatible with NS and many Y-site drugs. Monitor K⁺, Mg²⁺, creatinine."
     },
     "pediatrico": {
-      "presentation": "Powder vial: 50 mg",
-      "reconstitution": "Reconstitute with SWFI. Dilute with dextrose (NOT saline).",
-      "administration": "IV",
-      "finalConcentration": "0,1 mg/mL.",
-      "infusionRate": "Between 2 and 4 hours, with continuous infusion pump.",
-      "dose": "Start 0,5 mg/kg/day, increase 0,2 mg/kg/day every 24 h, up to 1 mg/kg/day, maximum dose: 50 mg/day. Rapid administration method: start 0,25 mg/kg and increase at 6 h intervals up to 1 mg/kg/day. Do not exceed 1,5 mg/kg/day.",
-      "notes": "Infuse over 4–6 h at concentration of 0,1 mg/mL in 5% dextrose via peripheral line and up to 0,5 mg/mL via central line. Premedicate to reduce adverse reactions with hydrocortisone, paracetamol, diphenhydramine 30 min before infusion. Do not administer with solutions containing electrolytes. Correct hypokalemia before administration."
+      "presentation": "Vial 50 mg.",
+      "dose": "Start **0.5 mg/kg/day**, increase **0.2 mg/kg/day** to **1 mg/kg/day** (max **50 mg/day**). Rapid scheme: start **0.25 mg/kg** per card. Severe: up to **1–1.5 mg/kg/day** under ID.",
+      "administration": "IV in 5% dextrose, slow, light-protected.",
+      "notes": "Dose by weight. Same toxicity as adults."
     },
     "neonatal": {
-      "dose": "0,5–1 mg/kg/dose every 24–48 h per NICU protocol.",
-      "administration": "Central IV with hydration and electrolyte monitoring."
+      "presentation": "Vial; NNU.",
+      "dose": "Orientative: **0.5–1 mg/kg/day**; many NICUs prefer liposomal. Confirm protocol.",
+      "administration": "Slow IV.",
+      "notes": "Critical nephrotoxicity in preterms."
     }
   },
-  "stability": "## Reconstituted (in vial)\n\n- 24 h at room temperature in the dark and 7 days refrigerated.\n\n## Diluted solution (for administration)\n\n- Diluted solution is not stable. If remainder, discard. Use light-protected infusion set.\n\n## Pediatric guide — Reconstituted\n\n- Once reconstituted: 24 h at room temperature, 7 days refrigerated (2–8°C).",
-  "adverseEffects": "## Adverse effects\n\nFever, chills, vomiting (infusion-related), hypokalemia (25%), hypomagnesemia. Nephrotoxicity: may be prevented with prior saline infusion. Anemia (75%). Rare: leukopenia, thrombocytopenia.",
+  "stability": "## Stability\n\n- Dilution in 5% dextrose: per label (usually immediate use / hours light-protected).",
+  "adverseEffects": "## Adverse effects\n\nFever, chills, nausea, phlebitis, nephrotoxicity, hypokalemia, hypomagnesemia, anemia, hepatotoxicity.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Anfotericina B (DEOXICOLATO) (code 0020, ATC J02AA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antifungals).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Infectious Diseases Service, Infection Prevention and Control. UCIP 2026 — Dilution and stability guide.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
+      "citation": "IDSA invasive fungal infection guidelines.",
       "url": "https://www.idsociety.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEMPS CIMA antifungal SmPC references.",
+      "url": "https://cima.aemps.es/cima/"
     }
   ]
 }
