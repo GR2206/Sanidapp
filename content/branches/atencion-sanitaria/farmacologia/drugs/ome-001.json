@@ -3,13 +3,13 @@
   "name": "Omeprazol",
   "branch": "atencion-sanitaria",
   "version": "1.1.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Inhibidor de la bomba de protones. Adulto VO/IV habitual 20–40 mg/día; pediatría VO 0,5–1 mg/kg/día (máx. frecuente 20 mg/día en esofagitis/RGE) según indicación.",
   "indications": "## Indicaciones\n\n- Enfermedad por reflujo gastroesofágico (ERGE) y esofagitis.\n- Úlcera gastroduodenal; erradicación de *H. pylori* en esquemas combinados.\n- Prevención/tratamiento de gastropatía por AINE; hemorragia digestiva alta (fase IV hospitalaria).\n- Condiciones hipersecretoras / Zollinger-Ellison (dosis altas).\n\n## Precauciones\n\n- Interacciones: atazanavir (contraindicado), hierro, itraconazol/ketoconazol/voriconazol, digoxina, clopidogrel (discutido), rifampicina, fenitoína, carbamazepina, diazepam.\n- Uso prolongado: hipomagnesemia, riesgo de infecciones GI, fracturas (contexto crónico).\n\n> Preferir VO en cuanto haya tolerancia; IV es puente hospitalario.",
   "dilution": {
     "adulto": {
       "presentation": "Cápsulas/comprimidos 10–20–40 mg; FA IV 40 mg.",
-      "dose": "ERGE/úlcera: **20 mg VO cada 24 h** (hasta 40 mg/día según gravedad). Hipersecreción/Zollinger-Ellison: iniciar **60 mg/día** (titular; puede fraccionarse c/8–12 h). IV: **40 mg cada 24 h** (en HDA a menudo 40 mg c/8–12 h los primeros días según protocolo, luego espaciar).",
+      "dose": "ERGE/úlcera: **20 mg VO cada 24 h** (hasta 40 mg/día según gravedad). Hipersecreción/Zollinger-Ellison: iniciar **60 mg/día** (titular; puede fraccionarse c/8–12 h). IV: **40 mg cada 24 h** (en HDA a menudo 40 mg c/8–12 h los primeros días, luego espaciar).",
       "administration": "VO en ayunas preferente; no masticar gránulos. IV: reconstituir solo con solvente del fabricante; para infusión diluir a ~0,4 mg/mL e infundir 20–30 min.",
       "notes": "Inyectable reconstituido: estabilidad limitada (p. ej. 4 h). Con ClNa 0,9% diluido ~12 h; con Dext. 5% ~6 h (verificar prospecto)."
     },

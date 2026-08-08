@@ -3,14 +3,14 @@
   "name": "Clarithromycin",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Macrolide. Adult PO 250–500 mg every 12 h; pediatrics 15 mg/kg/day every 12 h (usual max 1 g/day). IV 500 mg every 12 h when oral route unavailable.",
   "indications": "## Indications\n\n- Upper and lower respiratory tract infections, otitis media, sinusitis due to susceptible organisms (including atypicals: *Mycoplasma*, *Chlamydia*).\n- Susceptible skin/soft-tissue infections.\n- *Mycobacterium avium* prophylaxis/treatment (specific regimens, higher doses).\n\n## Precautions\n\n- Contraindicated with terfenadine/cisapride (arrhythmia). Interactions: carbamazepine, rifabutin, statins, warfarin.\n- Adjust in severe renal impairment.\n- IV irritant (phlebitis): no bolus; infuse ≥ 60 min.\n\n> Prefer PO if tolerated. Confirm local susceptibility.",
   "dilution": {
     "adulto": {
       "presentation": "Tablets 250–500 mg; suspension; IV vial 500 mg.",
-      "dose": "PO usual infections: **250–500 mg every 12 h** (5–14 days by focus). IV: **500 mg every 12 h** (switch to PO ASAP). MAC / antimycobacterial (specialist): up to **500 mg every 12 h** or per protocol.",
+      "dose": "PO usual infections: **250–500 mg every 12 h** (5–14 days by focus). IV: **500 mg every 12 h** (switch to PO ASAP). MAC / antimycobacterial (specialist): up to **500 mg every 12 h** or per institutional regimen.",
       "administration": "PO with or without food. IV: reconstitute 500 mg with 10 mL sterile water (not NS for initial reconstitution); dilute in 250 mL NS or 5% dextrose (~2 mg/mL) and infuse over 60 min.",
       "notes": "Use sterile water only for lyophilizate reconstitution. No IV push."
     },

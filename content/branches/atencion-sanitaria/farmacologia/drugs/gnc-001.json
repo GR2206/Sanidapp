@@ -3,13 +3,13 @@
   "name": "Ganciclovir",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Anti-CMV. Adulto inducción **5 mg/kg IV cada 12 h** × 14–21 días; mantenimiento **5 mg/kg/día**. Pediatría similar por kg; CMV congénito a menudo **6 mg/kg cada 12 h**. Mielotóxico — controlar hemograma.",
   "indications": "## Indicaciones\n\n- Enfermedad por CMV (retinitis, neumonitis, colitis, etc.) en inmunocomprometidos/trasplantados.\n- Inducción/mantenimiento y profilaxis de alto riesgo según protocolo de trasplante.\n- CMV congénito sintomático (esquemas especializados).\n\n## Precauciones\n\n- Neutropenia, trombocitopenia, anemia — monitorear CBC. Teratogénico/carcinógeno potencial — manipulación segura.\n- Ajustar estrictamente en IRC. Nefrotoxicidad.\n\n> Solo IV (valganciclovir es la forma VO). Infusión ≥ 60 min.",
   "dilution": {
     "adulto": {
       "presentation": "FA 500 mg.",
-      "dose": "Inducción: **5 mg/kg IV cada 12 h** × 14–21 días. Mantenimiento: **5 mg/kg IV cada 24 h** (o **6 mg/kg** 5 días/semana según protocolo). Profilaxis trasplante: esquemas 5 mg/kg/día según riesgo/centro.",
+      "dose": "Inducción: **5 mg/kg IV cada 12 h** × 14–21 días. Mantenimiento: **5 mg/kg IV cada 24 h** (o **6 mg/kg** 5 días/semana). Profilaxis trasplante: usualmente **5 mg/kg/día** según riesgo del receptor.",
       "administration": "Reconstituir con AD; diluir en 50–100 mL SF o Dext. 5% (5–10 mg/mL); infundir **≥ 60 min**. No bolo. Usar guantes (citotóxico).",
       "notes": "No refrigerar reconstituido en muchas fichas. Hidratación adecuada."
     },
@@ -29,10 +29,25 @@
   "stability": "## Estabilidad\n\n- Reconstituido: ~12 h T° amb (no refrigerar en muchas marcas). Diluido: ~24 h T° amb.",
   "adverseEffects": "## Efectos adversos\n\nNeutropenia, trombocitopenia, anemia, fiebre, erupción, ↑ creatinina, náuseas, infertilidad potencial.",
   "bibliography": [
-    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — ganciclovir.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
-    { "citation": "IDSA. CMV management in transplant recipients.", "url": "https://www.idsociety.org/" },
-    { "citation": "AEMPS CIMA. Ficha técnica ganciclovir.", "url": "https://cima.aemps.es/cima/" },
-    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
-    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" }
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — ganciclovir.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "IDSA. CMV management in transplant recipients.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. Ficha técnica ganciclovir.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    }
   ]
 }

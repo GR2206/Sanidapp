@@ -3,13 +3,13 @@
   "name": "Fluconazol",
   "branch": "atencion-sanitaria",
   "version": "1.3.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Azol triazólico. Adulto orofaríngeo 100–200 mg/día; sistémico/criptococo **400–800 mg/día** (carga 800 mg). Pediatría 3–12 mg/kg/día según foco. VO≈IV.",
   "indications": "## Indicaciones\n\n- Candidiasis orofaríngea, esofágica, urinaria y sistémica (no neutropénico / según sensibilidad).\n- Meningitis criptocóccica (inducción/mantenimiento en esquemas combinados).\n- Profilaxis en poblaciones de riesgo seleccionadas.\n\n## Precauciones\n\n- Ajustar en IRC (dosis de carga igual; mantenimiento ↓). Hepatotoxicidad; QT; interacciones (CYP3A4/2C9/2C19).\n- *Candida krusei* intrínsecamente resistente; *C. glabrata* frecuentemente resistente.\n\n> Bioequivalencia VO/IV — pasar a oral cuando haya tolerancia.",
   "dilution": {
     "adulto": {
       "presentation": "Comprimidos 50–100–150–200 mg; suspensión; IV 2 mg/mL.",
-      "dose": "Orofaringe: **100–200 mg/día**. Esofágica: **200–400 mg/día**. Candidiasis sistémica / criptococo: carga **800 mg (12 mg/kg)** día 1, luego **400 mg (6 mg/kg)/día** (graves hasta **800 mg/día**). Vulvovaginal: **150 mg VO dosis única**. Profilaxis: **200–400 mg/día** según protocolo.",
+      "dose": "Orofaringe: **100–200 mg/día**. Esofágica: **200–400 mg/día**. Candidiasis sistémica / criptococo: carga **800 mg (12 mg/kg)** día 1, luego **400 mg (6 mg/kg)/día** (graves hasta **800 mg/día**). Vulvovaginal: **150 mg VO dosis única**. Profilaxis: **200–400 mg/día** según riesgo.",
       "administration": "VO con o sin alimentos. IV: bolsa lista 2 mg/mL; infundir ~**60 min**; no bolo. Proteger de la luz hasta usar.",
       "notes": "ClCr ≤ 50: 50% de la dosis de mantenimiento tras la carga."
     },
@@ -29,10 +29,25 @@
   "stability": "## Estabilidad\n\n- IV listo: T° amb, protegido de la luz según fabricante.\n- Suspensión: según fecha de reconstitución del prospecto.",
   "adverseEffects": "## Efectos adversos\n\nNáuseas, dolor abdominal, erupción, cefalea, ↑ transaminasas. Raros: hepatitis grave, SJS, torsades (con otros fármacos QT).",
   "bibliography": [
-    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — fluconazol.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
-    { "citation": "IDSA. Clinical Practice Guideline for the Management of Candidiasis.", "url": "https://www.idsociety.org/" },
-    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
-    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
-    { "citation": "AEMPS CIMA. Ficha técnica fluconazol.", "url": "https://cima.aemps.es/cima/" }
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — fluconazol.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "IDSA. Clinical Practice Guideline for the Management of Candidiasis.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEMPS CIMA. Ficha técnica fluconazol.",
+      "url": "https://cima.aemps.es/cima/"
+    }
   ]
 }

@@ -3,14 +3,14 @@
   "name": "Methylprednisolone",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Intermediate IV corticosteroid. Adult asthma 40–125 mg IV every 6–8 h; MS flare 1 g/day × 3–5 days. Pediatric anti-inflammatory 1–2 mg/kg/day; pulses 10–30 mg/kg/day (max 1 g) by indication.",
   "indications": "## Indications\n\n- Asthma exacerbation, severe allergic reactions, anaphylaxis (adjunct).\n- Pulses in autoimmune disease / glomerulopathies / rejection.\n- Acute spinal cord injury (historical regimens — verify current protocol).\n- Multiple sclerosis flare (megadose).\n\n## Precautions\n\n- Hyperglycemia, hypertension, ulcer, infections, psychosis. Infuse high doses slowly (arrhythmia with bolus).\n- Equivalence: **4 mg methylprednisolone ≈ 5 mg prednisone ≈ 0.75 mg dexamethasone**.\n\n> Pulses only under specialty protocol.",
   "dilution": {
     "adulto": {
       "presentation": "Vial 40–125–500–1000 mg.",
-      "dose": "Asthma / acute inflammation: **40–125 mg IV every 6–8 h** (then step down to PO). MS flare: **1 g IV/day × 3–5 days**. Shock/anaphylaxis (adjunct): **1–2 mg/kg** IV (often 125 mg). Autoimmune pulses: **10–30 mg/kg/day** or **1 g/day** × 3 days per protocol.",
+      "dose": "Asthma / acute inflammation: **40–125 mg IV every 6–8 h** (then step down to PO). MS flare: **1 g IV/day × 3–5 days**. Shock/anaphylaxis (adjunct): **1–2 mg/kg** IV (often 125 mg). Autoimmune pulses: **10–30 mg/kg/day** or **1 g/day** × 3 days per institutional regimen.",
       "administration": "Reconstitute with manufacturer diluent or sterile water. Dilute to 2.5–20 mg/mL in NS (preferred) or 5% dextrose. < 250 mg: ≥ 5 min; ≥ 250 mg: ≥ 30–60 min (up to 120 min for megadose).",
       "notes": "Push max ~125 mg/mL. Antacid prophylaxis at high doses."
     },

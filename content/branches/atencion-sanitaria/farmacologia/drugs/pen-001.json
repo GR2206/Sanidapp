@@ -3,13 +3,13 @@
   "name": "Penicilina G sódica",
   "branch": "atencion-sanitaria",
   "version": "1.3.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Bencilpenicilina cristalina IV. Adulto: infecciones moderadas ~2–4 MUI cada 4–6 h; graves/meningitis hasta 18–24 MUI/día. Pediatría 100.000–400.000 UI/kg/día según gravedad.",
   "indications": "## Indicaciones\n\n- Infecciones por grampositivos sensibles (estreptococos, algunos estafilococos no productores de penicilinasa) y *Neisseria* sensibles.\n- Neumonía neumocócica sensible, endocarditis estreptocócica, sífilis (esquemas IV), meningitis meningocócica/neumocócica sensibles, gangrena gaseosa en combinación.\n\n## Precauciones\n\n- Alergia a penicilinas. Convulsiones a dosis altas o en uremia.\n- Contenido de sodio clínicamente relevante en altas dosis.\n- No antagonizar con bacteriostáticos (tetraciclinas, cloranfenicol, eritromicina) si se busca efecto bactericida.\n\n> No confundir con benzatínica (IM depot) ni procaínica.",
   "dilution": {
     "adulto": {
       "presentation": "FA 1–3–5 MUI (bencilpenicilina sódica).",
-      "dose": "Leves-moderadas: **2–4 MUI/día** divididos cada 4–6 h. Graves: **12–24 MUI/día** en dosis fraccionadas cada 4–6 h o infusión continua según protocolo. Neurosífilis: frecuentemente **18–24 MUI/día**. Meningitis: esquemas altos cada 4 h.",
+      "dose": "Leves-moderadas: **2–4 MUI/día** divididos cada 4–6 h. Graves: **12–24 MUI/día** en dosis fraccionadas cada 4–6 h o infusión continua. Neurosífilis: frecuentemente **18–24 MUI/día**. Meningitis: esquemas altos cada 4 h.",
       "administration": "IV intermitente preferente: diluir (p. ej. 3 MUI en 100 mL SF) e infundir 15–60 min. IV directa solo volúmenes pequeños en 3–5 min si la ficha lo permite — evitar bolos rápidos de dosis altas.",
       "notes": "Ajustar en IRC. Monitorizar Na⁺ y función renal en dosis elevadas."
     },

@@ -3,14 +3,14 @@
   "name": "Trimethoprim–sulfamethoxazole",
   "branch": "atencion-sanitaria",
   "version": "1.3.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Co-trimoxazole. Dose by trimethoprim (TMP): usual adult 160 mg TMP every 12 h; pediatrics 8–12 mg/kg/day TMP every 12 h; PCP/severe disease 15–20 mg/kg/day TMP.",
   "indications": "## Indications\n\n- UTI due to susceptible organisms (*E. coli*, *Proteus*, *Klebsiella*, *Enterobacter*, *S. saprophyticus*, etc.).\n- Acute otitis media due to susceptible *S. pneumoniae* / *H. influenzae* (not prolonged otitis prophylaxis).\n- Treatment and prophylaxis of *Pneumocystis jirovecii* pneumonia; some *Stenotrophomonas* infections.\n\n## Precautions\n\n- Avoid under 2 months (kernicterus/immaturity) unless life-saving.\n- Sulfonamide hypersensitivity, folate-deficiency megaloblastic anemia, severe renal failure: caution or contraindication per label.\n- Interactions: warfarin, phenytoin, methotrexate, cyclosporine, rifampin.\n\n> Always express and calculate dose by the **TMP component**.",
   "dilution": {
     "adulto": {
       "presentation": "Single-strength tablets 80/400 mg; double-strength (DS) 160/800 mg; syrup; ampoule 80 mg TMP + 400 mg SMX / 5 mL.",
-      "dose": "Mild–moderate: **160 mg TMP / 800 mg SMX (1 DS) every 12 h** (usual max **640 mg TMP/day**). PCP / severe: **15–20 mg/kg/day TMP** divided every 6–8 h IV or PO. PCP prophylaxis: **160 mg TMP/day** or **160 mg 3×/week** per protocol. UTI prophylaxis: often **80–160 mg TMP at night**.",
+      "dose": "Mild–moderate: **160 mg TMP / 800 mg SMX (1 DS) every 12 h** (usual max **640 mg TMP/day**). PCP / severe: **15–20 mg/kg/day TMP** divided every 6–8 h IV or PO. PCP prophylaxis: **160 mg TMP/day** or **160 mg 3×/week** per institutional regimen. UTI prophylaxis: often **80–160 mg TMP at night**.",
       "administration": "PO with water; adequate hydration. IV: dilute 1 amp (80/400) in ≥ 100 mL NS or 5% dextrose (~0.8 mg/mL TMP); infuse 30–60 min (not > 90 min). Never undiluted.",
       "notes": "Common dilution: 1 mL concentrate in 5 mL diluent."
     },

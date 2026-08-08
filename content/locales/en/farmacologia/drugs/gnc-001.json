@@ -3,14 +3,14 @@
   "name": "Ganciclovir",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Anti-CMV. Adult induction **5 mg/kg IV every 12 h** × 14–21 days; maintenance **5 mg/kg/day**. Pediatrics similar by kg; congenital CMV often **6 mg/kg every 12 h**. Myelotoxic — monitor CBC.",
   "indications": "## Indications\n\n- CMV disease (retinitis, pneumonitis, colitis, etc.) in immunocompromised/transplant patients.\n- Induction/maintenance and high-risk prophylaxis per transplant protocol.\n- Symptomatic congenital CMV (specialist regimens).\n\n## Precautions\n\n- Neutropenia, thrombocytopenia, anemia — monitor CBC. Teratogenic/potential carcinogen — safe handling.\n- Strict renal adjustment. Nephrotoxicity.\n\n> IV only (valganciclovir is the PO form). Infusion ≥ 60 min.",
   "dilution": {
     "adulto": {
       "presentation": "Vial 500 mg.",
-      "dose": "Induction: **5 mg/kg IV every 12 h** × 14–21 days. Maintenance: **5 mg/kg IV every 24 h** (or **6 mg/kg** 5 days/week per protocol). Transplant prophylaxis: 5 mg/kg/day schemes by risk/center.",
+      "dose": "Induction: **5 mg/kg IV every 12 h** × 14–21 days. Maintenance: **5 mg/kg IV every 24 h** (or **6 mg/kg** 5 days/week per institutional regimen). Transplant prophylaxis: 5 mg/kg/day schemes by risk/center.",
       "administration": "Reconstitute with sterile water; dilute in 50–100 mL NS or 5% dextrose (5–10 mg/mL); infuse **≥ 60 min**. No bolus. Use gloves (cytotoxic).",
       "notes": "Do not refrigerate reconstituted solution on many labels. Adequate hydration."
     },

@@ -3,14 +3,14 @@
   "name": "Penicillin G sodium",
   "branch": "atencion-sanitaria",
   "version": "1.3.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Crystalline benzylpenicillin IV. Adult: moderate infections ~2–4 MU every 4–6 h; severe/meningitis up to 18–24 MU/day. Pediatrics 100,000–400,000 IU/kg/day by severity.",
   "indications": "## Indications\n\n- Infections due to susceptible gram-positives (streptococci, some non–penicillinase-producing staphylococci) and susceptible *Neisseria*.\n- Susceptible pneumococcal pneumonia, streptococcal endocarditis, syphilis (IV regimens), meningococcal/pneumococcal meningitis, gas gangrene in combination.\n\n## Precautions\n\n- Penicillin allergy. Seizures at high doses or in uremia.\n- Sodium content clinically relevant at high doses.\n- Avoid antagonism with bacteriostatics (tetracyclines, chloramphenicol, erythromycin) when bactericidal effect is required.\n\n> Do not confuse with benzathine (IM depot) or procaine penicillin.",
   "dilution": {
     "adulto": {
       "presentation": "Vial 1–3–5 MU (benzylpenicillin sodium).",
-      "dose": "Mild–moderate: **2–4 MU/day** divided every 4–6 h. Severe: **12–24 MU/day** in divided doses every 4–6 h or continuous infusion per protocol. Neurosyphilis: often **18–24 MU/day**. Meningitis: high-dose every-4-h regimens.",
+      "dose": "Mild–moderate: **2–4 MU/day** divided every 4–6 h. Severe: **12–24 MU/day** in divided doses every 4–6 h or continuous infusion per institutional regimen. Neurosyphilis: often **18–24 MU/day**. Meningitis: high-dose every-4-h regimens.",
       "administration": "Prefer intermittent IV: dilute (e.g. 3 MU in 100 mL NS) and infuse 15–60 min. IV push only small volumes over 3–5 min if the label allows — avoid rapid boluses of high doses.",
       "notes": "Adjust in renal failure. Monitor Na⁺ and renal function at high doses."
     },

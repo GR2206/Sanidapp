@@ -3,14 +3,14 @@
   "name": "Ondansetron",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "5-HT3 antagonist. Adult 4–8 mg PO/IV every 8 h; pediatric CINV 0.15 mg/kg/dose (max 8 mg); PONV 0.1 mg/kg (max 4 mg). Gastroenteritis: single weight-based dose.",
   "indications": "## Indications\n\n- Chemotherapy-induced (CINV) and radiation-induced nausea and vomiting.\n- Postoperative nausea and vomiting (PONV).\n- Refractory emesis / acute gastroenteritis (frequent off-label or per local label).\n\n## Precautions\n\n- **QTc** prolongation — check ECG at high doses or with other QT-prolonging drugs.\n- Adjust in severe hepatic impairment (often **max 8 mg/day**).\n- Y-site incompatible with acyclovir, ampicillin, aminophylline, furosemide, ganciclovir, lorazepam, methylprednisolone, piperacillin.\n\n> Protect from light. Do not mix in the same syringe with other drugs.",
   "dilution": {
     "adulto": {
       "presentation": "Ampoules 4–8 mg; tablets / ODT 4–8 mg.",
-      "dose": "CINV / emesis: **8 mg PO or IV** 30 min before chemotherapy, then **8 mg every 8–12 h** (usual max **24 mg/day** by regimen). PONV: **4 mg IV** once (may repeat per protocol). General nausea: **4–8 mg PO/IV every 8 h**.",
+      "dose": "CINV / emesis: **8 mg PO or IV** 30 min before chemotherapy, then **8 mg every 8–12 h** (usual max **24 mg/day** by regimen). PONV: **4 mg IV** once (may repeat per institutional regimen). General nausea: **4–8 mg PO/IV every 8 h**.",
       "administration": "Slow IV over 2–5 min or diluted in NS/5% dextrose over ~15 min (~1 mg/mL). PO/ODT without water if dispersible.",
       "notes": "Severe hepatic impairment: often a single 8 mg/day dose."
     },

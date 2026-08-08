@@ -3,14 +3,14 @@
   "name": "Fluconazole",
   "branch": "atencion-sanitaria",
   "version": "1.3.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Triazole antifungal. Adult oropharyngeal 100–200 mg/day; systemic/cryptococcal **400–800 mg/day** (load 800 mg). Pediatrics 3–12 mg/kg/day by focus. PO≈IV.",
   "indications": "## Indications\n\n- Oropharyngeal, esophageal, urinary, and systemic candidiasis (non-neutropenic / by susceptibility).\n- Cryptococcal meningitis (induction/maintenance in combination regimens).\n- Prophylaxis in selected at-risk populations.\n\n## Precautions\n\n- Adjust in renal failure (same loading dose; ↓ maintenance). Hepatotoxicity; QT; CYP interactions.\n- *Candida krusei* intrinsically resistant; *C. glabrata* often resistant.\n\n> PO/IV bioequivalence — switch to oral when tolerated.",
   "dilution": {
     "adulto": {
       "presentation": "Tablets 50–100–150–200 mg; suspension; IV 2 mg/mL.",
-      "dose": "Oropharynx: **100–200 mg/day**. Esophageal: **200–400 mg/day**. Systemic candidiasis / cryptococcus: load **800 mg (12 mg/kg)** day 1, then **400 mg (6 mg/kg)/day** (severe up to **800 mg/day**). Vulvovaginal: **150 mg PO once**. Prophylaxis: **200–400 mg/day** per protocol.",
+      "dose": "Oropharynx: **100–200 mg/day**. Esophageal: **200–400 mg/day**. Systemic candidiasis / cryptococcus: load **800 mg (12 mg/kg)** day 1, then **400 mg (6 mg/kg)/day** (severe up to **800 mg/day**). Vulvovaginal: **150 mg PO once**. Prophylaxis: **200–400 mg/day** per institutional regimen.",
       "administration": "PO with or without food. IV: ready bag 2 mg/mL; infuse ~**60 min**; no bolus. Protect from light until use.",
       "notes": "CrCl ≤ 50: 50% of maintenance dose after the load."
     },

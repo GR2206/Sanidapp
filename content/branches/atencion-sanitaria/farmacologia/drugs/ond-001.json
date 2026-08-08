@@ -3,13 +3,13 @@
   "name": "Ondansetrón",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Antagonista 5-HT3. Adulto 4–8 mg VO/IV cada 8 h; pediatría CINV 0,15 mg/kg/dosis (máx. 8 mg); PONV 0,1 mg/kg (máx. 4 mg). Gastroenteritis: dosis única por peso.",
   "indications": "## Indicaciones\n\n- Náuseas y vómitos inducidos por quimioterapia (CINV) y radioterapia.\n- Náuseas y vómitos postoperatorios (PONV).\n- Emesis refractaria / gastroenteritis aguda (uso frecuente off-label o según ficha local).\n\n## Precauciones\n\n- Prolongación del **QTc** — revisar ECG en dosis altas o con otros fármacos que alarguen QT.\n- Ajustar en insuficiencia hepática grave (a menudo **máx. 8 mg/día**).\n- Incompatible en Y con aciclovir, ampicilina, aminofilina, furosemida, ganciclovir, lorazepam, metilprednisolona, piperacilina.\n\n> Proteger de la luz. No mezclar en la misma jeringa con otros fármacos.",
   "dilution": {
     "adulto": {
       "presentation": "Ampollas 4–8 mg; comprimidos / ODT 4–8 mg.",
-      "dose": "CINV / emesis: **8 mg VO o IV** 30 min antes de quimioterapia, luego **8 mg cada 8–12 h** (máx. habitual **24 mg/día** según esquema). PONV: **4 mg IV** dosis única (puede repetirse según protocolo). Náuseas generales: **4–8 mg VO/IV cada 8 h**.",
+      "dose": "CINV / emesis: **8 mg VO o IV** 30 min antes de quimioterapia, luego **8 mg cada 8–12 h** (máx. habitual **24 mg/día** según esquema). PONV: **4 mg IV** dosis única (puede repetirse una vez si persiste náusea). Náuseas generales: **4–8 mg VO/IV cada 8 h**.",
       "administration": "IV lento 2–5 min o diluido en SF/Dext. 5% en ~15 min (~1 mg/mL). VO/ODT sin agua si es dispersable.",
       "notes": "Hepática grave: frecuentemente una sola dosis de 8 mg/día."
     },

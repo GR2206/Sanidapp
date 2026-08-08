@@ -3,14 +3,14 @@
   "name": "Omeprazole",
   "branch": "atencion-sanitaria",
   "version": "1.1.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Proton pump inhibitor. Usual adult PO/IV 20–40 mg/day; pediatric PO 0.5–1 mg/kg/day (common max 20 mg/day in esophagitis/GERD) by indication.",
   "indications": "## Indications\n\n- Gastroesophageal reflux disease (GERD) and esophagitis.\n- Peptic ulcer; *H. pylori* eradication in combination regimens.\n- NSAID gastropathy prevention/treatment; upper GI bleeding (hospital IV phase).\n- Hypersecretory states / Zollinger–Ellison (high doses).\n\n## Precautions\n\n- Interactions: atazanavir (contraindicated), iron, itraconazole/ketoconazole/voriconazole, digoxin, clopidogrel (debated), rifampin, phenytoin, carbamazepine, diazepam.\n- Long-term use: hypomagnesemia, GI infection risk, fractures (chronic context).\n\n> Prefer PO as soon as tolerated; IV is a hospital bridge.",
   "dilution": {
     "adulto": {
       "presentation": "Capsules/tablets 10–20–40 mg; IV vial 40 mg.",
-      "dose": "GERD/ulcer: **20 mg PO every 24 h** (up to 40 mg/day by severity). Hypersecretion/Zollinger–Ellison: start **60 mg/day** (titrate; may divide every 8–12 h). IV: **40 mg every 24 h** (in UGIB often 40 mg every 8–12 h for first days per protocol, then space).",
+      "dose": "GERD/ulcer: **20 mg PO every 24 h** (up to 40 mg/day by severity). Hypersecretion/Zollinger–Ellison: start **60 mg/day** (titrate; may divide every 8–12 h). IV: **40 mg every 24 h** (in UGIB often 40 mg every 8–12 h for first days per institutional regimen, then space).",
       "administration": "Prefer PO fasting; do not chew granules. IV: reconstitute only with manufacturer solvent; for infusion dilute to ~0.4 mg/mL and infuse 20–30 min.",
       "notes": "Reconstituted injectable: limited stability (e.g. 4 h). With 0.9% NaCl diluted ~12 h; with 5% dextrose ~6 h (check label)."
     },

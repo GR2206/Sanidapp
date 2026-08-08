@@ -3,13 +3,13 @@
   "name": "Prednisona",
   "branch": "atencion-sanitaria",
   "version": "1.0.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Corticosteroide oral de acción intermedia. Adulto típico 5–60 mg/día según indicación; pediatría antiinflamatoria/inmunosupresora habitual 0,5–2 mg/kg/día (altas 2–3 mg/kg/día; mantenimiento ~0,25 mg/kg/día) con descenso gradual.",
   "indications": "## Indicaciones\n\n- Enfermedades inflamatorias, alérgicas, autoinmunes y hematológicas que requieren corticoterapia sistémica.\n- Asma/exacerbaciones (cursos cortos), síndrome nefrótico, rechazo de trasplante (esquemas específicos).\n- Sustitución / estrés en insuficiencia suprarrenal (dosis fisiológicas distintas).\n\n## Precauciones\n\n- Infecciones activas no controladas; precaución en diabetes, HTA, osteoporosis, psicosis, úlcera péptica.\n- Tratamientos prolongados: riesgo de supresión eje HHA — **no suspender en forma abrupta**.\n- En niños en crecimiento preferir esquemas alternantes/intermitentes cuando sea posible.\n\n> La dosis es altamente indicación-dependiente; siempre seguir protocolo de la enfermedad.",
   "dilution": {
     "adulto": {
       "presentation": "Comprimidos 2,5–5–10–20–40–50 mg según marca.",
-      "dose": "Antiinflamatorio/inmunosupresor: habitual **5–60 mg/día VO** en 1–4 tomas (preferible por la mañana). Cursos cortos (p. ej. asma): a menudo **40–60 mg/día** × 5–7 días. Mantenimiento crónico: la mínima eficaz (frecuente 5–10 mg/día). Estrés/cirugía: incrementar según protocolo de insuficiencia suprarrenal.",
+      "dose": "Antiinflamatorio/inmunosupresor: habitual **5–60 mg/día VO** en 1–4 tomas (preferible por la mañana). Cursos cortos (p. ej. asma): a menudo **40–60 mg/día** × 5–7 días. Mantenimiento crónico: la mínima eficaz (frecuente 5–10 mg/día). Estrés/cirugía: incrementar a dosis de estrés (p. ej. 2–3× mantenimiento).",
       "administration": "VO con alimentos para menor intolerancia gástrica. En pautas prolongadas, concentrar dosis matutina o día alterno según especialista.",
       "notes": "Equivalencia aproximada: 5 mg prednisona ≈ 4 mg metilprednisolona ≈ 0,75 mg dexametasona."
     },

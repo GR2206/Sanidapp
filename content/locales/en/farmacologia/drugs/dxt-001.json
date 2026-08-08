@@ -3,14 +3,14 @@
   "name": "Dexamethasone",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "translationReviewed": true,
   "executiveSummary": "Potent long-acting corticosteroid. Usual adult 4–20 mg/day IV/PO by indication; pediatric croup **0.6 mg/kg** once (max 16 mg); severe COVID 6 mg/day; antiemetic 4–8 mg.",
   "indications": "## Indications\n\n- Cerebral edema, selected bacterial meningitis high-dose regimens, asthma/exacerbations, croup.\n- Nausea prophylaxis (CINV/PONV) and severe COVID-19 requiring O₂ (RECOVERY regimen).\n- Fetal lung maturation (obstetric betamethasone/dexamethasone).\n\n## Precautions\n\n- Hyperglycemia, immunosuppression, ulcer, psychosis, hypertension. Do not stop abruptly after prolonged use.\n- Approximate equivalence: **0.75 mg dexamethasone ≈ 5 mg prednisone ≈ 4 mg methylprednisolone**.\n\n> Dose is highly indication-dependent.",
   "dilution": {
     "adulto": {
       "presentation": "Ampoules 4–8 mg/mL; tablets 0.5–4–8 mg.",
-      "dose": "General anti-inflammatory: **4–10 mg IV/IM/PO** every 6–12 h (titrate). Cerebral edema: often **10 mg IV** load, then **4 mg every 6 h**. Antiemetic: **4–8 mg IV/PO**. Severe COVID-19: **6 mg PO/IV every 24 h × 10 days** (or until discharge). Shock/high-dose ICU: per protocol.",
+      "dose": "General anti-inflammatory: **4–10 mg IV/IM/PO** every 6–12 h (titrate). Cerebral edema: often **10 mg IV** load, then **4 mg every 6 h**. Antiemetic: **4–8 mg IV/PO**. Severe COVID-19: **6 mg PO/IV every 24 h × 10 days** (or until discharge). Shock/high-dose ICU: per institutional regimen.",
       "administration": "Slow IV or diluted; IM; PO. Nebulization only if local protocol allows.",
       "notes": "Monitor glycemia. GI prophylaxis on high/prolonged courses."
     },

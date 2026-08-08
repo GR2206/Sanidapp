@@ -3,13 +3,13 @@
   "name": "Metilprednisolona",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Corticoide IV intermedio. Adulto asma 40–125 mg IV cada 6–8 h; brote EM 1 g/día × 3–5 días. Pediatría antiinflamatoria 1–2 mg/kg/día; pulsos 10–30 mg/kg/día (máx. 1 g) según indicación.",
   "indications": "## Indicaciones\n\n- Exacerbación asmática, reacciones alérgicas graves, shock anafiláctico (coadyuvante).\n- Pulsos en enfermedades autoinmunes / glomerulopatías / rechazo.\n- Lesión medular aguda (esquemas históricos — verificar protocolo vigente).\n- Esclerosis múltiple en brote (megadosis).\n\n## Precauciones\n\n- Hiperglucemia, HTA, úlcera, infecciones, psicosis. Infundir lento dosis altas (arritmias con bolo).\n- Equivalencia: **4 mg metilprednisolona ≈ 5 mg prednisona ≈ 0,75 mg dexametasona**.\n\n> Pulsos solo bajo protocolo de especialidad.",
   "dilution": {
     "adulto": {
       "presentation": "FA / vial 40–125–500–1000 mg.",
-      "dose": "Asma / inflamación aguda: **40–125 mg IV cada 6–8 h** (luego descenso a VO). Brote de EM: **1 g IV/día × 3–5 días**. Shock/anafilaxia (coadyuvante): **1–2 mg/kg** IV (a menudo 125 mg). Pulsos autoinmunes: **10–30 mg/kg/día** o **1 g/día** × 3 días según protocolo.",
+      "dose": "Asma / inflamación aguda: **40–125 mg IV cada 6–8 h** (luego descenso a VO). Brote de EM: **1 g IV/día × 3–5 días**. Shock/anafilaxia (coadyuvante): **1–2 mg/kg** IV (a menudo 125 mg). Pulsos autoinmunes: **10–30 mg/kg/día** o **1 g/día** × 3 días.",
       "administration": "Reconstituir con diluyente del fabricante o AD. Diluir a 2,5–20 mg/mL en SF (preferente) o Dext. 5%. < 250 mg: ≥ 5 min; ≥ 250 mg: ≥ 30–60 min (hasta 120 min en megadosis).",
       "notes": "Push máx. ~125 mg/mL. Profilaxis antiácida en dosis altas."
     },

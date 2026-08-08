@@ -3,13 +3,13 @@
   "name": "Claritromicina",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Macrólido. Adulto VO 250–500 mg cada 12 h; pediatría 15 mg/kg/día cada 12 h (máx. habitual 1 g/día). IV 500 mg cada 12 h cuando no hay vía oral.",
   "indications": "## Indicaciones\n\n- Infecciones de vías respiratorias altas y bajas, otitis media, sinusitis por gérmenes sensibles (incluye atípicos: *Mycoplasma*, *Chlamydia*).\n- Infecciones de piel/partes blandas sensibles.\n- Profilaxis/tratamiento de *Mycobacterium avium* (esquemas específicos, dosis más altas).\n\n## Precauciones\n\n- Contraindicada con terfenadina/cisaprida (arritmia). Interacciones: carbamazepina, rifabutina, estatinas, warfarina.\n- Ajustar en insuficiencia renal grave.\n- Irritante IV (flebitis): no bolo; infundir en ≥ 60 min.\n\n> Preferir VO si hay tolerancia. Confirmar sensibilidad local.",
   "dilution": {
     "adulto": {
       "presentation": "Comprimidos 250–500 mg; suspensión; FA IV 500 mg.",
-      "dose": "VO infecciones habituales: **250–500 mg cada 12 h** (5–14 días según foco). IV: **500 mg cada 12 h** (pasar a VO lo antes posible). MAC / tuberculostático (esquema especializado): hasta **500 mg cada 12 h** o según protocolo (techos según ficha).",
+      "dose": "VO infecciones habituales: **250–500 mg cada 12 h** (5–14 días según foco). IV: **500 mg cada 12 h** (pasar a VO lo antes posible). MAC / tuberculostático (esquema especializado): hasta **500 mg cada 12 h** (techos según ficha).",
       "administration": "VO con o sin alimentos. IV: reconstituir 500 mg con 10 mL de agua destilada (no SF en reconstitución inicial); diluir en 250 mL SF o Dext. 5% (~2 mg/mL) e infundir en 60 min.",
       "notes": "Usar solo AD para reconstitución del liofilizado. No IV directa."
     },

@@ -1,50 +1,48 @@
 {
   "id": "azt-002",
   "name": "Aztreonam-avibactam",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Tratamento de infecções graves por Gram (−) em pacientes com alergia às penicilinas.",
-  "indications": "## Indicações principais\n\nTratamento de infecções graves por Gram (−) em pacientes com alergia às penicilinas.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "translationReviewed": true,
+  "executiveSummary": "Combinação para gram-negativos com MBL (p. ex. NDM). Adulto (Emblaveo): carga **2 g ATM / 0,67 g AVI**, depois **1,5 g / 0,5 g a cada 6 h** em infusão de **3 h** (~**6 g ATM + 2 g AVI/dia**). Pediatria: uso excepcional / infectologia. Não confundir com aztreonam isolado.",
+  "indications": "## Indicações\n\n- Infecções graves por enterobacterales produtores de metalo-β-lactamases (MBL, incl. NDM) e outros gram-negativos MDR quando o antibiograma justifica.\n- cIAI, cITU/pielonefrite, HABP/VAP e outras infecções graves — reserva de infectologia.\n\n## Precauções\n\n- **Não é aztreonam monoterapia** (azt-001): dose e diluição distintas (Emblaveo = 2 frascos).\n- Infusão **prolongada 3 h**. Ajuste renal estrito.\n- Proteger da luz; não misturar com outros fármacos sem verificar.\n\n> Cada dose de manutenção = **1,5 g aztreonam + 0,5 g avibactam**.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó liofilizado contendo 1,5 g de aztreonam + 0,5 g de avibactam (em dois frascos separados) (Emblaveo).",
-      "reconstitution": "Reconstituir cada frasco individualmente com 10 mL de AD ou SF. Conc final combinada: aztreonam 100 mg/mL + avibactam 33,3 mg/mL. Misturar ambos os frascos reconstituídos antes de diluir.",
-      "diluent": "1 dose em 100–250 mL de SF ou SG 5%.",
-      "finalConcentration": "Conc aztreonam: ≤ 27 mg/mL.",
-      "administration": "E.V. direta: Não. E.V. intermitente: Sim. Infusão em 3 horas (infusão prolongada). Dose habitual: aztreonam 6 g + avibactam 2 g/dia em 3 doses.",
-      "notes": "Indicado para infecções por enterobactérias MBL (incluído NDM). Não misturar com outros medicamentos. Proteger da luz."
+      "presentation": "Emblaveo: frasco ATM 1,5 g + frasco AVI 0,5 g (manutenção); carga usa 2 g / 0,67 g.",
+      "dose": "Carga: **2 g aztreonam + 0,67 g avibactam** IV. Manutenção (ClCr >50): **1,5 g + 0,5 g a cada 6 h** (total ~**6 g + 2 g/dia**). Ajuste por ClCr conforme bula.",
+      "administration": "Reconstituir cada frasco com 10 mL AD/SF; combinar; diluir em 100–250 mL SF/SG 5% (ATM ≤27 mg/mL); infundir **3 h**. Sem IV direta.",
+      "notes": "Indicado em MBL. Usar logo após preparar; estabilidade limitada."
     },
     "pediatrico": {
-      "dose": "90–120 mg/kg/dia a cada 6–8 h, dose máxima: 8 g/dia. Adultos: 1–2 g a cada 8 h. Fibrose cística: 150 mg/kg/dia a cada 8 h.",
-      "administration": "E.V.",
-      "presentation": "F.A.: 1 g",
-      "notes": "Administrar por infusão E.V. em 20–60 minutos. Cada gramo de aztreonam contém 780 mg de arginina."
+      "presentation": "Mesma apresentação; autorização pediátrica limitada.",
+      "dose": "Sem esquema pediátrico amplo em muitas bulas. Se infectologia indicar: dose por peso conforme ensaio/bula local (não usar doses de aztreonam isolado).",
+      "administration": "IV infusão 3 h como adulto.",
+      "notes": "Não copiar esquemas de azt-001. Só especialista."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- Usar imediatamente. Se não for possível, máx. 1 h em temperatura ambiente ou 24 h refrigerado (sem diluir).\n\n## Solução diluída (a administrar)\n\n- 12 h em temperatura ambiente ou 24 h refrigerado uma vez diluído.",
-  "adverseEffects": "## Efeitos adversos\n\nHipotensão, rash, convulsões, náuseas, vômitos, anorexia, dor abdominal, colite pseudomembranosa, eosinofilia, leucopenia, neutropenia, trombocitopenia.",
+  "stability": "## Estabilidade\n\n- Reconstituído: usar de imediato (máx. ~1 h T° amb ou ~24 h refrigerado sem diluir — bula).\n- Diluído: ~12 h T° amb / ~24 h refrigerado.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, erupção, flebite, ↑ enzimas hepáticas, eosinofilia; *C. difficile*; hipersensibilidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Aztreonam* (cód. 1445, ATC J01DF).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA / EMA. Emblaveo (aztreonam/avibactam).",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "FDA. Bula Emblaveo.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "IDSA. Orientação gram-negativos resistentes — MBL.",
+      "url": "https://www.idsociety.org/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

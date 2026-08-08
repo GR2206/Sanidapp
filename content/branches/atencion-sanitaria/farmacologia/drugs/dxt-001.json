@@ -3,13 +3,13 @@
   "name": "Dexametasona",
   "branch": "atencion-sanitaria",
   "version": "1.2.0",
-  "updatedAt": "2026-08-07",
+  "updatedAt": "2026-08-08",
   "executiveSummary": "Corticoide potente de larga acción. Adulto habitual 4–20 mg/día IV/VO según indicación; croup pediátrico **0,6 mg/kg** dosis única (máx. 16 mg); COVID grave 6 mg/día; antiemético 4–8 mg.",
   "indications": "## Indicaciones\n\n- Edema cerebral, meningitis bacteriana (dosis altas en esquemas seleccionados), asma/exacerbaciones, croup.\n- Profilaxis de náuseas (CINV/PONV) y COVID-19 grave que requiere O₂ (esquema RECOVERY).\n- Maduración pulmonar fetal (betametasona/dexametasona obstétrica).\n\n## Precauciones\n\n- Hiperglucemia, inmunosupresión, úlcera, psicosis, HTA. No suspender en forma abrupta tras uso prolongado.\n- Equivalencia aproximada: **0,75 mg dexametasona ≈ 5 mg prednisona ≈ 4 mg metilprednisolona**.\n\n> La dosis es altamente indicación-dependiente.",
   "dilution": {
     "adulto": {
       "presentation": "Ampollas 4–8 mg/mL; comprimidos 0,5–4–8 mg.",
-      "dose": "Antiinflamatorio general: **4–10 mg IV/IM/VO** cada 6–12 h (ajustar). Edema cerebral: frecuentemente **10 mg IV** carga, luego **4 mg cada 6 h**. Antiemético: **4–8 mg IV/VO**. COVID-19 grave: **6 mg VO/IV cada 24 h × 10 días** (o hasta alta). Shock/dosis altas: según protocolo de UCI.",
+      "dose": "Antiinflamatorio general: **4–10 mg IV/IM/VO** cada 6–12 h (ajustar). Edema cerebral: frecuentemente **10 mg IV** carga, luego **4 mg cada 6 h**. Antiemético: **4–8 mg IV/VO**. COVID-19 grave: **6 mg VO/IV cada 24 h × 10 días** (o hasta alta). Shock/dosis altas: esquemas UCI de estrés (p. ej. **>10 mg/día** divididos).",
       "administration": "IV lento o diluido; IM; VO. Nebulización solo si el protocolo local lo contempla.",
       "notes": "Monitorizar glucemia. Profilaxis GI en cursos altos/prolongados."
     },
