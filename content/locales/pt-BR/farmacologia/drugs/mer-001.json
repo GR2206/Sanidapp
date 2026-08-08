@@ -1,63 +1,54 @@
 {
   "id": "mer-001",
   "name": "Meropenem",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Espectro semelhante ao imipenem.",
-  "indications": "## Indicações principais\n\nEspectro semelhante ao imipenem.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Carbapenem de amplo espectro. Adulto 1 g IV a cada 8 h (meningite/FQ 2 g a cada 8 h). Pediatria 20 mg/kg a cada 8 h (60 mg/kg/dia); SNC/sepse 40 mg/kg a cada 8 h (120 mg/kg/dia; máx. 6 g/dia).",
+  "indications": "## Indicações\n\n- Infecções graves por gram-negativos MDR, anaeróbios e muitos gram-positivos (não MRSA/E. faecium).\n- Meningite bacteriana, sepse, FQ, intra-abdominais complicadas quando o espectro justifica.\n\n## Precauções\n\n- Ajustar na IRC. Convulsões (menor risco que imipenem, ainda possível em SNC/IRC).\n- Indutor/seleção de resistências — reservar.\n\n> Infusão prolongada (3 h) pode ser usada em críticos conforme protocolo PK/PD.",
   "dilution": {
     "adulto": {
-      "presentation": "F.A. com pó contendo 1 g (Meropenem Drawer, Fabra, FADA, Klonal, Larjan, Richet, Anfietoc).",
-      "reconstitution": "10 mL de AD. Conc: 50 mg/mL.",
-      "diluent": "500 mg em 100 mL de SF ou SG 5%.",
-      "finalConcentration": "5 mg/mL.",
-      "administration": "E.V. direta: Sim. Agitar até dissolver em 10 mL AD, administrar em 5 min. E.V. intermitente: Sim. Diluir em 100 mL de SF ou SG 5% e passar em 30–60 min.",
-      "notes": "Em caso de restrição hídrica, pode diluir-se até em 50 mL de SF ou SG 5%."
+      "presentation": "FA 500 mg–1 g.",
+      "dose": "Infecções graves habituais: **1 g IV a cada 8 h**. Meningite / FQ / muito graves: **2 g a cada 8 h**. Ajuste renal obrigatório.",
+      "administration": "IV push: reconstituir em AD; 5 min. IV intermitente: diluir em 50–100 mL SF/Dext. 5%; 15–30 min (ou 3 h se protocolo de infusão estendida).",
+      "notes": "Restrição hídrica: pode concentrar conforme bula."
     },
     "pediatrico": {
-      "presentation": "F.A.: 500–1000 mg",
-      "reconstitution": "Água destilada para reconstituição.",
-      "administration": "E.V.; I.M.",
-      "diluent": "SF 0,9%, SG 5% e 10%, manitol.",
-      "finalConcentration": "50 mg/mL.",
-      "infusionRate": "15 a 30 minutos com BIC.",
-      "dose": "Sepse, infecções do SNC e fibrose cística: 120 mg/kg/dia, a cada 8 h, dose máxima: 6 g/dia. Infecção urinária, de pele e partes moles e outras infecções: 60 mg/kg/dia, a cada 8 h, dose máxima: 3 g/dia. Tuberculose pulmonar, intestinal: 60 mg/kg/dia a cada 8 h, máximo 1.000 mg/dose. Tuberculose meníngea: 120 mg/kg/dia a cada 8 h, máximo 2.000/dose. Ver guia de tratamento de tuberculose.",
-      "notes": "Menor toxicidade a nível do SNC que imipenem. Administrar em push: 3 a 5 min.; em infusão intermitente: 15 a 30 min."
+      "presentation": "FA 500–1000 mg.",
+      "dose": "ITU/pele/outras: **20 mg/kg a cada 8 h** (**60 mg/kg/dia**; máx. **3 g/dia**). Sepse/SNC/FQ: **40 mg/kg a cada 8 h** (**120 mg/kg/dia**; máx. **6 g/dia**).",
+      "administration": "IV 15–30 min (ou estendida).",
+      "notes": "Calcular pelo peso. > 50 kg: dose de adulto."
     },
     "neonatal": {
-      "presentation": "Frasco-ampola 500 mg (UCIN).",
-      "dose": "Dose e intervalo conforme idade pós-menstrual e peso (ex.: 20 mg/kg/dose a cada 12–24 h em prematuros; ajuste médico).",
-      "administration": "E.V. preferencialmente por via central."
+      "presentation": "FA; cartilha UTIN.",
+      "dose": "Orientativo: **20 mg/kg/dose a cada 12–24 h** em prematuros conforme IG/IPN; meningite pode exigir 40 mg/kg — seguir tabela UTIN.",
+      "administration": "IV.",
+      "notes": "Sempre cruzar com o protocolo neonatal do centro."
     }
   },
-  "stability": "## Reconstituído (no frasco)\n\n- 1 h em temperatura ambiente, 8 h refrigerado.\n\n## Solução diluída (a administrar)\n\n- Em SF: 8 h em temperatura ambiente, 48 h refrigerada. Em SG 5%: 3 h em temperatura ambiente, 14 h refrigerada.\n\n## Guia pediátrica\n\n- 2 h em temperatura ambiente. 12 h na geladeira.",
-  "adverseEffects": "## Efeitos adversos\n\nCefaleia, náuseas, dor abdominal, diarreia.",
+  "stability": "## Estabilidade\n\n- Reconstituído: usar logo (estabilidade curta à T° amb).\n- Diluído em SF costuma ser mais estável que em dextrose — verificar bula.",
+  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, erupção, flebite, ↑ transaminases, trombocitose/trombocitopenia, convulsões (raro), *C. difficile*.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — MEROpenem (cód. 1152, ATC J01DH).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Serviço de Infectologia, Prevenção e Controle de Infecções. UCIP 2026 — Guia de diluição e estabilidade.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy — Meropenem.",
+      "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos — Meropenem.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Uso racional de antimicrobianos.",
+      "citation": "AEMPS CIMA / IDSA — referências de posologia.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Diretrizes e consensos.",
       "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }

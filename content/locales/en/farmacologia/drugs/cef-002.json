@@ -2,46 +2,52 @@
   "id": "cef-002",
   "name": "Cefazolin",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "First-generation IV cephalosporin; surgical prophylaxis and MSSA.",
-  "indications": "## Indications\n\n- Surgical prophylaxis of skin and soft tissues.\n- Infections caused by MSSA and susceptible streptococcus.\n\n## Precautions\n\n- Adjust in CKD. Beta-lactam allergy.\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "1st-generation cephalosporin. Adult 1–2 g IV every 8 h (surgical prophylaxis 2 g once; > 120 kg often 3 g). Pediatrics 25–100 mg/kg/day every 6–8 h.",
+  "indications": "## Indications\n\n- Skin/soft-tissue, bone, and urinary infections due to susceptible gram-positives and some community gram-negatives.\n- Surgical prophylaxis (common choice in clean surgery).\n\n## Precautions\n\n- Beta-lactam allergy. Adjust in renal failure.\n- Not preferred for meningitis (poor penetration).\n\n> Does not cover MRSA, *Pseudomonas*, or gut anaerobes.",
   "dilution": {
     "adulto": {
-      "presentation": "Vial with lyophilized powder containing 1 g (Cefazolin Drawer, Fabra, Klonal, Northia, Richet, Pharmavial).",
-      "reconstitution": "10 mL of DW or NS. Conc: 100 mg/mL.",
-      "diluent": "1 g in 100 mL of NS or D5W.",
-      "finalConcentration": "10 mg/mL.",
-      "administration": "IM: Yes. Reconstitute with 4 mL of DW and administer deep IM. Direct IV: Yes. Reconstitute with 10 mL of DW or NS and administer over 3–5 min. Intermittent IV: Yes. Dilute in 50–100 mL of NS or D5W and administer over 30–60 min.",
-      "notes": "Compatible with NS and D5W. May cause phlebitis via direct IV route. IM administration is possible. First choice for surgical prophylaxis."
+      "presentation": "Vial 1 g.",
+      "dose": "Treatment: **1–2 g IV every 8 h** (severe every 6 h by focus; usual max **12 g/day**). Surgical prophylaxis: **2 g IV** 30–60 min before incision (**3 g** if weight > 120 kg in many guides); redose at 4 h if prolonged surgery.",
+      "administration": "Intermittent IV diluted 15–30 min; IM possible. Reconstitute with sterile water; dilute in NS/5% dextrose.",
+      "notes": "Intraoperative redose if major blood loss per protocol."
     },
     "pediatrico": {
-      "dose": "25–100 mg/kg/day every 6–8 h.",
-      "administration": "IV."
+      "presentation": "Vial 1 g.",
+      "dose": "**25–50 mg/kg/day** every 8 h (mild–moderate); severe **75–100 mg/kg/day** every 6–8 h. Adult-aligned max (**~6–12 g/day** by severity). Prophylaxis: **30 mg/kg** once (max 2 g).",
+      "administration": "IV/IM.",
+      "notes": "Dose by weight."
     },
     "neonatal": {
-      "dose": "25 mg/kg/dose every 12 h (NICU).",
-      "administration": "IV."
+      "presentation": "Vial; NNU protocol.",
+      "dose": "Orientative: **25 mg/kg/dose every 12 h** (adjust by gestational/postnatal age).",
+      "administration": "IV.",
+      "notes": "Confirm local NNU table."
     }
   },
-  "stability": "## Reconstituted (in the vial)\n\n- 24 h at room temperature, 10 days refrigerated.\n\n## Diluted solution (to be administered)\n\n- 24 h at room temperature, 10 days refrigerated.",
-  "adverseEffects": "## Effects\n\n- Phlebitis, rash, diarrhea. Anaphylaxis.",
+  "stability": "## Stability\n\n- IV dilution: per label (usually 24 h refrigerated).",
+  "adverseEffects": "## Adverse effects\n\nRash, diarrhea, phlebitis, eosinophilia, elevated transaminases. Rare anaphylaxis.",
   "bibliography": [
     {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
+      "citation": "AEMPS CIMA / IDSA antimicrobial dosing references.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sociedad Argentina de Infectología (SADI). Guidelines and consensus.",
       "url": "https://www.sadi.org.ar/"
     }
   ]

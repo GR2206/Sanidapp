@@ -2,59 +2,37 @@
   "id": "gen-001",
   "name": "Gentamicina",
   "branch": "atencion-sanitaria",
-  "version": "1.2.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antibiótico aminoglucósido para tratamiento de infecciones en hueso, sistema nervioso central, tracto respiratorio, piel y partes blandas, abdominales, urinarias y endocarditis por bacterias gram negativas, incluyendo Pseudomonas, y gram positivas.",
-  "indications": "## Indicaciones principales\n\nAntibiótico aminoglucósido para tratamiento de infecciones en hueso, sistema nervioso central, tracto respiratorio, piel y partes blandas, abdominales, urinarias y endocarditis por bacterias gram negativas, incluyendo Pseudomonas, y gram positivas.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.3.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Aminoglucósido. Adulto habitual **5–7 mg/kg IV cada 24 h** (dosis única diaria) o 1–1,7 mg/kg cada 8 h; endocarditis 3 mg/kg/día fraccionado. Pediatría 5–7,5 mg/kg/día. Monitorear niveles y función renal/auditiva.",
+  "indications": "## Indicaciones\n\n- Infecciones graves por gramnegativos (incl. *Pseudomonas* en combinación), pielonefritis, sepsis, endocarditis (sinergia).\n- Empírico neonatal con ampicilina.\n\n## Precauciones\n\n- Nefro y ototoxicidad — **dosificar por peso ajustado**, monitorear pico/valle o AUC.\n- Ajustar en IRC. Evitar con otros nefrotóxicos si es posible.\n- Incompatible con penicilinas/cefalosporinas/heparina en la misma vía (inactivación).\n\n> Preferir infusión ≥ 30 min; nunca bolo rápido.",
   "dilution": {
     "adulto": {
-      "presentation": "Amp conteniendo 80 mg (Gentamicina Drawer).",
-      "reconstitution": "No requiere reconst. previa. Conc: 40 mg/mL.",
-      "diluent": "80 mg en 100 mL de SF.",
-      "finalConcentration": "0,8 mg/mL.",
-      "administration": "IV intermitente: Sí. Diluir en 100 mL de SF y admin. en 30 min."
+      "presentation": "Ampollas 40 mg/mL (p. ej. 80 mg/2 mL).",
+      "dose": "Dosis única diaria (preferida en muchos centros): **5–7 mg/kg IV cada 24 h**. Traditional: **1–1,7 mg/kg cada 8 h**. Endocarditis (sinergia): **3 mg/kg/día** divididos cada 8 h con niveles. Máx. orientativo dosis única **~300–400 mg** según peso/protocolo.",
+      "administration": "IV diluida en ≥ 50–100 mL SF; **30–60 min**. IM posible.",
+      "notes": "Pico (dosis múltiple) 4–12 µg/mL, valle < 2; dosis única pico 16–24, valle < 1 (metas locales pueden variar)."
     },
     "pediatrico": {
-      "presentation": "Ampollas de 2ml: 40 mg/ml",
-      "administration": "E.V.; I.M.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "11 mg/mL.",
-      "infusionRate": "30 a 60 min.",
-      "dose": "5-7,5 mg/kg/día cada 24 hs, dosis máxima: 300 mg. Fibrosis quística: 10 mg/kg/día, dosis máxima: 400 mg. Endocarditis: 3 mg/kg/día cada 8 hs (monitorear concentración sérica). Ver tabla de ajuste de dosis de antimicrobianos.",
-      "compatibility": "Incompatible con cefalosporinas, penicilina y heparina.",
-      "notes": "E.V.: administrar diluido en 30 minutos. Farmacocinética: Múltiples dosis diarias: pico: 4 a 12 µg/ml, valle: &lt; 2 µg/ml. Dosis única diaria: pico: 16 a 24 µg/ml, valle: &lt; 1 µg/ml. El seguimiento se hará tomando pico y valle. Pico entre 30 y 60 minutos después de finalizada la infusión de una hora; valle: inmediatamente antes de una próxima dosis. Se requiere monitoreo plasmático en: tratamientos &gt; de 5 días, pacientes con función renal disminuida, pacientes con limitada respuesta terapéutica, obesidad, aumento del volumen extracelular, pacientes que requieren aumento de dosis, fibroquísticos, quemados, pacientes sometidos a diálisis, signos de ototoxicidad y nefrotoxicidad y uso de otros agentes nefrotóxicos. Ver guía preliminar para la prevención de teratogénesis causada por medicamentos."
+      "presentation": "Ampollas 40 mg/mL.",
+      "dose": "**5–7,5 mg/kg/día cada 24 h** (máx. **300 mg**). FQ: **10 mg/kg/día** (máx. **400 mg**). Endocarditis: **3 mg/kg/día cada 8 h** con monitoreo.",
+      "administration": "IV 30–60 min diluida; IM.",
+      "notes": "Monitoreo si > 5 días, IRC, obesidad, quemados, mala respuesta, ototóxicos concomitantes."
     },
     "neonatal": {
-      "dose": "4–5 mg/kg/dosis cada 24–36 h según edad postmenstrual (NNU).",
-      "administration": "IV."
+      "presentation": "Ampolla; cartilla NNU.",
+      "dose": "Orientativo: **4–5 mg/kg/dosis cada 24–48 h** según edad postmenstrual/peso.",
+      "administration": "IV lenta.",
+      "notes": "Intervalos más largos en prematuros extremos; seguir tabla NNU y niveles."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- No aplica.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb y 48 hs refrigerado.\n\n## Cartilla pediátrica\n\n- Desechar una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nDaño vestibular, nefrotoxicidad reversible, potencia el bloqueo neuromuscular por anestésicos.",
+  "stability": "## Estabilidad\n\n- Dilución: preparar cercana a la administración; no mezclar con betalactámicos en la misma jeringa.",
+  "adverseEffects": "## Efectos adversos\n\nNefrotoxicidad, ototoxicidad (vestibular/cóclear), bloqueo neuromuscular (raro), erupción.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Gentamicina (cód. 0105, ATC J01GB).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — gentamicina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy — aminoglycoside dosing.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEMPS CIMA. Ficha técnica gentamicina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.", "url": "https://www.sadi.org.ar/" }
   ]
 }

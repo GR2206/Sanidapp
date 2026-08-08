@@ -2,46 +2,37 @@
   "id": "cef-002",
   "name": "Cefazolina",
   "branch": "atencion-sanitaria",
-  "version": "1.1",
-  "updatedAt": "2026-06-30",
-  "executiveSummary": "Cefalosporina de primera generación IV; profilaxis quirúrgica y MSSA.",
-  "indications": "## Indicaciones\n\n- Profilaxis quirúrgica de piel y partes blandas.\n- Infecciones por MSSA y estreptococo sensible.\n\n## Precauciones\n\n- Ajustar en IRC. Alergia a betalactámicos.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.2.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Cefalosporina 1.ª generación. Adulto 1–2 g IV cada 8 h (profilaxis quirúrgica 2 g dosis única; > 120 kg a menudo 3 g). Pediatría 25–100 mg/kg/día cada 6–8 h.",
+  "indications": "## Indicaciones\n\n- Infecciones de piel/partes blandas, óseas y urinarias por grampositivos sensibles y algunos gramnegativos comunitarios.\n- Profilaxis quirúrgica (elección frecuente en cirugía limpia).\n\n## Precauciones\n\n- Alergia a betalactámicos. Ajustar en IRC.\n- No de elección para meningitis (poca penetración).\n\n> No cubrir SAMR, *Pseudomonas* ni anaerobios intestinales.",
   "dilution": {
     "adulto": {
-      "presentation": "FA con polvo liofilizado conteniendo 1 g (Cefazolina Drawer, Fabra, Klonal, Northia, Richet, Pharmavial).",
-      "reconstitution": "10 mL de AD o SF. Conc: 100 mg/mL.",
-      "diluent": "1 g en 100 mL de SF o DX 5%.",
-      "finalConcentration": "10 mg/mL.",
-      "administration": "IM: Sí. Reconst. con 4 mL de AD y aplicar IM profundo. IV directa: Sí. Reconst. con 10 mL de AD o SF y admin. en 3-5 min. IV intermitente: Sí. Diluir en 50-100 mL de SF o DX 5% y admin. en 30-60 min.",
-      "notes": "Compatible con SF y DX 5%. Puede producir flebitis en la vía IV directa. Es posible la administración IM. Primera elección para profilaxis quirúrgica."
+      "presentation": "FA 1 g.",
+      "dose": "Tratamiento: **1–2 g IV cada 8 h** (graves cada 6 h según foco; máx. habitual **12 g/día**). Profilaxis quirúrgica: **2 g IV** 30–60 min antes de la incisión (**3 g** si peso > 120 kg en muchas guías); redosificar a las 4 h si cirugía prolongada.",
+      "administration": "IV intermitente diluida 15–30 min; IM posible. Reconstituir con AD; diluir en SF/Dext. 5%.",
+      "notes": "Repetir dosis intraoperatoria si pérdida hemática importante según protocolo."
     },
     "pediatrico": {
-      "dose": "25–100 mg/kg/día cada 6–8 h.",
-      "administration": "IV."
+      "presentation": "FA 1 g.",
+      "dose": "**25–50 mg/kg/día** cada 8 h (leves-moderadas); graves **75–100 mg/kg/día** cada 6–8 h. Máx. alineado al adulto (**~6–12 g/día** según gravedad). Profilaxis: **30 mg/kg** dosis única (máx. 2 g).",
+      "administration": "IV/IM.",
+      "notes": "Calcular por peso."
     },
     "neonatal": {
-      "dose": "25 mg/kg/dosis cada 12 h (NNU).",
-      "administration": "IV."
+      "presentation": "FA; protocolo NNU.",
+      "dose": "Orientativo: **25 mg/kg/dosis cada 12 h** (ajustar por edad gestacional/postnatal).",
+      "administration": "IV.",
+      "notes": "Confirmar tabla NNU local."
     }
   },
-  "stability": "## Reconstituido (en el frasco)\n\n- 24 hs a T° amb, 10 días refrigerado.\n\n## Solución diluida (a administrar)\n\n- 24 hs a T° amb, 10 días refrigerado.",
-  "adverseEffects": "## Efectos\n\n- Flebitis, rash, diarrea. Anafilaxia.",
+  "stability": "## Estabilidad\n\n- Dilución IV: según prospecto (habitual 24 h refrigerado).",
+  "adverseEffects": "## Efectos adversos\n\nErupción, diarrea, flebitis, eosinofilia, elevación de transaminasas. Anafilaxia rara.",
   "bibliography": [
-    {
-      "citation": "Servicio de Infectología, Prevención y Control de Infecciones. UCIP 2026 — Guía de dilución y estabilidad.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Sanford Guide to Antimicrobial Therapy.",
-      "url": "https://www.sanfordguide.com/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
-    }
+    { "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — cefazolina.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" },
+    { "citation": "ASHP / IDSA surgical prophylaxis guidelines — cefazolin dosing.", "url": "https://www.ashp.org/" },
+    { "citation": "Sanford Guide to Antimicrobial Therapy.", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Información de medicamentos autorizados en Argentina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.", "url": "https://www.sadi.org.ar/" }
   ]
 }
