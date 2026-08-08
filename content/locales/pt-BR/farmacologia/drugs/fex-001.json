@@ -1,0 +1,50 @@
+{
+  "id": "fex-001",
+  "name": "Fexofenadina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-histamínico H1 de 2ª geração, sedação mínima. Adulto/≥12 anos: **120 mg VO/dia** (rinite) ou **180 mg/dia** (urticária). 6–11 anos: **30 mg a cada 12 h**. Evitar suco de toranja/laranja/maçã com a tomada.",
+  "indications": "## Indicações\n\n- Rinite alérgica sazonal; urticária crônica.\n\n## Precauções\n\n- IRC: adultos frequentemente **60 mg/dia** ou **60 mg a cada 24–48 h** conforme ClCr.\n- Antiácidos com alumínio/magnésio: separar ~2 h.\n\n> Pouca passagem na BHE → sedação mínima.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 120–180 mg; às vezes 60 mg.",
+      "dose": "Rinite: **120 mg VO/dia** (ou **60 mg a cada 12 h**). Urticária: **180 mg/dia**. IRC: reduzir (p. ex. **60 mg/dia**).",
+      "administration": "VO com água; não com sucos citados.",
+      "notes": "Máx. habitual 180 mg/dia."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 30–120–180 mg; suspensão conforme país.",
+      "dose": "6–11 anos: **30 mg a cada 12 h**. ≥12 anos: dose de adulto. 2–5 anos (se houver suspensão local): **30 mg/dia** — verificar bula.",
+      "administration": "VO.",
+      "notes": "<6 anos: só se houver apresentação autorizada."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, náuseas, tontura; sonolência pouco frequente.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Fexofenadina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Fexofenadina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "FDA. Allegra / fexofenadina — interação com sucos.",
+      "url": "https://www.fda.gov/"
+    }
+  ],
+  "translationReviewed": true
+}

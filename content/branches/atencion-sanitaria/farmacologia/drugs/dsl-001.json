@@ -1,0 +1,37 @@
+{
+  "id": "dsl-001",
+  "name": "Desloratadina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihistamínico H1 2.ª generación (metabolito de loratadina). Adulto y ≥12 años: **5 mg VO/día**. 6–11 años: **2,5 mg/día**. 1–5 años: **1,25 mg/día**. Poca sedación; ajuste en IRC grave.",
+  "indications": "## Indicaciones\n\n- Rinitis alérgica; urticaria crónica idiopática.\n\n## Precauciones\n\n- Insuficiencia renal grave: adultos a menudo **5 mg cada 48 h**.\n- Menos sedante que 1.ª generación; aún así precaución con alcohol.\n\n> Jarabe 0,5 mg/mL facilita dosis pediátricas.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 5 mg; jarabe 0,5 mg/mL.",
+      "dose": "**5 mg VO una vez al día**. IRC grave: **5 mg cada 48 h** (ficha).",
+      "administration": "VO con o sin alimentos.",
+      "notes": "Máx. 5 mg/día en adultos con función renal normal."
+    },
+    "pediatrico": {
+      "presentation": "Jarabe 0,5 mg/mL; comp. 2,5–5 mg.",
+      "dose": "12–17 años: **5 mg/día**. 6–11 años: **2,5 mg/día**. 1–5 años: **1,25 mg/día** (2,5 mL). 6–11 meses (algunas fichas): **1 mg/día**.",
+      "administration": "VO.",
+      "notes": "<6 meses: no rutinario."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, fatiga, sequedad de boca; raro: taquicardia, elevación de enzimas hepáticas.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Desloratadina — posología por edad.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AEP Pediamécum. Desloratadina.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos desloratadina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "Hospital Garrahan. Formulario — antihistamínicos.", "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda" }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "mup-001",
+  "name": "Mupirocin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Topical antibiotic (pseudomonic acid). Impetigo/localized skin infection: **thin layer q8–12h × 5–10 days**. Nasal S. aureus eradication: **2% nasal ointment q12h × 5 days** (both nares).",
+  "indications": "## Indications\n\n- Impetigo, folliculitis, primary skin infections by susceptible staph/strep.\n- Nasal S. aureus / MRSA decolonization (hospital protocols).\n\n## Precautions\n\n- Topical/nasal only per presentation — **not** for eyes with skin cream.\n- Rising resistance: avoid long courses or large areas if systemic alternative needed.\n- Some PEG bases: caution in large-area use with renal impairment.\n\n> If no improvement in 3–5 days, reassess (cellulitis → systemic).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cream/ointment 2%; nasal ointment 2%.",
+      "dose": "Skin: **q8h** (cream) or **q8–12h** (ointment) × **5–10 days**. Nasal: **small amount each naris q12h × 5 days**.",
+      "administration": "Topical on clean lesion; nasal with swab/finger per protocol.",
+      "notes": "Cover with gauze if needed; wash hands after."
+    },
+    "pediatrico": {
+      "presentation": "Same as adult (authorized from infants on many labels).",
+      "dose": "Same topical **q8–12h × 5–10 days**. Nasal: institutional decolonization regimens.",
+      "administration": "Topical/nasal.",
+      "notes": "Avoid ingestion; monitor application site in infants."
+    },
+    "neonatal": {
+      "presentation": "2% cream/ointment per NICU protocol.",
+      "dose": "Specialist/neonatology only (MRSA outbreaks).",
+      "administration": "Protocolized topical/nasal.",
+      "notes": "No self-medication."
+    }
+  },
+  "stability": "## Stability\n\n- Store per label; do not freeze.",
+  "adverseEffects": "## Adverse effects\n\nBurning, pruritus, local dryness; rare: contact dermatitis, allergy.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Mupirocin cream/ointment/nasal.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "IDSA. SSTI / MRSA decolonization context.",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — topical antibiotics.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

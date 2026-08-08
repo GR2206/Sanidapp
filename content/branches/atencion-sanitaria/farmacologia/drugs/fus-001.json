@@ -1,0 +1,37 @@
+{
+  "id": "fus-001",
+  "name": "Ácido fusídico",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antibiótico esteroide (estafilococos). Tópico piel: **crema/ungüento 2% c/8–12 h × 5–7 días**. VO adulto (fusidato): **500 mg c/8 h**. Oftálmico: **gota c/12 h**. No de primera línea sistémica amplia — riesgo de resistencia.",
+  "indications": "## Indicaciones\n\n- Infecciones cutáneas estafilocócicas localizadas (impétigo, foliculitis).\n- Infecciones estafilocócicas sistémicas seleccionadas (VO/IV) según antibiograma.\n- Conjuntivitis bacteriana (presentación oftálmica).\n\n## Precauciones\n\n- Hepático: precaución con VO prolongado (↑ bilirrubina/enzimas).\n- Interacciones VO: estatinas (miopatía), inhibidores CYP3A4.\n- Reservar sistémico; preferir tópico en lesiones pequeñas.\n\n> Combinaciones con corticoides tópicos: solo si eczema infectado y por tiempo corto.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Crema/ungüento 2%; comp. 250 mg (fusidato sódico); gotas oftálmicas 1%.",
+      "dose": "Piel: **c/8–12 h × 5–7 días** (máx. habitual ~2 semanas). VO: **500 mg c/8 h** (infecciones graves: esquemas hospitalarios). Ojo: **1 gota c/12 h** × varios días tras mejoría.",
+      "administration": "Tópico/VO/oftálmico según presentación.",
+      "notes": "VO con alimentos mejora tolerancia GI."
+    },
+    "pediatrico": {
+      "presentation": "Crema 2%; suspensión/comp. según país; gotas oftálmicas.",
+      "dose": "Tópico: igual que adulto. VO: frecuentemente **20–40 mg/kg/día** dividido c/8 h (máx. adulto) — ficha local. Ojo: **c/12 h**.",
+      "administration": "Según vía.",
+      "notes": "En niños priorizar tópico si infección limitada."
+    },
+    "neonatal": {
+      "presentation": "Tópico/oftálmico según protocolo.",
+      "dose": "Solo criterio especializado.",
+      "administration": "—",
+      "notes": "Evitar VO rutinario."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nTópico: irritación local. VO: náuseas, diarrea, ictericia/↑ enzimas; raro: reacciones cutáneas.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Ácido fusídico / fusidato.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "Sanford Guide — fusidic acid (staphylococci).", "url": "https://www.sanfordguide.com/" },
+    { "citation": "ANMAT. Prospectos ácido fusídico.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEP Pediamécum. Ácido fusídico.", "url": "https://www.aeped.es/" }
+  ]
+}

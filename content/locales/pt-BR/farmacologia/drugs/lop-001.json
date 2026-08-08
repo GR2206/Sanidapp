@@ -1,0 +1,50 @@
+{
+  "id": "lop-001",
+  "name": "Loperamida",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antidiarreico opioide periférico. Adulto: **4 mg VO inicial** depois **2 mg** após cada evacuação líquida (máx. OTC **8 mg/dia**; com supervisão **16 mg/dia**). Pediatria ≥2 anos: **0,08–0,24 mg/kg/dia** divididos — **evitar <2 anos**.",
+  "indications": "## Indicações\n\n- Diarreia aguda não infecciosa / do viajante (sintoma); diarreia crônica sob critério médico.\n\n## Precauções\n\n- Não usar se febre alta, sangue/muco nas fezes, colite por C. difficile ou suspeita invasiva — risco de megacólon tóxico.\n- Abuso em doses altas: arritmias (QT/QRS) — não ultrapassar máximos.\n- Desidratação: priorizar sais de reidratação.\n\n> Não é tratamento etiológico de infecções.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp./cáps. 2 mg; solução 0,2 mg/mL.",
+      "dose": "Aguda: **4 mg** inicial → **2 mg** após cada evacuação líquida. Máx. automedicação **8 mg/dia**; médico até **16 mg/dia**.",
+      "administration": "VO com líquidos.",
+      "notes": "Se não melhorar em 48 h, reavaliar."
+    },
+    "pediatrico": {
+      "presentation": "Solução 0,2 mg/mL; comp. 2 mg.",
+      "dose": "≥2 anos: frequentemente **0,08–0,24 mg/kg/dia** em 2–3 tomadas (máx. conforme peso/bula; orientativo 2–5 a **1–3 mg/dia**; 6–8 a **2–4 mg/dia**). Alternativa aguda: **0,1 mg/kg** após cada evacuação (máx. por idade).",
+      "administration": "VO.",
+      "notes": "<2 anos: contraindicada em muitas bulas (íleo/depressão SNC)."
+    },
+    "neonatal": {
+      "presentation": "Contraindicada.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nConstipação, flatulência, dor abdominal, náuseas; raro: íleo, sonolência; doses tóxicas: arritmia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Loperamida — posologia e restrições.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Loperamida — eventos cardíacos em doses altas.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Loperamida.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

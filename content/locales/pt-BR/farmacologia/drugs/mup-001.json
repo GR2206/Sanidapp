@@ -1,0 +1,50 @@
+{
+  "id": "mup-001",
+  "name": "Mupirocina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antibiótico tópico (ácido pseudomônico). Impetigo/infecções cutâneas localizadas: **camada fina a cada 8–12 h × 5–10 dias**. Erradicação nasal de S. aureus: **pomada nasal 2% a cada 12 h × 5 dias** (ambas as fossas).",
+  "indications": "## Indicações\n\n- Impetigo, foliculite, infecções cutâneas primárias por estafilococo/estreptococo sensíveis.\n- Descolonização nasal de S. aureus / MRSA (protocolos hospitalares).\n\n## Precauções\n\n- Só uso tópico/nasal conforme apresentação — **não** para mucosas oculares com creme cutâneo.\n- Resistência crescente: não cursos longos nem áreas extensas se houver alternativa sistêmica.\n- Base de polietilenoglicol (alguns cremes): cautela na IRC em grande superfície.\n\n> Se não melhorar em 3–5 dias, reavaliar (celulite → sistêmico).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Creme/pomada 2%; pomada nasal 2%.",
+      "dose": "Pele: **a cada 8 h** (creme) ou **a cada 8–12 h** (pomada) × **5–10 dias**. Nasal: **pequena quantidade em cada fossa a cada 12 h × 5 dias**.",
+      "administration": "Tópico sobre lesão limpa; nasal com swab/aplicação digital conforme protocolo.",
+      "notes": "Cobrir com gaze se preciso; lavar as mãos após aplicar."
+    },
+    "pediatrico": {
+      "presentation": "Igual ao adulto (autorizada desde lactentes em muitas bulas).",
+      "dose": "Mesma pauta tópica **a cada 8–12 h × 5–10 dias**. Nasal: esquemas institucionais de descolonização.",
+      "administration": "Tópico/nasal.",
+      "notes": "Evitar ingestão; em lactentes vigiar área de aplicação."
+    },
+    "neonatal": {
+      "presentation": "Pomada/creme 2% conforme protocolo UCIN.",
+      "dose": "Só sob infectologia/neonatologia (surtos MRSA).",
+      "administration": "Tópico/nasal protocolizado.",
+      "notes": "Sem automedicação."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula; não congelar.",
+  "adverseEffects": "## Efeitos adversos\n\nArdência, prurido, ressecamento local; raro: dermatite de contato, reação alérgica.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Mupirocina creme/pomada/nasal.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "IDSA. SSTI / descolonização MRSA (contexto).",
+      "url": "https://www.idsociety.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulário — antibióticos tópicos.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

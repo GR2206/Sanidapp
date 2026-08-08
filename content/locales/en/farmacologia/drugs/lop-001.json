@@ -1,0 +1,50 @@
+{
+  "id": "lop-001",
+  "name": "Loperamide",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Peripheral opioid antidiarrheal. Adult: **4 mg PO initially** then **2 mg** after each loose stool (OTC max **8 mg/day**; supervised **16 mg/day**). Pediatrics ≥2 y: **0.08–0.24 mg/kg/day** divided — **avoid <2 y**.",
+  "indications": "## Indications\n\n- Acute non-infectious / traveler’s diarrhea (symptom); chronic diarrhea under medical care.\n\n## Precautions\n\n- Do not use with high fever, bloody/mucoid stools, C. difficile colitis or invasive infection — toxic megacolon risk.\n- High-dose abuse: arrhythmias (QT/QRS) — do not exceed maxima.\n- Dehydration: prioritize oral rehydration salts.\n\n> Not etiologic treatment of infections.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs/caps 2 mg; solution 0.2 mg/mL.",
+      "dose": "Acute: **4 mg** first → **2 mg** after each loose stool. OTC max **8 mg/day**; physician up to **16 mg/day**.",
+      "administration": "PO with fluids.",
+      "notes": "If no improvement in 48 h, reassess."
+    },
+    "pediatrico": {
+      "presentation": "Solution 0.2 mg/mL; tabs 2 mg.",
+      "dose": "≥2 y: often **0.08–0.24 mg/kg/day** in 2–3 doses (max by weight/label; guide 2–5 y **1–3 mg/day**; 6–8 y **2–4 mg/day**). Alternative acute: **0.1 mg/kg** after each stool (age max).",
+      "administration": "PO.",
+      "notes": "<2 y: contraindicated on many labels (ileus/CNS depression)."
+    },
+    "neonatal": {
+      "presentation": "Contraindicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nConstipation, flatulence, abdominal pain, nausea; rare: ileus, somnolence; toxic doses: arrhythmia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Loperamide — dosing and restrictions.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Loperamide — cardiac events at high doses.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "AEP Pediamécum. Loperamide.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

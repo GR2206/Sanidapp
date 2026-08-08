@@ -2,50 +2,53 @@
   "id": "azi-001",
   "name": "Azithromycin",
   "branch": "atencion-sanitaria",
-  "version": "1.0.5",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Macrolide. Disseminated Mycobacterium avium intracellulare group infection, chronic Pseudomonas aeruginosa infections in cystic fibrosis patients. STI prophylaxis (Chlamydia trachomatis).",
-  "indications": "## Main indications\n\nMacrolide. Disseminated Mycobacterium avium intracellulare group infection, chronic Pseudomonas aeruginosa infections in cystic fibrosis patients. STI prophylaxis (Chlamydia trachomatis).\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Long half-life macrolide. Typical adult PO: **500 mg day 1 → 250 mg/day × 4 days** or **500 mg/day × 3 days**; Chlamydia STI: **1 g PO once**. Pediatrics: **10 mg/kg day 1 → 5 mg/kg × 4 days** (adult max). IV: **500 mg/day**.",
+  "indications": "## Indications\n\n- Respiratory, ENT, skin infections (by susceptibility).\n- Chlamydia / nongonococcal urethritis; some STI regimens.\n- Mycobacterium avium (prophylaxis/treatment) in immunocompromised.\n- Selected alternative in beta-lactam allergy.\n\n## Precautions\n\n- QT prolongation — avoid with other QT+/hypokalemia.\n- Rare hepatotoxicity; C. difficile colitis.\n- Separate from Al/Mg antacids ~2 h; interactions digoxin, warfarin, cyclosporine.\n\n> Prefer PO; IV is a hospital bridge.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 500 mg; suspension; IV vial 500 mg.",
-      "dose": "500 mg PO day 1, then 250 mg/day x 4 days; or 500 mg IV every 24 h.",
-      "administration": "PO or IV."
+      "presentation": "Tabs 250–500 mg; sachets/suspension; IV vial 500 mg.",
+      "dose": "Classic respiratory: **500 mg PO day 1**, then **250 mg/day × 4 days**; or **500 mg/day × 3 days**. Pneumonia/hospital: **500 mg PO/IV every 24 h**. Chlamydia: **1 g PO once**. MAC prophylaxis: **1.2 g PO once weekly** (regimens).",
+      "administration": "PO 1 h before or 2 h after meals (better fasting absorption on many labels). IV: infuse 1–3 h by concentration (no bolus).",
+      "notes": "Not intramuscular."
     },
     "pediatrico": {
-      "dose": "< 6 months: 10 mg/kg/day every 24 h for 5 days; > 6 months day 1: 10 mg/kg/day (maximum: 500 mg), then 5 mg/kg/day (maximum: 250 mg), to complete 5 days; Adolescents and adults: day 1: 500 mg, then 250 mg to complete 5 days. Pharyngitis: 12 mg/kg/day for 5 days. Atypical mycobacteria prophylaxis: 20–30 mg/kg weekly, maximum dose: 1200 mg/week. STI prophylaxis: Children: PO: 20 mg/kg/dose, single dose; Adolescents: PO: 1 g/dose, single dose.",
-      "administration": "PO",
-      "presentation": "Tablets: 500 mg; Oral suspension powder: 40 mg/mL",
-      "notes": "Do not administer with food or antacids. Interactions: carbamazepine and digoxin."
+      "presentation": "Suspension 40 mg/mL; tabs 250–500 mg.",
+      "dose": "Otitis/respiratory ≥6 mo: **10 mg/kg PO day 1** (max **500 mg**), then **5 mg/kg/day × 4 days** (max **250 mg**); or **10 mg/kg/day × 3 days** (max 500). Strep pharyngitis (if used): **12 mg/kg/day × 5 days** (max 500). Adolescent STI: **1 g PO once**. <6 mo: per label/indication (e.g. 10 mg/kg/day × 5).",
+      "administration": "PO; shake suspension.",
+      "notes": "Switch IV→PO when stable."
     },
     "neonatal": {
-      "dose": "Restricted use per NICU protocol (e.g., Chagas).",
-      "administration": "PO."
+      "presentation": "Suspension / NICU protocol.",
+      "dose": "Restricted use (e.g. congenital Chagas / ophthalmia schemes) — neonatology only.",
+      "administration": "PO per protocol.",
+      "notes": "Not routine for trivial infections."
     }
   },
-  "stability": "## Stability\n\n- Reconstituted IV per package insert.",
-  "adverseEffects": "## Adverse effects\n\nPseudomembranous colitis, allergies, gastrointestinal symptoms, headaches, dizziness, vertigo, somnolence. Rare: elevated transaminases.",
+  "stability": "## Stability\n\n- Reconstituted suspension: per label (often 5–10 days refrigerated or room temp).\n- IV: use dilution within manufacturer window.",
+  "adverseEffects": "## Adverse effects\n\nNausea, diarrhea, abdominal pain, headache; rare: hepatitis, long QT, hypersensitivity, C. difficile.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — azITROMICina (code 0934, ATC J01FA).",
+      "citation": "Hospital Garrahan. Formulary — azithromycin.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AEMPS CIMA. Azithromycin PO/IV dosing.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
       "citation": "Sanford Guide to Antimicrobial Therapy.",
       "url": "https://www.sanfordguide.com/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "CDC. STI Treatment Guidelines — azithromycin.",
+      "url": "https://www.cdc.gov/std/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
-    },
-    {
-      "citation": "Infectious Diseases Society of America (IDSA). Clinical practice guidelines.",
-      "url": "https://www.idsociety.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

@@ -1,0 +1,50 @@
+{
+  "id": "ctm-001",
+  "name": "Clotrimazole",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Imidazole topical azole. Skin (tinea/candida): **1% cream q12h × 2–4 weeks**. Vaginal: **500 mg ovule once** or **100 mg nightly × 3–7 days**. Oral (oropharyngeal lozenges): **10 mg q5h** while awake × 7–14 days.",
+  "indications": "## Indications\n\n- Dermatophytosis, cutaneous candidiasis, pityriasis versicolor.\n- Vulvovaginal candidiasis.\n- Oropharyngeal candidiasis (troches where available).\n\n## Precautions\n\n- Topical/mucosal only per presentation — not a substitute for systemic azoles in invasive disease.\n- Vaginal: some oils affect latex condoms.\n- Pregnancy: prefer short topical vaginal courses per obstetric advice.\n\n> Continue skin treatment a few days after lesions clear.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cream/solution 1%; ovules 100–500 mg; vaginal tabs; 10 mg oral lozenges (by country).",
+      "dose": "Skin: **q12h** (sometimes q8–12h) × **2–4 weeks**. Vaginal: **500 mg once** or **200 mg × 3 nights** or **100 mg × 6–7 nights**. Oral troche: **10 mg dissolved q5h** (~5/day) × 7–14 days.",
+      "administration": "Thin layer on clean skin; vaginal at bedtime; lozenge: dissolve in mouth, do not chew/swallow whole.",
+      "notes": "Athlete’s foot: continue ≥2 weeks after improvement."
+    },
+    "pediatrico": {
+      "presentation": "1% cream (main).",
+      "dose": "Skin: **q12h** as adult. Vaginal/oral lozenges: by age and label (often adolescents/adults).",
+      "administration": "Topical.",
+      "notes": "Diaper candidiasis: thin layer after hygiene; treat reservoirs."
+    },
+    "neonatal": {
+      "presentation": "1% cream.",
+      "dose": "Diaper candidiasis: **q12h** — local protocol.",
+      "administration": "Topical.",
+      "notes": "Severe oral/systemic → nystatin/fluconazole per judgment."
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nBurning, pruritus, local erythema; rare: contact allergy.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Clotrimazole cream/vaginal.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CDC. Vulvovaginal candidiasis — topical azoles.",
+      "url": "https://www.cdc.gov/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Clotrimazole.",
+      "url": "https://www.aeped.es/"
+    }
+  ],
+  "translationReviewed": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bcd-001",
+  "name": "Bisacodilo",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Laxante estimulante de contacto. Adulto: **5–10 mg VO noche** o **10 mg rectal**. Pediatría ≥4 años: **5 mg VO** o **5 mg** supositorio (edades según ficha). Efecto VO ~6–12 h; rectal ~15–60 min.",
+  "indications": "## Indicaciones\n\n- Estreñimiento ocasional; preparación intestinal (esquemas con otros agentes).\n\n## Precauciones\n\n- No uso crónico diario sin evaluación (dependencia, desequilibrio electrolítico).\n- Evitar en obstrucción, abdomen agudo, deshidratación grave, apendicitis.\n- No triturar/masticar comprimidos gastrorresistentes; no tomar con leche/antiácidos en la misma hora.\n\n> Preferir medidas dietéticas y osmóticos (PEG) en estreñimiento funcional crónico.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. gastrorresistentes 5 mg; supp. 10 mg.",
+      "dose": "**5–10 mg VO al acostarse**. Rectal: **10 mg** cuando se precise evacuación rápida.",
+      "administration": "VO entero con agua; rectal según técnica.",
+      "notes": "Preparación colónica: dosis mayores en protocolos — no automedicar."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 5 mg; supp. 5–10 mg.",
+      "dose": "≥10 años: como adulto. 4–10 años: **5 mg VO noche** o **5 mg** rectal. <4 años: solo si ficha/pediatra (a menudo solo rectal **5 mg**).",
+      "administration": "VO/rectal.",
+      "notes": "En niños priorizar osmóticos y hábitos."
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "No utilizar de rutina.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nCólicos, diarrea, náuseas; uso prolongado: hipopotasemia; rectal: irritación local.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Bisacodilo.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AEP Pediamécum. Bisacodilo.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos bisacodilo.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "NICE / gastroenterology constipation guidance (context).", "url": "https://www.nice.org.uk/" }
+  ]
+}

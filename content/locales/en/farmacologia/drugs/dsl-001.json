@@ -1,0 +1,50 @@
+{
+  "id": "dsl-001",
+  "name": "Desloratadine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Second-generation H1 antihistamine (loratadine metabolite). Adult/≥12 y: **5 mg PO/day**. 6–11 y: **2.5 mg/day**. 1–5 y: **1.25 mg/day**. Low sedation; adjust in severe renal impairment.",
+  "indications": "## Indications\n\n- Allergic rhinitis; chronic idiopathic urticaria.\n\n## Precautions\n\n- Severe renal impairment: adults often **5 mg every 48 h**.\n- Less sedating than 1st generation; still caution with alcohol.\n\n> Syrup 0.5 mg/mL helps pediatric dosing.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 5 mg; syrup 0.5 mg/mL.",
+      "dose": "**5 mg PO once daily**. Severe RI: **5 mg every 48 h** (label).",
+      "administration": "PO with or without food.",
+      "notes": "Max 5 mg/day in adults with normal renal function."
+    },
+    "pediatrico": {
+      "presentation": "Syrup 0.5 mg/mL; tabs 2.5–5 mg.",
+      "dose": "12–17 y: **5 mg/day**. 6–11 y: **2.5 mg/day**. 1–5 y: **1.25 mg/day** (2.5 mL). 6–11 mo (some labels): **1 mg/day**.",
+      "administration": "PO.",
+      "notes": "<6 months: not routine."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, fatigue, dry mouth; rare: tachycardia, ↑ LFTs.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Desloratadine — age dosing.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Desloratadine.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — antihistamines.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}

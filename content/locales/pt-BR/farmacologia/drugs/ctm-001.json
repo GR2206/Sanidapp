@@ -1,0 +1,50 @@
+{
+  "id": "ctm-001",
+  "name": "Clotrimazol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Azol imidazólico tópico. Pele (tinha/candidíase): **creme 1% a cada 12 h × 2–4 semanas**. Vaginal: **500 mg óvulo única** ou **100 mg/noite × 3–7 dias**. Oral (candidíase orofaríngea, pastilhas): **10 mg a cada 5 h** enquanto acordado × 7–14 dias.",
+  "indications": "## Indicações\n\n- Dermatofitoses, candidíase cutânea, pitiríase versicolor.\n- Candidíase vulvovaginal.\n- Candidíase orofaríngea (troches/pastilhas onde existirem).\n\n## Precauções\n\n- Só tópico/mucoso conforme apresentação — não substitui azóis sistêmicos em infecção invasiva.\n- Vaginal: alguns óleos afetam preservativos de látex.\n- Gravidez: preferir tópicos vaginais curtos conforme obstetra.\n\n> Continuar tratamento alguns dias após desaparecerem as lesões cutâneas.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Creme/solução 1%; óvulos 100–500 mg; comprimidos vaginais; pastilhas orais 10 mg (conforme país).",
+      "dose": "Pele: **a cada 12 h** (às vezes a cada 8–12 h) × **2–4 semanas**. Vaginal: **500 mg única** ou **200 mg × 3 noites** ou **100 mg × 6–7 noites**. Oral troche: **10 mg dissolvido a cada 5 h** (≈5/dia) × 7–14 dias.",
+      "administration": "Camada fina em pele limpa; vaginal ao deitar; pastilha: dissolver na boca, não mastigar/engolir inteira.",
+      "notes": "Pé de atleta: continuar ≥2 semanas após melhora."
+    },
+    "pediatrico": {
+      "presentation": "Creme 1% (principal).",
+      "dose": "Pele: **a cada 12 h** como adulto. Vaginal/pastilhas orais: conforme idade e bula (muitas vezes adolescentes/adultos).",
+      "administration": "Tópico.",
+      "notes": "Candidíase da fralda: camada fina após higiene; tratar reservatórios."
+    },
+    "neonatal": {
+      "presentation": "Creme 1%.",
+      "dose": "Candidíase da fralda: **a cada 12 h** — protocolo local.",
+      "administration": "Tópico.",
+      "notes": "Se oral grave ou sistêmica → nistatina/fluconazol conforme critério."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nArdência, prurido, eritema local; raro: alergia de contato.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Clotrimazol creme/vaginal.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "CDC. Candidíase vulvovaginal — azóis tópicos.",
+      "url": "https://www.cdc.gov/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Clotrimazol.",
+      "url": "https://www.aeped.es/"
+    }
+  ],
+  "translationReviewed": true
+}

@@ -1,0 +1,50 @@
+{
+  "id": "fus-001",
+  "name": "Fusidic acid",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Steroid antibiotic (staphylococci). Topical skin: **2% cream/ointment q8–12h × 5–7 days**. Adult PO (fusidate): **500 mg q8h**. Ophthalmic: **drop q12h**. Not broad first-line systemic — resistance risk.",
+  "indications": "## Indications\n\n- Localized staphylococcal skin infections (impetigo, folliculitis).\n- Selected systemic staphylococcal infections (PO/IV) by susceptibility.\n- Bacterial conjunctivitis (ophthalmic presentation).\n\n## Precautions\n\n- Hepatic: caution with prolonged PO (↑ bilirubin/enzymes).\n- PO interactions: statins (myopathy), CYP3A4 inhibitors.\n- Reserve systemic use; prefer topical for small lesions.\n\n> Combinations with topical steroids: only short courses for infected eczema.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Cream/ointment 2%; tabs 250 mg (sodium fusidate); 1% eye drops.",
+      "dose": "Skin: **q8–12h × 5–7 days** (usual max ~2 weeks). PO: **500 mg q8h** (severe: hospital regimens). Eye: **1 drop q12h** for several days after improvement.",
+      "administration": "Topical/PO/ophthalmic per presentation.",
+      "notes": "PO with food improves GI tolerance."
+    },
+    "pediatrico": {
+      "presentation": "Cream 2%; suspension/tabs by country; eye drops.",
+      "dose": "Topical: as adult. PO: often **20–40 mg/kg/day** divided q8h (adult max) — local label. Eye: **q12h**.",
+      "administration": "By route.",
+      "notes": "In children prefer topical if limited infection."
+    },
+    "neonatal": {
+      "presentation": "Topical/ophthalmic per protocol.",
+      "dose": "Specialist only.",
+      "administration": "—",
+      "notes": "Avoid routine PO."
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nTopical: local irritation. PO: nausea, diarrhea, jaundice/↑ enzymes; rare: skin reactions.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Fusidic acid / fusidate.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "Sanford Guide — fusidic acid (staphylococci).",
+      "url": "https://www.sanfordguide.com/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Fusidic acid.",
+      "url": "https://www.aeped.es/"
+    }
+  ],
+  "translationReviewed": true
+}

@@ -1,0 +1,37 @@
+{
+  "id": "fex-001",
+  "name": "Fexofenadina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Antihistamínico H1 2.ª generación, mínima sedación. Adulto/≥12 años: **120 mg VO/día** (rinitis) o **180 mg/día** (urticaria). 6–11 años: **30 mg c/12 h**. Evitar jugo de pomelo/naranja/manzana con la toma.",
+  "indications": "## Indicaciones\n\n- Rinitis alérgica estacional; urticaria crónica.\n\n## Precauciones\n\n- Ajuste en IRC: adultos a menudo **60 mg/día** o **60 mg c/24–48 h** según ClCr.\n- Antiácidos con aluminio/magnesio: separar ~2 h.\n\n> Poco cruce de BHE → sedación mínima.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 120–180 mg; a veces 60 mg.",
+      "dose": "Rinitis: **120 mg VO/día** (o **60 mg c/12 h**). Urticaria: **180 mg/día**. IRC: reducir (p. ej. **60 mg/día**).",
+      "administration": "VO con agua; no con jugos de fruta citados.",
+      "notes": "Máx. habitual 180 mg/día."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 30–120–180 mg; suspensión según país.",
+      "dose": "6–11 años: **30 mg c/12 h**. ≥12 años: dosis de adulto. 2–5 años (si hay suspensión local): **30 mg/día** — verificar ficha.",
+      "administration": "VO.",
+      "notes": "<6 años: solo si hay presentación autorizada."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, náuseas, mareo; somnolencia infrecuente.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Fexofenadina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AEP Pediamécum. Fexofenadina.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos fexofenadina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "FDA. Allegra / fexofenadine labeling — fruit juice interaction.", "url": "https://www.fda.gov/" }
+  ]
+}

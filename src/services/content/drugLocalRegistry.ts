@@ -22,6 +22,7 @@ import atr_002 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import azi_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/azi-001.json';
 import azt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/azt-001.json';
 import azt_002 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/azt-002.json';
+import bcd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bcd-001.json';
 import bic_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bic-001.json';
 import bis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bis-001.json';
 import bum_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/bum-001.json';
@@ -53,6 +54,7 @@ import clp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import cod_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cod-001.json';
 import col_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/col-001.json';
 import cst_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cst-001.json';
+import ctm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ctm-001.json';
 import cvd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/cvd-001.json';
 import dap_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dap-001.json';
 import des_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/des-001.json';
@@ -67,6 +69,7 @@ import dob_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import dom_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dom-001.json';
 import dop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dop-001.json';
 import dox_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dox-001.json';
+import dsl_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dsl-001.json';
 import dxt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/dxt-001.json';
 import efe_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/efe-001.json';
 import eno_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/eno-001.json';
@@ -78,6 +81,7 @@ import esp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import est_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/est-001.json';
 import fen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fen-001.json';
 import fer_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fer-001.json';
+import fex_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fex-001.json';
 import flc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/flc-001.json';
 import flm_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/flm-001.json';
 import flu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/flu-001.json';
@@ -87,6 +91,7 @@ import fon_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import fos_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fos-001.json';
 import fsc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fsc-001.json';
 import fur_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fur-001.json';
+import fus_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/fus-001.json';
 import gen_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/gen-001.json';
 import glc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glc-001.json';
 import glu_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/glu-001.json';
@@ -116,6 +121,7 @@ import lev_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import lid_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lid-001.json';
 import lin_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lin-001.json';
 import lis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lis-001.json';
+import lop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lop-001.json';
 import lor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lor-001.json';
 import los_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/los-001.json';
 import lrt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lrt-001.json';
@@ -137,6 +143,7 @@ import mop_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import mor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mor-001.json';
 import mox_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mox-001.json';
 import mtp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mtp-001.json';
+import mup_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mup-001.json';
 import nal_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nal-001.json';
 import nap_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/nap-001.json';
 import ngl_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ngl-001.json';
@@ -229,6 +236,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'azi-001': azi_001 as Drug,
   'azt-001': azt_001 as Drug,
   'azt-002': azt_002 as Drug,
+  'bcd-001': bcd_001 as Drug,
   'bic-001': bic_001 as Drug,
   'bis-001': bis_001 as Drug,
   'bum-001': bum_001 as Drug,
@@ -260,6 +268,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'cod-001': cod_001 as Drug,
   'col-001': col_001 as Drug,
   'cst-001': cst_001 as Drug,
+  'ctm-001': ctm_001 as Drug,
   'cvd-001': cvd_001 as Drug,
   'dap-001': dap_001 as Drug,
   'des-001': des_001 as Drug,
@@ -274,6 +283,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'dom-001': dom_001 as Drug,
   'dop-001': dop_001 as Drug,
   'dox-001': dox_001 as Drug,
+  'dsl-001': dsl_001 as Drug,
   'dxt-001': dxt_001 as Drug,
   'efe-001': efe_001 as Drug,
   'eno-001': eno_001 as Drug,
@@ -285,6 +295,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'est-001': est_001 as Drug,
   'fen-001': fen_001 as Drug,
   'fer-001': fer_001 as Drug,
+  'fex-001': fex_001 as Drug,
   'flc-001': flc_001 as Drug,
   'flm-001': flm_001 as Drug,
   'flu-001': flu_001 as Drug,
@@ -294,6 +305,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'fos-001': fos_001 as Drug,
   'fsc-001': fsc_001 as Drug,
   'fur-001': fur_001 as Drug,
+  'fus-001': fus_001 as Drug,
   'gen-001': gen_001 as Drug,
   'glc-001': glc_001 as Drug,
   'glu-001': glu_001 as Drug,
@@ -323,6 +335,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'lid-001': lid_001 as Drug,
   'lin-001': lin_001 as Drug,
   'lis-001': lis_001 as Drug,
+  'lop-001': lop_001 as Drug,
   'lor-001': lor_001 as Drug,
   'los-001': los_001 as Drug,
   'lrt-001': lrt_001 as Drug,
@@ -344,6 +357,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'mor-001': mor_001 as Drug,
   'mox-001': mox_001 as Drug,
   'mtp-001': mtp_001 as Drug,
+  'mup-001': mup_001 as Drug,
   'nal-001': nal_001 as Drug,
   'nap-001': nap_001 as Drug,
   'ngl-001': ngl_001 as Drug,

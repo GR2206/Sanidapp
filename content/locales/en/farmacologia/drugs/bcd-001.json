@@ -1,0 +1,50 @@
+{
+  "id": "bcd-001",
+  "name": "Bisacodyl",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Contact stimulant laxative. Adult: **5–10 mg PO at night** or **10 mg rectal**. Pediatrics ≥4 y: **5 mg PO** or **5 mg** suppository (ages per label). PO onset ~6–12 h; rectal ~15–60 min.",
+  "indications": "## Indications\n\n- Occasional constipation; bowel prep (with other agents).\n\n## Precautions\n\n- Avoid chronic daily use without evaluation (dependence, electrolyte imbalance).\n- Avoid in obstruction, acute abdomen, severe dehydration, appendicitis.\n- Do not crush/chew enteric tablets; do not take with milk/antacids at the same time.\n\n> Prefer diet measures and osmotics (PEG) in chronic functional constipation.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Enteric tabs 5 mg; supp. 10 mg.",
+      "dose": "**5–10 mg PO at bedtime**. Rectal: **10 mg** when rapid evacuation needed.",
+      "administration": "PO whole with water; rectal per technique.",
+      "notes": "Colon prep: higher doses in protocols — do not self-medicate."
+    },
+    "pediatrico": {
+      "presentation": "Tabs 5 mg; supp. 5–10 mg.",
+      "dose": "≥10 y: as adult. 4–10 y: **5 mg PO night** or **5 mg** rectal. <4 y: only if label/pediatrician (often rectal **5 mg** only).",
+      "administration": "PO/rectal.",
+      "notes": "In children prefer osmotics and habits."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Do not use routinely.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nCramps, diarrhea, nausea; prolonged use: hypokalemia; rectal: local irritation.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Bisacodyl.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Bisacodyl.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "NICE constipation guidance (context).",
+      "url": "https://www.nice.org.uk/"
+    }
+  ],
+  "translationReviewed": true
+}

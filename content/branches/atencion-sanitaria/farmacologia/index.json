@@ -16,6 +16,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "fus-001",
+      "name": "Ácido fusídico",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "ade-001",
       "name": "Adenosina",
       "branch": "atencion-sanitaria",
@@ -152,8 +159,8 @@
       "id": "azi-001",
       "name": "Azitromicina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.5",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "azt-001",
@@ -175,6 +182,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.1.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "bcd-001",
+      "name": "Bisacodilo",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "bis-001",
@@ -394,6 +408,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "ctm-001",
+      "name": "Clotrimazol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "cod-001",
       "name": "Codeína",
       "branch": "atencion-sanitaria",
@@ -412,6 +433,13 @@
       "name": "Daptomicina",
       "branch": "atencion-sanitaria",
       "version": "1.3.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "dsl-001",
+      "name": "Desloratadina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {
@@ -595,6 +623,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.1.4",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "fex-001",
+      "name": "Fexofenadina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "vit-001",
@@ -870,6 +905,13 @@
       "updatedAt": "2026-07-05"
     },
     {
+      "id": "lop-001",
+      "name": "Loperamida",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "lrt-001",
       "name": "Loratadina",
       "branch": "atencion-sanitaria",
@@ -994,6 +1036,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0.1",
       "updatedAt": "2026-07-10"
+    },
+    {
+      "id": "mup-001",
+      "name": "Mupirocina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "nal-001",

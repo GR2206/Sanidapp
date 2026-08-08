@@ -1,0 +1,50 @@
+{
+  "id": "dsl-001",
+  "name": "Desloratadina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anti-histamínico H1 de 2ª geração (metabólito da loratadina). Adulto/≥12 anos: **5 mg VO/dia**. 6–11 anos: **2,5 mg/dia**. 1–5 anos: **1,25 mg/dia**. Pouca sedação; ajuste na IRC grave.",
+  "indications": "## Indicações\n\n- Rinite alérgica; urticária crônica idiopática.\n\n## Precauções\n\n- IRC grave: adultos frequentemente **5 mg a cada 48 h**.\n- Menos sedativo que 1ª geração; ainda assim cautela com álcool.\n\n> Xarope 0,5 mg/mL facilita doses pediátricas.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 5 mg; xarope 0,5 mg/mL.",
+      "dose": "**5 mg VO 1×/dia**. IRC grave: **5 mg a cada 48 h** (bula).",
+      "administration": "VO com ou sem alimentos.",
+      "notes": "Máx. 5 mg/dia em adultos com função renal normal."
+    },
+    "pediatrico": {
+      "presentation": "Xarope 0,5 mg/mL; comp. 2,5–5 mg.",
+      "dose": "12–17 anos: **5 mg/dia**. 6–11 anos: **2,5 mg/dia**. 1–5 anos: **1,25 mg/dia** (2,5 mL). 6–11 meses (algumas bulas): **1 mg/dia**.",
+      "administration": "VO.",
+      "notes": "<6 meses: não rotineiro."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, fadiga, boca seca; raro: taquicardia, ↑ enzimas hepáticas.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Desloratadina — posologia por idade.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Desloratadina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulário — anti-histamínicos.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ],
+  "translationReviewed": true
+}
