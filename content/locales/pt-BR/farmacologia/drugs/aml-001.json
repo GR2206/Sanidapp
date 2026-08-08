@@ -1,47 +1,50 @@
 {
   "id": "aml-001",
-  "name": "Amlodipino",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Hipertensão. Bloqueador dos canais de cálcio.",
-  "indications": "## Indicações principais\n\nHipertensão. Bloqueador dos canais de cálcio.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "name": "Anlodipino",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Bloqueador dos canais de cálcio di-hidropiridínico. Adulto: **5 mg VO/dia** (faixa **2,5–10 mg/dia**). Pediatria ≥6 anos: início **2,5 mg/dia** ou **0,06–0,3 mg/kg/dia** (máx. **10 mg**). Edema maleolar frequente; pouca bradicardia vs não-DHP.",
+  "indications": "## Indicações\n\n- Hipertensão; angina estável / vasoespástica (bula).\n\n## Precauções\n\n- Edema periférico dose-dependente (não é IC necessariamente).\n- Hipotensão; cautela em estenose aórtica grave.\n- Interações CYP3A4 (↑ níveis com inibidores potentes).\n- Seguro em muitos esquemas com IECA/BRA/tiazida.\n\n> Meia-vida longa — efeito pleno em vários dias.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 5 e 10 mg.",
-      "dose": "5–10 mg/dia V.O. em dose única matutina.",
-      "administration": "V.O."
+      "presentation": "Comp. 2,5–5–10 mg.",
+      "dose": "Início **5 mg VO/dia** (idosos/hepática **2,5 mg**). Titular a cada 7–14 dias até **10 mg/dia** máx.",
+      "administration": "VO 1×/dia, qualquer horário, com ou sem alimentos.",
+      "notes": "Não suspender de forma abrupta na angina (rebote raro, mas possível)."
     },
     "pediatrico": {
-      "dose": "Crianças: inicial: 0,06 mg/kg/dia (até 5 mg/dia), uma vez ao dia; dose máxima: 0,6 mg/kg/dia (até 10 mg/dia). Adultos: inicial: 5 mg uma vez ao dia, manutenção: 5–10 mg uma vez ao dia.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 5–10 mg; Suspensão (preparado magistral): 1 mg/ml",
-      "notes": "Não descontinuar abruptamente o fármaco."
+      "presentation": "Comp. 2,5–5 mg.",
+      "dose": "≥6 anos: início **2,5 mg/dia**; habitual **0,06–0,3 mg/kg/dia** (máx. **5–10 mg/dia** conforme bula).",
+      "administration": "VO.",
+      "notes": "<6 anos: uso off-label especializado."
+    },
+    "neonatal": {
+      "presentation": "Não rotineiro.",
+      "dose": "Só protocolo cardiologia/NNU.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Estabilidade\n\n- Conservar conforme bula, proteger da luz.",
-  "adverseEffects": "## Efeitos adversos\n\nPalpitações, edema periférico, cefaleia, tontura, fadiga, angina, arritmia cardíaca (raro).",
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nEdema de tornozelos, rubor, cefaleia, palpitações, fadiga; raro: hiperplasia gengival, hepatite.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — AMLOdipina Besilato (cód. 1509, ATC C08CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Anlodipino.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. Diretrizes de hipertensão.",
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEP Pediamécum. Anlodipino.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

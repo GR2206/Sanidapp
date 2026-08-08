@@ -2,45 +2,36 @@
   "id": "los-001",
   "name": "Losartán",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Hipertensión. Antagonista de la angiotensina II.",
-  "indications": "## Indicaciones principales\n\nHipertensión. Antagonista de la angiotensina II.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ARA-II. Adulto HTA: **50 mg VO/día** (rango **25–100 mg/día** en 1–2 tomas). Hepática: inicio **25 mg**. Pediatría ≥6 años: **0,7 mg/kg/día** (máx. inicio **50 mg**; hasta **1,4 mg/kg** o **100 mg**). Contraindicado en embarazo.",
+  "indications": "## Indicaciones\n\n- Hipertensión; nefropatía diabética tipo 2; reducción de riesgo CV en HTA con HVI (ficha).\n- Alternativa a IECA si tos/angioedema por IECA (no si angioedema grave reciente sin evaluación).\n\n## Precauciones\n\n- Hipotensión, hiperpotasemia, ↑ creatinina — mismo cuidado que IECA.\n- **Teratogénico** — no usar en embarazo.\n- Interacción con AINE, diuréticos ahorradores de K+, litio.\n\n> Puede asociarse a hidroclorotiazida en combos fijos.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 50 y 100 mg.",
-      "dose": "50–100 mg/día VO en 1–2 tomas. Puede combinarse con diurético.",
-      "administration": "VO con o sin alimentos."
+      "presentation": "Comp. 25–50–100 mg.",
+      "dose": "Inicio **50 mg VO/día** ( **25 mg** si volumen deplecionado/hepática). Mantenimiento **25–100 mg/día** en 1–2 tomas. Nefropatía: a menudo **50 → 100 mg/día**.",
+      "administration": "VO con o sin alimentos.",
+      "notes": "Controlar K+ y creatinina a las 1–2 semanas de inicio/subida."
     },
     "pediatrico": {
-      "dose": "Hipertensión: &gt; 6 años: 0.75 mg/kg, una vez por día, dosis máxima: 50 mg/día. Adultos: inicial: 50 mg/día, una vez por día; mantenimiento: 25 a 100 mg c/ 12 - 24 hs. En insuficiencia hepática comenzar con 25 mg una vez por día.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 50 mg: Suspensión (preparado magistral): 2,5 mg/ml",
-      "notes": "Evitar el uso concomitante de otros inhibidores de sistema renina-angiotensina."
+      "presentation": "Comp. 25–50 mg; suspensión según país.",
+      "dose": "≥6 años: **0,7 mg/kg/día** una vez/día (máx. **50 mg** inicio); puede subir a **1,4 mg/kg/día** (máx. **100 mg**).",
+      "administration": "VO.",
+      "notes": "<6 años: datos limitados — especialista."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "Riesgo renal fetal/neonatal."
     }
   },
-  "stability": "## Estabilidad\n\n- Conservar según prospecto a T° ambiente.",
-  "adverseEffects": "## Efectos adversos\n\nHipotensión, diarrea, astenia, mareos, fatiga. Trombocitopenia, rabdomiólisis, angioedema.",
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nMareo, hipotensión, hiperpotasemia, ↑ creatinina; raro: angioedema, tos (menos que IECA).",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — loSARTÁN potásico (cód. 1429, ATC C09CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
-      "url": "https://www.heart.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "AEMPS CIMA. Losartán.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AHA/ACC. Hypertension guideline context.", "url": "https://www.heart.org/" },
+    { "citation": "AEP Pediamécum. Losartán.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos losartán.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

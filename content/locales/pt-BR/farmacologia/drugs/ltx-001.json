@@ -1,51 +1,54 @@
 {
   "id": "ltx-001",
   "name": "Levotiroxina",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Hipotireoidismo.",
-  "indications": "## Indicações principais\n\nHipotireoidismo.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Hormônio T4. Hipotireoidismo adulto: início **25–50 µg VO/dia** (idosos/cardiopatas **12,5–25 µg**); manutenção frequente **75–150 µg/dia**. Pediatria: **10–15 µg/kg/dia** em RN; depois por idade/peso. IV mixedema: carga **200–400 µg** (especialista).",
+  "indications": "## Indicações\n\n- Hipotireoidismo primário/central; bócio; supressão de TSH em câncer diferenciado (esquemas).\n- Coma mixedematoso (IV + suporte).\n\n## Precauções\n\n- Tomar em jejum, 30–60 min antes do café; separar de cálcio/ferro/IBP ~4 h.\n- Não iniciar doses altas em cardiopatia isquêmica.\n- Ajuste por TSH/T4 livre (6–8 semanas após mudança).\n- Marcas nem sempre bioequivalentes — evitar trocas desnecessárias.\n\n> Superdose: tireotoxicose iatrogênica.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos; ampola E.V. 200 mcg.",
-      "dose": "Mixedema: 200–400 mcg E.V. carga; manutenção V.O.",
-      "administration": "E.V. lenta ou V.O. em jejum."
+      "presentation": "Comp. 25–50–75–100–125–150 µg; FA IV.",
+      "dose": "Início eutireoideo jovem: **50–100 µg VO/dia**. >50 anos / CV: **12,5–25 µg/dia**, ↑ a cada 3–6 semanas. Manutenção típica **1,6 µg/kg/dia** (~**75–150 µg**). Mixedema IV: carga **200–400 µg** depois **50–100 µg/dia** IV/VO — UTI.",
+      "administration": "VO em jejum com água. IV lento hospitalar.",
+      "notes": "Gravidez: costuma ↑ necessidades ~25–30%."
     },
     "pediatrico": {
-      "dose": "0–3 meses: 10–15 µg/kg; 3–6 meses: 25–50 µg; 6–12 meses: 50–75 µg; 1–5 anos: 75–100 µg; 6–12 anos: 100–150 µg; > 12 anos: 150 µg.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 25 mcg – 50 mcg – 100 mcg",
-      "notes": "Deve ser indicada por especialistas. Sais de ferro, hidróxido de alumínio, sucralfato diminuem sua absorção. A levotiroxina aumenta o efeito dos anticoagulantes orais. A fenitoína pode diminuir os níveis de levotiroxina. Administrar com o estômago vazio, 1–1,5 h antes do café da manhã. Não administrar por sonda nasogástrica."
+      "presentation": "Comp.; solução magistral.",
+      "dose": "0–3 meses: **10–15 µg/kg/dia**. 3–6 m: **8–10 µg/kg** ou **25–50 µg/dia**. 6–12 m: **6–8 µg/kg** ou **50–75 µg**. 1–5 a: **5–6 µg/kg** ou **75–100 µg**. 6–12 a: **4–5 µg/kg** ou **100–150 µg**. >12 a: **2–3 µg/kg** até dose adulta.",
+      "administration": "VO; triturar em água/leite materno se preciso (não com soja/cálcio).",
+      "notes": "Congênito: iniciar o mais cedo possível; controle endócrino."
     },
     "neonatal": {
-      "dose": "10–15 mcg/kg/dia V.O. em hipotireoidismo congênito.",
-      "administration": "V.O."
+      "presentation": "Comp. / magistral.",
+      "dose": "Hipotireoidismo congênito: **10–15 µg/kg/dia** VO (meta T4 livre alto-normal, TSH em queda).",
+      "administration": "VO.",
+      "notes": "Urgência endocrinológica — não demorar."
     }
   },
-  "stability": "## Estabilidade\n\n- E.V. usar imediatamente após preparação.",
-  "adverseEffects": "## Efeitos adversos\n\nTaquicardia, cefaleias, arritmias cardíacas, nervosismo, insônia, alopecia, aumento do apetite.",
+  "stability": "## Estabilidade\n\n- Proteger de umidade/luz; não guardar em porta-comprimidos úmidos por tempo prolongado.",
+  "adverseEffects": "## Efeitos adversos\n\nPor excesso: palpitações, nervosismo, insônia, ↓ peso, osteoporose (crônico), arritmia. Alergia a excipientes rara.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — levoTIROXina (cód. 0343, ATC H03AA).",
+      "citation": "ATA. Hypothyroidism — levothyroxine dosing.",
+      "url": "https://www.thyroid.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. Levotiroxina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Levotiroxina.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — levotiroxina.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

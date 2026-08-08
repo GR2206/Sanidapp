@@ -1,0 +1,50 @@
+{
+  "id": "esc-001",
+  "name": "Escitalopram",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "SSRI (S-enantiomer of citalopram). Adult: **10 mg PO/day** (range **5–20 mg**; max **20 mg/day**). Elderly: usual max **10 mg/day** (QT). Adolescents ≥12 y (by country): **10 mg**, max **20 mg**. Suicide ideation risk early on.",
+  "indications": "## Indications\n\n- Major depression; generalized anxiety; panic (labels).\n\n## Precautions\n\n- QT prolongation — do not exceed maxima; avoid other QT+; ECG if at risk.\n- Same SSRI alerts: suicide early/dose change, serotonergic, hyponatremia, bleeding.\n- Reduce to **10 mg** max in >65 y on many labels.\n\n> 10 mg escitalopram ≈ 20 mg citalopram (approximate).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 5–10–20 mg; drops 20 mg/mL.",
+      "dose": "Start **10 mg PO/day**; if needed **20 mg** after ≥1 week. Elderly/hepatic: start **5 mg**, max **10 mg/day**.",
+      "administration": "PO once daily, morning or night.",
+      "notes": "Taper on withdrawal."
+    },
+    "pediatrico": {
+      "presentation": "Tabs 5–10 mg; drops.",
+      "dose": "≥12 y (if authorized): **10 mg/day**; max **20 mg**. <12 y: not routine / specialist.",
+      "administration": "PO.",
+      "notes": "Close mood monitoring."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not start.",
+      "administration": "—",
+      "notes": "Neonatal adaptation syndrome if prenatal exposure."
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nNausea, insomnia, fatigue, sexual dysfunction, sweating; long QT at high doses; hyponatremia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Escitalopram — dosing and QT.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Escitalopram / citalopram QT warnings.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Prescribing context.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

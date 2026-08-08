@@ -1,0 +1,50 @@
+{
+  "id": "ato-001",
+  "name": "Atorvastatin",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "High-intensity statin. Adult: **10–80 mg PO at night** (usual start **10–20 mg**; high intensity **40–80 mg**). Pediatrics ≥10 y (familial hyperlipidemia): **10–20 mg/day** (usual max **40 mg**). Avoid in pregnancy.",
+  "indications": "## Indications\n\n- Hypercholesterolemia; primary/secondary CV prevention.\n- Familial dyslipidemia (including selected adolescents).\n\n## Precautions\n\n- Myopathy/rhabdomyolysis — watch muscle pain; risk ↑ with CYP3A4 inhibitors (clarithromycin, itraconazole, grapefruit), gemfibrozil.\n- Monitor CK/LFTs per protocol.\n- Contraindicated in pregnancy and active liver disease.\n\n> Prefer evening dosing; with or without food.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 10–20–40–80 mg.",
+      "dose": "Start: **10–20 mg PO/day**. Titrate q4 weeks. Secondary prevention/high risk: **40–80 mg/day**. Max **80 mg/day**.",
+      "administration": "PO once daily (evening preferred).",
+      "notes": "Caution with interactions or severe renal impairment."
+    },
+    "pediatrico": {
+      "presentation": "Tabs 10–20–40 mg.",
+      "dose": "≥10 y (FH/hyperlipidemia): start **10 mg/day**; usual max **20–40 mg/day** per label/specialist.",
+      "administration": "PO.",
+      "notes": "<10 y: specialist / trials only."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nMyalgia, ↑ CK, ↑ LFTs, headache, GI upset; rare: rhabdomyolysis, new-onset diabetes.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Atorvastatin.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Atorvastatin.",
+      "url": "https://www.aeped.es/"
+    }
+  ],
+  "translationReviewed": true
+}

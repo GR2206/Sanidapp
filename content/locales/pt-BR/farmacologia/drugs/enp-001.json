@@ -1,47 +1,54 @@
 {
   "id": "enp-001",
   "name": "Enalapril",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Vasodilatador venoso e arterial. Inibidor da enzima conversora da angiotensina.",
-  "indications": "## Indicações principais\n\nVasodilatador venoso e arterial. Inibidor da enzima conversora da angiotensina.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "IECA. HAS adulto: **5–20 mg VO/dia** (até **40 mg/dia** em 1–2 tomadas). IC: início **2,5 mg** 1–2×/dia, titular. Pediatria: **0,08–0,6 mg/kg/dia**. Enalaprilato IV: **0,625–1,25 mg a cada 6 h**. Contraindicado na gravidez.",
+  "indications": "## Indicações\n\n- Hipertensão; insuficiência cardíaca; disfunção VE pós-IAM; nefropatia diabética (contexto).\n\n## Precauções\n\n- Hipotensão na primeira dose (hipovolemia/diuréticos).\n- ↑ K+, ↑ creatinina — controlar; estenose bilateral de artéria renal.\n- Tosse seca; angioedema (suspender e não reexpor).\n- **Teratogênico** — suspender se gravidez.\n\n> Enalaprilato = metabólito ativo IV.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 5, 10 e 20 mg. Ampola 1,25 mg/mL (uso IV limitado).",
-      "dose": "HA: 5–20 mg/dia V.O. em 1–2 tomadas. IC: iniciar 2,5 mg V.O. 1–2 vezes/dia e titular.",
-      "administration": "V.O. com ou sem alimentos."
+      "presentation": "Comp. 2,5–5–10–20 mg; ampola enalaprilato.",
+      "dose": "HAS: início **5 mg/dia** (ou **2,5** se risco de hipotensão); usual **10–20 mg/dia**; máx. **40 mg/dia**. IC: **2,5 mg** 1–2×/dia → titular a **10–20 mg a cada 12 h**. IV enalaprilato: **0,625–1,25 mg a cada 6 h** (máx. **5 mg/6 h**).",
+      "administration": "VO. IV lento hospitalar.",
+      "notes": "Ajuste na IRC: reduzir dose/intervalo."
     },
     "pediatrico": {
-      "dose": "V.O.: Crianças: inicial: 0,08 mg/kg/dia a cada 24 h, dose máxima: < 12 anos: 0,6 mg/kg/dia; > 12 anos: 40 mg/dia; adolescentes e adultos: 2,5-5 mg/dia, dose usual para hipertensão: 10-40 mg/dia. E.V. (enalaprilato): Crianças: 5-10 µg/kg/dose a cada 8-24 h; adolescentes e adultos: 0,625-1,25 mg/dose a cada 6 h.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 5 - 10mg; Solução V.O. (preparado magistral): 2 mg/ml (0,1 mg/gota) Ver formulação",
-      "notes": "Com diuréticos poupadores de potássio pode produzir hipercalemia. Precaução em pacientes depletados de sódio. É dialisável. Ver guia preliminar para a prevenção de teratogênese causada por medicamentos."
+      "presentation": "Comp.; solução magistral.",
+      "dose": "VO início **0,08 mg/kg/dia** (máx. início 5 mg); faixa **0,1–0,5 mg/kg/dia** em 1–2 tomadas; máx. <12 a **0,6 mg/kg/dia**; ≥12 a até **40 mg/dia**. IV enalaprilato: **5–10 µg/kg** a cada 8–24 h.",
+      "administration": "VO/IV.",
+      "notes": "Controlar PA, K+, função renal."
+    },
+    "neonatal": {
+      "presentation": "Magistral / protocolo.",
+      "dose": "Só neonatologia/cardiologia — risco de insuficiência renal grave.",
+      "administration": "VO conforme centro.",
+      "notes": "Evitar salvo indicação explícita."
     }
   },
-  "stability": "## Estabilidade\n\n- Comprimidos: conservar conforme bula em temperatura ambiente.\n- Solução IV: usar imediatamente após preparação.",
-  "adverseEffects": "## Efeitos adversos\n\nReações cutâneas, distúrbios do paladar, vertigem, cefaleia, neutropenia, hipotensão ortostática, tosse. Teratogênico.",
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nHipotensão, tosse, hiperpotassemia, ↑ creatinina, tontura; raro: angioedema, agranulocitose.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Enalapril Maleato (cód. 0082, ATC C09AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Enalapril / enalaprilato.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. Diretrizes de hipertensão e insuficiência cardíaca.",
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "Hospital Garrahan. Formulary — enalapril.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AEP Pediamécum. Enalapril.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

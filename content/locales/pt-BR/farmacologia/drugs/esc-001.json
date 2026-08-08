@@ -1,0 +1,50 @@
+{
+  "id": "esc-001",
+  "name": "Escitalopram",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ISRS (enantiómero S do citalopram). Adulto: **10 mg VO/dia** (faixa **5–20 mg**; máx. **20 mg/dia**). Idosos: máx. habitual **10 mg/dia** (QT). Adolescentes ≥12 anos (conforme país): **10 mg**, máx. **20 mg**. Risco de ideação suicida no início.",
+  "indications": "## Indicações\n\n- Depressão maior; transtorno de ansiedade generalizada; pânico (bulas).\n\n## Precauções\n\n- Prolongamento de QT — não ultrapassar máximos; evitar outros QT+; ECG se risco.\n- Mesmos alertas ISRS: suicídio no início/mudança de dose, serotoninérgico, hiponatremia, sangramento.\n- Reduzir a **10 mg** máx. em >65 anos em muitas bulas.\n\n> 10 mg escitalopram ≈ 20 mg citalopram (orientativo).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 5–10–20 mg; gotas 20 mg/mL.",
+      "dose": "Início **10 mg VO/dia**; se preciso **20 mg** após ≥1 semana. Idosos/hepática: início **5 mg**, máx. **10 mg/dia**.",
+      "administration": "VO 1×/dia, manhã ou noite.",
+      "notes": "Retirada gradual."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 5–10 mg; gotas.",
+      "dose": "≥12 anos (se autorizado): **10 mg/dia**; máx. **20 mg**. <12 anos: não rotineiro / especialista.",
+      "administration": "VO.",
+      "notes": "Monitoramento estreito de humor."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não iniciar.",
+      "administration": "—",
+      "notes": "Síndrome de adaptação se exposição pré-natal."
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nNáuseas, insônia, fadiga, disfunção sexual, sudorese; QT longo em doses altas; hiponatremia.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Escitalopram — posologia e QT.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. Escitalopram / citalopram — alertas de QT.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Prescribing context.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

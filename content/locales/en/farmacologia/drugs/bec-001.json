@@ -1,0 +1,50 @@
+{
+  "id": "bec-001",
+  "name": "Beclometasone",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Inhaled/nasal corticosteroid. Adult asthma MDI: usual **100–400 µg q12h** (up to **800 µg/day** by severity; extrafine HFA lower µg). Pediatrics: **50–100 µg q12h**. Rhinitis: **50–100 µg/nostril 1–2×/day**. Not acute rescue.",
+  "indications": "## Indications\n\n- Persistent asthma (controller).\n- Allergic rhinitis (nasal spray).\n\n## Precautions\n\n- Rinse mouth after inhalation (thrush).\n- Distinguish CFC vs extrafine HFA (µg equivalences differ).\n- Fixed combos with salbutamol: different role than PRN SABA.\n\n> Attack: salbutamol ± systemic steroid.",
+  "dilution": {
+    "adulto": {
+      "presentation": "MDI 50–100–250 µg/puff; nasal 50 µg/spray.",
+      "dose": "Asthma: **100–200 µg q12h** (range **200–800 µg/day**; severe up to **1000–2000 µg/day** on older labels — prefer lowest effective). Nasal: **50–100 µg/nostril 1–2×/day**.",
+      "administration": "Inhale with spacer if needed; nasal after clearing nostrils.",
+      "notes": "Do not stop abruptly after high prolonged doses."
+    },
+    "pediatrico": {
+      "presentation": "MDI 50–100 µg; pediatric nasal.",
+      "dose": "Asthma ≥5 y: often **50–100 µg q12h** (max per label ~**400 µg/day**). Nasal ≥6 y: **50 µg/nostril 1–2×/day**.",
+      "administration": "MDI + spacer/mask.",
+      "notes": "Monitor growth with prolonged use."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Do not use routinely.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store inhaler per label; shake MDI before use.",
+  "adverseEffects": "## Adverse effects\n\nDysphonia, oral thrush, cough; nasal: epistaxis. Systemic effects rare at usual doses.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Beclometasone inhaled/nasal.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "GINA. Asthma guidance.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "AEP Pediamécum. Beclometasone.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

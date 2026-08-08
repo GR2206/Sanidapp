@@ -1,0 +1,37 @@
+{
+  "id": "bec-001",
+  "name": "Beclometasona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Corticoide inhalado/nasal. Asma adulto MDI: habitual **100–400 µg c/12 h** (hasta **800 µg/día** según gravedad; extrafina HFA dosis menores). Pediatría: **50–100 µg c/12 h**. Rinitis: **50–100 µg/fosa 1–2×/día**. No es rescate agudo.",
+  "indications": "## Indicaciones\n\n- Asma persistente (controlador).\n- Rinitis alérgica (spray nasal).\n\n## Precauciones\n\n- Enjuagar boca tras inhalación (candidiasis).\n- Distinguir formulaciones CFC vs HFA extrafina (equivalencias de µg distintas).\n- Combinaciones fijas con salbutamol: rol distinto al SABA a demanda.\n\n> Crisis: salbutamol ± corticoide sistémico.",
+  "dilution": {
+    "adulto": {
+      "presentation": "MDI 50–100–250 µg/puff; nasal 50 µg/disparo.",
+      "dose": "Asma: **100–200 µg c/12 h** (rango **200–800 µg/día**; graves hasta **1000–2000 µg/día** según ficha antigua — preferir mínima eficaz). Nasal: **50–100 µg/fosa 1–2×/día**.",
+      "administration": "Inhalar con cámara si precisa; nasal tras limpiar fosas.",
+      "notes": "No suspender brusco tras dosis altas prolongadas."
+    },
+    "pediatrico": {
+      "presentation": "MDI 50–100 µg; nasal pediátrico.",
+      "dose": "Asma ≥5 años: a menudo **50–100 µg c/12 h** (máx. según ficha ~**400 µg/día**). Nasal ≥6 años: **50 µg/fosa 1–2×/día**.",
+      "administration": "MDI + cámara/mascarilla.",
+      "notes": "Vigilar crecimiento en uso prolongado."
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "No utilizar de rutina.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar inhalador según prospecto; agitar MDI antes de usar.",
+  "adverseEffects": "## Efectos adversos\n\nDisfonía, candidiasis oral, tos; nasal: epistaxis. Sistémicos raros a dosis habituales.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Beclometasona inhalada/nasal.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "GINA. Asthma — ICS dosing.", "url": "https://ginasthma.org/" },
+    { "citation": "AEP Pediamécum. Beclometasona.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos beclometasona.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

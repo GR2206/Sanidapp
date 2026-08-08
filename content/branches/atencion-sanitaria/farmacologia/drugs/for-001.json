@@ -1,0 +1,37 @@
+{
+  "id": "for-001",
+  "name": "Formoterol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "β2 agonista de acción prolongada (LABA), inicio rápido. Adulto: **12 µg c/12 h** inhalado (máx. habitual **24–48 µg/día** según ficha). Preferible en **combinación con CSI** (budesonida/beclometasona). No monoterapia en asma.",
+  "indications": "## Indicaciones\n\n- Asma (siempre con corticoide inhalado) y EPOC (mantenimiento).\n- Esquemas MART (budesonida/formoterol a demanda + mantenimiento) según GINA/ficha del combo.\n\n## Precauciones\n\n- **No** como único tratamiento del asma (↑ exacerbaciones graves).\n- Temblor, taquicardia, hipopotasemia; precaución cardiopatía.\n- No sustituye SABA de rescate salvo régimen MART autorizado.\n\n> Revisar técnica inhalatoria y adherencia al CSI.",
+  "dilution": {
+    "adulto": {
+      "presentation": "DPI/MDI 4,5–12 µg/puff; combos con budesonida/beclometasona.",
+      "dose": "Mantenimiento solo formoterol (EPOC/asma con CSI aparte): **12 µg c/12 h** (máx. frecuente **24 µg/día**; algunas fichas hasta **48 µg/día**). Combos: seguir µg de cada componente (p. ej. Symbicort 160/4,5).",
+      "administration": "Inhalado; enjuagar si hay CSI en el mismo dispositivo.",
+      "notes": "Titular según control de síntomas/espirometría."
+    },
+    "pediatrico": {
+      "presentation": "Combos pediátricos DPI/MDI según marca.",
+      "dose": "≥6–12 años: solo en combinación autorizada (p. ej. budesonida/formoterol) — dosis por ficha del producto. No LABA solo.",
+      "administration": "Inhalado con técnica/cámara según device.",
+      "notes": "Rescate: según régimen (SABA o MART)."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar dispositivo según prospecto; proteger de humedad (DPI).",
+  "adverseEffects": "## Efectos adversos\n\nTemblor, palpitaciones, cefalea, calambres; raro: arritmia, hipopotasemia.",
+  "bibliography": [
+    { "citation": "GINA. Asthma — LABA always with ICS; MART.", "url": "https://ginasthma.org/" },
+    { "citation": "AEMPS CIMA. Formoterol / combinaciones.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "GOLD. COPD — LABA maintenance.", "url": "https://goldcopd.org/" },
+    { "citation": "ANMAT. Prospectos formoterol.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

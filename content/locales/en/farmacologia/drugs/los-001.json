@@ -2,46 +2,49 @@
   "id": "los-001",
   "name": "Losartan",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Hypertension. Angiotensin II antagonist.",
-  "indications": "## Main indications\n\nHypertension. Angiotensin II antagonist.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ARB. Adult HTN: **50 mg PO/day** (range **25–100 mg/day** in 1–2 doses). Hepatic: start **25 mg**. Pediatrics ≥6 y: **0.7 mg/kg/day** (max start **50 mg**; up to **1.4 mg/kg** or **100 mg**). Contraindicated in pregnancy.",
+  "indications": "## Indications\n\n- Hypertension; type 2 diabetic nephropathy; CV risk reduction in HTN with LVH (label).\n- ACEI alternative if cough/angioedema from ACEI (not if recent severe angioedema without evaluation).\n\n## Precautions\n\n- Hypotension, hyperkalemia, ↑ creatinine — same care as ACEI.\n- **Teratogenic** — do not use in pregnancy.\n- Interactions with NSAIDs, K-sparing diuretics, lithium.\n\n> May combine with hydrochlorothiazide in fixed combos.",
   "dilution": {
     "adulto": {
-      "presentation": "50 and 100 mg tablets.",
-      "dose": "50–100 mg/day PO in 1–2 doses. May be combined with a diuretic.",
-      "administration": "PO with or without food."
+      "presentation": "Tabs 25–50–100 mg.",
+      "dose": "Start **50 mg PO/day** (**25 mg** if volume-depleted/hepatic). Maintenance **25–100 mg/day** in 1–2 doses. Nephropathy: often **50 → 100 mg/day**.",
+      "administration": "PO with or without food.",
+      "notes": "Check K+ and creatinine 1–2 weeks after start/uptitration."
     },
     "pediatrico": {
-      "dose": "Hypertension: > 6 years: 0.75 mg/kg once daily, maximum dose: 50 mg/day. Adults: initial: 50 mg/day once daily; maintenance: 25 to 100 mg every 12 - 24 h. In hepatic insufficiency start with 25 mg once daily.",
-      "administration": "PO",
-      "presentation": "Tablets: 50 mg; Suspension (compounded): 2,5 mg/mL",
-      "notes": "Avoid concomitant use of other renin-angiotensin system inhibitors."
+      "presentation": "Tabs 25–50 mg; suspension by country.",
+      "dose": "≥6 y: **0.7 mg/kg/day** once daily (max **50 mg** start); may increase to **1.4 mg/kg/day** (max **100 mg**).",
+      "administration": "PO.",
+      "notes": "<6 y: limited data — specialist."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "Fetal/neonatal renal risk."
     }
   },
-  "stability": "## Stability\n\n- Store per package insert at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nHypotension, diarrhea, asthenia, dizziness, fatigue. Thrombocytopenia, rhabdomyolysis, angioedema.",
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nDizziness, hypotension, hyperkalemia, ↑ creatinine; rare: angioedema, cough (less than ACEI).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — loSARTAN potassium (code 1429, ATC C09CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Losartan.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. Hypertension and heart failure guidelines.",
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEP Pediamécum. Losartan.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

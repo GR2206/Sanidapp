@@ -1,47 +1,50 @@
 {
   "id": "los-001",
   "name": "Losartana",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Hipertensão. Antagonista da angiotensina II.",
-  "indications": "## Indicações principais\n\nHipertensão. Antagonista da angiotensina II.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "BRA. Adulto HAS: **50 mg VO/dia** (faixa **25–100 mg/dia** em 1–2 tomadas). Hepática: início **25 mg**. Pediatria ≥6 anos: **0,7 mg/kg/dia** (máx. início **50 mg**; até **1,4 mg/kg** ou **100 mg**). Contraindicado na gravidez.",
+  "indications": "## Indicações\n\n- Hipertensão; nefropatia diabética tipo 2; redução de risco CV em HAS com HVE (bula).\n- Alternativa a IECA se tosse/angioedema por IECA (não se angioedema grave recente sem avaliação).\n\n## Precauções\n\n- Hipotensão, hiperpotassemia, ↑ creatinina — mesmo cuidado que IECA.\n- **Teratogênico** — não usar na gravidez.\n- Interação com AINE, diuréticos poupadores de K+, lítio.\n\n> Pode associar-se a hidroclorotiazida em combos fixos.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 50 e 100 mg.",
-      "dose": "50–100 mg/dia V.O. em 1–2 tomadas. Pode ser combinado com diurético.",
-      "administration": "V.O. com ou sem alimentos."
+      "presentation": "Comp. 25–50–100 mg.",
+      "dose": "Início **50 mg VO/dia** (**25 mg** se depleção volêmica/hepática). Manutenção **25–100 mg/dia** em 1–2 tomadas. Nefropatia: frequentemente **50 → 100 mg/dia**.",
+      "administration": "VO com ou sem alimentos.",
+      "notes": "Controlar K+ e creatinina 1–2 semanas após início/aumento."
     },
     "pediatrico": {
-      "presentation": "Comprimidos: 50 mg; Suspensão (preparado magistral): 2,5 mg/mL",
-      "administration": "V.O.",
-      "dose": "Hipertensão: > 6 anos: 0,75 mg/kg, uma vez por dia, dose máxima: 50 mg/dia. Adultos: inicial: 50 mg/dia, uma vez por dia; manutenção: 25 a 100 mg a cada 12–24 h. Em insuficiência hepática iniciar com 25 mg uma vez por dia.",
-      "notes": "Evitar o uso concomitante de outros inibidores do sistema renina-angiotensina."
+      "presentation": "Comp. 25–50 mg; suspensão conforme país.",
+      "dose": "≥6 anos: **0,7 mg/kg/dia** 1×/dia (máx. **50 mg** início); pode subir a **1,4 mg/kg/dia** (máx. **100 mg**).",
+      "administration": "VO.",
+      "notes": "<6 anos: dados limitados — especialista."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "Risco renal fetal/neonatal."
     }
   },
-  "stability": "## Estabilidade\n\n- Conservar conforme bula em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\nHipotensão, diarreia, astenia, tontura, fadiga. Trombocitopenia, rabdomiólise, angioedema.",
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nTontura, hipotensão, hiperpotassemia, ↑ creatinina; raro: angioedema, tosse (menos que IECA).",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — loSARTÁN potásico (cód. 1429, ATC C09CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Losartana.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. Diretrizes de hipertensão e insuficiência cardíaca.",
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEP Pediamécum. Losartana.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedade Argentina de Cardiologia. Diretrizes de prática clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

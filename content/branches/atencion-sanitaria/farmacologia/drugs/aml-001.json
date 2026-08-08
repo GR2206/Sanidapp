@@ -2,45 +2,36 @@
   "id": "aml-001",
   "name": "Amlodipino",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Hipertensión. Bloqueante de los canales de calcio.",
-  "indications": "## Indicaciones principales\n\nHipertensión. Bloqueante de los canales de calcio.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Calcioantagonista dihidropiridínico. Adulto: **5 mg VO/día** (rango **2,5–10 mg/día**). Pediatría ≥6 años: inicio **2,5 mg/día** o **0,06–0,3 mg/kg/día** (máx. **10 mg**). Edema maleolar frecuente; poca bradicardia vs no-DHP.",
+  "indications": "## Indicaciones\n\n- Hipertensión; angina estable / vasospástica (ficha).\n\n## Precauciones\n\n- Edema periférico dosis-dependiente (no es ICC necesariamente).\n- Hipotensión; precaución en estenosis aórtica grave.\n- Interacciones CYP3A4 (↑ niveles con inhibidores potentes).\n- Seguro en muchos esquemas con IECA/ARA-II/tiazida.\n\n> Vida media larga — efecto pleno en varios días.",
   "dilution": {
     "adulto": {
-      "presentation": "Comprimidos 5 y 10 mg.",
-      "dose": "5–10 mg/día VO en dosis única matutina.",
-      "administration": "VO."
+      "presentation": "Comp. 2,5–5–10 mg.",
+      "dose": "Inicio **5 mg VO/día** (ancianos/hepática **2,5 mg**). Titular cada 7–14 días hasta **10 mg/día** máx.",
+      "administration": "VO 1 vez/día, cualquier hora, con o sin alimentos.",
+      "notes": "No suspender brusco en angina (rebote raro pero posible)."
     },
     "pediatrico": {
-      "dose": "Niños: inicial: 0,06 mg/kg/día (hasta 5 mg/día), una vez por día; dosis máxima: 0,6 mg/kg/día (hasta 10 mg/día).Adultos: inicial: 5 mg una vez por día, mantenimiento: 5 - 10 mg una vez por día.",
-      "administration": "V.O.",
-      "presentation": "Comprimidos: 5 - 10 mg; Suspensión (preparado magistral): 1 mg/ml",
-      "notes": "No discontinuar abruptamente la droga."
+      "presentation": "Comp. 2,5–5 mg.",
+      "dose": "≥6 años: inicio **2,5 mg/día**; habitual **0,06–0,3 mg/kg/día** (máx. **5–10 mg/día** según ficha).",
+      "administration": "VO.",
+      "notes": "<6 años: uso off-label especializado."
+    },
+    "neonatal": {
+      "presentation": "No rutinario.",
+      "dose": "Solo protocolo cardiología/NNU.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Estabilidad\n\n- Conservar según prospecto, proteger de la luz.",
-  "adverseEffects": "## Efectos adversos\n\nPalpitaciones. edema periférico, cefalea, mareos, fatiga, angina, arritmia cardíaca (raro).",
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nEdema de tobillos, rubefacción, cefalea, palpitaciones, fatiga; raro: hiperplasia gingival, hepatitis.",
   "bibliography": [
-    {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — AMLOdipina Besilato (cód. 1509, ATC C08CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "American Heart Association. Hypertension guidelines.",
-      "url": "https://www.heart.org/"
-    },
-    {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Sociedad Argentina de Cardiología. Guías de práctica clínica.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    }
+    { "citation": "AEMPS CIMA. Amlodipino.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AHA/ACC. Hypertension / angina context.", "url": "https://www.heart.org/" },
+    { "citation": "AEP Pediamécum. Amlodipino.", "url": "https://www.aeped.es/" },
+    { "citation": "ANMAT. Prospectos amlodipino.", "url": "https://www.argentina.gob.ar/anmat" }
   ]
 }

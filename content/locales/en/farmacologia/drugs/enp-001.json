@@ -2,46 +2,53 @@
   "id": "enp-001",
   "name": "Enalapril",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Venous and arterial vasodilator. Angiotensin-converting enzyme inhibitor.",
-  "indications": "## Main indications\n\nVenous and arterial vasodilator. Angiotensin-converting enzyme inhibitor.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ACE inhibitor. Adult HTN: **5–20 mg PO/day** (up to **40 mg/day** in 1–2 doses). HF: start **2.5 mg** 1–2×/day, titrate. Pediatrics: **0.08–0.6 mg/kg/day**. IV enalaprilat: **0.625–1.25 mg q6h**. Contraindicated in pregnancy.",
+  "indications": "## Indications\n\n- Hypertension; heart failure; post-MI LV dysfunction; diabetic nephropathy (context).\n\n## Precautions\n\n- First-dose hypotension (hypovolemia/diuretics).\n- ↑ K+, ↑ creatinine — monitor; bilateral renal-artery stenosis.\n- Dry cough; angioedema (stop and do not rechallenge).\n- **Teratogenic** — stop if pregnancy.\n\n> Enalaprilat = active IV metabolite.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 5, 10 and 20 mg. Ampoule 1,25 mg/mL (limited IV use).",
-      "dose": "Hypertension: 5–20 mg/day PO in 1–2 doses. Heart failure: start 2,5 mg PO 1–2 times/day and titrate.",
-      "administration": "PO with or without food."
+      "presentation": "Tabs 2.5–5–10–20 mg; enalaprilat ampoule.",
+      "dose": "HTN: start **5 mg/day** (or **2.5** if hypotension risk); usual **10–20 mg/day**; max **40 mg/day**. HF: **2.5 mg** 1–2×/day → titrate to **10–20 mg q12h**. IV enalaprilat: **0.625–1.25 mg q6h** (max **5 mg/6 h**).",
+      "administration": "PO. Slow IV in hospital.",
+      "notes": "Renal impairment: reduce dose/interval."
     },
     "pediatrico": {
-      "dose": "PO: Children: initial: 0,08 mg/kg/day every 24 h, maximum dose: < 12 years: 0,6 mg/kg/day; > 12 years: 40 mg/day; adolescents and adults: 2,5–5 mg/day, usual dose for hypertension: 10–40 mg/day. IV (enalaprilat): Children: 5–10 µg/kg/dose every 8–24 h; adolescents and adults: 0,625–1,25 mg/dose every 6 h.",
-      "administration": "PO",
-      "presentation": "Tablets: 5–10 mg; Oral solution (compounded): 2 mg/mL (0,1 mg/drop) See formulation",
-      "notes": "With potassium-sparing diuretics may cause hyperkalemia. Caution in sodium-depleted patients. Dialyzable. See preliminary guide for prevention of medication-related teratogenesis."
+      "presentation": "Tabs; compounded solution.",
+      "dose": "PO start **0.08 mg/kg/day** (max start 5 mg); range **0.1–0.5 mg/kg/day** in 1–2 doses; max <12 y **0.6 mg/kg/day**; ≥12 y up to **40 mg/day**. IV enalaprilat: **5–10 µg/kg** q8–24h.",
+      "administration": "PO/IV.",
+      "notes": "Monitor BP, K+, renal function."
+    },
+    "neonatal": {
+      "presentation": "Compounded / protocol.",
+      "dose": "Neonatology/cardiology only — risk of severe renal failure.",
+      "administration": "PO per center.",
+      "notes": "Avoid unless explicit indication."
     }
   },
-  "stability": "## Stability\n\n- Tablets: store per package insert at room temperature.\n- IV solution: use immediately after preparation.",
-  "adverseEffects": "## Adverse effects\n\nCutaneous reactions, taste disturbances, vertigo, headache, neutropenia, orthostatic hypotension, cough. Teratogenic.",
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nHypotension, cough, hyperkalemia, ↑ creatinine, dizziness; rare: angioedema, agranulocytosis.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Enalapril Maleato (code 0082, ATC C09AA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Enalapril / enalaprilat.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. Hypertension guidelines.",
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "Hospital Garrahan. Formulary — enalapril.",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    },
+    {
+      "citation": "AEP Pediamécum. Enalapril.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

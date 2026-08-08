@@ -1,0 +1,37 @@
+{
+  "id": "ato-001",
+  "name": "Atorvastatina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Estatina de alta intensidad. Adulto: **10–80 mg VO/noche** (inicio frecuente **10–20 mg**; alta intensidad **40–80 mg**). Pediatría ≥10 años (hiperlipidemia familiar): **10–20 mg/día** (máx. habitual **40 mg**). Evitar en embarazo.",
+  "indications": "## Indicaciones\n\n- Hipercolesterolemia; prevención CV primaria/secundaria.\n- Dislipidemia familiar (incluye adolescentes seleccionados).\n\n## Precauciones\n\n- Miopatía/rabdomiólisis — vigilar dolor muscular; riesgo ↑ con inhibidores CYP3A4 (claritromicina, itraconazol, grapefruit), gemfibrozilo.\n- Control de CK/transaminasas según protocolo.\n- Contraindicada en embarazo y hepatopatía activa.\n\n> Tomar preferible noche; puede ser con o sin alimentos.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10–20–40–80 mg.",
+      "dose": "Inicio: **10–20 mg VO/día**. Titular c/4 semanas. Prevención secundaria/alto riesgo: **40–80 mg/día**. Máx. **80 mg/día**.",
+      "administration": "VO 1 vez/día (noche preferible).",
+      "notes": "Ajuste si interacciones o IRC grave (precaución)."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 10–20–40 mg.",
+      "dose": "≥10 años (HF/hiperlipidemia): inicio **10 mg/día**; máx. habitual **20–40 mg/día** según ficha/especialista.",
+      "administration": "VO.",
+      "notes": "<10 años: solo especialista / ensayos."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nMialgia, ↑ CK, ↑ transaminasas, cefalea, digestivos; raro: rabdomiólisis, diabetes de novo.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Atorvastatina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "AHA/ACC. Cholesterol guideline — high-intensity statin.", "url": "https://www.heart.org/" },
+    { "citation": "ANMAT. Prospectos atorvastatina.", "url": "https://www.argentina.gob.ar/anmat" },
+    { "citation": "AEP Pediamécum. Atorvastatina (contexto pediátrico).", "url": "https://www.aeped.es/" }
+  ]
+}

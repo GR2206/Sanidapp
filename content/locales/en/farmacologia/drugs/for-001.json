@@ -1,0 +1,50 @@
+{
+  "id": "for-001",
+  "name": "Formoterol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Long-acting β2 agonist (LABA) with rapid onset. Adult: **12 µg q12h** inhaled (usual max **24–48 µg/day** per label). Prefer **combination with ICS**. No monotherapy in asthma.",
+  "indications": "## Indications\n\n- Asthma (always with inhaled corticosteroid) and COPD (maintenance).\n- MART regimens (budesonide/formoterol maintenance + reliever) per GINA/combo label.\n\n## Precautions\n\n- **Not** sole asthma therapy (↑ severe exacerbations).\n- Tremor, tachycardia, hypokalemia; caution in heart disease.\n- Does not replace SABA rescue unless authorized MART regimen.\n\n> Check inhaler technique and ICS adherence.",
+  "dilution": {
+    "adulto": {
+      "presentation": "DPI/MDI 4.5–12 µg/puff; combos with budesonide/beclometasone.",
+      "dose": "Maintenance formoterol alone (COPD/asthma with separate ICS): **12 µg q12h** (usual max **24 µg/day**; some labels up to **48 µg/day**). Combos: follow each component (e.g. Symbicort 160/4.5).",
+      "administration": "Inhaled; rinse if ICS in same device.",
+      "notes": "Titrate by symptoms/spirometry."
+    },
+    "pediatrico": {
+      "presentation": "Pediatric combo DPI/MDI by brand.",
+      "dose": "≥6–12 y: only in authorized combination (e.g. budesonide/formoterol) — dose per product label. No LABA alone.",
+      "administration": "Inhaled with technique/spacer by device.",
+      "notes": "Rescue: per regimen (SABA or MART)."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store device per label; protect DPI from moisture.",
+  "adverseEffects": "## Adverse effects\n\nTremor, palpitations, headache, cramps; rare: arrhythmia, hypokalemia.",
+  "bibliography": [
+    {
+      "citation": "GINA. Asthma guidance.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. Formoterol / combinations.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "GOLD. COPD guidance.",
+      "url": "https://goldcopd.org/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

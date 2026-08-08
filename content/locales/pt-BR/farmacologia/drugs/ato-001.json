@@ -1,0 +1,50 @@
+{
+  "id": "ato-001",
+  "name": "Atorvastatina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Estatina de alta intensidade. Adulto: **10–80 mg VO à noite** (início frequente **10–20 mg**; alta intensidade **40–80 mg**). Pediatria ≥10 anos (hiperlipidemia familiar): **10–20 mg/dia** (máx. habitual **40 mg**). Evitar na gravidez.",
+  "indications": "## Indicações\n\n- Hipercolesterolemia; prevenção CV primária/secundária.\n- Dislipidemia familiar (inclui adolescentes selecionados).\n\n## Precauções\n\n- Miopatia/rabdomiólise — vigiar dor muscular; risco ↑ com inibidores CYP3A4 (claritromicina, itraconazol, toranja), gemfibrozila.\n- Controle de CK/transaminases conforme protocolo.\n- Contraindicada na gravidez e hepatopatia ativa.\n\n> Preferir à noite; com ou sem alimentos.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 10–20–40–80 mg.",
+      "dose": "Início: **10–20 mg VO/dia**. Titular a cada 4 semanas. Prevenção secundária/alto risco: **40–80 mg/dia**. Máx. **80 mg/dia**.",
+      "administration": "VO 1×/dia (noite preferível).",
+      "notes": "Ajuste se interações ou IRC grave (cautela)."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 10–20–40 mg.",
+      "dose": "≥10 anos (HF/hiperlipidemia): início **10 mg/dia**; máx. habitual **20–40 mg/dia** conforme bula/especialista.",
+      "administration": "VO.",
+      "notes": "<10 anos: só especialista / ensaios."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nMialgia, ↑ CK, ↑ transaminases, cefaleia, digestivos; raro: rabdomiólise, diabetes de novo.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Atorvastatina.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
+      "url": "https://www.heart.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "AEP Pediamécum. Atorvastatina.",
+      "url": "https://www.aeped.es/"
+    }
+  ],
+  "translationReviewed": true
+}

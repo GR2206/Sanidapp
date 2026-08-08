@@ -1,0 +1,37 @@
+{
+  "id": "srt-001",
+  "name": "Sertralina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ISRS. Adulto: inicio **50 mg VO/día** (rango **50–200 mg/día**). TOC puede requerir dosis altas. Pediatría (≥6 años TOC; depresión adolescente según país): inicio **25 mg**, luego **50 mg**. No suspender brusco; riesgo de ideación suicida al inicio.",
+  "indications": "## Indicaciones\n\n- Depresión mayor, TOC, pánico, TEPT, ansiedad social, PMDD (según ficha).\n\n## Precauciones\n\n- Vigilancia estrecha primeras semanas (ideación suicida, agitación).\n- Síndrome serotoninérgico con IMAO, triptanes, tramadol, otros serotoninérgicos.\n- Hiponatremia (ancianos); sangrado con AINE/anticoagulantes.\n- Embarazo/lactancia: balance riesgo-beneficio.\n\n> Efecto clínico suele requerir **2–4 semanas**.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 25–50–100 mg; solución concentrada.",
+      "dose": "Depresión/ansiedad: **50 mg VO/día**; titular semanalmente hasta **50–200 mg/día**. Pánico: a veces inicio **25 mg** × 1 semana. Máx. **200 mg/día**.",
+      "administration": "VO mañana o noche, con o sin alimentos; mismo horario.",
+      "notes": "Reducción gradual al discontinuar (semanas)."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 25–50 mg; solución.",
+      "dose": "TOC ≥6 años: **25 mg/día** × 1 semana → **50 mg/día**; máx. 6–12 a **200 mg**; adolescentes similar a adulto bajo especialista. Depresión: solo si autorizado localmente / psiquiatría.",
+      "administration": "VO.",
+      "notes": "Monitoreo familiar de humor/conducta."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No iniciar. Exposición in utero: síndrome de adaptación neonatal posible.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, diarrea, insomnio, disfunción sexual, sudoración, temblor; raro: hiponatremia, convulsiones, síndrome serotoninérgico.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Sertralina.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. SSRI — boxed warning suicidal thinking in young people.", "url": "https://www.fda.gov/" },
+    { "citation": "NICE. Depression / anxiety prescribing context.", "url": "https://www.nice.org.uk/" },
+    { "citation": "ANMAT. Prospectos sertralina.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

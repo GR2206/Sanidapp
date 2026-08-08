@@ -1,0 +1,37 @@
+{
+  "id": "esc-001",
+  "name": "Escitalopram",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "ISRS (S-enantiómero de citalopram). Adulto: **10 mg VO/día** (rango **5–20 mg**; máx. **20 mg/día**). Ancianos: máx. habitual **10 mg/día** (QT). Adolescentes ≥12 años (según país): **10 mg**, máx. **20 mg**. Riesgo de ideación suicida al inicio.",
+  "indications": "## Indicaciones\n\n- Depresión mayor; trastorno de ansiedad generalizada; pánico (fichas).\n\n## Precauciones\n\n- Prolongación QT — no superar máximos; evitar con otros QT+; ECG si riesgo.\n- Mismas alertas ISRS: suicidio inicio/cambio dosis, serotoninérgico, hiponatremia, sangrado.\n- Reducir a **10 mg** máx. en >65 años en muchas fichas.\n\n> 10 mg escitalopram ≈ 20 mg citalopram (orientativo).",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comp. 5–10–20 mg; gotas 20 mg/mL.",
+      "dose": "Inicio **10 mg VO/día**; si precisa **20 mg** tras ≥1 semana. Ancianos / hepática: inicio **5 mg**, máx. **10 mg/día**.",
+      "administration": "VO 1 vez/día, mañana o noche.",
+      "notes": "Retirada gradual."
+    },
+    "pediatrico": {
+      "presentation": "Comp. 5–10 mg; gotas.",
+      "dose": "≥12 años (si autorizado): **10 mg/día**; máx. **20 mg**. <12 años: no rutinario / especialista.",
+      "administration": "VO.",
+      "notes": "Monitoreo estrecho de humor."
+    },
+    "neonatal": {
+      "presentation": "No indicado.",
+      "dose": "No iniciar.",
+      "administration": "—",
+      "notes": "Síndrome de adaptación si exposición prenatal."
+    }
+  },
+  "stability": "## Estabilidad\n\n- Conservar según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, insomnio, fatiga, disfunción sexual, sudoración; QT largo a dosis altas; hiponatremia.",
+  "bibliography": [
+    { "citation": "AEMPS CIMA. Escitalopram — posología y QT.", "url": "https://cima.aemps.es/cima/" },
+    { "citation": "FDA. Escitalopram / citalopram QT warnings.", "url": "https://www.fda.gov/" },
+    { "citation": "NICE. Depression prescribing context.", "url": "https://www.nice.org.uk/" },
+    { "citation": "ANMAT. Prospectos escitalopram.", "url": "https://www.argentina.gob.ar/anmat" }
+  ]
+}

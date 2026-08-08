@@ -1,51 +1,54 @@
 {
   "id": "ipr-001",
   "name": "Brometo de ipratrópio",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antimuscarínico anticolinérgico broncodilatador.",
-  "indications": "## Indicações principais\n\nAntimuscarínico anticolinérgico broncodilatador.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Anticolinérgico inalado de ação curta (SAMA). Adulto neb crise: **500 µg a cada 6–8 h** (± salbutamol). MDI: **2 jatos (40 µg) a cada 6–8 h** (máx. ~12 jatos/dia). Pediatria neb: **250–500 µg** a cada 6–8 h (lactentes **125–250 µg**).",
+  "indications": "## Indicações\n\n- Broncoespasmo em DPOC/asma (adjunto ao SABA na crise).\n- Rinorreia (spray nasal em algumas marcas).\n\n## Precauções\n\n- Evitar contato ocular (midríase, glaucoma de ângulo fechado).\n- Cautela em HPB / retenção urinária.\n- Não é corticoide nem controlador de manutenção de primeira linha na asma (preferir CSI ± LABA).\n\n> Na crise asmática grave: combinar com salbutamol na neb.",
   "dilution": {
     "adulto": {
-      "presentation": "Nebulização 0,25–0,5 mg; inalador dosimetrado.",
-      "dose": "0,5 mg nebulização a cada 6–8 h; combinar com salbutamol na crise.",
-      "administration": "Nebulização."
+      "presentation": "Solução neb 250–500 µg/2 mL; MDI 20 µg/jato; spray nasal conforme marca.",
+      "dose": "Neb: **500 µg a cada 6–8 h** (na crise frequentemente com salbutamol a cada 20 min × 3). MDI: **2 jatos (40 µg) a cada 6–8 h**; máx. habitual **12 jatos/dia**.",
+      "administration": "Nebulizado ou MDI (+ espaçador). Evitar névoa nos olhos.",
+      "notes": "Combos fixos ipratrópio+salbutamol seguem bula do produto."
     },
     "pediatrico": {
-      "dose": "Broncoespasmo: Aerossol: 3–14 anos: 1–2 jatos 3 vezes ao dia até 6 jatos/dia; adultos: 2 jatos 4 vezes ao dia até 12 jatos/dia. Solução para nebulizar: neonatos: 25 µg/kg/dose a cada 8 h; lactentes e crianças: 125–250 µg 3 vezes ao dia; >12 anos e adultos: 500 µg 3–4 vezes ao dia.",
-      "administration": "Inalatória",
-      "presentation": "Aerossol: 20 µg/dose; Solução para nebulizar: 0,25 mg/mL (12,5 µg/gota)",
-      "notes": "Não recomendado para menores de 12 anos (aerossol). Início de ação mais lento que beta-adrenérgicos."
+      "presentation": "Neb 250 µg/mL; MDI 20 µg.",
+      "dose": "Neb: neonatos/lactentes **25 µg/kg** ou **125–250 µg** a cada 8 h; crianças **250–500 µg** a cada 6–8 h. MDI 3–14 anos: **1–2 jatos** até 3×/dia (máx. ~6 jatos/dia conforme bula).",
+      "administration": "Neb/MDI+espaçador.",
+      "notes": "Vigiar FC se associado a salbutamol em doses altas."
     },
     "neonatal": {
-      "dose": "0,25 mg nebulização conforme protocolo respiratório da UCIN.",
-      "administration": "Nebulização."
+      "presentation": "Neb / protocolo NNU.",
+      "dose": "Orientativo **25 µg/kg/dose a cada 8 h** — só neonatologia.",
+      "administration": "Nebulizado.",
+      "notes": "Não rotineiro."
     }
   },
-  "stability": "## Estabilidade\n\n- Mistura com salbutamol estável durante o turno.",
-  "adverseEffects": "## Efeitos adversos\n\nBoca seca, tosse, exacerbação de sintomas, irritação local, retenção urinária, constipação.",
+  "stability": "## Estabilidade\n\n- Ampolas neb: usar após abrir; diluir em SF se o protocolo indicar.",
+  "adverseEffects": "## Efeitos adversos\n\nBoca seca, tosse, cefaleia; raro: retenção urinária, midríase/glaucoma, reação alérgica.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Ipratrópio (cód. 0473, ATC R03BB).",
+      "citation": "AEMPS CIMA. Ipratrópio neb/MDI.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "GINA. Asthma guidance.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — ipratrópio.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
+      "citation": "AEP Pediamécum. Ipratrópio.",
+      "url": "https://www.aeped.es/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de produtos autorizados.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). Diretrizes de medicação em UTI.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
   ],
-  "branch": "atencion-sanitaria",
   "translationReviewed": true
 }

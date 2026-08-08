@@ -75,8 +75,8 @@
       "id": "aml-001",
       "name": "Amlodipino",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "amo-001",
@@ -142,6 +142,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "ato-001",
+      "name": "Atorvastatina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "atr-002",
       "name": "Atracurio",
       "branch": "atencion-sanitaria",
@@ -177,6 +184,13 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "bec-001",
+      "name": "Beclometasona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "bic-001",
       "name": "Bicarbonato de sodio",
       "branch": "atencion-sanitaria",
@@ -201,8 +215,8 @@
       "id": "ipr-001",
       "name": "Bromuro de ipratropio",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "bud-001",
@@ -558,8 +572,8 @@
       "id": "enp-001",
       "name": "Enalapril",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "eno-001",
@@ -580,6 +594,13 @@
       "name": "Ertapenem",
       "branch": "atencion-sanitaria",
       "version": "1.2.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "esc-001",
+      "name": "Escitalopram",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {
@@ -679,6 +700,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0",
       "updatedAt": "2026-06-25"
+    },
+    {
+      "id": "for-001",
+      "name": "Formoterol",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "fsc-001",
@@ -894,8 +922,8 @@
       "id": "ltx-001",
       "name": "Levotiroxina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "lid-001",
@@ -943,8 +971,8 @@
       "id": "los-001",
       "name": "Losartán",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-08"
     },
     {
       "id": "man-001",
@@ -1294,6 +1322,13 @@
       "name": "Salbutamol",
       "branch": "atencion-sanitaria",
       "version": "1.1.0",
+      "updatedAt": "2026-08-08"
+    },
+    {
+      "id": "srt-001",
+      "name": "Sertralina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
       "updatedAt": "2026-08-08"
     },
     {

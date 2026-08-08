@@ -2,50 +2,53 @@
   "id": "ltx-001",
   "name": "Levothyroxine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Hypothyroidism.",
-  "indications": "## Main indications\n\nHypothyroidism.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "T4 hormone. Adult hypothyroidism: start **25–50 µg PO/day** (elderly/cardiac **12.5–25 µg**); usual maintenance **75–150 µg/day**. Pediatrics: **10–15 µg/kg/day** in neonates; then by age/weight. IV myxedema: load **200–400 µg** (specialist).",
+  "indications": "## Indications\n\n- Primary/central hypothyroidism; goiter; TSH suppression in differentiated thyroid cancer (regimens).\n- Myxedema coma (IV + support).\n\n## Precautions\n\n- Take fasting, 30–60 min before breakfast; separate from calcium/iron/PPI ~4 h.\n- Do not start high doses in ischemic heart disease.\n- Adjust by TSH/free T4 (6–8 weeks after change).\n- Brands not always bioequivalent — avoid unnecessary switches.\n\n> Overdose: iatrogenic thyrotoxicosis.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets; IV ampoule 200 mcg.",
-      "dose": "Myxedema: 200–400 mcg IV loading; PO maintenance.",
-      "administration": "Slow IV or PO on empty stomach."
+      "presentation": "Tabs 25–50–75–100–125–150 µg; IV vial.",
+      "dose": "Young euthyroid start: **50–100 µg PO/day**. >50 y / CV: **12.5–25 µg/day**, ↑ every 3–6 weeks. Typical maintenance **1.6 µg/kg/day** (~**75–150 µg**). Myxedema IV: load **200–400 µg** then **50–100 µg/day** IV/PO — ICU.",
+      "administration": "PO fasting with water. Slow IV in hospital.",
+      "notes": "Pregnancy: requirements often ↑ ~25–30%."
     },
     "pediatrico": {
-      "dose": "0 - 3 months: 10-15 µg/kg; 3 - 6 months: 25-50 µg; 6-12 months: 50-75 µg; 1-5 years: 75-100 µg; 6-12 years: 100-150 µg; > 12 years: 150 µg.",
-      "administration": "PO",
-      "presentation": "Tablets: 25 mcg - 50 mcg - 100 mcg",
-      "notes": "Must be prescribed by specialists. Iron salts, aluminum hydroxide, sucralfate decrease its absorption. Levothyroxine increases the effect of oral anticoagulants. Phenytoin may decrease levothyroxine levels. Administer on empty stomach, 1 - 1.5 h before breakfast. Do not administer via nasogastric tube."
+      "presentation": "Tabs; compounded solution.",
+      "dose": "0–3 mo: **10–15 µg/kg/day**. 3–6 mo: **8–10 µg/kg** or **25–50 µg/day**. 6–12 mo: **6–8 µg/kg** or **50–75 µg**. 1–5 y: **5–6 µg/kg** or **75–100 µg**. 6–12 y: **4–5 µg/kg** or **100–150 µg**. >12 y: **2–3 µg/kg** up to adult dose.",
+      "administration": "PO; crush in water/breast milk if needed (not with soy/calcium).",
+      "notes": "Congenital: start ASAP; endocrine follow-up."
     },
     "neonatal": {
-      "dose": "10–15 mcg/kg/day PO in congenital hypothyroidism.",
-      "administration": "PO."
+      "presentation": "Tabs / compounded.",
+      "dose": "Congenital hypothyroidism: **10–15 µg/kg/day** PO (target high-normal free T4, falling TSH).",
+      "administration": "PO.",
+      "notes": "Endocrine urgency — do not delay."
     }
   },
-  "stability": "## Stability\n\n- IV use immediately after preparation.",
-  "adverseEffects": "## Adverse effects\n\nTachycardia, headaches, cardiac arrhythmias, nervousness, insomnia, alopecia, increased appetite.",
+  "stability": "## Stability\n\n- Protect from moisture/light; avoid prolonged storage in humid pillboxes.",
+  "adverseEffects": "## Adverse effects\n\nFrom excess: palpitations, nervousness, insomnia, weight loss, osteoporosis (chronic), arrhythmia. Rare excipient allergy.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — levoTHYROXine (code 0343, ATC H03AA).",
+      "citation": "ATA. Hypothyroidism — levothyroxine dosing.",
+      "url": "https://www.thyroid.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. Levothyroxine.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "AEP Pediamécum. Levothyroxine.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "Hospital Garrahan. Formulary — levothyroxine.",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "American Heart Association. ACLS / PALS / NRP Guidelines.",
-      "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines"
-    },
-    {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Society of Critical Care Medicine (SCCM). ICU medication guidelines.",
-      "url": "https://www.sccm.org/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }

@@ -1,0 +1,50 @@
+{
+  "id": "for-001",
+  "name": "Formoterol",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Agonista β2 de ação prolongada (LABA), início rápido. Adulto: **12 µg a cada 12 h** inalado (máx. habitual **24–48 µg/dia** conforme bula). Preferível em **combinação com CSI**. Sem monoterapia na asma.",
+  "indications": "## Indicações\n\n- Asma (sempre com corticoide inalado) e DPOC (manutenção).\n- Esquemas MART (budesonida/formoterol sob demanda + manutenção) conforme GINA/bula do combo.\n\n## Precauções\n\n- **Não** como único tratamento da asma (↑ exacerbações graves).\n- Tremor, taquicardia, hipopotassemia; cautela em cardiopatia.\n- Não substitui SABA de resgate salvo regime MART autorizado.\n\n> Revisar técnica inalatória e adesão ao CSI.",
+  "dilution": {
+    "adulto": {
+      "presentation": "DPI/MDI 4,5–12 µg/jato; combos com budesonida/beclometasona.",
+      "dose": "Manutenção só formoterol (DPOC/asma com CSI à parte): **12 µg a cada 12 h** (máx. frequente **24 µg/dia**; algumas bulas até **48 µg/dia**). Combos: seguir µg de cada componente (p. ex. Symbicort 160/4,5).",
+      "administration": "Inalado; enxaguar se houver CSI no mesmo dispositivo.",
+      "notes": "Titular conforme controle de sintomas/espirometria."
+    },
+    "pediatrico": {
+      "presentation": "Combos pediátricos DPI/MDI conforme marca.",
+      "dose": "≥6–12 anos: só em combinação autorizada (p. ex. budesonida/formoterol) — dose conforme bula do produto. Sem LABA sozinho.",
+      "administration": "Inalado com técnica/espaçador conforme device.",
+      "notes": "Resgate: conforme regime (SABA ou MART)."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Estabilidade\n\n- Conservar dispositivo conforme bula; proteger DPI da umidade.",
+  "adverseEffects": "## Efeitos adversos\n\nTremor, palpitações, cefaleia, cãibras; raro: arritmia, hipopotassemia.",
+  "bibliography": [
+    {
+      "citation": "GINA. Asthma guidance.",
+      "url": "https://ginasthma.org/"
+    },
+    {
+      "citation": "AEMPS CIMA. Formoterol / combinações.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "GOLD. COPD guidance.",
+      "url": "https://goldcopd.org/"
+    },
+    {
+      "citation": "ANMAT. Informações de produtos autorizados.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

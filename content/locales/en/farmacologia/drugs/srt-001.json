@@ -1,0 +1,50 @@
+{
+  "id": "srt-001",
+  "name": "Sertraline",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "SSRI. Adult: start **50 mg PO/day** (range **50–200 mg/day**). OCD may need higher doses. Pediatrics (≥6 y OCD; adolescent depression by country): start **25 mg**, then **50 mg**. Do not stop abruptly; suicide ideation risk early on.",
+  "indications": "## Indications\n\n- Major depression, OCD, panic, PTSD, social anxiety, PMDD (per label).\n\n## Precautions\n\n- Close monitoring first weeks (suicidal ideation, agitation).\n- Serotonin syndrome with MAOIs, triptans, tramadol, other serotonergics.\n- Hyponatremia (elderly); bleeding with NSAIDs/anticoagulants.\n- Pregnancy/lactation: risk–benefit balance.\n\n> Clinical effect often needs **2–4 weeks**.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tabs 25–50–100 mg; oral concentrate.",
+      "dose": "Depression/anxiety: **50 mg PO/day**; titrate weekly to **50–200 mg/day**. Panic: sometimes start **25 mg** × 1 week. Max **200 mg/day**.",
+      "administration": "PO morning or night, with or without food; same time.",
+      "notes": "Taper gradually when discontinuing (weeks)."
+    },
+    "pediatrico": {
+      "presentation": "Tabs 25–50 mg; solution.",
+      "dose": "OCD ≥6 y: **25 mg/day** × 1 week → **50 mg/day**; max 6–12 y **200 mg**; adolescents similar to adult under specialist. Depression: only if locally authorized / psychiatry.",
+      "administration": "PO.",
+      "notes": "Family monitoring of mood/behavior."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not start. In utero exposure: possible neonatal adaptation syndrome.",
+      "administration": "—",
+      "notes": "—"
+    }
+  },
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nNausea, diarrhea, insomnia, sexual dysfunction, sweating, tremor; rare: hyponatremia, seizures, serotonin syndrome.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Sertraline.",
+      "url": "https://cima.aemps.es/cima/"
+    },
+    {
+      "citation": "FDA. SSRI boxed warning — suicidal thinking in young people.",
+      "url": "https://www.fda.gov/"
+    },
+    {
+      "citation": "NICE. Prescribing context.",
+      "url": "https://www.nice.org.uk/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    }
+  ],
+  "translationReviewed": true
+}

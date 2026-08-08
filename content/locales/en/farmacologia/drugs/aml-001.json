@@ -2,46 +2,49 @@
   "id": "aml-001",
   "name": "Amlodipine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "translationReviewed": true,
-  "executiveSummary": "Hypertension. Calcium channel blocker.",
-  "indications": "## Main indications\n\nHypertension. Calcium channel blocker.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-08",
+  "executiveSummary": "Dihydropyridine calcium-channel blocker. Adult: **5 mg PO/day** (range **2.5–10 mg/day**). Pediatrics ≥6 y: start **2.5 mg/day** or **0.06–0.3 mg/kg/day** (max **10 mg**). Ankle edema common; little bradycardia vs non-DHP.",
+  "indications": "## Indications\n\n- Hypertension; stable / vasospastic angina (label).\n\n## Precautions\n\n- Dose-dependent peripheral edema (not necessarily HF).\n- Hypotension; caution in severe aortic stenosis.\n- CYP3A4 interactions (↑ levels with strong inhibitors).\n- Compatible with many ACEI/ARB/thiazide regimens.\n\n> Long half-life — full effect over several days.",
   "dilution": {
     "adulto": {
-      "presentation": "Tablets 5 and 10 mg.",
-      "dose": "5–10 mg/day PO as single morning dose.",
-      "administration": "PO."
+      "presentation": "Tabs 2.5–5–10 mg.",
+      "dose": "Start **5 mg PO/day** (elderly/hepatic **2.5 mg**). Titrate every 7–14 days up to max **10 mg/day**.",
+      "administration": "PO once daily, any time, with or without food.",
+      "notes": "Avoid abrupt stop in angina (rebound uncommon but possible)."
     },
     "pediatrico": {
-      "dose": "Children: initial: 0,06 mg/kg/day (up to 5 mg/day), once daily; maximum dose: 0,6 mg/kg/day (up to 10 mg/day). Adults: initial: 5 mg once daily, maintenance: 5–10 mg once daily.",
-      "administration": "PO",
-      "presentation": "Tablets: 5–10 mg; Suspension (compounded): 1 mg/mL",
-      "notes": "Do not discontinue drug abruptly."
+      "presentation": "Tabs 2.5–5 mg.",
+      "dose": "≥6 y: start **2.5 mg/day**; usual **0.06–0.3 mg/kg/day** (max **5–10 mg/day** per label).",
+      "administration": "PO.",
+      "notes": "<6 y: specialized off-label use."
+    },
+    "neonatal": {
+      "presentation": "Not routine.",
+      "dose": "Cardiology/NICU protocol only.",
+      "administration": "—",
+      "notes": "—"
     }
   },
-  "stability": "## Stability\n\n- Store per package insert, protect from light.",
-  "adverseEffects": "## Adverse effects\n\nPalpitations, peripheral edema, headache, dizziness, fatigue, angina, cardiac arrhythmia (rare).",
+  "stability": "## Stability\n\n- Store per label.",
+  "adverseEffects": "## Adverse effects\n\nAnkle edema, flushing, headache, palpitations, fatigue; rare: gingival hyperplasia, hepatitis.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — AMLOdipina Besilato (code 1509, ATC C08CA).",
-      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+      "citation": "AEMPS CIMA. Amlodipine.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "American Heart Association. Hypertension guidelines.",
+      "citation": "AHA/ACC. Cardiovascular guidance context.",
       "url": "https://www.heart.org/"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEP Pediamécum. Amlodipine.",
+      "url": "https://www.aeped.es/"
+    },
+    {
+      "citation": "ANMAT. Authorized product information.",
       "url": "https://www.argentina.gob.ar/anmat"
-    },
-    {
-      "citation": "Argentine Society of Cardiology. Clinical practice guidelines.",
-      "url": "https://www.sac.org.ar/"
-    },
-    {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
     }
-  ]
+  ],
+  "translationReviewed": true
 }
