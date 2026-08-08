@@ -2,40 +2,49 @@
   "id": "dic-001",
   "name": "Diclofenaco",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-30",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "AINE não narcótico com ação analgésica, antipirética e anti-inflamatória; uso IV conforme prescrição institucional.",
-  "indications": "## Indicações\n\n- Dor aguda moderada a grave.\n- Inflamação em contextos selecionados.\n\n## Precauções\n\n- Risco de efeitos gastrointestinais e renais. Uso restrito em pediatria conforme protocolo.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "executiveSummary": "AINE do grupo fenilacético com efeito analgésico, antipirético e anti-inflamatório. Dose adulta habitual 75–150 mg/dia; pediatria oral 0,5–2 mg/kg/dia (até 3 mg/kg/dia na AIJ) conforme bula.",
+  "indications": "## Indicações\n\n- Dor aguda e inflamação musculoesquelética (pós-operatória, traumática, reumatológica).\n- Dismenorreia e cólica.\n- Artrite idiopática juvenil / artrite reumatoide juvenil sob indicação especializada.\n\n## Precauções e contraindicações\n\n- Evitar em úlcera péptica ativa, hemorragia digestiva, insuficiência renal/hepática grave, ICC descompensada, terceiro trimestre da gestação e alergia a AINE/AAS.\n- Usar a menor dose eficaz pelo menor tempo possível.\n- IM/IV não recomendados de rotina em crianças (segurança/eficácia limitada em muitas bulas); preferir VO/retal quando autorizado.\n\n> Calcular pediatria pelo **peso**. Confirmar o sal (sódico/potássico) e a apresentação antes de dosar.",
   "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 25–50–75 mg (liberação imediata ou modificada); ampolas 75 mg/3 mL; gel/tópico conforme a marca.",
+      "dose": "Dor/inflamação VO: **75–150 mg/dia** em 2–3 tomadas (p. ex. 50 mg a cada 8–12 h). Dismenorreia: início 50–100 mg, depois 50 mg a cada 8 h; máx. habitual **150 mg/dia** (algumas bulas permitem 200 mg só no 1º dia). IV/IM: 75 mg a cada 12 h; máx. 150 mg/dia; curso curto (habitual ≤ 2 dias IV/IM).",
+      "administration": "VO com alimentos se intolerância gástrica. IV: diluir conforme bula e infundir lentamente (p. ex. 30 min–2 h). IM profundo.",
+      "notes": "Não associar a outros AINE. Risco GI, renal e CV; avaliar anticoagulantes, antiagregantes, lítio, metotrexato e IECA/BRA."
+    },
     "pediatrico": {
-      "presentation": "Ampola 75 mg/3 mL.",
-      "administration": "IV ou IM.",
-      "diluent": "SF, SG 5%.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "De 30 min a 2 h com bomba de infusão.",
-      "dose": "150 mg/dia.",
-      "notes": "Analgésico, antipirético, anti-inflamatório não esteroide (AINE), não narcótico. Pode causar tontura, cefaleia, rash, dor abdominal, diarreia."
+      "presentation": "Suspensão oral (p. ex. 1,8–2 mg/mL de diclofenaco); comprimidos; ampolas 75 mg/3 mL (uso restrito).",
+      "dose": "VO ≥ 1 ano: **0,5–2 mg/kg/dia** em 2–3 tomadas. AIJ/AR juvenil: até **3 mg/kg/dia** em várias tomadas sob especialista. **Máximo diário: 150 mg/dia**. > 12–14 anos: esquemas próximos ao adulto (p. ex. 50 mg a cada 8–12 h), sem ultrapassar 150 mg/dia habitual. IV/IM: não rotineiro em < 14–18 anos; se usado sob protocolo, teto adulto 150 mg/dia e duração mínima.",
+      "administration": "VO preferencial. EV: diluir a ~1 mg/mL em NaCl 0,9% ou Dext. 5% e infundir 30 min–2 h com bomba. IM profundo só se indicado.",
+      "notes": "Muitas bulas europeias desaconselham comprimidos/supositórios de dose adulta em < 14 anos. Verificar idade mínima do produto local."
+    },
+    "neonatal": {
+      "presentation": "Não há pauta oral/IV rotineira de diclofenaco para febre/dor neonatal.",
+      "dose": "Não utilizar em neonatos salvo indicação excepcional e protocolo institucional explícito.",
+      "administration": "Somente ordem médica especializada.",
+      "notes": "Risco renal e GI desproporcional; não faz parte do manejo antipirético neonatal padrão."
     }
   },
-  "stability": "## Guia pediátrica\n\n- Descartar o remanescente após aberto.",
-  "adverseEffects": "## Efeitos adversos\n\n- Tontura, cefaleia, rash, dor abdominal, diarreia, elevação de transaminases.",
+  "stability": "## Estabilidade / conservação\n\n- Ampola aberta: descartar o restante; não guardar para doses posteriores.\n- Suspensão: agitar; conservar conforme bula.",
+  "adverseEffects": "## Efeitos adversos\n\nDispepsia, dor abdominal, náuseas, diarreia; tontura, cefaleia, erupção; elevação de transaminases. Graves: úlcera/hemorragia digestiva, LRA, eventos CV trombóticos, reações de hipersensibilidade/broncoespasmo.",
   "bibliography": [
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS / Pediamécum. Diclofenaco — VO 0,5–3 mg/kg/dia (máx. 150 mg/dia) em crianças de 1–12 anos.",
+      "url": "https://www.aeped.es/comites/cm/pediamecum"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "AEMPS CIMA. Bula/FT diclofenaco (posologia adulta 75–150 mg/dia; população pediátrica).",
+      "url": "https://cima.aemps.es/cima/pdfs/es/ft/57592/57592_ft.pdf"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (AINE).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     }
   ]
 }

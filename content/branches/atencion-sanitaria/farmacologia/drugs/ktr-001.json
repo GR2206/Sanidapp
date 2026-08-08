@@ -2,44 +2,48 @@
   "id": "ktr-001",
   "name": "Ketorolac",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "No esteroideo.Analgésico en dolor agudo de moderado a severo, equivalente a los opioides. Escasa eficacia antiinflamatoria.",
-  "indications": "## Indicaciones principales\n\nNo esteroideo.Analgésico en dolor agudo de moderado a severo, equivalente a los opioides. Escasa eficacia antiinflamatoria.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "AINE analgésico de acción rápida para dolor agudo moderado-severo de corta duración. Adulto IV/IM 30 mg c/6–8 h (máx. 120 mg/día); pediatría 0,5 mg/kg IV o 1 mg/kg VO por dosis con techos estrictos. Tratamiento ≤ 48–72 h.",
+  "indications": "## Indicaciones\n\n- Dolor agudo moderado a severo de corta duración (postoperatorio, cólico, traumatismo), cuando se requiere analgesia potente no opioide o como coadyuvante.\n- Continuación VO tras inicio parenteral en adultos/adolescentes según ficha.\n\n## Precauciones y contraindicaciones\n\n- Contraindicado en insuficiencia renal moderada-grave, úlcera/hemorragia digestiva activa, riesgo hemorrágico alto, embarazo/parto, hipersensibilidad a AINE.\n- **Duración máxima habitual: 48–72 h** (parenteral + oral combinados).\n- Reducir dosis a la mitad en IRC leve (máx. 60 mg/día IV) y en ≥ 65 años según prospecto.\n\n> No sustituye a opioides en todos los escenarios; evaluar función renal y riesgo GI antes de cada dosis.",
   "dilution": {
+    "adulto": {
+      "presentation": "Ampollas 15 mg/mL o 30 mg/mL; comprimidos 10 mg.",
+      "dose": "≥ 17 años y ≥ 50 kg: IV/IM **30 mg cada 6–8 h**; máx. **120 mg/día**. Si < 50 kg o ≥ 65 años: **15 mg cada 6–8 h**; máx. **60 mg/día**. VO (continuación): **10 mg cada 6–8 h**; máx. **40 mg/día**. Dosis de carga IV única frecuente: 30 mg (15 mg si < 50 kg/edad avanzada).",
+      "administration": "IV: push lento > 15 s o infusión intermitente diluida (~0,12 mg/mL) en ClNa 0,9% o Dext. 5% en 1–5 min. IM profundo. VO con o sin alimentos.",
+      "notes": "Precipita con morfina en la misma vía. Dialisis elimina poco el fármaco. No combinar con otros AINE."
+    },
     "pediatrico": {
-      "presentation": "Ampollas por 1 ml: 30 mg/ml; Ampollas por 2 ml: 15 mg/ml; Comprimidos: 10 mg",
-      "administration": "V.O.; E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "30 mg/mL.",
-      "infusionRate": "De 1 a 5 minutos.",
-      "dose": "Niños de 6 meses a 16 años: E.V.: 0,5 mg/kg/dosis (máx: 15 mg/dosis) cada 6 - 8 hs; V.O.: 1 mg/kg/dosis cada 6 - 8 hs, dosis máxima: 10 mg/dosis. &ge; 17 años, más de 50 kg y adultos: E.V.: 30 mg cada 6 - 8 hs, dosis máxima: 120 mg/día (si el niño pesa menos de 50 Kg no exceder los 60 mg/día), V.O.: 10 mg cada 6 - 8 hs, dosis máxima: 40 mg/día.",
-      "compatibility": "Precipita concomitante a morfina.",
-      "notes": "Máxima duración del tratamiento: 48 - 72 hs. Administración: push en más de 15 segundos o para infusión intermitente diluir en solución fisiológica o dextrosa 5% en una concentración de 0,12 mg/ml. Insuficiencia renal moderada o grave: contraindicado porque el ketorolac y sus metabolitos se eliminan principalmente por vía renal. En los pacientes con menor grado de insuficiencia renal indicar la mitad de la dosis recomendada, sin superar una dosis diaria total de 60 mg, con determinaciones periódicas de las pruebas de función renal. La diálisis apenas permite eliminar el ketorolaco de la sangre."
+      "presentation": "Ampollas 15–30 mg/mL; comprimidos 10 mg (uso según edad/peso).",
+      "dose": "6 meses–16 años: IV **0,5 mg/kg/dosis** (máx. **15 mg/dosis**) cada 6–8 h. VO: **1 mg/kg/dosis** cada 6–8 h (máx. **10 mg/dosis**). Si < 50 kg: techo IV diario **60 mg/día**. ≥ 17 años / ≥ 50 kg: ver adulto.",
+      "administration": "IV lento o diluido. VO con jeringa/comprimido según presentación.",
+      "notes": "Máxima duración 48–72 h. Contraindicado en IRC moderada-grave. En IRC leve: mitad de dosis, máx. 60 mg/día IV, con control de función renal."
+    },
+    "neonatal": {
+      "presentation": "No autorizado de rutina en neonatos.",
+      "dose": "No utilizar en < 6 meses salvo protocolo excepcional de centro de referencia.",
+      "administration": "Solo orden especializada.",
+      "notes": "Maduración renal incompleta: alto riesgo de IRA y hemorragia."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- Desechar el sobrante una vez abierto.",
-  "adverseEffects": "## Efectos adversos\n\nNáuseas, dispepsias, epigastralgias, constipación, diarrea, edema, hipertensión, rash, prurito, púrpura, somnolencia, mareos, cefalea, sudoración. Hemorragia gastrointestinal, trombocitopenia, convulsiones, insuficiencia renal aguda.",
+  "stability": "## Estabilidad / conservación\n\n- Ampolla: usar tras apertura; desechar sobrante.\n- Dilución para infusión intermitente: preparar extemporánea según prospecto.",
+  "adverseEffects": "## Efectos adversos\n\nNáuseas, dispepsia, epigastralgia, estreñimiento/diarrea, edema, HTA, erupción, prurito, somnolencia, mareos, cefalea, sudoración. Graves: hemorragia GI, trombocitopenia, convulsiones, IRA.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — ketoROLac trometamina* (cód. 0642, ATC M01AB).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — ketoROLac trometamina (cód. 0642, ATC M01AB).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
-    },
-    {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
     },
     {
       "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
+      "citation": "AEMPS CIMA / FDA. Ketorolac tromethamine — límites de duración y techos diarios adultos.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
+      "url": "https://www.aap.org/"
     }
   ]
 }

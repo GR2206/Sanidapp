@@ -1,0 +1,50 @@
+{
+  "id": "lrt-001",
+  "name": "Loratadina",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Anti-histamínico H1 de 2ª geração, pouca sedação. Adultos e > 12 anos ou > 30 kg: 10 mg VO/dia; crianças de 2–12 anos ≤ 30 kg: 5 mg VO/dia. Não rotineiro em < 2 anos.",
+  "indications": "## Indicações\n\n- Rinoconjuntivite alérgica (sazonal ou perene).\n- Urticária crônica idiopática / alívio sintomático do prurido associado.\n\n## Precauções\n\n- Insuficiência hepática grave: iniciar em **dias alternados** (mesma dose por tomada).\n- Não recomendado de rotina em < 2 anos (off-label / não estabelecido conforme bula).\n- Pouca sedação nas doses habituais; cautela ao combinar com outros depressores do SNC ou álcool.\n\n> Escolher xarope ou comprimido conforme o peso; o comprimido de 10 mg não é adequado se ≤ 30 kg.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 10 mg; xarope 1 mg/mL.",
+      "dose": "**10 mg VO uma vez ao dia**. Insuficiência hepática grave: **10 mg em dias alternados**.",
+      "administration": "VO com ou sem alimentos, com água.",
+      "notes": "Não ultrapassar a dose diária recomendada; não traz benefício extra e aumenta efeitos adversos."
+    },
+    "pediatrico": {
+      "presentation": "Xarope 1 mg/mL; comprimidos 10 mg (≥ 30 kg / ≥ 6–12 anos conforme bula).",
+      "dose": "2–12 anos e peso **≤ 30 kg**: **5 mg VO uma vez ao dia** (5 mL de xarope 1 mg/mL). Peso **> 30 kg** ou > 12 anos: **10 mg VO uma vez ao dia**. Hepática grave: mesma dose em dias alternados.",
+      "administration": "VO. Usar seringa/dosador do xarope. Comprimido 10 mg só se peso > 30 kg.",
+      "notes": "< 2 anos: não recomendado salvo indicação médica excepcional do produto. Verificar idade mínima da bula local (algumas fichas de comprimido indicam ≥ 6 anos)."
+    },
+    "neonatal": {
+      "presentation": "Não indicado.",
+      "dose": "Não utilizar em neonatos nem lactentes pequenos.",
+      "administration": "—",
+      "notes": "Segurança e eficácia não estabelecidas."
+    }
+  },
+  "stability": "## Estabilidade / conservação\n\n- Xarope/comprimidos: T° ambiente conforme bula; frasco bem fechado.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, fadiga, xerostomia, nervosismo (crianças); rara sedação nas doses usuais. Reações de hipersensibilidade pouco frequentes.",
+  "bibliography": [
+    {
+      "citation": "AEP Pediamécum. Loratadina — posologia por peso (5 mg se ≤ 30 kg; 10 mg se > 30 kg).",
+      "url": "https://www.aeped.es/comites/cm/pediamecum/principios-activos/loratadina"
+    },
+    {
+      "citation": "AEMPS CIMA. Bula loratadina 10 mg — adultos e crianças > 30 kg.",
+      "url": "https://cima.aemps.es/cima/dochtml/p/63946/Prospecto_63946.html"
+    },
+    {
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional (anti-histamínicos).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ]
+}

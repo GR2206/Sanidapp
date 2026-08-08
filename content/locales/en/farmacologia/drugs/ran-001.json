@@ -2,44 +2,49 @@
   "id": "ran-001",
   "name": "Ranitidine",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "H2 receptor antagonist, antiulcer agent, stress ulcer prevention.",
-  "indications": "## Main indications\n\nH2 receptor antagonist, antiulcer agent, stress ulcer prevention.\n\n> Adjust according to institutional protocol and medical prescription.",
+  "executiveSummary": "H2 antagonist. Adult IV 50 mg every 6–8 h (max 400 mg/day); pediatric IV 2–4 mg/kg/day. Note: withdrawn/restricted in many markets due to NDMA impurities — prefer PPI or available H2 blockers per local protocol.",
+  "indications": "## Indications (historical / if still locally authorized)\n\n- Peptic ulcer, GERD, hypersecretion; stress-ulcer prophylaxis in critical care.\n\n## Regulatory alert\n\n- ANMAT/FDA/EMA withdrew or restricted ranitidine due to **NDMA**. Verify institutional availability and substitute omeprazole/pantoprazole/famotidine per local guidance.\n\n> Use only if the product remains authorized and available at the center.",
   "dilution": {
+    "adulto": {
+      "presentation": "Ampoules 10 mg/mL (e.g. 50 mg/5 mL); tablets 150–300 mg (if available).",
+      "dose": "IV: **50 mg every 6–8 h**; max **400 mg/day**. PO (if available): **150 mg every 12 h** or **300 mg at night** (ulcer/GERD per historical label).",
+      "administration": "IV: dilute to 0.5–2.5 mg/mL in 0.9% NaCl or 5% dextrose; infuse 15–30 min (avoid rapid bolus — bradycardia).",
+      "notes": "Adjust in renal failure. Caution in hepatic impairment."
+    },
     "pediatrico": {
-      "presentation": "5 mL ampoules: 10 mg/mL",
-      "administration": "IV",
-      "diluent": "0.9% NaCl solution, 5% dextrose.",
-      "finalConcentration": "2.5 mg/mL.",
-      "infusionRate": "15 to 30 min with syringe pump.",
-      "dose": "Preterm and term infants < 2 weeks: IV: loading dose: 1.5 mg/kg, maintenance: 1.5 mg/kg/day every 12 h. Children: IV: 2-4 mg/kg/day every 6-8 h. Adults: IV: 50 mg/dose every 6-8 h, maximum dose: 400 mg/day.",
-      "notes": "For IV administration dilute in 5% dextrose or SWFI to a concentration of 0.5 mg/mL (maximum: 2.5 mg/mL) and infuse over 15-30 minutes. Caution in patients with hepatic insufficiency."
+      "presentation": "Ampoules 10 mg/mL.",
+      "dose": "Children IV: **2–4 mg/kg/day** divided every 6–8 h. Preterm and term neonates < 2 weeks: load **1.5 mg/kg**, then **1.5 mg/kg/day** every 12 h. Adults: see adult section.",
+      "administration": "IV diluted 0.5–2.5 mg/mL; infusion 15–30 min.",
+      "notes": "Prefer current alternatives (PPI) unless institutional protocol still uses ranitidine."
+    },
+    "neonatal": {
+      "presentation": "Ampoule 10 mg/mL.",
+      "dose": "Preterm / < 2 weeks: IV load **1.5 mg/kg**; maintenance **1.5 mg/kg/day** every 12 h. Adjust for renal function.",
+      "administration": "Slow/diluted IV; never rapid bolus.",
+      "notes": "Check whether the center still stocks the drug; many NICUs migrated to PPI/famotidine."
     }
   },
-  "stability": "## Pediatric guide\n\n- 48 h at room temperature.",
-  "adverseEffects": "## Adverse effects\n\nDizziness, insomnia, agitation, skin rash, constipation, nausea, diarrhea, vomiting, headache. Bradycardia with rapid infusion. Rare: increased transaminases, leukopenia, thrombocytopenia, bronchospasm.",
+  "stability": "## Stability / storage\n\n- Dilution: usual stability up to 48 h at room temperature per card (verify residual label/lot).",
+  "adverseEffects": "## Adverse effects\n\nHeadache, dizziness, insomnia/agitation, rash, constipation/diarrhea, nausea. Bradycardia with rapid infusion. Rare: ↑ transaminases, leukopenia, thrombocytopenia, bronchospasm.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary — Ranitidine Hydrochloride (code 0175, ATC A02BA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulary — Ranitidine (code 0175, ATC A02BA).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "ANMAT / FDA. Withdrawal and alerts for NDMA impurities in ranitidine.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS. Information on ranitidine medicines and alternatives.",
+      "url": "https://www.aemps.gob.es/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

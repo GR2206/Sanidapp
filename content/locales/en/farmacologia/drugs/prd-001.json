@@ -1,0 +1,50 @@
+{
+  "id": "prd-001",
+  "name": "Prednisone",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Intermediate-acting oral corticosteroid. Typical adult 5–60 mg/day by indication; pediatric anti-inflammatory/immunosuppressive usually 0.5–2 mg/kg/day (high 2–3 mg/kg/day; maintenance ~0.25 mg/kg/day) with gradual taper.",
+  "indications": "## Indications\n\n- Inflammatory, allergic, autoimmune, and hematologic diseases requiring systemic corticosteroids.\n- Asthma/exacerbations (short courses), nephrotic syndrome, transplant rejection (specific regimens).\n- Replacement / stress dosing in adrenal insufficiency (different physiologic doses).\n\n## Precautions\n\n- Uncontrolled active infections; caution in diabetes, hypertension, osteoporosis, psychosis, peptic ulcer.\n- Prolonged therapy: HPA axis suppression risk — **do not stop abruptly**.\n- In growing children prefer alternate-day/intermittent schemes when possible.\n\n> Dose is highly indication-dependent; always follow the disease protocol.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 2.5–5–10–20–40–50 mg by brand.",
+      "dose": "Anti-inflammatory/immunosuppressive: usual **5–60 mg/day PO** in 1–4 doses (preferably morning). Short courses (e.g. asthma): often **40–60 mg/day** × 5–7 days. Chronic maintenance: lowest effective dose (often 5–10 mg/day). Stress/surgery: increase per adrenal insufficiency protocol.",
+      "administration": "PO with food to reduce gastric intolerance. In prolonged regimens, concentrate morning dose or alternate-day per specialist.",
+      "notes": "Approximate equivalence: 5 mg prednisone ≈ 4 mg methylprednisolone ≈ 0.75 mg dexamethasone."
+    },
+    "pediatrico": {
+      "presentation": "Tablets; compounded oral solution by center.",
+      "dose": "Label guidance (CIMA/Pediamécum): high **2–3 mg/kg/day**; intermediate **~1 mg/kg/day**; maintenance **~0.25 mg/kg/day**. Common anti-inflammatory/immunosuppressive range: **0.05–2 mg/kg/day** in 1–4 doses. Asthma/exacerbation: **1–2 mg/kg/day** × 5–7 days (adult max **60 mg/day**), with taper if the course is prolonged.",
+      "administration": "PO; tablets may be split per order. Prefer morning dosing in prolonged therapy.",
+      "notes": "Titrate by disease (nephrology, rheumatology, hematology have their own schemes). Monitor growth, glycemia, and BP in prolonged use."
+    },
+    "neonatal": {
+      "presentation": "Compounded solution / NICU protocol.",
+      "dose": "No single regimen; neonatal corticosteroids (e.g. BPD) use specific schemes (often dexamethasone/hydrocortisone). Prednisone only under neonatology.",
+      "administration": "Specialist order only.",
+      "notes": "Risk to neurodevelopment and adrenal axis; not an antipyretic/analgesic."
+    }
+  },
+  "stability": "## Stability / storage\n\n- Tablets: room temperature, protected from moisture per label.\n- Compounded solutions: follow institutional pharmacy beyond-use date.",
+  "adverseEffects": "## Adverse effects\n\nInsomnia, increased appetite, fluid retention, hypertension, hyperglycemia, gastritis, mood changes. Prolonged: iatrogenic Cushing, osteoporosis, myopathy, cataracts, immunosuppression, growth delay, adrenal insufficiency on withdrawal.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Prednisone SmPC — pediatric high/intermediate/maintenance mg/kg doses.",
+      "url": "https://cima.aemps.es/cima/pdfs/ft/75649/FT_75649.pdf"
+    },
+    {
+      "citation": "AEP Pediamécum. Prednisone — dosing in children.",
+      "url": "https://www.aeped.es/comites/cm/pediamecum"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (corticosteroids).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ]
+}

@@ -111,6 +111,7 @@ import lin_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import lis_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lis-001.json';
 import lor_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lor-001.json';
 import los_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/los-001.json';
+import lrt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lrt-001.json';
 import ltx_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ltx-001.json';
 import lvt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/lvt-001.json';
 import mag_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/mag-001.json';
@@ -150,6 +151,7 @@ import pnc_001 from '../../../content/branches/atencion-sanitaria/farmacologia/d
 import pol_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pol-001.json';
 import pos_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pos-001.json';
 import ppf_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/ppf-001.json';
+import prd_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/prd-001.json';
 import pro_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/pro-001.json';
 import prp_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/prp-001.json';
 import prt_001 from '../../../content/branches/atencion-sanitaria/farmacologia/drugs/prt-001.json';
@@ -304,6 +306,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'lis-001': lis_001 as Drug,
   'lor-001': lor_001 as Drug,
   'los-001': los_001 as Drug,
+  'lrt-001': lrt_001 as Drug,
   'ltx-001': ltx_001 as Drug,
   'lvt-001': lvt_001 as Drug,
   'mag-001': mag_001 as Drug,
@@ -343,6 +346,7 @@ export const LOCAL_DRUGS: Record<string, Drug> = {
   'pol-001': pol_001 as Drug,
   'pos-001': pos_001 as Drug,
   'ppf-001': ppf_001 as Drug,
+  'prd-001': prd_001 as Drug,
   'pro-001': pro_001 as Drug,
   'prp-001': prp_001 as Drug,
   'prt-001': prt_001 as Drug,

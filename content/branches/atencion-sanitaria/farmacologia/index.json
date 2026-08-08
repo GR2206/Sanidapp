@@ -425,8 +425,8 @@
       "id": "dic-001",
       "name": "Diclofenac",
       "branch": "atencion-sanitaria",
-      "version": "1.0",
-      "updatedAt": "2026-06-30"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "dif-001",
@@ -768,8 +768,8 @@
       "id": "ktr-001",
       "name": "Ketorolac",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "lab-001",
@@ -819,6 +819,13 @@
       "branch": "atencion-sanitaria",
       "version": "1.0",
       "updatedAt": "2026-07-05"
+    },
+    {
+      "id": "lrt-001",
+      "name": "Loratadina",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "lor-001",
@@ -978,8 +985,8 @@
       "id": "ome-001",
       "name": "Omeprazol",
       "branch": "atencion-sanitaria",
-      "version": "1.0.2",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "ond-001",
@@ -1059,6 +1066,13 @@
       "updatedAt": "2026-07-10"
     },
     {
+      "id": "prd-001",
+      "name": "Prednisona",
+      "branch": "atencion-sanitaria",
+      "version": "1.0.0",
+      "updatedAt": "2026-08-07"
+    },
+    {
       "id": "ppf-001",
       "name": "Propafenona",
       "branch": "atencion-sanitaria",
@@ -1097,8 +1111,8 @@
       "id": "ran-001",
       "name": "Ranitidina",
       "branch": "atencion-sanitaria",
-      "version": "1.0.1",
-      "updatedAt": "2026-07-10"
+      "version": "1.1.0",
+      "updatedAt": "2026-08-07"
     },
     {
       "id": "rem-001",

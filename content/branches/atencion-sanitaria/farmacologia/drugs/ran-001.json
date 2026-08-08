@@ -2,43 +2,48 @@
   "id": "ran-001",
   "name": "Ranitidina",
   "branch": "atencion-sanitaria",
-  "version": "1.0.1",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Antagonsta del receptor H2, antiulceroso, prevención de úlcera de stress.",
-  "indications": "## Indicaciones principales\n\nAntagonsta del receptor H2, antiulceroso, prevención de úlcera de stress.\n\n> Ajustar según protocolo institucional y prescripción médica.",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Antagonista H2. Adulto IV 50 mg c/6–8 h (máx. 400 mg/día); pediatría IV 2–4 mg/kg/día. Nota: retirada/restricción en muchos mercados por impurezas NDMA — preferir IBP u otros H2 disponibles según protocolo local.",
+  "indications": "## Indicaciones (históricas / si aún autorizado localmente)\n\n- Úlcera péptica, ERGE, hipersecreción; profilaxis de úlcera de estrés en críticos.\n\n## Alerta regulatoria\n\n- ANMAT/FDA/EMA retiraron o restringieron ranitidina por **NDMA**. Verificar disponibilidad institucional y sustituir por omeprazol/pantoprazol/famotidina según guía local.\n\n> Solo usar si el producto sigue autorizado y disponible en el centro.",
   "dilution": {
+    "adulto": {
+      "presentation": "Ampollas 10 mg/mL (p. ej. 50 mg/5 mL); comprimidos 150–300 mg (si disponibles).",
+      "dose": "IV: **50 mg cada 6–8 h**; máx. **400 mg/día**. VO (si disponible): **150 mg cada 12 h** o **300 mg por la noche** (úlcera/ERGE según ficha histórica).",
+      "administration": "IV: diluir a 0,5–2,5 mg/mL en ClNa 0,9% o Dext. 5%; infundir 15–30 min (evitar bolo rápido por bradicardia).",
+      "notes": "Ajustar en IRC. Precaución en insuficiencia hepática."
+    },
     "pediatrico": {
-      "presentation": "Ampollas de 5 ml: 10 mg/ml",
-      "administration": "E.V.",
-      "diluent": "Sol. Cl Na 0,9%, Dext. 5%.",
-      "finalConcentration": "2,5 mg/mL.",
-      "infusionRate": "15 a 30 min. con BIC.",
-      "dose": "Prematuros y lactantes a término &lt; 2 semanas: E.V.: dosis de carga: 1,5 mg/kg, mantenimiento: 1,5 mg/kg/día c/12 hs. Niños: E.V.: 2-4 mg/kg/día c/6-8 hs. Adultos: E.V.: 50 mg/dosis c/6-8 hs, dosis máxima: 400 mg/día.",
-      "notes": "Para su administración E.V. diluir en Dx 5% o Sol. F. a una concentración de 0,5 mg/ml (máximo: 2,5 mg/ml) e infundir en 15-30 minutos. Precaución en pacientes con insuficiencia hepática."
+      "presentation": "Ampollas 10 mg/mL.",
+      "dose": "Niños IV: **2–4 mg/kg/día** divididos cada 6–8 h. Prematuros y RN < 2 semanas: carga **1,5 mg/kg**, luego **1,5 mg/kg/día** cada 12 h. Adultos: ver sección adulto.",
+      "administration": "IV diluido 0,5–2,5 mg/mL; infusión 15–30 min.",
+      "notes": "Preferir alternativas actuales (IBP) salvo protocolo institucional que mantenga ranitidina."
+    },
+    "neonatal": {
+      "presentation": "Ampolla 10 mg/mL.",
+      "dose": "Prematuros / < 2 semanas: carga IV **1,5 mg/kg**; mantenimiento **1,5 mg/kg/día** cada 12 h. Ajustar por función renal.",
+      "administration": "IV lento/diluido; nunca bolo rápido.",
+      "notes": "Evaluar si el centro aún dispone del fármaco; muchas UCIN migraron a IBP/famotidina."
     }
   },
-  "stability": "## Cartilla pediátrica\n\n- 48 hs a T° ambiente.",
-  "adverseEffects": "## Efectos adversos\n\nMareos, insomnio, agitación, rash cutáneo, constipación, náuseas, diarrea, vómitos, cefalea. Bradicardia en infusión rápida. Raros: Aumento de transaminasas, leucopenia, trombocitopenia, broncoespasmo.",
+  "stability": "## Estabilidad / conservación\n\n- Dilución: estabilidad habitual hasta 48 h a T° ambiente según cartilla (verificar lote/prospecto residual).",
+  "adverseEffects": "## Efectos adversos\n\nCefalea, mareos, insomnio/agitación, erupción, estreñimiento/diarrea, náuseas. Bradicardia con infusión rápida. Raros: ↑ transaminasas, leucopenia, trombocitopenia, broncoespasmo.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional — Ranitidina Clorhidrato (cód. 0175, ATC A02BA).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario — Ranitidina (cód. 0175, ATC A02BA).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Cartilla institucional de dilución y administración pediátrica. Junio 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "ANMAT / FDA. Retiro y alertas por impurezas NDMA en ranitidina.",
+      "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
-      "url": "https://www.argentina.gob.ar/anmat"
+      "citation": "AEMPS. Información sobre medicamentos con ranitidina y alternativas.",
+      "url": "https://www.aemps.gob.es/"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedad Argentina de Infectología (SADI). Guías y consensos.",
-      "url": "https://www.sadi.org.ar/"
     }
   ]
 }

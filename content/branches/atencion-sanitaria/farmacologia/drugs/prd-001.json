@@ -1,0 +1,49 @@
+{
+  "id": "prd-001",
+  "name": "Prednisona",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-07",
+  "executiveSummary": "Corticosteroide oral de acción intermedia. Adulto típico 5–60 mg/día según indicación; pediatría antiinflamatoria/inmunosupresora habitual 0,5–2 mg/kg/día (altas 2–3 mg/kg/día; mantenimiento ~0,25 mg/kg/día) con descenso gradual.",
+  "indications": "## Indicaciones\n\n- Enfermedades inflamatorias, alérgicas, autoinmunes y hematológicas que requieren corticoterapia sistémica.\n- Asma/exacerbaciones (cursos cortos), síndrome nefrótico, rechazo de trasplante (esquemas específicos).\n- Sustitución / estrés en insuficiencia suprarrenal (dosis fisiológicas distintas).\n\n## Precauciones\n\n- Infecciones activas no controladas; precaución en diabetes, HTA, osteoporosis, psicosis, úlcera péptica.\n- Tratamientos prolongados: riesgo de supresión eje HHA — **no suspender en forma abrupta**.\n- En niños en crecimiento preferir esquemas alternantes/intermitentes cuando sea posible.\n\n> La dosis es altamente indicación-dependiente; siempre seguir protocolo de la enfermedad.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Comprimidos 2,5–5–10–20–40–50 mg según marca.",
+      "dose": "Antiinflamatorio/inmunosupresor: habitual **5–60 mg/día VO** en 1–4 tomas (preferible por la mañana). Cursos cortos (p. ej. asma): a menudo **40–60 mg/día** × 5–7 días. Mantenimiento crónico: la mínima eficaz (frecuente 5–10 mg/día). Estrés/cirugía: incrementar según protocolo de insuficiencia suprarrenal.",
+      "administration": "VO con alimentos para menor intolerancia gástrica. En pautas prolongadas, concentrar dosis matutina o día alterno según especialista.",
+      "notes": "Equivalencia aproximada: 5 mg prednisona ≈ 4 mg metilprednisolona ≈ 0,75 mg dexametasona."
+    },
+    "pediatrico": {
+      "presentation": "Comprimidos; solución oral magistral según centro.",
+      "dose": "Orientación por ficha (CIMA/Pediamécum): dosis altas **2–3 mg/kg/día**; intermedias **~1 mg/kg/día**; mantenimiento **~0,25 mg/kg/día**. Rango antiinflamatorio/inmunosupresor frecuente: **0,05–2 mg/kg/día** en 1–4 tomas. Asma/exacerbación: **1–2 mg/kg/día** × 5–7 días (máx. adulto **60 mg/día**), con descenso si el curso se prolonga.",
+      "administration": "VO; puede fraccionarse comprimidos según indicación. Preferir toma matutina en tratamientos prolongados.",
+      "notes": "Titular según enfermedad (nefrología, reumatología, hematología tienen esquemas propios). Monitorizar crecimiento, glucemia y PA en uso prolongado."
+    },
+    "neonatal": {
+      "presentation": "Solución magistral / protocolo de UCIN.",
+      "dose": "No hay pauta única; corticoides neonatales (p. ej. displasia broncopulmonar) usan esquemas específicos (a menudo dexametasona/hidrocortisona). Prednisona solo bajo neonatología.",
+      "administration": "Solo orden especializada.",
+      "notes": "Riesgo de efectos sobre neurodesarrollo y eje adrenal; no usar como antipirético/analgésico."
+    }
+  },
+  "stability": "## Estabilidad / conservación\n\n- Comprimidos: T° ambiente, protegidos de humedad según prospecto.\n- Soluciones magistrales: seguir fecha de validez del laboratorio institucional.",
+  "adverseEffects": "## Efectos adversos\n\nInsomnio, aumento de apetito, retención hídrica, HTA, hiperglucemia, gastritis, cambios de humor. Prolongados: Cushing iatrogénico, osteoporosis, miopatía, cataratas, inmunosupresión, retraso de crecimiento, insuficiencia suprarrenal al retirar.",
+  "bibliography": [
+    {
+      "citation": "AEMPS CIMA. Ficha técnica prednisona — dosis pediátricas altas/intermedias/mantenimiento (mg/kg).",
+      "url": "https://cima.aemps.es/cima/pdfs/ft/75649/FT_75649.pdf"
+    },
+    {
+      "citation": "AEP Pediamécum. Prednisona — dosificación en niños.",
+      "url": "https://www.aeped.es/comites/cm/pediamecum"
+    },
+    {
+      "citation": "ANMAT. Información de medicamentos y prospectos autorizados en Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulario Farmacéutico Institucional (corticoides).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ]
+}

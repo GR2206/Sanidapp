@@ -112,6 +112,7 @@ import lin_001_en from '../../../content/locales/en/farmacologia/drugs/lin-001.j
 import lis_001_en from '../../../content/locales/en/farmacologia/drugs/lis-001.json';
 import lor_001_en from '../../../content/locales/en/farmacologia/drugs/lor-001.json';
 import los_001_en from '../../../content/locales/en/farmacologia/drugs/los-001.json';
+import lrt_001_en from '../../../content/locales/en/farmacologia/drugs/lrt-001.json';
 import ltx_001_en from '../../../content/locales/en/farmacologia/drugs/ltx-001.json';
 import lvt_001_en from '../../../content/locales/en/farmacologia/drugs/lvt-001.json';
 import mag_001_en from '../../../content/locales/en/farmacologia/drugs/mag-001.json';
@@ -151,6 +152,7 @@ import pnc_001_en from '../../../content/locales/en/farmacologia/drugs/pnc-001.j
 import pol_001_en from '../../../content/locales/en/farmacologia/drugs/pol-001.json';
 import pos_001_en from '../../../content/locales/en/farmacologia/drugs/pos-001.json';
 import ppf_001_en from '../../../content/locales/en/farmacologia/drugs/ppf-001.json';
+import prd_001_en from '../../../content/locales/en/farmacologia/drugs/prd-001.json';
 import pro_001_en from '../../../content/locales/en/farmacologia/drugs/pro-001.json';
 import prp_001_en from '../../../content/locales/en/farmacologia/drugs/prp-001.json';
 import prt_001_en from '../../../content/locales/en/farmacologia/drugs/prt-001.json';
@@ -299,6 +301,7 @@ import lin_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lin-
 import lis_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lis-001.json';
 import lor_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lor-001.json';
 import los_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/los-001.json';
+import lrt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lrt-001.json';
 import ltx_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ltx-001.json';
 import lvt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/lvt-001.json';
 import mag_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/mag-001.json';
@@ -338,6 +341,7 @@ import pnc_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pnc-
 import pol_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pol-001.json';
 import pos_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pos-001.json';
 import ppf_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/ppf-001.json';
+import prd_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/prd-001.json';
 import pro_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/pro-001.json';
 import prp_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/prp-001.json';
 import prt_001_ptBR from '../../../content/locales/pt-BR/farmacologia/drugs/prt-001.json';
@@ -490,6 +494,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'lis-001': lis_001_en as Drug,
     'lor-001': lor_001_en as Drug,
     'los-001': los_001_en as Drug,
+    'lrt-001': lrt_001_en as Drug,
     'ltx-001': ltx_001_en as Drug,
     'lvt-001': lvt_001_en as Drug,
     'mag-001': mag_001_en as Drug,
@@ -529,6 +534,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'pol-001': pol_001_en as Drug,
     'pos-001': pos_001_en as Drug,
     'ppf-001': ppf_001_en as Drug,
+    'prd-001': prd_001_en as Drug,
     'pro-001': pro_001_en as Drug,
     'prp-001': prp_001_en as Drug,
     'prt-001': prt_001_en as Drug,
@@ -679,6 +685,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'lis-001': lis_001_ptBR as Drug,
     'lor-001': lor_001_ptBR as Drug,
     'los-001': los_001_ptBR as Drug,
+    'lrt-001': lrt_001_ptBR as Drug,
     'ltx-001': ltx_001_ptBR as Drug,
     'lvt-001': lvt_001_ptBR as Drug,
     'mag-001': mag_001_ptBR as Drug,
@@ -718,6 +725,7 @@ export const LOCAL_DRUG_LOCALES: Record<string, Record<string, Drug>> = {
     'pol-001': pol_001_ptBR as Drug,
     'pos-001': pos_001_ptBR as Drug,
     'ppf-001': ppf_001_ptBR as Drug,
+    'prd-001': prd_001_ptBR as Drug,
     'pro-001': pro_001_ptBR as Drug,
     'prp-001': prp_001_ptBR as Drug,
     'prt-001': prt_001_ptBR as Drug,

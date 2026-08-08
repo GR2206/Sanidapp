@@ -1,0 +1,50 @@
+{
+  "id": "lrt-001",
+  "name": "Loratadine",
+  "branch": "atencion-sanitaria",
+  "version": "1.0.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Second-generation H1 antihistamine with little sedation. Adults and > 12 years or > 30 kg: 10 mg PO/day; children 2–12 years ≤ 30 kg: 5 mg PO/day. Not routine under 2 years.",
+  "indications": "## Indications\n\n- Allergic rhinoconjunctivitis (seasonal or perennial).\n- Chronic idiopathic urticaria / symptomatic relief of associated pruritus.\n\n## Precautions\n\n- Severe hepatic impairment: start on **alternate days** (same dose per intake).\n- Not routinely recommended under 2 years (off-label / not established per label).\n- Little sedation at usual doses; caution when combined with other CNS depressants or alcohol.\n\n> Choose syrup or tablet by weight; the 10 mg tablet is not suitable if ≤ 30 kg.",
+  "dilution": {
+    "adulto": {
+      "presentation": "Tablets 10 mg; syrup 1 mg/mL.",
+      "dose": "**10 mg PO once daily**. Severe hepatic impairment: **10 mg on alternate days**.",
+      "administration": "PO with or without food, with water.",
+      "notes": "Do not exceed the recommended daily dose; no extra benefit and more adverse effects."
+    },
+    "pediatrico": {
+      "presentation": "Syrup 1 mg/mL; tablets 10 mg (≥ 30 kg / ≥ 6–12 years per label).",
+      "dose": "Ages 2–12 and weight **≤ 30 kg**: **5 mg PO once daily** (5 mL of 1 mg/mL syrup). Weight **> 30 kg** or > 12 years: **10 mg PO once daily**. Severe hepatic impairment: same dose on alternate days.",
+      "administration": "PO. Use the syrup syringe/doser. 10 mg tablet only if weight > 30 kg.",
+      "notes": "Under 2 years: not recommended unless exceptional product-specific medical indication. Check local label minimum age (some tablet labels state ≥ 6 years)."
+    },
+    "neonatal": {
+      "presentation": "Not indicated.",
+      "dose": "Do not use in neonates or young infants.",
+      "administration": "—",
+      "notes": "Safety and efficacy not established."
+    }
+  },
+  "stability": "## Stability / storage\n\n- Syrup/tablets: room temperature per label; bottle tightly closed.",
+  "adverseEffects": "## Adverse effects\n\nHeadache, fatigue, dry mouth, nervousness (children); rare sedation at usual doses. Infrequent hypersensitivity reactions.",
+  "bibliography": [
+    {
+      "citation": "AEP Pediamécum. Loratadine — weight-based dosing (5 mg if ≤ 30 kg; 10 mg if > 30 kg).",
+      "url": "https://www.aeped.es/comites/cm/pediamecum/principios-activos/loratadina"
+    },
+    {
+      "citation": "AEMPS CIMA. Loratadine 10 mg package leaflet — adults and children > 30 kg.",
+      "url": "https://cima.aemps.es/cima/dochtml/p/63946/Prospecto_63946.html"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
+      "url": "https://www.argentina.gob.ar/anmat"
+    },
+    {
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (antihistamines).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
+    }
+  ]
+}

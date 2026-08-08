@@ -2,40 +2,49 @@
   "id": "dic-001",
   "name": "Diclofenac",
   "branch": "atencion-sanitaria",
-  "version": "1.0",
-  "updatedAt": "2026-06-30",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
   "translationReviewed": true,
-  "executiveSummary": "Non-narcotic NSAID with analgesic, antipyretic, and anti-inflammatory action; IV use according to institutional prescription.",
-  "indications": "## Indications\n\n- Moderate to severe acute pain.\n- Inflammation in selected contexts.\n\n## Precautions\n\n- Risk of gastrointestinal and renal effects. Restricted use in pediatrics according to protocol.\n\n> Adjust per institutional protocol and medical prescription.",
+  "executiveSummary": "Phenylacetic NSAID with analgesic, antipyretic, and anti-inflammatory effects. Usual adult dose 75–150 mg/day; pediatric oral 0.5–2 mg/kg/day (up to 3 mg/kg/day in JIA) per label.",
+  "indications": "## Indications\n\n- Acute musculoskeletal pain and inflammation (postoperative, traumatic, rheumatologic).\n- Dysmenorrhea and colic.\n- Juvenile idiopathic / rheumatoid arthritis under specialist care.\n\n## Precautions and contraindications\n\n- Avoid in active peptic ulcer, GI bleeding, severe renal/hepatic failure, decompensated heart failure, third trimester of pregnancy, and NSAID/ASA allergy.\n- Use the lowest effective dose for the shortest time.\n- IM/IV not routinely recommended in children (limited pediatric safety/efficacy on many labels); prefer oral/rectal when authorized.\n\n> Calculate pediatrics by **weight**. Confirm salt (sodium/potassium) and strength before dosing.",
   "dilution": {
+    "adulto": {
+      "presentation": "Tablets 25–50–75 mg (immediate or modified release); ampoules 75 mg/3 mL; topical gel by brand.",
+      "dose": "Pain/inflammation PO: **75–150 mg/day** in 2–3 doses (e.g. 50 mg every 8–12 h). Dysmenorrhea: start 50–100 mg, then 50 mg every 8 h; usual max **150 mg/day** (some labels allow 200 mg on day 1 only). IV/IM: 75 mg every 12 h; max 150 mg/day; short course (usually ≤ 2 days IV/IM).",
+      "administration": "PO with food if gastric intolerance. IV: dilute per label and infuse slowly (e.g. 30 min–2 h). Deep IM.",
+      "notes": "Do not combine with other NSAIDs. GI, renal, and CV risk; check anticoagulants, antiplatelets, lithium, methotrexate, and ACEI/ARB."
+    },
     "pediatrico": {
-      "presentation": "Ampoule 75 mg/3 mL.",
-      "administration": "IV or IM.",
-      "diluent": "0.9% NaCl solution, 5% Dextrose.",
-      "finalConcentration": "1 mg/mL.",
-      "infusionRate": "From 30 min to 2 h via syringe pump.",
-      "dose": "150 mg/day.",
-      "notes": "Analgesic, antipyretic, non-steroidal anti-inflammatory drug (NSAID), non-narcotic. May cause dizziness, headache, rash, abdominal pain, diarrhea."
+      "presentation": "Oral suspension (e.g. 1.8–2 mg/mL diclofenac); tablets; ampoules 75 mg/3 mL (restricted use).",
+      "dose": "PO ≥ 1 year: **0.5–2 mg/kg/day** in 2–3 doses. JIA: up to **3 mg/kg/day** in divided doses under specialist care. **Daily maximum: 150 mg/day**. > 12–14 years: near-adult regimens (e.g. 50 mg every 8–12 h), usually not exceeding 150 mg/day. IV/IM: not routine < 14–18 years; if used under protocol, adult ceiling 150 mg/day and shortest duration.",
+      "administration": "Prefer PO. IV: dilute to ~1 mg/mL in 0.9% NaCl or 5% dextrose; infuse 30 min–2 h with pump. Deep IM only if indicated.",
+      "notes": "Many EU labels discourage adult-strength tablets/suppositories under 14 years. Check local product minimum age (ANMAT)."
+    },
+    "neonatal": {
+      "presentation": "No routine oral/IV diclofenac regimen for neonatal fever/pain.",
+      "dose": "Do not use in neonates unless exceptional indication and explicit institutional protocol.",
+      "administration": "Specialist order only.",
+      "notes": "Disproportionate renal and GI risk; not part of standard neonatal antipyretic care."
     }
   },
-  "stability": "## Pediatric chart\n\n- Discard remainder once opened.",
-  "adverseEffects": "## Effects\n\n- Dizziness, headache, rash, abdominal pain, diarrhea, elevated transaminases.",
+  "stability": "## Stability / storage\n\n- Opened ampoule: discard remainder; do not save for later doses.\n- Suspension: shake; store per label.",
+  "adverseEffects": "## Adverse effects\n\nDyspepsia, abdominal pain, nausea, diarrhea; dizziness, headache, rash; elevated transaminases. Serious: peptic ulcer/GI bleeding, AKI, thrombotic CV events, hypersensitivity/bronchospasm.",
   "bibliography": [
     {
-      "citation": "Institutional pediatric dilution and administration guide. June 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS / Pediamécum. Diclofenac — PO 0.5–3 mg/kg/day (max 150 mg/day) in children 1–12 years.",
+      "url": "https://www.aeped.es/comites/cm/pediamecum"
     },
     {
-      "citation": "ANMAT. Drug information and authorized prescribing information in Argentina.",
+      "citation": "AEMPS CIMA. Diclofenac SmPC (adult 75–150 mg/day; pediatric population).",
+      "url": "https://cima.aemps.es/cima/pdfs/es/ft/57592/57592_ft.pdf"
+    },
+    {
+      "citation": "ANMAT. Authorized medicinal product information in Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
-      "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
-      "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Argentine Society of Infectious Diseases (SADI). Guidelines and consensus statements.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Institutional Pharmaceutical Formulary (NSAIDs).",
+      "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     }
   ]
 }

@@ -1,47 +1,50 @@
 {
   "id": "ome-001",
   "name": "Omeprazol",
-  "version": "1.0.2",
-  "updatedAt": "2026-07-10",
-  "executiveSummary": "Hemorragia digestiva grave. Úlcera gastroduodenal. Refluxo gastroesofágico. Condições hipersecretoras. Inibidor da bomba de prótons.",
-  "indications": "## Indicações principais\n\nHemorragia digestiva grave. Úlcera gastroduodenal. Refluxo gastroesofágico. Condições hipersecretoras. Inibidor da bomba de prótons.\n\n> Ajustar conforme protocolo institucional e prescrição médica.",
+  "branch": "atencion-sanitaria",
+  "version": "1.1.0",
+  "updatedAt": "2026-08-07",
+  "translationReviewed": true,
+  "executiveSummary": "Inibidor da bomba de prótons. Adulto VO/IV habitual 20–40 mg/dia; pediatria VO 0,5–1 mg/kg/dia (máx. frequente 20 mg/dia em esofagite/DRGE) conforme indicação.",
+  "indications": "## Indicações\n\n- Doença do refluxo gastroesofágico (DRGE) e esofagite.\n- Úlcera gastroduodenal; erradicação de *H. pylori* em esquemas combinados.\n- Prevenção/tratamento de gastropatia por AINE; hemorragia digestiva alta (fase IV hospitalar).\n- Condições hipersecretoras / Zollinger-Ellison (doses altas).\n\n## Precauções\n\n- Interações: atazanavir (contraindicado), ferro, itraconazol/cetoconazol/voriconazol, digoxina, clopidogrel (discutido), rifampicina, fenitoína, carbamazepina, diazepam.\n- Uso prolongado: hipomagnesemia, risco de infecções GI, fraturas (contexto crônico).\n\n> Preferir VO assim que houver tolerância; IV é ponte hospitalar.",
   "dilution": {
+    "adulto": {
+      "presentation": "Cápsulas/comprimidos 10–20–40 mg; FA IV 40 mg.",
+      "dose": "DRGE/úlcera: **20 mg VO a cada 24 h** (até 40 mg/dia conforme gravidade). Hipersecreção/Zollinger-Ellison: iniciar **60 mg/dia** (titular; pode fracionar a cada 8–12 h). IV: **40 mg a cada 24 h** (na HDA frequentemente 40 mg a cada 8–12 h nos primeiros dias conforme protocolo, depois espaçar).",
+      "administration": "VO em jejum preferencial; não mastigar grânulos. IV: reconstituir só com o solvente do fabricante; para infusão diluir a ~0,4 mg/mL e infundir 20–30 min.",
+      "notes": "Injetável reconstituído: estabilidade limitada (p. ex. 4 h). Com NaCl 0,9% diluído ~12 h; com Dext. 5% ~6 h (verificar bula)."
+    },
     "pediatrico": {
-      "presentation": "Cápsulas/comprimidos: 10–20–40 mg; Comprimidos 'mups': 10–20 mg; F.A.: 40 mg (reconstituir somente com o solvente que acompanha o F.A.); Suspensão V.O.: Frasco com pó para reconstituir em 70 ml: 2 mg/ml, contém adicionalmente 168 mg de bicarbonato de sódio/ml.",
-      "reconstitution": "Reconstituir somente com o solvente fornecido pelo fabricante.",
-      "administration": "V.O.; E.V.",
-      "diluent": "Sol. Cl Na 0,9% ou Dext. 5% para diluição.",
-      "finalConcentration": "0,4 mg/mL.",
-      "infusionRate": "Entre 20 e 30 minutos com BIC.",
-      "dose": "V.O.: Esofagite: Crianças: 0,5 mg/kg/dose, a cada 24 h, dose máxima: 20 mg/dia; Adultos: 20 mg/dose, a cada 24 h. Úlcera duodenal: Crianças: 1 mg/kg/dia; a cada 12 h, dose máxima 20 mg/dia; Adultos: 20 mg/dose, a cada 24 h. Refluxo gastroesofágico: Crianças > 1 mês: 0,5–1 mg/kg/dose, a cada 24 h, dose máxima: 20 mg/dia, Adultos: 20 mg/dose, a cada 24 h. Condições hipersecretoras: 60 mg/dia. Síndrome de Zollinger-Ellison: 60 mg/dose a cada 8 h, seguido de uma terapia de manutenção V.O. de 90 mg/dose a cada 12 h e depois a cada 24 h. E.V.: Crianças de 1 mês–12 anos: 0,5–2 mg/kg/dose, a cada 24 h. > 12 anos: 40 mg/dose, a cada 24 h. Passar para a via oral tão rápido quanto o paciente tiver tolerância. Hemorragias digestivas administrar a cada 8 h, de 3 a 5 dias conforme evolução e depois a cada 12–24 h.",
-      "compatibility": "Não administrar concomitantemente com rifampicina, fenitoína e carbamazepina.",
-      "notes": "O injetável uma vez reconstituído com o solvente do fabricante dura 4 h, infundir lentamente, sem diluir (velocidade máxima: 4 ml/min). Para infusão E.V.: reconstituir o pó com 10 ml de sol. fisiol. (estabilidade 12 h), tomar a dose indicada e diluir com o mesmo solvente a uma concentração de 0,4 mg/ml; administrar em 30 min. Idem com Dext. 5% (estabilidade 6 h). Cápsula: não mastigar nem esmagar os grânulos, pode-se abrir a cápsula e administrar o conteúdo com iogurte ou suco de laranja. Comprimido 'mups': engolir inteiro com meio copo de líquido e não deve ser pulverizado nem mastigado, também pode ser desintegrado em meio copo de água sem gás ou suco de frutas (agita-se até que o comprimido se desintegre e bebe-se o líquido com os pellets imediatamente ou dentro de 30 minutos). Para administrar por S.N.G. dissolver a cápsula de 20 mg em 10 ml de bicarbonato de sódio ou dissolver a apresentação comprimidos mups em água. O omeprazol pode retardar a excreção de: diazepam, difenilhidantoína. Diminui a concentração de ferro. Altera a concentração de ciclosporina, itraconazol, cetoconazol, voriconazol, claritromicina, digoxina. Contraindicado com atazanavir. Ver alerta"
+      "presentation": "Cápsulas/comprimidos 10–20–40 mg; MUPS 10–20 mg; FA 40 mg; suspensão VO (p. ex. 2 mg/mL com bicarbonato conforme marca).",
+      "dose": "VO esofagite: **0,5 mg/kg/dose a cada 24 h** (máx. **20 mg/dia**). Úlcera duodenal: **1 mg/kg/dia** a cada 12 h (máx. 20 mg/dia). DRGE ≥ 1 mês: **0,5–1 mg/kg/dose a cada 24 h** (máx. 20 mg/dia). IV 1 mês–12 anos: **0,5–2 mg/kg/dose a cada 24 h**; > 12 anos: **40 mg a cada 24 h**. HDA: a cada 8 h × 3–5 dias conforme evolução, depois a cada 12–24 h.",
+      "administration": "VO; cápsula pode ser aberta e misturar grânulos com iogurte/suco (não mastigar). SNG: técnicas com bicarbonato/MUPS conforme protocolo. IV como no adulto.",
+      "notes": "Passar para VO assim que houver tolerância oral."
+    },
+    "neonatal": {
+      "presentation": "Suspensão/magistral ou IV conforme o centro.",
+      "dose": "DRGE sintomática sob neonatologia: frequentemente **0,5–1 mg/kg/dia VO** (faixa IV semelhante 0,5–1 mg/kg/dia); confirmar protocolo local — uso off-label em muitos contextos.",
+      "administration": "Somente ordem de neonatologia.",
+      "notes": "Avaliar diagnóstico diferencial de vômitos; não rotineiro na regurgitação fisiológica."
     }
   },
-  "stability": "## Guia pediátrica\n\n- 4 horas em temperatura ambiente.",
-  "adverseEffects": "## Efeitos adversos\n\nDiarreia, náuseas, constipação, dor abdominal, vômitos, cefaleia, tontura. Nefrite intersticial.",
+  "stability": "## Estabilidade / conservação\n\n- IV reconstituído: usar dentro do prazo do fabricante (habitualmente horas à T° ambiente).\n- Suspensão reconstituída: conforme data de abertura da bula.",
+  "adverseEffects": "## Efeitos adversos\n\nCefaleia, diarreia, náuseas, constipação, dor abdominal, vômitos, tontura. Raro: nefrite intersticial, reações de hipersensibilidade.",
   "bibliography": [
     {
-      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário Farmacêutico Institucional — Omeprazol (cód. 0714, ATC A02BC).",
+      "citation": "Hospital de Pediatría SAMIC Prof. Dr. Juan P. Garrahan. Formulário — Omeprazol (cód. 0714, ATC A02BC).",
       "url": "https://farmacia.garrahan.gov.ar/Vademecum/Busqueda"
     },
     {
-      "citation": "Guia institucional de diluição e administração pediátrica. Junho de 2026.",
-      "url": "https://www.sadi.org.ar/"
+      "citation": "AEMPS CIMA. Fichas técnicas omeprazol VO/IV — posologia adulta e pediátrica.",
+      "url": "https://cima.aemps.es/cima/"
     },
     {
-      "citation": "ANMAT. Informações de medicamentos e bulas autorizadas na Argentina.",
+      "citation": "ANMAT. Informações de medicamentos autorizados na Argentina.",
       "url": "https://www.argentina.gob.ar/anmat"
     },
     {
       "citation": "American Academy of Pediatrics. Medication guidance in critical care.",
       "url": "https://www.aap.org/"
-    },
-    {
-      "citation": "Sociedade Argentina de Infectologia (SADI). Diretrizes e consensos.",
-      "url": "https://www.sadi.org.ar/"
     }
-  ],
-  "branch": "atencion-sanitaria",
-  "translationReviewed": true
+  ]
 }
