@@ -24,6 +24,15 @@ export const extPtBR = {
     updatedOn: 'Atualizado: {{date}}',
     scanQr: 'Escanear código QR do protocolo',
   },
+  appUpdate: {
+    title: 'Nova versão disponível',
+    body: 'Atualize o Sanidapp para a versão {{version}} e tenha melhorias e conteúdo clínico atualizado.',
+    versionLine: 'Sua versão: {{current}} · Nova: {{latest}}',
+    update: 'Atualizar',
+    opening: 'Abrindo a loja…',
+    openPlayStore: 'Abrirá a Google Play',
+    openAppStore: 'Abrirá a App Store',
+  },
   appearance: {
     modes: {
       light: 'Claro',

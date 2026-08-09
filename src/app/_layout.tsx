@@ -34,6 +34,7 @@ import { useEffect, type ReactNode } from 'react';
 import { Platform } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { AppUpdateModal } from '@/components/appUpdate/AppUpdateModal';
 import { AuthProvider, useAuth } from '@/contexts/AuthContext';
 import { AppearanceProvider, useAppearance } from '@/contexts/AppearanceContext';
 import { LocaleProvider, useLocale } from '@/contexts/LocaleContext';
@@ -184,6 +185,7 @@ function RootWithAppearance() {
             <ForoPushWrapper>
               <ThemedStack />
             </ForoPushWrapper>
+            <AppUpdateModal />
           </ForoUnreadProvider>
         </ThemedChrome>
       </SanatorioThemeProvider>

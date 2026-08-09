@@ -8,6 +8,21 @@ export const APP_CONFIG = {
    * El QR del menú y el sheet de compartir usan esta URL.
    */
   shareDownloadUrl: 'https://play.google.com/store/apps/details?id=com.gr2206.sanidapp',
+  /**
+   * Tiendas para el cartel «Actualizar».
+   * Al publicar una build nueva: subir `content/app-update.json` con `latestVersion`
+   * igual a la versión de `app.json` (cuando ya esté en las stores).
+   */
+  stores: {
+    android: 'https://play.google.com/store/apps/details?id=com.gr2206.sanidapp',
+    /** Completar con la URL definitiva cuando exista listing de App Store. */
+    ios: '',
+    iosBundleId: 'com.gr2206.sanidapp',
+  },
+  appUpdate: {
+    /** Ruta bajo `content/` en GitHub (raw). */
+    remotePath: 'app-update.json',
+  },
   github: {
     owner: 'GR2206',
     repo: 'Sanidapp',

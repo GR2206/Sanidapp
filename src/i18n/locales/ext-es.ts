@@ -24,6 +24,15 @@ export const extEs = {
     updatedOn: 'Actualizado: {{date}}',
     scanQr: 'Escanear código QR de protocolo',
   },
+  appUpdate: {
+    title: 'Nueva versión disponible',
+    body: 'Actualizá Sanidapp a la versión {{version}} para obtener mejoras y contenido clínico al día.',
+    versionLine: 'Tu versión: {{current}} · Nueva: {{latest}}',
+    update: 'Actualizar',
+    opening: 'Abriendo tienda…',
+    openPlayStore: 'Se abrirá Google Play',
+    openAppStore: 'Se abrirá el App Store',
+  },
   appearance: {
     modes: {
       light: 'Claro',
