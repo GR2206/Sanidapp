@@ -86,6 +86,8 @@ export async function markMeetingInviteAccepted(uid: string, inviteId: string): 
   if (!db) return;
   await updateDoc(doc(db, ...FIRESTORE_PATHS.meetingInvite(uid, inviteId)), {
     status: 'accepted',
+    updatedAt: new Date().toISOString(),
+    respondedAt: new Date().toISOString(),
   });
 }
 

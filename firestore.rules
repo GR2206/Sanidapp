@@ -1,134 +1,77 @@
 rules_version = '2';
 
 service cloud.firestore {
-
   match /databases/{database}/documents {
 
-
-
     function isSignedIn() {
-
       return request.auth != null;
-
     }
-
-
 
     function isAdmin() {
-
       return isSignedIn() && (
-
         (exists(/databases/$(database)/documents/apps/sanidapp/config/admins)
-
           && request.auth.uid in get(/databases/$(database)/documents/apps/sanidapp/config/admins).data.uids)
-
         || (hasUserProfile() && userProfile().role == 'admin')
-
       );
-
     }
-
-
 
     function isSelf(uid) {
-
       return isSignedIn() && request.auth.uid == uid;
-
     }
-
-
 
     function userProfilePath() {
-
       return /databases/$(database)/documents/apps/sanidapp/usuarios/$(request.auth.uid);
-
     }
-
-
 
     function hasUserProfile() {
-
       return isSignedIn() && exists(userProfilePath());
-
     }
-
-
 
     function userProfile() {
-
       return get(userProfilePath()).data;
-
     }
-
-
 
     function belongsToSanatorio(sanatorioId) {
-
       return hasUserProfile() && userProfile().sanatorioId == sanatorioId;
-
     }
-
-
 
     function isSupervisorOf(sanatorioId) {
-
       return hasUserProfile()
-
         && userProfile().role == 'supervisor'
-
         && userProfile().sanatorioId == sanatorioId;
-
     }
-
-
 
     function foroPostTargetUid(data) {
-
       return data.keys().hasAny(['targetUid'])
-
         && data.targetUid is string
-
         && data.targetUid.size() > 0
-
         ? data.targetUid
-
         : null;
-
     }
-
-
 
     function canReadForoPost(sanatorioId, data) {
-
       return isAdmin()
-
         || (belongsToSanatorio(sanatorioId) && (
-
           foroPostTargetUid(data) == null
-
           || foroPostTargetUid(data) == request.auth.uid
-
           || data.authorUid == request.auth.uid
-
         ));
-
     }
-
-
 
     function roleUnchanged() {
-
       return !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role']);
-
     }
 
-
-
+    /** Campos de entitlement / privilegio: solo Cloud Functions o admin. */
     function premiumFieldsUnchanged() {
-
       return !request.resource.data.diff(resource.data).affectedKeys()
-        .hasAny(['accessTier', 'premiumSource', 'premiumGrantedAt', 'institutionToken', 'canPublishFeeds']);
-
+        .hasAny([
+          'accessTier',
+          'premiumSource',
+          'premiumGrantedAt',
+          'institutionToken',
+          'canPublishFeeds',
+        ]);
     }
 
     function canPublishGlobalFeeds() {
@@ -138,46 +81,60 @@ service cloud.firestore {
     }
 
     function sanatorioLinkUnchanged() {
-
       return !request.resource.data.diff(resource.data).affectedKeys()
         .hasAny(['sanatorioId', 'sanatorioName']);
-
     }
-
-
 
     function clientCreatableRole() {
-
       return request.resource.data.role == 'user';
-
     }
-
-
 
     function clientCreatableTier() {
-
       return request.resource.data.accessTier == 'free';
-
     }
 
+    /** Alta de perfil: sin privilegios de publicación ni premium. */
+    function clientSafeNewProfile() {
+      return clientCreatableRole()
+        && clientCreatableTier()
+        && (
+          !request.resource.data.keys().hasAny(['canPublishFeeds'])
+          || request.resource.data.canPublishFeeds == false
+        )
+        && (
+          !request.resource.data.keys().hasAny(['premiumSource'])
+          || request.resource.data.premiumSource == ''
+          || request.resource.data.premiumSource == null
+        )
+        && (
+          !request.resource.data.keys().hasAny(['premiumGrantedAt'])
+          || request.resource.data.premiumGrantedAt == ''
+          || request.resource.data.premiumGrantedAt == null
+        )
+        && (
+          !request.resource.data.keys().hasAny(['institutionToken'])
+          || request.resource.data.institutionToken == ''
+          || request.resource.data.institutionToken == null
+        );
+    }
 
+    function isSafeDocId(value) {
+      return value is string
+        && value.size() > 0
+        && value.size() < 128
+        && value.matches('^[A-Za-z0-9_-]+$');
+    }
 
     match /apps/sanidapp/sanatorios/{sanatorioId} {
-
       allow read: if isSignedIn();
-
       allow write: if isAdmin();
 
-
-
       match /usuarios/{uid} {
-
         allow read: if isSelf(uid) || isAdmin() || isSupervisorOf(sanatorioId);
 
-        // Alta: sin privilegiar role/premium desde el cliente; sin colarse en otro sanatorio.
         allow create: if isSelf(uid)
-          && clientCreatableRole()
-          && clientCreatableTier()
+          && isSafeDocId(sanatorioId)
+          && clientSafeNewProfile()
           && request.resource.data.sanatorioId == sanatorioId
           && request.resource.data.uid == request.auth.uid;
 
@@ -190,75 +147,47 @@ service cloud.firestore {
             && request.resource.data.sanatorioId == sanatorioId);
 
         allow delete: if isAdmin();
-
       }
 
-
-
       match /foroPosts/{postId} {
-
         allow read: if canReadForoPost(sanatorioId, resource.data);
 
         allow create: if (isSupervisorOf(sanatorioId) || isAdmin())
-
           && request.resource.data.sanatorioId == sanatorioId
-
           && request.resource.data.authorUid == request.auth.uid
-
           && request.resource.data.title is string
-
           && request.resource.data.body is string
-
           && request.resource.data.type in ['notificacion', 'evento', 'planificacion', 'directa']
-
           && (
-
             request.resource.data.type != 'directa'
-
             || (
-
               request.resource.data.targetUid is string
-
               && request.resource.data.targetUid.size() > 0
-
               && request.resource.data.targetName is string
-
               && request.resource.data.targetName.size() > 0
-
             )
-
           );
 
         allow update: if (isSupervisorOf(sanatorioId) || isAdmin())
-
           && request.resource.data.sanatorioId == resource.data.sanatorioId
-
           && request.resource.data.authorUid == resource.data.authorUid;
 
         allow delete: if isSupervisorOf(sanatorioId) || isAdmin();
-
       }
 
-
-
       match /pushTokens/{uid} {
-
         allow read: if isSelf(uid) || isAdmin();
 
+        // role se deriva del perfil; el cliente no puede auto-promocionarse a supervisor.
         allow create, update: if isSelf(uid)
-
           && belongsToSanatorio(sanatorioId)
-
           && request.resource.data.uid == request.auth.uid
-
           && request.resource.data.sanatorioId == sanatorioId
-
           && request.resource.data.expoPushToken is string
-
-          && request.resource.data.role in ['user', 'supervisor'];
+          && request.resource.data.role == userProfile().role
+          && request.resource.data.role in ['user', 'supervisor', 'admin'];
 
         allow delete: if isSelf(uid) || isAdmin();
-
       }
 
       match /feeds/{kind}/items/{itemId} {
@@ -280,78 +209,60 @@ service cloud.firestore {
 
         allow delete: if isSupervisorOf(sanatorioId) || isAdmin();
       }
-
     }
 
-
-
     match /apps/sanidapp/usuarios/{uid} {
-
       allow read: if isSelf(uid) || isAdmin();
 
-      // Alta: role/premium institucionales solo vía Cloud Functions (padrón / token / IAP).
-      allow create: if isSelf(uid) && clientCreatableRole() && clientCreatableTier();
+      allow create: if isSelf(uid) && clientSafeNewProfile()
+        && request.resource.data.uid == request.auth.uid;
 
       allow update: if isAdmin()
         || (isSelf(uid) && roleUnchanged() && premiumFieldsUnchanged() && sanatorioLinkUnchanged());
 
       allow delete: if isAdmin();
 
-      // Invitaciones a salas (solo lectura/aceptar-descartar propias; escribe CF).
       match /meetingInvites/{inviteId} {
         allow read: if isSelf(uid);
         allow create, delete: if false;
+        // Solo status (+ timestamps de cliente no sensibles).
         allow update: if isSelf(uid)
+          && request.resource.data.diff(resource.data).affectedKeys()
+            .hasOnly(['status', 'updatedAt', 'respondedAt'])
           && request.resource.data.fromUid == resource.data.fromUid
           && request.resource.data.joinCode == resource.data.joinCode
           && request.resource.data.status in ['pending', 'accepted', 'dismissed'];
       }
     }
 
-    // Índice ID público → uid (solo Cloud Functions).
     match /apps/sanidapp/publicIds/{publicId} {
       allow read, write: if false;
     }
 
-
-
+    // Admins: solo Admin SDK / Cloud Functions. Nunca create desde el cliente.
     match /apps/sanidapp/config/admins {
-
       allow read: if isSignedIn() && (
-
         !exists(/databases/$(database)/documents/apps/sanidapp/config/admins)
-
         || isAdmin()
-
       );
-
-      allow create: if isSignedIn()
-
-        && !exists(/databases/$(database)/documents/apps/sanidapp/config/admins)
-
-        && request.resource.data.uids is list
-
-        && request.auth.uid in request.resource.data.uids;
-
-      allow update: if isAdmin();
-
+      allow create, update, delete: if false;
     }
 
-    // Contador público de usuarios (login). Solo Cloud Functions escribe.
     match /apps/sanidapp/config/publicStats {
       allow read: if true;
       allow write: if false;
     }
 
     match /apps/sanidapp/purchases/{uid} {
-
       allow read: if isSelf(uid) || isAdmin();
-
       allow write: if false;
-
     }
 
-    // Cursos/congresos free (admin publica; docentes aprobados también).
+    // Índice purchaseToken → uid (anti reuso de IAP entre cuentas). Solo CF.
+    match /apps/sanidapp/purchaseTokens/{tokenHash} {
+      allow read, write: if false;
+    }
+
     match /apps/sanidapp/feeds/{kind}/items/{itemId} {
       allow read: if isSignedIn() && kind in ['cursos', 'congresos'];
 
@@ -371,7 +282,6 @@ service cloud.firestore {
         || (canPublishGlobalFeeds() && resource.data.authorUid == request.auth.uid);
     }
 
-    // Solicitudes de alta docente.
     match /apps/sanidapp/docenteApplications/{applicationId} {
       allow read: if isSignedIn() && (
         isAdmin() || resource.data.uid == request.auth.uid
@@ -379,7 +289,6 @@ service cloud.firestore {
       allow write: if false;
     }
 
-    // Inscripciones a cursos/congresos (cobro en app).
     match /apps/sanidapp/feedInscriptions/{inscriptionId} {
       allow read: if isSignedIn() && (
         isAdmin() || resource.data.uid == request.auth.uid
@@ -387,12 +296,15 @@ service cloud.firestore {
       allow write: if false;
     }
 
-    // Tokens push globales (cursos/congresos y usuarios free).
     match /apps/sanidapp/pushTokens/{uid} {
       allow read: if isSelf(uid) || isAdmin();
       allow create, update: if isSelf(uid)
         && request.resource.data.uid == request.auth.uid
-        && request.resource.data.expoPushToken is string;
+        && request.resource.data.expoPushToken is string
+        && (
+          !request.resource.data.keys().hasAny(['role'])
+          || request.resource.data.role == userProfile().role
+        );
       allow delete: if isSelf(uid) || isAdmin();
     }
 
@@ -410,19 +322,22 @@ service cloud.firestore {
       allow write: if false;
     }
 
+    // Solo host o participantes; el joinCode se obtiene por CF / invitaciones.
     match /apps/sanidapp/meetingRooms/{roomId} {
-      allow read: if isSignedIn();
+      allow read: if isSignedIn() && (
+        isAdmin()
+        || resource.data.hostUid == request.auth.uid
+        || (
+          resource.data.keys().hasAny(['participantUids'])
+          && resource.data.participantUids is list
+          && request.auth.uid in resource.data.participantUids
+        )
+      );
       allow write: if false;
     }
 
     match /{document=**} {
-
       allow read, write: if false;
-
     }
-
   }
-
 }
-
-

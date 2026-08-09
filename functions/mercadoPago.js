@@ -1,6 +1,7 @@
 const { onCall, onRequest, HttpsError } = require('firebase-functions/v2/https');
 const { defineString } = require('firebase-functions/params');
 const { FieldValue } = require('firebase-admin/firestore');
+const crypto = require('crypto');
 const { recordFeedInscriptionFromPayment } = require('./feedInscriptionMp');
 
 const MP_API = 'https://api.mercadopago.com';
@@ -189,8 +190,69 @@ function buildPreferenceBody({
 }
 
 const MP_SECRET_OPTS = {
-  secrets: ['MERCADO_PAGO_ACCESS_TOKEN_TEST', 'MERCADO_PAGO_ACCESS_TOKEN_LIVE'],
+  secrets: [
+    'MERCADO_PAGO_ACCESS_TOKEN_TEST',
+    'MERCADO_PAGO_ACCESS_TOKEN_LIVE',
+    'MERCADO_PAGO_WEBHOOK_SECRET',
+  ],
 };
+
+function headerValue(req, name) {
+  const raw = req.get?.(name) ?? req.headers?.[name] ?? req.headers?.[name.toLowerCase()];
+  if (Array.isArray(raw)) return String(raw[0] ?? '');
+  return String(raw ?? '');
+}
+
+/**
+ * Valida x-signature de webhooks MP (HMAC-SHA256).
+ * Manifest: id:{data.id};request-id:{x-request-id};ts:{ts};
+ */
+function assertValidMercadoPagoWebhookSignature(req, dataId) {
+  const secret = String(process.env.MERCADO_PAGO_WEBHOOK_SECRET || '').trim();
+  const xSignature = headerValue(req, 'x-signature');
+  const xRequestId = headerValue(req, 'x-request-id');
+
+  if (!secret) {
+    if (isLiveMercadoPagoMode()) {
+      throw new Error('MERCADO_PAGO_WEBHOOK_SECRET requerido en modo live');
+    }
+    console.warn('MP webhook: secret ausente — se omite firma solo en modo test');
+    return;
+  }
+
+  if (!xSignature || !xRequestId || !dataId) {
+    throw new Error('MP webhook: faltan headers de firma');
+  }
+
+  const parts = Object.fromEntries(
+    xSignature.split(',').map((part) => {
+      const [key, ...rest] = part.trim().split('=');
+      return [key, rest.join('=')];
+    }),
+  );
+  const ts = parts.ts;
+  const hash = parts.v1;
+  if (!ts || !hash) {
+    throw new Error('MP webhook: x-signature incompleta');
+  }
+
+  const dataIdNorm = String(dataId).toLowerCase();
+  const manifest = `id:${dataIdNorm};request-id:${xRequestId};ts:${ts};`;
+  const expected = crypto.createHmac('sha256', secret).update(manifest).digest('hex');
+
+  const a = Buffer.from(hash, 'utf8');
+  const b = Buffer.from(expected, 'utf8');
+  if (a.length !== b.length || !crypto.timingSafeEqual(a, b)) {
+    throw new Error('MP webhook: firma inválida');
+  }
+}
+
+function amountsMatch(paid, expected) {
+  const a = Number(paid);
+  const b = Number(expected);
+  if (!Number.isFinite(a) || !Number.isFinite(b)) return false;
+  return Math.abs(a - b) <= 0.51;
+}
 
 function createMercadoPagoCheckoutHandler(getDb) {
   return onCall(MP_SECRET_OPTS, async (request) => {
@@ -291,8 +353,8 @@ async function grantPremiumFromPayment(getDb, payment) {
     : '';
   const uid = String(metadataUid || uidFromRef || '').trim();
 
-  if (!uid) {
-    console.warn('MP payment without uid', payment?.id);
+  if (!uid || !/^[A-Za-z0-9_-]{6,128}$/.test(uid)) {
+    console.warn('MP payment without valid uid', payment?.id);
     return;
   }
 
@@ -302,19 +364,44 @@ async function grantPremiumFromPayment(getDb, payment) {
 
   const db = getDb();
   const preferenceId = String(payment.preference_id ?? '').trim();
-  if (preferenceId) {
-    const checkoutSnap = await db.doc(`apps/sanidapp/mp_checkouts/${preferenceId}`).get();
-    if (!checkoutSnap.exists) {
-      console.warn('MP premium payment without local checkout', payment?.id, preferenceId);
-      return;
-    }
-    const checkout = checkoutSnap.data() ?? {};
-    if (checkout.uid && checkout.uid !== uid) {
-      console.warn('MP premium uid mismatch', payment?.id, checkout.uid, uid);
-      return;
-    }
-  } else if (!external.startsWith('sanidapp_premium:')) {
-    console.warn('MP premium payment missing preference and reference', payment?.id);
+  if (!preferenceId) {
+    console.warn('MP premium payment missing preference_id', payment?.id);
+    return;
+  }
+
+  const checkoutSnap = await db.doc(`apps/sanidapp/mp_checkouts/${preferenceId}`).get();
+  if (!checkoutSnap.exists) {
+    console.warn('MP premium payment without local checkout', payment?.id, preferenceId);
+    return;
+  }
+  const checkout = checkoutSnap.data() ?? {};
+  if (checkout.uid && checkout.uid !== uid) {
+    console.warn('MP premium uid mismatch', payment?.id, checkout.uid, uid);
+    return;
+  }
+  if (checkout.status === 'approved') {
+    return;
+  }
+  if (!amountsMatch(payment.transaction_amount, checkout.unitPrice)) {
+    console.warn(
+      'MP premium amount mismatch',
+      payment?.id,
+      payment.transaction_amount,
+      checkout.unitPrice,
+    );
+    return;
+  }
+  if (
+    checkout.currency &&
+    payment.currency_id &&
+    String(checkout.currency) !== String(payment.currency_id)
+  ) {
+    console.warn(
+      'MP premium currency mismatch',
+      payment?.id,
+      payment.currency_id,
+      checkout.currency,
+    );
     return;
   }
 
@@ -339,21 +426,20 @@ async function grantPremiumFromPayment(getDb, payment) {
       transactionAmount: payment.transaction_amount ?? null,
       currencyId: payment.currency_id ?? null,
       externalReference: external,
+      preferenceId,
       verifiedAt: FieldValue.serverTimestamp(),
     },
     { merge: true },
   );
 
-  if (preferenceId) {
-    await db.doc(`apps/sanidapp/mp_checkouts/${preferenceId}`).set(
-      {
-        status: 'approved',
-        paymentId: String(payment.id ?? ''),
-        paidAt: FieldValue.serverTimestamp(),
-      },
-      { merge: true },
-    );
-  }
+  await db.doc(`apps/sanidapp/mp_checkouts/${preferenceId}`).set(
+    {
+      status: 'approved',
+      paymentId: String(payment.id ?? ''),
+      paidAt: FieldValue.serverTimestamp(),
+    },
+    { merge: true },
+  );
 }
 
 function createMercadoPagoWebhookHandler(getDb) {
@@ -369,6 +455,14 @@ function createMercadoPagoWebhookHandler(getDb) {
 
       if (String(type) !== 'payment' || !dataId) {
         res.status(200).json({ ok: true, ignored: true });
+        return;
+      }
+
+      try {
+        assertValidMercadoPagoWebhookSignature(req, dataId);
+      } catch (sigError) {
+        console.warn('MP webhook rejected', sigError?.message ?? sigError);
+        res.status(401).json({ ok: false, error: 'invalid_signature' });
         return;
       }
 

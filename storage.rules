@@ -60,11 +60,18 @@ service firebase.storage {
         && request.resource.size < 3 * 1024 * 1024;
     }
 
-    // Grabaciones efímeras de salas (subidas por LiveKit Egress / admin).
-    // El host descarga a su celular; lectura autenticada limitada al path.
+    // Grabaciones: solo el host de la sala (Firestore) puede leer.
     match /sanidapp/meeting-recordings/{roomId}/{fileName} {
-      allow read: if isSignedIn();
+      allow read: if isSignedIn()
+        && firestore.exists(/databases/(default)/documents/apps/sanidapp/meetingRooms/$(roomId))
+        && firestore.get(/databases/(default)/documents/apps/sanidapp/meetingRooms/$(roomId)).data.hostUid
+          == request.auth.uid;
       allow write: if false;
+    }
+
+    // Default deny.
+    match /{allPaths=**} {
+      allow read, write: if false;
     }
   }
 }

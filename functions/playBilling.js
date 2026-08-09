@@ -1,3 +1,4 @@
+const crypto = require('crypto');
 const { onCall, HttpsError } = require('firebase-functions/v2/https');
 const { FieldValue } = require('firebase-admin/firestore');
 
@@ -51,6 +52,10 @@ function parseMillis(value) {
   if (typeof value === 'number' && Number.isFinite(value)) return value;
   const parsed = Date.parse(String(value));
   return Number.isFinite(parsed) ? parsed : null;
+}
+
+function hashPurchaseToken(purchaseToken) {
+  return crypto.createHash('sha256').update(String(purchaseToken), 'utf8').digest('hex');
 }
 
 /**
@@ -129,6 +134,20 @@ async function verifyAndroidSubscriptionPurchase(productId, purchaseToken) {
     throw new HttpsError('failed-precondition', 'La suscripción no está activa o ya venció.');
   }
 
+  // Acknowledge best-effort (idempotent).
+  try {
+    if (String(data.acknowledgementState ?? '') !== 'ACKNOWLEDGEMENT_STATE_ACKNOWLEDGED') {
+      await androidPublisher.purchases.subscriptions.acknowledge({
+        packageName: ANDROID_PACKAGE_NAME,
+        subscriptionId: resolvedProductId,
+        token: purchaseToken,
+        requestBody: {},
+      });
+    }
+  } catch (ackError) {
+    console.warn('Play acknowledge failed (non-fatal)', ackError?.message ?? ackError);
+  }
+
   return {
     productId: resolvedProductId,
     orderId: matchingItem.latestSuccessfulOrderId ?? null,
@@ -166,6 +185,10 @@ function createVerifyPlayPurchaseHandler(getDb) {
       throw new HttpsError('invalid-argument', 'Producto no autorizado.');
     }
 
+    if (purchaseToken.length < 20 || purchaseToken.length > 4096) {
+      throw new HttpsError('invalid-argument', 'purchaseToken inválido.');
+    }
+
     const uid = request.auth.uid;
     const db = getDb();
     const userRef = db.doc(`apps/sanidapp/usuarios/${uid}`);
@@ -177,31 +200,61 @@ function createVerifyPlayPurchaseHandler(getDb) {
 
     const purchaseData = await verifyAndroidSubscriptionPurchase(productId, purchaseToken);
     const payload = buildPremiumPayload();
-
-    await userRef.set(payload, { merge: true });
-
+    const tokenHash = hashPurchaseToken(purchaseToken);
+    const tokenRef = db.doc(`apps/sanidapp/purchaseTokens/${tokenHash}`);
     const userData = userSnap.data() ?? {};
-    if (userData.sanatorioId) {
-      await db
-        .doc(`apps/sanidapp/sanatorios/${userData.sanatorioId}/usuarios/${uid}`)
-        .set(payload, { merge: true });
-    }
 
-    await db.doc(`apps/sanidapp/purchases/${uid}`).set(
-      {
-        uid,
-        productId: purchaseData.productId,
-        purchaseToken,
-        platform: 'android',
-        orderId: purchaseData.orderId,
-        expiryTimeMillis: purchaseData.expiryTimeMillis,
-        purchaseTimeMillis: purchaseData.purchaseTimeMillis,
-        subscriptionState: purchaseData.subscriptionState,
-        acknowledgementState: purchaseData.acknowledgementState,
-        verifiedAt: FieldValue.serverTimestamp(),
-      },
-      { merge: true },
-    );
+    await db.runTransaction(async (tx) => {
+      const tokenSnap = await tx.get(tokenRef);
+      if (tokenSnap.exists) {
+        const ownerUid = String(tokenSnap.data()?.uid ?? '');
+        if (ownerUid && ownerUid !== uid) {
+          throw new HttpsError(
+            'already-exists',
+            'Esta compra de Google Play ya está vinculada a otra cuenta.',
+          );
+        }
+      }
+
+      tx.set(userRef, payload, { merge: true });
+
+      if (userData.sanatorioId) {
+        tx.set(
+          db.doc(`apps/sanidapp/sanatorios/${userData.sanatorioId}/usuarios/${uid}`),
+          payload,
+          { merge: true },
+        );
+      }
+
+      tx.set(
+        db.doc(`apps/sanidapp/purchases/${uid}`),
+        {
+          uid,
+          productId: purchaseData.productId,
+          purchaseTokenHash: tokenHash,
+          platform: 'android',
+          orderId: purchaseData.orderId,
+          expiryTimeMillis: purchaseData.expiryTimeMillis,
+          purchaseTimeMillis: purchaseData.purchaseTimeMillis,
+          subscriptionState: purchaseData.subscriptionState,
+          acknowledgementState: purchaseData.acknowledgementState,
+          verifiedAt: FieldValue.serverTimestamp(),
+        },
+        { merge: true },
+      );
+
+      tx.set(
+        tokenRef,
+        {
+          uid,
+          productId: purchaseData.productId,
+          orderId: purchaseData.orderId,
+          platform: 'android',
+          linkedAt: FieldValue.serverTimestamp(),
+        },
+        { merge: true },
+      );
+    });
 
     return {
       accessTier: 'premium',

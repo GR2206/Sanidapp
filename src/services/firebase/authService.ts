@@ -12,7 +12,7 @@ import {
   resolveAccessTierForRole,
   subscriptionFromFirestore,
 } from '@/services/subscription/subscriptionService';
-import { getFirestoreDb, getFirebaseAuth } from '@/services/firebase/firebaseApp';
+import { getFirestoreDb, getFirebaseAuth, getFirebaseFunctions } from '@/services/firebase/firebaseApp';
 import {
   clearCachedUserProfile,
   readCachedUserProfile,
@@ -157,22 +157,17 @@ async function ensureBootstrapAdminRegistry(uid: string): Promise<void> {
     return;
   }
 
-  const db = getFirestoreDb();
-  if (!db) {
+  const functions = getFirebaseFunctions();
+  if (!functions) {
     return;
   }
 
-  const ref = doc(db, ...FIRESTORE_PATHS.configAdmins());
-
   try {
-    const snap = await getDoc(ref);
-    if (snap.exists()) {
-      return;
-    }
-
-    await setDoc(ref, { uids: [uid] });
+    const { httpsCallable } = await import('firebase/functions');
+    const bootstrap = httpsCallable(functions, 'bootstrapFirstAdmin');
+    await bootstrap({});
   } catch (error) {
-    console.warn('No se pudo registrar el admin bootstrap en Firestore:', error);
+    console.warn('No se pudo registrar el admin bootstrap vía Cloud Function:', error);
   }
 }
 

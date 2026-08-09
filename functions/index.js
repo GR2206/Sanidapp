@@ -5,6 +5,7 @@ const {
   mpFetch,
   MP_SECRET_OPTS,
 } = require('./mercadoPago');
+const { createBootstrapFirstAdminHandler } = require('./bootstrapAdmin');
 const { createFeedInscriptionCheckoutHandler } = require('./feedInscriptionMp');
 const { createConfirmExternalFeedInscriptionHandler } = require('./feedInscriptionExternal');
 const { recordFeedInscriptionFromStripeSession } = require('./feedInscriptionStripe');
@@ -388,6 +389,7 @@ exports.syncAllowlistPremium = onCall(async (request) => {
 });
 
 exports.verifyPlayPurchase = createVerifyPlayPurchaseHandler(getDb);
+exports.bootstrapFirstAdmin = createBootstrapFirstAdminHandler(getDb);
 exports.createMercadoPagoCheckout = createMercadoPagoCheckoutHandler(getDb);
 /** Checkout cursos: MP (ARS) + Stripe Connect (EUR/USD). */
 const FEED_CHECKOUT_SECRET_OPTS = {

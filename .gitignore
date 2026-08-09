@@ -36,6 +36,9 @@ yarn-error.*
 *-firebase-adminsdk-*.json
 service-account*.json
 service-account.sanidapp.json
+sanidapp-*-*.json
+**/sanidapp-b67d7-*.json
+.firebase/
 
 # editor / agent / caches
 .claude/
