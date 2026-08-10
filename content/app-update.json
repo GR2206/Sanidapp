@@ -1,10 +1,11 @@
 {
-  "latestVersion": "1.2.6",
+  "latestVersion": "1.2.7",
   "minVersion": "1.0.0",
   "forceUpdate": false,
+  "updatedAt": "2026-08-10T14:30:00Z",
   "message": {
-    "es": "Hay una nueva versión de Sanidapp con correcciones de estabilidad y mejoras de pagos Premium.",
-    "en": "A new Sanidapp version is available with stability fixes and Premium payment improvements.",
-    "pt-BR": "Há uma nova versão do Sanidapp com correções de estabilidade e melhorias no pagamento Premium."
+    "es": "Hay una nueva versión de Sanidapp que corrige el cierre al abrir la app. Actualizá desde Play Store.",
+    "en": "A new Sanidapp version fixes the crash on launch. Please update from the Play Store.",
+    "pt-BR": "Há uma nova versão do Sanidapp que corrige o fechamento ao abrir o app. Atualize pela Play Store."
   }
 }
