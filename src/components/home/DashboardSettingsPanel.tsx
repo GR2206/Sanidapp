@@ -4,15 +4,15 @@ import Constants from 'expo-constants';
 import * as ImagePicker from 'expo-image-picker';
 import { DrawerActions } from '@react-navigation/native';
 import { useNavigation } from 'expo-router';
-import { type ReactNode, type RefObject, useEffect, useState } from 'react';
-import { Alert, Pressable, Share, StyleSheet, View, type ScrollView } from 'react-native';
+import { type ReactNode, type RefObject, useEffect, useState, lazy, Suspense } from 'react';
+import { ActivityIndicator, Alert, Pressable, Share, StyleSheet, View, type ScrollView } from 'react-native';
 
 import { InstitutionTokenRedeemForm } from '@/components/subscription/InstitutionTokenRedeemForm';
-import { PremiumIapPurchaseSection } from '@/components/subscription/PremiumIapPurchaseSection';
 import { LegalDisclaimer } from '@/components/legal/LegalDisclaimer';
 import { LanguagePicker } from '@/components/ui/LanguagePicker';
 import { Typography } from '@/components/ui/Typography';
 import { UserAvatar } from '@/components/ui/UserAvatar';
+import { SoftErrorBoundary } from '@/components/ui/SoftErrorBoundary';
 import { useAuth } from '@/contexts/AuthContext';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useSoundPreferences } from '@/contexts/SoundPreferencesContext';
@@ -36,6 +36,12 @@ import { hapticLight, hapticToggle } from '@/utils/haptics';
 import { hexToRgba } from '@/utils/color';
 
 const isExpoGo = Constants.appOwnership === 'expo';
+
+const PremiumIapPurchaseSection = lazy(() =>
+  import('@/components/subscription/PremiumIapPurchaseSection').then((mod) => ({
+    default: mod.PremiumIapPurchaseSection,
+  })),
+);
 
 function SettingsGroup({
   title,
@@ -377,7 +383,11 @@ export function DashboardSettingsPanel({
               />
             ) : null}
             {!isPremium && !hasInstitution ? (
-              <PremiumIapPurchaseSection accentColor={colors.accent} />
+              <SoftErrorBoundary>
+                <Suspense fallback={<ActivityIndicator color={colors.accent} />}>
+                  <PremiumIapPurchaseSection accentColor={colors.accent} />
+                </Suspense>
+              </SoftErrorBoundary>
             ) : null}
             {isPremium && hasInstitution && !isPersonalPremium ? (
               <Typography variant="caption" style={{ color: colors.textMuted }}>

@@ -22,6 +22,12 @@ export const APP_CONFIG = {
   appUpdate: {
     /** Ruta bajo `content/` en GitHub (raw). */
     remotePath: 'app-update.json',
+    /**
+     * Gist sin SHA fijado (siempre la última versión).
+     * Preferido sobre GitHub para publicar el cartel sin redeploy.
+     */
+    gistRawUrl:
+      'https://gist.githubusercontent.com/GR2206/9f93d73f6e68678b00712d24f412bcce/raw/app-update.json',
   },
   github: {
     owner: 'GR2206',
@@ -30,11 +36,11 @@ export const APP_CONFIG = {
     contentRoot: 'content',
   },
   /**
-   * Banners del inicio. Dejar `gistRawUrl` vacío hasta publicar el gist.
-   * Formato: https://gist.githubusercontent.com/GR2206/9f93d73f6e68678b00712d24f412bcce/raw/7e29e227cd8ea8ec074d463316a2445ea4603c86/banners-sanidapp.json
+   * Banners del inicio. URL sin SHA para que los cambios del gist apliquen al instante.
    */
   banners: {
-    gistRawUrl: 'https://gist.githubusercontent.com/GR2206/9f93d73f6e68678b00712d24f412bcce/raw/7e29e227cd8ea8ec074d463316a2445ea4603c86/banners-sanidapp.json',
+    gistRawUrl:
+      'https://gist.githubusercontent.com/GR2206/9f93d73f6e68678b00712d24f412bcce/raw/banners-sanidapp.json',
   },
   /**
    * Fondo del home solo para versión free (sin sanatorio).

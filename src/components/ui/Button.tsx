@@ -56,12 +56,15 @@ export function Button({
         toneStyle,
         pressed && styles.pressed,
         disabled && styles.disabled,
-        typeof style === 'function' ? style({ pressed, hovered: false }) : style,
+        typeof style === 'function' ? style({ pressed }) : style,
       ]}
       {...rest}>
       <View style={styles.content}>
         {leading ? <View style={styles.leading}>{leading}</View> : null}
-        <Typography variant="bodyMedium" color={labelColor} style={styles.label}>
+        <Typography
+          variant="bodyMedium"
+          color={labelColor}
+          style={[styles.label, leading ? styles.labelWithLeading : null]}>
           {label}
         </Typography>
       </View>
@@ -80,11 +83,11 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 8,
   },
   leading: {
     alignItems: 'center',
     justifyContent: 'center',
+    marginRight: 8,
   },
   pressed: {
     opacity: 0.92,
@@ -94,5 +97,8 @@ const styles = StyleSheet.create({
   },
   label: {
     letterSpacing: 0.4,
+  },
+  labelWithLeading: {
+    flexShrink: 1,
   },
 });

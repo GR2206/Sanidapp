@@ -1,14 +1,14 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Constants from 'expo-constants';
-import { Linking, Platform } from 'react-native';
+import { InteractionManager, Linking, Platform } from 'react-native';
 
 import bundledAppUpdate from '../../../content/app-update.json';
-import { APP_CONFIG } from '@/constants/config';
+import { APP_CONFIG, getGitHubRawUrl } from '@/constants/config';
 import type { AppLocale } from '@/i18n/types';
-import { fetchGitHubJson } from '@/services/github/githubClient';
 import { isVersionOlder } from '@/utils/compareVersions';
 
 const DISMISSED_VERSION_KEY = '@sanidapp/appUpdate.dismissedLatestVersion';
+const REMOTE_TIMEOUT_MS = 5000;
 
 export type AppUpdateConfig = {
   latestVersion: string;
@@ -51,13 +51,49 @@ function pickMessage(config: AppUpdateConfig, locale: AppLocale): string | null 
   return (message[locale] ?? message.es ?? message.en ?? message['pt-BR'] ?? '').trim() || null;
 }
 
-async function loadRemoteOrBundledConfig(): Promise<AppUpdateConfig> {
+function withCacheBust(url: string): string {
+  const sep = url.includes('?') ? '&' : '?';
+  return `${url}${sep}t=${Date.now()}`;
+}
+
+async function fetchJsonWithTimeout<T>(url: string): Promise<T> {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REMOTE_TIMEOUT_MS);
   try {
-    const remote = asConfig(await fetchGitHubJson<AppUpdateConfig>(APP_CONFIG.appUpdate.remotePath));
-    if (remote) return remote;
-  } catch {
-    // offline / gist lento → empaquetado
+    const response = await fetch(withCacheBust(url), {
+      headers: { Accept: 'application/json', 'Cache-Control': 'no-cache' },
+      signal: controller.signal,
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    return (await response.json()) as T;
+  } finally {
+    clearTimeout(timeout);
   }
+}
+
+async function loadRemoteOrBundledConfig(): Promise<AppUpdateConfig> {
+  const gistUrl = APP_CONFIG.appUpdate.gistRawUrl?.trim();
+  if (gistUrl) {
+    try {
+      const fromGist = asConfig(await fetchJsonWithTimeout<AppUpdateConfig>(gistUrl));
+      if (fromGist) return fromGist;
+    } catch {
+      // seguir con GitHub
+    }
+  }
+
+  try {
+    const githubUrl = getGitHubRawUrl(
+      `${APP_CONFIG.github.contentRoot}/${APP_CONFIG.appUpdate.remotePath}`,
+    );
+    const fromGithub = asConfig(await fetchJsonWithTimeout<AppUpdateConfig>(githubUrl));
+    if (fromGithub) return fromGithub;
+  } catch {
+    // offline → empaquetado
+  }
+
   const bundled = asConfig(bundledAppUpdate);
   if (!bundled) {
     throw new Error('app-update.json inválido');
@@ -70,6 +106,11 @@ export async function resolveAppUpdatePrompt(locale: AppLocale): Promise<AppUpda
   if (Constants.appOwnership === 'expo') {
     return null;
   }
+
+  // Esperar a que termine la transición inicial evita pelear con splash/nav.
+  await new Promise<void>((resolve) => {
+    InteractionManager.runAfterInteractions(() => resolve());
+  });
 
   const config = await loadRemoteOrBundledConfig();
   const currentVersion = getInstalledAppVersion();

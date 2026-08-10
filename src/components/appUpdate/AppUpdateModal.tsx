@@ -2,8 +2,10 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useCallback, useEffect, useState } from 'react';
 import { Modal, Platform, Pressable, StyleSheet, View } from 'react-native';
 
+import { SoftErrorBoundary } from '@/components/ui/SoftErrorBoundary';
 import { Button } from '@/components/ui/Button';
 import { Typography } from '@/components/ui/Typography';
+import { useAuth } from '@/contexts/AuthContext';
 import { useLocale } from '@/contexts/LocaleContext';
 import { useAppTheme } from '@/hooks/useAppTheme';
 import {
@@ -15,13 +17,16 @@ import {
 import { radius, spacing } from '@/theme/spacing';
 import { hapticLight } from '@/utils/haptics';
 
-export function AppUpdateModal() {
+function AppUpdateModalInner() {
   const { colors } = useAppTheme();
   const { t, locale } = useLocale();
+  const { isReady } = useAuth();
   const [prompt, setPrompt] = useState<AppUpdatePrompt | null>(null);
   const [opening, setOpening] = useState(false);
 
   useEffect(() => {
+    if (!isReady) return;
+
     let cancelled = false;
     void resolveAppUpdatePrompt(locale)
       .then((next) => {
@@ -33,7 +38,7 @@ export function AppUpdateModal() {
     return () => {
       cancelled = true;
     };
-  }, [locale]);
+  }, [isReady, locale]);
 
   const onUpdate = useCallback(async () => {
     setOpening(true);
@@ -121,6 +126,14 @@ export function AppUpdateModal() {
   );
 }
 
+export function AppUpdateModal() {
+  return (
+    <SoftErrorBoundary>
+      <AppUpdateModalInner />
+    </SoftErrorBoundary>
+  );
+}
+
 const styles = StyleSheet.create({
   backdrop: {
     flex: 1,
@@ -135,7 +148,7 @@ const styles = StyleSheet.create({
     borderRadius: radius.lg,
     borderWidth: 1,
     padding: spacing.lg,
-    gap: spacing.md,
+    rowGap: spacing.md,
   },
   iconWrap: {
     alignSelf: 'center',
