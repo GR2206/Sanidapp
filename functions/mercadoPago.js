@@ -189,12 +189,9 @@ function buildPreferenceBody({
   };
 }
 
+/** Tokens de API (checkout, webhook y llamadas MP). */
 const MP_SECRET_OPTS = {
-  secrets: [
-    'MERCADO_PAGO_ACCESS_TOKEN_TEST',
-    'MERCADO_PAGO_ACCESS_TOKEN_LIVE',
-    'MERCADO_PAGO_WEBHOOK_SECRET',
-  ],
+  secrets: ['MERCADO_PAGO_ACCESS_TOKEN_TEST', 'MERCADO_PAGO_ACCESS_TOKEN_LIVE'],
 };
 
 function headerValue(req, name) {

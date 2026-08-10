@@ -2,8 +2,12 @@ const { onCall, onRequest, HttpsError } = require('firebase-functions/v2/https')
 const { FieldValue } = require('firebase-admin/firestore');
 const Stripe = require('stripe');
 
+/**
+ * Stripe keys via .env / runtime env (no Secret Manager binding required to deploy).
+ * Cuando existan en Secret Manager, se pueden volver a declarar aquí.
+ */
 const STRIPE_SECRET_OPTS = {
-  secrets: ['STRIPE_SECRET_KEY', 'STRIPE_WEBHOOK_SECRET'],
+  secrets: [],
 };
 
 const PUBLIC_BASE =

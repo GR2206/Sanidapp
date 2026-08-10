@@ -393,11 +393,7 @@ exports.bootstrapFirstAdmin = createBootstrapFirstAdminHandler(getDb);
 exports.createMercadoPagoCheckout = createMercadoPagoCheckoutHandler(getDb);
 /** Checkout cursos: MP (ARS) + Stripe Connect (EUR/USD). */
 const FEED_CHECKOUT_SECRET_OPTS = {
-  secrets: [
-    'MERCADO_PAGO_ACCESS_TOKEN_TEST',
-    'MERCADO_PAGO_ACCESS_TOKEN_LIVE',
-    'STRIPE_SECRET_KEY',
-  ],
+  secrets: ['MERCADO_PAGO_ACCESS_TOKEN_TEST', 'MERCADO_PAGO_ACCESS_TOKEN_LIVE'],
 };
 exports.createFeedInscriptionCheckout = createFeedInscriptionCheckoutHandler(
   getDb,
