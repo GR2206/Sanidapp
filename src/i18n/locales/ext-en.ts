@@ -288,6 +288,7 @@ export const extEn = {
       mercadopago: 'Mercado Pago payment',
       admin: 'Administrator access',
       docente: 'Approved teacher',
+      tester_lifetime: 'Tester (lifetime premium)',
     },
     freePlanSummary:
       'Full adult · 2 pathologies · 1 pediatric and 1 neonatal protocol · 3 drugs',

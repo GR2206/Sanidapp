@@ -10,7 +10,8 @@ export function normalizePremiumSource(value: unknown): PremiumSource {
     source === 'iap' ||
     source === 'mercadopago' ||
     source === 'admin' ||
-    source === 'docente'
+    source === 'docente' ||
+    source === 'tester_lifetime'
   ) {
     return source;
   }
@@ -63,6 +64,15 @@ export function buildAllowlistPremiumGrant(): UserSubscriptionFields {
     accessTier: 'premium',
     institutionToken: '',
     premiumSource: 'allowlist',
+    premiumGrantedAt: new Date().toISOString(),
+  };
+}
+
+export function buildTesterLifetimePremiumGrant(): UserSubscriptionFields {
+  return {
+    accessTier: 'premium',
+    institutionToken: '',
+    premiumSource: 'tester_lifetime',
     premiumGrantedAt: new Date().toISOString(),
   };
 }

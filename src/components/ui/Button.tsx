@@ -1,9 +1,10 @@
-import { Pressable, StyleSheet, type PressableProps } from 'react-native';
+import type { ReactNode } from 'react';
+import { Pressable, StyleSheet, View, type PressableProps } from 'react-native';
 
 import { Typography } from '@/components/ui/Typography';
 import { useTextScale } from '@/contexts/TextScaleContext';
 import { useAppTheme } from '@/hooks/useAppTheme';
-import { radius, spacing } from '@/theme/spacing';
+import { radius } from '@/theme/spacing';
 import { contrastingInk } from '@/utils/color';
 import { hapticLight } from '@/utils/haptics';
 
@@ -14,12 +15,15 @@ interface ButtonProps extends PressableProps {
   variant?: ButtonVariant;
   /** Color de fondo/borde (por defecto palette.accent). */
   accentColor?: string;
+  /** Ícono / marca a la izquierda del texto (mismo botón). */
+  leading?: ReactNode;
 }
 
 export function Button({
   label,
   variant = 'primary',
   accentColor,
+  leading,
   style,
   disabled,
   onPressIn,
@@ -55,9 +59,12 @@ export function Button({
         typeof style === 'function' ? style({ pressed, hovered: false }) : style,
       ]}
       {...rest}>
-      <Typography variant="bodyMedium" color={labelColor} style={styles.label}>
-        {label}
-      </Typography>
+      <View style={styles.content}>
+        {leading ? <View style={styles.leading}>{leading}</View> : null}
+        <Typography variant="bodyMedium" color={labelColor} style={styles.label}>
+          {label}
+        </Typography>
+      </View>
     </Pressable>
   );
 }
@@ -68,6 +75,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
+  },
+  content: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+  },
+  leading: {
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   pressed: {
     opacity: 0.92,

@@ -233,7 +233,7 @@ async function maybeUpgradeAdminRole(profile: UserProfile): Promise<UserProfile>
 }
 
 async function maybeSyncAllowlistPremium(profile: UserProfile): Promise<UserProfile> {
-  if (profile.accessTier === 'premium' || !profile.sanatorioId) {
+  if (profile.accessTier === 'premium') {
     return profile;
   }
 

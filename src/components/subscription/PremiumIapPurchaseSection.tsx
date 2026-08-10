@@ -1,6 +1,8 @@
 import { useCallback, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 
+import { GooglePlayMark } from '@/components/subscription/GooglePlayMark';
+import { MercadoPagoMark } from '@/components/subscription/MercadoPagoMark';
 import { Button } from '@/components/ui/Button';
 import { Typography } from '@/components/ui/Typography';
 import { useAuth } from '@/contexts/AuthContext';
@@ -97,6 +99,7 @@ export function PremiumIapPurchaseSection({ accentColor }: PremiumIapPurchaseSec
       <View style={styles.purchaseActions}>
         <Button
           label={googleLabel}
+          leading={!purchasing ? <GooglePlayMark size={22} /> : null}
           onPress={() => void handleGooglePlay()}
           accentColor={resolvedAccent}
           disabled={purchasing || mpLoading}
@@ -104,6 +107,7 @@ export function PremiumIapPurchaseSection({ accentColor }: PremiumIapPurchaseSec
         />
         <Button
           label={mpLabel}
+          leading={!mpLoading ? <MercadoPagoMark size={24} /> : null}
           onPress={() => void handleMercadoPago()}
           accentColor="#009EE3"
           disabled={purchasing || mpLoading}

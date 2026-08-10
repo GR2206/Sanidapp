@@ -268,6 +268,56 @@ async function applyPremiumPayload(db, uid, sanatorioId, payload) {
   }
 }
 
+function testerLifetimeDocId(email) {
+  return String(email || '')
+    .trim()
+    .toLowerCase()
+    .replace(/@/g, '_at_')
+    .replace(/\./g, '_dot_');
+}
+
+async function claimTesterLifetimeIfPending(db, uid, userData, authEmail) {
+  const email = String(authEmail || userData.email || '')
+    .trim()
+    .toLowerCase();
+  if (!email) return null;
+
+  const pendingRef = db.doc(`apps/sanidapp/tester_lifetime/${testerLifetimeDocId(email)}`);
+  const pendingSnap = await pendingRef.get();
+  if (!pendingSnap.exists) return null;
+
+  const pending = pendingSnap.data() ?? {};
+  if (pending.claimed === true) return null;
+
+  const sanatorioId = String(userData.sanatorioId ?? '').trim();
+  const payload = {
+    accessTier: 'premium',
+    premiumSource: 'tester_lifetime',
+    premiumForever: true,
+    premiumGrantedAt: userData.premiumGrantedAt || new Date().toISOString(),
+    institutionToken: userData.institutionToken || '',
+    updatedAt: FieldValue.serverTimestamp(),
+  };
+
+  await applyPremiumPayload(db, uid, sanatorioId || null, payload);
+  await pendingRef.set(
+    {
+      claimed: true,
+      claimedUid: uid,
+      claimedAt: FieldValue.serverTimestamp(),
+      email,
+    },
+    { merge: true },
+  );
+
+  return {
+    synced: true,
+    accessTier: 'premium',
+    premiumSource: 'tester_lifetime',
+    role: userData.role ?? 'user',
+  };
+}
+
 exports.syncAllowlistPremium = onCall(async (request) => {
   if (!request.auth) {
     throw new HttpsError('unauthenticated', 'Tenés que iniciar sesión.');
@@ -286,6 +336,7 @@ exports.syncAllowlistPremium = onCall(async (request) => {
   const sanatorioId = String(userData.sanatorioId ?? '').trim();
   const nombre = String(userData.nombre ?? '').trim();
   const apellido = String(userData.apellido ?? '').trim();
+  const authEmail = String(request.auth.token?.email || userData.email || '').trim();
 
   if (await isConfiguredAdmin(db, uid, userData.role)) {
     if (userData.role !== 'admin' || userData.accessTier !== 'premium') {
@@ -302,6 +353,13 @@ exports.syncAllowlistPremium = onCall(async (request) => {
       premiumSource: userData.premiumSource || 'admin',
       role: 'admin',
     };
+  }
+
+  if (userData.accessTier !== 'premium') {
+    const claimed = await claimTesterLifetimeIfPending(db, uid, userData, authEmail);
+    if (claimed) {
+      return claimed;
+    }
   }
 
   if (!sanatorioId || !nombre || !apellido) {
@@ -393,7 +451,11 @@ exports.bootstrapFirstAdmin = createBootstrapFirstAdminHandler(getDb);
 exports.createMercadoPagoCheckout = createMercadoPagoCheckoutHandler(getDb);
 /** Checkout cursos: MP (ARS) + Stripe Connect (EUR/USD). */
 const FEED_CHECKOUT_SECRET_OPTS = {
-  secrets: ['MERCADO_PAGO_ACCESS_TOKEN_TEST', 'MERCADO_PAGO_ACCESS_TOKEN_LIVE'],
+  secrets: [
+    'MERCADO_PAGO_ACCESS_TOKEN_TEST',
+    'MERCADO_PAGO_ACCESS_TOKEN_LIVE',
+    'MERCADO_PAGO_WEBHOOK_SECRET',
+  ],
 };
 exports.createFeedInscriptionCheckout = createFeedInscriptionCheckoutHandler(
   getDb,

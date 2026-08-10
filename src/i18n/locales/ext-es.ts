@@ -288,6 +288,7 @@ export const extEs = {
       mercadopago: 'Pago Mercado Pago',
       admin: 'Acceso administrador',
       docente: 'Docente aprobado',
+      tester_lifetime: 'Tester (premium de por vida)',
     },
     freePlanSummary: 'Adulto completo · 2 patologías · 1 protocolo pediátrico y 1 neonatal · 3 fármacos',
     premiumActive: 'Ya tenés acceso premium.',

@@ -1,10 +1,10 @@
 {
-  "latestVersion": "1.2.4",
+  "latestVersion": "1.2.5",
   "minVersion": "1.0.0",
   "forceUpdate": false,
   "message": {
-    "es": "Hay una nueva versión de Sanidapp con mejoras y contenido clínico actualizado.",
-    "en": "A new Sanidapp version is available with improvements and updated clinical content.",
-    "pt-BR": "Há uma nova versão do Sanidapp com melhorias e conteúdo clínico atualizado."
+    "es": "Hay una nueva versión de Sanidapp con mejoras de pagos Premium (Google Play y Mercado Pago) y contenido clínico actualizado.",
+    "en": "A new Sanidapp version is available with Premium payment improvements (Google Play and Mercado Pago) and updated clinical content.",
+    "pt-BR": "Há uma nova versão do Sanidapp com melhorias no pagamento Premium (Google Play e Mercado Pago) e conteúdo clínico atualizado."
   }
 }

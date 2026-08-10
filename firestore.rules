@@ -69,6 +69,7 @@ service cloud.firestore {
           'accessTier',
           'premiumSource',
           'premiumGrantedAt',
+          'premiumForever',
           'institutionToken',
           'canPublishFeeds',
         ]);
@@ -306,6 +307,11 @@ service cloud.firestore {
           || request.resource.data.role == userProfile().role
         );
       allow delete: if isSelf(uid) || isAdmin();
+    }
+
+    // Pendientes de premium forever (solo Admin SDK / Cloud Functions).
+    match /apps/sanidapp/tester_lifetime/{emailId} {
+      allow read, write: if false;
     }
 
     match /apps/sanidapp/mp_checkouts/{preferenceId} {

@@ -7,7 +7,8 @@ export type PremiumSource =
   | 'iap'
   | 'mercadopago'
   | 'admin'
-  | 'docente';
+  | 'docente'
+  | 'tester_lifetime';
 
 export interface UserSubscriptionFields {
   accessTier: AccessTier;

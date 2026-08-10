@@ -3,6 +3,7 @@ import { i18nError } from '@/i18n/resolveMessage';
 import {
   buildAllowlistPremiumGrant,
   buildInstitutionTokenPremiumGrant,
+  buildTesterLifetimePremiumGrant,
   mergeSubscriptionIntoProfile,
 } from '@/services/subscription/subscriptionService';
 import type { UserProfile } from '@/types/auth';
@@ -37,7 +38,7 @@ export async function syncAllowlistPremiumForUser(
   profile: UserProfile,
 ): Promise<UserProfile> {
   // Nunca pisar admin (lista config/admins o rol ya elevado).
-  if (profile.role === 'admin' || profile.accessTier === 'premium' || !profile.sanatorioId) {
+  if (profile.role === 'admin' || profile.accessTier === 'premium') {
     return profile;
   }
 
@@ -59,8 +60,13 @@ export async function syncAllowlistPremiumForUser(
       ? result.role
       : profile.role;
 
+  const grant =
+    result.premiumSource === 'tester_lifetime'
+      ? buildTesterLifetimePremiumGrant()
+      : buildAllowlistPremiumGrant();
+
   return {
-    ...mergeSubscriptionIntoProfile(profile, buildAllowlistPremiumGrant()),
+    ...mergeSubscriptionIntoProfile(profile, grant),
     role: nextRole,
   };
 }

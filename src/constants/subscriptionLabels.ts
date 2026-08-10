@@ -14,4 +14,5 @@ export const PREMIUM_SOURCE_LABEL_KEYS: Record<Exclude<PremiumSource, ''>, strin
   mercadopago: 'subscription.source.mercadopago',
   admin: 'subscription.source.admin',
   docente: 'subscription.source.docente',
+  tester_lifetime: 'subscription.source.tester_lifetime',
 };

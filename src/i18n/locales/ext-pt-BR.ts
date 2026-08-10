@@ -289,6 +289,7 @@ export const extPtBR = {
       mercadopago: 'Pagamento Mercado Pago',
       admin: 'Acesso de administrador',
       docente: 'Docente aprovado',
+      tester_lifetime: 'Tester (premium vitalício)',
     },
     freePlanSummary:
       'Adulto completo · 2 patologias · 1 protocolo pediátrico e 1 neonatal · 3 fármacos',
