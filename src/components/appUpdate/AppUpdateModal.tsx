@@ -76,7 +76,7 @@ function AppUpdateModalInner() {
         <View
           style={[
             styles.card,
-            { backgroundColor: colors.surface, borderColor: colors.borderStrong },
+            { backgroundColor: colors.backgroundSoft, borderColor: colors.borderStrong },
           ]}>
           <View style={[styles.iconWrap, { backgroundColor: colors.backgroundSoft }]}>
             <MaterialCommunityIcons name="cellphone-arrow-down" size={28} color={colors.button} />

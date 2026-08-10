@@ -56,7 +56,7 @@ export function Button({
         toneStyle,
         pressed && styles.pressed,
         disabled && styles.disabled,
-        typeof style === 'function' ? style({ pressed }) : style,
+        typeof style === 'function' ? style({ pressed, hovered: false }) : style,
       ]}
       {...rest}>
       <View style={styles.content}>
